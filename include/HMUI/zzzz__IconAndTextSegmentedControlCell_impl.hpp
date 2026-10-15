@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::IconAndTextSegmentedControlCell::*)(::UnityEngine::Sprite*)>(&::HMUI::IconAndTextSegmentedControlCell::set_sprite)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6371a78;
+  constexpr static std::size_t addrs = 0x63ae648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::HMUI::IconAndTextSegmentedControlCell::*)()>(&::HMUI::IconAndTextSegmentedControlCell::get_sprite)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6372030;
+  constexpr static std::size_t addrs = 0x63aec00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::IconAndTextSegmentedControlCell*>(), { "get_sprite", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::IconAndTextSegmentedControlCell::*)(::StringW)>(&::HMUI::IconAndTextSegmentedControlCell::set_text)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6371a90;
+  constexpr static std::size_t addrs = 0x63ae660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::HMUI::IconAndTextSegmentedControlCell::*)()>(&::HMUI::IconAndTextSegmentedControlCell::get_text)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6372048;
+  constexpr static std::size_t addrs = 0x63aec18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::IconAndTextSegmentedControlCell*>(), { "get_text", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::IconAndTextSegmentedControlCell::*)(bool)>(&::HMUI::IconAndTextSegmentedControlCell::SetTextActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6371db4;
+  constexpr static std::size_t addrs = 0x63ae984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::IconAndTextSegmentedControlCell::*)()>(&::HMUI::IconAndTextSegmentedControlCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6372068;
+  constexpr static std::size_t addrs = 0x63aec38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::IconAndTextSegmentedControlCell*>(), { ".ctor", {}, {} })));

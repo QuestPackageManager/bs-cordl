@@ -31,13 +31,13 @@ namespace Unity::Mathematics::Geometry {
 class CORDL_TYPE Math : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Transform, addr 0x6a4e800, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method Transform, addr 0x6a8b47c, size 0x2d4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::RigidTransform transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
-  /// @brief Method Transform, addr 0x6a4ec78, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Transform, addr 0x6a8b8f4, size 0x18c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::float3x3 transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
-  /// @brief Method Transform, addr 0x6a4ead4, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Transform, addr 0x6a8b750, size 0x1a4, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::Geometry::MinMaxAABB Transform(::Unity::Mathematics::float4x4 transform, ::Unity::Mathematics::Geometry::MinMaxAABB aabb);
 
 protected:
@@ -55,7 +55,7 @@ public:
   Math(Math const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13464 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

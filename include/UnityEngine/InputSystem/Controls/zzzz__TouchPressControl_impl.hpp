@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::TouchPressControl::*)()>(&::UnityEngine::InputSystem::Controls::TouchPressControl::FinishSetup)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6925f9c;
+  constexpr static std::size_t addrs = 0x6962c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::TouchPressControl*>(),
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Controls::TouchPressControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::TouchPressControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x692609c;
+  constexpr static std::size_t addrs = 0x6962d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::TouchPressControl*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::TouchPressControl::*)(float_t, void*)>(
     &::UnityEngine::InputSystem::Controls::TouchPressControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x692633c;
+  constexpr static std::size_t addrs = 0x6962fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::TouchPressControl*>(),
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::TouchPressControl::*)()>(&::UnityEngine::InputSystem::Controls::TouchPressControl::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6926374;
+  constexpr static std::size_t addrs = 0x6962ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::TouchPressControl*>(), { ".ctor", {}, {} })));

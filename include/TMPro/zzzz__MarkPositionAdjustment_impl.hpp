@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::MarkPositionAdjustment::*)()>(&::TMPro::MarkPositionAdjustment::get_xPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d4f570;
+  constexpr static std::size_t addrs = 0x6d8c20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkPositionAdjustment>(), { "get_xPositionAdjustment", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MarkPositionAdjustment::*)(float_t)>(&::TMPro::MarkPositionAdjustment::set_xPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d4f578;
+  constexpr static std::size_t addrs = 0x6d8c214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::MarkPositionAdjustment::*)()>(&::TMPro::MarkPositionAdjustment::get_yPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d4f580;
+  constexpr static std::size_t addrs = 0x6d8c21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkPositionAdjustment>(), { "get_yPositionAdjustment", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MarkPositionAdjustment::*)(float_t)>(&::TMPro::MarkPositionAdjustment::set_yPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d4f588;
+  constexpr static std::size_t addrs = 0x6d8c224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MarkPositionAdjustment::*)(float_t, float_t)>(&::TMPro::MarkPositionAdjustment::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d4f590;
+  constexpr static std::size_t addrs = 0x6d8c22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

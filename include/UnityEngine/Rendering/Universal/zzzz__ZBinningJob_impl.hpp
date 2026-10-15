@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::UnityEngine::Rendering::Universal::ZBinningJob::EncodeHeader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cfee08;
+  constexpr static std::size_t addrs = 0x6d3ba84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<uint32_t, uint32_t> (*)(uint32_t)>(&::UnityEngine::Rendering::Universal::ZBinningJob::DecodeHeader)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6cfee10;
+  constexpr static std::size_t addrs = 0x6d3ba8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ZBinningJob::*)(int32_t)>(&::UnityEngine::Rendering::Universal::ZBinningJob::Execute)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6cfee5c;
+  constexpr static std::size_t addrs = 0x6d3bad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ZBinningJob::*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::Rendering::Universal::ZBinningJob::FillZBins)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x6cfef70;
+  constexpr static std::size_t addrs = 0x6d3bbec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

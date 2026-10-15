@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EventInterestAttribute::*)(::ArrayW<::System::Type*>)>(
     &::UnityEngine::UIElements::EventInterestAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7155b64;
+  constexpr static std::size_t addrs = 0x7192a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EventInterestAttribute::*)(::UnityEngine::UIElements::EventInterestOptions)>(
     &::UnityEngine::UIElements::EventInterestAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7155b70;
+  constexpr static std::size_t addrs = 0x7192aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventInterestAttribute*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::EventInterestAttribute::*)(::UnityEngine::UIElements::EventInterestOptionsInternal)>(
     &::UnityEngine::UIElements::EventInterestAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7155b78;
+  constexpr static std::size_t addrs = 0x7192aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::EventInterestAttribute*>(),

@@ -36,33 +36,33 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsRsaSigner : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsSigner {
 public:
   // Declarations
-  /// @brief Method CreateRsaImpl, addr 0x3714d7c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method CreateRsaImpl, addr 0x37376e0, size 0x88, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* CreateRsaImpl();
 
-  /// @brief Method CreateSigner, addr 0x3714654, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method CreateSigner, addr 0x3736fb8, size 0x118, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ISigner* CreateSigner(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method CreateVerifyer, addr 0x371476c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method CreateVerifyer, addr 0x37370d0, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ISigner* CreateVerifyer(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method GenerateRawSignature, addr 0x37142e4, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method GenerateRawSignature, addr 0x3736c48, size 0x210, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GenerateRawSignature(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                 ::ArrayW<uint8_t> hash);
 
-  /// @brief Method IsValidPublicKey, addr 0x3714788, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method IsValidPublicKey, addr 0x37370ec, size 0x88, virtual true, abstract: false, final false
   inline bool IsValidPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method MakeSigner, addr 0x3714810, size 0x2b8, virtual true, abstract: false, final false
+  /// @brief Method MakeSigner, addr 0x3737174, size 0x2b8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ISigner* MakeSigner(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, bool raw, bool forSigning,
                                                           ::Org::BouncyCastle::Crypto::ICipherParameters* cp);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsRsaSigner* New_ctor();
 
-  /// @brief Method VerifyRawSignature, addr 0x37144f4, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method VerifyRawSignature, addr 0x3736e58, size 0x160, virtual true, abstract: false, final false
   inline bool VerifyRawSignature(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::ArrayW<uint8_t> sigBytes, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey,
                                  ::ArrayW<uint8_t> hash);
 
-  /// @brief Method .ctor, addr 0x370cae0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372f444, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

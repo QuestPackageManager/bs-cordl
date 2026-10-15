@@ -93,54 +93,54 @@ public:
 
   __declspec(property(get = get_textInfo)) ::UnityEngine::TextCore::Text::TextInfo* textInfo;
 
-  /// @brief Method ATagOnPointerMove, addr 0x712f1d4, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method ATagOnPointerMove, addr 0x716c108, size 0x2dc, virtual false, abstract: false, final false
   inline void ATagOnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* pme);
 
-  /// @brief Method ATagOnPointerOut, addr 0x712f4b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ATagOnPointerOut, addr 0x716c3e4, size 0x8, virtual false, abstract: false, final false
   inline void ATagOnPointerOut(::UnityEngine::UIElements::PointerOutEvent* evt);
 
-  /// @brief Method ATagOnPointerOver, addr 0x712f1cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ATagOnPointerOver, addr 0x716c100, size 0x8, virtual false, abstract: false, final false
   inline void ATagOnPointerOver(::UnityEngine::UIElements::PointerOverEvent* _);
 
-  /// @brief Method ATagOnPointerUp, addr 0x712eff4, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method ATagOnPointerUp, addr 0x716bf28, size 0x1d8, virtual false, abstract: false, final false
   inline void ATagOnPointerUp(::UnityEngine::UIElements::PointerUpEvent* pue);
 
-  /// @brief Method AllocateATagCallbacks, addr 0x712ee80, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AllocateATagCallbacks, addr 0x716bdb4, size 0x174, virtual false, abstract: false, final false
   inline void AllocateATagCallbacks();
 
-  /// @brief Method AllocateLinkCallbacks, addr 0x712ed0c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AllocateLinkCallbacks, addr 0x716bc40, size 0x174, virtual false, abstract: false, final false
   inline void AllocateLinkCallbacks();
 
-  /// @brief Method HandleATag, addr 0x7120650, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method HandleATag, addr 0x715d584, size 0xf8, virtual false, abstract: false, final false
   inline void HandleATag();
 
-  /// @brief Method HandleLinkAndATagCallbacks, addr 0x7120840, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method HandleLinkAndATagCallbacks, addr 0x715d774, size 0x3fc, virtual false, abstract: false, final false
   inline void HandleLinkAndATagCallbacks();
 
-  /// @brief Method HandleLinkTag, addr 0x7120748, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method HandleLinkTag, addr 0x715d67c, size 0xf8, virtual false, abstract: false, final false
   inline void HandleLinkTag();
 
-  /// @brief Method HasAllocatedATagCallbacks, addr 0x712ecfc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasAllocatedATagCallbacks, addr 0x716bc30, size 0x10, virtual false, abstract: false, final false
   inline bool HasAllocatedATagCallbacks();
 
-  /// @brief Method HasAllocatedLinkCallbacks, addr 0x712ecec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasAllocatedLinkCallbacks, addr 0x716bc20, size 0x10, virtual false, abstract: false, final false
   inline bool HasAllocatedLinkCallbacks();
 
-  /// @brief Method LinkTagOnPointerDown, addr 0x712f4b8, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method LinkTagOnPointerDown, addr 0x716c3ec, size 0x2d0, virtual false, abstract: false, final false
   inline void LinkTagOnPointerDown(::UnityEngine::UIElements::PointerDownEvent* pde);
 
-  /// @brief Method LinkTagOnPointerMove, addr 0x712fa58, size 0x568, virtual false, abstract: false, final false
+  /// @brief Method LinkTagOnPointerMove, addr 0x716c98c, size 0x568, virtual false, abstract: false, final false
   inline void LinkTagOnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* pme);
 
-  /// @brief Method LinkTagOnPointerOut, addr 0x712ffc0, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method LinkTagOnPointerOut, addr 0x716cef4, size 0x4cc, virtual false, abstract: false, final false
   inline void LinkTagOnPointerOut(::UnityEngine::UIElements::PointerOutEvent* poe);
 
-  /// @brief Method LinkTagOnPointerUp, addr 0x712f788, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method LinkTagOnPointerUp, addr 0x716c6bc, size 0x2d0, virtual false, abstract: false, final false
   inline void LinkTagOnPointerUp(::UnityEngine::UIElements::PointerUpEvent* pue);
 
   static inline ::UnityEngine::UIElements::TextEventHandler* New_ctor(::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method OnDestroy, addr 0x7121844, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x715e778, size 0x188, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr int32_t const& __cordl_internal_get_currentLinkIDHash() const;
@@ -221,10 +221,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TextElement(::UnityEngine::UIElements::TextElement* value);
 
-  /// @brief Method .ctor, addr 0x71201d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x715d108, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method get_textInfo, addr 0x712ecc8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_textInfo, addr 0x716bbfc, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* get_textInfo();
 
 protected:

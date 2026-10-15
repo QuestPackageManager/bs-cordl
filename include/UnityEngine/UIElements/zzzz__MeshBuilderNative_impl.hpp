@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams>)>(
     &::UnityEngine::UIElements::MeshBuilderNative::MakeBorder)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x7269e88;
+  constexpr static std::size_t addrs = 0x72a6dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>)>(
     &::UnityEngine::UIElements::MeshBuilderNative::MakeSolidRect)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x7269f34;
+  constexpr static std::size_t addrs = 0x72a6e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>)>(
     &::UnityEngine::UIElements::MeshBuilderNative::MakeTexturedRect)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x7269fe0;
+  constexpr static std::size_t addrs = 0x72a6f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::ArrayW<::UnityEngine::UIElements::Vertex>, ::ArrayW<uint16_t>, float_t, float_t, ::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::ScaleMode, ::UnityEngine::Color,
     ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x726a08c;
+  constexpr static std::size_t addrs = 0x72a6fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::ArrayW<::UnityEngine::UIElements::Vertex>, ::ArrayW<uint16_t>, float_t, float_t, ::UnityEngine::Rect, ::UnityEngine::Vector4, ::UnityEngine::Color,
     ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x726a2d4;
+  constexpr static std::size_t addrs = 0x72a7208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams>,
                                                                 ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeBorder_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7269ef0;
+  constexpr static std::size_t addrs = 0x72a6e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>, ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
     &::UnityEngine::UIElements::MeshBuilderNative::MakeSolidRect_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7269f9c;
+  constexpr static std::size_t addrs = 0x72a6ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>, ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
     &::UnityEngine::UIElements::MeshBuilderNative::MakeTexturedRect_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x726a048;
+  constexpr static std::size_t addrs = 0x72a6f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::MeshBuilderNative*>(),
@@ -268,7 +268,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::by_ref<::UnityEngine::Rect const>, ::UnityEngine::ScaleMode, ::by_ref<::UnityEngine::Color const>, ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage const>,
     ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground_Injected)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x726a230;
+  constexpr static std::size_t addrs = 0x72a7164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::by_ref<::UnityEngine::Vector4 const>, ::by_ref<::UnityEngine::Color const>, ::by_ref<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage const>,
                          ::by_ref<::UnityEngine::UIElements::MeshWriteDataInterface>)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground_Injected)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x726a46c;
+  constexpr static std::size_t addrs = 0x72a73a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

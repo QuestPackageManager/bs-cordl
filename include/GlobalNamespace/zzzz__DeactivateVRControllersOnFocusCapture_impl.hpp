@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateVRControllersOnFocusCapture::get_loggerPrefix)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5c6a21c;
+  constexpr static std::size_t addrs = 0x5ca1e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(&::GlobalNamespace::DeactivateVRControllersOnFocusCapture::Start)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x5c6a260;
+  constexpr static std::size_t addrs = 0x5ca1e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(), { "Start", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)(::GlobalNamespace::XRSystemEventType)>(
     &::GlobalNamespace::DeactivateVRControllersOnFocusCapture::HandleSystemStateChange)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5c6a760;
+  constexpr static std::size_t addrs = 0x5ca2384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(),
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(&::GlobalNamespace::DeactivateVRControllersOnFocusCapture::OnDestroy)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5c6a770;
+  constexpr static std::size_t addrs = 0x5ca2394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(), { "OnDestroy", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(&::GlobalNamespace::DeactivateVRControllersOnFocusCapture::LateUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c6a8ac;
+  constexpr static std::size_t addrs = 0x5ca24d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(), { "LateUpdate", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateVRControllersOnFocusCapture::UpdateVRControllerActiveState)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x5c6a4b4;
+  constexpr static std::size_t addrs = 0x5ca20d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(&::GlobalNamespace::DeactivateVRControllersOnFocusCapture::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c6a8b0;
+  constexpr static std::size_t addrs = 0x5ca24d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>(), { ".ctor", {}, {} })));
@@ -109,18 +109,6 @@ constexpr ::ArrayW<::UnityW<::GlobalNamespace::VRController>> const& GlobalNames
 constexpr void GlobalNamespace::DeactivateVRControllersOnFocusCapture::__cordl_internal_set__vrControllers(::ArrayW<::UnityW<::GlobalNamespace::VRController>> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vrControllers = value;
-}
-constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>>& GlobalNamespace::DeactivateVRControllersOnFocusCapture::__cordl_internal_get__vrControllerGameObjects() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____vrControllerGameObjects;
-}
-constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>> const& GlobalNamespace::DeactivateVRControllersOnFocusCapture::__cordl_internal_get__vrControllerGameObjects() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____vrControllerGameObjects;
-}
-constexpr void GlobalNamespace::DeactivateVRControllersOnFocusCapture::__cordl_internal_set__vrControllerGameObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____vrControllerGameObjects = value;
 }
 constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::DeactivateVRControllersOnFocusCapture::__cordl_internal_get__vrPlatformHelper() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -145,6 +133,18 @@ constexpr ::GlobalNamespace::IXRSystemState* const& GlobalNamespace::DeactivateV
 constexpr void GlobalNamespace::DeactivateVRControllersOnFocusCapture::__cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xrSystemState = value;
+}
+constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>>& GlobalNamespace::DeactivateVRControllersOnFocusCapture::__cordl_internal_get__vrControllerGameObjects() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____vrControllerGameObjects;
+}
+constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>> const& GlobalNamespace::DeactivateVRControllersOnFocusCapture::__cordl_internal_get__vrControllerGameObjects() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____vrControllerGameObjects;
+}
+constexpr void GlobalNamespace::DeactivateVRControllersOnFocusCapture::__cordl_internal_set__vrControllerGameObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____vrControllerGameObjects = value;
 }
 inline ::StringW GlobalNamespace::DeactivateVRControllersOnFocusCapture::get_loggerPrefix() {
   static auto* ___internal_method =

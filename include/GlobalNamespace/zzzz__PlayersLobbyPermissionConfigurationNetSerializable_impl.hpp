@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* (
     ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)()>(&::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::get_playersPermission)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a0a9a4;
+  constexpr static std::size_t addrs = 0x3a34d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* (*)()>(
     &::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Obtain)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3a0a9ac;
+  constexpr static std::size_t addrs = 0x3a34d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Player
     ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*)>(
     &::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Init)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3a0aa18;
+  constexpr static std::size_t addrs = 0x3a34d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)()>(
     &::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3a0aa94;
+  constexpr static std::size_t addrs = 0x3a34e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3a0ab38;
+  constexpr static std::size_t addrs = 0x3a34eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3a0ac84;
+  constexpr static std::size_t addrs = 0x3a34ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)()>(
     &::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Release)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3a0ae0c;
+  constexpr static std::size_t addrs = 0x3a35184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::*)()>(
     &::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable::Retain)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3a0af58;
+  constexpr static std::size_t addrs = 0x3a352d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>(),

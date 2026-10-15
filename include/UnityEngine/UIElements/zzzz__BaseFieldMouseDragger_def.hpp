@@ -28,13 +28,13 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::BaseFieldMouseDragger* New_ctor();
 
-  /// @brief Method SetDragZone, addr 0x7235e8c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetDragZone, addr 0x7272dc0, size 0x1c, virtual false, abstract: false, final false
   inline void SetDragZone(::UnityEngine::UIElements::VisualElement* dragElement);
 
   /// @brief Method SetDragZone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetDragZone(::UnityEngine::UIElements::VisualElement* dragElement, ::UnityEngine::Rect hotZone);
 
-  /// @brief Method .ctor, addr 0x7235ea8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7272ddc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

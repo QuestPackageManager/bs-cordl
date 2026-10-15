@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerceivedLoudnessPerLevelModel::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*)>(&::GlobalNamespace::PerceivedLoudnessPerLevelModel::_ctor)> {
   constexpr static std::size_t size = 0x5e8;
-  constexpr static std::size_t addrs = 0x34ecef0;
+  constexpr static std::size_t addrs = 0x350d84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PerceivedLoudnessPerLevelModel::*)(::StringW)>(
     &::GlobalNamespace::PerceivedLoudnessPerLevelModel::GetLoudnessCorrectionByLevelId)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x34ed4d8;
+  constexpr static std::size_t addrs = 0x350de34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PerceivedLoudnessPerLevelModel::*)(::StringW)>(
     &::GlobalNamespace::PerceivedLoudnessPerLevelModel::GetMaxSfxVolumeByLevelId)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x34ed57c;
+  constexpr static std::size_t addrs = 0x350ded8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PerceivedLoudnessPerLevelModel::*)(::StringW)>(
     &::GlobalNamespace::PerceivedLoudnessPerLevelModel::GetLoudnessByLevelId)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x34ed4fc;
+  constexpr static std::size_t addrs = 0x350de58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<float_t> (::GlobalNamespace::PerceivedLoudnessPerLevelModel::*)(::StringW)>(
     &::GlobalNamespace::PerceivedLoudnessPerLevelModel::GetLoudnessByLevelIdOrNull)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x34ed594;
+  constexpr static std::size_t addrs = 0x350def0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::Layout::LayoutCacheData::*)()>(&::UnityEngine::UIElements::Layout::LayoutCacheData::ToString)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x7198508;
+  constexpr static std::size_t addrs = 0x71d543c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::Layout::LayoutCacheData::*)()>(&::UnityEngine::UIElements::Layout::LayoutCacheData::MeasurementCacheCount)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x7198664;
+  constexpr static std::size_t addrs = 0x71d5598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Layout::LayoutCacheData::*)()>(&::UnityEngine::UIElements::Layout::LayoutCacheData::ClearCachedMeasurements)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x71978d8;
+  constexpr static std::size_t addrs = 0x71d480c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*)>(&::UnityEngine::UIElements::Layout::LayoutCacheData::ClearCachedMeasurements)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x71986f4;
+  constexpr static std::size_t addrs = 0x71d5628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

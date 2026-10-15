@@ -52,51 +52,51 @@ public:
 
   __declspec(property(get = get_radius, put = set_radius)) float_t radius;
 
-  /// @brief Method ScheduleBatch, addr 0x7003888, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ScheduleBatch, addr 0x704077c, size 0x1ac, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleBatch(::Unity::Collections::NativeArray_1<::UnityEngine::OverlapSphereCommand> commands,
                                                        ::Unity::Collections::NativeArray_1<::UnityEngine::ColliderHit> results, int32_t minCommandsPerJob, int32_t maxHits,
                                                        ::Unity::Jobs::JobHandle dependsOn);
 
   /// [FreeFunction("ScheduleOverlapSphereCommandBatch", ThrowsException = true)]
-  /// @brief Method ScheduleOverlapSphereBatch, addr 0x7003a34, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleOverlapSphereBatch, addr 0x7040928, size 0x9c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle ScheduleOverlapSphereBatch(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* commands, int32_t commandLen,
                                                                     void* result, int32_t resultLen, int32_t minCommandsPerJob, int32_t maxHits);
 
-  /// @brief Method ScheduleOverlapSphereBatch_Injected, addr 0x7003ad0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleOverlapSphereBatch_Injected, addr 0x70409c4, size 0x8c, virtual false, abstract: false, final false
   static inline void ScheduleOverlapSphereBatch_Injected(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* commands, int32_t commandLen, void* result,
                                                          int32_t resultLen, int32_t minCommandsPerJob, int32_t maxHits, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
-  /// @brief Method .ctor, addr 0x700383c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7040730, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 point, float_t radius, ::UnityEngine::QueryParameters queryParameters);
 
-  /// @brief Method .ctor, addr 0x70037a4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7040698, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 point, float_t radius, ::UnityEngine::QueryParameters queryParameters);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_physicsScene, addr 0x7003878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_physicsScene, addr 0x704076c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::PhysicsScene get_physicsScene();
 
   /// [CompilerGenerated]
   /// [IsReadOnly]
-  /// @brief Method get_point, addr 0x7003850, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x7040744, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_radius, addr 0x7003868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x704075c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_radius();
 
   /// [CompilerGenerated]
-  /// @brief Method set_physicsScene, addr 0x7003880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_physicsScene, addr 0x7040774, size 0x8, virtual false, abstract: false, final false
   inline void set_physicsScene(::UnityEngine::PhysicsScene value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_point, addr 0x700385c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_point, addr 0x7040750, size 0xc, virtual false, abstract: false, final false
   inline void set_point(::UnityEngine::Vector3 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_radius, addr 0x7003870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x7040764, size 0x8, virtual false, abstract: false, final false
   inline void set_radius(float_t value);
 
   // Ctor Parameters []
@@ -110,7 +110,7 @@ public:
                                  ::UnityEngine::QueryParameters queryParameters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19131 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

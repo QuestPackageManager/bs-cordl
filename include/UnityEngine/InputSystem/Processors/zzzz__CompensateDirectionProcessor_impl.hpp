@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor::*)(
     ::UnityEngine::Vector3, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor::Process)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x69ea3a8;
+  constexpr static std::size_t addrs = 0x6a27024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor::ToString)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69ea5bc;
+  constexpr static std::size_t addrs = 0x6a27238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor*>(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputProcessor_CachingPolicy (::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor::get_cachingPolicy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69ea600;
+  constexpr static std::size_t addrs = 0x6a2727c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor*>(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x69ea608;
+  constexpr static std::size_t addrs = 0x6a27284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

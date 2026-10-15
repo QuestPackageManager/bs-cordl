@@ -21,13 +21,13 @@ namespace UnityEngine::LowLevelPhysics2D {
 struct CORDL_TYPE PhysicsShapeDefinition {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6fda074, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7016f68, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6fd1870, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700e764, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(bool useSettings);
 
-  /// @brief Method get_defaultDefinition, addr 0x6fda0a4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_defaultDefinition, addr 0x7016f98, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsShapeDefinition get_defaultDefinition();
 
   // Ctor Parameters []
@@ -47,7 +47,7 @@ public:
                                    bool m_StartStaticContacts, bool m_StartMassUpdate, ::UnityEngine::LowLevelPhysics2D::PhysicsShape_MoverData moverData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21633 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };

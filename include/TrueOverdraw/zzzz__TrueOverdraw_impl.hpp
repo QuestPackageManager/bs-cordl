@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TrueOverdraw::TrueOverdraw::*)()>(&::TrueOverdraw::TrueOverdraw::get_renderersLength)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6359548;
+  constexpr static std::size_t addrs = 0x6396020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TrueOverdraw::TrueOverdraw*>(), { "get_renderersLength", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TrueOverdraw::TrueOverdraw_OverdrawType (::TrueOverdraw::TrueOverdraw::*)()>(&::TrueOverdraw::TrueOverdraw::get_overdrawType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6359560;
+  constexpr static std::size_t addrs = 0x6396038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TrueOverdraw::TrueOverdraw*>(), { "get_overdrawType", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TrueOverdraw::TrueOverdraw::*)(::TrueOverdraw::TrueOverdraw_OverdrawType)>(&::TrueOverdraw::TrueOverdraw::set_overdrawType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6359568;
+  constexpr static std::size_t addrs = 0x6396040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TrueOverdraw::TrueOverdraw::*)()>(&::TrueOverdraw::TrueOverdraw::get_hasStaleRenderers)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6359570;
+  constexpr static std::size_t addrs = 0x6396048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TrueOverdraw::TrueOverdraw*>(), { "get_hasStaleRenderers", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TrueOverdraw::TrueOverdraw::*)(::ArrayW<::UnityEngine::Renderer*>)>(&::TrueOverdraw::TrueOverdraw::_ctor)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x6359628;
+  constexpr static std::size_t addrs = 0x6396100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TrueOverdraw::TrueOverdraw::*)()>(&::TrueOverdraw::TrueOverdraw::Enable)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x63599e0;
+  constexpr static std::size_t addrs = 0x63964b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TrueOverdraw::TrueOverdraw*>(), { "Enable", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Renderer*, ::UnityEngine::Material*)>(&::TrueOverdraw::TrueOverdraw::ResolveRendererColor)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x6359db8;
+  constexpr static std::size_t addrs = 0x6396890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TrueOverdraw::TrueOverdraw::*)()>(&::TrueOverdraw::TrueOverdraw::Disable)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x635a12c;
+  constexpr static std::size_t addrs = 0x6396c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TrueOverdraw::TrueOverdraw*>(), { "Disable", {}, {} })));
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TrueOverdraw::TrueOverdraw::*)()>(&::TrueOverdraw::TrueOverdraw::Dispose)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x635a358;
+  constexpr static std::size_t addrs = 0x6396e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TrueOverdraw::TrueOverdraw*>(), { "Dispose", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TrueOverdraw::TrueOverdraw::*)()>(&::TrueOverdraw::TrueOverdraw::ShowEverything)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x635a43c;
+  constexpr static std::size_t addrs = 0x6396f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TrueOverdraw::TrueOverdraw*>(), { "ShowEverything", {}, {} })));
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TrueOverdraw::TrueOverdraw::*)()>(&::TrueOverdraw::TrueOverdraw::ShowOnlyTransparent)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x635a568;
+  constexpr static std::size_t addrs = 0x6397040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TrueOverdraw::TrueOverdraw*>(), { "ShowOnlyTransparent", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TrueOverdraw::TrueOverdraw::*)()>(&::TrueOverdraw::TrueOverdraw::ShowOnlyOpaque)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x635a5cc;
+  constexpr static std::size_t addrs = 0x63970a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TrueOverdraw::TrueOverdraw*>(), { "ShowOnlyOpaque", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t, float_t)>(&::TrueOverdraw::TrueOverdraw::SetGlobalFloats)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6359d0c;
+  constexpr static std::size_t addrs = 0x63967e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t)>(&::TrueOverdraw::TrueOverdraw::SetOverdrawValues)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x635a4a0;
+  constexpr static std::size_t addrs = 0x6396f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Color)>(&::TrueOverdraw::TrueOverdraw::SetMaterialValues)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x635a018;
+  constexpr static std::size_t addrs = 0x6396af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

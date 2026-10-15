@@ -6,7 +6,6 @@
 #include "GlobalNamespace/zzzz__DroneHover_def.hpp"
 #include "GlobalNamespace/zzzz__DroneHover_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/zzzz__Cloth_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DroneHover_SineLayer._ctor
@@ -14,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DroneHover_SineLayer::*)()>(&::GlobalNamespace::DroneHover_SineLayer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cc6af4;
+  constexpr static std::size_t addrs = 0x5cffabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DroneHover_SineLayer*>(), { ".ctor", {}, {} })));
@@ -59,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DroneHover::*)()>(&::GlobalNamespace::DroneHover::Start)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5cc64c8;
+  constexpr static std::size_t addrs = 0x5cff490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DroneHover*>(), { "Start", {}, {} })));
@@ -71,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DroneHover::*)()>(&::GlobalNamespace::DroneHover::Update)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5cc64f8;
+  constexpr static std::size_t addrs = 0x5cff4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DroneHover*>(), { "Update", {}, {} })));
@@ -83,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::DroneHover::*)(float_t)>(&::GlobalNamespace::DroneHover::GetNoiseVec3)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5cc664c;
+  constexpr static std::size_t addrs = 0x5cff614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DroneHover*>(), { "GetNoiseVec3", {}, { ::i2c::type_of<float_t>() } })));
@@ -95,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::DroneHover::*)(float_t, float_t)>(&::GlobalNamespace::DroneHover::GetNoise)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5cc69dc;
+  constexpr static std::size_t addrs = 0x5cff9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DroneHover::*)()>(&::GlobalNamespace::DroneHover::UpdateTiltTransform)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x5cc66cc;
+  constexpr static std::size_t addrs = 0x5cff694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DroneHover*>(), { "UpdateTiltTransform", {}, {} })));
@@ -120,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DroneHover::*)()>(&::GlobalNamespace::DroneHover::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5cc6adc;
+  constexpr static std::size_t addrs = 0x5cffaa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DroneHover*>(), { ".ctor", {}, {} })));
@@ -234,18 +233,6 @@ constexpr ::UnityEngine::Vector3 const& GlobalNamespace::DroneHover::__cordl_int
 constexpr void GlobalNamespace::DroneHover::__cordl_internal_set__startPos(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startPos = value;
-}
-constexpr ::UnityW<::UnityEngine::Cloth>& GlobalNamespace::DroneHover::__cordl_internal_get__cloth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cloth;
-}
-constexpr ::UnityW<::UnityEngine::Cloth> const& GlobalNamespace::DroneHover::__cordl_internal_get__cloth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cloth;
-}
-constexpr void GlobalNamespace::DroneHover::__cordl_internal_set__cloth(::UnityW<::UnityEngine::Cloth> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____cloth = value;
 }
 inline void GlobalNamespace::DroneHover::Start() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DroneHover*>(), { "Start", {}, {} })));

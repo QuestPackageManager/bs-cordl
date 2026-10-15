@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, int32_t, ::System::Collections::ArrayList*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x369e158;
+  constexpr static std::size_t addrs = 0x36c0abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, int32_t, ::System::Collections::IList*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x369e170;
+  constexpr static std::size_t addrs = 0x36c0ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::get_PhiN)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369e188;
+  constexpr static std::size_t addrs = 0x36c0aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::get_SmallPrimes)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x369e190;
+  constexpr static std::size_t addrs = 0x36c0af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::get_SmallPrimesList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x369e1f4;
+  constexpr static std::size_t addrs = 0x36c0b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

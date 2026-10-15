@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (
     &::BeatSaber::Main::GraphQL::Models::
         NodesModel_LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel__GetNestedFragments_d__5::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x352790c;
+  constexpr static std::size_t addrs = 0x354880c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (
         NodesModel_LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel__GetNestedFragments_d__5::
             System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3527930;
+  constexpr static std::size_t addrs = 0x3548830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (
     &::BeatSaber::Main::GraphQL::Models::
         NodesModel_LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel__GetNestedFragments_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3527934;
+  constexpr static std::size_t addrs = 0x3548834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::GraphQL:
         NodesModel_LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel__GetNestedFragments_d__5::
             System_Collections_Generic_IEnumerator_OculusStudios_GraphQL_Client_GraphQLModel__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3527980;
+  constexpr static std::size_t addrs = 0x3548880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (
         NodesModel_LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel__GetNestedFragments_d__5::
             System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3527988;
+  constexpr static std::size_t addrs = 0x3548888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (
         NodesModel_LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel__GetNestedFragments_d__5::
             System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35279c0;
+  constexpr static std::size_t addrs = 0x35488c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
         NodesModel_LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel__GetNestedFragments_d__5::
             System_Collections_Generic_IEnumerable_OculusStudios_GraphQL_Client_GraphQLModel__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x35279c8;
+  constexpr static std::size_t addrs = 0x35488c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,7 +192,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IE
         NodesModel_LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel__GetNestedFragments_d__5::
             System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3527a60;
+  constexpr static std::size_t addrs = 0x3548960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -464,7 +464,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (
     &::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_NodesModel::
         set_LeaderboardEntryWithRank)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35277bc;
+  constexpr static std::size_t addrs = 0x35486bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -485,7 +485,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQ
     &::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_NodesModel::
         get_LeaderboardEntryWithRank)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35277c4;
+  constexpr static std::size_t addrs = 0x35486c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -507,7 +507,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (
     &::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_NodesModel::
         CovertNestedFragments)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x35277cc;
+  constexpr static std::size_t addrs = 0x35486cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -528,7 +528,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     &::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_NodesModel::
         GetNestedFragments)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x352789c;
+  constexpr static std::size_t addrs = 0x354879c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -549,7 +549,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (
     &::BeatSaber::Main::GraphQL::Models::LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_NodesModel::
         _ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x352792c;
+  constexpr static std::size_t addrs = 0x354882c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -660,7 +660,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (
             LeaderboardEntriesForUserFriendsModel_BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_NodesModel*>*)>(
     &::BeatSaber::Main::GraphQL::Models::BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_LeaderboardEntriesForUserFriendsModel::set_Nodes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35277a8;
+  constexpr static std::size_t addrs = 0x35486a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -685,7 +685,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::BeatSaber::Main::GraphQL::Models::BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_LeaderboardEntriesForUserFriendsModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_LeaderboardEntriesForUserFriendsModel::get_Nodes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35277b0;
+  constexpr static std::size_t addrs = 0x35486b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -705,7 +705,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (
     ::BeatSaber::Main::GraphQL::Models::BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_LeaderboardEntriesForUserFriendsModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_LeaderboardEntriesForUserFriendsModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35277b8;
+  constexpr static std::size_t addrs = 0x35486b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -797,7 +797,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         ::BeatSaber::Main::GraphQL::Models::BeatmapModel_DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_LeaderboardEntriesForUserFriendsModel*)>(
         &::BeatSaber::Main::GraphQL::Models::DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_BeatmapModel::set_LeaderboardEntriesForUserFriends)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3527794;
+  constexpr static std::size_t addrs = 0x3548694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -820,7 +820,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         ::BeatSaber::Main::GraphQL::Models::DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_BeatmapModel::*)()>(
         &::BeatSaber::Main::GraphQL::Models::DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_BeatmapModel::get_LeaderboardEntriesForUserFriends)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x352779c;
+  constexpr static std::size_t addrs = 0x354869c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -837,7 +837,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::BeatSaber::Main::GraphQL::Models::DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_BeatmapModel::*)()>(
         &::BeatSaber::Main::GraphQL::Models::DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_BeatmapModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35277a4;
+  constexpr static std::size_t addrs = 0x35486a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -909,7 +909,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
     ::BeatSaber::Main::GraphQL::Models::DataEnvironmentModel_FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_BeatmapModel*)>(
     &::BeatSaber::Main::GraphQL::Models::FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_DataEnvironmentModel::set_Beatmap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3527780;
+  constexpr static std::size_t addrs = 0x3548680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -928,7 +928,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQ
     ::BeatSaber::Main::GraphQL::Models::FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_DataEnvironmentModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_DataEnvironmentModel::get_Beatmap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3527788;
+  constexpr static std::size_t addrs = 0x3548688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -943,7 +943,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_DataEnvironmentModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_DataEnvironmentModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3527790;
+  constexpr static std::size_t addrs = 0x3548690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1004,7 +1004,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
     ::BeatSaber::Main::GraphQL::Models::FetchXOCBeatGamesEnvironmentPlayerRootModel_BSLeaderboardFriendsModel_DataEnvironmentModel*)>(
     &::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel_FetchXOCBeatGamesEnvironmentPlayerRootModel::set_DataEnvironment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x352776c;
+  constexpr static std::size_t addrs = 0x354866c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1022,7 +1022,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQ
     ::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel_FetchXOCBeatGamesEnvironmentPlayerRootModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel_FetchXOCBeatGamesEnvironmentPlayerRootModel::get_DataEnvironment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3527774;
+  constexpr static std::size_t addrs = 0x3548674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1037,7 +1037,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel_FetchXOCBeatGamesEnvironmentPlayerRootModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel_FetchXOCBeatGamesEnvironmentPlayerRootModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x352777c;
+  constexpr static std::size_t addrs = 0x354867c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1094,7 +1094,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel::*)(::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel_FetchXOCBeatGamesEnvironmentPlayerRootModel*)>(
         &::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel::set_FetchXOCBeatGamesEnvironmentPlayerRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3527758;
+  constexpr static std::size_t addrs = 0x3548658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1111,7 +1111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel_FetchXOCBeatGamesEnvironmentPlayerRootModel* (
     ::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel::*)()>(&::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel::get_FetchXOCBeatGamesEnvironmentPlayerRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3527760;
+  constexpr static std::size_t addrs = 0x3548660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1125,7 +1125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel::*)()>(
     &::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3527768;
+  constexpr static std::size_t addrs = 0x3548668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Main::GraphQL::Models::BSLeaderboardFriendsModel*>(), { ".ctor", {}, {} })));

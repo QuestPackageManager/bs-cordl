@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TimeSpanParse_TimeSpanToken::*)(::System::Globalization::TimeSpanParse_TTT)>(
     &::System::Globalization::TimeSpanParse_TimeSpanToken::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5fdc9e0;
+  constexpr static std::size_t addrs = 0x60192c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TimeSpanParse_TimeSpanToken::*)(int32_t)>(&::System::Globalization::TimeSpanParse_TimeSpanToken::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5fda16c;
+  constexpr static std::size_t addrs = 0x6016a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TimeSpanParse_TimeSpanToken::*)(int32_t, int32_t)>(
     &::System::Globalization::TimeSpanParse_TimeSpanToken::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5fdc7c8;
+  constexpr static std::size_t addrs = 0x60190b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TimeSpanParse_TimeSpanToken::*)(
     ::System::Globalization::TimeSpanParse_TTT, int32_t, int32_t, ::System::ReadOnlySpan_1<char16_t>)>(&::System::Globalization::TimeSpanParse_TimeSpanToken::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5fdc9f0;
+  constexpr static std::size_t addrs = 0x60192d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanToken>(),
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_TimeSpanToken::*)()>(&::System::Globalization::TimeSpanParse_TimeSpanToken::IsInvalidFraction)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5fd72e8;
+  constexpr static std::size_t addrs = 0x6013bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanToken>(), { "IsInvalidFraction", {}, {} })));
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TimeSpanParse_TimeSpanTokenizer::*)(::System::ReadOnlySpan_1<char16_t>)>(
     &::System::Globalization::TimeSpanParse_TimeSpanTokenizer::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5fd77d8;
+  constexpr static std::size_t addrs = 0x60140c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TimeSpanParse_TimeSpanTokenizer::*)(::System::ReadOnlySpan_1<char16_t>, int32_t)>(
     &::System::Globalization::TimeSpanParse_TimeSpanTokenizer::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5fdc58c;
+  constexpr static std::size_t addrs = 0x6018e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanTokenizer>(),
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::TimeSpanParse_TimeSpanToken (::System::Globalization::TimeSpanParse_TimeSpanTokenizer::*)()>(
     &::System::Globalization::TimeSpanParse_TimeSpanTokenizer::GetNextToken)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x5fd7838;
+  constexpr static std::size_t addrs = 0x6014120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanTokenizer>(), { "GetNextToken", {}, {} })));
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_TimeSpanTokenizer::*)()>(&::System::Globalization::TimeSpanParse_TimeSpanTokenizer::get_EOL)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5fdc774;
+  constexpr static std::size_t addrs = 0x601905c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanTokenizer>(), { "get_EOL", {}, {} })));
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TimeSpanParse_TimeSpanTokenizer::*)()>(&::System::Globalization::TimeSpanParse_TimeSpanTokenizer::BackOne)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5fdc7dc;
+  constexpr static std::size_t addrs = 0x60190c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanTokenizer>(), { "BackOne", {}, {} })));
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::Globalization::TimeSpanParse_TimeSpanTokenizer::*)()>(
     &::System::Globalization::TimeSpanParse_TimeSpanTokenizer::get_NextChar)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5fdc70c;
+  constexpr static std::size_t addrs = 0x6018ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanTokenizer>(), { "get_NextChar", {}, {} })));
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::TimeSpanFormat_FormatLiterals (::System::Globalization::TimeSpanParse_TimeSpanRawInfo::*)()>(
     &::System::Globalization::TimeSpanParse_TimeSpanRawInfo::get_PositiveInvariant)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5fdca00;
+  constexpr static std::size_t addrs = 0x60192e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::TimeSpanFormat_FormatLiterals (::System::Globalization::TimeSpanParse_TimeSpanRawInfo::*)()>(
     &::System::Globalization::TimeSpanParse_TimeSpanRawInfo::get_NegativeInvariant)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5fdca6c;
+  constexpr static std::size_t addrs = 0x6019354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::TimeSpanFormat_FormatLiterals (::System::Globalization::TimeSpanParse_TimeSpanRawInfo::*)()>(
     &::System::Globalization::TimeSpanParse_TimeSpanRawInfo::get_PositiveLocalized)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5fda000;
+  constexpr static std::size_t addrs = 0x60168e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::TimeSpanFormat_FormatLiterals (::System::Globalization::TimeSpanParse_TimeSpanRawInfo::*)()>(
     &::System::Globalization::TimeSpanParse_TimeSpanRawInfo::get_NegativeLocalized)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5fda0b4;
+  constexpr static std::size_t addrs = 0x601699c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_TimeSpanRawInfo::*)(::System::Globalization::TimeSpanFormat_FormatLiterals)>(
     &::System::Globalization::TimeSpanParse_TimeSpanRawInfo::FullAppCompatMatch)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x5fda970;
+  constexpr static std::size_t addrs = 0x6017258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_TimeSpanRawInfo::*)(::System::Globalization::TimeSpanFormat_FormatLiterals)>(
     &::System::Globalization::TimeSpanParse_TimeSpanRawInfo::PartialAppCompatMatch)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x5fdb500;
+  constexpr static std::size_t addrs = 0x6017de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_TimeSpanRawInfo::*)(::System::Globalization::TimeSpanFormat_FormatLiterals)>(
     &::System::Globalization::TimeSpanParse_TimeSpanRawInfo::FullMatch)> {
   constexpr static std::size_t size = 0x428;
-  constexpr static std::size_t addrs = 0x5fd9bd8;
+  constexpr static std::size_t addrs = 0x60164c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanRawInfo>(),
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_TimeSpanRawInfo::*)(::System::Globalization::TimeSpanFormat_FormatLiterals)>(
     &::System::Globalization::TimeSpanParse_TimeSpanRawInfo::FullDMatch)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x5fdbbec;
+  constexpr static std::size_t addrs = 0x60184d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanRawInfo>(),
@@ -392,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_TimeSpanRawInfo::*)(::System::Globalization::TimeSpanFormat_FormatLiterals)>(
     &::System::Globalization::TimeSpanParse_TimeSpanRawInfo::FullHMMatch)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x5fdb8c8;
+  constexpr static std::size_t addrs = 0x60181b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanRawInfo>(),
@@ -406,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_TimeSpanRawInfo::*)(::System::Globalization::TimeSpanFormat_FormatLiterals)>(
     &::System::Globalization::TimeSpanParse_TimeSpanRawInfo::FullDHMMatch)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x5fdb130;
+  constexpr static std::size_t addrs = 0x6017a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanRawInfo>(),
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_TimeSpanRawInfo::*)(::System::Globalization::TimeSpanFormat_FormatLiterals)>(
     &::System::Globalization::TimeSpanParse_TimeSpanRawInfo::FullHMSMatch)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x5fdad60;
+  constexpr static std::size_t addrs = 0x6017648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanRawInfo>(),
@@ -434,7 +434,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_TimeSpanRawInfo::*)(::System::Globalization::TimeSpanFormat_FormatLiterals)>(
     &::System::Globalization::TimeSpanParse_TimeSpanRawInfo::FullDHMSMatch)> {
   constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x5fda578;
+  constexpr static std::size_t addrs = 0x6016e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanRawInfo>(),
@@ -448,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_TimeSpanRawInfo::*)(::System::Globalization::TimeSpanFormat_FormatLiterals)>(
     &::System::Globalization::TimeSpanParse_TimeSpanRawInfo::FullHMSFMatch)> {
   constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x5fda180;
+  constexpr static std::size_t addrs = 0x6016a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanRawInfo>(),
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TimeSpanParse_TimeSpanRawInfo::*)(::System::Globalization::DateTimeFormatInfo*)>(
     &::System::Globalization::TimeSpanParse_TimeSpanRawInfo::Init)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5fd77e4;
+  constexpr static std::size_t addrs = 0x60140cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanRawInfo>(),
@@ -477,7 +477,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globaliza
                                                                                                                         ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>)>(
     &::System::Globalization::TimeSpanParse_TimeSpanRawInfo::ProcessToken)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5fd7a8c;
+  constexpr static std::size_t addrs = 0x6014374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanRawInfo>(),
@@ -494,7 +494,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_TimeSpanRawInfo::*)(
     ::System::ReadOnlySpan_1<char16_t>, ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>)>(&::System::Globalization::TimeSpanParse_TimeSpanRawInfo::AddSep)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5fdcadc;
+  constexpr static std::size_t addrs = 0x60193c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -510,7 +510,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_TimeSpanRawInfo::*)(
     ::System::Globalization::TimeSpanParse_TimeSpanToken, ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>)>(&::System::Globalization::TimeSpanParse_TimeSpanRawInfo::AddNum)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5fdcbfc;
+  constexpr static std::size_t addrs = 0x60194e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -669,7 +669,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TimeSpanParse_TimeSpanResult::*)(bool)>(&::System::Globalization::TimeSpanParse_TimeSpanResult::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5fd7378;
+  constexpr static std::size_t addrs = 0x6013c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -683,7 +683,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_TimeSpanResult::*)(
     ::System::Globalization::TimeSpanParse_ParseFailureKind, ::StringW, ::System::Object*, ::StringW)>(&::System::Globalization::TimeSpanParse_TimeSpanResult::SetFailure)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x5fd76bc;
+  constexpr static std::size_t addrs = 0x6013fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_TimeSpanResult>(),
@@ -721,7 +721,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TimeSpanParse_StringParser::*)()>(&::System::Globalization::TimeSpanParse_StringParser::NextChar)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5fdccec;
+  constexpr static std::size_t addrs = 0x60195d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_StringParser>(), { "NextChar", {}, {} })));
@@ -733,7 +733,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::System::Globalization::TimeSpanParse_StringParser::*)()>(&::System::Globalization::TimeSpanParse_StringParser::NextNonDigit)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5fdcd34;
+  constexpr static std::size_t addrs = 0x601961c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_StringParser>(), { "NextNonDigit", {}, {} })));
@@ -746,7 +746,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_StringParser::*)(
     ::System::ReadOnlySpan_1<char16_t>, ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>)>(&::System::Globalization::TimeSpanParse_StringParser::TryParse)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x5fdc7f0;
+  constexpr static std::size_t addrs = 0x60190d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -762,7 +762,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_StringParser::*)(
     int32_t, ::by_ref<int32_t>, ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>)>(&::System::Globalization::TimeSpanParse_StringParser::ParseInt)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5fdcf84;
+  constexpr static std::size_t addrs = 0x601986c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -779,7 +779,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::TimeSpanParse_StringParser::*)(
     ::by_ref<int64_t>, ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>)>(&::System::Globalization::TimeSpanParse_StringParser::ParseTime)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x5fdcdc8;
+  constexpr static std::size_t addrs = 0x60196b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -793,7 +793,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::TimeSpanParse_StringParser::*)()>(&::System::Globalization::TimeSpanParse_StringParser::SkipBlanks)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5fdcd98;
+  constexpr static std::size_t addrs = 0x6019680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::TimeSpanParse_StringParser>(), { "SkipBlanks", {}, {} })));
@@ -848,7 +848,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int32_t)>(&::System::Globalization::TimeSpanParse::Pow10)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5fd6df0;
+  constexpr static std::size_t addrs = 0x60136d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -863,7 +863,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(bool, ::System::
                                                                 ::System::Globalization::TimeSpanParse_TimeSpanToken, ::System::Globalization::TimeSpanParse_TimeSpanToken,
                                                                 ::System::Globalization::TimeSpanParse_TimeSpanToken, ::by_ref<int64_t>)>(&::System::Globalization::TimeSpanParse::TryTimeToTicks)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x5fd7198;
+  constexpr static std::size_t addrs = 0x6013a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -882,7 +882,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::TimeSpan (*)(::System::ReadOnlySpan_1<char16_t>, ::System::IFormatProvider*)>(&::System::Globalization::TimeSpanParse::Parse)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5fd7344;
+  constexpr static std::size_t addrs = 0x6013c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -897,7 +897,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::IFormatProvider*,
                                                                 ::System::Globalization::TimeSpanStyles, ::by_ref<::System::TimeSpan>)>(&::System::Globalization::TimeSpanParse::TryParseExact)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5fd74f8;
+  constexpr static std::size_t addrs = 0x6013de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -916,7 +916,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles, ::System::IFormatProvider*,
                                                                 ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>)>(&::System::Globalization::TimeSpanParse::TryParseTimeSpan)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5fd7384;
+  constexpr static std::size_t addrs = 0x6013c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -934,7 +934,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanRawInfo>, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles,
                                                                 ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>)>(&::System::Globalization::TimeSpanParse::ProcessTerminalState)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5fd7bac;
+  constexpr static std::size_t addrs = 0x6014494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -953,7 +953,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanRawInfo>, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles,
                                                                 ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>)>(&::System::Globalization::TimeSpanParse::ProcessTerminal_DHMSF)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x5fd997c;
+  constexpr static std::size_t addrs = 0x6016264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -972,7 +972,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanRawInfo>, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles,
                                                                 ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>)>(&::System::Globalization::TimeSpanParse::ProcessTerminal_HMS_F_D)> {
   constexpr static std::size_t size = 0xb1c;
-  constexpr static std::size_t addrs = 0x5fd8e60;
+  constexpr static std::size_t addrs = 0x6015748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -991,7 +991,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanRawInfo>, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles,
                                                                 ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>)>(&::System::Globalization::TimeSpanParse::ProcessTerminal_HM_S_D)> {
   constexpr static std::size_t size = 0xbb0;
-  constexpr static std::size_t addrs = 0x5fd82b0;
+  constexpr static std::size_t addrs = 0x6014b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1010,7 +1010,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanRawInfo>, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles,
                                                                 ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>)>(&::System::Globalization::TimeSpanParse::ProcessTerminal_HM)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x5fd7ff0;
+  constexpr static std::size_t addrs = 0x60148d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1029,7 +1029,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanRawInfo>, ::System::Globalization::TimeSpanParse_TimeSpanStandardStyles,
                                                                 ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>)>(&::System::Globalization::TimeSpanParse::ProcessTerminal_D)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x5fd7d28;
+  constexpr static std::size_t addrs = 0x6014610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1049,7 +1049,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOn
                                                                 ::System::Globalization::TimeSpanStyles, ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>)>(
     &::System::Globalization::TimeSpanParse::TryParseExactTimeSpan)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5fd7534;
+  constexpr static std::size_t addrs = 0x6013e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1068,7 +1068,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::Globalization::TimeSpanStyles,
                                                                 ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>)>(&::System::Globalization::TimeSpanParse::TryParseByFormat)> {
   constexpr static std::size_t size = 0x700;
-  constexpr static std::size_t addrs = 0x5fdbe8c;
+  constexpr static std::size_t addrs = 0x6018774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1086,7 +1086,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanTokenizer>, int32_t, ::by_ref<int32_t>)>(
     &::System::Globalization::TimeSpanParse::ParseExactDigits)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5fdc598;
+  constexpr static std::size_t addrs = 0x6018e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1103,7 +1103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanTokenizer>, int32_t, int32_t, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::System::Globalization::TimeSpanParse::ParseExactDigits)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5fdc5c4;
+  constexpr static std::size_t addrs = 0x6018eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1121,7 +1121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::System::Globalization::TimeSpanParse_TimeSpanTokenizer>, ::System::Text::StringBuilder*)>(
     &::System::Globalization::TimeSpanParse::ParseExactLiteral)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5fdc688;
+  constexpr static std::size_t addrs = 0x6018f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1137,7 +1137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::by_ref<::System::Globalization::TimeSpanParse_TimeSpanResult>)>(
     &::System::Globalization::TimeSpanParse::TryParseTimeSpanConstant)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5fdbe58;
+  constexpr static std::size_t addrs = 0x6018740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

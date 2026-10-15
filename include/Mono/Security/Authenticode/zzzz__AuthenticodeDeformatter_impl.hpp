@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)()>(&::Mono::Security::Authenticode::AuthenticodeDeformatter::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5ebe2b4;
+  constexpr static std::size_t addrs = 0x5efab40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Authenticode::AuthenticodeDeformatter*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)(::ArrayW<uint8_t>)>(
     &::Mono::Security::Authenticode::AuthenticodeDeformatter::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5ebe338;
+  constexpr static std::size_t addrs = 0x5efabc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)(::ArrayW<uint8_t>)>(
     &::Mono::Security::Authenticode::AuthenticodeDeformatter::set_RawData)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5ebe360;
+  constexpr static std::size_t addrs = 0x5efabec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::X509::X509Certificate* (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)()>(
     &::Mono::Security::Authenticode::AuthenticodeDeformatter::get_SigningCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ebe7d4;
+  constexpr static std::size_t addrs = 0x5efb060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)()>(&::Mono::Security::Authenticode::AuthenticodeDeformatter::CheckSignature)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x5ebe4d8;
+  constexpr static std::size_t addrs = 0x5efad64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Authenticode::AuthenticodeDeformatter*>(), { "CheckSignature", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)(::StringW, ::ArrayW<uint8_t>, ::Mono::Security::X509::X509Certificate*)>(
     &::Mono::Security::Authenticode::AuthenticodeDeformatter::CompareIssuerSerial)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5ebf190;
+  constexpr static std::size_t addrs = 0x5efba1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)(
     ::Mono::Security::PKCS7_SignedData*, ::ArrayW<uint8_t>, ::System::Security::Cryptography::HashAlgorithm*)>(&::Mono::Security::Authenticode::AuthenticodeDeformatter::VerifySignature)> {
   constexpr static std::size_t size = 0x9b4;
-  constexpr static std::size_t addrs = 0x5ebe7dc;
+  constexpr static std::size_t addrs = 0x5efb068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)(::Mono::Security::PKCS7_SignerInfo*, ::ArrayW<uint8_t>)>(
     &::Mono::Security::Authenticode::AuthenticodeDeformatter::VerifyCounterSignature)> {
   constexpr static std::size_t size = 0x97c;
-  constexpr static std::size_t addrs = 0x5ebf294;
+  constexpr static std::size_t addrs = 0x5efbb20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Authenticode::AuthenticodeDeformatter::*)()>(&::Mono::Security::Authenticode::AuthenticodeDeformatter::Reset)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5ebe430;
+  constexpr static std::size_t addrs = 0x5efacbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Authenticode::AuthenticodeDeformatter*>(), { "Reset", {}, {} })));

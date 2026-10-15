@@ -45,27 +45,27 @@ public:
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method ThrowIfGlobalStateNotAllowed, addr 0x6b63f44, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfGlobalStateNotAllowed, addr 0x6ba0bc0, size 0x78, virtual false, abstract: false, final false
   inline void ThrowIfGlobalStateNotAllowed();
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method ThrowIfRasterNotAllowed, addr 0x6b63fbc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfRasterNotAllowed, addr 0x6ba0c38, size 0x94, virtual false, abstract: false, final false
   inline void ThrowIfRasterNotAllowed();
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method ValidateTextureHandle, addr 0x6b64050, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method ValidateTextureHandle, addr 0x6ba0ccc, size 0x1ec, virtual false, abstract: false, final false
   inline void ValidateTextureHandle(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> h);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method ValidateTextureHandleRead, addr 0x6b6423c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method ValidateTextureHandleRead, addr 0x6ba0eb8, size 0x19c, virtual false, abstract: false, final false
   inline void ValidateTextureHandleRead(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> h);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method ValidateTextureHandleWrite, addr 0x6b643d8, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method ValidateTextureHandleWrite, addr 0x6ba1054, size 0x200, virtual false, abstract: false, final false
   inline void ValidateTextureHandleWrite(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> h);
 
   constexpr ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* const& __cordl_internal_get_m_ExecutingPass() const;
@@ -80,13 +80,13 @@ public:
 
   constexpr void __cordl_internal_set_m_WrappedCommandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
 
-  /// @brief Method .ctor, addr 0x6b63eec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba0b68, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::CommandBuffer* wrapped, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* executingPass, bool isAsync);
 
-  /// @brief Method get_name, addr 0x6b63f14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6ba0b90, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_sizeInBytes, addr 0x6b63f2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_sizeInBytes, addr 0x6ba0ba8, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_sizeInBytes();
 
 protected:
@@ -104,7 +104,7 @@ public:
   BaseCommandBuffer(BaseCommandBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8742 };
 
   /// @brief Field m_WrappedCommandBuffer, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::CommandBuffer* ___m_WrappedCommandBuffer;

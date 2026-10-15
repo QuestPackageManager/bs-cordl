@@ -35,7 +35,7 @@ public:
   AddressablesConstants(AddressablesConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24376 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24458 };
 
   /// @brief Field kAllBeatmapCharacteristicsCollectionKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kAllBeatmapCharacteristicsCollectionKey{ u"AllBeatmapCharacteristicsCollection" };
@@ -54,6 +54,9 @@ public:
 
   /// @brief Field kGameCreditsLabel offset 0xffffffff size 0x8
   static constexpr ::ConstString kGameCreditsLabel{ u"GameCredits" };
+
+  /// @brief Field kGameDlcProductLabel offset 0xffffffff size 0x8
+  static constexpr ::ConstString kGameDlcProductLabel{ u"GameDlcProduct" };
 
   /// @brief Field kMusicPackCreditsLabel offset 0xffffffff size 0x8
   static constexpr ::ConstString kMusicPackCreditsLabel{ u"MusicPackCredits" };

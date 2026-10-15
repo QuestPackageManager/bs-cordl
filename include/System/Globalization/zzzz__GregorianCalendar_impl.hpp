@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::GregorianCalendar::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Globalization::GregorianCalendar::OnDeserialized)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5fdf954;
+  constexpr static std::size_t addrs = 0x601c23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::GregorianCalendar*>(),
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Globalization::GregorianCalendar::*)()>(&::System::Globalization::GregorianCalendar::get_MinSupportedDateTime)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5fdfa18;
+  constexpr static std::size_t addrs = 0x601c300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Globalization::GregorianCalendar::*)()>(&::System::Globalization::GregorianCalendar::get_MaxSupportedDateTime)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5fdfa74;
+  constexpr static std::size_t addrs = 0x601c35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::Calendar* (*)()>(&::System::Globalization::GregorianCalendar::GetDefaultInstance)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5fdfad0;
+  constexpr static std::size_t addrs = 0x601c3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::GregorianCalendar*>(), { "GetDefaultInstance", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::GregorianCalendar::*)()>(&::System::Globalization::GregorianCalendar::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5fdfb90;
+  constexpr static std::size_t addrs = 0x601c478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::GregorianCalendar*>(), { ".ctor", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::GregorianCalendar::*)(::System::Globalization::GregorianCalendarTypes)>(
     &::System::Globalization::GregorianCalendar::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5fdfba8;
+  constexpr static std::size_t addrs = 0x601c490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::GregorianCalendar::*)()>(&::System::Globalization::GregorianCalendar::get_ID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fdfcd4;
+  constexpr static std::size_t addrs = 0x601c5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::GregorianCalendar::*)(int64_t, int32_t)>(&::System::Globalization::GregorianCalendar::GetDatePart)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x5fdfcdc;
+  constexpr static std::size_t addrs = 0x601c5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int32_t, int32_t, int32_t)>(&::System::Globalization::GregorianCalendar::GetAbsoluteDate)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x5fdfeec;
+  constexpr static std::size_t addrs = 0x601c7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::GregorianCalendar::*)(::System::DateTime)>(&::System::Globalization::GregorianCalendar::GetDayOfMonth)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5fe00bc;
+  constexpr static std::size_t addrs = 0x601c9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DayOfWeek (::System::Globalization::GregorianCalendar::*)(::System::DateTime)>(
     &::System::Globalization::GregorianCalendar::GetDayOfWeek)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5fe0140;
+  constexpr static std::size_t addrs = 0x601ca28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::GregorianCalendar::*)(int32_t, int32_t, int32_t)>(
     &::System::Globalization::GregorianCalendar::GetDaysInMonth)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x5fe01ec;
+  constexpr static std::size_t addrs = 0x601cad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::GregorianCalendar::*)(int32_t, int32_t)>(&::System::Globalization::GregorianCalendar::GetDaysInYear)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x5fe0478;
+  constexpr static std::size_t addrs = 0x601cd60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::GregorianCalendar::*)(::System::DateTime)>(&::System::Globalization::GregorianCalendar::GetEra)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fe05e4;
+  constexpr static std::size_t addrs = 0x601cecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::System::Globalization::GregorianCalendar::*)()>(&::System::Globalization::GregorianCalendar::get_Eras)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5fe05ec;
+  constexpr static std::size_t addrs = 0x601ced4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::GregorianCalendar::*)(::System::DateTime)>(&::System::Globalization::GregorianCalendar::GetMonth)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5fe0654;
+  constexpr static std::size_t addrs = 0x601cf3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::GregorianCalendar::*)(int32_t, int32_t)>(&::System::Globalization::GregorianCalendar::GetMonthsInYear)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5fe06d8;
+  constexpr static std::size_t addrs = 0x601cfc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::GregorianCalendar::*)(::System::DateTime)>(&::System::Globalization::GregorianCalendar::GetYear)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5fe0808;
+  constexpr static std::size_t addrs = 0x601d0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::GregorianCalendar::*)(int32_t, int32_t)>(&::System::Globalization::GregorianCalendar::IsLeapYear)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5fe088c;
+  constexpr static std::size_t addrs = 0x601d174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Globalization::GregorianCalendar::*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::System::Globalization::GregorianCalendar::ToDateTime)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5fe0a08;
+  constexpr static std::size_t addrs = 0x601d2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::GregorianCalendar::*)(
     int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, ::by_ref<::System::DateTime>)>(&::System::Globalization::GregorianCalendar::TryToDateTime)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5fe0a9c;
+  constexpr static std::size_t addrs = 0x601d384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::GregorianCalendar::*)()>(&::System::Globalization::GregorianCalendar::get_TwoDigitYearMax)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5fe0b94;
+  constexpr static std::size_t addrs = 0x601d47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::GregorianCalendar::*)(int32_t)>(&::System::Globalization::GregorianCalendar::set_TwoDigitYearMax)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5fe0bd8;
+  constexpr static std::size_t addrs = 0x601d4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::GregorianCalendar::*)(int32_t)>(&::System::Globalization::GregorianCalendar::ToFourDigitYear)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5fe0cd8;
+  constexpr static std::size_t addrs = 0x601d5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

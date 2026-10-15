@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool::get_IntraFrameMemoryAliasing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c0d6a8;
+  constexpr static std::size_t addrs = 0x6c4a324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool::*)(bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool::set_IntraFrameMemoryAliasing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c0d6b0;
+  constexpr static std::size_t addrs = 0x6c4a32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool*>(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c0d6b8;
+  constexpr static std::size_t addrs = 0x6c4a334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

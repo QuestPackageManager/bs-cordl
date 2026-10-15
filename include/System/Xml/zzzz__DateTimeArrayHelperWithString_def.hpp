@@ -37,13 +37,13 @@ public:
 
   static inline ::System::Xml::DateTimeArrayHelperWithString* New_ctor();
 
-  /// @brief Method ReadArray, addr 0x651b658, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ReadArray, addr 0x6558228, size 0x38, virtual true, abstract: false, final false
   inline int32_t ReadArray(::System::Xml::XmlDictionaryReader* reader, ::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::DateTime> array, int32_t offset, int32_t count);
 
-  /// @brief Method WriteArray, addr 0x651b690, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x6558260, size 0x3c, virtual true, abstract: false, final false
   inline void WriteArray(::System::Xml::XmlDictionaryWriter* writer, ::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<::System::DateTime> array, int32_t offset, int32_t count);
 
-  /// @brief Method .ctor, addr 0x651b6cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x655829c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::DateTimeArrayHelperWithString* getStaticF_Instance();
@@ -65,7 +65,7 @@ public:
   DateTimeArrayHelperWithString(DateTimeArrayHelperWithString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16326 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

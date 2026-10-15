@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_category(::UnityEngine::UIElements::EventCategory value);
 
-  /// @brief Method .ctor, addr 0x7155b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7192ab4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventCategory category);
 
 protected:

@@ -28,13 +28,10 @@ namespace GlobalNamespace {
 struct ConsoleMessage;
 }
 namespace GlobalNamespace {
-class ICoroutineStarter;
+struct TerminalController__TryExecuteCommand_d__22;
 }
 namespace GlobalNamespace {
-struct TerminalController__TryExecuteCommand_d__23;
-}
-namespace GlobalNamespace {
-struct TerminalController__TryExecuteCommands_d__15;
+struct TerminalController__TryExecuteCommands_d__14;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -86,34 +83,34 @@ namespace GlobalNamespace {
 class TerminalController;
 }
 namespace GlobalNamespace {
-struct TerminalController__TryExecuteCommand_d__23;
+struct TerminalController__TryExecuteCommand_d__22;
 }
 namespace GlobalNamespace {
-struct TerminalController__TryExecuteCommands_d__15;
+struct TerminalController__TryExecuteCommands_d__14;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::TerminalController*);
-MARK_VAL_T(::GlobalNamespace::TerminalController__TryExecuteCommand_d__23);
-MARK_VAL_T(::GlobalNamespace::TerminalController__TryExecuteCommands_d__15);
+MARK_VAL_T(::GlobalNamespace::TerminalController__TryExecuteCommand_d__22);
+MARK_VAL_T(::GlobalNamespace::TerminalController__TryExecuteCommands_d__14);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::TerminalController*, "", "TerminalController");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::TerminalController__TryExecuteCommand_d__23, "", "TerminalController/<TryExecuteCommand>d__23");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::TerminalController__TryExecuteCommands_d__15, "", "TerminalController/<TryExecuteCommands>d__15");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::TerminalController__TryExecuteCommand_d__22, "", "TerminalController/<TryExecuteCommand>d__22");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::TerminalController__TryExecuteCommands_d__14, "", "TerminalController/<TryExecuteCommands>d__14");
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: TerminalController/<TryExecuteCommand>d__23
-struct CORDL_TYPE TerminalController__TryExecuteCommand_d__23 {
+// CS Name: TerminalController/<TryExecuteCommand>d__22
+struct CORDL_TYPE TerminalController__TryExecuteCommand_d__22 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3572a6c, size 0x678, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x359510c, size 0x678, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x35730e4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3595784, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -121,7 +118,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr TerminalController__TryExecuteCommand_d__23();
+  constexpr TerminalController__TryExecuteCommand_d__22();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "commandText", ty: "::StringW", modifiers: "", def_value: None,
@@ -129,13 +126,13 @@ public:
   // "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_command_5__2", ty:
   // "::GlobalNamespace::ConsoleCommandBase*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_commandTask_5__3", ty: "::System::Threading::Tasks::Task_1<bool>*", modifiers: "",
   // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
-  constexpr TerminalController__TryExecuteCommand_d__23(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::StringW commandText,
+  constexpr TerminalController__TryExecuteCommand_d__22(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::StringW commandText,
                                                         ::GlobalNamespace::TerminalController* __4__this, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages,
                                                         ::GlobalNamespace::ConsoleCommandBase* _command_5__2, ::System::Threading::Tasks::Task_1<bool>* _commandTask_5__3,
                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19804 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -167,41 +164,41 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__23, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__22, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__23, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__22, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__23, commandText) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__22, commandText) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__23, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__22, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__23, messages) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__22, messages) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__23, _command_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__22, _command_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__23, _commandTask_5__3) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__22, _commandTask_5__3) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__23, __u__1) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__22, __u__1) == 0x48, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__23) == 0x50, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::TerminalController__TryExecuteCommand_d__22) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: TerminalController/<TryExecuteCommands>d__15
-struct CORDL_TYPE TerminalController__TryExecuteCommands_d__15 {
+// CS Name: TerminalController/<TryExecuteCommands>d__14
+struct CORDL_TYPE TerminalController__TryExecuteCommands_d__14 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3573150, size 0x614, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35957f0, size 0x614, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3573764, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3595e04, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -209,18 +206,18 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr TerminalController__TryExecuteCommands_d__15();
+  constexpr TerminalController__TryExecuteCommands_d__14();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::TerminalController*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "_messages_5__2", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value:
   // None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr TerminalController__TryExecuteCommands_d__15(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::TerminalController* __4__this,
+  constexpr TerminalController__TryExecuteCommands_d__14(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::TerminalController* __4__this,
                                                          ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* _messages_5__2,
                                                          ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19805 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -243,17 +240,17 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommands_d__15, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommands_d__14, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommands_d__15, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommands_d__14, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommands_d__15, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommands_d__14, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommands_d__15, _messages_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommands_d__14, _messages_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommands_d__15, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TerminalController__TryExecuteCommands_d__14, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::TerminalController__TryExecuteCommands_d__15) == 0x38, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::TerminalController__TryExecuteCommands_d__14) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Object
@@ -263,11 +260,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE TerminalController : public ::System::Object {
 public:
   // Declarations
-  using _TryExecuteCommand_d__23 = ::GlobalNamespace::TerminalController__TryExecuteCommand_d__23;
+  using _TryExecuteCommand_d__22 = ::GlobalNamespace::TerminalController__TryExecuteCommand_d__22;
 
-  using _TryExecuteCommands_d__15 = ::GlobalNamespace::TerminalController__TryExecuteCommands_d__15;
+  using _TryExecuteCommands_d__14 = ::GlobalNamespace::TerminalController__TryExecuteCommands_d__14;
 
-  /// @brief Field _commands, offset 0x30, size 0x8
+  /// @brief Field _commands, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__commands,
                       put = __cordl_internal_set__commands)) ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>* _commands;
 
@@ -277,13 +274,10 @@ public:
   /// @brief Field _container, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
-  /// @brief Field _coroutineStarter, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__coroutineStarter, put = __cordl_internal_set__coroutineStarter)) ::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
-
-  /// @brief Field _isDisposed, offset 0x40, size 0x1
+  /// @brief Field _isDisposed, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__isDisposed, put = __cordl_internal_set__isDisposed)) bool _isDisposed;
 
-  /// @brief Field _rootNode, offset 0x38, size 0x8
+  /// @brief Field _rootNode, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__rootNode, put = __cordl_internal_set__rootNode)) ::GlobalNamespace::CommandRootNode* _rootNode;
 
   /// @brief Field _stringsFromSTDIN, offset 0xffffffff, size 0x8
@@ -304,84 +298,84 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method CheckCommand, addr 0x3572470, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CheckCommand, addr 0x3594b10, size 0x140, virtual false, abstract: false, final false
   inline void CheckCommand(::GlobalNamespace::ConsoleCommandBase* command);
 
-  /// @brief Method ClearCommandQueue, addr 0x356ae44, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ClearCommandQueue, addr 0x358c6d0, size 0x80, virtual false, abstract: false, final false
   inline void ClearCommandQueue();
 
-  /// @brief Method CommandNotFoundMessage, addr 0x3572300, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CommandNotFoundMessage, addr 0x35949a0, size 0x74, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ConsoleMessage CommandNotFoundMessage(::StringW command);
 
-  /// @brief Method DisplayMessage, addr 0x356b130, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method DisplayMessage, addr 0x358c9bc, size 0x198, virtual false, abstract: false, final false
   inline void DisplayMessage(::GlobalNamespace::ConsoleMessage message);
 
-  /// @brief Method Dispose, addr 0x3571a84, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3594124, size 0xb0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method FillDictOfCommands, addr 0x3571810, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method FillDictOfCommands, addr 0x3593eb0, size 0x104, virtual false, abstract: false, final false
   inline void FillDictOfCommands(::ArrayW<::GlobalNamespace::ConsoleCommandBase*> commandInstances);
 
-  /// @brief Method FindAutocompleteNode, addr 0x3571d30, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method FindAutocompleteNode, addr 0x35943d0, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::CommandNode*> FindAutocompleteNode(::StringW input, bool exact);
 
-  /// @brief Method GenerateCommandTree, addr 0x3571914, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GenerateCommandTree, addr 0x3593fb4, size 0x74, virtual false, abstract: false, final false
   inline void GenerateCommandTree(::ArrayW<::GlobalNamespace::ConsoleCommandBase*> commandInstances);
 
-  /// @brief Method GetAllConsoleCommandInstances, addr 0x3570ff8, size 0x818, virtual false, abstract: false, final false
+  /// @brief Method GetAllConsoleCommandInstances, addr 0x3593698, size 0x818, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ConsoleCommandBase*>* GetAllConsoleCommandInstances();
 
-  /// @brief Method GetCommand, addr 0x35726e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetCommand, addr 0x3594d88, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ConsoleCommandBase* GetCommand(::StringW commandName);
 
-  /// @brief Method GetCommands, addr 0x35726e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCommands, addr 0x3594d80, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>* GetCommands();
 
-  /// @brief Method HandleLaunchParameters, addr 0x3571988, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleLaunchParameters, addr 0x3594028, size 0x74, virtual false, abstract: false, final false
   inline void HandleLaunchParameters(::StringW commandsInput);
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method Init, addr 0x3570e30, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x35934d0, size 0x90, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method Initialize, addr 0x3570ec0, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x3593560, size 0x138, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method IsArgumentName, addr 0x35721c8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsArgumentName, addr 0x3594868, size 0x30, virtual false, abstract: false, final false
   inline bool IsArgumentName(::StringW input);
 
-  /// @brief Method IsArgumentValue, addr 0x35721f8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsArgumentValue, addr 0x3594898, size 0x40, virtual false, abstract: false, final false
   inline bool IsArgumentValue(::StringW input);
 
-  /// @brief Method IsCommandClass, addr 0x35725b0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method IsCommandClass, addr 0x3594c50, size 0x130, virtual false, abstract: false, final false
   inline bool IsCommandClass(::System::Type* type);
 
   static inline ::GlobalNamespace::TerminalController* New_ctor();
 
-  /// @brief Method OnUnityLogMessageReceived, addr 0x3572764, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method OnUnityLogMessageReceived, addr 0x3594e04, size 0x1c0, virtual false, abstract: false, final false
   inline void OnUnityLogMessageReceived(::StringW condition, ::StringW stackTrace, ::UnityEngine::LogType type);
 
-  /// @brief Method QueueNewInput, addr 0x35719fc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method QueueNewInput, addr 0x359409c, size 0x88, virtual false, abstract: false, final false
   inline void QueueNewInput(::StringW input);
 
-  /// @brief Method QueueNewInputFirst, addr 0x3571ca8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method QueueNewInputFirst, addr 0x3594348, size 0x88, virtual false, abstract: false, final false
   inline void QueueNewInputFirst(::StringW input);
 
-  /// @brief Method StripExtraWhitespace, addr 0x3572374, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method StripExtraWhitespace, addr 0x3594a14, size 0xfc, virtual false, abstract: false, final false
   inline ::StringW StripExtraWhitespace(::StringW commandText);
 
-  /// @brief Method Tick, addr 0x3571b34, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x35941d4, size 0xc0, virtual true, abstract: false, final true
   inline void Tick();
 
-  /// [AsyncStateMachine(typeof(TerminalController::<TryExecuteCommand>d__23))]
-  /// @brief Method TryExecuteCommand, addr 0x3572238, size 0xc8, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(TerminalController::<TryExecuteCommand>d__22))]
+  /// @brief Method TryExecuteCommand, addr 0x35948d8, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* TryExecuteCommand(::StringW commandText, ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// [AsyncStateMachine(typeof(TerminalController::<TryExecuteCommands>d__15))]
-  /// @brief Method TryExecuteCommands, addr 0x3571bf4, size 0xb4, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(TerminalController::<TryExecuteCommands>d__14))]
+  /// @brief Method TryExecuteCommands, addr 0x3594294, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* TryExecuteCommands();
 
-  /// @brief Method TryFindAutocompleteText, addr 0x3571d4c, size 0x47c, virtual false, abstract: false, final false
+  /// @brief Method TryFindAutocompleteText, addr 0x35943ec, size 0x47c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AutocompleteResult TryFindAutocompleteText(::StringW input);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>* const& __cordl_internal_get__commands() const;
@@ -391,10 +385,6 @@ public:
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
-
-  constexpr ::GlobalNamespace::ICoroutineStarter* const& __cordl_internal_get__coroutineStarter() const;
-
-  constexpr ::GlobalNamespace::ICoroutineStarter*& __cordl_internal_get__coroutineStarter();
 
   constexpr bool const& __cordl_internal_get__isDisposed() const;
 
@@ -416,8 +406,6 @@ public:
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr void __cordl_internal_set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
-
   constexpr void __cordl_internal_set__isDisposed(bool value);
 
   constexpr void __cordl_internal_set__rootNode(::GlobalNamespace::CommandRootNode* value);
@@ -426,7 +414,7 @@ public:
 
   constexpr void __cordl_internal_set_unityLogToConsole(bool value);
 
-  /// @brief Method .ctor, addr 0x3572924, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3594fc4, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::Tasks::Task* getStaticF__commandsExecutionTask();
@@ -461,7 +449,7 @@ public:
   TerminalController(TerminalController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19767 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19806 };
 
   /// @brief Field kTerminalAssemblyPrefix offset 0xffffffff size 0x8
   static constexpr ::ConstString kTerminalAssemblyPrefix{ u"BeatSaber.Terminal" };
@@ -476,17 +464,13 @@ public:
   /// @brief Field _container, offset: 0x20, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
-  /// [Inject]
-  /// @brief Field _coroutineStarter, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
-
-  /// @brief Field _commands, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _commands, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>* ____commands;
 
-  /// @brief Field _rootNode, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _rootNode, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::CommandRootNode* ____rootNode;
 
-  /// @brief Field _isDisposed, offset: 0x40, size: 0x1, def value: None
+  /// @brief Field _isDisposed, offset: 0x38, size: 0x1, def value: None
   bool ____isDisposed;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -498,14 +482,12 @@ static_assert(offsetof(::GlobalNamespace::TerminalController, ___unityLogToConso
 
 static_assert(offsetof(::GlobalNamespace::TerminalController, ____container) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TerminalController, ____coroutineStarter) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TerminalController, ____commands) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TerminalController, ____commands) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TerminalController, ____rootNode) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TerminalController, ____rootNode) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TerminalController, ____isDisposed) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TerminalController, ____isDisposed) == 0x40, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::TerminalController) == 0x48, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::TerminalController) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace

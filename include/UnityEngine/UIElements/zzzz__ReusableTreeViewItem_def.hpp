@@ -92,39 +92,39 @@ public:
 
   __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method DetachElement, addr 0x70a06c4, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method DetachElement, addr 0x70dd5f8, size 0x1b8, virtual true, abstract: false, final false
   inline void DetachElement();
 
-  /// @brief Method Indent, addr 0x70a087c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Indent, addr 0x70dd7b0, size 0x14, virtual false, abstract: false, final false
   inline void Indent(int32_t depth);
 
-  /// @brief Method Init, addr 0x70a0438, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x70dd36c, size 0xd4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item);
 
-  /// @brief Method InitExpandHierarchy, addr 0x709fae0, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method InitExpandHierarchy, addr 0x70dca14, size 0x4ac, virtual false, abstract: false, final false
   inline void InitExpandHierarchy(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::VisualElement* item);
 
   static inline ::UnityEngine::UIElements::ReusableTreeViewItem* New_ctor();
 
-  /// @brief Method OnPointerUp, addr 0x70a0c28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x70ddb5c, size 0x1c, virtual false, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method OnToggleGeometryChanged, addr 0x70a0a14, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method OnToggleGeometryChanged, addr 0x70dd948, size 0x214, virtual false, abstract: false, final false
   inline void OnToggleGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnToggleValueChanged, addr 0x70a0c44, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnToggleValueChanged, addr 0x70ddb78, size 0x1c, virtual false, abstract: false, final false
   inline void OnToggleValueChanged(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
 
-  /// @brief Method PreAttachElement, addr 0x70a050c, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method PreAttachElement, addr 0x70dd440, size 0x1b8, virtual true, abstract: false, final false
   inline void PreAttachElement();
 
-  /// @brief Method SetExpandedWithoutNotify, addr 0x70a09dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetExpandedWithoutNotify, addr 0x70dd910, size 0x20, virtual false, abstract: false, final false
   inline void SetExpandedWithoutNotify(bool expanded);
 
-  /// @brief Method SetToggleVisibility, addr 0x70a09fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetToggleVisibility, addr 0x70dd930, size 0x18, virtual false, abstract: false, final false
   inline void SetToggleVisibility(bool visible);
 
-  /// @brief Method UpdateIndentLayout, addr 0x70a0890, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method UpdateIndentLayout, addr 0x70dd7c4, size 0x14c, virtual false, abstract: false, final false
   inline void UpdateIndentLayout();
 
   constexpr ::System::Nullable_1<float_t> const& __cordl_internal_get_customIndentWidth() const;
@@ -205,29 +205,29 @@ public:
 
   constexpr void __cordl_internal_set_onToggleValueChanged(::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>* value);
 
-  /// @brief Method .ctor, addr 0x709ff90, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70dcec4, size 0x124, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_onPointerUp, addr 0x70a00cc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_onPointerUp, addr 0x70dd000, size 0xc0, virtual false, abstract: false, final false
   inline void add_onPointerUp(::System::Action_1<::UnityEngine::UIElements::PointerUpEvent*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_onToggleValueChanged, addr 0x70a024c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_onToggleValueChanged, addr 0x70dd180, size 0xc0, virtual false, abstract: false, final false
   inline void add_onToggleValueChanged(::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>* value);
 
-  /// @brief Method get_indentWidth, addr 0x70a03cc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_indentWidth, addr 0x70dd300, size 0x6c, virtual false, abstract: false, final false
   inline float_t get_indentWidth();
 
-  /// @brief Method get_rootElement, addr 0x70a00b4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_rootElement, addr 0x70dcfe8, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onPointerUp, addr 0x70a018c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_onPointerUp, addr 0x70dd0c0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onPointerUp(::System::Action_1<::UnityEngine::UIElements::PointerUpEvent*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onToggleValueChanged, addr 0x70a030c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_onToggleValueChanged, addr 0x70dd240, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onToggleValueChanged(::System::Action_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>* value);
 
 protected:

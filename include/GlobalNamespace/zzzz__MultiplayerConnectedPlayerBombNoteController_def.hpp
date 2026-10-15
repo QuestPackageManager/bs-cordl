@@ -36,7 +36,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5dd8d0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e15cb8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   MultiplayerConnectedPlayerBombNoteController_Pool(MultiplayerConnectedPlayerBombNoteController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6188 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -71,12 +71,12 @@ public:
   // Declarations
   using Pool = ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController_Pool;
 
-  /// @brief Method Init, addr 0x5dd5014, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5e11fc0, size 0x18, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteSpawnData const> noteSpawnData);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5dd8cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e15ca8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +94,7 @@ public:
   MultiplayerConnectedPlayerBombNoteController(MultiplayerConnectedPlayerBombNoteController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6189 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

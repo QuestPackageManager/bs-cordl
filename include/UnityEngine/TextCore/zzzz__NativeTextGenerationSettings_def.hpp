@@ -56,10 +56,10 @@ public:
 
   static inline ::UnityEngine::TextCore::NativeTextGenerationSettings___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x70220f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x705efe4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_hasLink>b__24_0, addr 0x70220f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <get_hasLink>b__24_0, addr 0x705efe8, size 0x10, virtual false, abstract: false, final false
   inline bool _get_hasLink_b__24_0(::UnityEngine::TextCore::TextSpan span);
 
   static inline ::UnityEngine::TextCore::NativeTextGenerationSettings___c* getStaticF___9();
@@ -85,7 +85,7 @@ public:
   NativeTextGenerationSettings___c(NativeTextGenerationSettings___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17776 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17809 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -109,16 +109,16 @@ public:
   __declspec(property(get = get_hasLink)) bool hasLink;
 
   /// [IsReadOnly]
-  /// @brief Method CreateTextSpan, addr 0x7020c7c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method CreateTextSpan, addr 0x705db70, size 0x130, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::TextSpan CreateTextSpan();
 
-  /// @brief Method ToString, addr 0x7020e00, size 0xd88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x705dcf4, size 0xd88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Default, addr 0x7020dac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x705dca0, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::NativeTextGenerationSettings get_Default();
 
-  /// @brief Method get_hasLink, addr 0x7020b60, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method get_hasLink, addr 0x705da54, size 0x11c, virtual false, abstract: false, final false
   inline bool get_hasLink();
 
   // Ctor Parameters []
@@ -147,7 +147,7 @@ public:
                                          ::UnityEngine::TextCore::PreProcessFlags preProcessFlags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17810 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };

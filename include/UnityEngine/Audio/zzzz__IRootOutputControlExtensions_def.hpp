@@ -77,7 +77,7 @@ public:
                                                                     TUserControl UserControl) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20402 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20449 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -134,7 +134,7 @@ public:
   JobStruct_2_IRootOutputControlExtensions_ExecuteJobFunction(JobStruct_2_IRootOutputControlExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20450 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -174,7 +174,7 @@ public:
   constexpr IRootOutputControlExtensions_JobStruct_2();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20451 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -216,7 +216,7 @@ public:
   IRootOutputControlExtensions(IRootOutputControlExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20452 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

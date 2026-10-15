@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::*)()>(&::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65d2154;
+  constexpr static std::size_t addrs = 0x660ed24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration*>(), { ".ctor", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::NamespaceResolver::*)()>(&::System::Xml::Linq::NamespaceResolver::PushScope)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65d2050;
+  constexpr static std::size_t addrs = 0x660ec20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::NamespaceResolver>(), { "PushScope", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::NamespaceResolver::*)()>(&::System::Xml::Linq::NamespaceResolver::PopScope)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x65d20f4;
+  constexpr static std::size_t addrs = 0x660ecc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::NamespaceResolver>(), { "PopScope", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::NamespaceResolver::*)(::StringW, ::System::Xml::Linq::XNamespace*)>(&::System::Xml::Linq::NamespaceResolver::Add)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x65d2060;
+  constexpr static std::size_t addrs = 0x660ec30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::NamespaceResolver>(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Linq::NamespaceResolver::*)(::StringW, ::System::Xml::Linq::XNamespace*)>(
     &::System::Xml::Linq::NamespaceResolver::AddFirst)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x65d1f10;
+  constexpr static std::size_t addrs = 0x660eae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Linq::NamespaceResolver>(),
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Linq::NamespaceResolver::*)(::System::Xml::Linq::XNamespace*, bool)>(
     &::System::Xml::Linq::NamespaceResolver::GetPrefixOfNamespace)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x65d1e38;
+  constexpr static std::size_t addrs = 0x660ea08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

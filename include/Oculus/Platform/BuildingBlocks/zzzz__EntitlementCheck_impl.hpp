@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::System::Action*)>(
     &::Oculus::Platform::BuildingBlocks::EntitlementCheck::add_UserFailedEntitlementCheck)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x620c938;
+  constexpr static std::size_t addrs = 0x6249380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::System::Action*)>(
     &::Oculus::Platform::BuildingBlocks::EntitlementCheck::remove_UserFailedEntitlementCheck)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x620c9e4;
+  constexpr static std::size_t addrs = 0x624942c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::System::Action*)>(
     &::Oculus::Platform::BuildingBlocks::EntitlementCheck::add_UserPassedEntitlementCheck)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x620ca90;
+  constexpr static std::size_t addrs = 0x62494d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::System::Action*)>(
     &::Oculus::Platform::BuildingBlocks::EntitlementCheck::remove_UserPassedEntitlementCheck)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x620cb3c;
+  constexpr static std::size_t addrs = 0x6249584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>(),
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)()>(&::Oculus::Platform::BuildingBlocks::EntitlementCheck::Start)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x620cbe8;
+  constexpr static std::size_t addrs = 0x6249630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>(), { "Start", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)()>(
     &::Oculus::Platform::BuildingBlocks::EntitlementCheck::PerformUserEntitlementCheck)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x620ccac;
+  constexpr static std::size_t addrs = 0x62496f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*)>(
     &::Oculus::Platform::BuildingBlocks::EntitlementCheck::PlatformInitializeCallback)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x620ced8;
+  constexpr static std::size_t addrs = 0x6249920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)(::Oculus::Platform::Message*)>(
     &::Oculus::Platform::BuildingBlocks::EntitlementCheck::EntitlementCheckCallback)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x620d188;
+  constexpr static std::size_t addrs = 0x6249bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>(),
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)()>(&::Oculus::Platform::BuildingBlocks::EntitlementCheck::QuitAppOnFailure)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x620d274;
+  constexpr static std::size_t addrs = 0x6249cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>(), { "QuitAppOnFailure", {}, {} })));
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::BuildingBlocks::EntitlementCheck::*)()>(&::Oculus::Platform::BuildingBlocks::EntitlementCheck::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x620d314;
+  constexpr static std::size_t addrs = 0x6249d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::BuildingBlocks::EntitlementCheck*>(), { ".ctor", {}, {} })));

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::EditorAttribute::*)(::StringW, ::StringW)>(&::System::ComponentModel::EditorAttribute::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x67e8904;
+  constexpr static std::size_t addrs = 0x6825548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::EditorAttribute::*)()>(&::System::ComponentModel::EditorAttribute::get_EditorBaseTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67e898c;
+  constexpr static std::size_t addrs = 0x68255d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::EditorAttribute*>(), { "get_EditorBaseTypeName", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::ComponentModel::EditorAttribute::*)()>(&::System::ComponentModel::EditorAttribute::get_EditorTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67e8994;
+  constexpr static std::size_t addrs = 0x68255d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::EditorAttribute*>(), { "get_EditorTypeName", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::EditorAttribute::*)()>(&::System::ComponentModel::EditorAttribute::get_TypeId)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x67e899c;
+  constexpr static std::size_t addrs = 0x68255e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::EditorAttribute::*)(::System::Object*)>(&::System::ComponentModel::EditorAttribute::Equals)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x67e8a2c;
+  constexpr static std::size_t addrs = 0x6825670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::EditorAttribute::*)()>(&::System::ComponentModel::EditorAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67e8acc;
+  constexpr static std::size_t addrs = 0x6825710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

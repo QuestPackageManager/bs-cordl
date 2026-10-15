@@ -39,14 +39,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
-  /// @brief Method GetHandle, addr 0x6f9075c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x6fcd638, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
   /// [RequiredByNativeCode]
-  /// @brief Method Internal_CallOnPlayerChanged, addr 0x6f90768, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Internal_CallOnPlayerChanged, addr 0x6fcd644, size 0x184, virtual false, abstract: false, final false
   static inline void Internal_CallOnPlayerChanged(::UnityEngine::Playables::PlayableOutputHandle handle, ::System::Object* previousPlayer, ::System::Object* currentPlayer);
 
-  /// @brief Method .ctor, addr 0x6f90648, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fcd524, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle);
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
@@ -60,7 +60,7 @@ public:
   constexpr DataPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23142 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23222 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

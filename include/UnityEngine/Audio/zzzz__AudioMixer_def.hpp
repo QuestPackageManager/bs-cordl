@@ -48,92 +48,92 @@ public:
   __declspec(property(get = get_updateMode, put = set_updateMode)) ::UnityEngine::Audio::AudioMixerUpdateMode updateMode;
 
   /// [NativeMethod]
-  /// @brief Method ClearFloat, addr 0x6ea6c6c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ClearFloat, addr 0x6ee3908, size 0x178, virtual false, abstract: false, final false
   inline bool ClearFloat(::StringW name);
 
-  /// @brief Method ClearFloat_Injected, addr 0x6ea6de4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ClearFloat_Injected, addr 0x6ee3a80, size 0x44, virtual false, abstract: false, final false
   static inline bool ClearFloat_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
   /// [NativeMethod("AudioMixerBindings::FindMatchingGroups", IsFreeFunction = true, HasExplicitThis = true)]
-  /// @brief Method FindMatchingGroups, addr 0x6ea6158, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method FindMatchingGroups, addr 0x6ee2df4, size 0x174, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Audio::AudioMixerGroup>> FindMatchingGroups(::StringW subPath);
 
-  /// @brief Method FindMatchingGroups_Injected, addr 0x6ea62cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FindMatchingGroups_Injected, addr 0x6ee2f68, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Audio::AudioMixerGroup>> FindMatchingGroups_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> subPath);
 
   /// [NativeMethod("FindSnapshotFromName")]
-  /// @brief Method FindSnapshot, addr 0x6ea5e7c, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method FindSnapshot, addr 0x6ee2b18, size 0x298, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixerSnapshot> FindSnapshot(::StringW name);
 
-  /// @brief Method FindSnapshot_Injected, addr 0x6ea6114, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FindSnapshot_Injected, addr 0x6ee2db0, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr FindSnapshot_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
   /// [NativeMethod("AudioMixerBindings::GetAbsoluteAudibilityFromGroup", HasExplicitThis = true, IsFreeFunction = true)]
-  /// @brief Method GetAbsoluteAudibilityFromGroup, addr 0x6ea6ffc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetAbsoluteAudibilityFromGroup, addr 0x6ee3c98, size 0xc0, virtual false, abstract: false, final false
   inline float_t GetAbsoluteAudibilityFromGroup(::UnityEngine::Audio::AudioMixerGroup* group);
 
-  /// @brief Method GetAbsoluteAudibilityFromGroup_Injected, addr 0x6ea70bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAbsoluteAudibilityFromGroup_Injected, addr 0x6ee3d58, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetAbsoluteAudibilityFromGroup_Injected(::System::IntPtr _unity_self, ::System::IntPtr group);
 
   /// [NativeMethod]
-  /// @brief Method GetFloat, addr 0x6ea6e28, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetFloat, addr 0x6ee3ac4, size 0x180, virtual false, abstract: false, final false
   inline bool GetFloat(::StringW name, ::by_ref<float_t> value);
 
-  /// @brief Method GetFloat_Injected, addr 0x6ea6fa8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetFloat_Injected, addr 0x6ee3c44, size 0x54, virtual false, abstract: false, final false
   static inline bool GetFloat_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, ::by_ref<float_t> value);
 
   static inline ::UnityEngine::Audio::AudioMixer* New_ctor();
 
   /// [NativeMethod]
-  /// @brief Method SetFloat, addr 0x6ea6a90, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x6ee372c, size 0x188, virtual false, abstract: false, final false
   inline bool SetFloat(::StringW name, float_t value);
 
-  /// @brief Method SetFloat_Injected, addr 0x6ea6c18, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetFloat_Injected, addr 0x6ee38b4, size 0x54, virtual false, abstract: false, final false
   static inline bool SetFloat_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, float_t value);
 
-  /// @brief Method TransitionToSnapshot, addr 0x6ea6310, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method TransitionToSnapshot, addr 0x6ee2fac, size 0x1fc, virtual false, abstract: false, final false
   inline void TransitionToSnapshot(::UnityEngine::Audio::AudioMixerSnapshot* snapshot, float_t timeToReach);
 
   /// [NativeMethod("TransitionToSnapshot")]
-  /// @brief Method TransitionToSnapshotInternal, addr 0x6ea665c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method TransitionToSnapshotInternal, addr 0x6ee32f8, size 0xd0, virtual false, abstract: false, final false
   inline void TransitionToSnapshotInternal(::UnityEngine::Audio::AudioMixerSnapshot* snapshot, float_t timeToReach);
 
-  /// @brief Method TransitionToSnapshotInternal_Injected, addr 0x6ea672c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TransitionToSnapshotInternal_Injected, addr 0x6ee33c8, size 0x54, virtual false, abstract: false, final false
   static inline void TransitionToSnapshotInternal_Injected(::System::IntPtr _unity_self, ::System::IntPtr snapshot, float_t timeToReach);
 
   /// [NativeMethod("AudioMixerBindings::TransitionToSnapshots", IsFreeFunction = true, HasExplicitThis = true, ThrowsException = true)]
-  /// @brief Method TransitionToSnapshots, addr 0x6ea6780, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method TransitionToSnapshots, addr 0x6ee341c, size 0x11c, virtual false, abstract: false, final false
   inline void TransitionToSnapshots(::ArrayW<::UnityEngine::Audio::AudioMixerSnapshot*> snapshots, ::ArrayW<float_t> weights, float_t timeToReach);
 
-  /// @brief Method TransitionToSnapshots_Injected, addr 0x6ea689c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method TransitionToSnapshots_Injected, addr 0x6ee3538, size 0x64, virtual false, abstract: false, final false
   static inline void TransitionToSnapshots_Injected(::System::IntPtr _unity_self, ::ArrayW<::UnityEngine::Audio::AudioMixerSnapshot*> snapshots,
                                                     ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> weights, float_t timeToReach);
 
-  /// @brief Method .ctor, addr 0x6ea5b94, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee2830, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_outputAudioMixerGroup, addr 0x6ea5bec, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_outputAudioMixerGroup, addr 0x6ee2888, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixerGroup> get_outputAudioMixerGroup();
 
-  /// @brief Method get_outputAudioMixerGroup_Injected, addr 0x6ea5d3c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_outputAudioMixerGroup_Injected, addr 0x6ee29d8, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_outputAudioMixerGroup_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_updateMode, addr 0x6ea6900, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_updateMode, addr 0x6ee359c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::AudioMixerUpdateMode get_updateMode();
 
-  /// @brief Method get_updateMode_Injected, addr 0x6ea6980, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_updateMode_Injected, addr 0x6ee361c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AudioMixerUpdateMode get_updateMode_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_outputAudioMixerGroup, addr 0x6ea5d78, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_outputAudioMixerGroup, addr 0x6ee2a14, size 0xc0, virtual false, abstract: false, final false
   inline void set_outputAudioMixerGroup(::UnityEngine::Audio::AudioMixerGroup* value);
 
-  /// @brief Method set_outputAudioMixerGroup_Injected, addr 0x6ea5e38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_outputAudioMixerGroup_Injected, addr 0x6ee2ad4, size 0x44, virtual false, abstract: false, final false
   static inline void set_outputAudioMixerGroup_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
-  /// @brief Method set_updateMode, addr 0x6ea69bc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_updateMode, addr 0x6ee3658, size 0x90, virtual false, abstract: false, final false
   inline void set_updateMode(::UnityEngine::Audio::AudioMixerUpdateMode value);
 
-  /// @brief Method set_updateMode_Injected, addr 0x6ea6a4c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_updateMode_Injected, addr 0x6ee36e8, size 0x44, virtual false, abstract: false, final false
   static inline void set_updateMode_Injected(::System::IntPtr _unity_self, ::UnityEngine::Audio::AudioMixerUpdateMode value);
 
 protected:
@@ -151,7 +151,7 @@ public:
   AudioMixer(AudioMixer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20320 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20367 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

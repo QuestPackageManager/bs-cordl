@@ -138,7 +138,7 @@ public:
   /// @brief Field zTransform, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_zTransform, put = __cordl_internal_set_zTransform)) ::UnityW<::UnityEngine::Transform> zTransform;
 
-  /// @brief Method AssignAxis, addr 0x5daa8f8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method AssignAxis, addr 0x5de7b6c, size 0x30, virtual false, abstract: false, final false
   inline void AssignAxis(::GlobalNamespace::LightAxis axis, ::UnityEngine::Transform* target);
 
   static inline ::GlobalNamespace::CompositeLightController_AxisTargetRegistration* New_ctor();
@@ -167,7 +167,7 @@ public:
 
   constexpr void __cordl_internal_set_zTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x5daa884, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de7af8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -185,7 +185,7 @@ public:
   CompositeLightController_AxisTargetRegistration(CompositeLightController_AxisTargetRegistration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5942 };
 
   /// @brief Field xTransform, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___xTransform;
@@ -232,7 +232,7 @@ public:
 
   constexpr void __cordl_internal_set_groupId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5dac4b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de9728, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -250,7 +250,7 @@ public:
   CompositeLightController___c__DisplayClass21_0(CompositeLightController___c__DisplayClass21_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5942 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5943 };
 
   /// @brief Field groupId, offset: 0x10, size: 0x4, def value: None
   int32_t ___groupId;
@@ -282,7 +282,7 @@ public:
 
   static inline ::GlobalNamespace::CompositeLightController___c__DisplayClass21_1* New_ctor();
 
-  /// @brief Method <RegisterFloatFxCallbacks>b__0, addr 0x5dae000, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method <RegisterFloatFxCallbacks>b__0, addr 0x5deb274, size 0xe0, virtual false, abstract: false, final false
   inline void _RegisterFloatFxCallbacks_b__0(float_t value);
 
   constexpr ::GlobalNamespace::CompositeLightController___c__DisplayClass21_0* const& __cordl_internal_get_CS$__8__locals1() const;
@@ -303,7 +303,7 @@ public:
 
   constexpr void __cordl_internal_set_elementId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5dac4b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de972c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -321,7 +321,7 @@ public:
   CompositeLightController___c__DisplayClass21_1(CompositeLightController___c__DisplayClass21_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5944 };
 
   /// @brief Field bucketTargets, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>> ___bucketTargets;
@@ -399,68 +399,68 @@ public:
 
   __declspec(property(get = get_sets)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CompositeLightControllerSet*>* sets;
 
-  /// @brief Method CollectAxisTargets, addr 0x5daa5dc, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method CollectAxisTargets, addr 0x5de7850, size 0x2a8, virtual false, abstract: false, final false
   static inline void
   CollectAxisTargets(::ArrayW<::UnityEngine::Transform*> axisTargets, ::GlobalNamespace::LightAxis axis, int32_t groupId, bool isRotation,
                      ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Transform>, ::GlobalNamespace::CompositeLightController_AxisTargetRegistration*>* registrationsByTarget);
 
-  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x5dad8ac, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x5deab20, size 0x2dc, virtual false, abstract: false, final false
   inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
 
-  /// @brief Method HandleColorTargetsChangeBeatmapEvent, addr 0x5dad254, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method HandleColorTargetsChangeBeatmapEvent, addr 0x5dea4c8, size 0x210, virtual false, abstract: false, final false
   inline void HandleColorTargetsChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* data);
 
-  /// @brief Method HandleFloatFxChangeBeatmapEvent, addr 0x5dad040, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleFloatFxChangeBeatmapEvent, addr 0x5dea2b4, size 0x15c, virtual false, abstract: false, final false
   inline void HandleFloatFxChangeBeatmapEvent(::GlobalNamespace::FloatFxBeatmapEventData* data);
 
-  /// @brief Method HandleRotationChangeBeatmapEvent, addr 0x5dacca4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleRotationChangeBeatmapEvent, addr 0x5de9f18, size 0x15c, virtual false, abstract: false, final false
   inline void HandleRotationChangeBeatmapEvent(::GlobalNamespace::LightRotationBeatmapEventData* data);
 
-  /// @brief Method HandleTranslationChangeBeatmapEvent, addr 0x5dace48, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleTranslationChangeBeatmapEvent, addr 0x5dea0bc, size 0x15c, virtual false, abstract: false, final false
   inline void HandleTranslationChangeBeatmapEvent(::GlobalNamespace::LightTranslationBeatmapEventData* data);
 
   /// [Inject]
   /// [UsedImplicitly]
-  /// @brief Method Initialize, addr 0x5da824c, size 0x770, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5de54c0, size 0x770, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::ColorManager* colorManager, ::Tweening::SongTimeTweeningManager* tweeningManager,
                          ::GlobalNamespace::LightWithIdManager* lightManager, ::GlobalNamespace::IBpmController* bpmController);
 
   static inline ::GlobalNamespace::CompositeLightController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5da9b08, size 0x8e0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5de6d7c, size 0x8e0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RegisterColorBoostCallbacks, addr 0x5da9a50, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method RegisterColorBoostCallbacks, addr 0x5de6cc4, size 0xb8, virtual false, abstract: false, final false
   inline void RegisterColorBoostCallbacks(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method RegisterColorTargetsCallbacks, addr 0x5da98a0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method RegisterColorTargetsCallbacks, addr 0x5de6b14, size 0x1b0, virtual false, abstract: false, final false
   inline void
   RegisterColorTargetsCallbacks(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::CompositeLightControllerSet* set,
                                 ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::LightWithIdManager* lightManager, ::GlobalNamespace::IBpmController* bpmController,
                                 ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::GlobalNamespace::LightColorEventHandler*>*>* handlersByElementId);
 
-  /// @brief Method RegisterFloatFxCallbacks, addr 0x5da94d4, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method RegisterFloatFxCallbacks, addr 0x5de6748, size 0x3cc, virtual false, abstract: false, final false
   inline void RegisterFloatFxCallbacks(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::CompositeLightControllerSet* set,
                                        ::Tweening::SongTimeTweeningManager* tweeningManager, ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::FloatFxEventHandler*>* handlers);
 
-  /// @brief Method RegisterOneColorHandler, addr 0x5dac5a0, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method RegisterOneColorHandler, addr 0x5de9814, size 0x3d0, virtual false, abstract: false, final false
   inline void RegisterOneColorHandler(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                       ::GlobalNamespace::LightWithIdManager* lightManager, ::GlobalNamespace::IBpmController* bpmController,
                                       ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::GlobalNamespace::LightColorEventHandler*>*>* handlersByElementId,
                                       int32_t groupId, int32_t elementId);
 
-  /// @brief Method RegisterRotationCallbacks, addr 0x5da89bc, size 0x56c, virtual false, abstract: false, final false
+  /// @brief Method RegisterRotationCallbacks, addr 0x5de5c30, size 0x56c, virtual false, abstract: false, final false
   inline void RegisterRotationCallbacks(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::CompositeLightControllerSet* set,
                                         ::GlobalNamespace::CompositeModificationFlags flags, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                         ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightRotationEventHandler*>* handlers);
 
-  /// @brief Method RegisterTranslationCallbacks, addr 0x5da8f28, size 0x5ac, virtual false, abstract: false, final false
+  /// @brief Method RegisterTranslationCallbacks, addr 0x5de619c, size 0x5ac, virtual false, abstract: false, final false
   inline void RegisterTranslationCallbacks(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::CompositeLightControllerSet* set,
                                            ::GlobalNamespace::CompositeModificationFlags flags, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                            ::GlobalNamespace::LightGroupTranslationLimits* limits,
                                            ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightTranslationEventHandler*>* handlers);
 
-  /// @brief Method ResolveColor, addr 0x5daa5a8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ResolveColor, addr 0x5de781c, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ResolveColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -534,13 +534,13 @@ public:
   constexpr void __cordl_internal_set__translationHandlersBySet(
       ::System::Collections::Generic::List_1<::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightTranslationEventHandler*>*>* value);
 
-  /// @brief Method .ctor, addr 0x5dadce8, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5deaf5c, size 0x27c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_layout, addr 0x5da8244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x5de54b8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CompositeLayoutBase* get_layout();
 
-  /// @brief Method get_sets, addr 0x5da823c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sets, addr 0x5de54b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CompositeLightControllerSet*>* get_sets();
 
 protected:
@@ -558,7 +558,7 @@ public:
   CompositeLightController(CompositeLightController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5944 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5945 };
 
   /// [SerializeField]
   /// @brief Field _sets, offset: 0x20, size: 0x8, def value: None

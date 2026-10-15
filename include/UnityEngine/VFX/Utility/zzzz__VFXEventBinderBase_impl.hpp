@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXEventBinderBase::*)()>(&::UnityEngine::VFX::Utility::VFXEventBinderBase::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e1e550;
+  constexpr static std::size_t addrs = 0x6e5b1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXEventBinderBase::*)()>(&::UnityEngine::VFX::Utility::VFXEventBinderBase::OnValidate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e1f3f0;
+  constexpr static std::size_t addrs = 0x6e5c08c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXEventBinderBase*>(), { "OnValidate", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXEventBinderBase::*)()>(&::UnityEngine::VFX::Utility::VFXEventBinderBase::UpdateCacheEventAttribute)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6e1f364;
+  constexpr static std::size_t addrs = 0x6e5c000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXEventBinderBase::*)(::ArrayW<::System::Object*>)>(
     &::UnityEngine::VFX::Utility::VFXEventBinderBase::SendEventToVisualEffect)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6e1e64c;
+  constexpr static std::size_t addrs = 0x6e5b2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXEventBinderBase::*)()>(&::UnityEngine::VFX::Utility::VFXEventBinderBase::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e1e980;
+  constexpr static std::size_t addrs = 0x6e5b61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXEventBinderBase*>(), { ".ctor", {}, {} })));

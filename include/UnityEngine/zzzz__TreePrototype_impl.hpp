@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::get_prefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7019870;
+  constexpr static std::size_t addrs = 0x7056764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TreePrototype*>(), { "get_prefab", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::get_bendFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7019878;
+  constexpr static std::size_t addrs = 0x705676c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TreePrototype*>(), { "get_bendFactor", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::get_navMeshLod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7019880;
+  constexpr static std::size_t addrs = 0x7056774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TreePrototype*>(), { "get_navMeshLod", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7019888;
+  constexpr static std::size_t addrs = 0x705677c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TreePrototype*>(), { ".ctor", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TreePrototype::*)(::System::Object*)>(&::UnityEngine::TreePrototype::Equals)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x701988c;
+  constexpr static std::size_t addrs = 0x7056780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TreePrototype*>(), { ::i2c::class_of<::UnityEngine::TreePrototype*>(), 0 }));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x70199f4;
+  constexpr static std::size_t addrs = 0x70568e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TreePrototype*>(), { ::i2c::class_of<::UnityEngine::TreePrototype*>(), 2 }));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TreePrototype::*)(::UnityEngine::TreePrototype*)>(&::UnityEngine::TreePrototype::Equals)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x70198fc;
+  constexpr static std::size_t addrs = 0x70567f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

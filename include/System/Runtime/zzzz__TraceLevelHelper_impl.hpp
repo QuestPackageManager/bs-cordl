@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::TraceEventType (*)(::System::Runtime::TraceEventLevel)>(&::System::Runtime::TraceLevelHelper::GetTraceEventType)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x65af520;
+  constexpr static std::size_t addrs = 0x65ec0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Runtime::TraceEventLevel, ::System::Runtime::TraceEventOpcode)>(&::System::Runtime::TraceLevelHelper::LookupSeverity)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x65af5a0;
+  constexpr static std::size_t addrs = 0x65ec170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

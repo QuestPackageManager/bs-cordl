@@ -60,11 +60,11 @@ public:
   __declspec(property(get = getStaticF_s_InvokeMeasureFunctionMarker, put = setStaticF_s_InvokeMeasureFunctionMarker)) ::Unity::Profiling::ProfilerMarker s_InvokeMeasureFunctionMarker;
 
   /// [MonoPInvokeCallback(typeof(UnityEngine.UIElements.Layout.InvokeBaselineFunctionDelegate))]
-  /// @brief Method InvokeBaselineFunction, addr 0x719813c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method InvokeBaselineFunction, addr 0x71d5070, size 0x1d4, virtual false, abstract: false, final false
   static inline float_t InvokeBaselineFunction(::by_ref<::UnityEngine::UIElements::Layout::LayoutNode> node, float_t width, float_t height);
 
   /// [MonoPInvokeCallback(typeof(UnityEngine.UIElements.Layout.InvokeMeasureFunctionDelegate))]
-  /// @brief Method InvokeMeasureFunction, addr 0x7197e98, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method InvokeMeasureFunction, addr 0x71d4dcc, size 0x2a4, virtual false, abstract: false, final false
   static inline void InvokeMeasureFunction(::by_ref<::UnityEngine::UIElements::Layout::LayoutNode> node, float_t width, ::UnityEngine::UIElements::Layout::LayoutMeasureMode widthMode, float_t height,
                                            ::UnityEngine::UIElements::Layout::LayoutMeasureMode heightMode, ::by_ref<::System::IntPtr> exception,
                                            ::by_ref<::UnityEngine::UIElements::Layout::LayoutSize> result);

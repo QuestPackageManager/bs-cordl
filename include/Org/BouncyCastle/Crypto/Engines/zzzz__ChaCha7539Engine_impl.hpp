@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3632d74;
+  constexpr static std::size_t addrs = 0x36556d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3632dcc;
+  constexpr static std::size_t addrs = 0x3655730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*>(),
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::get_NonceSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3632e10;
+  constexpr static std::size_t addrs = 0x3655774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*>(),
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::AdvanceCounter)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3632e18;
+  constexpr static std::size_t addrs = 0x365577c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*>(),
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::ResetCounter)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3632e98;
+  constexpr static std::size_t addrs = 0x36557fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*>(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::SetKey)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3632ec4;
+  constexpr static std::size_t addrs = 0x3655828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*>(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::GenerateKeyStream)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3632fa4;
+  constexpr static std::size_t addrs = 0x3655908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*>(),

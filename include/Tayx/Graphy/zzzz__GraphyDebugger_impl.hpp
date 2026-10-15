@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Tayx::Graphy::GraphyDebugger_DebugPacket::*)()>(&::Tayx::Graphy::GraphyDebugger_DebugPacket::get_Check)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6860208;
+  constexpr static std::size_t addrs = 0x689ce84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::GraphyDebugger_DebugPacket*>(), { "get_Check", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger_DebugPacket::*)()>(&::Tayx::Graphy::GraphyDebugger_DebugPacket::Update)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x685fa60;
+  constexpr static std::size_t addrs = 0x689c6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::GraphyDebugger_DebugPacket*>(), { "Update", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger_DebugPacket::*)()>(&::Tayx::Graphy::GraphyDebugger_DebugPacket::Executed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68601fc;
+  constexpr static std::size_t addrs = 0x689ce78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::GraphyDebugger_DebugPacket*>(), { "Executed", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger_DebugPacket::*)()>(&::Tayx::Graphy::GraphyDebugger_DebugPacket::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x685f08c;
+  constexpr static std::size_t addrs = 0x689bd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::GraphyDebugger_DebugPacket*>(), { ".ctor", {}, {} })));
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger___c::*)()>(&::Tayx::Graphy::GraphyDebugger___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6860264;
+  constexpr static std::size_t addrs = 0x689cee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::GraphyDebugger___c*>(), { ".ctor", {}, {} })));
@@ -355,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Tayx::Graphy::GraphyDebugger___c::*)(::Tayx::Graphy::GraphyDebugger_DebugPacket*)>(
     &::Tayx::Graphy::GraphyDebugger___c::_CheckDebugPackets_b__24_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6860268;
+  constexpr static std::size_t addrs = 0x689cee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::GraphyDebugger___c*>(),
@@ -395,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger___c__DisplayClass18_0::*)()>(&::Tayx::Graphy::GraphyDebugger___c__DisplayClass18_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x685f56c;
+  constexpr static std::size_t addrs = 0x689c1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::GraphyDebugger___c__DisplayClass18_0*>(), { ".ctor", {}, {} })));
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Tayx::Graphy::GraphyDebugger___c__DisplayClass18_0::*)(::Tayx::Graphy::GraphyDebugger_DebugPacket*)>(
     &::Tayx::Graphy::GraphyDebugger___c__DisplayClass18_0::_GetFirstDebugPacketWithId_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6860274;
+  constexpr static std::size_t addrs = 0x689cef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -449,7 +449,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger___c__DisplayClass19_0::*)()>(&::Tayx::Graphy::GraphyDebugger___c__DisplayClass19_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x685f650;
+  constexpr static std::size_t addrs = 0x689c2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::GraphyDebugger___c__DisplayClass19_0*>(), { ".ctor", {}, {} })));
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Tayx::Graphy::GraphyDebugger___c__DisplayClass19_0::*)(::Tayx::Graphy::GraphyDebugger_DebugPacket*)>(
     &::Tayx::Graphy::GraphyDebugger___c__DisplayClass19_0::_GetAllDebugPacketsWithId_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6860294;
+  constexpr static std::size_t addrs = 0x689cf10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger___c__DisplayClass21_0::*)()>(&::Tayx::Graphy::GraphyDebugger___c__DisplayClass21_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x685f7e0;
+  constexpr static std::size_t addrs = 0x689c45c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::GraphyDebugger___c__DisplayClass21_0*>(), { ".ctor", {}, {} })));
@@ -515,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Tayx::Graphy::GraphyDebugger___c__DisplayClass21_0::*)(::Tayx::Graphy::GraphyDebugger_DebugPacket*)>(
     &::Tayx::Graphy::GraphyDebugger___c__DisplayClass21_0::_RemoveAllDebugPacketsWithId_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68602b4;
+  constexpr static std::size_t addrs = 0x689cf30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -556,7 +556,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger::*)()>(&::Tayx::Graphy::GraphyDebugger::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x685e90c;
+  constexpr static std::size_t addrs = 0x689b588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::GraphyDebugger*>(), { ".ctor", {}, {} })));
@@ -568,7 +568,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger::*)()>(&::Tayx::Graphy::GraphyDebugger::Start)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x685e9c0;
+  constexpr static std::size_t addrs = 0x689b63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::GraphyDebugger*>(), { "Start", {}, {} })));
@@ -580,7 +580,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger::*)()>(&::Tayx::Graphy::GraphyDebugger::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x685ea64;
+  constexpr static std::size_t addrs = 0x689b6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::GraphyDebugger*>(), { "Update", {}, {} })));
@@ -592,7 +592,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger::*)(::Tayx::Graphy::GraphyDebugger_DebugPacket*)>(&::Tayx::Graphy::GraphyDebugger::AddNewDebugPacket)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x685ee38;
+  constexpr static std::size_t addrs = 0x689bab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -606,7 +606,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger::*)(int32_t, ::Tayx::Graphy::GraphyDebugger_DebugCondition, ::Tayx::Graphy::GraphyDebugger_MessageType,
                                                                                                 ::StringW, bool, ::System::Action*)>(&::Tayx::Graphy::GraphyDebugger::AddNewDebugPacket)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x685eeec;
+  constexpr static std::size_t addrs = 0x689bb68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -626,7 +626,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Gra
                                                                                                 ::Tayx::Graphy::GraphyDebugger_MessageType, ::StringW, bool, ::System::Action*)>(
     &::Tayx::Graphy::GraphyDebugger::AddNewDebugPacket)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x685f190;
+  constexpr static std::size_t addrs = 0x689be0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -646,7 +646,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::Gra
                                                                                                 ::StringW, bool, ::System::Collections::Generic::List_1<::System::Action*>*)>(
     &::Tayx::Graphy::GraphyDebugger::AddNewDebugPacket)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x685f2ac;
+  constexpr static std::size_t addrs = 0x689bf28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -666,7 +666,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::Tayx::Graphy::GraphyDebugger::*)(int32_t, ::System::Collections::Generic::List_1<::Tayx::Graphy::GraphyDebugger_DebugCondition>*, ::Tayx::Graphy::GraphyDebugger_MessageType,
                                                          ::StringW, bool, ::System::Collections::Generic::List_1<::System::Action*>*)>(&::Tayx::Graphy::GraphyDebugger::AddNewDebugPacket)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x685f3e0;
+  constexpr static std::size_t addrs = 0x689c05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -685,7 +685,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Tayx::Graphy::GraphyDebugger_DebugPacket* (::Tayx::Graphy::GraphyDebugger::*)(int32_t)>(
     &::Tayx::Graphy::GraphyDebugger::GetFirstDebugPacketWithId)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x685f490;
+  constexpr static std::size_t addrs = 0x689c10c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -699,7 +699,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::Tayx::Graphy::GraphyDebugger_DebugPacket*>* (::Tayx::Graphy::GraphyDebugger::*)(int32_t)>(
     &::Tayx::Graphy::GraphyDebugger::GetAllDebugPacketsWithId)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x685f570;
+  constexpr static std::size_t addrs = 0x689c1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -712,7 +712,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger::*)(int32_t)>(&::Tayx::Graphy::GraphyDebugger::RemoveFirstDebugPacketWithId)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x685f654;
+  constexpr static std::size_t addrs = 0x689c2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -725,7 +725,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger::*)(int32_t)>(&::Tayx::Graphy::GraphyDebugger::RemoveAllDebugPacketsWithId)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x685f6f0;
+  constexpr static std::size_t addrs = 0x689c36c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -738,7 +738,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger::*)(::System::Action*, int32_t)>(&::Tayx::Graphy::GraphyDebugger::AddCallbackToFirstDebugPacketWithId)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x685f7e4;
+  constexpr static std::size_t addrs = 0x689c460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -752,7 +752,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger::*)(::System::Action*, int32_t)>(&::Tayx::Graphy::GraphyDebugger::AddCallbackToAllDebugPacketWithId)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x685f8bc;
+  constexpr static std::size_t addrs = 0x689c538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -766,7 +766,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger::*)()>(&::Tayx::Graphy::GraphyDebugger::CheckDebugPackets)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x685ea68;
+  constexpr static std::size_t addrs = 0x689b6e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::GraphyDebugger*>(), { "CheckDebugPackets", {}, {} })));
@@ -779,7 +779,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Tayx::Graphy::GraphyDebugger::*)(::Tayx::Graphy::GraphyDebugger_DebugCondition)>(
     &::Tayx::Graphy::GraphyDebugger::CheckIfConditionIsMet)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x685fae0;
+  constexpr static std::size_t addrs = 0x689c75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -794,7 +794,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Tayx::Graphy::GraphyDebugger::*)(::Tayx::Graphy::GraphyDebugger_DebugVariable)>(
     &::Tayx::Graphy::GraphyDebugger::GetRequestedValueFromDebugVariable)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x685ffdc;
+  constexpr static std::size_t addrs = 0x689cc58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -809,7 +809,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tayx::Graphy::GraphyDebugger::*)(::Tayx::Graphy::GraphyDebugger_DebugPacket*)>(
     &::Tayx::Graphy::GraphyDebugger::ExecuteOperationsInDebugPacket)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x685fc00;
+  constexpr static std::size_t addrs = 0x689c87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

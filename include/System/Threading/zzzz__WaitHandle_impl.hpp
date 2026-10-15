@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::WaitHandle::*)()>(&::System::Threading::WaitHandle::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60d0b50;
+  constexpr static std::size_t addrs = 0x610d590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::WaitHandle*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::WaitHandle::*)()>(&::System::Threading::WaitHandle::Init)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x60d0b54;
+  constexpr static std::size_t addrs = 0x610d594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::WaitHandle*>(), { "Init", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::WaitHandle::*)(::System::IntPtr)>(&::System::Threading::WaitHandle::set_Handle)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x60d0bc4;
+  constexpr static std::size_t addrs = 0x610d604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Microsoft::Win32::SafeHandles::SafeWaitHandle* (::System::Threading::WaitHandle::*)()>(&::System::Threading::WaitHandle::get_SafeWaitHandle)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x60d0cd4;
+  constexpr static std::size_t addrs = 0x610d714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::WaitHandle*>(), { "get_SafeWaitHandle", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::WaitHandle::*)(::Microsoft::Win32::SafeHandles::SafeWaitHandle*)>(
     &::System::Threading::WaitHandle::SetHandleInternal)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60d0d90;
+  constexpr static std::size_t addrs = 0x610d7d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::WaitHandle::*)(int32_t, bool)>(&::System::Threading::WaitHandle::WaitOne)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x60d0db0;
+  constexpr static std::size_t addrs = 0x610d7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::WaitHandle::*)(::System::TimeSpan, bool)>(&::System::Threading::WaitHandle::WaitOne)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x60d0ea0;
+  constexpr static std::size_t addrs = 0x610d8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::WaitHandle::*)()>(&::System::Threading::WaitHandle::WaitOne)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x60d0fc0;
+  constexpr static std::size_t addrs = 0x610da00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::WaitHandle::*)(int32_t)>(&::System::Threading::WaitHandle::WaitOne)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60d0fd4;
+  constexpr static std::size_t addrs = 0x610da14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::WaitHandle::*)(::System::TimeSpan)>(&::System::Threading::WaitHandle::WaitOne)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60d0fe4;
+  constexpr static std::size_t addrs = 0x610da24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::WaitHandle::*)(int64_t, bool)>(&::System::Threading::WaitHandle::WaitOne)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x60d0e28;
+  constexpr static std::size_t addrs = 0x610d868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Runtime::InteropServices::SafeHandle*, int64_t, bool, bool)>(&::System::Threading::WaitHandle::InternalWaitOne)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x60d0ff4;
+  constexpr static std::size_t addrs = 0x610da34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<::System::Threading::WaitHandle*>, int32_t, bool)>(&::System::Threading::WaitHandle::WaitAny)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x60d12fc;
+  constexpr static std::size_t addrs = 0x610dd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<::System::Threading::WaitHandle*>, ::System::TimeSpan, bool)>(&::System::Threading::WaitHandle::WaitAny)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x60d1ad0;
+  constexpr static std::size_t addrs = 0x610e510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Threading::WaitHandle::ThrowAbandonedMutexException)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x60d12c4;
+  constexpr static std::size_t addrs = 0x610dd04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::WaitHandle*>(), { "ThrowAbandonedMutexException", {}, {} })));
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::System::Threading::WaitHandle*)>(&::System::Threading::WaitHandle::ThrowAbandonedMutexException)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x60d1a84;
+  constexpr static std::size_t addrs = 0x610e4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::WaitHandle::*)()>(&::System::Threading::WaitHandle::Close)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x60d1c18;
+  constexpr static std::size_t addrs = 0x610e658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::WaitHandle::*)(bool)>(&::System::Threading::WaitHandle::Dispose)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x60d1c8c;
+  constexpr static std::size_t addrs = 0x610e6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::WaitHandle::*)()>(&::System::Threading::WaitHandle::Dispose)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x60d1cc0;
+  constexpr static std::size_t addrs = 0x610e700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::WaitHandle*>(), { "Dispose", {}, {} })));
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Runtime::InteropServices::SafeHandle*, uint32_t, bool, bool)>(&::System::Threading::WaitHandle::WaitOneNative)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x60d10e4;
+  constexpr static std::size_t addrs = 0x610db24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<::System::Threading::WaitHandle*>, int32_t, bool, bool)>(&::System::Threading::WaitHandle::WaitMultiple)> {
   constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x60d15d8;
+  constexpr static std::size_t addrs = 0x610e018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr*, int32_t, bool, int32_t)>(&::System::Threading::WaitHandle::Wait_internal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60d1d34;
+  constexpr static std::size_t addrs = 0x610e774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

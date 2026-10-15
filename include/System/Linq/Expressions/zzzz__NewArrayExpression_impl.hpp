@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::NewArrayExpression::*)(
     ::System::Type*, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*)>(&::System::Linq::Expressions::NewArrayExpression::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x63a4bf8;
+  constexpr static std::size_t addrs = 0x63e17c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                      ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*)>(
         &::System::Linq::Expressions::NewArrayExpression::Make)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x63a4c60;
+  constexpr static std::size_t addrs = 0x63e1830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Linq::Expressions::NewArrayExpression::*)()>(&::System::Linq::Expressions::NewArrayExpression::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63a4d08;
+  constexpr static std::size_t addrs = 0x63e18d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::NewArrayExpression*>(), { "get_Type", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* (
     ::System::Linq::Expressions::NewArrayExpression::*)()>(&::System::Linq::Expressions::NewArrayExpression::get_Expressions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63a4d10;
+  constexpr static std::size_t addrs = 0x63e18e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::NewArrayExpression*>(), { "get_Expressions", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::NewArrayExpression::*)(::System::Linq::Expressions::ExpressionVisitor*)>(
     &::System::Linq::Expressions::NewArrayExpression::Accept)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x63a4d18;
+  constexpr static std::size_t addrs = 0x63e18e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressio
     ::System::Linq::Expressions::NewArrayExpression::*)(::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*)>(
     &::System::Linq::Expressions::NewArrayExpression::Update)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x63a0fa4;
+  constexpr static std::size_t addrs = 0x63ddb74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

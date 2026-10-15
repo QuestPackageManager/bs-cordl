@@ -27,32 +27,32 @@ public:
   // Declarations
   __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
-  /// @brief Method Copy, addr 0x360e85c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x36311c0, size 0x5c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method DoFinal, addr 0x360e6cc, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x3631030, size 0x148, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method GetDigestSize, addr 0x360e6c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDigestSize, addr 0x3631028, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha512Digest* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha512Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Sha512Digest* t);
 
-  /// @brief Method Reset, addr 0x360e814, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3631178, size 0x48, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x360e8b8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x363121c, size 0x94, virtual true, abstract: false, final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
-  /// @brief Method .ctor, addr 0x360e5b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3630f1c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x360e614, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3630f78, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Sha512Digest* t);
 
-  /// @brief Method get_AlgorithmName, addr 0x360e680, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x3630fe4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
 protected:

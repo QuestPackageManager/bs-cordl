@@ -62,22 +62,22 @@ public:
   /// @brief Field _xrOriginalMirrorViewBlitMode, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__xrOriginalMirrorViewBlitMode, put = __cordl_internal_set__xrOriginalMirrorViewBlitMode)) int32_t _xrOriginalMirrorViewBlitMode;
 
-  /// @brief Method ApplyMainCameraParameters, addr 0x5e11e9c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ApplyMainCameraParameters, addr 0x5e4f6ac, size 0x10c, virtual false, abstract: false, final false
   inline void ApplyMainCameraParameters();
 
-  /// @brief Method Init, addr 0x5e11dc4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5e4f5d4, size 0xd8, virtual false, abstract: false, final false
   inline void Init(float_t fieldOfView, float_t positionSmooth, float_t rotationSmooth, bool thirdPersonEnabled, ::UnityEngine::Vector3 thirdPersonPosition,
                    ::UnityEngine::Vector3 thirdPersonEulerAngles);
 
-  /// @brief Method LateUpdate, addr 0x5e12050, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5e4f860, size 0x240, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SmoothCamera* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5e12008, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5e4f818, size 0x48, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5e11fa8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5e4f7b8, size 0x60, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set__xrOriginalMirrorViewBlitMode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5e12290, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4faa0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -158,7 +158,7 @@ public:
   SmoothCamera(SmoothCamera const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6392 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6396 };
 
   /// [SerializeField]
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None

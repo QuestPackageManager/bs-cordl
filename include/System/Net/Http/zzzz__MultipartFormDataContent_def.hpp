@@ -23,18 +23,18 @@ namespace System::Net::Http {
 class CORDL_TYPE MultipartFormDataContent : public ::System::Net::Http::MultipartContent {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x64fdf28, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x653aaf8, size 0x20, virtual true, abstract: false, final false
   inline void Add(::System::Net::Http::HttpContent* content);
 
-  /// @brief Method Add, addr 0x64fe02c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x653abfc, size 0xb8, virtual false, abstract: false, final false
   inline void Add(::System::Net::Http::HttpContent* content, ::StringW name, ::StringW fileName);
 
-  /// @brief Method AddContentDisposition, addr 0x64fdf48, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method AddContentDisposition, addr 0x653ab18, size 0xe4, virtual false, abstract: false, final false
   inline void AddContentDisposition(::System::Net::Http::HttpContent* content, ::StringW name, ::StringW fileName);
 
   static inline ::System::Net::Http::MultipartFormDataContent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x64fdedc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x653aaac, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +52,7 @@ public:
   MultipartFormDataContent(MultipartFormDataContent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20993 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

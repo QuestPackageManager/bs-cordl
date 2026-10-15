@@ -25,11 +25,11 @@ class CORDL_TYPE MatchTargetFieldConstants : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method HasAny, addr 0x6dd61cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HasAny, addr 0x6e12e68, size 0xc, virtual false, abstract: false, final false
   static inline bool HasAny(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields fields);
 
   /// [Extension]
-  /// @brief Method Toggle, addr 0x6dd61d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Toggle, addr 0x6e12e74, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::MatchTargetFields Toggle(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields flag);
 
 protected:
@@ -59,7 +59,7 @@ public:
   static ::UnityEngine::Timeline::MatchTargetFields const Rotation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19304 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

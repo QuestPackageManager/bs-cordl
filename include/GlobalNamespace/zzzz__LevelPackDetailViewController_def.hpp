@@ -132,7 +132,7 @@ public:
   static ::GlobalNamespace::LevelPackDetailViewController_ContentType const NonBuyable;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7061 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -159,11 +159,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5d6f8f0, size 0x3b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5daaa78, size 0x3b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5d6fca0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5daae28, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -182,7 +182,7 @@ public:
                                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7062 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -224,11 +224,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5d6fca8, size 0x87c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5daae30, size 0x87c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5d70524, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5dab6ac, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -251,7 +251,7 @@ public:
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7056 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7063 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -359,47 +359,47 @@ public:
   /// @brief Field _steamMessageGameObject, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__steamMessageGameObject, put = __cordl_internal_set__steamMessageGameObject)) ::UnityW<::UnityEngine::GameObject> _steamMessageGameObject;
 
-  /// @brief Method BuyPackButtonWasPressed, addr 0x5d6f3f4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method BuyPackButtonWasPressed, addr 0x5daa57c, size 0x9c, virtual false, abstract: false, final false
   inline void BuyPackButtonWasPressed();
 
-  /// @brief Method DidActivate, addr 0x5d6eec8, size 0x288, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5daa050, size 0x288, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5d6f150, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5daa2d8, size 0x12c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x5d6f768, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x5daa8f0, size 0x4, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
   static inline ::GlobalNamespace::LevelPackDetailViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5d6f27c, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5daa404, size 0x178, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   /// [AsyncStateMachine(typeof(LevelPackDetailViewController::<OpenLevelPackProductStoreAsync>d__27))]
-  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x5d6f490, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x5daa618, size 0xa4, virtual false, abstract: false, final false
   inline void OpenLevelPackProductStoreAsync();
 
   /// [AsyncStateMachine(typeof(LevelPackDetailViewController::<RefreshAvailabilityAsync>d__25))]
-  /// @brief Method RefreshAvailabilityAsync, addr 0x5d6ee24, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RefreshAvailabilityAsync, addr 0x5da9fac, size 0xa4, virtual false, abstract: false, final false
   inline void RefreshAvailabilityAsync();
 
-  /// @brief Method SetData, addr 0x5d6a594, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5da56d0, size 0x300, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapLevelPack* pack);
 
-  /// @brief Method ShowContent, addr 0x5d6f534, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ShowContent, addr 0x5daa6bc, size 0x234, virtual false, abstract: false, final false
   inline void ShowContent(::GlobalNamespace::LevelPackDetailViewController_ContentType contentType, ::StringW errorText);
 
   /// [CompilerGenerated]
-  /// @brief Method <DidActivate>b__22_1, addr 0x5d6f7d0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__22_1, addr 0x5daa958, size 0x90, virtual false, abstract: false, final false
   inline void _DidActivate_b__22_1();
 
   /// [CompilerGenerated]
-  /// @brief Method <DidActivate>b__22_2, addr 0x5d6f860, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__22_2, addr 0x5daa9e8, size 0x90, virtual false, abstract: false, final false
   inline void _DidActivate_b__22_2();
 
   /// [CompilerGenerated]
-  /// @brief Method <DidActivate>g__HandleDidPressRefreshButton|22_0, addr 0x5d6f7cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>g__HandleDidPressRefreshButton|22_0, addr 0x5daa954, size 0x4, virtual false, abstract: false, final false
   inline void _DidActivate_g__HandleDidPressRefreshButton_22_0();
 
   constexpr ::GlobalNamespace::IAdditionalContentModel* const& __cordl_internal_get__additionalContentModel() const;
@@ -510,7 +510,7 @@ public:
 
   constexpr void __cordl_internal_set__steamMessageGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x5d6f76c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5daa8f4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -528,7 +528,7 @@ public:
   LevelPackDetailViewController(LevelPackDetailViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7057 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7064 };
 
   /// @brief Field kLabelPleaseRestartGameLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kLabelPleaseRestartGameLocalizationKey{ u"LABEL_PLEASE_RESTART_GAME" };

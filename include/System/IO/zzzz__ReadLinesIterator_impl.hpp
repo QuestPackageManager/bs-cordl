@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::ReadLinesIterator::*)(::StringW, ::System::Text::Encoding*, ::System::IO::StreamReader*)>(
     &::System::IO::ReadLinesIterator::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6023484;
+  constexpr static std::size_t addrs = 0x605fd6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::ReadLinesIterator::*)()>(&::System::IO::ReadLinesIterator::MoveNext)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x60234f4;
+  constexpr static std::size_t addrs = 0x605fddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Iterator_1<::StringW>* (::System::IO::ReadLinesIterator::*)()>(&::System::IO::ReadLinesIterator::Clone)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6023570;
+  constexpr static std::size_t addrs = 0x605fe58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::ReadLinesIterator::*)(bool)>(&::System::IO::ReadLinesIterator::Dispose)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6023630;
+  constexpr static std::size_t addrs = 0x605ff18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::ReadLinesIterator* (*)(::StringW, ::System::Text::Encoding*)>(&::System::IO::ReadLinesIterator::CreateIterator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6023708;
+  constexpr static std::size_t addrs = 0x605fff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::ReadLinesIterator* (*)(::StringW, ::System::Text::Encoding*, ::System::IO::StreamReader*)>(
     &::System::IO::ReadLinesIterator::CreateIterator)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6023580;
+  constexpr static std::size_t addrs = 0x605fe68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

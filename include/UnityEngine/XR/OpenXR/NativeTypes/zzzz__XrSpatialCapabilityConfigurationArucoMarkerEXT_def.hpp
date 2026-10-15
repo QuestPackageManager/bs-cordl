@@ -60,52 +60,52 @@ public:
   /// @brief Convert operator to "::UnityEngine::XR::OpenXR::NativeTypes::ISpatialCapabilityConfiguration"
   constexpr operator ::UnityEngine::XR::OpenXR::NativeTypes::ISpatialCapabilityConfiguration*();
 
-  /// @brief Method .ctor, addr 0x6e43ac0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8075c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(uint32_t enabledComponentCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* enabledComponents,
                     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerArucoDictEXT arUcoDict);
 
-  /// @brief Method .ctor, addr 0x6e43b5c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e807f8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT> enabledComponents,
                     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerArucoDictEXT arUcoDict);
 
-  /// @brief Method .ctor, addr 0x6e43c64, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80900, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT> enabledComponents,
                     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerArucoDictEXT arUcoDict);
 
-  /// @brief Method .ctor, addr 0x6e43aa0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8073c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint32_t enabledComponentCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* enabledComponents,
                     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerArucoDictEXT arUcoDict);
 
-  /// @brief Method .ctor, addr 0x6e43ae0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8077c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT> enabledComponents,
                     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerArucoDictEXT arUcoDict);
 
-  /// @brief Method .ctor, addr 0x6e43bd4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80870, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT> enabledComponents,
                     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerArucoDictEXT arUcoDict);
 
   /// [CompilerGenerated]
-  /// @brief Method get_arUcoDict, addr 0x6e43a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arUcoDict, addr 0x6e80734, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerArucoDictEXT get_arUcoDict();
 
   /// [CompilerGenerated]
-  /// @brief Method get_capability, addr 0x6e43a80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_capability, addr 0x6e8071c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityEXT get_capability();
 
   /// [CompilerGenerated]
-  /// @brief Method get_enabledComponentCount, addr 0x6e43a88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_enabledComponentCount, addr 0x6e80724, size 0x8, virtual true, abstract: false, final true
   inline uint32_t get_enabledComponentCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_enabledComponents, addr 0x6e43a90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_enabledComponents, addr 0x6e8072c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* get_enabledComponents();
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e43a78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_next, addr 0x6e80714, size 0x8, virtual true, abstract: false, final true
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e43a70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_type, addr 0x6e8070c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   /// @brief Convert to "::UnityEngine::XR::OpenXR::NativeTypes::ISpatialCapabilityConfiguration"
@@ -127,7 +127,7 @@ public:
                                                            ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerArucoDictEXT _arUcoDict_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17601 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

@@ -33,26 +33,26 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e44f80, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81c1c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint64_t spatialContext, uint64_t spatialEntityId);
 
-  /// @brief Method .ctor, addr 0x6e44f98, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81c34, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(uint64_t spatialContext, uint64_t spatialEntityId);
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e44f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e81c04, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_spatialContext, addr 0x6e44f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spatialContext, addr 0x6e81c0c, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_spatialContext();
 
   /// [CompilerGenerated]
-  /// @brief Method get_spatialEntityId, addr 0x6e44f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spatialEntityId, addr 0x6e81c14, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_spatialEntityId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e44f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e81bfc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -66,7 +66,7 @@ public:
                                           uint64_t _spatialEntityId_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17619 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint64_t)>(&::GlobalNamespace::BitMaskUtil::NumberOfSetBits)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x34e6d8c;
+  constexpr static std::size_t addrs = 0x34ff1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::GlobalNamespace::BitMaskUtil::NumberOfSetBits)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x34ded1c;
+  constexpr static std::size_t addrs = 0x34f7158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::by_ref<uint64_t const>, ::by_ref<int32_t const>)>(&::GlobalNamespace::BitMaskUtil::ShiftLeft)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x34e6dbc;
+  constexpr static std::size_t addrs = 0x34ff20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(::by_ref<uint64_t const>, ::by_ref<int32_t const>)>(&::GlobalNamespace::BitMaskUtil::ShiftRight)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x34e6e00;
+  constexpr static std::size_t addrs = 0x34ff250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

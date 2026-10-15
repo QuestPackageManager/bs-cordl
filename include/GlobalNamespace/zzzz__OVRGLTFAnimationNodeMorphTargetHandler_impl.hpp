@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)(::GlobalNamespace::OVRMeshData)>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x626ae60;
+  constexpr static std::size_t addrs = 0x62a78a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)()>(&::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::Update)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x626af0c;
+  constexpr static std::size_t addrs = 0x62a7954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>(), { "Update", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)()>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::MarkModified)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x626b190;
+  constexpr static std::size_t addrs = 0x62a7bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>(), { "MarkModified", {}, {} })));

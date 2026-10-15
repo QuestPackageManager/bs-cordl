@@ -68,7 +68,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::TwoPaneSplitView_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x7212540, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x724f474, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Orientation,
                       put = __cordl_internal_set_m_Orientation)) ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>* m_Orientation;
 
-  /// @brief Method Init, addr 0x72125a8, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x724f4dc, size 0x188, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::TwoPaneSplitView_UxmlTraits* New_ctor();
@@ -136,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Orientation(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>* value);
 
-  /// @brief Method .ctor, addr 0x7212730, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x724f664, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -291,42 +291,42 @@ public:
   /// @brief Field s_VerticalClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_VerticalClassName, put = setStaticF_s_VerticalClassName)) ::StringW s_VerticalClassName;
 
-  /// @brief Method AdjustPanesBasedOnAnchor, addr 0x720f580, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method AdjustPanesBasedOnAnchor, addr 0x724c4b4, size 0x6a0, virtual false, abstract: false, final false
   inline void AdjustPanesBasedOnAnchor();
 
-  /// @brief Method CollapseChild, addr 0x720ef9c, size 0x5e4, virtual false, abstract: false, final false
+  /// @brief Method CollapseChild, addr 0x724bed0, size 0x5e4, virtual false, abstract: false, final false
   inline void CollapseChild(int32_t index);
 
-  /// @brief Method IdentifyLeftAndRightPane, addr 0x72112c0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IdentifyLeftAndRightPane, addr 0x724e1f4, size 0x78, virtual false, abstract: false, final false
   inline void IdentifyLeftAndRightPane();
 
-  /// @brief Method Init, addr 0x720fc20, size 0x318, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x724cb54, size 0x318, virtual true, abstract: false, final false
   inline void Init(int32_t fixedPaneIndex, float_t fixedPaneInitialDimension, ::UnityEngine::UIElements::TwoPaneSplitViewOrientation orientation);
 
   static inline ::UnityEngine::UIElements::TwoPaneSplitView* New_ctor();
 
-  /// @brief Method OnPostDisplaySetup, addr 0x7211180, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method OnPostDisplaySetup, addr 0x724e0b4, size 0x140, virtual false, abstract: false, final false
   inline void OnPostDisplaySetup(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnSizeChange, addr 0x7211408, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnSizeChange, addr 0x724e33c, size 0xc, virtual false, abstract: false, final false
   inline void OnSizeChange(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnViewDataReady, addr 0x721219c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x724f0d0, size 0x30, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method PostDisplaySetup, addr 0x720ff38, size 0x1248, virtual false, abstract: false, final false
+  /// @brief Method PostDisplaySetup, addr 0x724ce6c, size 0x1248, virtual false, abstract: false, final false
   inline void PostDisplaySetup();
 
-  /// @brief Method SetDragLineOffset, addr 0x7211ecc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetDragLineOffset, addr 0x724ee00, size 0x164, virtual false, abstract: false, final false
   inline void SetDragLineOffset(float_t offset);
 
-  /// @brief Method SetFixedPaneDimension, addr 0x7212030, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetFixedPaneDimension, addr 0x724ef64, size 0x164, virtual false, abstract: false, final false
   inline void SetFixedPaneDimension(float_t dimension);
 
-  /// @brief Method SetupSplitView, addr 0x720edac, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method SetupSplitView, addr 0x724bce0, size 0x1f0, virtual false, abstract: false, final false
   inline void SetupSplitView();
 
-  /// @brief Method UpdateLayout, addr 0x7211414, size 0xab8, virtual false, abstract: false, final false
+  /// @brief Method UpdateLayout, addr 0x724e348, size 0xab8, virtual false, abstract: false, final false
   inline void UpdateLayout(bool updateFixedPane, bool updateDragLine);
 
   constexpr bool const& __cordl_internal_get_m_CollapseMode() const;
@@ -419,7 +419,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RightPane(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x720ed10, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x724bc44, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_fixedPaneIndexProperty();
@@ -448,28 +448,28 @@ public:
 
   static inline ::StringW getStaticF_s_VerticalClassName();
 
-  /// @brief Method get_contentContainer, addr 0x7212194, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x724f0c8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_dragLine, addr 0x720eaa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dragLine, addr 0x724b9d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragLine();
 
-  /// @brief Method get_fixedPane, addr 0x720ea94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fixedPane, addr 0x724b9c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_fixedPane();
 
-  /// @brief Method get_fixedPaneDimension, addr 0x720ecd0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_fixedPaneDimension, addr 0x724bc04, size 0x24, virtual false, abstract: false, final false
   inline float_t get_fixedPaneDimension();
 
-  /// @brief Method get_fixedPaneIndex, addr 0x720eaac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fixedPaneIndex, addr 0x724b9e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fixedPaneIndex();
 
-  /// @brief Method get_fixedPaneInitialDimension, addr 0x720eb60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fixedPaneInitialDimension, addr 0x724ba94, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fixedPaneInitialDimension();
 
-  /// @brief Method get_flexedPane, addr 0x720ea9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flexedPane, addr 0x724b9d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_flexedPane();
 
-  /// @brief Method get_orientation, addr 0x720ec18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_orientation, addr 0x724bb4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TwoPaneSplitViewOrientation get_orientation();
 
   static inline void setStaticF_fixedPaneIndexProperty(::UnityEngine::UIElements::BindingId value);
@@ -499,16 +499,16 @@ public:
   static inline void setStaticF_s_VerticalClassName(::StringW value);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method set_fixedPaneDimension, addr 0x720ecf4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_fixedPaneDimension, addr 0x724bc28, size 0x1c, virtual false, abstract: false, final false
   inline void set_fixedPaneDimension(float_t value);
 
-  /// @brief Method set_fixedPaneIndex, addr 0x720eab4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_fixedPaneIndex, addr 0x724b9e8, size 0xac, virtual false, abstract: false, final false
   inline void set_fixedPaneIndex(int32_t value);
 
-  /// @brief Method set_fixedPaneInitialDimension, addr 0x720eb68, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_fixedPaneInitialDimension, addr 0x724ba9c, size 0xb0, virtual false, abstract: false, final false
   inline void set_fixedPaneInitialDimension(float_t value);
 
-  /// @brief Method set_orientation, addr 0x720ec20, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_orientation, addr 0x724bb54, size 0xb0, virtual false, abstract: false, final false
   inline void set_orientation(::UnityEngine::UIElements::TwoPaneSplitViewOrientation value);
 
 protected:

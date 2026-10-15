@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexWriter::*)(::System::Span_1<int32_t>, ::System::Span_1<int32_t>)>(
     &::System::Text::RegularExpressions::RegexWriter::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x67bd97c;
+  constexpr static std::size_t addrs = 0x67fa5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::RegularExpressions::RegexCode* (*)(::System::Text::RegularExpressions::RegexTree*)>(
     &::System::Text::RegularExpressions::RegexWriter::Write)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x67bdaa4;
+  constexpr static std::size_t addrs = 0x67fa6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexWriter::*)()>(&::System::Text::RegularExpressions::RegexWriter::Dispose)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x67be024;
+  constexpr static std::size_t addrs = 0x67fac68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::RegexWriter>(), { "Dispose", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::RegularExpressions::RegexCode* (
     ::System::Text::RegularExpressions::RegexWriter::*)(::System::Text::RegularExpressions::RegexTree*)>(&::System::Text::RegularExpressions::RegexWriter::RegexCodeFromRegexTree)> {
   constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x67bdb90;
+  constexpr static std::size_t addrs = 0x67fa7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::RegexWriter>(),
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexWriter::*)(int32_t, int32_t)>(&::System::Text::RegularExpressions::RegexWriter::PatchJump)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x67beb10;
+  constexpr static std::size_t addrs = 0x67fb754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexWriter::*)(int32_t)>(&::System::Text::RegularExpressions::RegexWriter::Emit)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x67beb7c;
+  constexpr static std::size_t addrs = 0x67fb7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexWriter::*)(int32_t, int32_t)>(&::System::Text::RegularExpressions::RegexWriter::Emit)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x67be07c;
+  constexpr static std::size_t addrs = 0x67facc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexWriter::*)(int32_t, int32_t, int32_t)>(&::System::Text::RegularExpressions::RegexWriter::Emit)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x67bec50;
+  constexpr static std::size_t addrs = 0x67fb894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Text::RegularExpressions::RegexWriter>(),
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::RegularExpressions::RegexWriter::*)(::StringW)>(&::System::Text::RegularExpressions::RegexWriter::StringCode)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x67bedfc;
+  constexpr static std::size_t addrs = 0x67fba40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Text::RegularExpressions::RegexWriter::*)(int32_t)>(&::System::Text::RegularExpressions::RegexWriter::MapCapnum)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x67bef60;
+  constexpr static std::size_t addrs = 0x67fbba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Text::RegularExpressions::RegexWriter::*)(int32_t, ::System::Text::RegularExpressions::RegexNode*, int32_t)>(
     &::System::Text::RegularExpressions::RegexWriter::EmitFragment)> {
   constexpr static std::size_t size = 0x950;
-  constexpr static std::size_t addrs = 0x67be1c0;
+  constexpr static std::size_t addrs = 0x67fae04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

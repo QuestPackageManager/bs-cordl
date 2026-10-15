@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::XmlComplianceUtil::NonCDataNormalize)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x67020a8;
+  constexpr static std::size_t addrs = 0x673ec78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::XmlComplianceUtil::CDataNormalize)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x67023b8;
+  constexpr static std::size_t addrs = 0x673ef88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -37,15 +37,15 @@ class CORDL_TYPE CustomAttributeExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method GetCustomAttribute, addr 0x5f9dac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttribute, addr 0x5fda3a8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::Assembly* element, ::System::Type* attributeType);
 
   /// [Extension]
-  /// @brief Method GetCustomAttribute, addr 0x5f9dac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttribute, addr 0x5fda3b0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::MemberInfo* element, ::System::Type* attributeType);
 
   /// [Extension]
-  /// @brief Method GetCustomAttribute, addr 0x5f9dad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttribute, addr 0x5fda3b8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::MemberInfo* element, ::System::Type* attributeType, bool inherit);
 
   /// [Extension]
@@ -67,19 +67,19 @@ public:
   static inline T GetCustomAttribute(::System::Reflection::MemberInfo* element, bool inherit);
 
   /// [Extension]
-  /// @brief Method GetCustomAttributes, addr 0x5f9dad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x5fda3c0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes(::System::Reflection::Assembly* element);
 
   /// [Extension]
-  /// @brief Method GetCustomAttributes, addr 0x5f9dae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x5fda3c8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes(::System::Reflection::MemberInfo* element);
 
   /// [Extension]
-  /// @brief Method GetCustomAttributes, addr 0x5f9dae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x5fda3d0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes(::System::Reflection::MemberInfo* element, ::System::Type* attributeType);
 
   /// [Extension]
-  /// @brief Method GetCustomAttributes, addr 0x5f9daf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x5fda3d8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes(::System::Reflection::MemberInfo* element, ::System::Type* attributeType, bool inherit);
 
   /// [Extension]
@@ -95,7 +95,7 @@ public:
   static inline ::System::Collections::Generic::IEnumerable_1<T>* GetCustomAttributes(::System::Reflection::MemberInfo* element, bool inherit);
 
   /// [Extension]
-  /// @brief Method IsDefined, addr 0x5f9daf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x5fda3e0, size 0x8, virtual false, abstract: false, final false
   static inline bool IsDefined(::System::Reflection::MemberInfo* element, ::System::Type* attributeType);
 
 protected:

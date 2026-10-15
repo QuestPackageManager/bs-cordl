@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0::*)()>(
     &::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x658bb00;
+  constexpr static std::size_t addrs = 0x65c86d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (
                                                                                                        ::ArrayW<::System::Xml::XmlDictionaryString*>, ::ArrayW<::System::Xml::XmlDictionaryString*>)>(
     &::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass0_0::_GenerateClassReader_b__0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x658bb0c;
+  constexpr static std::size_t addrs = 0x65c86dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0::*)()>(
     &::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x658bb04;
+  constexpr static std::size_t addrs = 0x65c86d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (
                                                                                                        ::System::Runtime::Serialization::CollectionDataContract*)>(
     &::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass1_0::_GenerateCollectionReader_b__0)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x658bb94;
+  constexpr static std::size_t addrs = 0x65c8764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0::*)()>(
     &::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x658bb08;
+  constexpr static std::size_t addrs = 0x65c86d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::
     ::System::Runtime::Serialization::CollectionDataContract*)>(
     &::System::Runtime::Serialization::CriticalHelper_XmlFormatReaderGenerator___c__DisplayClass2_0::_GenerateGetOnlyCollectionReader_b__0)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x658bc20;
+  constexpr static std::size_t addrs = 0x65c87f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,7 +240,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serial
     ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper::*)(::System::Runtime::Serialization::ClassDataContract*)>(
     &::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper::GenerateClassReader)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x658b55c;
+  constexpr static std::size_t addrs = 0x65c812c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper*>(),
@@ -255,7 +255,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serial
     ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper::*)(::System::Runtime::Serialization::CollectionDataContract*)>(
     &::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper::GenerateCollectionReader)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x658b79c;
+  constexpr static std::size_t addrs = 0x65c836c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serial
     ::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper::*)(::System::Runtime::Serialization::CollectionDataContract*)>(
     &::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper::GenerateGetOnlyCollectionReader)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x658b9dc;
+  constexpr static std::size_t addrs = 0x65c85ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper::*)()>(
     &::System::Runtime::Serialization::XmlFormatReaderGenerator_CriticalHelper::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x658b3c0;
+  constexpr static std::size_t addrs = 0x65c7f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::XmlFormatReaderGenerator::*)()>(&::System::Runtime::Serialization::XmlFormatReaderGenerator::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x658b370;
+  constexpr static std::size_t addrs = 0x65c7f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlFormatReaderGenerator*>(), { ".ctor", {}, {} })));
@@ -343,7 +343,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Runtime::Serialization::XmlFormatClassReaderDelegate* (::System::Runtime::Serialization::XmlFormatReaderGenerator::*)(::System::Runtime::Serialization::ClassDataContract*)>(
         &::System::Runtime::Serialization::XmlFormatReaderGenerator::GenerateClassReader)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x658b3c4;
+  constexpr static std::size_t addrs = 0x65c7f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::XmlFormatReaderGenerator*>(),
@@ -358,7 +358,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serial
     ::System::Runtime::Serialization::XmlFormatReaderGenerator::*)(::System::Runtime::Serialization::CollectionDataContract*)>(
     &::System::Runtime::Serialization::XmlFormatReaderGenerator::GenerateCollectionReader)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x658b604;
+  constexpr static std::size_t addrs = 0x65c81d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Serial
     ::System::Runtime::Serialization::XmlFormatReaderGenerator::*)(::System::Runtime::Serialization::CollectionDataContract*)>(
     &::System::Runtime::Serialization::XmlFormatReaderGenerator::GenerateGetOnlyCollectionReader)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x658b844;
+  constexpr static std::size_t addrs = 0x65c8414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -388,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(int32_t)>(&::System::Runtime::Serialization::XmlFormatReaderGenerator::UnsafeGetUninitializedObject)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x658ba84;
+  constexpr static std::size_t addrs = 0x65c8654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

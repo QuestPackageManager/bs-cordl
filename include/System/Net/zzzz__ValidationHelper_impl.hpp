@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Net::ValidationHelper::MakeStringNull)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6833b84;
+  constexpr static std::size_t addrs = 0x68707c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::Net::ValidationHelper::IsBlankString)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x68364cc;
+  constexpr static std::size_t addrs = 0x6873110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::System::Net::ValidationHelper::ValidateTcpPort)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68364e8;
+  constexpr static std::size_t addrs = 0x687312c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

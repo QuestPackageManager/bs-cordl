@@ -29,7 +29,7 @@ public:
   __declspec(property(get = __cordl_internal_get_reason, put = __cordl_internal_set_reason)) ::StringW reason;
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreatePackageManagerResolveErrorPackageAnalytic, addr 0x72c0c10, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreatePackageManagerResolveErrorPackageAnalytic, addr 0x72fdb44, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic* CreatePackageManagerResolveErrorPackageAnalytic();
 
   static inline ::UnityEditor::Analytics::PackageManagerResolveErrorPackageAnalytic* New_ctor();
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_reason(::StringW value);
 
-  /// @brief Method .ctor, addr 0x72c0b7c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72fdab0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   PackageManagerResolveErrorPackageAnalytic(PackageManagerResolveErrorPackageAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23297 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23401 };
 
   /// @brief Field reason, offset: 0x60, size: 0x8, def value: None
   ::StringW ___reason;

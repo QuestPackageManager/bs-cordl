@@ -7,6 +7,7 @@
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "GlobalNamespace/zzzz__SettingsFlowCoordinator_def.hpp"
+#include "BeatSaber/Analytics/Settings/zzzz__SettingsChangeAnalytics_def.hpp"
 #include "BeatSaber/GameSettings/zzzz__ControllerProfilesModel_def.hpp"
 #include "BeatSaber/GameSettings/zzzz__ControllerProfilesSettingsViewController_def.hpp"
 #include "GlobalNamespace/zzzz__DropdownDialogPromptViewController_def.hpp"
@@ -32,57 +33,57 @@ constexpr ::GlobalNamespace::SettingsFlowCoordinator_FinishAction::SettingsFlowC
 constexpr ::GlobalNamespace::SettingsFlowCoordinator_FinishAction GlobalNamespace::SettingsFlowCoordinator_FinishAction::Cancel{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::SettingsFlowCoordinator_FinishAction GlobalNamespace::SettingsFlowCoordinator_FinishAction::Ok{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::SettingsFlowCoordinator_FinishAction GlobalNamespace::SettingsFlowCoordinator_FinishAction::Apply{ static_cast<int32_t>(0x2) };
-//  Writing Method size for method: ::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27::*)()>(
-    &::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27::MoveNext)> {
-  constexpr static std::size_t size = 0x47c;
-  constexpr static std::size_t addrs = 0x5e2a1e8;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28::*)()>(
+    &::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28::MoveNext)> {
+  constexpr static std::size_t size = 0x5f4;
+  constexpr static std::size_t addrs = 0x5e67cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e2a664;
+  constexpr static std::size_t addrs = 0x5e682a4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27::MoveNext() {
+inline void GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27>(),
+inline void GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::UnityW<::GlobalNamespace::SettingsFlowCoordinator>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
 // modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27::SettingsFlowCoordinator__ApplySettingsAsync_d__27(
+constexpr ::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28::SettingsFlowCoordinator__ApplySettingsAsync_d__28(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::SettingsFlowCoordinator> __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -91,58 +92,58 @@ constexpr ::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__27::SettingsFlowCoordinator__ApplySettingsAsync_d__27() {}
-//  Writing Method size for method: ::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28.MoveNext
+constexpr ::GlobalNamespace::SettingsFlowCoordinator__ApplySettingsAsync_d__28::SettingsFlowCoordinator__ApplySettingsAsync_d__28() {}
+//  Writing Method size for method: ::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28::*)()>(
-    &::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29::*)()>(
+    &::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29::MoveNext)> {
   constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x5e2a6d0;
+  constexpr static std::size_t addrs = 0x5e68310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e2aa8c;
+  constexpr static std::size_t addrs = 0x5e686cc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28::MoveNext() {
+inline void GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28>(),
+inline void GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::UnityW<::GlobalNamespace::SettingsFlowCoordinator>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
 // modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28::SettingsFlowCoordinator__CancelSettingsAsync_d__28(
+constexpr ::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29::SettingsFlowCoordinator__CancelSettingsAsync_d__29(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::SettingsFlowCoordinator> __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -151,54 +152,54 @@ constexpr ::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28:
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__28::SettingsFlowCoordinator__CancelSettingsAsync_d__28() {}
-//  Writing Method size for method: ::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26.MoveNext
+constexpr ::GlobalNamespace::SettingsFlowCoordinator__CancelSettingsAsync_d__29::SettingsFlowCoordinator__CancelSettingsAsync_d__29() {}
+//  Writing Method size for method: ::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26::*)()>(
-    &::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27::*)()>(
+    &::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27::MoveNext)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x5e2aaf8;
+  constexpr static std::size_t addrs = 0x5e68738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26>(), { "MoveNext", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e2af2c;
+  constexpr static std::size_t addrs = 0x5e68b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27>(),
                                                              { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26::MoveNext() {
+inline void GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26>(), { "MoveNext", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27>(),
                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -206,7 +207,7 @@ GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidF
 // "::GlobalNamespace::SettingsNavigationController_FinishAction", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::UnityW<::GlobalNamespace::SettingsFlowCoordinator>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
 // modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26(
+constexpr ::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::SettingsNavigationController_FinishAction finishAction,
     ::UnityW<::GlobalNamespace::SettingsFlowCoordinator> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -216,7 +217,7 @@ constexpr ::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationCo
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__26() {}
+constexpr ::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27() {}
 //  Writing Method size for method: ::GlobalNamespace::SettingsFlowCoordinator.add_didFinishEvent
 template <>
 
@@ -224,7 +225,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>*)>(
     &::GlobalNamespace::SettingsFlowCoordinator::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e28fb4;
+  constexpr static std::size_t addrs = 0x5e669a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -242,7 +243,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>*)>(
     &::GlobalNamespace::SettingsFlowCoordinator::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e29074;
+  constexpr static std::size_t addrs = 0x5e66a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,8 +259,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)(bool, bool, bool)>(&::GlobalNamespace::SettingsFlowCoordinator::DidActivate)> {
-  constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x5e29134;
+  constexpr static std::size_t size = 0x42c;
+  constexpr static std::size_t addrs = 0x5e66b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)(bool, bool)>(&::GlobalNamespace::SettingsFlowCoordinator::DidDeactivate)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x5e29658;
+  constexpr static std::size_t addrs = 0x5e67120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::SettingsFlowCoordinator::ReplaceViewController)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5e29988;
+  constexpr static std::size_t addrs = 0x5e67450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -300,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::SettingsFlowCoordinator::ShowSecretViewController)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e29a24;
+  constexpr static std::size_t addrs = 0x5e674ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -314,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)(::GlobalNamespace::SettingsSubMenuInfo*, int32_t)>(
     &::GlobalNamespace::SettingsFlowCoordinator::HandleDidSelectSettingsSubMenu)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5e29a28;
+  constexpr static std::size_t addrs = 0x5e674f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -329,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)(::ArrayW<::System::ValueTuple_2<::StringW, int32_t>>)>(
     &::GlobalNamespace::SettingsFlowCoordinator::HandleRequestToSelectProfileToCopyFrom)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x5e29a98;
+  constexpr static std::size_t addrs = 0x5e67560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)(::GlobalNamespace::SettingsNavigationController_FinishAction)>(
     &::GlobalNamespace::SettingsFlowCoordinator::HandleSettingsNavigationControllerDidFinishAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5e29f2c;
+  constexpr static std::size_t addrs = 0x5e679f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::SettingsFlowCoordinator::*)()>(
     &::GlobalNamespace::SettingsFlowCoordinator::ApplySettingsAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5e29fdc;
+  constexpr static std::size_t addrs = 0x5e67aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator*>(), { "ApplySettingsAsync", {}, {} })));
@@ -372,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::SettingsFlowCoordinator::*)()>(
     &::GlobalNamespace::SettingsFlowCoordinator::CancelSettingsAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5e2a08c;
+  constexpr static std::size_t addrs = 0x5e67b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator*>(), { "CancelSettingsAsync", {}, {} })));
@@ -384,25 +385,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)()>(&::GlobalNamespace::SettingsFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e2a13c;
+  constexpr static std::size_t addrs = 0x5e67c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SettingsFlowCoordinator._HandleRequestToSelectProfileToCopyFrom_b__25_0
+//  Writing Method size for method: ::GlobalNamespace::SettingsFlowCoordinator._HandleRequestToSelectProfileToCopyFrom_b__26_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SettingsFlowCoordinator::*)(::System::ValueTuple_2<int32_t, int32_t>)>(
-    &::GlobalNamespace::SettingsFlowCoordinator::_HandleRequestToSelectProfileToCopyFrom_b__25_0)> {
+    &::GlobalNamespace::SettingsFlowCoordinator::_HandleRequestToSelectProfileToCopyFrom_b__26_0)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5e2a144;
+  constexpr static std::size_t addrs = 0x5e67c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator*>(),
-                                                             { "<HandleRequestToSelectProfileToCopyFrom>b__25_0", {}, { ::i2c::type_of<::System::ValueTuple_2<int32_t, int32_t>>() } })));
+                                                             { "<HandleRequestToSelectProfileToCopyFrom>b__26_0", {}, { ::i2c::type_of<::System::ValueTuple_2<int32_t, int32_t>>() } })));
     return ___internal_method;
   }
 };
@@ -530,6 +531,18 @@ constexpr void GlobalNamespace::SettingsFlowCoordinator::__cordl_internal_set__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____controllerProfilesModel = value;
 }
+constexpr ::BeatSaber::Analytics::Settings::SettingsChangeAnalytics*& GlobalNamespace::SettingsFlowCoordinator::__cordl_internal_get__settingsChangeAnalytics() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____settingsChangeAnalytics;
+}
+constexpr ::BeatSaber::Analytics::Settings::SettingsChangeAnalytics* const& GlobalNamespace::SettingsFlowCoordinator::__cordl_internal_get__settingsChangeAnalytics() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____settingsChangeAnalytics;
+}
+constexpr void GlobalNamespace::SettingsFlowCoordinator::__cordl_internal_set__settingsChangeAnalytics(::BeatSaber::Analytics::Settings::SettingsChangeAnalytics* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____settingsChangeAnalytics = value;
+}
 constexpr ::BeatSaber::Settings::Settings& GlobalNamespace::SettingsFlowCoordinator::__cordl_internal_get__undoSettings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____undoSettings;
@@ -617,11 +630,11 @@ inline void GlobalNamespace::SettingsFlowCoordinator::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::SettingsFlowCoordinator::_HandleRequestToSelectProfileToCopyFrom_b__25_0(
+inline void GlobalNamespace::SettingsFlowCoordinator::_HandleRequestToSelectProfileToCopyFrom_b__26_0(
     /* [TupleElementNames(new[] { "selectedButtonIndex", "selectedDropdownIndex" })] */ ::System::ValueTuple_2<int32_t, int32_t> arguments) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SettingsFlowCoordinator*>(),
-                                                           { "<HandleRequestToSelectProfileToCopyFrom>b__25_0", {}, { ::i2c::type_of<::System::ValueTuple_2<int32_t, int32_t>>() } })));
+                                                           { "<HandleRequestToSelectProfileToCopyFrom>b__26_0", {}, { ::i2c::type_of<::System::ValueTuple_2<int32_t, int32_t>>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, arguments);
 }
 inline ::GlobalNamespace::SettingsFlowCoordinator* GlobalNamespace::SettingsFlowCoordinator::New_ctor() {

@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_LoopDuration(float_t value);
 
-  /// @brief Method .ctor, addr 0x6e0ed8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e4ba28, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   LoopAndDelay_InputProperties(LoopAndDelay_InputProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20235 };
 
   /// [Tooltip("Number of Loops (< 0 for infinite), evaluated when Context Start is hit")]
   /// @brief Field LoopCount, offset: 0x10, size: 0x4, def value: None
@@ -141,13 +141,13 @@ public:
 
   static inline ::UnityEngine::VFX::LoopAndDelay* New_ctor();
 
-  /// @brief Method OnPlay, addr 0x6e0ea7c, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method OnPlay, addr 0x6e4b718, size 0xcc, virtual true, abstract: false, final true
   inline void OnPlay(::UnityEngine::VFX::VFXSpawnerState* state, ::UnityEngine::VFX::VFXExpressionValues* vfxValues, ::UnityEngine::VFX::VisualEffect* vfxComponent);
 
-  /// @brief Method OnStop, addr 0x6e0eca0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method OnStop, addr 0x6e4b93c, size 0xc, virtual true, abstract: false, final true
   inline void OnStop(::UnityEngine::VFX::VFXSpawnerState* state, ::UnityEngine::VFX::VFXExpressionValues* vfxValues, ::UnityEngine::VFX::VisualEffect* vfxComponent);
 
-  /// @brief Method OnUpdate, addr 0x6e0eb48, size 0x158, virtual true, abstract: false, final true
+  /// @brief Method OnUpdate, addr 0x6e4b7e4, size 0x158, virtual true, abstract: false, final true
   inline void OnUpdate(::UnityEngine::VFX::VFXSpawnerState* state, ::UnityEngine::VFX::VFXExpressionValues* vfxValues, ::UnityEngine::VFX::VisualEffect* vfxComponent);
 
   constexpr int32_t const& __cordl_internal_get_m_LoopCurrentIndex() const;
@@ -168,7 +168,7 @@ public:
 
   constexpr void __cordl_internal_set_m_WaitingForTotalTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x6e0ecac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e4b948, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_delayPropertyID();
@@ -198,7 +198,7 @@ public:
   LoopAndDelay(LoopAndDelay const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20189 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20236 };
 
   /// @brief Field m_LoopMaxCount, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_LoopMaxCount;

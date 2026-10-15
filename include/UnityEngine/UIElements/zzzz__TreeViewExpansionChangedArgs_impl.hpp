@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewExpansionChangedArgs::*)(int32_t)>(&::UnityEngine::UIElements::TreeViewExpansionChangedArgs::set_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70a82c8;
+  constexpr static std::size_t addrs = 0x70e51fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewExpansionChangedArgs::*)(bool)>(
     &::UnityEngine::UIElements::TreeViewExpansionChangedArgs::set_isExpanded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70a82d0;
+  constexpr static std::size_t addrs = 0x70e5204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewExpansionChangedArgs::*)(bool)>(
     &::UnityEngine::UIElements::TreeViewExpansionChangedArgs::set_isAppliedToAllChildren)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70a82d8;
+  constexpr static std::size_t addrs = 0x70e520c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TreeViewExpansionChangedArgs::*)()>(&::UnityEngine::UIElements::TreeViewExpansionChangedArgs::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x70a82e0;
+  constexpr static std::size_t addrs = 0x70e5214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TreeViewExpansionChangedArgs*>(), { ".ctor", {}, {} })));

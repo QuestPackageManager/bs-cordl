@@ -32,25 +32,25 @@ namespace UnityEngine::ResourceManagement::Util {
 class CORDL_TYPE UnityWebRequestUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsAssetBundleDownloaded, addr 0x6d38fa4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsAssetBundleDownloaded, addr 0x6d75c20, size 0xa0, virtual false, abstract: false, final false
   static inline bool IsAssetBundleDownloaded(::UnityEngine::Networking::UnityWebRequestAsyncOperation* op);
 
   /// [Conditional("ADDRESSABLES_LOG_ALL")]
-  /// @brief Method Log, addr 0x6d40ee4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x6d7db60, size 0x5c, virtual false, abstract: false, final false
   static inline void Log(::StringW msg);
 
-  /// @brief Method LogError, addr 0x6d40e88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x6d7db04, size 0x5c, virtual false, abstract: false, final false
   static inline void LogError(::StringW msg);
 
-  /// @brief Method LogOperationResult, addr 0x6d40db4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method LogOperationResult, addr 0x6d7da30, size 0xd4, virtual false, abstract: false, final false
   static inline void LogOperationResult(::UnityEngine::AsyncOperation* op);
 
   static inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities* New_ctor();
 
-  /// @brief Method RequestHasErrors, addr 0x6d40bb0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method RequestHasErrors, addr 0x6d7d82c, size 0x124, virtual false, abstract: false, final false
   static inline bool RequestHasErrors(::UnityEngine::Networking::UnityWebRequest* webReq, ::by_ref<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*> result);
 
-  /// @brief Method .ctor, addr 0x6d40f40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d7dbbc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   UnityWebRequestUtilities(UnityWebRequestUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19209 };
 
   /// @brief Field k_AddressablesLogConditional offset 0xffffffff size 0x8
   static constexpr ::ConstString k_AddressablesLogConditional{ u"ADDRESSABLES_LOG_ALL" };

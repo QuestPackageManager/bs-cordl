@@ -32,12 +32,12 @@ public:
   __declspec(property(get = getStaticF_deviceLoaded, put = setStaticF_deviceLoaded)) ::System::Action_1<::StringW>* deviceLoaded;
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeDeviceLoaded, addr 0x72d2190, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method InvokeDeviceLoaded, addr 0x730f0c4, size 0x70, virtual false, abstract: false, final false
   static inline void InvokeDeviceLoaded(::StringW loadedDeviceName);
 
   /// [Obsolete("This is obsolete, and should no longer be used.  Please use XRInputSubsystem.TrySetTrackingOriginMode.")]
   /// [StaticAccessor("GetIVRDevice()", (UnityEngine.Bindings.StaticAccessorType)3)]
-  /// @brief Method SetTrackingSpaceType, addr 0x72d2154, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetTrackingSpaceType, addr 0x730f088, size 0x3c, virtual false, abstract: false, final false
   static inline bool SetTrackingSpaceType(::UnityEngine::XR::TrackingSpaceType trackingSpaceType);
 
   static inline ::System::Action_1<::StringW>* getStaticF_deviceLoaded();
@@ -59,7 +59,7 @@ public:
   XRDevice(XRDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23930 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

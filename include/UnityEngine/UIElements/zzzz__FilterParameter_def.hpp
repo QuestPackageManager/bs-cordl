@@ -45,43 +45,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::FilterParameter>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::FilterParameter>*();
 
-  /// @brief Method Equals, addr 0x70b1e5c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x70eed90, size 0xd0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x70b1f2c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x70eee60, size 0x70, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::FilterParameter other);
 
-  /// @brief Method GetHashCode, addr 0x70b1f9c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x70eeed0, size 0x8c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x70b2028, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x70eef5c, size 0xa4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_colorValue, addr 0x70b1d60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_colorValue, addr 0x70eec94, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_colorValue();
 
-  /// @brief Method get_floatValue, addr 0x70b1d50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatValue, addr 0x70eec84, size 0x8, virtual false, abstract: false, final false
   inline float_t get_floatValue();
 
-  /// @brief Method get_type, addr 0x70b1d40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x70eec74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FilterParameterType get_type();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::FilterParameter>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::FilterParameter>* i___System__IEquatable_1___UnityEngine__UIElements__FilterParameter_();
 
-  /// @brief Method op_Equality, addr 0x70b1d78, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x70eecac, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::FilterParameter a, ::UnityEngine::UIElements::FilterParameter b);
 
-  /// @brief Method op_Inequality, addr 0x70b1de8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x70eed1c, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::FilterParameter a, ::UnityEngine::UIElements::FilterParameter b);
 
-  /// @brief Method set_colorValue, addr 0x70b1d6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_colorValue, addr 0x70eeca0, size 0xc, virtual false, abstract: false, final false
   inline void set_colorValue(::UnityEngine::Color value);
 
-  /// @brief Method set_floatValue, addr 0x70b1d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_floatValue, addr 0x70eec8c, size 0x8, virtual false, abstract: false, final false
   inline void set_floatValue(float_t value);
 
-  /// @brief Method set_type, addr 0x70b1d48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x70eec7c, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::UIElements::FilterParameterType value);
 
   // Ctor Parameters []

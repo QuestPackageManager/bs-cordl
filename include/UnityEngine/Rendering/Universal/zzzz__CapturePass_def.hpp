@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_source(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x6cc0e20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfda9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,7 +106,7 @@ public:
   CapturePass_UnsafePassData(CapturePass_UnsafePassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13071 };
 
   /// @brief Field source, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___source;
@@ -142,10 +142,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::CapturePass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__2_0, addr 0x6cc0e7c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__2_0, addr 0x6cfdaf8, size 0x260, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__2_0(::UnityEngine::Rendering::Universal::CapturePass_UnsafePassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* unsafeContext);
 
-  /// @brief Method .ctor, addr 0x6cc0e78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfdaf4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::CapturePass___c* getStaticF___9();
@@ -174,7 +174,7 @@ public:
   CapturePass___c(CapturePass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13072 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -195,10 +195,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::CapturePass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method RecordRenderGraph, addr 0x6cc09a8, size 0x478, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6cfd624, size 0x478, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method .ctor, addr 0x6cc0908, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfd584, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
 protected:
@@ -216,7 +216,7 @@ public:
   CapturePass(CapturePass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13073 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

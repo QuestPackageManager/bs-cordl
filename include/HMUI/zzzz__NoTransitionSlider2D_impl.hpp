@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::HMUI::NoTransitionSlider2D_SelectionState (::HMUI::NoTransitionSlider2D::*)()>(&::HMUI::NoTransitionSlider2D::get_selectionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca2c98;
+  constexpr static std::size_t addrs = 0x5cdbc44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::NoTransitionSlider2D*>(), { "get_selectionState", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionSlider2D::*)(::System::Action_1<::HMUI::NoTransitionSlider2D_SelectionState>*)>(
     &::HMUI::NoTransitionSlider2D::add_selectionStateDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5ca2ca0;
+  constexpr static std::size_t addrs = 0x5cdbc4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionSlider2D::*)(::System::Action_1<::HMUI::NoTransitionSlider2D_SelectionState>*)>(
     &::HMUI::NoTransitionSlider2D::remove_selectionStateDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5ca2d60;
+  constexpr static std::size_t addrs = 0x5cdbd0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionSlider2D::*)(::UnityEngine::UI::Selectable_SelectionState, bool)>(&::HMUI::NoTransitionSlider2D::DoStateTransition)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5ca2e20;
+  constexpr static std::size_t addrs = 0x5cdbdcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::NoTransitionSlider2D*>(), { ::i2c::class_of<::HMUI::NoTransitionSlider2D*>(), 26 }));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionSlider2D::*)()>(&::HMUI::NoTransitionSlider2D::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca2e60;
+  constexpr static std::size_t addrs = 0x5cdbe0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::NoTransitionSlider2D*>(), { ".ctor", {}, {} })));

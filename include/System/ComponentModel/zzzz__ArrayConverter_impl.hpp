@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ArrayConverter_ArrayPropertyDescriptor::*)(::System::Type*, ::System::Type*, int32_t)>(
     &::System::ComponentModel::ArrayConverter_ArrayPropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x67dd718;
+  constexpr static std::size_t addrs = 0x681a35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::ComponentModel::ArrayConverter_ArrayPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::ArrayConverter_ArrayPropertyDescriptor::GetValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x67dd8d4;
+  constexpr static std::size_t addrs = 0x681a518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::ArrayConverter_ArrayPropertyDescriptor*>(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ArrayConverter_ArrayPropertyDescriptor::*)(::System::Object*, ::System::Object*)>(
     &::System::ComponentModel::ArrayConverter_ArrayPropertyDescriptor::SetValue)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x67dd954;
+  constexpr static std::size_t addrs = 0x681a598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::ArrayConverter_ArrayPropertyDescriptor*>(),
@@ -94,7 +94,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Syst
                                                                                                                        ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::ArrayConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x67dd3c8;
+  constexpr static std::size_t addrs = 0x681a00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel:
     ::System::ComponentModel::ArrayConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*, ::ArrayW<::System::Attribute*>)>(
     &::System::ComponentModel::ArrayConverter::GetProperties)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x67dd548;
+  constexpr static std::size_t addrs = 0x681a18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::ArrayConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::ArrayConverter::GetPropertiesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67dd8c8;
+  constexpr static std::size_t addrs = 0x681a50c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ArrayConverter::*)()>(&::System::ComponentModel::ArrayConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67dd8d0;
+  constexpr static std::size_t addrs = 0x681a514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::ArrayConverter*>(), { ".ctor", {}, {} })));

@@ -24,34 +24,34 @@ public:
   /// @brief Field _xrSession, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__xrSession, put = setStaticF__xrSession)) uint64_t _xrSession;
 
-  /// @brief Method MetaGetEyeTrackedFoveationSupported, addr 0x62694c8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method MetaGetEyeTrackedFoveationSupported, addr 0x62a5f10, size 0x90, virtual false, abstract: false, final false
   static inline void MetaGetEyeTrackedFoveationSupported(::by_ref<bool> supported);
 
-  /// @brief Method MetaGetFoveationEyeTracked, addr 0x6269344, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method MetaGetFoveationEyeTracked, addr 0x62a5d8c, size 0x90, virtual false, abstract: false, final false
   static inline void MetaGetFoveationEyeTracked(::by_ref<bool> isEyeTracked);
 
-  /// @brief Method MetaSetFoveationEyeTracked, addr 0x6269428, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method MetaSetFoveationEyeTracked, addr 0x62a5e70, size 0x84, virtual false, abstract: false, final false
   static inline void MetaSetFoveationEyeTracked(uint64_t session, bool isEyeTracked);
 
   static inline ::Meta::XR::MetaXREyeTrackedFoveationFeature* New_ctor();
 
-  /// @brief Method OnSessionCreate, addr 0x62692d8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnSessionCreate, addr 0x62a5d20, size 0x50, virtual true, abstract: false, final false
   inline void OnSessionCreate(uint64_t xrSession);
 
-  /// @brief Method .ctor, addr 0x6269558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62a5fa0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline uint64_t getStaticF__xrSession();
 
-  /// @brief Method get_eyeTrackedFoveatedRenderingEnabled, addr 0x6269328, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTrackedFoveatedRenderingEnabled, addr 0x62a5d70, size 0x1c, virtual false, abstract: false, final false
   static inline bool get_eyeTrackedFoveatedRenderingEnabled();
 
-  /// @brief Method get_eyeTrackedFoveatedRenderingSupported, addr 0x62694ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTrackedFoveatedRenderingSupported, addr 0x62a5ef4, size 0x1c, virtual false, abstract: false, final false
   static inline bool get_eyeTrackedFoveatedRenderingSupported();
 
   static inline void setStaticF__xrSession(uint64_t value);
 
-  /// @brief Method set_eyeTrackedFoveatedRenderingEnabled, addr 0x62693d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_eyeTrackedFoveatedRenderingEnabled, addr 0x62a5e1c, size 0x54, virtual false, abstract: false, final false
   static inline void set_eyeTrackedFoveatedRenderingEnabled(bool value);
 
 protected:
@@ -69,7 +69,7 @@ public:
   MetaXREyeTrackedFoveationFeature(MetaXREyeTrackedFoveationFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8679 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8686 };
 
   /// @brief Field extensionName offset 0xffffffff size 0x8
   static constexpr ::ConstString extensionName{ u"XR_META_foveation_eye_tracked XR_FB_eye_tracking_social XR_META_vulkan_swapchain_create_info" };

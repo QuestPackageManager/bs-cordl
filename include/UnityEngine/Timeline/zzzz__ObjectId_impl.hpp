@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::ObjectId::*)(::UnityEngine::EntityId)>(&::UnityEngine::Timeline::ObjectId::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6defc6c;
+  constexpr static std::size_t addrs = 0x6e2c908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::ObjectId (*)(::UnityEngine::EntityId)>(
     &::UnityEngine::Timeline::ObjectId::op_Implicit___UnityEngine__Timeline__ObjectId)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6def7b4;
+  constexpr static std::size_t addrs = 0x6e2c450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EntityId (*)(::UnityEngine::Timeline::ObjectId)>(&::UnityEngine::Timeline::ObjectId::op_Implicit___UnityEngine__EntityId)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6defc74;
+  constexpr static std::size_t addrs = 0x6e2c910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Timeline::ObjectId)>(&::UnityEngine::Timeline::ObjectId::op_Implicit_int32_t)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6defc78;
+  constexpr static std::size_t addrs = 0x6e2c914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Timeline::ObjectId (*)(int32_t)>(&::UnityEngine::Timeline::ObjectId::op_Implicit___UnityEngine__Timeline__ObjectId)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6defc7c;
+  constexpr static std::size_t addrs = 0x6e2c918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::ObjectId::*)(::System::Object*)>(&::UnityEngine::Timeline::ObjectId::Equals)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6defc80;
+  constexpr static std::size_t addrs = 0x6e2c91c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::ObjectId::*)(::UnityEngine::Timeline::ObjectId)>(&::UnityEngine::Timeline::ObjectId::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6defd08;
+  constexpr static std::size_t addrs = 0x6e2c9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::ObjectId::*)(::UnityEngine::Timeline::ObjectId)>(&::UnityEngine::Timeline::ObjectId::CompareTo)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6defd18;
+  constexpr static std::size_t addrs = 0x6e2c9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::ObjectId, ::UnityEngine::Timeline::ObjectId)>(&::UnityEngine::Timeline::ObjectId::op_Equality)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6defd2c;
+  constexpr static std::size_t addrs = 0x6e2c9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::ObjectId, ::UnityEngine::Timeline::ObjectId)>(&::UnityEngine::Timeline::ObjectId::op_Inequality)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6defd94;
+  constexpr static std::size_t addrs = 0x6e2ca30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::ObjectId, ::UnityEngine::Timeline::ObjectId)>(&::UnityEngine::Timeline::ObjectId::op_LessThan)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6defdfc;
+  constexpr static std::size_t addrs = 0x6e2ca98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::ObjectId, ::UnityEngine::Timeline::ObjectId)>(&::UnityEngine::Timeline::ObjectId::op_GreaterThan)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6defe08;
+  constexpr static std::size_t addrs = 0x6e2caa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::ObjectId, ::UnityEngine::Timeline::ObjectId)>(&::UnityEngine::Timeline::ObjectId::op_LessThanOrEqual)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6defe14;
+  constexpr static std::size_t addrs = 0x6e2cab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::ObjectId, ::UnityEngine::Timeline::ObjectId)>(&::UnityEngine::Timeline::ObjectId::op_GreaterThanOrEqual)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6defe20;
+  constexpr static std::size_t addrs = 0x6e2cabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::ObjectId::*)()>(&::UnityEngine::Timeline::ObjectId::GetHashCode)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6defe2c;
+  constexpr static std::size_t addrs = 0x6e2cac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

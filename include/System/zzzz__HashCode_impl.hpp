@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)()>(&::System::HashCode::GenerateGlobalSeed)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x605bf90;
+  constexpr static std::size_t addrs = 0x60989a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::HashCode>(), { "GenerateGlobalSeed", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, int32_t)>(&::System::HashCode::Rol)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x605bfb4;
+  constexpr static std::size_t addrs = 0x60989cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<uint32_t>, ::by_ref<uint32_t>, ::by_ref<uint32_t>, ::by_ref<uint32_t>)>(&::System::HashCode::Initialize)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x605bfc0;
+  constexpr static std::size_t addrs = 0x60989d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::System::HashCode::Round)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x605c078;
+  constexpr static std::size_t addrs = 0x6098a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::System::HashCode::QueueRound)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x605c0f4;
+  constexpr static std::size_t addrs = 0x6098b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t, uint32_t)>(&::System::HashCode::MixState)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x605c170;
+  constexpr static std::size_t addrs = 0x6098b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)()>(&::System::HashCode::MixEmptyState)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x605c1fc;
+  constexpr static std::size_t addrs = 0x6098c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::HashCode>(), { "MixEmptyState", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t)>(&::System::HashCode::MixFinal)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x605c264;
+  constexpr static std::size_t addrs = 0x6098c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::HashCode>(), { "MixFinal", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::HashCode::*)(int32_t)>(&::System::HashCode::Add)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x605c28c;
+  constexpr static std::size_t addrs = 0x6098ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::HashCode>(), { "Add", {}, { ::i2c::type_of<int32_t>() } })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::HashCode::*)()>(&::System::HashCode::ToHashCode)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x605c538;
+  constexpr static std::size_t addrs = 0x6098f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::HashCode>(), { "ToHashCode", {}, {} })));
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::HashCode::*)()>(&::System::HashCode::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x605c790;
+  constexpr static std::size_t addrs = 0x60991a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::HashCode>(), { ::i2c::class_of<::System::HashCode>(), 2 }));
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::HashCode::*)(::System::Object*)>(&::System::HashCode::Equals)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x605c7fc;
+  constexpr static std::size_t addrs = 0x6099214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::HashCode>(), { ::i2c::class_of<::System::HashCode>(), 0 }));

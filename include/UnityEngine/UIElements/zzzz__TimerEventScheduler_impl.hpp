@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TimerEventScheduler::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::TimerEventScheduler::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x726b788;
+  constexpr static std::size_t addrs = 0x72a86bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TimerEventScheduler*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TimerEventScheduler::*)(::UnityEngine::UIElements::ScheduledItem*)>(
     &::UnityEngine::UIElements::TimerEventScheduler::Schedule)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x7278f80;
+  constexpr static std::size_t addrs = 0x72b5eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TimerEventScheduler::*)(int32_t)>(&::UnityEngine::UIElements::TimerEventScheduler::RemovedScheduledItemAt)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x727914c;
+  constexpr static std::size_t addrs = 0x72b6080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TimerEventScheduler::*)(::UnityEngine::UIElements::ScheduledItem*)>(
     &::UnityEngine::UIElements::TimerEventScheduler::Unschedule)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x72791d4;
+  constexpr static std::size_t addrs = 0x72b6108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TimerEventScheduler::*)(::UnityEngine::UIElements::ScheduledItem*)>(
     &::UnityEngine::UIElements::TimerEventScheduler::PrivateUnSchedule)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x727938c;
+  constexpr static std::size_t addrs = 0x72b62c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TimerEventScheduler*>(),
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::TimerEventScheduler::*)()>(&::UnityEngine::UIElements::TimerEventScheduler::get_FrameCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7279458;
+  constexpr static std::size_t addrs = 0x72b638c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TimerEventScheduler*>(), { "get_FrameCount", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TimerEventScheduler::*)(int64_t)>(&::UnityEngine::UIElements::TimerEventScheduler::set_FrameCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7279460;
+  constexpr static std::size_t addrs = 0x72b6394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TimerEventScheduler::*)()>(&::UnityEngine::UIElements::TimerEventScheduler::UpdateScheduledEvents)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x726e554;
+  constexpr static std::size_t addrs = 0x72ab488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TimerEventScheduler*>(), { "UpdateScheduledEvents", {}, {} })));

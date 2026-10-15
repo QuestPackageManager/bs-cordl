@@ -61,13 +61,13 @@ public:
 
   static inline ::UnityEngine::UIElements::TemplateContainer_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x711be7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7158db0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_uxmlName, addr 0x711bdc0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlName, addr 0x7158cf4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_uxmlName();
 
-  /// @brief Method get_uxmlQualifiedName, addr 0x711be04, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlQualifiedName, addr 0x7158d38, size 0x78, virtual true, abstract: false, final false
   inline ::StringW get_uxmlQualifiedName();
 
 protected:
@@ -104,7 +104,7 @@ public:
   /// @brief Field m_Template, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Template, put = __cordl_internal_set_m_Template)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Template;
 
-  /// @brief Method Init, addr 0x711bee4, size 0x498, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x7158e18, size 0x498, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::TemplateContainer_UxmlTraits* New_ctor();
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Template(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x711c37c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71592b0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -189,7 +189,7 @@ public:
   static inline ::UnityEngine::UIElements::TemplateContainer* New_ctor(::StringW templateId, ::UnityEngine::UIElements::VisualTreeAsset* templateSource);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method SetContentContainer, addr 0x711bc2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetContentContainer, addr 0x7158b60, size 0x8, virtual false, abstract: false, final false
   inline void SetContentContainer(::UnityEngine::UIElements::VisualElement* content);
 
   constexpr ::StringW const& __cordl_internal_get__templateId_k__BackingField() const;
@@ -210,27 +210,27 @@ public:
 
   constexpr void __cordl_internal_set_m_TemplateSource(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
 
-  /// @brief Method .ctor, addr 0x711bb9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7158ad0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x711bbc0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7158af4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW templateId);
 
-  /// @brief Method .ctor, addr 0x711bbf0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7158b24, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW templateId, ::UnityEngine::UIElements::VisualTreeAsset* templateSource);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_templateIdProperty();
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_templateSourceProperty();
 
-  /// @brief Method get_contentContainer, addr 0x711bc24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x7158b58, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_templateId, addr 0x711bb7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_templateId, addr 0x7158ab0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_templateId();
 
-  /// @brief Method get_templateSource, addr 0x711bb8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_templateSource, addr 0x7158ac0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> get_templateSource();
 
   static inline void setStaticF_templateIdProperty(::UnityEngine::UIElements::BindingId value);
@@ -238,10 +238,10 @@ public:
   static inline void setStaticF_templateSourceProperty(::UnityEngine::UIElements::BindingId value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_templateId, addr 0x711bb84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_templateId, addr 0x7158ab8, size 0x8, virtual false, abstract: false, final false
   inline void set_templateId(::StringW value);
 
-  /// @brief Method set_templateSource, addr 0x711bb94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_templateSource, addr 0x7158ac8, size 0x8, virtual false, abstract: false, final false
   inline void set_templateSource(::UnityEngine::UIElements::VisualTreeAsset* value);
 
 protected:

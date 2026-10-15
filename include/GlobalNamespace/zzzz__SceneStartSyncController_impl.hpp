@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::SceneStartSyncController::add_syncStartDidSuccessEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x60e7ef4;
+  constexpr static std::size_t addrs = 0x6124934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneStartSyncController*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::SceneStartSyncController::remove_syncStartDidSuccessEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x60e7fb4;
+  constexpr static std::size_t addrs = 0x61249f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneStartSyncController*>(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::SceneStartSyncController::add_syncStartDidReceiveTooLateEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x60e8074;
+  constexpr static std::size_t addrs = 0x6124ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneStartSyncController*>(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::SceneStartSyncController::remove_syncStartDidReceiveTooLateEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x60e8134;
+  constexpr static std::size_t addrs = 0x6124b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneStartSyncController*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::System::Action*)>(
     &::GlobalNamespace::SceneStartSyncController::add_syncStartDidFailEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x60e81f4;
+  constexpr static std::size_t addrs = 0x6124c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::System::Action*)>(
     &::GlobalNamespace::SceneStartSyncController::remove_syncStartDidFailEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x60e82a0;
+  constexpr static std::size_t addrs = 0x6124ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)()>(&::GlobalNamespace::SceneStartSyncController::Start)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x60e834c;
+  constexpr static std::size_t addrs = 0x6124d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneStartSyncController*>(), { "Start", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)()>(&::GlobalNamespace::SceneStartSyncController::Update)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x60e8364;
+  constexpr static std::size_t addrs = 0x6124da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneStartSyncController*>(), { "Update", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)()>(&::GlobalNamespace::SceneStartSyncController::OnDestroy)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x60e83e4;
+  constexpr static std::size_t addrs = 0x6124e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneStartSyncController*>(), { "OnDestroy", {}, {} })));
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*)>(
     &::GlobalNamespace::SceneStartSyncController::StartSceneLoadSync)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x60e84e8;
+  constexpr static std::size_t addrs = 0x6124f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::StringW)>(&::GlobalNamespace::SceneStartSyncController::HandleSceneSetupDidFinish)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x60e8660;
+  constexpr static std::size_t addrs = 0x61250a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::StringW)>(
     &::GlobalNamespace::SceneStartSyncController::HandleSceneSetupDidReceiveTooLate)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x60e86ac;
+  constexpr static std::size_t addrs = 0x61250ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)()>(&::GlobalNamespace::SceneStartSyncController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60e86f8;
+  constexpr static std::size_t addrs = 0x6125138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SceneStartSyncController*>(), { ".ctor", {}, {} })));

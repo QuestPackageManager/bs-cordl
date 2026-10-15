@@ -50,10 +50,10 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualElementUtils___c* New_ctor();
 
-  /// @brief Method <AssignInspectorStyleIfNecessary>b__5_0, addr 0x71580dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <AssignInspectorStyleIfNecessary>b__5_0, addr 0x7195010, size 0x70, virtual false, abstract: false, final false
   inline bool _AssignInspectorStyleIfNecessary_b__5_0(::UnityEngine::UIElements::VisualElement* i);
 
-  /// @brief Method .ctor, addr 0x71580d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x719500c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::VisualElementUtils___c* getStaticF___9();
@@ -107,14 +107,14 @@ public:
   __declspec(property(get = getStaticF_s_usedNames, put = setStaticF_s_usedNames)) ::System::Collections::Generic::HashSet_1<::StringW>* s_usedNames;
 
   /// [Extension]
-  /// @brief Method AssignInspectorStyleIfNecessary, addr 0x7157e74, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method AssignInspectorStyleIfNecessary, addr 0x7194da8, size 0x11c, virtual false, abstract: false, final false
   static inline void AssignInspectorStyleIfNecessary(::UnityEngine::UIElements::VisualElement* element, ::StringW classNameToEnable);
 
   /// [Extension]
-  /// @brief Method GetFoldoutDepth, addr 0x7157db4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetFoldoutDepth, addr 0x7194ce8, size 0xc0, virtual false, abstract: false, final false
   static inline int32_t GetFoldoutDepth(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method GetUniqueName, addr 0x7157c8c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetUniqueName, addr 0x7194bc0, size 0x128, virtual false, abstract: false, final false
   static inline ::StringW GetUniqueName(::StringW nameBase);
 
   static inline ::System::Type* getStaticF_s_FoldoutType();

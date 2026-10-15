@@ -42,38 +42,38 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e41a00, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7e69c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t locationCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef* locations);
 
-  /// @brief Method .ctor, addr 0x6e41a90, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7e72c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef> locations);
 
-  /// @brief Method .ctor, addr 0x6e41b80, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7e81c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef> locations);
 
-  /// @brief Method .ctor, addr 0x6e419e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7e680, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint32_t locationCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef* locations);
 
-  /// @brief Method .ctor, addr 0x6e41a1c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7e6b8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef> locations);
 
-  /// @brief Method .ctor, addr 0x6e41af8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7e794, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef> locations);
 
   /// [CompilerGenerated]
-  /// @brief Method get_locationCount, addr 0x6e419d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_locationCount, addr 0x6e7e670, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_locationCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_locations, addr 0x6e419dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_locations, addr 0x6e7e678, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef* get_locations();
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e419cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e7e668, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e419c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e7e660, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -87,7 +87,7 @@ public:
                                             ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef* _locations_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17537 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17570 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

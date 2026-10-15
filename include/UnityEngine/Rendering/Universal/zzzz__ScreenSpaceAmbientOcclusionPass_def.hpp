@@ -149,7 +149,7 @@ public:
   static ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_BlurTypes const Kawase;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13111 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13118 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -236,7 +236,7 @@ public:
   static ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_ShaderPasses const KawaseBlur;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13119 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -259,10 +259,10 @@ namespace UnityEngine::Rendering::Universal {
 struct CORDL_TYPE ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x6cdc1f8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6d18e74, size 0xf0, virtual false, abstract: false, final false
   inline bool Equals(::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams> other);
 
-  /// @brief Method .ctor, addr 0x6cdc118, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d18d94, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings*> settings, bool isOrthographic);
 
   // Ctor Parameters []
@@ -279,7 +279,7 @@ public:
                                                                bool sourceDepthNormals, bool sourceDepthHigh, bool sourceDepthMedium, bool sourceDepthLow, ::UnityEngine::Vector4 ssaoParams) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13120 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
@@ -446,7 +446,7 @@ public:
 
   constexpr void __cordl_internal_set_material(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x6cdd6dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1a358, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -464,7 +464,7 @@ public:
   ScreenSpaceAmbientOcclusionPass_SSAOPassData(ScreenSpaceAmbientOcclusionPass_SSAOPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13121 };
 
   /// @brief Field afterOpaque, offset: 0x10, size: 0x1, def value: None
   bool ___afterOpaque;
@@ -540,11 +540,11 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__37_0, addr 0x6cdd738, size 0x6ec, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__37_0, addr 0x6d1a3b4, size 0x6ec, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__37_0(::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData* data,
                                          ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* rgContext);
 
-  /// @brief Method .ctor, addr 0x6cdd734, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1a3b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass___c* getStaticF___9();
@@ -573,7 +573,7 @@ public:
   ScreenSpaceAmbientOcclusionPass___c(ScreenSpaceAmbientOcclusionPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13115 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13122 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -679,36 +679,36 @@ public:
   /// @brief Field s_SSAOParamsID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_SSAOParamsID, put = setStaticF_s_SSAOParamsID)) int32_t s_SSAOParamsID;
 
-  /// @brief Method ComputeScaleBias, addr 0x6cdc330, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ComputeScaleBias, addr 0x6d18fac, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 ComputeScaleBias(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* const> context,
                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> source,
                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> destination);
 
-  /// @brief Method CreateRenderTextureHandles, addr 0x6cdd00c, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method CreateRenderTextureHandles, addr 0x6d19c88, size 0x340, virtual false, abstract: false, final false
   inline void CreateRenderTextureHandles(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                                          ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> aoTexture,
                                          ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> blurTexture,
                                          ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> finalTexture);
 
-  /// @brief Method Dispose, addr 0x6cdd420, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6d1a09c, size 0x10, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method InitSSAOPassData, addr 0x6cdc2e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method InitSSAOPassData, addr 0x6d18f64, size 0x48, virtual false, abstract: false, final false
   inline void InitSSAOPassData(::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData*> data);
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass* New_ctor();
 
-  /// @brief Method OnCameraCleanup, addr 0x6cdd34c, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x6d19fc8, size 0xd4, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method RecordRenderGraph, addr 0x6cdc474, size 0xb98, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6d190f0, size 0xb98, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method Setup, addr 0x6cdb604, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d18280, size 0x1c4, virtual false, abstract: false, final false
   inline bool Setup(::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings*> featureSettings, ::by_ref<::UnityEngine::Rendering::Universal::ScriptableRenderer*> renderer,
                     ::by_ref<::UnityEngine::Material*> material, ::by_ref<::ArrayW<::UnityEngine::Texture2D*>> blueNoiseTextures);
 
-  /// @brief Method SetupKeywordsAndParameters, addr 0x6cdb7c8, size 0x950, virtual false, abstract: false, final false
+  /// @brief Method SetupKeywordsAndParameters, addr 0x6d18444, size 0x950, virtual false, abstract: false, final false
   inline void SetupKeywordsAndParameters(::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings*> settings,
                                          ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*> cameraData);
 
@@ -796,7 +796,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SupportsR8RenderTextureFormat(bool value);
 
-  /// @brief Method .ctor, addr 0x6cdb494, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d18110, size 0x140, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_s_AmbientOcclusionParamID();
@@ -862,7 +862,7 @@ public:
   ScreenSpaceAmbientOcclusionPass(ScreenSpaceAmbientOcclusionPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13123 };
 
   /// @brief Field k_AmbientOcclusionParamName offset 0xffffffff size 0x8
   static constexpr ::ConstString k_AmbientOcclusionParamName{ u"_AmbientOcclusionParam" };

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::StringW>*)>(
     &::Oculus::Platform::Vrcamera::SetGetDataChannelMessageUpdateNotificationCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6204ff4;
+  constexpr static std::size_t addrs = 0x6241a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::StringW>*)>(&::Oculus::Platform::Vrcamera::SetGetSurfaceUpdateNotificationCallback)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6205070;
+  constexpr static std::size_t addrs = 0x6241ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, int32_t)>(&::UnityEngine::PlayerPrefs::TrySetInt)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6f314b8;
+  constexpr static std::size_t addrs = 0x6f6e2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW)>(&::UnityEngine::PlayerPrefs::TrySetSetString)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x6f3163c;
+  constexpr static std::size_t addrs = 0x6f6e474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, int32_t)>(&::UnityEngine::PlayerPrefs::SetInt)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6f31838;
+  constexpr static std::size_t addrs = 0x6f6e670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW, int32_t)>(&::UnityEngine::PlayerPrefs::GetInt)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6f31890;
+  constexpr static std::size_t addrs = 0x6f6e6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::UnityEngine::PlayerPrefs::GetInt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f31a10;
+  constexpr static std::size_t addrs = 0x6f6e848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PlayerPrefs*>(), { "GetInt", {}, { ::i2c::type_of<::StringW>() } })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW)>(&::UnityEngine::PlayerPrefs::SetString)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6f31a18;
+  constexpr static std::size_t addrs = 0x6f6e850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngine::PlayerPrefs::GetString)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x6f31a70;
+  constexpr static std::size_t addrs = 0x6f6e8a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::PlayerPrefs::GetString)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6f31cf0;
+  constexpr static std::size_t addrs = 0x6f6eb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PlayerPrefs*>(), { "GetString", {}, { ::i2c::type_of<::StringW>() } })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::PlayerPrefs::HasKey)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6f31d3c;
+  constexpr static std::size_t addrs = 0x6f6eb74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PlayerPrefs*>(), { "HasKey", {}, { ::i2c::type_of<::StringW>() } })));
@@ -122,10 +122,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::PlayerPrefs::DeleteKey)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6f31ea8;
+  constexpr static std::size_t addrs = 0x6f6ece0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PlayerPrefs*>(), { "DeleteKey", {}, { ::i2c::type_of<::StringW>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::PlayerPrefs.Save
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::PlayerPrefs::Save)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6f6ee40;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PlayerPrefs*>(), { "Save", {}, {} })));
     return ___internal_method;
   }
 };
@@ -134,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, int32_t)>(&::UnityEngine::PlayerPrefs::TrySetInt_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f315f8;
+  constexpr static std::size_t addrs = 0x6f6e430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::PlayerPrefs::TrySetSetString_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f317f4;
+  constexpr static std::size_t addrs = 0x6f6e62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, int32_t)>(&::UnityEngine::PlayerPrefs::GetInt_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f319cc;
+  constexpr static std::size_t addrs = 0x6f6e804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>,
                                                                 ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::PlayerPrefs::GetString_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6f31c9c;
+  constexpr static std::size_t addrs = 0x6f6ead4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::PlayerPrefs::HasKey_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f31e6c;
+  constexpr static std::size_t addrs = 0x6f6eca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::PlayerPrefs::DeleteKey_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f31fcc;
+  constexpr static std::size_t addrs = 0x6f6ee04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,6 +277,10 @@ inline bool UnityEngine::PlayerPrefs::HasKey(::StringW key) {
 inline void UnityEngine::PlayerPrefs::DeleteKey(::StringW key) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PlayerPrefs*>(), { "DeleteKey", {}, { ::i2c::type_of<::StringW>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, key);
+}
+inline void UnityEngine::PlayerPrefs::Save() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PlayerPrefs*>(), { "Save", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 inline bool UnityEngine::PlayerPrefs::TrySetInt_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> key, int32_t value) {
   static auto* ___internal_method =

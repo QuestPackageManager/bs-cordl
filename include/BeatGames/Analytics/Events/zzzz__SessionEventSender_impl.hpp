@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::SessionEventSender::*)(::OSCE::Analytics::AnalyticsManager*)>(
     &::BeatGames::Analytics::Events::SessionEventSender::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34dd160;
+  constexpr static std::size_t addrs = 0x34f559c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::SessionEventSender::*)()>(&::BeatGames::Analytics::Events::SessionEventSender::SendSessionStart)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x34dd988;
+  constexpr static std::size_t addrs = 0x34f5dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::SessionEventSender*>(), { "SendSessionStart", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::SessionEventSender::*)()>(&::BeatGames::Analytics::Events::SessionEventSender::SendSessionFinish)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x34dda54;
+  constexpr static std::size_t addrs = 0x34f5e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::SessionEventSender*>(), { "SendSessionFinish", {}, {} })));

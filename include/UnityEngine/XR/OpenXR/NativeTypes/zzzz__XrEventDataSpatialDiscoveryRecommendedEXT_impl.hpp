@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType (
     ::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataSpatialDiscoveryRecommendedEXT::*)()>(&::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataSpatialDiscoveryRecommendedEXT::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e42ad4;
+  constexpr static std::size_t addrs = 0x6e7f770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataSpatialDiscoveryRecommendedEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataSpatialDiscoveryRecommendedEXT::get_next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e42adc;
+  constexpr static std::size_t addrs = 0x6e7f778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataSpatialDiscoveryRecommendedEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataSpatialDiscoveryRecommendedEXT::get_spatialContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e42ae4;
+  constexpr static std::size_t addrs = 0x6e7f780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataSpatialDiscoveryRecommendedEXT::*)(void*, uint64_t)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataSpatialDiscoveryRecommendedEXT::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e42aec;
+  constexpr static std::size_t addrs = 0x6e7f788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataSpatialDiscoveryRecommendedEXT>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataSpatialDiscoveryRecommendedEXT::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataSpatialDiscoveryRecommendedEXT::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e42b00;
+  constexpr static std::size_t addrs = 0x6e7f79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

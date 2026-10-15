@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXTExtensions::IsSuccess)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e445f0;
+  constexpr static std::size_t addrs = 0x6e8128c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXTExtensions::IsError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e445fc;
+  constexpr static std::size_t addrs = 0x6e81298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

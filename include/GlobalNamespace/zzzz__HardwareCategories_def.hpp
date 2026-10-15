@@ -30,23 +30,23 @@ public:
   /// @brief Field _platformOverride, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__platformOverride, put = setStaticF__platformOverride)) ::GlobalNamespace::HardwareCategory _platformOverride;
 
-  /// @brief Method ClearPlatformOverride, addr 0x35146f0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ClearPlatformOverride, addr 0x3535064, size 0x4c, virtual false, abstract: false, final false
   static inline void ClearPlatformOverride();
 
-  /// @brief Method GetHardwareCategory, addr 0x3514740, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetHardwareCategory, addr 0x35350b4, size 0xbc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::HardwareCategory GetHardwareCategory();
 
-  /// @brief Method GetHardwareCategoryWithEditorOverride, addr 0x351473c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetHardwareCategoryWithEditorOverride, addr 0x35350b0, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::HardwareCategory GetHardwareCategoryWithEditorOverride();
 
-  /// @brief Method GetPlatformOverride, addr 0x3514640, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformOverride, addr 0x3534fb4, size 0x58, virtual false, abstract: false, final false
   static inline bool GetPlatformOverride(::by_ref<::GlobalNamespace::HardwareCategory> hardwareCategory);
 
   /// [NullableContext(1)]
-  /// @brief Method IsStandaloneMobileGPU, addr 0x35147fc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsStandaloneMobileGPU, addr 0x3535170, size 0xbc, virtual false, abstract: false, final false
   static inline bool IsStandaloneMobileGPU(::StringW graphicsDeviceVendor, ::StringW graphicsDeviceName);
 
-  /// @brief Method SetPlatformOverride, addr 0x3514698, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetPlatformOverride, addr 0x353500c, size 0x58, virtual false, abstract: false, final false
   static inline void SetPlatformOverride(::GlobalNamespace::HardwareCategory hardwareCategory);
 
   static inline bool getStaticF__isPlatformOverriden();
@@ -72,7 +72,7 @@ public:
   HardwareCategories(HardwareCategories const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22893 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

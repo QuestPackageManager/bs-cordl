@@ -91,7 +91,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE VisualTreeDataBindingsUpdater_VersionInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x7092188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70cf0bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* source, int64_t version);
 
   // Ctor Parameters []
@@ -140,10 +140,10 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualTreeDataBindingsUpdater___c* New_ctor();
 
-  /// @brief Method <ProcessDataSourceChangedRequests>b__29_0, addr 0x7092630, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <ProcessDataSourceChangedRequests>b__29_0, addr 0x70cf564, size 0x1c, virtual false, abstract: false, final false
   inline bool _ProcessDataSourceChangedRequests_b__29_0(::UnityEngine::UIElements::VisualElement* e);
 
-  /// @brief Method .ctor, addr 0x709262c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70cf560, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::VisualTreeDataBindingsUpdater___c* getStaticF___9();
@@ -248,47 +248,47 @@ public:
   /// @brief Field s_UpdateProfilerMarker, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_UpdateProfilerMarker, put = setStaticF_s_UpdateProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_UpdateProfilerMarker;
 
-  /// @brief Method CacheAndLogBindingResult, addr 0x70906c0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method CacheAndLogBindingResult, addr 0x70cd5f4, size 0x11c, virtual false, abstract: false, final false
   inline void CacheAndLogBindingResult(bool appliedOnUiCache, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData* const> bindingData,
                                        /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingResult const> result);
 
-  /// @brief Method Dispose, addr 0x70923ec, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x70cf320, size 0x3c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetDataSourceVersion, addr 0x7091fdc, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetDataSourceVersion, addr 0x70cef10, size 0x1ac, virtual false, abstract: false, final false
   inline ::System::ValueTuple_2<bool, int64_t> GetDataSourceVersion(::System::Object* source);
 
-  /// @brief Method IsPrefix, addr 0x7092190, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method IsPrefix, addr 0x70cf0c4, size 0x16c, virtual false, abstract: false, final false
   inline bool IsPrefix(/* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> prefix, /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> path);
 
-  /// @brief Method LogResult, addr 0x70907dc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method LogResult, addr 0x70cd710, size 0x144, virtual false, abstract: false, final false
   inline void LogResult(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingResult const> result);
 
   static inline ::UnityEngine::UIElements::VisualTreeDataBindingsUpdater* New_ctor();
 
-  /// @brief Method OnHierarchyChange, addr 0x70901e4, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method OnHierarchyChange, addr 0x70cd118, size 0x3e0, virtual false, abstract: false, final false
   inline void OnHierarchyChange(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType type,
                                 ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::UIElements::VisualElement*>* additionalContext);
 
-  /// @brief Method OnPanelChanged, addr 0x70922fc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnPanelChanged, addr 0x70cf230, size 0xf0, virtual false, abstract: false, final false
   inline void OnPanelChanged(::UnityEngine::UIElements::BaseVisualElementPanel* p);
 
-  /// @brief Method OnVersionChanged, addr 0x70905c4, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x70cd4f8, size 0xfc, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method ProcessAllBindingRequests, addr 0x70916a8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ProcessAllBindingRequests, addr 0x70ce5dc, size 0x1f0, virtual false, abstract: false, final false
   inline void ProcessAllBindingRequests();
 
-  /// @brief Method ProcessBindingRequests, addr 0x7092428, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ProcessBindingRequests, addr 0x70cf35c, size 0x34, virtual false, abstract: false, final false
   inline void ProcessBindingRequests(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method ProcessDataSourceChangedRequests, addr 0x7091898, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method ProcessDataSourceChangedRequests, addr 0x70ce7cc, size 0x2d0, virtual false, abstract: false, final false
   inline void ProcessDataSourceChangedRequests();
 
-  /// @brief Method ProcessPropertyChangedEvents, addr 0x7091b68, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method ProcessPropertyChangedEvents, addr 0x70cea9c, size 0x474, virtual false, abstract: false, final false
   inline void ProcessPropertyChangedEvents(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::Binding*>* ranUpdate);
 
-  /// @brief Method Update, addr 0x7090920, size 0xd88, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x70cd854, size 0xd88, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::UIElements::BaseVisualElementPanel* const& __cordl_internal_get_m_AttachedPanel() const;
@@ -357,7 +357,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VersionChanges(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeDataBindingsUpdater_VersionInfo>* value);
 
-  /// @brief Method .ctor, addr 0x708ff60, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70cce94, size 0x284, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProcessBindingRequestsProfilerMarker();
@@ -370,10 +370,10 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_UpdateProfilerMarker();
 
-  /// @brief Method get_bindingManager, addr 0x708fee4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_bindingManager, addr 0x70cce18, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DataBindingManager* get_bindingManager();
 
-  /// @brief Method get_profilerMarker, addr 0x708ff04, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x70cce38, size 0x5c, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
   static inline void setStaticF_s_ProcessBindingRequestsProfilerMarker(::Unity::Profiling::ProfilerMarker value);

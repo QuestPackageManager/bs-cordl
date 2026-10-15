@@ -66,31 +66,31 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method GetEnumerator, addr 0x6fd4770, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x7011664, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* GetEnumerator();
 
   /// [IsReadOnly]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x6fd46e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x70115dc, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEnumerator_System_Int32__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6fd47d0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x70116c4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x6fd4714, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x7011608, size 0x50, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6fd4764, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x7011658, size 0xc, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [IsReadOnly]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6fd46f0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x70115e4, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [IsReadOnly]
-  /// @brief Method System.IDisposable.Dispose, addr 0x6fd47d4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x70116c8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method .ctor, addr 0x6fd4514, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7011408, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::LowLevelPhysics2D::PhysicsMask bitMask);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<int32_t>"
@@ -117,7 +117,7 @@ public:
   constexpr PhysicsMask_SetBitIterator(int32_t m_BitIndex, uint64_t bitMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21567 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -163,15 +163,15 @@ public:
   constexpr operator ::System::Collections::IEnumerable*();
 
   /// [IsReadOnly]
-  /// @brief Method GetEnumerator, addr 0x6fd44ac, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x70113a0, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* GetEnumerator();
 
   /// [IsReadOnly]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6fd4580, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x7011474, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x6fd45e8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x70114dc, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsMask getStaticF_All();
@@ -186,7 +186,7 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
-  /// @brief Method op_Implicit, addr 0x6fd44a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x701139c, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t op_Implicit_uint64_t(::UnityEngine::LowLevelPhysics2D::PhysicsMask bitMask);
 
   static inline void setStaticF_All(::UnityEngine::LowLevelPhysics2D::PhysicsMask value);
@@ -203,7 +203,7 @@ public:
   constexpr PhysicsMask(uint64_t bitMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21521 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21568 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

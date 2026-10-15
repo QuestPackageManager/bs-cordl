@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::GlobalNamespace::Vector2Extensions::SignedAngleToLine)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x35af114;
+  constexpr static std::size_t addrs = 0x35d19f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::GlobalNamespace::Vector2Extensions::Clamp)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35af2d4;
+  constexpr static std::size_t addrs = 0x35d1bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, ::UnityEngine::Rect)>(&::GlobalNamespace::Vector2Extensions::Clamp)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x35af2f8;
+  constexpr static std::size_t addrs = 0x35d1bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector2Extensions*>(),
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::GlobalNamespace::Vector2Extensions::Cross)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x35af3a0;
+  constexpr static std::size_t addrs = 0x35d1c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Vector2Extensions*>(),

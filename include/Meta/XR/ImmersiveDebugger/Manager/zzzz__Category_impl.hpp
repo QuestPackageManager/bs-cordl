@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::ImmersiveDebugger::Manager::Category::*)()>(&::Meta::XR::ImmersiveDebugger::Manager::Category::get_Label)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5e7963c;
+  constexpr static std::size_t addrs = 0x5eb5dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::Category>(), { "get_Label", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Meta::XR::ImmersiveDebugger::Manager::Category::*)()>(&::Meta::XR::ImmersiveDebugger::Manager::Category::get_Uid)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5e796ac;
+  constexpr static std::size_t addrs = 0x5eb5e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::Category>(), { "get_Uid", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Manager::Category::*)(::Meta::XR::ImmersiveDebugger::Manager::Category)>(
     &::Meta::XR::ImmersiveDebugger::Manager::Category::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5e79704;
+  constexpr static std::size_t addrs = 0x5eb5e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::Manager::Category>(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::Manager::Category::*)(::System::Object*)>(&::Meta::XR::ImmersiveDebugger::Manager::Category::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5e79780;
+  constexpr static std::size_t addrs = 0x5eb5f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Meta::XR::ImmersiveDebugger::Manager::Category::*)()>(&::Meta::XR::ImmersiveDebugger::Manager::Category::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e79814;
+  constexpr static std::size_t addrs = 0x5eb5f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

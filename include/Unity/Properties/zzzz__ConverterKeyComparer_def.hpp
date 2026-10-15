@@ -33,15 +33,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::Unity::Properties::ConverterKey>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::Unity::Properties::ConverterKey>*() noexcept;
 
-  /// @brief Method Equals, addr 0x700de3c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x704ad30, size 0x68, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Properties::ConverterKey x, ::Unity::Properties::ConverterKey y);
 
-  /// @brief Method GetHashCode, addr 0x700dea4, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x704ad98, size 0xbc, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::Unity::Properties::ConverterKey obj);
 
   static inline ::Unity::Properties::ConverterKeyComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x700df60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x704ae54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Properties::ConverterKeyComparer* getStaticF_Instance();
@@ -66,7 +66,7 @@ public:
   ConverterKeyComparer(ConverterKeyComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20775 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20822 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

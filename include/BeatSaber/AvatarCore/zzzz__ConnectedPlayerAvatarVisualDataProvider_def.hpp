@@ -54,10 +54,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x34f5c1c, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3516578, size 0xf8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleAvatarDidChange, addr 0x34f5d14, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarDidChange, addr 0x3516670, size 0xe8, virtual false, abstract: false, final false
   inline void HandleAvatarDidChange(::GlobalNamespace::IBeatSaberConnectedPlayer* player);
 
   static inline ::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider* New_ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
@@ -80,17 +80,17 @@ public:
 
   constexpr void __cordl_internal_set_visualDataDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>* value);
 
-  /// @brief Method .ctor, addr 0x34f5a1c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3516378, size 0x200, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberConnectedPlayer* connectedPlayer);
 
   /// [CompilerGenerated]
-  /// @brief Method add_visualDataDidChangeEvent, addr 0x34f589c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_visualDataDidChangeEvent, addr 0x35161f8, size 0xc0, virtual true, abstract: false, final true
   inline void add_visualDataDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>* value);
 
-  /// @brief Method get_avatarsData, addr 0x34f57c8, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method get_avatarsData, addr 0x3516124, size 0xcc, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_avatarsData();
 
-  /// @brief Method get_isVisualDataResolved, addr 0x34f5894, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isVisualDataResolved, addr 0x35161f0, size 0x8, virtual true, abstract: false, final true
   inline bool get_isVisualDataResolved();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
@@ -100,7 +100,7 @@ public:
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_visualDataDidChangeEvent, addr 0x34f595c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_visualDataDidChangeEvent, addr 0x35162b8, size 0xc0, virtual true, abstract: false, final true
   inline void remove_visualDataDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerAvatarsData>* value);
 
 protected:
@@ -118,7 +118,7 @@ public:
   ConnectedPlayerAvatarVisualDataProvider(ConnectedPlayerAvatarVisualDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22425 };
 
   /// [CompilerGenerated]
   /// @brief Field visualDataDidChangeEvent, offset: 0x10, size: 0x8, def value: None

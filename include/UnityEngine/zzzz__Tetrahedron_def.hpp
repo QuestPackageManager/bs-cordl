@@ -48,7 +48,7 @@ public:
   constexpr Tetrahedron__indices_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9723 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9730 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -86,7 +86,7 @@ public:
   constexpr Tetrahedron__neighbors_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9724 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9731 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -129,7 +129,7 @@ public:
                         bool isValid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9732 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };

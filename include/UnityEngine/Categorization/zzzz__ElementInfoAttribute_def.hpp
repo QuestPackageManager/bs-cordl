@@ -44,11 +44,11 @@ public:
 
   constexpr void __cordl_internal_set__Order_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6f59f94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f96e48, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Order, addr 0x6f59f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Order, addr 0x6f96e40, size 0x8, virtual false, abstract: false, final false
   inline void set_Order(int32_t value);
 
 protected:
@@ -66,7 +66,7 @@ public:
   ElementInfoAttribute(ElementInfoAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10062 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]

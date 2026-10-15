@@ -38,19 +38,22 @@ namespace GlobalNamespace {
 template <typename T> class OptionalArgument_1;
 }
 namespace GlobalNamespace {
-struct RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18;
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
-struct RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17;
+struct RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19;
 }
 namespace GlobalNamespace {
-class RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20;
+struct RunSongScreenshotsConsoleCommand__ExecuteAsync_d__18;
+}
+namespace GlobalNamespace {
+class RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21;
 }
 namespace GlobalNamespace {
 class RunSongScreenshotsConsoleCommand___c;
 }
 namespace GlobalNamespace {
-class RunSongScreenshotsConsoleCommand___c__DisplayClass18_0;
+class RunSongScreenshotsConsoleCommand___c__DisplayClass19_0;
 }
 namespace GlobalNamespace {
 class ScreenshotLevelStarter;
@@ -87,34 +90,34 @@ namespace GlobalNamespace {
 class RunSongScreenshotsConsoleCommand;
 }
 namespace GlobalNamespace {
-class RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20;
+class RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21;
 }
 namespace GlobalNamespace {
 class RunSongScreenshotsConsoleCommand___c;
 }
 namespace GlobalNamespace {
-class RunSongScreenshotsConsoleCommand___c__DisplayClass18_0;
+class RunSongScreenshotsConsoleCommand___c__DisplayClass19_0;
 }
 namespace GlobalNamespace {
-struct RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18;
+struct RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19;
 }
 namespace GlobalNamespace {
-struct RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17;
+struct RunSongScreenshotsConsoleCommand__ExecuteAsync_d__18;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::RunSongScreenshotsConsoleCommand*);
-MARK_REF_T(::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20*);
+MARK_REF_T(::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21*);
 MARK_REF_T(::GlobalNamespace::RunSongScreenshotsConsoleCommand___c*);
-MARK_REF_T(::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass18_0*);
-MARK_VAL_T(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18);
-MARK_VAL_T(::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17);
+MARK_REF_T(::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass19_0*);
+MARK_VAL_T(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19);
+MARK_VAL_T(::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__18);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunSongScreenshotsConsoleCommand*, "", "RunSongScreenshotsConsoleCommand");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20*, "",
-                    "RunSongScreenshotsConsoleCommand/<WaitUntilScreenshotQueueEmptyCoroutine>d__20");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21*, "",
+                    "RunSongScreenshotsConsoleCommand/<WaitUntilScreenshotQueueEmptyCoroutine>d__21");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunSongScreenshotsConsoleCommand___c*, "", "RunSongScreenshotsConsoleCommand/<>c");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass18_0*, "", "RunSongScreenshotsConsoleCommand/<>c__DisplayClass18_0");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18, "", "RunSongScreenshotsConsoleCommand/<EnqueueScreenshotLevelManually>d__18");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17, "", "RunSongScreenshotsConsoleCommand/<ExecuteAsync>d__17");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass19_0*, "", "RunSongScreenshotsConsoleCommand/<>c__DisplayClass19_0");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19, "", "RunSongScreenshotsConsoleCommand/<EnqueueScreenshotLevelManually>d__19");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__18, "", "RunSongScreenshotsConsoleCommand/<ExecuteAsync>d__18");
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
@@ -126,34 +129,34 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::RunSongScreenshotsConsoleCommand___c* __9;
 
-  /// @brief Field <>9__18_2, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__18_2, put = setStaticF___9__18_2)) ::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, ::StringW>* __9__18_2;
+  /// @brief Field <>9__19_2, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__19_2, put = setStaticF___9__19_2)) ::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, ::StringW>* __9__19_2;
 
-  /// @brief Field <>9__18_3, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__18_3, put = setStaticF___9__18_3)) ::System::Func_2<::GlobalNamespace::BeatmapDifficulty, ::StringW>* __9__18_3;
+  /// @brief Field <>9__19_3, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__19_3, put = setStaticF___9__19_3)) ::System::Func_2<::GlobalNamespace::BeatmapDifficulty, ::StringW>* __9__19_3;
 
   static inline ::GlobalNamespace::RunSongScreenshotsConsoleCommand___c* New_ctor();
 
-  /// @brief Method <EnqueueScreenshotLevelManually>b__18_2, addr 0x356f0a8, size 0x5c, virtual false, abstract: false, final false
-  inline ::StringW _EnqueueScreenshotLevelManually_b__18_2(::GlobalNamespace::BeatmapCharacteristic x);
+  /// @brief Method <EnqueueScreenshotLevelManually>b__19_2, addr 0x359123c, size 0x5c, virtual false, abstract: false, final false
+  inline ::StringW _EnqueueScreenshotLevelManually_b__19_2(::GlobalNamespace::BeatmapCharacteristic x);
 
-  /// @brief Method <EnqueueScreenshotLevelManually>b__18_3, addr 0x356f104, size 0x68, virtual false, abstract: false, final false
-  inline ::StringW _EnqueueScreenshotLevelManually_b__18_3(::GlobalNamespace::BeatmapDifficulty x);
+  /// @brief Method <EnqueueScreenshotLevelManually>b__19_3, addr 0x3591298, size 0x68, virtual false, abstract: false, final false
+  inline ::StringW _EnqueueScreenshotLevelManually_b__19_3(::GlobalNamespace::BeatmapDifficulty x);
 
-  /// @brief Method .ctor, addr 0x356f0a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3591238, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::RunSongScreenshotsConsoleCommand___c* getStaticF___9();
 
-  static inline ::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, ::StringW>* getStaticF___9__18_2();
+  static inline ::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, ::StringW>* getStaticF___9__19_2();
 
-  static inline ::System::Func_2<::GlobalNamespace::BeatmapDifficulty, ::StringW>* getStaticF___9__18_3();
+  static inline ::System::Func_2<::GlobalNamespace::BeatmapDifficulty, ::StringW>* getStaticF___9__19_3();
 
   static inline void setStaticF___9(::GlobalNamespace::RunSongScreenshotsConsoleCommand___c* value);
 
-  static inline void setStaticF___9__18_2(::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, ::StringW>* value);
+  static inline void setStaticF___9__19_2(::System::Func_2<::GlobalNamespace::BeatmapCharacteristic, ::StringW>* value);
 
-  static inline void setStaticF___9__18_3(::System::Func_2<::GlobalNamespace::BeatmapDifficulty, ::StringW>* value);
+  static inline void setStaticF___9__19_3(::System::Func_2<::GlobalNamespace::BeatmapDifficulty, ::StringW>* value);
 
 protected:
   // Ctor Parameters []
@@ -170,7 +173,7 @@ public:
   RunSongScreenshotsConsoleCommand___c(RunSongScreenshotsConsoleCommand___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19757 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19795 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -182,16 +185,16 @@ static_assert(sizeof(::GlobalNamespace::RunSongScreenshotsConsoleCommand___c) ==
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: RunSongScreenshotsConsoleCommand/<>c__DisplayClass18_0
-class CORDL_TYPE RunSongScreenshotsConsoleCommand___c__DisplayClass18_0 : public ::System::Object {
+// CS Name: RunSongScreenshotsConsoleCommand/<>c__DisplayClass19_0
+class CORDL_TYPE RunSongScreenshotsConsoleCommand___c__DisplayClass19_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field characteristicStr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_characteristicStr, put = __cordl_internal_set_characteristicStr)) ::StringW characteristicStr;
 
-  static inline ::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass18_0* New_ctor();
+  static inline ::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass19_0* New_ctor();
 
-  /// @brief Method <EnqueueScreenshotLevelManually>b__0, addr 0x356f170, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <EnqueueScreenshotLevelManually>b__0, addr 0x3591304, size 0x70, virtual false, abstract: false, final false
   inline bool _EnqueueScreenshotLevelManually_b__0(::GlobalNamespace::BeatmapCharacteristic characteristic);
 
   constexpr ::StringW const& __cordl_internal_get_characteristicStr() const;
@@ -200,25 +203,25 @@ public:
 
   constexpr void __cordl_internal_set_characteristicStr(::StringW value);
 
-  /// @brief Method .ctor, addr 0x356f16c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3591300, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr RunSongScreenshotsConsoleCommand___c__DisplayClass18_0();
+  constexpr RunSongScreenshotsConsoleCommand___c__DisplayClass19_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RunSongScreenshotsConsoleCommand___c__DisplayClass18_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RunSongScreenshotsConsoleCommand___c__DisplayClass19_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  RunSongScreenshotsConsoleCommand___c__DisplayClass18_0(RunSongScreenshotsConsoleCommand___c__DisplayClass18_0&&) = delete;
+  RunSongScreenshotsConsoleCommand___c__DisplayClass19_0(RunSongScreenshotsConsoleCommand___c__DisplayClass19_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RunSongScreenshotsConsoleCommand___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RunSongScreenshotsConsoleCommand___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RunSongScreenshotsConsoleCommand___c__DisplayClass18_0(RunSongScreenshotsConsoleCommand___c__DisplayClass18_0 const&) = delete;
+  RunSongScreenshotsConsoleCommand___c__DisplayClass19_0(RunSongScreenshotsConsoleCommand___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19796 };
 
   /// @brief Field characteristicStr, offset: 0x10, size: 0x8, def value: None
   ::StringW ___characteristicStr;
@@ -226,27 +229,27 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass18_0, ___characteristicStr) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass19_0, ___characteristicStr) == 0x10, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass18_0) == 0x18, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass19_0) == 0x18, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: RunSongScreenshotsConsoleCommand/<EnqueueScreenshotLevelManually>d__18
-struct CORDL_TYPE RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18 {
+// CS Name: RunSongScreenshotsConsoleCommand/<EnqueueScreenshotLevelManually>d__19
+struct CORDL_TYPE RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x356f1e0, size 0x1720, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3591374, size 0x1864, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3570900, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3592bd8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -254,25 +257,25 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18();
+  constexpr RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::RunSongScreenshotsConsoleCommand*", modifiers: "", def_value: None, comment: None }, CppParam { name: "messages", ty:
   // "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__8__1", ty:
-  // "::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass18_0*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_songId_5__2", ty: "::StringW", modifiers: "",
+  // "::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass19_0*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_songId_5__2", ty: "::StringW", modifiers: "",
   // def_value: None, comment: None }, CppParam { name: "_beatmapLevel_5__3", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None, comment: None }]
-  constexpr RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
+  constexpr RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                                                    ::GlobalNamespace::RunSongScreenshotsConsoleCommand* __4__this,
                                                                                    ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages,
-                                                                                   ::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass18_0* __8__1, ::StringW _songId_5__2,
+                                                                                   ::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass19_0* __8__1, ::StringW _songId_5__2,
                                                                                    ::GlobalNamespace::BeatmapLevel* _beatmapLevel_5__3, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1,
                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19797 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -290,7 +293,7 @@ public:
   ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages;
 
   /// @brief Field <>8__1, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass18_0* __8__1;
+  ::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass19_0* __8__1;
 
   /// @brief Field <songId>5__2, offset: 0x38, size: 0x8, def value: None
   ::StringW _songId_5__2;
@@ -307,43 +310,43 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18, messages) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19, messages) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18, __8__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19, __8__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18, _songId_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19, _songId_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18, _beatmapLevel_5__3) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19, _beatmapLevel_5__3) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18, __u__1) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19, __u__1) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18, __u__2) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19, __u__2) == 0x50, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18) == 0x58, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19) == 0x58, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: RunSongScreenshotsConsoleCommand/<ExecuteAsync>d__17
-struct CORDL_TYPE RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17 {
+// CS Name: RunSongScreenshotsConsoleCommand/<ExecuteAsync>d__18
+struct CORDL_TYPE RunSongScreenshotsConsoleCommand__ExecuteAsync_d__18 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3570980, size 0x2c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3592c58, size 0x388, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3570c48, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3592fe0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -351,20 +354,20 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17();
+  constexpr RunSongScreenshotsConsoleCommand__ExecuteAsync_d__18();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::RunSongScreenshotsConsoleCommand*", modifiers: "", def_value: None, comment: None }, CppParam { name: "messages", ty:
   // "::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
-  constexpr RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
+  constexpr RunSongScreenshotsConsoleCommand__ExecuteAsync_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                                  ::GlobalNamespace::RunSongScreenshotsConsoleCommand* __4__this,
                                                                  ::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages,
                                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19798 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -387,25 +390,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__18, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__18, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__18, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17, messages) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__18, messages) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__18, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17) == 0x38, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__18) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: RunSongScreenshotsConsoleCommand/<WaitUntilScreenshotQueueEmptyCoroutine>d__20
-class CORDL_TYPE RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20 : public ::System::Object {
+// CS Name: RunSongScreenshotsConsoleCommand/<WaitUntilScreenshotQueueEmptyCoroutine>d__21
+class CORDL_TYPE RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -430,26 +433,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3570ccc, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3593064, size 0x104, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
-  static inline ::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3570dd0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3593168, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3570dd8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3593170, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3570e10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x35931a8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x3570cc8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3593060, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -471,7 +474,7 @@ public:
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::RunSongScreenshotsConsoleCommand* value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x356e8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3590a54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -486,19 +489,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20();
+  constexpr RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20(RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20&&) = delete;
+  RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21(RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20(RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20 const&) = delete;
+  RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21(RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19799 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -512,13 +515,13 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20) == 0x28, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [UsedImplicitly]
@@ -529,87 +532,90 @@ namespace GlobalNamespace {
 class CORDL_TYPE RunSongScreenshotsConsoleCommand : public ::GlobalNamespace::ConsoleCommandBase {
 public:
   // Declarations
-  using _EnqueueScreenshotLevelManually_d__18 = ::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__18;
+  using _EnqueueScreenshotLevelManually_d__19 = ::GlobalNamespace::RunSongScreenshotsConsoleCommand__EnqueueScreenshotLevelManually_d__19;
 
-  using _ExecuteAsync_d__17 = ::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__17;
+  using _ExecuteAsync_d__18 = ::GlobalNamespace::RunSongScreenshotsConsoleCommand__ExecuteAsync_d__18;
 
-  using _WaitUntilScreenshotQueueEmptyCoroutine_d__20 = ::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__20;
+  using _WaitUntilScreenshotQueueEmptyCoroutine_d__21 = ::GlobalNamespace::RunSongScreenshotsConsoleCommand__WaitUntilScreenshotQueueEmptyCoroutine_d__21;
 
   using __c = ::GlobalNamespace::RunSongScreenshotsConsoleCommand___c;
 
-  using __c__DisplayClass18_0 = ::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass18_0;
+  using __c__DisplayClass19_0 = ::GlobalNamespace::RunSongScreenshotsConsoleCommand___c__DisplayClass19_0;
 
-  /// @brief Field _barrier, offset 0x90, size 0x8
+  /// @brief Field _barrier, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__barrier, put = __cordl_internal_set__barrier)) ::System::Threading::Barrier* _barrier;
 
   /// @brief Field _beatmapLevels, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevels, put = __cordl_internal_set__beatmapLevels)) ::GlobalNamespace::BeatmapLevelsModel* _beatmapLevels;
 
-  /// @brief Field _characteristic, offset 0x68, size 0x8
+  /// @brief Field _characteristic, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__characteristic, put = __cordl_internal_set__characteristic)) ::GlobalNamespace::OptionalArgument_1<::StringW>* _characteristic;
 
   /// @brief Field _coroutineStarter, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__coroutineStarter, put = __cordl_internal_set__coroutineStarter)) ::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
 
-  /// @brief Field _difficulty, offset 0x60, size 0x8
+  /// @brief Field _difficulty, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__difficulty, put = __cordl_internal_set__difficulty)) ::GlobalNamespace::OptionalArgument_1<::StringW>* _difficulty;
 
-  /// @brief Field _framerate, offset 0x80, size 0x8
+  /// @brief Field _framerate, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__framerate, put = __cordl_internal_set__framerate)) ::GlobalNamespace::OptionalArgument_1<int32_t>* _framerate;
+
+  /// @brief Field _playerDataModel, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _screenshotLevelStarter, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__screenshotLevelStarter, put = __cordl_internal_set__screenshotLevelStarter)) ::GlobalNamespace::ScreenshotLevelStarter* _screenshotLevelStarter;
 
-  /// @brief Field _screenshotPeriod, offset 0x70, size 0x8
+  /// @brief Field _screenshotPeriod, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__screenshotPeriod, put = __cordl_internal_set__screenshotPeriod)) ::GlobalNamespace::OptionalArgument_1<float_t>* _screenshotPeriod;
 
-  /// @brief Field _screenshotTimes, offset 0x78, size 0x8
+  /// @brief Field _screenshotTimes, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__screenshotTimes, put = __cordl_internal_set__screenshotTimes)) ::GlobalNamespace::OptionalArgument_1<::StringW>* _screenshotTimes;
 
-  /// @brief Field _songId, offset 0x58, size 0x8
+  /// @brief Field _songId, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__songId, put = __cordl_internal_set__songId)) ::GlobalNamespace::OptionalArgument_1<::StringW>* _songId;
 
-  /// @brief Field _terminalView, offset 0x50, size 0x8
+  /// @brief Field _terminalView, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__terminalView, put = __cordl_internal_set__terminalView)) ::GlobalNamespace::ITerminalView* _terminalView;
 
-  /// @brief Field _wait, offset 0x88, size 0x8
+  /// @brief Field _wait, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__wait, put = __cordl_internal_set__wait)) ::GlobalNamespace::OptionalArgument_1<bool>* _wait;
 
   __declspec(property(get = get_commandName)) ::StringW commandName;
 
   __declspec(property(get = get_description)) ::StringW description;
 
-  /// [AsyncStateMachine(typeof(RunSongScreenshotsConsoleCommand::<EnqueueScreenshotLevelManually>d__18))]
-  /// @brief Method EnqueueScreenshotLevelManually, addr 0x356e63c, size 0xf4, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(RunSongScreenshotsConsoleCommand::<EnqueueScreenshotLevelManually>d__19))]
+  /// @brief Method EnqueueScreenshotLevelManually, addr 0x35907c0, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* EnqueueScreenshotLevelManually(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// [AsyncStateMachine(typeof(RunSongScreenshotsConsoleCommand::<ExecuteAsync>d__17))]
-  /// @brief Method ExecuteAsync, addr 0x356e54c, size 0xf0, virtual true, abstract: false, final false
+  /// [AsyncStateMachine(typeof(RunSongScreenshotsConsoleCommand::<ExecuteAsync>d__18))]
+  /// @brief Method ExecuteAsync, addr 0x35906d0, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>* messages);
 
-  /// @brief Method Initialize, addr 0x356dff4, size 0x558, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3590178, size 0x558, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::RunSongScreenshotsConsoleCommand* New_ctor();
 
-  /// @brief Method WaitUntilScreenshotQueueEmpty, addr 0x356e730, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method WaitUntilScreenshotQueueEmpty, addr 0x35908b4, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* WaitUntilScreenshotQueueEmpty();
 
-  /// [IteratorStateMachine(typeof(RunSongScreenshotsConsoleCommand::<WaitUntilScreenshotQueueEmptyCoroutine>d__20))]
-  /// @brief Method WaitUntilScreenshotQueueEmptyCoroutine, addr 0x356e87c, size 0x54, virtual false, abstract: false, final false
+  /// [IteratorStateMachine(typeof(RunSongScreenshotsConsoleCommand::<WaitUntilScreenshotQueueEmptyCoroutine>d__21))]
+  /// @brief Method WaitUntilScreenshotQueueEmptyCoroutine, addr 0x3590a00, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* WaitUntilScreenshotQueueEmptyCoroutine();
 
   /// [CompilerGenerated]
-  /// @brief Method <EnqueueScreenshotLevelManually>g__ParseNumber|18_1, addr 0x356ef74, size 0x94, virtual false, abstract: false, final false
-  static inline float_t _EnqueueScreenshotLevelManually_g__ParseNumber_18_1(::StringW x);
+  /// @brief Method <EnqueueScreenshotLevelManually>g__ParseNumber|19_1, addr 0x35910f8, size 0x94, virtual false, abstract: false, final false
+  static inline float_t _EnqueueScreenshotLevelManually_g__ParseNumber_19_1(::StringW x);
 
   /// [CompilerGenerated]
-  /// @brief Method <WaitUntilScreenshotQueueEmptyCoroutine>b__20_0, addr 0x356f030, size 0x20, virtual false, abstract: false, final false
-  inline bool _WaitUntilScreenshotQueueEmptyCoroutine_b__20_0();
+  /// @brief Method <WaitUntilScreenshotQueueEmptyCoroutine>b__21_0, addr 0x35911b4, size 0x30, virtual false, abstract: false, final false
+  inline bool _WaitUntilScreenshotQueueEmptyCoroutine_b__21_0();
 
   /// [CompilerGenerated]
-  /// @brief Method <WaitUntilScreenshotQueueEmpty>b__19_0, addr 0x356f008, size 0x28, virtual false, abstract: false, final false
-  inline bool _WaitUntilScreenshotQueueEmpty_b__19_0();
+  /// @brief Method <WaitUntilScreenshotQueueEmpty>b__20_0, addr 0x359118c, size 0x28, virtual false, abstract: false, final false
+  inline bool _WaitUntilScreenshotQueueEmpty_b__20_0();
 
   constexpr ::System::Threading::Barrier* const& __cordl_internal_get__barrier() const;
 
@@ -634,6 +640,10 @@ public:
   constexpr ::GlobalNamespace::OptionalArgument_1<int32_t>* const& __cordl_internal_get__framerate() const;
 
   constexpr ::GlobalNamespace::OptionalArgument_1<int32_t>*& __cordl_internal_get__framerate();
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
   constexpr ::GlobalNamespace::ScreenshotLevelStarter* const& __cordl_internal_get__screenshotLevelStarter() const;
 
@@ -671,6 +681,8 @@ public:
 
   constexpr void __cordl_internal_set__framerate(::GlobalNamespace::OptionalArgument_1<int32_t>* value);
 
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
+
   constexpr void __cordl_internal_set__screenshotLevelStarter(::GlobalNamespace::ScreenshotLevelStarter* value);
 
   constexpr void __cordl_internal_set__screenshotPeriod(::GlobalNamespace::OptionalArgument_1<float_t>* value);
@@ -683,13 +695,13 @@ public:
 
   constexpr void __cordl_internal_set__wait(::GlobalNamespace::OptionalArgument_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x356e8d8, size 0x69c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3590a5c, size 0x69c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_commandName, addr 0x356df6c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_commandName, addr 0x35900f0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_commandName();
 
-  /// @brief Method get_description, addr 0x356dfb0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_description, addr 0x3590134, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_description();
 
 protected:
@@ -707,7 +719,7 @@ public:
   RunSongScreenshotsConsoleCommand(RunSongScreenshotsConsoleCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19800 };
 
   /// [Inject]
   /// @brief Field _beatmapLevels, offset: 0x38, size: 0x8, def value: None
@@ -721,32 +733,36 @@ public:
   /// @brief Field _coroutineStarter, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
 
+  /// [Inject]
+  /// @brief Field _playerDataModel, offset: 0x50, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
+
   /// [InjectOptional]
-  /// @brief Field _terminalView, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _terminalView, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::ITerminalView* ____terminalView;
 
-  /// @brief Field _songId, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _songId, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::OptionalArgument_1<::StringW>* ____songId;
 
-  /// @brief Field _difficulty, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _difficulty, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::OptionalArgument_1<::StringW>* ____difficulty;
 
-  /// @brief Field _characteristic, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _characteristic, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::OptionalArgument_1<::StringW>* ____characteristic;
 
-  /// @brief Field _screenshotPeriod, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _screenshotPeriod, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::OptionalArgument_1<float_t>* ____screenshotPeriod;
 
-  /// @brief Field _screenshotTimes, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _screenshotTimes, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::OptionalArgument_1<::StringW>* ____screenshotTimes;
 
-  /// @brief Field _framerate, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _framerate, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::OptionalArgument_1<int32_t>* ____framerate;
 
-  /// @brief Field _wait, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _wait, offset: 0x90, size: 0x8, def value: None
   ::GlobalNamespace::OptionalArgument_1<bool>* ____wait;
 
-  /// @brief Field _barrier, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _barrier, offset: 0x98, size: 0x8, def value: None
   ::System::Threading::Barrier* ____barrier;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -758,24 +774,26 @@ static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____
 
 static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____coroutineStarter) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____terminalView) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____playerDataModel) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____songId) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____terminalView) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____difficulty) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____songId) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____characteristic) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____difficulty) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____screenshotPeriod) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____characteristic) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____screenshotTimes) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____screenshotPeriod) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____framerate) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____screenshotTimes) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____wait) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____framerate) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____barrier) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____wait) == 0x90, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::RunSongScreenshotsConsoleCommand) == 0x98, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::RunSongScreenshotsConsoleCommand, ____barrier) == 0x98, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::RunSongScreenshotsConsoleCommand) == 0xa0, "Size mismatch!");
 
 } // namespace GlobalNamespace

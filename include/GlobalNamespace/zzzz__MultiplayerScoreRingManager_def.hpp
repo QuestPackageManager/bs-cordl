@@ -82,9 +82,6 @@ public:
   /// @brief Field _delayBetweenScoreUpdates, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__delayBetweenScoreUpdates, put = __cordl_internal_set__delayBetweenScoreUpdates)) float_t _delayBetweenScoreUpdates;
 
-  /// @brief Field _firstPlayerItem, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__firstPlayerItem, put = __cordl_internal_set__firstPlayerItem)) ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> _firstPlayerItem;
-
   /// @brief Field _layoutProvider, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__layoutProvider, put = __cordl_internal_set__layoutProvider)) ::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
 
@@ -99,7 +96,7 @@ public:
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
                       put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager;
 
-  /// @brief Field _playersSpawned, offset 0x81, size 0x1
+  /// @brief Field _playersSpawned, offset 0x79, size 0x1
   __declspec(property(get = __cordl_internal_get__playersSpawned, put = __cordl_internal_set__playersSpawned)) bool _playersSpawned;
 
   /// @brief Field _scoreProvider, offset 0x50, size 0x8
@@ -115,60 +112,60 @@ public:
   /// @brief Field _spawnCenter, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__spawnCenter, put = __cordl_internal_set__spawnCenter)) ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> _spawnCenter;
 
-  /// @brief Field _spawnCenterDistanceFound, offset 0x80, size 0x1
+  /// @brief Field _spawnCenterDistanceFound, offset 0x78, size 0x1
   __declspec(property(get = __cordl_internal_get__spawnCenterDistanceFound, put = __cordl_internal_set__spawnCenterDistanceFound)) bool _spawnCenterDistanceFound;
 
   /// @brief Field _timeSinceLastScoreUpdate, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get__timeSinceLastScoreUpdate, put = __cordl_internal_set__timeSinceLastScoreUpdate)) float_t _timeSinceLastScoreUpdate;
 
-  /// @brief Method AnimateColorsForAllPlayers, addr 0x5e02304, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method AnimateColorsForAllPlayers, addr 0x5e3fad0, size 0x1a0, virtual false, abstract: false, final false
   inline void AnimateColorsForAllPlayers(::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method AnimateColorsForPlayer, addr 0x5e01e70, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method AnimateColorsForPlayer, addr 0x5e3f640, size 0x1cc, virtual false, abstract: false, final false
   inline void AnimateColorsForPlayer(::StringW userId, ::UnityEngine::Color nameColor, ::UnityEngine::Color scoreColor, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method GetScoreRingItem, addr 0x5e02040, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetScoreRingItem, addr 0x5e3f80c, size 0x114, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> GetScoreRingItem(::StringW userId);
 
-  /// @brief Method GetScoreRingItems, addr 0x5e02154, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetScoreRingItems, addr 0x5e3f920, size 0x1b0, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>> GetScoreRingItems();
 
-  /// @brief Method HandlePlayerDisconnected, addr 0x5e02bf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDisconnected, addr 0x5e403bc, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerSpawningDidFinish, addr 0x5e01288, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerSpawningDidFinish, addr 0x5e3ea58, size 0x18, virtual false, abstract: false, final false
   inline void HandlePlayerSpawningDidFinish();
 
-  /// @brief Method HandlePlayerStateChanged, addr 0x5e02bb8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerStateChanged, addr 0x5e4037c, size 0x40, virtual false, abstract: false, final false
   inline void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x5e01270, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnCenterDistanceWasFound, addr 0x5e3ea40, size 0x18, virtual false, abstract: false, final false
   inline void HandleSpawnCenterDistanceWasFound(float_t spawnCenterDistance);
 
-  /// @brief Method HandleStateChanged, addr 0x5e012a0, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x5e3ea70, size 0x4b4, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
   static inline ::GlobalNamespace::MultiplayerScoreRingManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5e01754, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5e3ef24, size 0x418, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetPlayerToFailedState, addr 0x5e024a4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerToFailedState, addr 0x5e3fc70, size 0x138, virtual false, abstract: false, final false
   inline void SetPlayerToFailedState(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method SpawnTexts, addr 0x5e025f4, size 0x5c4, virtual false, abstract: false, final false
+  /// @brief Method SpawnTexts, addr 0x5e3fdc0, size 0x5bc, virtual false, abstract: false, final false
   inline void SpawnTexts();
 
-  /// @brief Method Start, addr 0x5e01008, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e3e7d8, size 0x268, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TrySpawnTexts, addr 0x5e025dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TrySpawnTexts, addr 0x5e3fda8, size 0x18, virtual false, abstract: false, final false
   inline void TrySpawnTexts();
 
-  /// @brief Method Update, addr 0x5e01b6c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e3f33c, size 0xf8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateScore, addr 0x5e01c64, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method UpdateScore, addr 0x5e3f434, size 0x20c, virtual false, abstract: false, final false
   inline void UpdateScore(::GlobalNamespace::IConnectedPlayer* playerToUpdate);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* const& __cordl_internal_get__allActivePlayers() const;
@@ -186,10 +183,6 @@ public:
   constexpr float_t const& __cordl_internal_get__delayBetweenScoreUpdates() const;
 
   constexpr float_t& __cordl_internal_get__delayBetweenScoreUpdates();
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> const& __cordl_internal_get__firstPlayerItem() const;
-
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem>& __cordl_internal_get__firstPlayerItem();
 
   constexpr ::GlobalNamespace::MultiplayerLayoutProvider* const& __cordl_internal_get__layoutProvider() const;
 
@@ -243,8 +236,6 @@ public:
 
   constexpr void __cordl_internal_set__delayBetweenScoreUpdates(float_t value);
 
-  constexpr void __cordl_internal_set__firstPlayerItem(::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> value);
-
   constexpr void __cordl_internal_set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
 
   constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
@@ -267,7 +258,7 @@ public:
 
   constexpr void __cordl_internal_set__timeSinceLastScoreUpdate(float_t value);
 
-  /// @brief Method .ctor, addr 0x5e02bfc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e403c0, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -285,7 +276,7 @@ public:
   MultiplayerScoreRingManager(MultiplayerScoreRingManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6313 };
 
   /// [SerializeField]
   /// @brief Field _delayBetweenScoreUpdates, offset: 0x20, size: 0x4, def value: None
@@ -335,13 +326,10 @@ public:
   /// @brief Field _timeSinceLastScoreUpdate, offset: 0x74, size: 0x4, def value: None
   float_t ____timeSinceLastScoreUpdate;
 
-  /// @brief Field _firstPlayerItem, offset: 0x78, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> ____firstPlayerItem;
-
-  /// @brief Field _spawnCenterDistanceFound, offset: 0x80, size: 0x1, def value: None
+  /// @brief Field _spawnCenterDistanceFound, offset: 0x78, size: 0x1, def value: None
   bool ____spawnCenterDistanceFound;
 
-  /// @brief Field _playersSpawned, offset: 0x81, size: 0x1, def value: None
+  /// @brief Field _playersSpawned, offset: 0x79, size: 0x1, def value: None
   bool ____playersSpawned;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -373,12 +361,10 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerScoreRingManager, ____curre
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerScoreRingManager, ____timeSinceLastScoreUpdate) == 0x74, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerScoreRingManager, ____firstPlayerItem) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerScoreRingManager, ____spawnCenterDistanceFound) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerScoreRingManager, ____spawnCenterDistanceFound) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerScoreRingManager, ____playersSpawned) == 0x79, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerScoreRingManager, ____playersSpawned) == 0x81, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::MultiplayerScoreRingManager) == 0x88, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::MultiplayerScoreRingManager) == 0x80, "Size mismatch!");
 
 } // namespace GlobalNamespace

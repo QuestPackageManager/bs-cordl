@@ -65,7 +65,7 @@ public:
   static ::UnityEngine::VFX::Utility::VFXVisibilityEventBinder_Activation const OnBecameVisible;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20292 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -96,13 +96,13 @@ public:
 
   static inline ::UnityEngine::VFX::Utility::VFXVisibilityEventBinder* New_ctor();
 
-  /// @brief Method OnBecameInvisible, addr 0x6e1f2a8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnBecameInvisible, addr 0x6e5bf44, size 0xb8, virtual false, abstract: false, final false
   inline void OnBecameInvisible();
 
-  /// @brief Method OnBecameVisible, addr 0x6e1f1f4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnBecameVisible, addr 0x6e5be90, size 0xb4, virtual false, abstract: false, final false
   inline void OnBecameVisible();
 
-  /// @brief Method SetEventAttribute, addr 0x6e1f1f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetEventAttribute, addr 0x6e5be8c, size 0x4, virtual true, abstract: false, final false
   inline void SetEventAttribute(::ArrayW<::System::Object*> parameters);
 
   constexpr ::UnityEngine::VFX::Utility::VFXVisibilityEventBinder_Activation const& __cordl_internal_get_activation() const;
@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set_activation(::UnityEngine::VFX::Utility::VFXVisibilityEventBinder_Activation value);
 
-  /// @brief Method .ctor, addr 0x6e1f360, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e5bffc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,7 +129,7 @@ public:
   VFXVisibilityEventBinder(VFXVisibilityEventBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20246 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20293 };
 
   /// @brief Field activation, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::VFX::Utility::VFXVisibilityEventBinder_Activation ___activation;

@@ -44,7 +44,7 @@ public:
   constexpr Handle_Node(void* Next, int32_t Id, int32_t Version, int32_t AllocationFlags) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20458 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -96,31 +96,31 @@ public:
   constexpr operator ::System::IEquatable_1<::Unity::Audio::Handle>*();
 
   /// [IsReadOnly]
-  /// @brief Method CheckValidOrThrow, addr 0x6eaa7a0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CheckValidOrThrow, addr 0x6ee743c, size 0x70, virtual false, abstract: false, final false
   inline void CheckValidOrThrow();
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6eacf14, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ee9bb0, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6eaafe8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6ee7c84, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Audio::Handle other);
 
   /// [IsReadOnly]
-  /// @brief Method GetHashCode, addr 0x6eab8b8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6ee8554, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [IsReadOnly]
-  /// @brief Method get_AtomicNode, addr 0x6eacf0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AtomicNode, addr 0x6ee9ba8, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Audio::Handle_Node* get_AtomicNode();
 
   /// [IsReadOnly]
-  /// @brief Method get_Valid, addr 0x6eaae7c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_Valid, addr 0x6ee7b18, size 0x24, virtual true, abstract: false, final true
   inline bool get_Valid();
 
   /// [IsReadOnly]
-  /// @brief Method get_ValidAndNotDisposed, addr 0x6eacfa0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method get_ValidAndNotDisposed, addr 0x6ee9c3c, size 0x19c, virtual false, abstract: false, final false
   inline bool get_ValidAndNotDisposed();
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Audio::Handle>"
@@ -135,7 +135,7 @@ public:
   constexpr Handle(::System::IntPtr m_Node, int32_t Version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20412 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20459 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

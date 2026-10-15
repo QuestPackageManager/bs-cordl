@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRApplications::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRApplications::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x625dfe0;
+  constexpr static std::size_t addrs = 0x629aa28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::CVRApplications::*)(::StringW, bool)>(
     &::OVR::OpenVR::CVRApplications::AddApplicationManifest)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x625e0e0;
+  constexpr static std::size_t addrs = 0x629ab28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::CVRApplications::*)(::StringW)>(&::OVR::OpenVR::CVRApplications::RemoveApplicationManifest)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e104;
+  constexpr static std::size_t addrs = 0x629ab4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRApplications::*)(::StringW)>(&::OVR::OpenVR::CVRApplications::IsApplicationInstalled)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e124;
+  constexpr static std::size_t addrs = 0x629ab6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVRApplications::*)()>(&::OVR::OpenVR::CVRApplications::GetApplicationCount)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e144;
+  constexpr static std::size_t addrs = 0x629ab8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRApplications*>(), { "GetApplicationCount", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::CVRApplications::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRApplications::GetApplicationKeyByIndex)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e164;
+  constexpr static std::size_t addrs = 0x629abac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::CVRApplications::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRApplications::GetApplicationKeyByProcessId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e184;
+  constexpr static std::size_t addrs = 0x629abcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::CVRApplications::*)(::StringW)>(&::OVR::OpenVR::CVRApplications::LaunchApplication)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e1a4;
+  constexpr static std::size_t addrs = 0x629abec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::CVRApplications::*)(::StringW, ::StringW, ::ArrayW<::OVR::OpenVR::AppOverrideKeys_t>)>(
     &::OVR::OpenVR::CVRApplications::LaunchTemplateApplication)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x625e1c4;
+  constexpr static std::size_t addrs = 0x629ac0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::CVRApplications::*)(::StringW, ::StringW)>(
     &::OVR::OpenVR::CVRApplications::LaunchApplicationFromMimeType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e1f0;
+  constexpr static std::size_t addrs = 0x629ac38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::CVRApplications::*)(::StringW)>(&::OVR::OpenVR::CVRApplications::LaunchDashboardOverlay)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e210;
+  constexpr static std::size_t addrs = 0x629ac58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRApplications::*)(::StringW)>(&::OVR::OpenVR::CVRApplications::CancelApplicationLaunch)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e230;
+  constexpr static std::size_t addrs = 0x629ac78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::CVRApplications::*)(uint32_t, ::StringW)>(
     &::OVR::OpenVR::CVRApplications::IdentifyApplication)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e250;
+  constexpr static std::size_t addrs = 0x629ac98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVRApplications::*)(::StringW)>(&::OVR::OpenVR::CVRApplications::GetApplicationProcessId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e270;
+  constexpr static std::size_t addrs = 0x629acb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OVR::OpenVR::CVRApplications::*)(::OVR::OpenVR::EVRApplicationError)>(
     &::OVR::OpenVR::CVRApplications::GetApplicationsErrorNameFromEnum)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x625e290;
+  constexpr static std::size_t addrs = 0x629acd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<uint32_t (::OVR::OpenVR::CVRApplications::*)(::StringW, ::OVR::OpenVR::EVRApplicationProperty, ::System::Text::StringBuilder*, uint32_t, ::by_ref<::OVR::OpenVR::EVRApplicationError>)>(
         &::OVR::OpenVR::CVRApplications::GetApplicationPropertyString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e31c;
+  constexpr static std::size_t addrs = 0x629ad64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRApplications::*)(::StringW, ::OVR::OpenVR::EVRApplicationProperty, ::by_ref<::OVR::OpenVR::EVRApplicationError>)>(
     &::OVR::OpenVR::CVRApplications::GetApplicationPropertyBool)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e33c;
+  constexpr static std::size_t addrs = 0x629ad84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::OVR::OpenVR::CVRApplications::*)(::StringW, ::OVR::OpenVR::EVRApplicationProperty, ::by_ref<::OVR::OpenVR::EVRApplicationError>)>(
     &::OVR::OpenVR::CVRApplications::GetApplicationPropertyUint64)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e35c;
+  constexpr static std::size_t addrs = 0x629ada4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::CVRApplications::*)(::StringW, bool)>(
     &::OVR::OpenVR::CVRApplications::SetApplicationAutoLaunch)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x625e37c;
+  constexpr static std::size_t addrs = 0x629adc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRApplications::*)(::StringW)>(&::OVR::OpenVR::CVRApplications::GetApplicationAutoLaunch)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e3a0;
+  constexpr static std::size_t addrs = 0x629ade8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::CVRApplications::*)(::StringW, ::StringW)>(
     &::OVR::OpenVR::CVRApplications::SetDefaultApplicationForMimeType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e3c0;
+  constexpr static std::size_t addrs = 0x629ae08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRApplications*>(),
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRApplications::*)(::StringW, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRApplications::GetDefaultApplicationForMimeType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e3e0;
+  constexpr static std::size_t addrs = 0x629ae28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRApplications::*)(::StringW, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRApplications::GetApplicationSupportedMimeTypes)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e400;
+  constexpr static std::size_t addrs = 0x629ae48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVRApplications::*)(::StringW, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRApplications::GetApplicationsThatSupportMimeType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e420;
+  constexpr static std::size_t addrs = 0x629ae68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVRApplications::*)(uint32_t, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRApplications::GetApplicationLaunchArguments)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e440;
+  constexpr static std::size_t addrs = 0x629ae88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::CVRApplications::*)(::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRApplications::GetStartingApplication)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e460;
+  constexpr static std::size_t addrs = 0x629aea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -394,7 +394,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationTransitionState (::OVR::OpenVR::CVRApplications::*)()>(&::OVR::OpenVR::CVRApplications::GetTransitionState)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e480;
+  constexpr static std::size_t addrs = 0x629aec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRApplications*>(), { "GetTransitionState", {}, {} })));
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::CVRApplications::*)(::StringW)>(
     &::OVR::OpenVR::CVRApplications::PerformApplicationPrelaunchCheck)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e4a0;
+  constexpr static std::size_t addrs = 0x629aee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::OVR::OpenVR::CVRApplications::*)(::OVR::OpenVR::EVRApplicationTransitionState)>(
     &::OVR::OpenVR::CVRApplications::GetApplicationsTransitionStateNameFromEnum)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x625e4c0;
+  constexpr static std::size_t addrs = 0x629af08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -435,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRApplications::*)()>(&::OVR::OpenVR::CVRApplications::IsQuitUserPromptRequested)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e54c;
+  constexpr static std::size_t addrs = 0x629af94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRApplications*>(), { "IsQuitUserPromptRequested", {}, {} })));
@@ -448,7 +448,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRApplicationError (::OVR::OpenVR::CVRApplications::*)(::StringW, ::StringW, ::StringW)>(
     &::OVR::OpenVR::CVRApplications::LaunchInternalProcess)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e56c;
+  constexpr static std::size_t addrs = 0x629afb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -462,7 +462,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::OVR::OpenVR::CVRApplications::*)()>(&::OVR::OpenVR::CVRApplications::GetCurrentSceneProcessId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e58c;
+  constexpr static std::size_t addrs = 0x629afd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRApplications*>(), { "GetCurrentSceneProcessId", {}, {} })));

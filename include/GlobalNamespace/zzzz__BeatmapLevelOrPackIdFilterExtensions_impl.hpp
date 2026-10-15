@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(&::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowPacks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d7b68;
+  constexpr static std::size_t addrs = 0x3a011d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(&::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowLevels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d7b7c;
+  constexpr static std::size_t addrs = 0x3a011ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
@@ -34,11 +34,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(&::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowEmpty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d7b90;
+  constexpr static std::size_t addrs = 0x3a01200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
                                                                                            { "ShouldAllowEmpty", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelOrPackIdFilter>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions.WithoutEmpty
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapLevelOrPackIdFilter (*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(
+    &::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::WithoutEmpty)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3a01214;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
+                                                                                           { "WithoutEmpty", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelOrPackIdFilter>() } })));
     return ___internal_method;
   }
 };
@@ -56,6 +70,11 @@ inline bool GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::ShouldAllowEm
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
                                                                                          { "ShouldAllowEmpty", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelOrPackIdFilter>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, filter);
+}
+inline ::GlobalNamespace::BeatmapLevelOrPackIdFilter GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::WithoutEmpty(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions*>(),
+                                                                                         { "WithoutEmpty", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelOrPackIdFilter>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapLevelOrPackIdFilter>(nullptr, ___internal_method, filter);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelOrPackIdFilterExtensions::BeatmapLevelOrPackIdFilterExtensions() {}

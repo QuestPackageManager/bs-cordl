@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PhysicsPositionsMovementEventEffect::*)()>(&::GlobalNamespace::PhysicsPositionsMovementEventEffect::Start)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x5dbb624;
+  constexpr static std::size_t addrs = 0x5df87b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PhysicsPositionsMovementEventEffect*>(), { "Start", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PhysicsPositionsMovementEventEffect::*)()>(&::GlobalNamespace::PhysicsPositionsMovementEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x5dbb8f4;
+  constexpr static std::size_t addrs = 0x5df8a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PhysicsPositionsMovementEventEffect*>(), { "OnDestroy", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PhysicsPositionsMovementEventEffect::*)(float_t)>(
     &::GlobalNamespace::PhysicsPositionsMovementEventEffect::HandleSongTimeFixedUpdate)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5dbbab4;
+  constexpr static std::size_t addrs = 0x5df8c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PhysicsPositionsMovementEventEffect::*)()>(
     &::GlobalNamespace::PhysicsPositionsMovementEventEffect::HandleSongTimeUpdate)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5dbbb90;
+  constexpr static std::size_t addrs = 0x5df8d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PhysicsPositionsMovementEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::PhysicsPositionsMovementEventEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5dbbc04;
+  constexpr static std::size_t addrs = 0x5df8d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PhysicsPositionsMovementEventEffect*>(),
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PhysicsPositionsMovementEventEffect::*)()>(&::GlobalNamespace::PhysicsPositionsMovementEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5dbbc80;
+  constexpr static std::size_t addrs = 0x5df8e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PhysicsPositionsMovementEventEffect*>(), { ".ctor", {}, {} })));

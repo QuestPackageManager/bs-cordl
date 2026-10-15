@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_touchpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb274;
+  constexpr static std::size_t addrs = 0x6937ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(), { "get_touchpad", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::Vector2Control*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_touchpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb27c;
+  constexpr static std::size_t addrs = 0x6937ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_volumeUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb284;
+  constexpr static std::size_t addrs = 0x6937f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(), { "get_volumeUp", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_volumeUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb28c;
+  constexpr static std::size_t addrs = 0x6937f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_recentered)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb294;
+  constexpr static std::size_t addrs = 0x6937f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(), { "get_recentered", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_recentered)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb29c;
+  constexpr static std::size_t addrs = 0x6937f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_volumeDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb2a4;
+  constexpr static std::size_t addrs = 0x6937f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(), { "get_volumeDown", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_volumeDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb2ac;
+  constexpr static std::size_t addrs = 0x6937f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_recentering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb2b4;
+  constexpr static std::size_t addrs = 0x6937f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(), { "get_recentering", {}, {} })));
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_recentering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb2bc;
+  constexpr static std::size_t addrs = 0x6937f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(),
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_app)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb2c4;
+  constexpr static std::size_t addrs = 0x6937f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(), { "get_app", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_app)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb2cc;
+  constexpr static std::size_t addrs = 0x6937f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(),
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_home)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb2d4;
+  constexpr static std::size_t addrs = 0x6937f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(), { "get_home", {}, {} })));
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_home)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb2dc;
+  constexpr static std::size_t addrs = 0x6937f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(),
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_touchpadClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb2e4;
+  constexpr static std::size_t addrs = 0x6937f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(), { "get_touchpadClicked", {}, {} })));
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_touchpadClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb2ec;
+  constexpr static std::size_t addrs = 0x6937f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(),
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_touchpadTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb2f4;
+  constexpr static std::size_t addrs = 0x6937f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(), { "get_touchpadTouched", {}, {} })));
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_touchpadTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb2fc;
+  constexpr static std::size_t addrs = 0x6937f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(),
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb304;
+  constexpr static std::size_t addrs = 0x6937f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(), { "get_deviceVelocity", {}, {} })));
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb30c;
+  constexpr static std::size_t addrs = 0x6937f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(),
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::GoogleVr::DaydreamController::*)()>(
     &::Unity::XR::GoogleVr::DaydreamController::get_deviceAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb314;
+  constexpr static std::size_t addrs = 0x6937f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(), { "get_deviceAcceleration", {}, {} })));
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::GoogleVr::DaydreamController::set_deviceAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68fb31c;
+  constexpr static std::size_t addrs = 0x6937f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)()>(&::Unity::XR::GoogleVr::DaydreamController::FinishSetup)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x68fb324;
+  constexpr static std::size_t addrs = 0x6937fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -321,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::XR::GoogleVr::DaydreamController::*)()>(&::Unity::XR::GoogleVr::DaydreamController::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68fb588;
+  constexpr static std::size_t addrs = 0x6938204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::XR::GoogleVr::DaydreamController*>(), { ".ctor", {}, {} })));

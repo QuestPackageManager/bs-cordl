@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPolygon2DDataEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPolygon2DDataEXT::get_origin)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e489c8;
+  constexpr static std::size_t addrs = 0x6e85664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPolygon2DDataEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPolygon2DDataEXT::get_vertexBuffer)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e489dc;
+  constexpr static std::size_t addrs = 0x6e85678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPolygon2DDataEXT::*)(
     ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT)>(&::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPolygon2DDataEXT::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e489e8;
+  constexpr static std::size_t addrs = 0x6e85684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPolygon2DDataEXT::*)(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPolygon2DDataEXT)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPolygon2DDataEXT::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e48a08;
+  constexpr static std::size_t addrs = 0x6e856a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPolygon2DDataEXT>(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPolygon2DDataEXT::*)(::System::Object*)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPolygon2DDataEXT::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6e48a88;
+  constexpr static std::size_t addrs = 0x6e85724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPolygon2DDataEXT>(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPolygon2DDataEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPolygon2DDataEXT::GetHashCode)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e48b1c;
+  constexpr static std::size_t addrs = 0x6e857b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPolygon2DDataEXT>(),

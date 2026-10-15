@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Vrs_ConversionPassData::*)()>(&::UnityEngine::Rendering::Vrs_ConversionPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6befa70;
+  constexpr static std::size_t addrs = 0x6c2c6ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Vrs_ConversionPassData*>(), { ".ctor", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Vrs_VisualizationPassData::*)()>(&::UnityEngine::Rendering::Vrs_VisualizationPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6befa74;
+  constexpr static std::size_t addrs = 0x6c2c6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Vrs_VisualizationPassData*>(), { ".ctor", {}, {} })));
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Vrs___c::*)()>(&::UnityEngine::Rendering::Vrs___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6befacc;
+  constexpr static std::size_t addrs = 0x6c2c748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Vrs___c*>(), { ".ctor", {}, {} })));
@@ -262,7 +262,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::UnityEngine::Rendering::Vrs___c::*)(::UnityEngine::Rendering::Vrs_ConversionPassData*, ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext*)>(
         &::UnityEngine::Rendering::Vrs___c::_ColorMaskTextureToShadingRateImage_b__9_0)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6befad0;
+  constexpr static std::size_t addrs = 0x6c2c74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,7 +280,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::UnityEngine::Rendering::Vrs___c::*)(::UnityEngine::Rendering::Vrs_VisualizationPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
         &::UnityEngine::Rendering::Vrs___c::_ShadingRateImageToColorMaskTexture_b__10_0)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x6befb44;
+  constexpr static std::size_t addrs = 0x6c2c7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Vrs::IsColorMaskTextureConversionSupported)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6bed618;
+  constexpr static std::size_t addrs = 0x6c2a294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Vrs*>(), { "IsColorMaskTextureConversionSupported", {}, {} })));
@@ -370,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Vrs::IsInitialized)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6bed6c0;
+  constexpr static std::size_t addrs = 0x6c2a33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Vrs*>(), { "IsInitialized", {}, {} })));
@@ -382,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::Vrs::InitializeResources)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6bed7dc;
+  constexpr static std::size_t addrs = 0x6c2a458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Vrs*>(), { "InitializeResources", {}, {} })));
@@ -394,7 +394,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::Vrs::DisposeResources)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6beda1c;
+  constexpr static std::size_t addrs = 0x6c2a698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Vrs*>(), { "DisposeResources", {}, {} })));
@@ -408,7 +408,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
                                                                                                                       ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*, bool)>(
     &::UnityEngine::Rendering::Vrs::ColorMaskTextureToShadingRateImage)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6bedaa4;
+  constexpr static std::size_t addrs = 0x6c2a720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -427,7 +427,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
     ::UnityEngine::Rendering::TextureDimension, bool)>(&::UnityEngine::Rendering::Vrs::ColorMaskTextureToShadingRateImage)> {
   constexpr static std::size_t size = 0x7e4;
-  constexpr static std::size_t addrs = 0x6bedd7c;
+  constexpr static std::size_t addrs = 0x6c2a9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -448,7 +448,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::R
                                                                 ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(
     &::UnityEngine::Rendering::Vrs::ShadingRateImageToColorMaskTexture)> {
   constexpr static std::size_t size = 0x930;
-  constexpr static std::size_t addrs = 0x6bee584;
+  constexpr static std::size_t addrs = 0x6c2b200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ComputeCommandBuffer*, ::UnityEngine::Rendering::Vrs_ConversionPassData*)>(
     &::UnityEngine::Rendering::Vrs::ConversionDispatch)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x6beef64;
+  constexpr static std::size_t addrs = 0x6c2bbe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -483,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Texture*, bool)>(
     &::UnityEngine::Rendering::Vrs::ColorMaskTextureToShadingRateImageDispatch)> {
   constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x6bef1fc;
+  constexpr static std::size_t addrs = 0x6c2be78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -501,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Vrs::ShadingRateImageToColorMaskTextureBlit)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x6bef6e8;
+  constexpr static std::size_t addrs = 0x6c2c364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

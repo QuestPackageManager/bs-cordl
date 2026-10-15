@@ -22,13 +22,13 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE BaseElementBuilder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Build, addr 0x716410c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x71a1040, size 0x2c, virtual false, abstract: false, final false
   inline void Build(Il2CppObject* mgc);
 
-  /// @brief Method BuildRenderTreeQuadElement, addr 0x7164138, size 0x600, virtual false, abstract: false, final false
+  /// @brief Method BuildRenderTreeQuadElement, addr 0x71a106c, size 0x600, virtual false, abstract: false, final false
   inline void BuildRenderTreeQuadElement(Il2CppObject* mgc);
 
-  /// @brief Method BuildStandardElement, addr 0x7164738, size 0x648, virtual false, abstract: false, final false
+  /// @brief Method BuildStandardElement, addr 0x71a166c, size 0x648, virtual false, abstract: false, final false
   inline void BuildStandardElement(Il2CppObject* mgc);
 
   /// @brief Method DrawVisualElementBackground, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -40,15 +40,15 @@ public:
   /// @brief Method DrawVisualElementStencilMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawVisualElementStencilMask(Il2CppObject* mgc);
 
-  /// @brief Method InvokeGenerateVisualContent, addr 0x71650d4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method InvokeGenerateVisualContent, addr 0x71a2008, size 0x104, virtual false, abstract: false, final false
   static inline void InvokeGenerateVisualContent(Il2CppObject* mgc);
 
   static inline ::UnityEngine::UIElements::UIR::BaseElementBuilder* New_ctor();
 
-  /// @brief Method PopVisualElementClipping, addr 0x71651d8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method PopVisualElementClipping, addr 0x71a210c, size 0x1a4, virtual false, abstract: false, final false
   static inline void PopVisualElementClipping(Il2CppObject* mgc);
 
-  /// @brief Method PushVisualElementClipping, addr 0x7164e84, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method PushVisualElementClipping, addr 0x71a1db8, size 0x250, virtual false, abstract: false, final false
   inline void PushVisualElementClipping(Il2CppObject* mgc);
 
   /// @brief Method RequiresStencilMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -57,7 +57,7 @@ public:
   /// @brief Method ScheduleMeshGenerationJobs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ScheduleMeshGenerationJobs(Il2CppObject* mgc);
 
-  /// @brief Method .ctor, addr 0x716537c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71a22b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HologramRays__FadingCoroutine_d__28::*)(int32_t)>(&::GlobalNamespace::HologramRays__FadingCoroutine_d__28::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd2d54;
+  constexpr static std::size_t addrs = 0x5e0fd00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HologramRays__FadingCoroutine_d__28::*)()>(
     &::GlobalNamespace::HologramRays__FadingCoroutine_d__28::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dd2ebc;
+  constexpr static std::size_t addrs = 0x5e0fe68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::HologramRays__FadingCoroutine_d__28::*)()>(&::GlobalNamespace::HologramRays__FadingCoroutine_d__28::MoveNext)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5dd2ec0;
+  constexpr static std::size_t addrs = 0x5e0fe6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HologramRays__FadingCoroutine_d__28*>(), { "MoveNext", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::HologramRays__FadingCoroutine_d__28::*)()>(
     &::GlobalNamespace::HologramRays__FadingCoroutine_d__28::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd304c;
+  constexpr static std::size_t addrs = 0x5e0fff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HologramRays__FadingCoroutine_d__28::*)()>(
     &::GlobalNamespace::HologramRays__FadingCoroutine_d__28::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5dd3054;
+  constexpr static std::size_t addrs = 0x5e10000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::HologramRays__FadingCoroutine_d__28::*)()>(
     &::GlobalNamespace::HologramRays__FadingCoroutine_d__28::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd308c;
+  constexpr static std::size_t addrs = 0x5e10038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::HologramRays::RuntimeInit)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5dd25cc;
+  constexpr static std::size_t addrs = 0x5e0f578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HologramRays*>(), { "RuntimeInit", {}, {} })));
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HologramRays::*)()>(&::GlobalNamespace::HologramRays::Awake)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5dd2628;
+  constexpr static std::size_t addrs = 0x5e0f5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HologramRays*>(), { "Awake", {}, {} })));
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HologramRays::*)()>(&::GlobalNamespace::HologramRays::OnDisable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5dd27dc;
+  constexpr static std::size_t addrs = 0x5e0f788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HologramRays*>(), { "OnDisable", {}, {} })));
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HologramRays::*)()>(&::GlobalNamespace::HologramRays::OnValidate)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5dd27f8;
+  constexpr static std::size_t addrs = 0x5e0f7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HologramRays*>(), { "OnValidate", {}, {} })));
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HologramRays::*)()>(&::GlobalNamespace::HologramRays::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dd2b5c;
+  constexpr static std::size_t addrs = 0x5e0fb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HologramRays*>(), { "Update", {}, {} })));
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HologramRays::*)()>(&::GlobalNamespace::HologramRays::Refresh)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x5dd28c8;
+  constexpr static std::size_t addrs = 0x5e0f874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HologramRays*>(), { "Refresh", {}, {} })));
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HologramRays::*)(bool, float_t, ::GlobalNamespace::EaseType)>(&::GlobalNamespace::HologramRays::Animate)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5dd2b60;
+  constexpr static std::size_t addrs = 0x5e0fb0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::HologramRays::*)(bool, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::HologramRays::FadingCoroutine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5dd2c04;
+  constexpr static std::size_t addrs = 0x5e0fbb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HologramRays::*)()>(&::GlobalNamespace::HologramRays::UpdateBounds)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5dd2c84;
+  constexpr static std::size_t addrs = 0x5e0fc30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HologramRays*>(), { "UpdateBounds", {}, {} })));
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HologramRays::*)()>(&::GlobalNamespace::HologramRays::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5dd2d5c;
+  constexpr static std::size_t addrs = 0x5e0fd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HologramRays*>(), { ".ctor", {}, {} })));
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HologramRays::*)(float_t)>(&::GlobalNamespace::HologramRays::_Awake_b__22_0)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5dd2e54;
+  constexpr static std::size_t addrs = 0x5e0fe00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

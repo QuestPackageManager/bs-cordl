@@ -84,87 +84,87 @@ public:
   /// @brief Field wrapped, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_wrapped, put = __cordl_internal_set_wrapped)) ::System::Xml::XmlRawWriter* wrapped;
 
-  /// @brief Method Close, addr 0x65da100, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x6616cd0, size 0xa0, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method EndCDataSection, addr 0x65d9ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EndCDataSection, addr 0x6616770, size 0x8, virtual false, abstract: false, final false
   inline void EndCDataSection();
 
-  /// @brief Method Flush, addr 0x65da1a0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x6616d70, size 0x20, virtual true, abstract: false, final false
   inline void Flush();
 
   static inline ::System::Xml::QueryOutputWriter* New_ctor(::System::Xml::XmlRawWriter* writer, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method StartCDataSection, addr 0x65d9e58, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method StartCDataSection, addr 0x6616a28, size 0x38, virtual false, abstract: false, final false
   inline bool StartCDataSection();
 
-  /// @brief Method StartElementContent, addr 0x65d9c88, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method StartElementContent, addr 0x6616858, size 0x20, virtual true, abstract: false, final false
   inline void StartElementContent();
 
-  /// @brief Method WriteCData, addr 0x65d9d78, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method WriteCData, addr 0x6616948, size 0x20, virtual true, abstract: false, final false
   inline void WriteCData(::StringW text);
 
-  /// @brief Method WriteCharEntity, addr 0x65d9fb4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method WriteCharEntity, addr 0x6616b84, size 0x28, virtual true, abstract: false, final false
   inline void WriteCharEntity(char16_t ch);
 
-  /// @brief Method WriteChars, addr 0x65d9f00, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method WriteChars, addr 0x6616ad0, size 0x8c, virtual true, abstract: false, final false
   inline void WriteChars(::ArrayW<char16_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteComment, addr 0x65d9d98, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method WriteComment, addr 0x6616968, size 0x28, virtual true, abstract: false, final false
   inline void WriteComment(::StringW text);
 
-  /// @brief Method WriteDocType, addr 0x65d999c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteDocType, addr 0x661656c, size 0x30, virtual true, abstract: false, final false
   inline void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
 
-  /// @brief Method WriteEndAttribute, addr 0x65d9cd0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method WriteEndAttribute, addr 0x66168a0, size 0x28, virtual true, abstract: false, final false
   inline void WriteEndAttribute();
 
-  /// @brief Method WriteEndElement, addr 0x65d9ba8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method WriteEndElement, addr 0x6616778, size 0x70, virtual true, abstract: false, final false
   inline void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteEndNamespaceDeclaration, addr 0x65d9d58, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method WriteEndNamespaceDeclaration, addr 0x6616928, size 0x20, virtual true, abstract: false, final false
   inline void WriteEndNamespaceDeclaration();
 
-  /// @brief Method WriteEntityRef, addr 0x65d9f8c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method WriteEntityRef, addr 0x6616b5c, size 0x28, virtual true, abstract: false, final false
   inline void WriteEntityRef(::StringW name);
 
-  /// @brief Method WriteFullEndElement, addr 0x65d9c18, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method WriteFullEndElement, addr 0x66167e8, size 0x70, virtual true, abstract: false, final false
   inline void WriteFullEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteNamespaceDeclaration, addr 0x65d9cf8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method WriteNamespaceDeclaration, addr 0x66168c8, size 0x20, virtual true, abstract: false, final false
   inline void WriteNamespaceDeclaration(::StringW prefix, ::StringW ns);
 
-  /// @brief Method WriteProcessingInstruction, addr 0x65d9dc0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method WriteProcessingInstruction, addr 0x6616990, size 0x28, virtual true, abstract: false, final false
   inline void WriteProcessingInstruction(::StringW name, ::StringW text);
 
-  /// @brief Method WriteRaw, addr 0x65da004, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method WriteRaw, addr 0x6616bd4, size 0x8c, virtual true, abstract: false, final false
   inline void WriteRaw(::ArrayW<char16_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteRaw, addr 0x65da090, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method WriteRaw, addr 0x6616c60, size 0x70, virtual true, abstract: false, final false
   inline void WriteRaw(::StringW data);
 
-  /// @brief Method WriteStartAttribute, addr 0x65d9ca8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method WriteStartAttribute, addr 0x6616878, size 0x28, virtual true, abstract: false, final false
   inline void WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteStartElement, addr 0x65d99cc, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x661659c, size 0x1d4, virtual true, abstract: false, final false
   inline void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteStartNamespaceDeclaration, addr 0x65d9d38, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method WriteStartNamespaceDeclaration, addr 0x6616908, size 0x20, virtual true, abstract: false, final false
   inline void WriteStartNamespaceDeclaration(::StringW prefix);
 
-  /// @brief Method WriteString, addr 0x65d9e90, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method WriteString, addr 0x6616a60, size 0x70, virtual true, abstract: false, final false
   inline void WriteString(::StringW text);
 
-  /// @brief Method WriteSurrogateCharEntity, addr 0x65d9fdc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method WriteSurrogateCharEntity, addr 0x6616bac, size 0x28, virtual true, abstract: false, final false
   inline void WriteSurrogateCharEntity(char16_t lowChar, char16_t highChar);
 
-  /// @brief Method WriteWhitespace, addr 0x65d9de8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method WriteWhitespace, addr 0x66169b8, size 0x70, virtual true, abstract: false, final false
   inline void WriteWhitespace(::StringW ws);
 
-  /// @brief Method WriteXmlDeclaration, addr 0x65d995c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlDeclaration, addr 0x661652c, size 0x20, virtual true, abstract: false, final false
   inline void WriteXmlDeclaration(::System::Xml::XmlStandalone standalone);
 
-  /// @brief Method WriteXmlDeclaration, addr 0x65d997c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method WriteXmlDeclaration, addr 0x661654c, size 0x20, virtual true, abstract: false, final false
   inline void WriteXmlDeclaration(::StringW xmldecl);
 
   constexpr ::System::Xml::BitStack* const& __cordl_internal_get_bitsCData() const;
@@ -239,13 +239,13 @@ public:
 
   constexpr void __cordl_internal_set_wrapped(::System::Xml::XmlRawWriter* value);
 
-  /// @brief Method .ctor, addr 0x65d9664, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6616234, size 0x2d0, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlRawWriter* writer, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method get_SupportsNamespaceDeclarationInChunks, addr 0x65d9d18, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_SupportsNamespaceDeclarationInChunks, addr 0x66168e8, size 0x20, virtual true, abstract: false, final false
   inline bool get_SupportsNamespaceDeclarationInChunks();
 
-  /// @brief Method set_NamespaceResolver, addr 0x65d9934, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method set_NamespaceResolver, addr 0x6616504, size 0x28, virtual true, abstract: false, final false
   inline void set_NamespaceResolver(::System::Xml::IXmlNamespaceResolver* value);
 
 protected:
@@ -263,7 +263,7 @@ public:
   QueryOutputWriter(QueryOutputWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11253 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11260 };
 
   /// @brief Field wrapped, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlRawWriter* ___wrapped;

@@ -38,20 +38,20 @@ public:
                                                                          ::Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*> zs,
                                                                          bool withCompression);
 
-  /// @brief Method SatisfiesCurveEquation, addr 0x3733674, size 0x2b8, virtual true, abstract: false, final false
+  /// @brief Method SatisfiesCurveEquation, addr 0x3755fd8, size 0x2b8, virtual true, abstract: false, final false
   inline bool SatisfiesCurveEquation();
 
-  /// @brief Method Subtract, addr 0x373392c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Subtract, addr 0x3756290, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Subtract(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method .ctor, addr 0x3733640, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3755fa4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0x3733644, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3755fa8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression);
 
-  /// @brief Method get_CompressionYTilde, addr 0x3733648, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_CompressionYTilde, addr 0x3755fac, size 0x2c, virtual true, abstract: false, final false
   inline bool get_CompressionYTilde();
 
 protected:

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsWorldDefinition::*)()>(&::UnityEngine::LowLevelPhysics2D::PhysicsWorldDefinition::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6fd818c;
+  constexpr static std::size_t addrs = 0x7015080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsWorldDefinition>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsWorldDefinition::*)(bool)>(&::UnityEngine::LowLevelPhysics2D::PhysicsWorldDefinition::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6fd1768;
+  constexpr static std::size_t addrs = 0x700e65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsWorldDefinition (*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsWorldDefinition::get_defaultDefinition)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6fd81c4;
+  constexpr static std::size_t addrs = 0x70150b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

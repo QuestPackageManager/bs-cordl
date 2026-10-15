@@ -15,9 +15,6 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-class Cloth;
-}
-namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
@@ -62,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_offset(float_t value);
 
-  /// @brief Method .ctor, addr 0x5cc6af4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cffabc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,9 +104,6 @@ public:
   // Declarations
   using SineLayer = ::GlobalNamespace::DroneHover_SineLayer;
 
-  /// @brief Field _cloth, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__cloth, put = __cordl_internal_set__cloth)) ::UnityW<::UnityEngine::Cloth> _cloth;
-
   /// @brief Field _compoundSins, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__compoundSins,
                       put = __cordl_internal_set__compoundSins)) ::System::Collections::Generic::List_1<::GlobalNamespace::DroneHover_SineLayer*>* _compoundSins;
@@ -139,26 +133,22 @@ public:
   __declspec(property(get = __cordl_internal_get__tiltTransforms,
                       put = __cordl_internal_set__tiltTransforms)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* _tiltTransforms;
 
-  /// @brief Method GetNoise, addr 0x5cc69dc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetNoise, addr 0x5cff9a4, size 0x100, virtual false, abstract: false, final false
   inline float_t GetNoise(float_t time, float_t offset);
 
-  /// @brief Method GetNoiseVec3, addr 0x5cc664c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetNoiseVec3, addr 0x5cff614, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetNoiseVec3(float_t time);
 
   static inline ::GlobalNamespace::DroneHover* New_ctor();
 
-  /// @brief Method Start, addr 0x5cc64c8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cff490, size 0x30, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5cc64f8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5cff4c0, size 0x154, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateTiltTransform, addr 0x5cc66cc, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method UpdateTiltTransform, addr 0x5cff694, size 0x310, virtual false, abstract: false, final false
   inline void UpdateTiltTransform();
-
-  constexpr ::UnityW<::UnityEngine::Cloth> const& __cordl_internal_get__cloth() const;
-
-  constexpr ::UnityW<::UnityEngine::Cloth>& __cordl_internal_get__cloth();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::DroneHover_SineLayer*>* const& __cordl_internal_get__compoundSins() const;
 
@@ -196,8 +186,6 @@ public:
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get__tiltTransforms();
 
-  constexpr void __cordl_internal_set__cloth(::UnityW<::UnityEngine::Cloth> value);
-
   constexpr void __cordl_internal_set__compoundSins(::System::Collections::Generic::List_1<::GlobalNamespace::DroneHover_SineLayer*>* value);
 
   constexpr void __cordl_internal_set__hoverAreaPerAxis(::UnityEngine::Vector3 value);
@@ -216,7 +204,7 @@ public:
 
   constexpr void __cordl_internal_set__tiltTransforms(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  /// @brief Method .ctor, addr 0x5cc6adc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cffaa4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -271,9 +259,6 @@ public:
   /// @brief Field _startPos, offset: 0x50, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____startPos;
 
-  /// @brief Field _cloth, offset: 0x60, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Cloth> ____cloth;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -295,8 +280,6 @@ static_assert(offsetof(::GlobalNamespace::DroneHover, ____tiltToTarget) == 0x4c,
 
 static_assert(offsetof(::GlobalNamespace::DroneHover, ____startPos) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DroneHover, ____cloth) == 0x60, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::DroneHover) == 0x68, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::DroneHover) == 0x60, "Size mismatch!");
 
 } // namespace GlobalNamespace

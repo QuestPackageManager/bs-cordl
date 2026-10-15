@@ -97,12 +97,12 @@ namespace UnityEngine {
 class CORDL_TYPE Application_LowMemoryCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6ebb85c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6ef84f8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::Application_LowMemoryCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6ebb7f4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ef8490, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -120,7 +120,7 @@ public:
   Application_LowMemoryCallback(Application_LowMemoryCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9632 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9639 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -135,12 +135,12 @@ namespace UnityEngine {
 class CORDL_TYPE Application_MemoryUsageChangedCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6ebb8ec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6ef8588, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::ApplicationMemoryUsageChange const> usage);
 
   static inline ::UnityEngine::Application_MemoryUsageChangedCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6ebb870, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ef850c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -158,7 +158,7 @@ public:
   Application_MemoryUsageChangedCallback(Application_MemoryUsageChangedCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9640 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -173,12 +173,12 @@ namespace UnityEngine {
 class CORDL_TYPE Application_LogCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6ebb980, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6ef861c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW condition, ::StringW stackTrace, ::UnityEngine::LogType type);
 
   static inline ::UnityEngine::Application_LogCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6ebb900, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ef859c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -196,7 +196,7 @@ public:
   Application_LogCallback(Application_LogCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9641 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -267,96 +267,96 @@ public:
   __declspec(property(get = getStaticF_wantsToQuit, put = setStaticF_wantsToQuit)) ::System::Func_1<bool>* wantsToQuit;
 
   /// [RequiredByNativeCode]
-  /// @brief Method CallLogCallback, addr 0x6eba87c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CallLogCallback, addr 0x6ef7518, size 0xec, virtual false, abstract: false, final false
   static inline void CallLogCallback(::StringW logString, ::StringW stackTrace, ::UnityEngine::LogType type, bool invokedOnMainThread);
 
   /// [RequiredByNativeCode]
-  /// @brief Method CallLowMemory, addr 0x6eba370, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CallLowMemory, addr 0x6ef700c, size 0x134, virtual false, abstract: false, final false
   static inline void CallLowMemory(::UnityEngine::ApplicationMemoryUsage usage);
 
-  /// @brief Method CanStreamedLevelBeLoaded, addr 0x6eb8df8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CanStreamedLevelBeLoaded, addr 0x6ef5a94, size 0x70, virtual false, abstract: false, final false
   static inline bool CanStreamedLevelBeLoaded(int32_t levelIndex);
 
   /// [FreeFunction("Application_Bindings::CanStreamedLevelBeLoaded")]
-  /// @brief Method CanStreamedLevelBeLoaded, addr 0x6eb8e68, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method CanStreamedLevelBeLoaded, addr 0x6ef5b04, size 0x15c, virtual false, abstract: false, final false
   static inline bool CanStreamedLevelBeLoaded(::StringW levelName);
 
-  /// @brief Method CanStreamedLevelBeLoaded_Injected, addr 0x6eb8fc4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CanStreamedLevelBeLoaded_Injected, addr 0x6ef5c60, size 0x3c, virtual false, abstract: false, final false
   static inline bool CanStreamedLevelBeLoaded_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> levelName);
 
   /// [RequiredByNativeCode]
-  /// @brief Method HasLogCallback, addr 0x6eba4ac, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method HasLogCallback, addr 0x6ef7148, size 0x88, virtual false, abstract: false, final false
   static inline bool HasLogCallback();
 
   /// [RequiredByNativeCode]
-  /// @brief Method Internal_ApplicationQuit, addr 0x6ebb4a4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Internal_ApplicationQuit, addr 0x6ef8140, size 0x98, virtual false, abstract: false, final false
   static inline void Internal_ApplicationQuit();
 
   /// [RequiredByNativeCode]
-  /// @brief Method Internal_ApplicationUnload, addr 0x6ebb53c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Internal_ApplicationUnload, addr 0x6ef81d8, size 0x98, virtual false, abstract: false, final false
   static inline void Internal_ApplicationUnload();
 
   /// [RequiredByNativeCode]
-  /// @brief Method Internal_ApplicationWantsToQuit, addr 0x6ebb020, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Internal_ApplicationWantsToQuit, addr 0x6ef7cbc, size 0x200, virtual false, abstract: false, final false
   static inline bool Internal_ApplicationWantsToQuit();
 
   /// [RequiredByNativeCode]
-  /// @brief Method Internal_InitializeExitCancellationToken, addr 0x6ebb340, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Internal_InitializeExitCancellationToken, addr 0x6ef7fdc, size 0xe8, virtual false, abstract: false, final false
   static inline void Internal_InitializeExitCancellationToken();
 
   /// [RequiredByNativeCode]
-  /// @brief Method Internal_RaiseExitCancellationToken, addr 0x6ebb428, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_RaiseExitCancellationToken, addr 0x6ef80c4, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_RaiseExitCancellationToken();
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeDeepLinkActivated, addr 0x6ebb6c8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InvokeDeepLinkActivated, addr 0x6ef8364, size 0xa0, virtual false, abstract: false, final false
   static inline void InvokeDeepLinkActivated(::StringW url);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeFocusChanged, addr 0x6ebb628, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InvokeFocusChanged, addr 0x6ef82c4, size 0xa0, virtual false, abstract: false, final false
   static inline void InvokeFocusChanged(bool focus);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeOnBeforeRender, addr 0x6ebb5d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnBeforeRender, addr 0x6ef8270, size 0x54, virtual false, abstract: false, final false
   static inline void InvokeOnBeforeRender();
 
   /// [FreeFunction("OpenURL")]
-  /// @brief Method OpenURL, addr 0x6eb9f10, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method OpenURL, addr 0x6ef6bac, size 0x14c, virtual false, abstract: false, final false
   static inline void OpenURL(::StringW url);
 
-  /// @brief Method OpenURL_Injected, addr 0x6eba05c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OpenURL_Injected, addr 0x6ef6cf8, size 0x3c, virtual false, abstract: false, final false
   static inline void OpenURL_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> url);
 
-  /// @brief Method Quit, addr 0x6eb8d84, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Quit, addr 0x6ef5a20, size 0x74, virtual false, abstract: false, final false
   static inline void Quit();
 
   /// [FreeFunction("GetInputManager().QuitApplication")]
-  /// @brief Method Quit, addr 0x6eb8d48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Quit, addr 0x6ef59e4, size 0x3c, virtual false, abstract: false, final false
   static inline void Quit(int32_t exitCode);
 
   /// [FreeFunction("Application_Bindings::SetLogCallbackDefined")]
-  /// @brief Method SetLogCallbackDefined, addr 0x6eba0fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetLogCallbackDefined, addr 0x6ef6d98, size 0x3c, virtual false, abstract: false, final false
   static inline void SetLogCallbackDefined(bool defined);
 
   /// [CompilerGenerated]
-  /// @brief Method add_focusChanged, addr 0x6ebaa20, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method add_focusChanged, addr 0x6ef76bc, size 0x108, virtual false, abstract: false, final false
   static inline void add_focusChanged(::System::Action_1<bool>* value);
 
-  /// @brief Method add_logMessageReceived, addr 0x6eba534, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method add_logMessageReceived, addr 0x6ef71d0, size 0xe4, virtual false, abstract: false, final false
   static inline void add_logMessageReceived(::UnityEngine::Application_LogCallback* value);
 
-  /// @brief Method add_logMessageReceivedThreaded, addr 0x6eba6d8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method add_logMessageReceivedThreaded, addr 0x6ef7374, size 0xe4, virtual false, abstract: false, final false
   static inline void add_logMessageReceivedThreaded(::UnityEngine::Application_LogCallback* value);
 
-  /// @brief Method add_onBeforeRender, addr 0x6eba968, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method add_onBeforeRender, addr 0x6ef7604, size 0x5c, virtual false, abstract: false, final false
   static inline void add_onBeforeRender(::UnityEngine::Events::UnityAction* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_quitting, addr 0x6ebae40, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method add_quitting, addr 0x6ef7adc, size 0xf0, virtual false, abstract: false, final false
   static inline void add_quitting(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_wantsToQuit, addr 0x6ebac30, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method add_wantsToQuit, addr 0x6ef78cc, size 0x108, virtual false, abstract: false, final false
   static inline void add_wantsToQuit(::System::Func_1<bool>* value);
 
   static inline ::System::Action_1<::StringW>* getStaticF_deepLinkActivated();
@@ -380,164 +380,164 @@ public:
   static inline ::System::Func_1<bool>* getStaticF_wantsToQuit();
 
   /// [FreeFunction("GetPreloadManager().GetThreadPriority")]
-  /// @brief Method get_backgroundLoadingPriority, addr 0x6eba138, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_backgroundLoadingPriority, addr 0x6ef6dd4, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ThreadPriority get_backgroundLoadingPriority();
 
   /// [FreeFunction("Application_Bindings::GetBuildGUID")]
-  /// @brief Method get_buildGUID, addr 0x6eb9050, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_buildGUID, addr 0x6ef5cec, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW get_buildGUID();
 
-  /// @brief Method get_buildGUID_Injected, addr 0x6eb9150, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_buildGUID_Injected, addr 0x6ef5dec, size 0x3c, virtual false, abstract: false, final false
   static inline void get_buildGUID_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
   /// [FreeFunction("GetPlayerSettings().GetCompanyName")]
-  /// @brief Method get_companyName, addr 0x6eb9dd4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_companyName, addr 0x6ef6a70, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW get_companyName();
 
-  /// @brief Method get_companyName_Injected, addr 0x6eb9ed4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_companyName_Injected, addr 0x6ef6b70, size 0x3c, virtual false, abstract: false, final false
   static inline void get_companyName_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
   /// [FreeFunction("GetAppDataPath", IsThreadSafe = true)]
-  /// @brief Method get_dataPath, addr 0x6eb9218, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_dataPath, addr 0x6ef5eb4, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW get_dataPath();
 
-  /// @brief Method get_dataPath_Injected, addr 0x6eb9318, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_dataPath_Injected, addr 0x6ef5fb4, size 0x3c, virtual false, abstract: false, final false
   static inline void get_dataPath_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
   /// [FreeFunction("GetApplicationInfo().GetApplicationIdentifier")]
-  /// @brief Method get_identifier, addr 0x6eb9b0c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_identifier, addr 0x6ef67a8, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW get_identifier();
 
-  /// @brief Method get_identifier_Injected, addr 0x6eb9c0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_identifier_Injected, addr 0x6ef68a8, size 0x3c, virtual false, abstract: false, final false
   static inline void get_identifier_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
   /// [FreeFunction("GetApplicationInfo().GetInstallMode")]
-  /// @brief Method get_installMode, addr 0x6eb9c48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_installMode, addr 0x6ef68e4, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ApplicationInstallMode get_installMode();
 
   /// [FreeFunction("GetApplicationInfo().GetInstallerName")]
-  /// @brief Method get_installerName, addr 0x6eb99d0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_installerName, addr 0x6ef666c, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW get_installerName();
 
-  /// @brief Method get_installerName_Injected, addr 0x6eb9ad0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_installerName_Injected, addr 0x6ef676c, size 0x3c, virtual false, abstract: false, final false
   static inline void get_installerName_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
   /// [FreeFunction("GetInternetReachability")]
-  /// @brief Method get_internetReachability, addr 0x6eba348, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_internetReachability, addr 0x6ef6fe4, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::NetworkReachability get_internetReachability();
 
   /// [FreeFunction("::IsBatchmode")]
-  /// @brief Method get_isBatchMode, addr 0x6eb91f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isBatchMode, addr 0x6ef5e8c, size 0x28, virtual false, abstract: false, final false
   static inline bool get_isBatchMode();
 
-  /// @brief Method get_isConsolePlatform, addr 0x6eba284, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_isConsolePlatform, addr 0x6ef6f20, size 0x9c, virtual false, abstract: false, final false
   static inline bool get_isConsolePlatform();
 
-  /// @brief Method get_isEditor, addr 0x6ebb768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEditor, addr 0x6ef8404, size 0x8, virtual false, abstract: false, final false
   static inline bool get_isEditor();
 
   /// [FreeFunction("IsPlayerFocused")]
-  /// @brief Method get_isFocused, addr 0x6eb9028, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isFocused, addr 0x6ef5cc4, size 0x28, virtual false, abstract: false, final false
   static inline bool get_isFocused();
 
-  /// @brief Method get_isMobilePlatform, addr 0x6eba1c4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_isMobilePlatform, addr 0x6ef6e60, size 0xc0, virtual false, abstract: false, final false
   static inline bool get_isMobilePlatform();
 
   /// [FreeFunction("IsWorldPlaying")]
-  /// @brief Method get_isPlaying, addr 0x6eb9000, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isPlaying, addr 0x6ef5c9c, size 0x28, virtual false, abstract: false, final false
   static inline bool get_isPlaying();
 
   /// [FreeFunction("GetPersistentDataPathApplicationSpecific")]
-  /// @brief Method get_persistentDataPath, addr 0x6eb9490, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_persistentDataPath, addr 0x6ef612c, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW get_persistentDataPath();
 
-  /// @brief Method get_persistentDataPath_Injected, addr 0x6eb9590, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_persistentDataPath_Injected, addr 0x6ef622c, size 0x3c, virtual false, abstract: false, final false
   static inline void get_persistentDataPath_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
   /// [FreeFunction("systeminfo::GetRuntimePlatform", IsThreadSafe = true)]
-  /// @brief Method get_platform, addr 0x6eba19c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_platform, addr 0x6ef6e38, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::RuntimePlatform get_platform();
 
   /// [FreeFunction("GetPlayerSettings().GetProductName")]
-  /// @brief Method get_productName, addr 0x6eb9c98, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_productName, addr 0x6ef6934, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW get_productName();
 
-  /// @brief Method get_productName_Injected, addr 0x6eb9d98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_productName_Injected, addr 0x6ef6a34, size 0x3c, virtual false, abstract: false, final false
   static inline void get_productName_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
   /// [FreeFunction("GetPlayerSettingsRunInBackground")]
-  /// @brief Method get_runInBackground, addr 0x6eb918c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_runInBackground, addr 0x6ef5e28, size 0x28, virtual false, abstract: false, final false
   static inline bool get_runInBackground();
 
   /// [FreeFunction("GetApplicationInfo().GetSandboxType")]
-  /// @brief Method get_sandboxType, addr 0x6eb9c70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_sandboxType, addr 0x6ef690c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ApplicationSandboxType get_sandboxType();
 
   /// [FreeFunction("GetStreamingAssetsPath", IsThreadSafe = true)]
-  /// @brief Method get_streamingAssetsPath, addr 0x6eb9354, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_streamingAssetsPath, addr 0x6ef5ff0, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW get_streamingAssetsPath();
 
-  /// @brief Method get_streamingAssetsPath_Injected, addr 0x6eb9454, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_streamingAssetsPath_Injected, addr 0x6ef60f0, size 0x3c, virtual false, abstract: false, final false
   static inline void get_streamingAssetsPath_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
   /// [FreeFunction("(SystemLanguage)systeminfo::GetSystemLanguage")]
-  /// @brief Method get_systemLanguage, addr 0x6eba320, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_systemLanguage, addr 0x6ef6fbc, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::SystemLanguage get_systemLanguage();
 
   /// [FreeFunction("GetTargetFrameRate")]
-  /// @brief Method get_targetFrameRate, addr 0x6eba098, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_targetFrameRate, addr 0x6ef6d34, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_targetFrameRate();
 
   /// [FreeFunction("GetTemporaryCachePathApplicationSpecific")]
-  /// @brief Method get_temporaryCachePath, addr 0x6eb95cc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_temporaryCachePath, addr 0x6ef6268, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW get_temporaryCachePath();
 
-  /// @brief Method get_temporaryCachePath_Injected, addr 0x6eb96cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_temporaryCachePath_Injected, addr 0x6ef6368, size 0x3c, virtual false, abstract: false, final false
   static inline void get_temporaryCachePath_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
   /// [FreeFunction("Application_Bindings::GetUnityVersion", IsThreadSafe = true)]
-  /// @brief Method get_unityVersion, addr 0x6eb9708, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_unityVersion, addr 0x6ef63a4, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW get_unityVersion();
 
   /// [FreeFunction("Application_Bindings::GetUnityVersionMaj", IsThreadSafe = true)]
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method get_unityVersionMaj, addr 0x6eb986c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_unityVersionMaj, addr 0x6ef6508, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_unityVersionMaj();
 
   /// [FreeFunction("Application_Bindings::GetUnityVersionVer", IsThreadSafe = true)]
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method get_unityVersionVer, addr 0x6eb9844, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_unityVersionVer, addr 0x6ef64e0, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_unityVersionVer();
 
-  /// @brief Method get_unityVersion_Injected, addr 0x6eb9808, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_unityVersion_Injected, addr 0x6ef64a4, size 0x3c, virtual false, abstract: false, final false
   static inline void get_unityVersion_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
   /// [FreeFunction("GetApplicationInfo().GetVersion")]
-  /// @brief Method get_version, addr 0x6eb9894, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x6ef6530, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW get_version();
 
-  /// @brief Method get_version_Injected, addr 0x6eb9994, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_version_Injected, addr 0x6ef6630, size 0x3c, virtual false, abstract: false, final false
   static inline void get_version_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_focusChanged, addr 0x6ebab28, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method remove_focusChanged, addr 0x6ef77c4, size 0x108, virtual false, abstract: false, final false
   static inline void remove_focusChanged(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_logMessageReceived, addr 0x6eba618, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_logMessageReceived, addr 0x6ef72b4, size 0xc0, virtual false, abstract: false, final false
   static inline void remove_logMessageReceived(::UnityEngine::Application_LogCallback* value);
 
-  /// @brief Method remove_logMessageReceivedThreaded, addr 0x6eba7bc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_logMessageReceivedThreaded, addr 0x6ef7458, size 0xc0, virtual false, abstract: false, final false
   static inline void remove_logMessageReceivedThreaded(::UnityEngine::Application_LogCallback* value);
 
-  /// @brief Method remove_onBeforeRender, addr 0x6eba9c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method remove_onBeforeRender, addr 0x6ef7660, size 0x5c, virtual false, abstract: false, final false
   static inline void remove_onBeforeRender(::UnityEngine::Events::UnityAction* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_quitting, addr 0x6ebaf30, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method remove_quitting, addr 0x6ef7bcc, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_quitting(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_wantsToQuit, addr 0x6ebad38, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method remove_wantsToQuit, addr 0x6ef79d4, size 0x108, virtual false, abstract: false, final false
   static inline void remove_wantsToQuit(::System::Func_1<bool>* value);
 
   static inline void setStaticF_deepLinkActivated(::System::Action_1<::StringW>* value);
@@ -561,15 +561,15 @@ public:
   static inline void setStaticF_wantsToQuit(::System::Func_1<bool>* value);
 
   /// [FreeFunction("GetPreloadManager().SetThreadPriority")]
-  /// @brief Method set_backgroundLoadingPriority, addr 0x6eba160, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_backgroundLoadingPriority, addr 0x6ef6dfc, size 0x3c, virtual false, abstract: false, final false
   static inline void set_backgroundLoadingPriority(::UnityEngine::ThreadPriority value);
 
   /// [FreeFunction("SetPlayerSettingsRunInBackground")]
-  /// @brief Method set_runInBackground, addr 0x6eb91b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_runInBackground, addr 0x6ef5e50, size 0x3c, virtual false, abstract: false, final false
   static inline void set_runInBackground(bool value);
 
   /// [FreeFunction("SetTargetFrameRate")]
-  /// @brief Method set_targetFrameRate, addr 0x6eba0c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_targetFrameRate, addr 0x6ef6d5c, size 0x3c, virtual false, abstract: false, final false
   static inline void set_targetFrameRate(int32_t value);
 
 protected:
@@ -587,7 +587,7 @@ public:
   Application(Application const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9642 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

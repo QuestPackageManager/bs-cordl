@@ -45,21 +45,21 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE UnsafeMeshGenerationNode {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x7274a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x72b19cc, size 0x8, virtual false, abstract: false, final false
   static inline void Create(::System::Runtime::InteropServices::GCHandle handle, ::by_ref<::UnityEngine::UIElements::UnsafeMeshGenerationNode> node);
 
-  /// @brief Method DrawGradientsInternal, addr 0x7274bd0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DrawGradientsInternal, addr 0x72b1b04, size 0x54, virtual false, abstract: false, final false
   inline void DrawGradientsInternal(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices,
                                     ::UnityEngine::UIElements::VectorImage* gradientsOwner);
 
-  /// @brief Method DrawMesh, addr 0x7274aa0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DrawMesh, addr 0x72b19d4, size 0x64, virtual false, abstract: false, final false
   inline void DrawMesh(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Texture* texture,
                        ::UnityEngine::UIElements::TextureOptions textureOptions);
 
-  /// @brief Method GetManaged, addr 0x72749bc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetManaged, addr 0x72b18f0, size 0xdc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshGenerationNodeImpl* GetManaged();
 
-  /// @brief Method GetParentEntry, addr 0x7274d30, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetParentEntry, addr 0x72b1c64, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Entry* GetParentEntry();
 
   // Ctor Parameters []

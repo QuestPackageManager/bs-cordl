@@ -37,30 +37,30 @@ public:
 
   __declspec(property(get = get_speakerMode)) ::UnityEngine::AudioSpeakerMode speakerMode;
 
-  /// @brief Method .ctor, addr 0x6eaa518, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee71b4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioConfiguration config);
 
-  /// @brief Method .ctor, addr 0x6eaa52c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee71c8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioSpeakerMode speakerMode, int32_t sampleRate, int32_t bufferSize);
 
   /// [IsReadOnly]
-  /// @brief Method get_audioConfiguration, addr 0x6eaa55c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_audioConfiguration, addr 0x6ee71f8, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioConfiguration get_audioConfiguration();
 
   /// [IsReadOnly]
-  /// @brief Method get_bufferFrameCount, addr 0x6eaa544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bufferFrameCount, addr 0x6ee71e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bufferFrameCount();
 
   /// [IsReadOnly]
-  /// @brief Method get_channelCount, addr 0x6eaa53c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_channelCount, addr 0x6ee71d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_channelCount();
 
   /// [IsReadOnly]
-  /// @brief Method get_sampleRate, addr 0x6eaa54c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sampleRate, addr 0x6ee71e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sampleRate();
 
   /// [IsReadOnly]
-  /// @brief Method get_speakerMode, addr 0x6eaa554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_speakerMode, addr 0x6ee71f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioSpeakerMode get_speakerMode();
 
   // Ctor Parameters []
@@ -71,7 +71,7 @@ public:
   constexpr AudioFormat(::UnityEngine::AudioConfiguration m_Config) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20334 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20381 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

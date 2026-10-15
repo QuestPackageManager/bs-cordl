@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::Tree::d_code)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x38c1de8;
+  constexpr static std::size_t addrs = 0x38e474c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Tree::*)(::Org::BouncyCastle::Utilities::Zlib::Deflate*)>(
     &::Org::BouncyCastle::Utilities::Zlib::Tree::gen_bitlen)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x38c1ea4;
+  constexpr static std::size_t addrs = 0x38e4808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Tree::*)(::Org::BouncyCastle::Utilities::Zlib::Deflate*)>(
     &::Org::BouncyCastle::Utilities::Zlib::Tree::build_tree)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x38c2154;
+  constexpr static std::size_t addrs = 0x38e4ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int16_t>, int32_t, ::ArrayW<int16_t>)>(&::Org::BouncyCastle::Utilities::Zlib::Tree::gen_codes)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x38c25c4;
+  constexpr static std::size_t addrs = 0x38e4f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::Tree::bi_reverse)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x38c2750;
+  constexpr static std::size_t addrs = 0x38e50b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Tree::*)()>(&::Org::BouncyCastle::Utilities::Zlib::Tree::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x38c29f0;
+  constexpr static std::size_t addrs = 0x38e5354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Zlib::Tree*>(), { ".ctor", {}, {} })));

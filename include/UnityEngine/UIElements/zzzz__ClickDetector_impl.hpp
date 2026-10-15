@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ClickDetector_ButtonClickStatus::*)()>(&::UnityEngine::UIElements::ClickDetector_ButtonClickStatus::Reset)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x7092ba8;
+  constexpr static std::size_t addrs = 0x70cfadc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ClickDetector_ButtonClickStatus*>(), { "Reset", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ClickDetector_ButtonClickStatus::*)()>(&::UnityEngine::UIElements::ClickDetector_ButtonClickStatus::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x709297c;
+  constexpr static std::size_t addrs = 0x70cf8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ClickDetector_ButtonClickStatus*>(), { ".ctor", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::UIElements::ClickDetector::get_s_DoubleClickTime)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x709264c;
+  constexpr static std::size_t addrs = 0x70cf580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ClickDetector*>(), { "get_s_DoubleClickTime", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::UIElements::ClickDetector::set_s_DoubleClickTime)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x70926a8;
+  constexpr static std::size_t addrs = 0x70cf5dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ClickDetector::*)()>(&::UnityEngine::UIElements::ClickDetector::_ctor)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x7092708;
+  constexpr static std::size_t addrs = 0x70cf63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ClickDetector*>(), { ".ctor", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ClickDetector::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::ClickDetector::StartClickTracking)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x7092980;
+  constexpr static std::size_t addrs = 0x70cf8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ClickDetector::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::ClickDetector::SendClickEvent)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x7092c10;
+  constexpr static std::size_t addrs = 0x70cfb44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ClickDetector::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::ClickDetector::CancelClickTracking)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x709310c;
+  constexpr static std::size_t addrs = 0x70d0040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IPointerEvent*)>(
     &::UnityEngine::UIElements::ClickDetector::ContainsPointer)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x7092eb8;
+  constexpr static std::size_t addrs = 0x70cfdec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ClickDetector::*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::ClickDetector::Cleanup)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x7093210;
+  constexpr static std::size_t addrs = 0x70d0144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

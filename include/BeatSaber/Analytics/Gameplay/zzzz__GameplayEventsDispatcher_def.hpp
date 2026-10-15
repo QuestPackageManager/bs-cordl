@@ -19,11 +19,17 @@ class IBlockLevelGameplayEventSender;
 namespace BeatSaber::Analytics::Gameplay::EventSenders {
 class IHMDSessionEventSender;
 }
-namespace BeatSaber::Analytics::Gameplay {
-struct GameplayEventsDispatcher__InitializeAsync_d__17;
+namespace BeatSaber::Analytics::Gameplay::EventSenders {
+class ISettingsEventSender;
 }
 namespace BeatSaber::Analytics::Gameplay {
-struct GameplayEventsDispatcher__InitializeInternalAsync_d__18;
+class EventsBuilderFactory;
+}
+namespace BeatSaber::Analytics::Gameplay {
+struct GameplayEventsDispatcher__InitializeAsync_d__21;
+}
+namespace BeatSaber::Analytics::Gameplay {
+struct GameplayEventsDispatcher__InitializeInternalAsync_d__22;
 }
 namespace BeatSaber::Analytics::Gameplay {
 class IGameplayEventsDispatcher;
@@ -48,35 +54,35 @@ namespace BeatSaber::Analytics::Gameplay {
 class GameplayEventsDispatcher;
 }
 namespace BeatSaber::Analytics::Gameplay {
-struct GameplayEventsDispatcher__InitializeAsync_d__17;
+struct GameplayEventsDispatcher__InitializeAsync_d__21;
 }
 namespace BeatSaber::Analytics::Gameplay {
-struct GameplayEventsDispatcher__InitializeInternalAsync_d__18;
+struct GameplayEventsDispatcher__InitializeInternalAsync_d__22;
 }
 // Write type traits
 MARK_REF_T(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher*);
-MARK_VAL_T(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__17);
-MARK_VAL_T(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__18);
+MARK_VAL_T(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__21);
+MARK_VAL_T(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__22);
 DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher*, "BeatSaber.Analytics.Gameplay", "GameplayEventsDispatcher");
-DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__17, "BeatSaber.Analytics.Gameplay", "GameplayEventsDispatcher/<InitializeAsync>d__17");
-DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__18, "BeatSaber.Analytics.Gameplay",
-                    "GameplayEventsDispatcher/<InitializeInternalAsync>d__18");
+DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__21, "BeatSaber.Analytics.Gameplay", "GameplayEventsDispatcher/<InitializeAsync>d__21");
+DEFINE_IL2CPP_CLASS(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__22, "BeatSaber.Analytics.Gameplay",
+                    "GameplayEventsDispatcher/<InitializeInternalAsync>d__22");
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace BeatSaber::Analytics::Gameplay {
 // Is value type: true
-// CS Name: BeatSaber.Analytics.Gameplay.GameplayEventsDispatcher/<InitializeAsync>d__17
-struct CORDL_TYPE GameplayEventsDispatcher__InitializeAsync_d__17 {
+// CS Name: BeatSaber.Analytics.Gameplay.GameplayEventsDispatcher/<InitializeAsync>d__21
+struct CORDL_TYPE GameplayEventsDispatcher__InitializeAsync_d__21 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x34e8b04, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x350108c, size 0x1ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x34e8cf0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3501278, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -84,17 +90,17 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GameplayEventsDispatcher__InitializeAsync_d__17();
+  constexpr GameplayEventsDispatcher__InitializeAsync_d__21();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
   // modifiers: "", def_value: None, comment: None }]
-  constexpr GameplayEventsDispatcher__InitializeAsync_d__17(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr GameplayEventsDispatcher__InitializeAsync_d__21(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                             ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22965 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22852 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -115,33 +121,33 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__17, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__21, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__17, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__21, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__17, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__21, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__17, __u__1) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__21, __u__1) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__17) == 0x30, "Size mismatch!");
+static_assert(sizeof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__21) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::Analytics::Gameplay
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BeatSaber::Analytics::Gameplay {
 // Is value type: true
-// CS Name: BeatSaber.Analytics.Gameplay.GameplayEventsDispatcher/<InitializeInternalAsync>d__18
-struct CORDL_TYPE GameplayEventsDispatcher__InitializeInternalAsync_d__18 {
+// CS Name: BeatSaber.Analytics.Gameplay.GameplayEventsDispatcher/<InitializeInternalAsync>d__22
+struct CORDL_TYPE GameplayEventsDispatcher__InitializeInternalAsync_d__22 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x34e8d5c, size 0x430, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35012e4, size 0x58c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x34e9248, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3501934, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -149,21 +155,23 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr GameplayEventsDispatcher__InitializeInternalAsync_d__18();
+  constexpr GameplayEventsDispatcher__InitializeInternalAsync_d__22();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
-  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
-  constexpr GameplayEventsDispatcher__InitializeInternalAsync_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None },
+  // CppParam { name: "_eventsBuilderFactory_5__2", ty: "::BeatSaber::Analytics::Gameplay::EventsBuilderFactory*", modifiers: "", def_value: None, comment: None }]
+  constexpr GameplayEventsDispatcher__InitializeInternalAsync_d__22(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                     ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
-                                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
+                                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2,
+                                                                    ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* _eventsBuilderFactory_5__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22853 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -182,20 +190,26 @@ public:
   /// @brief Field <>u__2, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2;
 
+  /// [Nullable(0)]
+  /// @brief Field <eventsBuilderFactory>5__2, offset: 0x38, size: 0x8, def value: None
+  ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* _eventsBuilderFactory_5__2;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__18, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__22, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__18, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__22, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__18, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__22, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__18, __u__1) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__22, __u__1) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__18, __u__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__22, __u__2) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__18) == 0x38, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__22, _eventsBuilderFactory_5__2) == 0x38, "Offset mismatch!");
+
+static_assert(sizeof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__22) == 0x40, "Size mismatch!");
 
 } // namespace BeatSaber::Analytics::Gameplay
 // [NullableContext(1)]
@@ -207,11 +221,11 @@ namespace BeatSaber::Analytics::Gameplay {
 class CORDL_TYPE GameplayEventsDispatcher : public ::System::Object {
 public:
   // Declarations
-  using _InitializeAsync_d__17 = ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__17;
+  using _InitializeAsync_d__21 = ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeAsync_d__21;
 
-  using _InitializeInternalAsync_d__18 = ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__18;
+  using _InitializeInternalAsync_d__22 = ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher__InitializeInternalAsync_d__22;
 
-  /// @brief Field _analyticsManager, offset 0x30, size 0x8
+  /// @brief Field _analyticsManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__analyticsManager, put = __cordl_internal_set__analyticsManager)) ::UnityW<::OSCE::Analytics::AnalyticsManager> _analyticsManager;
 
   /// @brief Field <beatmapAttempt>k__BackingField, offset 0x10, size 0x8
@@ -222,15 +236,19 @@ public:
   __declspec(property(get = __cordl_internal_get__blockLevel_k__BackingField,
                       put = __cordl_internal_set__blockLevel_k__BackingField)) ::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* _blockLevel_k__BackingField;
 
-  /// @brief Field _featureFlags, offset 0x28, size 0x8
+  /// @brief Field _featureFlags, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__featureFlags, put = __cordl_internal_set__featureFlags)) ::BeatSaber::FeatureFlags::IFeatureFlagService* _featureFlags;
 
   /// @brief Field <hmdSession>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__hmdSession_k__BackingField,
                       put = __cordl_internal_set__hmdSession_k__BackingField)) ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* _hmdSession_k__BackingField;
 
-  /// @brief Field _initializationTask, offset 0x38, size 0x8
+  /// @brief Field _initializationTask, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__initializationTask, put = __cordl_internal_set__initializationTask)) ::System::Threading::Tasks::Task* _initializationTask;
+
+  /// @brief Field <settingsEvents>k__BackingField, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__settingsEvents_k__BackingField,
+                      put = __cordl_internal_set__settingsEvents_k__BackingField)) ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* _settingsEvents_k__BackingField;
 
   __declspec(property(get = get_beatmapAttempt, put = set_beatmapAttempt)) ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* beatmapAttempt;
 
@@ -238,21 +256,23 @@ public:
 
   __declspec(property(get = get_hmdSession, put = set_hmdSession)) ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* hmdSession;
 
+  __declspec(property(get = get_settingsEvents, put = set_settingsEvents)) ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* settingsEvents;
+
   /// @brief Convert operator to "::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher"
   constexpr operator ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher*() noexcept;
 
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Initialize, addr 0x34e897c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x3500f08, size 0x24, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// [AsyncStateMachine(typeof(BeatSaber.Analytics.Gameplay.GameplayEventsDispatcher::<InitializeAsync>d__17))]
-  /// @brief Method InitializeAsync, addr 0x34e89a0, size 0xb0, virtual true, abstract: false, final true
+  /// [AsyncStateMachine(typeof(BeatSaber.Analytics.Gameplay.GameplayEventsDispatcher::<InitializeAsync>d__21))]
+  /// @brief Method InitializeAsync, addr 0x3500f2c, size 0xb0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
-  /// [AsyncStateMachine(typeof(BeatSaber.Analytics.Gameplay.GameplayEventsDispatcher::<InitializeInternalAsync>d__18))]
-  /// @brief Method InitializeInternalAsync, addr 0x34e8a50, size 0xb4, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(BeatSaber.Analytics.Gameplay.GameplayEventsDispatcher::<InitializeInternalAsync>d__22))]
+  /// @brief Method InitializeInternalAsync, addr 0x3500fdc, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeInternalAsync();
 
   static inline ::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher* New_ctor(::BeatSaber::FeatureFlags::IFeatureFlagService* featureFlags,
@@ -282,6 +302,10 @@ public:
 
   constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get__initializationTask();
 
+  constexpr ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* const& __cordl_internal_get__settingsEvents_k__BackingField() const;
+
+  constexpr ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender*& __cordl_internal_get__settingsEvents_k__BackingField();
+
   constexpr void __cordl_internal_set__analyticsManager(::UnityW<::OSCE::Analytics::AnalyticsManager> value);
 
   constexpr void __cordl_internal_set__beatmapAttempt_k__BackingField(::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* value);
@@ -294,20 +318,26 @@ public:
 
   constexpr void __cordl_internal_set__initializationTask(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x34e8878, size 0xf8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__settingsEvents_k__BackingField(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* value);
+
+  /// @brief Method .ctor, addr 0x3500dd8, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::FeatureFlags::IFeatureFlagService* featureFlags, ::OSCE::Analytics::AnalyticsManager* analyticsManager, uint64_t appId);
 
   /// [CompilerGenerated]
-  /// @brief Method get_beatmapAttempt, addr 0x34e8848, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beatmapAttempt, addr 0x3500d98, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* get_beatmapAttempt();
 
   /// [CompilerGenerated]
-  /// @brief Method get_blockLevel, addr 0x34e8858, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_blockLevel, addr 0x3500da8, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* get_blockLevel();
 
   /// [CompilerGenerated]
-  /// @brief Method get_hmdSession, addr 0x34e8868, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hmdSession, addr 0x3500db8, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* get_hmdSession();
+
+  /// [CompilerGenerated]
+  /// @brief Method get_settingsEvents, addr 0x3500dc8, size 0x8, virtual true, abstract: false, final true
+  inline ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* get_settingsEvents();
 
   /// @brief Convert to "::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher"
   constexpr ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* i___BeatSaber__Analytics__Gameplay__IGameplayEventsDispatcher() noexcept;
@@ -316,16 +346,20 @@ public:
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_beatmapAttempt, addr 0x34e8850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapAttempt, addr 0x3500da0, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapAttempt(::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_blockLevel, addr 0x34e8860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blockLevel, addr 0x3500db0, size 0x8, virtual false, abstract: false, final false
   inline void set_blockLevel(::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_hmdSession, addr 0x34e8870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hmdSession, addr 0x3500dc0, size 0x8, virtual false, abstract: false, final false
   inline void set_hmdSession(::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* value);
+
+  /// [CompilerGenerated]
+  /// @brief Method set_settingsEvents, addr 0x3500dd0, size 0x8, virtual false, abstract: false, final false
+  inline void set_settingsEvents(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* value);
 
 protected:
   // Ctor Parameters []
@@ -342,7 +376,7 @@ public:
   GameplayEventsDispatcher(GameplayEventsDispatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22854 };
 
   /// [CompilerGenerated]
   /// @brief Field <beatmapAttempt>k__BackingField, offset: 0x10, size: 0x8, def value: None
@@ -356,14 +390,18 @@ public:
   /// @brief Field <hmdSession>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* ____hmdSession_k__BackingField;
 
-  /// @brief Field _featureFlags, offset: 0x28, size: 0x8, def value: None
+  /// [CompilerGenerated]
+  /// @brief Field <settingsEvents>k__BackingField, offset: 0x28, size: 0x8, def value: None
+  ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* ____settingsEvents_k__BackingField;
+
+  /// @brief Field _featureFlags, offset: 0x30, size: 0x8, def value: None
   ::BeatSaber::FeatureFlags::IFeatureFlagService* ____featureFlags;
 
-  /// @brief Field _analyticsManager, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _analyticsManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::OSCE::Analytics::AnalyticsManager> ____analyticsManager;
 
   /// [Nullable(2)]
-  /// @brief Field _initializationTask, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _initializationTask, offset: 0x40, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ____initializationTask;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -375,12 +413,14 @@ static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatche
 
 static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher, ____hmdSession_k__BackingField) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher, ____featureFlags) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher, ____settingsEvents_k__BackingField) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher, ____analyticsManager) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher, ____featureFlags) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher, ____initializationTask) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher, ____analyticsManager) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher) == 0x40, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher, ____initializationTask) == 0x40, "Offset mismatch!");
+
+static_assert(sizeof(::BeatSaber::Analytics::Gameplay::GameplayEventsDispatcher) == 0x48, "Size mismatch!");
 
 } // namespace BeatSaber::Analytics::Gameplay

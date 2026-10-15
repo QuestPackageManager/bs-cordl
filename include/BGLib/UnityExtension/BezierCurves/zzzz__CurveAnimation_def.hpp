@@ -71,7 +71,7 @@ public:
   // Declarations
   static inline ::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35b4bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d7538, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
   CurveAnimation_CurveEvent(CurveAnimation_CurveEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21532 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -126,7 +126,7 @@ public:
   CurveAnimation_CurveEvent_1(CurveAnimation_CurveEvent_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21533 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -168,26 +168,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x35b4be0, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35d7544, size 0x180, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x35b4d60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x35d76c4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x35b4d68, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x35d76cc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x35b4da0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x35d7704, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x35b4bdc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x35d7540, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -221,7 +221,7 @@ public:
   constexpr void __cordl_internal_set_withDelay(bool value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x35b4b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d74f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -248,7 +248,7 @@ public:
   CurveAnimation__Animate_d__20(CurveAnimation__Animate_d__20 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21534 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -335,21 +335,21 @@ public:
   __declspec(property(get = __cordl_internal_get_onStart, put = __cordl_internal_set_onStart)) ::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent* onStart;
 
   /// [IteratorStateMachine(typeof(BGLib.UnityExtension.BezierCurves.CurveAnimation::<Animate>d__20))]
-  /// @brief Method Animate, addr 0x35b4b2c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x35d7490, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Animate(bool withDelay);
 
-  /// @brief Method Animate, addr 0x35b4a40, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x35d73a4, size 0xa8, virtual false, abstract: false, final false
   inline void Animate(float_t t);
 
-  /// @brief Method Awake, addr 0x35b4ae8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x35d744c, size 0x14, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x35b4a28, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x35d738c, size 0x18, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::BGLib::UnityExtension::BezierCurves::CurveAnimation* New_ctor();
 
-  /// @brief Method StartAnimation, addr 0x35b4afc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method StartAnimation, addr 0x35d7460, size 0x30, virtual false, abstract: false, final false
   inline void StartAnimation(bool withDelay);
 
   constexpr ::UnityW<::BGLib::UnityExtension::BezierCurves::BaseBezierCurve> const& __cordl_internal_get__bezierCurve() const;
@@ -424,15 +424,15 @@ public:
 
   constexpr void __cordl_internal_set_onStart(::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent* value);
 
-  /// @brief Method .ctor, addr 0x35b4b9c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d7500, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isPlaying, addr 0x35b4a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isPlaying, addr 0x35d737c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPlaying();
 
   /// [CompilerGenerated]
-  /// @brief Method set_isPlaying, addr 0x35b4a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isPlaying, addr 0x35d7384, size 0x8, virtual false, abstract: false, final false
   inline void set_isPlaying(bool value);
 
 protected:
@@ -450,7 +450,7 @@ public:
   CurveAnimation(CurveAnimation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21535 };
 
   /// [SerializeField]
   /// @brief Field _bezierCurve, offset: 0x20, size: 0x8, def value: None

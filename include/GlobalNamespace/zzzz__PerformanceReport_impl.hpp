@@ -3,9 +3,12 @@
 #include "GlobalNamespace/zzzz__PerformanceReport_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PerformanceReport_def.hpp"
+#include "GlobalNamespace/zzzz__Cvar_1_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__PerformanceReport_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PerformanceReport_Metrics.GetValue
 template <>
 
@@ -37,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceReport_Metrics::*)()>(&::GlobalNamespace::PerformanceReport_Metrics::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d11ce8;
+  constexpr static std::size_t addrs = 0x5d4b558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport_Metrics*>(), { ".ctor", {}, {} })));
@@ -106,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PerformanceReport_FloatMetrics::*)(int32_t)>(&::GlobalNamespace::PerformanceReport_FloatMetrics::GetValue)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5d11cec;
+  constexpr static std::size_t addrs = 0x5d4b55c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceReport_FloatMetrics::*)()>(&::GlobalNamespace::PerformanceReport_FloatMetrics::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5d11038;
+  constexpr static std::size_t addrs = 0x5d4a1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport_FloatMetrics*>(), { ".ctor", {}, {} })));
@@ -145,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PerformanceReport_LongMetrics::*)(int32_t)>(&::GlobalNamespace::PerformanceReport_LongMetrics::GetValue)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5d11d80;
+  constexpr static std::size_t addrs = 0x5d4b5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceReport_LongMetrics::*)()>(&::GlobalNamespace::PerformanceReport_LongMetrics::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5d11dfc;
+  constexpr static std::size_t addrs = 0x5d4b66c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport_LongMetrics*>(), { ".ctor", {}, {} })));
@@ -179,12 +182,156 @@ inline ::GlobalNamespace::PerformanceReport_LongMetrics* GlobalNamespace::Perfor
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PerformanceReport_LongMetrics::PerformanceReport_LongMetrics() {}
+//  Writing Method size for method: ::GlobalNamespace::PerformanceReport___c._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceReport___c::*)()>(&::GlobalNamespace::PerformanceReport___c::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d4b6fc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport___c*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PerformanceReport___c._ListCvars_b__8_0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PerformanceReport___c::*)(
+    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<bool>*>)>(&::GlobalNamespace::PerformanceReport___c::_ListCvars_b__8_0)> {
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x5d4b700;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport___c*>(),
+                                                { "<ListCvars>b__8_0", {}, { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<bool>*>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PerformanceReport___c._ListCvars_b__8_1
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PerformanceReport___c::*)(
+    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<float_t>*>)>(&::GlobalNamespace::PerformanceReport___c::_ListCvars_b__8_1)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x5d4b81c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport___c*>(),
+                                                { "<ListCvars>b__8_1", {}, { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<float_t>*>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PerformanceReport___c._ListCvars_b__8_2
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PerformanceReport___c::*)(
+    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<int32_t>*>)>(&::GlobalNamespace::PerformanceReport___c::_ListCvars_b__8_2)> {
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x5d4b9cc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport___c*>(),
+                                                { "<ListCvars>b__8_2", {}, { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<int32_t>*>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PerformanceReport___c._ListCvars_b__8_3
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PerformanceReport___c::*)(::StringW)>(&::GlobalNamespace::PerformanceReport___c::_ListCvars_b__8_3)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d4bae8;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport___c*>(), { "<ListCvars>b__8_3", {}, { ::i2c::type_of<::StringW>() } })));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::PerformanceReport___c::setStaticF___9(::GlobalNamespace::PerformanceReport___c* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::PerformanceReport___c*, "<>9", ::GlobalNamespace::PerformanceReport___c*>(std::forward<::GlobalNamespace::PerformanceReport___c*>(value));
+}
+inline ::GlobalNamespace::PerformanceReport___c* GlobalNamespace::PerformanceReport___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::PerformanceReport___c*, "<>9", ::GlobalNamespace::PerformanceReport___c*>();
+}
+inline void
+GlobalNamespace::PerformanceReport___c::setStaticF___9__8_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<bool>*>, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<bool>*>, ::StringW>*, "<>9__8_0",
+                                    ::GlobalNamespace::PerformanceReport___c*>(
+      std::forward<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<bool>*>, ::StringW>*>(value));
+}
+inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<bool>*>, ::StringW>* GlobalNamespace::PerformanceReport___c::getStaticF___9__8_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<bool>*>, ::StringW>*, "<>9__8_0",
+                                           ::GlobalNamespace::PerformanceReport___c*>();
+}
+inline void
+GlobalNamespace::PerformanceReport___c::setStaticF___9__8_1(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<float_t>*>, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<float_t>*>, ::StringW>*, "<>9__8_1",
+                                    ::GlobalNamespace::PerformanceReport___c*>(
+      std::forward<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<float_t>*>, ::StringW>*>(value));
+}
+inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<float_t>*>, ::StringW>* GlobalNamespace::PerformanceReport___c::getStaticF___9__8_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<float_t>*>, ::StringW>*, "<>9__8_1",
+                                           ::GlobalNamespace::PerformanceReport___c*>();
+}
+inline void
+GlobalNamespace::PerformanceReport___c::setStaticF___9__8_2(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<int32_t>*>, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<int32_t>*>, ::StringW>*, "<>9__8_2",
+                                    ::GlobalNamespace::PerformanceReport___c*>(
+      std::forward<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<int32_t>*>, ::StringW>*>(value));
+}
+inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<int32_t>*>, ::StringW>* GlobalNamespace::PerformanceReport___c::getStaticF___9__8_2() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<int32_t>*>, ::StringW>*, "<>9__8_2",
+                                           ::GlobalNamespace::PerformanceReport___c*>();
+}
+inline void GlobalNamespace::PerformanceReport___c::setStaticF___9__8_3(::System::Func_2<::StringW, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::StringW, ::StringW>*, "<>9__8_3", ::GlobalNamespace::PerformanceReport___c*>(std::forward<::System::Func_2<::StringW, ::StringW>*>(value));
+}
+inline ::System::Func_2<::StringW, ::StringW>* GlobalNamespace::PerformanceReport___c::getStaticF___9__8_3() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::StringW, ::StringW>*, "<>9__8_3", ::GlobalNamespace::PerformanceReport___c*>();
+}
+inline void GlobalNamespace::PerformanceReport___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport___c*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::StringW GlobalNamespace::PerformanceReport___c::_ListCvars_b__8_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<bool>*> cvar) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport___c*>(),
+                                              { "<ListCvars>b__8_0", {}, { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<bool>*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, cvar);
+}
+inline ::StringW GlobalNamespace::PerformanceReport___c::_ListCvars_b__8_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<float_t>*> cvar) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport___c*>(),
+                                              { "<ListCvars>b__8_1", {}, { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<float_t>*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, cvar);
+}
+inline ::StringW GlobalNamespace::PerformanceReport___c::_ListCvars_b__8_2(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<int32_t>*> cvar) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport___c*>(),
+                                              { "<ListCvars>b__8_2", {}, { ::i2c::type_of<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<int32_t>*>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, cvar);
+}
+inline ::StringW GlobalNamespace::PerformanceReport___c::_ListCvars_b__8_3(::StringW s) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport___c*>(), { "<ListCvars>b__8_3", {}, { ::i2c::type_of<::StringW>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method, s);
+}
+inline ::GlobalNamespace::PerformanceReport___c* GlobalNamespace::PerformanceReport___c::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::PerformanceReport___c*>());
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::PerformanceReport___c::PerformanceReport___c() {}
 //  Writing Method size for method: ::GlobalNamespace::PerformanceReport___c__DisplayClass7_0._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerformanceReport___c__DisplayClass7_0::*)()>(&::GlobalNamespace::PerformanceReport___c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d11ce4;
+  constexpr static std::size_t addrs = 0x5d4b554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport___c__DisplayClass7_0*>(), { ".ctor", {}, {} })));
@@ -197,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PerformanceReport___c__DisplayClass7_0::*)(::GlobalNamespace::PerformanceReport_Metrics*)>(
     &::GlobalNamespace::PerformanceReport___c__DisplayClass7_0::_ListMetrics_b__0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d11e38;
+  constexpr static std::size_t addrs = 0x5d4baf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport___c__DisplayClass7_0*>(),
@@ -236,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::DateTime)>(&::GlobalNamespace::PerformanceReport::CreateTimestamp)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5d11364;
+  constexpr static std::size_t addrs = 0x5d4abd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +396,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::GlobalNamespace::GameplayCoreSceneSetupData*)>(&::GlobalNamespace::PerformanceReport::CreateReportDescriptor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5d11b14;
+  constexpr static std::size_t addrs = 0x5d4b384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(&::GlobalNamespace::PerformanceReport::CreateReportDescriptor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5d11bcc;
+  constexpr static std::size_t addrs = 0x5d4b43c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -279,12 +426,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(bool, ::ArrayW<::GlobalNamespace::PerformanceReport_Metrics*>)>(&::GlobalNamespace::PerformanceReport::ListMetrics)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x5d11074;
+  constexpr static std::size_t addrs = 0x5d4a234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport*>(),
                                                              { "ListMetrics", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::PerformanceReport_Metrics*>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PerformanceReport.ListCvars
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(bool)>(&::GlobalNamespace::PerformanceReport::ListCvars)> {
+  constexpr static std::size_t size = 0x6b0;
+  constexpr static std::size_t addrs = 0x5d4a524;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport*>(), { "ListCvars", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -312,6 +471,10 @@ inline ::StringW GlobalNamespace::PerformanceReport::ListMetrics(bool includeHea
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport*>(),
                                                            { "ListMetrics", {}, { ::i2c::type_of<bool>(), ::i2c::type_of<::ArrayW<::GlobalNamespace::PerformanceReport_Metrics*>>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, includeHeader, metrics);
+}
+inline ::StringW GlobalNamespace::PerformanceReport::ListCvars(bool includeHeader) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerformanceReport*>(), { "ListCvars", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, includeHeader);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PerformanceReport::PerformanceReport() {}

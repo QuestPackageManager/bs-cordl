@@ -33,11 +33,11 @@ public:
 
   constexpr void __cordl_internal_set__subMenuPath_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x7221ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x725e9e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW subMenuPath);
 
   /// [CompilerGenerated]
-  /// @brief Method get_subMenuPath, addr 0x7221aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subMenuPath, addr 0x725e9e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_subMenuPath();
 
 protected:

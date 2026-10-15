@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::OpenXR::API::UnityXRRenderTextureDesc, ::by_ref<uint32_t>)>(
     &::UnityEngine::XR::OpenXR::API::UnityXRDisplay::CreateTexture)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6e3c908;
+  constexpr static std::size_t addrs = 0x6e795a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::XR::OpenXR::API::UnityXRDisplay::DestroyTexture)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6e3c9ac;
+  constexpr static std::size_t addrs = 0x6e79648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

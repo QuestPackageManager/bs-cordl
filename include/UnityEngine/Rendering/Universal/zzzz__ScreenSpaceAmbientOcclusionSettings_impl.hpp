@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6cdb5d4;
+  constexpr static std::size_t addrs = 0x6d18250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -36,24 +36,24 @@ public:
 
   __declspec(property(get = get_minResolutionScalar, put = set_minResolutionScalar)) float_t minResolutionScalar;
 
-  /// @brief Method Internal_IsAutomaticDynamicResolutionScalingSupported, addr 0x6e4a140, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_IsAutomaticDynamicResolutionScalingSupported, addr 0x6e86ddc, size 0x6c, virtual false, abstract: false, final false
   static inline bool Internal_IsAutomaticDynamicResolutionScalingSupported();
 
-  /// @brief Method Internal_SetMinMaxScalerResolution, addr 0x6e4a228, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetMinMaxScalerResolution, addr 0x6e86ec4, size 0x80, virtual false, abstract: false, final false
   static inline void Internal_SetMinMaxScalerResolution(float_t min, float_t max);
 
-  /// @brief Method Internal_SetUsingSuggestedResolutionScale, addr 0x6e4a1ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetUsingSuggestedResolutionScale, addr 0x6e86e48, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_SetUsingSuggestedResolutionScale(bool usingSuggestedScale);
 
-  /// @brief Method IsAutomaticDynamicResolutionScalingSupported, addr 0x6e4a2a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsAutomaticDynamicResolutionScalingSupported, addr 0x6e86f44, size 0x50, virtual false, abstract: false, final false
   static inline bool IsAutomaticDynamicResolutionScalingSupported();
 
   static inline ::UnityEngine::XR::OpenXR::Features::AutomaticDynamicResolutionFeature* New_ctor();
 
-  /// @brief Method OnInstanceCreate, addr 0x6e49e48, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x6e86ae4, size 0x1f4, virtual true, abstract: false, final false
   inline bool OnInstanceCreate(uint64_t instance);
 
-  /// @brief Method SetUsingSuggestedResolutionScale, addr 0x6e4a2f8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetUsingSuggestedResolutionScale, addr 0x6e86f94, size 0xa4, virtual false, abstract: false, final false
   static inline void SetUsingSuggestedResolutionScale(bool usingSuggestedScale);
 
   constexpr float_t const& __cordl_internal_get_m_MaxResolutionScalar() const;
@@ -68,31 +68,31 @@ public:
 
   constexpr void __cordl_internal_set_m_MinResolutionScalar(float_t value);
 
-  /// @brief Method .ctor, addr 0x6e4a39c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e87038, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF__usingSuggestedResolutionScale_k__BackingField();
 
-  /// @brief Method get_maxResolutionScalar, addr 0x6e49c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxResolutionScalar, addr 0x6e86920, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxResolutionScalar();
 
-  /// @brief Method get_minResolutionScalar, addr 0x6e49b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minResolutionScalar, addr 0x6e8681c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minResolutionScalar();
 
   /// [CompilerGenerated]
-  /// @brief Method get_usingSuggestedResolutionScale, addr 0x6e49d88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_usingSuggestedResolutionScale, addr 0x6e86a24, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_usingSuggestedResolutionScale();
 
   static inline void setStaticF__usingSuggestedResolutionScale_k__BackingField(bool value);
 
-  /// @brief Method set_maxResolutionScalar, addr 0x6e49c8c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method set_maxResolutionScalar, addr 0x6e86928, size 0xfc, virtual false, abstract: false, final false
   inline void set_maxResolutionScalar(float_t value);
 
-  /// @brief Method set_minResolutionScalar, addr 0x6e49b88, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method set_minResolutionScalar, addr 0x6e86824, size 0xfc, virtual false, abstract: false, final false
   inline void set_minResolutionScalar(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_usingSuggestedResolutionScale, addr 0x6e49de4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_usingSuggestedResolutionScale, addr 0x6e86a80, size 0x64, virtual false, abstract: false, final false
   static inline void set_usingSuggestedResolutionScale(bool value);
 
 protected:
@@ -110,7 +110,7 @@ public:
   AutomaticDynamicResolutionFeature(AutomaticDynamicResolutionFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17636 };
 
   /// @brief Field k_DynamicResolutionFeatureId offset 0xffffffff size 0x8
   static constexpr ::ConstString k_DynamicResolutionFeatureId{ u"com.unity.openxr.feature.ViewportDynamicResolution" };

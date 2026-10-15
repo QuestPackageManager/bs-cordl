@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::Mono::Security::Cryptography::PKCS1::Compare)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5ed5010;
+  constexpr static std::size_t addrs = 0x5f1189c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, int32_t)>(&::Mono::Security::Cryptography::PKCS1::I2OSP)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5ed5080;
+  constexpr static std::size_t addrs = 0x5f1190c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&::Mono::Security::Cryptography::PKCS1::OS2IP)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5ed5110;
+  constexpr static std::size_t addrs = 0x5f1199c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::System::Security::Cryptography::RSA*, ::ArrayW<uint8_t>)>(&::Mono::Security::Cryptography::PKCS1::RSAVP1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ed51e0;
+  constexpr static std::size_t addrs = 0x5f11a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::Cryptography::RSA*, ::System::Security::Cryptography::HashAlgorithm*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Mono::Security::Cryptography::PKCS1::Verify_v15)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5ed51f8;
+  constexpr static std::size_t addrs = 0x5f11a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::Cryptography::RSA*, ::StringW, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Mono::Security::Cryptography::PKCS1::Verify_v15)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5ed5494;
+  constexpr static std::size_t addrs = 0x5f11d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::Cryptography::RSA*, ::System::Security::Cryptography::HashAlgorithm*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool)>(
     &::Mono::Security::Cryptography::PKCS1::Verify_v15)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x5ed527c;
+  constexpr static std::size_t addrs = 0x5f11b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::System::Security::Cryptography::HashAlgorithm*, ::ArrayW<uint8_t>, int32_t)>(
     &::Mono::Security::Cryptography::PKCS1::Encode_v15)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x5ed5a64;
+  constexpr static std::size_t addrs = 0x5f122f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::HashAlgorithm* (*)(::StringW)>(&::Mono::Security::Cryptography::PKCS1::CreateFromName)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x5ed5628;
+  constexpr static std::size_t addrs = 0x5f11eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

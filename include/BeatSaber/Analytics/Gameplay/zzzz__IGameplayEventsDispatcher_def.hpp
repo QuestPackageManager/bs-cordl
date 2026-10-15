@@ -13,6 +13,9 @@ class IBlockLevelGameplayEventSender;
 namespace BeatSaber::Analytics::Gameplay::EventSenders {
 class IHMDSessionEventSender;
 }
+namespace BeatSaber::Analytics::Gameplay::EventSenders {
+class ISettingsEventSender;
+}
 namespace System::Threading::Tasks {
 class Task;
 }
@@ -37,6 +40,8 @@ public:
 
   __declspec(property(get = get_hmdSession)) ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* hmdSession;
 
+  __declspec(property(get = get_settingsEvents)) ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* settingsEvents;
+
   /// @brief Method InitializeAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
@@ -49,12 +54,15 @@ public:
   /// @brief Method get_hmdSession, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* get_hmdSession();
 
+  /// @brief Method get_settingsEvents, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* get_settingsEvents();
+
   // Ctor Parameters [CppParam { name: "", ty: "IGameplayEventsDispatcher", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IGameplayEventsDispatcher(IGameplayEventsDispatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22856 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

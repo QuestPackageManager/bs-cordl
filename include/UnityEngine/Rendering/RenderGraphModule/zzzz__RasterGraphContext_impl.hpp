@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* (
     ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::*)()>(&::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::get_defaultResources)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c02ecc;
+  constexpr static std::size_t addrs = 0x6c3fb48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* (::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::get_renderGraphPool)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c02ee4;
+  constexpr static std::size_t addrs = 0x6c3fb60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::*)(
     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*)>(&::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::FromInternalContext)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6c02efc;
+  constexpr static std::size_t addrs = 0x6c3fb78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin (::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::GetTextureUVOrigin)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6c02fa0;
+  constexpr static std::size_t addrs = 0x6c3fc1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext::UnityEngine_Rendering_RenderGraphModule_IDerivedRendergraphContext_GetTextureUVOrigin)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6c03080;
+  constexpr static std::size_t addrs = 0x6c3fcfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>(),

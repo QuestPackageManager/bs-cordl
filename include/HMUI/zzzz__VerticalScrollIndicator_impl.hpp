@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollIndicator::*)(float_t)>(&::HMUI::VerticalScrollIndicator::set_progress)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5c9ff94;
+  constexpr static std::size_t addrs = 0x5cd8f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::get_progress)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca7e34;
+  constexpr static std::size_t addrs = 0x5ce0df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::VerticalScrollIndicator*>(), { "get_progress", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollIndicator::*)(float_t)>(&::HMUI::VerticalScrollIndicator::set_normalizedPageHeight)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5c9fbfc;
+  constexpr static std::size_t addrs = 0x5cd8a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::get_normalizedPageHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca7e3c;
+  constexpr static std::size_t addrs = 0x5ce0dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::VerticalScrollIndicator*>(), { "get_normalizedPageHeight", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::get_handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca7e44;
+  constexpr static std::size_t addrs = 0x5ce0e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::VerticalScrollIndicator*>(), { "get_handle", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ca7e4c;
+  constexpr static std::size_t addrs = 0x5ce0e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::VerticalScrollIndicator*>(), { "OnEnable", {}, {} })));
@@ -81,8 +81,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScr
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::RefreshHandle)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5ca7d38;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x5ce0ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::VerticalScrollIndicator*>(), { "RefreshHandle", {}, {} })));
@@ -93,8 +93,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScr
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ca7e50;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5ce0e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::VerticalScrollIndicator*>(), { ".ctor", {}, {} })));
@@ -124,6 +124,18 @@ constexpr float_t const& HMUI::VerticalScrollIndicator::__cordl_internal_get__pa
 constexpr void HMUI::VerticalScrollIndicator::__cordl_internal_set__padding(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____padding = value;
+}
+constexpr float_t& HMUI::VerticalScrollIndicator::__cordl_internal_get__minHandleHeight() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____minHandleHeight;
+}
+constexpr float_t const& HMUI::VerticalScrollIndicator::__cordl_internal_get__minHandleHeight() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____minHandleHeight;
+}
+constexpr void HMUI::VerticalScrollIndicator::__cordl_internal_set__minHandleHeight(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____minHandleHeight = value;
 }
 constexpr float_t& HMUI::VerticalScrollIndicator::__cordl_internal_get__progress() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

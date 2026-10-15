@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::VolumeStack* (::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::get_selectedCameraVolumeStack)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6c8baf8;
+  constexpr static std::size_t addrs = 0x6cc8774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::get_selectedCameraLayerMask)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6c8bc48;
+  constexpr static std::size_t addrs = 0x6cc88c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::get_selectedCameraPosition)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6c8bd38;
+  constexpr static std::size_t addrs = 0x6cc89b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::get_targetRenderPipeline)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6c8be38;
+  constexpr static std::size_t addrs = 0x6cc8ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineVolumeDebugSettings::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6c8be98;
+  constexpr static std::size_t addrs = 0x6cc8b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

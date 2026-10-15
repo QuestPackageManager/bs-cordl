@@ -30,25 +30,25 @@ namespace UnityEngine::Rendering::UnifiedRayTracing {
 class CORDL_TYPE RayTracingHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateDispatchIndirectBuffer, addr 0x6e0d160, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateDispatchIndirectBuffer, addr 0x6e49dfc, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::GraphicsBuffer* CreateDispatchIndirectBuffer();
 
-  /// @brief Method CreateScratchBufferForBuild, addr 0x6e0d75c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CreateScratchBufferForBuild, addr 0x6e4a3f8, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::GraphicsBuffer* CreateScratchBufferForBuild(::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingAccelStruct* accelStruct);
 
-  /// @brief Method CreateScratchBufferForBuildAndDispatch, addr 0x6e0d594, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method CreateScratchBufferForBuildAndDispatch, addr 0x6e4a230, size 0x1c8, virtual false, abstract: false, final false
   static inline ::UnityEngine::GraphicsBuffer* CreateScratchBufferForBuildAndDispatch(::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingAccelStruct* accelStruct,
                                                                                       ::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingShader* shader, uint32_t dispatchWidth,
                                                                                       uint32_t dispatchHeight, uint32_t dispatchDepth);
 
-  /// @brief Method CreateScratchBufferForTrace, addr 0x6e0d848, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method CreateScratchBufferForTrace, addr 0x6e4a4e4, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityEngine::GraphicsBuffer* CreateScratchBufferForTrace(::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingShader* shader, uint32_t dispatchWidth, uint32_t dispatchHeight,
                                                                            uint32_t dispatchDepth);
 
-  /// @brief Method ResizeScratchBufferForBuild, addr 0x6e0dab8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ResizeScratchBufferForBuild, addr 0x6e4a754, size 0x13c, virtual false, abstract: false, final false
   static inline void ResizeScratchBufferForBuild(::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingAccelStruct* accelStruct, ::by_ref<::UnityEngine::GraphicsBuffer*> scratchBuffer);
 
-  /// @brief Method ResizeScratchBufferForTrace, addr 0x6e0d95c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ResizeScratchBufferForTrace, addr 0x6e4a5f8, size 0x15c, virtual false, abstract: false, final false
   static inline void ResizeScratchBufferForTrace(::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingShader* shader, uint32_t dispatchWidth, uint32_t dispatchHeight, uint32_t dispatchDepth,
                                                  ::by_ref<::UnityEngine::GraphicsBuffer*> scratchBuffer);
 
@@ -70,7 +70,7 @@ public:
   static ::UnityEngine::GraphicsBuffer_Target const ScratchBufferTarget;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20548 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

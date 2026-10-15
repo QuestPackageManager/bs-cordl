@@ -36,19 +36,19 @@ public:
       get = getStaticF_s_Factories,
       put = setStaticF_s_Factories)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* s_Factories;
 
-  /// @brief Method RegisterEngineFactories, addr 0x7148230, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method RegisterEngineFactories, addr 0x7185164, size 0x1ec, virtual false, abstract: false, final false
   static inline void RegisterEngineFactories();
 
-  /// @brief Method RegisterFactory, addr 0x714873c, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method RegisterFactory, addr 0x7185670, size 0x4ac, virtual false, abstract: false, final false
   static inline void RegisterFactory(::UnityEngine::UIElements::IBaseUxmlObjectFactory* factory);
 
-  /// @brief Method RegisterUserFactories, addr 0x714841c, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method RegisterUserFactories, addr 0x7185350, size 0x320, virtual false, abstract: false, final false
   static inline void RegisterUserFactories();
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* getStaticF_s_Factories();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method get_factories, addr 0x7148158, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_factories, addr 0x718508c, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IBaseUxmlObjectFactory*>*>* get_factories();
 
   static inline void

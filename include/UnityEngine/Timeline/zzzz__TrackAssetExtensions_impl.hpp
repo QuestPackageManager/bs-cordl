@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Timeline::GroupTrack> (*)(::UnityEngine::Timeline::TrackAsset*)>(
     &::UnityEngine::Timeline::TrackAssetExtensions::GetGroup)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6def7b8;
+  constexpr static std::size_t addrs = 0x6e2c454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::Timeline::GroupTrack*)>(
     &::UnityEngine::Timeline::TrackAssetExtensions::SetGroup)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x6def884;
+  constexpr static std::size_t addrs = 0x6e2c520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Timeline::TrackAsset*, bool)>(&::UnityEngine::Timeline::TrackAssetExtensions::ComputeBlendsFromOverlaps)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6de0a80;
+  constexpr static std::size_t addrs = 0x6e1d71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

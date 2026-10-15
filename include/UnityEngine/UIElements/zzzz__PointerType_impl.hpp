@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t)>(&::UnityEngine::UIElements::PointerType::GetPointerType)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x7231cc0;
+  constexpr static std::size_t addrs = 0x726ebf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::UIElements::PointerType::IsDirectManipulationDevice)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x7231e40;
+  constexpr static std::size_t addrs = 0x726ed74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

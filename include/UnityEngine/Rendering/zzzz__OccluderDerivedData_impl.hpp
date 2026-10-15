@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::OccluderDerivedData (*)(::by_ref<::UnityEngine::Rendering::OccluderSubviewUpdate const>)>(
     &::UnityEngine::Rendering::OccluderDerivedData::FromParameters)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x6c646cc;
+  constexpr static std::size_t addrs = 0x6ca1348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -130,21 +130,21 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x64ff810, size 0x374, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x653c3e0, size 0x374, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x64ffb84, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x653c754, size 0x1c8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::CacheControlHeaderValue* New_ctor();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x64ff398, size 0x478, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x653bf68, size 0x478, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x65008a8, size 0x728, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x653d478, size 0x728, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x64ffd4c, size 0x9ac, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x653c91c, size 0x9ac, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ::by_ref<::System::Net::Http::Headers::CacheControlHeaderValue*> parsedValue);
 
   constexpr ::System::Nullable_1<::System::TimeSpan> const& __cordl_internal_get__MaxAge_k__BackingField() const;
@@ -243,123 +243,123 @@ public:
 
   constexpr void __cordl_internal_set_private_headers(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x65006f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x653d2c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Extensions, addr 0x64ff138, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x653bd08, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Extensions();
 
   /// [CompilerGenerated]
-  /// @brief Method get_MaxAge, addr 0x64ff1b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MaxAge, addr 0x653bd88, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> get_MaxAge();
 
   /// [CompilerGenerated]
-  /// @brief Method get_MaxStale, addr 0x64ff1cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxStale, addr 0x653bd9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_MaxStale();
 
   /// [CompilerGenerated]
-  /// @brief Method get_MaxStaleLimit, addr 0x64ff1dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MaxStaleLimit, addr 0x653bdac, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> get_MaxStaleLimit();
 
   /// [CompilerGenerated]
-  /// @brief Method get_MinFresh, addr 0x64ff1f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MinFresh, addr 0x653bdc0, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> get_MinFresh();
 
   /// [CompilerGenerated]
-  /// @brief Method get_MustRevalidate, addr 0x64ff204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MustRevalidate, addr 0x653bdd4, size 0x8, virtual false, abstract: false, final false
   inline bool get_MustRevalidate();
 
   /// [CompilerGenerated]
-  /// @brief Method get_NoCache, addr 0x64ff214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NoCache, addr 0x653bde4, size 0x8, virtual false, abstract: false, final false
   inline bool get_NoCache();
 
-  /// @brief Method get_NoCacheHeaders, addr 0x64ff224, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_NoCacheHeaders, addr 0x653bdf4, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::StringW>* get_NoCacheHeaders();
 
   /// [CompilerGenerated]
-  /// @brief Method get_NoStore, addr 0x64ff2a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NoStore, addr 0x653be74, size 0x8, virtual false, abstract: false, final false
   inline bool get_NoStore();
 
   /// [CompilerGenerated]
-  /// @brief Method get_NoTransform, addr 0x64ff2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NoTransform, addr 0x653be84, size 0x8, virtual false, abstract: false, final false
   inline bool get_NoTransform();
 
   /// [CompilerGenerated]
-  /// @brief Method get_OnlyIfCached, addr 0x64ff2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OnlyIfCached, addr 0x653be94, size 0x8, virtual false, abstract: false, final false
   inline bool get_OnlyIfCached();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Private, addr 0x64ff2d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Private, addr 0x653bea4, size 0x8, virtual false, abstract: false, final false
   inline bool get_Private();
 
-  /// @brief Method get_PrivateHeaders, addr 0x64ff2e4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateHeaders, addr 0x653beb4, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::StringW>* get_PrivateHeaders();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ProxyRevalidate, addr 0x64ff364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProxyRevalidate, addr 0x653bf34, size 0x8, virtual false, abstract: false, final false
   inline bool get_ProxyRevalidate();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Public, addr 0x64ff374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Public, addr 0x653bf44, size 0x8, virtual false, abstract: false, final false
   inline bool get_Public();
 
   /// [CompilerGenerated]
-  /// @brief Method get_SharedMaxAge, addr 0x64ff384, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_SharedMaxAge, addr 0x653bf54, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> get_SharedMaxAge();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_MaxAge, addr 0x64ff1c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxAge, addr 0x653bd94, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxAge(::System::Nullable_1<::System::TimeSpan> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_MaxStale, addr 0x64ff1d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxStale, addr 0x653bda4, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxStale(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_MaxStaleLimit, addr 0x64ff1e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxStaleLimit, addr 0x653bdb8, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxStaleLimit(::System::Nullable_1<::System::TimeSpan> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_MinFresh, addr 0x64ff1fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MinFresh, addr 0x653bdcc, size 0x8, virtual false, abstract: false, final false
   inline void set_MinFresh(::System::Nullable_1<::System::TimeSpan> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_MustRevalidate, addr 0x64ff20c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MustRevalidate, addr 0x653bddc, size 0x8, virtual false, abstract: false, final false
   inline void set_MustRevalidate(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_NoCache, addr 0x64ff21c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NoCache, addr 0x653bdec, size 0x8, virtual false, abstract: false, final false
   inline void set_NoCache(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_NoStore, addr 0x64ff2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NoStore, addr 0x653be7c, size 0x8, virtual false, abstract: false, final false
   inline void set_NoStore(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_NoTransform, addr 0x64ff2bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NoTransform, addr 0x653be8c, size 0x8, virtual false, abstract: false, final false
   inline void set_NoTransform(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_OnlyIfCached, addr 0x64ff2cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OnlyIfCached, addr 0x653be9c, size 0x8, virtual false, abstract: false, final false
   inline void set_OnlyIfCached(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Private, addr 0x64ff2dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Private, addr 0x653beac, size 0x8, virtual false, abstract: false, final false
   inline void set_Private(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ProxyRevalidate, addr 0x64ff36c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProxyRevalidate, addr 0x653bf3c, size 0x8, virtual false, abstract: false, final false
   inline void set_ProxyRevalidate(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Public, addr 0x64ff37c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Public, addr 0x653bf4c, size 0x8, virtual false, abstract: false, final false
   inline void set_Public(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_SharedMaxAge, addr 0x64ff390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SharedMaxAge, addr 0x653bf60, size 0x8, virtual false, abstract: false, final false
   inline void set_SharedMaxAge(::System::Nullable_1<::System::TimeSpan> value);
 
 protected:
@@ -377,7 +377,7 @@ public:
   CacheControlHeaderValue(CacheControlHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20950 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20997 };
 
   /// @brief Field extensions, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* ___extensions;

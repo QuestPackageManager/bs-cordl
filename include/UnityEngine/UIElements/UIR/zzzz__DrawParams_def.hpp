@@ -63,7 +63,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::DrawParams* New_ctor();
 
-  /// @brief Method Reset, addr 0x718fad4, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x71cca08, size 0x1d4, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_boundsMin() const;
@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set_view(::System::Collections::Generic::Stack_1<::UnityEngine::Matrix4x4>* value);
 
-  /// @brief Method .ctor, addr 0x718ba38, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71c896c, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rect getStaticF_k_FullNormalizedRect();

@@ -37,54 +37,54 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e42c7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f918, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t componentTypeCapacityInput, uint32_t componentTypeCountOutput, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* componentTypes);
 
-  /// @brief Method .ctor, addr 0x6e42ce0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f97c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint32_t componentTypeCapacityInput, uint32_t componentTypeCountOutput, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* componentTypes);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_componentTypeCapacityInput, addr 0x6e42cb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_componentTypeCapacityInput, addr 0x6e7f94c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_componentTypeCapacityInput();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_componentTypeCountOutput, addr 0x6e42cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_componentTypeCountOutput, addr 0x6e7f95c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_componentTypeCountOutput();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_componentTypes, addr 0x6e42cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_componentTypes, addr 0x6e7f96c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* get_componentTypes();
 
-  /// @brief Method get_defaultValue, addr 0x6e3f180, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_defaultValue, addr 0x6e7be1c, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityComponentTypesEXT get_defaultValue();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e42ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e7f93c, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e42c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e7f934, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   /// [CompilerGenerated]
-  /// @brief Method set_componentTypeCapacityInput, addr 0x6e42cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_componentTypeCapacityInput, addr 0x6e7f954, size 0x8, virtual false, abstract: false, final false
   inline void set_componentTypeCapacityInput(uint32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_componentTypeCountOutput, addr 0x6e42cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_componentTypeCountOutput, addr 0x6e7f964, size 0x8, virtual false, abstract: false, final false
   inline void set_componentTypeCountOutput(uint32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_componentTypes, addr 0x6e42cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_componentTypes, addr 0x6e7f974, size 0x8, virtual false, abstract: false, final false
   inline void set_componentTypes(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_next, addr 0x6e42ca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_next, addr 0x6e7f944, size 0x8, virtual false, abstract: false, final false
   inline void set_next(void* value);
 
   // Ctor Parameters []
@@ -100,7 +100,7 @@ public:
                                                  ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* _componentTypes_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17556 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17589 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

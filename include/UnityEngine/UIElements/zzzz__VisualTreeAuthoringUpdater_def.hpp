@@ -89,25 +89,25 @@ public:
 
   __declspec(property(get = get_shouldUpdate)) bool shouldUpdate;
 
-  /// @brief Method Dispose, addr 0x70841e8, size 0x300, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x70c111c, size 0x300, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::VisualTreeAuthoringUpdater* New_ctor();
 
-  /// @brief Method OnHierarchyChange, addr 0x70844e8, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method OnHierarchyChange, addr 0x70c141c, size 0x4fc, virtual false, abstract: false, final false
   inline void OnHierarchyChange(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType type,
                                 ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::UIElements::VisualElement*>* additionalContext);
 
-  /// @brief Method OnPanelChanged, addr 0x70840f8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnPanelChanged, addr 0x70c102c, size 0xf0, virtual false, abstract: false, final false
   inline void OnPanelChanged(::UnityEngine::UIElements::BaseVisualElementPanel* p);
 
-  /// @brief Method OnVersionChanged, addr 0x7083a84, size 0x224, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x70c09b8, size 0x224, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method SwapBuffers, addr 0x70840dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SwapBuffers, addr 0x70c1010, size 0x1c, virtual false, abstract: false, final false
   inline void SwapBuffers();
 
-  /// @brief Method Update, addr 0x7083ca8, size 0x434, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x70c0bdc, size 0x434, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_m_AccumulatingChanges() const;
@@ -164,17 +164,17 @@ public:
 
   constexpr void __cordl_internal_set_m_RegisteredProcessors(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IVisualElementChangeProcessor*>* value);
 
-  /// @brief Method .ctor, addr 0x7083934, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70c0868, size 0x150, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_UpdateChangeProfilerMarker();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_UpdateProfilerMarker();
 
-  /// @brief Method get_profilerMarker, addr 0x7083870, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x70c07a4, size 0x5c, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method get_shouldUpdate, addr 0x70838cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_shouldUpdate, addr 0x70c0800, size 0x68, virtual false, abstract: false, final false
   inline bool get_shouldUpdate();
 
   static inline void setStaticF_s_UpdateChangeProfilerMarker(::Unity::Profiling::ProfilerMarker value);

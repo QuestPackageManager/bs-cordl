@@ -119,7 +119,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UITKTextJobSystem_ManagedJobData* New_ctor();
 
-  /// @brief Method Release, addr 0x7133f2c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x7170e60, size 0x170, virtual false, abstract: false, final false
   inline void Release();
 
   constexpr ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<uint16_t>>* const& __cordl_internal_get_indices() const;
@@ -164,7 +164,7 @@ public:
 
   constexpr void __cordl_internal_set_visualElement(::UnityEngine::UIElements::TextElement* value);
 
-  /// @brief Method .ctor, addr 0x71347f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7171724, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -235,7 +235,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x71347f4, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x7171728, size 0x15c, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -275,7 +275,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x7134950, size 0x210, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x7171884, size 0x210, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -325,37 +325,37 @@ public:
 
   static inline ::UnityEngine::UIElements::UITKTextJobSystem___c* New_ctor();
 
-  /// @brief Method <.cctor>b__25_0, addr 0x7134bb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__25_0, addr 0x7171aec, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UITKTextJobSystem_ManagedJobData* __cctor_b__25_0();
 
-  /// @brief Method <.cctor>b__25_1, addr 0x7134bfc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__25_1, addr 0x7171b30, size 0x14, virtual false, abstract: false, final false
   inline void __cctor_b__25_1(::UnityEngine::UIElements::UITKTextJobSystem_ManagedJobData* inst);
 
-  /// @brief Method <.cctor>b__25_2, addr 0x7134c10, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__25_2, addr 0x7171b44, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* __cctor_b__25_2();
 
-  /// @brief Method <.cctor>b__25_3, addr 0x7134c80, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__25_3, addr 0x7171bb4, size 0x74, virtual false, abstract: false, final false
   inline void __cctor_b__25_3(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* list);
 
-  /// @brief Method <.cctor>b__25_4, addr 0x7134cf4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__25_4, addr 0x7171c28, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>* __cctor_b__25_4();
 
-  /// @brief Method <.cctor>b__25_5, addr 0x7134d64, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__25_5, addr 0x7171c98, size 0x54, virtual false, abstract: false, final false
   inline void __cctor_b__25_5(::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>* list);
 
-  /// @brief Method <.cctor>b__25_6, addr 0x7134db8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__25_6, addr 0x7171cec, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>* __cctor_b__25_6();
 
-  /// @brief Method <.cctor>b__25_7, addr 0x7134e28, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__25_7, addr 0x7171d5c, size 0x54, virtual false, abstract: false, final false
   inline void __cctor_b__25_7(::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>* list);
 
-  /// @brief Method <.cctor>b__25_8, addr 0x7134e7c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__25_8, addr 0x7171db0, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<uint16_t>>* __cctor_b__25_8();
 
-  /// @brief Method <.cctor>b__25_9, addr 0x7134eec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__25_9, addr 0x7171e20, size 0x54, virtual false, abstract: false, final false
   inline void __cctor_b__25_9(::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<uint16_t>>* list);
 
-  /// @brief Method .ctor, addr 0x7134bb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7171ae8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UITKTextJobSystem___c* getStaticF___9();
@@ -454,28 +454,28 @@ public:
   /// @brief Field textJobDatasHandle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_textJobDatasHandle, put = __cordl_internal_set_textJobDatasHandle)) ::System::Runtime::InteropServices::GCHandle textJobDatasHandle;
 
-  /// @brief Method AddDrawEntries, addr 0x7133bf4, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method AddDrawEntries, addr 0x7170b28, size 0x338, virtual false, abstract: false, final false
   inline void AddDrawEntries(Il2CppObject* mgc, ::System::Object* _);
 
-  /// @brief Method ConvertMeshInfoToUIRVertex, addr 0x7133100, size 0xaf4, virtual false, abstract: false, final false
+  /// @brief Method ConvertMeshInfoToUIRVertex, addr 0x7170034, size 0xaf4, virtual false, abstract: false, final false
   static inline void ConvertMeshInfoToUIRVertex(::ArrayW<::UnityEngine::TextCore::Text::MeshInfo> meshInfos, ::UnityEngine::UIElements::TempMeshAllocator alloc,
                                                 ::UnityEngine::UIElements::TextElement* visualElement, ::by_ref<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*> materials,
                                                 ::by_ref<::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>*> verticesArray,
                                                 ::by_ref<::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<uint16_t>>*> indicesArray,
                                                 ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>*> renderModes);
 
-  /// @brief Method GenerateText, addr 0x71306e4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GenerateText, addr 0x716d618, size 0x18c, virtual false, abstract: false, final false
   inline void GenerateText(Il2CppObject* mgc, ::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method GenerateTextJobified, addr 0x7132dc4, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method GenerateTextJobified, addr 0x716fcf8, size 0x33c, virtual false, abstract: false, final false
   inline void GenerateTextJobified(Il2CppObject* mgc, ::System::Object* _);
 
   static inline ::UnityEngine::UIElements::UITKTextJobSystem* New_ctor();
 
-  /// @brief Method OnGetManagedJob, addr 0x7132c58, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnGetManagedJob, addr 0x716fb8c, size 0x1c, virtual false, abstract: false, final false
   static inline void OnGetManagedJob(::UnityEngine::UIElements::UITKTextJobSystem_ManagedJobData* managedJobData);
 
-  /// @brief Method PrepareTextJobified, addr 0x7132c74, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method PrepareTextJobified, addr 0x716fba8, size 0x150, virtual false, abstract: false, final false
   inline void PrepareTextJobified(Il2CppObject* mgc, ::System::Object* _);
 
   constexpr bool const& __cordl_internal_get_hasPendingTextWork() const;
@@ -514,7 +514,7 @@ public:
 
   constexpr void __cordl_internal_set_textJobDatasHandle(::System::Runtime::InteropServices::GCHandle value);
 
-  /// @brief Method .ctor, addr 0x71305b0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x716d4e4, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_ExecuteMarker();

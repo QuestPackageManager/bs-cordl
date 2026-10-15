@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers::get_valid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69e78c0;
+  constexpr static std::size_t addrs = 0x6a2453c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers::*)(int32_t, void*)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers::SetFrontBuffer)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69e71f8;
+  constexpr static std::size_t addrs = 0x6a23e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers::*)(int32_t, void*)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers::SetBackBuffer)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69e7214;
+  constexpr static std::size_t addrs = 0x6a23e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers::*)(int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers::GetFrontBuffer)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x69e6f04;
+  constexpr static std::size_t addrs = 0x6a23b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers::*)(int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers::GetBackBuffer)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x69e6f98;
+  constexpr static std::size_t addrs = 0x6a23c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers::*)(int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers::SwapBuffers)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x69e78d0;
+  constexpr static std::size_t addrs = 0x6a2454c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers (::UnityEngine::InputSystem::LowLevel::InputStateBuffers::*)(
     ::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(&::UnityEngine::InputSystem::LowLevel::InputStateBuffers::GetDoubleBuffersFor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x69e6dcc;
+  constexpr static std::size_t addrs = 0x6a23a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(int32_t)>(&::UnityEngine::InputSystem::LowLevel::InputStateBuffers::GetFrontBufferForDevice)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69e6e98;
+  constexpr static std::size_t addrs = 0x6a23b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(int32_t)>(&::UnityEngine::InputSystem::LowLevel::InputStateBuffers::GetBackBufferForDevice)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69e6f28;
+  constexpr static std::size_t addrs = 0x6a23ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::LowLevel::InputStateBuffers, ::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateBuffers::SwitchTo)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x69e6fc0;
+  constexpr static std::size_t addrs = 0x6a23c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateBuffers::*)(::ArrayW<::UnityEngine::InputSystem::InputDevice*>, int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateBuffers::AllocateAll)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x69e7028;
+  constexpr static std::size_t addrs = 0x6a23ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers (*)(int32_t, ::by_ref<uint8_t*>, uint32_t, uint32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateBuffers::SetUpDeviceToBufferMappings)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x69e7198;
+  constexpr static std::size_t addrs = 0x6a23e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateBuffers::*)()>(&::UnityEngine::InputSystem::LowLevel::InputStateBuffers::FreeAll)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x69e7234;
+  constexpr static std::size_t addrs = 0x6a23eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputStateBuffers>(), { "FreeAll", {}, {} })));
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateBuffers::*)(
     ::ArrayW<::UnityEngine::InputSystem::InputDevice*>, int32_t, ::UnityEngine::InputSystem::LowLevel::InputStateBuffers)>(&::UnityEngine::InputSystem::LowLevel::InputStateBuffers::MigrateAll)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x69e7318;
+  constexpr static std::size_t addrs = 0x6a23f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputStateBuffers>(),
@@ -251,7 +251,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::I
                                                                 ::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateBuffers::MigrateDoubleBuffer)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x69e7478;
+  constexpr static std::size_t addrs = 0x6a240f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::InputStateBuffers>(),
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::ArrayW<::UnityEngine::InputSystem::InputDevice*>, int32_t, void*)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateBuffers::MigrateSingleBuffer)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x69e769c;
+  constexpr static std::size_t addrs = 0x6a24318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::ArrayW<::UnityEngine::InputSystem::InputDevice*>, int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateBuffers::ComputeSizeOfSingleStateBuffer)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69e712c;
+  constexpr static std::size_t addrs = 0x6a23da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -300,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, ::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::LowLevel::InputStateBuffers::NextDeviceOffset)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x69e77d0;
+  constexpr static std::size_t addrs = 0x6a2444c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

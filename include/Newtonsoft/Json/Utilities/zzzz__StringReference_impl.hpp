@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::Newtonsoft::Json::Utilities::StringReference::*)(int32_t)>(&::Newtonsoft::Json::Utilities::StringReference::get_Item)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x614d41c;
+  constexpr static std::size_t addrs = 0x6189e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<char16_t> (::Newtonsoft::Json::Utilities::StringReference::*)()>(&::Newtonsoft::Json::Utilities::StringReference::get_Chars)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x614d44c;
+  constexpr static std::size_t addrs = 0x6189e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::StringReference>(), { "get_Chars", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Newtonsoft::Json::Utilities::StringReference::*)()>(&::Newtonsoft::Json::Utilities::StringReference::get_StartIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x614d454;
+  constexpr static std::size_t addrs = 0x6189e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::StringReference>(), { "get_StartIndex", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Newtonsoft::Json::Utilities::StringReference::*)()>(&::Newtonsoft::Json::Utilities::StringReference::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x614d45c;
+  constexpr static std::size_t addrs = 0x6189ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::StringReference>(), { "get_Length", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::StringReference::*)(::ArrayW<char16_t>, int32_t, int32_t)>(
     &::Newtonsoft::Json::Utilities::StringReference::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x614d464;
+  constexpr static std::size_t addrs = 0x6189eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Utilities::StringReference::*)()>(&::Newtonsoft::Json::Utilities::StringReference::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x614d470;
+  constexpr static std::size_t addrs = 0x6189eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

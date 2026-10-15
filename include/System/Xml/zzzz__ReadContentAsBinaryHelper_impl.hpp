@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ReadContentAsBinaryHelper::*)(::System::Xml::XmlReader*)>(&::System::Xml::ReadContentAsBinaryHelper::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x65da1c0;
+  constexpr static std::size_t addrs = 0x6616d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::ReadContentAsBinaryHelper* (*)(::System::Xml::ReadContentAsBinaryHelper*, ::System::Xml::XmlReader*)>(
     &::System::Xml::ReadContentAsBinaryHelper::CreateOrReset)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x65da24c;
+  constexpr static std::size_t addrs = 0x6616e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::ReadContentAsBinaryHelper::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Xml::ReadContentAsBinaryHelper::ReadContentAsBase64)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x65da2d0;
+  constexpr static std::size_t addrs = 0x6616ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::ReadContentAsBinaryHelper::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Xml::ReadContentAsBinaryHelper::ReadContentAsBinHex)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x65da6b8;
+  constexpr static std::size_t addrs = 0x6617288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ReadContentAsBinaryHelper::*)()>(&::System::Xml::ReadContentAsBinaryHelper::Finish)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x65da910;
+  constexpr static std::size_t addrs = 0x66174e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ReadContentAsBinaryHelper*>(), { "Finish", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ReadContentAsBinaryHelper::*)()>(&::System::Xml::ReadContentAsBinaryHelper::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x65da2c4;
+  constexpr static std::size_t addrs = 0x6616e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ReadContentAsBinaryHelper*>(), { "Reset", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::ReadContentAsBinaryHelper::*)()>(&::System::Xml::ReadContentAsBinaryHelper::Init)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x65da4b4;
+  constexpr static std::size_t addrs = 0x6617084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ReadContentAsBinaryHelper*>(), { "Init", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ReadContentAsBinaryHelper::*)()>(&::System::Xml::ReadContentAsBinaryHelper::InitBase64Decoder)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x65da648;
+  constexpr static std::size_t addrs = 0x6617218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ReadContentAsBinaryHelper*>(), { "InitBase64Decoder", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::ReadContentAsBinaryHelper::*)()>(&::System::Xml::ReadContentAsBinaryHelper::InitBinHexDecoder)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x65da8a0;
+  constexpr static std::size_t addrs = 0x6617470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::ReadContentAsBinaryHelper*>(), { "InitBinHexDecoder", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::ReadContentAsBinaryHelper::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Xml::ReadContentAsBinaryHelper::ReadContentAsBinary)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x65da4e0;
+  constexpr static std::size_t addrs = 0x66170b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::ReadContentAsBinaryHelper::*)(bool)>(&::System::Xml::ReadContentAsBinaryHelper::MoveToNextContentNode)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x65daa58;
+  constexpr static std::size_t addrs = 0x6617628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

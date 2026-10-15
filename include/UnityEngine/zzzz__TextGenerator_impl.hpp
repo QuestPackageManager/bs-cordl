@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::TextGenerator*)>(&::UnityEngine::TextGenerator_BindingsMarshaller::ConvertToNative)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7069c3c;
+  constexpr static std::size_t addrs = 0x70a6b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextGenerator::*)()>(&::UnityEngine::TextGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70687b0;
+  constexpr static std::size_t addrs = 0x70a56e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextGenerator*>(), { ".ctor", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextGenerator::*)(int32_t)>(&::UnityEngine::TextGenerator::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x70687b8;
+  constexpr static std::size_t addrs = 0x70a56ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextGenerator*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextGenerator::*)()>(&::UnityEngine::TextGenerator::Finalize)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x7068928;
+  constexpr static std::size_t addrs = 0x70a585c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextGenerator*>(), { ::i2c::class_of<::UnityEngine::TextGenerator*>(), 1 }));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextGenerator::*)()>(&::UnityEngine::TextGenerator::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x70689f8;
+  constexpr static std::size_t addrs = 0x70a592c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextGenerator*>(), { "System.IDisposable.Dispose", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextGenerator::*)()>(&::UnityEngine::TextGenerator::get_characterCountVisible)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7068a80;
+  constexpr static std::size_t addrs = 0x70a59b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextGenerator*>(), { "get_characterCountVisible", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextGenerationSettings (::UnityEngine::TextGenerator::*)(::UnityEngine::TextGenerationSettings)>(
     &::UnityEngine::TextGenerator::ValidatedSettings)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x7068ae4;
+  constexpr static std::size_t addrs = 0x70a5a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextGenerator::*)()>(&::UnityEngine::TextGenerator::Invalidate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7068df4;
+  constexpr static std::size_t addrs = 0x70a5d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextGenerator*>(), { "Invalidate", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextGenerator::*)(::System::Collections::Generic::List_1<::UnityEngine::UICharInfo>*)>(
     &::UnityEngine::TextGenerator::GetCharacters)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7068dfc;
+  constexpr static std::size_t addrs = 0x70a5d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextGenerator::*)(::System::Collections::Generic::List_1<::UnityEngine::UILineInfo>*)>(
     &::UnityEngine::TextGenerator::GetLines)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7068e58;
+  constexpr static std::size_t addrs = 0x70a5d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextGenerator::*)(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*)>(
     &::UnityEngine::TextGenerator::GetVertices)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7068eb4;
+  constexpr static std::size_t addrs = 0x70a5de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextGenerator::*)(::StringW, ::UnityEngine::TextGenerationSettings)>(&::UnityEngine::TextGenerator::GetPreferredWidth)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x7068f10;
+  constexpr static std::size_t addrs = 0x70a5e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextGenerator::*)(::StringW, ::UnityEngine::TextGenerationSettings)>(
     &::UnityEngine::TextGenerator::GetPreferredHeight)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x706907c;
+  constexpr static std::size_t addrs = 0x70a5fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextGenerator::*)(::StringW, ::UnityEngine::TextGenerationSettings, ::UnityEngine::GameObject*)>(
     &::UnityEngine::TextGenerator::PopulateWithErrors)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x706912c;
+  constexpr static std::size_t addrs = 0x70a6060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextGenerator::*)(::StringW, ::UnityEngine::TextGenerationSettings)>(&::UnityEngine::TextGenerator::Populate)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x7068fc4;
+  constexpr static std::size_t addrs = 0x70a5ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextGenerationError (::UnityEngine::TextGenerator::*)(::StringW, ::UnityEngine::TextGenerationSettings)>(
     &::UnityEngine::TextGenerator::PopulateWithError)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x70692f0;
+  constexpr static std::size_t addrs = 0x70a6224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextGenerationError (::UnityEngine::TextGenerator::*)(::StringW, ::UnityEngine::TextGenerationSettings)>(
     &::UnityEngine::TextGenerator::PopulateAlways)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x706937c;
+  constexpr static std::size_t addrs = 0x70a62b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IList_1<::UnityEngine::UIVertex>* (::UnityEngine::TextGenerator::*)()>(
     &::UnityEngine::TextGenerator::get_verts)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x7069630;
+  constexpr static std::size_t addrs = 0x70a6564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextGenerator*>(), { "get_verts", {}, {} })));
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IList_1<::UnityEngine::UICharInfo>* (::UnityEngine::TextGenerator::*)()>(
     &::UnityEngine::TextGenerator::get_characters)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x7069660;
+  constexpr static std::size_t addrs = 0x70a6594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextGenerator*>(), { "get_characters", {}, {} })));
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IList_1<::UnityEngine::UILineInfo>* (::UnityEngine::TextGenerator::*)()>(
     &::UnityEngine::TextGenerator::get_lines)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x7069690;
+  constexpr static std::size_t addrs = 0x70a65c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextGenerator*>(), { "get_lines", {}, {} })));
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::TextGenerator::*)()>(&::UnityEngine::TextGenerator::get_rectExtents)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x7069010;
+  constexpr static std::size_t addrs = 0x70a5f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextGenerator*>(), { "get_rectExtents", {}, {} })));
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextGenerator::*)()>(&::UnityEngine::TextGenerator::get_characterCount)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x7068a94;
+  constexpr static std::size_t addrs = 0x70a59c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextGenerator*>(), { "get_characterCount", {}, {} })));
@@ -334,7 +334,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextGenerator::*)()>(&::UnityEngine::TextGenerator::get_lineCount)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x7069740;
+  constexpr static std::size_t addrs = 0x70a6674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextGenerator*>(), { "get_lineCount", {}, {} })));
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::TextGenerator::Internal_Create)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x7068900;
+  constexpr static std::size_t addrs = 0x70a5834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextGenerator*>(), { "Internal_Create", {}, {} })));
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::TextGenerator::Internal_Destroy)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7068a44;
+  constexpr static std::size_t addrs = 0x70a5978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -373,7 +373,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Text
     ::StringW, ::UnityEngine::Font*, ::UnityEngine::Color, int32_t, float_t, float_t, ::UnityEngine::FontStyle, bool, bool, int32_t, int32_t, int32_t, int32_t, bool, ::UnityEngine::TextAnchor,
     float_t, float_t, float_t, float_t, bool, bool, ::by_ref<uint32_t>)>(&::UnityEngine::TextGenerator::Populate_Internal)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x70697cc;
+  constexpr static std::size_t addrs = 0x70a6700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextGenerator*>(), { "Populate_Internal",
@@ -411,7 +411,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Text
     ::UnityEngine::HorizontalWrapMode, bool, ::UnityEngine::TextAnchor, ::UnityEngine::Vector2, ::UnityEngine::Vector2, bool, bool, ::by_ref<::UnityEngine::TextGenerationError>)>(
     &::UnityEngine::TextGenerator::Populate_Internal)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x7069484;
+  constexpr static std::size_t addrs = 0x70a63b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextGenerator::*)(::System::Object*)>(&::UnityEngine::TextGenerator::GetVerticesInternal)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7068eb8;
+  constexpr static std::size_t addrs = 0x70a5dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextGenerator::*)(::System::Object*)>(&::UnityEngine::TextGenerator::GetCharactersInternal)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7068e00;
+  constexpr static std::size_t addrs = 0x70a5d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -471,7 +471,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextGenerator::*)(::System::Object*)>(&::UnityEngine::TextGenerator::GetLinesInternal)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7068e5c;
+  constexpr static std::size_t addrs = 0x70a5d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -484,7 +484,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Rect>)>(&::UnityEngine::TextGenerator::get_rectExtents_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x70696c0;
+  constexpr static std::size_t addrs = 0x70a65f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -498,7 +498,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::TextGenerator::get_characterCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7069704;
+  constexpr static std::size_t addrs = 0x70a6638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -511,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::TextGenerator::get_lineCount_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7069790;
+  constexpr static std::size_t addrs = 0x70a66c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -526,7 +526,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr
                                                                 int32_t, float_t, float_t, ::UnityEngine::FontStyle, bool, bool, int32_t, int32_t, int32_t, int32_t, bool, ::UnityEngine::TextAnchor,
                                                                 float_t, float_t, float_t, float_t, bool, bool, ::by_ref<uint32_t>)>(&::UnityEngine::TextGenerator::Populate_Internal_Injected)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x7069a3c;
+  constexpr static std::size_t addrs = 0x70a6970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -563,7 +563,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::Object*)>(&::UnityEngine::TextGenerator::GetVerticesInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7069b70;
+  constexpr static std::size_t addrs = 0x70a6aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -577,7 +577,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::Object*)>(&::UnityEngine::TextGenerator::GetCharactersInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7069bb4;
+  constexpr static std::size_t addrs = 0x70a6ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -591,7 +591,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::Object*)>(&::UnityEngine::TextGenerator::GetLinesInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7069bf8;
+  constexpr static std::size_t addrs = 0x70a6b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

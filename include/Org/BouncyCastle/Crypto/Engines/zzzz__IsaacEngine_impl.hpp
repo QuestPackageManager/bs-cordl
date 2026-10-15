@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::IsaacEngine::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Engines::IsaacEngine::Init)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x363e7c8;
+  constexpr static std::size_t addrs = 0x366112c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Engines::IsaacEngine::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Engines::IsaacEngine::ReturnByte)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x363ecdc;
+  constexpr static std::size_t addrs = 0x3661640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::IsaacEngine::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::IsaacEngine::ProcessBytes)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x363eebc;
+  constexpr static std::size_t addrs = 0x3661820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::IsaacEngine::*)()>(&::Org::BouncyCastle::Crypto::Engines::IsaacEngine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x363f0b4;
+  constexpr static std::size_t addrs = 0x3661a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::IsaacEngine::*)()>(&::Org::BouncyCastle::Crypto::Engines::IsaacEngine::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x363f0f8;
+  constexpr static std::size_t addrs = 0x3661a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::IsaacEngine::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::Engines::IsaacEngine::setKey)> {
   constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x363e8e4;
+  constexpr static std::size_t addrs = 0x3661248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::IsaacEngine::*)()>(&::Org::BouncyCastle::Crypto::Engines::IsaacEngine::isaac)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x363ed54;
+  constexpr static std::size_t addrs = 0x36616b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::IsaacEngine*>(), { "isaac", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::IsaacEngine::*)(::ArrayW<uint32_t>)>(&::Org::BouncyCastle::Crypto::Engines::IsaacEngine::mix)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x363f100;
+  constexpr static std::size_t addrs = 0x3661a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::IsaacEngine::*)()>(&::Org::BouncyCastle::Crypto::Engines::IsaacEngine::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x363f250;
+  constexpr static std::size_t addrs = 0x3661bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::IsaacEngine*>(), { ".ctor", {}, {} })));

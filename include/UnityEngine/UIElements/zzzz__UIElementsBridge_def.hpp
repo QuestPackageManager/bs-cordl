@@ -25,7 +25,7 @@ public:
   /// @brief Method SetWantsMouseJumping, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetWantsMouseJumping(int32_t value);
 
-  /// @brief Method .ctor, addr 0x71362cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7173200, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

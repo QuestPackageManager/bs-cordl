@@ -53,60 +53,60 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::FilterFunction>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::FilterFunction>*();
 
-  /// @brief Method AddParameter, addr 0x727cfe4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method AddParameter, addr 0x72b9f18, size 0x13c, virtual false, abstract: false, final false
   inline void AddParameter(::UnityEngine::UIElements::FilterParameter p);
 
-  /// @brief Method ClearParameters, addr 0x727d120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearParameters, addr 0x72ba054, size 0x8, virtual false, abstract: false, final false
   inline void ClearParameters();
 
-  /// @brief Method Equals, addr 0x727da54, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x72ba988, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x727da10, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x72ba944, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::FilterFunction other);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method GetDefinition, addr 0x727d30c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetDefinition, addr 0x72ba240, size 0x20, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::FilterFunctionDefinition> GetDefinition();
 
-  /// @brief Method GetHashCode, addr 0x727daf8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x72baa2c, size 0xec, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x727dbe4, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x72bab18, size 0x274, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x727d32c, size 0x57c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72ba260, size 0x57c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::FilterFunctionDefinition* customDefinition, ::UnityEngine::UIElements::Layout::FixedBuffer4_1<::UnityEngine::UIElements::FilterParameter> parameters,
                     int32_t paramCount);
 
-  /// @brief Method .ctor, addr 0x727d128, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72ba05c, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::FilterFunctionType type, ::UnityEngine::UIElements::Layout::FixedBuffer4_1<::UnityEngine::UIElements::FilterParameter> parameters, int32_t paramCount);
 
-  /// @brief Method get_customDefinition, addr 0x727cfd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customDefinition, addr 0x72b9f08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::FilterFunctionDefinition> get_customDefinition();
 
-  /// @brief Method get_parameterCount, addr 0x727cfcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parameterCount, addr 0x72b9f00, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_parameterCount();
 
-  /// @brief Method get_parameters, addr 0x727cfbc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_parameters, addr 0x72b9ef0, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::FixedBuffer4_1<::UnityEngine::UIElements::FilterParameter> get_parameters();
 
-  /// @brief Method get_type, addr 0x727cfac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x72b9ee0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FilterFunctionType get_type();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::FilterFunction>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::FilterFunction>* i___System__IEquatable_1___UnityEngine__UIElements__FilterFunction_();
 
-  /// @brief Method op_Equality, addr 0x727d8a8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x72ba7dc, size 0x11c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::FilterFunction lhs, ::UnityEngine::UIElements::FilterFunction rhs);
 
-  /// @brief Method op_Inequality, addr 0x727d9c4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x72ba8f8, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::FilterFunction lhs, ::UnityEngine::UIElements::FilterFunction rhs);
 
-  /// @brief Method set_customDefinition, addr 0x727cfdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_customDefinition, addr 0x72b9f10, size 0x8, virtual false, abstract: false, final false
   inline void set_customDefinition(::UnityEngine::UIElements::FilterFunctionDefinition* value);
 
-  /// @brief Method set_type, addr 0x727cfb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x72b9ee8, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::UIElements::FilterFunctionType value);
 
   // Ctor Parameters []

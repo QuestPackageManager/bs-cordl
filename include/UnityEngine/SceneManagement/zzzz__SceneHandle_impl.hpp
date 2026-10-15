@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::SceneManagement::SceneHandle::*)(::System::Object*)>(&::UnityEngine::SceneManagement::SceneHandle::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6f5aeac;
+  constexpr static std::size_t addrs = 0x6f97d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::SceneManagement::SceneHandle::*)(::UnityEngine::SceneManagement::SceneHandle)>(
     &::UnityEngine::SceneManagement::SceneHandle::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6f5af28;
+  constexpr static std::size_t addrs = 0x6f97e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::SceneManagement::SceneHandle, ::UnityEngine::SceneManagement::SceneHandle)>(
     &::UnityEngine::SceneManagement::SceneHandle::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6f5ad54;
+  constexpr static std::size_t addrs = 0x6f97c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::SceneManagement::SceneHandle)>(&::UnityEngine::SceneManagement::SceneHandle::op_Implicit_int32_t)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f5af38;
+  constexpr static std::size_t addrs = 0x6f97e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::SceneManagement::SceneHandle::*)()>(&::UnityEngine::SceneManagement::SceneHandle::GetHashCode)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6f5adc8;
+  constexpr static std::size_t addrs = 0x6f97ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::SceneManagement::SceneHandle::*)()>(&::UnityEngine::SceneManagement::SceneHandle::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f5af3c;
+  constexpr static std::size_t addrs = 0x6f97e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

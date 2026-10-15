@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData::*)()>(
     &::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData::get_platformLeaderboardId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b48a0;
+  constexpr static std::size_t addrs = 0x39dad70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData::*)()>(
     &::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData::get_difficultyBeatmapId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b48a8;
+  constexpr static std::size_t addrs = 0x39dad78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b481c;
+  constexpr static std::size_t addrs = 0x39dacec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILeaderboardIdData*>* (::GlobalNamespace::LeaderboardIdsSO::*)()>(
     &::GlobalNamespace::LeaderboardIdsSO::ILeaderboardIdContainer_get_leaderboardIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b46cc;
+  constexpr static std::size_t addrs = 0x39dab9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData*>* (
     ::GlobalNamespace::LeaderboardIdsSO::*)()>(&::GlobalNamespace::LeaderboardIdsSO::get_leaderboardIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b46d4;
+  constexpr static std::size_t addrs = 0x39daba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardIdsSO*>(), { "get_leaderboardIds", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardIdsSO::*)(
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData*>*)>(&::GlobalNamespace::LeaderboardIdsSO::set_leaderboardIds)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x39b46dc;
+  constexpr static std::size_t addrs = 0x39dabac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardIdsSO::*)(::StringW, ::StringW)>(&::GlobalNamespace::LeaderboardIdsSO::Add)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x39b473c;
+  constexpr static std::size_t addrs = 0x39dac0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LeaderboardIdsSO::*)()>(&::GlobalNamespace::LeaderboardIdsSO::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39b4824;
+  constexpr static std::size_t addrs = 0x39dacf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LeaderboardIdsSO*>(), { ".ctor", {}, {} })));

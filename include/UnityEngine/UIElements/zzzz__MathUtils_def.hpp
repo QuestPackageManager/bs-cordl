@@ -25,10 +25,10 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE MathUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PostApply2DOffset, addr 0x71577e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method PostApply2DOffset, addr 0x7194714, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 PostApply2DOffset(::by_ref<::UnityEngine::Matrix4x4> m, ::UnityEngine::Vector2 p);
 
-  /// @brief Method PreApply2DOffset, addr 0x71577bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method PreApply2DOffset, addr 0x71946f0, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 PreApply2DOffset(::by_ref<::UnityEngine::Matrix4x4> m, ::UnityEngine::Vector2 p);
 
 protected:

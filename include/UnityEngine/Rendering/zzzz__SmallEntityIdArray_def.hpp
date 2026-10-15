@@ -40,28 +40,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6c5afe8, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c97c64, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x6c5cb40, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c997bc, size 0x1a0, virtual false, abstract: false, final false
   inline void _ctor(int32_t length, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method get_Item, addr 0x6c5cce0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6c9995c, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::EntityId get_Item(int32_t index);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_Valid, addr 0x6c5cb30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x6c997ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_Valid();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method set_Item, addr 0x6c5cdd4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6c99a50, size 0xf8, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, ::UnityEngine::EntityId value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Valid, addr 0x6c5cb38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Valid, addr 0x6c997b4, size 0x8, virtual false, abstract: false, final false
   inline void set_Valid(bool value);
 
   // Ctor Parameters []
@@ -76,7 +76,7 @@ public:
                                bool m_IsEmbedded, bool _Valid_k__BackingField, int32_t Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18224 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18257 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

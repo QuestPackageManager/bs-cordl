@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteractionState::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteractionState::get_format)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e4d4c8;
+  constexpr static std::size_t addrs = 0x6e8a164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::get_click)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e4d4d4;
+  constexpr static std::size_t addrs = 0x6e8a170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::set_click)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e4d4dc;
+  constexpr static std::size_t addrs = 0x6e8a178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::get_secondaryClick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e4d4e4;
+  constexpr static std::size_t addrs = 0x6e8a180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::set_secondaryClick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e4d4ec;
+  constexpr static std::size_t addrs = 0x6e8a188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::get_tertiaryClick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e4d4f4;
+  constexpr static std::size_t addrs = 0x6e8a190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::set_tertiaryClick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e4d4fc;
+  constexpr static std::size_t addrs = 0x6e8a198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::get_scroll)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e4d504;
+  constexpr static std::size_t addrs = 0x6e8a1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::*)(
     ::UnityEngine::InputSystem::Controls::Vector2Control*)>(&::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::set_scroll)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e4d50c;
+  constexpr static std::size_t addrs = 0x6e8a1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::FinishSetup)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6e4d514;
+  constexpr static std::size_t addrs = 0x6e8a1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile_AndroidMouseInteraction::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e4d620;
+  constexpr static std::size_t addrs = 0x6e8a2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile::OnInstanceCreate)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e4c8bc;
+  constexpr static std::size_t addrs = 0x6e89558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile::RegisterDeviceLayout)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6e4c928;
+  constexpr static std::size_t addrs = 0x6e895c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile::UnregisterDeviceLayout)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e4ca70;
+  constexpr static std::size_t addrs = 0x6e8970c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile::GetDeviceLayoutName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e4cae0;
+  constexpr static std::size_t addrs = 0x6e8977c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -397,7 +397,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::XR::OpenXR::Features::OpenXRInteractionFeature_InteractionProfileType (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile::*)()>(
         &::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile::GetInteractionProfileType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e4cb24;
+  constexpr static std::size_t addrs = 0x6e897c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile::RegisterActionMapsWithRuntime)> {
   constexpr static std::size_t size = 0x940;
-  constexpr static std::size_t addrs = 0x6e4cb2c;
+  constexpr static std::size_t addrs = 0x6e897c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -427,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile::*)()>(
     &::UnityEngine::XR::OpenXR::Features::Interactions::AndroidMouseInteractionProfile::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e4d46c;
+  constexpr static std::size_t addrs = 0x6e8a108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

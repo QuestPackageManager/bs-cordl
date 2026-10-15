@@ -32,23 +32,23 @@ class CORDL_TYPE TransformExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method CalculateTransformDepth, addr 0x35b02cc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CalculateTransformDepth, addr 0x35d2c30, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t CalculateTransformDepth(::UnityEngine::Transform* transform);
 
   /// [Extension]
-  /// @brief Method ExtractGlobalPose, addr 0x35b03bc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ExtractGlobalPose, addr 0x35d2d20, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose ExtractGlobalPose(::UnityEngine::Transform* transform);
 
   /// [Extension]
-  /// @brief Method ExtractLocalPose, addr 0x35b0358, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ExtractLocalPose, addr 0x35d2cbc, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose ExtractLocalPose(::UnityEngine::Transform* transform);
 
   /// [Extension]
-  /// @brief Method FindChildRecursively, addr 0x35b01cc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method FindChildRecursively, addr 0x35d2b30, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> FindChildRecursively(::UnityEngine::Transform* parent, ::StringW name);
 
   /// [Extension]
-  /// @brief Method InverseTransformRotation, addr 0x35b0104, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformRotation, addr 0x35d2a68, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion InverseTransformRotation(::UnityEngine::Transform* trans, ::UnityEngine::Quaternion worldRotation);
 
 protected:
@@ -66,7 +66,7 @@ public:
   TransformExtensions(TransformExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21464 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,7 +31,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE DataSourceContextChanged {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x7089dac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70c6ce0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId,
                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataSourceContext const> previousContext,
                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::DataSourceContext const> newContext);

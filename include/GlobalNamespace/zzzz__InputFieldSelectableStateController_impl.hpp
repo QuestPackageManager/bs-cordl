@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InputFieldSelectableStateController::*)()>(&::GlobalNamespace::InputFieldSelectableStateController::OnEnable)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x686de90;
+  constexpr static std::size_t addrs = 0x68aab0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InputFieldSelectableStateController*>(), { "OnEnable", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InputFieldSelectableStateController::*)()>(&::GlobalNamespace::InputFieldSelectableStateController::OnDisable)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x686dfbc;
+  constexpr static std::size_t addrs = 0x68aac38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InputFieldSelectableStateController*>(), { "OnDisable", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InputFieldSelectableStateController::*)(::HMUI::InputFieldView_SelectionState)>(
     &::GlobalNamespace::InputFieldSelectableStateController::HandleInputFieldSelectionStateDidChange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686e04c;
+  constexpr static std::size_t addrs = 0x68aacc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InputFieldSelectableStateController::*)(::HMUI::InputFieldView_SelectionState, bool)>(
     &::GlobalNamespace::InputFieldSelectableStateController::ResolveSelectionState)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x686df38;
+  constexpr static std::size_t addrs = 0x68aabb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::InputFieldSelectableStateController::*)()>(&::GlobalNamespace::InputFieldSelectableStateController::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x686e054;
+  constexpr static std::size_t addrs = 0x68aacd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::InputFieldSelectableStateController*>(), { ".ctor", {}, {} })));

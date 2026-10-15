@@ -20,7 +20,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE StringUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method StartsWith, addr 0x7279550, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x72b6484, size 0xb8, virtual false, abstract: false, final false
   static inline bool StartsWith(::StringW originalString, ::StringW pattern);
 
 protected:

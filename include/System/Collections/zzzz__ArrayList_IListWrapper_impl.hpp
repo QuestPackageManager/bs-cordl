@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_IListWrapper::*)(::System::Collections::IList*)>(&::GlobalNamespace::ArrayList_IListWrapper::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6004178;
+  constexpr static std::size_t addrs = 0x6040a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_IListWrapper::*)(int32_t)>(&::GlobalNamespace::ArrayList_IListWrapper::set_Capacity)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6005270;
+  constexpr static std::size_t addrs = 0x6041b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ArrayList_IListWrapper::*)()>(&::GlobalNamespace::ArrayList_IListWrapper::get_Count)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6005300;
+  constexpr static std::size_t addrs = 0x6041be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ArrayList_IListWrapper::*)()>(&::GlobalNamespace::ArrayList_IListWrapper::get_IsReadOnly)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x60053a8;
+  constexpr static std::size_t addrs = 0x6041c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ArrayList_IListWrapper::*)()>(&::GlobalNamespace::ArrayList_IListWrapper::get_IsFixedSize)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6005450;
+  constexpr static std::size_t addrs = 0x6041d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ArrayList_IListWrapper::*)()>(&::GlobalNamespace::ArrayList_IListWrapper::get_IsSynchronized)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x60054f8;
+  constexpr static std::size_t addrs = 0x6041de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ArrayList_IListWrapper::*)(int32_t)>(&::GlobalNamespace::ArrayList_IListWrapper::get_Item)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x60055a0;
+  constexpr static std::size_t addrs = 0x6041e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_IListWrapper::*)(int32_t, ::System::Object*)>(&::GlobalNamespace::ArrayList_IListWrapper::set_Item)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6005654;
+  constexpr static std::size_t addrs = 0x6041f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ArrayList_IListWrapper::*)()>(&::GlobalNamespace::ArrayList_IListWrapper::get_SyncRoot)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6005724;
+  constexpr static std::size_t addrs = 0x604200c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ArrayList_IListWrapper::*)(::System::Object*)>(&::GlobalNamespace::ArrayList_IListWrapper::Add)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x60057cc;
+  constexpr static std::size_t addrs = 0x60420b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_IListWrapper::*)(::System::Collections::ICollection*)>(
     &::GlobalNamespace::ArrayList_IListWrapper::AddRange)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6005894;
+  constexpr static std::size_t addrs = 0x604217c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_IListWrapper::*)()>(&::GlobalNamespace::ArrayList_IListWrapper::Clear)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x60058dc;
+  constexpr static std::size_t addrs = 0x60421c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ArrayList_IListWrapper::*)()>(&::GlobalNamespace::ArrayList_IListWrapper::Clone)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6005a44;
+  constexpr static std::size_t addrs = 0x604232c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ArrayList_IListWrapper::*)(::System::Object*)>(&::GlobalNamespace::ArrayList_IListWrapper::Contains)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6005aa8;
+  constexpr static std::size_t addrs = 0x6042390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_IListWrapper::*)(::System::Array*, int32_t)>(&::GlobalNamespace::ArrayList_IListWrapper::CopyTo)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6005b60;
+  constexpr static std::size_t addrs = 0x6042448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_IListWrapper::*)(int32_t, ::System::Array*, int32_t, int32_t)>(
     &::GlobalNamespace::ArrayList_IListWrapper::CopyTo)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x6005c1c;
+  constexpr static std::size_t addrs = 0x6042504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::ArrayList_IListWrapper::*)()>(
     &::GlobalNamespace::ArrayList_IListWrapper::GetEnumerator)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6005f54;
+  constexpr static std::size_t addrs = 0x604283c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ArrayList_IListWrapper::*)(::System::Object*)>(&::GlobalNamespace::ArrayList_IListWrapper::IndexOf)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6005ff8;
+  constexpr static std::size_t addrs = 0x60428e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_IListWrapper::*)(int32_t, ::System::Object*)>(&::GlobalNamespace::ArrayList_IListWrapper::Insert)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x60060b0;
+  constexpr static std::size_t addrs = 0x6042998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_IListWrapper::*)(int32_t, ::System::Collections::ICollection*)>(
     &::GlobalNamespace::ArrayList_IListWrapper::InsertRange)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x6006180;
+  constexpr static std::size_t addrs = 0x6042a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_IListWrapper::*)(::System::Object*)>(&::GlobalNamespace::ArrayList_IListWrapper::Remove)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x600655c;
+  constexpr static std::size_t addrs = 0x6042e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_IListWrapper::*)(int32_t)>(&::GlobalNamespace::ArrayList_IListWrapper::RemoveAt)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x600659c;
+  constexpr static std::size_t addrs = 0x6042e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_IListWrapper::*)(int32_t, int32_t)>(&::GlobalNamespace::ArrayList_IListWrapper::RemoveRange)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x6006664;
+  constexpr static std::size_t addrs = 0x6042f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_IListWrapper::*)(int32_t, int32_t)>(&::GlobalNamespace::ArrayList_IListWrapper::Reverse)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x6006884;
+  constexpr static std::size_t addrs = 0x604316c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArrayList_IListWrapper::*)(int32_t, int32_t, ::System::Collections::IComparer*)>(
     &::GlobalNamespace::ArrayList_IListWrapper::Sort)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x6006bf4;
+  constexpr static std::size_t addrs = 0x60434dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Object*> (::GlobalNamespace::ArrayList_IListWrapper::*)()>(&::GlobalNamespace::ArrayList_IListWrapper::ToArray)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x6006eb8;
+  constexpr static std::size_t addrs = 0x60437a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -357,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Array* (::GlobalNamespace::ArrayList_IListWrapper::*)(::System::Type*)>(&::GlobalNamespace::ArrayList_IListWrapper::ToArray)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6007038;
+  constexpr static std::size_t addrs = 0x6043920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -54,26 +54,26 @@ public:
 
   __declspec(property(put = set_rayTracingMode)) ::UnityEngine::Experimental::Rendering::RayTracingMode rayTracingMode;
 
-  /// @brief Method .ctor, addr 0x6f66c58, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa3b34, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6f66d3c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa3c18, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* mesh, uint32_t subMeshIndex, ::UnityEngine::Material* material);
 
   /// [CompilerGenerated]
-  /// @brief Method set_accelerationStructureBuildFlags, addr 0x6f66e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_accelerationStructureBuildFlags, addr 0x6fa3d20, size 0x8, virtual false, abstract: false, final false
   inline void set_accelerationStructureBuildFlags(::UnityEngine::Rendering::RayTracingAccelerationStructureBuildFlags value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_accelerationStructureBuildFlagsOverride, addr 0x6f66e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_accelerationStructureBuildFlagsOverride, addr 0x6fa3d28, size 0x8, virtual false, abstract: false, final false
   inline void set_accelerationStructureBuildFlagsOverride(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_dynamicGeometry, addr 0x6f66e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dynamicGeometry, addr 0x6fa3d18, size 0x8, virtual false, abstract: false, final false
   inline void set_dynamicGeometry(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_rayTracingMode, addr 0x6f66e34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rayTracingMode, addr 0x6fa3d10, size 0x8, virtual false, abstract: false, final false
   inline void set_rayTracingMode(::UnityEngine::Experimental::Rendering::RayTracingMode value);
 
   // Ctor Parameters []
@@ -102,7 +102,7 @@ public:
                                          bool _accelerationStructureBuildFlagsOverride_k__BackingField, int32_t meshLod) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10371 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10378 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };

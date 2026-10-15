@@ -52,57 +52,57 @@ public:
 
   __declspec(property(get = get_SongClientId, put = set_SongClientId)) ::StringW SongClientId;
 
-  /// @brief Method GetPersistedQueryID, addr 0x3526fac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetPersistedQueryID, addr 0x3547eac, size 0x14, virtual true, abstract: false, final false
   inline uint64_t GetPersistedQueryID();
 
-  /// @brief Method GetVariableNames, addr 0x35262e8, size 0x36c, virtual true, abstract: false, final false
+  /// @brief Method GetVariableNames, addr 0x35471e8, size 0x36c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetVariableNames();
 
   static inline ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardTopN* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3526fc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3547ec0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Characteristic, addr 0x3526920, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_Characteristic, addr 0x3547820, size 0xb0, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapCharacteristic get_Characteristic();
 
-  /// @brief Method get_Difficulty, addr 0x3526a7c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_Difficulty, addr 0x354797c, size 0xb0, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapDifficulty get_Difficulty();
 
-  /// @brief Method get_EnvironmentPlayerRootId, addr 0x35266d4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_EnvironmentPlayerRootId, addr 0x35475d4, size 0x90, virtual false, abstract: false, final false
   inline ::StringW get_EnvironmentPlayerRootId();
 
-  /// @brief Method get_First, addr 0x3526e48, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method get_First, addr 0x3547d48, size 0x164, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_First();
 
-  /// @brief Method get_ModifierMask, addr 0x3526bc4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_ModifierMask, addr 0x3547ac4, size 0x9c, virtual false, abstract: false, final false
   inline int64_t get_ModifierMask();
 
-  /// @brief Method get_Order, addr 0x3526ce0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x3547be0, size 0xb0, virtual false, abstract: false, final false
   inline ::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryOrder* get_Order();
 
-  /// @brief Method get_SongClientId, addr 0x35267e4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_SongClientId, addr 0x35476e4, size 0x90, virtual false, abstract: false, final false
   inline ::StringW get_SongClientId();
 
-  /// @brief Method set_Characteristic, addr 0x3526874, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_Characteristic, addr 0x3547774, size 0xac, virtual false, abstract: false, final false
   inline void set_Characteristic(::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapCharacteristic value);
 
-  /// @brief Method set_Difficulty, addr 0x35269d0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_Difficulty, addr 0x35478d0, size 0xac, virtual false, abstract: false, final false
   inline void set_Difficulty(::BeatSaber::Main::GraphQL::Enums::XOCBeatGamesBeatmapDifficulty value);
 
-  /// @brief Method set_EnvironmentPlayerRootId, addr 0x3526654, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_EnvironmentPlayerRootId, addr 0x3547554, size 0x80, virtual false, abstract: false, final false
   inline void set_EnvironmentPlayerRootId(::StringW value);
 
-  /// @brief Method set_First, addr 0x3526d90, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_First, addr 0x3547c90, size 0xb8, virtual false, abstract: false, final false
   inline void set_First(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method set_ModifierMask, addr 0x3526b2c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_ModifierMask, addr 0x3547a2c, size 0x98, virtual false, abstract: false, final false
   inline void set_ModifierMask(int64_t value);
 
-  /// @brief Method set_Order, addr 0x3526c60, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Order, addr 0x3547b60, size 0x80, virtual false, abstract: false, final false
   inline void set_Order(::BeatSaber::Main::GraphQL::InputTypes::IXOCBeatGamesBeatmapLeaderboardEntryOrder* value);
 
-  /// @brief Method set_SongClientId, addr 0x3526764, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_SongClientId, addr 0x3547664, size 0x80, virtual false, abstract: false, final false
   inline void set_SongClientId(::StringW value);
 
 protected:
@@ -120,7 +120,7 @@ public:
   BSLeaderboardTopN(BSLeaderboardTopN const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21296 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21343 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

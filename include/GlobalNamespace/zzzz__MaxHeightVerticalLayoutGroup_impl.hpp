@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MaxHeightVerticalLayoutGroup::*)()>(&::GlobalNamespace::MaxHeightVerticalLayoutGroup::get_maxHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35af48c;
+  constexpr static std::size_t addrs = 0x35d1d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaxHeightVerticalLayoutGroup*>(), { "get_maxHeight", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaxHeightVerticalLayoutGroup::*)(float_t)>(&::GlobalNamespace::MaxHeightVerticalLayoutGroup::set_maxHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35af494;
+  constexpr static std::size_t addrs = 0x35d1d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaxHeightVerticalLayoutGroup::*)()>(&::GlobalNamespace::MaxHeightVerticalLayoutGroup::CalculateLayoutInputHorizontal)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x35af49c;
+  constexpr static std::size_t addrs = 0x35d1d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaxHeightVerticalLayoutGroup::*)()>(&::GlobalNamespace::MaxHeightVerticalLayoutGroup::CalculateLayoutInputVertical)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x35af4c4;
+  constexpr static std::size_t addrs = 0x35d1da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaxHeightVerticalLayoutGroup::*)()>(&::GlobalNamespace::MaxHeightVerticalLayoutGroup::SetLayoutHorizontal)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35af4d4;
+  constexpr static std::size_t addrs = 0x35d1db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaxHeightVerticalLayoutGroup::*)()>(&::GlobalNamespace::MaxHeightVerticalLayoutGroup::SetLayoutVertical)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35af564;
+  constexpr static std::size_t addrs = 0x35d1e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaxHeightVerticalLayoutGroup::*)()>(&::GlobalNamespace::MaxHeightVerticalLayoutGroup::SetMaxWidthAndHeight)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35af4f8;
+  constexpr static std::size_t addrs = 0x35d1dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaxHeightVerticalLayoutGroup*>(), { "SetMaxWidthAndHeight", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MaxHeightVerticalLayoutGroup::*)()>(&::GlobalNamespace::MaxHeightVerticalLayoutGroup::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x35af588;
+  constexpr static std::size_t addrs = 0x35d1e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MaxHeightVerticalLayoutGroup*>(), { ".ctor", {}, {} })));

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Destinations::InitializationInstaller::*)()>(&::BeatSaber::Destinations::InitializationInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35083e0;
+  constexpr static std::size_t addrs = 0x3528d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Destinations::InitializationInstaller::*)()>(&::BeatSaber::Destinations::InitializationInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35084a0;
+  constexpr static std::size_t addrs = 0x3528e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Destinations::InitializationInstaller*>(), { ".ctor", {}, {} })));

@@ -80,7 +80,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Vector3IntField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x71b0f04, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ede38, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -123,7 +123,7 @@ public:
   /// @brief Field m_ZValue, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ZValue, put = __cordl_internal_set_m_ZValue)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_ZValue;
 
-  /// @brief Method Init, addr 0x71b0f6c, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x71edea0, size 0x1a8, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::Vector3IntField_UxmlTraits* New_ctor();
@@ -146,7 +146,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ZValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x71b1114, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ee048, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -227,25 +227,25 @@ public:
 
   static inline ::UnityEngine::UIElements::Vector3IntField___c* New_ctor();
 
-  /// @brief Method <DescribeFields>b__0_0, addr 0x71b1288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_0, addr 0x71ee1bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t _DescribeFields_b__0_0(::UnityEngine::Vector3Int r);
 
-  /// @brief Method <DescribeFields>b__0_1, addr 0x71b1290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_1, addr 0x71ee1c4, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_1(::by_ref<::UnityEngine::Vector3Int> r, int32_t v);
 
-  /// @brief Method <DescribeFields>b__0_2, addr 0x71b1298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_2, addr 0x71ee1cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t _DescribeFields_b__0_2(::UnityEngine::Vector3Int r);
 
-  /// @brief Method <DescribeFields>b__0_3, addr 0x71b12a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_3, addr 0x71ee1d4, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_3(::by_ref<::UnityEngine::Vector3Int> r, int32_t v);
 
-  /// @brief Method <DescribeFields>b__0_4, addr 0x71b12a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_4, addr 0x71ee1dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t _DescribeFields_b__0_4(::UnityEngine::Vector3Int r);
 
-  /// @brief Method <DescribeFields>b__0_5, addr 0x71b12b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_5, addr 0x71ee1e4, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_5(::by_ref<::UnityEngine::Vector3Int> r, int32_t v);
 
-  /// @brief Method .ctor, addr 0x71b1284, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ee1b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Vector3IntField___c* getStaticF___9();
@@ -325,17 +325,17 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method DescribeFields, addr 0x71b0990, size 0x490, virtual true, abstract: false, final false
+  /// @brief Method DescribeFields, addr 0x71ed8c4, size 0x490, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<::UnityEngine::Vector3Int, ::UnityEngine::UIElements::IntegerField*, int32_t>> DescribeFields();
 
   static inline ::UnityEngine::UIElements::Vector3IntField* New_ctor();
 
   static inline ::UnityEngine::UIElements::Vector3IntField* New_ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x71b0e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71edd54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x71aa500, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71e7434, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_inputUssClassName();

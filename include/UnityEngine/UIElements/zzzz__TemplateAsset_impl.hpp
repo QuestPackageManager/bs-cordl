@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TemplateAsset_AttributeOverride::*)(::System::Collections::Generic::IList_1<::StringW>*)>(
     &::UnityEngine::UIElements::TemplateAsset_AttributeOverride::NamesPathMatchesElementNamesPath)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x7143e6c;
+  constexpr static std::size_t addrs = 0x7180da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::TemplateAsset::*)()>(&::UnityEngine::UIElements::TemplateAsset::get_templateAlias)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7143dec;
+  constexpr static std::size_t addrs = 0x7180d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TemplateAsset*>(), { "get_templateAlias", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* (
     ::UnityEngine::UIElements::TemplateAsset::*)()>(&::UnityEngine::UIElements::TemplateAsset::get_attributeOverrides)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7143df4;
+  constexpr static std::size_t addrs = 0x7180d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TemplateAsset*>(), { "get_attributeOverrides", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_SlotUsageEntry>* (
     ::UnityEngine::UIElements::TemplateAsset::*)()>(&::UnityEngine::UIElements::TemplateAsset::get_slotUsages)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7143dfc;
+  constexpr static std::size_t addrs = 0x7180d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TemplateAsset*>(), { "get_slotUsages", {}, {} })));

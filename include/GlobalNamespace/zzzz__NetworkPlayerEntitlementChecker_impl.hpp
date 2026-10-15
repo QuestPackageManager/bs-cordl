@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerEntitlementChecker__GetEntitlementStatus_d__10::*)()>(
     &::GlobalNamespace::NetworkPlayerEntitlementChecker__GetEntitlementStatus_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x60ebed8;
+  constexpr static std::size_t addrs = 0x6128920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerEntitlementChecker__GetEntitlementStatus_d__10::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::NetworkPlayerEntitlementChecker__GetEntitlementStatus_d__10::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x60ec1c4;
+  constexpr static std::size_t addrs = 0x6128c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerEntitlementChecker__GetEntitlementStatus_d__10>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerEntitlementChecker__HandleGetIsEntitledToLevel_d__8::*)()>(
     &::GlobalNamespace::NetworkPlayerEntitlementChecker__HandleGetIsEntitledToLevel_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x60ec244;
+  constexpr static std::size_t addrs = 0x6128c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerEntitlementChecker__HandleGetIsEntitledToLevel_d__8::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::NetworkPlayerEntitlementChecker__HandleGetIsEntitledToLevel_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60ec4cc;
+  constexpr static std::size_t addrs = 0x6128f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerEntitlementChecker__HandleGetIsEntitledToLevel_d__8>(),
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerEntitlementChecker::*)()>(&::GlobalNamespace::NetworkPlayerEntitlementChecker::Start)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x60eb830;
+  constexpr static std::size_t addrs = 0x6128270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerEntitlementChecker*>(), { "Start", {}, {} })));
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerEntitlementChecker::*)()>(&::GlobalNamespace::NetworkPlayerEntitlementChecker::OnDestroy)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x60eb9f0;
+  constexpr static std::size_t addrs = 0x6128430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerEntitlementChecker*>(), { "OnDestroy", {}, {} })));
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerEntitlementChecker::*)()>(&::GlobalNamespace::NetworkPlayerEntitlementChecker::HandleDataInvalidated)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x60ebbf4;
+  constexpr static std::size_t addrs = 0x6128634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerEntitlementChecker::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::NetworkPlayerEntitlementChecker::HandleGetIsEntitledToLevel)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x60ebc9c;
+  constexpr static std::size_t addrs = 0x61286dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerEntitlementChecker*>(),
@@ -199,8 +199,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NetworkPlayerEntitlementChecker::*)(::StringW)>(
     &::GlobalNamespace::NetworkPlayerEntitlementChecker::IsSensitivityValid)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x60ebd48;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6128788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* (::GlobalNamespace::NetworkPlayerEntitlementChecker::*)(::StringW)>(
     &::GlobalNamespace::NetworkPlayerEntitlementChecker::GetEntitlementStatus)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x60ebde4;
+  constexpr static std::size_t addrs = 0x612882c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NetworkPlayerEntitlementChecker::*)()>(&::GlobalNamespace::NetworkPlayerEntitlementChecker::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60ebed4;
+  constexpr static std::size_t addrs = 0x612891c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NetworkPlayerEntitlementChecker*>(), { ".ctor", {}, {} })));

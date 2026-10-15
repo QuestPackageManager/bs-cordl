@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::AssemblyVersion, ::UnityEngine::AssemblyVersion)>(&::UnityEngine::AssemblyVersion::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6f37028;
+  constexpr static std::size_t addrs = 0x6f73e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AssemblyVersion::*)()>(&::UnityEngine::AssemblyVersion::ToString)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x6f37034;
+  constexpr static std::size_t addrs = 0x6f73e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AssemblyVersion>(), { ::i2c::class_of<::UnityEngine::AssemblyVersion>(), 3 }));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AssemblyVersion::*)(::System::Object*)>(&::UnityEngine::AssemblyVersion::Equals)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6f371d4;
+  constexpr static std::size_t addrs = 0x6f74034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AssemblyVersion>(), { ::i2c::class_of<::UnityEngine::AssemblyVersion>(), 0 }));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::AssemblyVersion::*)()>(&::UnityEngine::AssemblyVersion::GetHashCode)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6f37280;
+  constexpr static std::size_t addrs = 0x6f740e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AssemblyVersion>(), { ::i2c::class_of<::UnityEngine::AssemblyVersion>(), 2 }));

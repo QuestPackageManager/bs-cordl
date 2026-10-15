@@ -88,40 +88,40 @@ public:
   /// @brief Field TMP_SETTINGS_PROPERTY_EVENT, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_TMP_SETTINGS_PROPERTY_EVENT, put = setStaticF_TMP_SETTINGS_PROPERTY_EVENT)) ::TMPro::FastAction* TMP_SETTINGS_PROPERTY_EVENT;
 
-  /// @brief Method ON_COLOR_GRADIENT_PROPERTY_CHANGED, addr 0x6dc1f90, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ON_COLOR_GRADIENT_PROPERTY_CHANGED, addr 0x6dfec2c, size 0x88, virtual false, abstract: false, final false
   static inline void ON_COLOR_GRADIENT_PROPERTY_CHANGED(::UnityEngine::Object* obj);
 
-  /// @brief Method ON_COMPUTE_DT_EVENT, addr 0x6dc2208, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ON_COMPUTE_DT_EVENT, addr 0x6dfeea4, size 0x98, virtual false, abstract: false, final false
   static inline void ON_COMPUTE_DT_EVENT(::System::Object* Sender, ::TMPro::Compute_DT_EventArgs* e);
 
-  /// @brief Method ON_DRAG_AND_DROP_MATERIAL_CHANGED, addr 0x6dc1e68, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ON_DRAG_AND_DROP_MATERIAL_CHANGED, addr 0x6dfeb04, size 0xa0, virtual false, abstract: false, final false
   static inline void ON_DRAG_AND_DROP_MATERIAL_CHANGED(::UnityEngine::GameObject* sender, ::UnityEngine::Material* currentMaterial, ::UnityEngine::Material* newMaterial);
 
-  /// @brief Method ON_FONT_PROPERTY_CHANGED, addr 0x6dc1ca0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ON_FONT_PROPERTY_CHANGED, addr 0x6dfe93c, size 0x98, virtual false, abstract: false, final false
   static inline void ON_FONT_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Object* obj);
 
-  /// @brief Method ON_MATERIAL_PROPERTY_CHANGED, addr 0x6dc1c08, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ON_MATERIAL_PROPERTY_CHANGED, addr 0x6dfe8a4, size 0x98, virtual false, abstract: false, final false
   static inline void ON_MATERIAL_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Material* mat);
 
-  /// @brief Method ON_RESOURCES_LOADED, addr 0x6dc2108, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ON_RESOURCES_LOADED, addr 0x6dfeda4, size 0x68, virtual false, abstract: false, final false
   static inline void ON_RESOURCES_LOADED();
 
-  /// @brief Method ON_SPRITE_ASSET_PROPERTY_CHANGED, addr 0x6dc1d38, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ON_SPRITE_ASSET_PROPERTY_CHANGED, addr 0x6dfe9d4, size 0x98, virtual false, abstract: false, final false
   static inline void ON_SPRITE_ASSET_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Object* obj);
 
-  /// @brief Method ON_TEXTMESHPRO_PROPERTY_CHANGED, addr 0x6dc1dd0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ON_TEXTMESHPRO_PROPERTY_CHANGED, addr 0x6dfea6c, size 0x98, virtual false, abstract: false, final false
   static inline void ON_TEXTMESHPRO_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Object* obj);
 
-  /// @brief Method ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED, addr 0x6dc2170, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED, addr 0x6dfee0c, size 0x98, virtual false, abstract: false, final false
   static inline void ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Object* obj);
 
-  /// @brief Method ON_TEXT_CHANGED, addr 0x6dc2018, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ON_TEXT_CHANGED, addr 0x6dfecb4, size 0x88, virtual false, abstract: false, final false
   static inline void ON_TEXT_CHANGED(::UnityEngine::Object* obj);
 
-  /// @brief Method ON_TEXT_STYLE_PROPERTY_CHANGED, addr 0x6dc1f08, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ON_TEXT_STYLE_PROPERTY_CHANGED, addr 0x6dfeba4, size 0x88, virtual false, abstract: false, final false
   static inline void ON_TEXT_STYLE_PROPERTY_CHANGED(bool isChanged);
 
-  /// @brief Method ON_TMP_SETTINGS_CHANGED, addr 0x6dc20a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ON_TMP_SETTINGS_CHANGED, addr 0x6dfed3c, size 0x68, virtual false, abstract: false, final false
   static inline void ON_TMP_SETTINGS_CHANGED();
 
   static inline ::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>* getStaticF_COLOR_GRADIENT_PROPERTY_EVENT();
@@ -187,7 +187,7 @@ public:
   TMPro_EventManager(TMPro_EventManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16278 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

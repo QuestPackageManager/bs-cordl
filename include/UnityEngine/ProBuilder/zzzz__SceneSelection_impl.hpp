@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<int32_t>* (::UnityEngine::ProBuilder::SceneSelection::*)()>(
     &::UnityEngine::ProBuilder::SceneSelection::get_vertexes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6afb940;
+  constexpr static std::size_t addrs = 0x6b385bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SceneSelection*>(), { "get_vertexes", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SceneSelection::*)(::System::Collections::Generic::List_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::SceneSelection::set_vertexes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6afb948;
+  constexpr static std::size_t addrs = 0x6b385c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SceneSelection*>(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* (::UnityEngine::ProBuilder::SceneSelection::*)()>(
     &::UnityEngine::ProBuilder::SceneSelection::get_edges)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6afb950;
+  constexpr static std::size_t addrs = 0x6b385cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SceneSelection*>(), { "get_edges", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SceneSelection::*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*)>(
     &::UnityEngine::ProBuilder::SceneSelection::set_edges)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6afb958;
+  constexpr static std::size_t addrs = 0x6b385d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* (::UnityEngine::ProBuilder::SceneSelection::*)()>(
     &::UnityEngine::ProBuilder::SceneSelection::get_faces)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6afb960;
+  constexpr static std::size_t addrs = 0x6b385dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SceneSelection*>(), { "get_faces", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SceneSelection::*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*)>(
     &::UnityEngine::ProBuilder::SceneSelection::set_faces)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6afb968;
+  constexpr static std::size_t addrs = 0x6b385e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SceneSelection::*)(::UnityEngine::GameObject*)>(&::UnityEngine::ProBuilder::SceneSelection::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6afb970;
+  constexpr static std::size_t addrs = 0x6b385ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SceneSelection::*)(::UnityEngine::ProBuilder::ProBuilderMesh*, int32_t)>(
     &::UnityEngine::ProBuilder::SceneSelection::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6afba84;
+  constexpr static std::size_t addrs = 0x6b38700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SceneSelection::*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::SceneSelection::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6afbcb4;
+  constexpr static std::size_t addrs = 0x6b38930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SceneSelection::*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Face*)>(
     &::UnityEngine::ProBuilder::SceneSelection::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6afbee4;
+  constexpr static std::size_t addrs = 0x6b38b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SceneSelection::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::List_1<int32_t>*)>(&::UnityEngine::ProBuilder::SceneSelection::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6afbb84;
+  constexpr static std::size_t addrs = 0x6b38800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SceneSelection::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*)>(&::UnityEngine::ProBuilder::SceneSelection::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6afbdb4;
+  constexpr static std::size_t addrs = 0x6b38a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SceneSelection::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*)>(&::UnityEngine::ProBuilder::SceneSelection::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6afbfe4;
+  constexpr static std::size_t addrs = 0x6b38c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SceneSelection::*)(::UnityEngine::ProBuilder::Face*)>(
     &::UnityEngine::ProBuilder::SceneSelection::SetSingleFace)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6afc114;
+  constexpr static std::size_t addrs = 0x6b38d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SceneSelection::*)(int32_t)>(&::UnityEngine::ProBuilder::SceneSelection::SetSingleVertex)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6afc20c;
+  constexpr static std::size_t addrs = 0x6b38e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SceneSelection::*)(::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::SceneSelection::SetSingleEdge)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6afc2c8;
+  constexpr static std::size_t addrs = 0x6b38f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SceneSelection::*)()>(&::UnityEngine::ProBuilder::SceneSelection::Clear)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6afc384;
+  constexpr static std::size_t addrs = 0x6b39000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::SceneSelection*>(), { "Clear", {}, {} })));
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::SceneSelection::*)(::UnityEngine::ProBuilder::SceneSelection*)>(
     &::UnityEngine::ProBuilder::SceneSelection::CopyTo)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6afc448;
+  constexpr static std::size_t addrs = 0x6b390c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::SceneSelection::*)()>(&::UnityEngine::ProBuilder::SceneSelection::ToString)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x6afc5d0;
+  constexpr static std::size_t addrs = 0x6b3924c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::SceneSelection::*)(::UnityEngine::ProBuilder::SceneSelection*)>(
     &::UnityEngine::ProBuilder::SceneSelection::Equals)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6afc858;
+  constexpr static std::size_t addrs = 0x6b394d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -300,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::SceneSelection::*)(::System::Object*)>(&::UnityEngine::ProBuilder::SceneSelection::Equals)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6afc994;
+  constexpr static std::size_t addrs = 0x6b39610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::SceneSelection::*)()>(&::UnityEngine::ProBuilder::SceneSelection::GetHashCode)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6afca88;
+  constexpr static std::size_t addrs = 0x6b39704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::SceneSelection*, ::UnityEngine::ProBuilder::SceneSelection*)>(
     &::UnityEngine::ProBuilder::SceneSelection::op_Equality)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6afcbe0;
+  constexpr static std::size_t addrs = 0x6b3985c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ProBuilder::SceneSelection*, ::UnityEngine::ProBuilder::SceneSelection*)>(
     &::UnityEngine::ProBuilder::SceneSelection::op_Inequality)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6afcc0c;
+  constexpr static std::size_t addrs = 0x6b39888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

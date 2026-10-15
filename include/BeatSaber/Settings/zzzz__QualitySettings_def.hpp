@@ -89,7 +89,7 @@ public:
   static ::BeatSaber::Settings::QualitySettings_MainEffectOption const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22935 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -144,7 +144,7 @@ public:
   static ::BeatSaber::Settings::QualitySettings_BloomQuality const LightBaking;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22936 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -207,7 +207,7 @@ public:
   static ::BeatSaber::Settings::QualitySettings_MirrorQuality const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22937 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -266,7 +266,7 @@ public:
   static ::BeatSaber::Settings::QualitySettings_ObstacleQuality const Medium;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22850 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22938 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -282,6 +282,7 @@ static_assert(offsetof(::BeatSaber::Settings::QualitySettings_ObstacleQuality, v
 static_assert(sizeof(::BeatSaber::Settings::QualitySettings_ObstacleQuality) == 0x4, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
+// [AnalyticsSettingsStruct("graphics")]
 // Dependencies BeatSaber.Settings.QualitySettings::BloomQuality, BeatSaber.Settings.QualitySettings::MainEffectOption, BeatSaber.Settings.QualitySettings::MirrorQuality,
 // BeatSaber.Settings.QualitySettings::ObstacleQuality
 namespace BeatSaber::Settings {
@@ -318,7 +319,7 @@ public:
                             bool smokeGraphics, bool burnMarkTrails, int32_t maxShockwaveParticles, int32_t maxNumberOfCutSoundEffects) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22939 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

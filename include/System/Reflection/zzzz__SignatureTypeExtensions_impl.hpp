@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Reflection::ParameterInfo*)>(&::System::Reflection::SignatureTypeExtensions::MatchesParameterTypeExactly)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5f9b168;
+  constexpr static std::size_t addrs = 0x5fd7a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::SignatureType*, ::System::Type*)>(&::System::Reflection::SignatureTypeExtensions::MatchesExactly)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x5f9b234;
+  constexpr static std::size_t addrs = 0x5fd7b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Reflection::SignatureType*, ::System::Reflection::MethodInfo*)>(
     &::System::Reflection::SignatureTypeExtensions::TryResolveAgainstGenericMethod)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5f9b5d0;
+  constexpr static std::size_t addrs = 0x5fd7eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Reflection::SignatureType*, ::ArrayW<::System::Type*>)>(
     &::System::Reflection::SignatureTypeExtensions::TryResolve)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x5f9b608;
+  constexpr static std::size_t addrs = 0x5fd7ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Reflection::SignatureTypeExtensions::TryMakeArrayType)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5f9b9bc;
+  constexpr static std::size_t addrs = 0x5fd82a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*, int32_t)>(&::System::Reflection::SignatureTypeExtensions::TryMakeArrayType)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5f9ba54;
+  constexpr static std::size_t addrs = 0x5fd833c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureTypeExtensions*>(),
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Reflection::SignatureTypeExtensions::TryMakeByRefType)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5f9baec;
+  constexpr static std::size_t addrs = 0x5fd83d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::System::Reflection::SignatureTypeExtensions::TryMakePointerType)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5f9bb84;
+  constexpr static std::size_t addrs = 0x5fd846c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*, ::ArrayW<::System::Type*>)>(&::System::Reflection::SignatureTypeExtensions::TryMakeGenericType)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5f9bc1c;
+  constexpr static std::size_t addrs = 0x5fd8504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

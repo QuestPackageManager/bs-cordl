@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::Playables::PlayableAsset::*)()>(&::UnityEngine::Playables::PlayableAsset::get_duration)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6f5f80c;
+  constexpr static std::size_t addrs = 0x6f9c6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* (::UnityEngine::Playables::PlayableAsset::*)()>(
     &::UnityEngine::Playables::PlayableAsset::get_outputs)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6f5f868;
+  constexpr static std::size_t addrs = 0x6f9c744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Playables::PlayableAsset*, ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::System::IntPtr)>(
     &::UnityEngine::Playables::PlayableAsset::Internal_CreatePlayable)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6f5f8c4;
+  constexpr static std::size_t addrs = 0x6f9c7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Playables::PlayableAsset*, ::System::IntPtr)>(
     &::UnityEngine::Playables::PlayableAsset::Internal_GetPlayableAssetDuration)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f5f9a0;
+  constexpr static std::size_t addrs = 0x6f9c87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::PlayableAsset::*)()>(&::UnityEngine::Playables::PlayableAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f5f9c8;
+  constexpr static std::size_t addrs = 0x6f9c8a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::PlayableAsset*>(), { ".ctor", {}, {} })));

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::ReflectionTypeLoadException::*)(::ArrayW<::System::Type*>, ::ArrayW<::System::Exception*>)>(
     &::System::Reflection::ReflectionTypeLoadException::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f99048;
+  constexpr static std::size_t addrs = 0x5fd5930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::ReflectionTypeLoadException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Reflection::ReflectionTypeLoadException::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5f99084;
+  constexpr static std::size_t addrs = 0x5fd596c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::ReflectionTypeLoadException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Reflection::ReflectionTypeLoadException::GetObjectData)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x5f991ac;
+  constexpr static std::size_t addrs = 0x5fd5a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (::System::Reflection::ReflectionTypeLoadException::*)()>(
     &::System::Reflection::ReflectionTypeLoadException::get_Types)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f992d4;
+  constexpr static std::size_t addrs = 0x5fd5bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::ReflectionTypeLoadException*>(), { "get_Types", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Exception*> (::System::Reflection::ReflectionTypeLoadException::*)()>(
     &::System::Reflection::ReflectionTypeLoadException::get_LoaderExceptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f992dc;
+  constexpr static std::size_t addrs = 0x5fd5bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::ReflectionTypeLoadException*>(), { "get_LoaderExceptions", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::ReflectionTypeLoadException::*)()>(&::System::Reflection::ReflectionTypeLoadException::get_Message)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f992e4;
+  constexpr static std::size_t addrs = 0x5fd5bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::ReflectionTypeLoadException::*)()>(&::System::Reflection::ReflectionTypeLoadException::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f99480;
+  constexpr static std::size_t addrs = 0x5fd5d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::ReflectionTypeLoadException::*)(bool)>(&::System::Reflection::ReflectionTypeLoadException::CreateString)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5f992ec;
+  constexpr static std::size_t addrs = 0x5fd5bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

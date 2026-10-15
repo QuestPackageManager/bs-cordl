@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CoreRPHelpURLAttribute::*)(::StringW, ::StringW)>(&::UnityEngine::Rendering::CoreRPHelpURLAttribute::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6ba252c;
+  constexpr static std::size_t addrs = 0x6bdf1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CoreRPHelpURLAttribute::*)(::StringW, ::StringW, ::StringW)>(
     &::UnityEngine::Rendering::CoreRPHelpURLAttribute::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6ba2784;
+  constexpr static std::size_t addrs = 0x6bdf400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

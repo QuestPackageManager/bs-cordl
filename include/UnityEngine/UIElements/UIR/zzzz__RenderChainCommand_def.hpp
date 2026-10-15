@@ -104,24 +104,24 @@ public:
   /// @brief Field userProps, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_userProps, put = __cordl_internal_set_userProps)) ::UnityEngine::MaterialPropertyBlock* userProps;
 
-  /// @brief Method CombineScissorRects, addr 0x7192b50, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method CombineScissorRects, addr 0x71cfa84, size 0x14c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect CombineScissorRects(::UnityEngine::Rect r0, ::UnityEngine::Rect r1);
 
-  /// @brief Method ExecuteNonDrawMesh, addr 0x71902d8, size 0x714, virtual false, abstract: false, final false
+  /// @brief Method ExecuteNonDrawMesh, addr 0x71cd20c, size 0x714, virtual false, abstract: false, final false
   inline void ExecuteNonDrawMesh(::UnityEngine::UIElements::UIR::DrawParams* drawParams, float_t pixelsPerPoint, ::by_ref<::System::Exception*> immediateException);
 
   static inline ::UnityEngine::UIElements::UIR::RenderChainCommand* New_ctor();
 
-  /// @brief Method PopScissor, addr 0x71909ec, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method PopScissor, addr 0x71cd920, size 0x1f0, virtual false, abstract: false, final false
   static inline void PopScissor(::UnityEngine::UIElements::UIR::DrawParams* drawParams, float_t pixelsPerPoint);
 
-  /// @brief Method PushScissor, addr 0x718fca8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method PushScissor, addr 0x71ccbdc, size 0x188, virtual false, abstract: false, final false
   static inline void PushScissor(::UnityEngine::UIElements::UIR::DrawParams* drawParams, ::UnityEngine::Rect scissor, float_t pixelsPerPoint);
 
-  /// @brief Method RectPointsToPixelsAndFlipYAxis, addr 0x7192758, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method RectPointsToPixelsAndFlipYAxis, addr 0x71cf68c, size 0x3f8, virtual false, abstract: false, final false
   static inline ::UnityEngine::RectInt RectPointsToPixelsAndFlipYAxis(::UnityEngine::Rect rect, ::UnityEngine::Vector2 boundsMin, float_t pixelsPerPoint);
 
-  /// @brief Method Reset, addr 0x71845b8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x71c14ec, size 0x84, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Action* const& __cordl_internal_get_callback() const;
@@ -214,7 +214,7 @@ public:
 
   constexpr void __cordl_internal_set_userProps(::UnityEngine::MaterialPropertyBlock* value);
 
-  /// @brief Method .ctor, addr 0x7184560, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71c1494, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ImmediateOverheadMarker();

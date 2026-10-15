@@ -24,6 +24,8 @@ namespace JetBrains::Annotations {
 class CORDL_TYPE CollectionAccessAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_CollectionAccessType, put = set_CollectionAccessType)) ::JetBrains::Annotations::CollectionAccessType CollectionAccessType;
+
   /// @brief Field <CollectionAccessType>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__CollectionAccessType_k__BackingField,
                       put = __cordl_internal_set__CollectionAccessType_k__BackingField)) ::JetBrains::Annotations::CollectionAccessType _CollectionAccessType_k__BackingField;
@@ -36,8 +38,16 @@ public:
 
   constexpr void __cordl_internal_set__CollectionAccessType_k__BackingField(::JetBrains::Annotations::CollectionAccessType value);
 
-  /// @brief Method .ctor, addr 0x6eb2aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7316d64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType);
+
+  /// [CompilerGenerated]
+  /// @brief Method get_CollectionAccessType, addr 0x7316d6c, size 0x8, virtual false, abstract: false, final false
+  inline ::JetBrains::Annotations::CollectionAccessType get_CollectionAccessType();
+
+  /// [CompilerGenerated]
+  /// @brief Method set_CollectionAccessType, addr 0x7316d74, size 0x8, virtual false, abstract: false, final false
+  inline void set_CollectionAccessType(::JetBrains::Annotations::CollectionAccessType value);
 
 protected:
   // Ctor Parameters []
@@ -54,9 +64,8 @@ public:
   CollectionAccessAttribute(CollectionAccessAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9613 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23490 };
 
-  /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]
   /// @brief Field <CollectionAccessType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::JetBrains::Annotations::CollectionAccessType ____CollectionAccessType_k__BackingField;

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageRenderInfo::*)()>(&::UnityEngine::UIElements::UIR::VectorImageRenderInfo::Reset)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7189e9c;
+  constexpr static std::size_t addrs = 0x71c6dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>(), { "Reset", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageRenderInfo::*)()>(&::UnityEngine::UIElements::UIR::VectorImageRenderInfo::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7189e40;
+  constexpr static std::size_t addrs = 0x71c6d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>(), { ".ctor", {}, {} })));

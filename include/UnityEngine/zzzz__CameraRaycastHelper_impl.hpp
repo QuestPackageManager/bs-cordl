@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::Camera*, ::UnityEngine::Ray, float_t, int32_t)>(
     &::UnityEngine::CameraRaycastHelper::RaycastTry)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6fc109c;
+  constexpr static std::size_t addrs = 0x6ffdf90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::Camera*, ::UnityEngine::Ray, float_t, int32_t)>(
     &::UnityEngine::CameraRaycastHelper::RaycastTry2D)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6fc1270;
+  constexpr static std::size_t addrs = 0x6ffe164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Ray const>, float_t, int32_t)>(
     &::UnityEngine::CameraRaycastHelper::RaycastTry_Injected)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6fc120c;
+  constexpr static std::size_t addrs = 0x6ffe100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::by_ref<::UnityEngine::Ray const>, float_t, int32_t)>(
     &::UnityEngine::CameraRaycastHelper::RaycastTry2D_Injected)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6fc13e0;
+  constexpr static std::size_t addrs = 0x6ffe2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

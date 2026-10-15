@@ -34,23 +34,23 @@ class CORDL_TYPE CsvWriter : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method AppendCSVLine, addr 0x35aa708, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AppendCSVLine, addr 0x35ccfe8, size 0x2c, virtual false, abstract: false, final false
   static inline void AppendCSVLine(::System::Text::StringBuilder* buffer, /* [ParamArray] */ ::ArrayW<::StringW> values);
 
   /// [Extension]
-  /// @brief Method AppendCSVLine, addr 0x35aa6dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AppendCSVLine, addr 0x35ccfbc, size 0x2c, virtual false, abstract: false, final false
   static inline void AppendCSVLine(::System::Text::StringBuilder* buffer, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
 
-  /// @brief Method AppendElement, addr 0x35aa648, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AppendElement, addr 0x35ccf28, size 0x94, virtual false, abstract: false, final false
   static inline void AppendElement(::System::Text::StringBuilder* buffer, ::StringW element);
 
-  /// @brief Method AppendRow, addr 0x35aa040, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method AppendRow, addr 0x35cc920, size 0x1d0, virtual false, abstract: false, final false
   static inline void AppendRow(::StringW filePath, ::System::Collections::Generic::List_1<::StringW>* row);
 
-  /// @brief Method AppendRowInternal, addr 0x35aa210, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method AppendRowInternal, addr 0x35ccaf0, size 0x35c, virtual false, abstract: false, final false
   static inline void AppendRowInternal(::System::Text::StringBuilder* buffer, ::System::Collections::Generic::IEnumerable_1<::StringW>* row);
 
-  /// @brief Method HasEscapeChars, addr 0x35aa56c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HasEscapeChars, addr 0x35cce4c, size 0xdc, virtual false, abstract: false, final false
   static inline bool HasEscapeChars(::StringW element);
 
 protected:
@@ -68,7 +68,7 @@ public:
   CsvWriter(CsvWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23127 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

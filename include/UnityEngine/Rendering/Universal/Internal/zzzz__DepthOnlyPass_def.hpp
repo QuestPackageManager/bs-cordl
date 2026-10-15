@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set_rendererList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
-  /// @brief Method .ctor, addr 0x6d25318, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d61f94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,7 +129,7 @@ public:
   DepthOnlyPass_PassData(DepthOnlyPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13317 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13324 };
 
   /// @brief Field rendererList, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle ___rendererList;
@@ -160,10 +160,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DepthOnlyPass___c* New_ctor();
 
-  /// @brief Method <Render>b__14_0, addr 0x6d25374, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__14_0, addr 0x6d61ff0, size 0x90, virtual false, abstract: false, final false
   inline void _Render_b__14_0(::UnityEngine::Rendering::Universal::Internal::DepthOnlyPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6d25370, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d61fec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DepthOnlyPass___c* getStaticF___9();
@@ -192,7 +192,7 @@ public:
   DepthOnlyPass___c(DepthOnlyPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13318 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13325 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -227,13 +227,13 @@ public:
   __declspec(property(get = get_shaderTagId, put = set_shaderTagId)) ::UnityEngine::Rendering::ShaderTagId shaderTagId;
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method Execute, addr 0x6d24650, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6d612cc, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x6d247bc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6d61438, size 0xb0, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::RendererList rendererList);
 
-  /// @brief Method InitRendererListParams, addr 0x6d2486c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method InitRendererListParams, addr 0x6d614e8, size 0x178, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererListParams InitRendererListParams(::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData,
                                                                              ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                              ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
@@ -242,14 +242,14 @@ public:
                                                                                        ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method OnCameraSetup, addr 0x6d2464c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCameraSetup, addr 0x6d612c8, size 0x4, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Render, addr 0x6d249e4, size 0x890, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d61660, size 0x890, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> depthTexture, uint32_t batchLayerMask, bool setGlobalDepth);
 
-  /// @brief Method Setup, addr 0x6d247b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d61434, size 0x4, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::RenderTextureDescriptor baseDescriptor, ::UnityEngine::Rendering::RTHandle* depthAttachmentHandle);
 
   constexpr ::UnityEngine::Rendering::ShaderTagId const& __cordl_internal_get__shaderTagId_k__BackingField() const;
@@ -264,7 +264,7 @@ public:
 
   constexpr void __cordl_internal_set_m_FilteringSettings(::UnityEngine::Rendering::FilteringSettings value);
 
-  /// @brief Method .ctor, addr 0x6d24664, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d612e0, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask);
 
   static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_k_ShaderTagId();
@@ -272,7 +272,7 @@ public:
   static inline int32_t getStaticF_s_CameraDepthTextureID();
 
   /// [CompilerGenerated]
-  /// @brief Method get_shaderTagId, addr 0x6d24654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shaderTagId, addr 0x6d612d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShaderTagId get_shaderTagId();
 
   static inline void setStaticF_k_ShaderTagId(::UnityEngine::Rendering::ShaderTagId value);
@@ -280,7 +280,7 @@ public:
   static inline void setStaticF_s_CameraDepthTextureID(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_shaderTagId, addr 0x6d2465c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shaderTagId, addr 0x6d612d8, size 0x8, virtual false, abstract: false, final false
   inline void set_shaderTagId(::UnityEngine::Rendering::ShaderTagId value);
 
 protected:
@@ -298,7 +298,7 @@ public:
   DepthOnlyPass(DepthOnlyPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13319 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13326 };
 
   /// [CompilerGenerated]
   /// @brief Field <shaderTagId>k__BackingField, offset: 0x5c, size: 0x4, def value: None

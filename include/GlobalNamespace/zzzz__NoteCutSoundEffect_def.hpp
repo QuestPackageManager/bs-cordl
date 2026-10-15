@@ -66,7 +66,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NoteCutSoundEffect_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5ccf5f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d085dc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -188,31 +188,31 @@ public:
 
   __declspec(property(get = get_volumeMultiplier, put = set_volumeMultiplier)) float_t volumeMultiplier;
 
-  /// @brief Method Awake, addr 0x5cceb70, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5d07b5c, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ComputeDSPTimes, addr 0x5cceddc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ComputeDSPTimes, addr 0x5d07dc8, size 0xac, virtual false, abstract: false, final false
   inline void ComputeDSPTimes(double_t noteDSPTime, float_t aheadTime, float_t timeToPrevNote, float_t timeToNextNote);
 
-  /// @brief Method Init, addr 0x5ccec10, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5d07bfc, size 0x1cc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::NoteController* noteController, double_t noteDSPTime, float_t aheadTime, float_t missedTimeOffset, float_t timeToPrevNote,
                    float_t timeToNextNote, ::GlobalNamespace::Saber* saber, bool handleWrongSaberTypeAsGood, float_t volumeMultiplier, bool ignoreSaberSpeed, bool ignoreBadCuts);
 
   static inline ::GlobalNamespace::NoteCutSoundEffect* New_ctor();
 
-  /// @brief Method NoteDidStartDissolving, addr 0x5ccf4e0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method NoteDidStartDissolving, addr 0x5d084cc, size 0x80, virtual false, abstract: false, final false
   inline void NoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method NoteWasCut, addr 0x5ccf2b0, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method NoteWasCut, addr 0x5d0829c, size 0x230, virtual false, abstract: false, final false
   inline void NoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo);
 
-  /// @brief Method OnLateUpdate, addr 0x5ccee88, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method OnLateUpdate, addr 0x5d07e74, size 0x264, virtual false, abstract: false, final false
   inline void OnLateUpdate();
 
-  /// @brief Method Start, addr 0x5ccebf4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d07be0, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StopPlayingAndFinish, addr 0x5ccf0ec, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method StopPlayingAndFinish, addr 0x5d080d8, size 0x1c4, virtual false, abstract: false, final false
   inline void StopPlayingAndFinish();
 
   constexpr float_t const& __cordl_internal_get__aheadTime() const;
@@ -371,19 +371,19 @@ public:
 
   constexpr void __cordl_internal_set__volumeMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x5ccf560, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d0854c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_didFinishEvent, addr 0x5cceb2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x5d07b18, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* get_didFinishEvent();
 
-  /// @brief Method get_time, addr 0x5cceb44, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x5d07b30, size 0x2c, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_volumeMultiplier, addr 0x5cceb3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeMultiplier, addr 0x5d07b28, size 0x8, virtual false, abstract: false, final false
   inline float_t get_volumeMultiplier();
 
-  /// @brief Method set_volumeMultiplier, addr 0x5cceb34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_volumeMultiplier, addr 0x5d07b20, size 0x8, virtual false, abstract: false, final false
   inline void set_volumeMultiplier(float_t value);
 
 protected:

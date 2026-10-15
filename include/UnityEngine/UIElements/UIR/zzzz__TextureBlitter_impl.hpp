@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::TextureBlitter::*)()>(&::UnityEngine::UIElements::UIR::TextureBlitter::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7185b08;
+  constexpr static std::size_t addrs = 0x71c2a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(), { "get_disposed", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(bool)>(&::UnityEngine::UIElements::UIR::TextureBlitter::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7185b10;
+  constexpr static std::size_t addrs = 0x71c2a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)()>(&::UnityEngine::UIElements::UIR::TextureBlitter::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7185b18;
+  constexpr static std::size_t addrs = 0x71c2a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(), { "Dispose", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(bool)>(&::UnityEngine::UIElements::UIR::TextureBlitter::Dispose)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x7185b88;
+  constexpr static std::size_t addrs = 0x71c2abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(int32_t)>(&::UnityEngine::UIElements::UIR::TextureBlitter::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x7185d4c;
+  constexpr static std::size_t addrs = 0x71c2c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(::UnityEngine::Texture*, ::UnityEngine::RectInt, ::UnityEngine::Vector2Int, bool,
                                                                                                                 ::UnityEngine::Color)>(&::UnityEngine::UIElements::UIR::TextureBlitter::QueueBlit)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x7185dfc;
+  constexpr static std::size_t addrs = 0x71c2d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
                                                                                                                 ::UnityEngine::Vector2Int, bool, ::UnityEngine::Color)>(
     &::UnityEngine::UIElements::UIR::TextureBlitter::BlitOneNow)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x7185f58;
+  constexpr static std::size_t addrs = 0x71c2e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(::UnityEngine::RenderTexture*)>(
     &::UnityEngine::UIElements::UIR::TextureBlitter::Commit)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x7186954;
+  constexpr static std::size_t addrs = 0x71c3888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(::UnityEngine::RenderTexture*)>(
     &::UnityEngine::UIElements::UIR::TextureBlitter::BeginBlit)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x7185fd0;
+  constexpr static std::size_t addrs = 0x71c2f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(
     ::System::Collections::Generic::IList_1<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo>*, int32_t)>(&::UnityEngine::UIElements::UIR::TextureBlitter::DoBlit)> {
   constexpr static std::size_t size = 0x688;
-  constexpr static std::size_t addrs = 0x7186224;
+  constexpr static std::size_t addrs = 0x71c3158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)()>(&::UnityEngine::UIElements::UIR::TextureBlitter::EndBlit)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x71868ac;
+  constexpr static std::size_t addrs = 0x71c37e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::TextureBlitter*>(), { "EndBlit", {}, {} })));

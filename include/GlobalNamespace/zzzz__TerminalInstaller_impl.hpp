@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalInstaller::*)()>(&::GlobalNamespace::TerminalInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3573d04;
+  constexpr static std::size_t addrs = 0x35963a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TerminalInstaller::*)()>(&::GlobalNamespace::TerminalInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3573dc0;
+  constexpr static std::size_t addrs = 0x3596460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TerminalInstaller*>(), { ".ctor", {}, {} })));

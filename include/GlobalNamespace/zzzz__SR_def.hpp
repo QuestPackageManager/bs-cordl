@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(SR)
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System {
 class Object;
 }
@@ -24,20 +27,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE SR : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x6373b48, size 0x8c, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
+  /// @brief Method GetString, addr 0x65f6398, size 0x8, virtual false, abstract: false, final false
+  static inline ::StringW GetString(::System::Globalization::CultureInfo* culture, ::StringW name, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
-  /// @brief Method Format, addr 0x6373bd4, size 0xa4, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1);
-
-  /// @brief Method Format, addr 0x6373c78, size 0xac, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2);
-
-  /// @brief Method Format, addr 0x6373d24, size 0xbc, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1, ::System::Object* p2, ::System::Object* p3);
-
-  /// @brief Method GetString, addr 0x6373b44, size 0x4, virtual false, abstract: false, final false
-  static inline ::StringW GetString(::StringW name);
+  /// @brief Method GetString, addr 0x65f6324, size 0x74, virtual false, abstract: false, final false
+  static inline ::StringW GetString(::StringW name, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
 protected:
   // Ctor Parameters []
@@ -54,7 +48,7 @@ public:
   SR(SR const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11208 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

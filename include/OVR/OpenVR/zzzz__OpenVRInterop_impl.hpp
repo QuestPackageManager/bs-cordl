@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::by_ref<::OVR::OpenVR::EVRInitError>, ::OVR::OpenVR::EVRApplicationType)>(&::OVR::OpenVR::OpenVRInterop::InitInternal)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6261984;
+  constexpr static std::size_t addrs = 0x629e3cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::by_ref<::OVR::OpenVR::EVRInitError>, ::OVR::OpenVR::EVRApplicationType, ::StringW)>(
     &::OVR::OpenVR::OpenVRInterop::InitInternal2)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6261a08;
+  constexpr static std::size_t addrs = 0x629e450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::OVR::OpenVR::OpenVRInterop::ShutdownInternal)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6261abc;
+  constexpr static std::size_t addrs = 0x629e504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(), { "ShutdownInternal", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::OVR::OpenVR::OpenVRInterop::IsHmdPresent)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6261b20;
+  constexpr static std::size_t addrs = 0x629e568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(), { "IsHmdPresent", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::OVR::OpenVR::OpenVRInterop::IsRuntimeInstalled)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6261b8c;
+  constexpr static std::size_t addrs = 0x629e5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(), { "IsRuntimeInstalled", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::OVR::OpenVR::EVRInitError)>(&::OVR::OpenVR::OpenVRInterop::GetStringForHmdError)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6261bf8;
+  constexpr static std::size_t addrs = 0x629e640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::StringW, ::by_ref<::OVR::OpenVR::EVRInitError>)>(&::OVR::OpenVR::OpenVRInterop::GetGenericInterface)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6261c74;
+  constexpr static std::size_t addrs = 0x629e6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::OVR::OpenVR::OpenVRInterop::IsInterfaceVersionValid)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6261d14;
+  constexpr static std::size_t addrs = 0x629e75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)()>(&::OVR::OpenVR::OpenVRInterop::GetInitToken)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6261db0;
+  constexpr static std::size_t addrs = 0x629e7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(), { "GetInitToken", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::OpenVRInterop::*)()>(&::OVR::OpenVR::OpenVRInterop::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6261e14;
+  constexpr static std::size_t addrs = 0x629e85c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::OpenVRInterop*>(), { ".ctor", {}, {} })));

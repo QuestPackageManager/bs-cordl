@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::BinaryWriter*, ::UnityEngine::Color)>(&::GlobalNamespace::BinaryReadWriteExtensions::Write)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x35abaf4;
+  constexpr static std::size_t addrs = 0x35ce3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::System::IO::BinaryReader*)>(&::GlobalNamespace::BinaryReadWriteExtensions::ReadColor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x35abb7c;
+  constexpr static std::size_t addrs = 0x35ce45c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::BinaryWriter*, ::UnityEngine::Vector3)>(&::GlobalNamespace::BinaryReadWriteExtensions::Write)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x35abc0c;
+  constexpr static std::size_t addrs = 0x35ce4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::System::IO::BinaryReader*)>(&::GlobalNamespace::BinaryReadWriteExtensions::ReadVector3)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35abc70;
+  constexpr static std::size_t addrs = 0x35ce550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::BinaryWriter*, ::UnityEngine::Quaternion)>(&::GlobalNamespace::BinaryReadWriteExtensions::Write)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x35abcdc;
+  constexpr static std::size_t addrs = 0x35ce5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (*)(::System::IO::BinaryReader*)>(&::GlobalNamespace::BinaryReadWriteExtensions::ReadQuaternion)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x35abd64;
+  constexpr static std::size_t addrs = 0x35ce644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::BinaryWriter*, ::UnityEngine::Pose)>(&::GlobalNamespace::BinaryReadWriteExtensions::Write)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x35abdf4;
+  constexpr static std::size_t addrs = 0x35ce6d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BinaryReadWriteExtensions*>(),
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::System::IO::BinaryReader*)>(&::GlobalNamespace::BinaryReadWriteExtensions::ReadPose)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x35abe28;
+  constexpr static std::size_t addrs = 0x35ce708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

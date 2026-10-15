@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::SphericalHarmonicsL1 (*)(
     ::UnityEngine::Rendering::SphericalHarmonicsL1, ::UnityEngine::Rendering::SphericalHarmonicsL1)>(&::UnityEngine::Rendering::SphericalHarmonicsL1::op_Addition)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6bb4888;
+  constexpr static std::size_t addrs = 0x6bf1504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::SphericalHarmonicsL1 (*)(
     ::UnityEngine::Rendering::SphericalHarmonicsL1, ::UnityEngine::Rendering::SphericalHarmonicsL1)>(&::UnityEngine::Rendering::SphericalHarmonicsL1::op_Subtraction)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6bb48b0;
+  constexpr static std::size_t addrs = 0x6bf152c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::SphericalHarmonicsL1 (*)(::UnityEngine::Rendering::SphericalHarmonicsL1, float_t)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL1::op_Multiply)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6bb48d8;
+  constexpr static std::size_t addrs = 0x6bf1554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::SphericalHarmonicsL1 (*)(::UnityEngine::Rendering::SphericalHarmonicsL1, float_t)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL1::op_Division)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6bb48f8;
+  constexpr static std::size_t addrs = 0x6bf1574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::SphericalHarmonicsL1, ::UnityEngine::Rendering::SphericalHarmonicsL1)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL1::op_Equality)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6bb491c;
+  constexpr static std::size_t addrs = 0x6bf1598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::SphericalHarmonicsL1, ::UnityEngine::Rendering::SphericalHarmonicsL1)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL1::op_Inequality)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6bb49cc;
+  constexpr static std::size_t addrs = 0x6bf1648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SphericalHarmonicsL1::*)(::System::Object*)>(&::UnityEngine::Rendering::SphericalHarmonicsL1::Equals)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6bb4a68;
+  constexpr static std::size_t addrs = 0x6bf16e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SphericalHarmonicsL1::*)()>(&::UnityEngine::Rendering::SphericalHarmonicsL1::GetHashCode)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6bb4b40;
+  constexpr static std::size_t addrs = 0x6bf17bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

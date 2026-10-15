@@ -87,7 +87,7 @@ public:
   static ::UnityEngine::LowLevelPhysics2D::PhysicsJoint_JointType const WheelJoint;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21512 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21559 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -122,25 +122,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::LowLevelPhysics2D::PhysicsJoint>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::LowLevelPhysics2D::PhysicsJoint>*();
 
-  /// @brief Method Equals, addr 0x6fd3e18, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7010d0c, size 0x68, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6fd3e80, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7010d74, size 0x38, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::LowLevelPhysics2D::PhysicsJoint other);
 
-  /// @brief Method GetHashCode, addr 0x6fd3eb8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7010dac, size 0x88, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6fd3b48, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7010a3c, size 0x244, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_callbackTarget, addr 0x6fd3f40, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_callbackTarget, addr 0x7010e34, size 0x44, virtual true, abstract: false, final true
   inline ::System::Object* get_callbackTarget();
 
-  /// @brief Method get_isValid, addr 0x6fd3d8c, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method get_isValid, addr 0x7010c80, size 0x48, virtual true, abstract: false, final true
   inline bool get_isValid();
 
-  /// @brief Method get_jointType, addr 0x6fd3dd4, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_jointType, addr 0x7010cc8, size 0x44, virtual true, abstract: false, final true
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsJoint_JointType get_jointType();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::LowLevelPhysics2D::PhysicsJoint>"
@@ -155,7 +155,7 @@ public:
   constexpr PhysicsJoint(int32_t index1, uint16_t world0, uint16_t generation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21513 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21560 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

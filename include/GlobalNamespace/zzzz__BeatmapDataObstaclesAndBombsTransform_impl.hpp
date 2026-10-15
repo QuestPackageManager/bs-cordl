@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0::*)()>(
     &::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x398ee6c;
+  constexpr static std::size_t addrs = 0x39b324c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0::*)(::GlobalNamespace::BeatmapDataItem*)>(
         &::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform___c__DisplayClass0_0::_CreateTransformedData_g__ProcessData_0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x398ef78;
+  constexpr static std::size_t addrs = 0x39b3358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::GameplayModifiers_EnabledObstacleType,
                                                                                                     bool)>(&::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::CreateTransformedData)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x398ed34;
+  constexpr static std::size_t addrs = 0x39b3114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapDataItem*, ::GlobalNamespace::GameplayModifiers_EnabledObstacleType, bool)>(
     &::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapDataItem)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x398ee70;
+  constexpr static std::size_t addrs = 0x39b3250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

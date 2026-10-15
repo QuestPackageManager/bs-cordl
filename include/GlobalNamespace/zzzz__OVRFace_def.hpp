@@ -52,7 +52,7 @@ public:
   OVRFace_IMeshWeightsProvider(OVRFace_IMeshWeightsProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7181 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -91,30 +91,30 @@ public:
   /// @brief Field _skinnedMeshRenderer, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__skinnedMeshRenderer, put = __cordl_internal_set__skinnedMeshRenderer)) ::UnityW<::UnityEngine::SkinnedMeshRenderer> _skinnedMeshRenderer;
 
-  /// @brief Method Awake, addr 0x62128cc, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x624f314, size 0x15c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetFaceExpression, addr 0x6212ca4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetFaceExpression, addr 0x624f6ec, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::OVRFaceExpressions_FaceExpression GetFaceExpression(int32_t blendShapeIndex);
 
-  /// @brief Method GetWeightValue, addr 0x6212cac, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method GetWeightValue, addr 0x624f6f4, size 0x11c, virtual true, abstract: false, final false
   inline bool GetWeightValue(int32_t blendShapeIndex, ::by_ref<float_t> weightValue);
 
   static inline ::GlobalNamespace::OVRFace* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x6212a28, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x624f470, size 0xf0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RetrieveSkinnedMeshRenderer, addr 0x6212824, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method RetrieveSkinnedMeshRenderer, addr 0x624f26c, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::SkinnedMeshRenderer> RetrieveSkinnedMeshRenderer();
 
-  /// @brief Method SearchFaceExpressions, addr 0x6212870, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SearchFaceExpressions, addr 0x624f2b8, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRFaceExpressions> SearchFaceExpressions();
 
-  /// @brief Method Start, addr 0x6211c34, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x624e67c, size 0x90, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x6212b18, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x624f560, size 0x18c, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__blendShapeStrengthMultiplier() const;
@@ -147,22 +147,22 @@ public:
 
   constexpr void __cordl_internal_set__skinnedMeshRenderer(::UnityW<::UnityEngine::SkinnedMeshRenderer> value);
 
-  /// @brief Method .ctor, addr 0x6211e0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x624e854, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BlendShapeStrengthMultiplier, addr 0x621280c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlendShapeStrengthMultiplier, addr 0x624f254, size 0x8, virtual false, abstract: false, final false
   inline float_t get_BlendShapeStrengthMultiplier();
 
-  /// @brief Method get_FaceExpressions, addr 0x62127fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FaceExpressions, addr 0x624f244, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRFaceExpressions> get_FaceExpressions();
 
-  /// @brief Method get_SkinnedMesh, addr 0x621281c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SkinnedMesh, addr 0x624f264, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::SkinnedMeshRenderer> get_SkinnedMesh();
 
-  /// @brief Method set_BlendShapeStrengthMultiplier, addr 0x6212814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BlendShapeStrengthMultiplier, addr 0x624f25c, size 0x8, virtual false, abstract: false, final false
   inline void set_BlendShapeStrengthMultiplier(float_t value);
 
-  /// @brief Method set_FaceExpressions, addr 0x6212804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FaceExpressions, addr 0x624f24c, size 0x8, virtual false, abstract: false, final false
   inline void set_FaceExpressions(::GlobalNamespace::OVRFaceExpressions* value);
 
 protected:
@@ -180,7 +180,7 @@ public:
   OVRFace(OVRFace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7182 };
 
   /// [SerializeField]
   /// [Tooltip("The OVRFaceExpressions Component to fetch the Face Tracking weights from that are to be applied")]

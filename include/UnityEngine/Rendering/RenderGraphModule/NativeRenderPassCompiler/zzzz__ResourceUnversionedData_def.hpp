@@ -45,20 +45,20 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE ResourceUnversionedData {
 public:
   // Declarations
-  /// @brief Method GetName, addr 0x6c2b6e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x6c68364, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW GetName(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h);
 
-  /// @brief Method InitializeNullResource, addr 0x6c2b808, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InitializeNullResource, addr 0x6c68484, size 0x1c, virtual false, abstract: false, final false
   inline void InitializeNullResource();
 
-  /// @brief Method .ctor, addr 0x6c2b768, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c683e4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* rll, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc> _, bool isResourceShared);
 
-  /// @brief Method .ctor, addr 0x6c2b7b8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c68434, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* rll, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureDesc> _,
                     bool isResourceShared);
 
-  /// @brief Method .ctor, addr 0x6c2b704, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c68380, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::TextureResource* rll, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo> info,
                     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> desc, bool isResourceShared);
 
@@ -80,7 +80,7 @@ public:
                                     bool discard, bool bindMS, ::UnityEngine::Rendering::RenderGraphModule::TextureUVOriginSelection textureUVOrigin) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9425 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

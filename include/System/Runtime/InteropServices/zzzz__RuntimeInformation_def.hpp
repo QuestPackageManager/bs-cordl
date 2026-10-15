@@ -37,13 +37,13 @@ public:
   /// @brief Field _processArchitecture, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__processArchitecture, put = setStaticF__processArchitecture)) ::System::Runtime::InteropServices::Architecture _processArchitecture;
 
-  /// @brief Method GetOSName, addr 0x5f8501c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetOSName, addr 0x5fc1904, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW GetOSName();
 
-  /// @brief Method GetRuntimeArchitecture, addr 0x5f8500c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeArchitecture, addr 0x5fc18f4, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW GetRuntimeArchitecture();
 
-  /// @brief Method IsOSPlatform, addr 0x5f8502c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsOSPlatform, addr 0x5fc1914, size 0x94, virtual false, abstract: false, final false
   static inline bool IsOSPlatform(::System::Runtime::InteropServices::OSPlatform osPlatform);
 
   static inline ::System::Runtime::InteropServices::Architecture getStaticF__osArchitecture();
@@ -52,7 +52,7 @@ public:
 
   static inline ::System::Runtime::InteropServices::Architecture getStaticF__processArchitecture();
 
-  /// @brief Method get_ProcessArchitecture, addr 0x5f850c0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessArchitecture, addr 0x5fc19a8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::Architecture get_ProcessArchitecture();
 
   static inline void setStaticF__osArchitecture(::System::Runtime::InteropServices::Architecture value);

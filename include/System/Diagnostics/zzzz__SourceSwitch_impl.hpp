@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::SourceSwitch::*)(::StringW, ::StringW)>(&::System::Diagnostics::SourceSwitch::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x67bf498;
+  constexpr static std::size_t addrs = 0x67fc0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Diagnostics::SourceLevels (::System::Diagnostics::SourceSwitch::*)()>(&::System::Diagnostics::SourceSwitch::get_Level)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67bf750;
+  constexpr static std::size_t addrs = 0x67fc394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Diagnostics::SourceSwitch*>(), { "get_Level", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::SourceSwitch::*)(::System::Diagnostics::SourceLevels)>(&::System::Diagnostics::SourceSwitch::set_Level)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67bf790;
+  constexpr static std::size_t addrs = 0x67fc3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Diagnostics::SourceSwitch::*)()>(&::System::Diagnostics::SourceSwitch::OnValueChanged)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x67bf794;
+  constexpr static std::size_t addrs = 0x67fc3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

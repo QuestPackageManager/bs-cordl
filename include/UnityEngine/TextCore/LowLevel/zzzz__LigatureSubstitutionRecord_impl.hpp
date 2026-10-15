@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint32_t> (::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::get_componentGlyphIDs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7020284;
+  constexpr static std::size_t addrs = 0x705d178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::*)(::ArrayW<uint32_t>)>(
     &::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::set_componentGlyphIDs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x702028c;
+  constexpr static std::size_t addrs = 0x705d180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::get_ligatureGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7020294;
+  constexpr static std::size_t addrs = 0x705d188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::*)(uint32_t)>(
     &::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::set_ligatureGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x702029c;
+  constexpr static std::size_t addrs = 0x705d190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::*)(::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord)>(
     &::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::Equals)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x70202a4;
+  constexpr static std::size_t addrs = 0x705d198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::*)(::System::Object*)>(
     &::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x702031c;
+  constexpr static std::size_t addrs = 0x705d210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::GetHashCode)> {
   constexpr static std::size_t size = 0x738;
-  constexpr static std::size_t addrs = 0x702039c;
+  constexpr static std::size_t addrs = 0x705d290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord>(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord, ::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord)>(
     &::UnityEngine::TextCore::LowLevel::LigatureSubstitutionRecord::op_Equality)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x70202bc;
+  constexpr static std::size_t addrs = 0x705d1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

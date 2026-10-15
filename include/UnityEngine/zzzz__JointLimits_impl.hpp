@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::JointLimits::*)()>(&::UnityEngine::JointLimits::get_min)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdde28;
+  constexpr static std::size_t addrs = 0x701ad1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointLimits>(), { "get_min", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::JointLimits::*)(float_t)>(&::UnityEngine::JointLimits::set_min)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdde30;
+  constexpr static std::size_t addrs = 0x701ad24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointLimits>(), { "set_min", {}, { ::i2c::type_of<float_t>() } })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::JointLimits::*)()>(&::UnityEngine::JointLimits::get_max)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdde38;
+  constexpr static std::size_t addrs = 0x701ad2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointLimits>(), { "get_max", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::JointLimits::*)(float_t)>(&::UnityEngine::JointLimits::set_max)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdde40;
+  constexpr static std::size_t addrs = 0x701ad34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointLimits>(), { "set_max", {}, { ::i2c::type_of<float_t>() } })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::JointLimits::*)()>(&::UnityEngine::JointLimits::get_bounciness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdde48;
+  constexpr static std::size_t addrs = 0x701ad3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointLimits>(), { "get_bounciness", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::JointLimits::*)(float_t)>(&::UnityEngine::JointLimits::set_bounciness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdde50;
+  constexpr static std::size_t addrs = 0x701ad44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointLimits>(), { "set_bounciness", {}, { ::i2c::type_of<float_t>() } })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::JointLimits::*)()>(&::UnityEngine::JointLimits::get_bounceMinVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdde58;
+  constexpr static std::size_t addrs = 0x701ad4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointLimits>(), { "get_bounceMinVelocity", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::JointLimits::*)(float_t)>(&::UnityEngine::JointLimits::set_bounceMinVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdde60;
+  constexpr static std::size_t addrs = 0x701ad54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::JointLimits::*)()>(&::UnityEngine::JointLimits::get_contactDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdde68;
+  constexpr static std::size_t addrs = 0x701ad5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointLimits>(), { "get_contactDistance", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::JointLimits::*)(float_t)>(&::UnityEngine::JointLimits::set_contactDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdde70;
+  constexpr static std::size_t addrs = 0x701ad64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -61,22 +61,22 @@ public:
 
   constexpr void __cordl_internal_set_schemaInfo(::System::Xml::Schema::SchemaInfo* value);
 
-  /// @brief Method .ctor, addr 0x6655814, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66923e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Schema, addr 0x6655980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Schema, addr 0x6692550, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* get_Schema();
 
-  /// @brief Method get_SchemaInfo, addr 0x6655970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaInfo, addr 0x6692540, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaInfo* get_SchemaInfo();
 
-  /// @brief Method set_NamespaceURI, addr 0x6655968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NamespaceURI, addr 0x6692538, size 0x8, virtual false, abstract: false, final false
   inline void set_NamespaceURI(::StringW value);
 
-  /// @brief Method set_Schema, addr 0x6655988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Schema, addr 0x6692558, size 0x8, virtual false, abstract: false, final false
   inline void set_Schema(::System::Xml::Schema::XmlSchema* value);
 
-  /// @brief Method set_SchemaInfo, addr 0x6655978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaInfo, addr 0x6692548, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaInfo(::System::Xml::Schema::SchemaInfo* value);
 
 protected:
@@ -94,7 +94,7 @@ public:
   XmlSchemaCollectionNode(XmlSchemaCollectionNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11723 };
 
   /// @brief Field namespaceUri, offset: 0x10, size: 0x8, def value: None
   ::StringW ___namespaceUri;

@@ -40,16 +40,16 @@ public:
   /// @brief Field s_NormalReconstructionMatrixID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_NormalReconstructionMatrixID, put = setStaticF_s_NormalReconstructionMatrixID)) int32_t s_NormalReconstructionMatrixID;
 
-  /// @brief Method SetupProperties, addr 0x6d2f204, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x6d6be80, size 0xe4, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method SetupProperties, addr 0x6d2edec, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x6d6ba68, size 0xe0, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData);
 
-  /// @brief Method SetupProperties, addr 0x6d2eecc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x6d6bb48, size 0x90, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData);
 
-  /// @brief Method SetupProperties, addr 0x6d2ef5c, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x6d6bbd8, size 0x2a8, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData* const> cameraData);
 
   static inline ::ArrayW<::UnityEngine::Matrix4x4> getStaticF_s_NormalReconstructionMatrix();
@@ -75,7 +75,7 @@ public:
   NormalReconstruction(NormalReconstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13345 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

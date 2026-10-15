@@ -43,16 +43,16 @@ public:
   __declspec(property(get = __cordl_internal_get__missionLevelScenesTransitionSetupData,
                       put = __cordl_internal_set__missionLevelScenesTransitionSetupData)) ::GlobalNamespace::MissionLevelScenesTransitionSetupData* _missionLevelScenesTransitionSetupData;
 
-  /// @brief Method HandleMissionLevelDidFinishEvent, addr 0x5cc8874, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionLevelDidFinishEvent, addr 0x5d01854, size 0x444, virtual false, abstract: false, final false
   inline void HandleMissionLevelDidFinishEvent(::GlobalNamespace::MissionLevelScenesTransitionSetupData* missionLevelScenesTransitionSetupData,
                                                ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
   static inline ::GlobalNamespace::MissionLevelAnalytics* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5cc87e4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5d017c4, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5cc8754, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d01734, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__missionLevelScenesTransitionSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupData* value);
 
-  /// @brief Method .ctor, addr 0x5cc8cb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d01c98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

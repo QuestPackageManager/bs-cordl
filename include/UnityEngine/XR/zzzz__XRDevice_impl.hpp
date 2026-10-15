@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::XR::TrackingSpaceType)>(&::UnityEngine::XR::XRDevice::SetTrackingSpaceType)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x72d2154;
+  constexpr static std::size_t addrs = 0x730f088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::XR::XRDevice::InvokeDeviceLoaded)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x72d2190;
+  constexpr static std::size_t addrs = 0x730f0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

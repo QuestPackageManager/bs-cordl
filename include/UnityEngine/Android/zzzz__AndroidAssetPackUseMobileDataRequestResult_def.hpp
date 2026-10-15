@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__allowed_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6e81b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ebe7d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool allowed);
 
 protected:
@@ -48,7 +48,7 @@ public:
   AndroidAssetPackUseMobileDataRequestResult(AndroidAssetPackUseMobileDataRequestResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20705 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]

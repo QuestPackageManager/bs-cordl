@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)()>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::get_IsFinallyBlockExist)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63bce3c;
+  constexpr static std::size_t addrs = 0x63f9a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*> (::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)()>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::get_Handlers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63bce50;
+  constexpr static std::size_t addrs = 0x63f9a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)()>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::get_IsCatchBlockExist)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x63bce58;
+  constexpr static std::size_t addrs = 0x63f9a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)(
     int32_t, int32_t, int32_t, ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*>)>(&::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x63bce68;
+  constexpr static std::size_t addrs = 0x63f9a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler*>(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)(
     int32_t, int32_t, int32_t, int32_t, int32_t, ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*>)>(&::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x63bce80;
+  constexpr static std::size_t addrs = 0x63f9a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Exp
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::System::Exception*, ::by_ref<::System::Linq::Expressions::Interpreter::ExceptionHandler*>, ::by_ref<::System::Object*>)>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::HasHandler)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x63bce94;
+  constexpr static std::size_t addrs = 0x63f9a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::by_ref<::System::Object*>, ::System::Linq::Expressions::Interpreter::ExceptionFilter*)>(
         &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::FilterPasses)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x63bcff4;
+  constexpr static std::size_t addrs = 0x63f9bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

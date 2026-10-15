@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::FileBrowserItem::*)()>(&::GlobalNamespace::FileBrowserItem::get_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39939bc;
+  constexpr static std::size_t addrs = 0x39b7dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileBrowserItem*>(), { "get_displayName", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FileBrowserItem::*)(::StringW)>(&::GlobalNamespace::FileBrowserItem::set_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39939c4;
+  constexpr static std::size_t addrs = 0x39b7db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::FileBrowserItem::*)()>(&::GlobalNamespace::FileBrowserItem::get_fullPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39939cc;
+  constexpr static std::size_t addrs = 0x39b7dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileBrowserItem*>(), { "get_fullPath", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FileBrowserItem::*)(::StringW)>(&::GlobalNamespace::FileBrowserItem::set_fullPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39939d4;
+  constexpr static std::size_t addrs = 0x39b7dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::FileBrowserItem::*)()>(&::GlobalNamespace::FileBrowserItem::get_isDirectory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39939dc;
+  constexpr static std::size_t addrs = 0x39b7dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileBrowserItem*>(), { "get_isDirectory", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FileBrowserItem::*)(bool)>(&::GlobalNamespace::FileBrowserItem::set_isDirectory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39939e4;
+  constexpr static std::size_t addrs = 0x39b7dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FileBrowserItem::*)(::StringW, ::StringW, bool)>(&::GlobalNamespace::FileBrowserItem::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x399118c;
+  constexpr static std::size_t addrs = 0x39b557c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileBrowserItem*>(),

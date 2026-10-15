@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Crmf::EncryptedKey* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Crmf::EncryptedKey::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x35f0318;
+  constexpr static std::size_t addrs = 0x3612c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::EncryptedKey::*)(::Org::BouncyCastle::Asn1::Cms::EnvelopedData*)>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedKey::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35f049c;
+  constexpr static std::size_t addrs = 0x3612e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::EncryptedKey::*)(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*)>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedKey::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35f04a4;
+  constexpr static std::size_t addrs = 0x3612e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::Crmf::EncryptedKey::*)()>(&::Org::BouncyCastle::Asn1::Crmf::EncryptedKey::get_IsEncryptedValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x35f054c;
+  constexpr static std::size_t addrs = 0x3612eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Asn1::Crmf::EncryptedKey::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedKey::get_Value)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x35f055c;
+  constexpr static std::size_t addrs = 0x3612ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Crmf::EncryptedKey::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedKey::ToAsn1Object)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x35f0578;
+  constexpr static std::size_t addrs = 0x3612edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

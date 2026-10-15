@@ -23,16 +23,16 @@ class CORDL_TYPE TypeTraits : public ::System::Object {
 public:
   // Declarations
   /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
-  /// @brief Method CanBeNull, addr 0x700e9f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CanBeNull, addr 0x704b8e8, size 0x64, virtual false, abstract: false, final false
   static inline bool CanBeNull(::System::Type* type);
 
-  /// @brief Method IsAbstractOrInterface, addr 0x700e9b4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsAbstractOrInterface, addr 0x704b8a8, size 0x40, virtual false, abstract: false, final false
   static inline bool IsAbstractOrInterface(::System::Type* type);
 
-  /// @brief Method IsContainer, addr 0x700e8b8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method IsContainer, addr 0x704b7ac, size 0xfc, virtual false, abstract: false, final false
   static inline bool IsContainer(::System::Type* type);
 
-  /// @brief Method IsObject, addr 0x700ea58, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsObject, addr 0x704b94c, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsObject(::System::Type* type);
 
 protected:
@@ -50,7 +50,7 @@ public:
   TypeTraits(TypeTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20830 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

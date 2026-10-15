@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::__JobReflectionRegistrationOutput__15867191014387474753::CreateJobReflectionData)> {
   constexpr static std::size_t size = 0x58c;
-  constexpr static std::size_t addrs = 0x6c704ec;
+  constexpr static std::size_t addrs = 0x6cad168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::__JobReflectionRegistrationOutput__15867191014387474753::EarlyInit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c70a78;
+  constexpr static std::size_t addrs = 0x6cad6f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

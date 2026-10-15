@@ -75,60 +75,60 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::IAeadCipher*() noexcept;
 
-  /// @brief Method CalculateMac, addr 0x367dd30, size 0x8a0, virtual false, abstract: false, final false
+  /// @brief Method CalculateMac, addr 0x36a0694, size 0x8a0, virtual false, abstract: false, final false
   inline int32_t CalculateMac(::ArrayW<uint8_t> data, int32_t dataOff, int32_t dataLen, ::ArrayW<uint8_t> macBlock);
 
-  /// @brief Method DoFinal, addr 0x367d138, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x369fa9c, size 0xa8, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t> outBytes, int32_t outOff);
 
-  /// @brief Method GetAssociatedTextLength, addr 0x367e5e8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetAssociatedTextLength, addr 0x36a0f4c, size 0x38, virtual false, abstract: false, final false
   inline int32_t GetAssociatedTextLength();
 
-  /// @brief Method GetBlockSize, addr 0x367cf80, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x369f8e4, size 0xa8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method GetMac, addr 0x367d2c0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetMac, addr 0x369fc24, size 0x6c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GetMac();
 
-  /// @brief Method GetMacSize, addr 0x367ce4c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetMacSize, addr 0x369f7b0, size 0x6c, virtual false, abstract: false, final false
   inline int32_t GetMacSize(bool forEncryption, int32_t requestedMacBits);
 
-  /// @brief Method GetOutputSize, addr 0x367d334, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0x369fc98, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetOutputSize(int32_t len);
 
-  /// @brief Method GetUnderlyingCipher, addr 0x367cc60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUnderlyingCipher, addr 0x369f5c4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method GetUpdateOutputSize, addr 0x367d32c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUpdateOutputSize, addr 0x369fc90, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t len);
 
-  /// @brief Method HasAssociatedText, addr 0x367e5d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HasAssociatedText, addr 0x36a0f34, size 0x18, virtual false, abstract: false, final false
   inline bool HasAssociatedText();
 
-  /// @brief Method Init, addr 0x367cc68, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x369f5cc, size 0x1e4, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::CcmBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method ProcessAadByte, addr 0x367d028, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ProcessAadByte, addr 0x369f98c, size 0x20, virtual true, abstract: false, final false
   inline void ProcessAadByte(uint8_t input);
 
-  /// @brief Method ProcessAadBytes, addr 0x367d048, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ProcessAadBytes, addr 0x369f9ac, size 0x20, virtual true, abstract: false, final false
   inline void ProcessAadBytes(::ArrayW<uint8_t> inBytes, int32_t inOff, int32_t len);
 
-  /// @brief Method ProcessByte, addr 0x367d068, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x369f9cc, size 0x2c, virtual true, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t> outBytes, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x367d094, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x369f9f8, size 0xa4, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t> inBytes, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t> outBytes, int32_t outOff);
 
-  /// @brief Method ProcessPacket, addr 0x367d388, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x369fcec, size 0x100, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> ProcessPacket(::ArrayW<uint8_t> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method ProcessPacket, addr 0x367d488, size 0x8a8, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x369fdec, size 0x8a8, virtual true, abstract: false, final false
   inline int32_t ProcessPacket(::ArrayW<uint8_t> input, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x367d1e0, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x369fb44, size 0xe0, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::IO::MemoryStream* const& __cordl_internal_get_associatedText() const;
@@ -185,12 +185,12 @@ public:
 
   constexpr void __cordl_internal_set_nonce(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x367ca4c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x369f3b0, size 0x214, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
   static inline int32_t getStaticF_BlockSize();
 
-  /// @brief Method get_AlgorithmName, addr 0x367ceb8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x369f81c, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher"

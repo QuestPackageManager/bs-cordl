@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AnimateCrossFadeJob::*)(int32_t)>(&::UnityEngine::Rendering::AnimateCrossFadeJob::Execute)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6c48458;
+  constexpr static std::size_t addrs = 0x6c850d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

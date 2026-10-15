@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::JoiningLobbyViewController::*)(::System::Action*)>(
     &::GlobalNamespace::JoiningLobbyViewController::add_didCancelEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e36e18;
+  constexpr static std::size_t addrs = 0x5e74908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::JoiningLobbyViewController::*)(::System::Action*)>(
     &::GlobalNamespace::JoiningLobbyViewController::remove_didCancelEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e36ec4;
+  constexpr static std::size_t addrs = 0x5e749b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::JoiningLobbyViewController::*)(::StringW)>(&::GlobalNamespace::JoiningLobbyViewController::Init)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5e36f70;
+  constexpr static std::size_t addrs = 0x5e74a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::JoiningLobbyViewController::*)()>(&::GlobalNamespace::JoiningLobbyViewController::HideLoading)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5e36fa4;
+  constexpr static std::size_t addrs = 0x5e74a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::JoiningLobbyViewController*>(), { "HideLoading", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::JoiningLobbyViewController::*)(bool, bool, bool)>(&::GlobalNamespace::JoiningLobbyViewController::DidActivate)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5e36fe4;
+  constexpr static std::size_t addrs = 0x5e74ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::JoiningLobbyViewController::*)()>(&::GlobalNamespace::JoiningLobbyViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e370e4;
+  constexpr static std::size_t addrs = 0x5e74bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::JoiningLobbyViewController*>(), { ".ctor", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::JoiningLobbyViewController::*)()>(&::GlobalNamespace::JoiningLobbyViewController::_DidActivate_b__8_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e370e8;
+  constexpr static std::size_t addrs = 0x5e74bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::JoiningLobbyViewController*>(), { "<DidActivate>b__8_0", {}, {} })));

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::Rendering::ProbeVolumeUtil::CellSize)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6bb43fc;
+  constexpr static std::size_t addrs = 0x6bf1078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, int32_t)>(&::UnityEngine::Rendering::ProbeVolumeUtil::BrickSize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6bb442c;
+  constexpr static std::size_t addrs = 0x6bf10a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, int32_t)>(&::UnityEngine::Rendering::ProbeVolumeUtil::MaxBrickSize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6bb4470;
+  constexpr static std::size_t addrs = 0x6bf10ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

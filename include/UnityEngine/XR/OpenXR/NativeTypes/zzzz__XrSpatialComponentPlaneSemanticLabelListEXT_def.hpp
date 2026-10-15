@@ -42,38 +42,38 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e48578, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e85214, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint32_t semanticLabelCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPlaneSemanticLabelEXT* semanticLabels);
 
-  /// @brief Method .ctor, addr 0x6e485b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8524c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPlaneSemanticLabelEXT> semanticLabels);
 
-  /// @brief Method .ctor, addr 0x6e4868c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e85328, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPlaneSemanticLabelEXT> semanticLabels);
 
-  /// @brief Method .ctor, addr 0x6e48594, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e85230, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t semanticLabelCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPlaneSemanticLabelEXT* semanticLabels);
 
-  /// @brief Method .ctor, addr 0x6e48624, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e852c0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPlaneSemanticLabelEXT> semanticLabels);
 
-  /// @brief Method .ctor, addr 0x6e48714, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e853b0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPlaneSemanticLabelEXT> semanticLabels);
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e48560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e851fc, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_semanticLabelCount, addr 0x6e48568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_semanticLabelCount, addr 0x6e85204, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_semanticLabelCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_semanticLabels, addr 0x6e48570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_semanticLabels, addr 0x6e8520c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPlaneSemanticLabelEXT* get_semanticLabels();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e48558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e851f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -89,7 +89,7 @@ public:
                                                         ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPlaneSemanticLabelEXT* _semanticLabels_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17627 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

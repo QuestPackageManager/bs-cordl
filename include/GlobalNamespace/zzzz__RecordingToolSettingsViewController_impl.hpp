@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolSettingsViewController::*)(::System::Action*)>(
     &::GlobalNamespace::RecordingToolSettingsViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e28cf4;
+  constexpr static std::size_t addrs = 0x5e666e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolSettingsViewController::*)(::System::Action*)>(
     &::GlobalNamespace::RecordingToolSettingsViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e28e4c;
+  constexpr static std::size_t addrs = 0x5e6683c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::RecordingToolSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x5e38f58;
+  constexpr static std::size_t addrs = 0x5e769a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolSettingsViewController*>(),
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolSettingsViewController::*)()>(&::GlobalNamespace::RecordingToolSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e390bc;
+  constexpr static std::size_t addrs = 0x5e76b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RecordingToolSettingsViewController*>(), { ".ctor", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolSettingsViewController::*)()>(
     &::GlobalNamespace::RecordingToolSettingsViewController::_DidActivate_b__6_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e390c0;
+  constexpr static std::size_t addrs = 0x5e76b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

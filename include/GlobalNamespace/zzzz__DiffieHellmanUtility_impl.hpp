@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::*)()>(
     &::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35b8774;
+  constexpr static std::size_t addrs = 0x35db0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::*)()>(
     &::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::_GetPreMasterSecretAsync_b__0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x35b87e4;
+  constexpr static std::size_t addrs = 0x35db148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::*)()>(
     &::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::get_publicKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b85ec;
+  constexpr static std::size_t addrs = 0x35daf50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::*)(
     ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*, ::ArrayW<uint8_t>)>(&::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x35b7ee4;
+  constexpr static std::size_t addrs = 0x35da848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* (::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::*)(::BGNet::Core::ITaskUtility*, ::ArrayW<uint8_t>)>(
         &::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::GetPreMasterSecretAsync)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x35b85f4;
+  constexpr static std::size_t addrs = 0x35daf58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::*)(::ArrayW<uint8_t>)>(
     &::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::GetPreMasterSecret)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35b8778;
+  constexpr static std::size_t addrs = 0x35db0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::*)()>(
     &::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35b89dc;
+  constexpr static std::size_t addrs = 0x35db340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::*)()>(
     &::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::_GetPreMasterSecretAsync_b__0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x35b8a4c;
+  constexpr static std::size_t addrs = 0x35db3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::*)()>(
     &::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::get_publicKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b8854;
+  constexpr static std::size_t addrs = 0x35db1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::*)(
     ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*, ::ArrayW<uint8_t>)>(&::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x35b7f60;
+  constexpr static std::size_t addrs = 0x35da8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -317,7 +317,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* (::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::*)(::BGNet::Core::ITaskUtility*, ::ArrayW<uint8_t>)>(
         &::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::GetPreMasterSecretAsync)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x35b885c;
+  constexpr static std::size_t addrs = 0x35db1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::*)(::ArrayW<uint8_t>)>(
     &::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::GetPreMasterSecret)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35b89e0;
+  constexpr static std::size_t addrs = 0x35db344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -408,7 +408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DiffieHellmanUtility_OperationTimer::*)(::StringW)>(&::GlobalNamespace::DiffieHellmanUtility_OperationTimer::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35b8abc;
+  constexpr static std::size_t addrs = 0x35db420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -421,7 +421,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DiffieHellmanUtility_OperationTimer::*)()>(&::GlobalNamespace::DiffieHellmanUtility_OperationTimer::Dispose)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x35b8b28;
+  constexpr static std::size_t addrs = 0x35db48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DiffieHellmanUtility_OperationTimer*>(), { "Dispose", {}, {} })));
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DiffieHellmanUtility_OperationTimer* (*)(::StringW)>(&::GlobalNamespace::DiffieHellmanUtility_OperationTimer::Time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b7edc;
+  constexpr static std::size_t addrs = 0x35da840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -499,7 +499,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>* (*)(::BGNet::Core::ITaskUtility*, ::System::Threading::CancellationToken,
                                                                                        ::GlobalNamespace::DiffieHellmanUtility_KeyType)>(&::GlobalNamespace::DiffieHellmanUtility::GenerateKeysAsync)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x35b786c;
+  constexpr static std::size_t addrs = 0x35da1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DiffieHellmanUtility*>(),
@@ -516,7 +516,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IDiffieHellmanKeyPair* (*)(::GlobalNamespace::DiffieHellmanUtility_KeyType)>(
     &::GlobalNamespace::DiffieHellmanUtility::GenerateKeys)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x35b7a04;
+  constexpr static std::size_t addrs = 0x35da368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -530,7 +530,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair* (*)()>(&::GlobalNamespace::DiffieHellmanUtility::GenerateDiffieHellmanKeys)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x35b7cb0;
+  constexpr static std::size_t addrs = 0x35da614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DiffieHellmanUtility*>(), { "GenerateDiffieHellmanKeys", {}, {} })));
@@ -542,7 +542,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair* (*)()>(&::GlobalNamespace::DiffieHellmanUtility::GenerateElipticalCurveKeys)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x35b7a74;
+  constexpr static std::size_t addrs = 0x35da3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DiffieHellmanUtility*>(), { "GenerateElipticalCurveKeys", {}, {} })));
@@ -555,7 +555,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*, ::ArrayW<uint8_t>)>(
     &::GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x35b7fdc;
+  constexpr static std::size_t addrs = 0x35da940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -570,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*, ::ArrayW<uint8_t>)>(
     &::GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x35b8230;
+  constexpr static std::size_t addrs = 0x35dab94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

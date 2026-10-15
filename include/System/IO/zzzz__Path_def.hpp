@@ -65,18 +65,18 @@ public:
 
   static inline ::System::IO::Path___c* New_ctor();
 
-  /// @brief Method <JoinInternal>b__56_0, addr 0x6039bb4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method <JoinInternal>b__56_0, addr 0x607649c, size 0x134, virtual false, abstract: false, final false
   inline void _JoinInternal_b__56_0(
       ::System::Span_1<char16_t> destination,
       /* [TupleElementNames(new[] { "First", "FirstLength", "Second", "SecondLength", "HasSeparator" })] */ ::System::ValueTuple_5<::System::IntPtr, int32_t, ::System::IntPtr, int32_t, bool> state);
 
-  /// @brief Method <JoinInternal>b__57_0, addr 0x6039ce8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method <JoinInternal>b__57_0, addr 0x60765d0, size 0x1b8, virtual false, abstract: false, final false
   inline void _JoinInternal_b__57_0(::System::Span_1<char16_t> destination,
                                     /* [TupleElementNames(new[] { "First", "FirstLength", "Second", "SecondLength", "Third", "ThirdLength", "FirstHasSeparator", "ThirdHasSeparator", null })] */ ::
                                         System::ValueTuple_8<::System::IntPtr, int32_t, ::System::IntPtr, int32_t, ::System::IntPtr, int32_t, bool, ::System::ValueTuple_1<bool>>
                                             state);
 
-  /// @brief Method .ctor, addr 0x6039bb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6076498, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IO::Path___c* getStaticF___9();
@@ -156,91 +156,91 @@ public:
   /// @brief Field trimEndCharsWindows, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_trimEndCharsWindows, put = setStaticF_trimEndCharsWindows)) ::ArrayW<char16_t> trimEndCharsWindows;
 
-  /// @brief Method CanonicalizePath, addr 0x60380e4, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method CanonicalizePath, addr 0x60749cc, size 0x29c, virtual false, abstract: false, final false
   static inline ::StringW CanonicalizePath(::StringW path);
 
-  /// @brief Method ChangeExtension, addr 0x603709c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ChangeExtension, addr 0x6073984, size 0x1e8, virtual false, abstract: false, final false
   static inline ::StringW ChangeExtension(::StringW path, ::StringW extension);
 
-  /// @brief Method CleanPath, addr 0x60376b4, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method CleanPath, addr 0x6073f9c, size 0x414, virtual false, abstract: false, final false
   static inline ::StringW CleanPath(::StringW s);
 
-  /// @brief Method Combine, addr 0x6037324, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x6073c0c, size 0x264, virtual false, abstract: false, final false
   static inline ::StringW Combine(::StringW path1, ::StringW path2);
 
-  /// @brief Method Combine, addr 0x6038db4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x607569c, size 0x154, virtual false, abstract: false, final false
   static inline ::StringW Combine(::StringW path1, ::StringW path2, ::StringW path3);
 
-  /// @brief Method Combine, addr 0x6038f08, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x60757f0, size 0x190, virtual false, abstract: false, final false
   static inline ::StringW Combine(::StringW path1, ::StringW path2, ::StringW path3, ::StringW path4);
 
-  /// @brief Method Combine, addr 0x6038acc, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x60753b4, size 0x2e8, virtual false, abstract: false, final false
   static inline ::StringW Combine(/* [ParamArray] */ ::ArrayW<::StringW> paths);
 
-  /// @brief Method GetDirectoryName, addr 0x6022cc4, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method GetDirectoryName, addr 0x605f5ac, size 0x348, virtual false, abstract: false, final false
   static inline ::StringW GetDirectoryName(::StringW path);
 
-  /// @brief Method GetDirectoryName, addr 0x6037e8c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetDirectoryName, addr 0x6074774, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> GetDirectoryName(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method GetExtension, addr 0x6037f64, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetExtension, addr 0x607484c, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW GetExtension(::StringW path);
 
-  /// @brief Method GetFileName, addr 0x602e1d8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetFileName, addr 0x606aac0, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW GetFileName(::StringW path);
 
-  /// @brief Method GetFileName, addr 0x6039098, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetFileName, addr 0x6075980, size 0x170, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> GetFileName(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method GetFileNameWithoutExtension, addr 0x6038084, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetFileNameWithoutExtension, addr 0x607496c, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW GetFileNameWithoutExtension(::StringW path);
 
-  /// @brief Method GetFullPath, addr 0x60330f4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetFullPath, addr 0x606f9dc, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW GetFullPath(::StringW path);
 
-  /// @brief Method GetFullPathInternal, addr 0x6023154, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetFullPathInternal, addr 0x605fa3c, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW GetFullPathInternal(::StringW path);
 
-  /// @brief Method GetInvalidPathChars, addr 0x60388c0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetInvalidPathChars, addr 0x60751a8, size 0x5c, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t> GetInvalidPathChars();
 
-  /// @brief Method GetPathRoot, addr 0x6037ac8, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method GetPathRoot, addr 0x60743b0, size 0x3c4, virtual false, abstract: false, final false
   static inline ::StringW GetPathRoot(::StringW path);
 
-  /// @brief Method GetTempFileName, addr 0x6038380, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method GetTempFileName, addr 0x6074c68, size 0x344, virtual false, abstract: false, final false
   static inline ::StringW GetTempFileName();
 
-  /// @brief Method GetTempPath, addr 0x60386c4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetTempPath, addr 0x6074fac, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW GetTempPath();
 
-  /// @brief Method InsecureGetFullPath, addr 0x6032a68, size 0x5dc, virtual false, abstract: false, final false
+  /// @brief Method InsecureGetFullPath, addr 0x606f350, size 0x5dc, virtual false, abstract: false, final false
   static inline ::StringW InsecureGetFullPath(::StringW path);
 
-  /// @brief Method IsDirectorySeparator, addr 0x602e144, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsDirectorySeparator, addr 0x606aa2c, size 0x94, virtual false, abstract: false, final false
   static inline bool IsDirectorySeparator(char16_t c);
 
-  /// @brief Method IsPathRooted, addr 0x6037588, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method IsPathRooted, addr 0x6073e70, size 0x12c, virtual false, abstract: false, final false
   static inline bool IsPathRooted(::StringW path);
 
-  /// @brief Method IsPathRooted, addr 0x60387b0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method IsPathRooted, addr 0x6075098, size 0x110, virtual false, abstract: false, final false
   static inline bool IsPathRooted(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method Join, addr 0x6039208, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x6075af0, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW Join(::System::ReadOnlySpan_1<char16_t> path1, ::System::ReadOnlySpan_1<char16_t> path2);
 
-  /// @brief Method Join, addr 0x60394d0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x6075db8, size 0x128, virtual false, abstract: false, final false
   static inline ::StringW Join(::System::ReadOnlySpan_1<char16_t> path1, ::System::ReadOnlySpan_1<char16_t> path2, ::System::ReadOnlySpan_1<char16_t> path3);
 
-  /// @brief Method JoinInternal, addr 0x60392cc, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method JoinInternal, addr 0x6075bb4, size 0x204, virtual false, abstract: false, final false
   static inline ::StringW JoinInternal(::System::ReadOnlySpan_1<char16_t> first, ::System::ReadOnlySpan_1<char16_t> second);
 
-  /// @brief Method JoinInternal, addr 0x60395f8, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method JoinInternal, addr 0x6075ee0, size 0x2f0, virtual false, abstract: false, final false
   static inline ::StringW JoinInternal(::System::ReadOnlySpan_1<char16_t> first, ::System::ReadOnlySpan_1<char16_t> second, ::System::ReadOnlySpan_1<char16_t> third);
 
-  /// @brief Method TryJoin, addr 0x60398e8, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method TryJoin, addr 0x60761d0, size 0x274, virtual false, abstract: false, final false
   static inline bool TryJoin(::System::ReadOnlySpan_1<char16_t> path1, ::System::ReadOnlySpan_1<char16_t> path2, ::System::Span_1<char16_t> destination, ::by_ref<int32_t> charsWritten);
 
-  /// @brief Method findExtension, addr 0x6037284, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method findExtension, addr 0x6073b6c, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t findExtension(::StringW path);
 
   static inline char16_t getStaticF_AltDirectorySeparatorChar();
@@ -263,7 +263,7 @@ public:
 
   static inline ::ArrayW<char16_t> getStaticF_trimEndCharsWindows();
 
-  /// @brief Method get_temp_path, addr 0x60387ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_temp_path, addr 0x6075094, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW get_temp_path();
 
   static inline void setStaticF_AltDirectorySeparatorChar(char16_t value);

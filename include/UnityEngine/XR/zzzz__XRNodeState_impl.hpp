@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::XRNodeState::*)(uint64_t)>(&::UnityEngine::XR::XRNodeState::set_uniqueID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72d2720;
+  constexpr static std::size_t addrs = 0x730f654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::XRNodeState>(), { "set_uniqueID", {}, { ::i2c::type_of<uint64_t>() } })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::XRNode (::UnityEngine::XR::XRNodeState::*)()>(&::UnityEngine::XR::XRNodeState::get_nodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72d2a04;
+  constexpr static std::size_t addrs = 0x730f938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::XRNodeState>(), { "get_nodeType", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::XRNodeState::*)(::UnityEngine::XR::XRNode)>(&::UnityEngine::XR::XRNodeState::set_nodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72d2728;
+  constexpr static std::size_t addrs = 0x730f65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::XRNodeState::*)(bool)>(&::UnityEngine::XR::XRNodeState::set_tracked)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72d2730;
+  constexpr static std::size_t addrs = 0x730f664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::XRNodeState>(), { "set_tracked", {}, { ::i2c::type_of<bool>() } })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::XRNodeState::*)(::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::XR::XRNodeState::TryGetPosition)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x72d2a0c;
+  constexpr static std::size_t addrs = 0x730f940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::XRNodeState::*)(::by_ref<::UnityEngine::Quaternion>)>(&::UnityEngine::XR::XRNodeState::TryGetRotation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x72d2a9c;
+  constexpr static std::size_t addrs = 0x730f9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::XRNodeState::*)(::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::XR::XRNodeState::TryGetVelocity)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x72d2b2c;
+  constexpr static std::size_t addrs = 0x730fa60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::XRNodeState::*)(::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::XR::XRNodeState::TryGetAngularVelocity)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x72d2b40;
+  constexpr static std::size_t addrs = 0x730fa74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::XRNodeState::*)(::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::XR::XRNodeState::TryGetAcceleration)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x72d2b54;
+  constexpr static std::size_t addrs = 0x730fa88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::XRNodeState::*)(::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::XR::XRNodeState::TryGetAngularAcceleration)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x72d2b68;
+  constexpr static std::size_t addrs = 0x730fa9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::XRNodeState::*)(::UnityEngine::Vector3, ::UnityEngine::XR::AvailableTrackingData, ::by_ref<::UnityEngine::Vector3>)>(
     &::UnityEngine::XR::XRNodeState::TryGet)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x72d2a20;
+  constexpr static std::size_t addrs = 0x730f954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::XRNodeState::*)(::UnityEngine::Quaternion, ::UnityEngine::XR::AvailableTrackingData,
                                                                                                 ::by_ref<::UnityEngine::Quaternion>)>(&::UnityEngine::XR::XRNodeState::TryGet)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x72d2ab0;
+  constexpr static std::size_t addrs = 0x730f9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::Events::ArgumentCache::*)()>(&::UnityEngine::Events::ArgumentCache::get_unityObjectArgument)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f57c88;
+  constexpr static std::size_t addrs = 0x6f94b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::ArgumentCache*>(), { "get_unityObjectArgument", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Events::ArgumentCache::*)()>(&::UnityEngine::Events::ArgumentCache::get_unityObjectArgumentAssemblyTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f57c90;
+  constexpr static std::size_t addrs = 0x6f94b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Events::ArgumentCache::*)()>(&::UnityEngine::Events::ArgumentCache::get_intArgument)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f57c98;
+  constexpr static std::size_t addrs = 0x6f94b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::ArgumentCache*>(), { "get_intArgument", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Events::ArgumentCache::*)()>(&::UnityEngine::Events::ArgumentCache::get_floatArgument)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f57ca0;
+  constexpr static std::size_t addrs = 0x6f94b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::ArgumentCache*>(), { "get_floatArgument", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Events::ArgumentCache::*)()>(&::UnityEngine::Events::ArgumentCache::get_stringArgument)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f57ca8;
+  constexpr static std::size_t addrs = 0x6f94b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::ArgumentCache*>(), { "get_stringArgument", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Events::ArgumentCache::*)()>(&::UnityEngine::Events::ArgumentCache::get_boolArgument)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f57cb0;
+  constexpr static std::size_t addrs = 0x6f94b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::ArgumentCache*>(), { "get_boolArgument", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Events::ArgumentCache::*)()>(&::UnityEngine::Events::ArgumentCache::OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6f57cb8;
+  constexpr static std::size_t addrs = 0x6f94b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::ArgumentCache*>(), { "OnBeforeSerialize", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Events::ArgumentCache::*)()>(&::UnityEngine::Events::ArgumentCache::OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6f57cd4;
+  constexpr static std::size_t addrs = 0x6f94b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::ArgumentCache*>(), { "OnAfterDeserialize", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Events::ArgumentCache::*)()>(&::UnityEngine::Events::ArgumentCache::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f57cf0;
+  constexpr static std::size_t addrs = 0x6f94ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::ArgumentCache*>(), { ".ctor", {}, {} })));

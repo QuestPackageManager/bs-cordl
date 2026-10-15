@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::LazyDerSequence::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::LazyDerSequence::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x391c888;
+  constexpr static std::size_t addrs = 0x393f1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::LazyDerSequence::*)()>(&::Org::BouncyCastle::Asn1::LazyDerSequence::Parse)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x391c9d4;
+  constexpr static std::size_t addrs = 0x393f338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::LazyDerSequence*>(), { "Parse", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Asn1::LazyDerSequence::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::LazyDerSequence::get_Item)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x391cb40;
+  constexpr static std::size_t addrs = 0x393f4a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Asn1::LazyDerSequence::*)()>(
     &::Org::BouncyCastle::Asn1::LazyDerSequence::GetEnumerator)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x391cb68;
+  constexpr static std::size_t addrs = 0x393f4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::LazyDerSequence::*)()>(&::Org::BouncyCastle::Asn1::LazyDerSequence::get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x391cb8c;
+  constexpr static std::size_t addrs = 0x393f4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::LazyDerSequence::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(
     &::Org::BouncyCastle::Asn1::LazyDerSequence::Encode)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x391cbb0;
+  constexpr static std::size_t addrs = 0x393f514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

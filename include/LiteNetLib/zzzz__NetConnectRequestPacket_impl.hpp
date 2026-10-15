@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::NetConnectRequestPacket::*)(int64_t, uint8_t, ::ArrayW<uint8_t>, ::LiteNetLib::Utils::NetDataReader*)>(
     &::LiteNetLib::NetConnectRequestPacket::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cbb018;
+  constexpr static std::size_t addrs = 0x5cf3fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::NetConnectRequestPacket::GetProtocolId)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cb7ebc;
+  constexpr static std::size_t addrs = 0x5cf0e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::NetConnectRequestPacket* (*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::NetConnectRequestPacket::FromData)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5cb7f64;
+  constexpr static std::size_t addrs = 0x5cf0f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::NetPacket* (*)(::LiteNetLib::Utils::NetDataWriter*, ::System::Net::SocketAddress*, int64_t)>(
     &::LiteNetLib::NetConnectRequestPacket::Make)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5cbb038;
+  constexpr static std::size_t addrs = 0x5cf4000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

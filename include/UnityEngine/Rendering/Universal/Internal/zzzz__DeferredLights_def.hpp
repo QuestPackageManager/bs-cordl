@@ -438,7 +438,7 @@ public:
   DeferredLights_ShaderConstants(DeferredLights_ShaderConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13292 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13299 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -505,7 +505,7 @@ public:
   static ::UnityEngine::Rendering::Universal::Internal::DeferredLights_StencilDeferredPasses const StencilVolume;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13300 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -564,7 +564,7 @@ public:
   static ::UnityEngine::Rendering::Universal::Internal::DeferredLights_ClusterDeferredPasses const Fog;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13301 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -598,7 +598,7 @@ public:
                                       ::UnityEngine::Rendering::Universal::LightCookieManager* lightCookieManager, bool deferredPlus) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13295 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13302 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -674,7 +674,7 @@ public:
 
   constexpr void __cordl_internal_set_lightData(::UnityEngine::Rendering::Universal::UniversalLightData* value);
 
-  /// @brief Method .ctor, addr 0x6d198a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d5651c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -692,7 +692,7 @@ public:
   DeferredLights_SetupLightPassData(DeferredLights_SetupLightPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13296 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13303 };
 
   /// @brief Field cameraData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalCameraData* ___cameraData;
@@ -738,11 +738,11 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DeferredLights___c* New_ctor();
 
-  /// @brief Method <SetupRenderGraphLights>b__140_0, addr 0x6d198fc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <SetupRenderGraphLights>b__140_0, addr 0x6d56578, size 0x90, virtual false, abstract: false, final false
   inline void _SetupRenderGraphLights_b__140_0(::UnityEngine::Rendering::Universal::Internal::DeferredLights_SetupLightPassData* data,
                                                ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* rgContext);
 
-  /// @brief Method .ctor, addr 0x6d198f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d56574, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DeferredLights___c* getStaticF___9();
@@ -771,7 +771,7 @@ public:
   DeferredLights___c(DeferredLights___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13297 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13304 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1037,140 +1037,140 @@ public:
   /// @brief Field s_SetupDeferredLights, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_SetupDeferredLights, put = setStaticF_s_SetupDeferredLights)) ::UnityEngine::Rendering::ProfilingSampler* s_SetupDeferredLights;
 
-  /// @brief Method CreateFullscreenMesh, addr 0x6d167c8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method CreateFullscreenMesh, addr 0x6d53444, size 0x158, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> CreateFullscreenMesh();
 
-  /// @brief Method CreateGbufferResources, addr 0x6d14238, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method CreateGbufferResources, addr 0x6d50eb4, size 0x2f0, virtual false, abstract: false, final false
   inline void CreateGbufferResources();
 
-  /// @brief Method CreateGbufferResourcesRenderGraph, addr 0x6d1478c, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method CreateGbufferResourcesRenderGraph, addr 0x6d51408, size 0x318, virtual false, abstract: false, final false
   inline void CreateGbufferResourcesRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData);
 
-  /// @brief Method CreateHemisphereMesh, addr 0x6d18510, size 0x538, virtual false, abstract: false, final false
+  /// @brief Method CreateHemisphereMesh, addr 0x6d5518c, size 0x538, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> CreateHemisphereMesh();
 
-  /// @brief Method CreateSphereMesh, addr 0x6d17f3c, size 0x5d4, virtual false, abstract: false, final false
+  /// @brief Method CreateSphereMesh, addr 0x6d54bb8, size 0x5d4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> CreateSphereMesh();
 
-  /// @brief Method DisableFramebufferFetchInput, addr 0x6d14230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DisableFramebufferFetchInput, addr 0x6d50eac, size 0x8, virtual false, abstract: false, final false
   inline void DisableFramebufferFetchInput();
 
-  /// @brief Method ExecuteDeferredPass, addr 0x6d153fc, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method ExecuteDeferredPass, addr 0x6d52078, size 0x384, virtual false, abstract: false, final false
   inline void ExecuteDeferredPass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                   ::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
-  /// @brief Method GetGBufferFormat, addr 0x6d12aac, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetGBufferFormat, addr 0x6d4f728, size 0x15c, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGBufferFormat(int32_t index);
 
-  /// @brief Method GetScreenToWorldMatrix, addr 0x6d164fc, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method GetScreenToWorldMatrix, addr 0x6d53178, size 0x2cc, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4> GetScreenToWorldMatrix(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method HasStencilLightsOfType, addr 0x6d15818, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HasStencilLightsOfType, addr 0x6d52494, size 0x7c, virtual false, abstract: false, final false
   inline bool HasStencilLightsOfType(::UnityEngine::LightType type);
 
-  /// @brief Method InitClusterDeferredMaterial, addr 0x6d130ac, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method InitClusterDeferredMaterial, addr 0x6d4fd28, size 0x218, virtual false, abstract: false, final false
   inline void InitClusterDeferredMaterial();
 
-  /// @brief Method InitStencilDeferredMaterial, addr 0x6d132c4, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method InitStencilDeferredMaterial, addr 0x6d4ff40, size 0x328, virtual false, abstract: false, final false
   inline void InitStencilDeferredMaterial();
 
-  /// @brief Method IsRuntimeSupportedThisFrame, addr 0x6d14d78, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsRuntimeSupportedThisFrame, addr 0x6d519f4, size 0xcc, virtual false, abstract: false, final false
   inline bool IsRuntimeSupportedThisFrame();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DeferredLights* New_ctor(::UnityEngine::Rendering::Universal::Internal::DeferredLights_InitParams initParams, bool useNativeRenderPass);
 
-  /// @brief Method OnCameraCleanup, addr 0x6d15080, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x6d51cfc, size 0xd0, virtual false, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method OverwriteStencil, addr 0x6d15290, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method OverwriteStencil, addr 0x6d51f0c, size 0x16c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderStateBlock OverwriteStencil(::UnityEngine::Rendering::RenderStateBlock block, int32_t stencilWriteMask, int32_t stencilRef);
 
-  /// @brief Method OverwriteStencil, addr 0x6d15150, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method OverwriteStencil, addr 0x6d51dcc, size 0x140, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::StencilState OverwriteStencil(::UnityEngine::Rendering::StencilState s, int32_t stencilWriteMask);
 
-  /// @brief Method PrecomputeLights, addr 0x6d13dc0, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method PrecomputeLights, addr 0x6d50a3c, size 0x304, virtual false, abstract: false, final false
   inline void PrecomputeLights(::by_ref<::Unity::Collections::NativeArray_1<uint16_t>> stencilVisLights, ::by_ref<::Unity::Collections::NativeArray_1<uint16_t>> stencilVisLightOffsets,
                                ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight>> visibleLights, bool hasAdditionalLights);
 
-  /// @brief Method ReAllocateGBufferIfNeeded, addr 0x6d145b4, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method ReAllocateGBufferIfNeeded, addr 0x6d51230, size 0x1d8, virtual false, abstract: false, final false
   inline void ReAllocateGBufferIfNeeded(::UnityEngine::RenderTextureDescriptor gbufferSlice, int32_t gbufferIndex);
 
-  /// @brief Method ReleaseGbufferResources, addr 0x6d14528, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseGbufferResources, addr 0x6d511a4, size 0x8c, virtual false, abstract: false, final false
   inline void ReleaseGbufferResources();
 
-  /// @brief Method RenderClusterLights, addr 0x6d159d4, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method RenderClusterLights, addr 0x6d52650, size 0x390, virtual false, abstract: false, final false
   inline void RenderClusterLights(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
-  /// @brief Method RenderFog, addr 0x6d1605c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method RenderFog, addr 0x6d52cd8, size 0x200, virtual false, abstract: false, final false
   inline void RenderFog(::UnityEngine::Rendering::RasterCommandBuffer* cmd, bool isOrthographic);
 
-  /// @brief Method RenderSSAOBeforeShading, addr 0x6d15894, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method RenderSSAOBeforeShading, addr 0x6d52510, size 0x140, virtual false, abstract: false, final false
   inline void RenderSSAOBeforeShading(::UnityEngine::Rendering::RasterCommandBuffer* cmd);
 
-  /// @brief Method RenderStencilDirectionalLights, addr 0x6d16920, size 0x610, virtual false, abstract: false, final false
+  /// @brief Method RenderStencilDirectionalLights, addr 0x6d5359c, size 0x610, virtual false, abstract: false, final false
   inline void RenderStencilDirectionalLights(::UnityEngine::Rendering::RasterCommandBuffer* cmd, bool stripShadowsOffVariants, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
                                              ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData,
                                              ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> visibleLights, bool hasAdditionalLightPass, bool hasLightCookieManager,
                                              int32_t mainLightIndex);
 
-  /// @brief Method RenderStencilLights, addr 0x6d15d64, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method RenderStencilLights, addr 0x6d529e0, size 0x2f8, virtual false, abstract: false, final false
   inline void RenderStencilLights(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
                                   ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData, bool stripShadowsOffVariants);
 
-  /// @brief Method RenderStencilPointLights, addr 0x6d16f30, size 0x5d4, virtual false, abstract: false, final false
+  /// @brief Method RenderStencilPointLights, addr 0x6d53bac, size 0x5d4, virtual false, abstract: false, final false
   inline void RenderStencilPointLights(::UnityEngine::Rendering::RasterCommandBuffer* cmd, bool stripShadowsOffVariants, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
                                        ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> visibleLights,
                                        bool hasAdditionalLightPass, bool hasLightCookieManager);
 
-  /// @brief Method RenderStencilSpotLights, addr 0x6d17504, size 0x6dc, virtual false, abstract: false, final false
+  /// @brief Method RenderStencilSpotLights, addr 0x6d54180, size 0x6dc, virtual false, abstract: false, final false
   inline void RenderStencilSpotLights(::UnityEngine::Rendering::RasterCommandBuffer* cmd, bool stripShadowsOffVariants, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
                                       ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> visibleLights,
                                       bool hasAdditionalLightPass, bool hasLightCookieManager);
 
-  /// @brief Method ResolveMixedLightingMode, addr 0x6d140c8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ResolveMixedLightingMode, addr 0x6d50d44, size 0x168, virtual false, abstract: false, final false
   inline void ResolveMixedLightingMode(::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
-  /// @brief Method SetAdditionalLightsShadowsKeyword, addr 0x6d17d88, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetAdditionalLightsShadowsKeyword, addr 0x6d54a04, size 0xc4, virtual false, abstract: false, final false
   inline void SetAdditionalLightsShadowsKeyword(::by_ref<::UnityEngine::Rendering::RasterCommandBuffer*> cmd, bool stripShadowsOffVariants, bool additionalLightShadowsEnabled, bool hasDeferredShadows,
                                                 bool shouldOverride, ::by_ref<bool> lastShadowsKeyword);
 
-  /// @brief Method SetLightCookiesKeyword, addr 0x6d17c40, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SetLightCookiesKeyword, addr 0x6d548bc, size 0x148, virtual false, abstract: false, final false
   inline void SetLightCookiesKeyword(::UnityEngine::Rendering::RasterCommandBuffer* cmd, int32_t visLightIndex, bool hasLightCookieManager, bool shouldOverride, ::by_ref<bool> lastLightCookieState,
                                      ::by_ref<int32_t> lastCookieLightIndex);
 
-  /// @brief Method SetRenderingLayersMask, addr 0x6d16458, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetRenderingLayersMask, addr 0x6d530d4, size 0xa4, virtual false, abstract: false, final false
   inline void SetRenderingLayersMask(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Light* light, int32_t shaderPropertyID);
 
-  /// @brief Method SetSoftShadowsKeyword, addr 0x6d17e4c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetSoftShadowsKeyword, addr 0x6d54ac8, size 0xf0, virtual false, abstract: false, final false
   inline void SetSoftShadowsKeyword(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData, ::UnityEngine::Light* light,
                                     bool hasDeferredShadows, bool shouldOverride, ::by_ref<bool> lastHasSoftShadow);
 
-  /// @brief Method Setup, addr 0x6d15078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d51cf4, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass* additionalLightsShadowCasterPass);
 
-  /// @brief Method Setup, addr 0x6d14e44, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d51ac0, size 0x234, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass* additionalLightsShadowCasterPass, bool hasDepthPrepass, bool hasNormalPrepass,
                     bool hasRenderingLayerPrepass, ::UnityEngine::Rendering::RTHandle* depthCopyTexture, ::UnityEngine::Rendering::RTHandle* depthAttachment,
                     ::UnityEngine::Rendering::RTHandle* colorAttachment);
 
-  /// @brief Method SetupLights, addr 0x6d139a4, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method SetupLights, addr 0x6d50620, size 0x41c, virtual false, abstract: false, final false
   inline void SetupLights(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Vector2Int cameraTargetSizeCopy,
                           ::UnityEngine::Rendering::Universal::UniversalLightData* lightData, bool isRenderGraph);
 
-  /// @brief Method SetupMainLightConstants, addr 0x6d1625c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method SetupMainLightConstants, addr 0x6d52ed8, size 0x1fc, virtual false, abstract: false, final false
   inline void SetupMainLightConstants(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
-  /// @brief Method SetupMatrixConstants, addr 0x6d15780, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetupMatrixConstants, addr 0x6d523fc, size 0x98, virtual false, abstract: false, final false
   inline void SetupMatrixConstants(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method SetupRenderGraphLights, addr 0x6d135ec, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method SetupRenderGraphLights, addr 0x6d50268, size 0x3b8, virtual false, abstract: false, final false
   inline void SetupRenderGraphLights(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                      ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
-  /// @brief Method SetupShaderLightConstants, addr 0x6d140c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetupShaderLightConstants, addr 0x6d50d40, size 0x4, virtual false, abstract: false, final false
   inline void SetupShaderLightConstants(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
-  /// @brief Method UpdateDeferredInputAttachments, addr 0x6d14aa4, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method UpdateDeferredInputAttachments, addr 0x6d51720, size 0x2d4, virtual false, abstract: false, final false
   inline void UpdateDeferredInputAttachments();
 
   constexpr ::ArrayW<::UnityEngine::Rendering::RTHandle*> const& __cordl_internal_get_GbufferRTHandles() const;
@@ -1389,7 +1389,7 @@ public:
 
   constexpr void __cordl_internal_set_m_stencilVisLights(::Unity::Collections::NativeArray_1<uint16_t> value);
 
-  /// @brief Method .ctor, addr 0x6d12d9c, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d4fa18, size 0x310, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::Internal::DeferredLights_InitParams initParams, bool useNativeRenderPass);
 
   static inline float_t getStaticF_kStencilShapeGuard();
@@ -1425,115 +1425,115 @@ public:
   static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF_s_SetupDeferredLights();
 
   /// [CompilerGenerated]
-  /// @brief Method get_AccurateGbufferNormals, addr 0x6d12ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AccurateGbufferNormals, addr 0x6d4f948, size 0x8, virtual false, abstract: false, final false
   inline bool get_AccurateGbufferNormals();
 
   /// [CompilerGenerated]
-  /// @brief Method get_DeferredInputAttachments, addr 0x6d12d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DeferredInputAttachments, addr 0x6d4f9b8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RTHandle*> get_DeferredInputAttachments();
 
   /// [CompilerGenerated]
-  /// @brief Method get_DeferredInputIsTransient, addr 0x6d12d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DeferredInputIsTransient, addr 0x6d4f9c8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<bool> get_DeferredInputIsTransient();
 
   /// [CompilerGenerated]
-  /// @brief Method get_DepthAttachment, addr 0x6d12d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DepthAttachment, addr 0x6d4f9d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_DepthAttachment();
 
   /// [CompilerGenerated]
-  /// @brief Method get_DepthAttachmentHandle, addr 0x6d12d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DepthAttachmentHandle, addr 0x6d4fa08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_DepthAttachmentHandle();
 
   /// [CompilerGenerated]
-  /// @brief Method get_DepthCopyTexture, addr 0x6d12d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DepthCopyTexture, addr 0x6d4f9e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_DepthCopyTexture();
 
-  /// @brief Method get_GBufferAlbedoIndex, addr 0x6d1296c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GBufferAlbedoIndex, addr 0x6d4f5e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_GBufferAlbedoIndex();
 
-  /// @brief Method get_GBufferInputAttachmentCount, addr 0x6d12a98, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_GBufferInputAttachmentCount, addr 0x6d4f714, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_GBufferInputAttachmentCount();
 
-  /// @brief Method get_GBufferLightingIndex, addr 0x6d12984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GBufferLightingIndex, addr 0x6d4f600, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_GBufferLightingIndex();
 
-  /// @brief Method get_GBufferNormalSmoothnessIndex, addr 0x6d1297c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GBufferNormalSmoothnessIndex, addr 0x6d4f5f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_GBufferNormalSmoothnessIndex();
 
-  /// @brief Method get_GBufferRenderingLayers, addr 0x6d129a0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_GBufferRenderingLayers, addr 0x6d4f61c, size 0x30, virtual false, abstract: false, final false
   inline int32_t get_GBufferRenderingLayers();
 
-  /// @brief Method get_GBufferShadowMask, addr 0x6d129fc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_GBufferShadowMask, addr 0x6d4f678, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_GBufferShadowMask();
 
-  /// @brief Method get_GBufferSliceCount, addr 0x6d12a54, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_GBufferSliceCount, addr 0x6d4f6d0, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_GBufferSliceCount();
 
-  /// @brief Method get_GBufferSpecularMetallicIndex, addr 0x6d12974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GBufferSpecularMetallicIndex, addr 0x6d4f5f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_GBufferSpecularMetallicIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_GbufferAttachments, addr 0x6d12d1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GbufferAttachments, addr 0x6d4f998, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RTHandle*> get_GbufferAttachments();
 
-  /// @brief Method get_GbufferDepthIndex, addr 0x6d1298c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_GbufferDepthIndex, addr 0x6d4f608, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_GbufferDepthIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_GbufferFormats, addr 0x6d12d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GbufferFormats, addr 0x6d4f9f8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat> get_GbufferFormats();
 
   /// [CompilerGenerated]
-  /// @brief Method get_GbufferTextureHandles, addr 0x6d12d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GbufferTextureHandles, addr 0x6d4f9a8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> get_GbufferTextureHandles();
 
   /// [CompilerGenerated]
-  /// @brief Method get_HasDepthPrepass, addr 0x6d12c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasDepthPrepass, addr 0x6d4f918, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasDepthPrepass();
 
   /// [CompilerGenerated]
-  /// @brief Method get_HasNormalPrepass, addr 0x6d12cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasNormalPrepass, addr 0x6d4f928, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasNormalPrepass();
 
   /// [CompilerGenerated]
-  /// @brief Method get_HasRenderingLayerPrepass, addr 0x6d12cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasRenderingLayerPrepass, addr 0x6d4f938, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasRenderingLayerPrepass();
 
   /// [CompilerGenerated]
-  /// @brief Method get_MixedLightingSetup, addr 0x6d12cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MixedLightingSetup, addr 0x6d4f958, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::MixedLightingSetup get_MixedLightingSetup();
 
   /// [CompilerGenerated]
-  /// @brief Method get_RenderHeight, addr 0x6d12d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RenderHeight, addr 0x6d4f988, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RenderHeight();
 
   /// [CompilerGenerated]
-  /// @brief Method get_RenderWidth, addr 0x6d12cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RenderWidth, addr 0x6d4f978, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RenderWidth();
 
   /// [CompilerGenerated]
-  /// @brief Method get_RenderingLayerMaskSize, addr 0x6d12c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RenderingLayerMaskSize, addr 0x6d4f8e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize get_RenderingLayerMaskSize();
 
   /// [CompilerGenerated]
-  /// @brief Method get_UseDecalLayers, addr 0x6d12c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseDecalLayers, addr 0x6d4f8f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseDecalLayers();
 
   /// [CompilerGenerated]
-  /// @brief Method get_UseFramebufferFetch, addr 0x6d12c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseFramebufferFetch, addr 0x6d4f908, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseFramebufferFetch();
 
   /// [CompilerGenerated]
-  /// @brief Method get_UseJobSystem, addr 0x6d12cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseJobSystem, addr 0x6d4f968, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseJobSystem();
 
-  /// @brief Method get_UseLightLayers, addr 0x6d12c08, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_UseLightLayers, addr 0x6d4f884, size 0x64, virtual false, abstract: false, final false
   inline bool get_UseLightLayers();
 
-  /// @brief Method get_UseRenderingLayers, addr 0x6d129d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_UseRenderingLayers, addr 0x6d4f64c, size 0x2c, virtual false, abstract: false, final false
   inline bool get_UseRenderingLayers();
 
-  /// @brief Method get_UseShadowMask, addr 0x6d12a44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_UseShadowMask, addr 0x6d4f6c0, size 0x10, virtual false, abstract: false, final false
   inline bool get_UseShadowMask();
 
   static inline void setStaticF_kStencilShapeGuard(float_t value);
@@ -1569,79 +1569,79 @@ public:
   static inline void setStaticF_s_SetupDeferredLights(::UnityEngine::Rendering::ProfilingSampler* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_AccurateGbufferNormals, addr 0x6d12cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AccurateGbufferNormals, addr 0x6d4f950, size 0x8, virtual false, abstract: false, final false
   inline void set_AccurateGbufferNormals(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_DeferredInputAttachments, addr 0x6d12d44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DeferredInputAttachments, addr 0x6d4f9c0, size 0x8, virtual false, abstract: false, final false
   inline void set_DeferredInputAttachments(::ArrayW<::UnityEngine::Rendering::RTHandle*> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_DeferredInputIsTransient, addr 0x6d12d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DeferredInputIsTransient, addr 0x6d4f9d0, size 0x8, virtual false, abstract: false, final false
   inline void set_DeferredInputIsTransient(::ArrayW<bool> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_DepthAttachment, addr 0x6d12d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DepthAttachment, addr 0x6d4f9e0, size 0x8, virtual false, abstract: false, final false
   inline void set_DepthAttachment(::UnityEngine::Rendering::RTHandle* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_DepthAttachmentHandle, addr 0x6d12d94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DepthAttachmentHandle, addr 0x6d4fa10, size 0x8, virtual false, abstract: false, final false
   inline void set_DepthAttachmentHandle(::UnityEngine::Rendering::RTHandle* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_DepthCopyTexture, addr 0x6d12d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DepthCopyTexture, addr 0x6d4f9f0, size 0x8, virtual false, abstract: false, final false
   inline void set_DepthCopyTexture(::UnityEngine::Rendering::RTHandle* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_GbufferAttachments, addr 0x6d12d24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GbufferAttachments, addr 0x6d4f9a0, size 0x8, virtual false, abstract: false, final false
   inline void set_GbufferAttachments(::ArrayW<::UnityEngine::Rendering::RTHandle*> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_GbufferFormats, addr 0x6d12d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GbufferFormats, addr 0x6d4fa00, size 0x8, virtual false, abstract: false, final false
   inline void set_GbufferFormats(::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_GbufferTextureHandles, addr 0x6d12d34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_GbufferTextureHandles, addr 0x6d4f9b0, size 0x8, virtual false, abstract: false, final false
   inline void set_GbufferTextureHandles(::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_HasDepthPrepass, addr 0x6d12ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HasDepthPrepass, addr 0x6d4f920, size 0x8, virtual false, abstract: false, final false
   inline void set_HasDepthPrepass(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_HasNormalPrepass, addr 0x6d12cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HasNormalPrepass, addr 0x6d4f930, size 0x8, virtual false, abstract: false, final false
   inline void set_HasNormalPrepass(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_HasRenderingLayerPrepass, addr 0x6d12cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HasRenderingLayerPrepass, addr 0x6d4f940, size 0x8, virtual false, abstract: false, final false
   inline void set_HasRenderingLayerPrepass(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_MixedLightingSetup, addr 0x6d12ce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MixedLightingSetup, addr 0x6d4f960, size 0x8, virtual false, abstract: false, final false
   inline void set_MixedLightingSetup(::UnityEngine::Rendering::Universal::MixedLightingSetup value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_RenderHeight, addr 0x6d12d14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RenderHeight, addr 0x6d4f990, size 0x8, virtual false, abstract: false, final false
   inline void set_RenderHeight(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_RenderWidth, addr 0x6d12d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RenderWidth, addr 0x6d4f980, size 0x8, virtual false, abstract: false, final false
   inline void set_RenderWidth(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_RenderingLayerMaskSize, addr 0x6d12c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RenderingLayerMaskSize, addr 0x6d4f8f0, size 0x8, virtual false, abstract: false, final false
   inline void set_RenderingLayerMaskSize(::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_UseDecalLayers, addr 0x6d12c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UseDecalLayers, addr 0x6d4f900, size 0x8, virtual false, abstract: false, final false
   inline void set_UseDecalLayers(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_UseFramebufferFetch, addr 0x6d12c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UseFramebufferFetch, addr 0x6d4f910, size 0x8, virtual false, abstract: false, final false
   inline void set_UseFramebufferFetch(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_UseJobSystem, addr 0x6d12cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UseJobSystem, addr 0x6d4f970, size 0x8, virtual false, abstract: false, final false
   inline void set_UseJobSystem(bool value);
 
 protected:
@@ -1659,7 +1659,7 @@ public:
   DeferredLights(DeferredLights const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13298 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13305 };
 
   /// [CompilerGenerated]
   /// @brief Field <RenderingLayerMaskSize>k__BackingField, offset: 0x10, size: 0x4, def value: None

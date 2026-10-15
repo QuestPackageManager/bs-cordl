@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::XmlSchemaContentType)>(
     &::System::Xml::Schema::ParticleContentValidator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6747eb8;
+  constexpr static std::size_t addrs = 0x6784a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::XmlSchemaContentType, bool)>(
     &::System::Xml::Schema::ParticleContentValidator::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6747ec0;
+  constexpr static std::size_t addrs = 0x6784a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::ParticleContentValidator::InitValidation)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6747f38;
+  constexpr static std::size_t addrs = 0x6784b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::ValidationState*, ::by_ref<int32_t>)>(
         &::System::Xml::Schema::ParticleContentValidator::ValidateElement)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6747f70;
+  constexpr static std::size_t addrs = 0x6784b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::ParticleContentValidator::CompleteValidation)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6747fa8;
+  constexpr static std::size_t addrs = 0x6784b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)()>(&::System::Xml::Schema::ParticleContentValidator::Start)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6747fe0;
+  constexpr static std::size_t addrs = 0x6784bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::ParticleContentValidator*>(), { "Start", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)()>(&::System::Xml::Schema::ParticleContentValidator::OpenGroup)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6748094;
+  constexpr static std::size_t addrs = 0x6784c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::ParticleContentValidator*>(), { "OpenGroup", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)()>(&::System::Xml::Schema::ParticleContentValidator::CloseGroup)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x67480b8;
+  constexpr static std::size_t addrs = 0x6784c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::ParticleContentValidator*>(), { "CloseGroup", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::ParticleContentValidator::Exists)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6748210;
+  constexpr static std::size_t addrs = 0x6784de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Object*)>(
     &::System::Xml::Schema::ParticleContentValidator::AddName)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6748248;
+  constexpr static std::size_t addrs = 0x6784e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::NamespaceList*, ::System::Object*)>(
     &::System::Xml::Schema::ParticleContentValidator::AddNamespaceList)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x67483dc;
+  constexpr static std::size_t addrs = 0x6784fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::SyntaxTreeNode*)>(
     &::System::Xml::Schema::ParticleContentValidator::AddLeafNode)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x67482e8;
+  constexpr static std::size_t addrs = 0x6784eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)()>(&::System::Xml::Schema::ParticleContentValidator::AddChoice)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6748460;
+  constexpr static std::size_t addrs = 0x6785030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::ParticleContentValidator*>(), { "AddChoice", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)()>(&::System::Xml::Schema::ParticleContentValidator::AddSequence)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x674853c;
+  constexpr static std::size_t addrs = 0x678510c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::ParticleContentValidator*>(), { "AddSequence", {}, {} })));
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)()>(&::System::Xml::Schema::ParticleContentValidator::AddStar)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6748618;
+  constexpr static std::size_t addrs = 0x67851e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::ParticleContentValidator*>(), { "AddStar", {}, {} })));
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)()>(&::System::Xml::Schema::ParticleContentValidator::AddPlus)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x67487d0;
+  constexpr static std::size_t addrs = 0x67853a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::ParticleContentValidator*>(), { "AddPlus", {}, {} })));
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)()>(&::System::Xml::Schema::ParticleContentValidator::AddQMark)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6748824;
+  constexpr static std::size_t addrs = 0x67853f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::ParticleContentValidator*>(), { "AddQMark", {}, {} })));
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Decimal, ::System::Decimal)>(
     &::System::Xml::Schema::ParticleContentValidator::AddLeafRange)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6748878;
+  constexpr static std::size_t addrs = 0x6785448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::ParticleContentValidator*>(),
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::InteriorNode*)>(
     &::System::Xml::Schema::ParticleContentValidator::Closure)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x674866c;
+  constexpr static std::size_t addrs = 0x678523c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::ContentValidator* (::System::Xml::Schema::ParticleContentValidator::*)(bool)>(
     &::System::Xml::Schema::ParticleContentValidator::Finish)> {
   constexpr static std::size_t size = 0x560;
-  constexpr static std::size_t addrs = 0x6748958;
+  constexpr static std::size_t addrs = 0x6785528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Xml::S
     ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*>, ::by_ref<::System::Xml::Schema::BitSet*>)>(
     &::System::Xml::Schema::ParticleContentValidator::CalculateTotalFollowposForRangeNodes)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x6748eb8;
+  constexpr static std::size_t addrs = 0x6785a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::BitSet*)>(
     &::System::Xml::Schema::ParticleContentValidator::CheckCMUPAWithLeafRangeNodes)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x67492e4;
+  constexpr static std::size_t addrs = 0x6785eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::ParticleContentValidator*>(),
@@ -325,7 +325,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::Bi
     ::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*>)>(
     &::System::Xml::Schema::ParticleContentValidator::GetApplicableMinMaxFollowPos)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6749170;
+  constexpr static std::size_t addrs = 0x6785d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*>)>(
     &::System::Xml::Schema::ParticleContentValidator::CheckUniqueParticleAttribution)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6749448;
+  constexpr static std::size_t addrs = 0x6786018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ParticleContentValidator::*)(::System::Xml::Schema::BitSet*)>(
     &::System::Xml::Schema::ParticleContentValidator::CheckUniqueParticleAttribution)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6749af0;
+  constexpr static std::size_t addrs = 0x67866c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::ParticleContentValidator*>(),
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::ArrayW<int32_t>> (::System::Xml::Schema::ParticleContentValidator::*)(
     ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*>, int32_t)>(&::System::Xml::Schema::ParticleContentValidator::BuildTransitionTable)> {
   constexpr static std::size_t size = 0x588;
-  constexpr static std::size_t addrs = 0x67494d0;
+  constexpr static std::size_t addrs = 0x67860a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::Base64Encoder__EncodeAsync_d__13::*)()>(
     &::Newtonsoft::Json::Utilities::Base64Encoder__EncodeAsync_d__13::MoveNext)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x6134eac;
+  constexpr static std::size_t addrs = 0x61718f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::Base64Encoder__EncodeAsync_d__13::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::Utilities::Base64Encoder__EncodeAsync_d__13::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6135294;
+  constexpr static std::size_t addrs = 0x6171cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::Base64Encoder__EncodeAsync_d__13>(),
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::Base64Encoder::*)(::System::IO::TextWriter*)>(&::Newtonsoft::Json::Utilities::Base64Encoder::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6134670;
+  constexpr static std::size_t addrs = 0x61710b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::Base64Encoder::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Newtonsoft::Json::Utilities::Base64Encoder::ValidateEncode)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x61346fc;
+  constexpr static std::size_t addrs = 0x6171144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::Base64Encoder::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Newtonsoft::Json::Utilities::Base64Encoder::Encode)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x61347c0;
+  constexpr static std::size_t addrs = 0x6171208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::Base64Encoder::*)(::ArrayW<uint8_t>, int32_t, ::by_ref<int32_t>)>(
     &::Newtonsoft::Json::Utilities::Base64Encoder::StoreLeftOverBytes)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6134a1c;
+  constexpr static std::size_t addrs = 0x6171464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Utilities::Base64Encoder::*)(::ArrayW<uint8_t>, int32_t, ::by_ref<int32_t>)>(
     &::Newtonsoft::Json::Utilities::Base64Encoder::FulfillFromLeftover)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6134960;
+  constexpr static std::size_t addrs = 0x61713a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::Base64Encoder::*)()>(&::Newtonsoft::Json::Utilities::Base64Encoder::Flush)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6134b28;
+  constexpr static std::size_t addrs = 0x6171570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Utilities::Base64Encoder*>(), { "Flush", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Utilities::Base64Encoder::*)(::ArrayW<char16_t>, int32_t, int32_t)>(
     &::Newtonsoft::Json::Utilities::Base64Encoder::WriteChars)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x61349fc;
+  constexpr static std::size_t addrs = 0x6171444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::Utilities::Base64Encoder::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::Utilities::Base64Encoder::EncodeAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6134be4;
+  constexpr static std::size_t addrs = 0x617162c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::Newtonsoft::Json::Utilities::Base64Encoder::*)(::ArrayW<char16_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::Utilities::Base64Encoder::WriteCharsAsync)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6134cc8;
+  constexpr static std::size_t addrs = 0x6171710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::Newtonsoft::Json::Utilities::Base64Encoder::*)(::System::Threading::CancellationToken)>(
     &::Newtonsoft::Json::Utilities::Base64Encoder::FlushAsync)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6134d54;
+  constexpr static std::size_t addrs = 0x617179c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

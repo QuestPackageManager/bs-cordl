@@ -57,16 +57,16 @@ public:
 
   static inline ::HMUI::ButtonSpriteSwapCapsLockState* New_ctor();
 
-  /// @brief Method OnCapsLockStateChanged, addr 0x5c9826c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnCapsLockStateChanged, addr 0x5cd0fb4, size 0x4, virtual false, abstract: false, final false
   inline void OnCapsLockStateChanged(::HMUI::CapsLockState capsLockState);
 
-  /// @brief Method OnDisable, addr 0x5c981e0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5cd0f28, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5c97fb0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5cd0cf8, size 0xd8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method UpdateSprites, addr 0x5c98088, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method UpdateSprites, addr 0x5cd0dd0, size 0x158, virtual false, abstract: false, final false
   inline void UpdateSprites(::HMUI::CapsLockState capsLockState);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Image>> const& __cordl_internal_get__images() const;
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set__uppercaseSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x5c98270, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cd0fb8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -135,7 +135,7 @@ public:
   ButtonSpriteSwapCapsLockState(ButtonSpriteSwapCapsLockState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19631 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19665 };
 
   /// [SerializeField]
   /// @brief Field _lowercaseSprite, offset: 0x20, size: 0x8, def value: None

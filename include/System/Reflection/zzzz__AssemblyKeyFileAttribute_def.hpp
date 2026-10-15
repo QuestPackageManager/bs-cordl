@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set__KeyFile_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5f958e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fd21c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW keyFile);
 
 protected:

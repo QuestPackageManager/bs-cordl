@@ -123,7 +123,7 @@ public:
   static ::MS::Internal::Xml::XPath::Axis_AxisType const Self;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11836 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -234,43 +234,43 @@ public:
 
   constexpr void __cordl_internal_set_abbrAxis(bool value);
 
-  /// @brief Method .ctor, addr 0x669e698, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66db268, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::Axis_AxisType axisType, ::MS::Internal::Xml::XPath::AstNode* input);
 
-  /// @brief Method .ctor, addr 0x669e670, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66db240, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::Axis_AxisType axisType, ::MS::Internal::Xml::XPath::AstNode* input, ::StringW prefix, ::StringW name, ::System::Xml::XPath::XPathNodeType nodetype);
 
-  /// @brief Method get_AbbrAxis, addr 0x669e70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AbbrAxis, addr 0x66db2dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_AbbrAxis();
 
-  /// @brief Method get_Input, addr 0x669e6dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Input, addr 0x66db2ac, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* get_Input();
 
-  /// @brief Method get_Name, addr 0x669e6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x66db2c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x669e6fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x66db2cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XPath::XPathNodeType get_NodeType();
 
-  /// @brief Method get_Prefix, addr 0x669e6ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x66db2bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_ReturnType, addr 0x669e6d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x66db2a4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x669e6cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x66db29c, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
-  /// @brief Method get_TypeOfAxis, addr 0x669e704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfAxis, addr 0x66db2d4, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::Axis_AxisType get_TypeOfAxis();
 
-  /// @brief Method get_Urn, addr 0x669e714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Urn, addr 0x66db2e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Urn();
 
-  /// @brief Method set_Input, addr 0x669e6e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Input, addr 0x66db2b4, size 0x8, virtual false, abstract: false, final false
   inline void set_Input(::MS::Internal::Xml::XPath::AstNode* value);
 
-  /// @brief Method set_Urn, addr 0x669e71c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Urn, addr 0x66db2ec, size 0x8, virtual false, abstract: false, final false
   inline void set_Urn(::StringW value);
 
 protected:
@@ -288,7 +288,7 @@ public:
   Axis(Axis const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11837 };
 
   /// @brief Field _axisType, offset: 0x10, size: 0x4, def value: None
   ::MS::Internal::Xml::XPath::Axis_AxisType ____axisType;

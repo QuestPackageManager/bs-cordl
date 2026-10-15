@@ -82,47 +82,47 @@ public:
   __declspec(property(get = __cordl_internal_get__DestinationTimestamp_k__BackingField, put = __cordl_internal_set__DestinationTimestamp_k__BackingField)) ::System::Nullable_1<::System::DateTime>
       _DestinationTimestamp_k__BackingField;
 
-  /// @brief Method CheckTimestamps, addr 0x5cc3a64, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CheckTimestamps, addr 0x5cfca2c, size 0x12c, virtual false, abstract: false, final false
   inline void CheckTimestamps();
 
-  /// @brief Method FromServerResponse, addr 0x5cc3e14, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method FromServerResponse, addr 0x5cfcddc, size 0x8c, virtual false, abstract: false, final false
   static inline ::LiteNetLib::Utils::NtpPacket* FromServerResponse(::ArrayW<uint8_t> bytes, ::System::DateTime destinationTimestamp);
 
-  /// @brief Method GetDateTime64, addr 0x5cc365c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetDateTime64, addr 0x5cfc624, size 0x144, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> GetDateTime64(int32_t offset);
 
-  /// @brief Method GetInt32BE, addr 0x5cc41dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetInt32BE, addr 0x5cfd1a4, size 0x4, virtual false, abstract: false, final false
   inline int32_t GetInt32BE(int32_t offset);
 
-  /// @brief Method GetTimeSpan32, addr 0x5cc3550, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetTimeSpan32, addr 0x5cfc518, size 0x7c, virtual false, abstract: false, final false
   inline ::System::TimeSpan GetTimeSpan32(int32_t offset);
 
-  /// @brief Method GetUInt32BE, addr 0x5cc35dc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetUInt32BE, addr 0x5cfc5a4, size 0x78, virtual false, abstract: false, final false
   inline uint32_t GetUInt32BE(int32_t offset);
 
-  /// @brief Method GetUInt64BE, addr 0x5cc40e8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetUInt64BE, addr 0x5cfd0b0, size 0x78, virtual false, abstract: false, final false
   inline uint64_t GetUInt64BE(int32_t offset);
 
   static inline ::LiteNetLib::Utils::NtpPacket* New_ctor();
 
   static inline ::LiteNetLib::Utils::NtpPacket* New_ctor(::ArrayW<uint8_t> bytes);
 
-  /// @brief Method SetDateTime64, addr 0x5cc37c8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetDateTime64, addr 0x5cfc790, size 0x164, virtual false, abstract: false, final false
   inline void SetDateTime64(int32_t offset, ::System::Nullable_1<::System::DateTime> value);
 
-  /// @brief Method SetUInt64BE, addr 0x5cc4160, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetUInt64BE, addr 0x5cfd128, size 0x7c, virtual false, abstract: false, final false
   inline void SetUInt64BE(int32_t offset, uint64_t value);
 
-  /// @brief Method SwapEndianness, addr 0x5cc4238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SwapEndianness, addr 0x5cfd200, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t SwapEndianness(uint32_t x);
 
-  /// @brief Method SwapEndianness, addr 0x5cc41e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SwapEndianness, addr 0x5cfd1a8, size 0x58, virtual false, abstract: false, final false
   static inline uint64_t SwapEndianness(uint64_t x);
 
-  /// @brief Method ValidateReply, addr 0x5cc3f98, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ValidateReply, addr 0x5cfcf60, size 0x150, virtual false, abstract: false, final false
   inline void ValidateReply();
 
-  /// @brief Method ValidateRequest, addr 0x5cc3ea0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ValidateRequest, addr 0x5cfce68, size 0xf8, virtual false, abstract: false, final false
   inline void ValidateRequest();
 
   constexpr ::ArrayW<uint8_t> const& __cordl_internal_get__Bytes_k__BackingField() const;
@@ -137,84 +137,84 @@ public:
 
   constexpr void __cordl_internal_set__DestinationTimestamp_k__BackingField(::System::Nullable_1<::System::DateTime> value);
 
-  /// @brief Method .ctor, addr 0x5cc3cc4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cfcc8c, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5cc3d8c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cfcd54, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> bytes);
 
   static inline ::System::DateTime getStaticF_Epoch();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Bytes, addr 0x5cc33c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Bytes, addr 0x5cfc390, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Bytes();
 
-  /// @brief Method get_CorrectionOffset, addr 0x5cc3b90, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_CorrectionOffset, addr 0x5cfcb58, size 0x134, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_CorrectionOffset();
 
   /// [CompilerGenerated]
-  /// @brief Method get_DestinationTimestamp, addr 0x5cc392c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_DestinationTimestamp, addr 0x5cfc8f4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> get_DestinationTimestamp();
 
-  /// @brief Method get_LeapIndicator, addr 0x5cc33d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_LeapIndicator, addr 0x5cfc3a0, size 0x2c, virtual false, abstract: false, final false
   inline ::LiteNetLib::Utils::NtpLeapIndicator get_LeapIndicator();
 
-  /// @brief Method get_Mode, addr 0x5cc3464, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Mode, addr 0x5cfc42c, size 0x2c, virtual false, abstract: false, final false
   inline ::LiteNetLib::Utils::NtpMode get_Mode();
 
-  /// @brief Method get_OriginTimestamp, addr 0x5cc37a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OriginTimestamp, addr 0x5cfc768, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> get_OriginTimestamp();
 
-  /// @brief Method get_Poll, addr 0x5cc34f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Poll, addr 0x5cfc4b8, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Poll();
 
-  /// @brief Method get_Precision, addr 0x5cc351c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Precision, addr 0x5cfc4e4, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Precision();
 
-  /// @brief Method get_ReceiveTimestamp, addr 0x5cc37a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReceiveTimestamp, addr 0x5cfc770, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> get_ReceiveTimestamp();
 
-  /// @brief Method get_ReferenceId, addr 0x5cc35d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReferenceId, addr 0x5cfc59c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_ReferenceId();
 
-  /// @brief Method get_ReferenceTimestamp, addr 0x5cc3654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReferenceTimestamp, addr 0x5cfc61c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> get_ReferenceTimestamp();
 
-  /// @brief Method get_RootDelay, addr 0x5cc3548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootDelay, addr 0x5cfc510, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_RootDelay();
 
-  /// @brief Method get_RootDispersion, addr 0x5cc35cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootDispersion, addr 0x5cfc594, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_RootDispersion();
 
-  /// @brief Method get_RoundTripTime, addr 0x5cc3940, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_RoundTripTime, addr 0x5cfc908, size 0x124, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_RoundTripTime();
 
-  /// @brief Method get_Stratum, addr 0x5cc34c4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Stratum, addr 0x5cfc48c, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Stratum();
 
-  /// @brief Method get_TransmitTimestamp, addr 0x5cc37b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TransmitTimestamp, addr 0x5cfc778, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> get_TransmitTimestamp();
 
-  /// @brief Method get_VersionNumber, addr 0x5cc3404, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_VersionNumber, addr 0x5cfc3cc, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_VersionNumber();
 
   static inline void setStaticF_Epoch(::System::DateTime value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Bytes, addr 0x5cc33d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Bytes, addr 0x5cfc398, size 0x8, virtual false, abstract: false, final false
   inline void set_Bytes(::ArrayW<uint8_t> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_DestinationTimestamp, addr 0x5cc3938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DestinationTimestamp, addr 0x5cfc900, size 0x8, virtual false, abstract: false, final false
   inline void set_DestinationTimestamp(::System::Nullable_1<::System::DateTime> value);
 
-  /// @brief Method set_Mode, addr 0x5cc3490, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_Mode, addr 0x5cfc458, size 0x34, virtual false, abstract: false, final false
   inline void set_Mode(::LiteNetLib::Utils::NtpMode value);
 
-  /// @brief Method set_TransmitTimestamp, addr 0x5cc37b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_TransmitTimestamp, addr 0x5cfc780, size 0x10, virtual false, abstract: false, final false
   inline void set_TransmitTimestamp(::System::Nullable_1<::System::DateTime> value);
 
-  /// @brief Method set_VersionNumber, addr 0x5cc3430, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_VersionNumber, addr 0x5cfc3f8, size 0x34, virtual false, abstract: false, final false
   inline void set_VersionNumber(int32_t value);
 
 protected:
@@ -232,7 +232,7 @@ public:
   NtpPacket(NtpPacket const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20672 };
 
   /// [CompilerGenerated]
   /// @brief Field <Bytes>k__BackingField, offset: 0x10, size: 0x8, def value: None

@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputTouchBinder___c::*)()>(&::UnityEngine::VFX::Utility::VFXInputTouchBinder___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e22948;
+  constexpr static std::size_t addrs = 0x6e5f5e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXInputTouchBinder___c*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::Utility::VFXInputTouchBinder___c::*)(::UnityEngine::InputSystem::Controls::TouchControl*)>(
     &::UnityEngine::VFX::Utility::VFXInputTouchBinder___c::_GetTouchCount_b__20_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e2294c;
+  constexpr static std::size_t addrs = 0x6e5f5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXInputTouchBinder::*)()>(
     &::UnityEngine::VFX::Utility::VFXInputTouchBinder::get_TouchEnabledProperty)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e21ea0;
+  constexpr static std::size_t addrs = 0x6e5eb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputTouchBinder::*)(::StringW)>(
     &::UnityEngine::VFX::Utility::VFXInputTouchBinder::set_TouchEnabledProperty)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e21eb8;
+  constexpr static std::size_t addrs = 0x6e5eb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXInputTouchBinder::*)()>(&::UnityEngine::VFX::Utility::VFXInputTouchBinder::get_Parameter)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e21ed4;
+  constexpr static std::size_t addrs = 0x6e5eb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXInputTouchBinder*>(), { "get_Parameter", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputTouchBinder::*)(::StringW)>(&::UnityEngine::VFX::Utility::VFXInputTouchBinder::set_Parameter)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e21eec;
+  constexpr static std::size_t addrs = 0x6e5eb88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXInputTouchBinder::*)()>(&::UnityEngine::VFX::Utility::VFXInputTouchBinder::get_VelocityParameter)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e21f08;
+  constexpr static std::size_t addrs = 0x6e5eba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXInputTouchBinder*>(), { "get_VelocityParameter", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputTouchBinder::*)(::StringW)>(
     &::UnityEngine::VFX::Utility::VFXInputTouchBinder::set_VelocityParameter)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e21f20;
+  constexpr static std::size_t addrs = 0x6e5ebbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::Utility::VFXInputTouchBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXInputTouchBinder::IsValid)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6e21f3c;
+  constexpr static std::size_t addrs = 0x6e5ebd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputTouchBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXInputTouchBinder::UpdateBinding)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x6e2202c;
+  constexpr static std::size_t addrs = 0x6e5ecc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::VFX::Utility::VFXInputTouchBinder::*)()>(&::UnityEngine::VFX::Utility::VFXInputTouchBinder::GetTouchCount)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x6e22268;
+  constexpr static std::size_t addrs = 0x6e5ef04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXInputTouchBinder*>(), { "GetTouchCount", {}, {} })));
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::VFX::Utility::VFXInputTouchBinder::*)(int32_t)>(
     &::UnityEngine::VFX::Utility::VFXInputTouchBinder::GetTouchPosition)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x6e22480;
+  constexpr static std::size_t addrs = 0x6e5f11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXInputTouchBinder::*)()>(&::UnityEngine::VFX::Utility::VFXInputTouchBinder::ToString)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6e226ac;
+  constexpr static std::size_t addrs = 0x6e5f348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXInputTouchBinder::*)()>(&::UnityEngine::VFX::Utility::VFXInputTouchBinder::_ctor)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6e227d4;
+  constexpr static std::size_t addrs = 0x6e5f470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXInputTouchBinder*>(), { ".ctor", {}, {} })));

@@ -30,16 +30,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrExtent2Df>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrExtent2Df>*();
 
-  /// @brief Method Equals, addr 0x6e3da2c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6e7a6c8, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6e3d9a8, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e7a644, size 0x84, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::OpenXR::NativeTypes::XrExtent2Df other);
 
-  /// @brief Method GetHashCode, addr 0x6e3db14, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6e7a7b0, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6e3d9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7a63c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t width, float_t height);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrExtent2Df>"
@@ -54,7 +54,7 @@ public:
   constexpr XrExtent2Df(float_t Width, float_t Height) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17543 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

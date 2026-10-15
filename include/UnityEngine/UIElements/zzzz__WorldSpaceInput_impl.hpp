@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::WorldSpaceInput_PickResult::*)(::UnityEngine::Ray)>(
     &::UnityEngine::UIElements::WorldSpaceInput_PickResult::ComputeCollisionData)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x724c6f8;
+  constexpr static std::size_t addrs = 0x728962c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (*)(::UnityEngine::UIElements::UIDocument*, ::UnityEngine::Ray, ::by_ref<float_t>)>(
     &::UnityEngine::UIElements::WorldSpaceInput::Pick3D)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x7242cd4;
+  constexpr static std::size_t addrs = 0x727fc08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
                                                                                                      ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::WorldSpaceInput::Pick3D)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x724c3ec;
+  constexpr static std::size_t addrs = 0x7289320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
                                                                                                      ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::WorldSpaceInput::Pick3D)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x724c544;
+  constexpr static std::size_t addrs = 0x7289478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::WorldSpaceInput_PickResult (*)(::UnityEngine::Ray, float_t, int32_t)>(
     &::UnityEngine::UIElements::WorldSpaceInput::PickDocument3D)> {
   constexpr static std::size_t size = 0x73c;
-  constexpr static std::size_t addrs = 0x7242230;
+  constexpr static std::size_t addrs = 0x727f164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
                                                                                                      ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::WorldSpaceInput::Pick_Internal)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x724c360;
+  constexpr static std::size_t addrs = 0x7289294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
                                                                                                      ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::WorldSpaceInput::PerformPick)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x724c5ac;
+  constexpr static std::size_t addrs = 0x72894e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
                                                                                                      ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::WorldSpaceInput::PerformPick2D)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x724c8fc;
+  constexpr static std::size_t addrs = 0x7289830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
                                                                                                      ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::WorldSpaceInput::PerformPick3D)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x724c958;
+  constexpr static std::size_t addrs = 0x728988c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
                                                                                                      ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::WorldSpaceInput::PerformPick2D_LocalPoint)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x724cc5c;
+  constexpr static std::size_t addrs = 0x7289b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::WorldSpaceInput::GetPicking3DWorldBounds)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x724b22c;
+  constexpr static std::size_t addrs = 0x7288160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::WorldSpaceInput*>(),
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::WorldSpaceInput::GetPicking3DLocalBounds)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x724c604;
+  constexpr static std::size_t addrs = 0x7289538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::WorldSpaceInput*>(),

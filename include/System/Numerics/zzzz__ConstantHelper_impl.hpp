@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)()>(&::System::Numerics::ConstantHelper::GetByteWithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fabf3c;
+  constexpr static std::size_t addrs = 0x5fe8824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetByteWithAllBitsSet", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int8_t (*)()>(&::System::Numerics::ConstantHelper::GetSByteWithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fabf44;
+  constexpr static std::size_t addrs = 0x5fe882c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetSByteWithAllBitsSet", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)()>(&::System::Numerics::ConstantHelper::GetUInt16WithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fabf4c;
+  constexpr static std::size_t addrs = 0x5fe8834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetUInt16WithAllBitsSet", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)()>(&::System::Numerics::ConstantHelper::GetInt16WithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fabf54;
+  constexpr static std::size_t addrs = 0x5fe883c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetInt16WithAllBitsSet", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)()>(&::System::Numerics::ConstantHelper::GetUInt32WithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fabf5c;
+  constexpr static std::size_t addrs = 0x5fe8844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetUInt32WithAllBitsSet", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Numerics::ConstantHelper::GetInt32WithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fabf64;
+  constexpr static std::size_t addrs = 0x5fe884c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetInt32WithAllBitsSet", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)()>(&::System::Numerics::ConstantHelper::GetUInt64WithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fabf6c;
+  constexpr static std::size_t addrs = 0x5fe8854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetUInt64WithAllBitsSet", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)()>(&::System::Numerics::ConstantHelper::GetInt64WithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fabf74;
+  constexpr static std::size_t addrs = 0x5fe885c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetInt64WithAllBitsSet", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::System::Numerics::ConstantHelper::GetSingleWithAllBitsSet)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5fabf7c;
+  constexpr static std::size_t addrs = 0x5fe8864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetSingleWithAllBitsSet", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)()>(&::System::Numerics::ConstantHelper::GetDoubleWithAllBitsSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fabf88;
+  constexpr static std::size_t addrs = 0x5fe8870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Numerics::ConstantHelper*>(), { "GetDoubleWithAllBitsSet", {}, {} })));

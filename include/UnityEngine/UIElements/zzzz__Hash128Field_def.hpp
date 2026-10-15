@@ -60,7 +60,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Hash128Field_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x71ba910, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71f7844, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Hash128Field_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x71ba978, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71f78ac, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -131,21 +131,21 @@ public:
   // Declarations
   __declspec(property(get = get_allowedCharacters)) ::StringW allowedCharacters;
 
-  /// @brief Method AcceptCharacter, addr 0x71baa08, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method AcceptCharacter, addr 0x71f793c, size 0xc8, virtual true, abstract: false, final false
   inline bool AcceptCharacter(char16_t c);
 
   static inline ::UnityEngine::UIElements::Hash128Field_Hash128Input* New_ctor();
 
-  /// @brief Method Parse, addr 0x71ba618, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x71f754c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Hash128 Parse(::StringW str);
 
-  /// @brief Method StringToValue, addr 0x71baad0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x71f7a04, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Hash128 StringToValue(::StringW str);
 
-  /// @brief Method .ctor, addr 0x71ba140, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71f7074, size 0x184, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowedCharacters, addr 0x71ba9c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_allowedCharacters, addr 0x71f78f8, size 0x44, virtual false, abstract: false, final false
   inline ::StringW get_allowedCharacters();
 
 protected:
@@ -197,32 +197,32 @@ public:
   __declspec(property(get = get_value, put = set_value)) ::UnityEngine::Hash128 value;
 
   /// [EventInterest(new[] { typeof(UnityEngine.UIElements.FocusOutEvent) })]
-  /// @brief Method HandleEventBubbleUp, addr 0x71ba674, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method HandleEventBubbleUp, addr 0x71f75a8, size 0x1c0, virtual true, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::Hash128Field* New_ctor();
 
   static inline ::UnityEngine::UIElements::Hash128Field* New_ctor(::StringW label, int32_t maxLength);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x71ba540, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x71f7474, size 0xc4, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::UnityEngine::Hash128 newValue);
 
-  /// @brief Method StringToValue, addr 0x71ba610, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x71f7544, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Hash128 StringToValue(::StringW str);
 
-  /// @brief Method UpdateTextFromValue, addr 0x71ba4c0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method UpdateTextFromValue, addr 0x71f73f4, size 0x80, virtual true, abstract: false, final false
   inline void UpdateTextFromValue();
 
-  /// @brief Method UpdateValueFromText, addr 0x71ba3d0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method UpdateValueFromText, addr 0x71f7304, size 0xf0, virtual true, abstract: false, final false
   inline void UpdateValueFromText();
 
-  /// @brief Method ValueToString, addr 0x71ba604, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x71f7538, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ValueToString(::UnityEngine::Hash128 value);
 
-  /// @brief Method .ctor, addr 0x71b9fb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71f6eec, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x71b9fc4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71f6ef8, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t maxLength);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -231,7 +231,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_value, addr 0x71ba2c4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x71f71f8, size 0x48, virtual true, abstract: false, final false
   inline ::UnityEngine::Hash128 get_value();
 
   static inline void setStaticF_inputUssClassName(::StringW value);
@@ -240,7 +240,7 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_value, addr 0x71ba30c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x71f7240, size 0xc4, virtual true, abstract: false, final false
   inline void set_value(::UnityEngine::Hash128 value);
 
 protected:

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::FloatFxBeatmapEventDataBox::*)()>(&::GlobalNamespace::FloatFxBeatmapEventDataBox::get_subtypeIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a2844;
+  constexpr static std::size_t addrs = 0x39c6e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::FloatFxBeatmapEventDataBox::*)()>(&::GlobalNamespace::FloatFxBeatmapEventDataBox::get_beatStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a284c;
+  constexpr static std::size_t addrs = 0x39c6e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::IndexFilter*, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, float_t, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, float_t, bool,
     ::GlobalNamespace::EaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>*)>(&::GlobalNamespace::FloatFxBeatmapEventDataBox::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x39a2854;
+  constexpr static std::size_t addrs = 0x39c6e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::GlobalNamespace::FloatFxBeatmapEventData* (::GlobalNamespace::FloatFxBeatmapEventDataBox::*)(::GlobalNamespace::FloatFxBaseData*, float_t, int32_t, int32_t, float_t)>(
         &::GlobalNamespace::FloatFxBeatmapEventDataBox::CreateVfxBeatmapEventData)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39a2900;
+  constexpr static std::size_t addrs = 0x39c6ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,18 +70,6 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>*& GlobalNamespace::FloatFxBeatmapEventDataBox::__cordl_internal_get__vfxBaseDataList() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____vfxBaseDataList;
-}
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>* const& GlobalNamespace::FloatFxBeatmapEventDataBox::__cordl_internal_get__vfxBaseDataList() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____vfxBaseDataList;
-}
-constexpr void GlobalNamespace::FloatFxBeatmapEventDataBox::__cordl_internal_set__vfxBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____vfxBaseDataList = value;
-}
 constexpr float_t& GlobalNamespace::FloatFxBeatmapEventDataBox::__cordl_internal_get__beatStep() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatStep;

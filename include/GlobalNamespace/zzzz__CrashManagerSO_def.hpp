@@ -33,15 +33,15 @@ public:
 
   __declspec(property(get = get_stackTrace)) ::StringW stackTrace;
 
-  /// @brief Method HandleLog, addr 0x5cf5e5c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HandleLog, addr 0x5d2eda0, size 0xd0, virtual false, abstract: false, final false
   inline void HandleLog(::StringW logString, ::StringW stackTrace, ::UnityEngine::LogType type);
 
   static inline ::GlobalNamespace::CrashManagerSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5cf5db4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5d2ecf8, size 0xa8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method StartCatchingExceptions, addr 0x5cf5d0c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method StartCatchingExceptions, addr 0x5d2ec50, size 0xa8, virtual false, abstract: false, final false
   inline void StartCatchingExceptions();
 
   constexpr ::StringW const& __cordl_internal_get__logString() const;
@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set__stackTrace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5cf5f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d2ee70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_logString, addr 0x5cf5cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_logString, addr 0x5d2ec40, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_logString();
 
-  /// @brief Method get_stackTrace, addr 0x5cf5d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stackTrace, addr 0x5d2ec48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_stackTrace();
 
 protected:
@@ -80,7 +80,7 @@ public:
   CrashManagerSO(CrashManagerSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6632 };
 
   /// @brief Field _logString, offset: 0x18, size: 0x8, def value: None
   ::StringW ____logString;

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColorsGradient_Element::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradient_Element::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c75ce8;
+  constexpr static std::size_t addrs = 0x5cad90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundColorsGradient_Element*>(), { ".ctor", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient_Element*> (::GlobalNamespace::BloomPrePassBackgroundColorsGradient::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradient::get_elements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c75af4;
+  constexpr static std::size_t addrs = 0x5cad718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundColorsGradient*>(), { "get_elements", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColorsGradient::*)(::Unity::Collections::NativeArray_1<::UnityEngine::Color32>, int32_t)>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradient::UpdatePixels)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5c75afc;
+  constexpr static std::size_t addrs = 0x5cad720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundColorsGradient*>(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::BloomPrePassBackgroundColorsGradient::*)(float_t)>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradient::EvaluateColor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5c75b64;
+  constexpr static std::size_t addrs = 0x5cad788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColorsGradient::*)()>(&::GlobalNamespace::BloomPrePassBackgroundColorsGradient::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5c75c30;
+  constexpr static std::size_t addrs = 0x5cad854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundColorsGradient*>(), { ".ctor", {}, {} })));

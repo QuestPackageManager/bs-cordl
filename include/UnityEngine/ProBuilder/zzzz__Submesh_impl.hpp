@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (::UnityEngine::ProBuilder::Submesh::*)()>(
     &::UnityEngine::ProBuilder::Submesh::get_indexes)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b0b48c;
+  constexpr static std::size_t addrs = 0x6b48108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Submesh*>(), { "get_indexes", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Submesh::*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::Submesh::set_indexes)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6b0b504;
+  constexpr static std::size_t addrs = 0x6b48180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Submesh*>(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::MeshTopology (::UnityEngine::ProBuilder::Submesh::*)()>(&::UnityEngine::ProBuilder::Submesh::get_topology)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b0b564;
+  constexpr static std::size_t addrs = 0x6b481e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Submesh*>(), { "get_topology", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Submesh::*)(::UnityEngine::MeshTopology)>(&::UnityEngine::ProBuilder::Submesh::set_topology)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b0b56c;
+  constexpr static std::size_t addrs = 0x6b481e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::Submesh::*)()>(&::UnityEngine::ProBuilder::Submesh::get_submeshIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b0b574;
+  constexpr static std::size_t addrs = 0x6b481f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Submesh*>(), { "get_submeshIndex", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Submesh::*)(int32_t)>(&::UnityEngine::ProBuilder::Submesh::set_submeshIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b0b57c;
+  constexpr static std::size_t addrs = 0x6b481f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Submesh::*)(int32_t, ::UnityEngine::MeshTopology, ::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::Submesh::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6b0b584;
+  constexpr static std::size_t addrs = 0x6b48200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Submesh::*)(::UnityEngine::Mesh*, int32_t)>(&::UnityEngine::ProBuilder::Submesh::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6b0b644;
+  constexpr static std::size_t addrs = 0x6b482c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::Submesh::*)()>(&::UnityEngine::ProBuilder::Submesh::ToString)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6b0b738;
+  constexpr static std::size_t addrs = 0x6b483b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(&::UnityEngine::ProBuilder::Submesh::GetSubmeshCount)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6b0b854;
+  constexpr static std::size_t addrs = 0x6b484d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::ProBuilder::Submesh*> (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, int32_t,
                                                                                                          ::UnityEngine::MeshTopology)>(&::UnityEngine::ProBuilder::Submesh::GetSubmeshes)> {
   constexpr static std::size_t size = 0x914;
-  constexpr static std::size_t addrs = 0x6b0b8b8;
+  constexpr static std::size_t addrs = 0x6b48534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(&::UnityEngine::ProBuilder::Submesh::MapFaceMaterialsToSubmeshIndex)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6b0c1cc;
+  constexpr static std::size_t addrs = 0x6b48e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

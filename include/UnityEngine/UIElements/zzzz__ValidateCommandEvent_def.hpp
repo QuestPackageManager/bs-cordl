@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::ValidateCommandEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x7224484, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x72613b8, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ValidateCommandEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x7224480, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72613b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ValidateCommandEvent___c* getStaticF___9();
@@ -78,7 +78,7 @@ public:
 
   static inline ::UnityEngine::UIElements::ValidateCommandEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x72243e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7261314, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

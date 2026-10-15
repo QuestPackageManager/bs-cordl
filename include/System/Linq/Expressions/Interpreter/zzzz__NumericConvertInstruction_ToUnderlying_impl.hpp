@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::NumericConvertInstruction_ToUnderlying::*)()>(
     &::GlobalNamespace::NumericConvertInstruction_ToUnderlying::get_InstructionName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x63d7488;
+  constexpr static std::size_t addrs = 0x6414058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::NumericConvertInstruction_ToUnderlying*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NumericConvertInstruction_ToUnderlying::*)(::System::TypeCode, bool)>(
     &::GlobalNamespace::NumericConvertInstruction_ToUnderlying::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63d74cc;
+  constexpr static std::size_t addrs = 0x641409c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NumericConvertInstruction_ToUnderlying*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::NumericConvertInstruction_ToUnderlying::*)(::System::Object*)>(
     &::GlobalNamespace::NumericConvertInstruction_ToUnderlying::Convert)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x63d74d8;
+  constexpr static std::size_t addrs = 0x64140a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::NumericConvertInstruction_ToUnderlying*>(),

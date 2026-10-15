@@ -60,7 +60,7 @@ public:
   /// @brief [InputControl(synthetic = true)]
   __declspec(property(get = get_trackingState, put = set_trackingState)) ::UnityEngine::InputSystem::Controls::IntegerControl* trackingState;
 
-  /// @brief Method FinishSetup, addr 0x699493c, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x69d15b8, size 0x13c, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::TrackedDevice* New_ctor();
@@ -89,39 +89,39 @@ public:
 
   constexpr void __cordl_internal_set__trackingState_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method .ctor, addr 0x6994a78, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d16f4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_devicePosition, addr 0x699491c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_devicePosition, addr 0x69d1598, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_devicePosition();
 
   /// [CompilerGenerated]
-  /// @brief Method get_deviceRotation, addr 0x699492c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceRotation, addr 0x69d15a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_deviceRotation();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isTracked, addr 0x699490c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTracked, addr 0x69d1588, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();
 
   /// [CompilerGenerated]
-  /// @brief Method get_trackingState, addr 0x69948fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingState, addr 0x69d1578, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState();
 
   /// [CompilerGenerated]
-  /// @brief Method set_devicePosition, addr 0x6994924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_devicePosition, addr 0x69d15a0, size 0x8, virtual false, abstract: false, final false
   inline void set_devicePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_deviceRotation, addr 0x6994934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceRotation, addr 0x69d15b0, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isTracked, addr 0x6994914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isTracked, addr 0x69d1590, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_trackingState, addr 0x6994904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingState, addr 0x69d1580, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
 protected:
@@ -139,7 +139,7 @@ public:
   TrackedDevice(TrackedDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10744 };
 
   /// [CompilerGenerated]
   /// @brief Field <trackingState>k__BackingField, offset: 0x188, size: 0x8, def value: None

@@ -36,19 +36,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*();
 
-  /// @brief Method Compare, addr 0x71c813c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x7205070, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t Compare(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord a, ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord b);
 
-  /// @brief Method Equals, addr 0x71c8280, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x72051b4, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x71c81e4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7205118, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord other);
 
-  /// @brief Method GetHashCode, addr 0x71c8314, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7205248, size 0x88, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x71c8128, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x720505c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheet* sheet, int32_t styleSheetIndexInStack);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>"

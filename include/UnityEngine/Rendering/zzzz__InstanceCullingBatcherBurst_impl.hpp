@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$PostfixBurstDelegate::*)(
     ::System::Object*, ::System::IntPtr)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$PostfixBurstDelegate::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c53ec4;
+  constexpr static std::size_t addrs = 0x6c90b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>)>(
     &::UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$PostfixBurstDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c53f44;
+  constexpr static std::size_t addrs = 0x6c90bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                 ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$PostfixBurstDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6c53f58;
+  constexpr static std::size_t addrs = 0x6c90bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$PostfixBurstDelegate::*)(
     ::System::IAsyncResult*)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$PostfixBurstDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c540e8;
+  constexpr static std::size_t addrs = 0x6c90d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::IntPtr>)>(
     &::UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$BurstDirectCall::GetFunctionPointerDiscard)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6c540f4;
+  constexpr static std::size_t addrs = 0x6c90d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(
     &::UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$BurstDirectCall::GetFunctionPointer)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c54200;
+  constexpr static std::size_t addrs = 0x6c90e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>)>(
         &::UnityEngine::Rendering::InstanceCullingBatcherBurst_RemoveDrawInstanceIndices_00000188$BurstDirectCall::Invoke)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6c52ec4;
+  constexpr static std::size_t addrs = 0x6c8fb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$PostfixBurstDelegate::*)(
     ::System::Object*, ::System::IntPtr)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$PostfixBurstDelegate::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6c54218;
+  constexpr static std::size_t addrs = 0x6c90e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>)>(
     &::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$PostfixBurstDelegate::Invoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c54284;
+  constexpr static std::size_t addrs = 0x6c90f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                         ::System::Object*)>(
     &::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$PostfixBurstDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x6c542ac;
+  constexpr static std::size_t addrs = 0x6c90f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$PostfixBurstDelegate::*)(::System::IAsyncResult*)>(
     &::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$PostfixBurstDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c5450c;
+  constexpr static std::size_t addrs = 0x6c91188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::IntPtr>)>(
     &::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$BurstDirectCall::GetFunctionPointerDiscard)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6c54518;
+  constexpr static std::size_t addrs = 0x6c91194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -395,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$BurstDirectCall::GetFunctionPointer)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c54624;
+  constexpr static std::size_t addrs = 0x6c912a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst_CreateDrawBatches_0000018C$BurstDirectCall::Invoke)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x6c53a48;
+  constexpr static std::size_t addrs = 0x6c906c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -492,7 +492,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::by_ref<::UnityEngine::Rendering::RangeKey const>, ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>>,
                          ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawRange)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6c52ab4;
+  constexpr static std::size_t addrs = 0x6c8f730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -514,7 +514,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
                                                                 ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>)>(
     &::UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawBatch)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x6c52c58;
+  constexpr static std::size_t addrs = 0x6c8f8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -538,7 +538,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawInstanceIndices)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c503ec;
+  constexpr static std::size_t addrs = 0x6c8d068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -561,7 +561,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::R
     ::by_ref<::UnityEngine::Rendering::RangeKey const>, ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::RangeKey, int32_t>,
     ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst::EditDrawRange)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6c52fb0;
+  constexpr static std::size_t addrs = 0x6c8fc2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -582,7 +582,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::R
     ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>)>(
     &::UnityEngine::Rendering::InstanceCullingBatcherBurst::EditDrawBatch)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x6c53128;
+  constexpr static std::size_t addrs = 0x6c8fda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -606,7 +606,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>, ::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>,
     ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst::ProcessRenderer)> {
   constexpr static std::size_t size = 0x76c;
-  constexpr static std::size_t addrs = 0x6c532dc;
+  constexpr static std::size_t addrs = 0x6c8ff58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -638,7 +638,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst::CreateDrawBatches)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c52914;
+  constexpr static std::size_t addrs = 0x6c8f590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -668,7 +668,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawRange>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst::RemoveDrawInstanceIndices$BurstManaged)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x6c53bfc;
+  constexpr static std::size_t addrs = 0x6c90878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -696,7 +696,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<::UnityEngine::Rendering::DrawKey, int32_t>>, ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawBatch>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::DrawInstance>>)>(&::UnityEngine::Rendering::InstanceCullingBatcherBurst::CreateDrawBatches$BurstManaged)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6c53dec;
+  constexpr static std::size_t addrs = 0x6c90a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

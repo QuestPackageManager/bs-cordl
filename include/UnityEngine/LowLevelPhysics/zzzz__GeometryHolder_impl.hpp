@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics::GeometryType (::UnityEngine::LowLevelPhysics::GeometryHolder::*)()>(
     &::UnityEngine::LowLevelPhysics::GeometryHolder::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7009abc;
+  constexpr static std::size_t addrs = 0x70469b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics::GeometryHolder>(), { "get_Type", {}, {} })));

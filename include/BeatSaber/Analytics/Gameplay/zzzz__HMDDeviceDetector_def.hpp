@@ -28,16 +28,16 @@ public:
   /// @brief Field _osVersion, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__osVersion, put = setStaticF__osVersion)) ::StringW _osVersion;
 
-  /// @brief Method DetectHMDPlatform, addr 0x34e919c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DetectHMDPlatform, addr 0x3501880, size 0xa0, virtual false, abstract: false, final false
   static inline ::StringW DetectHMDPlatform();
 
-  /// @brief Method EnsureOSBuildInfoCached, addr 0x34e9304, size 0x5e0, virtual false, abstract: false, final false
+  /// @brief Method EnsureOSBuildInfoCached, addr 0x35019f0, size 0x5e0, virtual false, abstract: false, final false
   static inline void EnsureOSBuildInfoCached();
 
-  /// @brief Method GetOSBuildNumber, addr 0x34e98e4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetOSBuildNumber, addr 0x3501fd0, size 0x50, virtual false, abstract: false, final false
   static inline ::StringW GetOSBuildNumber();
 
-  /// @brief Method GetOSVersion, addr 0x34e92b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetOSVersion, addr 0x35019a0, size 0x50, virtual false, abstract: false, final false
   static inline ::StringW GetOSVersion();
 
   static inline ::StringW getStaticF__osBuildNumber();
@@ -63,7 +63,7 @@ public:
   HMDDeviceDetector(HMDDeviceDetector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22855 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

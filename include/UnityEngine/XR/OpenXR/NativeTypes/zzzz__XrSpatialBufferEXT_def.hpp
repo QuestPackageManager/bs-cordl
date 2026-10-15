@@ -38,24 +38,24 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT>*();
 
-  /// @brief Method Equals, addr 0x6e42b30, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6e7f7cc, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6e42824, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e7f4c0, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT other);
 
-  /// @brief Method GetHashCode, addr 0x6e42bbc, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6e7f858, size 0x80, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6e42b24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f7c0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint64_t bufferId, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferTypeEXT bufferType);
 
   /// [CompilerGenerated]
-  /// @brief Method get_bufferId, addr 0x6e42b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bufferId, addr 0x6e7f7b0, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_bufferId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_bufferType, addr 0x6e42b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bufferType, addr 0x6e7f7b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferTypeEXT get_bufferType();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT>"
@@ -70,7 +70,7 @@ public:
   constexpr XrSpatialBufferEXT(uint64_t _bufferId_k__BackingField, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferTypeEXT _bufferType_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17554 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17587 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

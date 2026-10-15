@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::AsyncTerrainToMeshRequest::*)(
     ::UnityEngine::Rendering::UnifiedRayTracing::ComputeTerrainMeshJob, ::Unity::Jobs::JobHandle)>(&::UnityEngine::Rendering::UnifiedRayTracing::AsyncTerrainToMeshRequest::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6e06e08;
+  constexpr static std::size_t addrs = 0x6e43aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UnifiedRayTracing::AsyncTerrainToMeshRequest::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AsyncTerrainToMeshRequest::get_done)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e0748c;
+  constexpr static std::size_t addrs = 0x6e44128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::Rendering::UnifiedRayTracing::AsyncTerrainToMeshRequest::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AsyncTerrainToMeshRequest::GetMesh)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6e0725c;
+  constexpr static std::size_t addrs = 0x6e43ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::AsyncTerrainToMeshRequest::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AsyncTerrainToMeshRequest::WaitForCompletion)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6e07214;
+  constexpr static std::size_t addrs = 0x6e43eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<int32_t>* (::UnityEngine::Rendering::UnifiedRayTracing::AsyncTerrainToMeshRequest::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AsyncTerrainToMeshRequest::TriangleIndicesWithoutHoles)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x6e074c8;
+  constexpr static std::size_t addrs = 0x6e44164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

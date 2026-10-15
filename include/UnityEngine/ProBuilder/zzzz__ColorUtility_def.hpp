@@ -35,31 +35,31 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE ColorUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DeltaE, addr 0x6ac49f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DeltaE, addr 0x6b01674, size 0x44, virtual false, abstract: false, final false
   static inline float_t DeltaE(::UnityEngine::ProBuilder::CIELabColor* lhs, ::UnityEngine::ProBuilder::CIELabColor* rhs);
 
-  /// @brief Method GetColor, addr 0x6ac493c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetColor, addr 0x6b015b8, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color GetColor(::UnityEngine::Vector3 vec);
 
-  /// @brief Method HSVtoRGB, addr 0x6ac4a54, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method HSVtoRGB, addr 0x6b016d0, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color HSVtoRGB(float_t h, float_t s, float_t v);
 
-  /// @brief Method HSVtoRGB, addr 0x6ac4a3c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HSVtoRGB, addr 0x6b016b8, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color HSVtoRGB(::UnityEngine::ProBuilder::HSVColor* hsv);
 
-  /// @brief Method RGBToXYZ, addr 0x6ac43f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RGBToXYZ, addr 0x6b0106c, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::XYZColor* RGBToXYZ(::UnityEngine::Color col);
 
-  /// @brief Method RGBToXYZ, addr 0x6ac43f8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method RGBToXYZ, addr 0x6b01074, size 0x1a8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::XYZColor* RGBToXYZ(float_t r, float_t g, float_t b);
 
-  /// @brief Method RGBtoHSV, addr 0x6ac416c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method RGBtoHSV, addr 0x6b00de8, size 0x158, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::HSVColor* RGBtoHSV(::UnityEngine::Color color);
 
-  /// @brief Method XYZToCIE_Lab, addr 0x6ac4688, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method XYZToCIE_Lab, addr 0x6b01304, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::CIELabColor* XYZToCIE_Lab(::UnityEngine::ProBuilder::XYZColor* xyz);
 
-  /// @brief Method approx, addr 0x6ac48d4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method approx, addr 0x6b01550, size 0x68, virtual false, abstract: false, final false
   static inline bool approx(float_t lhs, float_t rhs);
 
 protected:
@@ -77,7 +77,7 @@ public:
   ColorUtility(ColorUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17280 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(float_t, float_t, int32_t, int32_t, int32_t)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::Init)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5d83328;
+  constexpr static std::size_t addrs = 0x5dbe75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d850fc;
+  constexpr static std::size_t addrs = 0x5dc0534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(int32_t, int32_t)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::ScrollToRowIdxInstant)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5d83f9c;
+  constexpr static std::size_t addrs = 0x5dbf3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*>(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(bool)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::AnimateOpen)> {
   constexpr static std::size_t size = 0x488;
-  constexpr static std::size_t addrs = 0x5d84094;
+  constexpr static std::size_t addrs = 0x5dbf4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(int32_t, int32_t, bool)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::AnimateClose)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x5d84544;
+  constexpr static std::size_t addrs = 0x5dbf978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*>(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::DespawnAllActiveTweens)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5d85100;
+  constexpr static std::size_t addrs = 0x5dc0538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::GetContentXOffset)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5d8507c;
+  constexpr static std::size_t addrs = 0x5dc04b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::GetContentYOffset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5d850d0;
+  constexpr static std::size_t addrs = 0x5dc0508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d851d0;
+  constexpr static std::size_t addrs = 0x5dc0608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(::UnityEngine::Vector2)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::_AnimateOpen_b__18_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d851ec;
+  constexpr static std::size_t addrs = 0x5dc0624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*>(),
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::_AnimateOpen_b__18_1)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5d85204;
+  constexpr static std::size_t addrs = 0x5dc063c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(::UnityEngine::Vector2)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::_AnimateOpen_b__18_2)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d85294;
+  constexpr static std::size_t addrs = 0x5dc06cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*>(),
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::_AnimateOpen_b__18_3)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5d852ac;
+  constexpr static std::size_t addrs = 0x5dc06e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(::UnityEngine::Vector2)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::_AnimateClose_b__19_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d8533c;
+  constexpr static std::size_t addrs = 0x5dc0774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*>(),
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::_AnimateClose_b__19_1)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5d85354;
+  constexpr static std::size_t addrs = 0x5dc078c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)(::UnityEngine::Vector2)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::_AnimateClose_b__19_2)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d853e4;
+  constexpr static std::size_t addrs = 0x5dc081c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator*>(),
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator::_AnimateClose_b__19_3)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5d853fc;
+  constexpr static std::size_t addrs = 0x5dc0834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

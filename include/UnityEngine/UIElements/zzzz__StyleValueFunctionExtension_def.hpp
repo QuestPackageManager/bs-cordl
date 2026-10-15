@@ -25,7 +25,7 @@ class CORDL_TYPE StyleValueFunctionExtension : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ToUssString, addr 0x7119c10, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ToUssString, addr 0x7156b44, size 0x1e4, virtual false, abstract: false, final false
   static inline ::StringW ToUssString(::UnityEngine::UIElements::StyleValueFunction svf);
 
 protected:

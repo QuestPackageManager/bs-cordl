@@ -34,22 +34,22 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e415a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7e23c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult futureResult);
 
-  /// @brief Method .ctor, addr 0x6e41590, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7e22c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type, void* next, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult futureResult);
 
   /// [CompilerGenerated]
-  /// @brief Method get_futureResult, addr 0x6e41588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_futureResult, addr 0x6e7e224, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult get_futureResult();
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e41580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e7e21c, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e41578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e7e214, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -63,7 +63,7 @@ public:
                                             ::UnityEngine::XR::OpenXR::NativeTypes::XrResult _futureResult_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17531 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17564 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

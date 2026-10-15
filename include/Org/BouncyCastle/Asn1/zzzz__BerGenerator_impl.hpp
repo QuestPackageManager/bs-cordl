@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerGenerator::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Asn1::BerGenerator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3912614;
+  constexpr static std::size_t addrs = 0x3934f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerGenerator::*)(::System::IO::Stream*, int32_t, bool)>(&::Org::BouncyCastle::Asn1::BerGenerator::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3912620;
+  constexpr static std::size_t addrs = 0x3934f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerGenerator::*)(::Org::BouncyCastle::Asn1::Asn1Encodable*)>(
     &::Org::BouncyCastle::Asn1::BerGenerator::AddObject)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3912638;
+  constexpr static std::size_t addrs = 0x3934f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Asn1::BerGenerator::*)()>(&::Org::BouncyCastle::Asn1::BerGenerator::GetRawOutputStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39126c0;
+  constexpr static std::size_t addrs = 0x3935024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerGenerator::*)()>(&::Org::BouncyCastle::Asn1::BerGenerator::Close)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39126c8;
+  constexpr static std::size_t addrs = 0x393502c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerGenerator::*)(int32_t)>(&::Org::BouncyCastle::Asn1::BerGenerator::WriteHdr)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3912764;
+  constexpr static std::size_t addrs = 0x39350c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerGenerator::*)(int32_t)>(&::Org::BouncyCastle::Asn1::BerGenerator::WriteBerHeader)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39127a8;
+  constexpr static std::size_t addrs = 0x393510c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerGenerator::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Asn1::BerGenerator::WriteBerBody)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3912800;
+  constexpr static std::size_t addrs = 0x3935164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::BerGenerator::*)()>(&::Org::BouncyCastle::Asn1::BerGenerator::WriteBerEnd)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x39126cc;
+  constexpr static std::size_t addrs = 0x3935030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::BerGenerator*>(), { "WriteBerEnd", {}, {} })));

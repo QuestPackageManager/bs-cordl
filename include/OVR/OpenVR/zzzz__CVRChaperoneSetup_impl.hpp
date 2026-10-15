@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRChaperoneSetup::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRChaperoneSetup::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x625e7b4;
+  constexpr static std::size_t addrs = 0x629b1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRChaperoneSetup::*)(::OVR::OpenVR::EChaperoneConfigFile)>(&::OVR::OpenVR::CVRChaperoneSetup::CommitWorkingCopy)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e8b4;
+  constexpr static std::size_t addrs = 0x629b2fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRChaperoneSetup::*)()>(&::OVR::OpenVR::CVRChaperoneSetup::RevertWorkingCopy)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e8d4;
+  constexpr static std::size_t addrs = 0x629b31c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRChaperoneSetup*>(), { "RevertWorkingCopy", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRChaperoneSetup::*)(::by_ref<float_t>, ::by_ref<float_t>)>(&::OVR::OpenVR::CVRChaperoneSetup::GetWorkingPlayAreaSize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x625e8f4;
+  constexpr static std::size_t addrs = 0x629b33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRChaperoneSetup::*)(::by_ref<::OVR::OpenVR::HmdQuad_t>)>(&::OVR::OpenVR::CVRChaperoneSetup::GetWorkingPlayAreaRect)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625e91c;
+  constexpr static std::size_t addrs = 0x629b364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRChaperoneSetup::*)(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>>)>(
     &::OVR::OpenVR::CVRChaperoneSetup::GetWorkingCollisionBoundsInfo)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x625e93c;
+  constexpr static std::size_t addrs = 0x629b384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRChaperoneSetup::*)(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>>)>(
     &::OVR::OpenVR::CVRChaperoneSetup::GetLiveCollisionBoundsInfo)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x625e9e8;
+  constexpr static std::size_t addrs = 0x629b430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRChaperoneSetup*>(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRChaperoneSetup::*)(::by_ref<::OVR::OpenVR::HmdMatrix34_t>)>(
     &::OVR::OpenVR::CVRChaperoneSetup::GetWorkingSeatedZeroPoseToRawTrackingPose)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625ea94;
+  constexpr static std::size_t addrs = 0x629b4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRChaperoneSetup::*)(::by_ref<::OVR::OpenVR::HmdMatrix34_t>)>(
     &::OVR::OpenVR::CVRChaperoneSetup::GetWorkingStandingZeroPoseToRawTrackingPose)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625eab4;
+  constexpr static std::size_t addrs = 0x629b4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRChaperoneSetup::*)(float_t, float_t)>(&::OVR::OpenVR::CVRChaperoneSetup::SetWorkingPlayAreaSize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625ead4;
+  constexpr static std::size_t addrs = 0x629b51c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRChaperoneSetup::*)(::ArrayW<::OVR::OpenVR::HmdQuad_t>)>(
     &::OVR::OpenVR::CVRChaperoneSetup::SetWorkingCollisionBoundsInfo)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x625eaf4;
+  constexpr static std::size_t addrs = 0x629b53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRChaperoneSetup::*)(::by_ref<::OVR::OpenVR::HmdMatrix34_t>)>(
     &::OVR::OpenVR::CVRChaperoneSetup::SetWorkingSeatedZeroPoseToRawTrackingPose)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625eb20;
+  constexpr static std::size_t addrs = 0x629b568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRChaperoneSetup::*)(::by_ref<::OVR::OpenVR::HmdMatrix34_t>)>(
     &::OVR::OpenVR::CVRChaperoneSetup::SetWorkingStandingZeroPoseToRawTrackingPose)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625eb40;
+  constexpr static std::size_t addrs = 0x629b588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRChaperoneSetup::*)(::OVR::OpenVR::EChaperoneConfigFile)>(&::OVR::OpenVR::CVRChaperoneSetup::ReloadFromDisk)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625eb60;
+  constexpr static std::size_t addrs = 0x629b5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRChaperoneSetup::*)(::by_ref<::OVR::OpenVR::HmdMatrix34_t>)>(
     &::OVR::OpenVR::CVRChaperoneSetup::GetLiveSeatedZeroPoseToRawTrackingPose)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625eb80;
+  constexpr static std::size_t addrs = 0x629b5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRChaperoneSetup::*)(::ArrayW<uint8_t>)>(&::OVR::OpenVR::CVRChaperoneSetup::SetWorkingCollisionBoundsTagsInfo)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x625eba0;
+  constexpr static std::size_t addrs = 0x629b5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRChaperoneSetup::*)(::by_ref<::ArrayW<uint8_t>>)>(&::OVR::OpenVR::CVRChaperoneSetup::GetLiveCollisionBoundsTagsInfo)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x625ebcc;
+  constexpr static std::size_t addrs = 0x629b614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRChaperoneSetup::*)(::ArrayW<::OVR::OpenVR::HmdQuad_t>)>(
     &::OVR::OpenVR::CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x625ec78;
+  constexpr static std::size_t addrs = 0x629b6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRChaperoneSetup::*)(::by_ref<::ArrayW<::OVR::OpenVR::HmdQuad_t>>)>(
     &::OVR::OpenVR::CVRChaperoneSetup::GetLivePhysicalBoundsInfo)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x625eca4;
+  constexpr static std::size_t addrs = 0x629b6ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRChaperoneSetup*>(),
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRChaperoneSetup::*)(::System::Text::StringBuilder*, ::by_ref<uint32_t>)>(
     &::OVR::OpenVR::CVRChaperoneSetup::ExportLiveToBuffer)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x625ed50;
+  constexpr static std::size_t addrs = 0x629b798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVR::OpenVR::CVRChaperoneSetup::*)(::StringW, uint32_t)>(&::OVR::OpenVR::CVRChaperoneSetup::ImportFromBufferToWorking)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x625ed74;
+  constexpr static std::size_t addrs = 0x629b7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -54,41 +54,41 @@ public:
   /// @brief Field _name, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
 
-  /// @brief Method Bind, addr 0x645fcd0, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x649c8a0, size 0x248, virtual true, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method DependsOn, addr 0x646009c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x649cc6c, size 0x48, virtual true, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Eval, addr 0x645ff18, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x649cae8, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* Eval();
 
-  /// @brief Method Eval, addr 0x645ffe0, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x649cbb0, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::ArrayW<int32_t> records);
 
-  /// @brief Method Eval, addr 0x645ff3c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x649cb0c, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method HasLocalAggregate, addr 0x6460044, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x649cc14, size 0x2c, virtual true, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x6460070, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x649cc40, size 0x2c, virtual true, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method IsConstant, addr 0x6460010, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsConstant, addr 0x649cbe0, size 0x8, virtual true, abstract: false, final false
   inline bool IsConstant();
 
-  /// @brief Method IsTableConstant, addr 0x6460018, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method IsTableConstant, addr 0x649cbe8, size 0x2c, virtual true, abstract: false, final false
   inline bool IsTableConstant();
 
   static inline ::System::Data::NameNode* New_ctor(::System::Data::DataTable* table, ::StringW name);
 
   static inline ::System::Data::NameNode* New_ctor(::System::Data::DataTable* table, ::ArrayW<char16_t> text, int32_t start, int32_t pos);
 
-  /// @brief Method Optimize, addr 0x64600e4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Optimize, addr 0x649ccb4, size 0x4, virtual true, abstract: false, final false
   inline ::System::Data::ExpressionNode* Optimize();
 
-  /// @brief Method ParseName, addr 0x645db40, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ParseName, addr 0x649a710, size 0x1f0, virtual false, abstract: false, final false
   static inline ::StringW ParseName(::ArrayW<char16_t> text, int32_t start, int32_t pos);
 
   constexpr ::System::Data::DataColumn* const& __cordl_internal_get__column() const;
@@ -109,13 +109,13 @@ public:
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x645e2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x649ae94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW name);
 
-  /// @brief Method .ctor, addr 0x645ddc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x649a990, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::ArrayW<char16_t> text, int32_t start, int32_t pos);
 
-  /// @brief Method get_IsSqlColumn, addr 0x645fcb8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_IsSqlColumn, addr 0x649c888, size 0x18, virtual true, abstract: false, final false
   inline bool get_IsSqlColumn();
 
 protected:
@@ -133,7 +133,7 @@ public:
   NameNode(NameNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14073 };
 
   /// @brief Field _name, offset: 0x18, size: 0x8, def value: None
   ::StringW ____name;

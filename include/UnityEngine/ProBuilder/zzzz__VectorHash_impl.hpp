@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(float_t)>(&::UnityEngine::ProBuilder::VectorHash::HashFloat)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6b101d8;
+  constexpr static std::size_t addrs = 0x6b4ce54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Vector2)>(&::UnityEngine::ProBuilder::VectorHash::GetHashCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b10218;
+  constexpr static std::size_t addrs = 0x6b4ce94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::VectorHash::GetHashCode)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6afb894;
+  constexpr static std::size_t addrs = 0x6b38510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Vector4)>(&::UnityEngine::ProBuilder::VectorHash::GetHashCode)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6b10294;
+  constexpr static std::size_t addrs = 0x6b4cf10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

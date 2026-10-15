@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(bool, bool)>(&::UnityEngine::NumericFieldDraggerUtility::Acceleration)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6f30558;
+  constexpr static std::size_t addrs = 0x6f6d390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector2, float_t)>(&::UnityEngine::NumericFieldDraggerUtility::NiceDelta)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6f3057c;
+  constexpr static std::size_t addrs = 0x6f6d3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::UnityEngine::NumericFieldDraggerUtility::CalculateFloatDragSensitivity)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6f306e0;
+  constexpr static std::size_t addrs = 0x6f6d518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, double_t, double_t)>(&::UnityEngine::NumericFieldDraggerUtility::CalculateFloatDragSensitivity)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6f30778;
+  constexpr static std::size_t addrs = 0x6f6d5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int64_t)>(&::UnityEngine::NumericFieldDraggerUtility::CalculateIntDragSensitivity)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6f30814;
+  constexpr static std::size_t addrs = 0x6f6d64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint64_t)>(&::UnityEngine::NumericFieldDraggerUtility::CalculateIntDragSensitivity)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6f308c0;
+  constexpr static std::size_t addrs = 0x6f6d6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t)>(&::UnityEngine::NumericFieldDraggerUtility::CalculateIntDragSensitivity)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6f30840;
+  constexpr static std::size_t addrs = 0x6f6d678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int64_t, int64_t, int64_t)>(&::UnityEngine::NumericFieldDraggerUtility::CalculateIntDragSensitivity)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6f308e4;
+  constexpr static std::size_t addrs = 0x6f6d71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

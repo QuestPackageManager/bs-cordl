@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ResourceFormattedPathsAttribute::*)(::StringW, int32_t, int32_t, ::UnityEngine::Rendering::SearchType)>(
     &::UnityEngine::Rendering::ResourceFormattedPathsAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f66b4c;
+  constexpr static std::size_t addrs = 0x6fa3a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::get_defaultColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3504f14;
+  constexpr static std::size_t addrs = 0x3525870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::get_darkerColorMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3504f20;
+  constexpr static std::size_t addrs = 0x352587c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::get_whiteBoost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3504f28;
+  constexpr static std::size_t addrs = 0x3525884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3504f30;
+  constexpr static std::size_t addrs = 0x352588c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3504f9c;
+  constexpr static std::size_t addrs = 0x35258f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,18 +141,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAv
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c._OnValidate_b__10_0
+//  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c._OnValidate_b__9_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::*)(
-    ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*)>(&::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::_OnValidate_b__10_0)> {
+    ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*)>(&::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::_OnValidate_b__9_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3504fa0;
+  constexpr static std::size_t addrs = 0x35258fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*>(),
-                                                             { "<OnValidate>b__10_0", {}, { ::i2c::type_of<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>() } })));
+                                                             { "<OnValidate>b__9_0", {}, { ::i2c::type_of<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>() } })));
     return ___internal_method;
   }
 };
@@ -163,15 +163,15 @@ inline void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___
 inline ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c* BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*, "<>9", ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*>();
 }
-inline void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::setStaticF___9__10_0(
+inline void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::setStaticF___9__9_0(
     ::System::Func_2<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*, ::UnityEngine::Color>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*, ::UnityEngine::Color>*, "<>9__10_0",
+  ::cordl_internals::setStaticField<::System::Func_2<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*, ::UnityEngine::Color>*, "<>9__9_0",
                                     ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*>(
       std::forward<::System::Func_2<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*, ::UnityEngine::Color>*>(value));
 }
 inline ::System::Func_2<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*, ::UnityEngine::Color>*
-BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::getStaticF___9__10_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*, ::UnityEngine::Color>*, "<>9__10_0",
+BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::getStaticF___9__9_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*, ::UnityEngine::Color>*, "<>9__9_0",
                                            ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*>();
 }
 inline void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::_ctor() {
@@ -180,10 +180,10 @@ inline void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::UnityEngine::Color
-BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::_OnValidate_b__10_0(::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData* x) {
+BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::_OnValidate_b__9_0(::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData* x) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*>(),
-                                                           { "<OnValidate>b__10_0", {}, { ::i2c::type_of<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>() } })));
+                                                           { "<OnValidate>b__9_0", {}, { ::i2c::type_of<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>() } })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color>(this, ___internal_method, x);
 }
 inline ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c* BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::New_ctor() {
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::OnValidate)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3504b2c;
+  constexpr static std::size_t addrs = 0x3525488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)(::ArrayW<::UnityEngine::Color>)>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::SetColors)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x350472c;
+  constexpr static std::size_t addrs = 0x3525088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*>(),
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)(bool, int32_t)>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::SetHighlight)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3504a54;
+  constexpr static std::size_t addrs = 0x35253b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*>(),
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::UpdateRenderer)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3504d04;
+  constexpr static std::size_t addrs = 0x3525660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3504ea4;
+  constexpr static std::size_t addrs = 0x3525800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -323,18 +323,6 @@ constexpr ::ArrayW<::UnityEngine::Vector4> const& BeatSaber::BeatAvatarSDK::Mult
 constexpr void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::__cordl_internal_set__rimLightColors(::ArrayW<::UnityEngine::Vector4> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rimLightColors = value;
-}
-constexpr ::ArrayW<::UnityEngine::Color>& BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::__cordl_internal_get__boostColors() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____boostColors;
-}
-constexpr ::ArrayW<::UnityEngine::Color> const& BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::__cordl_internal_get__boostColors() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____boostColors;
-}
-constexpr void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::__cordl_internal_set__boostColors(::ArrayW<::UnityEngine::Color> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____boostColors = value;
 }
 constexpr bool& BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::__cordl_internal_get__highlighted() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

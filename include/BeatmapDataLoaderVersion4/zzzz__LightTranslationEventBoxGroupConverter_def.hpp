@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BeatmapDataLoaderVersion4/zzzz__EventBoxGroupConverter_def.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(LightTranslationEventBoxGroupConverter)
 namespace BeatmapSaveDataVersion4 {
 struct EventBox;
@@ -19,6 +20,9 @@ class IBeatmapBoxConverter;
 }
 namespace GlobalNamespace {
 class IEnvironmentLightGroups;
+}
+namespace GlobalNamespace {
+class ILightGroup;
 }
 namespace GlobalNamespace {
 class IndexFilter;
@@ -37,13 +41,16 @@ namespace BeatmapDataLoaderVersion4 {
 class CORDL_TYPE LightTranslationEventBoxGroupConverter : public ::BeatmapDataLoaderVersion4::EventBoxGroupConverter {
 public:
   // Declarations
-  /// @brief Method ConvertEvents, addr 0x39ee5b8, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method ConvertEvents, addr 0x3a17fdc, size 0x21c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox, ::GlobalNamespace::IndexFilter* indexFilter);
+
+  /// @brief Method GetGroupSize, addr 0x3a17ee8, size 0xf4, virtual true, abstract: false, final false
+  inline int32_t GetGroupSize(::GlobalNamespace::ILightGroup* lightGroup, ::BeatmapSaveDataVersion4::EventBox eventBox);
 
   static inline ::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter*
   New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups, ::GlobalNamespace::IBeatmapBoxConverter* boxConverter);
 
-  /// @brief Method .ctor, addr 0x39ed5ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a16dd0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups, ::GlobalNamespace::IBeatmapBoxConverter* boxConverter);
 
 protected:
@@ -61,7 +68,7 @@ public:
   LightTranslationEventBoxGroupConverter(LightTranslationEventBoxGroupConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14922 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

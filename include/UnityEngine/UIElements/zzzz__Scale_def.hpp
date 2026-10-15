@@ -56,41 +56,41 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Scale>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Scale>*();
 
-  /// @brief Method Equals, addr 0x7107b34, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7144a68, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x7107ae8, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7144a1c, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Scale other);
 
-  /// @brief Method GetHashCode, addr 0x7107be8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7144b1c, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method Initial, addr 0x71079c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Initial, addr 0x71448f4, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Scale Initial();
 
-  /// @brief Method None, addr 0x7107a10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x7144944, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Scale None();
 
-  /// @brief Method ToString, addr 0x7107c3c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7144b70, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x71079b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71448e4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 scale);
 
-  /// @brief Method get_value, addr 0x7107a28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x714495c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Scale>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Scale>* i___System__IEquatable_1___UnityEngine__UIElements__Scale_();
 
-  /// @brief Method op_Equality, addr 0x7107a40, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x7144974, size 0x54, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Scale lhs, ::UnityEngine::UIElements::Scale rhs);
 
-  /// @brief Method op_Inequality, addr 0x7107a94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x71449c8, size 0x54, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Scale lhs, ::UnityEngine::UIElements::Scale rhs);
 
-  /// @brief Method set_value, addr 0x7107a34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x7144968, size 0xc, virtual false, abstract: false, final false
   inline void set_value(::UnityEngine::Vector3 value);
 
   // Ctor Parameters []
@@ -142,12 +142,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x7107d88, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7144cbc, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 GetValue(::by_ref<::UnityEngine::UIElements::Scale> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x7107d94, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7144cc8, size 0xc, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Scale> container, ::UnityEngine::Vector3 value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -162,15 +162,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x7107d14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7144c48, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x7107d80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7144cb4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x7107d78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7144cac, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -221,7 +221,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Scale_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x7107c4c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7144b80, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

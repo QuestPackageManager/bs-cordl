@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData::*)()>(
     &::UnityEngine::Rendering::Universal::FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ce8b40;
+  constexpr static std::size_t addrs = 0x6d257bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData::*)()>(
     &::UnityEngine::Rendering::Universal::FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ce8b44;
+  constexpr static std::size_t addrs = 0x6d257c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::FullScreenRenderPass_FullScreenPassRendererFeature___c::*)()>(
     &::UnityEngine::Rendering::Universal::FullScreenRenderPass_FullScreenPassRendererFeature___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ce8b9c;
+  constexpr static std::size_t addrs = 0x6d25818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::FullScreenRenderPass_FullScreenPassRendererFeature_MainPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::FullScreenRenderPass_FullScreenPassRendererFeature___c::_AddFullscreenRenderPassInputPass_b__11_0)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6ce8ba0;
+  constexpr static std::size_t addrs = 0x6d2581c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::FullScreenRenderPass_FullScreenPassRendererFeature_CopyPassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::FullScreenRenderPass_FullScreenPassRendererFeature___c::_AddCopyPassRenderPassFullscreen_b__12_0)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6ce8c68;
+  constexpr static std::size_t addrs = 0x6d258e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature_FullScreenRenderPass::*)(::StringW)>(
     &::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature_FullScreenRenderPass::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ce739c;
+  constexpr static std::size_t addrs = 0x6d24018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature_FullScreenRenderPass*>(),
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature_FullScreenRenderPass::*)(
     ::UnityEngine::Material*, int32_t, bool, bool)>(&::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature_FullScreenRenderPass::SetupMembers)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ce7658;
+  constexpr static std::size_t addrs = 0x6d242d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature_FullScreenRenderPass::*)(::UnityEngine::RenderTextureDescriptor)>(
     &::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature_FullScreenRenderPass::ReAllocate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ce76c8;
+  constexpr static std::size_t addrs = 0x6d24344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature_FullScreenRenderPass*>(),
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::RTHandle*)>(
     &::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature_FullScreenRenderPass::ExecuteCopyColorPass)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6ce76cc;
+  constexpr static std::size_t addrs = 0x6d24348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Material*, int32_t)>(
     &::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature_FullScreenRenderPass::ExecuteMainPass)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x6ce7750;
+  constexpr static std::size_t addrs = 0x6d243cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -351,7 +351,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(
     &::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature_FullScreenRenderPass::RecordRenderGraph)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x6ce7934;
+  constexpr static std::size_t addrs = 0x6d245b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -368,7 +368,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
     &::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature_FullScreenRenderPass::AddFullscreenRenderPassInputPass)> {
   constexpr static std::size_t size = 0x944;
-  constexpr static std::size_t addrs = 0x6ce7d50;
+  constexpr static std::size_t addrs = 0x6d249cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -389,7 +389,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
     &::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature_FullScreenRenderPass::AddCopyPassRenderPassFullscreen)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x6ce8694;
+  constexpr static std::size_t addrs = 0x6d25310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -554,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature::*)()>(
     &::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature::Create)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6ce7330;
+  constexpr static std::size_t addrs = 0x6d23fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature*>(),
@@ -569,7 +569,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     bool, bool, ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_Event>, ::by_ref<::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize>)>(
     &::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature::RequireRenderingLayers)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ce741c;
+  constexpr static std::size_t addrs = 0x6d24098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature*>(),
@@ -584,7 +584,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                                     ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(
     &::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature::AddRenderPasses)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x6ce7430;
+  constexpr static std::size_t addrs = 0x6d240ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature*>(),
@@ -598,7 +598,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature::*)()>(
     &::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature::UpgradeIfNeeded)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ce766c;
+  constexpr static std::size_t addrs = 0x6d242e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -612,7 +612,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature::*)()>(
     &::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6ce7670;
+  constexpr static std::size_t addrs = 0x6d242ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature*>(),
@@ -626,7 +626,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature::*)()>(
     &::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ce768c;
+  constexpr static std::size_t addrs = 0x6d24308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature*>(),
@@ -640,7 +640,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature::*)()>(
     &::UnityEngine::Rendering::Universal::FullScreenPassRendererFeature::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ce76a4;
+  constexpr static std::size_t addrs = 0x6d24320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

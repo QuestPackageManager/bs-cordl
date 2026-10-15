@@ -108,7 +108,7 @@ public:
   constexpr NativeList_1_ParallelWriter(::Unity::Collections::LowLevel::Unsafe::UnsafeList_1<T>* ListData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15924 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -380,7 +380,7 @@ public:
   static constexpr int32_t MaxCapacity{ static_cast<int32_t>(0x7fffffff) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15925 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

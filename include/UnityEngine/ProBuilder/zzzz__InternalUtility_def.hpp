@@ -62,7 +62,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <TryParseColor>b__0, addr 0x6acde84, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <TryParseColor>b__0, addr 0x6b0ab00, size 0x30, virtual false, abstract: false, final false
   inline bool _TryParseColor_b__0(char16_t c);
 
   constexpr ::StringW const& __cordl_internal_get_valid() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_valid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6acde6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b0aae8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
   InternalUtility___c__DisplayClass6_0(InternalUtility___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17297 };
 
   /// @brief Field valid, offset: 0x10, size: 0x8, def value: None
   ::StringW ___valid;
@@ -112,7 +112,7 @@ public:
   // Declarations
   using __c__DisplayClass6_0 = ::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0;
 
-  /// @brief Method ControlKeyString, addr 0x6acdabc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ControlKeyString, addr 0x6b0a738, size 0x124, virtual false, abstract: false, final false
   static inline ::StringW ControlKeyString(char16_t character);
 
   /// [Extension]
@@ -127,7 +127,7 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Component*>)
   static inline T DemandComponent(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method EmptyGameObjectWithTransform, addr 0x6acd8bc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method EmptyGameObjectWithTransform, addr 0x6b0a538, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> EmptyGameObjectWithTransform(::UnityEngine::Transform* t);
 
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -142,10 +142,10 @@ public:
   static inline ::ArrayW<T> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* transforms);
 
   /// [Extension]
-  /// @brief Method GetObjectId, addr 0x6acde70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetObjectId, addr 0x6b0aaec, size 0x14, virtual false, abstract: false, final false
   static inline int32_t GetObjectId(::UnityEngine::Object* o);
 
-  /// @brief Method MeshGameObjectWithTransform, addr 0x6acd9a8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method MeshGameObjectWithTransform, addr 0x6b0a624, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> MeshGameObjectWithTransform(::StringW name, ::UnityEngine::Transform* t, ::UnityEngine::Mesh* mesh, ::UnityEngine::Material* mat,
                                                                                 bool inheritParent);
 
@@ -155,7 +155,7 @@ public:
     requires(::cordl_internals::type_constraint<T, ::System::IConvertible*>)
   static inline T NextEnumValue(T current);
 
-  /// @brief Method TryParseColor, addr 0x6acdbe0, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method TryParseColor, addr 0x6b0a85c, size 0x28c, virtual false, abstract: false, final false
   static inline bool TryParseColor(::StringW value, ::by_ref<::UnityEngine::Color> col);
 
 protected:
@@ -173,7 +173,7 @@ public:
   InternalUtility(InternalUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17265 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17298 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

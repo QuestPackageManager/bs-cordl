@@ -31,16 +31,16 @@ public:
   /// @brief Field _noFilter, offset 0xffffffff, size 0x1c
   __declspec(property(get = getStaticF__noFilter, put = setStaticF__noFilter)) ::UnityEngine::ContactFilter2D _noFilter;
 
-  /// @brief Method CheckConsistency, addr 0x6fd1320, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CheckConsistency, addr 0x700e214, size 0x3c, virtual false, abstract: false, final false
   inline void CheckConsistency();
 
-  /// @brief Method CreateLegacyFilter, addr 0x6fcfb58, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CreateLegacyFilter, addr 0x700ca4c, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityEngine::ContactFilter2D CreateLegacyFilter(int32_t layerMask, float_t minDepth, float_t maxDepth);
 
-  /// @brief Method SetDepth, addr 0x6fd136c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetDepth, addr 0x700e260, size 0x94, virtual false, abstract: false, final false
   inline void SetDepth(float_t minDepth, float_t maxDepth);
 
-  /// @brief Method SetLayerMask, addr 0x6fd135c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetLayerMask, addr 0x700e250, size 0x10, virtual false, abstract: false, final false
   inline void SetLayerMask(::UnityEngine::LayerMask layerMask);
 
   static inline ::UnityEngine::ContactFilter2D getStaticF__noFilter();
@@ -61,7 +61,7 @@ public:
                             float_t minDepth, float_t maxDepth, float_t minNormalAngle, float_t maxNormalAngle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21547 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

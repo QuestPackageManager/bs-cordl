@@ -7,28 +7,35 @@
 //  Writing Method size for method: ::GlobalNamespace::PseudoHDREncoding.CreatePseudoHDREncodedTexture
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(::UnityEngine::RenderTexture*)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(::UnityEngine::RenderTexture*, float_t)>(
     &::GlobalNamespace::PseudoHDREncoding::CreatePseudoHDREncodedTexture)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x5cff154;
+  constexpr static std::size_t size = 0x22c;
+  constexpr static std::size_t addrs = 0x5d38098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PseudoHDREncoding*>(), { "CreatePseudoHDREncodedTexture", {}, { ::i2c::type_of<::UnityEngine::RenderTexture*>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PseudoHDREncoding*>(),
+                                                             { "CreatePseudoHDREncodedTexture", {}, { ::i2c::type_of<::UnityEngine::RenderTexture*>(), ::i2c::type_of<float_t>() } })));
     return ___internal_method;
   }
 };
+inline void GlobalNamespace::PseudoHDREncoding::setStaticF__intensityScalePropertyId(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "_intensityScalePropertyId", ::GlobalNamespace::PseudoHDREncoding*>(std::forward<int32_t>(value));
+}
+inline int32_t GlobalNamespace::PseudoHDREncoding::getStaticF__intensityScalePropertyId() {
+  return ::cordl_internals::getStaticField<int32_t, "_intensityScalePropertyId", ::GlobalNamespace::PseudoHDREncoding*>();
+}
 inline void GlobalNamespace::PseudoHDREncoding::setStaticF__material(::UnityW<::UnityEngine::Material> value) {
   ::cordl_internals::setStaticField<::UnityW<::UnityEngine::Material>, "_material", ::GlobalNamespace::PseudoHDREncoding*>(std::forward<::UnityW<::UnityEngine::Material>>(value));
 }
 inline ::UnityW<::UnityEngine::Material> GlobalNamespace::PseudoHDREncoding::getStaticF__material() {
   return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Material>, "_material", ::GlobalNamespace::PseudoHDREncoding*>();
 }
-inline ::UnityW<::UnityEngine::RenderTexture> GlobalNamespace::PseudoHDREncoding::CreatePseudoHDREncodedTexture(::UnityEngine::RenderTexture* src) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PseudoHDREncoding*>(), { "CreatePseudoHDREncodedTexture", {}, { ::i2c::type_of<::UnityEngine::RenderTexture*>() } })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>>(nullptr, ___internal_method, src);
+inline ::UnityW<::UnityEngine::RenderTexture> GlobalNamespace::PseudoHDREncoding::CreatePseudoHDREncodedTexture(::UnityEngine::RenderTexture* src, float_t intensityScale) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PseudoHDREncoding*>(),
+                                                           { "CreatePseudoHDREncodedTexture", {}, { ::i2c::type_of<::UnityEngine::RenderTexture*>(), ::i2c::type_of<float_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RenderTexture>>(nullptr, ___internal_method, src, intensityScale);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PseudoHDREncoding::PseudoHDREncoding() {}

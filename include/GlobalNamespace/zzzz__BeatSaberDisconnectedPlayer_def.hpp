@@ -69,7 +69,7 @@ public:
 
   static inline ::GlobalNamespace::BeatSaberDisconnectedPlayer* New_ctor(::StringW userId, ::StringW userName, int32_t sortIndex);
 
-  /// @brief Method SetMultiplayerAvatarsData, addr 0x352f128, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SetMultiplayerAvatarsData, addr 0x3550080, size 0x4, virtual true, abstract: false, final true
   inline void SetMultiplayerAvatarsData(::GlobalNamespace::MultiplayerAvatarsData avatarsData);
 
   constexpr ::GlobalNamespace::MultiplayerActiveHand const& __cordl_internal_get__activeHand_k__BackingField() const;
@@ -90,25 +90,25 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerAvatarsData_k__BackingField(::GlobalNamespace::MultiplayerAvatarsData value);
 
-  /// @brief Method .ctor, addr 0x352f05c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x354ffb4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW userId, ::StringW userName, int32_t sortIndex);
 
-  /// @brief Method add_avatarDidChangeEvent, addr 0x352f120, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method add_avatarDidChangeEvent, addr 0x3550078, size 0x4, virtual true, abstract: false, final true
   inline void add_avatarDidChangeEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_activeHand, addr 0x352f110, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_activeHand, addr 0x3550068, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerActiveHand get_activeHand();
 
   /// [CompilerGenerated]
-  /// @brief Method get_extension, addr 0x352f118, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_extension, addr 0x3550070, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ConnectedPlayerExtension* get_extension();
 
-  /// @brief Method get_isAvatarResolved, addr 0x352f108, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isAvatarResolved, addr 0x3550060, size 0x8, virtual true, abstract: false, final true
   inline bool get_isAvatarResolved();
 
   /// [CompilerGenerated]
-  /// @brief Method get_multiplayerAvatarsData, addr 0x352f0f4, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerAvatarsData, addr 0x355004c, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_multiplayerAvatarsData();
 
   /// @brief Convert to "::GlobalNamespace::IBeatSaberConnectedPlayer"
@@ -117,7 +117,7 @@ public:
   /// @brief Convert to "::GlobalNamespace::IConnectedPlayer"
   constexpr ::GlobalNamespace::IConnectedPlayer* i___GlobalNamespace__IConnectedPlayer() noexcept;
 
-  /// @brief Method remove_avatarDidChangeEvent, addr 0x352f124, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method remove_avatarDidChangeEvent, addr 0x355007c, size 0x4, virtual true, abstract: false, final true
   inline void remove_avatarDidChangeEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
 protected:
@@ -135,7 +135,7 @@ public:
   BeatSaberDisconnectedPlayer(BeatSaberDisconnectedPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19428 };
 
   /// [CompilerGenerated]
   /// @brief Field <multiplayerAvatarsData>k__BackingField, offset: 0x28, size: 0x18, def value: None

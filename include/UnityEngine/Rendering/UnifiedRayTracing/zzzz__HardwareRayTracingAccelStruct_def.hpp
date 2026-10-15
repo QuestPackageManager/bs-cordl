@@ -75,38 +75,38 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingAccelStruct"
   constexpr operator ::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingAccelStruct*() noexcept;
 
-  /// @brief Method AddInstance, addr 0x6e0c834, size 0x170, virtual true, abstract: false, final true
+  /// @brief Method AddInstance, addr 0x6e494d0, size 0x170, virtual true, abstract: false, final true
   inline int32_t AddInstance(::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc meshInstance);
 
-  /// @brief Method Build, addr 0x6e0cadc, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Build, addr 0x6e49778, size 0xa0, virtual true, abstract: false, final true
   inline void Build(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* scratchBuffer);
 
   /// [Conditional("UNITY_ASSERTIONS")]
-  /// @brief Method CheckInstanceHandleIsValid, addr 0x6e0cb84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CheckInstanceHandleIsValid, addr 0x6e49820, size 0x4, virtual false, abstract: false, final false
   inline void CheckInstanceHandleIsValid(int32_t instanceHandle);
 
-  /// @brief Method ClearInstances, addr 0x6e0ca18, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method ClearInstances, addr 0x6e496b4, size 0x64, virtual true, abstract: false, final true
   inline void ClearInstances();
 
-  /// @brief Method Dispose, addr 0x6e0c7f4, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e49490, size 0x30, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetBuildScratchBufferRequiredSizeInBytes, addr 0x6e0cb7c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetBuildScratchBufferRequiredSizeInBytes, addr 0x6e49818, size 0x8, virtual true, abstract: false, final true
   inline uint64_t GetBuildScratchBufferRequiredSizeInBytes();
 
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::HardwareRayTracingAccelStruct* New_ctor(::UnityEngine::Rendering::UnifiedRayTracing::AccelerationStructureOptions* options,
                                                                                                      ::UnityEngine::Rendering::UnifiedRayTracing::ReferenceCounter* counter);
 
-  /// @brief Method RemoveInstance, addr 0x6e0c9a4, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method RemoveInstance, addr 0x6e49640, size 0x74, virtual true, abstract: false, final true
   inline void RemoveInstance(int32_t instanceHandle);
 
-  /// @brief Method UpdateInstanceID, addr 0x6e0cab4, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method UpdateInstanceID, addr 0x6e49750, size 0x14, virtual true, abstract: false, final true
   inline void UpdateInstanceID(int32_t instanceHandle, uint32_t instanceID);
 
-  /// @brief Method UpdateInstanceMask, addr 0x6e0cac8, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method UpdateInstanceMask, addr 0x6e49764, size 0x14, virtual true, abstract: false, final true
   inline void UpdateInstanceMask(int32_t instanceHandle, uint32_t mask);
 
-  /// @brief Method UpdateInstanceTransform, addr 0x6e0ca7c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method UpdateInstanceTransform, addr 0x6e49718, size 0x38, virtual true, abstract: false, final true
   inline void UpdateInstanceTransform(int32_t instanceHandle, ::UnityEngine::Matrix4x4 localToWorldMatrix);
 
   constexpr ::UnityEngine::Rendering::RayTracingAccelerationStructure* const& __cordl_internal_get__accelStruct_k__BackingField() const;
@@ -133,11 +133,11 @@ public:
 
   constexpr void __cordl_internal_set_m_Meshes(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Mesh>>* value);
 
-  /// @brief Method .ctor, addr 0x6e0c69c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e49338, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::UnifiedRayTracing::AccelerationStructureOptions* options, ::UnityEngine::Rendering::UnifiedRayTracing::ReferenceCounter* counter);
 
   /// [CompilerGenerated]
-  /// @brief Method get_accelStruct, addr 0x6e0c694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_accelStruct, addr 0x6e49330, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RayTracingAccelerationStructure* get_accelStruct();
 
   /// @brief Convert to "::System::IDisposable"
@@ -161,7 +161,7 @@ public:
   HardwareRayTracingAccelStruct(HardwareRayTracingAccelStruct const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20489 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20536 };
 
   /// [CompilerGenerated]
   /// @brief Field <accelStruct>k__BackingField, offset: 0x10, size: 0x8, def value: None

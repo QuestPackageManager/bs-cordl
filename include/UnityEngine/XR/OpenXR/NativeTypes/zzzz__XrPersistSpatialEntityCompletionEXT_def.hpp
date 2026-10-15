@@ -46,56 +46,56 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e44edc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81b78, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrResult futureResult, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT persistResult,
                     ::UnityEngine::XR::OpenXR::NativeTypes::XrUuid persistUuid);
 
-  /// @brief Method .ctor, addr 0x6e44f44, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81be0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult futureResult, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT persistResult,
                     ::UnityEngine::XR::OpenXR::NativeTypes::XrUuid persistUuid);
 
-  /// @brief Method get_defaultValue, addr 0x6e412f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_defaultValue, addr 0x6e7df8c, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrPersistSpatialEntityCompletionEXT get_defaultValue();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_futureResult, addr 0x6e44f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_futureResult, addr 0x6e81bac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult get_futureResult();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e44f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e81b9c, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_persistResult, addr 0x6e44f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_persistResult, addr 0x6e81bbc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT get_persistResult();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_persistUuid, addr 0x6e44f30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_persistUuid, addr 0x6e81bcc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrUuid get_persistUuid();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e44ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e81b94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   /// [CompilerGenerated]
-  /// @brief Method set_futureResult, addr 0x6e44f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_futureResult, addr 0x6e81bb4, size 0x8, virtual false, abstract: false, final false
   inline void set_futureResult(::UnityEngine::XR::OpenXR::NativeTypes::XrResult value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_next, addr 0x6e44f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_next, addr 0x6e81ba4, size 0x8, virtual false, abstract: false, final false
   inline void set_next(void* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_persistResult, addr 0x6e44f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_persistResult, addr 0x6e81bc4, size 0x8, virtual false, abstract: false, final false
   inline void set_persistResult(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialPersistenceContextResultEXT value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_persistUuid, addr 0x6e44f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_persistUuid, addr 0x6e81bd8, size 0x8, virtual false, abstract: false, final false
   inline void set_persistUuid(::UnityEngine::XR::OpenXR::NativeTypes::XrUuid value);
 
   // Ctor Parameters []
@@ -112,7 +112,7 @@ public:
                                                 ::UnityEngine::XR::OpenXR::NativeTypes::XrUuid _persistUuid_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17618 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

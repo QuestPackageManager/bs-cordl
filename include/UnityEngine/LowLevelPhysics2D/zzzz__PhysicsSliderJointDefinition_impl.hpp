@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsSliderJointDefinition::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsSliderJointDefinition::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6fd403c;
+  constexpr static std::size_t addrs = 0x7010f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsSliderJointDefinition>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsSliderJointDefinition::*)(bool)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsSliderJointDefinition::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6fd1ba0;
+  constexpr static std::size_t addrs = 0x700ea94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsSliderJointDefinition (*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsSliderJointDefinition::get_defaultDefinition)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6fd406c;
+  constexpr static std::size_t addrs = 0x7010f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

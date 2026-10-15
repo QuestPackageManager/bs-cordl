@@ -27,7 +27,7 @@ public:
   __declspec(property(get = getStaticF_s_CurrentPlayerApi, put = setStaticF_s_CurrentPlayerApi)) ::Unity::Multiplayer::PlayMode::CurrentPlayerApi* s_CurrentPlayerApi;
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method ReloadLatestTagsOnEnterPlaymode, addr 0x6fc4730, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ReloadLatestTagsOnEnterPlaymode, addr 0x7001624, size 0x4c, virtual false, abstract: false, final false
   static inline void ReloadLatestTagsOnEnterPlaymode();
 
   static inline ::Unity::Multiplayer::PlayMode::CurrentPlayerApi* getStaticF_s_CurrentPlayerApi();
@@ -49,7 +49,7 @@ public:
   CurrentPlayer(CurrentPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24513 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24606 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

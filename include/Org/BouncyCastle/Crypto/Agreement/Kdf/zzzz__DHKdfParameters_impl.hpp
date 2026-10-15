@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, int32_t, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3969b50;
+  constexpr static std::size_t addrs = 0x398c4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, int32_t, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3969b60;
+  constexpr static std::size_t addrs = 0x398c4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters*>(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::get_Algorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3969b70;
+  constexpr static std::size_t addrs = 0x398c4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::get_KeySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3969b78;
+  constexpr static std::size_t addrs = 0x398c4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::GetZ)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3969b80;
+  constexpr static std::size_t addrs = 0x398c4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters*>(), { "GetZ", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::GetExtraInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3969b88;
+  constexpr static std::size_t addrs = 0x398c4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

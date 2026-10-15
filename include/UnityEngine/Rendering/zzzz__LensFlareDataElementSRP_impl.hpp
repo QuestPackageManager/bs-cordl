@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(&::UnityEngine::Rendering::LensFlareDataElementSRP::_ctor)> {
   constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x6bbc624;
+  constexpr static std::size_t addrs = 0x6bf92a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareDataElementSRP*>(), { ".ctor", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::LensFlareDataElementSRP* (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::Clone)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x6bbcc1c;
+  constexpr static std::size_t addrs = 0x6bf9898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareDataElementSRP*>(), { "Clone", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(&::UnityEngine::Rendering::LensFlareDataElementSRP::get_localIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbd148;
+  constexpr static std::size_t addrs = 0x6bf9dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareDataElementSRP*>(), { "get_localIntensity", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareDataElementSRP::*)(float_t)>(&::UnityEngine::Rendering::LensFlareDataElementSRP::set_localIntensity)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bbcb70;
+  constexpr static std::size_t addrs = 0x6bf97ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(&::UnityEngine::Rendering::LensFlareDataElementSRP::get_count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbd150;
+  constexpr static std::size_t addrs = 0x6bf9dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareDataElementSRP*>(), { "get_count", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareDataElementSRP::*)(int32_t)>(&::UnityEngine::Rendering::LensFlareDataElementSRP::set_count)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6bbcb84;
+  constexpr static std::size_t addrs = 0x6bf9800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(&::UnityEngine::Rendering::LensFlareDataElementSRP::get_intensityVariation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbd158;
+  constexpr static std::size_t addrs = 0x6bf9dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareDataElementSRP::*)(float_t)>(
     &::UnityEngine::Rendering::LensFlareDataElementSRP::set_intensityVariation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bbcb94;
+  constexpr static std::size_t addrs = 0x6bf9810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(&::UnityEngine::Rendering::LensFlareDataElementSRP::get_fallOff)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbd160;
+  constexpr static std::size_t addrs = 0x6bf9ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareDataElementSRP*>(), { "get_fallOff", {}, {} })));
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareDataElementSRP::*)(float_t)>(&::UnityEngine::Rendering::LensFlareDataElementSRP::set_fallOff)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6bbcba8;
+  constexpr static std::size_t addrs = 0x6bf9824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(&::UnityEngine::Rendering::LensFlareDataElementSRP::get_edgeOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbd168;
+  constexpr static std::size_t addrs = 0x6bf9de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareDataElementSRP*>(), { "get_edgeOffset", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareDataElementSRP::*)(float_t)>(&::UnityEngine::Rendering::LensFlareDataElementSRP::set_edgeOffset)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6bbcbc8;
+  constexpr static std::size_t addrs = 0x6bf9844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(&::UnityEngine::Rendering::LensFlareDataElementSRP::get_sideCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbd170;
+  constexpr static std::size_t addrs = 0x6bf9dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareDataElementSRP*>(), { "get_sideCount", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareDataElementSRP::*)(int32_t)>(&::UnityEngine::Rendering::LensFlareDataElementSRP::set_sideCount)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bbcc08;
+  constexpr static std::size_t addrs = 0x6bf9884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::LensFlareDataElementSRP::*)()>(&::UnityEngine::Rendering::LensFlareDataElementSRP::get_sdfRoundness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bbd178;
+  constexpr static std::size_t addrs = 0x6bf9df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LensFlareDataElementSRP*>(), { "get_sdfRoundness", {}, {} })));
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LensFlareDataElementSRP::*)(float_t)>(&::UnityEngine::Rendering::LensFlareDataElementSRP::set_sdfRoundness)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6bbcbe8;
+  constexpr static std::size_t addrs = 0x6bf9864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

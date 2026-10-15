@@ -98,24 +98,24 @@ public:
 
   constexpr void __cordl_internal_set_t(::BeatmapSaveDataCommon::DistributionParamType value);
 
-  /// @brief Method .ctor, addr 0x39e8844, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a11fb8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType,
                     float_t vfxDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType vfxDistributionParamType, ::BeatmapSaveDataCommon::EaseType vfxDistributionEaseType,
                     bool vfxDistributionShouldAffectFirstBaseEvent, ::System::Collections::Generic::List_1<int32_t>* effectsBaseDataList);
 
-  /// @brief Method get_vfxBaseDataList, addr 0x39e883c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vfxBaseDataList, addr 0x3a11fb0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<int32_t>* get_vfxBaseDataList();
 
-  /// @brief Method get_vfxDistributionEaseType, addr 0x39e8824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vfxDistributionEaseType, addr 0x3a11f98, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_vfxDistributionEaseType();
 
-  /// @brief Method get_vfxDistributionParam, addr 0x39e8814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vfxDistributionParam, addr 0x3a11f88, size 0x8, virtual false, abstract: false, final false
   inline float_t get_vfxDistributionParam();
 
-  /// @brief Method get_vfxDistributionParamType, addr 0x39e881c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vfxDistributionParamType, addr 0x3a11f90, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::DistributionParamType get_vfxDistributionParamType();
 
-  /// @brief Method get_vfxDistributionShouldAffectFirstBaseEvent, addr 0x39e882c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_vfxDistributionShouldAffectFirstBaseEvent, addr 0x3a11fa0, size 0x10, virtual false, abstract: false, final false
   inline bool get_vfxDistributionShouldAffectFirstBaseEvent();
 
 protected:
@@ -133,7 +133,7 @@ public:
   FxEventBox(FxEventBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14835 };
 
   /// [SerializeField]
   /// @brief Field l, offset: 0x20, size: 0x8, def value: None

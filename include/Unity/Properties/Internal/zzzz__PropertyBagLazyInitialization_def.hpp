@@ -37,16 +37,16 @@ public:
                       put = setStaticF_s_LazyPropertyBagRegistrations)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::Unity::Properties::IPropertyBag*>*>*
       s_LazyPropertyBagRegistrations;
 
-  /// @brief Method AddLazyRegistration, addr 0x701323c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddLazyRegistration, addr 0x7050130, size 0xa8, virtual false, abstract: false, final false
   static inline void AddLazyRegistration(::System::Type* type, ::System::Func_1<::Unity::Properties::IPropertyBag*>* registration);
 
-  /// @brief Method HasLazyRegistration, addr 0x70132e4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HasLazyRegistration, addr 0x70501d8, size 0xa0, virtual false, abstract: false, final false
   static inline bool HasLazyRegistration(::System::Type* type);
 
-  /// @brief Method RemoveRegistration, addr 0x701341c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RemoveRegistration, addr 0x7050310, size 0x88, virtual false, abstract: false, final false
   static inline void RemoveRegistration(::System::Type* type);
 
-  /// @brief Method TryGetRegistrationDelegate, addr 0x7013384, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryGetRegistrationDelegate, addr 0x7050278, size 0x98, virtual false, abstract: false, final false
   static inline bool TryGetRegistrationDelegate(::System::Type* type, ::by_ref<::System::Func_1<::Unity::Properties::IPropertyBag*>*> registrationDelegate);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_1<::Unity::Properties::IPropertyBag*>*>* getStaticF_s_LazyPropertyBagRegistrations();
@@ -68,7 +68,7 @@ public:
   PropertyBagLazyInitialization(PropertyBagLazyInitialization const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20844 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20891 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

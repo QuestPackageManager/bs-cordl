@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Haptics::Ffi_Controller (*)(::Oculus::Haptics::Controller)>(&::Oculus::Haptics::Utils::ControllerToFfiController)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x61cbd18;
+  constexpr static std::size_t addrs = 0x6208760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(&::Oculus::Haptics::Utils::Map)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x61cc684;
+  constexpr static std::size_t addrs = 0x62090cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

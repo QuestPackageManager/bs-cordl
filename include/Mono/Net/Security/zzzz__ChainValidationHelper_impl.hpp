@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0::*)()>(
     &::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63f4fac;
+  constexpr static std::size_t addrs = 0x6431b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Net::Securi
     ::System::Object*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Net::Security::SslPolicyErrors)>(
     &::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0::_GetValidationCallback_b__0)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x63f56b8;
+  constexpr static std::size_t addrs = 0x6432288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Mono::Net::Security::ChainValidationHelper* (*)(::System::Net::Security::SslStream*, ::Mono::Net::Security::MobileTlsProvider*, ::Mono::Security::Interface::MonoTlsSettings*)>(
         &::Mono::Net::Security::ChainValidationHelper::GetInternalValidator)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x63f48ec;
+  constexpr static std::size_t addrs = 0x64314bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Mono::Net::Security::ChainValidationHelper* (*)(::Mono::Net::Security::MobileTlsProvider*, ::by_ref<::Mono::Security::Interface::MonoTlsSettings*>,
                                                                   ::Mono::Net::Security::MonoTlsStream*)>(&::Mono::Net::Security::ChainValidationHelper::Create)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x63f4c64;
+  constexpr static std::size_t addrs = 0x6431834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Securi
     ::System::Net::Security::SslStream*, ::Mono::Net::Security::MobileTlsProvider*, ::Mono::Security::Interface::MonoTlsSettings*, bool, ::Mono::Net::Security::MonoTlsStream*)>(
     &::Mono::Net::Security::ChainValidationHelper::_ctor)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x63f49c8;
+  constexpr static std::size_t addrs = 0x6431598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::ServerCertValidationCallback* (*)(::Mono::Security::Interface::MonoTlsSettings*)>(
     &::Mono::Net::Security::ChainValidationHelper::GetValidationCallback)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x63f4e0c;
+  constexpr static std::size_t addrs = 0x64319dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::ChainValidationHelper*>(),
@@ -163,7 +163,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                                          ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW>)>(
         &::Mono::Net::Security::ChainValidationHelper::DefaultSelectionCallback)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x63f4fb0;
+  constexpr static std::size_t addrs = 0x6431b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interface::MonoTlsSettings* (::Mono::Net::Security::ChainValidationHelper::*)()>(
     &::Mono::Net::Security::ChainValidationHelper::get_Settings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63f4ffc;
+  constexpr static std::size_t addrs = 0x6431bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::ChainValidationHelper*>(), { "get_Settings", {}, {} })));
@@ -195,7 +195,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Net::Securi
     ::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW>,
     ::by_ref<::System::Security::Cryptography::X509Certificates::X509Certificate*>)>(&::Mono::Net::Security::ChainValidationHelper::SelectClientCertificate)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x63f5004;
+  constexpr static std::size_t addrs = 0x6431bd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interfa
     ::Mono::Net::Security::ChainValidationHelper::*)(::StringW, bool, ::System::Security::Cryptography::X509Certificates::X509Certificate*,
                                                      ::System::Security::Cryptography::X509Certificates::X509Chain*)>(&::Mono::Net::Security::ChainValidationHelper::ValidateCertificate)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x63f504c;
+  constexpr static std::size_t addrs = 0x6431c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -235,7 +235,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interfa
                                                      ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*,
                                                      ::System::Net::Security::SslPolicyErrors)>(&::Mono::Net::Security::ChainValidationHelper::ValidateChain)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x63f5120;
+  constexpr static std::size_t addrs = 0x6431cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,7 +258,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interfa
                                                      ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Net::Security::SslPolicyErrors)>(
     &::Mono::Net::Security::ChainValidationHelper::ValidateChain)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x63f5200;
+  constexpr static std::size_t addrs = 0x6431dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -279,7 +279,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Net::Securi
     ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Net::Security::SslPolicyErrors)>(
     &::Mono::Net::Security::ChainValidationHelper::InvokeCallback)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x63f5600;
+  constexpr static std::size_t addrs = 0x64321d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

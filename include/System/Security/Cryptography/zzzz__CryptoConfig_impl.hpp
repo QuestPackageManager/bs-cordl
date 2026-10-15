@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::StringW)>(&::System::Security::Cryptography::CryptoConfig::CreateFromName)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f1f800;
+  constexpr static std::size_t addrs = 0x5f5c0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::StringW, ::ArrayW<::System::Object*>)>(&::System::Security::Cryptography::CryptoConfig::CreateFromName)> {
   constexpr static std::size_t size = 0x20b4;
-  constexpr static std::size_t addrs = 0x5f20a30;
+  constexpr static std::size_t addrs = 0x5f5d318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::CryptoConfig*>(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Security::Cryptography::CryptoConfig::MapNameToOID)> {
   constexpr static std::size_t size = 0x89c;
-  constexpr static std::size_t addrs = 0x5f22ba8;
+  constexpr static std::size_t addrs = 0x5f5f490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&::System::Security::Cryptography::CryptoConfig::EncodeOID)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x5f23444;
+  constexpr static std::size_t addrs = 0x5f5fd2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(int64_t)>(&::System::Security::Cryptography::CryptoConfig::EncodeLongNumber)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5f23844;
+  constexpr static std::size_t addrs = 0x5f6012c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Security::Cryptography::CryptoConfig::get_AllowOnlyFipsAlgorithms)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f1b68c;
+  constexpr static std::size_t addrs = 0x5f57f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

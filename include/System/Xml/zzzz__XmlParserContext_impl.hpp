@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlParserContext::*)(::System::Xml::XmlNameTable*, ::System::Xml::XmlNamespaceManager*, ::StringW,
                                                                                                  ::System::Xml::XmlSpace)>(&::System::Xml::XmlParserContext::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x66b6c0c;
+  constexpr static std::size_t addrs = 0x66f37dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlParserContext::*)(::System::Xml::XmlNameTable*, ::System::Xml::XmlNamespaceManager*, ::StringW, ::StringW, ::StringW,
                                                                                                  ::StringW, ::StringW, ::StringW, ::System::Xml::XmlSpace)>(&::System::Xml::XmlParserContext::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x66b6c58;
+  constexpr static std::size_t addrs = 0x66f3828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlP
                                                                                                  ::StringW, ::StringW, ::StringW, ::System::Xml::XmlSpace, ::System::Text::Encoding*)>(
     &::System::Xml::XmlParserContext::_ctor)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x66b6c84;
+  constexpr static std::size_t addrs = 0x66f3854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNameTable* (::System::Xml::XmlParserContext::*)()>(&::System::Xml::XmlParserContext::get_NameTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6dfc;
+  constexpr static std::size_t addrs = 0x66f39cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlParserContext*>(), { "get_NameTable", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNamespaceManager* (::System::Xml::XmlParserContext::*)()>(&::System::Xml::XmlParserContext::get_NamespaceManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6e04;
+  constexpr static std::size_t addrs = 0x66f39d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlParserContext*>(), { "get_NamespaceManager", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlParserContext::*)()>(&::System::Xml::XmlParserContext::get_DocTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6e0c;
+  constexpr static std::size_t addrs = 0x66f39dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlParserContext*>(), { "get_DocTypeName", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlParserContext::*)()>(&::System::Xml::XmlParserContext::get_PublicId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6e14;
+  constexpr static std::size_t addrs = 0x66f39e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlParserContext*>(), { "get_PublicId", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlParserContext::*)()>(&::System::Xml::XmlParserContext::get_SystemId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6e1c;
+  constexpr static std::size_t addrs = 0x66f39ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlParserContext*>(), { "get_SystemId", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlParserContext::*)()>(&::System::Xml::XmlParserContext::get_BaseURI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6e24;
+  constexpr static std::size_t addrs = 0x66f39f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlParserContext*>(), { "get_BaseURI", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlParserContext::*)()>(&::System::Xml::XmlParserContext::get_InternalSubset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6e2c;
+  constexpr static std::size_t addrs = 0x66f39fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlParserContext*>(), { "get_InternalSubset", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlParserContext::*)()>(&::System::Xml::XmlParserContext::get_XmlLang)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6e34;
+  constexpr static std::size_t addrs = 0x66f3a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlParserContext*>(), { "get_XmlLang", {}, {} })));
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlSpace (::System::Xml::XmlParserContext::*)()>(&::System::Xml::XmlParserContext::get_XmlSpace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6e3c;
+  constexpr static std::size_t addrs = 0x66f3a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlParserContext*>(), { "get_XmlSpace", {}, {} })));
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (::System::Xml::XmlParserContext::*)()>(&::System::Xml::XmlParserContext::get_Encoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66b6e44;
+  constexpr static std::size_t addrs = 0x66f3a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlParserContext*>(), { "get_Encoding", {}, {} })));
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlParserContext::*)()>(&::System::Xml::XmlParserContext::get_HasDtdInfo)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x66b6e4c;
+  constexpr static std::size_t addrs = 0x66f3a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlParserContext*>(), { "get_HasDtdInfo", {}, {} })));

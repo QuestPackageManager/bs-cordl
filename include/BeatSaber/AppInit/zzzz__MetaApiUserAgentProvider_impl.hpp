@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AppInit::MetaApiUserAgentProvider___c::*)()>(&::BeatSaber::AppInit::MetaApiUserAgentProvider___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a04ba8;
+  constexpr static std::size_t addrs = 0x3a2edb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AppInit::MetaApiUserAgentProvider___c*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::AppInit::MetaApiUserAgentProvider___c::*)(
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::ValueTuple_2<::StringW, ::StringW>>)>(&::BeatSaber::AppInit::MetaApiUserAgentProvider___c::_Rebuild_b__10_0)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3a04bac;
+  constexpr static std::size_t addrs = 0x3a2edb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AppInit::MetaApiUserAgentProvider::*)()>(&::BeatSaber::AppInit::MetaApiUserAgentProvider::_ctor)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3a04744;
+  constexpr static std::size_t addrs = 0x3a2e950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AppInit::MetaApiUserAgentProvider*>(), { ".ctor", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AppInit::MetaApiUserAgentProvider::*)(::StringW)>(&::BeatSaber::AppInit::MetaApiUserAgentProvider::SetLocale)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3a04704;
+  constexpr static std::size_t addrs = 0x3a2e910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AppInit::MetaApiUserAgentProvider::*)()>(&::BeatSaber::AppInit::MetaApiUserAgentProvider::Rebuild)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x3a048b4;
+  constexpr static std::size_t addrs = 0x3a2eac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AppInit::MetaApiUserAgentProvider*>(), { "Rebuild", {}, {} })));

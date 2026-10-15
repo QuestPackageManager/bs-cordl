@@ -7,7 +7,6 @@
 #include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"
 #include "GlobalNamespace/zzzz__IRichPresencePlatformHandler_def.hpp"
 #include "GlobalNamespace/zzzz__IUnifiedNetworkPlayerModel_def.hpp"
-#include "GlobalNamespace/zzzz__InMultiplayerRichPresenceData_def.hpp"
 #include "GlobalNamespace/zzzz__LobbyGameStateModel_def.hpp"
 #include "GlobalNamespace/zzzz__LobbyPlayerPermissionsModel_def.hpp"
 #include "GlobalNamespace/zzzz__MenuScenesTransitionSetupData_def.hpp"
@@ -25,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::Awake)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x5d1a520;
+  constexpr static std::size_t addrs = 0x5d5483c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RichPresenceManager*>(), { "Awake", {}, {} })));
@@ -37,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::OnDestroy)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x5d1a830;
+  constexpr static std::size_t addrs = 0x5d54b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RichPresenceManager*>(), { "OnDestroy", {}, {} })));
@@ -50,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)(::GlobalNamespace::MultiplayerGameState)>(
     &::GlobalNamespace::RichPresenceManager::HandleLobbyGameStateModelDidChange)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d1ab80;
+  constexpr static std::size_t addrs = 0x5d54e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::SetMenuPresence)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x5d1ab9c;
+  constexpr static std::size_t addrs = 0x5d54eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RichPresenceManager*>(), { "SetMenuPresence", {}, {} })));
@@ -77,8 +76,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::RichPresenceManager::*)(::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*)>(
         &::GlobalNamespace::RichPresenceManager::HandleGameScenesManagerTransitionDidFinish)> {
-  constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x5d1ae84;
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x5d551a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)(int32_t)>(&::GlobalNamespace::RichPresenceManager::HandleMultiplayerPartySizeChanged)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x5d1b1a8;
+  constexpr static std::size_t addrs = 0x5d554b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::HandleLobbyPlayerPermissionChanged)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5d1b384;
+  constexpr static std::size_t addrs = 0x5d55694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)(::GlobalNamespace::IRichPresenceData*)>(&::GlobalNamespace::RichPresenceManager::SetPresence)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5d1adcc;
+  constexpr static std::size_t addrs = 0x5d550e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::Clear)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d1b0fc;
+  constexpr static std::size_t addrs = 0x5d5540c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RichPresenceManager*>(), { "Clear", {}, {} })));
@@ -146,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RichPresenceManager::*)()>(&::GlobalNamespace::RichPresenceManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d1b4e0;
+  constexpr static std::size_t addrs = 0x5d557f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RichPresenceManager*>(), { ".ctor", {}, {} })));
@@ -308,18 +307,6 @@ constexpr ::GlobalNamespace::BrowsingMenusRichPresenceData* const& GlobalNamespa
 constexpr void GlobalNamespace::RichPresenceManager::__cordl_internal_set__browsingMenusRichPresenceData(::GlobalNamespace::BrowsingMenusRichPresenceData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____browsingMenusRichPresenceData = value;
-}
-constexpr ::GlobalNamespace::InMultiplayerRichPresenceData*& GlobalNamespace::RichPresenceManager::__cordl_internal_get__inMultiplayerRichPresenceData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____inMultiplayerRichPresenceData;
-}
-constexpr ::GlobalNamespace::InMultiplayerRichPresenceData* const& GlobalNamespace::RichPresenceManager::__cordl_internal_get__inMultiplayerRichPresenceData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____inMultiplayerRichPresenceData;
-}
-constexpr void GlobalNamespace::RichPresenceManager::__cordl_internal_set__inMultiplayerRichPresenceData(::GlobalNamespace::InMultiplayerRichPresenceData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____inMultiplayerRichPresenceData = value;
 }
 constexpr ::GlobalNamespace::PlayingCampaignRichPresenceData*& GlobalNamespace::RichPresenceManager::__cordl_internal_get__playingCampaignRichPresenceData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

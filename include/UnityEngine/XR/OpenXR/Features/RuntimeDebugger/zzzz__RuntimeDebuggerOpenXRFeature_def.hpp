@@ -43,27 +43,27 @@ public:
   /// @brief Field perThreadCacheSize, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get_perThreadCacheSize, put = __cordl_internal_set_perThreadCacheSize)) uint32_t perThreadCacheSize;
 
-  /// @brief Method HookGetInstanceProcAddr, addr 0x6e47ee8, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method HookGetInstanceProcAddr, addr 0x6e84b84, size 0x104, virtual true, abstract: false, final false
   inline ::System::IntPtr HookGetInstanceProcAddr(::System::IntPtr func);
 
-  /// @brief Method Native_EndDataAccess, addr 0x6e48050, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Native_EndDataAccess, addr 0x6e84cec, size 0x64, virtual false, abstract: false, final false
   static inline void Native_EndDataAccess();
 
-  /// @brief Method Native_GetDataForRead, addr 0x6e483f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Native_GetDataForRead, addr 0x6e85094, size 0x8c, virtual false, abstract: false, final false
   static inline bool Native_GetDataForRead(::by_ref<::System::IntPtr> ptr, ::by_ref<uint32_t> size);
 
-  /// @brief Method Native_GetLUTData, addr 0x6e48364, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Native_GetLUTData, addr 0x6e85000, size 0x94, virtual false, abstract: false, final false
   static inline void Native_GetLUTData(::by_ref<::System::IntPtr> ptr, ::by_ref<uint32_t> size, uint32_t offset);
 
-  /// @brief Method Native_HookGetInstanceProcAddr, addr 0x6e480b4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Native_HookGetInstanceProcAddr, addr 0x6e84d50, size 0x94, virtual false, abstract: false, final false
   static inline ::System::IntPtr Native_HookGetInstanceProcAddr(::System::IntPtr func, uint32_t cacheSize, uint32_t perThreadCacheSize);
 
-  /// @brief Method Native_StartDataAccess, addr 0x6e47fec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Native_StartDataAccess, addr 0x6e84c88, size 0x64, virtual false, abstract: false, final false
   static inline void Native_StartDataAccess();
 
   static inline ::UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature* New_ctor();
 
-  /// @brief Method RecvMsg, addr 0x6e48148, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method RecvMsg, addr 0x6e84de4, size 0x21c, virtual false, abstract: false, final false
   inline void RecvMsg(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
   constexpr uint32_t const& __cordl_internal_get_cacheSize() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_perThreadCacheSize(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x6e48484, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e85120, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Guid getStaticF_kEditorToPlayerRequestDebuggerOutput();
@@ -113,7 +113,7 @@ public:
   static constexpr ::ConstString Library{ u"openxr_runtime_debugger" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24387 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24469 };
 
   /// @brief Field cacheSize, offset: 0x6c, size: 0x4, def value: None
   uint32_t ___cacheSize;

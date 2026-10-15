@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType (::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataBaseHeader::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataBaseHeader::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3d978;
+  constexpr static std::size_t addrs = 0x6e7a614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataBaseHeader>(), { "get_type", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataBaseHeader::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataBaseHeader::get_next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3d980;
+  constexpr static std::size_t addrs = 0x6e7a61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataBaseHeader>(), { "get_next", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataBaseHeader::*)(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType, void*)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataBaseHeader::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e3d988;
+  constexpr static std::size_t addrs = 0x6e7a624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataBaseHeader::*)(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataBaseHeader::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e3d994;
+  constexpr static std::size_t addrs = 0x6e7a630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataBaseHeader>(),

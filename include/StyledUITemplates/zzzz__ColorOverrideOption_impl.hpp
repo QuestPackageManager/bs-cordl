@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::get_color)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x635a91c;
+  constexpr static std::size_t addrs = 0x63973f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "get_color", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::get_overrideEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a948;
+  constexpr static std::size_t addrs = 0x6397420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "get_overrideEnabled", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(bool)>(&::StyledUITemplates::ColorOverrideOption::set_overrideEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a950;
+  constexpr static std::size_t addrs = 0x6397428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::get_useFixedColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a958;
+  constexpr static std::size_t addrs = 0x6397430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "get_useFixedColor", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(bool)>(&::StyledUITemplates::ColorOverrideOption::set_useFixedColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a960;
+  constexpr static std::size_t addrs = 0x6397438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::get_fixedColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x635a968;
+  constexpr static std::size_t addrs = 0x6397440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "get_fixedColor", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(::UnityEngine::Color)>(&::StyledUITemplates::ColorOverrideOption::set_fixedColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x635a974;
+  constexpr static std::size_t addrs = 0x639744c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::ColorSO> (::StyledUITemplates::ColorOverrideOption::*)()>(
     &::StyledUITemplates::ColorOverrideOption::get_scriptableObjectColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a980;
+  constexpr static std::size_t addrs = 0x6397458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { "get_scriptableObjectColor", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(::GlobalNamespace::ColorSO*)>(
     &::StyledUITemplates::ColorOverrideOption::set_scriptableObjectColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x635a988;
+  constexpr static std::size_t addrs = 0x6397460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x635a990;
+  constexpr static std::size_t addrs = 0x6397468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::StyledUITemplates::ColorOverrideOption*>(), { ".ctor", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(::StyledUITemplates::ColorOverrideOption*)>(
     &::StyledUITemplates::ColorOverrideOption::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x635a99c;
+  constexpr static std::size_t addrs = 0x6397474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::StyledUITemplates::ColorOverrideOption::*)(::StyledUITemplates::ColorOverrideOption*)>(
     &::StyledUITemplates::ColorOverrideOption::Equals)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x635a9d0;
+  constexpr static std::size_t addrs = 0x63974a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::StyledUITemplates::ColorOverrideOption::*)(::System::Object*)>(&::StyledUITemplates::ColorOverrideOption::Equals)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x635ab20;
+  constexpr static std::size_t addrs = 0x63975f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::GetHashCode)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x635ac14;
+  constexpr static std::size_t addrs = 0x63976ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

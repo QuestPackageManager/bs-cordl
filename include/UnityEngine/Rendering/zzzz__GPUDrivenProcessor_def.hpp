@@ -85,7 +85,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE GPUDrivenProcessor_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6f89e2c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6fc6d08, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::Rendering::GPUDrivenProcessor* obj);
 
 protected:
@@ -103,7 +103,7 @@ public:
   GPUDrivenProcessor_BindingsMarshaller(GPUDrivenProcessor_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10492 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -124,15 +124,15 @@ public:
 
   static inline ::UnityEngine::Rendering::GPUDrivenProcessor___c* New_ctor();
 
-  /// @brief Method <.cctor>b__34_0, addr 0x6f89e98, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__34_0, addr 0x6fc6d74, size 0x2b0, virtual false, abstract: false, final false
   inline void __cctor_b__34_0(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative const> nativeData,
                               ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials,
                               ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* callback);
 
-  /// @brief Method <.cctor>b__34_1, addr 0x6f8a148, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__34_1, addr 0x6fc7024, size 0x15c, virtual false, abstract: false, final false
   inline void __cctor_b__34_1(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative const> nativeData, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* callback);
 
-  /// @brief Method .ctor, addr 0x6f89e94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fc6d70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::GPUDrivenProcessor___c* getStaticF___9();
@@ -154,7 +154,7 @@ public:
   GPUDrivenProcessor___c(GPUDrivenProcessor___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10493 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -198,75 +198,75 @@ public:
 
   __declspec(property(get = get_scratchMeshes, put = set_scratchMeshes)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* scratchMeshes;
 
-  /// @brief Method ClassifyMaterials, addr 0x6f89bb8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ClassifyMaterials, addr 0x6fc6a94, size 0x144, virtual false, abstract: false, final false
   static inline int32_t ClassifyMaterials(::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> materialIDs, ::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> unsupportedMaterialIDs,
                                           ::Unity::Collections::NativeArray_1<::UnityEngine::EntityId> supportedMaterialIDs,
                                           ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> supportedPackedMaterialDatas);
 
   /// [FreeFunction("GPUDrivenProcessor::ClassifyMaterials", IsThreadSafe = true)]
-  /// @brief Method ClassifyMaterialsImpl, addr 0x6f899d8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ClassifyMaterialsImpl, addr 0x6fc68b4, size 0x184, virtual false, abstract: false, final false
   static inline int32_t ClassifyMaterialsImpl(::System::ReadOnlySpan_1<::UnityEngine::EntityId> materialIDs, ::System::Span_1<::UnityEngine::EntityId> unsupportedMaterialIDs,
                                               ::System::Span_1<::UnityEngine::EntityId> supportedMaterialIDs,
                                               ::System::Span_1<::UnityEngine::Rendering::GPUDrivenPackedMaterialData> supportedPackedMaterialDatas);
 
-  /// @brief Method ClassifyMaterialsImpl_Injected, addr 0x6f89b5c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ClassifyMaterialsImpl_Injected, addr 0x6fc6a38, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t ClassifyMaterialsImpl_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> materialIDs, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> unsupportedMaterialIDs,
                                                        ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> supportedMaterialIDs,
                                                        ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> supportedPackedMaterialDatas);
 
-  /// @brief Method ClearMaterialFilters, addr 0x6f89908, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ClearMaterialFilters, addr 0x6fc67e4, size 0x94, virtual false, abstract: false, final false
   inline void ClearMaterialFilters();
 
-  /// @brief Method ClearMaterialFilters_Injected, addr 0x6f8999c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearMaterialFilters_Injected, addr 0x6fc6878, size 0x3c, virtual false, abstract: false, final false
   static inline void ClearMaterialFilters_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method Destroy, addr 0x6f89090, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6fc5f6c, size 0x88, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method DisableGPUDrivenRendering, addr 0x6f89498, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method DisableGPUDrivenRendering, addr 0x6fc6374, size 0xf0, virtual false, abstract: false, final false
   inline void DisableGPUDrivenRendering(::System::ReadOnlySpan_1<::UnityEngine::EntityId> renderersID);
 
-  /// @brief Method DisableGPUDrivenRendering_Injected, addr 0x6f89588, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DisableGPUDrivenRendering_Injected, addr 0x6fc6464, size 0x44, virtual false, abstract: false, final false
   static inline void DisableGPUDrivenRendering_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> renderersID);
 
-  /// @brief Method DispatchLODGroupData, addr 0x6f89730, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method DispatchLODGroupData, addr 0x6fc660c, size 0xf0, virtual false, abstract: false, final false
   inline void DispatchLODGroupData(::System::ReadOnlySpan_1<::UnityEngine::EntityId> lodGroupID, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* callback);
 
-  /// @brief Method DispatchLODGroupData, addr 0x6f895cc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method DispatchLODGroupData, addr 0x6fc64a8, size 0x108, virtual false, abstract: false, final false
   inline void DispatchLODGroupData(::System::ReadOnlySpan_1<::UnityEngine::EntityId> lodGroupID, ::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback* callback,
                                    ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* param);
 
-  /// @brief Method DispatchLODGroupData_Injected, addr 0x6f896d4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method DispatchLODGroupData_Injected, addr 0x6fc65b0, size 0x5c, virtual false, abstract: false, final false
   static inline void DispatchLODGroupData_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> lodGroupID,
                                                    ::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback* callback, ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* param);
 
-  /// @brief Method Dispose, addr 0x6f89118, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6fc5ff4, size 0x68, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method EnableGPUDrivenRenderingAndDispatchRendererData, addr 0x6f89370, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method EnableGPUDrivenRenderingAndDispatchRendererData, addr 0x6fc624c, size 0x128, virtual false, abstract: false, final false
   inline void EnableGPUDrivenRenderingAndDispatchRendererData(::System::ReadOnlySpan_1<::UnityEngine::EntityId> renderersID, ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* callback,
                                                               bool materialUpdateOnly);
 
-  /// @brief Method EnableGPUDrivenRenderingAndDispatchRendererData, addr 0x6f891bc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method EnableGPUDrivenRenderingAndDispatchRendererData, addr 0x6fc6098, size 0x130, virtual false, abstract: false, final false
   inline void EnableGPUDrivenRenderingAndDispatchRendererData(::System::ReadOnlySpan_1<::UnityEngine::EntityId> renderersID, ::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback* callback,
                                                               ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                               ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials,
                                                               ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* param, bool materialUpdateOnly);
 
-  /// @brief Method EnableGPUDrivenRenderingAndDispatchRendererData_Injected, addr 0x6f892ec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method EnableGPUDrivenRenderingAndDispatchRendererData_Injected, addr 0x6fc61c8, size 0x84, virtual false, abstract: false, final false
   static inline void EnableGPUDrivenRenderingAndDispatchRendererData_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> renderersID,
                                                                               ::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback* callback,
                                                                               ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                                               ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* materials,
                                                                               ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* param, bool materialUpdateOnly);
 
-  /// @brief Method Finalize, addr 0x6f8904c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6fc5f28, size 0x44, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Internal_Create, addr 0x6f89024, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x6fc5f00, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Internal_Create();
 
-  /// @brief Method Internal_Destroy, addr 0x6f89180, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x6fc605c, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(::System::IntPtr ptr);
 
   static inline ::UnityEngine::Rendering::GPUDrivenProcessor* New_ctor();
@@ -289,7 +289,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6f88f18, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fc5df4, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback* getStaticF_s_NativeLODGroupCallback();
@@ -297,29 +297,29 @@ public:
   static inline ::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback* getStaticF_s_NativeRendererCallback();
 
   /// [CompilerGenerated]
-  /// @brief Method get_scratchMaterials, addr 0x6f88f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scratchMaterials, addr 0x6fc5de4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* get_scratchMaterials();
 
   /// [CompilerGenerated]
-  /// @brief Method get_scratchMeshes, addr 0x6f88ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scratchMeshes, addr 0x6fc5dd4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* get_scratchMeshes();
 
   static inline void setStaticF_s_NativeLODGroupCallback(::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback* value);
 
   static inline void setStaticF_s_NativeRendererCallback(::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback* value);
 
-  /// @brief Method set_enablePartialRendering, addr 0x6f89820, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method set_enablePartialRendering, addr 0x6fc66fc, size 0xa4, virtual false, abstract: false, final false
   inline void set_enablePartialRendering(bool value);
 
-  /// @brief Method set_enablePartialRendering_Injected, addr 0x6f898c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enablePartialRendering_Injected, addr 0x6fc67a0, size 0x44, virtual false, abstract: false, final false
   static inline void set_enablePartialRendering_Injected(::System::IntPtr _unity_self, bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_scratchMaterials, addr 0x6f88f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scratchMaterials, addr 0x6fc5dec, size 0x8, virtual false, abstract: false, final false
   inline void set_scratchMaterials(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_scratchMeshes, addr 0x6f88f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scratchMeshes, addr 0x6fc5ddc, size 0x8, virtual false, abstract: false, final false
   inline void set_scratchMeshes(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* value);
 
 protected:
@@ -337,7 +337,7 @@ public:
   GPUDrivenProcessor(GPUDrivenProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10494 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

@@ -26,12 +26,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE TimeFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x726c9b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x72a98e4, size 0x14, virtual true, abstract: false, final false
   inline double_t Invoke();
 
   static inline ::UnityEngine::UIElements::TimeFunction* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x726c948, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72a987c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

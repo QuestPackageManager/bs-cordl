@@ -74,11 +74,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5d64d0c, size 0x2e8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d9fd44, size 0x2e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5d64ff4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5da002c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -97,7 +97,7 @@ public:
                                                                          ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7043 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -140,7 +140,7 @@ public:
   /// @brief Field _allTimeLeaderboardIcon, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__allTimeLeaderboardIcon, put = __cordl_internal_set__allTimeLeaderboardIcon)) ::UnityW<::UnityEngine::Sprite> _allTimeLeaderboardIcon;
 
-  /// @brief Field _beatmapKey, offset 0xc8, size 0x10
+  /// @brief Field _beatmapKey, offset 0xc8, size 0x18
   __declspec(property(get = __cordl_internal_get__beatmapKey, put = __cordl_internal_set__beatmapKey)) ::GlobalNamespace::BeatmapKey _beatmapKey;
 
   /// @brief Field _clearLeaderboardIcon, offset 0xb0, size 0x8
@@ -152,7 +152,7 @@ public:
   /// @brief Field _clearLeaderboardsWrapper, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__clearLeaderboardsWrapper, put = __cordl_internal_set__clearLeaderboardsWrapper)) ::UnityW<::UnityEngine::GameObject> _clearLeaderboardsWrapper;
 
-  /// @brief Field _enableClear, offset 0xd9, size 0x1
+  /// @brief Field _enableClear, offset 0xe1, size 0x1
   __declspec(property(get = __cordl_internal_get__enableClear, put = __cordl_internal_set__enableClear)) bool _enableClear;
 
   /// @brief Field _leaderboardTableView, offset 0x80, size 0x8
@@ -170,7 +170,7 @@ public:
   /// @brief Field _playerDataModel, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  /// @brief Field _refreshIsNeeded, offset 0xd8, size 0x1
+  /// @brief Field _refreshIsNeeded, offset 0xe0, size 0x1
   __declspec(property(get = __cordl_internal_get__refreshIsNeeded, put = __cordl_internal_set__refreshIsNeeded)) bool _refreshIsNeeded;
 
   /// @brief Field _scopeSegmentedControl, offset 0x98, size 0x8
@@ -182,46 +182,46 @@ public:
   __declspec(property(get = get_leaderboardsModel)) ::GlobalNamespace::LocalLeaderboardsModel* leaderboardsModel;
 
   /// [AsyncStateMachine(typeof(LocalLeaderboardViewController::<ClearLeaderboardsAsync>d__24))]
-  /// @brief Method ClearLeaderboardsAsync, addr 0x5d64abc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ClearLeaderboardsAsync, addr 0x5d9fa88, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ClearLeaderboardsAsync();
 
-  /// @brief Method DidActivate, addr 0x5d6430c, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5d9f2d8, size 0x1f0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5d6490c, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5d9f8d8, size 0x114, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleNewScoreWasAddedToLeaderboard, addr 0x5d64be8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HandleNewScoreWasAddedToLeaderboard, addr 0x5d9fbb4, size 0xa8, virtual false, abstract: false, final false
   inline void HandleNewScoreWasAddedToLeaderboard(::StringW leaderboardID, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType leaderboardType);
 
-  /// @brief Method HandleScopeSegmentedControlDidSelectCell, addr 0x5d647c0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method HandleScopeSegmentedControlDidSelectCell, addr 0x5d9f78c, size 0x14c, virtual false, abstract: false, final false
   inline void HandleScopeSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber);
 
   static inline ::GlobalNamespace::LocalLeaderboardViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5d64a20, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5d9f9ec, size 0x9c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x5d64198, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5d9f110, size 0x84, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Refresh, addr 0x5d642a4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5d9f270, size 0x68, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method RefreshScopeSegmentedControl, addr 0x5d644fc, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method RefreshScopeSegmentedControl, addr 0x5d9f4c8, size 0x2c4, virtual false, abstract: false, final false
   inline void RefreshScopeSegmentedControl();
 
-  /// @brief Method SetContent, addr 0x5d64b6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetContent, addr 0x5d9fb38, size 0x7c, virtual false, abstract: false, final false
   inline void SetContent(::StringW leaderboardID, ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType leaderboardType);
 
-  /// @brief Method SetData, addr 0x5d64224, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method SetData, addr 0x5d9f19c, size 0xd4, virtual true, abstract: false, final false
   inline void SetData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
-  /// @brief Method Setup, addr 0x5d6421c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5d9f194, size 0x8, virtual false, abstract: false, final false
   inline void Setup(bool enableClear);
 
   /// [CompilerGenerated]
-  /// @brief Method <DidActivate>b__19_0, addr 0x5d64c9c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__19_0, addr 0x5d9fc68, size 0xdc, virtual false, abstract: false, final false
   inline void _DidActivate_b__19_0();
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__allTimeLeaderboardIcon() const;
@@ -302,12 +302,12 @@ public:
 
   constexpr void __cordl_internal_set__todayLeaderboardIcon(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x5d64c90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9fc5c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType getStaticF__leaderboardType();
 
-  /// @brief Method get_leaderboardsModel, addr 0x5d64190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leaderboardsModel, addr 0x5d9f108, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LocalLeaderboardsModel* get_leaderboardsModel();
 
   static inline void setStaticF__leaderboardType(::GlobalNamespace::LocalLeaderboardsModel_LeaderboardType value);
@@ -327,7 +327,7 @@ public:
   LocalLeaderboardViewController(LocalLeaderboardViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7044 };
 
   /// [SerializeField]
   /// @brief Field _maxNumberOfCells, offset: 0x78, size: 0x4, def value: None
@@ -371,13 +371,13 @@ public:
   /// @brief Field _localLeaderboardsModel, offset: 0xc0, size: 0x8, def value: None
   ::GlobalNamespace::LocalLeaderboardsModel* ____localLeaderboardsModel;
 
-  /// @brief Field _beatmapKey, offset: 0xc8, size: 0x10, def value: None
+  /// @brief Field _beatmapKey, offset: 0xc8, size: 0x18, def value: None
   ::GlobalNamespace::BeatmapKey ____beatmapKey;
 
-  /// @brief Field _refreshIsNeeded, offset: 0xd8, size: 0x1, def value: None
+  /// @brief Field _refreshIsNeeded, offset: 0xe0, size: 0x1, def value: None
   bool ____refreshIsNeeded;
 
-  /// @brief Field _enableClear, offset: 0xd9, size: 0x1, def value: None
+  /// @brief Field _enableClear, offset: 0xe1, size: 0x1, def value: None
   bool ____enableClear;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -405,10 +405,10 @@ static_assert(offsetof(::GlobalNamespace::LocalLeaderboardViewController, ____lo
 
 static_assert(offsetof(::GlobalNamespace::LocalLeaderboardViewController, ____beatmapKey) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LocalLeaderboardViewController, ____refreshIsNeeded) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LocalLeaderboardViewController, ____refreshIsNeeded) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LocalLeaderboardViewController, ____enableClear) == 0xd9, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LocalLeaderboardViewController, ____enableClear) == 0xe1, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::LocalLeaderboardViewController) == 0xe0, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::LocalLeaderboardViewController) == 0xe8, "Size mismatch!");
 
 } // namespace GlobalNamespace

@@ -23,10 +23,10 @@ public:
   /// @brief Field value, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) uint64_t value;
 
-  /// @brief Method Dec, addr 0x6e0c824, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Dec, addr 0x6e494c0, size 0x10, virtual false, abstract: false, final false
   inline void Dec();
 
-  /// @brief Method Inc, addr 0x6e0c7e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Inc, addr 0x6e49480, size 0x10, virtual false, abstract: false, final false
   inline void Inc();
 
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::ReferenceCounter* New_ctor();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set_value(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x6e0d0fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e49d98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +55,7 @@ public:
   ReferenceCounter(ReferenceCounter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20547 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   uint64_t ___value;

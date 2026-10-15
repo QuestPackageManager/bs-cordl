@@ -28,11 +28,11 @@ class CORDL_TYPE Utils : public ::System::Object {
 public:
   // Declarations
   /// [Conditional("UNITY_ASSERTIONS")]
-  /// @brief Method CheckArg, addr 0x6e08c08, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CheckArg, addr 0x6e458a4, size 0x4c, virtual false, abstract: false, final false
   static inline void CheckArg(bool condition, ::StringW message);
 
   /// [Conditional("UNITY_ASSERTIONS")]
-  /// @brief Method CheckArgIsNotNull, addr 0x6e08bbc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CheckArgIsNotNull, addr 0x6e45858, size 0x4c, virtual false, abstract: false, final false
   static inline void CheckArgIsNotNull(::System::Object* obj, ::StringW argName);
 
   /// [Conditional("UNITY_ASSERTIONS")]
@@ -41,7 +41,7 @@ public:
     requires(::cordl_internals::type_constraint<T, ::System::IComparable*>)
   static inline void CheckArgRange(T value, T minIncluded, T maxExcluded, ::StringW argName);
 
-  /// @brief Method Destroy, addr 0x6e08b30, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6e457cc, size 0x8c, virtual false, abstract: false, final false
   static inline void Destroy(::UnityEngine::Object* obj);
 
 protected:
@@ -59,7 +59,7 @@ public:
   Utils(Utils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20480 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20527 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

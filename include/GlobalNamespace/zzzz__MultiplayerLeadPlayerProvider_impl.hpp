@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MultiplayerLeadPlayerProvider::add_newLeaderWasSelectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5df320c;
+  constexpr static std::size_t addrs = 0x5e3083c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLeadPlayerProvider*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::MultiplayerLeadPlayerProvider::remove_newLeaderWasSelectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5df2ffc;
+  constexpr static std::size_t addrs = 0x5e3062c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLeadPlayerProvider*>(),
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)()>(&::GlobalNamespace::MultiplayerLeadPlayerProvider::Start)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5df60cc;
+  constexpr static std::size_t addrs = 0x5e336fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLeadPlayerProvider*>(), { "Start", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)()>(&::GlobalNamespace::MultiplayerLeadPlayerProvider::OnDestroy)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x5df6190;
+  constexpr static std::size_t addrs = 0x5e337c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLeadPlayerProvider*>(), { "OnDestroy", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)()>(&::GlobalNamespace::MultiplayerLeadPlayerProvider::Update)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5df632c;
+  constexpr static std::size_t addrs = 0x5e3395c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLeadPlayerProvider*>(), { "Update", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)()>(&::GlobalNamespace::MultiplayerLeadPlayerProvider::StopProviding)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5df63e0;
+  constexpr static std::size_t addrs = 0x5e33a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLeadPlayerProvider*>(), { "StopProviding", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)()>(&::GlobalNamespace::MultiplayerLeadPlayerProvider::StartProviding)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5df6480;
+  constexpr static std::size_t addrs = 0x5e33ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLeadPlayerProvider*>(), { "StartProviding", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)(::GlobalNamespace::MultiplayerController_State)>(
     &::GlobalNamespace::MultiplayerLeadPlayerProvider::HandleStateChanged)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5df6180;
+  constexpr static std::size_t addrs = 0x5e337b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLeadPlayerProvider*>(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*)>(
     &::GlobalNamespace::MultiplayerLeadPlayerProvider::HandleFirstPlayerDidChange)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5df6524;
+  constexpr static std::size_t addrs = 0x5e33b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLeadPlayerProvider::*)()>(&::GlobalNamespace::MultiplayerLeadPlayerProvider::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5df6634;
+  constexpr static std::size_t addrs = 0x5e33c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLeadPlayerProvider*>(), { ".ctor", {}, {} })));

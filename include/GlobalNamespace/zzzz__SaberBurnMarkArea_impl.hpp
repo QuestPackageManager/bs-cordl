@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberBurnMarkArea::*)(::GlobalNamespace::SettingsManager*, ::GlobalNamespace::SaberManager*,
                                                                                                       ::GlobalNamespace::ColorManager*)>(&::GlobalNamespace::SaberBurnMarkArea::Initialize)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x5da51b4;
+  constexpr static std::size_t addrs = 0x5de2500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberBurnMarkArea::*)()>(&::GlobalNamespace::SaberBurnMarkArea::OnDestroy)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5da55f8;
+  constexpr static std::size_t addrs = 0x5de2944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(), { "OnDestroy", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberBurnMarkArea::*)()>(&::GlobalNamespace::SaberBurnMarkArea::LateUpdate)> {
   constexpr static std::size_t size = 0x658;
-  constexpr static std::size_t addrs = 0x5da5750;
+  constexpr static std::size_t addrs = 0x5de2a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(), { "LateUpdate", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::SaberBurnMarkArea::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::SaberBurnMarkArea::WorldToNormalized)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5da60cc;
+  constexpr static std::size_t addrs = 0x5de3418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Transform*, ::by_ref<::UnityEngine::Bounds const>, ::by_ref<::UnityEngine::Plane const>, ::UnityEngine::Vector3,
                                                                 ::UnityEngine::Vector3, ::by_ref<::UnityEngine::Vector3>)>(&::GlobalNamespace::SaberBurnMarkArea::GetBurnMarkPos)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x5da5da8;
+  constexpr static std::size_t addrs = 0x5de30f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(),
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberBurnMarkArea::*)()>(&::GlobalNamespace::SaberBurnMarkArea::_ctor)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x5da6130;
+  constexpr static std::size_t addrs = 0x5de347c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkArea*>(), { ".ctor", {}, {} })));

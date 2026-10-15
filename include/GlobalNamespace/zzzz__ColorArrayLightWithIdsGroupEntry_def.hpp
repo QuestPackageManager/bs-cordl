@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>> value);
 
-  /// @brief Method .ctor, addr 0x5c82d10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cbb1f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightGroups, addr 0x5c82d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroups, addr 0x5cbb1f0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>> get_lightGroups();
 
 protected:
@@ -81,7 +81,7 @@ public:
   ColorArrayLightWithIdsGroupEntry(ColorArrayLightWithIdsGroupEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19994 };
 
   /// [SerializeField]
   /// @brief Field _colorArrayLightWithIds, offset: 0x20, size: 0x8, def value: None

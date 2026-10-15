@@ -56,10 +56,10 @@ public:
                       put = setStaticF_s_GroupOptionManagerCache)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::IGroupBoxOption*, ::UnityEngine::UIElements::IGroupManager*>*
       s_GroupOptionManagerCache;
 
-  /// @brief Method FindOrCreateGroupManager, addr 0x724cfdc, size 0x49c, virtual false, abstract: false, final false
+  /// @brief Method FindOrCreateGroupManager, addr 0x7289f10, size 0x49c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IGroupManager* FindOrCreateGroupManager(::UnityEngine::UIElements::IGroupBox* groupBox);
 
-  /// @brief Method OnGroupBoxDetachedFromPanel, addr 0x724d4ec, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OnGroupBoxDetachedFromPanel, addr 0x728a420, size 0xc0, virtual false, abstract: false, final false
   static inline void OnGroupBoxDetachedFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
   /// [Extension]
@@ -68,7 +68,7 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::VisualElement*> && ::cordl_internals::type_constraint<T, ::UnityEngine::UIElements::IGroupBoxOption*>)
   static inline void OnOptionSelected(T selectedOption);
 
-  /// @brief Method OnPanelDestroyed, addr 0x724d5ac, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnPanelDestroyed, addr 0x728a4e0, size 0xe8, virtual false, abstract: false, final false
   static inline void OnPanelDestroyed(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   /// [Extension]

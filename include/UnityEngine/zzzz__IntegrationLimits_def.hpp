@@ -46,7 +46,7 @@ public:
   constexpr IntegrationLimits__m_Joints_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19104 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -75,7 +75,7 @@ public:
   // Declarations
   using _m_Joints_e__FixedBuffer = ::UnityEngine::IntegrationLimits__m_Joints_e__FixedBuffer;
 
-  /// @brief Method GetJointLimit, addr 0x6ffe740, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetJointLimit, addr 0x703b634, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::JointLimitRange GetJointLimit(::UnityEngine::ArticulationJointType jointType);
 
   // Ctor Parameters []
@@ -89,7 +89,7 @@ public:
   static constexpr int32_t JointTypeCount{ static_cast<int32_t>(0x7) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19072 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19105 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

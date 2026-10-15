@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CubemapParameter::*)(::UnityEngine::Texture*, bool)>(&::UnityEngine::Rendering::CubemapParameter::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6bec020;
+  constexpr static std::size_t addrs = 0x6c28c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CubemapParameter::*)()>(&::UnityEngine::Rendering::CubemapParameter::GetHashCode)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6bec084;
+  constexpr static std::size_t addrs = 0x6c28d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

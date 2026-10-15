@@ -182,7 +182,7 @@ public:
 
   constexpr void __cordl_internal_set_yFlip(bool value);
 
-  /// @brief Method .ctor, addr 0x6befa70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2c6ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -200,7 +200,7 @@ public:
   Vrs_ConversionPassData(Vrs_ConversionPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9260 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9267 };
 
   /// @brief Field sriTextureHandle, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___sriTextureHandle;
@@ -312,7 +312,7 @@ public:
 
   constexpr void __cordl_internal_set_visualizationParams(::UnityEngine::Vector4 value);
 
-  /// @brief Method .ctor, addr 0x6befa74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2c6f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -330,7 +330,7 @@ public:
   Vrs_VisualizationPassData(Vrs_VisualizationPassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9268 };
 
   /// @brief Field material, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___material;
@@ -386,13 +386,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Vrs___c* New_ctor();
 
-  /// @brief Method <ColorMaskTextureToShadingRateImage>b__9_0, addr 0x6befad0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <ColorMaskTextureToShadingRateImage>b__9_0, addr 0x6c2c74c, size 0x74, virtual false, abstract: false, final false
   inline void _ColorMaskTextureToShadingRateImage_b__9_0(::UnityEngine::Rendering::Vrs_ConversionPassData* innerPassData, ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* context);
 
-  /// @brief Method <ShadingRateImageToColorMaskTexture>b__10_0, addr 0x6befb44, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method <ShadingRateImageToColorMaskTexture>b__10_0, addr 0x6c2c7c0, size 0x1c0, virtual false, abstract: false, final false
   inline void _ShadingRateImageToColorMaskTexture_b__10_0(::UnityEngine::Rendering::Vrs_VisualizationPassData* innerPassData, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6befacc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2c748, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Vrs___c* getStaticF___9();
@@ -426,7 +426,7 @@ public:
   Vrs___c(Vrs___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9269 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -453,42 +453,42 @@ public:
   /// @brief Field shadingRateFragmentSizeCount, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_shadingRateFragmentSizeCount, put = setStaticF_shadingRateFragmentSizeCount)) int32_t shadingRateFragmentSizeCount;
 
-  /// @brief Method ColorMaskTextureToShadingRateImage, addr 0x6bedaa4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ColorMaskTextureToShadingRateImage, addr 0x6c2a720, size 0x1a8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ColorMaskTextureToShadingRateImage(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                                               ::UnityEngine::Rendering::RTHandle* sriRtHandle,
                                                                                                               ::UnityEngine::Rendering::RTHandle* colorMaskRtHandle, bool yFlip);
 
-  /// @brief Method ColorMaskTextureToShadingRateImage, addr 0x6bedd7c, size 0x7e4, virtual false, abstract: false, final false
+  /// @brief Method ColorMaskTextureToShadingRateImage, addr 0x6c2a9f8, size 0x7e4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ColorMaskTextureToShadingRateImage(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                                               ::UnityEngine::Rendering::RenderGraphModule::TextureHandle sriTextureHandle,
                                                                                                               ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorMaskHandle,
                                                                                                               ::UnityEngine::Rendering::TextureDimension colorMaskDimension, bool yFlip);
 
-  /// @brief Method ColorMaskTextureToShadingRateImageDispatch, addr 0x6bef1fc, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method ColorMaskTextureToShadingRateImageDispatch, addr 0x6c2be78, size 0x4ec, virtual false, abstract: false, final false
   static inline void ColorMaskTextureToShadingRateImageDispatch(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* sriDestination,
                                                                 ::UnityEngine::Texture* colorMaskSource, bool yFlip);
 
-  /// @brief Method ConversionDispatch, addr 0x6beef64, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method ConversionDispatch, addr 0x6c2bbe0, size 0x298, virtual false, abstract: false, final false
   static inline void ConversionDispatch(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::UnityEngine::Rendering::Vrs_ConversionPassData* conversionPassData);
 
-  /// @brief Method DisposeResources, addr 0x6beda1c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DisposeResources, addr 0x6c2a698, size 0x84, virtual false, abstract: false, final false
   static inline void DisposeResources();
 
-  /// @brief Method InitializeResources, addr 0x6bed7dc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method InitializeResources, addr 0x6c2a458, size 0x178, virtual false, abstract: false, final false
   static inline void InitializeResources();
 
-  /// @brief Method IsColorMaskTextureConversionSupported, addr 0x6bed618, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IsColorMaskTextureConversionSupported, addr 0x6c2a294, size 0xa8, virtual false, abstract: false, final false
   static inline bool IsColorMaskTextureConversionSupported();
 
-  /// @brief Method IsInitialized, addr 0x6bed6c0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method IsInitialized, addr 0x6c2a33c, size 0x11c, virtual false, abstract: false, final false
   static inline bool IsInitialized();
 
-  /// @brief Method ShadingRateImageToColorMaskTexture, addr 0x6bee584, size 0x930, virtual false, abstract: false, final false
+  /// @brief Method ShadingRateImageToColorMaskTexture, addr 0x6c2b200, size 0x930, virtual false, abstract: false, final false
   static inline void ShadingRateImageToColorMaskTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> sriTextureHandle,
                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> colorMaskHandle);
 
-  /// @brief Method ShadingRateImageToColorMaskTextureBlit, addr 0x6bef6e8, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method ShadingRateImageToColorMaskTextureBlit, addr 0x6c2c364, size 0x2cc, virtual false, abstract: false, final false
   static inline void ShadingRateImageToColorMaskTextureBlit(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* sriSource,
                                                             ::UnityEngine::Rendering::RTHandle* colorMaskDestination);
 
@@ -515,7 +515,7 @@ public:
   Vrs(Vrs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9270 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -94,7 +94,7 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x399a324, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x39be8c8, size 0xb0, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem* other);
 
   static inline ::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem* New_ctor(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node);
@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set_node(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* value);
 
-  /// @brief Method .ctor, addr 0x3999cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39be8c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node);
 
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*>"
@@ -126,7 +126,7 @@ public:
   BeatmapData_BeatmapDataBinaryHeapItem(BeatmapData_BeatmapDataBinaryHeapItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15120 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14337 };
 
   /// @brief Field node, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* ___node;
@@ -181,7 +181,7 @@ public:
   BeatmapData___c__DisplayClass50_0_1(BeatmapData___c__DisplayClass50_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14338 };
 
   /// @brief Field subtypeGroupIdentifiers, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t> ___subtypeGroupIdentifiers;
@@ -280,13 +280,13 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IReadonlyBeatmapData"
   constexpr operator ::GlobalNamespace::IReadonlyBeatmapData*() noexcept;
 
-  /// @brief Method AddBeatmapObjectData, addr 0x398e564, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method AddBeatmapObjectData, addr 0x39b2944, size 0x1dc, virtual false, abstract: false, final false
   inline void AddBeatmapObjectData(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
 
-  /// @brief Method AddBeatmapObjectDataInOrder, addr 0x3990268, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AddBeatmapObjectDataInOrder, addr 0x39b4648, size 0x2c, virtual false, abstract: false, final false
   inline void AddBeatmapObjectDataInOrder(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
 
-  /// @brief Method AddSpecialBasicBeatmapEventKeyword, addr 0x39903ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AddSpecialBasicBeatmapEventKeyword, addr 0x39b478c, size 0x70, virtual false, abstract: false, final false
   inline void AddSpecialBasicBeatmapEventKeyword(::StringW specialBasicBeatmapEventKeyword);
 
   /// @brief Method GetBeatmapDataItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -309,34 +309,34 @@ public:
     requires(::cordl_internals::type_constraint<T, ::GlobalNamespace::BeatmapDataItem*>)
   inline int32_t GetBeatmapDataItemsMergedCount(/* [ParamArray] */ ::ArrayW<int32_t> subtypeGroupIdentifiers);
 
-  /// @brief Method GetCopy, addr 0x3999d00, size 0x2f8, virtual true, abstract: false, final true
+  /// @brief Method GetCopy, addr 0x39be29c, size 0x2f8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapData* GetCopy();
 
-  /// @brief Method GetFilteredCopy, addr 0x3999ff8, size 0x32c, virtual true, abstract: false, final true
+  /// @brief Method GetFilteredCopy, addr 0x39be594, size 0x32c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapData* GetFilteredCopy(::System::Func_2<::GlobalNamespace::BeatmapDataItem*, ::GlobalNamespace::BeatmapDataItem*>* processDataItem);
 
-  /// @brief Method InsertBeatmapEventData, addr 0x398e4b8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InsertBeatmapEventData, addr 0x39b2898, size 0xac, virtual false, abstract: false, final false
   inline void InsertBeatmapEventData(::GlobalNamespace::BeatmapEventData* beatmapEventData);
 
-  /// @brief Method InsertBeatmapEventDataInOrder, addr 0x3990210, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method InsertBeatmapEventDataInOrder, addr 0x39b45f0, size 0x58, virtual false, abstract: false, final false
   inline void InsertBeatmapEventDataInOrder(::GlobalNamespace::BeatmapEventData* beatmapEventData);
 
-  /// @brief Method InsertToAllBeatmapData, addr 0x39995f8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method InsertToAllBeatmapData, addr 0x39bdb9c, size 0x1ec, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*
   InsertToAllBeatmapData(::GlobalNamespace::BeatmapDataItem* beatmapDataItem, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node);
 
-  /// @brief Method IsBasicEventSpecialKeywordEnabled, addr 0x3999594, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method IsBasicEventSpecialKeywordEnabled, addr 0x39bdb38, size 0x64, virtual true, abstract: false, final true
   inline bool IsBasicEventSpecialKeywordEnabled(::StringW keyword);
 
   static inline ::GlobalNamespace::BeatmapData* New_ctor(int32_t numberOfLines);
 
-  /// @brief Method ProcessAndSortBeatmapData, addr 0x3999988, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method ProcessAndSortBeatmapData, addr 0x39bdf2c, size 0x370, virtual false, abstract: false, final false
   inline void ProcessAndSortBeatmapData();
 
-  /// @brief Method ProcessRemainingData, addr 0x3999970, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ProcessRemainingData, addr 0x39bdf14, size 0x18, virtual false, abstract: false, final false
   inline void ProcessRemainingData();
 
-  /// @brief Method RemoveBeatmapEventData, addr 0x39997e4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method RemoveBeatmapEventData, addr 0x39bdd88, size 0x18c, virtual false, abstract: false, final false
   inline void RemoveBeatmapEventData(::GlobalNamespace::BeatmapEventData* beatmapEventData);
 
   constexpr ::GlobalNamespace::ISortedList_1<::GlobalNamespace::BeatmapDataItem*>* const& __cordl_internal_get__allBeatmapData() const;
@@ -444,90 +444,90 @@ public:
   constexpr void __cordl_internal_set_beatmapEventDataWillBeRemovedEvent(
       ::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
 
-  /// @brief Method .ctor, addr 0x398e2f4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39b26d4, size 0x1c4, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfLines);
 
   /// [CompilerGenerated]
-  /// @brief Method add_beatmapEventDataWasInsertedEvent, addr 0x3999114, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_beatmapEventDataWasInsertedEvent, addr 0x39bd6b8, size 0xc0, virtual true, abstract: false, final true
   inline void
   add_beatmapEventDataWasInsertedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_beatmapEventDataWasRemovedEvent, addr 0x3999414, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_beatmapEventDataWasRemovedEvent, addr 0x39bd9b8, size 0xc0, virtual true, abstract: false, final true
   inline void add_beatmapEventDataWasRemovedEvent(::System::Action_1<::GlobalNamespace::BeatmapEventData*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_beatmapEventDataWillBeRemovedEvent, addr 0x3999294, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_beatmapEventDataWillBeRemovedEvent, addr 0x39bd838, size 0xc0, virtual true, abstract: false, final true
   inline void
   add_beatmapEventDataWillBeRemovedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
 
-  /// @brief Method get_allBeatmapDataItems, addr 0x399900c, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method get_allBeatmapDataItems, addr 0x39bd5b0, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::LinkedList_1<::GlobalNamespace::BeatmapDataItem*>* get_allBeatmapDataItems();
 
-  /// @brief Method get_areValid, addr 0x39990b4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_areValid, addr 0x39bd658, size 0x10, virtual true, abstract: false, final true
   inline bool get_areValid();
 
   /// [CompilerGenerated]
-  /// @brief Method get_bombsCount, addr 0x39990fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_bombsCount, addr 0x39bd6a0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_bombsCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_cuttableNotesCount, addr 0x39990cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_cuttableNotesCount, addr 0x39bd670, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_cuttableNotesCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_cuttableScoringObjectsCount, addr 0x39990dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_cuttableScoringObjectsCount, addr 0x39bd680, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_cuttableScoringObjectsCount();
 
-  /// @brief Method get_numberOfLines, addr 0x39990c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_numberOfLines, addr 0x39bd668, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_numberOfLines();
 
   /// [CompilerGenerated]
-  /// @brief Method get_obstaclesCount, addr 0x39990ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_obstaclesCount, addr 0x39bd690, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_obstaclesCount();
 
-  /// @brief Method get_specialBasicBeatmapEventKeywords, addr 0x399910c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_specialBasicBeatmapEventKeywords, addr 0x39bd6b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_specialBasicBeatmapEventKeywords();
 
   /// [CompilerGenerated]
-  /// @brief Method get_updateAllBeatmapDataOnInsert, addr 0x3998ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updateAllBeatmapDataOnInsert, addr 0x39bd5a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_updateAllBeatmapDataOnInsert();
 
   /// @brief Convert to "::GlobalNamespace::IReadonlyBeatmapData"
   constexpr ::GlobalNamespace::IReadonlyBeatmapData* i___GlobalNamespace__IReadonlyBeatmapData() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_beatmapEventDataWasInsertedEvent, addr 0x39991d4, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_beatmapEventDataWasInsertedEvent, addr 0x39bd778, size 0xc0, virtual true, abstract: false, final true
   inline void
   remove_beatmapEventDataWasInsertedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_beatmapEventDataWasRemovedEvent, addr 0x39994d4, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_beatmapEventDataWasRemovedEvent, addr 0x39bda78, size 0xc0, virtual true, abstract: false, final true
   inline void remove_beatmapEventDataWasRemovedEvent(::System::Action_1<::GlobalNamespace::BeatmapEventData*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_beatmapEventDataWillBeRemovedEvent, addr 0x3999354, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_beatmapEventDataWillBeRemovedEvent, addr 0x39bd8f8, size 0xc0, virtual true, abstract: false, final true
   inline void
   remove_beatmapEventDataWillBeRemovedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_bombsCount, addr 0x3999104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bombsCount, addr 0x39bd6a8, size 0x8, virtual false, abstract: false, final false
   inline void set_bombsCount(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_cuttableNotesCount, addr 0x39990d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cuttableNotesCount, addr 0x39bd678, size 0x8, virtual false, abstract: false, final false
   inline void set_cuttableNotesCount(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_cuttableScoringObjectsCount, addr 0x39990e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cuttableScoringObjectsCount, addr 0x39bd688, size 0x8, virtual false, abstract: false, final false
   inline void set_cuttableScoringObjectsCount(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_obstaclesCount, addr 0x39990f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_obstaclesCount, addr 0x39bd698, size 0x8, virtual false, abstract: false, final false
   inline void set_obstaclesCount(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_updateAllBeatmapDataOnInsert, addr 0x3999004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_updateAllBeatmapDataOnInsert, addr 0x39bd5a8, size 0x8, virtual false, abstract: false, final false
   inline void set_updateAllBeatmapDataOnInsert(bool value);
 
 protected:
@@ -545,7 +545,7 @@ public:
   BeatmapData(BeatmapData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14339 };
 
   /// @brief Field kDefaultNumberOfLines offset 0xffffffff size 0x4
   static constexpr int32_t kDefaultNumberOfLines{ static_cast<int32_t>(0x4) };

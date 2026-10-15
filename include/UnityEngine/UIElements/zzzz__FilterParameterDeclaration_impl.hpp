@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::FilterParameterDeclaration::*)()>(&::UnityEngine::UIElements::FilterParameterDeclaration::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235eac;
+  constexpr static std::size_t addrs = 0x7272de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FilterParameterDeclaration>(), { "get_name", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FilterParameterDeclaration::*)(::StringW)>(&::UnityEngine::UIElements::FilterParameterDeclaration::set_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235eb4;
+  constexpr static std::size_t addrs = 0x7272de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FilterParameter (::UnityEngine::UIElements::FilterParameterDeclaration::*)()>(
     &::UnityEngine::UIElements::FilterParameterDeclaration::get_interpolationDefaultValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7235ebc;
+  constexpr static std::size_t addrs = 0x7272df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FilterParameterDeclaration::*)(::UnityEngine::UIElements::FilterParameter)>(
     &::UnityEngine::UIElements::FilterParameterDeclaration::set_interpolationDefaultValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7235ed0;
+  constexpr static std::size_t addrs = 0x7272e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FilterParameterDeclaration>(),

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::UniqueId::*)(::ArrayW<uint8_t>, int32_t)>(&::System::Xml::UniqueId::_ctor)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x651fb30;
+  constexpr static std::size_t addrs = 0x655c700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::UniqueId::*)(::StringW)>(&::System::Xml::UniqueId::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x651fd5c;
+  constexpr static std::size_t addrs = 0x655c92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::UniqueId*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::UniqueId::*)()>(&::System::Xml::UniqueId::get_CharArrayLength)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6520360;
+  constexpr static std::size_t addrs = 0x655cf30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::UniqueId*>(), { "get_CharArrayLength", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::UniqueId::*)(int16_t*, char16_t, char16_t)>(&::System::Xml::UniqueId::UnsafeDecode)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6520378;
+  constexpr static std::size_t addrs = 0x655cf48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::UniqueId::*)(char16_t*, uint8_t, char16_t*)>(&::System::Xml::UniqueId::UnsafeEncode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x65203ac;
+  constexpr static std::size_t addrs = 0x655cf7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::UniqueId::*)()>(&::System::Xml::UniqueId::get_IsGuid)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x65203cc;
+  constexpr static std::size_t addrs = 0x655cf9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::UniqueId*>(), { "get_IsGuid", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::UniqueId::*)(char16_t*, int32_t)>(&::System::Xml::UniqueId::UnsafeParse)> {
   constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x651fe08;
+  constexpr static std::size_t addrs = 0x655c9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::UniqueId::*)(::ArrayW<char16_t>, int32_t)>(&::System::Xml::UniqueId::ToCharArray)> {
   constexpr static std::size_t size = 0x628;
-  constexpr static std::size_t addrs = 0x65203e0;
+  constexpr static std::size_t addrs = 0x655cfb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::UniqueId::*)(::ArrayW<uint8_t>, int32_t)>(&::System::Xml::UniqueId::TryGetGuid)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x6520a10;
+  constexpr static std::size_t addrs = 0x655d5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::UniqueId::*)()>(&::System::Xml::UniqueId::ToString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6520c20;
+  constexpr static std::size_t addrs = 0x655d7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::UniqueId*>(), { ::i2c::class_of<::System::Xml::UniqueId*>(), 3 }));
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Xml::UniqueId*, ::System::Xml::UniqueId*)>(&::System::Xml::UniqueId::op_Equality)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6520ca0;
+  constexpr static std::size_t addrs = 0x655d870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::UniqueId::*)(::System::Object*)>(&::System::Xml::UniqueId::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6520d28;
+  constexpr static std::size_t addrs = 0x655d8f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::UniqueId*>(), { ::i2c::class_of<::System::Xml::UniqueId*>(), 0 }));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::UniqueId::*)()>(&::System::Xml::UniqueId::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6520dcc;
+  constexpr static std::size_t addrs = 0x655d99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Xml::UniqueId*>(), { ::i2c::class_of<::System::Xml::UniqueId*>(), 2 }));
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Xml::UniqueId::*)(uint8_t*)>(&::System::Xml::UniqueId::UnsafeGetInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x651fd54;
+  constexpr static std::size_t addrs = 0x655c924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::UniqueId*>(), { "UnsafeGetInt64", {}, { ::i2c::type_of<uint8_t*>() } })));
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::UniqueId::*)(uint8_t*)>(&::System::Xml::UniqueId::UnsafeGetInt32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6520e14;
+  constexpr static std::size_t addrs = 0x655d9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::UniqueId*>(), { "UnsafeGetInt32", {}, { ::i2c::type_of<uint8_t*>() } })));
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::UniqueId::*)(int64_t, uint8_t*)>(&::System::Xml::UniqueId::UnsafeSetInt64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6520a08;
+  constexpr static std::size_t addrs = 0x655d5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::UniqueId::*)(int32_t, uint8_t*)>(&::System::Xml::UniqueId::UnsafeSetInt32)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6520e1c;
+  constexpr static std::size_t addrs = 0x655d9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

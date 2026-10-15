@@ -37,18 +37,18 @@ public:
   /// @brief Method EndEffect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void EndEffect();
 
-  /// @brief Method HandleAllSliderWereRemovedFromActiveSliders, addr 0x5d95cac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleAllSliderWereRemovedFromActiveSliders, addr 0x5dd2fe0, size 0xc, virtual false, abstract: false, final false
   inline void HandleAllSliderWereRemovedFromActiveSliders(::GlobalNamespace::SliderInteractionManager* sliderInteractionManager);
 
-  /// @brief Method HandleSliderWasAddedToActiveSliders, addr 0x5d95ca0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasAddedToActiveSliders, addr 0x5dd2fd4, size 0xc, virtual false, abstract: false, final false
   inline void HandleSliderWasAddedToActiveSliders(::GlobalNamespace::SliderInteractionManager* sliderInteractionManager, float_t saberInteractionParam);
 
   static inline ::GlobalNamespace::SliderInteractionEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5d95a34, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dd2d68, size 0xec, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5d94d30, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x5dd2064, size 0xec, virtual true, abstract: false, final false
   inline void Start();
 
   /// @brief Method StartEffect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -60,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set__sliderInteractionManager(::UnityW<::GlobalNamespace::SliderInteractionManager> value);
 
-  /// @brief Method .ctor, addr 0x5d94fac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd22e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorType, addr 0x5d94e1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x5dd2150, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();
 
-  /// @brief Method get_saberInteractionParam, addr 0x5d94f0c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_saberInteractionParam, addr 0x5dd2240, size 0x18, virtual false, abstract: false, final false
   inline float_t get_saberInteractionParam();
 
 protected:
@@ -84,7 +84,7 @@ public:
   SliderInteractionEffect(SliderInteractionEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5850 };
 
   /// [SerializeField]
   /// @brief Field _sliderInteractionManager, offset: 0x20, size: 0x8, def value: None

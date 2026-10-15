@@ -25,11 +25,11 @@ class CORDL_TYPE DisconnectedReasonMethods : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ErrorCode, addr 0x39c00ac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x39e6638, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
   /// [Extension]
-  /// @brief Method LocalizedKey, addr 0x39bffcc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x39e6558, size 0xe0, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::DisconnectedReason connectionFailedReason);
 
 protected:
@@ -47,7 +47,7 @@ public:
   DisconnectedReasonMethods(DisconnectedReasonMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14554 };
 
   /// @brief Field kDisconnectedKicked offset 0xffffffff size 0x8
   static constexpr ::ConstString kDisconnectedKicked{ u"DISCONNECTED_KICKED" };

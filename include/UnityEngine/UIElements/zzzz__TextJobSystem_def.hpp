@@ -37,12 +37,12 @@ public:
   /// @brief Field m_UITKTextJobSystem, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_UITKTextJobSystem, put = __cordl_internal_set_m_UITKTextJobSystem)) ::UnityEngine::UIElements::UITKTextJobSystem* m_UITKTextJobSystem;
 
-  /// @brief Method GenerateText, addr 0x713048c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GenerateText, addr 0x716d3c0, size 0xec, virtual false, abstract: false, final false
   inline void GenerateText(Il2CppObject* mgc, ::UnityEngine::UIElements::TextElement* textElement);
 
   static inline ::UnityEngine::UIElements::TextJobSystem* New_ctor();
 
-  /// @brief Method PrepareShapingBeforeLayout, addr 0x7130870, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method PrepareShapingBeforeLayout, addr 0x716d7a4, size 0x84, virtual false, abstract: false, final false
   inline void PrepareShapingBeforeLayout(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   constexpr ::UnityEngine::UIElements::ATGTextJobSystem* const& __cordl_internal_get_m_ATGTextJobSystem() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UITKTextJobSystem(::UnityEngine::UIElements::UITKTextJobSystem* value);
 
-  /// @brief Method .ctor, addr 0x71308f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x716d828, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

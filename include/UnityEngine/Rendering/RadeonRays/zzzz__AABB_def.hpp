@@ -29,16 +29,16 @@ public:
   /// @brief Field Min, offset 0x10, size 0xc
   __declspec(property(get = __cordl_internal_get_Min, put = __cordl_internal_set_Min)) ::Unity::Mathematics::float3 Min;
 
-  /// @brief Method Contains, addr 0x6dfaba4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x6e37840, size 0x78, virtual false, abstract: false, final false
   inline bool Contains(::UnityEngine::Rendering::RadeonRays::AABB* rhs);
 
-  /// @brief Method Encapsulate, addr 0x6dfaa8c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Encapsulate, addr 0x6e37728, size 0x98, virtual false, abstract: false, final false
   inline void Encapsulate(::UnityEngine::Rendering::RadeonRays::AABB* aabb);
 
-  /// @brief Method Encapsulate, addr 0x6dfab24, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Encapsulate, addr 0x6e377c0, size 0x80, virtual false, abstract: false, final false
   inline void Encapsulate(::Unity::Mathematics::float3 point);
 
-  /// @brief Method IsValid, addr 0x6dfac1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6e378b8, size 0x3c, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::UnityEngine::Rendering::RadeonRays::AABB* New_ctor();
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set_Min(::Unity::Mathematics::float3 value);
 
-  /// @brief Method .ctor, addr 0x6dfaa64, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e37700, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6dfaa7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e37718, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::float3 min, ::Unity::Mathematics::float3 max);
 
 protected:
@@ -78,7 +78,7 @@ public:
   AABB(AABB const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20463 };
 
   /// @brief Field Min, offset: 0x10, size: 0xc, def value: None
   ::Unity::Mathematics::float3 ___Min;

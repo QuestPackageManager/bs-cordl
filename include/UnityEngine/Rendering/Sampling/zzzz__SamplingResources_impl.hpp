@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::Sampling::SamplingResources*)>(
     &::UnityEngine::Rendering::Sampling::SamplingResources::Bind)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x6bf1ee4;
+  constexpr static std::size_t addrs = 0x6c2eb60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Sampling::SamplingResources::*)()>(&::UnityEngine::Rendering::Sampling::SamplingResources::Dispose)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bf210c;
+  constexpr static std::size_t addrs = 0x6c2ed88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Sampling::SamplingResources*>(), { "Dispose", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Sampling::SamplingResources::*)()>(&::UnityEngine::Rendering::Sampling::SamplingResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bf2120;
+  constexpr static std::size_t addrs = 0x6c2ed9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Sampling::SamplingResources*>(), { ".ctor", {}, {} })));

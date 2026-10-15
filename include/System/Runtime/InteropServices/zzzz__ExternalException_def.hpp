@@ -37,22 +37,22 @@ public:
 
   static inline ::System::Runtime::InteropServices::ExternalException* New_ctor(::StringW message, int32_t errorCode);
 
-  /// @brief Method ToString, addr 0x5f8371c, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5fc0004, size 0x1f0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x5f83660, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbff48, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5f8370c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbfff4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x5f836c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbffa8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x5f836e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbffcc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t errorCode);
 
-  /// @brief Method get_ErrorCode, addr 0x5f83714, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x5fbfffc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
 protected:

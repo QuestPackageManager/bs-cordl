@@ -44,15 +44,15 @@ public:
 
   constexpr void __cordl_internal_set__language_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e834fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ec0198, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW _country, ::StringW _language);
 
   /// [CompilerGenerated]
-  /// @brief Method get_country, addr 0x6e834ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_country, addr 0x6ec0188, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_country();
 
   /// [CompilerGenerated]
-  /// @brief Method get_language, addr 0x6e834f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_language, addr 0x6ec0190, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_language();
 
 protected:
@@ -70,7 +70,7 @@ public:
   AndroidLocale(AndroidLocale const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20671 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20718 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]

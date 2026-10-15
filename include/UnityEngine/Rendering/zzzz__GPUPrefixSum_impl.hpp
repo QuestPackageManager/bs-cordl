@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs::DivUpGroup)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6be03d4;
+  constexpr static std::size_t addrs = 0x6c1d050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs::AlignUpGroup)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6be03ec;
+  constexpr static std::size_t addrs = 0x6c1d068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::by_ref<int32_t>, ::by_ref<int32_t>)>(&::UnityEngine::Rendering::GPUPrefixSum_ShaderDefs::CalculateTotalBufferSize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6be0404;
+  constexpr static std::size_t addrs = 0x6c1d080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::BufferHandle (::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::*)()>(
     &::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::get_output)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6be045c;
+  constexpr static std::size_t addrs = 0x6c1d0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources>(), { "get_output", {}, {} })));
@@ -101,7 +101,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
                                                                                                                        ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder, bool)>(
     &::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::Create)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6be046c;
+  constexpr static std::size_t addrs = 0x6c1d0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                              ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder, bool)>(
     &::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::Initialize)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x6be04c8;
+  constexpr static std::size_t addrs = 0x6c1d144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
                                                                                                                        ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*, bool)>(
     &::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::Create)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6be07ac;
+  constexpr static std::size_t addrs = 0x6c1d428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     int32_t, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder*, bool)>(
     &::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources::Initialize)> {
   constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x6be07fc;
+  constexpr static std::size_t addrs = 0x6c1d478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GraphicsBuffer* (::UnityEngine::Rendering::GPUPrefixSum_SupportResources::*)()>(
     &::UnityEngine::Rendering::GPUPrefixSum_SupportResources::get_output)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be0ce8;
+  constexpr static std::size_t addrs = 0x6c1d964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(), { "get_output", {}, {} })));
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::GPUPrefixSum_SupportResources (*)(int32_t)>(&::UnityEngine::Rendering::GPUPrefixSum_SupportResources::Create)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6be0cf0;
+  constexpr static std::size_t addrs = 0x6c1d96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::GPUPrefixSum_SupportResources (*)(::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources)>(
     &::UnityEngine::Rendering::GPUPrefixSum_SupportResources::Load)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6be0f88;
+  constexpr static std::size_t addrs = 0x6c1dc04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(),
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum_SupportResources::*)(int32_t)>(&::UnityEngine::Rendering::GPUPrefixSum_SupportResources::Resize)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x6be0d4c;
+  constexpr static std::size_t addrs = 0x6c1d9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum_SupportResources::*)(::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources)>(
     &::UnityEngine::Rendering::GPUPrefixSum_SupportResources::LoadFromShaderGraph)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6be0fe4;
+  constexpr static std::size_t addrs = 0x6c1dc60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum_SupportResources::*)()>(&::UnityEngine::Rendering::GPUPrefixSum_SupportResources::Dispose)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6be10c8;
+  constexpr static std::size_t addrs = 0x6c1dd44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(), { "Dispose", {}, {} })));
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::GraphicsBuffer*)>(&::UnityEngine::Rendering::GPUPrefixSum_SupportResources::_Dispose_g__TryFreeBuffer_15_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6be1140;
+  constexpr static std::size_t addrs = 0x6c1ddbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SupportResources>(),
@@ -420,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum_SystemResources::*)()>(&::UnityEngine::Rendering::GPUPrefixSum_SystemResources::LoadKernels)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x6bdf958;
+  constexpr static std::size_t addrs = 0x6c1c5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::GPUPrefixSum_SystemResources>(), { "LoadKernels", {}, {} })));
@@ -514,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum::*)(::UnityEngine::Rendering::GPUPrefixSum_SystemResources)>(
     &::UnityEngine::Rendering::GPUPrefixSum::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bdf944;
+  constexpr static std::size_t addrs = 0x6c1c5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -529,7 +529,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::UnityEngine::Rendering::GPUPrefixSum::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::Rendering::GPUPrefixSum::PackPrefixSumArgs)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bdfb30;
+  constexpr static std::size_t addrs = 0x6c1c7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -545,7 +545,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                         ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources const>, bool)>(
     &::UnityEngine::Rendering::GPUPrefixSum::ExecuteCommonIndirect)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x6bdfb44;
+  constexpr static std::size_t addrs = 0x6c1c7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -563,7 +563,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum::*)(
     ::UnityEngine::Rendering::IComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs const>)>(&::UnityEngine::Rendering::GPUPrefixSum::DispatchDirect)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6bdfec0;
+  constexpr static std::size_t addrs = 0x6c1cb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -580,7 +580,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs const>)>(&::UnityEngine::Rendering::GPUPrefixSum::DispatchDirect)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x6bdff60;
+  constexpr static std::size_t addrs = 0x6c1cbdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -597,7 +597,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum::*)(
     ::UnityEngine::Rendering::IComputeCommandBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs const>)>(&::UnityEngine::Rendering::GPUPrefixSum::DispatchIndirect)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6be0150;
+  constexpr static std::size_t addrs = 0x6c1cdcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -615,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::GPUPrefixSum::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs const>)>(&::UnityEngine::Rendering::GPUPrefixSum::DispatchIndirect)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x6be01f0;
+  constexpr static std::size_t addrs = 0x6c1ce6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

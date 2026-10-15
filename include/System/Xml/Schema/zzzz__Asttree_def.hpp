@@ -43,24 +43,24 @@ public:
   /// @brief Field _xpathexpr, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__xpathexpr, put = __cordl_internal_set__xpathexpr)) ::StringW _xpathexpr;
 
-  /// @brief Method CompileXPath, addr 0x673fbdc, size 0x7b4, virtual false, abstract: false, final false
+  /// @brief Method CompileXPath, addr 0x677c7ac, size 0x7b4, virtual false, abstract: false, final false
   inline void CompileXPath(::StringW xPath, bool isField, ::System::Xml::XmlNamespaceManager* nsmgr);
 
-  /// @brief Method IsAttribute, addr 0x673edb8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsAttribute, addr 0x677b988, size 0x30, virtual false, abstract: false, final false
   static inline bool IsAttribute(::MS::Internal::Xml::XPath::Axis* ast);
 
-  /// @brief Method IsDescendantOrSelf, addr 0x67403c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsDescendantOrSelf, addr 0x677cf90, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsDescendantOrSelf(::MS::Internal::Xml::XPath::Axis* ast);
 
-  /// @brief Method IsNameTest, addr 0x6740390, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsNameTest, addr 0x677cf60, size 0x30, virtual false, abstract: false, final false
   static inline bool IsNameTest(::MS::Internal::Xml::XPath::Axis* ast);
 
-  /// @brief Method IsSelf, addr 0x673fb88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsSelf, addr 0x677c758, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsSelf(::MS::Internal::Xml::XPath::Axis* ast);
 
   static inline ::System::Xml::Schema::Asttree* New_ctor(::StringW xPath, bool isField, ::System::Xml::XmlNamespaceManager* nsmgr);
 
-  /// @brief Method SetURN, addr 0x67403fc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetURN, addr 0x677cfcc, size 0xf4, virtual false, abstract: false, final false
   inline void SetURN(::MS::Internal::Xml::XPath::Axis* axis, ::System::Xml::XmlNamespaceManager* nsmgr);
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__fAxisArray() const;
@@ -87,10 +87,10 @@ public:
 
   constexpr void __cordl_internal_set__xpathexpr(::StringW value);
 
-  /// @brief Method .ctor, addr 0x673fbcc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x677c79c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW xPath, bool isField, ::System::Xml::XmlNamespaceManager* nsmgr);
 
-  /// @brief Method get_SubtreeArray, addr 0x673fbc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubtreeArray, addr 0x677c794, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_SubtreeArray();
 
 protected:
@@ -108,7 +108,7 @@ public:
   Asttree(Asttree const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11542 };
 
   /// @brief Field _fAxisArray, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ArrayList* ____fAxisArray;

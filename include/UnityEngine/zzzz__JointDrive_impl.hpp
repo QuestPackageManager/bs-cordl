@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::JointDrive::*)()>(&::UnityEngine::JointDrive::get_positionSpring)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fddda0;
+  constexpr static std::size_t addrs = 0x701ac94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointDrive>(), { "get_positionSpring", {}, {} })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::JointDrive::*)(float_t)>(&::UnityEngine::JointDrive::set_positionSpring)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fddda8;
+  constexpr static std::size_t addrs = 0x701ac9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointDrive>(), { "set_positionSpring", {}, { ::i2c::type_of<float_t>() } })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::JointDrive::*)()>(&::UnityEngine::JointDrive::get_positionDamper)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdddb0;
+  constexpr static std::size_t addrs = 0x701aca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointDrive>(), { "get_positionDamper", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::JointDrive::*)(float_t)>(&::UnityEngine::JointDrive::set_positionDamper)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdddb8;
+  constexpr static std::size_t addrs = 0x701acac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointDrive>(), { "set_positionDamper", {}, { ::i2c::type_of<float_t>() } })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::JointDrive::*)()>(&::UnityEngine::JointDrive::get_maximumForce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdddc0;
+  constexpr static std::size_t addrs = 0x701acb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointDrive>(), { "get_maximumForce", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::JointDrive::*)(float_t)>(&::UnityEngine::JointDrive::set_maximumForce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdddc8;
+  constexpr static std::size_t addrs = 0x701acbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointDrive>(), { "set_maximumForce", {}, { ::i2c::type_of<float_t>() } })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::JointDrive::*)()>(&::UnityEngine::JointDrive::get_useAcceleration)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6fdddd0;
+  constexpr static std::size_t addrs = 0x701acc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointDrive>(), { "get_useAcceleration", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::JointDrive::*)(bool)>(&::UnityEngine::JointDrive::set_useAcceleration)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6fddde0;
+  constexpr static std::size_t addrs = 0x701acd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JointDrive>(), { "set_useAcceleration", {}, { ::i2c::type_of<bool>() } })));

@@ -45,10 +45,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::UnwrapParameters* New_ctor(::UnityEngine::ProBuilder::UnwrapParameters* other);
 
-  /// @brief Method Reset, addr 0x6b0db34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6b4a7b0, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ToString, addr 0x6b0dbac, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6b4a828, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_m_AngleError() const;
@@ -75,34 +75,34 @@ public:
 
   constexpr void __cordl_internal_set_m_PackMargin(float_t value);
 
-  /// @brief Method .ctor, addr 0x6b05b74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b427f0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6b0db44, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b4a7c0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::UnwrapParameters* other);
 
-  /// @brief Method get_angleError, addr 0x6b0db14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angleError, addr 0x6b4a790, size 0x8, virtual false, abstract: false, final false
   inline float_t get_angleError();
 
-  /// @brief Method get_areaError, addr 0x6b0db24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_areaError, addr 0x6b4a7a0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_areaError();
 
-  /// @brief Method get_hardAngle, addr 0x6b0daf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hardAngle, addr 0x6b4a770, size 0x8, virtual false, abstract: false, final false
   inline float_t get_hardAngle();
 
-  /// @brief Method get_packMargin, addr 0x6b0db04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packMargin, addr 0x6b4a780, size 0x8, virtual false, abstract: false, final false
   inline float_t get_packMargin();
 
-  /// @brief Method set_angleError, addr 0x6b0db1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_angleError, addr 0x6b4a798, size 0x8, virtual false, abstract: false, final false
   inline void set_angleError(float_t value);
 
-  /// @brief Method set_areaError, addr 0x6b0db2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_areaError, addr 0x6b4a7a8, size 0x8, virtual false, abstract: false, final false
   inline void set_areaError(float_t value);
 
-  /// @brief Method set_hardAngle, addr 0x6b0dafc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hardAngle, addr 0x6b4a778, size 0x8, virtual false, abstract: false, final false
   inline void set_hardAngle(float_t value);
 
-  /// @brief Method set_packMargin, addr 0x6b0db0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_packMargin, addr 0x6b4a788, size 0x8, virtual false, abstract: false, final false
   inline void set_packMargin(float_t value);
 
 protected:
@@ -120,7 +120,7 @@ public:
   UnwrapParameters(UnwrapParameters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17379 };
 
   /// @brief Field k_AngleError offset 0xffffffff size 0x4
   static constexpr float_t k_AngleError{ static_cast<float_t>(8.0f) };

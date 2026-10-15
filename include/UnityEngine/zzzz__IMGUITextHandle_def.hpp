@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_lastTimeUsed(float_t value);
 
-  /// @brief Method .ctor, addr 0x6fac3e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fe92d8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t lastTimeUsed, int32_t hashCode);
 
 protected:
@@ -99,7 +99,7 @@ public:
   IMGUITextHandle_TextHandleTuple(IMGUITextHandle_TextHandleTuple const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20110 };
 
   /// @brief Field lastTimeUsed, offset: 0x10, size: 0x4, def value: None
   float_t ___lastTimeUsed;
@@ -145,41 +145,41 @@ public:
   /// @brief Field tuple, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_tuple, put = __cordl_internal_set_tuple)) ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::IMGUITextHandle_TextHandleTuple*>* tuple;
 
-  /// @brief Method ClearUnusedTextHandles, addr 0x6fac0d8, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedTextHandles, addr 0x6fe8fcc, size 0x270, virtual false, abstract: false, final false
   static inline void ClearUnusedTextHandles();
 
-  /// @brief Method ConvertGUIStyleToGenerationSettings, addr 0x6fab6c8, size 0x688, virtual false, abstract: false, final false
+  /// @brief Method ConvertGUIStyleToGenerationSettings, addr 0x6fe85a4, size 0x688, virtual false, abstract: false, final false
   static inline void ConvertGUIStyleToGenerationSettings(::UnityEngine::TextCore::Text::TextGenerationSettings* settings, ::UnityEngine::GUIStyle* style, ::UnityEngine::Color textColor,
                                                          ::StringW text, ::UnityEngine::Rect rect);
 
-  /// @brief Method EmptyManagedCache, addr 0x6fa9730, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method EmptyManagedCache, addr 0x6fe660c, size 0xb0, virtual false, abstract: false, final false
   static inline void EmptyManagedCache();
 
-  /// @brief Method GetLineHeight, addr 0x6fa8920, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeight, addr 0x6fe57fc, size 0x1bc, virtual false, abstract: false, final false
   static inline float_t GetLineHeight(::UnityEngine::GUIStyle* style);
 
-  /// @brief Method GetPixelsPerPoint, addr 0x6fac3f0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetPixelsPerPoint, addr 0x6fe92e4, size 0x6c, virtual true, abstract: false, final false
   inline float_t GetPixelsPerPoint();
 
-  /// @brief Method GetTextHandle, addr 0x6fabd50, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method GetTextHandle, addr 0x6fe8c2c, size 0x388, virtual false, abstract: false, final false
   static inline ::UnityEngine::IMGUITextHandle* GetTextHandle(::UnityEngine::TextCore::Text::TextGenerationSettings* settings, bool isCalledFromNative, ::by_ref<bool> isCached);
 
-  /// @brief Method GetTextHandle, addr 0x6fa8ed8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetTextHandle, addr 0x6fe5db4, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityEngine::IMGUITextHandle* GetTextHandle(::UnityEngine::GUIStyle* style, ::UnityEngine::Rect position, ::StringW content, ::UnityEngine::Color32 textColor);
 
-  /// @brief Method GetTextHandle, addr 0x6fa9560, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetTextHandle, addr 0x6fe643c, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityEngine::IMGUITextHandle* GetTextHandle(::UnityEngine::GUIStyle* style, ::UnityEngine::Rect position, ::StringW content, ::UnityEngine::Color32 textColor,
                                                               ::by_ref<bool> isCached);
 
-  /// @brief Method IsAdvancedTextEnabledForElement, addr 0x6fac534, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsAdvancedTextEnabledForElement, addr 0x6fe9428, size 0x8, virtual true, abstract: false, final false
   inline bool IsAdvancedTextEnabledForElement();
 
-  /// @brief Method LegacyClippingToNewOverflow, addr 0x6fac51c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method LegacyClippingToNewOverflow, addr 0x6fe9410, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextOverflowMode LegacyClippingToNewOverflow(::UnityEngine::TextClipping clipping);
 
   static inline ::UnityEngine::IMGUITextHandle* New_ctor();
 
-  /// @brief Method ShouldCleanup, addr 0x6fac0c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ShouldCleanup, addr 0x6fe8fb4, size 0x18, virtual false, abstract: false, final false
   static inline bool ShouldCleanup(float_t currentTime, float_t lastTime, float_t cleanupThreshold);
 
   constexpr bool const& __cordl_internal_get_isCachedOnNative() const;
@@ -194,7 +194,7 @@ public:
 
   constexpr void __cordl_internal_set_tuple(::System::Collections::Generic::LinkedListNode_1<::UnityEngine::IMGUITextHandle_TextHandleTuple*>* value);
 
-  /// @brief Method .ctor, addr 0x6fac348, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fe923c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline float_t getStaticF_lastCleanupTime();
@@ -228,7 +228,7 @@ public:
   IMGUITextHandle(IMGUITextHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20111 };
 
   /// @brief Field tuple, offset: 0xc8, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::IMGUITextHandle_TextHandleTuple*>* ___tuple;

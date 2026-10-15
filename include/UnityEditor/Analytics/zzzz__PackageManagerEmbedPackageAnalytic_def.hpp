@@ -22,12 +22,12 @@ class CORDL_TYPE PackageManagerEmbedPackageAnalytic : public ::UnityEditor::Anal
 public:
   // Declarations
   /// [RequiredByNativeCode]
-  /// @brief Method CreatePackageManagerEmbedPackageAnalytic, addr 0x72c0a40, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreatePackageManagerEmbedPackageAnalytic, addr 0x72fd974, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic* CreatePackageManagerEmbedPackageAnalytic();
 
   static inline ::UnityEditor::Analytics::PackageManagerEmbedPackageAnalytic* New_ctor();
 
-  /// @brief Method .ctor, addr 0x72c09ac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72fd8e0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   PackageManagerEmbedPackageAnalytic(PackageManagerEmbedPackageAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23295 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23399 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

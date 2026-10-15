@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVROverlayCanvas::*)()>(&::GlobalNamespace::OVROverlayCanvas::get_overlayEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62927a4;
+  constexpr static std::size_t addrs = 0x62cf1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayCanvas*>(), { "get_overlayEnabled", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayCanvas::*)(bool)>(&::GlobalNamespace::OVROverlayCanvas::set_overlayEnabled)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x62927ac;
+  constexpr static std::size_t addrs = 0x62cf1f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayCanvas::*)()>(&::GlobalNamespace::OVROverlayCanvas::Start)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x62928b8;
+  constexpr static std::size_t addrs = 0x62cf300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayCanvas*>(), { "Start", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayCanvas::*)()>(&::GlobalNamespace::OVROverlayCanvas::InitializeRenderTexture)> {
   constexpr static std::size_t size = 0x9c8;
-  constexpr static std::size_t addrs = 0x6292d5c;
+  constexpr static std::size_t addrs = 0x62cf7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayCanvas*>(), { "InitializeRenderTexture", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayCanvas::*)()>(&::GlobalNamespace::OVROverlayCanvas::OnDestroy)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6293724;
+  constexpr static std::size_t addrs = 0x62d016c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayCanvas*>(), { "OnDestroy", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayCanvas::*)()>(&::GlobalNamespace::OVROverlayCanvas::OnEnable)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6293808;
+  constexpr static std::size_t addrs = 0x62d0250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayCanvas*>(), { "OnEnable", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayCanvas::*)()>(&::GlobalNamespace::OVROverlayCanvas::OnDisable)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6293904;
+  constexpr static std::size_t addrs = 0x62d034c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayCanvas*>(), { "OnDisable", {}, {} })));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVROverlayCanvas::*)()>(&::GlobalNamespace::OVROverlayCanvas::ShouldRender)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x62939a0;
+  constexpr static std::size_t addrs = 0x62d03e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayCanvas::*)()>(&::GlobalNamespace::OVROverlayCanvas::Update)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6293e7c;
+  constexpr static std::size_t addrs = 0x62d08c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayCanvas*>(), { "Update", {}, {} })));
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayCanvas::*)()>(&::GlobalNamespace::OVROverlayCanvas::LateUpdate)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6294c70;
+  constexpr static std::size_t addrs = 0x62d16b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayCanvas*>(), { "LateUpdate", {}, {} })));
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayCanvas::*)()>(&::GlobalNamespace::OVROverlayCanvas::OnValidate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6294d08;
+  constexpr static std::size_t addrs = 0x62d1750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayCanvas*>(), { "OnValidate", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayCanvas::*)()>(&::GlobalNamespace::OVROverlayCanvas::ApplyViewportScale)> {
   constexpr static std::size_t size = 0xab0;
-  constexpr static std::size_t addrs = 0x6293eb8;
+  constexpr static std::size_t addrs = 0x62d0900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayCanvas*>(), { "ApplyViewportScale", {}, {} })));
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayCanvas::*)()>(&::GlobalNamespace::OVROverlayCanvas::RenderCamera)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x6294968;
+  constexpr static std::size_t addrs = 0x62d13b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayCanvas*>(), { "RenderCamera", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (::GlobalNamespace::OVROverlayCanvas::*)(::UnityEngine::Camera*)>(
     &::GlobalNamespace::OVROverlayCanvas::CalculateCurveViewBillboardMatrix)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x6294d0c;
+  constexpr static std::size_t addrs = 0x62d1754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Ray (::GlobalNamespace::OVROverlayCanvas::*)(::UnityEngine::Ray)>(&::GlobalNamespace::OVROverlayCanvas::TransformRay)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x6295124;
+  constexpr static std::size_t addrs = 0x62d1b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, ::by_ref<float_t>)>(
     &::GlobalNamespace::OVROverlayCanvas::LineCircleIntersection)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x62953b8;
+  constexpr static std::size_t addrs = 0x62d1e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVROverlayCanvas::*)()>(&::GlobalNamespace::OVROverlayCanvas::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6295484;
+  constexpr static std::size_t addrs = 0x62d1ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVROverlayCanvas*>(), { ".ctor", {}, {} })));

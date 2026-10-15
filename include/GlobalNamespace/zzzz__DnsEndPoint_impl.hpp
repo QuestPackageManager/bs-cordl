@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IPEndPoint* (::GlobalNamespace::DnsEndPoint::*)()>(&::GlobalNamespace::DnsEndPoint::get_endPoint)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x35b8cf0;
+  constexpr static std::size_t addrs = 0x35db654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DnsEndPoint*>(), { "get_endPoint", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DnsEndPoint::*)(::StringW, int32_t)>(&::GlobalNamespace::DnsEndPoint::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x35b8d88;
+  constexpr static std::size_t addrs = 0x35db6ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DnsEndPoint::*)(::System::Net::IPEndPoint*)>(&::GlobalNamespace::DnsEndPoint::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x35b8d94;
+  constexpr static std::size_t addrs = 0x35db6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* (::GlobalNamespace::DnsEndPoint::*)(::BGNet::Core::ITaskUtility*)>(
     &::GlobalNamespace::DnsEndPoint::GetEndPointAsync)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x35b8e48;
+  constexpr static std::size_t addrs = 0x35db7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IPEndPoint* (::GlobalNamespace::DnsEndPoint::*)()>(&::GlobalNamespace::DnsEndPoint::GetEndPoint)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x35b8f68;
+  constexpr static std::size_t addrs = 0x35db8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DnsEndPoint*>(), { "GetEndPoint", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::IPEndPoint* (::GlobalNamespace::DnsEndPoint::*)()>(&::GlobalNamespace::DnsEndPoint::GetEndPointInternal)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x35b9004;
+  constexpr static std::size_t addrs = 0x35db968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DnsEndPoint*>(), { "GetEndPointInternal", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::DnsEndPoint::*)()>(&::GlobalNamespace::DnsEndPoint::ToString)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x35b90b8;
+  constexpr static std::size_t addrs = 0x35dba1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DnsEndPoint::*)(::System::Object*)>(&::GlobalNamespace::DnsEndPoint::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x35b9158;
+  constexpr static std::size_t addrs = 0x35dbabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DnsEndPoint::*)(::GlobalNamespace::DnsEndPoint*)>(&::GlobalNamespace::DnsEndPoint::Equals)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x35b9200;
+  constexpr static std::size_t addrs = 0x35dbb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::DnsEndPoint::*)()>(&::GlobalNamespace::DnsEndPoint::GetHashCode)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x35b9250;
+  constexpr static std::size_t addrs = 0x35dbbb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

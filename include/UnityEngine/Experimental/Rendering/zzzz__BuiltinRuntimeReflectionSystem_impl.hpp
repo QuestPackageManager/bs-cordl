@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::*)()>(
     &::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::TickRealtimeProbes)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f8e584;
+  constexpr static std::size_t addrs = 0x6fcb460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::*)()>(
     &::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f8e5d4;
+  constexpr static std::size_t addrs = 0x6fcb4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::*)(bool)>(
     &::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f8e5d8;
+  constexpr static std::size_t addrs = 0x6fcb4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::BuiltinUpdate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f8e5ac;
+  constexpr static std::size_t addrs = 0x6fcb488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* (*)()>(
     &::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Internal_BuiltinRuntimeReflectionSystem_New)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f8e5dc;
+  constexpr static std::size_t addrs = 0x6fcb4b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::*)()>(
     &::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f8e620;
+  constexpr static std::size_t addrs = 0x6fcb4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

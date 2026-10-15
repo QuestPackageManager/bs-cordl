@@ -24,14 +24,14 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE AlignmentUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CeilToPixelGrid, addr 0x7082414, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CeilToPixelGrid, addr 0x70bf348, size 0x14, virtual false, abstract: false, final false
   static inline float_t CeilToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
 
   /// [Extension]
-  /// @brief Method RoundToPanelPixelSize, addr 0x7082428, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method RoundToPanelPixelSize, addr 0x70bf35c, size 0x48, virtual false, abstract: false, final false
   static inline float_t RoundToPanelPixelSize(::UnityEngine::UIElements::VisualElement* ve, float_t v);
 
-  /// @brief Method RoundToPixelGrid, addr 0x70823f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RoundToPixelGrid, addr 0x70bf32c, size 0x1c, virtual false, abstract: false, final false
   static inline float_t RoundToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
 
 protected:

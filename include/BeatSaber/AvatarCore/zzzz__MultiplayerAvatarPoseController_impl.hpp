@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)()>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::get_leftHandTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34f6484;
+  constexpr static std::size_t addrs = 0x3516de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)()>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::get_rightHandTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34f648c;
+  constexpr static std::size_t addrs = 0x3516de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)(::System::Action_1<::UnityEngine::Vector3>*)>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::add_didUpdatePoseEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x34f163c;
+  constexpr static std::size_t addrs = 0x3511f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*>(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)(::System::Action_1<::UnityEngine::Vector3>*)>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::remove_didUpdatePoseEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x34f180c;
+  constexpr static std::size_t addrs = 0x3512168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)(::GlobalNamespace::IBeatSaberConnectedPlayer*)>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::set_connectedPlayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34f6494;
+  constexpr static std::size_t addrs = 0x3516df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*>(),
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)()>(&::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::Start)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x34f649c;
+  constexpr static std::size_t addrs = 0x3516df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*>(), { "Start", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)()>(&::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::Update)> {
   constexpr static std::size_t size = 0x4f0;
-  constexpr static std::size_t addrs = 0x34f6534;
+  constexpr static std::size_t addrs = 0x3516e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*>(), { "Update", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)()>(&::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x34f6a24;
+  constexpr static std::size_t addrs = 0x3517380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*>(), { ".ctor", {}, {} })));

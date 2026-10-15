@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpClientHandler___c::*)()>(&::System::Net::Http::HttpClientHandler___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64f346c;
+  constexpr static std::size_t addrs = 0x653003c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpClientHandler___c*>(), { ".ctor", {}, {} })));
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Crypt
                                                    ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW>)>(
     &::System::Net::Http::HttpClientHandler___c::_set_ClientCertificateOptions_b__23_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f3470;
+  constexpr static std::size_t addrs = 0x6530040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::IMonoHttpClientHandler* (*)()>(&::System::Net::Http::HttpClientHandler::CreateDefaultHandler)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x64f2884;
+  constexpr static std::size_t addrs = 0x652f454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpClientHandler*>(), { "CreateDefaultHandler", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpClientHandler::*)()>(&::System::Net::Http::HttpClientHandler::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x64f2aac;
+  constexpr static std::size_t addrs = 0x652f67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpClientHandler*>(), { ".ctor", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpClientHandler::*)(::System::Net::Http::IMonoHttpClientHandler*)>(
     &::System::Net::Http::HttpClientHandler::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64f2ad0;
+  constexpr static std::size_t addrs = 0x652f6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpClientHandler::*)(bool)>(&::System::Net::Http::HttpClientHandler::Dispose)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x64f2d6c;
+  constexpr static std::size_t addrs = 0x652f93c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpClientHandler::*)()>(&::System::Net::Http::HttpClientHandler::ThrowForModifiedManagedSslOptionsIfStarted)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x64f2e34;
+  constexpr static std::size_t addrs = 0x652fa04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::ClientCertificateOption (::System::Net::Http::HttpClientHandler::*)()>(
     &::System::Net::Http::HttpClientHandler::get_ClientCertificateOptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f2f3c;
+  constexpr static std::size_t addrs = 0x652fb0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpClientHandler*>(), { "get_ClientCertificateOptions", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpClientHandler::*)(::System::Net::Http::ClientCertificateOption)>(
     &::System::Net::Http::HttpClientHandler::set_ClientCertificateOptions)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x64f2ae4;
+  constexpr static std::size_t addrs = 0x652f6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateCollection* (::System::Net::Http::HttpClientHandler::*)()>(
     &::System::Net::Http::HttpClientHandler::get_ClientCertificates)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x64f2f44;
+  constexpr static std::size_t addrs = 0x652fb14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpClientHandler*>(), { "get_ClientCertificates", {}, {} })));
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpClientHandler::*)(bool)>(&::System::Net::Http::HttpClientHandler::set_UseProxy)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x64f311c;
+  constexpr static std::size_t addrs = 0x652fcec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpClientHandler::*)(bool)>(&::System::Net::Http::HttpClientHandler::set_AllowAutoRedirect)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x64f31d4;
+  constexpr static std::size_t addrs = 0x652fda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpClientHandler::*)(::System::TimeSpan)>(&::System::Net::Http::HttpClientHandler::SetWebRequestTimeout)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x64f328c;
+  constexpr static std::size_t addrs = 0x652fe5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* (
     ::System::Net::Http::HttpClientHandler::*)(::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken)>(&::System::Net::Http::HttpClientHandler::SendAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x64f3344;
+  constexpr static std::size_t addrs = 0x652ff14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -250,7 +250,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Crypt
                                                ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW>)>(
     &::System::Net::Http::HttpClientHandler::_set_ClientCertificateOptions_b__23_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64f3404;
+  constexpr static std::size_t addrs = 0x652ffd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

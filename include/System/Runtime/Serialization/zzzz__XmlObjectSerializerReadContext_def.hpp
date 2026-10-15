@@ -143,214 +143,214 @@ public:
   __declspec(property(get = __cordl_internal_get_xmlSerializableReader,
                       put = __cordl_internal_set_xmlSerializableReader)) ::System::Runtime::Serialization::XmlSerializableReader* xmlSerializableReader;
 
-  /// @brief Method AddNamespaceDeclaration, addr 0x65931a0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method AddNamespaceDeclaration, addr 0x65cfd70, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* AddNamespaceDeclaration(::StringW prefix, ::StringW ns);
 
-  /// @brief Method AddNewObject, addr 0x657544c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AddNewObject, addr 0x65b201c, size 0x1c, virtual false, abstract: false, final false
   inline void AddNewObject(::System::Object* obj);
 
-  /// @brief Method AddNewObjectWithId, addr 0x65905cc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AddNewObjectWithId, addr 0x65cd19c, size 0xc0, virtual false, abstract: false, final false
   inline void AddNewObjectWithId(::StringW id, ::System::Object* obj);
 
-  /// @brief Method CheckEndOfArray, addr 0x6590aec, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method CheckEndOfArray, addr 0x65cd6bc, size 0x18c, virtual false, abstract: false, final false
   inline void CheckEndOfArray(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, int32_t arraySize, ::System::Xml::XmlDictionaryString* itemName,
                               ::System::Xml::XmlDictionaryString* itemNamespace);
 
-  /// @brief Method CreateContext, addr 0x658ec7c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CreateContext, addr 0x65cb84c, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::XmlObjectSerializerReadContext* CreateContext(::System::Runtime::Serialization::DataContractSerializer* serializer,
                                                                                                 ::System::Runtime::Serialization::DataContract* rootTypeDataContract,
                                                                                                 ::System::Runtime::Serialization::DataContractResolver* dataContractResolver);
 
-  /// @brief Method CreateReaderDelegatorForReader, addr 0x6593394, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CreateReaderDelegatorForReader, addr 0x65cff64, size 0x60, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlReaderDelegator* CreateReaderDelegatorForReader(::System::Xml::XmlReader* xmlReader);
 
-  /// @brief Method CreateReaderOverChildNodes, addr 0x65932a0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CreateReaderOverChildNodes, addr 0x65cfe70, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::XmlReaderDelegator* CreateReaderOverChildNodes(::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>* xmlAttributes,
                                                                                           ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* xmlChildNodes);
 
-  /// @brief Method CreateUnexpectedStateException, addr 0x658ff04, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CreateUnexpectedStateException, addr 0x65ccad4, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Exception* CreateUnexpectedStateException(::System::Xml::XmlNodeType expectedState, ::System::Runtime::Serialization::XmlReaderDelegator* xmlReader);
 
-  /// @brief Method CreateWrapperXmlElement, addr 0x6579d7c, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method CreateWrapperXmlElement, addr 0x65b694c, size 0x300, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlNode* CreateWrapperXmlElement(::System::Xml::XmlDocument* document, ::System::Collections::Generic::IList_1<::System::Xml::XmlAttribute*>* xmlAttributes,
                                                                 ::System::Collections::Generic::IList_1<::System::Xml::XmlNode*>* xmlChildNodes, ::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method DeserializeFromExtensionData, addr 0x659068c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method DeserializeFromExtensionData, addr 0x65cd25c, size 0x1a4, virtual false, abstract: false, final false
   inline ::System::Object* DeserializeFromExtensionData(::System::Runtime::Serialization::IDataNode* dataNode, ::System::Type* type, ::StringW name, ::StringW ns);
 
   /// @brief Method EnsureArraySize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> EnsureArraySize(::ArrayW<T> array, int32_t index);
 
-  /// @brief Method GetArraySize, addr 0x65905c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetArraySize, addr 0x65cd194, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetArraySize();
 
-  /// @brief Method GetCollectionMember, addr 0x658eb08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCollectionMember, addr 0x65cb6d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* GetCollectionMember();
 
-  /// @brief Method GetExistingObject, addr 0x658f748, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method GetExistingObject, addr 0x65cc318, size 0x28c, virtual false, abstract: false, final false
   inline ::System::Object* GetExistingObject(::StringW id, ::System::Type* type, ::StringW name, ::StringW ns);
 
-  /// @brief Method GetExistingObjectOrExtensionData, addr 0x6590830, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetExistingObjectOrExtensionData, addr 0x65cd400, size 0xa0, virtual false, abstract: false, final false
   inline ::System::Object* GetExistingObjectOrExtensionData(::StringW id);
 
-  /// @brief Method GetMemberIndex, addr 0x658fa30, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetMemberIndex, addr 0x65cc600, size 0xe0, virtual false, abstract: false, final false
   inline int32_t GetMemberIndex(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::ArrayW<::System::Xml::XmlDictionaryString*> memberNames,
                                 ::ArrayW<::System::Xml::XmlDictionaryString*> memberNamespaces, int32_t memberIndex, ::System::Runtime::Serialization::ExtensionDataObject* extensionData);
 
-  /// @brief Method GetMemberIndexWithRequiredMembers, addr 0x658fbc0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetMemberIndexWithRequiredMembers, addr 0x65cc790, size 0xfc, virtual false, abstract: false, final false
   inline int32_t GetMemberIndexWithRequiredMembers(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::ArrayW<::System::Xml::XmlDictionaryString*> memberNames,
                                                    ::ArrayW<::System::Xml::XmlDictionaryString*> memberNamespaces, int32_t memberIndex, int32_t requiredIndex,
                                                    ::System::Runtime::Serialization::ExtensionDataObject* extensionData);
 
-  /// @brief Method GetObjectId, addr 0x6588e50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetObjectId, addr 0x65c5a20, size 0x18, virtual false, abstract: false, final false
   inline ::StringW GetObjectId();
 
-  /// @brief Method GetRealObject, addr 0x65908d0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetRealObject, addr 0x65cd4a0, size 0xec, virtual false, abstract: false, final false
   inline ::System::Object* GetRealObject(::System::Runtime::Serialization::IObjectReference* obj, ::StringW id);
 
-  /// @brief Method HandleMemberNotFound, addr 0x658fb10, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method HandleMemberNotFound, addr 0x65cc6e0, size 0xb0, virtual false, abstract: false, final false
   inline void HandleMemberNotFound(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Runtime::Serialization::ExtensionDataObject* extensionData, int32_t memberIndex);
 
-  /// @brief Method HandleUnknownElement, addr 0x65901b4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method HandleUnknownElement, addr 0x65ccd84, size 0x140, virtual false, abstract: false, final false
   inline void HandleUnknownElement(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Runtime::Serialization::ExtensionDataObject* extensionData, int32_t memberIndex);
 
-  /// @brief Method InitializeExtensionDataNode, addr 0x659252c, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method InitializeExtensionDataNode, addr 0x65cf0fc, size 0x274, virtual false, abstract: false, final false
   inline void InitializeExtensionDataNode(::System::Runtime::Serialization::IDataNode* dataNode, ::StringW dataContractName, ::StringW dataContractNamespace);
 
-  /// @brief Method InternalDeserialize, addr 0x658ee88, size 0x618, virtual false, abstract: false, final false
+  /// @brief Method InternalDeserialize, addr 0x65cba58, size 0x618, virtual false, abstract: false, final false
   inline ::System::Object* InternalDeserialize(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::StringW name, ::StringW ns, ::System::Type* declaredType,
                                                ::by_ref<::System::Runtime::Serialization::DataContract*> dataContract);
 
-  /// @brief Method InternalDeserialize, addr 0x658f500, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method InternalDeserialize, addr 0x65cc0d0, size 0x68, virtual true, abstract: false, final false
   inline ::System::Object* InternalDeserialize(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Type* declaredType,
                                                ::System::Runtime::Serialization::DataContract* dataContract, ::StringW name, ::StringW ns);
 
-  /// @brief Method InternalDeserialize, addr 0x658f4a0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method InternalDeserialize, addr 0x65cc070, size 0x60, virtual true, abstract: false, final false
   inline ::System::Object* InternalDeserialize(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Type* declaredType, ::StringW name, ::StringW ns);
 
-  /// @brief Method InternalDeserialize, addr 0x658edf8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method InternalDeserialize, addr 0x65cb9c8, size 0x90, virtual true, abstract: false, final false
   inline ::System::Object* InternalDeserialize(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, int32_t id, ::System::RuntimeTypeHandle declaredTypeHandle, ::StringW name,
                                                ::StringW ns);
 
-  /// @brief Method IsContentNode, addr 0x6593284, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsContentNode, addr 0x65cfe54, size 0x1c, virtual false, abstract: false, final false
   inline bool IsContentNode(::System::Xml::XmlNodeType nodeType);
 
-  /// @brief Method IsReadingClassExtensionData, addr 0x6593414, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsReadingClassExtensionData, addr 0x65cffe4, size 0x8, virtual true, abstract: false, final false
   inline bool IsReadingClassExtensionData(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader);
 
-  /// @brief Method IsReadingCollectionExtensionData, addr 0x65933f4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method IsReadingCollectionExtensionData, addr 0x65cffc4, size 0x20, virtual true, abstract: false, final false
   inline bool IsReadingCollectionExtensionData(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader);
 
-  /// @brief Method MoveToNextElement, addr 0x658fa0c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method MoveToNextElement, addr 0x65cc5dc, size 0x24, virtual false, abstract: false, final false
   static inline bool MoveToNextElement(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader);
 
   static inline ::System::Runtime::Serialization::XmlObjectSerializerReadContext* New_ctor(::System::Runtime::Serialization::DataContractSerializer* serializer,
                                                                                            ::System::Runtime::Serialization::DataContract* rootTypeDataContract,
                                                                                            ::System::Runtime::Serialization::DataContractResolver* dataContractResolver);
 
-  /// @brief Method ParseQualifiedName, addr 0x6590a08, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ParseQualifiedName, addr 0x65cd5d8, size 0xe4, virtual false, abstract: false, final false
   static inline void ParseQualifiedName(::StringW qname, ::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::by_ref<::StringW> name, ::by_ref<::StringW> ns, ::by_ref<::StringW> prefix);
 
-  /// @brief Method Read, addr 0x65909bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x65cd58c, size 0x4c, virtual false, abstract: false, final false
   static inline void Read(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader);
 
-  /// @brief Method ReadAndResolveUnknownXmlData, addr 0x65927a4, size 0x810, virtual false, abstract: false, final false
+  /// @brief Method ReadAndResolveUnknownXmlData, addr 0x65cf374, size 0x810, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::IDataNode* ReadAndResolveUnknownXmlData(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader,
                                                                                    ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* namespaces, ::StringW dataContractName,
                                                                                    ::StringW dataContractNamespace);
 
-  /// @brief Method ReadAttributes, addr 0x659053c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ReadAttributes, addr 0x65cd10c, size 0x74, virtual true, abstract: false, final false
   inline void ReadAttributes(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader);
 
-  /// @brief Method ReadDataContractValue, addr 0x659336c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ReadDataContractValue, addr 0x65cff3c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Object* ReadDataContractValue(::System::Runtime::Serialization::DataContract* dataContract, ::System::Runtime::Serialization::XmlReaderDelegator* reader);
 
-  /// @brief Method ReadExtensionDataMember, addr 0x65902f4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ReadExtensionDataMember, addr 0x65ccec4, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ExtensionDataMember* ReadExtensionDataMember(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, int32_t memberIndex);
 
-  /// @brief Method ReadExtensionDataValue, addr 0x6590fa8, size 0x568, virtual false, abstract: false, final false
+  /// @brief Method ReadExtensionDataValue, addr 0x65cdb78, size 0x568, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::IDataNode* ReadExtensionDataValue(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader);
 
-  /// @brief Method ReadExtensionDataValue, addr 0x6591dfc, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method ReadExtensionDataValue, addr 0x65ce9cc, size 0x2b0, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::IDataNode* ReadExtensionDataValue(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::StringW dataContractName,
                                                                              ::StringW dataContractNamespace);
 
-  /// @brief Method ReadIXmlSerializable, addr 0x6589f1c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReadIXmlSerializable, addr 0x65c6aec, size 0x90, virtual false, abstract: false, final false
   inline ::System::Object* ReadIXmlSerializable(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Runtime::Serialization::XmlDataContract* xmlDataContract, bool isMemberType);
 
-  /// @brief Method ReadIXmlSerializable, addr 0x6590c78, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method ReadIXmlSerializable, addr 0x65cd848, size 0x300, virtual false, abstract: false, final false
   static inline ::System::Object* ReadIXmlSerializable(::System::Runtime::Serialization::XmlSerializableReader* xmlSerializableReader, ::System::Runtime::Serialization::XmlReaderDelegator* xmlReader,
                                                        ::System::Runtime::Serialization::XmlDataContract* xmlDataContract, bool isMemberType);
 
-  /// @brief Method ReadIfNullOrRef, addr 0x65903f0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ReadIfNullOrRef, addr 0x65ccfc0, size 0x14c, virtual false, abstract: false, final false
   inline ::StringW ReadIfNullOrRef(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Type* memberType, bool isMemberTypeSerializable);
 
-  /// @brief Method ReadPrimitiveExtensionDataValue, addr 0x6592fb4, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method ReadPrimitiveExtensionDataValue, addr 0x65cfb84, size 0x1ec, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::IDataNode* ReadPrimitiveExtensionDataValue(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::StringW dataContractName,
                                                                                       ::StringW dataContractNamespace);
 
-  /// @brief Method ReadRootIXmlSerializable, addr 0x6589ea4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadRootIXmlSerializable, addr 0x65c6a74, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Object* ReadRootIXmlSerializable(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Runtime::Serialization::XmlDataContract* xmlDataContract,
                                                            bool isMemberType);
 
-  /// @brief Method ReadSerializationInfo, addr 0x6588e68, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method ReadSerializationInfo, addr 0x65c5a38, size 0x2ac, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationInfo* ReadSerializationInfo(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Type* type);
 
-  /// @brief Method ReadUnknownClassData, addr 0x6591c10, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method ReadUnknownClassData, addr 0x65ce7e0, size 0x1ec, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ClassDataNode* ReadUnknownClassData(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::StringW dataContractName,
                                                                                ::StringW dataContractNamespace);
 
-  /// @brief Method ReadUnknownCollectionData, addr 0x6591510, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method ReadUnknownCollectionData, addr 0x65ce0e0, size 0x4b0, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::CollectionDataNode* ReadUnknownCollectionData(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::StringW dataContractName,
                                                                                          ::StringW dataContractNamespace);
 
-  /// @brief Method ReadUnknownISerializableData, addr 0x65919c0, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method ReadUnknownISerializableData, addr 0x65ce590, size 0x250, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ISerializableDataNode* ReadUnknownISerializableData(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::StringW dataContractName,
                                                                                                ::StringW dataContractNamespace);
 
-  /// @brief Method ReadUnknownPrimitiveData, addr 0x65924d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadUnknownPrimitiveData, addr 0x65cf0a0, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::IDataNode* ReadUnknownPrimitiveData(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::System::Type* type, ::StringW dataContractName,
                                                                                ::StringW dataContractNamespace);
 
-  /// @brief Method ReadUnknownXmlData, addr 0x65920ac, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method ReadUnknownXmlData, addr 0x65cec7c, size 0x424, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::IDataNode* ReadUnknownXmlData(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, ::StringW dataContractName, ::StringW dataContractNamespace);
 
-  /// @brief Method ReplaceDeserializedObject, addr 0x6589114, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ReplaceDeserializedObject, addr 0x65c5ce4, size 0x1f0, virtual false, abstract: false, final false
   inline void ReplaceDeserializedObject(::StringW id, ::System::Object* oldObj, ::System::Object* newObj);
 
-  /// @brief Method ReplaceScopedKnownTypesTop, addr 0x658f9d4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ReplaceScopedKnownTypesTop, addr 0x65cc5a4, size 0x38, virtual false, abstract: false, final false
   inline bool ReplaceScopedKnownTypesTop(::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, ::System::Runtime::Serialization::DataContract*>* knownDataContracts,
                                          bool knownTypesAddedInCurrentScope);
 
-  /// @brief Method ResetAttributes, addr 0x65905b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ResetAttributes, addr 0x65cd180, size 0x14, virtual false, abstract: false, final false
   inline void ResetAttributes();
 
-  /// @brief Method ResolveDataContractFromTypeName, addr 0x6590f78, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ResolveDataContractFromTypeName, addr 0x65cdb48, size 0x30, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::DataContract* ResolveDataContractFromTypeName();
 
-  /// @brief Method SkipUnknownElement, addr 0x658fff8, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method SkipUnknownElement, addr 0x65ccbc8, size 0x1bc, virtual false, abstract: false, final false
   inline void SkipUnknownElement(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader);
 
-  /// @brief Method StartReadExtensionDataValue, addr 0x65927a0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method StartReadExtensionDataValue, addr 0x65cf370, size 0x4, virtual true, abstract: false, final false
   inline void StartReadExtensionDataValue(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader);
 
-  /// @brief Method StoreCollectionMemberInfo, addr 0x658eb10, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method StoreCollectionMemberInfo, addr 0x65cb6e0, size 0x10, virtual false, abstract: false, final false
   inline void StoreCollectionMemberInfo(::System::Object* collectionMember);
 
-  /// @brief Method ThrowArrayExceededSizeException, addr 0x658ebb0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ThrowArrayExceededSizeException, addr 0x65cb780, size 0xcc, virtual false, abstract: false, final false
   static inline void ThrowArrayExceededSizeException(int32_t arraySize, ::System::Type* type);
 
-  /// @brief Method ThrowNullValueReturnedForGetOnlyCollectionException, addr 0x658eb20, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ThrowNullValueReturnedForGetOnlyCollectionException, addr 0x65cb6f0, size 0x90, virtual false, abstract: false, final false
   static inline void ThrowNullValueReturnedForGetOnlyCollectionException(::System::Type* type);
 
-  /// @brief Method ThrowRequiredMemberMissingException, addr 0x658fcbc, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method ThrowRequiredMemberMissingException, addr 0x65cc88c, size 0x248, virtual false, abstract: false, final false
   static inline void ThrowRequiredMemberMissingException(::System::Runtime::Serialization::XmlReaderDelegator* xmlReader, int32_t memberIndex, int32_t requiredIndex,
                                                          ::ArrayW<::System::Xml::XmlDictionaryString*> memberNames);
 
   /// @brief Method TrimArraySize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T> TrimArraySize(::ArrayW<T> array, int32_t size);
 
-  /// @brief Method TryHandleNullOrRef, addr 0x658f568, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method TryHandleNullOrRef, addr 0x65cc138, size 0x1e0, virtual false, abstract: false, final false
   inline bool TryHandleNullOrRef(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::System::Type* declaredType, ::StringW name, ::StringW ns, ::by_ref<::System::Object*> retObj);
 
   constexpr ::System::Runtime::Serialization::Attributes* const& __cordl_internal_get_attributes() const;
@@ -401,20 +401,20 @@ public:
 
   constexpr void __cordl_internal_set_xmlSerializableReader(::System::Runtime::Serialization::XmlSerializableReader* value);
 
-  /// @brief Method .ctor, addr 0x658ed54, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65cb924, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::DataContractSerializer* serializer, ::System::Runtime::Serialization::DataContract* rootTypeDataContract,
                     ::System::Runtime::Serialization::DataContractResolver* dataContractResolver);
 
-  /// @brief Method get_DeserializedObjects, addr 0x658ea38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DeserializedObjects, addr 0x65cb608, size 0x58, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::HybridObjectCache* get_DeserializedObjects();
 
-  /// @brief Method get_Document, addr 0x658ea90, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Document, addr 0x65cb660, size 0x68, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDocument* get_Document();
 
-  /// @brief Method get_IsGetOnlyCollection, addr 0x658eaf8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsGetOnlyCollection, addr 0x65cb6c8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsGetOnlyCollection();
 
-  /// @brief Method set_IsGetOnlyCollection, addr 0x658eb00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_IsGetOnlyCollection, addr 0x65cb6d0, size 0x8, virtual true, abstract: false, final false
   inline void set_IsGetOnlyCollection(bool value);
 
 protected:
@@ -432,7 +432,7 @@ public:
   XmlObjectSerializerReadContext(XmlObjectSerializerReadContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16549 };
 
   /// @brief Field attributes, offset: 0x78, size: 0x8, def value: None
   ::System::Runtime::Serialization::Attributes* ___attributes;

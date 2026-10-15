@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerStream::*)(
     ::System::IO::Stream*, ::Org::BouncyCastle::Crypto::ISigner*, ::Org::BouncyCastle::Crypto::ISigner*)>(&::Org::BouncyCastle::Crypto::IO::SignerStream::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x367032c;
+  constexpr static std::size_t addrs = 0x3692c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::ISigner* (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::ReadSigner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36703a4;
+  constexpr static std::size_t addrs = 0x3692d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::ISigner* (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::WriteSigner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36703ac;
+  constexpr static std::size_t addrs = 0x3692d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::IO::SignerStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::Read)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x36703b4;
+  constexpr static std::size_t addrs = 0x3692d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(&::Org::BouncyCastle::Crypto::IO::SignerStream::ReadByte)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x36704bc;
+  constexpr static std::size_t addrs = 0x3692e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::Write)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3670590;
+  constexpr static std::size_t addrs = 0x3692ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerStream::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::IO::SignerStream::WriteByte)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x367068c;
+  constexpr static std::size_t addrs = 0x3692ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(&::Org::BouncyCastle::Crypto::IO::SignerStream::get_CanRead)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3670760;
+  constexpr static std::size_t addrs = 0x36930c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(&::Org::BouncyCastle::Crypto::IO::SignerStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x367077c;
+  constexpr static std::size_t addrs = 0x36930e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(&::Org::BouncyCastle::Crypto::IO::SignerStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3670798;
+  constexpr static std::size_t addrs = 0x36930fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(&::Org::BouncyCastle::Crypto::IO::SignerStream::get_Length)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x36707b4;
+  constexpr static std::size_t addrs = 0x3693118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(&::Org::BouncyCastle::Crypto::IO::SignerStream::get_Position)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x36707d0;
+  constexpr static std::size_t addrs = 0x3693134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerStream::*)(int64_t)>(&::Org::BouncyCastle::Crypto::IO::SignerStream::set_Position)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x36707f0;
+  constexpr static std::size_t addrs = 0x3693154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(&::Org::BouncyCastle::Crypto::IO::SignerStream::Close)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3670810;
+  constexpr static std::size_t addrs = 0x3693174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(&::Org::BouncyCastle::Crypto::IO::SignerStream::Flush)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x367088c;
+  constexpr static std::size_t addrs = 0x36931f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Crypto::IO::SignerStream::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::Seek)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x36708ac;
+  constexpr static std::size_t addrs = 0x3693210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerStream::*)(int64_t)>(&::Org::BouncyCastle::Crypto::IO::SignerStream::SetLength)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x36708cc;
+  constexpr static std::size_t addrs = 0x3693230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

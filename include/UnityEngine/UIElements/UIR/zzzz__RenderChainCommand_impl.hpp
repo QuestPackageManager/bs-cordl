@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderChainCommand::*)()>(&::UnityEngine::UIElements::UIR::RenderChainCommand::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7184560;
+  constexpr static std::size_t addrs = 0x71c1494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderChainCommand*>(), { ".ctor", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderChainCommand::*)()>(&::UnityEngine::UIElements::UIR::RenderChainCommand::Reset)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x71845b8;
+  constexpr static std::size_t addrs = 0x71c14ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderChainCommand*>(), { "Reset", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderChainCommand::*)(
     ::UnityEngine::UIElements::UIR::DrawParams*, float_t, ::by_ref<::System::Exception*>)>(&::UnityEngine::UIElements::UIR::RenderChainCommand::ExecuteNonDrawMesh)> {
   constexpr static std::size_t size = 0x714;
-  constexpr static std::size_t addrs = 0x71902d8;
+  constexpr static std::size_t addrs = 0x71cd20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UIR::DrawParams*, ::UnityEngine::Rect, float_t)>(
     &::UnityEngine::UIElements::UIR::RenderChainCommand::PushScissor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x718fca8;
+  constexpr static std::size_t addrs = 0x71ccbdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UIR::DrawParams*, float_t)>(&::UnityEngine::UIElements::UIR::RenderChainCommand::PopScissor)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x71909ec;
+  constexpr static std::size_t addrs = 0x71cd920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::Rect, ::UnityEngine::Rect)>(&::UnityEngine::UIElements::UIR::RenderChainCommand::CombineScissorRects)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x7192b50;
+  constexpr static std::size_t addrs = 0x71cfa84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::RectInt (*)(::UnityEngine::Rect, ::UnityEngine::Vector2, float_t)>(
     &::UnityEngine::UIElements::UIR::RenderChainCommand::RectPointsToPixelsAndFlipYAxis)> {
   constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x7192758;
+  constexpr static std::size_t addrs = 0x71cf68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

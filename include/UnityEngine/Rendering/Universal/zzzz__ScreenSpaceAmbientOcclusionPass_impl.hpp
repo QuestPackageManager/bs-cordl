@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams::*)(
     ::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings*>, bool)>(&::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6cdc118;
+  constexpr static std::size_t addrs = 0x6d18d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams>)>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOMaterialParams::Equals)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6cdc1f8;
+  constexpr static std::size_t addrs = 0x6d18e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cdd6dc;
+  constexpr static std::size_t addrs = 0x6d1a358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cdd734;
+  constexpr static std::size_t addrs = 0x6d1a3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -311,7 +311,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass___c::_RecordRenderGraph_b__37_0)> {
   constexpr static std::size_t size = 0x6ec;
-  constexpr static std::size_t addrs = 0x6cdd738;
+  constexpr static std::size_t addrs = 0x6d1a3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass___c*>(),
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass::_ctor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6cdb494;
+  constexpr static std::size_t addrs = 0x6d18110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -386,7 +386,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings*>, ::by_ref<::UnityEngine::Rendering::Universal::ScriptableRenderer*>, ::by_ref<::UnityEngine::Material*>,
     ::by_ref<::ArrayW<::UnityEngine::Texture2D*>>)>(&::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass::Setup)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6cdb604;
+  constexpr static std::size_t addrs = 0x6d18280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -406,7 +406,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionSettings*>, ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*>)>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass::SetupKeywordsAndParameters)> {
   constexpr static std::size_t size = 0x950;
-  constexpr static std::size_t addrs = 0x6cdb7c8;
+  constexpr static std::size_t addrs = 0x6d18444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass*>(),
@@ -423,7 +423,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass::*)(
     ::by_ref<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass_SSAOPassData*>)>(&::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass::InitSSAOPassData)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6cdc2e8;
+  constexpr static std::size_t addrs = 0x6d18f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -439,7 +439,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(&::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass::ComputeScaleBias)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6cdc330;
+  constexpr static std::size_t addrs = 0x6d18fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass*>(),
@@ -458,7 +458,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass::*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(
         &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass::RecordRenderGraph)> {
   constexpr static std::size_t size = 0xb98;
-  constexpr static std::size_t addrs = 0x6cdc474;
+  constexpr static std::size_t addrs = 0x6d190f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass*>(),
@@ -474,7 +474,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>,
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(&::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass::CreateRenderTextureHandles)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x6cdd00c;
+  constexpr static std::size_t addrs = 0x6d19c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass::OnCameraCleanup)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6cdd34c;
+  constexpr static std::size_t addrs = 0x6d19fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass*>(),
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass::*)()>(
     &::UnityEngine::Rendering::Universal::ScreenSpaceAmbientOcclusionPass::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6cdd420;
+  constexpr static std::size_t addrs = 0x6d1a09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

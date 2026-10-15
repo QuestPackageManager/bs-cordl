@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevelOrPackIdAttribute::*)()>(&::GlobalNamespace::BeatmapLevelOrPackIdAttribute::get_allowPacks)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39d7b5c;
+  constexpr static std::size_t addrs = 0x3a011cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdAttribute*>(), { "get_allowPacks", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevelOrPackIdAttribute::*)()>(&::GlobalNamespace::BeatmapLevelOrPackIdAttribute::get_allowLevels)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39d7b70;
+  constexpr static std::size_t addrs = 0x3a011e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdAttribute*>(), { "get_allowLevels", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevelOrPackIdAttribute::*)()>(&::GlobalNamespace::BeatmapLevelOrPackIdAttribute::get_allowEmpty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39d7b84;
+  constexpr static std::size_t addrs = 0x3a011f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelOrPackIdAttribute*>(), { "get_allowEmpty", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelOrPackIdAttribute::*)(::GlobalNamespace::BeatmapLevelOrPackIdFilter)>(
     &::GlobalNamespace::BeatmapLevelOrPackIdAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39d7b98;
+  constexpr static std::size_t addrs = 0x3a01208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

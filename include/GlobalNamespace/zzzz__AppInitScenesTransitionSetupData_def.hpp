@@ -75,7 +75,7 @@ public:
   static ::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitOverrideStartType const DoNotOverride;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22260 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22309 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -114,15 +114,15 @@ public:
 
   constexpr void __cordl_internal_set__appInitOverrideStartType_k__BackingField(::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitOverrideStartType value);
 
-  /// @brief Method .ctor, addr 0x3590d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b357c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitOverrideStartType appInitOverrideStartType);
 
   /// [CompilerGenerated]
-  /// @brief Method get_appInitOverrideStartType, addr 0x3590ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_appInitOverrideStartType, addr 0x35b3714, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitOverrideStartType get_appInitOverrideStartType();
 
   /// [CompilerGenerated]
-  /// @brief Method set_appInitOverrideStartType, addr 0x3590ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_appInitOverrideStartType, addr 0x35b371c, size 0x8, virtual false, abstract: false, final false
   inline void set_appInitOverrideStartType(::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitOverrideStartType value);
 
 protected:
@@ -140,7 +140,7 @@ public:
   AppInitScenesTransitionSetupData_AppInitSceneSetupData(AppInitScenesTransitionSetupData_AppInitSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22310 };
 
   /// [CompilerGenerated]
   /// @brief Field <appInitOverrideStartType>k__BackingField, offset: 0x10, size: 0x4, def value: None
@@ -165,18 +165,18 @@ public:
 
   using AppInitSceneSetupData = ::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitSceneSetupData;
 
-  /// @brief Method Init, addr 0x3590c1c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x35b3490, size 0xe4, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitOverrideStartType appInitOverrideStartType);
 
-  /// @brief Method InitAsDefault, addr 0x3590d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitAsDefault, addr 0x35b3574, size 0x8, virtual false, abstract: false, final false
   inline void InitAsDefault();
 
-  /// @brief Method InitDirectlyToMenu, addr 0x3590c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitDirectlyToMenu, addr 0x35b3488, size 0x8, virtual false, abstract: false, final false
   inline void InitDirectlyToMenu();
 
   static inline ::GlobalNamespace::AppInitScenesTransitionSetupData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3590d8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b3600, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -194,7 +194,7 @@ public:
   AppInitScenesTransitionSetupData(AppInitScenesTransitionSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22311 };
 
   /// @brief Field kGameInitSceneName offset 0xffffffff size 0x8
   static constexpr ::ConstString kGameInitSceneName{ u"GameInit" };

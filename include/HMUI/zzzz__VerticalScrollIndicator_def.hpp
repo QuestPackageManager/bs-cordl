@@ -26,13 +26,16 @@ public:
   /// @brief Field _handle, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__handle, put = __cordl_internal_set__handle)) ::UnityW<::UnityEngine::RectTransform> _handle;
 
-  /// @brief Field _normalizedPageHeight, offset 0x30, size 0x4
+  /// @brief Field _minHandleHeight, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get__minHandleHeight, put = __cordl_internal_set__minHandleHeight)) float_t _minHandleHeight;
+
+  /// @brief Field _normalizedPageHeight, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__normalizedPageHeight, put = __cordl_internal_set__normalizedPageHeight)) float_t _normalizedPageHeight;
 
   /// @brief Field _padding, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__padding, put = __cordl_internal_set__padding)) float_t _padding;
 
-  /// @brief Field _progress, offset 0x2c, size 0x4
+  /// @brief Field _progress, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__progress, put = __cordl_internal_set__progress)) float_t _progress;
 
   __declspec(property(get = get_handle)) ::UnityW<::UnityEngine::RectTransform> handle;
@@ -43,15 +46,19 @@ public:
 
   static inline ::HMUI::VerticalScrollIndicator* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x5ca7e4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5ce0e0c, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshHandle, addr 0x5ca7d38, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method RefreshHandle, addr 0x5ce0ce4, size 0x110, virtual false, abstract: false, final false
   inline void RefreshHandle();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__handle() const;
 
   constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__handle();
+
+  constexpr float_t const& __cordl_internal_get__minHandleHeight() const;
+
+  constexpr float_t& __cordl_internal_get__minHandleHeight();
 
   constexpr float_t const& __cordl_internal_get__normalizedPageHeight() const;
 
@@ -67,28 +74,30 @@ public:
 
   constexpr void __cordl_internal_set__handle(::UnityW<::UnityEngine::RectTransform> value);
 
+  constexpr void __cordl_internal_set__minHandleHeight(float_t value);
+
   constexpr void __cordl_internal_set__normalizedPageHeight(float_t value);
 
   constexpr void __cordl_internal_set__padding(float_t value);
 
   constexpr void __cordl_internal_set__progress(float_t value);
 
-  /// @brief Method .ctor, addr 0x5ca7e50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ce0e10, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_handle, addr 0x5ca7e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handle, addr 0x5ce0e04, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_handle();
 
-  /// @brief Method get_normalizedPageHeight, addr 0x5ca7e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedPageHeight, addr 0x5ce0dfc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalizedPageHeight();
 
-  /// @brief Method get_progress, addr 0x5ca7e34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x5ce0df4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method set_normalizedPageHeight, addr 0x5c9fbfc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedPageHeight, addr 0x5cd8a6c, size 0x30, virtual false, abstract: false, final false
   inline void set_normalizedPageHeight(float_t value);
 
-  /// @brief Method set_progress, addr 0x5c9ff94, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_progress, addr 0x5cd8f2c, size 0x30, virtual false, abstract: false, final false
   inline void set_progress(float_t value);
 
 protected:
@@ -106,7 +115,7 @@ public:
   VerticalScrollIndicator(VerticalScrollIndicator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19732 };
 
   /// [SerializeField]
   /// @brief Field _handle, offset: 0x20, size: 0x8, def value: None
@@ -116,10 +125,14 @@ public:
   /// @brief Field _padding, offset: 0x28, size: 0x4, def value: None
   float_t ____padding;
 
-  /// @brief Field _progress, offset: 0x2c, size: 0x4, def value: None
+  /// [SerializeField]
+  /// @brief Field _minHandleHeight, offset: 0x2c, size: 0x4, def value: None
+  float_t ____minHandleHeight;
+
+  /// @brief Field _progress, offset: 0x30, size: 0x4, def value: None
   float_t ____progress;
 
-  /// @brief Field _normalizedPageHeight, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _normalizedPageHeight, offset: 0x34, size: 0x4, def value: None
   float_t ____normalizedPageHeight;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -129,9 +142,11 @@ static_assert(offsetof(::HMUI::VerticalScrollIndicator, ____handle) == 0x20, "Of
 
 static_assert(offsetof(::HMUI::VerticalScrollIndicator, ____padding) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::VerticalScrollIndicator, ____progress) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::HMUI::VerticalScrollIndicator, ____minHandleHeight) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::VerticalScrollIndicator, ____normalizedPageHeight) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::HMUI::VerticalScrollIndicator, ____progress) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::VerticalScrollIndicator, ____normalizedPageHeight) == 0x34, "Offset mismatch!");
 
 static_assert(sizeof(::HMUI::VerticalScrollIndicator) == 0x38, "Size mismatch!");
 

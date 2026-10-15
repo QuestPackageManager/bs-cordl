@@ -59,24 +59,24 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x650ce8c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6549a5c, size 0xec, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x650cf78, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6549b48, size 0xbc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::ViaHeaderValue* New_ctor();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x650ce88, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x6549a58, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x650d378, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6549f48, size 0x11c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x650d034, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x6549c04, size 0xb4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::by_ref<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ViaHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x650d0e8, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x6549cb8, size 0x290, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::by_ref<::System::Net::Http::Headers::ViaHeaderValue*> parsedValue, ::by_ref<::System::Net::Http::Headers::Token> t);
 
   constexpr ::StringW const& __cordl_internal_get__Comment_k__BackingField() const;
@@ -103,42 +103,42 @@ public:
 
   constexpr void __cordl_internal_set__ReceivedBy_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x650ce44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6549a14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Comment, addr 0x650ce48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comment, addr 0x6549a18, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Comment();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ProtocolName, addr 0x650ce58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProtocolName, addr 0x6549a28, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProtocolName();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ProtocolVersion, addr 0x650ce68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProtocolVersion, addr 0x6549a38, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProtocolVersion();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ReceivedBy, addr 0x650ce78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReceivedBy, addr 0x6549a48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ReceivedBy();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_Comment, addr 0x650ce50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Comment, addr 0x6549a20, size 0x8, virtual false, abstract: false, final false
   inline void set_Comment(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ProtocolName, addr 0x650ce60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProtocolName, addr 0x6549a30, size 0x8, virtual false, abstract: false, final false
   inline void set_ProtocolName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ProtocolVersion, addr 0x650ce70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProtocolVersion, addr 0x6549a40, size 0x8, virtual false, abstract: false, final false
   inline void set_ProtocolVersion(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ReceivedBy, addr 0x650ce80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReceivedBy, addr 0x6549a50, size 0x8, virtual false, abstract: false, final false
   inline void set_ReceivedBy(::StringW value);
 
 protected:
@@ -156,7 +156,7 @@ public:
   ViaHeaderValue(ViaHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21001 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21048 };
 
   /// [CompilerGenerated]
   /// @brief Field <Comment>k__BackingField, offset: 0x10, size: 0x8, def value: None

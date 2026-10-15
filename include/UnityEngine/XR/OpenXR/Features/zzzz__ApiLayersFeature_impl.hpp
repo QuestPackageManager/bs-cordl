@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::ApiLayersFeature___c::*)()>(&::UnityEngine::XR::OpenXR::Features::ApiLayersFeature___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e49b40;
+  constexpr static std::size_t addrs = 0x6e867dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::ApiLayersFeature___c*>(), { ".ctor", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::XR::OpenXR::Features::ApiLayersFeature___c::*)(::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer)>(
     &::UnityEngine::XR::OpenXR::Features::ApiLayersFeature___c::_GetEnabledApiLayers_b__10_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e49b44;
+  constexpr static std::size_t addrs = 0x6e867e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::ApiLayersFeature___c__DisplayClass10_0::*)()>(
     &::UnityEngine::XR::OpenXR::Features::ApiLayersFeature___c__DisplayClass10_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e499ec;
+  constexpr static std::size_t addrs = 0x6e86688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::ApiLayersFeature___c__DisplayClass10_0::*)(::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer)>(
     &::UnityEngine::XR::OpenXR::Features::ApiLayersFeature___c__DisplayClass10_0::_GetEnabledApiLayers_b__0)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6e49b4c;
+  constexpr static std::size_t addrs = 0x6e867e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::ApiLayersFeature___c__DisplayClass10_0*>(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::ApiLayers* (::UnityEngine::XR::OpenXR::Features::ApiLayersFeature::*)()>(
     &::UnityEngine::XR::OpenXR::Features::ApiLayersFeature::get_apiLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e490dc;
+  constexpr static std::size_t addrs = 0x6e85d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::ApiLayersFeature*>(), { "get_apiLayers", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::ApiLayers_ISupport*)>(&::UnityEngine::XR::OpenXR::Features::ApiLayersFeature::AddSupport)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6e490e4;
+  constexpr static std::size_t addrs = 0x6e85d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::ApiLayersFeature*>(),
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::ApiLayers_ISupport*)>(&::UnityEngine::XR::OpenXR::Features::ApiLayersFeature::RemoveSupport)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6e49200;
+  constexpr static std::size_t addrs = 0x6e85e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::ApiLayersFeature*>(),
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::UnityEngine::XR::OpenXR::Features::ApiLayersFeature::*)(::System::IntPtr)>(
     &::UnityEngine::XR::OpenXR::Features::ApiLayersFeature::HookGetInstanceProcAddr)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x6e49288;
+  constexpr static std::size_t addrs = 0x6e85f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::ApiLayersFeature*>(),
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::ApiLayersFeature::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::ApiLayersFeature::OnInstanceCreate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e49828;
+  constexpr static std::size_t addrs = 0x6e864c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::ApiLayersFeature*>(),
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::ApiLayersFeature::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::ApiLayersFeature::OnInstanceDestroy)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6e49838;
+  constexpr static std::size_t addrs = 0x6e864d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::ApiLayersFeature*>(),
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::UnityEngine::XR::OpenXR::Features::ApiLayersFeature::*)()>(
     &::UnityEngine::XR::OpenXR::Features::ApiLayersFeature::GetEnabledApiLayers)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x6e49478;
+  constexpr static std::size_t addrs = 0x6e86114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::StringW>, int32_t)>(&::UnityEngine::XR::OpenXR::Features::ApiLayersFeature::SetEnabledApiLayers)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6e496fc;
+  constexpr static std::size_t addrs = 0x6e86398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::ApiLayersFeature*>(),
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::ApiLayersFeature::*)()>(&::UnityEngine::XR::OpenXR::Features::ApiLayersFeature::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e499f0;
+  constexpr static std::size_t addrs = 0x6e8668c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::ApiLayersFeature*>(), { ".ctor", {}, {} })));

@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelLoader_InitData::*)(int32_t)>(&::GlobalNamespace::BeatmapLevelLoader_InitData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a886c;
+  constexpr static std::size_t addrs = 0x39ccd5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelLoader_LevelDownloadingUpdate::*)(
     ::StringW, float_t, ::GlobalNamespace::LevelDownloadingUpdate_BeatmapLevelLoader_DownloadingState)>(&::GlobalNamespace::BeatmapLevelLoader_LevelDownloadingUpdate::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39a85fc;
+  constexpr static std::size_t addrs = 0x39ccaec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelLoader__CheckBeatmapLevelDataExistsAsync_d__14::*)()>(
     &::GlobalNamespace::BeatmapLevelLoader__CheckBeatmapLevelDataExistsAsync_d__14::MoveNext)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x39a8874;
+  constexpr static std::size_t addrs = 0x39ccd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelLoader__CheckBeatmapLevelDataExistsAsync_d__14::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::BeatmapLevelLoader__CheckBeatmapLevelDataExistsAsync_d__14::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39a8b28;
+  constexpr static std::size_t addrs = 0x39cd018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelLoader__CheckBeatmapLevelDataExistsAsync_d__14>(),
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelLoader__CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16::*)()>(
     &::GlobalNamespace::BeatmapLevelLoader__CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16::MoveNext)> {
   constexpr static std::size_t size = 0x4d4;
-  constexpr static std::size_t addrs = 0x39a8ba8;
+  constexpr static std::size_t addrs = 0x39cd098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelLoader__CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::BeatmapLevelLoader__CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39a907c;
+  constexpr static std::size_t addrs = 0x39cd56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelLoader__LoadBeatmapLevelDataAsync_d__13::*)()>(
     &::GlobalNamespace::BeatmapLevelLoader__LoadBeatmapLevelDataAsync_d__13::MoveNext)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x39a90fc;
+  constexpr static std::size_t addrs = 0x39cd5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelLoader__LoadBeatmapLevelDataAsync_d__13::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::BeatmapLevelLoader__LoadBeatmapLevelDataAsync_d__13::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39a94a4;
+  constexpr static std::size_t addrs = 0x39cd994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelLoader__LoadBeatmapLevelDataAsync_d__13>(),
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelLoader__LoadBeatmapLevelDataFromAssetBundle_d__18::*)()>(
     &::GlobalNamespace::BeatmapLevelLoader__LoadBeatmapLevelDataFromAssetBundle_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x7c0;
-  constexpr static std::size_t addrs = 0x39a9524;
+  constexpr static std::size_t addrs = 0x39cda14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelLoader__LoadBeatmapLevelDataFromAssetBundle_d__18::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::BeatmapLevelLoader__LoadBeatmapLevelDataFromAssetBundle_d__18::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39a9ce4;
+  constexpr static std::size_t addrs = 0x39ce1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelLoader__LoadBeatmapLevelDataFromAssetBundle_d__18>(),
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelLoader::*)(::System::Action_1<::GlobalNamespace::BeatmapLevelLoader_LevelDownloadingUpdate>*)>(
     &::GlobalNamespace::BeatmapLevelLoader::add_levelDownloadingUpdateEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x39a7b20;
+  constexpr static std::size_t addrs = 0x39cc010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelLoader::*)(::System::Action_1<::GlobalNamespace::BeatmapLevelLoader_LevelDownloadingUpdate>*)>(
     &::GlobalNamespace::BeatmapLevelLoader::remove_levelDownloadingUpdateEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x39a7be0;
+  constexpr static std::size_t addrs = 0x39cc0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -427,7 +427,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapLevelLoader::*)()>(&::GlobalNamespace::BeatmapLevelLoader::get_cachedLoadRequestCount)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39a7ca0;
+  constexpr static std::size_t addrs = 0x39cc190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelLoader*>(), { "get_cachedLoadRequestCount", {}, {} })));
@@ -441,7 +441,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                        ::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::BeatmapLevelLoader_InitData*)>(
     &::GlobalNamespace::BeatmapLevelLoader::_ctor)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x39a7cb4;
+  constexpr static std::size_t addrs = 0x39cc1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelLoader::*)()>(&::GlobalNamespace::BeatmapLevelLoader::Dispose)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x39a7edc;
+  constexpr static std::size_t addrs = 0x39cc3cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelLoader*>(), { "Dispose", {}, {} })));
@@ -472,7 +472,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::BeatmapLevelLoader::*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapLevelDataVersion, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelDataAsync)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x39a8098;
+  constexpr static std::size_t addrs = 0x39cc588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -491,7 +491,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::BeatmapLevelLoader::*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapLevelDataVersion, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::BeatmapLevelLoader::CheckBeatmapLevelDataExistsAsync)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x39a81a0;
+  constexpr static std::size_t addrs = 0x39cc690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevelLoader::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::BeatmapLevelLoader::CheckBeatmapLevelDataFromCustomLevels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a82a8;
+  constexpr static std::size_t addrs = 0x39cc798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelLoader*>(),
@@ -524,7 +524,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::BeatmapLevelLoader::*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapLevelDataVersion, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::BeatmapLevelLoader::CheckBeatmapLevelDataFromAssetBundleExistsAsync)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x39a82b0;
+  constexpr static std::size_t addrs = 0x39cc7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -542,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IBeatmapLevelData* (::GlobalNamespace::BeatmapLevelLoader::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelDataFromCustomLevels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a83b4;
+  constexpr static std::size_t addrs = 0x39cc8a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelLoader*>(),
@@ -557,7 +557,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::BeatmapLevelLoader::*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapLevelDataVersion, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelDataFromAssetBundle)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x39a83bc;
+  constexpr static std::size_t addrs = 0x39cc8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -576,7 +576,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::BeatmapLevelLoader::*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapLevelDataVersion, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::BeatmapLevelLoader::DownloadAssetBundleAndGetPath)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x39a84c4;
+  constexpr static std::size_t addrs = 0x39cc9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -594,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelLoader::*)(::GlobalNamespace::LevelDataAssetDownloadUpdate)>(
     &::GlobalNamespace::BeatmapLevelLoader::HandleLevelDataAssetDownloadUpdate)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x39a8594;
+  constexpr static std::size_t addrs = 0x39cca84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -609,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelLoader::*)(::StringW, ::GlobalNamespace::IBeatmapLevelData*)>(
     &::GlobalNamespace::BeatmapLevelLoader::HandleItemWillBeRemovedFromCache)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39a860c;
+  constexpr static std::size_t addrs = 0x39ccafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -623,7 +623,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelLoader::*)()>(&::GlobalNamespace::BeatmapLevelLoader::ClearCache)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x39a8818;
+  constexpr static std::size_t addrs = 0x39ccd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelLoader*>(), { "ClearCache", {}, {} })));

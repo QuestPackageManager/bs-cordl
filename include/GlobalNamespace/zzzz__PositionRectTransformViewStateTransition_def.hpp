@@ -49,54 +49,54 @@ public:
 
   static inline ::GlobalNamespace::PositionRectTransformViewStateTransition* New_ctor();
 
-  /// @brief Method SetDisabledState, addr 0x686d4dc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetDisabledState, addr 0x68aa158, size 0x28, virtual true, abstract: false, final false
   inline void SetDisabledState();
 
-  /// @brief Method SetHighlightedState, addr 0x686d48c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetHighlightedState, addr 0x68aa108, size 0x28, virtual true, abstract: false, final false
   inline void SetHighlightedState();
 
-  /// @brief Method SetNormalState, addr 0x686d464, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetNormalState, addr 0x68aa0e0, size 0x28, virtual true, abstract: false, final false
   inline void SetNormalState();
 
-  /// @brief Method SetPressedState, addr 0x686d4b4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetPressedState, addr 0x68aa130, size 0x28, virtual true, abstract: false, final false
   inline void SetPressedState();
 
-  /// @brief Method SetSelectedAndHighlightedState, addr 0x686d52c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetSelectedAndHighlightedState, addr 0x68aa1a8, size 0x28, virtual true, abstract: false, final false
   inline void SetSelectedAndHighlightedState();
 
-  /// @brief Method SetSelectedState, addr 0x686d504, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetSelectedState, addr 0x68aa180, size 0x28, virtual true, abstract: false, final false
   inline void SetSelectedState();
 
-  /// @brief Method StartTween, addr 0x686d190, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method StartTween, addr 0x68a9e0c, size 0x248, virtual false, abstract: false, final false
   inline void StartTween(::UnityEngine::Vector3 endPosition, ::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
-  /// @brief Method StopCurrentTransitionAnimation, addr 0x686d554, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method StopCurrentTransitionAnimation, addr 0x68aa1d0, size 0x98, virtual true, abstract: false, final false
   inline void StopCurrentTransitionAnimation();
 
-  /// @brief Method TransitionToDisabledState, addr 0x686d410, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToDisabledState, addr 0x68aa08c, size 0x1c, virtual true, abstract: false, final false
   inline void TransitionToDisabledState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
-  /// @brief Method TransitionToHighlightedState, addr 0x686d3d8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToHighlightedState, addr 0x68aa054, size 0x1c, virtual true, abstract: false, final false
   inline void TransitionToHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
-  /// @brief Method TransitionToNormalState, addr 0x686d174, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNormalState, addr 0x68a9df0, size 0x1c, virtual true, abstract: false, final false
   inline void TransitionToNormalState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
-  /// @brief Method TransitionToPressedState, addr 0x686d3f4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToPressedState, addr 0x68aa070, size 0x1c, virtual true, abstract: false, final false
   inline void TransitionToPressedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
-  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x686d448, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x68aa0c4, size 0x1c, virtual true, abstract: false, final false
   inline void TransitionToSelectedAndHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
-  /// @brief Method TransitionToSelectedState, addr 0x686d42c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method TransitionToSelectedState, addr 0x68aa0a8, size 0x1c, virtual true, abstract: false, final false
   inline void TransitionToSelectedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
   /// [CompilerGenerated]
-  /// @brief Method <StartTween>b__17_0, addr 0x686d630, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <StartTween>b__17_0, addr 0x68aa2ac, size 0x18, virtual false, abstract: false, final false
   inline void _StartTween_b__17_0(::UnityEngine::Vector3 pos);
 
   /// [CompilerGenerated]
-  /// @brief Method <StartTween>b__17_1, addr 0x686d648, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <StartTween>b__17_1, addr 0x68aa2c4, size 0x90, virtual false, abstract: false, final false
   inline void _StartTween_b__17_1();
 
   constexpr ::UnityW<::GlobalNamespace::Vector3TransitionSO> const& __cordl_internal_get__transition() const;
@@ -111,10 +111,10 @@ public:
 
   constexpr void __cordl_internal_set__vectorTween(::Tweening::Vector3Tween* value);
 
-  /// @brief Method .ctor, addr 0x686d5ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68aa268, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_transition, addr 0x686d16c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_transition, addr 0x68a9de8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
 
 protected:
@@ -132,7 +132,7 @@ public:
   PositionRectTransformViewStateTransition(PositionRectTransformViewStateTransition const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23094 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23174 };
 
   /// [Space]
   /// [SerializeField]

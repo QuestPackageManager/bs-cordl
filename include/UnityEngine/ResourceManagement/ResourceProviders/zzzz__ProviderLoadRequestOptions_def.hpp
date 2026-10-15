@@ -70,7 +70,7 @@ public:
   constexpr SerializationAdatapter_ProviderLoadRequestOptions_Data(bool ignoreFailures, int32_t requestTimeout, uint32_t localCachePathOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19210 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19243 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -118,19 +118,19 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions_SerializationAdatapter* New_ctor();
 
-  /// @brief Method UnityEngine.ResourceManagement.Util.BinaryStorageBuffer.ISerializationAdapter.Deserialize, addr 0x6d487e0, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ResourceManagement.Util.BinaryStorageBuffer.ISerializationAdapter.Deserialize, addr 0x6d8545c, size 0xdc, virtual true, abstract: false, final true
   inline ::System::Object* UnityEngine_ResourceManagement_Util_BinaryStorageBuffer_ISerializationAdapter_Deserialize(::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader* reader,
                                                                                                                      ::System::Type* t, uint32_t offset, ::by_ref<uint32_t> size);
 
-  /// @brief Method UnityEngine.ResourceManagement.Util.BinaryStorageBuffer.ISerializationAdapter.Serialize, addr 0x6d488bc, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ResourceManagement.Util.BinaryStorageBuffer.ISerializationAdapter.Serialize, addr 0x6d85538, size 0xe8, virtual true, abstract: false, final true
   inline uint32_t UnityEngine_ResourceManagement_Util_BinaryStorageBuffer_ISerializationAdapter_Serialize(::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer* writer,
                                                                                                           ::System::Object* val);
 
-  /// @brief Method UnityEngine.ResourceManagement.Util.BinaryStorageBuffer.ISerializationAdapter.get_Dependencies, addr 0x6d487d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ResourceManagement.Util.BinaryStorageBuffer.ISerializationAdapter.get_Dependencies, addr 0x6d85454, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*
   UnityEngine_ResourceManagement_Util_BinaryStorageBuffer_ISerializationAdapter_get_Dependencies();
 
-  /// @brief Method .ctor, addr 0x6d489a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d85620, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter"
@@ -155,7 +155,7 @@ public:
   ProviderLoadRequestOptions_SerializationAdatapter(ProviderLoadRequestOptions_SerializationAdatapter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19211 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19244 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -187,7 +187,7 @@ public:
   /// @brief Field m_WebRequestTimeout, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_WebRequestTimeout, put = __cordl_internal_set_m_WebRequestTimeout)) int32_t m_WebRequestTimeout;
 
-  /// @brief Method Copy, addr 0x6d48724, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x6d853a0, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* Copy();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* New_ctor();
@@ -210,25 +210,25 @@ public:
 
   constexpr void __cordl_internal_set_m_WebRequestTimeout(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6d487d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d85450, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IgnoreFailures, addr 0x6d487a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreFailures, addr 0x6d85420, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreFailures();
 
-  /// @brief Method get_LocalCachePath, addr 0x6d487c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalCachePath, addr 0x6d85440, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalCachePath();
 
-  /// @brief Method get_WebRequestTimeout, addr 0x6d487b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WebRequestTimeout, addr 0x6d85430, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_WebRequestTimeout();
 
-  /// @brief Method set_IgnoreFailures, addr 0x6d487ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreFailures, addr 0x6d85428, size 0x8, virtual false, abstract: false, final false
   inline void set_IgnoreFailures(bool value);
 
-  /// @brief Method set_LocalCachePath, addr 0x6d487cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocalCachePath, addr 0x6d85448, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalCachePath(::StringW value);
 
-  /// @brief Method set_WebRequestTimeout, addr 0x6d487bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_WebRequestTimeout, addr 0x6d85438, size 0x8, virtual false, abstract: false, final false
   inline void set_WebRequestTimeout(int32_t value);
 
 protected:
@@ -246,7 +246,7 @@ public:
   ProviderLoadRequestOptions(ProviderLoadRequestOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19212 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19245 };
 
   /// [SerializeField]
   /// @brief Field m_IgnoreFailures, offset: 0x10, size: 0x1, def value: None

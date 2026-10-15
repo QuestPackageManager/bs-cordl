@@ -33,6 +33,20 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::IEntitlementModel.GetGameDlcEntitlementStatusAsync
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* (
+    ::GlobalNamespace::IEntitlementModel::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::IEntitlementModel::GetGameDlcEntitlementStatusAsync)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IEntitlementModel*>(), { ::i2c::class_of<::GlobalNamespace::IEntitlementModel*>(), 2 }));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::IEntitlementModel.GetLevelDataVersionAsync
 template <>
 
@@ -43,7 +57,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IEntitlementModel*>(), { ::i2c::class_of<::GlobalNamespace::IEntitlementModel*>(), 2 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::IEntitlementModel*>(), { ::i2c::class_of<::GlobalNamespace::IEntitlementModel*>(), 3 }));
     return ___internal_method;
   }
 };
@@ -57,8 +71,13 @@ inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IEntitlementModel*>(), 1 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*>(this, ___internal_method, levelPackId, token);
 }
+inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GlobalNamespace::IEntitlementModel::GetGameDlcEntitlementStatusAsync(::StringW gameDlcId,
+                                                                                                                                                      ::System::Threading::CancellationToken token) {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IEntitlementModel*>(), 2 })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*>(this, ___internal_method, gameDlcId, token);
+}
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* GlobalNamespace::IEntitlementModel::GetLevelDataVersionAsync(::StringW levelId,
                                                                                                                                                     ::System::Threading::CancellationToken token) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IEntitlementModel*>(), 2 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IEntitlementModel*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>*>(this, ___internal_method, levelId, token);
 }

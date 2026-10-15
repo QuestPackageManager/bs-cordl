@@ -64,17 +64,17 @@ public:
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BeatmapDataCache_CacheKey>*();
 
   /// [NullableContext(2)]
-  /// @brief Method Equals, addr 0x399a56c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x39bebcc, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x399a45c, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x39bea10, size 0x104, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::BeatmapDataCache_CacheKey other);
 
-  /// @brief Method GetHashCode, addr 0x399a600, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x39bec68, size 0x1a4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [NullableContext(1)]
-  /// @brief Method .ctor, addr 0x399a520, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39beb14, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, /* [Nullable(2)] */ ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                     ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, bool screenDisplacementEffects);
@@ -96,32 +96,32 @@ public:
                                       ::GlobalNamespace::BeatmapLevelDataVersion _beatmapLevelDataVersion) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14345 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
-  /// @brief Field _beatmapKey, offset: 0x0, size: 0x10, def value: None
+  /// @brief Field _beatmapKey, offset: 0x0, size: 0x18, def value: None
   ::GlobalNamespace::BeatmapKey _beatmapKey;
 
   /// [Nullable(2)]
-  /// @brief Field _environmentInfo, offset: 0x10, size: 0x8, def value: None
+  /// @brief Field _environmentInfo, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IEnvironmentInfo* _environmentInfo;
 
   /// [Nullable(1)]
-  /// @brief Field _gameplayModifiers, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _gameplayModifiers, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
 
-  /// @brief Field _leftHanded, offset: 0x20, size: 0x1, def value: None
+  /// @brief Field _leftHanded, offset: 0x28, size: 0x1, def value: None
   bool _leftHanded;
 
-  /// @brief Field _effectsFilterPreset, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field _effectsFilterPreset, offset: 0x2c, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentEffectsFilterPreset _effectsFilterPreset;
 
-  /// @brief Field _screenDisplacementEffects, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field _screenDisplacementEffects, offset: 0x30, size: 0x1, def value: None
   bool _screenDisplacementEffects;
 
-  /// @brief Field _beatmapLevelDataVersion, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field _beatmapLevelDataVersion, offset: 0x34, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapLevelDataVersion _beatmapLevelDataVersion;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -129,19 +129,19 @@ public:
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatmapDataCache_CacheKey, _beatmapKey) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapDataCache_CacheKey, _environmentInfo) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapDataCache_CacheKey, _environmentInfo) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapDataCache_CacheKey, _gameplayModifiers) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapDataCache_CacheKey, _gameplayModifiers) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapDataCache_CacheKey, _leftHanded) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapDataCache_CacheKey, _leftHanded) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapDataCache_CacheKey, _effectsFilterPreset) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapDataCache_CacheKey, _effectsFilterPreset) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapDataCache_CacheKey, _screenDisplacementEffects) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapDataCache_CacheKey, _screenDisplacementEffects) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapDataCache_CacheKey, _beatmapLevelDataVersion) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapDataCache_CacheKey, _beatmapLevelDataVersion) == 0x34, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::BeatmapDataCache_CacheKey) == 0x30, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::BeatmapDataCache_CacheKey) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies BeatmapDataCache::CacheKey, System.Object
@@ -153,14 +153,14 @@ public:
   // Declarations
   using CacheKey = ::GlobalNamespace::BeatmapDataCache_CacheKey;
 
-  /// @brief Field _key, offset 0x18, size 0x30
+  /// @brief Field _key, offset 0x18, size 0x38
   __declspec(property(get = __cordl_internal_get__key, put = __cordl_internal_set__key)) ::GlobalNamespace::BeatmapDataCache_CacheKey _key;
 
   /// @brief Field transformedBeatmapDataTask, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_transformedBeatmapDataTask,
                       put = __cordl_internal_set_transformedBeatmapDataTask)) ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* transformedBeatmapDataTask;
 
-  /// @brief Method AreSameBeatmapDataCached, addr 0x399a428, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method AreSameBeatmapDataCached, addr 0x39be9d4, size 0x3c, virtual false, abstract: false, final false
   inline bool AreSameBeatmapDataCached(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey const> key);
 
   static inline ::GlobalNamespace::BeatmapDataCache*
@@ -179,7 +179,7 @@ public:
 
   constexpr void __cordl_internal_set_transformedBeatmapDataTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* value);
 
-  /// @brief Method .ctor, addr 0x399a40c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39be9b0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey const> key,
                     /* [Nullable(new[] { 1, 2 })] */ ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* transformedBeatmapDataTask);
 
@@ -198,13 +198,13 @@ public:
   BeatmapDataCache(BeatmapDataCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15129 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14346 };
 
   /// [Nullable(new[] { 1, 2 })]
   /// @brief Field transformedBeatmapDataTask, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* ___transformedBeatmapDataTask;
 
-  /// @brief Field _key, offset: 0x18, size: 0x30, def value: None
+  /// @brief Field _key, offset: 0x18, size: 0x38, def value: None
   ::GlobalNamespace::BeatmapDataCache_CacheKey ____key;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -214,6 +214,6 @@ static_assert(offsetof(::GlobalNamespace::BeatmapDataCache, ___transformedBeatma
 
 static_assert(offsetof(::GlobalNamespace::BeatmapDataCache, ____key) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::BeatmapDataCache) == 0x48, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::BeatmapDataCache) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace

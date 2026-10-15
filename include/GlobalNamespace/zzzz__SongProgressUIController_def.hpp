@@ -99,21 +99,21 @@ public:
   /// @brief Field _stringBuilder, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder)) ::System::Text::StringBuilder* _stringBuilder;
 
-  /// @brief Method HandleSongDidFinish, addr 0x5dc87d0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleSongDidFinish, addr 0x5e059b8, size 0xcc, virtual false, abstract: false, final false
   inline void HandleSongDidFinish();
 
   static inline ::GlobalNamespace::SongProgressUIController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5dc8308, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5e054f0, size 0x110, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5dc7fdc, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e051c4, size 0x32c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5dc8418, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e05600, size 0x170, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateSongProgressUIElements, addr 0x5dc8588, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method UpdateSongProgressUIElements, addr 0x5e05770, size 0x248, virtual false, abstract: false, final false
   inline void UpdateSongProgressUIElements(int32_t minutes, int32_t seconds);
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
@@ -224,7 +224,7 @@ public:
 
   constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x5dc889c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e05a84, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -242,7 +242,7 @@ public:
   SongProgressUIController(SongProgressUIController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6132 };
 
   /// [SerializeField]
   /// @brief Field _slider, offset: 0x20, size: 0x8, def value: None

@@ -82,7 +82,7 @@ namespace Unity::Hierarchy {
 class CORDL_TYPE Hierarchy_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToUnmanaged, addr 0x6f97304, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToUnmanaged, addr 0x6fd41e0, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToUnmanaged(::Unity::Hierarchy::Hierarchy* hierarchy);
 
 protected:
@@ -100,7 +100,7 @@ public:
   Hierarchy_BindingsMarshaller(Hierarchy_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22644 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -116,12 +116,12 @@ namespace Unity::Hierarchy {
 class CORDL_TYPE Hierarchy_HandlerCreatedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6f9745c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6fd4338, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Unity::Hierarchy::HierarchyNodeTypeHandlerBase* handler);
 
   static inline ::Unity::Hierarchy::Hierarchy_HandlerCreatedEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6f97318, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fd41f4, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -139,7 +139,7 @@ public:
   Hierarchy_HandlerCreatedEventHandler(Hierarchy_HandlerCreatedEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22595 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22645 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -189,93 +189,93 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x6f96530, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6fd340c, size 0x4, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyNode Add(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> parent);
 
   /// [FreeFunction("HierarchyBindings::AddNode", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method AddNode, addr 0x6f96534, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AddNode, addr 0x6fd3410, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyNode AddNode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> parent);
 
-  /// @brief Method AddNode_Injected, addr 0x6f96c94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AddNode_Injected, addr 0x6fd3b70, size 0x54, virtual false, abstract: false, final false
   static inline void AddNode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> parent, ::by_ref<::Unity::Hierarchy::HierarchyNode> ret);
 
   /// [FreeFunction("HierarchyBindings::Create", IsThreadSafe = true)]
-  /// @brief Method Create, addr 0x6f962ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6fd31c8, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::System::IntPtr handlePtr, ::by_ref<::System::IntPtr> rootPtr, ::by_ref<::System::IntPtr> versionPtr);
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreateHierarchy, addr 0x6f97104, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CreateHierarchy, addr 0x6fd3fe0, size 0x70, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateHierarchy(::System::IntPtr nativePtr, ::System::IntPtr rootPtr, ::System::IntPtr versionPtr);
 
   /// [FreeFunction("HierarchyBindings::Destroy", IsThreadSafe = true)]
-  /// @brief Method Destroy, addr 0x6f96454, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6fd3330, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr nativePtr);
 
-  /// @brief Method Dispose, addr 0x6f963ec, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6fd32c8, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6f96398, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6fd3274, size 0x54, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnumerateChildren, addr 0x6f96880, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method EnumerateChildren, addr 0x6fd375c, size 0x34, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyNodeChildren EnumerateChildren(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [FreeFunction("HierarchyBindings::EnumerateChildrenPtr", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method EnumerateChildrenPtr, addr 0x6f968b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method EnumerateChildrenPtr, addr 0x6fd3790, size 0x58, virtual false, abstract: false, final false
   inline ::System::IntPtr EnumerateChildrenPtr(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
-  /// @brief Method EnumerateChildrenPtr_Injected, addr 0x6f96d3c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EnumerateChildrenPtr_Injected, addr 0x6fd3c18, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr EnumerateChildrenPtr_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
-  /// @brief Method EnumerateNodeTypeHandlersBase, addr 0x6f96490, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method EnumerateNodeTypeHandlersBase, addr 0x6fd336c, size 0x4, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyNodeTypeHandlerBaseEnumerable EnumerateNodeTypeHandlersBase();
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method Exists, addr 0x6f96494, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Exists, addr 0x6fd3370, size 0x58, virtual false, abstract: false, final false
   inline bool Exists(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
-  /// @brief Method Exists_Injected, addr 0x6f964ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Exists_Injected, addr 0x6fd33c8, size 0x44, virtual false, abstract: false, final false
   static inline bool Exists_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
-  /// @brief Method Finalize, addr 0x6f96350, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6fd322c, size 0x48, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method FromIntPtr, addr 0x6f96b8c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method FromIntPtr, addr 0x6fd3a68, size 0x88, virtual false, abstract: false, final false
   static inline ::Unity::Hierarchy::Hierarchy* FromIntPtr(::System::IntPtr handlePtr);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method GetChildren, addr 0x6f966d4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetChildren, addr 0x6fd35b0, size 0x158, virtual false, abstract: false, final false
   inline ::ArrayW<::Unity::Hierarchy::HierarchyNode> GetChildren(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method GetChildrenCount, addr 0x6f9690c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetChildrenCount, addr 0x6fd37e8, size 0x58, virtual false, abstract: false, final false
   inline int32_t GetChildrenCount(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
-  /// @brief Method GetChildrenCount_Injected, addr 0x6f96964, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetChildrenCount_Injected, addr 0x6fd3840, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetChildrenCount_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
-  /// @brief Method GetChildren_Injected, addr 0x6f9682c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetChildren_Injected, addr 0x6fd3708, size 0x54, virtual false, abstract: false, final false
   static inline void GetChildren_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                                           ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.HierarchyModule" })]
   /// [FreeFunction("HierarchyBindings::GetNodeTypeHandlersBaseCount", HasExplicitThis = true, IsThreadSafe = true)]
-  /// @brief Method GetNodeTypeHandlersBaseCount, addr 0x6f9598c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetNodeTypeHandlersBaseCount, addr 0x6fd2868, size 0x50, virtual false, abstract: false, final false
   inline int32_t GetNodeTypeHandlersBaseCount();
 
-  /// @brief Method GetNodeTypeHandlersBaseCount_Injected, addr 0x6f96c14, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetNodeTypeHandlersBaseCount_Injected, addr 0x6fd3af0, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetNodeTypeHandlersBaseCount_Injected(::System::IntPtr _unity_self);
 
   /// [FreeFunction("HierarchyBindings::GetNodeTypeHandlersBaseSpan", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
   /// [VisibleToOtherModules(new[] { "UnityEngine.HierarchyModule" })]
-  /// @brief Method GetNodeTypeHandlersBaseSpan, addr 0x6f959dc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetNodeTypeHandlersBaseSpan, addr 0x6fd28b8, size 0xc8, virtual false, abstract: false, final false
   inline int32_t GetNodeTypeHandlersBaseSpan(::System::Span_1<::System::IntPtr> outHandlers);
 
-  /// @brief Method GetNodeTypeHandlersBaseSpan_Injected, addr 0x6f96c50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetNodeTypeHandlersBaseSpan_Injected, addr 0x6fd3b2c, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetNodeTypeHandlersBaseSpan_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> outHandlers);
 
   /// [FreeFunction("HierarchyBindings::GetOrCreateProperty", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method GetOrCreateProperty, addr 0x6f96d80, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateProperty, addr 0x6fd3c5c, size 0x170, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyPropertyId GetOrCreateProperty(::StringW name, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyDescriptor const> descriptor);
 
   /// @brief Method GetOrCreatePropertyUnmanaged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -283,28 +283,28 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline ::Unity::Hierarchy::HierarchyPropertyUnmanaged_1<T> GetOrCreatePropertyUnmanaged(::StringW name, ::Unity::Hierarchy::HierarchyPropertyStorageType type);
 
-  /// @brief Method GetOrCreateProperty_Injected, addr 0x6f96ef0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateProperty_Injected, addr 0x6fd3dcc, size 0x5c, virtual false, abstract: false, final false
   static inline void GetOrCreateProperty_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name,
                                                   /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyDescriptor const> descriptor, ::by_ref<::Unity::Hierarchy::HierarchyPropertyId> ret);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method GetParent, addr 0x6f96610, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetParent, addr 0x6fd34ec, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyNode GetParent(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
-  /// @brief Method GetParent_Injected, addr 0x6f96680, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetParent_Injected, addr 0x6fd355c, size 0x54, virtual false, abstract: false, final false
   static inline void GetParent_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::by_ref<::Unity::Hierarchy::HierarchyNode> ret);
 
   /// [FreeFunction("HierarchyBindings::GetPropertyRaw", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method GetPropertyRaw, addr 0x6f97038, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyRaw, addr 0x6fd3f14, size 0x70, virtual false, abstract: false, final false
   inline void* GetPropertyRaw(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId const> property, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                               ::by_ref<int32_t> size);
 
-  /// @brief Method GetPropertyRaw_Injected, addr 0x6f970a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyRaw_Injected, addr 0x6fd3f84, size 0x5c, virtual false, abstract: false, final false
   static inline void* GetPropertyRaw_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId const> property,
                                               /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::by_ref<int32_t> size);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeHandlerCreated, addr 0x6f97174, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method InvokeHandlerCreated, addr 0x6fd4050, size 0x190, virtual false, abstract: false, final false
   static inline void InvokeHandlerCreated(::System::IntPtr hierarchyPtr, ::System::IntPtr handlerPtr);
 
   static inline ::Unity::Hierarchy::Hierarchy* New_ctor();
@@ -312,44 +312,44 @@ public:
   static inline ::Unity::Hierarchy::Hierarchy* New_ctor(::System::IntPtr nativePtr, ::System::IntPtr rootPtr, ::System::IntPtr versionPtr);
 
   /// [FreeFunction("HierarchyBindings::SetNodeParent", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method SetNodeParent, addr 0x6f965a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetNodeParent, addr 0x6fd3484, size 0x68, virtual false, abstract: false, final false
   inline void SetNodeParent(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> parent);
 
-  /// @brief Method SetNodeParent_Injected, addr 0x6f96ce8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetNodeParent_Injected, addr 0x6fd3bc4, size 0x54, virtual false, abstract: false, final false
   static inline void SetNodeParent_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                                             /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> parent);
 
-  /// @brief Method SetParent, addr 0x6f965a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetParent, addr 0x6fd3480, size 0x4, virtual false, abstract: false, final false
   inline void SetParent(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> parent);
 
   /// [FreeFunction("HierarchyBindings::SetPropertyRaw", HasExplicitThis = true, IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method SetPropertyRaw, addr 0x6f96f4c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetPropertyRaw, addr 0x6fd3e28, size 0x80, virtual false, abstract: false, final false
   inline void SetPropertyRaw(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId const> property, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, void* ptr,
                              int32_t size);
 
-  /// @brief Method SetPropertyRaw_Injected, addr 0x6f96fcc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetPropertyRaw_Injected, addr 0x6fd3ea8, size 0x6c, virtual false, abstract: false, final false
   static inline void SetPropertyRaw_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyPropertyId const> property,
                                              /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, void* ptr, int32_t size);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method SetSortIndex, addr 0x6f969a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetSortIndex, addr 0x6fd3884, size 0x68, virtual false, abstract: false, final false
   inline void SetSortIndex(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, int32_t sortIndex);
 
-  /// @brief Method SetSortIndex_Injected, addr 0x6f96a10, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetSortIndex_Injected, addr 0x6fd38ec, size 0x54, virtual false, abstract: false, final false
   static inline void SetSortIndex_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, int32_t sortIndex);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method SortChildren, addr 0x6f96a64, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SortChildren, addr 0x6fd3940, size 0x58, virtual false, abstract: false, final false
   inline void SortChildren(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
-  /// @brief Method SortChildren_Injected, addr 0x6f96abc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SortChildren_Injected, addr 0x6fd3998, size 0x44, virtual false, abstract: false, final false
   static inline void SortChildren_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method Update, addr 0x6f96b00, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6fd39dc, size 0x50, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method Update_Injected, addr 0x6f96b50, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Update_Injected, addr 0x6fd3a2c, size 0x3c, virtual false, abstract: false, final false
   static inline void Update_Injected(::System::IntPtr _unity_self);
 
   constexpr ::Unity::Hierarchy::Hierarchy_HandlerCreatedEventHandler* const& __cordl_internal_get_HandlerCreated() const;
@@ -382,26 +382,26 @@ public:
 
   constexpr void __cordl_internal_set_m_VersionPtr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6f96274, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fd3150, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6f96340, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fd321c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr nativePtr, ::System::IntPtr rootPtr, ::System::IntPtr versionPtr);
 
-  /// @brief Method get_IsCreated, addr 0x6f961c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCreated, addr 0x6fd30a0, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
-  /// @brief Method get_Root, addr 0x6f961d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Root, addr 0x6fd30b0, size 0x8, virtual false, abstract: false, final false
   inline ::by_ref<::Unity::Hierarchy::HierarchyNode> get_Root();
 
   /// [NativeMethod("UpdateNeeded", IsThreadSafe = true)]
-  /// @brief Method get_UpdateNeeded, addr 0x6f961dc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_UpdateNeeded, addr 0x6fd30b8, size 0x50, virtual false, abstract: false, final false
   inline bool get_UpdateNeeded();
 
-  /// @brief Method get_UpdateNeeded_Injected, addr 0x6f9622c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_UpdateNeeded_Injected, addr 0x6fd3108, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_UpdateNeeded_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_Version, addr 0x6f96268, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x6fd3144, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
   /// @brief Convert to "::System::IDisposable"
@@ -422,7 +422,7 @@ public:
   Hierarchy(Hierarchy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22646 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

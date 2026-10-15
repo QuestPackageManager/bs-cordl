@@ -36,10 +36,10 @@ namespace UnityEngine::Experimental::Rendering {
 struct CORDL_TYPE XRView {
 public:
   // Declarations
-  /// @brief Method ComputeEyeCenterUV, addr 0x6b61f1c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ComputeEyeCenterUV, addr 0x6b9eb98, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ComputeEyeCenterUV(::UnityEngine::Matrix4x4 proj);
 
-  /// @brief Method .ctor, addr 0x6b61cbc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9e938, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Matrix4x4 projMatrix, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 prevViewMatrix, bool isPrevViewMatrixValid, ::UnityEngine::Rect viewport,
                     ::UnityEngine::Mesh* occlusionMesh, ::UnityEngine::Mesh* visibleMesh, int32_t textureArraySlice);
 
@@ -58,7 +58,7 @@ public:
                    bool isPrevViewMatrixValid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8726 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8733 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xf0 };

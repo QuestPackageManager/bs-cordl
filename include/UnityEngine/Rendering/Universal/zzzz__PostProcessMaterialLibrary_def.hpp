@@ -87,10 +87,10 @@ public:
   /// @brief Field uber, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_uber, put = __cordl_internal_set_uber)) ::UnityW<::UnityEngine::Material> uber;
 
-  /// @brief Method Cleanup, addr 0x6cdaa60, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6d176dc, size 0x170, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Load, addr 0x6cda8d8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x6d17554, size 0x188, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> Load(::UnityEngine::Shader* shader);
 
   static inline ::UnityEngine::Rendering::Universal::PostProcessMaterialLibrary* New_ctor(::UnityEngine::Rendering::Universal::PostProcessData* data);
@@ -203,10 +203,10 @@ public:
 
   constexpr void __cordl_internal_set_uber(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x6cda6b4, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d17330, size 0x224, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::PostProcessData* data);
 
-  /// @brief Method get_resources, addr 0x6cda6ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resources, addr 0x6d17328, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::Universal::PostProcessData> get_resources();
 
 protected:
@@ -224,7 +224,7 @@ public:
   PostProcessMaterialLibrary(PostProcessMaterialLibrary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13114 };
 
   /// @brief Field stopNaN, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___stopNaN;

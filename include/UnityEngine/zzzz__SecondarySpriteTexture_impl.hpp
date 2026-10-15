@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::SecondarySpriteTexture::*)(::UnityEngine::SecondarySpriteTexture)>(&::UnityEngine::SecondarySpriteTexture::Equals)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6eb4530;
+  constexpr static std::size_t addrs = 0x6ef11cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::SecondarySpriteTexture::*)(::System::Object*)>(&::UnityEngine::SecondarySpriteTexture::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6eb4598;
+  constexpr static std::size_t addrs = 0x6ef1234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::SecondarySpriteTexture::*)()>(&::UnityEngine::SecondarySpriteTexture::GetHashCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6eb4618;
+  constexpr static std::size_t addrs = 0x6ef12b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::SecondarySpriteTexture, ::UnityEngine::SecondarySpriteTexture)>(&::UnityEngine::SecondarySpriteTexture::op_Equality)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6eb4694;
+  constexpr static std::size_t addrs = 0x6ef1330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::SecondarySpriteTexture, ::UnityEngine::SecondarySpriteTexture)>(&::UnityEngine::SecondarySpriteTexture::op_Inequality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6eb46c0;
+  constexpr static std::size_t addrs = 0x6ef135c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -79,47 +79,47 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BuildMeshAccelStruct, addr 0x6dfd618, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method BuildMeshAccelStruct, addr 0x6e3a2b4, size 0xdc, virtual false, abstract: false, final false
   inline void BuildMeshAccelStruct(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RadeonRays::MeshBuildInfo buildInfo,
                                    ::UnityEngine::Rendering::RadeonRays::BuildFlags buildFlags, ::UnityEngine::GraphicsBuffer* scratchBuffer,
                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const> result);
 
-  /// @brief Method BuildSceneAccelStruct, addr 0x6dfdb5c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method BuildSceneAccelStruct, addr 0x6e3a7f8, size 0x1d0, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RadeonRays::TopLevelAccelStruct BuildSceneAccelStruct(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* meshAccelStructsBuffer,
                                                                                          ::ArrayW<::UnityEngine::Rendering::RadeonRays::Instance> instances,
                                                                                          ::UnityEngine::GraphicsBuffer* scratchBuffer);
 
-  /// @brief Method BvhInternalNodeSizeInBytes, addr 0x6dfd4c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method BvhInternalNodeSizeInBytes, addr 0x6e3a15c, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t BvhInternalNodeSizeInBytes();
 
-  /// @brief Method BvhInternalNodeSizeInDwords, addr 0x6dfd440, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method BvhInternalNodeSizeInDwords, addr 0x6e3a0dc, size 0x80, virtual false, abstract: false, final false
   static inline int32_t BvhInternalNodeSizeInDwords();
 
-  /// @brief Method BvhLeafNodeSizeInBytes, addr 0x6dfd52c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method BvhLeafNodeSizeInBytes, addr 0x6e3a1c8, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t BvhLeafNodeSizeInBytes();
 
-  /// @brief Method BvhLeafNodeSizeInDwords, addr 0x6dfd598, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method BvhLeafNodeSizeInDwords, addr 0x6e3a234, size 0x80, virtual false, abstract: false, final false
   static inline int32_t BvhLeafNodeSizeInDwords();
 
-  /// @brief Method CreateSceneAccelStructBuffers, addr 0x6dfdd2c, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method CreateSceneAccelStructBuffers, addr 0x6e3a9c8, size 0x29c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RadeonRays::TopLevelAccelStruct CreateSceneAccelStructBuffers(::UnityEngine::GraphicsBuffer* meshAccelStructsBuffer, uint32_t tlasSizeInDwords,
                                                                                                  ::ArrayW<::UnityEngine::Rendering::RadeonRays::Instance> instances);
 
-  /// @brief Method Dispose, addr 0x6dfd404, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e3a0a0, size 0x24, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetMeshBuildMemoryRequirements, addr 0x6dfda88, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetMeshBuildMemoryRequirements, addr 0x6e3a724, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RadeonRays::MeshBuildMemoryRequirements GetMeshBuildMemoryRequirements(::UnityEngine::Rendering::RadeonRays::MeshBuildInfo buildInfo,
                                                                                                           ::UnityEngine::Rendering::RadeonRays::BuildFlags buildFlags);
 
-  /// @brief Method GetSceneBuildMemoryRequirements, addr 0x6dfdfc8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetSceneBuildMemoryRequirements, addr 0x6e3ac64, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RadeonRays::SceneBuildMemoryRequirements GetSceneBuildMemoryRequirements(uint32_t instanceCount);
 
-  /// @brief Method GetSceneMemoryRequirements, addr 0x6dfdff8, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method GetSceneMemoryRequirements, addr 0x6e3ac94, size 0x28c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RadeonRays::SceneMemoryRequirements* GetSceneMemoryRequirements(::ArrayW<::UnityEngine::Rendering::RadeonRays::MeshBuildInfo> buildInfos,
                                                                                                    ::UnityEngine::Rendering::RadeonRays::BuildFlags buildFlags);
 
-  /// @brief Method GetTraceMemoryRequirements, addr 0x6dfe284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTraceMemoryRequirements, addr 0x6e3af20, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t GetTraceMemoryRequirements(uint32_t rayCount);
 
   static inline ::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI* New_ctor(::UnityEngine::Rendering::RadeonRays::RadeonRaysShaders* shaders);
@@ -142,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set_restructureBvh(::UnityEngine::Rendering::RadeonRays::RestructureBvh* value);
 
-  /// @brief Method .ctor, addr 0x6dfd1ec, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e39e88, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RadeonRays::RadeonRaysShaders* shaders);
 
   /// @brief Convert to "::System::IDisposable"
@@ -166,7 +166,7 @@ public:
   static ::UnityEngine::GraphicsBuffer_Target const BufferTarget;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20489 };
 
   /// @brief Field buildBvh, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::RadeonRays::HlbvhBuilder* ___buildBvh;

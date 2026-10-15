@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::EntityKeyMemberConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::EntityKeyMemberConverter::WriteJson)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x61b423c;
+  constexpr static std::size_t addrs = 0x61f0c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::EntityKeyMemberConverter*>(),
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Newtonsoft::Json::JsonReader*, ::StringW)>(&::Newtonsoft::Json::Converters::EntityKeyMemberConverter::ReadAndAssertProperty)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x61b468c;
+  constexpr static std::size_t addrs = 0x61f10d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newt
                                                                                                                                        ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
     &::Newtonsoft::Json::Converters::EntityKeyMemberConverter::ReadJson)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x61b4780;
+  constexpr static std::size_t addrs = 0x61f11c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::EntityKeyMemberConverter*>(),
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*)>(&::Newtonsoft::Json::Converters::EntityKeyMemberConverter::EnsureReflectionObject)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x61b459c;
+  constexpr static std::size_t addrs = 0x61f0fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Converters::EntityKeyMemberConverter::*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::EntityKeyMemberConverter::CanConvert)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x61b4a54;
+  constexpr static std::size_t addrs = 0x61f149c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::EntityKeyMemberConverter*>(),
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::EntityKeyMemberConverter::*)()>(&::Newtonsoft::Json::Converters::EntityKeyMemberConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61b4ab8;
+  constexpr static std::size_t addrs = 0x61f1500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::EntityKeyMemberConverter*>(), { ".ctor", {}, {} })));

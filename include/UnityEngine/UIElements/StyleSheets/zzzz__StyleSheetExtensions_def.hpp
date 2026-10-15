@@ -29,7 +29,7 @@ class CORDL_TYPE StyleSheetExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ReadAsString, addr 0x71c362c, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x7200560, size 0x344, virtual false, abstract: false, final false
   static inline ::StringW ReadAsString(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleValueHandle handle);
 
 protected:

@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__57::*)(int32_t)>(&::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__57::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7294fa0;
+  constexpr static std::size_t addrs = 0x72d1ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__57::*)()>(
     &::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__57::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7294fa8;
+  constexpr static std::size_t addrs = 0x72d1edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__57::*)()>(&::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__57::MoveNext)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x7294fac;
+  constexpr static std::size_t addrs = 0x72d1ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__57*>(), { "MoveNext", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__57::*)()>(
     &::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__57::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x729503c;
+  constexpr static std::size_t addrs = 0x72d1f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__57::*)()>(
     &::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__57::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x7295044;
+  constexpr static std::size_t addrs = 0x72d1f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__57::*)()>(
     &::UnityEngine::UI::LayoutGroup__DelayedSetDirty_d__57::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x729507c;
+  constexpr static std::size_t addrs = 0x72d1fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::RectOffset* (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::get_padding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7294a48;
+  constexpr static std::size_t addrs = 0x72d197c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutGroup*>(), { "get_padding", {}, {} })));
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup::*)(::UnityEngine::RectOffset*)>(&::UnityEngine::UI::LayoutGroup::set_padding)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x7294a50;
+  constexpr static std::size_t addrs = 0x72d1984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextAnchor (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::get_childAlignment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7294ab0;
+  constexpr static std::size_t addrs = 0x72d19e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutGroup*>(), { "get_childAlignment", {}, {} })));
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup::*)(::UnityEngine::TextAnchor)>(&::UnityEngine::UI::LayoutGroup::set_childAlignment)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x7294ab8;
+  constexpr static std::size_t addrs = 0x72d19ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::get_rectTransform)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x7292714;
+  constexpr static std::size_t addrs = 0x72cf648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutGroup*>(), { "get_rectTransform", {}, {} })));
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RectTransform>>* (::UnityEngine::UI::LayoutGroup::*)()>(
     &::UnityEngine::UI::LayoutGroup::get_rectChildren)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7294b18;
+  constexpr static std::size_t addrs = 0x72d1a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutGroup*>(), { "get_rectChildren", {}, {} })));
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::CalculateLayoutInputHorizontal)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x7292074;
+  constexpr static std::size_t addrs = 0x72cefa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::get_minWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7294b20;
+  constexpr static std::size_t addrs = 0x72d1a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::get_preferredWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7294b28;
+  constexpr static std::size_t addrs = 0x72d1a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::get_flexibleWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7294b30;
+  constexpr static std::size_t addrs = 0x72d1a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::get_minHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7294b38;
+  constexpr static std::size_t addrs = 0x72d1a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::get_preferredHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7294b40;
+  constexpr static std::size_t addrs = 0x72d1a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -368,7 +368,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::get_flexibleHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7294b48;
+  constexpr static std::size_t addrs = 0x72d1a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -381,7 +381,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::get_layoutPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7294b50;
+  constexpr static std::size_t addrs = 0x72d1a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -420,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x7291d40;
+  constexpr static std::size_t addrs = 0x72cec74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutGroup*>(), { ".ctor", {}, {} })));
@@ -432,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::OnEnable)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x7294b58;
+  constexpr static std::size_t addrs = 0x72d1a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::OnDisable)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x7294c60;
+  constexpr static std::size_t addrs = 0x72d1b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::OnDidApplyAnimationProperties)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7294ce4;
+  constexpr static std::size_t addrs = 0x72d1c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -471,7 +471,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutGroup::*)(int32_t)>(&::UnityEngine::UI::LayoutGroup::GetTotalMinSize)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x72944d8;
+  constexpr static std::size_t addrs = 0x72d140c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -484,7 +484,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutGroup::*)(int32_t)>(&::UnityEngine::UI::LayoutGroup::GetTotalPreferredSize)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x7294400;
+  constexpr static std::size_t addrs = 0x72d1334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -497,7 +497,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutGroup::*)(int32_t)>(&::UnityEngine::UI::LayoutGroup::GetTotalFlexibleSize)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x729446c;
+  constexpr static std::size_t addrs = 0x72d13a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -510,7 +510,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutGroup::*)(int32_t, float_t)>(&::UnityEngine::UI::LayoutGroup::GetStartOffset)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x7292f74;
+  constexpr static std::size_t addrs = 0x72cfea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -523,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UI::LayoutGroup::*)(int32_t)>(&::UnityEngine::UI::LayoutGroup::GetAlignmentOnAxis)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x7293f94;
+  constexpr static std::size_t addrs = 0x72d0ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -536,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup::*)(float_t, float_t, float_t, int32_t)>(&::UnityEngine::UI::LayoutGroup::SetLayoutInputForAxis)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x729243c;
+  constexpr static std::size_t addrs = 0x72cf370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -550,7 +550,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup::*)(::UnityEngine::RectTransform*, int32_t, float_t)>(&::UnityEngine::UI::LayoutGroup::SetChildAlongAxis)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x7294ce8;
+  constexpr static std::size_t addrs = 0x72d1c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -565,7 +565,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup::*)(::UnityEngine::RectTransform*, int32_t, float_t, float_t)>(
     &::UnityEngine::UI::LayoutGroup::SetChildAlongAxisWithScale)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x72941f4;
+  constexpr static std::size_t addrs = 0x72d1128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -582,7 +582,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup::*)(::UnityEngine::RectTransform*, int32_t, float_t, float_t)>(
     &::UnityEngine::UI::LayoutGroup::SetChildAlongAxis)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x729310c;
+  constexpr static std::size_t addrs = 0x72d0040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -598,7 +598,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup::*)(::UnityEngine::RectTransform*, int32_t, float_t, float_t, float_t)>(
     &::UnityEngine::UI::LayoutGroup::SetChildAlongAxisWithScale)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x7293fcc;
+  constexpr static std::size_t addrs = 0x72d0f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -614,7 +614,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::get_isRootLayoutGroup)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x7294d8c;
+  constexpr static std::size_t addrs = 0x72d1cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutGroup*>(), { "get_isRootLayoutGroup", {}, {} })));
@@ -626,7 +626,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::OnRectTransformDimensionsChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x7294eb4;
+  constexpr static std::size_t addrs = 0x72d1de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -639,7 +639,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::OnTransformChildrenChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7294ed8;
+  constexpr static std::size_t addrs = 0x72d1e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -652,7 +652,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::OnChildRectTransformDimensionsChange)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7294edc;
+  constexpr static std::size_t addrs = 0x72d1e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -665,7 +665,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UI::LayoutGroup::*)()>(&::UnityEngine::UI::LayoutGroup::SetDirty)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x7294b84;
+  constexpr static std::size_t addrs = 0x72d1ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UI::LayoutGroup*>(), { "SetDirty", {}, {} })));
@@ -678,7 +678,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::UI::LayoutGroup::*)(::UnityEngine::RectTransform*)>(
     &::UnityEngine::UI::LayoutGroup::DelayedSetDirty)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x7294f4c;
+  constexpr static std::size_t addrs = 0x72d1e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

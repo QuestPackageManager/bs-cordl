@@ -118,7 +118,7 @@ public:
   static ::UnityEngine::IntegrationInfo_SupportedUnityFeatures const VehicleSupport;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19106 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -152,7 +152,7 @@ public:
   constexpr IntegrationInfo__m_Desc_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19107 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xdc };
@@ -190,7 +190,7 @@ public:
   constexpr IntegrationInfo__m_IntegrationVersion_e__FixedBuffer(uint16_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19075 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19108 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6 };
@@ -228,7 +228,7 @@ public:
   constexpr IntegrationInfo__m_Name_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19109 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -266,7 +266,7 @@ public:
   constexpr IntegrationInfo__m_SdkVersion_e__FixedBuffer(uint16_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19077 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19110 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6 };
@@ -392,41 +392,41 @@ public:
 
   constexpr void __cordl_internal_set_m_SdkVersion(::UnityEngine::IntegrationInfo__m_SdkVersion_e__FixedBuffer value);
 
-  /// @brief Method get_description, addr 0x6ffe7c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_description, addr 0x703b6b8, size 0x58, virtual false, abstract: false, final false
   inline ::StringW get_description();
 
   /// [IsReadOnly]
-  /// @brief Method get_id, addr 0x6ffe764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x703b658, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_id();
 
-  /// @brief Method get_isExperimental, addr 0x6ffe864, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isExperimental, addr 0x703b758, size 0x10, virtual false, abstract: false, final false
   inline bool get_isExperimental();
 
-  /// @brief Method get_isFallback, addr 0x6ffe84c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_isFallback, addr 0x703b740, size 0x18, virtual false, abstract: false, final false
   inline bool get_isFallback();
 
-  /// @brief Method get_limit, addr 0x6ffe874, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_limit, addr 0x703b768, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::IntegrationLimits get_limit();
 
-  /// @brief Method get_majorVersion, addr 0x6ffe834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_majorVersion, addr 0x703b728, size 0x8, virtual false, abstract: false, final false
   inline uint16_t get_majorVersion();
 
-  /// @brief Method get_minorVersion, addr 0x6ffe83c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minorVersion, addr 0x703b730, size 0x8, virtual false, abstract: false, final false
   inline uint16_t get_minorVersion();
 
-  /// @brief Method get_name, addr 0x6ffe76c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x703b660, size 0x58, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_patchVersion, addr 0x6ffe844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_patchVersion, addr 0x703b738, size 0x8, virtual false, abstract: false, final false
   inline uint16_t get_patchVersion();
 
-  /// @brief Method get_sDKMajorVersion, addr 0x6ffe81c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sDKMajorVersion, addr 0x703b710, size 0x8, virtual false, abstract: false, final false
   inline uint16_t get_sDKMajorVersion();
 
-  /// @brief Method get_sDKMinorVersion, addr 0x6ffe824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sDKMinorVersion, addr 0x703b718, size 0x8, virtual false, abstract: false, final false
   inline uint16_t get_sDKMinorVersion();
 
-  /// @brief Method get_sDKPatchVersion, addr 0x6ffe82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sDKPatchVersion, addr 0x703b720, size 0x8, virtual false, abstract: false, final false
   inline uint16_t get_sDKPatchVersion();
 
   // Ctor Parameters []
@@ -557,7 +557,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19111 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x138 };

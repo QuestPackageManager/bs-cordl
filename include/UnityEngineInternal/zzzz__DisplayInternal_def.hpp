@@ -20,11 +20,11 @@ namespace UnityEngineInternal {
 class CORDL_TYPE DisplayInternal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsASecondaryDisplayIndex, addr 0x6ead254, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IsASecondaryDisplayIndex, addr 0x6ee9ef0, size 0xa8, virtual false, abstract: false, final false
   static inline bool IsASecondaryDisplayIndex(int32_t displayIndex);
 
   /// [FreeFunction("UnityDisplayManager_PrimaryDisplayIndex")]
-  /// @brief Method PrimaryDisplayIndex, addr 0x6ead22c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method PrimaryDisplayIndex, addr 0x6ee9ec8, size 0x28, virtual false, abstract: false, final false
   static inline int32_t PrimaryDisplayIndex();
 
 protected:
@@ -42,7 +42,7 @@ public:
   DisplayInternal(DisplayInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9488 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler__OnSessionCreated_d__7::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler__OnSessionCreated_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x5e89948;
+  constexpr static std::size_t addrs = 0x5ec60d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler__OnSessionCreated_d__7::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler__OnSessionCreated_d__7::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e89f38;
+  constexpr static std::size_t addrs = 0x5ec66c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler__OnSessionDiscovered_d__8::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler__OnSessionDiscovered_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x5e89f40;
+  constexpr static std::size_t addrs = 0x5ec66c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler__OnSessionDiscovered_d__8::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler__OnSessionDiscovered_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e8a3ec;
+  constexpr static std::size_t addrs = 0x5ec6b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler::Awake)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5e89278;
+  constexpr static std::size_t addrs = 0x5ec5a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler::Start)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x5e89318;
+  constexpr static std::size_t addrs = 0x5ec5aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler::*)(::System::Guid)>(
     &::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler::OnSessionCreated)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5e89698;
+  constexpr static std::size_t addrs = 0x5ec5e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler::*)(::System::Guid)>(
     &::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler::OnSessionDiscovered)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5e89750;
+  constexpr static std::size_t addrs = 0x5ec5ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler*>(),
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler::OnDestroy)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5e89808;
+  constexpr static std::size_t addrs = 0x5ec5f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler::*)()>(
     &::Meta::XR::MultiplayerBlocks::Shared::ColocationSessionEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e89944;
+  constexpr static std::size_t addrs = 0x5ec60cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

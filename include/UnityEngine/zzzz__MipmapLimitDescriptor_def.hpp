@@ -24,17 +24,17 @@ public:
 
   __declspec(property(get = get_useMipmapLimit)) bool useMipmapLimit;
 
-  /// @brief Method .ctor, addr 0x6f20808, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f5d4a4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool useMipmapLimit, ::StringW groupName);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_groupName, addr 0x6f20800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupName, addr 0x6f5d49c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groupName();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_useMipmapLimit, addr 0x6f207f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useMipmapLimit, addr 0x6f5d494, size 0x8, virtual false, abstract: false, final false
   inline bool get_useMipmapLimit();
 
   // Ctor Parameters []
@@ -46,7 +46,7 @@ public:
   constexpr MipmapLimitDescriptor(bool _useMipmapLimit_k__BackingField, ::StringW _groupName_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9825 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

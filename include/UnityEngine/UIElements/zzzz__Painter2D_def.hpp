@@ -122,7 +122,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x7275c04, size 0x3bc, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x72b2b38, size 0x3bc, virtual true, abstract: false, final true
   inline void Execute(int32_t i);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -239,23 +239,23 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x7274870, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x72b17a4, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x7275540, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x72b2474, size 0x25c, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::Painter2D* New_ctor();
 
   static inline ::UnityEngine::UIElements::Painter2D* New_ctor(Il2CppObject* ctx);
 
-  /// @brief Method OnMeshGeneration, addr 0x7275a60, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OnMeshGeneration, addr 0x72b2994, size 0x44, virtual false, abstract: false, final false
   inline void OnMeshGeneration(Il2CppObject* ctx, ::System::Object* data);
 
-  /// @brief Method Reset, addr 0x7274688, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x72b15bc, size 0xb0, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ScheduleJobs, addr 0x7275800, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method ScheduleJobs, addr 0x72b2734, size 0x260, virtual false, abstract: false, final false
   inline void ScheduleJobs(Il2CppObject* mgc);
 
   constexpr ::System::Collections::Generic::List_1<float_t>* const& __cordl_internal_get_m_CachedDashPattern() const;
@@ -330,10 +330,10 @@ public:
 
   constexpr void __cordl_internal_set_m_VectorImageToRelease(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::VectorImage>>* value);
 
-  /// @brief Method .ctor, addr 0x727539c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72b22d0, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x7274038, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72b0f6c, size 0x1a0, virtual false, abstract: false, final false
   inline void _ctor(Il2CppObject* ctx);
 
   static inline bool getStaticF__isPainterActive_k__BackingField();
@@ -360,7 +360,7 @@ public:
   static inline void setStaticF_s_StrokeMarker(::Unity::Profiling::ProfilerMarker value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isPainterActive, addr 0x727579c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_isPainterActive, addr 0x72b26d0, size 0x64, virtual false, abstract: false, final false
   static inline void set_isPainterActive(bool value);
 
 protected:

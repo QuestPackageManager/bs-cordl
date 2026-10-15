@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::by_ref<::GlobalNamespace::IPacketPool*>)>(&::GlobalNamespace::StaticPacketPoolProvider::TryGetPacketPool)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x35bc3ec;
+  constexpr static std::size_t addrs = 0x35ded50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

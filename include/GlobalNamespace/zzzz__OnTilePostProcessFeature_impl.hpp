@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OnTilePostProcessFeature::*)()>(&::GlobalNamespace::OnTilePostProcessFeature::TryLoadResources)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x6c719ec;
+  constexpr static std::size_t addrs = 0x6cae668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OnTilePostProcessFeature*>(), { "TryLoadResources", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OnTilePostProcessFeature::*)()>(&::GlobalNamespace::OnTilePostProcessFeature::Create)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6c71bf4;
+  constexpr static std::size_t addrs = 0x6cae870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OnTilePostProcessFeature::*)()>(&::GlobalNamespace::OnTilePostProcessFeature::IsRuntimePlatformUntetheredXR)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6c71d6c;
+  constexpr static std::size_t addrs = 0x6cae9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OnTilePostProcessFeature::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::GlobalNamespace::OnTilePostProcessFeature::AddRenderPasses)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x6c71de4;
+  constexpr static std::size_t addrs = 0x6caea60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OnTilePostProcessFeature::*)(bool)>(&::GlobalNamespace::OnTilePostProcessFeature::Dispose)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c720bc;
+  constexpr static std::size_t addrs = 0x6caed38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OnTilePostProcessFeature::*)()>(&::GlobalNamespace::OnTilePostProcessFeature::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c720d0;
+  constexpr static std::size_t addrs = 0x6caed4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OnTilePostProcessFeature*>(), { ".ctor", {}, {} })));

@@ -100,7 +100,7 @@ public:
                                                                        float_t* AudioBuffer, int32_t OutputFrameCount, int32_t OutputChannelCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20453 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -159,7 +159,7 @@ public:
   constexpr JobStruct_1_IRootOutputProcessorExtensions_Storage(::UnityEngine::Audio::ProcessorHeader Header, TUserProcessor UserProcessor) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20454 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -216,7 +216,7 @@ public:
   JobStruct_1_IRootOutputProcessorExtensions_ExecuteJobFunction(JobStruct_1_IRootOutputProcessorExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20455 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -256,7 +256,7 @@ public:
   constexpr IRootOutputProcessorExtensions_JobStruct_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20456 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -284,12 +284,12 @@ public:
              ::cordl_internals::default_constructor_constraint<T>)
   static inline ::System::IntPtr GetReflectionData();
 
-  /// @brief Method InitializeRootOutputHandle, addr 0x6eace64, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InitializeRootOutputHandle, addr 0x6ee9b00, size 0x54, virtual false, abstract: false, final false
   static inline void InitializeRootOutputHandle(::UnityEngine::Audio::ProcessorHeader* header, ::UnityEngine::Audio::ControlHeader* control,
                                                 ::UnityEngine::Audio::ProcessorInstance_InitializationFlags flags);
 
   /// [NativeMethod(Name = "audio::InitializeRootOutputHandle", IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method InternalInitializeRootOutputHandle, addr 0x6eaceb8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InternalInitializeRootOutputHandle, addr 0x6ee9b54, size 0x54, virtual false, abstract: false, final false
   static inline void InternalInitializeRootOutputHandle(void* header, void* control, ::UnityEngine::Audio::ProcessorInstance_InitializationFlags flags);
 
 protected:
@@ -307,7 +307,7 @@ public:
   IRootOutputProcessorExtensions(IRootOutputProcessorExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20457 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

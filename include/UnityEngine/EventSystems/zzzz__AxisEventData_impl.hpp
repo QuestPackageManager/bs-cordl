@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::AxisEventData::*)()>(&::UnityEngine::EventSystems::AxisEventData::get_moveVector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b2ff0;
+  constexpr static std::size_t addrs = 0x72eff24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::AxisEventData*>(), { "get_moveVector", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::AxisEventData::*)(::UnityEngine::Vector2)>(&::UnityEngine::EventSystems::AxisEventData::set_moveVector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b2ff8;
+  constexpr static std::size_t addrs = 0x72eff2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EventSystems::MoveDirection (::UnityEngine::EventSystems::AxisEventData::*)()>(
     &::UnityEngine::EventSystems::AxisEventData::get_moveDir)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b3000;
+  constexpr static std::size_t addrs = 0x72eff34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::AxisEventData*>(), { "get_moveDir", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::AxisEventData::*)(::UnityEngine::EventSystems::MoveDirection)>(
     &::UnityEngine::EventSystems::AxisEventData::set_moveDir)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b3008;
+  constexpr static std::size_t addrs = 0x72eff3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventSystems::AxisEventData::*)(::UnityEngine::EventSystems::EventSystem*)>(
     &::UnityEngine::EventSystems::AxisEventData::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x72b3010;
+  constexpr static std::size_t addrs = 0x72eff44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

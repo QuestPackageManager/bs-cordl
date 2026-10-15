@@ -123,28 +123,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x7248928, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x728585c, size 0x80, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetEnumerator, addr 0x7248920, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x7285854, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<::UnityEngine::Ray, ::UnityW<::UnityEngine::Camera>, bool>>* GetEnumerator();
 
-  /// @brief Method GetPooled, addr 0x7248454, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x7285388, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator* GetPooled(::ArrayW<::UnityEngine::Camera*> cameras, int32_t layerMask, ::UnityEngine::Vector2 mousePosition,
                                                                                                 ::System::Nullable_1<int32_t> targetDisplay);
 
-  /// @brief Method MoveNext, addr 0x724878c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x72856c0, size 0x80, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::UIElements::CameraScreenRaycaster_CameraRayEnumerator* New_ctor();
 
-  /// @brief Method Reset, addr 0x724880c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x7285740, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x7248924, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x7285858, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x7248884, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x72857b8, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Camera>> const& __cordl_internal_get_m_Cameras() const;
@@ -195,10 +195,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TargetDisplay(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x72489a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72858dc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Current, addr 0x7248818, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x728574c, size 0x6c, virtual true, abstract: false, final true
   inline ::System::ValueTuple_3<::UnityEngine::Ray, ::UnityW<::UnityEngine::Camera>, bool> get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_3<::UnityEngine::Ray,::UnityW<::UnityEngine::Camera>,bool>>"
@@ -297,10 +297,10 @@ public:
 
   static inline ::UnityEngine::UIElements::CameraScreenRaycaster___c* New_ctor();
 
-  /// @brief Method <Update>b__3_0, addr 0x7248a0c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <Update>b__3_0, addr 0x7285940, size 0x94, virtual false, abstract: false, final false
   inline int32_t _Update_b__3_0(::UnityEngine::Camera* a, ::UnityEngine::Camera* b);
 
-  /// @brief Method .ctor, addr 0x7248a08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x728593c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::CameraScreenRaycaster___c* getStaticF___9();
@@ -357,19 +357,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IScreenRaycaster"
   constexpr operator ::UnityEngine::UIElements::IScreenRaycaster*() noexcept;
 
-  /// @brief Method IsValid, addr 0x7248500, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x7285434, size 0xec, virtual false, abstract: false, final false
   static inline bool IsValid(::UnityEngine::Camera* camera, int32_t layerMask, ::System::Nullable_1<int32_t> targetDisplay);
 
-  /// @brief Method MakeRay, addr 0x7248358, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method MakeRay, addr 0x728528c, size 0xfc, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_3<::UnityEngine::Ray, ::UnityW<::UnityEngine::Camera>, bool>>*
   MakeRay(::UnityEngine::Vector2 mousePosition, int32_t pointerId, ::System::Nullable_1<int32_t> targetDisplay);
 
-  /// @brief Method MakeRay, addr 0x72485ec, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method MakeRay, addr 0x7285520, size 0x1a0, virtual false, abstract: false, final false
   static inline bool MakeRay(::UnityEngine::Camera* camera, ::UnityEngine::Vector2 mousePosition, ::by_ref<::UnityEngine::Ray> ray);
 
   static inline ::UnityEngine::UIElements::CameraScreenRaycaster* New_ctor();
 
-  /// @brief Method Update, addr 0x7248254, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x7285188, size 0x104, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Camera>> const& __cordl_internal_get_cameras() const;
@@ -390,7 +390,7 @@ public:
 
   constexpr void __cordl_internal_set_singleCamera(::ArrayW<::UnityW<::UnityEngine::Camera>> value);
 
-  /// @brief Method .ctor, addr 0x7245998, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72828cc, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IScreenRaycaster"

@@ -38,18 +38,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE TestPlatformLeaderboardsHandler : public ::GlobalNamespace::PlatformLeaderboardsHandler {
 public:
   // Declarations
-  /// @brief Method GetScores, addr 0x39e5a78, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetScores, addr 0x3a0f230, size 0x54, virtual true, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* GetScores(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, int32_t count, int32_t fromRank,
                                                       ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope scope, uint64_t referencePlayerId,
                                                       ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler);
 
   static inline ::GlobalNamespace::TestPlatformLeaderboardsHandler* New_ctor();
 
-  /// @brief Method UploadScore, addr 0x39e5acc, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method UploadScore, addr 0x3a0f284, size 0x54, virtual true, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* UploadScore(::GlobalNamespace::LeaderboardScoreUploader_ScoreData* scoreData,
                                                         ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreCompletionHandler* completionHandler);
 
-  /// @brief Method .ctor, addr 0x39e5b20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a0f2d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   TestPlatformLeaderboardsHandler(TestPlatformLeaderboardsHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14781 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

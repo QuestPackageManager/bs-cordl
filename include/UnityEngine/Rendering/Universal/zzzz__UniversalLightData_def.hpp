@@ -57,7 +57,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalLightData* New_ctor();
 
-  /// @brief Method Reset, addr 0x6cb6508, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6cf3184, size 0x1c, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_additionalLightsCount() const;
@@ -126,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set_visibleLights(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> value);
 
-  /// @brief Method .ctor, addr 0x6cb6524, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf31a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -144,7 +144,7 @@ public:
   UniversalLightData(UniversalLightData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12999 };
 
   /// @brief Field mainLightIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___mainLightIndex;

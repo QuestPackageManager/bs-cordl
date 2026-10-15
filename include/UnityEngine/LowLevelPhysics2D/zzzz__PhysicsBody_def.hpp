@@ -112,7 +112,7 @@ public:
   static ::UnityEngine::LowLevelPhysics2D::PhysicsBody_BodyType const Static;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21524 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21571 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -184,7 +184,7 @@ public:
   static ::UnityEngine::LowLevelPhysics2D::PhysicsBody_BodyConstraints const Rotation;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21525 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21572 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -247,7 +247,7 @@ public:
   static ::UnityEngine::LowLevelPhysics2D::PhysicsBody_TransformWriteMode const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21526 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21573 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -288,25 +288,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::LowLevelPhysics2D::PhysicsBody>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::LowLevelPhysics2D::PhysicsBody>*();
 
-  /// @brief Method Equals, addr 0x6fd521c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7012110, size 0x68, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6fd5284, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7012178, size 0x38, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::LowLevelPhysics2D::PhysicsBody other);
 
-  /// @brief Method GetHashCode, addr 0x6fd52bc, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x70121b0, size 0x88, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6fd4f4c, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7011e40, size 0x244, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_callbackTarget, addr 0x6fd5344, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_callbackTarget, addr 0x7012238, size 0x44, virtual false, abstract: false, final false
   inline ::System::Object* get_callbackTarget();
 
-  /// @brief Method get_isValid, addr 0x6fd5190, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x7012084, size 0x48, virtual false, abstract: false, final false
   inline bool get_isValid();
 
-  /// @brief Method get_type, addr 0x6fd51d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x70120cc, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsBody_BodyType get_type();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::LowLevelPhysics2D::PhysicsBody>"
@@ -321,7 +321,7 @@ public:
   constexpr PhysicsBody(int32_t m_Index1, uint16_t m_World0, uint16_t m_Generation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21528 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21575 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -370,37 +370,37 @@ public:
   __declspec(property(get = get_transformWriteMode)) ::UnityEngine::LowLevelPhysics2D::PhysicsBody_TransformWriteMode transformWriteMode;
 
   /// [IsReadOnly]
-  /// @brief Method get_angularVelocity, addr 0x6fd53ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angularVelocity, addr 0x70122a0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_angularVelocity();
 
   /// [IsReadOnly]
-  /// @brief Method get_body, addr 0x6fd5388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_body, addr 0x701227c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsBody get_body();
 
   /// [IsReadOnly]
-  /// @brief Method get_linearVelocity, addr 0x6fd53a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_linearVelocity, addr 0x7012298, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_linearVelocity();
 
   /// [IsReadOnly]
-  /// @brief Method get_physicsTransform, addr 0x6fd5398, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_physicsTransform, addr 0x701228c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsTransform get_physicsTransform();
 
   /// [IsReadOnly]
-  /// @brief Method get_positionFrom, addr 0x6fd53b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_positionFrom, addr 0x70122a8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_positionFrom();
 
   /// [IsReadOnly]
-  /// @brief Method get_rotationFrom, addr 0x6fd53cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rotationFrom, addr 0x70122c0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotationFrom();
 
   /// [IsReadOnly]
-  /// @brief Method get_transformWriteMode, addr 0x6fd5390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transformWriteMode, addr 0x7012284, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsBody_TransformWriteMode get_transformWriteMode();
 
-  /// @brief Method set_positionFrom, addr 0x6fd53c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_positionFrom, addr 0x70122b4, size 0xc, virtual false, abstract: false, final false
   inline void set_positionFrom(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_rotationFrom, addr 0x6fd53d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rotationFrom, addr 0x70122cc, size 0xc, virtual false, abstract: false, final false
   inline void set_rotationFrom(::UnityEngine::Quaternion value);
 
   // Ctor Parameters []
@@ -417,7 +417,7 @@ public:
                                             ::UnityEngine::Vector3 m_PositionFrom, ::UnityEngine::Quaternion m_RotationFrom) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21527 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21574 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x44 };

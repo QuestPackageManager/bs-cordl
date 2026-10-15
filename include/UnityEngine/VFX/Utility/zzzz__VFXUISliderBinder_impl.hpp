@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXUISliderBinder::*)()>(&::UnityEngine::VFX::Utility::VFXUISliderBinder::get_Property)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e25d98;
+  constexpr static std::size_t addrs = 0x6e62a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXUISliderBinder*>(), { "get_Property", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXUISliderBinder::*)(::StringW)>(&::UnityEngine::VFX::Utility::VFXUISliderBinder::set_Property)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e25db0;
+  constexpr static std::size_t addrs = 0x6e62a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::VFX::Utility::VFXUISliderBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXUISliderBinder::IsValid)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e25dd0;
+  constexpr static std::size_t addrs = 0x6e62a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXUISliderBinder::*)(::UnityEngine::VFX::VisualEffect*)>(
     &::UnityEngine::VFX::Utility::VFXUISliderBinder::UpdateBinding)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e25e7c;
+  constexpr static std::size_t addrs = 0x6e62b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::VFX::Utility::VFXUISliderBinder::*)()>(&::UnityEngine::VFX::Utility::VFXUISliderBinder::ToString)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6e25ed8;
+  constexpr static std::size_t addrs = 0x6e62b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXUISliderBinder::*)()>(&::UnityEngine::VFX::Utility::VFXUISliderBinder::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6e25fd4;
+  constexpr static std::size_t addrs = 0x6e62c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXUISliderBinder*>(), { ".ctor", {}, {} })));

@@ -39,43 +39,43 @@ public:
 
   static inline ::UnityEngine::MeshCollider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6ffe738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x703b62c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_convex, addr 0x6ffe418, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_convex, addr 0x703b30c, size 0x80, virtual false, abstract: false, final false
   inline bool get_convex();
 
-  /// @brief Method get_convex_Injected, addr 0x6ffe498, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_convex_Injected, addr 0x703b38c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_convex_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_cookingOptions, addr 0x6ffe5a8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_cookingOptions, addr 0x703b49c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::MeshColliderCookingOptions get_cookingOptions();
 
-  /// @brief Method get_cookingOptions_Injected, addr 0x6ffe628, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_cookingOptions_Injected, addr 0x703b51c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::MeshColliderCookingOptions get_cookingOptions_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_sharedMesh, addr 0x6ffe188, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_sharedMesh, addr 0x703b07c, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_sharedMesh();
 
-  /// @brief Method get_sharedMesh_Injected, addr 0x6ffe2d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sharedMesh_Injected, addr 0x703b1cc, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_sharedMesh_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_convex, addr 0x6ffe4d4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_convex, addr 0x703b3c8, size 0x90, virtual false, abstract: false, final false
   inline void set_convex(bool value);
 
-  /// @brief Method set_convex_Injected, addr 0x6ffe564, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_convex_Injected, addr 0x703b458, size 0x44, virtual false, abstract: false, final false
   static inline void set_convex_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_cookingOptions, addr 0x6ffe664, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_cookingOptions, addr 0x703b558, size 0x90, virtual false, abstract: false, final false
   inline void set_cookingOptions(::UnityEngine::MeshColliderCookingOptions value);
 
-  /// @brief Method set_cookingOptions_Injected, addr 0x6ffe6f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_cookingOptions_Injected, addr 0x703b5e8, size 0x44, virtual false, abstract: false, final false
   static inline void set_cookingOptions_Injected(::System::IntPtr _unity_self, ::UnityEngine::MeshColliderCookingOptions value);
 
-  /// @brief Method set_sharedMesh, addr 0x6ffe314, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_sharedMesh, addr 0x703b208, size 0xc0, virtual false, abstract: false, final false
   inline void set_sharedMesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_sharedMesh_Injected, addr 0x6ffe3d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sharedMesh_Injected, addr 0x703b2c8, size 0x44, virtual false, abstract: false, final false
   static inline void set_sharedMesh_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
 protected:
@@ -93,7 +93,7 @@ public:
   MeshCollider(MeshCollider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19098 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

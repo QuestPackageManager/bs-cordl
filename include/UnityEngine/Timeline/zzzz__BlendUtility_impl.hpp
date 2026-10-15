@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::BlendUtility___c::*)()>(&::UnityEngine::Timeline::BlendUtility___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6df65e8;
+  constexpr static std::size_t addrs = 0x6e33284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::BlendUtility___c*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Timeline::BlendUtility___c::*)(::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::Timeline::TimelineClip*)>(
     &::UnityEngine::Timeline::BlendUtility___c::_ComputeBlendsFromOverlaps_b__1_0)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6df65ec;
+  constexpr static std::size_t addrs = 0x6e33288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::Timeline::TimelineClip*)>(&::UnityEngine::Timeline::BlendUtility::Overlaps)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6df613c;
+  constexpr static std::size_t addrs = 0x6e32dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::UnityEngine::Timeline::TimelineClip*>)>(&::UnityEngine::Timeline::BlendUtility::ComputeBlendsFromOverlaps)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x6df623c;
+  constexpr static std::size_t addrs = 0x6e32ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::Timeline::TimelineClip*)>(
     &::UnityEngine::Timeline::BlendUtility::UpdateClipIntersection)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6df6448;
+  constexpr static std::size_t addrs = 0x6e330e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

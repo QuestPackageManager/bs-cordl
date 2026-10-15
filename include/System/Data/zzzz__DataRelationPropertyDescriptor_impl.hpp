@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelationPropertyDescriptor::*)(::System::Data::DataRelation*)>(
     &::System::Data::DataRelationPropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6446500;
+  constexpr static std::size_t addrs = 0x64830d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataRelation* (::System::Data::DataRelationPropertyDescriptor::*)()>(
     &::System::Data::DataRelationPropertyDescriptor::get_Relation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644654c;
+  constexpr static std::size_t addrs = 0x648311c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRelationPropertyDescriptor*>(), { "get_Relation", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Data::DataRelationPropertyDescriptor::*)()>(&::System::Data::DataRelationPropertyDescriptor::get_ComponentType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6446554;
+  constexpr static std::size_t addrs = 0x6483124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataRelationPropertyDescriptor::*)()>(&::System::Data::DataRelationPropertyDescriptor::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64465b4;
+  constexpr static std::size_t addrs = 0x6483184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Data::DataRelationPropertyDescriptor::*)()>(&::System::Data::DataRelationPropertyDescriptor::get_PropertyType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64465bc;
+  constexpr static std::size_t addrs = 0x648318c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataRelationPropertyDescriptor::*)(::System::Object*)>(&::System::Data::DataRelationPropertyDescriptor::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x644661c;
+  constexpr static std::size_t addrs = 0x64831ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataRelationPropertyDescriptor::*)()>(&::System::Data::DataRelationPropertyDescriptor::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6446698;
+  constexpr static std::size_t addrs = 0x6483268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataRelationPropertyDescriptor::*)(::System::Object*)>(&::System::Data::DataRelationPropertyDescriptor::CanResetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64466b4;
+  constexpr static std::size_t addrs = 0x6483284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::DataRelationPropertyDescriptor::*)(::System::Object*)>(
     &::System::Data::DataRelationPropertyDescriptor::GetValue)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x64466bc;
+  constexpr static std::size_t addrs = 0x648328c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelationPropertyDescriptor::*)(::System::Object*)>(&::System::Data::DataRelationPropertyDescriptor::ResetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x644675c;
+  constexpr static std::size_t addrs = 0x648332c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRelationPropertyDescriptor::*)(::System::Object*, ::System::Object*)>(
     &::System::Data::DataRelationPropertyDescriptor::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6446760;
+  constexpr static std::size_t addrs = 0x6483330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataRelationPropertyDescriptor::*)(::System::Object*)>(
     &::System::Data::DataRelationPropertyDescriptor::ShouldSerializeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6446764;
+  constexpr static std::size_t addrs = 0x6483334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

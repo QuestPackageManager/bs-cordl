@@ -24,7 +24,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::UIElements::TextElement*, ::UnityEngine::Vector2, float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode, float_t,
                                            ::UnityEngine::UIElements::VisualElement_MeasureMode, float_t)>(&::UnityEngine::UIElements::TextUtilities::PostProcessMeasuredSize)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x7131ffc;
+  constexpr static std::size_t addrs = 0x716ef30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*
                                                                                   float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode, ::System::Nullable_1<float_t>)>(
     &::UnityEngine::UIElements::TextUtilities::MeasureVisualElementTextSize)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x7132144;
+  constexpr static std::size_t addrs = 0x716f078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*
                                                                                   ::UnityEngine::UIElements::VisualElement_MeasureMode, float_t, ::UnityEngine::UIElements::VisualElement_MeasureMode,
                                                                                   ::System::Nullable_1<float_t>)>(&::UnityEngine::UIElements::TextUtilities::MeasureVisualElementTextSize)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x71323e0;
+  constexpr static std::size_t addrs = 0x716f314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::TextCore::Text::FontAsset> (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::TextUtilities::GetFontAsset)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x71325bc;
+  constexpr static std::size_t addrs = 0x716f4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::TextUtilities::IsFontAssigned)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x7132328;
+  constexpr static std::size_t addrs = 0x716f25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::TextCore::Text::TextSettings> (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::TextUtilities::GetTextSettingsFrom)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x7132674;
+  constexpr static std::size_t addrs = 0x716f5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextUtilities*>(),
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::TextUtilities::IsAdvancedTextEnabledForPanel)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x7132714;
+  constexpr static std::size_t addrs = 0x716f648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextUtilities*>(),
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::TextUtilities::IsAdvancedTextEnabledForElement)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x7130578;
+  constexpr static std::size_t addrs = 0x716d4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::TextCoreSettings (*)(::UnityEngine::UIElements::VisualElement*, bool)>(
     &::UnityEngine::UIElements::TextUtilities::GetTextCoreSettingsForElement)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x71327e0;
+  constexpr static std::size_t addrs = 0x716f714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::Text::TextWrappingMode (*)(::UnityEngine::UIElements::WhiteSpace, bool)>(
     &::UnityEngine::UIElements::TextUtilities::toTextWrappingMode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7132c00;
+  constexpr static std::size_t addrs = 0x716fb34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::TextOverflow (*)(
     ::UnityEngine::UIElements::TextOverflow, ::UnityEngine::UIElements::OverflowInternal, ::UnityEngine::UIElements::TextOverflowPosition)>(&::UnityEngine::UIElements::TextUtilities::toTextCore)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7132c44;
+  constexpr static std::size_t addrs = 0x716fb78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -189,39 +189,39 @@ public:
 
   __declspec(property(get = get_rootRenderData)) ::UnityEngine::UIElements::UIR::RenderData* rootRenderData;
 
-  /// @brief Method ChildWillBeRemoved, addr 0x717a95c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ChildWillBeRemoved, addr 0x71b7890, size 0xc4, virtual false, abstract: false, final false
   inline void ChildWillBeRemoved(::UnityEngine::UIElements::UIR::RenderData* renderData);
 
-  /// @brief Method DepthFirstResetTextures, addr 0x717c148, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method DepthFirstResetTextures, addr 0x71b907c, size 0x60, virtual false, abstract: false, final false
   inline void DepthFirstResetTextures(::UnityEngine::UIElements::UIR::RenderData* renderData);
 
-  /// @brief Method Dispose, addr 0x717c138, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x71b906c, size 0x10, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Init, addr 0x717bff4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x71b8f28, size 0x130, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::UIR::RenderTreeManager* renderTreeManager, ::UnityEngine::UIElements::UIR::RenderData* rootRenderData);
 
   static inline ::UnityEngine::UIElements::UIR::RenderTree* New_ctor();
 
-  /// @brief Method OnRenderCommandAdded, addr 0x717c924, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnRenderCommandAdded, addr 0x71b9858, size 0x20, virtual false, abstract: false, final false
   inline void OnRenderCommandAdded(::UnityEngine::UIElements::UIR::RenderChainCommand* command);
 
-  /// @brief Method OnRenderCommandsRemoved, addr 0x717c944, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnRenderCommandsRemoved, addr 0x71b9878, size 0x28, virtual false, abstract: false, final false
   inline void OnRenderCommandsRemoved(::UnityEngine::UIElements::UIR::RenderChainCommand* firstCommand, ::UnityEngine::UIElements::UIR::RenderChainCommand* lastCommand);
 
-  /// @brief Method OnRenderDataOpacityIdChanged, addr 0x717c244, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnRenderDataOpacityIdChanged, addr 0x71b9178, size 0x80, virtual false, abstract: false, final false
   inline void OnRenderDataOpacityIdChanged(::UnityEngine::UIElements::UIR::RenderData* renderData);
 
-  /// @brief Method OnRenderDataTransformOrSizeChanged, addr 0x717c1a8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OnRenderDataTransformOrSizeChanged, addr 0x71b90dc, size 0x9c, virtual false, abstract: false, final false
   inline void OnRenderDataTransformOrSizeChanged(::UnityEngine::UIElements::UIR::RenderData* renderData, bool transformChanged, bool clipRectSizeChanged);
 
-  /// @brief Method OnRenderDataVisualsChanged, addr 0x717c2c4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnRenderDataVisualsChanged, addr 0x71b91f8, size 0x90, virtual false, abstract: false, final false
   inline void OnRenderDataVisualsChanged(::UnityEngine::UIElements::UIR::RenderData* renderData, bool hierarchical);
 
-  /// @brief Method ProcessChanges, addr 0x717c354, size 0x5d0, virtual false, abstract: false, final false
+  /// @brief Method ProcessChanges, addr 0x71b9288, size 0x5d0, virtual false, abstract: false, final false
   inline void ProcessChanges(::by_ref<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
-  /// @brief Method Reset, addr 0x717c124, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x71b9058, size 0x14, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::UIElements::UIR::RenderTree* const& __cordl_internal_get_firstChild() const;
@@ -296,7 +296,7 @@ public:
 
   constexpr void __cordl_internal_set_quadUVRect(::UnityEngine::Rect value);
 
-  /// @brief Method .ctor, addr 0x717c96c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71b98a0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_MarkerClipProcessing();
@@ -309,19 +309,19 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_MarkerVisualsProcessing();
 
-  /// @brief Method get_dirtyTracker, addr 0x7179408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dirtyTracker, addr 0x71b633c, size 0x8, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::UIElements::UIR::DepthOrderedDirtyTracking> get_dirtyTracker();
 
-  /// @brief Method get_firstCommand, addr 0x717bfb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstCommand, addr 0x71b8ee4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_firstCommand();
 
-  /// @brief Method get_isRootRenderTree, addr 0x717bfb8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isRootRenderTree, addr 0x71b8eec, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isRootRenderTree();
 
-  /// @brief Method get_renderTreeManager, addr 0x717bfa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderTreeManager, addr 0x71b8ed4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderTreeManager* get_renderTreeManager();
 
-  /// @brief Method get_rootRenderData, addr 0x717bfa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rootRenderData, addr 0x71b8edc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderData* get_rootRenderData();
 
   static inline void setStaticF_k_MarkerClipProcessing(::Unity::Profiling::ProfilerMarker value);

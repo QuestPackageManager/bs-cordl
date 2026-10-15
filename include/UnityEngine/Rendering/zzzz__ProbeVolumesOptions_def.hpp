@@ -138,7 +138,7 @@ public:
 
   constexpr void __cordl_internal_set_worldOffset(::UnityEngine::Rendering::Vector3Parameter* value);
 
-  /// @brief Method .ctor, addr 0x6bb451c, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bf1198, size 0x27c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -156,7 +156,7 @@ public:
   ProbeVolumesOptions(ProbeVolumesOptions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9029 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9036 };
 
   /// [Tooltip("The overridden normal bias to be applied to the world position when sampling the Adaptive Probe Volumes data structure. Unit is meters.")]
   /// @brief Field normalBias, offset: 0x38, size: 0x8, def value: None

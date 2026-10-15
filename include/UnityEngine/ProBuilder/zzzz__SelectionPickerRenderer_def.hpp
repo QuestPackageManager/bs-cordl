@@ -139,7 +139,7 @@ public:
   SelectionPickerRenderer_ISelectionPickerRenderer(SelectionPickerRenderer_ISelectionPickerRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17317 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17350 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -157,10 +157,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::SelectionPickerRenderer_SelectionPickerRendererHDRP* New_ctor();
 
-  /// @brief Method RenderLookupTexture, addr 0x6afadb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method RenderLookupTexture, addr 0x6b37a2c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Texture2D> RenderLookupTexture(::UnityEngine::Camera* camera, ::UnityEngine::Shader* shader, ::StringW tag, int32_t width, int32_t height);
 
-  /// @brief Method .ctor, addr 0x6afadb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b37a34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ProBuilder::SelectionPickerRenderer_ISelectionPickerRenderer"
@@ -181,7 +181,7 @@ public:
   SelectionPickerRenderer_SelectionPickerRendererHDRP(SelectionPickerRenderer_SelectionPickerRendererHDRP const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17318 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17351 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -201,10 +201,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::SelectionPickerRenderer_SelectionPickerRendererStandard* New_ctor();
 
-  /// @brief Method RenderLookupTexture, addr 0x6afadbc, size 0x43c, virtual true, abstract: false, final true
+  /// @brief Method RenderLookupTexture, addr 0x6b37a38, size 0x43c, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Texture2D> RenderLookupTexture(::UnityEngine::Camera* camera, ::UnityEngine::Shader* shader, ::StringW tag, int32_t width, int32_t height);
 
-  /// @brief Method .ctor, addr 0x6afb1f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b37e74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ProBuilder::SelectionPickerRenderer_ISelectionPickerRenderer"
@@ -225,7 +225,7 @@ public:
   SelectionPickerRenderer_SelectionPickerRendererStandard(SelectionPickerRenderer_SelectionPickerRendererStandard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17319 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17352 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -246,15 +246,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::ProBuilder::SelectionPickerRenderer_ISelectionPickerRenderer"
   constexpr operator ::UnityEngine::ProBuilder::SelectionPickerRenderer_ISelectionPickerRenderer*() noexcept;
 
-  /// @brief Method CustomRenderPass, addr 0x6afb61c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CustomRenderPass, addr 0x6b38298, size 0xf4, virtual false, abstract: false, final false
   static inline void CustomRenderPass(::UnityEngine::Rendering::ScriptableRenderContext ctx, ::UnityEngine::Camera* camera);
 
   static inline ::UnityEngine::ProBuilder::SelectionPickerRenderer_SelectionPickerRendererURP* New_ctor();
 
-  /// @brief Method RenderLookupTexture, addr 0x6afb1fc, size 0x420, virtual true, abstract: false, final true
+  /// @brief Method RenderLookupTexture, addr 0x6b37e78, size 0x420, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Texture2D> RenderLookupTexture(::UnityEngine::Camera* camera, ::UnityEngine::Shader* shader, ::StringW tag, int32_t width, int32_t height);
 
-  /// @brief Method .ctor, addr 0x6afb78c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b38408, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::Camera> getStaticF_m_LastCamera();
@@ -279,7 +279,7 @@ public:
   SelectionPickerRenderer_SelectionPickerRendererURP(SelectionPickerRenderer_SelectionPickerRendererURP const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17320 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17353 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -303,10 +303,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::SelectionPickerRenderer___c* New_ctor();
 
-  /// @brief Method <GenerateFacePickingObjects>b__24_0, addr 0x6afb7e8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <GenerateFacePickingObjects>b__24_0, addr 0x6b38464, size 0x14, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _GenerateFacePickingObjects_b__24_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x6afb7e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b38460, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::SelectionPickerRenderer___c* getStaticF___9();
@@ -332,7 +332,7 @@ public:
   SelectionPickerRenderer___c(SelectionPickerRenderer___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17321 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17354 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -356,7 +356,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::SelectionPickerRenderer___c__DisplayClass19_0* New_ctor();
 
-  /// @brief Method <PickVerticesInRect>b__0, addr 0x6afb800, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <PickVerticesInRect>b__0, addr 0x6b3847c, size 0x64, virtual false, abstract: false, final false
   inline int32_t _PickVerticesInRect_b__0(int32_t x);
 
   constexpr ::ArrayW<::UnityEngine::Vector3> const& __cordl_internal_get_positions() const;
@@ -371,7 +371,7 @@ public:
 
   constexpr void __cordl_internal_set_sharedVertices(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*> value);
 
-  /// @brief Method .ctor, addr 0x6afb7fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b38478, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -389,7 +389,7 @@ public:
   SelectionPickerRenderer___c__DisplayClass19_0(SelectionPickerRenderer___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17355 };
 
   /// @brief Field positions, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3> ___positions;
@@ -444,82 +444,82 @@ public:
   /// @brief Field s_RenderTextureFormat, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_RenderTextureFormat, put = setStaticF_s_RenderTextureFormat)) ::UnityEngine::RenderTextureFormat s_RenderTextureFormat;
 
-  /// @brief Method BuildEdgeMesh, addr 0x6afa810, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method BuildEdgeMesh, addr 0x6b3748c, size 0x4d8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> BuildEdgeMesh(
       ::UnityEngine::ProBuilder::ProBuilderMesh* pb,
       ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::UnityEngine::ProBuilder::Edge>>* map,
       ::by_ref<uint32_t> index);
 
-  /// @brief Method BuildVertexMesh, addr 0x6afa014, size 0x7fc, virtual false, abstract: false, final false
+  /// @brief Method BuildVertexMesh, addr 0x6b36c90, size 0x7fc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh>
   BuildVertexMesh(::UnityEngine::ProBuilder::ProBuilderMesh* pb,
                   ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, int32_t>>* map,
                   ::by_ref<uint32_t> index);
 
-  /// @brief Method DecodeRGBA, addr 0x6af8b1c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method DecodeRGBA, addr 0x6b35798, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t DecodeRGBA(::UnityEngine::Color32 color);
 
-  /// @brief Method EncodeRGBA, addr 0x6afa000, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method EncodeRGBA, addr 0x6b36c7c, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 EncodeRGBA(uint32_t hash);
 
-  /// @brief Method GenerateEdgePickingObjects, addr 0x6af9b98, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method GenerateEdgePickingObjects, addr 0x6b36814, size 0x468, virtual false, abstract: false, final false
   static inline void GenerateEdgePickingObjects(
       ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection, bool doDepthTest,
       ::by_ref<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::UnityEngine::ProBuilder::Edge>>*>
           map,
       ::by_ref<::ArrayW<::UnityEngine::GameObject*>> depthObjects, ::by_ref<::ArrayW<::UnityEngine::GameObject*>> pickerObjects);
 
-  /// @brief Method GenerateFacePickingObjects, addr 0x6af9170, size 0x5c0, virtual false, abstract: false, final false
+  /// @brief Method GenerateFacePickingObjects, addr 0x6b35dec, size 0x5c0, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::GameObject>> GenerateFacePickingObjects(
       ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection,
       ::by_ref<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::UnityEngine::ProBuilder::Face*>>*>
           map);
 
-  /// @brief Method GenerateVertexPickingObjects, addr 0x6af9730, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method GenerateVertexPickingObjects, addr 0x6b363ac, size 0x468, virtual false, abstract: false, final false
   static inline void GenerateVertexPickingObjects(
       ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection, bool doDepthTest,
       ::by_ref<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, int32_t>>*> map,
       ::by_ref<::ArrayW<::UnityEngine::GameObject*>> depthObjects, ::by_ref<::ArrayW<::UnityEngine::GameObject*>> pickerObjects);
 
-  /// @brief Method PickEdgesInRect, addr 0x6af7968, size 0x884, virtual false, abstract: false, final false
+  /// @brief Method PickEdgesInRect, addr 0x6b345e4, size 0x884, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Edge>*>*
   PickEdgesInRect(::UnityEngine::Camera* camera, ::UnityEngine::Rect pickerRect, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection,
                   bool doDepthTest, int32_t renderTextureWidth, int32_t renderTextureHeight);
 
-  /// @brief Method PickFacesInRect, addr 0x6af686c, size 0x674, virtual false, abstract: false, final false
+  /// @brief Method PickFacesInRect, addr 0x6b334e8, size 0x674, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>*
   PickFacesInRect(::UnityEngine::Camera* camera, ::UnityEngine::Rect pickerRect, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection,
                   int32_t renderTextureWidth, int32_t renderTextureHeight);
 
-  /// @brief Method PickVerticesInRect, addr 0x6af4b24, size 0xbf4, virtual false, abstract: false, final false
+  /// @brief Method PickVerticesInRect, addr 0x6b317a0, size 0xbf4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::System::Collections::Generic::HashSet_1<int32_t>*>*
   PickVerticesInRect(::UnityEngine::Camera* camera, ::UnityEngine::Rect pickerRect, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection,
                      bool doDepthTest, int32_t renderTextureWidth, int32_t renderTextureHeight);
 
-  /// @brief Method RenderSelectionPickerTexture, addr 0x6af8e50, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method RenderSelectionPickerTexture, addr 0x6b35acc, size 0x320, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> RenderSelectionPickerTexture(
       ::UnityEngine::Camera* camera, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection, bool doDepthTest,
       ::by_ref<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::UnityEngine::ProBuilder::Edge>>*>
           map,
       int32_t width, int32_t height);
 
-  /// @brief Method RenderSelectionPickerTexture, addr 0x6af8b30, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method RenderSelectionPickerTexture, addr 0x6b357ac, size 0x320, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> RenderSelectionPickerTexture(
       ::UnityEngine::Camera* camera, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection, bool doDepthTest,
       ::by_ref<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, int32_t>>*> map, int32_t width,
       int32_t height);
 
-  /// @brief Method RenderSelectionPickerTexture, addr 0x6af8880, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method RenderSelectionPickerTexture, addr 0x6b354fc, size 0x29c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> RenderSelectionPickerTexture(
       ::UnityEngine::Camera* camera, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* selection,
       ::by_ref<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::UnityEngine::ProBuilder::Face*>>*>
           map,
       int32_t width, int32_t height);
 
-  /// @brief Method ShouldUseHDRP, addr 0x6af8870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldUseHDRP, addr 0x6b354ec, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldUseHDRP();
 
-  /// @brief Method ShouldUseURP, addr 0x6af8878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldUseURP, addr 0x6b354f4, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldUseURP();
 
   static inline ::UnityEngine::Color getStaticF_k_Blackf();
@@ -534,13 +534,13 @@ public:
 
   static inline ::UnityEngine::RenderTextureFormat getStaticF_s_RenderTextureFormat();
 
-  /// @brief Method get_pickerRenderer, addr 0x6af8764, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_pickerRenderer, addr 0x6b353e0, size 0x10c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::SelectionPickerRenderer_ISelectionPickerRenderer* get_pickerRenderer();
 
-  /// @brief Method get_renderTextureFormat, addr 0x6af8600, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method get_renderTextureFormat, addr 0x6b3527c, size 0x15c, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderTextureFormat get_renderTextureFormat();
 
-  /// @brief Method get_textureFormat, addr 0x6af875c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textureFormat, addr 0x6b353d8, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextureFormat get_textureFormat();
 
   static inline void setStaticF_k_Blackf(::UnityEngine::Color value);
@@ -570,7 +570,7 @@ public:
   SelectionPickerRenderer(SelectionPickerRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17356 };
 
   /// @brief Field k_FacePickerOcclusionTintUniform offset 0xffffffff size 0x8
   static constexpr ::ConstString k_FacePickerOcclusionTintUniform{ u"_Tint" };

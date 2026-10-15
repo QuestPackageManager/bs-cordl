@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::TableViewWithVariableSizedCells::*)()>(&::HMUI::TableViewWithVariableSizedCells::get_contentSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ca775c;
+  constexpr static std::size_t addrs = 0x5ce0708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::HMUI::TableViewWithVariableSizedCells::*)()>(&::HMUI::TableViewWithVariableSizedCells::GetMinVisibleIdx)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5ca7764;
+  constexpr static std::size_t addrs = 0x5ce0710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::HMUI::TableViewWithVariableSizedCells::*)()>(&::HMUI::TableViewWithVariableSizedCells::GetMaxVisibleIdx)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5ca7834;
+  constexpr static std::size_t addrs = 0x5ce07e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::TableViewWithVariableSizedCells::*)(int32_t)>(&::HMUI::TableViewWithVariableSizedCells::GetCellSize)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5ca7960;
+  constexpr static std::size_t addrs = 0x5ce090c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::TableViewWithVariableSizedCells::*)(int32_t)>(&::HMUI::TableViewWithVariableSizedCells::GetCellPosition)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5ca7990;
+  constexpr static std::size_t addrs = 0x5ce093c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TableViewWithVariableSizedCells::*)()>(&::HMUI::TableViewWithVariableSizedCells::UpdateCachedData)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x5ca79e0;
+  constexpr static std::size_t addrs = 0x5ce098c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TableViewWithVariableSizedCells::*)()>(&::HMUI::TableViewWithVariableSizedCells::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ca7bd4;
+  constexpr static std::size_t addrs = 0x5ce0b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TableViewWithVariableSizedCells*>(), { ".ctor", {}, {} })));

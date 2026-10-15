@@ -8,6 +8,9 @@ CORDL_MODULE_EXPORT(NestedFragmentConverter_1)
 namespace Newtonsoft::Json::Linq {
 class JObject;
 }
+namespace Newtonsoft::Json::Linq {
+class JToken;
+}
 namespace Newtonsoft::Json {
 class JsonReader;
 }
@@ -45,6 +48,9 @@ public:
   /// @brief Method CanConvert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
+  /// @brief Method ConvertFragmentsRecursively, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void ConvertFragmentsRecursively(::OculusStudios::GraphQL::Client::IFragment* fragment, ::Newtonsoft::Json::Linq::JToken* token);
+
   /// @brief Method MergeFragments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JObject* MergeFragments(::OculusStudios::GraphQL::Client::IFragment* frag, ::Newtonsoft::Json::JsonSerializer* serializer);
 
@@ -74,7 +80,7 @@ public:
   NestedFragmentConverter_1(NestedFragmentConverter_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21058 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21105 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

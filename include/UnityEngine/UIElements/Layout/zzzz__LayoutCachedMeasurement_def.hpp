@@ -28,12 +28,12 @@ public:
   __declspec(property(get = get_NextMeasurementCache)) ::UnityEngine::UIElements::Layout::LayoutCachedMeasurement* NextMeasurementCache;
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x71987c0, size 0x2b8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x71d56f4, size 0x2b8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::UIElements::Layout::LayoutCachedMeasurement getStaticF_Default();
 
-  /// @brief Method get_NextMeasurementCache, addr 0x71987b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextMeasurementCache, addr 0x71d56ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutCachedMeasurement* get_NextMeasurementCache();
 
   static inline void setStaticF_Default(::UnityEngine::UIElements::Layout::LayoutCachedMeasurement value);

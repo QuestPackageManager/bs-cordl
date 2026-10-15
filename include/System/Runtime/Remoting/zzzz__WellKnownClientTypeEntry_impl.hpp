@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::WellKnownClientTypeEntry::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Runtime::Remoting::WellKnownClientTypeEntry::_ctor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5f48d84;
+  constexpr static std::size_t addrs = 0x5f8566c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(
     &::System::Runtime::Remoting::WellKnownClientTypeEntry::get_ApplicationUrl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f48e6c;
+  constexpr static std::size_t addrs = 0x5f85754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(
     &::System::Runtime::Remoting::WellKnownClientTypeEntry::get_ObjectType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f48e74;
+  constexpr static std::size_t addrs = 0x5f8575c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::WellKnownClientTypeEntry*>(), { "get_ObjectType", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(&::System::Runtime::Remoting::WellKnownClientTypeEntry::get_ObjectUrl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f48e7c;
+  constexpr static std::size_t addrs = 0x5f85764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::WellKnownClientTypeEntry*>(), { "get_ObjectUrl", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(&::System::Runtime::Remoting::WellKnownClientTypeEntry::ToString)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5f48e84;
+  constexpr static std::size_t addrs = 0x5f8576c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::WellKnownClientTypeEntry*>(),

@@ -76,7 +76,7 @@ public:
   static ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion const ThreadedVirtualOffset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9001 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9008 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -101,16 +101,16 @@ public:
   // Declarations
   using SettingsVersion = ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion;
 
-  /// @brief Method SetDefaults, addr 0x6bacb90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetDefaults, addr 0x6be980c, size 0x3c, virtual false, abstract: false, final false
   inline void SetDefaults();
 
-  /// @brief Method Upgrade, addr 0x6bacbf8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Upgrade, addr 0x6be9874, size 0x30, virtual false, abstract: false, final false
   inline void Upgrade();
 
-  /// @brief Method .ctor, addr 0x6bacbcc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be9848, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ProbeDilationSettings dilationSettings, ::UnityEngine::Rendering::VirtualOffsetSettings virtualOffsetSettings);
 
-  /// @brief Method get_Default, addr 0x6bacb48, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x6be97c4, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings get_Default();
 
   // Ctor Parameters []
@@ -124,7 +124,7 @@ public:
                                              ::UnityEngine::Rendering::VirtualOffsetSettings virtualOffsetSettings) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9009 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

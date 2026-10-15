@@ -6,7 +6,6 @@
 #include "TMPro/zzzz__TextMeshProUGUI_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
-#include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactory_2_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerResultsPyramidViewAvatar_def.hpp"
 #include "GlobalNamespace/zzzz__GhostDuplicationEffect_def.hpp"
@@ -16,9 +15,6 @@
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "HMUI/zzzz__ImageView_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
-#include "Tweening/zzzz__ColorTween_def.hpp"
-#include "Tweening/zzzz__FloatTween_def.hpp"
-#include "Tweening/zzzz__Vector3Tween_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
@@ -30,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory::*)()>(
     &::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5dff880;
+  constexpr static std::size_t addrs = 0x5e3cefc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory*>(), { ".ctor", {}, {} })));
@@ -52,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Playables::PlayableDirector> (::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::*)()>(
     &::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::get_badgeDirector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dff838;
+  constexpr static std::size_t addrs = 0x5e3ceb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::*)()>(&::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5dff840;
+  constexpr static std::size_t addrs = 0x5e3cebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>(), { "Awake", {}, {} })));
@@ -77,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::*)(::GlobalNamespace::MultiplayerPlayerResultsData*, int32_t, int32_t)>(
     &::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Setup)> {
-  constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x5dff2a8;
+  constexpr static std::size_t size = 0x534;
+  constexpr static std::size_t addrs = 0x5e3c8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(
     &::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::SetupBadgeTimeline)> {
   constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x5dfed60;
+  constexpr static std::size_t addrs = 0x5e3c394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::*)()>(&::GlobalNamespace::MultiplayerResultsPyramidViewAvatar::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5dff85c;
+  constexpr static std::size_t addrs = 0x5e3ced8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>(), { ".ctor", {}, {} })));
@@ -413,114 +409,6 @@ constexpr ::GlobalNamespace::BeatmapKey const& GlobalNamespace::MultiplayerResul
 constexpr void GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_set__beatmapKey(::GlobalNamespace::BeatmapKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatmapKey = value;
-}
-constexpr ::Tweening::Vector3Tween*& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__riseTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____riseTween;
-}
-constexpr ::Tweening::Vector3Tween* const& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__riseTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____riseTween;
-}
-constexpr void GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_set__riseTween(::Tweening::Vector3Tween* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____riseTween = value;
-}
-constexpr ::Tweening::Vector3Tween*& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__avatarRiseTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____avatarRiseTween;
-}
-constexpr ::Tweening::Vector3Tween* const& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__avatarRiseTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____avatarRiseTween;
-}
-constexpr void GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_set__avatarRiseTween(::Tweening::Vector3Tween* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____avatarRiseTween = value;
-}
-constexpr ::Tweening::Vector3Tween*& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__badgePositionTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____badgePositionTween;
-}
-constexpr ::Tweening::Vector3Tween* const& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__badgePositionTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____badgePositionTween;
-}
-constexpr void GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_set__badgePositionTween(::Tweening::Vector3Tween* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____badgePositionTween = value;
-}
-constexpr ::Tweening::FloatTween*& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__badgeOpacityTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____badgeOpacityTween;
-}
-constexpr ::Tweening::FloatTween* const& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__badgeOpacityTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____badgeOpacityTween;
-}
-constexpr void GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_set__badgeOpacityTween(::Tweening::FloatTween* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____badgeOpacityTween = value;
-}
-constexpr ::Tweening::FloatTween*& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__nameOpacityTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____nameOpacityTween;
-}
-constexpr ::Tweening::FloatTween* const& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__nameOpacityTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____nameOpacityTween;
-}
-constexpr void GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_set__nameOpacityTween(::Tweening::FloatTween* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____nameOpacityTween = value;
-}
-constexpr ::Tweening::Vector3Tween*& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__namePositionTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____namePositionTween;
-}
-constexpr ::Tweening::Vector3Tween* const& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__namePositionTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____namePositionTween;
-}
-constexpr void GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_set__namePositionTween(::Tweening::Vector3Tween* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____namePositionTween = value;
-}
-constexpr ::Tweening::ColorTween*& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__localGlowTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____localGlowTween;
-}
-constexpr ::Tweening::ColorTween* const& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__localGlowTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____localGlowTween;
-}
-constexpr void GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_set__localGlowTween(::Tweening::ColorTween* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____localGlowTween = value;
-}
-constexpr ::Tweening::Vector3Tween*& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__titleMakingSpaceForBadgeTween() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____titleMakingSpaceForBadgeTween;
-}
-constexpr ::Tweening::Vector3Tween* const& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__titleMakingSpaceForBadgeTween() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____titleMakingSpaceForBadgeTween;
-}
-constexpr void GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_set__titleMakingSpaceForBadgeTween(::Tweening::Vector3Tween* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____titleMakingSpaceForBadgeTween = value;
-}
-constexpr ::UnityEngine::Vector3& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__originalBadgeLocalPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____originalBadgeLocalPos;
-}
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__originalBadgeLocalPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____originalBadgeLocalPos;
-}
-constexpr void GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_set__originalBadgeLocalPos(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____originalBadgeLocalPos = value;
 }
 constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer*& GlobalNamespace::MultiplayerResultsPyramidViewAvatar::__cordl_internal_get__connectedPlayer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

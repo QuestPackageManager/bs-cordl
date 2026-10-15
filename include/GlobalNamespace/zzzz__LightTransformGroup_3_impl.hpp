@@ -4,6 +4,7 @@
 #include "GlobalNamespace/zzzz__LightTransformGroup_3_def.hpp"
 #include "GlobalNamespace/zzzz__ILightGroup_def.hpp"
 #include "GlobalNamespace/zzzz__ILightTransformGroup_def.hpp"
+#include "GlobalNamespace/zzzz__LightGroupCountProvider_def.hpp"
 #include "GlobalNamespace/zzzz__LightTransformGroupType_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
@@ -94,13 +95,17 @@ template <typename TX, typename TY, typename TZ> inline ::StringW GlobalNamespac
 }
 template <typename TX, typename TY, typename TZ> inline ::GlobalNamespace::LightTransformGroupType GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::get_transformGroupType() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>*>(), 15 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>*>(), 16 })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LightTransformGroupType>(this, ___internal_method);
 }
 template <typename TX, typename TY, typename TZ> inline int32_t GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::get_numberOfElements() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>*>(), { "get_numberOfElements", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method);
+}
+template <typename TX, typename TY, typename TZ> inline ::GlobalNamespace::LightGroupCountProvider* GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::get_countProvider() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>*>(), { "get_countProvider", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LightGroupCountProvider*>(this, ___internal_method);
 }
 template <typename TX, typename TY, typename TZ> inline int32_t GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::get_xTransformsCount() {
   static auto* ___internal_method =

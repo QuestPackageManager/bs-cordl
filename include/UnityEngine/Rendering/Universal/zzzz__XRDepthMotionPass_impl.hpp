@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6ce06d4;
+  constexpr static std::size_t addrs = 0x6d1d350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*>(), { ".ctor", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::*)()>(
     &::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ce01bc;
+  constexpr static std::size_t addrs = 0x6d1ce38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0::_Render_b__0)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x6ce073c;
+  constexpr static std::size_t addrs = 0x6d1d3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass___c__DisplayClass22_0*>(),
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass::*)(::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::XRDepthMotionPass::_ctor)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x6cded2c;
+  constexpr static std::size_t addrs = 0x6d1b9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DrawingSettings (*)(::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::Universal::XRDepthMotionPass::GetObjectMotionDrawingSettings)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6cdf03c;
+  constexpr static std::size_t addrs = 0x6d1bcb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass*>(),
@@ -200,7 +200,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::Universal::XRDepthMotionPass_PassData*>, ::by_ref<::UnityEngine::Rendering::CullingResults>, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*,
     ::UnityEngine::Camera*)>(&::UnityEngine::Rendering::Universal::XRDepthMotionPass::InitObjectMotionRendererLists)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6cdf1b4;
+  constexpr static std::size_t addrs = 0x6d1be30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +220,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                         ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
     &::UnityEngine::Rendering::Universal::XRDepthMotionPass::InitPassData)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6cdf6a4;
+  constexpr static std::size_t addrs = 0x6d1c320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass*>(),
@@ -238,7 +238,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass::*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
         &::UnityEngine::Rendering::Universal::XRDepthMotionPass::ImportXRMotionColorAndDepth)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x6cdf780;
+  constexpr static std::size_t addrs = 0x6d1c3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::UnityEngine::Rendering::Universal::XRDepthMotionPass::Render)> {
   constexpr static std::size_t size = 0x77c;
-  constexpr static std::size_t addrs = 0x6cdfa40;
+  constexpr static std::size_t addrs = 0x6d1c6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass::*)()>(&::UnityEngine::Rendering::Universal::XRDepthMotionPass::ResetMotionData)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6cdef4c;
+  constexpr static std::size_t addrs = 0x6d1bbc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass*>(), { "ResetMotionData", {}, {} })));
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass::*)(::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData*>)>(
     &::UnityEngine::Rendering::Universal::XRDepthMotionPass::Update)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x6ce01c0;
+  constexpr static std::size_t addrs = 0x6d1ce3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::XRDepthMotionPass::*)()>(&::UnityEngine::Rendering::Universal::XRDepthMotionPass::Dispose)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ce05b0;
+  constexpr static std::size_t addrs = 0x6d1d22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::XRDepthMotionPass*>(), { "Dispose", {}, {} })));

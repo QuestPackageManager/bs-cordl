@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)(
     ::Org::BouncyCastle::Math::Field::IFiniteField*, ::Org::BouncyCastle::Math::Field::IPolynomial*)>(&::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37bbd00;
+  constexpr static std::size_t addrs = 0x37de664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Characteristic)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x37bbf60;
+  constexpr static std::size_t addrs = 0x37de8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*>(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Dimension)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x37bc004;
+  constexpr static std::size_t addrs = 0x37de968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::Field::IFiniteField* (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Subfield)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37bc130;
+  constexpr static std::size_t addrs = 0x37dea94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Degree)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x37bc138;
+  constexpr static std::size_t addrs = 0x37dea9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::Field::IPolynomial* (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_MinimalPolynomial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37bc1dc;
+  constexpr static std::size_t addrs = 0x37deb40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*>(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)(::System::Object*)>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::Equals)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x37bc1e4;
+  constexpr static std::size_t addrs = 0x37deb48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*>(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x37bc2bc;
+  constexpr static std::size_t addrs = 0x37dec20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*>(),

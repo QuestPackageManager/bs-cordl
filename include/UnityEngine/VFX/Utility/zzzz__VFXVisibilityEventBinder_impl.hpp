@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXVisibilityEventBinder::*)(::ArrayW<::System::Object*>)>(
     &::UnityEngine::VFX::Utility::VFXVisibilityEventBinder::SetEventAttribute)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e1f1f0;
+  constexpr static std::size_t addrs = 0x6e5be8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXVisibilityEventBinder*>(),
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXVisibilityEventBinder::*)()>(&::UnityEngine::VFX::Utility::VFXVisibilityEventBinder::OnBecameVisible)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6e1f1f4;
+  constexpr static std::size_t addrs = 0x6e5be90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXVisibilityEventBinder*>(), { "OnBecameVisible", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXVisibilityEventBinder::*)()>(&::UnityEngine::VFX::Utility::VFXVisibilityEventBinder::OnBecameInvisible)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6e1f2a8;
+  constexpr static std::size_t addrs = 0x6e5bf44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXVisibilityEventBinder::*)()>(&::UnityEngine::VFX::Utility::VFXVisibilityEventBinder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e1f360;
+  constexpr static std::size_t addrs = 0x6e5bffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXVisibilityEventBinder*>(), { ".ctor", {}, {} })));

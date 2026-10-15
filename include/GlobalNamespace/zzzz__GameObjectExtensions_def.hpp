@@ -24,11 +24,11 @@ class CORDL_TYPE GameObjectExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ActivateSafe, addr 0x35adba0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ActivateSafe, addr 0x35d0480, size 0x38, virtual false, abstract: false, final false
   static inline void ActivateSafe(::UnityEngine::GameObject* gameObject);
 
   /// [Extension]
-  /// @brief Method DeactivateSafe, addr 0x35adbd8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method DeactivateSafe, addr 0x35d04b8, size 0x38, virtual false, abstract: false, final false
   static inline void DeactivateSafe(::UnityEngine::GameObject* gameObject);
 
 protected:
@@ -46,7 +46,7 @@ public:
   GameObjectExtensions(GameObjectExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

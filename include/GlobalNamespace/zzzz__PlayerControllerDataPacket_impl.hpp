@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PacketPool_1<::GlobalNamespace::PlayerControllerDataPacket*>* (*)()>(
     &::GlobalNamespace::PlayerControllerDataPacket::get_pool)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x352dbd0;
+  constexpr static std::size_t addrs = 0x354eb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerControllerDataPacket*>(), { "get_pool", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerControllerDataPacket::*)()>(&::GlobalNamespace::PlayerControllerDataPacket::Release)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x352ee30;
+  constexpr static std::size_t addrs = 0x354fd88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerControllerDataPacket*>(), { "Release", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerControllerDataPacket::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::PlayerControllerDataPacket::Serialize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x352f010;
+  constexpr static std::size_t addrs = 0x354ff68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerControllerDataPacket::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::PlayerControllerDataPacket::Deserialize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x352f030;
+  constexpr static std::size_t addrs = 0x354ff88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PlayerControllerDataPacket* (::GlobalNamespace::PlayerControllerDataPacket::*)(::GlobalNamespace::MultiplayerActiveHand)>(
     &::GlobalNamespace::PlayerControllerDataPacket::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x352dc14;
+  constexpr static std::size_t addrs = 0x354eb6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerControllerDataPacket::*)()>(&::GlobalNamespace::PlayerControllerDataPacket::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x352f058;
+  constexpr static std::size_t addrs = 0x354ffb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerControllerDataPacket*>(), { ".ctor", {}, {} })));

@@ -10,6 +10,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PerformanceReport)
 namespace GlobalNamespace {
+template <typename T> class Cvar_1;
+}
+namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
@@ -25,10 +28,19 @@ namespace GlobalNamespace {
 class PerformanceReport_Metrics;
 }
 namespace GlobalNamespace {
+class PerformanceReport___c;
+}
+namespace GlobalNamespace {
 class PerformanceReport___c__DisplayClass7_0;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System {
 struct DateTime;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,6 +59,9 @@ namespace GlobalNamespace {
 template <typename T> class PerformanceReport_Metrics_1;
 }
 namespace GlobalNamespace {
+class PerformanceReport___c;
+}
+namespace GlobalNamespace {
 class PerformanceReport___c__DisplayClass7_0;
 }
 // Write type traits
@@ -55,12 +70,14 @@ MARK_REF_T(::GlobalNamespace::PerformanceReport_FloatMetrics*);
 MARK_REF_T(::GlobalNamespace::PerformanceReport_LongMetrics*);
 MARK_REF_T(::GlobalNamespace::PerformanceReport_Metrics*);
 MARK_GEN_REF_T_PTR(::GlobalNamespace::PerformanceReport_Metrics_1);
+MARK_REF_T(::GlobalNamespace::PerformanceReport___c*);
 MARK_REF_T(::GlobalNamespace::PerformanceReport___c__DisplayClass7_0*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PerformanceReport*, "", "PerformanceReport");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PerformanceReport_FloatMetrics*, "", "PerformanceReport/FloatMetrics");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PerformanceReport_LongMetrics*, "", "PerformanceReport/LongMetrics");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PerformanceReport_Metrics*, "", "PerformanceReport/Metrics");
 DEFINE_IL2CPP_GEN_CLASS_PTR(::GlobalNamespace::PerformanceReport_Metrics_1, "", "PerformanceReport/Metrics`1");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::PerformanceReport___c*, "", "PerformanceReport/<>c");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::PerformanceReport___c__DisplayClass7_0*, "", "PerformanceReport/<>c__DisplayClass7_0");
 // Dependencies System.Object
 namespace GlobalNamespace {
@@ -85,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set_Name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5d11ce8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d4b558, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -106,7 +123,7 @@ public:
   PerformanceReport_Metrics(PerformanceReport_Metrics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6737 };
 
   /// @brief Field Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Name;
@@ -162,7 +179,7 @@ public:
   PerformanceReport_Metrics_1(PerformanceReport_Metrics_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6738 };
 
   /// @brief Field Values, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<T> ___Values;
@@ -178,12 +195,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE PerformanceReport_FloatMetrics : public ::GlobalNamespace::PerformanceReport_Metrics_1<float_t> {
 public:
   // Declarations
-  /// @brief Method GetValue, addr 0x5d11cec, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x5d4b55c, size 0x94, virtual true, abstract: false, final false
   inline ::StringW GetValue(int32_t index);
 
   static inline ::GlobalNamespace::PerformanceReport_FloatMetrics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5d11038, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d4a1f8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -201,7 +218,7 @@ public:
   PerformanceReport_FloatMetrics(PerformanceReport_FloatMetrics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6739 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -216,12 +233,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE PerformanceReport_LongMetrics : public ::GlobalNamespace::PerformanceReport_Metrics_1<int64_t> {
 public:
   // Declarations
-  /// @brief Method GetValue, addr 0x5d11d80, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x5d4b5f0, size 0x7c, virtual true, abstract: false, final false
   inline ::StringW GetValue(int32_t index);
 
   static inline ::GlobalNamespace::PerformanceReport_LongMetrics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5d11dfc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d4b66c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -239,12 +256,98 @@ public:
   PerformanceReport_LongMetrics(PerformanceReport_LongMetrics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6740 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(sizeof(::GlobalNamespace::PerformanceReport_LongMetrics) == 0x20, "Size mismatch!");
+
+} // namespace GlobalNamespace
+// [CompilerGenerated]
+// Dependencies System.Object
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: PerformanceReport/<>c
+class CORDL_TYPE PerformanceReport___c : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::PerformanceReport___c* __9;
+
+  /// @brief Field <>9__8_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__8_0,
+                      put = setStaticF___9__8_0)) ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<bool>*>, ::StringW>* __9__8_0;
+
+  /// @brief Field <>9__8_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__8_1,
+                      put = setStaticF___9__8_1)) ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<float_t>*>, ::StringW>* __9__8_1;
+
+  /// @brief Field <>9__8_2, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__8_2,
+                      put = setStaticF___9__8_2)) ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<int32_t>*>, ::StringW>* __9__8_2;
+
+  /// @brief Field <>9__8_3, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__8_3, put = setStaticF___9__8_3)) ::System::Func_2<::StringW, ::StringW>* __9__8_3;
+
+  static inline ::GlobalNamespace::PerformanceReport___c* New_ctor();
+
+  /// @brief Method <ListCvars>b__8_0, addr 0x5d4b700, size 0x11c, virtual false, abstract: false, final false
+  inline ::StringW _ListCvars_b__8_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<bool>*> cvar);
+
+  /// @brief Method <ListCvars>b__8_1, addr 0x5d4b81c, size 0x1b0, virtual false, abstract: false, final false
+  inline ::StringW _ListCvars_b__8_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<float_t>*> cvar);
+
+  /// @brief Method <ListCvars>b__8_2, addr 0x5d4b9cc, size 0x11c, virtual false, abstract: false, final false
+  inline ::StringW _ListCvars_b__8_2(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<int32_t>*> cvar);
+
+  /// @brief Method <ListCvars>b__8_3, addr 0x5d4bae8, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW _ListCvars_b__8_3(::StringW s);
+
+  /// @brief Method .ctor, addr 0x5d4b6fc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::GlobalNamespace::PerformanceReport___c* getStaticF___9();
+
+  static inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<bool>*>, ::StringW>* getStaticF___9__8_0();
+
+  static inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<float_t>*>, ::StringW>* getStaticF___9__8_1();
+
+  static inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<int32_t>*>, ::StringW>* getStaticF___9__8_2();
+
+  static inline ::System::Func_2<::StringW, ::StringW>* getStaticF___9__8_3();
+
+  static inline void setStaticF___9(::GlobalNamespace::PerformanceReport___c* value);
+
+  static inline void setStaticF___9__8_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<bool>*>, ::StringW>* value);
+
+  static inline void setStaticF___9__8_1(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<float_t>*>, ::StringW>* value);
+
+  static inline void setStaticF___9__8_2(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::Cvar_1<int32_t>*>, ::StringW>* value);
+
+  static inline void setStaticF___9__8_3(::System::Func_2<::StringW, ::StringW>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PerformanceReport___c();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport___c", modifiers: "&&", def_value: None, comment: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  PerformanceReport___c(PerformanceReport___c&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "PerformanceReport___c", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  PerformanceReport___c(PerformanceReport___c const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6741 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(sizeof(::GlobalNamespace::PerformanceReport___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
@@ -260,7 +363,7 @@ public:
 
   static inline ::GlobalNamespace::PerformanceReport___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <ListMetrics>b__0, addr 0x5d11e38, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <ListMetrics>b__0, addr 0x5d4baf0, size 0x38, virtual false, abstract: false, final false
   inline bool _ListMetrics_b__0(::GlobalNamespace::PerformanceReport_Metrics* m);
 
   constexpr int32_t const& __cordl_internal_get_frameCount() const;
@@ -269,7 +372,7 @@ public:
 
   constexpr void __cordl_internal_set_frameCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5d11ce4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d4b554, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -287,7 +390,7 @@ public:
   PerformanceReport___c__DisplayClass7_0(PerformanceReport___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6742 };
 
   /// @brief Field frameCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___frameCount;
@@ -315,18 +418,23 @@ public:
 
   template <typename T> using Metrics_1 = ::GlobalNamespace::PerformanceReport_Metrics_1<T>;
 
+  using __c = ::GlobalNamespace::PerformanceReport___c;
+
   using __c__DisplayClass7_0 = ::GlobalNamespace::PerformanceReport___c__DisplayClass7_0;
 
-  /// @brief Method CreateReportDescriptor, addr 0x5d11bcc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CreateReportDescriptor, addr 0x5d4b43c, size 0x118, virtual false, abstract: false, final false
   static inline ::StringW CreateReportDescriptor(::StringW tag, ::StringW environmentName, ::StringW levelId, ::StringW difficulty, ::StringW characteristic);
 
-  /// @brief Method CreateReportDescriptor, addr 0x5d11b14, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CreateReportDescriptor, addr 0x5d4b384, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW CreateReportDescriptor(::StringW tag, ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData);
 
-  /// @brief Method CreateTimestamp, addr 0x5d11364, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CreateTimestamp, addr 0x5d4abd4, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW CreateTimestamp(::System::DateTime timestamp);
 
-  /// @brief Method ListMetrics, addr 0x5d11074, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method ListCvars, addr 0x5d4a524, size 0x6b0, virtual false, abstract: false, final false
+  static inline ::StringW ListCvars(bool includeHeader);
+
+  /// @brief Method ListMetrics, addr 0x5d4a234, size 0x2f0, virtual false, abstract: false, final false
   static inline ::StringW ListMetrics(bool includeHeader, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::PerformanceReport_Metrics*> metrics);
 
 protected:
@@ -344,7 +452,7 @@ public:
   PerformanceReport(PerformanceReport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6743 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSensitivitySettingsCommand__ExecuteAsync_d__9::*)()>(
     &::GlobalNamespace::PlayerSensitivitySettingsCommand__ExecuteAsync_d__9::MoveNext)> {
   constexpr static std::size_t size = 0xb8c;
-  constexpr static std::size_t addrs = 0x35677a8;
+  constexpr static std::size_t addrs = 0x3589034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSensitivitySettingsCommand__ExecuteAsync_d__9::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::PlayerSensitivitySettingsCommand__ExecuteAsync_d__9::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3568334;
+  constexpr static std::size_t addrs = 0x3589bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSensitivitySettingsCommand__ExecuteAsync_d__9>(),
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlayerSensitivitySettingsCommand::*)()>(&::GlobalNamespace::PlayerSensitivitySettingsCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x35674d8;
+  constexpr static std::size_t addrs = 0x3588d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSensitivitySettingsCommand*>(),
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlayerSensitivitySettingsCommand::*)()>(&::GlobalNamespace::PlayerSensitivitySettingsCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x356751c;
+  constexpr static std::size_t addrs = 0x3588da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSensitivitySettingsCommand*>(),
@@ -118,7 +118,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::PlayerSensitivitySettingsCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(
         &::GlobalNamespace::PlayerSensitivitySettingsCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3567560;
+  constexpr static std::size_t addrs = 0x3588dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSensitivitySettingsCommand*>(),
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerSensitivitySettingsCommand::*)()>(&::GlobalNamespace::PlayerSensitivitySettingsCommand::_ctor)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3567650;
+  constexpr static std::size_t addrs = 0x3588edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerSensitivitySettingsCommand*>(), { ".ctor", {}, {} })));

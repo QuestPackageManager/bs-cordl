@@ -22,13 +22,13 @@ namespace UnityEngine::LowLevelPhysics2D {
 struct CORDL_TYPE PhysicsWheelJointDefinition {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6fd40ec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7010fe0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6fd1c2c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700eb20, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(bool useSettings);
 
-  /// @brief Method get_defaultDefinition, addr 0x6fd411c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_defaultDefinition, addr 0x7011010, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsWheelJointDefinition get_defaultDefinition();
 
   // Ctor Parameters []
@@ -53,7 +53,7 @@ public:
                                         float_t m_TuningDamping, float_t m_DrawScale, bool m_CollideConnected) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21563 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6c };

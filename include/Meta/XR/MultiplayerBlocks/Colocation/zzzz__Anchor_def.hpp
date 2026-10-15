@@ -30,10 +30,10 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Meta::XR::MultiplayerBlocks::Colocation::Anchor>"
   constexpr operator ::System::IEquatable_1<::Meta::XR::MultiplayerBlocks::Colocation::Anchor>*();
 
-  /// @brief Method Equals, addr 0x5e95564, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5ed1cec, size 0x8c, virtual true, abstract: false, final true
   inline bool Equals(::Meta::XR::MultiplayerBlocks::Colocation::Anchor other);
 
-  /// @brief Method .ctor, addr 0x5e94914, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ed109c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(bool isAutomaticAnchor, bool isAlignmentAnchor, uint64_t ownerOculusId, uint32_t colocationGroupId, ::System::Guid automaticAnchorUuid);
 
   /// @brief Convert to "::System::IEquatable_1<::Meta::XR::MultiplayerBlocks::Colocation::Anchor>"
@@ -49,7 +49,7 @@ public:
   constexpr Anchor(bool isAutomaticAnchor, bool isAlignmentAnchor, uint64_t ownerOculusId, uint32_t colocationGroupId, ::System::Guid automaticAnchorUuid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21704 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

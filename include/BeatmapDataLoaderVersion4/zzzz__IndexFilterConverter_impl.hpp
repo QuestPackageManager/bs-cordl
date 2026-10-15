@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::BeatmapSaveDataVersion4::IndexFilter, int32_t)>(&::BeatmapDataLoaderVersion4::IndexFilterConverter::IsIndexFilterValid)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x39eeafc;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x3a185d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,15 +21,15 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::BeatmapSaveDat
 //  Writing Method size for method: ::BeatmapDataLoaderVersion4::IndexFilterConverter.Convert
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IndexFilter* (*)(::BeatmapSaveDataVersion4::IndexFilter, int32_t)>(
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IndexFilter* (*)(::BeatmapSaveDataVersion4::IndexFilter, int32_t, bool)>(
     &::BeatmapDataLoaderVersion4::IndexFilterConverter::Convert)> {
-  constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x39edc3c;
+  constexpr static std::size_t size = 0x3cc;
+  constexpr static std::size_t addrs = 0x3a173bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::IndexFilterConverter*>(),
-                                                             { "Convert", {}, { ::i2c::type_of<::BeatmapSaveDataVersion4::IndexFilter>(), ::i2c::type_of<int32_t>() } })));
+                                                             { "Convert", {}, { ::i2c::type_of<::BeatmapSaveDataVersion4::IndexFilter>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -39,10 +39,11 @@ inline bool BeatmapDataLoaderVersion4::IndexFilterConverter::IsIndexFilterValid(
                                                            { "IsIndexFilterValid", {}, { ::i2c::type_of<::BeatmapSaveDataVersion4::IndexFilter>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(nullptr, ___internal_method, indexFilter, groupSize);
 }
-inline ::GlobalNamespace::IndexFilter* BeatmapDataLoaderVersion4::IndexFilterConverter::Convert(::BeatmapSaveDataVersion4::IndexFilter indexFilter, int32_t groupSize) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::IndexFilterConverter*>(),
-                                                                                         { "Convert", {}, { ::i2c::type_of<::BeatmapSaveDataVersion4::IndexFilter>(), ::i2c::type_of<int32_t>() } })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IndexFilter*>(nullptr, ___internal_method, indexFilter, groupSize);
+inline ::GlobalNamespace::IndexFilter* BeatmapDataLoaderVersion4::IndexFilterConverter::Convert(::BeatmapSaveDataVersion4::IndexFilter indexFilter, int32_t groupSize, bool shouldLogWarnings) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::IndexFilterConverter*>(),
+                                                           { "Convert", {}, { ::i2c::type_of<::BeatmapSaveDataVersion4::IndexFilter>(), ::i2c::type_of<int32_t>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IndexFilter*>(nullptr, ___internal_method, indexFilter, groupSize, shouldLogWarnings);
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::IndexFilterConverter::IndexFilterConverter() {}

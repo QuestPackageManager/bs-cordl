@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cc4bb4;
+  constexpr static std::size_t addrs = 0x6d01830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cc4c0c;
+  constexpr static std::size_t addrs = 0x6d01888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
     &::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c::_Render_b__2_0)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6cc4c10;
+  constexpr static std::size_t addrs = 0x6d0188c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c*>(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass::*)(::UnityEngine::Rendering::Universal::RenderPassEvent)>(
     &::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6cc46b4;
+  constexpr static std::size_t addrs = 0x6d01330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass*>(),
@@ -154,7 +154,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(
     &::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass::Render)> {
   constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x6cc4754;
+  constexpr static std::size_t addrs = 0x6d013d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::MD5CryptoServiceProvider::*)()>(&::System::Security::Cryptography::MD5CryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5f22af8;
+  constexpr static std::size_t addrs = 0x5f5f3e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::MD5CryptoServiceProvider*>(), { ".ctor", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::MD5CryptoServiceProvider::*)()>(&::System::Security::Cryptography::MD5CryptoServiceProvider::Finalize)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5f250f0;
+  constexpr static std::size_t addrs = 0x5f619d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::MD5CryptoServiceProvider*>(),
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::MD5CryptoServiceProvider::*)(bool)>(
     &::System::Security::Cryptography::MD5CryptoServiceProvider::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f25140;
+  constexpr static std::size_t addrs = 0x5f61a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::MD5CryptoServiceProvider*>(),
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::MD5CryptoServiceProvider::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Security::Cryptography::MD5CryptoServiceProvider::HashCore)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5f251b0;
+  constexpr static std::size_t addrs = 0x5f61a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::MD5CryptoServiceProvider*>(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::MD5CryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::MD5CryptoServiceProvider::HashFinal)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5f25f24;
+  constexpr static std::size_t addrs = 0x5f6280c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::MD5CryptoServiceProvider*>(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::MD5CryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::MD5CryptoServiceProvider::Initialize)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5f261bc;
+  constexpr static std::size_t addrs = 0x5f62aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::MD5CryptoServiceProvider*>(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::MD5CryptoServiceProvider::*)(::ArrayW<uint8_t>, int32_t)>(
     &::System::Security::Cryptography::MD5CryptoServiceProvider::ProcessBlock)> {
   constexpr static std::size_t size = 0xc74;
-  constexpr static std::size_t addrs = 0x5f252b0;
+  constexpr static std::size_t addrs = 0x5f61b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::MD5CryptoServiceProvider*>(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::MD5CryptoServiceProvider::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Security::Cryptography::MD5CryptoServiceProvider::ProcessFinalBlock)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x5f26000;
+  constexpr static std::size_t addrs = 0x5f628e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::MD5CryptoServiceProvider::*)(uint64_t, ::ArrayW<uint8_t>, int32_t)>(
     &::System::Security::Cryptography::MD5CryptoServiceProvider::AddLength)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5f26230;
+  constexpr static std::size_t addrs = 0x5f62b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

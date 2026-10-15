@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Reso
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, ::UnityEngine::ResourceManagement::ResourceManager*)>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GetDownloadSizeOperation::Init)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6d4d2a0;
+  constexpr static std::size_t addrs = 0x6d89f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GetDownloadSizeOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GetDownloadSizeOperation::Calculate)> {
   constexpr static std::size_t size = 0x534;
-  constexpr static std::size_t addrs = 0x6d4d2b0;
+  constexpr static std::size_t addrs = 0x6d89f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GetDownloadSizeOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GetDownloadSizeOperation::Execute)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d4d7e4;
+  constexpr static std::size_t addrs = 0x6d8a460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::AsyncOperations::GetDownloadSizeOperation*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ResourceManagement::AsyncOperations::GetDownloadSizeOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GetDownloadSizeOperation::InvokeWaitForCompletion)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6d4d7e8;
+  constexpr static std::size_t addrs = 0x6d8a464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourceManagement::AsyncOperations::GetDownloadSizeOperation*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GetDownloadSizeOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GetDownloadSizeOperation::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6d4d7fc;
+  constexpr static std::size_t addrs = 0x6d8a478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

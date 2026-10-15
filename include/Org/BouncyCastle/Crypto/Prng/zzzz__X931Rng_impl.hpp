@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::X931Rng::*)(
     ::Org::BouncyCastle::Crypto::IBlockCipher*, ::ArrayW<uint8_t>, ::Org::BouncyCastle::Crypto::IEntropySource*)>(&::Org::BouncyCastle::Crypto::Prng::X931Rng::_ctor)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x36aa23c;
+  constexpr static std::size_t addrs = 0x36ccba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Prng::X931Rng::*)(::ArrayW<uint8_t>, bool)>(&::Org::BouncyCastle::Crypto::Prng::X931Rng::Generate)> {
   constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x36aa438;
+  constexpr static std::size_t addrs = 0x36ccd9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::X931Rng::*)()>(&::Org::BouncyCastle::Crypto::Prng::X931Rng::Reseed)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x36aaa50;
+  constexpr static std::size_t addrs = 0x36cd3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::X931Rng*>(), { "Reseed", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IEntropySource* (::Org::BouncyCastle::Crypto::Prng::X931Rng::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::X931Rng::get_EntropySource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36aabe0;
+  constexpr static std::size_t addrs = 0x36cd544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::X931Rng*>(), { "get_EntropySource", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::X931Rng::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Prng::X931Rng::Process)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x36aa8cc;
+  constexpr static std::size_t addrs = 0x36cd230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::X931Rng::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::Prng::X931Rng::Increment)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x36aaa0c;
+  constexpr static std::size_t addrs = 0x36cd370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::ArrayW<uint8_t>, int32_t)>(&::Org::BouncyCastle::Crypto::Prng::X931Rng::IsTooLarge)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x36aa8b8;
+  constexpr static std::size_t addrs = 0x36cd21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Networking::UnityWebRequestAsyncOperation* (*)(::System::IntPtr)>(
     &::UnityEngine::Networking::UnityWebRequestAsyncOperation_BindingsMarshaller::ConvertToManaged)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x72c4784;
+  constexpr static std::size_t addrs = 0x73016b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::UnityWebRequestAsyncOperation_BindingsMarshaller*>(),
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::UnityWebRequestAsyncOperation::*)(::System::IntPtr)>(
     &::UnityEngine::Networking::UnityWebRequestAsyncOperation::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x72c4724;
+  constexpr static std::size_t addrs = 0x7301658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Networking::UnityWebRequest* (::UnityEngine::Networking::UnityWebRequestAsyncOperation::*)()>(
     &::UnityEngine::Networking::UnityWebRequestAsyncOperation::get_webRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72c4774;
+  constexpr static std::size_t addrs = 0x73016a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Networking::UnityWebRequestAsyncOperation::*)(::UnityEngine::Networking::UnityWebRequest*)>(
     &::UnityEngine::Networking::UnityWebRequestAsyncOperation::set_webRequest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72c477c;
+  constexpr static std::size_t addrs = 0x73016b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>(),

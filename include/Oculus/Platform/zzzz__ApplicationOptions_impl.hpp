@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::ApplicationOptions::*)()>(&::Oculus::Platform::ApplicationOptions::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61ce4ac;
+  constexpr static std::size_t addrs = 0x620aef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::ApplicationOptions*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::ApplicationOptions::*)(::StringW)>(&::Oculus::Platform::ApplicationOptions::SetDeeplinkMessage)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x61ce56c;
+  constexpr static std::size_t addrs = 0x620afb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::ApplicationOptions::*)(::StringW)>(&::Oculus::Platform::ApplicationOptions::SetDestinationApiName)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x61ce67c;
+  constexpr static std::size_t addrs = 0x620b0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::ApplicationOptions::*)(::StringW)>(&::Oculus::Platform::ApplicationOptions::SetLobbySessionId)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x61ce78c;
+  constexpr static std::size_t addrs = 0x620b1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::ApplicationOptions::*)(::StringW)>(&::Oculus::Platform::ApplicationOptions::SetMatchSessionId)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x61ce89c;
+  constexpr static std::size_t addrs = 0x620b2e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::ApplicationOptions::*)(uint64_t)>(&::Oculus::Platform::ApplicationOptions::SetRoomId)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x61ce9ac;
+  constexpr static std::size_t addrs = 0x620b3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Oculus::Platform::ApplicationOptions*)>(&::Oculus::Platform::ApplicationOptions::op_Explicit___System__IntPtr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61cea9c;
+  constexpr static std::size_t addrs = 0x620b4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::ApplicationOptions::*)()>(&::Oculus::Platform::ApplicationOptions::Finalize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x61ceaa8;
+  constexpr static std::size_t addrs = 0x620b4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

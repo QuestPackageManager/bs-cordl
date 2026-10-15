@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel::*)(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph*)>(
     &::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel::_ctor)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x6bbd38c;
+  constexpr static std::size_t addrs = 0x6bfa008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel*>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph::*)()>(&::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph::_ctor)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6bbd1fc;
+  constexpr static std::size_t addrs = 0x6bf9e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph*>(), { ".ctor", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* (::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph::UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6bbd338;
+  constexpr static std::size_t addrs = 0x6bf9fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph::get_AreAnySettingsActive)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x6bbd734;
+  constexpr static std::size_t addrs = 0x6bfa3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

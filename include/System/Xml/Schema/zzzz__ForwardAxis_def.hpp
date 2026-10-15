@@ -79,22 +79,22 @@ public:
 
   constexpr void __cordl_internal_set__topNode(::System::Xml::Schema::DoubleLinkAxis* value);
 
-  /// @brief Method .ctor, addr 0x673fa70, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x677c640, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::DoubleLinkAxis* axis, bool isdesorself);
 
-  /// @brief Method get_IsAttribute, addr 0x673fa58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAttribute, addr 0x677c628, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAttribute();
 
-  /// @brief Method get_IsDss, addr 0x673fa60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDss, addr 0x677c630, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDss();
 
-  /// @brief Method get_IsSelfAxis, addr 0x673fa68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSelfAxis, addr 0x677c638, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsSelfAxis();
 
-  /// @brief Method get_RootNode, addr 0x673fa48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootNode, addr 0x677c618, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::DoubleLinkAxis* get_RootNode();
 
-  /// @brief Method get_TopNode, addr 0x673fa50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TopNode, addr 0x677c620, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::DoubleLinkAxis* get_TopNode();
 
 protected:
@@ -112,7 +112,7 @@ public:
   ForwardAxis(ForwardAxis const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11541 };
 
   /// @brief Field _topNode, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::DoubleLinkAxis* ____topNode;

@@ -43,51 +43,51 @@ public:
   static inline ::UnityEngine::LightmapSettings* New_ctor();
 
   /// [NativeName("ResetAndAwakeFromLoad")]
-  /// @brief Method Reset, addr 0x6edcbf8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6f19894, size 0x28, virtual false, abstract: false, final false
   static inline void Reset();
 
-  /// @brief Method .ctor, addr 0x6edc8e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f1957c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakedColorSpace, addr 0x6edcc2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_bakedColorSpace, addr 0x6f198c8, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorSpace get_bakedColorSpace();
 
-  /// @brief Method get_lightProbes, addr 0x6edca00, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_lightProbes, addr 0x6f1969c, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::LightProbes> get_lightProbes();
 
-  /// @brief Method get_lightProbes_Injected, addr 0x6edcb14, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_lightProbes_Injected, addr 0x6f197b0, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_lightProbes_Injected();
 
   /// [FreeFunction]
-  /// @brief Method get_lightmaps, addr 0x6edc938, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_lightmaps, addr 0x6f195d4, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::LightmapData*> get_lightmaps();
 
-  /// @brief Method get_lightmapsMode, addr 0x6edc99c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapsMode, addr 0x6f19638, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::LightmapsMode get_lightmapsMode();
 
-  /// @brief Method get_lightmapsModeLegacy, addr 0x6edcc20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapsModeLegacy, addr 0x6f198bc, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::LightmapsModeLegacy get_lightmapsModeLegacy();
 
-  /// @brief Method set_bakedColorSpace, addr 0x6edcc7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_bakedColorSpace, addr 0x6f19918, size 0x4, virtual false, abstract: false, final false
   static inline void set_bakedColorSpace(::UnityEngine::ColorSpace value);
 
   /// [FreeFunction]
   /// [NativeName("SetLightProbes")]
-  /// @brief Method set_lightProbes, addr 0x6edcb3c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_lightProbes, addr 0x6f197d8, size 0x80, virtual false, abstract: false, final false
   static inline void set_lightProbes(::UnityEngine::LightProbes* value);
 
-  /// @brief Method set_lightProbes_Injected, addr 0x6edcbbc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_lightProbes_Injected, addr 0x6f19858, size 0x3c, virtual false, abstract: false, final false
   static inline void set_lightProbes_Injected(::System::IntPtr value);
 
   /// [FreeFunction(ThrowsException = true)]
-  /// @brief Method set_lightmaps, addr 0x6edc960, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_lightmaps, addr 0x6f195fc, size 0x3c, virtual false, abstract: false, final false
   static inline void set_lightmaps(/* [UnityMarshalAs((UnityEngine.Bindings.NativeType)0)] */ ::ArrayW<::UnityEngine::LightmapData*> value);
 
   /// [FreeFunction(ThrowsException = true)]
-  /// @brief Method set_lightmapsMode, addr 0x6edc9c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_lightmapsMode, addr 0x6f19660, size 0x3c, virtual false, abstract: false, final false
   static inline void set_lightmapsMode(::UnityEngine::LightmapsMode value);
 
-  /// @brief Method set_lightmapsModeLegacy, addr 0x6edcc28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_lightmapsModeLegacy, addr 0x6f198c4, size 0x4, virtual false, abstract: false, final false
   static inline void set_lightmapsModeLegacy(::UnityEngine::LightmapsModeLegacy value);
 
 protected:
@@ -105,7 +105,7 @@ public:
   LightmapSettings(LightmapSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9723 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

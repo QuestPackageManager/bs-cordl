@@ -5,6 +5,9 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(PlayerOptionsViewController)
+namespace BeatSaber::Analytics::Settings {
+class SettingsChangeAnalytics;
+}
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
@@ -44,20 +47,24 @@ public:
   __declspec(property(get = __cordl_internal_get__playerSettingsPanelController, put = __cordl_internal_set__playerSettingsPanelController)) ::UnityW<::GlobalNamespace::PlayerSettingsPanelController>
       _playerSettingsPanelController;
 
-  /// @brief Field didFinishEvent, offset 0x90, size 0x8
+  /// @brief Field _settingsChangeAnalytics, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__settingsChangeAnalytics,
+                      put = __cordl_internal_set__settingsChangeAnalytics)) ::BeatSaber::Analytics::Settings::SettingsChangeAnalytics* _settingsChangeAnalytics;
+
+  /// @brief Field didFinishEvent, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::HMUI::ViewController>>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x5d61c38, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5d9cb58, size 0x150, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5d62114, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5d9d060, size 0x124, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   static inline ::GlobalNamespace::PlayerOptionsViewController* New_ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method <DidActivate>b__6_0, addr 0x5d62210, size 0x20, virtual false, abstract: false, final false
-  inline void _DidActivate_b__6_0();
+  /// @brief Method <DidActivate>b__7_0, addr 0x5d9d188, size 0x20, virtual false, abstract: false, final false
+  inline void _DidActivate_b__7_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__okButton() const;
 
@@ -71,6 +78,10 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::PlayerSettingsPanelController>& __cordl_internal_get__playerSettingsPanelController();
 
+  constexpr ::BeatSaber::Analytics::Settings::SettingsChangeAnalytics* const& __cordl_internal_get__settingsChangeAnalytics() const;
+
+  constexpr ::BeatSaber::Analytics::Settings::SettingsChangeAnalytics*& __cordl_internal_get__settingsChangeAnalytics();
+
   constexpr ::System::Action_1<::UnityW<::HMUI::ViewController>>* const& __cordl_internal_get_didFinishEvent() const;
 
   constexpr ::System::Action_1<::UnityW<::HMUI::ViewController>>*& __cordl_internal_get_didFinishEvent();
@@ -81,17 +92,19 @@ public:
 
   constexpr void __cordl_internal_set__playerSettingsPanelController(::UnityW<::GlobalNamespace::PlayerSettingsPanelController> value);
 
+  constexpr void __cordl_internal_set__settingsChangeAnalytics(::BeatSaber::Analytics::Settings::SettingsChangeAnalytics* value);
+
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x5d6220c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9d184, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didFinishEvent, addr 0x5d61ab8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5d9c9d8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didFinishEvent, addr 0x5d61b78, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5d9ca98, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
 protected:
@@ -109,7 +122,7 @@ public:
   PlayerOptionsViewController(PlayerOptionsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7031 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7038 };
 
   /// [SerializeField]
   /// @brief Field _playerSettingsPanelController, offset: 0x78, size: 0x8, def value: None
@@ -123,8 +136,12 @@ public:
   /// @brief Field _playerDataModel, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
+  /// [Inject]
+  /// @brief Field _settingsChangeAnalytics, offset: 0x90, size: 0x8, def value: None
+  ::BeatSaber::Analytics::Settings::SettingsChangeAnalytics* ____settingsChangeAnalytics;
+
   /// [CompilerGenerated]
-  /// @brief Field didFinishEvent, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0x98, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::HMUI::ViewController>>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -136,8 +153,10 @@ static_assert(offsetof(::GlobalNamespace::PlayerOptionsViewController, ____okBut
 
 static_assert(offsetof(::GlobalNamespace::PlayerOptionsViewController, ____playerDataModel) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerOptionsViewController, ___didFinishEvent) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerOptionsViewController, ____settingsChangeAnalytics) == 0x90, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::PlayerOptionsViewController) == 0x98, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerOptionsViewController, ___didFinishEvent) == 0x98, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::PlayerOptionsViewController) == 0xa0, "Size mismatch!");
 
 } // namespace GlobalNamespace

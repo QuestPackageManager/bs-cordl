@@ -41,16 +41,16 @@ public:
 
   constexpr void __cordl_internal_set__ex(::Newtonsoft::Json::Schema::JsonSchemaException* value);
 
-  /// @brief Method .ctor, addr 0x6182018, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61bea60, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Schema::JsonSchemaException* ex);
 
-  /// @brief Method get_Exception, addr 0x61820a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exception, addr 0x61beaec, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaException* get_Exception();
 
-  /// @brief Method get_Message, addr 0x617703c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x61b3a84, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_Path, addr 0x61820ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x61beaf4, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
 protected:
@@ -68,7 +68,7 @@ public:
   ValidationEventArgs(ValidationEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13807 };
 
   /// @brief Field _ex, offset: 0x10, size: 0x8, def value: None
   ::Newtonsoft::Json::Schema::JsonSchemaException* ____ex;

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::Unity::Properties::TypeTraits::IsContainer)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x700e8b8;
+  constexpr static std::size_t addrs = 0x704b7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::Unity::Properties::TypeTraits::IsAbstractOrInterface)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x700e9b4;
+  constexpr static std::size_t addrs = 0x704b8a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::Unity::Properties::TypeTraits::CanBeNull)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x700e9f4;
+  constexpr static std::size_t addrs = 0x704b8e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::Unity::Properties::TypeTraits::IsObject)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x700ea58;
+  constexpr static std::size_t addrs = 0x704b94c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

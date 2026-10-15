@@ -76,7 +76,7 @@ namespace Unity::Properties {
 struct CORDL_TYPE TypeConversion_Unsafe {
 public:
   // Declarations
-  /// @brief Method LazyRegister, addr 0x700e7bc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LazyRegister, addr 0x704b6b0, size 0x78, virtual false, abstract: false, final false
   static inline void LazyRegister(::System::Type* source, ::System::Type* destination, ::System::Func_1<::System::Delegate*>* getConverterDelegate);
 
   // Ctor Parameters []
@@ -84,7 +84,7 @@ public:
   constexpr TypeConversion_Unsafe();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20825 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -115,10 +115,10 @@ public:
 
   static inline ::Unity::Properties::PrimitiveConverters_TypeConversion___c* New_ctor();
 
-  /// @brief Method <Register>b__0_0, addr 0x700e88c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <Register>b__0_0, addr 0x704b780, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Guid _Register_b__0_0(::by_ref<::StringW> g);
 
-  /// @brief Method .ctor, addr 0x700e888, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x704b77c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Properties::PrimitiveConverters_TypeConversion___c* getStaticF___9();
@@ -144,7 +144,7 @@ public:
   PrimitiveConverters_TypeConversion___c(PrimitiveConverters_TypeConversion___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20826 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -161,7 +161,7 @@ public:
   // Declarations
   using __c = ::Unity::Properties::PrimitiveConverters_TypeConversion___c;
 
-  /// @brief Method Register, addr 0x700e5fc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x704b4f0, size 0x180, virtual false, abstract: false, final false
   static inline void Register();
 
 protected:
@@ -179,7 +179,7 @@ public:
   TypeConversion_PrimitiveConverters(TypeConversion_PrimitiveConverters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20827 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -252,7 +252,7 @@ public:
   TypeConversion_PrimitivesConverters(TypeConversion_PrimitivesConverters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20828 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -276,7 +276,7 @@ public:
   /// @brief Field s_GlobalConverters, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_s_GlobalConverters, put = setStaticF_s_GlobalConverters)) ::Unity::Properties::ConversionRegistry s_GlobalConverters;
 
-  /// @brief Method IsNumericType, addr 0x700e77c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsNumericType, addr 0x704b670, size 0x40, virtual false, abstract: false, final false
   static inline bool IsNumericType(::System::Type* t);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
@@ -315,7 +315,7 @@ public:
   TypeConversion(TypeConversion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20829 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

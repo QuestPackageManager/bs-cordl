@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_FontStyleStack::*)()>(&::TMPro::TMP_FontStyleStack::Clear)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6dbcb00;
+  constexpr static std::size_t addrs = 0x6df979c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_FontStyleStack>(), { "Clear", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::TMPro::TMP_FontStyleStack::*)(::TMPro::FontStyles)>(&::TMPro::TMP_FontStyleStack::Add)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6dbcb0c;
+  constexpr static std::size_t addrs = 0x6df97a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_FontStyleStack>(), { "Add", {}, { ::i2c::type_of<::TMPro::FontStyles>() } })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::TMPro::TMP_FontStyleStack::*)(::TMPro::FontStyles)>(&::TMPro::TMP_FontStyleStack::Remove)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6dbcc10;
+  constexpr static std::size_t addrs = 0x6df98ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

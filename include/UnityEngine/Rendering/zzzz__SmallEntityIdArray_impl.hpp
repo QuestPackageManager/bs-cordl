@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::SmallEntityIdArray::*)()>(&::UnityEngine::Rendering::SmallEntityIdArray::get_Valid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c5cb30;
+  constexpr static std::size_t addrs = 0x6c997ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SmallEntityIdArray>(), { "get_Valid", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SmallEntityIdArray::*)(bool)>(&::UnityEngine::Rendering::SmallEntityIdArray::set_Valid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c5cb38;
+  constexpr static std::size_t addrs = 0x6c997b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SmallEntityIdArray::*)(int32_t, ::Unity::Collections::Allocator)>(
     &::UnityEngine::Rendering::SmallEntityIdArray::_ctor)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x6c5cb40;
+  constexpr static std::size_t addrs = 0x6c997bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SmallEntityIdArray>(),
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::EntityId (::UnityEngine::Rendering::SmallEntityIdArray::*)(int32_t)>(&::UnityEngine::Rendering::SmallEntityIdArray::get_Item)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6c5cce0;
+  constexpr static std::size_t addrs = 0x6c9995c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SmallEntityIdArray::*)(int32_t, ::UnityEngine::EntityId)>(
     &::UnityEngine::Rendering::SmallEntityIdArray::set_Item)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6c5cdd4;
+  constexpr static std::size_t addrs = 0x6c99a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SmallEntityIdArray>(),
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SmallEntityIdArray::*)()>(&::UnityEngine::Rendering::SmallEntityIdArray::Dispose)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c5afe8;
+  constexpr static std::size_t addrs = 0x6c97c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SmallEntityIdArray>(), { "Dispose", {}, {} })));

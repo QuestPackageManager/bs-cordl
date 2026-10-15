@@ -55,31 +55,31 @@ public:
 
   constexpr void __cordl_internal_set__isDirectory_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x399118c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39b557c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW fullPath, bool isDirectory);
 
   /// [CompilerGenerated]
-  /// @brief Method get_displayName, addr 0x39939bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x39b7dac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
   /// [CompilerGenerated]
-  /// @brief Method get_fullPath, addr 0x39939cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullPath, addr 0x39b7dbc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_fullPath();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isDirectory, addr 0x39939dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDirectory, addr 0x39b7dcc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDirectory();
 
   /// [CompilerGenerated]
-  /// @brief Method set_displayName, addr 0x39939c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x39b7db4, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_fullPath, addr 0x39939d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fullPath, addr 0x39b7dc4, size 0x8, virtual false, abstract: false, final false
   inline void set_fullPath(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isDirectory, addr 0x39939e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isDirectory, addr 0x39b7dd4, size 0x8, virtual false, abstract: false, final false
   inline void set_isDirectory(bool value);
 
 protected:
@@ -97,7 +97,7 @@ public:
   FileBrowserItem(FileBrowserItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15101 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14315 };
 
   /// [CompilerGenerated]
   /// @brief Field <displayName>k__BackingField, offset: 0x10, size: 0x8, def value: None

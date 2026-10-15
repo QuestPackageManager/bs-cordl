@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConsoleMessage::*)(::StringW, ::UnityEngine::LogType)>(&::GlobalNamespace::ConsoleMessage::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3570e1c;
+  constexpr static std::size_t addrs = 0x35934bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::ConsoleMessage::*)()>(&::GlobalNamespace::ConsoleMessage::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3570e28;
+  constexpr static std::size_t addrs = 0x35934c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

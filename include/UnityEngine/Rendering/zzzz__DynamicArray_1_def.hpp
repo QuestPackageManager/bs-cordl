@@ -101,7 +101,7 @@ public:
   constexpr DynamicArray_1_Iterator(::UnityEngine::Rendering::DynamicArray_1<T>* owner, int32_t index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8773 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -149,7 +149,7 @@ public:
   constexpr RangeEnumerable_DynamicArray_1_RangeIterator(::UnityEngine::Rendering::DynamicArray_1<T>* owner, int32_t index, int32_t first, int32_t last) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8767 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8774 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -192,7 +192,7 @@ public:
   constexpr DynamicArray_1_RangeEnumerable(::UnityEngine::Rendering::RangeEnumerable_DynamicArray_1_RangeIterator<T> iterator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8775 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -242,7 +242,7 @@ public:
   DynamicArray_1_SortComparer(DynamicArray_1_SortComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8776 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -406,7 +406,7 @@ public:
   DynamicArray_1(DynamicArray_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8770 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8777 };
 
   /// @brief Field m_Array, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T> ___m_Array;

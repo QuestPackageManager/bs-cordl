@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DepthOrderedDirtyTracking::*)(int32_t)>(
     &::UnityEngine::UIElements::UIR::DepthOrderedDirtyTracking::EnsureFits)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x7179410;
+  constexpr static std::size_t addrs = 0x71b6344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::UIR::RenderData*, ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes, ::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses)>(
     &::UnityEngine::UIElements::UIR::DepthOrderedDirtyTracking::RegisterDirty)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x717bba8;
+  constexpr static std::size_t addrs = 0x71b8adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DepthOrderedDirtyTracking::*)(
     ::UnityEngine::UIElements::UIR::RenderData*, ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes)>(&::UnityEngine::UIElements::UIR::DepthOrderedDirtyTracking::ClearDirty)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x717bd94;
+  constexpr static std::size_t addrs = 0x71b8cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::DepthOrderedDirtyTracking::*)()>(&::UnityEngine::UIElements::UIR::DepthOrderedDirtyTracking::Reset)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x717bf2c;
+  constexpr static std::size_t addrs = 0x71b8e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::DepthOrderedDirtyTracking>(), { "Reset", {}, {} })));

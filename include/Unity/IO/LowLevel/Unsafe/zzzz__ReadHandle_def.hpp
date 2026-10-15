@@ -37,58 +37,58 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Cancel, addr 0x6eb0ee8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Cancel, addr 0x6eedb84, size 0xcc, virtual false, abstract: false, final false
   inline void Cancel();
 
   /// [FreeFunction("AsyncReadManagerManaged::CancelReadRequest")]
-  /// @brief Method CancelInternal, addr 0x6eb0fb4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CancelInternal, addr 0x6eedc50, size 0x40, virtual false, abstract: false, final false
   static inline void CancelInternal(::Unity::IO::LowLevel::Unsafe::ReadHandle handle);
 
-  /// @brief Method CancelInternal_Injected, addr 0x6eb0ff4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CancelInternal_Injected, addr 0x6eedc90, size 0x3c, virtual false, abstract: false, final false
   static inline void CancelInternal_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const> handle);
 
-  /// @brief Method Dispose, addr 0x6eb0ce0, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6eed97c, size 0xfc, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// [FreeFunction("AsyncReadManagerManaged::GetJobHandle", IsThreadSafe = true)]
   /// [ThreadAndSerializationSafe]
-  /// @brief Method GetJobHandle, addr 0x6eb10d4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetJobHandle, addr 0x6eedd70, size 0x4c, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle GetJobHandle(::Unity::IO::LowLevel::Unsafe::ReadHandle handle);
 
-  /// @brief Method GetJobHandle_Injected, addr 0x6eb1214, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetJobHandle_Injected, addr 0x6eedeb0, size 0x44, virtual false, abstract: false, final false
   static inline void GetJobHandle_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const> handle, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
   /// [ThreadAndSerializationSafe]
   /// [FreeFunction("AsyncReadManagerManaged::GetReadStatus", IsThreadSafe = true)]
-  /// @brief Method GetReadStatus, addr 0x6eb1120, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetReadStatus, addr 0x6eeddbc, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::IO::LowLevel::Unsafe::ReadStatus GetReadStatus(::Unity::IO::LowLevel::Unsafe::ReadHandle handle);
 
-  /// @brief Method GetReadStatus_Injected, addr 0x6eb1160, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetReadStatus_Injected, addr 0x6eeddfc, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::IO::LowLevel::Unsafe::ReadStatus GetReadStatus_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const> handle);
 
   /// [ThreadAndSerializationSafe]
   /// [FreeFunction("AsyncReadManagerManaged::IsReadHandleValid", IsThreadSafe = true)]
-  /// @brief Method IsReadHandleValid, addr 0x6eb0c9c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsReadHandleValid, addr 0x6eed938, size 0x44, virtual false, abstract: false, final false
   static inline bool IsReadHandleValid(::Unity::IO::LowLevel::Unsafe::ReadHandle handle);
 
-  /// @brief Method IsReadHandleValid_Injected, addr 0x6eb11d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsReadHandleValid_Injected, addr 0x6eede74, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsReadHandleValid_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const> handle);
 
-  /// @brief Method IsValid, addr 0x6eb0c54, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6eed8f0, size 0x48, virtual false, abstract: false, final false
   inline bool IsValid();
 
   /// [FreeFunction("AsyncReadManagerManaged::ReleaseReadHandle", IsThreadSafe = true)]
   /// [ThreadAndSerializationSafe]
-  /// @brief Method ReleaseReadHandle, addr 0x6eb0ea8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ReleaseReadHandle, addr 0x6eedb44, size 0x40, virtual false, abstract: false, final false
   static inline void ReleaseReadHandle(::Unity::IO::LowLevel::Unsafe::ReadHandle handle);
 
-  /// @brief Method ReleaseReadHandle_Injected, addr 0x6eb119c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseReadHandle_Injected, addr 0x6eede38, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseReadHandle_Injected(::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle const> handle);
 
-  /// @brief Method get_JobHandle, addr 0x6eb1030, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_JobHandle, addr 0x6eedccc, size 0xa4, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle get_JobHandle();
 
-  /// @brief Method get_Status, addr 0x6eb0ddc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x6eeda78, size 0xcc, virtual false, abstract: false, final false
   inline ::Unity::IO::LowLevel::Unsafe::ReadStatus get_Status();
 
   /// @brief Convert to "::System::IDisposable"
@@ -103,7 +103,7 @@ public:
   constexpr ReadHandle(::System::IntPtr ptr, int32_t version) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9552 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

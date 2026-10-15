@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::NamespaceListNode::*)(::System::Xml::Schema::NamespaceList*, ::System::Object*)>(
     &::System::Xml::Schema::NamespaceListNode::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67469e4;
+  constexpr static std::size_t addrs = 0x67835b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (::System::Xml::Schema::NamespaceListNode::*)(::System::Xml::Schema::SymbolsDictionary*)>(
     &::System::Xml::Schema::NamespaceListNode::GetResolvedSymbols)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x67469ec;
+  constexpr static std::size_t addrs = 0x67835bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::NamespaceListNode::*)(::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*,
                                                                                                           ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::NamespaceListNode::ExpandTree)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x6746a08;
+  constexpr static std::size_t addrs = 0x67835d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::NamespaceListNode::*)(
     ::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*>)>(&::System::Xml::Schema::NamespaceListNode::ConstructPos)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6746e2c;
+  constexpr static std::size_t addrs = 0x67839fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::NamespaceListNode::*)()>(&::System::Xml::Schema::NamespaceListNode::get_IsNullable)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6746e64;
+  constexpr static std::size_t addrs = 0x6783a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

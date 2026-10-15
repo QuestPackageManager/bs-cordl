@@ -27,7 +27,7 @@ namespace UnityEngine::Bindings {
 struct CORDL_TYPE OutStringMarshaller {
 public:
   // Declarations
-  /// @brief Method GetStringAndDispose, addr 0x6f5a15c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetStringAndDispose, addr 0x6f97010, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW GetStringAndDispose(::UnityEngine::Bindings::ManagedSpanWrapper managedSpan);
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
   constexpr OutStringMarshaller();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10074 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

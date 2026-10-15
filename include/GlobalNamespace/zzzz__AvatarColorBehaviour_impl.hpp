@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarColorBehaviour::*)(::UnityEngine::Playables::Playable)>(&::GlobalNamespace::AvatarColorBehaviour::OnGraphStart)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5d218b4;
+  constexpr static std::size_t addrs = 0x5d5bbc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarColorBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(
     &::GlobalNamespace::AvatarColorBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x5d2192c;
+  constexpr static std::size_t addrs = 0x5d5bc3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarColorBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::AvatarColorBehaviour::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5d21b30;
+  constexpr static std::size_t addrs = 0x5d5be40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AvatarColorBehaviour::*)()>(&::GlobalNamespace::AvatarColorBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d21bc0;
+  constexpr static std::size_t addrs = 0x5d5bed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AvatarColorBehaviour*>(), { ".ctor", {}, {} })));

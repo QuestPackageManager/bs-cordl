@@ -108,7 +108,7 @@ public:
   static ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerArucoDictEXT const Dict_7x7_50;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17566 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17599 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

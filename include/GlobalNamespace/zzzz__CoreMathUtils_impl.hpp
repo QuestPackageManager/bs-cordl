@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t, float_t, float_t)>(&::GlobalNamespace::CoreMathUtils::CalculateHalfJumpDurationInBeats)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3981c20;
+  constexpr static std::size_t addrs = 0x39a4594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::GlobalNamespace::CoreMathUtils::CalculateEffectiveHalfJumpDurationInBeats)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3981c64;
+  constexpr static std::size_t addrs = 0x39a45d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CoreMathUtils::*)()>(&::GlobalNamespace::CoreMathUtils::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3981d08;
+  constexpr static std::size_t addrs = 0x39a467c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoreMathUtils*>(), { ".ctor", {}, {} })));

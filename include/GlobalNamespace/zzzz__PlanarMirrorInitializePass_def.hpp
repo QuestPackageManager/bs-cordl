@@ -52,13 +52,13 @@ public:
 
   static inline ::GlobalNamespace::PlanarMirrorInitializePass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent renderPassEvent, ::GlobalNamespace::MirrorRendererSO* mirrorRenderer);
 
-  /// @brief Method RecordRenderGraph, addr 0x6364654, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x63a112c, size 0x214, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method SetReflectedMatricesLeft, addr 0x6363e80, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetReflectedMatricesLeft, addr 0x63a0958, size 0x34, virtual false, abstract: false, final false
   inline void SetReflectedMatricesLeft(::UnityEngine::Matrix4x4 reflectedViewLeft, ::UnityEngine::Matrix4x4 reflectedProjLeft);
 
-  /// @brief Method SetReflectedMatricesRight, addr 0x6364138, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetReflectedMatricesRight, addr 0x63a0c10, size 0x30, virtual false, abstract: false, final false
   inline void SetReflectedMatricesRight(::UnityEngine::Matrix4x4 reflectedViewRight, ::UnityEngine::Matrix4x4 reflectedProjRight);
 
   constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO> const& __cordl_internal_get__mirrorRenderer() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__reflectedViewRight(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method .ctor, addr 0x63645f4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a10cc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent renderPassEvent, ::GlobalNamespace::MirrorRendererSO* mirrorRenderer);
 
 protected:
@@ -109,7 +109,7 @@ public:
   PlanarMirrorInitializePass(PlanarMirrorInitializePass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21192 };
 
   /// @brief Field _mirrorRenderer, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirrorRendererSO> ____mirrorRenderer;

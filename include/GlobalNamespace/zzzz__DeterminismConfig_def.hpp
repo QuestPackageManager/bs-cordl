@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(DeterminismConfig)
 namespace GlobalNamespace {
 class TimeHelper;
@@ -28,6 +29,9 @@ public:
   /// @brief Field <isDeterministic>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__isDeterministic_k__BackingField, put = __cordl_internal_set__isDeterministic_k__BackingField)) bool _isDeterministic_k__BackingField;
 
+  /// @brief Field _lastRandomSeed, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__lastRandomSeed, put = __cordl_internal_set__lastRandomSeed)) uint32_t _lastRandomSeed;
+
   /// @brief Field _timeHelper, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__timeHelper, put = __cordl_internal_set__timeHelper)) ::UnityW<::GlobalNamespace::TimeHelper> _timeHelper;
 
@@ -38,12 +42,19 @@ public:
 
   static inline ::GlobalNamespace::DeterminismConfig* New_ctor(bool initialDeterminism, ::GlobalNamespace::TimeHelper* timeHelper);
 
-  /// @brief Method SetDeterminism, addr 0x35af75c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method NextRandomSeed, addr 0x35d21a0, size 0x84, virtual false, abstract: false, final false
+  inline uint32_t NextRandomSeed();
+
+  /// @brief Method SetDeterminism, addr 0x35d203c, size 0x84, virtual false, abstract: false, final false
   inline void SetDeterminism(bool isDeterministic);
 
   constexpr bool const& __cordl_internal_get__isDeterministic_k__BackingField() const;
 
   constexpr bool& __cordl_internal_get__isDeterministic_k__BackingField();
+
+  constexpr uint32_t const& __cordl_internal_get__lastRandomSeed() const;
+
+  constexpr uint32_t& __cordl_internal_get__lastRandomSeed();
 
   constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& __cordl_internal_get__timeHelper() const;
 
@@ -55,27 +66,29 @@ public:
 
   constexpr void __cordl_internal_set__isDeterministic_k__BackingField(bool value);
 
+  constexpr void __cordl_internal_set__lastRandomSeed(uint32_t value);
+
   constexpr void __cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value);
 
   constexpr void __cordl_internal_set_determinismSetEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x35af754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d2034, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool initialDeterminism, ::GlobalNamespace::TimeHelper* timeHelper);
 
   /// [CompilerGenerated]
-  /// @brief Method add_determinismSetEvent, addr 0x35af5d4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_determinismSetEvent, addr 0x35d1eb4, size 0xc0, virtual false, abstract: false, final false
   inline void add_determinismSetEvent(::System::Action_1<bool>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_isDeterministic, addr 0x35af5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDeterministic, addr 0x35d1ea4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDeterministic();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_determinismSetEvent, addr 0x35af694, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_determinismSetEvent, addr 0x35d1f74, size 0xc0, virtual false, abstract: false, final false
   inline void remove_determinismSetEvent(::System::Action_1<bool>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isDeterministic, addr 0x35af5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isDeterministic, addr 0x35d1eac, size 0x8, virtual false, abstract: false, final false
   inline void set_isDeterministic(bool value);
 
 protected:
@@ -93,7 +106,7 @@ public:
   DeterminismConfig(DeterminismConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21457 };
 
   /// [CompilerGenerated]
   /// @brief Field <isDeterministic>k__BackingField, offset: 0x10, size: 0x1, def value: None
@@ -106,6 +119,9 @@ public:
   /// @brief Field _timeHelper, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
 
+  /// @brief Field _lastRandomSeed, offset: 0x28, size: 0x4, def value: None
+  uint32_t ____lastRandomSeed;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -115,6 +131,8 @@ static_assert(offsetof(::GlobalNamespace::DeterminismConfig, ___determinismSetEv
 
 static_assert(offsetof(::GlobalNamespace::DeterminismConfig, ____timeHelper) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::DeterminismConfig) == 0x28, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::DeterminismConfig, ____lastRandomSeed) == 0x28, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::DeterminismConfig) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace

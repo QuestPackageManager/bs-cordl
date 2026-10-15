@@ -45,7 +45,7 @@ public:
   __declspec(property(get = __cordl_internal_get_sessionId, put = __cordl_internal_set_sessionId)) ::StringW sessionId;
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreateLicensingInitAnalytic, addr 0x72c0220, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateLicensingInitAnalytic, addr 0x72fd154, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEditor::Analytics::LicensingInitAnalytic* CreateLicensingInitAnalytic();
 
   static inline ::UnityEditor::Analytics::LicensingInitAnalytic* New_ctor();
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_sessionId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x72c01a8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72fd0dc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -110,7 +110,7 @@ public:
   LicensingInitAnalytic(LicensingInitAnalytic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23285 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23389 };
 
   /// @brief Field licensingProtocolVersion, offset: 0x30, size: 0x8, def value: None
   ::StringW ___licensingProtocolVersion;

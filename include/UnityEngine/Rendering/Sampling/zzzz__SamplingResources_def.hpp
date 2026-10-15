@@ -78,7 +78,7 @@ public:
   static ::UnityEngine::Rendering::Sampling::SamplingResources_ResourceType const SobolMatrices;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9278 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -122,10 +122,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Bind, addr 0x6bf1ee4, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x6c2eb60, size 0x228, virtual false, abstract: false, final false
   static inline void Bind(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Sampling::SamplingResources* resources);
 
-  /// @brief Method Dispose, addr 0x6bf210c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c2ed88, size 0x14, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::Rendering::Sampling::SamplingResources* New_ctor();
@@ -154,7 +154,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SobolScramblingTile(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x6bf2120, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2ed9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint32_t> getStaticF_sobolMatrices();
@@ -179,7 +179,7 @@ public:
   SamplingResources(SamplingResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9272 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9279 };
 
   /// @brief Field m_SobolScramblingTile, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ___m_SobolScramblingTile;

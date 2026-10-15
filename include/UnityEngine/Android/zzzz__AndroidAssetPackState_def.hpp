@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__status_k__BackingField(::UnityEngine::Android::AndroidAssetPackStatus value);
 
-  /// @brief Method .ctor, addr 0x6e81b30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ebe7cc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, ::UnityEngine::Android::AndroidAssetPackError error);
 
 protected:
@@ -75,7 +75,7 @@ public:
   AndroidAssetPackState(AndroidAssetPackState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20657 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20704 };
 
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]
   /// [CompilerGenerated]

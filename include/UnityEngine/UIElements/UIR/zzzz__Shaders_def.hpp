@@ -69,13 +69,13 @@ public:
   /// @brief Field s_RefCount, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_RefCount, put = setStaticF_s_RefCount)) int32_t s_RefCount;
 
-  /// @brief Method Acquire, addr 0x7184c94, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x71c1bc8, size 0x64, virtual false, abstract: false, final false
   static inline void Acquire();
 
-  /// @brief Method GetOrCreateMaterial, addr 0x7184b0c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateMaterial, addr 0x71c1a40, size 0x188, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetOrCreateMaterial(::by_ref<::UnityEngine::Material*> material, ::StringW shaderName);
 
-  /// @brief Method Release, addr 0x7184cf8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x71c1c2c, size 0x128, virtual false, abstract: false, final false
   static inline void Release();
 
   static inline ::StringW getStaticF_k_AtlasBlit();
@@ -108,7 +108,7 @@ public:
 
   static inline int32_t getStaticF_s_RefCount();
 
-  /// @brief Method get_defaultMaterial, addr 0x7184aac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_defaultMaterial, addr 0x71c19e0, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_defaultMaterial();
 
   static inline void setStaticF_k_AtlasBlit(::StringW value);

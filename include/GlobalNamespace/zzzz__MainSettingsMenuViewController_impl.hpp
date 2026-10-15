@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewController::*)(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>*)>(
     &::GlobalNamespace::MainSettingsMenuViewController::add_didSelectSettingsSubMenuEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e29548;
+  constexpr static std::size_t addrs = 0x5e67010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewController::*)(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>*)>(
     &::GlobalNamespace::MainSettingsMenuViewController::remove_didSelectSettingsSubMenuEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e298c8;
+  constexpr static std::size_t addrs = 0x5e67390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MainSettingsMenuViewController::*)()>(&::GlobalNamespace::MainSettingsMenuViewController::get_numberOfSubMenus)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e29640;
+  constexpr static std::size_t addrs = 0x5e67108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSettingsMenuViewController*>(), { "get_numberOfSubMenus", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SettingsSubMenuInfo* (::GlobalNamespace::MainSettingsMenuViewController::*)()>(
     &::GlobalNamespace::MainSettingsMenuViewController::get_selectedSubMenuInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e36900;
+  constexpr static std::size_t addrs = 0x5e743e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewController::*)(int32_t)>(&::GlobalNamespace::MainSettingsMenuViewController::Init)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e29608;
+  constexpr static std::size_t addrs = 0x5e670d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::MainSettingsMenuViewController::DidActivate)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x5e36908;
+  constexpr static std::size_t addrs = 0x5e743e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::MainSettingsMenuViewController::HandleSettingsMenuSegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5e36b0c;
+  constexpr static std::size_t addrs = 0x5e745ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewController::*)()>(&::GlobalNamespace::MainSettingsMenuViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e36b60;
+  constexpr static std::size_t addrs = 0x5e74640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainSettingsMenuViewController*>(), { ".ctor", {}, {} })));

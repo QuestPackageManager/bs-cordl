@@ -25,7 +25,7 @@ namespace UnityEngine::AddressableAssets::Utility {
 class CORDL_TYPE AssemblyUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAssemblies, addr 0x688c928, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetAssemblies, addr 0x68c95a4, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Reflection::Assembly*>* GetAssemblies();
 
 protected:
@@ -43,7 +43,7 @@ public:
   AssemblyUtility(AssemblyUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20150 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20197 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IndexFilter__GetEnumerator_d__23::*)(int32_t)>(&::GlobalNamespace::IndexFilter__GetEnumerator_d__23::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a2b98;
+  constexpr static std::size_t addrs = 0x39c718c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IndexFilter__GetEnumerator_d__23::*)()>(
     &::GlobalNamespace::IndexFilter__GetEnumerator_d__23::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39a2c34;
+  constexpr static std::size_t addrs = 0x39c7228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,8 +62,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::IndexFilter__GetEnumerator_d__23::*)()>(&::GlobalNamespace::IndexFilter__GetEnumerator_d__23::MoveNext)> {
-  constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x39a2c50;
+  constexpr static std::size_t size = 0x4b0;
+  constexpr static std::size_t addrs = 0x39c7244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IndexFilter__GetEnumerator_d__23*>(), { "MoveNext", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IndexFilter__GetEnumerator_d__23::*)()>(&::GlobalNamespace::IndexFilter__GetEnumerator_d__23::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x39a30f8;
+  constexpr static std::size_t addrs = 0x39c76f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IndexFilter__GetEnumerator_d__23*>(), { "<>m__Finally1", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_3<int32_t, int32_t, int32_t> (::GlobalNamespace::IndexFilter__GetEnumerator_d__23::*)()>(
     &::GlobalNamespace::IndexFilter__GetEnumerator_d__23::System_Collections_Generic_IEnumerator__System_Int32element_System_Int32durationOrder_System_Int32distributionOrder___get_Current)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39a31ac;
+  constexpr static std::size_t addrs = 0x39c77a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IndexFilter__GetEnumerator_d__23::*)()>(
     &::GlobalNamespace::IndexFilter__GetEnumerator_d__23::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39a31bc;
+  constexpr static std::size_t addrs = 0x39c77b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::IndexFilter__GetEnumerator_d__23::*)()>(
     &::GlobalNamespace::IndexFilter__GetEnumerator_d__23::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x39a31f4;
+  constexpr static std::size_t addrs = 0x39c77f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IndexFilter__GetValues_d__24::*)(int32_t)>(&::GlobalNamespace::IndexFilter__GetValues_d__24::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39a2c10;
+  constexpr static std::size_t addrs = 0x39c7204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IndexFilter__GetValues_d__24::*)()>(&::GlobalNamespace::IndexFilter__GetValues_d__24::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39a325c;
+  constexpr static std::size_t addrs = 0x39c7858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::IndexFilter__GetValues_d__24::*)()>(&::GlobalNamespace::IndexFilter__GetValues_d__24::MoveNext)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39a3260;
+  constexpr static std::size_t addrs = 0x39c785c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IndexFilter__GetValues_d__24*>(), { "MoveNext", {}, {} })));
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::IndexFilter__GetValues_d__24::*)()>(
     &::GlobalNamespace::IndexFilter__GetValues_d__24::System_Collections_Generic_IEnumerator_System_Int32__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a32e0;
+  constexpr static std::size_t addrs = 0x39c78dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IndexFilter__GetValues_d__24::*)()>(
     &::GlobalNamespace::IndexFilter__GetValues_d__24::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39a32e8;
+  constexpr static std::size_t addrs = 0x39c78e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::IndexFilter__GetValues_d__24::*)()>(
     &::GlobalNamespace::IndexFilter__GetValues_d__24::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39a3320;
+  constexpr static std::size_t addrs = 0x39c791c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<int32_t>* (::GlobalNamespace::IndexFilter__GetValues_d__24::*)()>(
     &::GlobalNamespace::IndexFilter__GetValues_d__24::System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x39a3344;
+  constexpr static std::size_t addrs = 0x39c7940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::IndexFilter__GetValues_d__24::*)()>(
     &::GlobalNamespace::IndexFilter__GetValues_d__24::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39a33dc;
+  constexpr static std::size_t addrs = 0x39c79d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -559,7 +559,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a29e0;
+  constexpr static std::size_t addrs = 0x39c6fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IndexFilter*>(), { "get_Count", {}, {} })));
@@ -571,7 +571,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::get_VisibleCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a29e8;
+  constexpr static std::size_t addrs = 0x39c6fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IndexFilter*>(), { "get_VisibleCount", {}, {} })));
@@ -584,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType (::GlobalNamespace::IndexFilter::*)()>(
     &::GlobalNamespace::IndexFilter::get_limitAlsoAffectType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a29f0;
+  constexpr static std::size_t addrs = 0x39c6fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IndexFilter*>(), { "get_limitAlsoAffectType", {}, {} })));
@@ -596,7 +596,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::get_limitsDuration)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39a29f8;
+  constexpr static std::size_t addrs = 0x39c6fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IndexFilter*>(), { "get_limitsDuration", {}, {} })));
@@ -608,7 +608,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::get_limitsDistribution)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x399fd38;
+  constexpr static std::size_t addrs = 0x39c432c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IndexFilter*>(), { "get_limitsDistribution", {}, {} })));
@@ -622,7 +622,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                 int32_t, float_t, ::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType)>(
     &::GlobalNamespace::IndexFilter::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x39a2a04;
+  constexpr static std::size_t addrs = 0x39c6ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -642,7 +642,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                 float_t, ::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType)>(
     &::GlobalNamespace::IndexFilter::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x39a2abc;
+  constexpr static std::size_t addrs = 0x39c70b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -661,7 +661,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t, int32_t, int32_t>>* (::GlobalNamespace::IndexFilter::*)()>(
     &::GlobalNamespace::IndexFilter::GetEnumerator)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x39a056c;
+  constexpr static std::size_t addrs = 0x39c4b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IndexFilter*>(), { "GetEnumerator", {}, {} })));
@@ -673,7 +673,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::GetValues)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x39a2ba0;
+  constexpr static std::size_t addrs = 0x39c7194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IndexFilter*>(), { "GetValues", {}, {} })));
@@ -686,7 +686,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::IndexFilter::*)()>(
     &::GlobalNamespace::IndexFilter::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39a2c30;
+  constexpr static std::size_t addrs = 0x39c7224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

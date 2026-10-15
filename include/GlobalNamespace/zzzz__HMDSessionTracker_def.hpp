@@ -12,8 +12,11 @@ CORDL_MODULE_EXPORT(HMDSessionTracker)
 namespace BeatSaber::Analytics::Gameplay {
 class IGameplayEventsDispatcher;
 }
+namespace BeatSaber::Analytics::Settings {
+class SettingsSnapshotAnalytics;
+}
 namespace GlobalNamespace {
-struct HMDSessionTracker__InitializeAsync_d__4;
+struct HMDSessionTracker__InitializeAsync_d__5;
 }
 namespace GlobalNamespace {
 class IXRSystemState;
@@ -38,29 +41,29 @@ namespace GlobalNamespace {
 class HMDSessionTracker;
 }
 namespace GlobalNamespace {
-struct HMDSessionTracker__InitializeAsync_d__4;
+struct HMDSessionTracker__InitializeAsync_d__5;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::HMDSessionTracker*);
-MARK_VAL_T(::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4);
+MARK_VAL_T(::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__5);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::HMDSessionTracker*, "", "HMDSessionTracker");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4, "", "HMDSessionTracker/<InitializeAsync>d__4");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__5, "", "HMDSessionTracker/<InitializeAsync>d__5");
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: HMDSessionTracker/<InitializeAsync>d__4
-struct CORDL_TYPE HMDSessionTracker__InitializeAsync_d__4 {
+// CS Name: HMDSessionTracker/<InitializeAsync>d__5
+struct CORDL_TYPE HMDSessionTracker__InitializeAsync_d__5 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5cc8160, size 0x588, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d01140, size 0x588, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5cc86e8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d016c8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -68,12 +71,12 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr HMDSessionTracker__InitializeAsync_d__4();
+  constexpr HMDSessionTracker__InitializeAsync_d__5();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::HMDSessionTracker*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr HMDSessionTracker__InitializeAsync_d__4(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::HMDSessionTracker* __4__this,
+  constexpr HMDSessionTracker__InitializeAsync_d__5(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::HMDSessionTracker* __4__this,
                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -97,15 +100,15 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__5, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__5, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__5, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4, __u__1) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__5, __u__1) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4) == 0x30, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__5) == 0x30, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Object
@@ -115,11 +118,14 @@ namespace GlobalNamespace {
 class CORDL_TYPE HMDSessionTracker : public ::System::Object {
 public:
   // Declarations
-  using _InitializeAsync_d__4 = ::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__4;
+  using _InitializeAsync_d__5 = ::GlobalNamespace::HMDSessionTracker__InitializeAsync_d__5;
 
   /// @brief Field _gameplayEventsDispatcher, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__gameplayEventsDispatcher,
                       put = __cordl_internal_set__gameplayEventsDispatcher)) ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* _gameplayEventsDispatcher;
+
+  /// @brief Field _settingsSnapshot, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__settingsSnapshot, put = __cordl_internal_set__settingsSnapshot)) ::BeatSaber::Analytics::Settings::SettingsSnapshotAnalytics* _settingsSnapshot;
 
   /// @brief Field _xrSystemState, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__xrSystemState, put = __cordl_internal_set__xrSystemState)) ::GlobalNamespace::IXRSystemState* _xrSystemState;
@@ -130,30 +136,35 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5cc7e84, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5d00e64, size 0x1b0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleApplicationQuitting, addr 0x5cc8034, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method HandleApplicationQuitting, addr 0x5d01014, size 0x12c, virtual false, abstract: false, final false
   inline bool HandleApplicationQuitting();
 
-  /// @brief Method HandleHmdStateChanged, addr 0x5cc7d20, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method HandleHmdStateChanged, addr 0x5d00d00, size 0x164, virtual false, abstract: false, final false
   inline void HandleHmdStateChanged(::GlobalNamespace::XRSystemEventType xrSystemEventType);
 
-  /// @brief Method Initialize, addr 0x5cc7ad0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x5d00aa0, size 0x80, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// [AsyncStateMachine(typeof(HMDSessionTracker::<InitializeAsync>d__4))]
-  /// @brief Method InitializeAsync, addr 0x5cc7b50, size 0xb0, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(HMDSessionTracker::<InitializeAsync>d__5))]
+  /// @brief Method InitializeAsync, addr 0x5d00b20, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
-  static inline ::GlobalNamespace::HMDSessionTracker* New_ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher, ::GlobalNamespace::IXRSystemState* xrSystemState);
+  static inline ::GlobalNamespace::HMDSessionTracker* New_ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher,
+                                                               ::BeatSaber::Analytics::Settings::SettingsSnapshotAnalytics* settingsSnapshot, ::GlobalNamespace::IXRSystemState* xrSystemState);
 
-  /// @brief Method StartSession, addr 0x5cc7c00, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method StartSession, addr 0x5d00bd0, size 0x130, virtual false, abstract: false, final false
   inline void StartSession();
 
   constexpr ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* const& __cordl_internal_get__gameplayEventsDispatcher() const;
 
   constexpr ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher*& __cordl_internal_get__gameplayEventsDispatcher();
+
+  constexpr ::BeatSaber::Analytics::Settings::SettingsSnapshotAnalytics* const& __cordl_internal_get__settingsSnapshot() const;
+
+  constexpr ::BeatSaber::Analytics::Settings::SettingsSnapshotAnalytics*& __cordl_internal_get__settingsSnapshot();
 
   constexpr ::GlobalNamespace::IXRSystemState* const& __cordl_internal_get__xrSystemState() const;
 
@@ -161,10 +172,13 @@ public:
 
   constexpr void __cordl_internal_set__gameplayEventsDispatcher(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* value);
 
+  constexpr void __cordl_internal_set__settingsSnapshot(::BeatSaber::Analytics::Settings::SettingsSnapshotAnalytics* value);
+
   constexpr void __cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value);
 
-  /// @brief Method .ctor, addr 0x5cc7ac8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher, ::GlobalNamespace::IXRSystemState* xrSystemState);
+  /// @brief Method .ctor, addr 0x5d00a94, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher, ::BeatSaber::Analytics::Settings::SettingsSnapshotAnalytics* settingsSnapshot,
+                    ::GlobalNamespace::IXRSystemState* xrSystemState);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
@@ -195,6 +209,9 @@ public:
   /// @brief Field _xrSystemState, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IXRSystemState* ____xrSystemState;
 
+  /// @brief Field _settingsSnapshot, offset: 0x20, size: 0x8, def value: None
+  ::BeatSaber::Analytics::Settings::SettingsSnapshotAnalytics* ____settingsSnapshot;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -202,6 +219,8 @@ static_assert(offsetof(::GlobalNamespace::HMDSessionTracker, ____gameplayEventsD
 
 static_assert(offsetof(::GlobalNamespace::HMDSessionTracker, ____xrSystemState) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::HMDSessionTracker) == 0x20, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::HMDSessionTracker, ____settingsSnapshot) == 0x20, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::HMDSessionTracker) == 0x28, "Size mismatch!");
 
 } // namespace GlobalNamespace

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Internal::DefaultValueAttribute::*)(::StringW)>(&::UnityEngine::Internal::DefaultValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f5ee58;
+  constexpr static std::size_t addrs = 0x6f9bd34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Internal::DefaultValueAttribute::*)()>(&::UnityEngine::Internal::DefaultValueAttribute::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f5ee60;
+  constexpr static std::size_t addrs = 0x6f9bd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Internal::DefaultValueAttribute*>(), { "get_Value", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Internal::DefaultValueAttribute::*)(::System::Object*)>(&::UnityEngine::Internal::DefaultValueAttribute::Equals)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6f5ee68;
+  constexpr static std::size_t addrs = 0x6f9bd44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Internal::DefaultValueAttribute::*)()>(&::UnityEngine::Internal::DefaultValueAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6f5ef1c;
+  constexpr static std::size_t addrs = 0x6f9bdf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

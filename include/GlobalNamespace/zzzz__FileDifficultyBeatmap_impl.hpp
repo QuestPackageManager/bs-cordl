@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FileDifficultyBeatmap::*)(::StringW, ::StringW)>(&::GlobalNamespace::FileDifficultyBeatmap::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b3c88;
+  constexpr static std::size_t addrs = 0x39d9630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,8 +21,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::GlobalNamespace::FileDifficultyBeatmap::*)()>(
     &::GlobalNamespace::FileDifficultyBeatmap::GetBeatmapStringAsync)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x39b3c90;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x39d9638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileDifficultyBeatmap*>(), { "GetBeatmapStringAsync", {}, {} })));
@@ -34,8 +34,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::GlobalNamespace::FileDifficultyBeatmap::*)()>(
     &::GlobalNamespace::FileDifficultyBeatmap::GetLightshowStringAsync)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x39b3d50;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x39d96fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileDifficultyBeatmap*>(), { "GetLightshowStringAsync", {}, {} })));
@@ -46,8 +46,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::FileDifficultyBeatmap::*)()>(&::GlobalNamespace::FileDifficultyBeatmap::GetBeatmapString)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39b3e10;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x39d97c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileDifficultyBeatmap*>(), { "GetBeatmapString", {}, {} })));
@@ -58,8 +58,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamesp
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::FileDifficultyBeatmap::*)()>(&::GlobalNamespace::FileDifficultyBeatmap::GetLightshowString)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39b3e88;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x39d983c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FileDifficultyBeatmap*>(), { "GetLightshowString", {}, {} })));

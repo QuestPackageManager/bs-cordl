@@ -27,16 +27,16 @@ public:
   /// @brief [CreateProperty]
   __declspec(property(get = get_name, put = set_name)) ::StringW name;
 
-  /// @brief Method get_index, addr 0x7235f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x7272e50, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_index();
 
-  /// @brief Method get_name, addr 0x7235f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x7272e60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_index, addr 0x7235f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_index, addr 0x7272e58, size 0x8, virtual false, abstract: false, final false
   inline void set_index(int32_t value);
 
-  /// @brief Method set_name, addr 0x7235f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x7272e68, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
   // Ctor Parameters []

@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult::*)(
     ::UnityEngine::UI::Graphic*, float_t, ::UnityEngine::Vector3, ::UnityEngine::Vector2)>(&::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x72d7ce0;
+  constexpr static std::size_t addrs = 0x7314d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRGraphicRaycaster___c::*)()>(&::VRUIControls::VRGraphicRaycaster___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72d7e60;
+  constexpr static std::size_t addrs = 0x7314ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRGraphicRaycaster___c*>(), { ".ctor", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::VRUIControls::VRGraphicRaycaster___c::*)(
     ::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult, ::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult)>(&::VRUIControls::VRGraphicRaycaster___c::_RaycastCanvas_b__12_0)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x72d7e64;
+  constexpr static std::size_t addrs = 0x7314ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Camera> (::VRUIControls::VRGraphicRaycaster::*)()>(&::VRUIControls::VRGraphicRaycaster::get_eventCamera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72d69f4;
+  constexpr static std::size_t addrs = 0x7313928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRGraphicRaycaster::*)()>(&::VRUIControls::VRGraphicRaycaster::OnEnable)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x72d69fc;
+  constexpr static std::size_t addrs = 0x7313930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,8 +149,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRGraphicRaycaster::*)(
     ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*)>(&::VRUIControls::VRGraphicRaycaster::Raycast)> {
-  constexpr static std::size_t size = 0x62c;
-  constexpr static std::size_t addrs = 0x72d6a78;
+  constexpr static std::size_t size = 0x69c;
+  constexpr static std::size_t addrs = 0x73139ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,11 +161,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRG
 //  Writing Method size for method: ::VRUIControls::VRGraphicRaycaster.RaycastCanvas
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<
-    static_cast<void (*)(::UnityEngine::Canvas*, ::UnityEngine::Ray, float_t, float_t, ::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>*)>(
-        &::VRUIControls::VRGraphicRaycaster::RaycastCanvas)> {
-  constexpr static std::size_t size = 0xc3c;
-  constexpr static std::size_t addrs = 0x72d70a4;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Canvas*, ::UnityEngine::Ray, float_t, float_t,
+                                                                ::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>*, ::by_ref<::UnityEngine::Vector3>)>(
+    &::VRUIControls::VRGraphicRaycaster::RaycastCanvas)> {
+  constexpr static std::size_t size = 0xcfc;
+  constexpr static std::size_t addrs = 0x7314048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                              { "RaycastCanvas",
                                                                {},
                                                                { ::i2c::type_of<::UnityEngine::Canvas*>(), ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
-                                                                 ::i2c::type_of<::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>*>() } })));
+                                                                 ::i2c::type_of<::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>*>(),
+                                                                 ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
     return ___internal_method;
   }
 };
@@ -182,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::VRUIControls::VRGraphicRaycaster::*)()>(&::VRUIControls::VRGraphicRaycaster::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x72d7cf4;
+  constexpr static std::size_t addrs = 0x7314d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRGraphicRaycaster*>(), { ".ctor", {}, {} })));
@@ -269,14 +270,16 @@ inline void VRUIControls::VRGraphicRaycaster::Raycast(::UnityEngine::EventSystem
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, eventData, resultAppendList);
 }
 inline void VRUIControls::VRGraphicRaycaster::RaycastCanvas(::UnityEngine::Canvas* canvas, ::UnityEngine::Ray ray, float_t hitDistance, float_t curvedUIRadius,
-                                                            ::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>* results) {
+                                                            ::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>* results,
+                                                            ::by_ref<::UnityEngine::Vector3> worldNormal) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRGraphicRaycaster*>(),
                                                            { "RaycastCanvas",
                                                              {},
                                                              { ::i2c::type_of<::UnityEngine::Canvas*>(), ::i2c::type_of<::UnityEngine::Ray>(), ::i2c::type_of<float_t>(), ::i2c::type_of<float_t>(),
-                                                               ::i2c::type_of<::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>*>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, canvas, ray, hitDistance, curvedUIRadius, results);
+                                                               ::i2c::type_of<::System::Collections::Generic::List_1<::VRUIControls::VRGraphicRaycaster_VRGraphicRaycastResult>*>(),
+                                                               ::i2c::type_of<::by_ref<::UnityEngine::Vector3>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method, canvas, ray, hitDistance, curvedUIRadius, results, worldNormal);
 }
 inline void VRUIControls::VRGraphicRaycaster::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::VRUIControls::VRGraphicRaycaster*>(), { ".ctor", {}, {} })));

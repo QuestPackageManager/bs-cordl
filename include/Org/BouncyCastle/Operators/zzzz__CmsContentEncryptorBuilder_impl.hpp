@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::GetKeySize)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3693e34;
+  constexpr static std::size_t addrs = 0x36b6798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3693fcc;
+  constexpr static std::size_t addrs = 0x36b6930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, int32_t)>(
     &::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3694040;
+  constexpr static std::size_t addrs = 0x36b69a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* (::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::*)()>(
     &::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::Build)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x36940a8;
+  constexpr static std::size_t addrs = 0x36b6a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder*>(), { "Build", {}, {} })));

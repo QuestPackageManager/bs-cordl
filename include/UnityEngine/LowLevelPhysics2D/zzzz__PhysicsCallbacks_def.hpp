@@ -193,7 +193,7 @@ public:
   PhysicsCallbacks_IBodyUpdateCallback(PhysicsCallbacks_IBodyUpdateCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21530 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21577 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -214,7 +214,7 @@ public:
   PhysicsCallbacks_IContactFilterCallback(PhysicsCallbacks_IContactFilterCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21531 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21578 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -235,7 +235,7 @@ public:
   PhysicsCallbacks_IPreSolveCallback(PhysicsCallbacks_IPreSolveCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21532 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21579 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -259,7 +259,7 @@ public:
   PhysicsCallbacks_ITriggerCallback(PhysicsCallbacks_ITriggerCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21533 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21580 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -283,7 +283,7 @@ public:
   PhysicsCallbacks_IContactCallback(PhysicsCallbacks_IContactCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21581 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -304,7 +304,7 @@ public:
   PhysicsCallbacks_IJointThresholdCallback(PhysicsCallbacks_IJointThresholdCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21582 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -322,10 +322,10 @@ public:
 
   __declspec(property(get = get_bodyUpdateEvent)) ::UnityEngine::LowLevelPhysics2D::PhysicsEvents_BodyUpdateEvent bodyUpdateEvent;
 
-  /// @brief Method get_bodyTarget, addr 0x6fd5540, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_bodyTarget, addr 0x7012434, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_IBodyUpdateCallback* get_bodyTarget();
 
-  /// @brief Method get_bodyUpdateEvent, addr 0x6fd552c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_bodyUpdateEvent, addr 0x7012420, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsEvents_BodyUpdateEvent get_bodyUpdateEvent();
 
   // Ctor Parameters []
@@ -336,7 +336,7 @@ public:
   constexpr BodyUpdateCallbackTargets_PhysicsCallbacks_BodyUpdateTarget(::UnityEngine::LowLevelPhysics2D::PhysicsEvents_BodyUpdateEvent m_BodyUpdateEvent) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21536 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21583 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -368,10 +368,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6fd54dc, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x70123d0, size 0x50, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method get_bodyUpdateCallbackTargets, addr 0x6fd5490, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_bodyUpdateCallbackTargets, addr 0x7012384, size 0x4c, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::LowLevelPhysics2D::BodyUpdateCallbackTargets_PhysicsCallbacks_BodyUpdateTarget> get_bodyUpdateCallbackTargets();
 
   /// @brief Convert to "::System::IDisposable"
@@ -385,7 +385,7 @@ public:
   constexpr PhysicsCallbacks_BodyUpdateCallbackTargets(::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D_PhysicsBuffer m_BodyUpdateCallbackTargets) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21537 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21584 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -415,13 +415,13 @@ public:
 
   __declspec(property(get = get_visitorShapeTarget)) ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ITriggerCallback* visitorShapeTarget;
 
-  /// @brief Method get_beginEvent, addr 0x6fd5738, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_beginEvent, addr 0x701262c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerBeginEvent get_beginEvent();
 
-  /// @brief Method get_triggerShapeTarget, addr 0x6fd5744, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_triggerShapeTarget, addr 0x7012638, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ITriggerCallback* get_triggerShapeTarget();
 
-  /// @brief Method get_visitorShapeTarget, addr 0x6fd5890, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_visitorShapeTarget, addr 0x7012784, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ITriggerCallback* get_visitorShapeTarget();
 
   // Ctor Parameters []
@@ -432,7 +432,7 @@ public:
   constexpr TriggerCallbackTargets_PhysicsCallbacks_TriggerBeginTarget(::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerBeginEvent m_BeginEvent) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21585 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -462,13 +462,13 @@ public:
 
   __declspec(property(get = get_visitorShapeTarget)) ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ITriggerCallback* visitorShapeTarget;
 
-  /// @brief Method get_endEvent, addr 0x6fd5950, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_endEvent, addr 0x7012844, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerEndEvent get_endEvent();
 
-  /// @brief Method get_triggerShapeTarget, addr 0x6fd595c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_triggerShapeTarget, addr 0x7012850, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ITriggerCallback* get_triggerShapeTarget();
 
-  /// @brief Method get_visitorShapeTarget, addr 0x6fd5a1c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_visitorShapeTarget, addr 0x7012910, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ITriggerCallback* get_visitorShapeTarget();
 
   // Ctor Parameters []
@@ -479,7 +479,7 @@ public:
   constexpr TriggerCallbackTargets_PhysicsCallbacks_TriggerEndTarget(::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerEndEvent m_EndEvent) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21586 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -514,13 +514,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6fd5698, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x701258c, size 0xa0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method get_BeginCallbackTargets, addr 0x6fd5600, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_BeginCallbackTargets, addr 0x70124f4, size 0x4c, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::LowLevelPhysics2D::TriggerCallbackTargets_PhysicsCallbacks_TriggerBeginTarget> get_BeginCallbackTargets();
 
-  /// @brief Method get_EndCallbackTargets, addr 0x6fd564c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_EndCallbackTargets, addr 0x7012540, size 0x4c, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::LowLevelPhysics2D::TriggerCallbackTargets_PhysicsCallbacks_TriggerEndTarget> get_EndCallbackTargets();
 
   /// @brief Convert to "::System::IDisposable"
@@ -536,7 +536,7 @@ public:
                                                     ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D_PhysicsBuffer m_EndCallbackTargets) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21587 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -571,13 +571,13 @@ public:
 
   __declspec(property(get = get_shapeTargetB)) ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_IContactCallback* shapeTargetB;
 
-  /// @brief Method get_beginEvent, addr 0x6fd5c14, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_beginEvent, addr 0x7012b08, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactBeginEvent get_beginEvent();
 
-  /// @brief Method get_shapeTargetA, addr 0x6fd5c28, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_shapeTargetA, addr 0x7012b1c, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_IContactCallback* get_shapeTargetA();
 
-  /// @brief Method get_shapeTargetB, addr 0x6fd5ce8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_shapeTargetB, addr 0x7012bdc, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_IContactCallback* get_shapeTargetB();
 
   // Ctor Parameters []
@@ -588,7 +588,7 @@ public:
   constexpr ContactCallbackTargets_PhysicsCallbacks_ContactBeginTarget(::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactBeginEvent m_BeginEvent) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21588 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
@@ -618,13 +618,13 @@ public:
 
   __declspec(property(get = get_shapeTargetB)) ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_IContactCallback* shapeTargetB;
 
-  /// @brief Method get_endEvent, addr 0x6fd5da8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_endEvent, addr 0x7012c9c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactEndEvent get_endEvent();
 
-  /// @brief Method get_shapeTargetA, addr 0x6fd5dbc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_shapeTargetA, addr 0x7012cb0, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_IContactCallback* get_shapeTargetA();
 
-  /// @brief Method get_shapeTargetB, addr 0x6fd5e7c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_shapeTargetB, addr 0x7012d70, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_IContactCallback* get_shapeTargetB();
 
   // Ctor Parameters []
@@ -635,7 +635,7 @@ public:
   constexpr ContactCallbackTargets_PhysicsCallbacks_ContactEndTarget(::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactEndEvent m_EndEvent) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21542 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21589 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
@@ -670,13 +670,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6fd5b74, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x7012a68, size 0xa0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method get_BeginCallbackTargets, addr 0x6fd5adc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_BeginCallbackTargets, addr 0x70129d0, size 0x4c, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::LowLevelPhysics2D::ContactCallbackTargets_PhysicsCallbacks_ContactBeginTarget> get_BeginCallbackTargets();
 
-  /// @brief Method get_EndCallbackTargets, addr 0x6fd5b28, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_EndCallbackTargets, addr 0x7012a1c, size 0x4c, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::LowLevelPhysics2D::ContactCallbackTargets_PhysicsCallbacks_ContactEndTarget> get_EndCallbackTargets();
 
   /// @brief Convert to "::System::IDisposable"
@@ -692,7 +692,7 @@ public:
                                                     ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D_PhysicsBuffer m_EndCallbackTargets) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21543 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21590 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -725,10 +725,10 @@ public:
 
   __declspec(property(get = get_jointThresholdEvent)) ::UnityEngine::LowLevelPhysics2D::PhysicsEvents_JointThresholdEvent jointThresholdEvent;
 
-  /// @brief Method get_jointTarget, addr 0x6fd5fe4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_jointTarget, addr 0x7012ed8, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_IJointThresholdCallback* get_jointTarget();
 
-  /// @brief Method get_jointThresholdEvent, addr 0x6fd5fd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_jointThresholdEvent, addr 0x7012ecc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsEvents_JointThresholdEvent get_jointThresholdEvent();
 
   // Ctor Parameters []
@@ -739,7 +739,7 @@ public:
   constexpr JointThresholdCallbackTargets_PhysicsCallbacks_JointThresholdTarget(::UnityEngine::LowLevelPhysics2D::PhysicsEvents_JointThresholdEvent m_JointThresholdEvent) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21591 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -771,10 +771,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6fd5f88, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x7012e7c, size 0x50, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method get_jointThresholdCallbackTargets, addr 0x6fd5f3c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_jointThresholdCallbackTargets, addr 0x7012e30, size 0x4c, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::LowLevelPhysics2D::JointThresholdCallbackTargets_PhysicsCallbacks_JointThresholdTarget> get_jointThresholdCallbackTargets();
 
   /// @brief Convert to "::System::IDisposable"
@@ -789,7 +789,7 @@ public:
   constexpr PhysicsCallbacks_JointThresholdCallbackTargets(::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelScripting2D_PhysicsBuffer m_JointThresholdCallbackTargets) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21592 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -839,7 +839,7 @@ public:
   constexpr PhysicsCallbacks();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21593 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

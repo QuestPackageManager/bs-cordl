@@ -36,17 +36,17 @@ namespace UnityEngine::UIElements::UIR {
 struct CORDL_TYPE DepthOrderedDirtyTracking {
 public:
   // Declarations
-  /// @brief Method ClearDirty, addr 0x717bd94, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ClearDirty, addr 0x71b8cc8, size 0x198, virtual false, abstract: false, final false
   inline void ClearDirty(::UnityEngine::UIElements::UIR::RenderData* renderData, ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes dirtyTypesInverse);
 
-  /// @brief Method EnsureFits, addr 0x7179410, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method EnsureFits, addr 0x71b6344, size 0x128, virtual false, abstract: false, final false
   inline void EnsureFits(int32_t maxDepth);
 
-  /// @brief Method RegisterDirty, addr 0x717bba8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method RegisterDirty, addr 0x71b8adc, size 0x1ec, virtual false, abstract: false, final false
   inline void RegisterDirty(::UnityEngine::UIElements::UIR::RenderData* renderData, ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes dirtyTypes,
                             ::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses dirtyTypeClass);
 
-  /// @brief Method Reset, addr 0x717bf2c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x71b8e60, size 0x74, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters []

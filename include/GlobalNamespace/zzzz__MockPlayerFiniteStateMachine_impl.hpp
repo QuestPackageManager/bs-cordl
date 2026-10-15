@@ -9,6 +9,7 @@
 #include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
 #include "GlobalNamespace/zzzz__IMenuRpcManager_def.hpp"
 #include "GlobalNamespace/zzzz__IMockBeatmapDataProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IMockPlayerEntitlementResolver_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerGamePoseGenerator_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerLobbyPoseGenerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -18,20 +19,20 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(
     ::BGNet::Core::ITaskUtility*, ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*, ::GlobalNamespace::IGameplayRpcManager*, ::GlobalNamespace::IMenuRpcManager*,
-    ::GlobalNamespace::IMockBeatmapDataProvider*, ::GlobalNamespace::MockPlayerLobbyPoseGenerator*, ::GlobalNamespace::MockPlayerGamePoseGenerator*)>(
-    &::GlobalNamespace::MockPlayerFiniteStateMachine::_ctor)> {
+    ::GlobalNamespace::IMockBeatmapDataProvider*, ::GlobalNamespace::MockPlayerLobbyPoseGenerator*, ::GlobalNamespace::MockPlayerGamePoseGenerator*,
+    ::GlobalNamespace::IMockPlayerEntitlementResolver*)>(&::GlobalNamespace::MockPlayerFiniteStateMachine::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e9ab20;
+  constexpr static std::size_t addrs = 0x5ed731c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(),
-                                                             { ".ctor",
-                                                               {},
-                                                               { ::i2c::type_of<::BGNet::Core::ITaskUtility*>(), ::i2c::type_of<::GlobalNamespace::IBeatSaberMultiplayerSessionManager*>(),
-                                                                 ::i2c::type_of<::GlobalNamespace::IGameplayRpcManager*>(), ::i2c::type_of<::GlobalNamespace::IMenuRpcManager*>(),
-                                                                 ::i2c::type_of<::GlobalNamespace::IMockBeatmapDataProvider*>(), ::i2c::type_of<::GlobalNamespace::MockPlayerLobbyPoseGenerator*>(),
-                                                                 ::i2c::type_of<::GlobalNamespace::MockPlayerGamePoseGenerator*>() } })));
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(),
+                                                { ".ctor",
+                                                  {},
+                                                  { ::i2c::type_of<::BGNet::Core::ITaskUtility*>(), ::i2c::type_of<::GlobalNamespace::IBeatSaberMultiplayerSessionManager*>(),
+                                                    ::i2c::type_of<::GlobalNamespace::IGameplayRpcManager*>(), ::i2c::type_of<::GlobalNamespace::IMenuRpcManager*>(),
+                                                    ::i2c::type_of<::GlobalNamespace::IMockBeatmapDataProvider*>(), ::i2c::type_of<::GlobalNamespace::MockPlayerLobbyPoseGenerator*>(),
+                                                    ::i2c::type_of<::GlobalNamespace::MockPlayerGamePoseGenerator*>(), ::i2c::type_of<::GlobalNamespace::IMockPlayerEntitlementResolver*>() } })));
     return ___internal_method;
   }
 };
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::get_saberAColor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e9ab24;
+  constexpr static std::size_t addrs = 0x5ed7320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "get_saberAColor", {}, {} })));
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::set_saberAColor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e9ab38;
+  constexpr static std::size_t addrs = 0x5ed7334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::get_saberBColor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e9ab3c;
+  constexpr static std::size_t addrs = 0x5ed7338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "get_saberBColor", {}, {} })));
@@ -81,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::set_saberBColor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e9ab50;
+  constexpr static std::size_t addrs = 0x5ed734c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::get_obstaclesColor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5e9ab54;
+  constexpr static std::size_t addrs = 0x5ed7350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "get_obstaclesColor", {}, {} })));
@@ -108,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::set_obstaclesColor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e9ab68;
+  constexpr static std::size_t addrs = 0x5ed7364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&::GlobalNamespace::MockPlayerFiniteStateMachine::get_leftHanded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e9ab6c;
+  constexpr static std::size_t addrs = 0x5ed7368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "get_leftHanded", {}, {} })));
@@ -133,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(bool)>(&::GlobalNamespace::MockPlayerFiniteStateMachine::set_leftHanded)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e9ab74;
+  constexpr static std::size_t addrs = 0x5ed7370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&::GlobalNamespace::MockPlayerFiniteStateMachine::get_inactiveByDefault)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e9ab78;
+  constexpr static std::size_t addrs = 0x5ed7374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "get_inactiveByDefault", {}, {} })));
@@ -158,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(bool)>(&::GlobalNamespace::MockPlayerFiniteStateMachine::set_inactiveByDefault)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e9ab80;
+  constexpr static std::size_t addrs = 0x5ed737c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MockPlayerGamePoseGenerator* (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::get_gamePoseGenerator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e9ab84;
+  constexpr static std::size_t addrs = 0x5ed7380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "get_gamePoseGenerator", {}, {} })));
@@ -184,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&::GlobalNamespace::MockPlayerFiniteStateMachine::Tick)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e9ab8c;
+  constexpr static std::size_t addrs = 0x5ed7388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "Tick", {}, {} })));
@@ -196,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&::GlobalNamespace::MockPlayerFiniteStateMachine::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e9ab90;
+  constexpr static std::size_t addrs = 0x5ed738c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "Dispose", {}, {} })));
@@ -208,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(bool)>(&::GlobalNamespace::MockPlayerFiniteStateMachine::SetIsReady)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e9ab94;
+  constexpr static std::size_t addrs = 0x5ed7390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -222,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(::GlobalNamespace::BeatmapDifficulty, ::StringW)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::RecommendBeatmap)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e9ab98;
+  constexpr static std::size_t addrs = 0x5ed7394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::MockPlayerFiniteStateMachine::RecommendGameplayModifiers)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e9ab9c;
+  constexpr static std::size_t addrs = 0x5ed7398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(),
@@ -245,20 +246,33 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::MockPlayerFiniteStateMachine.ResendLevelEntitlement
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&::GlobalNamespace::MockPlayerFiniteStateMachine::ResendLevelEntitlement)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ed739c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "ResendLevelEntitlement", {}, {} })));
+    return ___internal_method;
+  }
+};
 inline void GlobalNamespace::MockPlayerFiniteStateMachine::_ctor(::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager,
                                                                  ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, ::GlobalNamespace::IMenuRpcManager* menuRpcManager,
                                                                  ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider, ::GlobalNamespace::MockPlayerLobbyPoseGenerator* lobbyPoseGenerator,
-                                                                 ::GlobalNamespace::MockPlayerGamePoseGenerator* gamePoseGenerator) {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(),
-                                                           { ".ctor",
-                                                             {},
-                                                             { ::i2c::type_of<::BGNet::Core::ITaskUtility*>(), ::i2c::type_of<::GlobalNamespace::IBeatSaberMultiplayerSessionManager*>(),
-                                                               ::i2c::type_of<::GlobalNamespace::IGameplayRpcManager*>(), ::i2c::type_of<::GlobalNamespace::IMenuRpcManager*>(),
-                                                               ::i2c::type_of<::GlobalNamespace::IMockBeatmapDataProvider*>(), ::i2c::type_of<::GlobalNamespace::MockPlayerLobbyPoseGenerator*>(),
-                                                               ::i2c::type_of<::GlobalNamespace::MockPlayerGamePoseGenerator*>() } })));
+                                                                 ::GlobalNamespace::MockPlayerGamePoseGenerator* gamePoseGenerator,
+                                                                 ::GlobalNamespace::IMockPlayerEntitlementResolver* entitlementResolver) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(),
+                                              { ".ctor",
+                                                {},
+                                                { ::i2c::type_of<::BGNet::Core::ITaskUtility*>(), ::i2c::type_of<::GlobalNamespace::IBeatSaberMultiplayerSessionManager*>(),
+                                                  ::i2c::type_of<::GlobalNamespace::IGameplayRpcManager*>(), ::i2c::type_of<::GlobalNamespace::IMenuRpcManager*>(),
+                                                  ::i2c::type_of<::GlobalNamespace::IMockBeatmapDataProvider*>(), ::i2c::type_of<::GlobalNamespace::MockPlayerLobbyPoseGenerator*>(),
+                                                  ::i2c::type_of<::GlobalNamespace::MockPlayerGamePoseGenerator*>(), ::i2c::type_of<::GlobalNamespace::IMockPlayerEntitlementResolver*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, taskUtility, multiplayerSessionManager, gameplayRpcManager, menuRpcManager, beatmapDataProvider, lobbyPoseGenerator,
-                                                   gamePoseGenerator);
+                                                   gamePoseGenerator, entitlementResolver);
 }
 inline ::UnityEngine::Color GlobalNamespace::MockPlayerFiniteStateMachine::get_saberAColor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "get_saberAColor", {}, {} })));
@@ -333,13 +347,17 @@ inline void GlobalNamespace::MockPlayerFiniteStateMachine::RecommendGameplayModi
                                                                                          { "RecommendGameplayModifiers", {}, { ::i2c::type_of<::GlobalNamespace::GameplayModifiers*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, gameplayModifiers);
 }
+inline void GlobalNamespace::MockPlayerFiniteStateMachine::ResendLevelEntitlement() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerFiniteStateMachine*>(), { "ResendLevelEntitlement", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
 inline ::GlobalNamespace::MockPlayerFiniteStateMachine*
 GlobalNamespace::MockPlayerFiniteStateMachine::New_ctor(::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager,
                                                         ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, ::GlobalNamespace::IMenuRpcManager* menuRpcManager,
                                                         ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider, ::GlobalNamespace::MockPlayerLobbyPoseGenerator* lobbyPoseGenerator,
-                                                        ::GlobalNamespace::MockPlayerGamePoseGenerator* gamePoseGenerator) {
+                                                        ::GlobalNamespace::MockPlayerGamePoseGenerator* gamePoseGenerator, ::GlobalNamespace::IMockPlayerEntitlementResolver* entitlementResolver) {
   return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MockPlayerFiniteStateMachine*>(taskUtility, multiplayerSessionManager, gameplayRpcManager, menuRpcManager,
-                                                                                                            beatmapDataProvider, lobbyPoseGenerator, gamePoseGenerator));
+                                                                                                            beatmapDataProvider, lobbyPoseGenerator, gamePoseGenerator, entitlementResolver));
 }
 /// @brief Convert operator to "::System::IDisposable"
 constexpr GlobalNamespace::MockPlayerFiniteStateMachine::operator ::System::IDisposable*() noexcept {

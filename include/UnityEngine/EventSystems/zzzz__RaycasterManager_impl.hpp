@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::EventSystems::BaseRaycaster*)>(&::UnityEngine::EventSystems::RaycasterManager::AddRaycaster)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x72be260;
+  constexpr static std::size_t addrs = 0x72fb194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::RaycasterManager*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* (*)()>(
     &::UnityEngine::EventSystems::RaycasterManager::GetRaycasters)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x72be37c;
+  constexpr static std::size_t addrs = 0x72fb2b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::RaycasterManager*>(), { "GetRaycasters", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::EventSystems::BaseRaycaster*)>(&::UnityEngine::EventSystems::RaycasterManager::RemoveRaycasters)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x72be3d8;
+  constexpr static std::size_t addrs = 0x72fb30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::RaycasterManager*>(),

@@ -304,60 +304,60 @@ public:
 
   __declspec(property(get = get_xrUniversal)) ::UnityEngine::Rendering::Universal::XRPassUniversal* xrUniversal;
 
-  /// @brief Method GetGPUProjectionMatrix, addr 0x6ca477c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetGPUProjectionMatrix, addr 0x6ce13f8, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetGPUProjectionMatrix(bool renderIntoTexture, int32_t viewIndex);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method GetGPUProjectionMatrix, addr 0x6ca3eb8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetGPUProjectionMatrix, addr 0x6ce0b34, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetGPUProjectionMatrix(int32_t viewIndex);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method GetGPUProjectionMatrixNoJitter, addr 0x6ca3ec8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetGPUProjectionMatrixNoJitter, addr 0x6ce0b44, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetGPUProjectionMatrixNoJitter(int32_t viewIndex);
 
-  /// @brief Method GetProjectionMatrix, addr 0x6ca4604, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetProjectionMatrix, addr 0x6ce1280, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetProjectionMatrix(int32_t viewIndex);
 
-  /// @brief Method GetProjectionMatrixNoJitter, addr 0x6ca4800, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetProjectionMatrixNoJitter, addr 0x6ce147c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetProjectionMatrixNoJitter(int32_t viewIndex);
 
-  /// @brief Method GetViewMatrix, addr 0x6ca4700, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetViewMatrix, addr 0x6ce137c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetViewMatrix(int32_t viewIndex);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method IsCameraProjectionMatrixFlipped, addr 0x6ca3ed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsCameraProjectionMatrixFlipped, addr 0x6ce0b54, size 0x8, virtual false, abstract: false, final false
   inline bool IsCameraProjectionMatrixFlipped();
 
-  /// @brief Method IsHandleYFlipped, addr 0x6ca4d98, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method IsHandleYFlipped, addr 0x6ce1a14, size 0x214, virtual false, abstract: false, final false
   inline bool IsHandleYFlipped(::UnityEngine::Rendering::RTHandle* handle);
 
-  /// @brief Method IsRenderTargetProjectionMatrixFlipped, addr 0x6ca4fac, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsRenderTargetProjectionMatrixFlipped, addr 0x6ce1c28, size 0xc0, virtual false, abstract: false, final false
   inline bool IsRenderTargetProjectionMatrixFlipped(::UnityEngine::Rendering::RTHandle* color, ::UnityEngine::Rendering::RTHandle* depth);
 
-  /// @brief Method IsSTPEnabled, addr 0x6ca51a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsSTPEnabled, addr 0x6ce1e20, size 0x24, virtual false, abstract: false, final false
   inline bool IsSTPEnabled();
 
-  /// @brief Method IsSTPRequested, addr 0x6ca5180, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsSTPRequested, addr 0x6ce1dfc, size 0x24, virtual false, abstract: false, final false
   inline bool IsSTPRequested();
 
-  /// @brief Method IsTemporalAAEnabled, addr 0x6ca507c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method IsTemporalAAEnabled, addr 0x6ce1cf8, size 0x104, virtual false, abstract: false, final false
   inline bool IsTemporalAAEnabled();
 
-  /// @brief Method IsTemporalAARequested, addr 0x6ca506c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsTemporalAARequested, addr 0x6ce1ce8, size 0x10, virtual false, abstract: false, final false
   inline bool IsTemporalAARequested();
 
   static inline ::UnityEngine::Rendering::Universal::UniversalCameraData* New_ctor();
 
-  /// @brief Method PushBuiltinShaderConstantsXR, addr 0x6ca3f90, size 0x674, virtual false, abstract: false, final false
+  /// @brief Method PushBuiltinShaderConstantsXR, addr 0x6ce0c0c, size 0x674, virtual false, abstract: false, final false
   inline void PushBuiltinShaderConstantsXR(::UnityEngine::Rendering::RasterCommandBuffer* cmd, bool renderIntoTexture);
 
-  /// @brief Method Reset, addr 0x6ca5268, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6ce1ee4, size 0xcc, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetViewAndProjectionMatrix, addr 0x6ca3ee0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetViewAndProjectionMatrix, addr 0x6ce0b5c, size 0x7c, virtual false, abstract: false, final false
   inline void SetViewAndProjectionMatrix(::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
-  /// @brief Method SetViewProjectionAndJitterMatrix, addr 0x6ca3f5c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetViewProjectionAndJitterMatrix, addr 0x6ce0bd8, size 0x34, virtual false, abstract: false, final false
   inline void SetViewProjectionAndJitterMatrix(::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix, ::UnityEngine::Matrix4x4 jitterMatrix);
 
   constexpr ::UnityEngine::Experimental::Rendering::XRPass* const& __cordl_internal_get__xr_k__BackingField() const;
@@ -723,57 +723,57 @@ public:
 
   constexpr void __cordl_internal_set_xrRendering(bool value);
 
-  /// @brief Method .ctor, addr 0x6ca5334, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce1fb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hdrDisplayColorGamut, addr 0x6ca4c84, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_hdrDisplayColorGamut, addr 0x6ce1900, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::ColorGamut get_hdrDisplayColorGamut();
 
-  /// @brief Method get_hdrDisplayInformation, addr 0x6ca4ba0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_hdrDisplayInformation, addr 0x6ce181c, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::HDROutputUtils_HDRDisplayInformation get_hdrDisplayInformation();
 
-  /// @brief Method get_historyManager, addr 0x6ca487c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_historyManager, addr 0x6ce14f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalCameraHistory* get_historyManager();
 
-  /// @brief Method get_isGameCamera, addr 0x6ca49fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isGameCamera, addr 0x6ce1678, size 0x10, virtual false, abstract: false, final false
   inline bool get_isGameCamera();
 
-  /// @brief Method get_isHDROutputActive, addr 0x6ca4aec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_isHDROutputActive, addr 0x6ce1768, size 0xb4, virtual false, abstract: false, final false
   inline bool get_isHDROutputActive();
 
-  /// @brief Method get_isPreviewCamera, addr 0x6ca4a1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isPreviewCamera, addr 0x6ce1698, size 0x10, virtual false, abstract: false, final false
   inline bool get_isPreviewCamera();
 
-  /// @brief Method get_isRenderPassSupportedCamera, addr 0x6ca4a2c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isRenderPassSupportedCamera, addr 0x6ce16a8, size 0x14, virtual false, abstract: false, final false
   inline bool get_isRenderPassSupportedCamera();
 
-  /// @brief Method get_isSceneViewCamera, addr 0x6ca4a0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isSceneViewCamera, addr 0x6ce1688, size 0x10, virtual false, abstract: false, final false
   inline bool get_isSceneViewCamera();
 
-  /// @brief Method get_rendersOverlayUI, addr 0x6ca4d18, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_rendersOverlayUI, addr 0x6ce1994, size 0x80, virtual false, abstract: false, final false
   inline bool get_rendersOverlayUI();
 
-  /// @brief Method get_requireSrgbConversion, addr 0x6ca488c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method get_requireSrgbConversion, addr 0x6ce1508, size 0x170, virtual false, abstract: false, final false
   inline bool get_requireSrgbConversion();
 
-  /// @brief Method get_resetHistory, addr 0x6ca5258, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_resetHistory, addr 0x6ce1ed4, size 0x10, virtual false, abstract: false, final false
   inline bool get_resetHistory();
 
-  /// @brief Method get_resolveToScreen, addr 0x6ca4a40, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_resolveToScreen, addr 0x6ce16bc, size 0xac, virtual false, abstract: false, final false
   inline bool get_resolveToScreen();
 
   /// [CompilerGenerated]
-  /// @brief Method get_xr, addr 0x6ca51c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xr, addr 0x6ce1e44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::XRPass* get_xr();
 
-  /// @brief Method get_xrUniversal, addr 0x6ca51d8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_xrUniversal, addr 0x6ce1e54, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::XRPassUniversal* get_xrUniversal();
 
-  /// @brief Method set_historyManager, addr 0x6ca4884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_historyManager, addr 0x6ce1500, size 0x8, virtual false, abstract: false, final false
   inline void set_historyManager(::UnityEngine::Rendering::Universal::UniversalCameraHistory* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_xr, addr 0x6ca51d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_xr, addr 0x6ce1e4c, size 0x8, virtual false, abstract: false, final false
   inline void set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
 protected:
@@ -791,7 +791,7 @@ public:
   UniversalCameraData(UniversalCameraData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12971 };
 
   /// @brief Field m_ViewMatrix, offset: 0x10, size: 0x40, def value: None
   ::UnityEngine::Matrix4x4 ___m_ViewMatrix;

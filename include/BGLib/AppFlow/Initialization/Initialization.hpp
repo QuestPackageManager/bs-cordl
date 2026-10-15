@@ -4,6 +4,7 @@ module;
 
 #pragma once
 #include "BGLib/AppFlow/Initialization/AddressablesAsyncInstaller_1.hpp"
+#include "BGLib/AppFlow/Initialization/AppInitQuitRequestedException.hpp"
 #include "BGLib/AppFlow/Initialization/AsyncInstaller.hpp"
 #include "BGLib/AppFlow/Initialization/AsyncInstallerRegistry.hpp"
 #include "BGLib/AppFlow/Initialization/AsyncLoader.hpp"

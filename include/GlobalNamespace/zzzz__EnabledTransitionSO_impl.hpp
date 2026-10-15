@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::get_normalState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686d770;
+  constexpr static std::size_t addrs = 0x68aa3ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnabledTransitionSO*>(), { "get_normalState", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::get_highlightedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686d778;
+  constexpr static std::size_t addrs = 0x68aa3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnabledTransitionSO*>(), { "get_highlightedState", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::get_pressedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686d780;
+  constexpr static std::size_t addrs = 0x68aa3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnabledTransitionSO*>(), { "get_pressedState", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::get_disabledState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686d788;
+  constexpr static std::size_t addrs = 0x68aa404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnabledTransitionSO*>(), { "get_disabledState", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::get_selectedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686d790;
+  constexpr static std::size_t addrs = 0x68aa40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnabledTransitionSO*>(), { "get_selectedState", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::get_selectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686d798;
+  constexpr static std::size_t addrs = 0x68aa414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnabledTransitionSO*>(), { "get_selectedAndHighlightedState", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686d7a0;
+  constexpr static std::size_t addrs = 0x68aa41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnabledTransitionSO*>(), { ".ctor", {}, {} })));

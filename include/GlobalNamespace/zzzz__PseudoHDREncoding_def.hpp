@@ -5,6 +5,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
+#include <cmath>
+#include <cstdint>
 CORDL_MODULE_EXPORT(PseudoHDREncoding)
 namespace UnityEngine {
 class Material;
@@ -26,13 +28,20 @@ namespace GlobalNamespace {
 class CORDL_TYPE PseudoHDREncoding : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _intensityScalePropertyId, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF__intensityScalePropertyId, put = setStaticF__intensityScalePropertyId)) int32_t _intensityScalePropertyId;
+
   /// @brief Field _material, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__material, put = setStaticF__material)) ::UnityW<::UnityEngine::Material> _material;
 
-  /// @brief Method CreatePseudoHDREncodedTexture, addr 0x5cff154, size 0x1cc, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::RenderTexture> CreatePseudoHDREncodedTexture(::UnityEngine::RenderTexture* src);
+  /// @brief Method CreatePseudoHDREncodedTexture, addr 0x5d38098, size 0x22c, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::RenderTexture> CreatePseudoHDREncodedTexture(::UnityEngine::RenderTexture* src, float_t intensityScale);
+
+  static inline int32_t getStaticF__intensityScalePropertyId();
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF__material();
+
+  static inline void setStaticF__intensityScalePropertyId(int32_t value);
 
   static inline void setStaticF__material(::UnityW<::UnityEngine::Material> value);
 
@@ -51,7 +60,7 @@ public:
   PseudoHDREncoding(PseudoHDREncoding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6663 };
 
   /// @brief Field kPseudoHDREncodingShaderName offset 0xffffffff size 0x8
   static constexpr ::ConstString kPseudoHDREncodingShaderName{ u"Hidden/PseudoHDREncoding" };

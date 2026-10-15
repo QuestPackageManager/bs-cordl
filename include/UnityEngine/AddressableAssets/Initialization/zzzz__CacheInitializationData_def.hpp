@@ -67,31 +67,31 @@ public:
 
   constexpr void __cordl_internal_set_m_MaximumCacheSize(int64_t value);
 
-  /// @brief Method .ctor, addr 0x6895010, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68d1c8c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CacheDirectoryOverride, addr 0x6894fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CacheDirectoryOverride, addr 0x68d1c5c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CacheDirectoryOverride();
 
-  /// @brief Method get_CompressionEnabled, addr 0x6894fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompressionEnabled, addr 0x68d1c4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CompressionEnabled();
 
-  /// @brief Method get_LimitCacheSize, addr 0x6894ff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LimitCacheSize, addr 0x68d1c6c, size 0x8, virtual false, abstract: false, final false
   inline bool get_LimitCacheSize();
 
-  /// @brief Method get_MaximumCacheSize, addr 0x6895000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaximumCacheSize, addr 0x68d1c7c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_MaximumCacheSize();
 
-  /// @brief Method set_CacheDirectoryOverride, addr 0x6894fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CacheDirectoryOverride, addr 0x68d1c64, size 0x8, virtual false, abstract: false, final false
   inline void set_CacheDirectoryOverride(::StringW value);
 
-  /// @brief Method set_CompressionEnabled, addr 0x6894fd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CompressionEnabled, addr 0x68d1c54, size 0x8, virtual false, abstract: false, final false
   inline void set_CompressionEnabled(bool value);
 
-  /// @brief Method set_LimitCacheSize, addr 0x6894ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LimitCacheSize, addr 0x68d1c74, size 0x8, virtual false, abstract: false, final false
   inline void set_LimitCacheSize(bool value);
 
-  /// @brief Method set_MaximumCacheSize, addr 0x6895008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaximumCacheSize, addr 0x68d1c84, size 0x8, virtual false, abstract: false, final false
   inline void set_MaximumCacheSize(int64_t value);
 
 protected:
@@ -109,7 +109,7 @@ public:
   CacheInitializationData(CacheInitializationData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20170 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20217 };
 
   /// [FormerlySerializedAs("m_compressionEnabled")]
   /// [SerializeField]

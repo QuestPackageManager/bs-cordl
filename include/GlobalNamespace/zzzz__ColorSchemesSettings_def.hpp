@@ -3,19 +3,19 @@
 #include "beatsaber-hook/shared/types.hpp"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__ColorOverrideType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
-#include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorSchemesSettings)
+namespace GlobalNamespace {
+struct ColorOverrideType;
+}
 namespace GlobalNamespace {
 class ColorSchemeSO;
 }
 namespace GlobalNamespace {
 class ColorScheme;
-}
-namespace GlobalNamespace {
-struct ColorSchemesSettings_ColorOverrideType;
 }
 namespace GlobalNamespace {
 class ColorSchemesSettings___c;
@@ -34,76 +34,16 @@ template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ColorSchemesSettings_ColorOverrideType;
-}
-namespace GlobalNamespace {
 class ColorSchemesSettings;
 }
 namespace GlobalNamespace {
 class ColorSchemesSettings___c;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::ColorSchemesSettings_ColorOverrideType);
 MARK_REF_T(::GlobalNamespace::ColorSchemesSettings*);
 MARK_REF_T(::GlobalNamespace::ColorSchemesSettings___c*);
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::ColorSchemesSettings_ColorOverrideType, "", "ColorSchemesSettings/ColorOverrideType");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ColorSchemesSettings*, "", "ColorSchemesSettings");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::ColorSchemesSettings___c*, "", "ColorSchemesSettings/<>c");
-// Dependencies
-namespace GlobalNamespace {
-// Is value type: true
-// CS Name: ColorSchemesSettings/ColorOverrideType
-struct CORDL_TYPE ColorSchemesSettings_ColorOverrideType {
-public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
-
-  /// @brief Nested struct __ColorSchemesSettings_ColorOverrideType_Unwrapped
-  enum struct __ColorSchemesSettings_ColorOverrideType_Unwrapped : int32_t {
-    __E_All = static_cast<int32_t>(0x0),
-    __E_NotesOnly = static_cast<int32_t>(0x1),
-  };
-
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __ColorSchemesSettings_ColorOverrideType_Unwrapped() const noexcept {
-    return static_cast<__ColorSchemesSettings_ColorOverrideType_Unwrapped>(this->value__);
-  }
-
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorSchemesSettings_ColorOverrideType();
-
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None, comment: None }]
-  constexpr ColorSchemesSettings_ColorOverrideType(int32_t value__) noexcept;
-
-  /// @brief Field All value: I32(0)
-  static ::GlobalNamespace::ColorSchemesSettings_ColorOverrideType const All;
-
-  /// @brief Field NotesOnly value: I32(1)
-  static ::GlobalNamespace::ColorSchemesSettings_ColorOverrideType const NotesOnly;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15390 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(offsetof(::GlobalNamespace::ColorSchemesSettings_ColorOverrideType, value__) == 0x0, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::ColorSchemesSettings_ColorOverrideType) == 0x4, "Size mismatch!");
-
-} // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
@@ -115,24 +55,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::ColorSchemesSettings___c* __9;
 
-  /// @brief Field <>9__16_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__16_0, put = setStaticF___9__16_0)) ::System::Func_2<::UnityW<::GlobalNamespace::ColorSchemeSO>, ::GlobalNamespace::ColorScheme*>* __9__16_0;
+  /// @brief Field <>9__15_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__15_0, put = setStaticF___9__15_0)) ::System::Func_2<::UnityW<::GlobalNamespace::ColorSchemeSO>, ::GlobalNamespace::ColorScheme*>* __9__15_0;
 
   static inline ::GlobalNamespace::ColorSchemesSettings___c* New_ctor();
 
-  /// @brief Method <.ctor>b__16_0, addr 0x39cf5d0, size 0x14, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ColorScheme* __ctor_b__16_0(::GlobalNamespace::ColorSchemeSO* csSO);
+  /// @brief Method <.ctor>b__15_0, addr 0x39f8bec, size 0x14, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::ColorScheme* __ctor_b__15_0(::GlobalNamespace::ColorSchemeSO* csSO);
 
-  /// @brief Method .ctor, addr 0x39cf5cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f8be8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::ColorSchemesSettings___c* getStaticF___9();
 
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::ColorSchemeSO>, ::GlobalNamespace::ColorScheme*>* getStaticF___9__16_0();
+  static inline ::System::Func_2<::UnityW<::GlobalNamespace::ColorSchemeSO>, ::GlobalNamespace::ColorScheme*>* getStaticF___9__15_0();
 
   static inline void setStaticF___9(::GlobalNamespace::ColorSchemesSettings___c* value);
 
-  static inline void setStaticF___9__16_0(::System::Func_2<::UnityW<::GlobalNamespace::ColorSchemeSO>, ::GlobalNamespace::ColorScheme*>* value);
+  static inline void setStaticF___9__15_0(::System::Func_2<::UnityW<::GlobalNamespace::ColorSchemeSO>, ::GlobalNamespace::ColorScheme*>* value);
 
 protected:
   // Ctor Parameters []
@@ -149,7 +89,7 @@ public:
   ColorSchemesSettings___c(ColorSchemesSettings___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15391 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14627 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -157,20 +97,19 @@ public:
 static_assert(sizeof(::GlobalNamespace::ColorSchemesSettings___c) == 0x10, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies ColorSchemesSettings::ColorOverrideType, System.Object
+// [AnalyticsSettingsStruct("colors")]
+// Dependencies ColorOverrideType, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ColorSchemesSettings
 class CORDL_TYPE ColorSchemesSettings : public ::System::Object {
 public:
   // Declarations
-  using ColorOverrideType = ::GlobalNamespace::ColorSchemesSettings_ColorOverrideType;
-
   using __c = ::GlobalNamespace::ColorSchemesSettings___c;
 
   /// @brief Field <colorOverrideType>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__colorOverrideType_k__BackingField,
-                      put = __cordl_internal_set__colorOverrideType_k__BackingField)) ::GlobalNamespace::ColorSchemesSettings_ColorOverrideType _colorOverrideType_k__BackingField;
+                      put = __cordl_internal_set__colorOverrideType_k__BackingField)) ::GlobalNamespace::ColorOverrideType _colorOverrideType_k__BackingField;
 
   /// @brief Field _colorSchemesDict, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__colorSchemesDict,
@@ -186,43 +125,44 @@ public:
   /// @brief Field _selectedColorSchemeId, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__selectedColorSchemeId, put = __cordl_internal_set__selectedColorSchemeId)) ::StringW _selectedColorSchemeId;
 
-  __declspec(property(get = get_colorOverrideType, put = set_colorOverrideType)) ::GlobalNamespace::ColorSchemesSettings_ColorOverrideType colorOverrideType;
+  __declspec(property(get = get_colorOverrideType, put = set_colorOverrideType)) ::GlobalNamespace::ColorOverrideType colorOverrideType;
 
   __declspec(property(get = get_overrideDefaultColors, put = set_overrideDefaultColors)) bool overrideDefaultColors;
 
+  /// @brief [AnalyticsExcluded("Free-form identifier; not a meaningful aggregate metric")]
   __declspec(property(get = get_selectedColorSchemeId, put = set_selectedColorSchemeId)) ::StringW selectedColorSchemeId;
 
-  /// @brief Method GetColorSchemeForId, addr 0x39cf2b4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetColorSchemeForId, addr 0x39f88d0, size 0x64, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* GetColorSchemeForId(::StringW id);
 
-  /// @brief Method GetColorSchemeForIdx, addr 0x39cf250, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetColorSchemeForIdx, addr 0x39f886c, size 0x64, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* GetColorSchemeForIdx(int32_t idx);
 
-  /// @brief Method GetNumberOfColorSchemes, addr 0x39cf200, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetNumberOfColorSchemes, addr 0x39f881c, size 0x50, virtual false, abstract: false, final false
   inline int32_t GetNumberOfColorSchemes();
 
-  /// @brief Method GetOverrideColorScheme, addr 0x39cf544, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetOverrideColorScheme, addr 0x39f8b60, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* GetOverrideColorScheme();
 
-  /// @brief Method GetSelectedColorScheme, addr 0x39cf444, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedColorScheme, addr 0x39f8a60, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* GetSelectedColorScheme();
 
-  /// @brief Method GetSelectedColorSchemeIdx, addr 0x39cf49c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedColorSchemeIdx, addr 0x39f8ab8, size 0xa8, virtual false, abstract: false, final false
   inline int32_t GetSelectedColorSchemeIdx();
 
   static inline ::GlobalNamespace::ColorSchemesSettings* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* colorSchemeSOs);
 
   static inline ::GlobalNamespace::ColorSchemesSettings* New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorScheme*>* colorSchemes);
 
-  /// @brief Method SetColorSchemeForId, addr 0x39cf318, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method SetColorSchemeForId, addr 0x39f8934, size 0x12c, virtual false, abstract: false, final false
   inline void SetColorSchemeForId(::GlobalNamespace::ColorScheme* colorScheme);
 
-  /// @brief Method ShouldOverrideLightshowColors, addr 0x39cf558, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ShouldOverrideLightshowColors, addr 0x39f8b74, size 0x20, virtual false, abstract: false, final false
   inline bool ShouldOverrideLightshowColors();
 
-  constexpr ::GlobalNamespace::ColorSchemesSettings_ColorOverrideType const& __cordl_internal_get__colorOverrideType_k__BackingField() const;
+  constexpr ::GlobalNamespace::ColorOverrideType const& __cordl_internal_get__colorOverrideType_k__BackingField() const;
 
-  constexpr ::GlobalNamespace::ColorSchemesSettings_ColorOverrideType& __cordl_internal_get__colorOverrideType_k__BackingField();
+  constexpr ::GlobalNamespace::ColorOverrideType& __cordl_internal_get__colorOverrideType_k__BackingField();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ColorScheme*>* const& __cordl_internal_get__colorSchemesDict() const;
 
@@ -240,7 +180,7 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__selectedColorSchemeId();
 
-  constexpr void __cordl_internal_set__colorOverrideType_k__BackingField(::GlobalNamespace::ColorSchemesSettings_ColorOverrideType value);
+  constexpr void __cordl_internal_set__colorOverrideType_k__BackingField(::GlobalNamespace::ColorOverrideType value);
 
   constexpr void __cordl_internal_set__colorSchemesDict(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ColorScheme*>* value);
 
@@ -250,30 +190,30 @@ public:
 
   constexpr void __cordl_internal_set__selectedColorSchemeId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x39cf0f0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f870c, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* colorSchemeSOs);
 
-  /// @brief Method .ctor, addr 0x39ceea4, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f84c0, size 0x24c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ColorScheme*>* colorSchemes);
 
   /// [CompilerGenerated]
-  /// @brief Method get_colorOverrideType, addr 0x39cee94, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ColorSchemesSettings_ColorOverrideType get_colorOverrideType();
+  /// @brief Method get_colorOverrideType, addr 0x39f84b0, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::ColorOverrideType get_colorOverrideType();
 
-  /// @brief Method get_overrideDefaultColors, addr 0x39cee74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideDefaultColors, addr 0x39f8490, size 0x8, virtual false, abstract: false, final false
   inline bool get_overrideDefaultColors();
 
-  /// @brief Method get_selectedColorSchemeId, addr 0x39cee8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColorSchemeId, addr 0x39f84a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_selectedColorSchemeId();
 
   /// [CompilerGenerated]
-  /// @brief Method set_colorOverrideType, addr 0x39cee9c, size 0x8, virtual false, abstract: false, final false
-  inline void set_colorOverrideType(::GlobalNamespace::ColorSchemesSettings_ColorOverrideType value);
+  /// @brief Method set_colorOverrideType, addr 0x39f84b8, size 0x8, virtual false, abstract: false, final false
+  inline void set_colorOverrideType(::GlobalNamespace::ColorOverrideType value);
 
-  /// @brief Method set_overrideDefaultColors, addr 0x39cee7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideDefaultColors, addr 0x39f8498, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideDefaultColors(bool value);
 
-  /// @brief Method set_selectedColorSchemeId, addr 0x39cee84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedColorSchemeId, addr 0x39f84a0, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedColorSchemeId(::StringW value);
 
 protected:
@@ -291,11 +231,11 @@ public:
   ColorSchemesSettings(ColorSchemesSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15392 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14628 };
 
   /// [CompilerGenerated]
   /// @brief Field <colorOverrideType>k__BackingField, offset: 0x10, size: 0x4, def value: None
-  ::GlobalNamespace::ColorSchemesSettings_ColorOverrideType ____colorOverrideType_k__BackingField;
+  ::GlobalNamespace::ColorOverrideType ____colorOverrideType_k__BackingField;
 
   /// @brief Field _colorSchemesList, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::ColorScheme*>* ____colorSchemesList;

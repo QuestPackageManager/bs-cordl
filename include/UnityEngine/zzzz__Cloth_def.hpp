@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__useContinuousCollision_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x6ead218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee9eb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_externalAcceleration, addr 0x6ead13c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_externalAcceleration, addr 0x6ee9dd8, size 0x98, virtual false, abstract: false, final false
   inline void set_externalAcceleration(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_externalAcceleration_Injected, addr 0x6ead1d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_externalAcceleration_Injected, addr 0x6ee9e70, size 0x44, virtual false, abstract: false, final false
   static inline void set_externalAcceleration_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Vector3 const> value);
 
 protected:
@@ -76,7 +76,7 @@ public:
   Cloth(Cloth const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24033 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]

@@ -28,13 +28,13 @@ class CORDL_TYPE VRPlatformUtils : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method GetAnyJoystickMaxAxisDefaultImplementation, addr 0x5c72f14, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetAnyJoystickMaxAxisDefaultImplementation, addr 0x5caab38, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetAnyJoystickMaxAxisDefaultImplementation(::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
 
-  /// @brief Method GetMenuButtonDefaultImplementation, addr 0x5c707b8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetMenuButtonDefaultImplementation, addr 0x5ca83dc, size 0x78, virtual false, abstract: false, final false
   static inline bool GetMenuButtonDefaultImplementation();
 
-  /// @brief Method GetMenuButtonDownDefaultImplementation, addr 0x5c70834, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetMenuButtonDownDefaultImplementation, addr 0x5ca8458, size 0x78, virtual false, abstract: false, final false
   static inline bool GetMenuButtonDownDefaultImplementation();
 
 protected:
@@ -52,7 +52,7 @@ public:
   VRPlatformUtils(VRPlatformUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22225 };
 
   /// @brief Field kMenuButtonLeftHand offset 0xffffffff size 0x8
   static constexpr ::ConstString kMenuButtonLeftHand{ u"OpenXRPrimaryButtonLeftHand" };

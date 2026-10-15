@@ -35,7 +35,7 @@ public:
   InternalConstants(InternalConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17488 };
 
   /// @brief Field companyName offset 0xffffffff size 0x8
   static constexpr ::ConstString companyName{ u"Unity" };

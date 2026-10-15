@@ -5,6 +5,7 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/zzzz__Component_def.hpp"
@@ -34,7 +35,7 @@ namespace GlobalNamespace {
 class ScenesTransitionSetupData;
 }
 namespace GlobalNamespace {
-class SimpleLevelStarter__StartLevel_d__15;
+class SimpleLevelStarter__StartLevel_d__16;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupData;
@@ -68,19 +69,19 @@ namespace GlobalNamespace {
 class SimpleLevelStarter;
 }
 namespace GlobalNamespace {
-class SimpleLevelStarter__StartLevel_d__15;
+class SimpleLevelStarter__StartLevel_d__16;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::SimpleLevelStarter*);
-MARK_REF_T(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*);
+MARK_REF_T(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::SimpleLevelStarter*, "", "SimpleLevelStarter");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*, "", "SimpleLevelStarter/<StartLevel>d__15");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*, "", "SimpleLevelStarter/<StartLevel>d__16");
 // [CompilerGenerated]
 // Dependencies System.Object, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: SimpleLevelStarter/<StartLevel>d__15
-class CORDL_TYPE SimpleLevelStarter__StartLevel_d__15 : public ::System::Object {
+// CS Name: SimpleLevelStarter/<StartLevel>d__16
+class CORDL_TYPE SimpleLevelStarter__StartLevel_d__16 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -110,26 +111,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d30b84, size 0x6d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d6b41c, size 0x6f8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
-  static inline ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d31258, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d6bb14, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d31260, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d6bb1c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d31298, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d6bb54, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d30b80, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d6b418, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -157,7 +158,7 @@ public:
   constexpr void __cordl_internal_set__handle_5__2(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>> value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5d30944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d6b1dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -172,19 +173,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr SimpleLevelStarter__StartLevel_d__15();
+  constexpr SimpleLevelStarter__StartLevel_d__16();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__15", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__16", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  SimpleLevelStarter__StartLevel_d__15(SimpleLevelStarter__StartLevel_d__15&&) = delete;
+  SimpleLevelStarter__StartLevel_d__16(SimpleLevelStarter__StartLevel_d__16&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__15", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__16", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimpleLevelStarter__StartLevel_d__15(SimpleLevelStarter__StartLevel_d__15 const&) = delete;
+  SimpleLevelStarter__StartLevel_d__16(SimpleLevelStarter__StartLevel_d__16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6897 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -201,30 +202,30 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15, ____handle_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16, ____handle_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15) == 0x40, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies BeatmapCharacteristic, BeatmapDifficulty, UnityEngine.Component, UnityEngine.MonoBehaviour
+// Dependencies BeatmapCharacteristic, BeatmapDifficulty, GameplayType, UnityEngine.Component, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: SimpleLevelStarter
 class CORDL_TYPE SimpleLevelStarter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _StartLevel_d__15 = ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15;
+  using _StartLevel_d__16 = ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16;
 
-  /// @brief Field _beatmapCharacteristic, offset 0x28, size 0x4
+  /// @brief Field _beatmapCharacteristic, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__beatmapCharacteristic, put = __cordl_internal_set__beatmapCharacteristic)) ::GlobalNamespace::BeatmapCharacteristic _beatmapCharacteristic;
 
-  /// @brief Field _beatmapDifficulty, offset 0x2c, size 0x4
+  /// @brief Field _beatmapDifficulty, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__beatmapDifficulty, put = __cordl_internal_set__beatmapDifficulty)) ::GlobalNamespace::BeatmapDifficulty _beatmapDifficulty;
 
   /// @brief Field _beatmapLevel, offset 0x20, size 0x8
@@ -246,10 +247,13 @@ public:
   /// @brief Field _gameScenesManager, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
+  /// @brief Field _gameplayType, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__gameplayType, put = __cordl_internal_set__gameplayType)) ::GlobalNamespace::GameplayType _gameplayType;
+
   /// @brief Field _menuTransitionsHelper, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper)) ::GlobalNamespace::MenuTransitionsHelper* _menuTransitionsHelper;
 
-  /// @brief Field _overrideStrobeFilterSettingsToAllEffects, offset 0x31, size 0x1
+  /// @brief Field _overrideStrobeFilterSettingsToAllEffects, offset 0x35, size 0x1
   __declspec(property(get = __cordl_internal_get__overrideStrobeFilterSettingsToAllEffects,
                       put = __cordl_internal_set__overrideStrobeFilterSettingsToAllEffects)) bool _overrideStrobeFilterSettingsToAllEffects;
 
@@ -259,33 +263,33 @@ public:
   /// @brief Field _prefabBindings, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__prefabBindings, put = __cordl_internal_set__prefabBindings)) ::ArrayW<::UnityW<::UnityEngine::Component>> _prefabBindings;
 
-  /// @brief Field _useTestNoteCutSoundEffects, offset 0x30, size 0x1
+  /// @brief Field _useTestNoteCutSoundEffects, offset 0x34, size 0x1
   __declspec(property(get = __cordl_internal_get__useTestNoteCutSoundEffects, put = __cordl_internal_set__useTestNoteCutSoundEffects)) bool _useTestNoteCutSoundEffects;
 
-  /// @brief Method Awake, addr 0x5d307d0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5d6b068, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ButtonPressed, addr 0x5d30a90, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ButtonPressed, addr 0x5d6b328, size 0x20, virtual false, abstract: false, final false
   inline void ButtonPressed();
 
-  /// @brief Method HandleLevelDidFinish, addr 0x5d30ab0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelDidFinish, addr 0x5d6b348, size 0x3c, virtual false, abstract: false, final false
   inline void HandleLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupData* standardLevelSceneSetupData, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method InstallEarlyBindings, addr 0x5d3094c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method InstallEarlyBindings, addr 0x5d6b1e4, size 0x144, virtual false, abstract: false, final false
   inline void InstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupData* scenesTransitionSetupData, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::SimpleLevelStarter* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5d30898, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5d6b130, size 0x58, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// [IteratorStateMachine(typeof(SimpleLevelStarter::<StartLevel>d__15))]
-  /// @brief Method StartLevel, addr 0x5d308f0, size 0x54, virtual false, abstract: false, final false
+  /// [IteratorStateMachine(typeof(SimpleLevelStarter::<StartLevel>d__16))]
+  /// @brief Method StartLevel, addr 0x5d6b188, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartLevel();
 
   /// [CompilerGenerated]
-  /// @brief Method <StartLevel>g__AfterSceneSwitchCallback|15_0, addr 0x5d30af0, size 0x90, virtual false, abstract: false, final false
-  inline void _StartLevel_g__AfterSceneSwitchCallback_15_0(::Zenject::DiContainer* container);
+  /// @brief Method <StartLevel>g__AfterSceneSwitchCallback|16_0, addr 0x5d6b388, size 0x90, virtual false, abstract: false, final false
+  inline void _StartLevel_g__AfterSceneSwitchCallback_16_0(::Zenject::DiContainer* container);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristic const& __cordl_internal_get__beatmapCharacteristic() const;
 
@@ -318,6 +322,10 @@ public:
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
+
+  constexpr ::GlobalNamespace::GameplayType const& __cordl_internal_get__gameplayType() const;
+
+  constexpr ::GlobalNamespace::GameplayType& __cordl_internal_get__gameplayType();
 
   constexpr ::GlobalNamespace::MenuTransitionsHelper* const& __cordl_internal_get__menuTransitionsHelper() const;
 
@@ -355,6 +363,8 @@ public:
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
+  constexpr void __cordl_internal_set__gameplayType(::GlobalNamespace::GameplayType value);
+
   constexpr void __cordl_internal_set__menuTransitionsHelper(::GlobalNamespace::MenuTransitionsHelper* value);
 
   constexpr void __cordl_internal_set__overrideStrobeFilterSettingsToAllEffects(bool value);
@@ -365,7 +375,7 @@ public:
 
   constexpr void __cordl_internal_set__useTestNoteCutSoundEffects(bool value);
 
-  /// @brief Method .ctor, addr 0x5d30aec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d6b384, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -383,26 +393,30 @@ public:
   SimpleLevelStarter(SimpleLevelStarter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6898 };
 
   /// [SerializeField]
   /// @brief Field _beatmapLevel, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* ____beatmapLevel;
 
   /// [SerializeField]
-  /// @brief Field _beatmapCharacteristic, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field _gameplayType, offset: 0x28, size: 0x4, def value: None
+  ::GlobalNamespace::GameplayType ____gameplayType;
+
+  /// [SerializeField]
+  /// @brief Field _beatmapCharacteristic, offset: 0x2c, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapCharacteristic ____beatmapCharacteristic;
 
   /// [SerializeField]
-  /// @brief Field _beatmapDifficulty, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field _beatmapDifficulty, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDifficulty ____beatmapDifficulty;
 
   /// [SerializeField]
-  /// @brief Field _useTestNoteCutSoundEffects, offset: 0x30, size: 0x1, def value: None
+  /// @brief Field _useTestNoteCutSoundEffects, offset: 0x34, size: 0x1, def value: None
   bool ____useTestNoteCutSoundEffects;
 
   /// [SerializeField]
-  /// @brief Field _overrideStrobeFilterSettingsToAllEffects, offset: 0x31, size: 0x1, def value: None
+  /// @brief Field _overrideStrobeFilterSettingsToAllEffects, offset: 0x35, size: 0x1, def value: None
   bool ____overrideStrobeFilterSettingsToAllEffects;
 
   /// [SerializeField]
@@ -444,13 +458,15 @@ public:
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____beatmapLevel) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____beatmapCharacteristic) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____gameplayType) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____beatmapDifficulty) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____beatmapCharacteristic) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____useTestNoteCutSoundEffects) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____beatmapDifficulty) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____overrideStrobeFilterSettingsToAllEffects) == 0x31, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____useTestNoteCutSoundEffects) == 0x34, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____overrideStrobeFilterSettingsToAllEffects) == 0x35, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____prefabBindings) == 0x38, "Offset mismatch!");
 

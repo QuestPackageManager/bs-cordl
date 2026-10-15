@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IFileStorage* (::BeatSaber::GameSettings::ControllerProfileFileModel::*)()>(
     &::BeatSaber::GameSettings::ControllerProfileFileModel::get_fileStorage)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3518500;
+  constexpr static std::size_t addrs = 0x3538e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfileFileModel*>(), { "get_fileStorage", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::BeatSaber::GameSettings::ControllerProfilesSaveData*>* (
     ::BeatSaber::GameSettings::ControllerProfileFileModel::*)()>(&::BeatSaber::GameSettings::ControllerProfileFileModel::LoadAsync)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3518558;
+  constexpr static std::size_t addrs = 0x3538ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfileFileModel*>(), { "LoadAsync", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::BeatSaber::GameSettings::ControllerProfileFileModel::*)(::BeatSaber::GameSettings::ControllerProfilesSaveData*)>(&::BeatSaber::GameSettings::ControllerProfileFileModel::SaveAsync)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35185c8;
+  constexpr static std::size_t addrs = 0x3538f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfileFileModel*>(),
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GameSettings::ControllerProfileFileModel::*)()>(&::BeatSaber::GameSettings::ControllerProfileFileModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3518634;
+  constexpr static std::size_t addrs = 0x3538fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GameSettings::ControllerProfileFileModel*>(), { ".ctor", {}, {} })));

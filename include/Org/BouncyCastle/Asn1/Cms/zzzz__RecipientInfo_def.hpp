@@ -64,10 +64,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x35e303c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x36059a0, size 0x1b0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* GetInstance(::System::Object* o);
 
-  /// @brief Method GetKekInfo, addr 0x35e841c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetKekInfo, addr 0x360ad80, size 0x28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* GetKekInfo(::Org::BouncyCastle::Asn1::Asn1TaggedObject* o);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* info);
@@ -82,7 +82,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info);
 
-  /// @brief Method ToAsn1Object, addr 0x35e8610, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x360af74, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_info() const;
@@ -91,31 +91,31 @@ public:
 
   constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x35e8414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360ad78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* info);
 
-  /// @brief Method .ctor, addr 0x35e82c4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360ac28, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0x35e8254, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360abb8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0x35e824c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360abb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0x35e83a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360ad08, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* info);
 
-  /// @brief Method .ctor, addr 0x35e8334, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360ac98, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info);
 
-  /// @brief Method get_Info, addr 0x35e84c4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method get_Info, addr 0x360ae28, size 0x14c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Info();
 
-  /// @brief Method get_IsTagged, addr 0x35e8444, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_IsTagged, addr 0x360ada8, size 0x80, virtual false, abstract: false, final false
   inline bool get_IsTagged();
 
-  /// @brief Method get_Version, addr 0x35e31ec, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x3605b50, size 0x178, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

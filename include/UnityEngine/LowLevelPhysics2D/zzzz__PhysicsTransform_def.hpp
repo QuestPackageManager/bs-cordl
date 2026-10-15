@@ -29,14 +29,14 @@ struct CORDL_TYPE PhysicsTransform {
 public:
   // Declarations
   /// [IsReadOnly]
-  /// @brief Method GetPositionAndRotation, addr 0x6fd4e58, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetPositionAndRotation, addr 0x7011d4c, size 0x14, virtual false, abstract: false, final false
   inline void GetPositionAndRotation(::by_ref<::UnityEngine::Vector2> position, ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate> rotation);
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x6fd4e6c, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7011d60, size 0xe0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6fd4d78, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7011c6c, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters []
@@ -48,7 +48,7 @@ public:
   constexpr PhysicsTransform(::UnityEngine::Vector2 position, ::UnityEngine::LowLevelPhysics2D::PhysicsRotate rotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21523 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21570 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

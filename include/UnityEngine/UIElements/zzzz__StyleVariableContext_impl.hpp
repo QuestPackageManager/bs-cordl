@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleVariableContext::*)(::UnityEngine::UIElements::StyleVariable)>(
     &::UnityEngine::UIElements::StyleVariableContext::Add)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x711a150;
+  constexpr static std::size_t addrs = 0x7157084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleVariableContext::*)(::UnityEngine::UIElements::StyleVariableContext*)>(
     &::UnityEngine::UIElements::StyleVariableContext::AddInitialRange)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x711a4b0;
+  constexpr static std::size_t addrs = 0x71573e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleVariableContext*>(),
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleVariableContext::*)()>(&::UnityEngine::UIElements::StyleVariableContext::Clear)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x711a60c;
+  constexpr static std::size_t addrs = 0x7157540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleVariableContext*>(), { "Clear", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleVariableContext::*)()>(&::UnityEngine::UIElements::StyleVariableContext::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x711a6d4;
+  constexpr static std::size_t addrs = 0x7157608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleVariableContext*>(), { ".ctor", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleVariableContext::*)(::UnityEngine::UIElements::StyleVariableContext*)>(
     &::UnityEngine::UIElements::StyleVariableContext::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x711a7b4;
+  constexpr static std::size_t addrs = 0x71576e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleVariableContext*>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleVariableContext::*)(::StringW, ::by_ref<::UnityEngine::UIElements::StyleVariable>)>(
     &::UnityEngine::UIElements::StyleVariableContext::TryFindVariable)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x711a8c4;
+  constexpr static std::size_t addrs = 0x71577f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleVariableContext::*)()>(&::UnityEngine::UIElements::StyleVariableContext::GetVariableHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x711a9b0;
+  constexpr static std::size_t addrs = 0x71578e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleVariableContext*>(), { "GetVariableHash", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::by_ref<::UnityEngine::UIElements::StyleVariableContext___c__DisplayClass7_0>)>(
     &::UnityEngine::UIElements::StyleVariableContext::_Add_g__ComputeOrderSensitiveHash_7_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x711a4a4;
+  constexpr static std::size_t addrs = 0x71573d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

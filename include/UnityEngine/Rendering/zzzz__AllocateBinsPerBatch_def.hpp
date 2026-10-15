@@ -36,16 +36,16 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x6c494ac, size 0x5a0, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6c86128, size 0x5a0, virtual true, abstract: false, final true
   inline void Execute(int32_t batchIndex);
 
-  /// @brief Method GetPrimitiveCount, addr 0x6c49410, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetPrimitiveCount, addr 0x6c8608c, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t GetPrimitiveCount(int32_t indexCount, ::UnityEngine::MeshTopology topology, bool nativeQuads);
 
-  /// @brief Method IsInstanceFlipped, addr 0x6c4931c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsInstanceFlipped, addr 0x6c85f98, size 0xa0, virtual false, abstract: false, final false
   inline bool IsInstanceFlipped(int32_t rendererIndex);
 
-  /// @brief Method IsMeshLodVisible, addr 0x6c493bc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsMeshLodVisible, addr 0x6c86038, size 0x54, virtual false, abstract: false, final false
   inline bool IsMeshLodVisible(int32_t batchLodLevel, int32_t rendererIndex, bool supportsCrossFade);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -74,7 +74,7 @@ public:
                                  ::Unity::Collections::NativeArray_1<int32_t> splitDebugCounters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18164 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18197 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x190 };

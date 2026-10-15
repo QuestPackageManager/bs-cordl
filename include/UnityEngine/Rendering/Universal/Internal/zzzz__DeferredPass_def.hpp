@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set_shadowData(::UnityEngine::Rendering::Universal::UniversalShadowData* value);
 
-  /// @brief Method .ctor, addr 0x6d2fb58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d6c7d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -136,7 +136,7 @@ public:
   DeferredPass_PassData(DeferredPass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13339 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13346 };
 
   /// @brief Field cameraData, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::UniversalCameraData* ___cameraData;
@@ -187,10 +187,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c* New_ctor();
 
-  /// @brief Method <Render>b__3_0, addr 0x6d2fbb4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__3_0, addr 0x6d6c830, size 0x30, virtual false, abstract: false, final false
   inline void _Render_b__3_0(::UnityEngine::Rendering::Universal::Internal::DeferredPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6d2fbb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d6c82c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass___c* getStaticF___9();
@@ -219,7 +219,7 @@ public:
   DeferredPass___c(DeferredPass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13340 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13347 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -244,10 +244,10 @@ public:
   static inline ::UnityEngine::Rendering::Universal::Internal::DeferredPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                                                                                       ::UnityEngine::Rendering::Universal::Internal::DeferredLights* deferredLights);
 
-  /// @brief Method OnCameraCleanup, addr 0x6d2fb40, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x6d6c7bc, size 0x18, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method Render, addr 0x6d2f434, size 0x70c, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d6c0b0, size 0x70c, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle color, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depth,
                      ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> gbuffer);
@@ -258,7 +258,7 @@ public:
 
   constexpr void __cordl_internal_set_m_DeferredLights(::UnityEngine::Rendering::Universal::Internal::DeferredLights* value);
 
-  /// @brief Method .ctor, addr 0x6d2f38c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d6c008, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::Universal::Internal::DeferredLights* deferredLights);
 
 protected:
@@ -276,7 +276,7 @@ public:
   DeferredPass(DeferredPass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13348 };
 
   /// @brief Field m_DeferredLights, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::Internal::DeferredLights* ___m_DeferredLights;

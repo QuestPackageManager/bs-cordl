@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::URPSelectionPickerPass_PassData::*)()>(&::UnityEngine::ProBuilder::URPSelectionPickerPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b0da88;
+  constexpr static std::size_t addrs = 0x6b4a704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::URPSelectionPickerPass_PassData*>(), { ".ctor", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::URPSelectionPickerPass___c::*)()>(&::UnityEngine::ProBuilder::URPSelectionPickerPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b0dae0;
+  constexpr static std::size_t addrs = 0x6b4a75c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::URPSelectionPickerPass___c*>(), { ".ctor", {}, {} })));
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProB
                                                                                                                        ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::ProBuilder::URPSelectionPickerPass___c::_RecordRenderGraph_b__5_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6b0dae4;
+  constexpr static std::size_t addrs = 0x6b4a760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::URPSelectionPickerPass::*)(::UnityEngine::LayerMask)>(
     &::UnityEngine::ProBuilder::URPSelectionPickerPass::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6afb710;
+  constexpr static std::size_t addrs = 0x6b3838c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProB
     ::UnityEngine::Rendering::ContextContainer*, ::by_ref<::UnityEngine::ProBuilder::URPSelectionPickerPass_PassData*>, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*)>(
     &::UnityEngine::ProBuilder::URPSelectionPickerPass::InitRendererLists)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x6b0d0d4;
+  constexpr static std::size_t addrs = 0x6b49d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ProBuilder::URPSelectionPickerPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::ProBuilder::URPSelectionPickerPass::ExecutePass)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6b0d504;
+  constexpr static std::size_t addrs = 0x6b4a180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::URPSelectionPickerPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::UnityEngine::ProBuilder::URPSelectionPickerPass::RecordRenderGraph)> {
   constexpr static std::size_t size = 0x508;
-  constexpr static std::size_t addrs = 0x6b0d580;
+  constexpr static std::size_t addrs = 0x6b4a1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

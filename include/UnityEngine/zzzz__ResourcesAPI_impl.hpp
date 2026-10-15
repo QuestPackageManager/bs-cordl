@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourcesAPI* (*)()>(&::UnityEngine::ResourcesAPI::get_ActiveAPI)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6f334c8;
+  constexpr static std::size_t addrs = 0x6f70328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPI*>(), { "get_ActiveAPI", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ResourcesAPI* (*)()>(&::UnityEngine::ResourcesAPI::get_overrideAPI)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6f3357c;
+  constexpr static std::size_t addrs = 0x6f703dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPI*>(), { "get_overrideAPI", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourcesAPI::*)()>(&::UnityEngine::ResourcesAPI::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f335d8;
+  constexpr static std::size_t addrs = 0x6f70438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPI*>(), { ".ctor", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>> (::UnityEngine::ResourcesAPI::*)(::System::Type*)>(
     &::UnityEngine::ResourcesAPI::FindObjectsOfTypeAll)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f335dc;
+  constexpr static std::size_t addrs = 0x6f7043c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPI*>(), { ::i2c::class_of<::UnityEngine::ResourcesAPI*>(), 4 }));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::ResourcesAPI::*)(::StringW)>(&::UnityEngine::ResourcesAPI::FindShaderByName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f33618;
+  constexpr static std::size_t addrs = 0x6f70478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPI*>(), { ::i2c::class_of<::UnityEngine::ResourcesAPI*>(), 5 }));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::ResourcesAPI::*)(::StringW, ::System::Type*)>(&::UnityEngine::ResourcesAPI::Load)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6f33620;
+  constexpr static std::size_t addrs = 0x6f70480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPI*>(), { ::i2c::class_of<::UnityEngine::ResourcesAPI*>(), 6 }));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>> (::UnityEngine::ResourcesAPI::*)(::StringW, ::System::Type*)>(&::UnityEngine::ResourcesAPI::LoadAll)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6f3362c;
+  constexpr static std::size_t addrs = 0x6f7048c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPI*>(), { ::i2c::class_of<::UnityEngine::ResourcesAPI*>(), 7 }));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ResourcesAPI::*)(::UnityEngine::Object*)>(&::UnityEngine::ResourcesAPI::UnloadAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f33638;
+  constexpr static std::size_t addrs = 0x6f70498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ResourcesAPI*>(), { ::i2c::class_of<::UnityEngine::ResourcesAPI*>(), 8 }));

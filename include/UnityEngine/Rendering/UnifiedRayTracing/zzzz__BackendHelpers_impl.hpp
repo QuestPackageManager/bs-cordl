@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::Rendering::UnifiedRayTracing::RayTracingBackend, ::StringW)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BackendHelpers::GetFileNameOfShader)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6e07ca8;
+  constexpr static std::size_t addrs = 0x6e44944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::UnityEngine::Rendering::UnifiedRayTracing::RayTracingBackend)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::BackendHelpers::GetTypeOfShader)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6e07dbc;
+  constexpr static std::size_t addrs = 0x6e44a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

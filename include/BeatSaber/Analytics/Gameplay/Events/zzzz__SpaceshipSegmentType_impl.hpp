@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType::*)()>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34ea3d4;
+  constexpr static std::size_t addrs = 0x3502af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType::*)(::StringW)>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34ea3dc;
+  constexpr static std::size_t addrs = 0x3502af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType::*)()>(
     &::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34ea3e4;
+  constexpr static std::size_t addrs = 0x3502b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*>(),

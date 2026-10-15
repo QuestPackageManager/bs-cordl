@@ -36,34 +36,34 @@ public:
   /// @brief Field UpdatePanelsCallback, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_UpdatePanelsCallback, put = setStaticF_UpdatePanelsCallback)) ::System::Action* UpdatePanelsCallback;
 
-  /// @brief Method RegisterRenderingCallbacks, addr 0x726aa0c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method RegisterRenderingCallbacks, addr 0x72a7940, size 0x28, virtual false, abstract: false, final false
   static inline void RegisterRenderingCallbacks();
 
   /// [RequiredByNativeCode]
-  /// @brief Method RenderOffscreenPanels, addr 0x726a8dc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RenderOffscreenPanels, addr 0x72a7810, size 0x68, virtual false, abstract: false, final false
   static inline void RenderOffscreenPanels();
 
   /// [RequiredByNativeCode]
-  /// @brief Method RepaintPanels, addr 0x726a86c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method RepaintPanels, addr 0x72a77a0, size 0x70, virtual false, abstract: false, final false
   static inline void RepaintPanels(bool onlyOffscreen);
 
-  /// @brief Method SetRenderingCallbacks, addr 0x726a994, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetRenderingCallbacks, addr 0x72a78c8, size 0x78, virtual false, abstract: false, final false
   static inline void SetRenderingCallbacks(::System::Action_1<bool>* repaintPanels, ::System::Action* renderOffscreenPanels);
 
-  /// @brief Method SetUpdateCallback, addr 0x726a944, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetUpdateCallback, addr 0x72a7878, size 0x50, virtual false, abstract: false, final false
   static inline void SetUpdateCallback(::System::Action* callback);
 
-  /// @brief Method UnregisterRenderingCallbacks, addr 0x726aa9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UnregisterRenderingCallbacks, addr 0x72a79d0, size 0x28, virtual false, abstract: false, final false
   static inline void UnregisterRenderingCallbacks();
 
-  /// @brief Method UnsetRenderingCallbacks, addr 0x726aa34, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UnsetRenderingCallbacks, addr 0x72a7968, size 0x68, virtual false, abstract: false, final false
   static inline void UnsetRenderingCallbacks();
 
   /// [RequiredByNativeCode]
-  /// @brief Method UpdatePanels, addr 0x726a804, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdatePanels, addr 0x72a7738, size 0x68, virtual false, abstract: false, final false
   static inline void UpdatePanels();
 
-  /// @brief Method VisualElementCreation, addr 0x726aac4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method VisualElementCreation, addr 0x72a79f8, size 0x28, virtual false, abstract: false, final false
   static inline void VisualElementCreation();
 
   static inline ::System::Action* getStaticF_RenderOffscreenPanelsCallback();

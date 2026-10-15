@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Settings::SmoothCameraSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultSmoothCameraSettings)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x354d494;
+  constexpr static std::size_t addrs = 0x356e3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingPresets*>(), { "DefaultSmoothCameraSettings", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Settings::AudioSettings (*)(float_t)>(&::BeatSaber::Settings::SettingPresets::DefaultAudioSettingsWithLatency)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x354d518;
+  constexpr static std::size_t addrs = 0x356e480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Settings::MiscSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultMiscSettings)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x354d52c;
+  constexpr static std::size_t addrs = 0x356e494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingPresets*>(), { "DefaultMiscSettings", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Settings::QuestSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultQuestSettings)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x354d57c;
+  constexpr static std::size_t addrs = 0x356e4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingPresets*>(), { "DefaultQuestSettings", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Settings::WindowSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultWindowSettings)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x354d588;
+  constexpr static std::size_t addrs = 0x356e4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingPresets*>(), { "DefaultWindowSettings", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Settings::ControllerSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultControllerSettings)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x354d594;
+  constexpr static std::size_t addrs = 0x356e4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::SettingPresets*>(), { "DefaultControllerSettings", {}, {} })));

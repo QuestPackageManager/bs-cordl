@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose, int64_t, ::UnityEngine::Pose, int64_t, int64_t)>(&::GlobalNamespace::PosePrediction::PredictPose)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x35454c0;
+  constexpr static std::size_t addrs = 0x3566428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose, ::UnityEngine::Pose, float_t)>(&::GlobalNamespace::PosePrediction::InterpolatePose)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x35455b0;
+  constexpr static std::size_t addrs = 0x3566518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PoseSerializable (*)(::GlobalNamespace::PoseSerializable, int64_t, ::GlobalNamespace::PoseSerializable, int64_t, int64_t)>(
     &::GlobalNamespace::PosePrediction::PredictPoseSerializable)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x354587c;
+  constexpr static std::size_t addrs = 0x35667e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PoseSerializable (*)(::GlobalNamespace::PoseSerializable, ::GlobalNamespace::PoseSerializable, float_t)>(
     &::GlobalNamespace::PosePrediction::InterpolatePoseSerializable)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x35459ac;
+  constexpr static std::size_t addrs = 0x3566914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PosePrediction::*)()>(&::GlobalNamespace::PosePrediction::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3545acc;
+  constexpr static std::size_t addrs = 0x3566a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PosePrediction*>(), { ".ctor", {}, {} })));

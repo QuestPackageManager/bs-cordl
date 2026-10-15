@@ -53,19 +53,19 @@ public:
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
   /// [Preserve]
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x7311764, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x734e7c8, size 0x278, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenFieldSetter0, addr 0x7311640, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter0, addr 0x734e6a4, size 0x124, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method .ctor, addr 0x73114e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x734e548, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Container, addr 0x7311630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x734e694, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_IsEnabled, addr 0x7311638, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsEnabled, addr 0x734e69c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsEnabled();
 
   /// @brief Convert to "::Zenject::IInstaller"
@@ -86,7 +86,7 @@ public:
   InstallerBase(InstallerBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14730 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15506 };
 
   /// [Inject]
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None

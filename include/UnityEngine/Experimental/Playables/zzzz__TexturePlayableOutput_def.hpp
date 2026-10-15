@@ -34,7 +34,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
-  /// @brief Method GetHandle, addr 0x6f8e578, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x6fcb454, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
@@ -48,7 +48,7 @@ public:
   constexpr TexturePlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10526 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10533 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

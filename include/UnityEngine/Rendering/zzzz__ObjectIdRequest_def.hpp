@@ -35,7 +35,7 @@ public:
   constexpr void __cordl_internal_set__destination_k__BackingField(::UnityW<::UnityEngine::RenderTexture> value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_destination, addr 0x6f7ff60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_destination, addr 0x6fbce3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_destination();
 
 protected:
@@ -53,7 +53,7 @@ public:
   ObjectIdRequest(ObjectIdRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10425 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]

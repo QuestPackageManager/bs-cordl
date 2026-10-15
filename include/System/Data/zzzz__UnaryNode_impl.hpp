@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UnaryNode::*)(::System::Data::DataTable*, int32_t, ::System::Data::ExpressionNode*)>(&::System::Data::UnaryNode::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6460978;
+  constexpr static std::size_t addrs = 0x649d548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::UnaryNode::*)(::System::Data::DataTable*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(
     &::System::Data::UnaryNode::Bind)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6460988;
+  constexpr static std::size_t addrs = 0x649d558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::UnaryNode*>(), { ::i2c::class_of<::System::Data::UnaryNode*>(), 5 }));
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::Eval)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64609ac;
+  constexpr static std::size_t addrs = 0x649d57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::UnaryNode*>(), { ::i2c::class_of<::System::Data::UnaryNode*>(), 6 }));
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::UnaryNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(&::System::Data::UnaryNode::Eval)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x64609c0;
+  constexpr static std::size_t addrs = 0x649d590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::UnaryNode*>(), { ::i2c::class_of<::System::Data::UnaryNode*>(), 7 }));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::UnaryNode::*)(::ArrayW<int32_t>)>(&::System::Data::UnaryNode::Eval)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6461170;
+  constexpr static std::size_t addrs = 0x649dd40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::UnaryNode*>(), { ::i2c::class_of<::System::Data::UnaryNode*>(), 8 }));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::UnaryNode::*)(int32_t, ::System::Object*)>(&::System::Data::UnaryNode::EvalUnaryOp)> {
   constexpr static std::size_t size = 0x770;
-  constexpr static std::size_t addrs = 0x6460a00;
+  constexpr static std::size_t addrs = 0x649d5d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::IsConstant)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x646118c;
+  constexpr static std::size_t addrs = 0x649dd5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::UnaryNode*>(), { ::i2c::class_of<::System::Data::UnaryNode*>(), 9 }));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::IsTableConstant)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64611a8;
+  constexpr static std::size_t addrs = 0x649dd78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::UnaryNode*>(), { ::i2c::class_of<::System::Data::UnaryNode*>(), 10 }));
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::HasLocalAggregate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64611c4;
+  constexpr static std::size_t addrs = 0x649dd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::UnaryNode*>(), { ::i2c::class_of<::System::Data::UnaryNode*>(), 11 }));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::HasRemoteAggregate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x64611e0;
+  constexpr static std::size_t addrs = 0x649ddb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::UnaryNode*>(), { ::i2c::class_of<::System::Data::UnaryNode*>(), 12 }));
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::UnaryNode::*)(::System::Data::DataColumn*)>(&::System::Data::UnaryNode::DependsOn)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x64611fc;
+  constexpr static std::size_t addrs = 0x649ddcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::UnaryNode*>(), { ::i2c::class_of<::System::Data::UnaryNode*>(), 14 }));
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::ExpressionNode* (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::Optimize)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x646121c;
+  constexpr static std::size_t addrs = 0x649ddec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::UnaryNode*>(), { ::i2c::class_of<::System::Data::UnaryNode*>(), 13 }));

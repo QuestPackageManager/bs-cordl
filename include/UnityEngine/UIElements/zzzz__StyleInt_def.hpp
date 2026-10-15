@@ -44,31 +44,31 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<int32_t>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<int32_t>*();
 
-  /// @brief Method Equals, addr 0x7109378, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x71462ac, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x7109368, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x714629c, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleInt other);
 
-  /// @brief Method GetHashCode, addr 0x71093f4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7146328, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x7109408, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x714633c, size 0x7c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x710934c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7146280, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x7109344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7146278, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t v);
 
-  /// @brief Method .ctor, addr 0x7104bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7141ae0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x7109334, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x7146268, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x7109314, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x7146248, size 0x18, virtual true, abstract: false, final true
   inline int32_t get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleInt>"
@@ -77,19 +77,19 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<int32_t>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<int32_t>* i___UnityEngine__UIElements__IStyleValue_1_int32_t_();
 
-  /// @brief Method op_Equality, addr 0x7109354, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x7146288, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleInt lhs, ::UnityEngine::UIElements::StyleInt rhs);
 
-  /// @brief Method op_Implicit, addr 0x7104bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7141ae8, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleInt op_Implicit___UnityEngine__UIElements__StyleInt(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method op_Implicit, addr 0x7109360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7146294, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleInt op_Implicit___UnityEngine__UIElements__StyleInt(int32_t v);
 
-  /// @brief Method set_keyword, addr 0x710933c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_keyword, addr 0x7146270, size 0x8, virtual true, abstract: false, final true
   inline void set_keyword(::UnityEngine::UIElements::StyleKeyword value);
 
-  /// @brief Method set_value, addr 0x710932c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x7146260, size 0x8, virtual true, abstract: false, final true
   inline void set_value(int32_t value);
 
   // Ctor Parameters []

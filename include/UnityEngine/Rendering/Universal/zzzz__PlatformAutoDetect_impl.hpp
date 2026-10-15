@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PlatformAutoDetect_PlatformDetectionCache::*)()>(
     &::UnityEngine::Rendering::Universal::PlatformAutoDetect_PlatformDetectionCache::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6d10d74;
+  constexpr static std::size_t addrs = 0x6d4d9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::PlatformAutoDetect___c::*)()>(&::UnityEngine::Rendering::Universal::PlatformAutoDetect___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d10f30;
+  constexpr static std::size_t addrs = 0x6d4dbac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PlatformAutoDetect___c*>(), { ".ctor", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::PlatformAutoDetect_PlatformDetectionCache* (
     ::UnityEngine::Rendering::Universal::PlatformAutoDetect___c::*)()>(&::UnityEngine::Rendering::Universal::PlatformAutoDetect___c::__cctor_b__16_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6d10f34;
+  constexpr static std::size_t addrs = 0x6d4dbb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Rendering::Universal::PlatformAutoDetect::Initialize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6d105ac;
+  constexpr static std::size_t addrs = 0x6d4d228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PlatformAutoDetect*>(), { "Initialize", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::PlatformAutoDetect::IsRunningXRMobile)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6d10650;
+  constexpr static std::size_t addrs = 0x6d4d2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::PlatformAutoDetect::get_isXRMobile)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6d107f4;
+  constexpr static std::size_t addrs = 0x6d4d470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PlatformAutoDetect*>(), { "get_isXRMobile", {}, {} })));
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::PlatformAutoDetect::get_isShaderAPIMobileDefined)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6d108a0;
+  constexpr static std::size_t addrs = 0x6d4d51c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::PlatformAutoDetect::get_isSwitch)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6d1094c;
+  constexpr static std::size_t addrs = 0x6d4d5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PlatformAutoDetect*>(), { "get_isSwitch", {}, {} })));
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::PlatformAutoDetect::get_isSwitch2)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6d109f8;
+  constexpr static std::size_t addrs = 0x6d4d674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PlatformAutoDetect*>(), { "get_isSwitch2", {}, {} })));
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::Universal::PlatformAutoDetect::get_isRunningOnPowerVRGPU)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6d10aa4;
+  constexpr static std::size_t addrs = 0x6d4d720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::ShEvalMode (*)(::UnityEngine::Rendering::Universal::ShEvalMode)>(
     &::UnityEngine::Rendering::Universal::PlatformAutoDetect::ShAutoDetect)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6d10b50;
+  constexpr static std::size_t addrs = 0x6d4d7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::PlatformAutoDetect*>(),

@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter___c::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e01f34;
+  constexpr static std::size_t addrs = 0x6e3ebd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter___c::*)(
     ::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter_InstanceIDs)>(&::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter___c::_GetInstanceIDs_b__26_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e01f38;
+  constexpr static std::size_t addrs = 0x6e3ebd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::UnifiedRayTracing::AccelStructInstances* (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::get_Instances)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dff340;
+  constexpr static std::size_t addrs = 0x6e3bfdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                                  ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6dff348;
+  constexpr static std::size_t addrs = 0x6e3bfe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter*>(),
@@ -130,7 +130,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                                  ::UnityEngine::Rendering::UnifiedRayTracing::RayTracingResources*)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6dff518;
+  constexpr static std::size_t addrs = 0x6e3c1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter*>(),
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingAccelStruct* (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::GetAccelerationStructure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dff988;
+  constexpr static std::size_t addrs = 0x6e3c624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool* (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::get_GeometryPool)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6dff990;
+  constexpr static std::size_t addrs = 0x6e3c62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::StringW, ::UnityEngine::Rendering::UnifiedRayTracing::IRayTracingShader*)>(&::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::Bind)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6dff9a8;
+  constexpr static std::size_t addrs = 0x6e3c644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter*>(),
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::Dispose)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6dffe18;
+  constexpr static std::size_t addrs = 0x6e3cab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                                  ::System::Span_1<uint32_t>, ::System::Span_1<bool>, uint32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::AddInstance)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x6e00078;
+  constexpr static std::size_t addrs = 0x6e3cd14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     int32_t, ::UnityEngine::Mesh*, ::UnityEngine::Matrix4x4, ::System::Span_1<uint32_t>, ::System::Span_1<uint32_t>, ::System::Span_1<bool>, uint32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::AddInstance)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x6e00380;
+  constexpr static std::size_t addrs = 0x6e3d01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::*)(int32_t, ::UnityEngine::Rendering::UnifiedRayTracing::TerrainDesc)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::AddInstance)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6e00248;
+  constexpr static std::size_t addrs = 0x6e3cee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -261,7 +261,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::UnifiedRayTracing::TerrainDesc, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter_InstanceIDs>*>)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::AddHeightmap)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6e0073c;
+  constexpr static std::size_t addrs = 0x6e3d3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -281,7 +281,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::UnifiedRayTracing::TerrainDesc, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter_InstanceIDs>*>)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::AddTrees)> {
   constexpr static std::size_t size = 0x4c0;
-  constexpr static std::size_t addrs = 0x6e008b8;
+  constexpr static std::size_t addrs = 0x6e3d554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter_InstanceIDs (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::*)(
     ::UnityEngine::Rendering::UnifiedRayTracing::MeshInstanceDesc, uint32_t, uint32_t)>(&::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::AddInstance)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6e00de4;
+  constexpr static std::size_t addrs = 0x6e3da80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::*)(int32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::RemoveInstance)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6e00f1c;
+  constexpr static std::size_t addrs = 0x6e3dbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::*)(int32_t, ::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::UpdateInstanceTransform)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6e0119c;
+  constexpr static std::size_t addrs = 0x6e3de38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::*)(int32_t, ::System::Span_1<uint32_t>)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::UpdateInstanceMaterialIDs)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6e01534;
+  constexpr static std::size_t addrs = 0x6e3e1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::*)(int32_t, ::System::Span_1<uint32_t>)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::UpdateInstanceMask)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6e01718;
+  constexpr static std::size_t addrs = 0x6e3e3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter*>(),
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::*)(int32_t, uint32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::UpdateInstanceMask)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x6e01998;
+  constexpr static std::size_t addrs = 0x6e3e634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter*>(),
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::GraphicsBuffer*>)>(&::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::Build)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6e01b60;
+  constexpr static std::size_t addrs = 0x6e3e7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::NextFrame)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e01c34;
+  constexpr static std::size_t addrs = 0x6e3e8d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::*)(int32_t, ::by_ref<::ArrayW<int32_t>>)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter::GetInstanceIDs)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6e01d74;
+  constexpr static std::size_t addrs = 0x6e3ea10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::AccelStructAdapter*>(),

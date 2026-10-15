@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryString_EmptyStringDictionary::*)()>(&::System::Xml::XmlDictionaryString_EmptyStringDictionary::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x654bb84;
+  constexpr static std::size_t addrs = 0x6588754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryString_EmptyStringDictionary*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryString* (::System::Xml::XmlDictionaryString_EmptyStringDictionary::*)()>(
     &::System::Xml::XmlDictionaryString_EmptyStringDictionary::get_EmptyString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x654bbf8;
+  constexpr static std::size_t addrs = 0x65887c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryString_EmptyStringDictionary::*)(int32_t, ::by_ref<::System::Xml::XmlDictionaryString*>)>(
     &::System::Xml::XmlDictionaryString_EmptyStringDictionary::TryLookup)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x654bc00;
+  constexpr static std::size_t addrs = 0x65887d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::XmlDictionaryString_EmptyStringDictionary::*)(
     ::System::Xml::XmlDictionaryString*, ::by_ref<::System::Xml::XmlDictionaryString*>)>(&::System::Xml::XmlDictionaryString_EmptyStringDictionary::TryLookup)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x654bc20;
+  constexpr static std::size_t addrs = 0x65887f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlDictionaryString::*)(::System::Xml::IXmlDictionary*, ::StringW, int32_t)>(&::System::Xml::XmlDictionaryString::_ctor)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x65472ac;
+  constexpr static std::size_t addrs = 0x6583e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Xml::XmlDictionaryString*)>(&::System::Xml::XmlDictionaryString::GetString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6547d2c;
+  constexpr static std::size_t addrs = 0x65848fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlDictionaryString* (*)()>(&::System::Xml::XmlDictionaryString::get_Empty)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x654ba4c;
+  constexpr static std::size_t addrs = 0x658861c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryString*>(), { "get_Empty", {}, {} })));
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::IXmlDictionary* (::System::Xml::XmlDictionaryString::*)()>(&::System::Xml::XmlDictionaryString::get_Dictionary)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x654bab4;
+  constexpr static std::size_t addrs = 0x6588684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryString*>(), { "get_Dictionary", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlDictionaryString::*)()>(&::System::Xml::XmlDictionaryString::get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x654babc;
+  constexpr static std::size_t addrs = 0x658868c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryString*>(), { "get_Key", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlDictionaryString::*)()>(&::System::Xml::XmlDictionaryString::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x654bac4;
+  constexpr static std::size_t addrs = 0x6588694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryString*>(), { "get_Value", {}, {} })));
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Xml::XmlDictionaryString::*)()>(&::System::Xml::XmlDictionaryString::ToUTF8)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x654bacc;
+  constexpr static std::size_t addrs = 0x658869c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlDictionaryString*>(), { "ToUTF8", {}, {} })));
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::XmlDictionaryString::*)()>(&::System::Xml::XmlDictionaryString::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x654bb08;
+  constexpr static std::size_t addrs = 0x65886d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

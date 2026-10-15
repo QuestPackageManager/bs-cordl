@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22::*)(int32_t)>(
     &::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x628cc54;
+  constexpr static std::size_t addrs = 0x62c969c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22::*)()>(
     &::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x628d010;
+  constexpr static std::size_t addrs = 0x62c9a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22::*)()>(
     &::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22::MoveNext)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x628d014;
+  constexpr static std::size_t addrs = 0x62c9a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22::*)()>(
     &::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x628d13c;
+  constexpr static std::size_t addrs = 0x62c9b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22*>(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22::*)()>(
     &::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x628d144;
+  constexpr static std::size_t addrs = 0x62c9b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22::*)()>(
     &::GlobalNamespace::OVRMicrogesturesSample__HighlightIconCoroutine_d__22::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x628d17c;
+  constexpr static std::size_t addrs = 0x62c9bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26::*)(int32_t)>(
     &::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x628cf30;
+  constexpr static std::size_t addrs = 0x62c9978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26::*)()>(
     &::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x628d184;
+  constexpr static std::size_t addrs = 0x62c9bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26::*)()>(
     &::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26::MoveNext)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x628d188;
+  constexpr static std::size_t addrs = 0x62c9bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26::*)()>(
     &::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x628d26c;
+  constexpr static std::size_t addrs = 0x62c9cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26*>(),
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26::*)()>(
     &::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x628d274;
+  constexpr static std::size_t addrs = 0x62c9cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26::*)()>(
     &::GlobalNamespace::OVRMicrogesturesSample__ShowGestureLabel_d__26::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x628d2ac;
+  constexpr static std::size_t addrs = 0x62c9cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMicrogesturesSample::*)()>(&::GlobalNamespace::OVRMicrogesturesSample::Start)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x628c8a0;
+  constexpr static std::size_t addrs = 0x62c92e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMicrogesturesSample*>(), { "Start", {}, {} })));
@@ -458,7 +458,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMicrogesturesSample::*)(::GlobalNamespace::OVRPlugin_Hand, ::GlobalNamespace::OVRHand_MicrogestureType)>(
     &::GlobalNamespace::OVRMicrogesturesSample::HighlightGesture)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x628ca14;
+  constexpr static std::size_t addrs = 0x62c945c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -472,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMicrogesturesSample::*)(::UnityEngine::UI::Image*)>(&::GlobalNamespace::OVRMicrogesturesSample::HighlightIcon)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x628cab4;
+  constexpr static std::size_t addrs = 0x62c94fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -486,7 +486,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRMicrogesturesSample::*)(::UnityEngine::UI::Image*)>(
     &::GlobalNamespace::OVRMicrogesturesSample::HighlightIconCoroutine)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x628cbf4;
+  constexpr static std::size_t addrs = 0x62c963c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMicrogesturesSample::*)(::UnityEngine::UI::Image*, bool)>(
     &::GlobalNamespace::OVRMicrogesturesSample::HighlightIcon)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x628cc5c;
+  constexpr static std::size_t addrs = 0x62c96a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMicrogesturesSample*>(),
@@ -514,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMicrogesturesSample::*)(::GlobalNamespace::OVRPlugin_Hand, ::GlobalNamespace::OVRHand_MicrogestureType)>(
     &::GlobalNamespace::OVRMicrogesturesSample::OnGestureRecognized)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x628ccc4;
+  constexpr static std::size_t addrs = 0x62c970c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -530,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMicrogesturesSample::*)(::UnityEngine::UI::Text*, ::StringW)>(
     &::GlobalNamespace::OVRMicrogesturesSample::ShowRecognizedGestureLabel)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x628cd78;
+  constexpr static std::size_t addrs = 0x62c97c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRMicrogesturesSample::*)(::UnityEngine::UI::Text*, ::StringW)>(
     &::GlobalNamespace::OVRMicrogesturesSample::ShowGestureLabel)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x628cec8;
+  constexpr static std::size_t addrs = 0x62c9910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMicrogesturesSample*>(),
@@ -558,7 +558,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMicrogesturesSample::*)()>(&::GlobalNamespace::OVRMicrogesturesSample::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x628cf38;
+  constexpr static std::size_t addrs = 0x62c9980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRMicrogesturesSample*>(), { ".ctor", {}, {} })));
@@ -571,7 +571,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMicrogesturesSample::*)(::GlobalNamespace::OVRHand_MicrogestureType)>(
     &::GlobalNamespace::OVRMicrogesturesSample::_Start_b__19_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x628cff8;
+  constexpr static std::size_t addrs = 0x62c9a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -586,7 +586,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRMicrogesturesSample::*)(::GlobalNamespace::OVRHand_MicrogestureType)>(
     &::GlobalNamespace::OVRMicrogesturesSample::_Start_b__19_1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x628d004;
+  constexpr static std::size_t addrs = 0x62c9a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

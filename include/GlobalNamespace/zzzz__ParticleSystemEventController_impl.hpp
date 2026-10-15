@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParticleSystemEventController_Pool::*)()>(&::GlobalNamespace::ParticleSystemEventController_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5dbafe0;
+  constexpr static std::size_t addrs = 0x5df8174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParticleSystemEventController_Pool*>(), { ".ctor", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ParticleSystemEventController::*)()>(&::GlobalNamespace::ParticleSystemEventController::get_startTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dbafcc;
+  constexpr static std::size_t addrs = 0x5df8160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParticleSystemEventController*>(), { "get_startTime", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParticleSystemEventController::*)(float_t)>(&::GlobalNamespace::ParticleSystemEventController::set_startTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dbafd4;
+  constexpr static std::size_t addrs = 0x5df8168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ParticleSystemEventController::*)()>(&::GlobalNamespace::ParticleSystemEventController::get_endTime)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5dba7d8;
+  constexpr static std::size_t addrs = 0x5df796c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParticleSystemEventController*>(), { "get_endTime", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParticleSystemEventController::*)(float_t)>(&::GlobalNamespace::ParticleSystemEventController::Init)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5dba424;
+  constexpr static std::size_t addrs = 0x5df75b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParticleSystemEventController::*)(float_t)>(&::GlobalNamespace::ParticleSystemEventController::InitSpeed)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5dbaed0;
+  constexpr static std::size_t addrs = 0x5df8064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParticleSystemEventController::*)()>(&::GlobalNamespace::ParticleSystemEventController::Play)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dbadf8;
+  constexpr static std::size_t addrs = 0x5df7f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParticleSystemEventController*>(), { "Play", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParticleSystemEventController::*)()>(&::GlobalNamespace::ParticleSystemEventController::Pause)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dbacac;
+  constexpr static std::size_t addrs = 0x5df7e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParticleSystemEventController*>(), { "Pause", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParticleSystemEventController::*)()>(&::GlobalNamespace::ParticleSystemEventController::Stop)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5dba100;
+  constexpr static std::size_t addrs = 0x5df7294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParticleSystemEventController*>(), { "Stop", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParticleSystemEventController::*)(float_t, float_t)>(&::GlobalNamespace::ParticleSystemEventController::ManualUpdate)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5dba7e4;
+  constexpr static std::size_t addrs = 0x5df7978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParticleSystemEventController::*)()>(&::GlobalNamespace::ParticleSystemEventController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dbafdc;
+  constexpr static std::size_t addrs = 0x5df8170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParticleSystemEventController*>(), { ".ctor", {}, {} })));

@@ -150,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_vertices(::UnityEngine::GraphicsBuffer* value);
 
-  /// @brief Method .ctor, addr 0x6dfacf0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e3798c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -168,7 +168,7 @@ public:
   BvhCheck_VertexBuffers(BvhCheck_VertexBuffers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20464 };
 
   /// @brief Field vertices, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::GraphicsBuffer* ___vertices;
@@ -252,7 +252,7 @@ public:
 
   constexpr void __cordl_internal_set_vertices(::ArrayW<float_t> value);
 
-  /// @brief Method .ctor, addr 0x6dfb714, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e383b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -270,7 +270,7 @@ public:
   BvhCheck_VertexBuffersCPU(BvhCheck_VertexBuffersCPU const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20465 };
 
   /// @brief Field vertices, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<float_t> ___vertices;
@@ -309,7 +309,7 @@ public:
   constexpr BvhCheck_Triangle(::Unity::Mathematics::float3 v0, ::Unity::Mathematics::float3 v1, ::Unity::Mathematics::float3 v2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20466 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
@@ -348,63 +348,63 @@ public:
 
   using VertexBuffersCPU = ::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffersCPU;
 
-  /// @brief Method CheckConsistency, addr 0x6dfaeac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CheckConsistency, addr 0x6e37b48, size 0x1c, virtual false, abstract: false, final false
   static inline double_t CheckConsistency(::UnityEngine::GraphicsBuffer* bvhBuffer, uint32_t bvhBufferOffset, uint32_t primitiveCount);
 
-  /// @brief Method CheckConsistency, addr 0x6dfada4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CheckConsistency, addr 0x6e37a40, size 0x1c, virtual false, abstract: false, final false
   static inline double_t CheckConsistency(::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffers* bvhVertexBuffers, ::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct bvh,
                                           uint32_t primitiveCount);
 
-  /// @brief Method CheckConsistency, addr 0x6dfaec8, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method CheckConsistency, addr 0x6e37b64, size 0x350, virtual false, abstract: false, final false
   static inline double_t CheckConsistency(::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffers* bvhVertexBuffers, ::UnityEngine::GraphicsBuffer* bvhBuffer, uint32_t bvhBufferOffset,
                                           ::UnityEngine::GraphicsBuffer* bvhLeavesBuffer, uint32_t bvhLeavesBufferOffset, ::UnityEngine::Rendering::RadeonRays::BvhHeader header,
                                           uint32_t primitiveCount);
 
-  /// @brief Method CheckConsistency, addr 0x6dfadc0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CheckConsistency, addr 0x6e37a5c, size 0xec, virtual false, abstract: false, final false
   static inline double_t CheckConsistency(::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffers* bvhVertexBuffers, ::UnityEngine::GraphicsBuffer* bvhBuffer, uint32_t bvhBufferOffset,
                                           ::UnityEngine::GraphicsBuffer* bvhLeavesBuffer, uint32_t bvhLeavesBufferOffset, uint32_t primitiveCount);
 
-  /// @brief Method Convert, addr 0x6dfac58, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x6e378f4, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffers* Convert(::UnityEngine::Rendering::RadeonRays::MeshBuildInfo info);
 
-  /// @brief Method DownloadVertexData, addr 0x6dfb244, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method DownloadVertexData, addr 0x6e37ee0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffersCPU* DownloadVertexData(::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffers* vertexBuffers);
 
-  /// @brief Method ExtractBits, addr 0x6dfb218, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ExtractBits, addr 0x6e37eb4, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t ExtractBits(uint32_t value, int32_t startBit, int32_t count);
 
-  /// @brief Method GetAabb, addr 0x6dfb3fc, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method GetAabb, addr 0x6e38098, size 0x1d4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RadeonRays::AABB* GetAabb(::UnityEngine::Rendering::RadeonRays::BvhCheck_VertexBuffersCPU* bvhVertexBuffers,
                                                                     ::ArrayW<::UnityEngine::Rendering::RadeonRays::BvhNode> bvhNodes, ::ArrayW<::Unity::Mathematics::uint4> bvhLeafNodes,
                                                                     uint32_t nodeAddr, bool isTopLevel);
 
-  /// @brief Method GetFaceIndices, addr 0x6dfb5d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetFaceIndices, addr 0x6e3826c, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::uint3 GetFaceIndices(::ArrayW<uint32_t> indices, uint32_t triangleIdx);
 
-  /// @brief Method GetLeafNodeFirstPrim, addr 0x6dfb234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLeafNodeFirstPrim, addr 0x6e37ed0, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t GetLeafNodeFirstPrim(uint32_t nodeAddr);
 
-  /// @brief Method GetLeafNodePrimCount, addr 0x6dfad98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetLeafNodePrimCount, addr 0x6e37a34, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t GetLeafNodePrimCount(uint32_t nodeAddr);
 
-  /// @brief Method GetTriangle, addr 0x6dfb67c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetTriangle, addr 0x6e38318, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RadeonRays::BvhCheck_Triangle GetTriangle(::ArrayW<float_t> vertices, uint32_t stride, ::Unity::Mathematics::uint3 idx);
 
-  /// @brief Method GetVertex, addr 0x6dfb628, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetVertex, addr 0x6e382c4, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 GetVertex(::ArrayW<float_t> vertices, uint32_t stride, uint32_t idx);
 
-  /// @brief Method IsLeafNode, addr 0x6dfad90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsLeafNode, addr 0x6e37a2c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsLeafNode(uint32_t nodeAddr);
 
   static inline ::UnityEngine::Rendering::RadeonRays::BvhCheck* New_ctor();
 
-  /// @brief Method NodeSahCost, addr 0x6dfad40, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method NodeSahCost, addr 0x6e379dc, size 0x50, virtual false, abstract: false, final false
   static inline double_t NodeSahCost(uint32_t nodeAddr, ::UnityEngine::Rendering::RadeonRays::AABB* nodeAabb, ::UnityEngine::Rendering::RadeonRays::AABB* parentAabb);
 
-  /// @brief Method SurfaceArea, addr 0x6dfacfc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SurfaceArea, addr 0x6e37998, size 0x44, virtual false, abstract: false, final false
   static inline double_t SurfaceArea(::UnityEngine::Rendering::RadeonRays::AABB* aabb);
 
-  /// @brief Method .ctor, addr 0x6dfb718, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e383b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -422,7 +422,7 @@ public:
   BvhCheck(BvhCheck const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20467 };
 
   /// @brief Field kInvalidID offset 0xffffffff size 0x4
   static constexpr uint32_t kInvalidID{ static_cast<uint32_t>(0xffffffffu) };

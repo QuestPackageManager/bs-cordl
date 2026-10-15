@@ -4,6 +4,7 @@ module;
 
 #pragma once
 #include "BeatSaber/Init/BSRuntimePlatform.hpp"
+#include "BeatSaber/Init/BuildInfoDiagnostic.hpp"
 #include "BeatSaber/Init/GameVersion.hpp"
 #include "BeatSaber/Init/GameVersionProvider.hpp"
 #include "BeatSaber/Init/InitArguments.hpp"

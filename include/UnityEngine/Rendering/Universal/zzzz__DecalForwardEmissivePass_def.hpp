@@ -97,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set_rendererList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
-  /// @brief Method .ctor, addr 0x6c8f24c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccbec8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,7 +115,7 @@ public:
   DecalForwardEmissivePass_PassData(DecalForwardEmissivePass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12901 };
 
   /// @brief Field drawSystem, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::Universal::DecalDrawFowardEmissiveSystem* ___drawSystem;
@@ -151,10 +151,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__8_0, addr 0x6c8f2a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__8_0, addr 0x6ccbf24, size 0x50, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__8_0(::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
 
-  /// @brief Method .ctor, addr 0x6c8f2a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccbf20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass___c* getStaticF___9();
@@ -183,7 +183,7 @@ public:
   DecalForwardEmissivePass___c(DecalForwardEmissivePass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12902 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -212,21 +212,21 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ShaderTagIdList,
                       put = __cordl_internal_set_m_ShaderTagIdList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* m_ShaderTagIdList;
 
-  /// @brief Method ExecutePass, addr 0x6c8eafc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6ccb778, size 0x60, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData* passData,
                                  ::UnityEngine::Rendering::RendererList rendererList);
 
-  /// @brief Method InitPassData, addr 0x6c8e9ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6ccb628, size 0x1c, virtual false, abstract: false, final false
   inline void InitPassData(::by_ref<::UnityEngine::Rendering::Universal::DecalForwardEmissivePass_PassData*> passData);
 
-  /// @brief Method InitRendererListParams, addr 0x6c8e9c8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method InitRendererListParams, addr 0x6ccb644, size 0x134, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererListParams InitRendererListParams(::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData,
                                                                              ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                              ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
   static inline ::UnityEngine::Rendering::Universal::DecalForwardEmissivePass* New_ctor(::UnityEngine::Rendering::Universal::DecalDrawFowardEmissiveSystem* drawSystem);
 
-  /// @brief Method RecordRenderGraph, addr 0x6c8eb5c, size 0x6f0, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6ccb7d8, size 0x6f0, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
   constexpr ::UnityEngine::Rendering::Universal::DecalDrawFowardEmissiveSystem* const& __cordl_internal_get_m_DrawSystem() const;
@@ -247,7 +247,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShaderTagIdList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* value);
 
-  /// @brief Method .ctor, addr 0x6c8e710, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccb38c, size 0x29c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalDrawFowardEmissiveSystem* drawSystem);
 
 protected:
@@ -265,7 +265,7 @@ public:
   DecalForwardEmissivePass(DecalForwardEmissivePass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12903 };
 
   /// @brief Field m_FilteringSettings, offset: 0x5c, size: 0x20, def value: None
   ::UnityEngine::Rendering::FilteringSettings ___m_FilteringSettings;

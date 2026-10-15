@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::RefreshPropertiesAttribute::*)(::System::ComponentModel::RefreshProperties)>(
     &::System::ComponentModel::RefreshPropertiesAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68130f4;
+  constexpr static std::size_t addrs = 0x684fd38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::RefreshPropertiesAttribute*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::RefreshProperties (::System::ComponentModel::RefreshPropertiesAttribute::*)()>(
     &::System::ComponentModel::RefreshPropertiesAttribute::get_RefreshProperties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68130fc;
+  constexpr static std::size_t addrs = 0x684fd40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::RefreshPropertiesAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::RefreshPropertiesAttribute::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6813104;
+  constexpr static std::size_t addrs = 0x684fd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::RefreshPropertiesAttribute*>(),
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::RefreshPropertiesAttribute::*)()>(&::System::ComponentModel::RefreshPropertiesAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6813180;
+  constexpr static std::size_t addrs = 0x684fdc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::RefreshPropertiesAttribute*>(),
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::RefreshPropertiesAttribute::*)()>(&::System::ComponentModel::RefreshPropertiesAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6813188;
+  constexpr static std::size_t addrs = 0x684fdcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::RefreshPropertiesAttribute*>(),

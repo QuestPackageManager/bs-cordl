@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::URPReflectionProbeSettings::*)()>(
     &::UnityEngine::Rendering::URPReflectionProbeSettings::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c75ae0;
+  constexpr static std::size_t addrs = 0x6cb275c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::URPReflectionProbeSettings::*)()>(
     &::UnityEngine::Rendering::URPReflectionProbeSettings::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c75ae8;
+  constexpr static std::size_t addrs = 0x6cb2764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::URPReflectionProbeSettings*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::URPReflectionProbeSettings::*)()>(
     &::UnityEngine::Rendering::URPReflectionProbeSettings::get_UseReflectionProbeRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c75af0;
+  constexpr static std::size_t addrs = 0x6cb276c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::URPReflectionProbeSettings::*)()>(&::UnityEngine::Rendering::URPReflectionProbeSettings::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6c75af8;
+  constexpr static std::size_t addrs = 0x6cb2774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::URPReflectionProbeSettings*>(), { ".ctor", {}, {} })));

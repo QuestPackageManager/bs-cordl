@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataTable*)>(&::System::Data::DataColumnCollection::_ctor)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x643c8d0;
+  constexpr static std::size_t addrs = 0x64794a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::System::Data::DataColumnCollection::*)()>(&::System::Data::DataColumnCollection::get_List)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643ca4c;
+  constexpr static std::size_t addrs = 0x647961c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::DataColumn*> (::System::Data::DataColumnCollection::*)()>(
     &::System::Data::DataColumnCollection::get_ColumnsImplementingIChangeTracking)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643ca54;
+  constexpr static std::size_t addrs = 0x6479624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataColumnCollection::*)()>(&::System::Data::DataColumnCollection::get_ColumnsImplementingIChangeTrackingCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643ca5c;
+  constexpr static std::size_t addrs = 0x647962c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataColumnCollection::*)()>(
     &::System::Data::DataColumnCollection::get_ColumnsImplementingIRevertibleChangeTrackingCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643ca64;
+  constexpr static std::size_t addrs = 0x6479634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataColumn* (::System::Data::DataColumnCollection::*)(int32_t)>(&::System::Data::DataColumnCollection::get_Item)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x643ca6c;
+  constexpr static std::size_t addrs = 0x647963c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataColumn* (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::get_Item)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x643cbac;
+  constexpr static std::size_t addrs = 0x647977c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataColumn* (::System::Data::DataColumnCollection::*)(::StringW, ::StringW)>(&::System::Data::DataColumnCollection::get_Item)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x643ce4c;
+  constexpr static std::size_t addrs = 0x6479a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::Add)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x643cef8;
+  constexpr static std::size_t addrs = 0x6479ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(int32_t, ::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::AddAt)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x643cf04;
+  constexpr static std::size_t addrs = 0x6479ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(
     &::System::Data::DataColumnCollection::add_CollectionChanged)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x643d5ac;
+  constexpr static std::size_t addrs = 0x647a17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(
     &::System::Data::DataColumnCollection::remove_CollectionChanged)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x643d658;
+  constexpr static std::size_t addrs = 0x647a228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(
     &::System::Data::DataColumnCollection::add_ColumnPropertyChanged)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x643d704;
+  constexpr static std::size_t addrs = 0x647a2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventHandler*)>(
     &::System::Data::DataColumnCollection::remove_ColumnPropertyChanged)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x643d7b0;
+  constexpr static std::size_t addrs = 0x647a380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::ArrayAdd)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x643d494;
+  constexpr static std::size_t addrs = 0x647a064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(int32_t, ::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::ArrayAdd)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x643d454;
+  constexpr static std::size_t addrs = 0x647a024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::ArrayRemove)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x643d89c;
+  constexpr static std::size_t addrs = 0x647a46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::DataColumnCollection::*)()>(&::System::Data::DataColumnCollection::AssignName)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x643dad8;
+  constexpr static std::size_t addrs = 0x647a6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "AssignName", {}, {} })));
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::BaseAdd)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x643d17c;
+  constexpr static std::size_t addrs = 0x6479d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::ArrayW<::System::Data::DataColumn*>, int32_t, ::ArrayW<::System::Data::DataColumn*>, int32_t)>(
     &::System::Data::DataColumnCollection::BaseGroupSwitch)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x643deec;
+  constexpr static std::size_t addrs = 0x647aabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::BaseRemove)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x643e0d0;
+  constexpr static std::size_t addrs = 0x647aca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*, bool)>(&::System::Data::DataColumnCollection::CanRemove)> {
   constexpr static std::size_t size = 0x644;
-  constexpr static std::size_t addrs = 0x643e188;
+  constexpr static std::size_t addrs = 0x647ad58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::CheckIChangeTracking)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x643d85c;
+  constexpr static std::size_t addrs = 0x647a42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)()>(&::System::Data::DataColumnCollection::Clear)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x643e9dc;
+  constexpr static std::size_t addrs = 0x647b5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(), { "Clear", {}, {} })));
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::Contains)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x643ecf0;
+  constexpr static std::size_t addrs = 0x647b8c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataColumnCollection::*)(::StringW, bool)>(&::System::Data::DataColumnCollection::Contains)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x643ed88;
+  constexpr static std::size_t addrs = 0x647b958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::IndexOf)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x643ee30;
+  constexpr static std::size_t addrs = 0x647ba00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::IndexOfCaseInsensitive)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x643ccf8;
+  constexpr static std::size_t addrs = 0x64798c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::DataColumnCollection::*)(int32_t)>(&::System::Data::DataColumnCollection::MakeName)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x643db7c;
+  constexpr static std::size_t addrs = 0x647a74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(
     &::System::Data::DataColumnCollection::OnCollectionChanged)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x643d500;
+  constexpr static std::size_t addrs = 0x647a0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(),
@@ -421,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(
     &::System::Data::DataColumnCollection::OnCollectionChanging)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x643d154;
+  constexpr static std::size_t addrs = 0x6479d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::ComponentModel::CollectionChangeEventArgs*)>(
     &::System::Data::DataColumnCollection::OnColumnPropertyChanged)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x643ef30;
+  constexpr static std::size_t addrs = 0x647bb00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -451,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::StringW, ::System::Data::DataColumn*)>(
     &::System::Data::DataColumnCollection::RegisterColumnName)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x643dc50;
+  constexpr static std::size_t addrs = 0x647a820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -465,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::CanRegisterName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x643ef6c;
+  constexpr static std::size_t addrs = 0x647bb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -478,7 +478,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(&::System::Data::DataColumnCollection::Remove)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x643efe4;
+  constexpr static std::size_t addrs = 0x647bbb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -491,7 +491,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::StringW)>(&::System::Data::DataColumnCollection::UnregisterName)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x643de28;
+  constexpr static std::size_t addrs = 0x647a9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -505,7 +505,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(
     &::System::Data::DataColumnCollection::AddColumnsImplementingIChangeTrackingList)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x643e910;
+  constexpr static std::size_t addrs = 0x647b4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(),
@@ -519,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataColumnCollection::*)(::System::Data::DataColumn*)>(
     &::System::Data::DataColumnCollection::RemoveColumnsImplementingIChangeTrackingList)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x643d9d0;
+  constexpr static std::size_t addrs = 0x647a5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataColumnCollection*>(),

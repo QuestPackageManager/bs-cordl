@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::BinaryConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::BinaryConverter::WriteJson)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x61afefc;
+  constexpr static std::size_t addrs = 0x61ec944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Newtonsoft::Json::Converters::BinaryConverter::*)(::System::Object*)>(
     &::Newtonsoft::Json::Converters::BinaryConverter::GetByteArray)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x61aff50;
+  constexpr static std::size_t addrs = 0x61ec998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*)>(&::Newtonsoft::Json::Converters::BinaryConverter::EnsureReflectionObject)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x61b0138;
+  constexpr static std::size_t addrs = 0x61ecb80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::Newtonsoft::Json::Converters::BinaryConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::Newtonsoft::Json::Converters::BinaryConverter::ReadJson)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x61b02d4;
+  constexpr static std::size_t addrs = 0x61ecd1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Newtonsoft::Json::Converters::BinaryConverter::*)(::Newtonsoft::Json::JsonReader*)>(
     &::Newtonsoft::Json::Converters::BinaryConverter::ReadByteArray)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x61b06bc;
+  constexpr static std::size_t addrs = 0x61ed104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Converters::BinaryConverter::*)(::System::Type*)>(&::Newtonsoft::Json::Converters::BinaryConverter::CanConvert)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x61b096c;
+  constexpr static std::size_t addrs = 0x61ed3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::BinaryConverter::*)()>(&::Newtonsoft::Json::Converters::BinaryConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61b0a64;
+  constexpr static std::size_t addrs = 0x61ed4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::BinaryConverter*>(), { ".ctor", {}, {} })));

@@ -9,6 +9,7 @@
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapBoxConverter_def.hpp"
 #include "GlobalNamespace/zzzz__IEnvironmentLightGroups_def.hpp"
+#include "GlobalNamespace/zzzz__ILightGroup_def.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 //  Writing Method size for method: ::BeatmapDataLoaderVersion4::EventBoxGroupConverter._ctor
 template <>
@@ -17,7 +18,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoader
     ::BeatmapSaveDataVersion4::LightshowSaveData*, ::GlobalNamespace::IEnvironmentLightGroups*, ::GlobalNamespace::IBeatmapBoxConverter*)>(
     &::BeatmapDataLoaderVersion4::EventBoxGroupConverter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39edc30;
+  constexpr static std::size_t addrs = 0x3a173b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,13 +35,27 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventDataBoxGroup* (
     ::BeatmapDataLoaderVersion4::EventBoxGroupConverter::*)(::BeatmapSaveDataVersion4::EventBoxGroup*, int32_t)>(&::BeatmapDataLoaderVersion4::EventBoxGroupConverter::Convert)> {
-  constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x39ed604;
+  constexpr static std::size_t size = 0x2bc;
+  constexpr static std::size_t addrs = 0x3a16de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::EventBoxGroupConverter*>(),
                                                              { "Convert", {}, { ::i2c::type_of<::BeatmapSaveDataVersion4::EventBoxGroup*>(), ::i2c::type_of<int32_t>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatmapDataLoaderVersion4::EventBoxGroupConverter.GetGroupSize
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapDataLoaderVersion4::EventBoxGroupConverter::*)(::GlobalNamespace::ILightGroup*, ::BeatmapSaveDataVersion4::EventBox)>(
+    &::BeatmapDataLoaderVersion4::EventBoxGroupConverter::GetGroupSize)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::EventBoxGroupConverter*>(),
+                                                                                          { ::i2c::class_of<::BeatmapDataLoaderVersion4::EventBoxGroupConverter*>(), 4 }));
     return ___internal_method;
   }
 };
@@ -55,7 +70,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::EventBoxGroupConverter*>(),
-                                                                                          { ::i2c::class_of<::BeatmapDataLoaderVersion4::EventBoxGroupConverter*>(), 4 }));
+                                                                                          { ::i2c::class_of<::BeatmapDataLoaderVersion4::EventBoxGroupConverter*>(), 5 }));
     return ___internal_method;
   }
 };
@@ -111,10 +126,15 @@ inline ::GlobalNamespace::BeatmapEventDataBoxGroup* BeatmapDataLoaderVersion4::E
                                                            { "Convert", {}, { ::i2c::type_of<::BeatmapSaveDataVersion4::EventBoxGroup*>(), ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapEventDataBoxGroup*>(this, ___internal_method, eventBoxGroup, channel);
 }
+inline int32_t BeatmapDataLoaderVersion4::EventBoxGroupConverter::GetGroupSize(::GlobalNamespace::ILightGroup* lightGroup, ::BeatmapSaveDataVersion4::EventBox eventBox) {
+  auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatmapDataLoaderVersion4::EventBoxGroupConverter*>(), 4 })));
+  return ::cordl_internals::RunMethodRethrow<int32_t>(this, ___internal_method, lightGroup, eventBox);
+}
 inline ::GlobalNamespace::BeatmapEventDataBox* BeatmapDataLoaderVersion4::EventBoxGroupConverter::ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox,
                                                                                                                 ::GlobalNamespace::IndexFilter* indexFilter) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatmapDataLoaderVersion4::EventBoxGroupConverter*>(), 4 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::BeatmapDataLoaderVersion4::EventBoxGroupConverter*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapEventDataBox*>(this, ___internal_method, eventBox, indexFilter);
 }
 inline ::BeatmapDataLoaderVersion4::EventBoxGroupConverter* BeatmapDataLoaderVersion4::EventBoxGroupConverter::New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,

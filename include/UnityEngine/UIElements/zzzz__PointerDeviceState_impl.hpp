@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)()>(
     &::UnityEngine::UIElements::PointerDeviceState_PointerLocation::get_Position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7231a30;
+  constexpr static std::size_t addrs = 0x726e964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::UIElements::PointerDeviceState_PointerLocation::set_Position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7231a3c;
+  constexpr static std::size_t addrs = 0x726e970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IPanel* (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)()>(
     &::UnityEngine::UIElements::PointerDeviceState_PointerLocation::get_Panel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7231a48;
+  constexpr static std::size_t addrs = 0x726e97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>(), { "get_Panel", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::PointerDeviceState_PointerLocation::set_Panel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7231a50;
+  constexpr static std::size_t addrs = 0x726e984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PointerDeviceState_LocationFlag (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)()>(
     &::UnityEngine::UIElements::PointerDeviceState_PointerLocation::get_Flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7231a58;
+  constexpr static std::size_t addrs = 0x726e98c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>(), { "get_Flags", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)(::UnityEngine::UIElements::PointerDeviceState_LocationFlag)>(
     &::UnityEngine::UIElements::PointerDeviceState_PointerLocation::set_Flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7231a60;
+  constexpr static std::size_t addrs = 0x726e994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)(::UnityEngine::Vector3, ::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::PointerDeviceState_PointerLocation::SetLocation)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x723061c;
+  constexpr static std::size_t addrs = 0x726d550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_RuntimePointerState::*)()>(
     &::UnityEngine::UIElements::PointerDeviceState_RuntimePointerState::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7231a68;
+  constexpr static std::size_t addrs = 0x726e99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerDeviceState_RuntimePointerState*>(),
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_RuntimePointerState::*)()>(
     &::UnityEngine::UIElements::PointerDeviceState_RuntimePointerState::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7231a78;
+  constexpr static std::size_t addrs = 0x726e9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_ScreenPointerState::*)()>(
     &::UnityEngine::UIElements::PointerDeviceState_ScreenPointerState::Reset)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x7231a80;
+  constexpr static std::size_t addrs = 0x726e9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerDeviceState_ScreenPointerState*>(),
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_ScreenPointerState::*)()>(
     &::UnityEngine::UIElements::PointerDeviceState_ScreenPointerState::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7231860;
+  constexpr static std::size_t addrs = 0x726e794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerDeviceState_ScreenPointerState*>(), { ".ctor", {}, {} })));
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Ray (::UnityEngine::UIElements::PointerDeviceState_TrackedPointerState::*)()>(
     &::UnityEngine::UIElements::PointerDeviceState_TrackedPointerState::get_worldRay)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x7231ae4;
+  constexpr static std::size_t addrs = 0x726ea18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_TrackedPointerState::*)()>(
     &::UnityEngine::UIElements::PointerDeviceState_TrackedPointerState::Reset)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x7231c14;
+  constexpr static std::size_t addrs = 0x726eb48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerDeviceState_TrackedPointerState*>(),
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_TrackedPointerState::*)()>(
     &::UnityEngine::UIElements::PointerDeviceState_TrackedPointerState::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x7231524;
+  constexpr static std::size_t addrs = 0x726e458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -418,7 +418,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::PointerDeviceState::RemovePanelData)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x72303b0;
+  constexpr static std::size_t addrs = 0x726d2e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -432,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UIDocument*)>(&::UnityEngine::UIElements::PointerDeviceState::RemoveDocumentData)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x723080c;
+  constexpr static std::size_t addrs = 0x726d740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerDeviceState*>(),
@@ -446,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::UnityEngine::Vector3, ::UnityEngine::UIElements::IPanel*, ::UnityEngine::UIElements::ContextType)>(
     &::UnityEngine::UIElements::PointerDeviceState::SavePointerPosition)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x7230968;
+  constexpr static std::size_t addrs = 0x726d89c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -463,7 +463,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::PressButton)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x7230a24;
+  constexpr static std::size_t addrs = 0x726d958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -476,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::ReleaseButton)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x7230b40;
+  constexpr static std::size_t addrs = 0x726da74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -489,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::ReleaseAllButtons)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x722e810;
+  constexpr static std::size_t addrs = 0x726b744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -503,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(int32_t, ::UnityEngine::UIElements::ContextType)>(
     &::UnityEngine::UIElements::PointerDeviceState::GetPointerPosition)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x722550c;
+  constexpr static std::size_t addrs = 0x7262440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -518,7 +518,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(int32_t, ::UnityEngine::UIElements::ContextType, ::UnityEngine::Vector3)>(
     &::UnityEngine::UIElements::PointerDeviceState::GetPointerDeltaPosition)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x7230c5c;
+  constexpr static std::size_t addrs = 0x726db90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -534,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IPanel* (*)(int32_t, ::UnityEngine::UIElements::ContextType)>(
     &::UnityEngine::UIElements::PointerDeviceState::GetPanel)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x7230d80;
+  constexpr static std::size_t addrs = 0x726dcb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -549,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::PointerDeviceState_LocationFlag, ::UnityEngine::UIElements::PointerDeviceState_LocationFlag)>(
     &::UnityEngine::UIElements::PointerDeviceState::HasFlagFast)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7230e04;
+  constexpr static std::size_t addrs = 0x726dd38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -566,7 +566,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, ::UnityEngine::UIElements::ContextType, ::UnityEngine::UIElements::PointerDeviceState_LocationFlag)>(
     &::UnityEngine::UIElements::PointerDeviceState::HasLocationFlag)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x7230e10;
+  constexpr static std::size_t addrs = 0x726dd44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -583,7 +583,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::GetPressedButtons)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7230ea8;
+  constexpr static std::size_t addrs = 0x726dddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -596,7 +596,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::HasAdditionalPressedButtons)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x7230f28;
+  constexpr static std::size_t addrs = 0x726de5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerDeviceState*>(),
@@ -609,7 +609,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::RuntimePanel* (*)(int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::GetPlayerPanelWithSoftPointerCapture)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7230fc4;
+  constexpr static std::size_t addrs = 0x726def8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -623,7 +623,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UIElements::UIDocument> (*)(int32_t)>(
     &::UnityEngine::UIElements::PointerDeviceState::GetWorldSpaceDocumentWithSoftPointerCapture)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7231044;
+  constexpr static std::size_t addrs = 0x726df78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -637,7 +637,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Camera> (*)(int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::GetCameraWithSoftPointerCapture)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x72310c4;
+  constexpr static std::size_t addrs = 0x726dff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -651,7 +651,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Camera*)>(
     &::UnityEngine::UIElements::PointerDeviceState::SetElementWithSoftPointerCapture)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x7231144;
+  constexpr static std::size_t addrs = 0x726e078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -668,7 +668,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PointerDeviceState_TrackedPointerState* (*)(int32_t, bool)>(
     &::UnityEngine::UIElements::PointerDeviceState::GetTrackedState)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x7231364;
+  constexpr static std::size_t addrs = 0x726e298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -681,7 +681,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::RemoveTrackedState)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x72315c8;
+  constexpr static std::size_t addrs = 0x726e4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -695,7 +695,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PointerDeviceState_ScreenPointerState* (*)(int32_t, bool)>(
     &::UnityEngine::UIElements::PointerDeviceState::GetScreenPointerState)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x72316a4;
+  constexpr static std::size_t addrs = 0x726e5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -64,14 +64,14 @@ public:
   // Declarations
   static inline ::Zenject::SignalDeclaration_Factory* New_ctor();
 
-  /// @brief Method __zenCreate, addr 0x72e31b4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x7320218, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
   /// [Preserve]
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x72e322c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x7320290, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x72e3178, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x73201dc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
   SignalDeclaration_Factory(SignalDeclaration_Factory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14250 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15026 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -139,24 +139,24 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method Add, addr 0x72e2c30, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x731fc94, size 0xec, virtual false, abstract: false, final false
   inline void Add(::Zenject::SignalSubscription* subscription);
 
-  /// @brief Method Dispose, addr 0x72e2290, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x731f2f4, size 0x150, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Fire, addr 0x72e23e8, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method Fire, addr 0x731f44c, size 0x2b4, virtual false, abstract: false, final false
   inline void Fire(::System::Object* signal);
 
-  /// @brief Method FireInternal, addr 0x72e269c, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method FireInternal, addr 0x731f700, size 0x258, virtual false, abstract: false, final false
   inline void FireInternal(::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>* subscriptions, ::System::Object* signal);
 
   static inline ::Zenject::SignalDeclaration* New_ctor(::Zenject::SignalDeclarationBindInfo* bindInfo, /* [InjectOptional] */ ::Zenject::ZenjectSettings* zenjectSettings);
 
-  /// @brief Method Remove, addr 0x72e2d1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x731fd80, size 0x5c, virtual false, abstract: false, final false
   inline void Remove(::Zenject::SignalSubscription* subscription);
 
-  /// @brief Method Tick, addr 0x72e2914, size 0x31c, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x731f978, size 0x31c, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr int32_t const& __cordl_internal_get__TickPriority_k__BackingField() const;
@@ -201,24 +201,24 @@ public:
 
   constexpr void __cordl_internal_set__subscriptions(::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>* value);
 
-  /// @brief Method __zenCreate, addr 0x72e2d78, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x731fddc, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
   /// [Preserve]
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x72e2e9c, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x731ff00, size 0x2dc, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x72e20fc, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x731f160, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* bindInfo, /* [InjectOptional] */ ::Zenject::ZenjectSettings* zenjectSettings);
 
-  /// @brief Method get_BindingId, addr 0x72e2284, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_BindingId, addr 0x731f2e8, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::BindingId get_BindingId();
 
-  /// @brief Method get_IsAsync, addr 0x72e227c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAsync, addr 0x731f2e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAsync();
 
   /// [CompilerGenerated]
-  /// @brief Method get_TickPriority, addr 0x72e226c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TickPriority, addr 0x731f2d0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TickPriority();
 
   /// @brief Convert to "::System::IDisposable"
@@ -228,7 +228,7 @@ public:
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_TickPriority, addr 0x72e2274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TickPriority, addr 0x731f2d8, size 0x8, virtual false, abstract: false, final false
   inline void set_TickPriority(int32_t value);
 
 protected:
@@ -246,7 +246,7 @@ public:
   SignalDeclaration(SignalDeclaration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14251 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15027 };
 
   /// @brief Field _subscriptions, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>* ____subscriptions;

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::*)()>(
     &::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::get_apiName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d1a324;
+  constexpr static std::size_t addrs = 0x5d545f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::*)()>(
     &::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::get_localizedDescription)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5d1a32c;
+  constexpr static std::size_t addrs = 0x5d54600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::*)(
     ::by_ref<::GlobalNamespace::BeatmapKey const>, ::GlobalNamespace::BeatmapLevel*)>(&::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5d1a4e4;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5d547b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::GlobalNamespace::BeatmapKey const>, ::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData::GetDestinationLocalizedString)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5d1a354;
+  constexpr static std::size_t addrs = 0x5d54628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

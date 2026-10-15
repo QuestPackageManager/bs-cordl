@@ -46,72 +46,72 @@ public:
   __declspec(property(get = getStaticF_activeQualityLevelChanged, put = setStaticF_activeQualityLevelChanged)) ::System::Action_2<int32_t, int32_t>* activeQualityLevelChanged;
 
   /// [RequiredByNativeCode]
-  /// @brief Method OnActiveQualityLevelChanged, addr 0x6ee06fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnActiveQualityLevelChanged, addr 0x6f1d398, size 0x84, virtual false, abstract: false, final false
   static inline void OnActiveQualityLevelChanged(int32_t previousQualityLevel, int32_t currentQualityLevel);
 
   static inline ::System::Action_2<int32_t, int32_t>* getStaticF_activeQualityLevelChanged();
 
-  /// @brief Method get_INTERNAL_renderPipeline, addr 0x6ee094c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_INTERNAL_renderPipeline, addr 0x6f1d5e8, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> get_INTERNAL_renderPipeline();
 
-  /// @brief Method get_INTERNAL_renderPipeline_Injected, addr 0x6ee0a60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_INTERNAL_renderPipeline_Injected, addr 0x6f1d6fc, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_INTERNAL_renderPipeline_Injected();
 
   /// [StaticAccessor("GetPlayerSettings()", (UnityEngine.Bindings.StaticAccessorType)0)]
   /// [NativeName("GetColorSpace")]
-  /// @brief Method get_activeColorSpace, addr 0x6ee0c60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_activeColorSpace, addr 0x6f1d8fc, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorSpace get_activeColorSpace();
 
-  /// @brief Method get_antiAliasing, addr 0x6ee08c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_antiAliasing, addr 0x6f1d55c, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_antiAliasing();
 
-  /// @brief Method get_billboardsFaceCameraPosition, addr 0x6ee0924, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_billboardsFaceCameraPosition, addr 0x6f1d5c0, size 0x28, virtual false, abstract: false, final false
   static inline bool get_billboardsFaceCameraPosition();
 
   /// [NativeName("GetColorSpace")]
   /// [StaticAccessor("GetPlayerSettings()", (UnityEngine.Bindings.StaticAccessorType)0)]
-  /// @brief Method get_desiredColorSpace, addr 0x6edcc54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_desiredColorSpace, addr 0x6f198f0, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorSpace get_desiredColorSpace();
 
-  /// @brief Method get_enableLODCrossFade, addr 0x6ee0820, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_enableLODCrossFade, addr 0x6f1d4bc, size 0x28, virtual false, abstract: false, final false
   static inline bool get_enableLODCrossFade();
 
-  /// @brief Method get_lodBias, addr 0x6ee07a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_lodBias, addr 0x6f1d444, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_lodBias();
 
-  /// @brief Method get_maximumLODLevel, addr 0x6ee07f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_maximumLODLevel, addr 0x6f1d494, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_maximumLODLevel();
 
-  /// @brief Method get_meshLodThreshold, addr 0x6ee07d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_meshLodThreshold, addr 0x6f1d46c, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_meshLodThreshold();
 
-  /// @brief Method get_renderPipeline, addr 0x6ee0b44, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_renderPipeline, addr 0x6f1d7e0, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> get_renderPipeline();
 
-  /// @brief Method get_shadowmaskMode, addr 0x6ee0780, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_shadowmaskMode, addr 0x6f1d41c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ShadowmaskMode get_shadowmaskMode();
 
   static inline void setStaticF_activeQualityLevelChanged(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method set_INTERNAL_renderPipeline, addr 0x6ee0a88, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_INTERNAL_renderPipeline, addr 0x6f1d724, size 0x80, virtual false, abstract: false, final false
   static inline void set_INTERNAL_renderPipeline(::UnityEngine::ScriptableObject* value);
 
-  /// @brief Method set_INTERNAL_renderPipeline_Injected, addr 0x6ee0b08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_INTERNAL_renderPipeline_Injected, addr 0x6f1d7a4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_INTERNAL_renderPipeline_Injected(::System::IntPtr value);
 
-  /// @brief Method set_antiAliasing, addr 0x6ee08e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_antiAliasing, addr 0x6f1d584, size 0x3c, virtual false, abstract: false, final false
   static inline void set_antiAliasing(int32_t value);
 
-  /// @brief Method set_enableLODCrossFade, addr 0x6ee0848, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_enableLODCrossFade, addr 0x6f1d4e4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_enableLODCrossFade(bool value);
 
-  /// @brief Method set_maxQueuedFrames, addr 0x6ee0c24, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_maxQueuedFrames, addr 0x6f1d8c0, size 0x3c, virtual false, abstract: false, final false
   static inline void set_maxQueuedFrames(int32_t value);
 
-  /// @brief Method set_renderPipeline, addr 0x6ee0bc0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_renderPipeline, addr 0x6f1d85c, size 0x64, virtual false, abstract: false, final false
   static inline void set_renderPipeline(::UnityEngine::Rendering::RenderPipelineAsset* value);
 
-  /// @brief Method set_vSyncCount, addr 0x6ee0884, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_vSyncCount, addr 0x6f1d520, size 0x3c, virtual false, abstract: false, final false
   static inline void set_vSyncCount(int32_t value);
 
 protected:
@@ -129,7 +129,7 @@ public:
   QualitySettings(QualitySettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9741 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

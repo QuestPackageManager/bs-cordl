@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::UnityEngine::UIElements::AlignmentUtils::RoundToPixelGrid)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x70823f8;
+  constexpr static std::size_t addrs = 0x70bf32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t, float_t)>(&::UnityEngine::UIElements::AlignmentUtils::CeilToPixelGrid)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7082414;
+  constexpr static std::size_t addrs = 0x70bf348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::UIElements::VisualElement*, float_t)>(&::UnityEngine::UIElements::AlignmentUtils::RoundToPanelPixelSize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x7082428;
+  constexpr static std::size_t addrs = 0x70bf35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::StaticAccessorAttribute::*)(::StringW)>(&::UnityEngine::Bindings::StaticAccessorAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7015054;
+  constexpr static std::size_t addrs = 0x7051f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::StaticAccessorAttribute::*)(::UnityEngine::Bindings::StaticAccessorType)>(
     &::UnityEngine::Bindings::StaticAccessorAttribute::set_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x701505c;
+  constexpr static std::size_t addrs = 0x7051f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::StaticAccessorAttribute::*)(::StringW)>(&::UnityEngine::Bindings::StaticAccessorAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7015064;
+  constexpr static std::size_t addrs = 0x7051f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::StaticAccessorAttribute::*)(::StringW, ::UnityEngine::Bindings::StaticAccessorType)>(
     &::UnityEngine::Bindings::StaticAccessorAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x701506c;
+  constexpr static std::size_t addrs = 0x7051f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

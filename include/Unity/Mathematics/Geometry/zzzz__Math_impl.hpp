@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::Geometry::MinMaxAABB (*)(::Unity::Mathematics::RigidTransform, ::Unity::Mathematics::Geometry::MinMaxAABB)>(
     &::Unity::Mathematics::Geometry::Math::Transform)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x6a4e800;
+  constexpr static std::size_t addrs = 0x6a8b47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::Geometry::MinMaxAABB (*)(::Unity::Mathematics::float4x4, ::Unity::Mathematics::Geometry::MinMaxAABB)>(
     &::Unity::Mathematics::Geometry::Math::Transform)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6a4ead4;
+  constexpr static std::size_t addrs = 0x6a8b750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::Geometry::MinMaxAABB (*)(::Unity::Mathematics::float3x3, ::Unity::Mathematics::Geometry::MinMaxAABB)>(
     &::Unity::Mathematics::Geometry::Math::Transform)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6a4ec78;
+  constexpr static std::size_t addrs = 0x6a8b8f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

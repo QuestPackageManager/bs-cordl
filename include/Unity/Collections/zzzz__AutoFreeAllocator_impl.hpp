@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::Unity::Collections::AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x68d3224;
+  constexpr static std::size_t addrs = 0x690fea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate*>(),
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate::*)(
     ::System::IntPtr, ::by_ref<::Unity::Collections::AllocatorManager_Block>)>(&::Unity::Collections::AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68d3290;
+  constexpr static std::size_t addrs = 0x690ff0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate*>(),
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::Unity::Collections::AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate::*)(::System::IntPtr, ::by_ref<::Unity::Collections::AllocatorManager_Block>, ::System::AsyncCallback*,
                                                                                   ::System::Object*)>(&::Unity::Collections::AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x68d32a4;
+  constexpr static std::size_t addrs = 0x690ff20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate*>(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate::*)(::System::IAsyncResult*)>(
     &::Unity::Collections::AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x68d334c;
+  constexpr static std::size_t addrs = 0x690ffc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Collections::AutoFreeAllocator_Try_000000E3$PostfixBurstDelegate*>(),
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::IntPtr>)>(&::Unity::Collections::AutoFreeAllocator_Try_000000E3$BurstDirectCall::GetFunctionPointerDiscard)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x68d3370;
+  constexpr static std::size_t addrs = 0x690ffec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::AutoFreeAllocator_Try_000000E3$BurstDirectCall*>(),
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::Unity::Collections::AutoFreeAllocator_Try_000000E3$BurstDirectCall::GetFunctionPointer)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68d347c;
+  constexpr static std::size_t addrs = 0x69100f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::Unity::Collections::AllocatorManager_Block>)>(
     &::Unity::Collections::AutoFreeAllocator_Try_000000E3$BurstDirectCall::Invoke)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x68d3150;
+  constexpr static std::size_t addrs = 0x690fdcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::AutoFreeAllocator::*)()>(&::Unity::Collections::AutoFreeAllocator::Update)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x68d2cdc;
+  constexpr static std::size_t addrs = 0x690f958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::AutoFreeAllocator>(), { "Update", {}, {} })));
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::AutoFreeAllocator::*)(::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::AutoFreeAllocator::Initialize)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x68d2e30;
+  constexpr static std::size_t addrs = 0x690faac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::AutoFreeAllocator>(),
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::AutoFreeAllocator::*)()>(&::Unity::Collections::AutoFreeAllocator::FreeAll)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x68d2edc;
+  constexpr static std::size_t addrs = 0x690fb58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::AutoFreeAllocator>(), { "FreeAll", {}, {} })));
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::AutoFreeAllocator::*)()>(&::Unity::Collections::AutoFreeAllocator::Dispose)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68d2fa4;
+  constexpr static std::size_t addrs = 0x690fc20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::AutoFreeAllocator>(), { "Dispose", {}, {} })));
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::AllocatorManager_TryFunction* (::Unity::Collections::AutoFreeAllocator::*)()>(
     &::Unity::Collections::AutoFreeAllocator::get_Function)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x68d3004;
+  constexpr static std::size_t addrs = 0x690fc80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::AutoFreeAllocator>(), { "get_Function", {}, {} })));
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::AutoFreeAllocator::*)(::by_ref<::Unity::Collections::AllocatorManager_Block>)>(
     &::Unity::Collections::AutoFreeAllocator::Try)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x68d3078;
+  constexpr static std::size_t addrs = 0x690fcf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::Unity::Collections::AllocatorManager_Block>)>(&::Unity::Collections::AutoFreeAllocator::Try)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68d2cd8;
+  constexpr static std::size_t addrs = 0x690f954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::AllocatorManager_AllocatorHandle (::Unity::Collections::AutoFreeAllocator::*)()>(
     &::Unity::Collections::AutoFreeAllocator::get_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d31f0;
+  constexpr static std::size_t addrs = 0x690fe6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::AutoFreeAllocator>(), { "get_Handle", {}, {} })));
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::AutoFreeAllocator::*)(::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::AutoFreeAllocator::set_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d31f8;
+  constexpr static std::size_t addrs = 0x690fe74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::AutoFreeAllocator>(),
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::Allocator (::Unity::Collections::AutoFreeAllocator::*)()>(&::Unity::Collections::AutoFreeAllocator::get_ToAllocator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d3200;
+  constexpr static std::size_t addrs = 0x690fe7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::AutoFreeAllocator>(), { "get_ToAllocator", {}, {} })));
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::AutoFreeAllocator::*)()>(&::Unity::Collections::AutoFreeAllocator::get_IsCustomAllocator)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68d3208;
+  constexpr static std::size_t addrs = 0x690fe84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::AutoFreeAllocator>(), { "get_IsCustomAllocator", {}, {} })));
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::AutoFreeAllocator::*)()>(&::Unity::Collections::AutoFreeAllocator::get_IsAutoDispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d3218;
+  constexpr static std::size_t addrs = 0x690fe94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::AutoFreeAllocator>(), { "get_IsAutoDispose", {}, {} })));
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, ::by_ref<::Unity::Collections::AllocatorManager_Block>)>(
     &::Unity::Collections::AutoFreeAllocator::Try$BurstManaged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68d3220;
+  constexpr static std::size_t addrs = 0x690fe9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

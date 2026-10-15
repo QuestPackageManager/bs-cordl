@@ -83,7 +83,7 @@ public:
   static ::HMUI::KeyboardBinder_KeyBindingType const KeyUp;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19616 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -119,24 +119,21 @@ public:
   __declspec(property(get = __cordl_internal_get__newBindings, put = __cordl_internal_set__newBindings)) ::System::Collections::Generic::List_1<
       ::System::ValueTuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder_KeyBindingType, ::UnityEngine::Events::UnityAction_1<bool>*>>* _newBindings;
 
-  /// @brief Field _shouldClearBindings, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get__shouldClearBindings, put = __cordl_internal_set__shouldClearBindings)) bool _shouldClearBindings;
-
   __declspec(property(get = get_enabled, put = set_enabled)) bool enabled;
 
-  /// @brief Method AddBinding, addr 0x5c8d288, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x5cc5788, size 0x130, virtual false, abstract: false, final false
   inline void AddBinding(::UnityEngine::KeyCode keyCode, ::HMUI::KeyboardBinder_KeyBindingType keyBindingType, ::System::Action_1<bool>* action);
 
-  /// @brief Method AddBindings, addr 0x5c8d460, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AddBindings, addr 0x5cc5960, size 0x154, virtual false, abstract: false, final false
   inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder_KeyBindingType, ::System::Action_1<bool>*>*>* bindingData);
 
-  /// @brief Method ClearBindings, addr 0x5c8d5b4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x5cc5ab4, size 0x78, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Init, addr 0x5c8d1bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5cc56bc, size 0xc, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method ManualUpdate, addr 0x5c8d62c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x5cc5b2c, size 0x158, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::HMUI::KeyboardBinder* New_ctor();
@@ -162,10 +159,6 @@ public:
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder_KeyBindingType, ::UnityEngine::Events::UnityAction_1<bool>*>>*&
   __cordl_internal_get__newBindings();
 
-  constexpr bool const& __cordl_internal_get__shouldClearBindings() const;
-
-  constexpr bool& __cordl_internal_get__shouldClearBindings();
-
   constexpr void __cordl_internal_set__bindings(
       ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder_KeyBindingType, ::UnityEngine::Events::UnityAction_1<bool>*>>* value);
 
@@ -174,23 +167,21 @@ public:
   constexpr void __cordl_internal_set__newBindings(
       ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder_KeyBindingType, ::UnityEngine::Events::UnityAction_1<bool>*>>* value);
 
-  constexpr void __cordl_internal_set__shouldClearBindings(bool value);
-
-  /// @brief Method .ctor, addr 0x5c8d120, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc5620, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5c8d3b8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc58b8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder_KeyBindingType, ::System::Action_1<bool>*>*>* bindingData);
 
-  /// @brief Method .ctor, addr 0x5c8d1c8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc56c8, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::KeyCode keycode, ::HMUI::KeyboardBinder_KeyBindingType keyBindingType, ::System::Action_1<bool>* action);
 
   /// [CompilerGenerated]
-  /// @brief Method get_enabled, addr 0x5c8d110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x5cc5610, size 0x8, virtual false, abstract: false, final false
   inline bool get_enabled();
 
   /// [CompilerGenerated]
-  /// @brief Method set_enabled, addr 0x5c8d118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x5cc5618, size 0x8, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
 protected:
@@ -208,14 +199,11 @@ public:
   KeyboardBinder(KeyboardBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19617 };
 
   /// [CompilerGenerated]
   /// @brief Field <enabled>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____enabled_k__BackingField;
-
-  /// @brief Field _shouldClearBindings, offset: 0x11, size: 0x1, def value: None
-  bool ____shouldClearBindings;
 
   /// @brief Field _newBindings, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder_KeyBindingType, ::UnityEngine::Events::UnityAction_1<bool>*>>* ____newBindings;
@@ -227,8 +215,6 @@ public:
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::KeyboardBinder, ____enabled_k__BackingField) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::HMUI::KeyboardBinder, ____shouldClearBindings) == 0x11, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::KeyboardBinder, ____newBindings) == 0x18, "Offset mismatch!");
 

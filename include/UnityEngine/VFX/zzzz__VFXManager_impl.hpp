@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ScriptableObject> (*)()>(&::UnityEngine::VFX::VFXManager::get_runtimeResources)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x72c84b8;
+  constexpr static std::size_t addrs = 0x73053ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXManager*>(), { "get_runtimeResources", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::VFX::VFXManager::get_fixedTimeStep)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x72c861c;
+  constexpr static std::size_t addrs = 0x7305550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXManager*>(), { "get_fixedTimeStep", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::VFX::VFXManager::get_maxDeltaTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x72c8644;
+  constexpr static std::size_t addrs = 0x7305578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXManager*>(), { "get_maxDeltaTime", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::VFX::VFXManager::get_maxScrubTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x72c866c;
+  constexpr static std::size_t addrs = 0x73055a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXManager*>(), { "get_maxScrubTime", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*)>(&::UnityEngine::VFX::VFXManager::PrepareCamera)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x72c8694;
+  constexpr static std::size_t addrs = 0x73055c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::VFX::VFXCameraXRSettings)>(&::UnityEngine::VFX::VFXManager::PrepareCamera)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x72c86fc;
+  constexpr static std::size_t addrs = 0x7305630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::VFX::VFXCameraXRSettings,
                                                                 ::UnityEngine::Rendering::CullingResults)>(&::UnityEngine::VFX::VFXManager::ProcessCameraCommand)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x72c8824;
+  constexpr static std::size_t addrs = 0x7305758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::VFX::VFXCameraXRSettings, ::System::IntPtr,
                                                                 ::System::IntPtr)>(&::UnityEngine::VFX::VFXManager::Internal_ProcessCameraCommand)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x72c88b0;
+  constexpr static std::size_t addrs = 0x73057e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VFXCameraBufferTypes (*)(::UnityEngine::Camera*)>(&::UnityEngine::VFX::VFXManager::IsCameraBufferNeeded)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x72c8a38;
+  constexpr static std::size_t addrs = 0x730596c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::VFX::VFXCameraBufferTypes, ::UnityEngine::Texture*, int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::VFX::VFXManager::SetCameraBuffer)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x72c8b40;
+  constexpr static std::size_t addrs = 0x7305a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::VFX::VFXManager::get_runtimeResources_Injected)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x72c85f4;
+  constexpr static std::size_t addrs = 0x7305528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::VFXManager*>(), { "get_runtimeResources_Injected", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::VFX::VFXCameraXRSettings const>)>(&::UnityEngine::VFX::VFXManager::PrepareCamera_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x72c87e0;
+  constexpr static std::size_t addrs = 0x7305714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::by_ref<::UnityEngine::VFX::VFXCameraXRSettings const>, ::System::IntPtr, ::System::IntPtr)>(
     &::UnityEngine::VFX::VFXManager::Internal_ProcessCameraCommand_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x72c89cc;
+  constexpr static std::size_t addrs = 0x7305900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VFXCameraBufferTypes (*)(::System::IntPtr)>(&::UnityEngine::VFX::VFXManager::IsCameraBufferNeeded_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x72c8b04;
+  constexpr static std::size_t addrs = 0x7305a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::VFX::VFXCameraBufferTypes, ::System::IntPtr, int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::VFX::VFXManager::SetCameraBuffer_Injected)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x72c8c84;
+  constexpr static std::size_t addrs = 0x7305bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -24,16 +24,16 @@ public:
   __declspec(property(get = getStaticF_Log, put = setStaticF_Log)) ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* Log;
 
   /// [Event(5, Level = (System.Diagnostics.Tracing.EventLevel)5)]
-  /// @brief Method ConcurrentBag_TryPeekSteals, addr 0x681c0c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConcurrentBag_TryPeekSteals, addr 0x6858d08, size 0x4, virtual false, abstract: false, final false
   inline void ConcurrentBag_TryPeekSteals();
 
   /// [Event(4, Level = (System.Diagnostics.Tracing.EventLevel)5)]
-  /// @brief Method ConcurrentBag_TryTakeSteals, addr 0x681c0c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConcurrentBag_TryTakeSteals, addr 0x6858d04, size 0x4, virtual false, abstract: false, final false
   inline void ConcurrentBag_TryTakeSteals();
 
   static inline ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x681c0b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6858cfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* getStaticF_Log();
@@ -55,7 +55,7 @@ public:
   CDSCollectionETWBCLProvider(CDSCollectionETWBCLProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12321 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12328 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

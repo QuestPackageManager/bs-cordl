@@ -62,50 +62,50 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CancellationTokenCallback, addr 0x60c4ccc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method CancellationTokenCallback, addr 0x610170c, size 0x128, virtual false, abstract: false, final false
   static inline void CancellationTokenCallback(::System::Object* obj);
 
-  /// @brief Method Dispose, addr 0x60c4b68, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x61015a8, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x60c4bd8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6101618, size 0xf4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnsureLockObjectCreated, addr 0x60c41bc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method EnsureLockObjectCreated, addr 0x6100bfc, size 0x70, virtual false, abstract: false, final false
   inline void EnsureLockObjectCreated();
 
-  /// @brief Method ExtractStatePortion, addr 0x60c3d40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ExtractStatePortion, addr 0x6100780, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ExtractStatePortion(int32_t state, int32_t mask);
 
-  /// @brief Method ExtractStatePortionAndShiftRight, addr 0x60c3e9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ExtractStatePortionAndShiftRight, addr 0x61008dc, size 0xc, virtual false, abstract: false, final false
   static inline int32_t ExtractStatePortionAndShiftRight(int32_t state, int32_t mask, int32_t rightBitShiftCount);
 
-  /// @brief Method Initialize, addr 0x60c401c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6100a5c, size 0xb0, virtual false, abstract: false, final false
   inline void Initialize(bool initialState, int32_t spinCount);
 
-  /// @brief Method LazyInitializeEvent, addr 0x60c3b50, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method LazyInitializeEvent, addr 0x6100590, size 0x190, virtual false, abstract: false, final false
   inline bool LazyInitializeEvent();
 
   static inline ::System::Threading::ManualResetEventSlim* New_ctor(bool initialState);
 
   static inline ::System::Threading::ManualResetEventSlim* New_ctor(bool initialState, int32_t spinCount);
 
-  /// @brief Method Reset, addr 0x60c44a0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6100ee0, size 0x40, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Set, addr 0x60c42a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x6100ce0, size 0x8, virtual false, abstract: false, final false
   inline void Set();
 
-  /// @brief Method Set, addr 0x60c42a8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x6100ce8, size 0x1a4, virtual false, abstract: false, final false
   inline void Set(bool duringCancellation);
 
-  /// @brief Method ThrowIfDisposed, addr 0x60c3af4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfDisposed, addr 0x6100534, size 0x5c, virtual false, abstract: false, final false
   inline void ThrowIfDisposed();
 
-  /// @brief Method UpdateStateAtomically, addr 0x60c3d68, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UpdateStateAtomically, addr 0x61007a8, size 0xd4, virtual false, abstract: false, final false
   inline void UpdateStateAtomically(int32_t newBits, int32_t updateBitsMask);
 
-  /// @brief Method Wait, addr 0x60c4538, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x6100f78, size 0x4f8, virtual false, abstract: false, final false
   inline bool Wait(int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
 
   constexpr int32_t const& __cordl_internal_get_m_combinedState() const;
@@ -126,24 +126,24 @@ public:
 
   constexpr void __cordl_internal_set_m_lock(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x60c3fa8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61009e8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(bool initialState);
 
-  /// @brief Method .ctor, addr 0x60c40cc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6100b0c, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(bool initialState, int32_t spinCount);
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_cancellationTokenCallback();
 
-  /// @brief Method get_IsSet, addr 0x60c3ce0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_IsSet, addr 0x6100720, size 0x60, virtual false, abstract: false, final false
   inline bool get_IsSet();
 
-  /// @brief Method get_SpinCount, addr 0x60c3e3c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_SpinCount, addr 0x610087c, size 0x60, virtual false, abstract: false, final false
   inline int32_t get_SpinCount();
 
-  /// @brief Method get_WaitHandle, addr 0x60c3ac4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_WaitHandle, addr 0x6100504, size 0x30, virtual false, abstract: false, final false
   inline ::System::Threading::WaitHandle* get_WaitHandle();
 
-  /// @brief Method get_Waiters, addr 0x60c3ec0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Waiters, addr 0x6100900, size 0x60, virtual false, abstract: false, final false
   inline int32_t get_Waiters();
 
   /// @brief Convert to "::System::IDisposable"
@@ -151,13 +151,13 @@ public:
 
   static inline void setStaticF_s_cancellationTokenCallback(::System::Action_1<::System::Object*>* value);
 
-  /// @brief Method set_IsSet, addr 0x60c3d48, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_IsSet, addr 0x6100788, size 0x20, virtual false, abstract: false, final false
   inline void set_IsSet(bool value);
 
-  /// @brief Method set_SpinCount, addr 0x60c3ea8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_SpinCount, addr 0x61008e8, size 0x18, virtual false, abstract: false, final false
   inline void set_SpinCount(int32_t value);
 
-  /// @brief Method set_Waiters, addr 0x60c3f20, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_Waiters, addr 0x6100960, size 0x88, virtual false, abstract: false, final false
   inline void set_Waiters(int32_t value);
 
 protected:

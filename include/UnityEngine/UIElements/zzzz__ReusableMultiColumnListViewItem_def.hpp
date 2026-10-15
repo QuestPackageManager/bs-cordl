@@ -27,18 +27,18 @@ public:
   // Declarations
   __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method Init, addr 0x709d3dc, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x70da310, size 0x3cc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* container, ::UnityEngine::UIElements::Columns* columns, bool usesAnimatedDrag);
 
-  /// @brief Method Init, addr 0x709fa78, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x70dc9ac, size 0x4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item);
 
   static inline ::UnityEngine::UIElements::ReusableMultiColumnListViewItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x709fa7c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70dc9b0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rootElement, addr 0x709fa70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_rootElement, addr 0x70dc9a4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
 protected:

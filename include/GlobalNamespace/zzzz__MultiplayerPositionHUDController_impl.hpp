@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerPositionHUDController::*)(float_t)>(&::GlobalNamespace::MultiplayerPositionHUDController::set_alpha)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dc65dc;
+  constexpr static std::size_t addrs = 0x5e037c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerPositionHUDController::*)()>(&::GlobalNamespace::MultiplayerPositionHUDController::Start)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x5dc65f4;
+  constexpr static std::size_t addrs = 0x5e037d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerPositionHUDController*>(), { "Start", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerPositionHUDController::*)()>(&::GlobalNamespace::MultiplayerPositionHUDController::Update)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5dc6768;
+  constexpr static std::size_t addrs = 0x5e0394c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerPositionHUDController*>(), { "Update", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerPositionHUDController::*)()>(&::GlobalNamespace::MultiplayerPositionHUDController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5dc692c;
+  constexpr static std::size_t addrs = 0x5e03b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerPositionHUDController*>(), { ".ctor", {}, {} })));

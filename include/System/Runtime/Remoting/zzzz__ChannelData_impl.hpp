@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::System::Runtime::Remoting::ChannelData::*)()>(
     &::System::Runtime::Remoting::ChannelData::get_ServerProviders)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5f40008;
+  constexpr static std::size_t addrs = 0x5f7c8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ChannelData*>(), { "get_ServerProviders", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ArrayList* (::System::Runtime::Remoting::ChannelData::*)()>(
     &::System::Runtime::Remoting::ChannelData::get_ClientProviders)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5f40070;
+  constexpr static std::size_t addrs = 0x5f7c958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ChannelData*>(), { "get_ClientProviders", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Hashtable* (::System::Runtime::Remoting::ChannelData::*)()>(
     &::System::Runtime::Remoting::ChannelData::get_CustomProperties)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5f400d8;
+  constexpr static std::size_t addrs = 0x5f7c9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ChannelData*>(), { "get_CustomProperties", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ChannelData::*)(::System::Runtime::Remoting::ChannelData*)>(
     &::System::Runtime::Remoting::ChannelData::CopyFrom)> {
   constexpr static std::size_t size = 0x888;
-  constexpr static std::size_t addrs = 0x5f40144;
+  constexpr static std::size_t addrs = 0x5f7ca2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::ChannelData::*)()>(&::System::Runtime::Remoting::ChannelData::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5f410c8;
+  constexpr static std::size_t addrs = 0x5f7d9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::ChannelData*>(), { ".ctor", {}, {} })));

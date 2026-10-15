@@ -69,16 +69,16 @@ public:
 
   static inline ::UnityEngine::UIElements::PanelRaycaster* New_ctor();
 
-  /// @brief Method OnPanelDestroyed, addr 0x72b0b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnPanelDestroyed, addr 0x72eda84, size 0x8, virtual false, abstract: false, final false
   inline void OnPanelDestroyed();
 
-  /// @brief Method Raycast, addr 0x72b0c70, size 0x34c, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x72edba4, size 0x34c, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method RegisterCallbacks, addr 0x72b0a84, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RegisterCallbacks, addr 0x72ed9b8, size 0xcc, virtual false, abstract: false, final false
   inline void RegisterCallbacks();
 
-  /// @brief Method UnregisterCallbacks, addr 0x72b09b8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallbacks, addr 0x72ed8ec, size 0xcc, virtual false, abstract: false, final false
   inline void UnregisterCallbacks();
 
   constexpr ::UnityEngine::UIElements::BaseRuntimePanel* const& __cordl_internal_get_m_Panel() const;
@@ -87,24 +87,24 @@ public:
 
   constexpr void __cordl_internal_set_m_Panel(::UnityEngine::UIElements::BaseRuntimePanel* value);
 
-  /// @brief Method .ctor, addr 0x72b0fdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72edf10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ScreenOverlayPanelPicker* getStaticF_panelPicker();
 
-  /// @brief Method get_eventCamera, addr 0x72b0fd4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x72edf08, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_panel, addr 0x72b08fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_panel, addr 0x72ed830, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IPanel* get_panel();
 
-  /// @brief Method get_renderOrderPriority, addr 0x72b0bf8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_renderOrderPriority, addr 0x72edb2c, size 0x78, virtual true, abstract: false, final false
   inline int32_t get_renderOrderPriority();
 
-  /// @brief Method get_selectableGameObject, addr 0x72b0b58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectableGameObject, addr 0x72eda8c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_selectableGameObject();
 
-  /// @brief Method get_sortOrderPriority, addr 0x72b0b70, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_sortOrderPriority, addr 0x72edaa4, size 0x88, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
 
   /// @brief Convert to "::UnityEngine::UIElements::IRuntimePanelComponent"
@@ -112,7 +112,7 @@ public:
 
   static inline void setStaticF_panelPicker(::UnityEngine::UIElements::ScreenOverlayPanelPicker* value);
 
-  /// @brief Method set_panel, addr 0x72b0904, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method set_panel, addr 0x72ed838, size 0xb4, virtual true, abstract: false, final true
   inline void set_panel(::UnityEngine::UIElements::IPanel* value);
 
 protected:
@@ -130,7 +130,7 @@ public:
   PanelRaycaster(PanelRaycaster const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18071 };
 
   /// @brief Field m_Panel, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::BaseRuntimePanel* ___m_Panel;

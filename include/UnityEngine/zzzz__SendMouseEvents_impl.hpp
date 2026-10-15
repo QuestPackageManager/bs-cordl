@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::SendMouseEvents_HitInfo::*)(::StringW)>(&::UnityEngine::SendMouseEvents_HitInfo::SendMessage)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6fc3464;
+  constexpr static std::size_t addrs = 0x7000358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::SendMouseEvents_HitInfo)>(&::UnityEngine::SendMouseEvents_HitInfo::op_Implicit_bool)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6fc33c0;
+  constexpr static std::size_t addrs = 0x70002b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::SendMouseEvents_HitInfo, ::UnityEngine::SendMouseEvents_HitInfo)>(&::UnityEngine::SendMouseEvents_HitInfo::Compare)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6fc3484;
+  constexpr static std::size_t addrs = 0x7000378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::SendMouseEvents::UpdateMouse)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6fc2310;
+  constexpr static std::size_t addrs = 0x6fff204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SendMouseEvents*>(), { "UpdateMouse", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::SendMouseEvents::SetMouseMoved)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6fc24e4;
+  constexpr static std::size_t addrs = 0x6fff3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::SendMouseEvents*>(), { "SetMouseMoved", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::SendMouseEvents::DoSendMouseEvents)> {
   constexpr static std::size_t size = 0xa04;
-  constexpr static std::size_t addrs = 0x6fc2544;
+  constexpr static std::size_t addrs = 0x6fff438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::UnityEngine::SendMouseEvents_HitInfo)>(&::UnityEngine::SendMouseEvents::SendEvents)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x6fc2f48;
+  constexpr static std::size_t addrs = 0x6fffe3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

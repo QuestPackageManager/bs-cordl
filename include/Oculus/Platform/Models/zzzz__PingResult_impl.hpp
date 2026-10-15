@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::PingResult::*)(uint64_t, ::System::Nullable_1<uint64_t>)>(&::Oculus::Platform::Models::PingResult::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x620b728;
+  constexpr static std::size_t addrs = 0x6248170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Models::PingResult*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Oculus::Platform::Models::PingResult::*)()>(&::Oculus::Platform::Models::PingResult::get_ID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x620b734;
+  constexpr static std::size_t addrs = 0x624817c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Models::PingResult*>(), { "get_ID", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::Models::PingResult::*)(uint64_t)>(&::Oculus::Platform::Models::PingResult::set_ID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x620b73c;
+  constexpr static std::size_t addrs = 0x6248184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Oculus::Platform::Models::PingResult::*)()>(&::Oculus::Platform::Models::PingResult::get_PingTimeUsec)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x620b744;
+  constexpr static std::size_t addrs = 0x624818c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Models::PingResult*>(), { "get_PingTimeUsec", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Oculus::Platform::Models::PingResult::*)()>(&::Oculus::Platform::Models::PingResult::get_IsTimeout)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x620b7ac;
+  constexpr static std::size_t addrs = 0x62481f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Models::PingResult*>(), { "get_IsTimeout", {}, {} })));

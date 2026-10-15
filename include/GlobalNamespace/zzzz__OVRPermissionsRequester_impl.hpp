@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRPermissionsRequester___c::*)()>(&::GlobalNamespace::OVRPermissionsRequester___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62bc47c;
+  constexpr static std::size_t addrs = 0x62f8ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPermissionsRequester___c*>(), { ".ctor", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRPermissionsRequester___c::*)(::StringW)>(
     &::GlobalNamespace::OVRPermissionsRequester___c::_BuildPermissionCallbacks_b__15_0)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x62bc480;
+  constexpr static std::size_t addrs = 0x62f8ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRPermissionsRequester___c::*)(::StringW)>(
     &::GlobalNamespace::OVRPermissionsRequester___c::_BuildPermissionCallbacks_b__15_1)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x62bc528;
+  constexpr static std::size_t addrs = 0x62f8f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::OVRPermissionsRequester::add_PermissionGranted)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x62bb910;
+  constexpr static std::size_t addrs = 0x62f8358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::StringW>*)>(&::GlobalNamespace::OVRPermissionsRequester::remove_PermissionGranted)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x62bb9f0;
+  constexpr static std::size_t addrs = 0x62f8438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::OVRPermissionsRequester_Permission)>(&::GlobalNamespace::OVRPermissionsRequester::GetPermissionId)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x62bbad0;
+  constexpr static std::size_t addrs = 0x62f8518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPermissionsRequester*>(),
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRPermissionsRequester_Permission)>(&::GlobalNamespace::OVRPermissionsRequester::IsPermissionSupportedByPlatform)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x62bbbec;
+  constexpr static std::size_t addrs = 0x62f8634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRPermissionsRequester_Permission)>(&::GlobalNamespace::OVRPermissionsRequester::IsPermissionGranted)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x62bbd60;
+  constexpr static std::size_t addrs = 0x62f87a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRPermissionsRequester_Permission>*)>(
     &::GlobalNamespace::OVRPermissionsRequester::Request)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x62bbd74;
+  constexpr static std::size_t addrs = 0x62f87bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRPermissionsRequester_Permission>*)>(
     &::GlobalNamespace::OVRPermissionsRequester::RequestPermissions)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x62bbd78;
+  constexpr static std::size_t addrs = 0x62f87c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::OVRPermissionsRequester_Permission)>(&::GlobalNamespace::OVRPermissionsRequester::ShouldRequestPermission)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x62bc150;
+  constexpr static std::size_t addrs = 0x62f8b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::PermissionCallbacks* (*)()>(&::GlobalNamespace::OVRPermissionsRequester::BuildPermissionCallbacks)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x62bc27c;
+  constexpr static std::size_t addrs = 0x62f8cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRPermissionsRequester*>(), { "BuildPermissionCallbacks", {}, {} })));

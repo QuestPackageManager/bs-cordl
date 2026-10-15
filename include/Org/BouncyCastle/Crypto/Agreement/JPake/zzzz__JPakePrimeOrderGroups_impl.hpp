@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroups::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3968768;
+  constexpr static std::size_t addrs = 0x398b0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

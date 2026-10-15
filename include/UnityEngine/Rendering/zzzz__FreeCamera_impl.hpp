@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FreeCamera::*)()>(&::UnityEngine::Rendering::FreeCamera::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b6315c;
+  constexpr static std::size_t addrs = 0x6b9fdd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FreeCamera*>(), { "OnEnable", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FreeCamera::*)()>(&::UnityEngine::Rendering::FreeCamera::RegisterInputs)> {
   constexpr static std::size_t size = 0x7f8;
-  constexpr static std::size_t addrs = 0x6b63160;
+  constexpr static std::size_t addrs = 0x6b9fddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FreeCamera*>(), { "RegisterInputs", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FreeCamera::*)()>(&::UnityEngine::Rendering::FreeCamera::UpdateInputs)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x6b63958;
+  constexpr static std::size_t addrs = 0x6ba05d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FreeCamera*>(), { "UpdateInputs", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FreeCamera::*)()>(&::UnityEngine::Rendering::FreeCamera::Update)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x6b63b6c;
+  constexpr static std::size_t addrs = 0x6ba07e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FreeCamera*>(), { "Update", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FreeCamera::*)()>(&::UnityEngine::Rendering::FreeCamera::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b63ed4;
+  constexpr static std::size_t addrs = 0x6ba0b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FreeCamera*>(), { ".ctor", {}, {} })));

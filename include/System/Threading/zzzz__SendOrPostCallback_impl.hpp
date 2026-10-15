@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SendOrPostCallback::*)(::System::Object*, ::System::IntPtr)>(&::System::Threading::SendOrPostCallback::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x60c2ab4;
+  constexpr static std::size_t addrs = 0x60ff4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SendOrPostCallback::*)(::System::Object*)>(&::System::Threading::SendOrPostCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x60c2bf8;
+  constexpr static std::size_t addrs = 0x60ff638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

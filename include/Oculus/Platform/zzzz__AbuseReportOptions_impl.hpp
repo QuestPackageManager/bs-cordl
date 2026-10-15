@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::AbuseReportOptions::*)()>(&::Oculus::Platform::AbuseReportOptions::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61cd57c;
+  constexpr static std::size_t addrs = 0x6209fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::AbuseReportOptions*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::AbuseReportOptions::*)(bool)>(&::Oculus::Platform::AbuseReportOptions::SetPreventPeopleChooser)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x61cd63c;
+  constexpr static std::size_t addrs = 0x620a084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::AbuseReportOptions::*)(::Oculus::Platform::AbuseReportType)>(&::Oculus::Platform::AbuseReportOptions::SetReportType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x61cd72c;
+  constexpr static std::size_t addrs = 0x620a174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::Oculus::Platform::AbuseReportOptions*)>(&::Oculus::Platform::AbuseReportOptions::op_Explicit___System__IntPtr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61cd81c;
+  constexpr static std::size_t addrs = 0x620a264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::AbuseReportOptions::*)()>(&::Oculus::Platform::AbuseReportOptions::Finalize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x61cd828;
+  constexpr static std::size_t addrs = 0x620a270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

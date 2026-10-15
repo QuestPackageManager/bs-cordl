@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::LineLight::*)()>(&::GlobalNamespace::LineLight::get_p0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c87278;
+  constexpr static std::size_t addrs = 0x5cbf860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LineLight*>(), { "get_p0", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::LineLight::*)()>(&::GlobalNamespace::LineLight::get_p1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c87284;
+  constexpr static std::size_t addrs = 0x5cbf86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LineLight*>(), { "get_p1", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::LineLight::*)()>(&::GlobalNamespace::LineLight::get_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c87290;
+  constexpr static std::size_t addrs = 0x5cbf878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LineLight*>(), { "get_color", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LineLight>>* (*)()>(&::GlobalNamespace::LineLight::get_lineLights)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5c8729c;
+  constexpr static std::size_t addrs = 0x5cbf884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LineLight*>(), { "get_lineLights", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LineLight::*)()>(&::GlobalNamespace::LineLight::OnEnable)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5c872f8;
+  constexpr static std::size_t addrs = 0x5cbf8e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LineLight*>(), { "OnEnable", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LineLight::*)()>(&::GlobalNamespace::LineLight::OnDisable)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5c873cc;
+  constexpr static std::size_t addrs = 0x5cbf9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LineLight*>(), { "OnDisable", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LineLight::*)()>(&::GlobalNamespace::LineLight::OnDrawGizmos)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5c87454;
+  constexpr static std::size_t addrs = 0x5cbfa3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LineLight*>(), { "OnDrawGizmos", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LineLight::*)()>(&::GlobalNamespace::LineLight::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c874dc;
+  constexpr static std::size_t addrs = 0x5cbfac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LineLight*>(), { ".ctor", {}, {} })));

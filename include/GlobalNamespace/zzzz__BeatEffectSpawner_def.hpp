@@ -38,9 +38,6 @@ template <typename T> class MemoryPoolContainer_1;
 namespace GlobalNamespace {
 class NoteController;
 }
-namespace GlobalNamespace {
-class SongController;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class BeatEffectSpawner;
@@ -71,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_hideNoteSpawnEffect(bool value);
 
-  /// @brief Method .ctor, addr 0x5d9ae84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd81c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool hideNoteSpawnEffect);
 
 protected:
@@ -89,7 +86,7 @@ public:
   BeatEffectSpawner_InitData(BeatEffectSpawner_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5872 };
 
   /// @brief Field hideNoteSpawnEffect, offset: 0x10, size: 0x1, def value: None
   bool ___hideNoteSpawnEffect;
@@ -116,7 +113,7 @@ public:
   __declspec(property(get = __cordl_internal_get__audioTimeSyncController, put = __cordl_internal_set__audioTimeSyncController)) ::UnityW<::GlobalNamespace::AudioTimeSyncController>
       _audioTimeSyncController;
 
-  /// @brief Field _beatEffectPoolContainer, offset 0x68, size 0x8
+  /// @brief Field _beatEffectPoolContainer, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__beatEffectPoolContainer,
                       put = __cordl_internal_set__beatEffectPoolContainer)) ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BeatEffect>>* _beatEffectPoolContainer;
 
@@ -138,31 +135,28 @@ public:
   /// @brief Field _initData, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::BeatEffectSpawner_InitData* _initData;
 
-  /// @brief Field _songController, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__songController, put = __cordl_internal_set__songController)) ::UnityW<::GlobalNamespace::SongController> _songController;
-
   /// @brief Convert operator to "::GlobalNamespace::IBeatEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IBeatEffectDidFinishEvent*() noexcept;
 
-  /// @brief Method HandleBeatEffectDidFinish, addr 0x5d9ad84, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method HandleBeatEffectDidFinish, addr 0x5dd80c4, size 0xe8, virtual true, abstract: false, final true
   inline void HandleBeatEffectDidFinish(::GlobalNamespace::BeatEffect* beatEffect);
 
-  /// @brief Method HandleNoteDidStartJump, addr 0x5d9a9ec, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidStartJump, addr 0x5dd7d2c, size 0x2d4, virtual false, abstract: false, final false
   inline void HandleNoteDidStartJump(::GlobalNamespace::NoteController* noteController);
 
   /// [Inject]
-  /// @brief Method Init, addr 0x5d9a434, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5dd7774, size 0x84, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::BeatEffect_Pool* beatEffectPool);
 
   static inline ::GlobalNamespace::BeatEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5d9a548, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dd7888, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5d9a4b8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5dd77f8, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5d9a5e0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5dd7920, size 0x158, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -197,10 +191,6 @@ public:
 
   constexpr ::GlobalNamespace::BeatEffectSpawner_InitData*& __cordl_internal_get__initData();
 
-  constexpr ::UnityW<::GlobalNamespace::SongController> const& __cordl_internal_get__songController() const;
-
-  constexpr ::UnityW<::GlobalNamespace::SongController>& __cordl_internal_get__songController();
-
   constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
   constexpr void __cordl_internal_set__beatEffectPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BeatEffect>>* value);
@@ -217,9 +207,7 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::BeatEffectSpawner_InitData* value);
 
-  constexpr void __cordl_internal_set__songController(::UnityW<::GlobalNamespace::SongController> value);
-
-  /// @brief Method .ctor, addr 0x5d9ae6c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd81ac, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IBeatEffectDidFinishEvent"
@@ -240,7 +228,7 @@ public:
   BeatEffectSpawner(BeatEffectSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5873 };
 
   /// [SerializeField]
   /// @brief Field _effectDuration, offset: 0x20, size: 0x4, def value: None
@@ -270,10 +258,7 @@ public:
   /// @brief Field _bloomFog, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
 
-  /// @brief Field _songController, offset: 0x60, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SongController> ____songController;
-
-  /// @brief Field _beatEffectPoolContainer, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _beatEffectPoolContainer, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BeatEffect>>* ____beatEffectPoolContainer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -293,10 +278,8 @@ static_assert(offsetof(::GlobalNamespace::BeatEffectSpawner, ____initData) == 0x
 
 static_assert(offsetof(::GlobalNamespace::BeatEffectSpawner, ____bloomFog) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatEffectSpawner, ____songController) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatEffectSpawner, ____beatEffectPoolContainer) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatEffectSpawner, ____beatEffectPoolContainer) == 0x68, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::BeatEffectSpawner) == 0x70, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::BeatEffectSpawner) == 0x68, "Size mismatch!");
 
 } // namespace GlobalNamespace

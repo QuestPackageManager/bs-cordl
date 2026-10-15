@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::*)()>(&::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x36acc14;
+  constexpr static std::size_t addrs = 0x36cf578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::ECDsaSigner*>(), { ".ctor", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::*)(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*)>(
     &::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x36acc68;
+  constexpr static std::size_t addrs = 0x36cf5cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::ECDsaSigner*>(),
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::*)()>(&::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x36acc74;
+  constexpr static std::size_t addrs = 0x36cf5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::Init)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x36accb8;
+  constexpr static std::size_t addrs = 0x36cf61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::get_Order)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x36acf54;
+  constexpr static std::size_t addrs = 0x36cf8b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Math::BigInteger*> (::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::GenerateSignature)> {
   constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x36acf78;
+  constexpr static std::size_t addrs = 0x36cf8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::*)(
     ::ArrayW<uint8_t>, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::VerifySignature)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x36ad408;
+  constexpr static std::size_t addrs = 0x36cfd6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (
     ::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::*)(::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::CalculateE)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x36ad794;
+  constexpr static std::size_t addrs = 0x36d00f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* (::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::CreateBasePointMultiplier)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x36ad85c;
+  constexpr static std::size_t addrs = 0x36d01c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (
     ::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::*)(int32_t, ::Org::BouncyCastle::Math::EC::ECPoint*)>(&::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::GetDenominator)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x36ad8a0;
+  constexpr static std::size_t addrs = 0x36d0204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Security::SecureRandom* (
     ::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::*)(bool, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Signers::ECDsaSigner::InitSecureRandom)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x36ad934;
+  constexpr static std::size_t addrs = 0x36d0298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::IntegerTime::DiscreteTime::*)(float_t)>(&::Unity::IntegerTime::DiscreteTime::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6eadf9c;
+  constexpr static std::size_t addrs = 0x6eeac38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IntegerTime::DiscreteTime>(), { ".ctor", {}, { ::i2c::type_of<float_t>() } })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::IntegerTime::DiscreteTime::*)(double_t)>(&::Unity::IntegerTime::DiscreteTime::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6eae090;
+  constexpr static std::size_t addrs = 0x6eead2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IntegerTime::DiscreteTime>(), { ".ctor", {}, { ::i2c::type_of<double_t>() } })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::IntegerTime::DiscreteTime::*)(int64_t, int32_t)>(&::Unity::IntegerTime::DiscreteTime::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6eae180;
+  constexpr static std::size_t addrs = 0x6eeae1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IntegerTime::DiscreteTime (*)(int64_t)>(&::Unity::IntegerTime::DiscreteTime::FromTicks)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6eae188;
+  constexpr static std::size_t addrs = 0x6eeae24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IntegerTime::DiscreteTime>(), { "FromTicks", {}, { ::i2c::type_of<int64_t>() } })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::Unity::IntegerTime::DiscreteTime)>(&::Unity::IntegerTime::DiscreteTime::op_Explicit_float_t)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6eae18c;
+  constexpr static std::size_t addrs = 0x6eeae28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::Unity::IntegerTime::DiscreteTime)>(&::Unity::IntegerTime::DiscreteTime::op_Explicit_double_t)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6eae1a4;
+  constexpr static std::size_t addrs = 0x6eeae40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::IntegerTime::DiscreteTime, ::Unity::IntegerTime::DiscreteTime)>(&::Unity::IntegerTime::DiscreteTime::op_Inequality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6eae1b8;
+  constexpr static std::size_t addrs = 0x6eeae54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::IntegerTime::DiscreteTime, ::Unity::IntegerTime::DiscreteTime)>(&::Unity::IntegerTime::DiscreteTime::op_GreaterThan)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6eae1c4;
+  constexpr static std::size_t addrs = 0x6eeae60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::IntegerTime::DiscreteTime, ::Unity::IntegerTime::DiscreteTime)>(&::Unity::IntegerTime::DiscreteTime::op_GreaterThanOrEqual)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6eae1d0;
+  constexpr static std::size_t addrs = 0x6eeae6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IntegerTime::DiscreteTime (*)(::Unity::IntegerTime::DiscreteTime, ::Unity::IntegerTime::DiscreteTime)>(
     &::Unity::IntegerTime::DiscreteTime::op_Addition)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6eae1dc;
+  constexpr static std::size_t addrs = 0x6eeae78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IntegerTime::DiscreteTime (*)(::Unity::IntegerTime::DiscreteTime, ::Unity::IntegerTime::DiscreteTime)>(
     &::Unity::IntegerTime::DiscreteTime::op_Subtraction)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6eae240;
+  constexpr static std::size_t addrs = 0x6eeaedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::IntegerTime::DiscreteTime::*)(::Unity::IntegerTime::DiscreteTime)>(&::Unity::IntegerTime::DiscreteTime::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6eae2a4;
+  constexpr static std::size_t addrs = 0x6eeaf40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::IntegerTime::DiscreteTime::*)(::System::Object*)>(&::Unity::IntegerTime::DiscreteTime::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6eae2b4;
+  constexpr static std::size_t addrs = 0x6eeaf50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::IntegerTime::DiscreteTime::*)()>(&::Unity::IntegerTime::DiscreteTime::GetHashCode)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6eae350;
+  constexpr static std::size_t addrs = 0x6eeafec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::IntegerTime::DiscreteTime::*)()>(&::Unity::IntegerTime::DiscreteTime::ToString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6eae35c;
+  constexpr static std::size_t addrs = 0x6eeaff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::IntegerTime::DiscreteTime::*)(::StringW, ::System::IFormatProvider*)>(&::Unity::IntegerTime::DiscreteTime::ToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6eae3dc;
+  constexpr static std::size_t addrs = 0x6eeb078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::IntegerTime::DiscreteTime::*)(::Unity::IntegerTime::DiscreteTime)>(&::Unity::IntegerTime::DiscreteTime::CompareTo)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6eae474;
+  constexpr static std::size_t addrs = 0x6eeb110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

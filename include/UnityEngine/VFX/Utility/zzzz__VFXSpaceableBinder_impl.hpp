@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::VFX::VFXSpace (::UnityEngine::VFX::Utility::VFXSpaceableBinder::*)(
     ::UnityEngine::VFX::VisualEffect*, ::UnityEngine::VFX::Utility::ExposedProperty*)>(&::UnityEngine::VFX::Utility::VFXSpaceableBinder::GetTargetSpace)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e249e8;
+  constexpr static std::size_t addrs = 0x6e61684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX:
     ::UnityEngine::VFX::VisualEffect*, ::UnityEngine::VFX::Utility::ExposedProperty*, ::UnityEngine::Transform*, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(
     &::UnityEngine::VFX::Utility::VFXSpaceableBinder::ApplySpacePositionNormal)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6e238ac;
+  constexpr static std::size_t addrs = 0x6e60548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX:
     ::UnityEngine::VFX::VisualEffect*, ::UnityEngine::VFX::Utility::ExposedProperty*, ::UnityEngine::Transform*, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(
     &::UnityEngine::VFX::Utility::VFXSpaceableBinder::ApplySpaceTS)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6e24a64;
+  constexpr static std::size_t addrs = 0x6e61700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX:
     ::UnityEngine::VFX::VisualEffect*, ::UnityEngine::VFX::Utility::ExposedProperty*, ::UnityEngine::Transform*, ::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>,
     ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::VFX::Utility::VFXSpaceableBinder::ApplySpaceTRS)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6e24b58;
+  constexpr static std::size_t addrs = 0x6e617f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::VFX::Utility::VFXSpaceableBinder::*)(
     ::UnityEngine::VFX::VisualEffect*, ::UnityEngine::VFX::Utility::ExposedProperty*, ::UnityEngine::Vector3)>(&::UnityEngine::VFX::Utility::VFXSpaceableBinder::ApplySpacePosition)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6e23cf4;
+  constexpr static std::size_t addrs = 0x6e60990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::VFX::Utility::VFXSpaceableBinder::*)()>(&::UnityEngine::VFX::Utility::VFXSpaceableBinder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e23b78;
+  constexpr static std::size_t addrs = 0x6e60814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::VFX::Utility::VFXSpaceableBinder*>(), { ".ctor", {}, {} })));

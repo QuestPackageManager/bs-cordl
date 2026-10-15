@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_ll(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3807cb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x382a614, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -233,113 +233,113 @@ public:
   /// @brief Field zptr, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_zptr, put = __cordl_internal_set_zptr)) ::ArrayW<int32_t> zptr;
 
-  /// @brief Method AllocateCompressStructures, addr 0x3805704, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method AllocateCompressStructures, addr 0x3828068, size 0xfc, virtual false, abstract: false, final false
   inline void AllocateCompressStructures();
 
-  /// @brief Method BsFinishedWithStream, addr 0x3805fc0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method BsFinishedWithStream, addr 0x3828924, size 0x100, virtual false, abstract: false, final false
   inline void BsFinishedWithStream();
 
-  /// @brief Method BsPutIntVS, addr 0x3806148, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method BsPutIntVS, addr 0x3828aac, size 0x4, virtual false, abstract: false, final false
   inline void BsPutIntVS(int32_t numBits, int32_t c);
 
-  /// @brief Method BsPutUChar, addr 0x3805d68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method BsPutUChar, addr 0x38286cc, size 0xc, virtual false, abstract: false, final false
   inline void BsPutUChar(int32_t c);
 
-  /// @brief Method BsPutint, addr 0x3805e28, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method BsPutint, addr 0x382878c, size 0x54, virtual false, abstract: false, final false
   inline void BsPutint(int32_t u);
 
-  /// @brief Method BsSetStream, addr 0x38056f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method BsSetStream, addr 0x3828058, size 0x10, virtual false, abstract: false, final false
   inline void BsSetStream(::System::IO::Stream* f);
 
-  /// @brief Method BsW, addr 0x3805e7c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method BsW, addr 0x38287e0, size 0x11c, virtual false, abstract: false, final false
   inline void BsW(int32_t n, int32_t v);
 
-  /// @brief Method Close, addr 0x3805c2c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3828590, size 0xa0, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method DoReversibleTransformation, addr 0x3805d74, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method DoReversibleTransformation, addr 0x38286d8, size 0xb4, virtual false, abstract: false, final false
   inline void DoReversibleTransformation();
 
-  /// @brief Method EndBlock, addr 0x3805b50, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method EndBlock, addr 0x38284b4, size 0xdc, virtual false, abstract: false, final false
   inline void EndBlock();
 
-  /// @brief Method EndCompression, addr 0x3805ccc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method EndCompression, addr 0x3828630, size 0x7c, virtual false, abstract: false, final false
   inline void EndCompression();
 
-  /// @brief Method Finish, addr 0x3804db8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x382771c, size 0x60, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method Flush, addr 0x3805d48, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x38286ac, size 0x20, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FullGtU, addr 0x38074e4, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method FullGtU, addr 0x3829e48, size 0x2f4, virtual false, abstract: false, final false
   inline bool FullGtU(int32_t i1, int32_t i2);
 
-  /// @brief Method GenerateMTFValues, addr 0x3806e60, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method GenerateMTFValues, addr 0x38297c4, size 0x390, virtual false, abstract: false, final false
   inline void GenerateMTFValues();
 
-  /// @brief Method HbAssignCodes, addr 0x38060c0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method HbAssignCodes, addr 0x3828a24, size 0x88, virtual false, abstract: false, final false
   inline void HbAssignCodes(::ArrayW<int32_t> code, ::ArrayW<char16_t> length, int32_t minLen, int32_t maxLen, int32_t alphaSize);
 
-  /// @brief Method HbMakeCodeLengths, addr 0x3804ed8, size 0x604, virtual false, abstract: false, final false
+  /// @brief Method HbMakeCodeLengths, addr 0x382783c, size 0x604, virtual false, abstract: false, final false
   static inline void HbMakeCodeLengths(::ArrayW<char16_t> len, ::ArrayW<int32_t> freq, int32_t alphaSize, int32_t maxLen);
 
-  /// @brief Method InitBlock, addr 0x380583c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InitBlock, addr 0x38281a0, size 0x6c, virtual false, abstract: false, final false
   inline void InitBlock();
 
-  /// @brief Method Initialize, addr 0x3805800, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3828164, size 0x3c, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method MainSort, addr 0x3807cb4, size 0x804, virtual false, abstract: false, final false
+  /// @brief Method MainSort, addr 0x382a618, size 0x804, virtual false, abstract: false, final false
   inline void MainSort();
 
-  /// @brief Method MakeMaps, addr 0x3804e4c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MakeMaps, addr 0x38277b0, size 0x8c, virtual false, abstract: false, final false
   inline void MakeMaps();
 
-  /// @brief Method Med3, addr 0x380784c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Med3, addr 0x382a1b0, size 0x2c, virtual false, abstract: false, final false
   inline char16_t Med3(char16_t a, char16_t b, char16_t c);
 
-  /// @brief Method MoveToFrontCodeAndSend, addr 0x3805f98, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method MoveToFrontCodeAndSend, addr 0x38288fc, size 0x28, virtual false, abstract: false, final false
   inline void MoveToFrontCodeAndSend();
 
   static inline ::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream* New_ctor(::System::IO::Stream* inStream);
 
   static inline ::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream* New_ctor(::System::IO::Stream* inStream, int32_t inBlockSize);
 
-  /// @brief Method Panic, addr 0x3804e48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Panic, addr 0x38277ac, size 0x4, virtual false, abstract: false, final false
   static inline void Panic();
 
-  /// @brief Method QSort3, addr 0x3807878, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method QSort3, addr 0x382a1dc, size 0x438, virtual false, abstract: false, final false
   inline void QSort3(int32_t loSt, int32_t hiSt, int32_t dSt);
 
-  /// @brief Method RandomiseBlock, addr 0x38084b8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method RandomiseBlock, addr 0x382ae1c, size 0x13c, virtual false, abstract: false, final false
   inline void RandomiseBlock();
 
-  /// @brief Method Read, addr 0x38085f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x382af58, size 0x8, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Seek, addr 0x38085fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x382af60, size 0x8, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SendMTFValues, addr 0x380614c, size 0xd14, virtual false, abstract: false, final false
+  /// @brief Method SendMTFValues, addr 0x3828ab0, size 0xd14, virtual false, abstract: false, final false
   inline void SendMTFValues();
 
-  /// @brief Method SetLength, addr 0x3808604, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x382af68, size 0x4, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method SimpleSort, addr 0x38071f0, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method SimpleSort, addr 0x3829b54, size 0x2f4, virtual false, abstract: false, final false
   inline void SimpleSort(int32_t lo, int32_t hi, int32_t d);
 
-  /// @brief Method Vswap, addr 0x38077d8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Vswap, addr 0x382a13c, size 0x74, virtual false, abstract: false, final false
   inline void Vswap(int32_t p1, int32_t p2, int32_t n);
 
-  /// @brief Method Write, addr 0x3808608, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x382af6c, size 0x88, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte, addr 0x38058a8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x382820c, size 0x74, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t bv);
 
-  /// @brief Method WriteRun, addr 0x380591c, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method WriteRun, addr 0x3828280, size 0x234, virtual false, abstract: false, final false
   inline void WriteRun();
 
   constexpr int32_t const& __cordl_internal_get_allowableBlockSize() const;
@@ -552,28 +552,28 @@ public:
 
   constexpr void __cordl_internal_set_zptr(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x3804dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3827710, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream);
 
-  /// @brief Method .ctor, addr 0x38054dc, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3827e40, size 0x218, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream, int32_t inBlockSize);
 
-  /// @brief Method get_CanRead, addr 0x3808690, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x382aff4, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x3808698, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x382affc, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x38086a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x382b004, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x38086a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x382b00c, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x38086b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x382b014, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x38086b8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x382b01c, size 0x4, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:

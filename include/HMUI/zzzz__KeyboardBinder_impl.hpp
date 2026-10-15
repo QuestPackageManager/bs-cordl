@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::KeyboardBinder::*)()>(&::HMUI::KeyboardBinder::get_enabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c8d110;
+  constexpr static std::size_t addrs = 0x5cc5610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::KeyboardBinder*>(), { "get_enabled", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::KeyboardBinder::*)(bool)>(&::HMUI::KeyboardBinder::set_enabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5c8d118;
+  constexpr static std::size_t addrs = 0x5cc5618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::KeyboardBinder*>(), { "set_enabled", {}, { ::i2c::type_of<bool>() } })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::KeyboardBinder::*)()>(&::HMUI::KeyboardBinder::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5c8d120;
+  constexpr static std::size_t addrs = 0x5cc5620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::KeyboardBinder*>(), { ".ctor", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::KeyboardBinder::*)(::UnityEngine::KeyCode, ::HMUI::KeyboardBinder_KeyBindingType, ::System::Action_1<bool>*)>(
     &::HMUI::KeyboardBinder::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5c8d1c8;
+  constexpr static std::size_t addrs = 0x5cc56c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::KeyboardBinder::*)(
     ::System::Collections::Generic::List_1<::System::Tuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder_KeyBindingType, ::System::Action_1<bool>*>*>*)>(&::HMUI::KeyboardBinder::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5c8d3b8;
+  constexpr static std::size_t addrs = 0x5cc58b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::KeyboardBinder::*)()>(&::HMUI::KeyboardBinder::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c8d1bc;
+  constexpr static std::size_t addrs = 0x5cc56bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::KeyboardBinder*>(), { "Init", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::KeyboardBinder::*)(
     ::System::Collections::Generic::List_1<::System::Tuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder_KeyBindingType, ::System::Action_1<bool>*>*>*)>(&::HMUI::KeyboardBinder::AddBindings)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x5c8d460;
+  constexpr static std::size_t addrs = 0x5cc5960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::KeyboardBinder::*)(::UnityEngine::KeyCode, ::HMUI::KeyboardBinder_KeyBindingType, ::System::Action_1<bool>*)>(
     &::HMUI::KeyboardBinder::AddBinding)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5c8d288;
+  constexpr static std::size_t addrs = 0x5cc5788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::KeyboardBinder::*)()>(&::HMUI::KeyboardBinder::ClearBindings)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5c8d5b4;
+  constexpr static std::size_t addrs = 0x5cc5ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::KeyboardBinder*>(), { "ClearBindings", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::KeyboardBinder::*)()>(&::HMUI::KeyboardBinder::ManualUpdate)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5c8d62c;
+  constexpr static std::size_t addrs = 0x5cc5b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::KeyboardBinder*>(), { "ManualUpdate", {}, {} })));
@@ -171,18 +171,6 @@ constexpr bool const& HMUI::KeyboardBinder::__cordl_internal_get__enabled_k__Bac
 constexpr void HMUI::KeyboardBinder::__cordl_internal_set__enabled_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____enabled_k__BackingField = value;
-}
-constexpr bool& HMUI::KeyboardBinder::__cordl_internal_get__shouldClearBindings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____shouldClearBindings;
-}
-constexpr bool const& HMUI::KeyboardBinder::__cordl_internal_get__shouldClearBindings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____shouldClearBindings;
-}
-constexpr void HMUI::KeyboardBinder::__cordl_internal_set__shouldClearBindings(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____shouldClearBindings = value;
 }
 constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::KeyCode, ::HMUI::KeyboardBinder_KeyBindingType, ::UnityEngine::Events::UnityAction_1<bool>*>>*&
 HMUI::KeyboardBinder::__cordl_internal_get__newBindings() {

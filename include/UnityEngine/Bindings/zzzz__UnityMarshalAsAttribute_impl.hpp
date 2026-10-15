@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::UnityMarshalAsAttribute::*)(::UnityEngine::Bindings::NativeType)>(
     &::UnityEngine::Bindings::UnityMarshalAsAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x701509c;
+  constexpr static std::size_t addrs = 0x7051f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

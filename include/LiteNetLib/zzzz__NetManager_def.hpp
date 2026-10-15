@@ -146,15 +146,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x5cbac00, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5cf3bc8, size 0x5c, virtual true, abstract: false, final true
   inline bool Equals(::System::Net::IPEndPoint* x, ::System::Net::IPEndPoint* y);
 
-  /// @brief Method GetHashCode, addr 0x5cbac5c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x5cf3c24, size 0x20, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Net::IPEndPoint* obj);
 
   static inline ::LiteNetLib::NetManager_IPEndPointComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5cb54a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cee46c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::System::Net::IPEndPoint*>"
@@ -175,7 +175,7 @@ public:
   NetManager_IPEndPointComparer(NetManager_IPEndPointComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20552 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20599 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -203,22 +203,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x5cbac7c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5cf3c44, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x5cbac80, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5cf3c48, size 0x2c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x5cbacac, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x5cf3c74, size 0x38, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5cbacec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5cf3cb4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x5cbab30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf3af8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* p);
 
-  /// @brief Method get_Current, addr 0x5cbace4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x5cf3cac, size 0x8, virtual true, abstract: false, final true
   inline ::LiteNetLib::NetPeer* get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::LiteNetLib::NetPeer*>"
@@ -239,7 +239,7 @@ public:
   constexpr NetManager_NetPeerEnumerator(::LiteNetLib::NetPeer* _initialPeer, ::LiteNetLib::NetPeer* _p) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20553 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20600 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -415,201 +415,201 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method AddPeer, addr 0x5cb4c98, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method AddPeer, addr 0x5cedc60, size 0x170, virtual false, abstract: false, final false
   inline void AddPeer(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method Connect, addr 0x5cba114, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x5cf30dc, size 0x148, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPeer* Connect(::StringW address, int32_t port, ::LiteNetLib::Utils::NetDataWriter* connectionData);
 
-  /// @brief Method Connect, addr 0x5cba068, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x5cf3030, size 0x38, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPeer* Connect(::StringW address, int32_t port, ::StringW key);
 
-  /// @brief Method Connect, addr 0x5cba25c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x5cf3224, size 0x1d8, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPeer* Connect(::System::Net::IPEndPoint* target, ::LiteNetLib::Utils::NetDataWriter* connectionData);
 
-  /// @brief Method Connect, addr 0x5cba434, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x5cf33fc, size 0x30, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPeer* Connect(::System::Net::IPEndPoint* target, ::StringW key);
 
-  /// @brief Method ConnectionLatencyUpdated, addr 0x5cb54a8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ConnectionLatencyUpdated, addr 0x5cee470, size 0x40, virtual false, abstract: false, final false
   inline void ConnectionLatencyUpdated(::LiteNetLib::NetPeer* fromPeer, int32_t latency);
 
-  /// @brief Method CreateEvent, addr 0x5cb54e8, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent, addr 0x5cee4b0, size 0x338, virtual false, abstract: false, final false
   inline void CreateEvent(::LiteNetLib::NetEvent_EType type, ::LiteNetLib::NetPeer* peer, ::System::Net::IPEndPoint* remoteEndPoint, ::System::Net::Sockets::SocketError errorCode, int32_t latency,
                           ::LiteNetLib::DisconnectReason disconnectReason, ::LiteNetLib::ConnectionRequest* connectionRequest, ::LiteNetLib::DeliveryMethod deliveryMethod,
                           ::LiteNetLib::NetPacket* readerSource, ::System::Object* userData);
 
-  /// @brief Method CreateReceiveEvent, addr 0x5cb8818, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method CreateReceiveEvent, addr 0x5cf17e0, size 0x284, virtual false, abstract: false, final false
   inline void CreateReceiveEvent(::LiteNetLib::NetPacket* packet, ::LiteNetLib::DeliveryMethod method, ::LiteNetLib::NetPeer* fromPeer);
 
-  /// @brief Method DataReceived, addr 0x5cb6db4, size 0x5c8, virtual false, abstract: false, final false
+  /// @brief Method DataReceived, addr 0x5cefd7c, size 0x5c8, virtual false, abstract: false, final false
   inline void DataReceived(::ArrayW<uint8_t> reusableBuffer, int32_t count, ::System::Net::IPEndPoint* remoteEndPoint);
 
-  /// @brief Method DisconnectAll, addr 0x5cba96c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DisconnectAll, addr 0x5cf3934, size 0x10, virtual false, abstract: false, final false
   inline void DisconnectAll();
 
-  /// @brief Method DisconnectAll, addr 0x5cba97c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method DisconnectAll, addr 0x5cf3944, size 0x90, virtual false, abstract: false, final false
   inline void DisconnectAll(::ArrayW<uint8_t> data, int32_t start, int32_t count);
 
-  /// @brief Method DisconnectPeer, addr 0x5cbaa40, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DisconnectPeer, addr 0x5cf3a08, size 0x34, virtual false, abstract: false, final false
   inline void DisconnectPeer(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method DisconnectPeer, addr 0x5cbaaa8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DisconnectPeer, addr 0x5cf3a70, size 0x3c, virtual false, abstract: false, final false
   inline void DisconnectPeer(::LiteNetLib::NetPeer* peer, ::ArrayW<uint8_t> data);
 
-  /// @brief Method DisconnectPeer, addr 0x5cbaa74, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DisconnectPeer, addr 0x5cf3a3c, size 0x34, virtual false, abstract: false, final false
   inline void DisconnectPeer(::LiteNetLib::NetPeer* peer, ::ArrayW<uint8_t> data, int32_t start, int32_t count);
 
-  /// @brief Method DisconnectPeer, addr 0x5cb5d48, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method DisconnectPeer, addr 0x5ceed10, size 0xa4, virtual false, abstract: false, final false
   inline void DisconnectPeer(::LiteNetLib::NetPeer* peer, ::LiteNetLib::DisconnectReason reason, ::System::Net::Sockets::SocketError socketErrorCode, bool force, ::ArrayW<uint8_t> data, int32_t start,
                              int32_t count, ::LiteNetLib::NetPacket* eventData);
 
-  /// @brief Method DisconnectPeer, addr 0x5cbaae4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DisconnectPeer, addr 0x5cf3aac, size 0x3c, virtual false, abstract: false, final false
   inline void DisconnectPeer(::LiteNetLib::NetPeer* peer, ::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method DisconnectPeerForce, addr 0x5cbaa0c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DisconnectPeerForce, addr 0x5cf39d4, size 0x34, virtual false, abstract: false, final false
   inline void DisconnectPeerForce(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method DisconnectPeerForce, addr 0x5cb5cdc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method DisconnectPeerForce, addr 0x5ceeca4, size 0x30, virtual false, abstract: false, final false
   inline void DisconnectPeerForce(::LiteNetLib::NetPeer* peer, ::LiteNetLib::DisconnectReason reason, ::System::Net::Sockets::SocketError socketErrorCode, ::LiteNetLib::NetPacket* eventData);
 
-  /// @brief Method Flush, addr 0x5cb9c88, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x5cf2c50, size 0x28, virtual false, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method GetEnumerator, addr 0x5cbab20, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x5cf3ae8, size 0x10, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetManager_NetPeerEnumerator GetEnumerator();
 
-  /// @brief Method GetNextPeerId, addr 0x5cb7444, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetNextPeerId, addr 0x5cf040c, size 0x134, virtual false, abstract: false, final false
   inline int32_t GetNextPeerId();
 
-  /// @brief Method GetPeerById, addr 0x5cb4bc0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetPeerById, addr 0x5cedb88, size 0x30, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPeer* GetPeerById(int32_t id);
 
-  /// @brief Method GetPeersCount, addr 0x5cba8fc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetPeersCount, addr 0x5cf38c4, size 0x70, virtual false, abstract: false, final false
   inline int32_t GetPeersCount(::LiteNetLib::ConnectionState peerState);
 
-  /// @brief Method GetPeersNonAlloc, addr 0x5cb4a94, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetPeersNonAlloc, addr 0x5ceda5c, size 0x12c, virtual false, abstract: false, final false
   inline void GetPeersNonAlloc(::System::Collections::Generic::List_1<::LiteNetLib::NetPeer*>* peers, ::LiteNetLib::ConnectionState peerState);
 
-  /// @brief Method LiteNetLib.INetSocketListener.OnMessageReceived, addr 0x5cb6b2c, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetSocketListener.OnMessageReceived, addr 0x5cefaf4, size 0x288, virtual true, abstract: false, final true
   inline void LiteNetLib_INetSocketListener_OnMessageReceived(::ArrayW<uint8_t> data, int32_t length, ::System::Net::Sockets::SocketError errorCode, ::System::Net::IPEndPoint* remoteEndPoint);
 
-  /// @brief Method MessageDelivered, addr 0x5cb5820, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method MessageDelivered, addr 0x5cee7e8, size 0x4c, virtual false, abstract: false, final false
   inline void MessageDelivered(::LiteNetLib::NetPeer* fromPeer, ::System::Object* userData);
 
   static inline ::LiteNetLib::NetManager* New_ctor(::LiteNetLib::INetEventListener* listener, ::LiteNetLib::Layers::PacketLayerBase* extraPacketLayer);
 
-  /// @brief Method OnConnectionSolved, addr 0x5cb05bc, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method OnConnectionSolved, addr 0x5ce9584, size 0x420, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPeer* OnConnectionSolved(::LiteNetLib::ConnectionRequest* request, ::ArrayW<uint8_t> rejectData, int32_t start, int32_t length);
 
-  /// @brief Method PollEvents, addr 0x5cb9ef8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method PollEvents, addr 0x5cf2ec0, size 0x170, virtual false, abstract: false, final false
   inline void PollEvents();
 
-  /// @brief Method ProcessConnectRequest, addr 0x5cb792c, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method ProcessConnectRequest, addr 0x5cf08f4, size 0x2e0, virtual false, abstract: false, final false
   inline void ProcessConnectRequest(::System::Net::IPEndPoint* remoteEndPoint, ::LiteNetLib::NetPeer* netPeer, ::LiteNetLib::NetConnectRequestPacket* connRequest);
 
-  /// @brief Method ProcessEvent, addr 0x5cb60c8, size 0x538, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x5cef090, size 0x538, virtual false, abstract: false, final false
   inline void ProcessEvent(::LiteNetLib::NetEvent* evt);
 
-  /// @brief Method RecycleEvent, addr 0x5cb47e8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method RecycleEvent, addr 0x5ced7b0, size 0x118, virtual false, abstract: false, final false
   inline void RecycleEvent(::LiteNetLib::NetEvent* evt);
 
-  /// @brief Method RemovePeer, addr 0x5cb4e08, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method RemovePeer, addr 0x5ceddd0, size 0x48, virtual false, abstract: false, final false
   inline void RemovePeer(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method RemovePeerInternal, addr 0x5cb4e50, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method RemovePeerInternal, addr 0x5cede18, size 0x1bc, virtual false, abstract: false, final false
   inline void RemovePeerInternal(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method SendBroadcast, addr 0x5cb9948, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SendBroadcast, addr 0x5cf2910, size 0x1c, virtual false, abstract: false, final false
   inline bool SendBroadcast(::ArrayW<uint8_t> data, int32_t port);
 
-  /// @brief Method SendBroadcast, addr 0x5cb97e8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SendBroadcast, addr 0x5cf27b0, size 0x160, virtual false, abstract: false, final false
   inline bool SendBroadcast(::ArrayW<uint8_t> data, int32_t start, int32_t length, int32_t port);
 
-  /// @brief Method SendBroadcast, addr 0x5cb97c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SendBroadcast, addr 0x5cf278c, size 0x24, virtual false, abstract: false, final false
   inline bool SendBroadcast(::LiteNetLib::Utils::NetDataWriter* writer, int32_t port);
 
-  /// @brief Method SendRaw, addr 0x5cb58c0, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method SendRaw, addr 0x5cee888, size 0x284, virtual false, abstract: false, final false
   inline int32_t SendRaw(::ArrayW<uint8_t> message, int32_t start, int32_t length, ::System::Net::IPEndPoint* remoteEndPoint);
 
-  /// @brief Method SendRaw, addr 0x5cb5b44, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SendRaw, addr 0x5ceeb0c, size 0x24, virtual false, abstract: false, final false
   inline int32_t SendRaw(::LiteNetLib::NetPacket* packet, ::System::Net::IPEndPoint* remoteEndPoint);
 
-  /// @brief Method SendRawAndRecycle, addr 0x5cb586c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SendRawAndRecycle, addr 0x5cee834, size 0x54, virtual false, abstract: false, final false
   inline int32_t SendRawAndRecycle(::LiteNetLib::NetPacket* packet, ::System::Net::IPEndPoint* remoteEndPoint);
 
-  /// @brief Method SendToAll, addr 0x5cb8c1c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SendToAll, addr 0x5cf1be4, size 0x20, virtual false, abstract: false, final false
   inline void SendToAll(::ArrayW<uint8_t> data, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod options);
 
-  /// @brief Method SendToAll, addr 0x5cb8de4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SendToAll, addr 0x5cf1dac, size 0x24, virtual false, abstract: false, final false
   inline void SendToAll(::ArrayW<uint8_t> data, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod options, ::LiteNetLib::NetPeer* excludePeer);
 
-  /// @brief Method SendToAll, addr 0x5cb8ad0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SendToAll, addr 0x5cf1a98, size 0x20, virtual false, abstract: false, final false
   inline void SendToAll(::ArrayW<uint8_t> data, ::LiteNetLib::DeliveryMethod options);
 
-  /// @brief Method SendToAll, addr 0x5cb8d84, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SendToAll, addr 0x5cf1d4c, size 0x24, virtual false, abstract: false, final false
   inline void SendToAll(::ArrayW<uint8_t> data, ::LiteNetLib::DeliveryMethod options, ::LiteNetLib::NetPeer* excludePeer);
 
-  /// @brief Method SendToAll, addr 0x5cb8af0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method SendToAll, addr 0x5cf1ab8, size 0x104, virtual false, abstract: false, final false
   inline void SendToAll(::ArrayW<uint8_t> data, int32_t start, int32_t length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod options);
 
-  /// @brief Method SendToAll, addr 0x5cb8c70, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SendToAll, addr 0x5cf1c38, size 0x114, virtual false, abstract: false, final false
   inline void SendToAll(::ArrayW<uint8_t> data, int32_t start, int32_t length, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod options, ::LiteNetLib::NetPeer* excludePeer);
 
-  /// @brief Method SendToAll, addr 0x5cb8ac4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SendToAll, addr 0x5cf1a8c, size 0xc, virtual false, abstract: false, final false
   inline void SendToAll(::ArrayW<uint8_t> data, int32_t start, int32_t length, ::LiteNetLib::DeliveryMethod options);
 
-  /// @brief Method SendToAll, addr 0x5cb8da8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SendToAll, addr 0x5cf1d70, size 0x10, virtual false, abstract: false, final false
   inline void SendToAll(::ArrayW<uint8_t> data, int32_t start, int32_t length, ::LiteNetLib::DeliveryMethod options, ::LiteNetLib::NetPeer* excludePeer);
 
-  /// @brief Method SendToAll, addr 0x5cb8bf4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SendToAll, addr 0x5cf1bbc, size 0x28, virtual false, abstract: false, final false
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod options);
 
-  /// @brief Method SendToAll, addr 0x5cb8db8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SendToAll, addr 0x5cf1d80, size 0x2c, virtual false, abstract: false, final false
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, uint8_t channelNumber, ::LiteNetLib::DeliveryMethod options, ::LiteNetLib::NetPeer* excludePeer);
 
-  /// @brief Method SendToAll, addr 0x5cb8a9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SendToAll, addr 0x5cf1a64, size 0x28, virtual false, abstract: false, final false
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::DeliveryMethod options);
 
-  /// @brief Method SendToAll, addr 0x5cb8c44, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SendToAll, addr 0x5cf1c0c, size 0x2c, virtual false, abstract: false, final false
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::DeliveryMethod options, ::LiteNetLib::NetPeer* excludePeer);
 
-  /// @brief Method SendUnconnectedMessage, addr 0x5cb9670, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SendUnconnectedMessage, addr 0x5cf2638, size 0x1c, virtual false, abstract: false, final false
   inline bool SendUnconnectedMessage(::ArrayW<uint8_t> message, ::System::Net::IPEndPoint* remoteEndPoint);
 
-  /// @brief Method SendUnconnectedMessage, addr 0x5cb968c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SendUnconnectedMessage, addr 0x5cf2654, size 0x54, virtual false, abstract: false, final false
   inline bool SendUnconnectedMessage(::ArrayW<uint8_t> message, int32_t start, int32_t length, ::System::Net::IPEndPoint* remoteEndPoint);
 
-  /// @brief Method SendUnconnectedMessage, addr 0x5cb96e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SendUnconnectedMessage, addr 0x5cf26a8, size 0x24, virtual false, abstract: false, final false
   inline bool SendUnconnectedMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::System::Net::IPEndPoint* remoteEndPoint);
 
-  /// @brief Method Start, addr 0x5cb8e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cf1dd0, size 0x8, virtual false, abstract: false, final false
   inline bool Start();
 
-  /// @brief Method Start, addr 0x5cb9428, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cf23f0, size 0x94, virtual false, abstract: false, final false
   inline bool Start(::StringW addressIPv4, ::StringW addressIPv6, int32_t port);
 
-  /// @brief Method Start, addr 0x5cb8e88, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cf1e50, size 0x194, virtual false, abstract: false, final false
   inline bool Start(::System::Net::IPAddress* addressIPv4, ::System::Net::IPAddress* addressIPv6, int32_t port);
 
-  /// @brief Method Start, addr 0x5cb8e10, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cf1dd8, size 0x78, virtual false, abstract: false, final false
   inline bool Start(int32_t port);
 
-  /// @brief Method Stop, addr 0x5cba56c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x5cf3534, size 0x8, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Stop, addr 0x5cba574, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x5cf353c, size 0x2d8, virtual false, abstract: false, final false
   inline void Stop(bool sendDisconnectMessages);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<LiteNetLib.NetPeer>.GetEnumerator, addr 0x5cbab38, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<LiteNetLib.NetPeer>.GetEnumerator, addr 0x5cf3b00, size 0x64, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::LiteNetLib::NetPeer*>* System_Collections_Generic_IEnumerable_LiteNetLib_NetPeer__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5cbab9c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5cf3b64, size 0x64, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method TryGetPeer, addr 0x5cb4bfc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryGetPeer, addr 0x5cedbc4, size 0x9c, virtual false, abstract: false, final false
   inline bool TryGetPeer(::System::Net::IPEndPoint* endPoint, ::by_ref<::LiteNetLib::NetPeer*> peer);
 
-  /// @brief Method UpdateLogic, addr 0x5cb6610, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method UpdateLogic, addr 0x5cef5d8, size 0x2a4, virtual false, abstract: false, final false
   inline void UpdateLogic();
 
   constexpr bool const& __cordl_internal_get_AutoRecycle() const;
@@ -852,25 +852,25 @@ public:
 
   constexpr void __cordl_internal_set__socket(::LiteNetLib::NetSocket* value);
 
-  /// @brief Method .ctor, addr 0x5cb500c, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cedfd4, size 0x400, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::INetEventListener* listener, ::LiteNetLib::Layers::PacketLayerBase* extraPacketLayer);
 
-  /// @brief Method get_ChannelsCount, addr 0x5cb4a08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChannelsCount, addr 0x5ced9d0, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_ChannelsCount();
 
-  /// @brief Method get_ConnectedPeerList, addr 0x5cb4a74, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectedPeerList, addr 0x5ceda3c, size 0x20, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::LiteNetLib::NetPeer*>* get_ConnectedPeerList();
 
-  /// @brief Method get_ConnectedPeersCount, addr 0x5cb4bf0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectedPeersCount, addr 0x5cedbb8, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_ConnectedPeersCount();
 
-  /// @brief Method get_FirstPeer, addr 0x5cb49fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_FirstPeer, addr 0x5ced9c4, size 0xc, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPeer* get_FirstPeer();
 
-  /// @brief Method get_IsRunning, addr 0x5cb49c8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsRunning, addr 0x5ced990, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsRunning();
 
-  /// @brief Method get_LocalPort, addr 0x5cb49e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_LocalPort, addr 0x5ced9ac, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_LocalPort();
 
   /// @brief Convert to "::LiteNetLib::INetSocketListener"
@@ -882,7 +882,7 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method set_ChannelsCount, addr 0x5cb4a10, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_ChannelsCount, addr 0x5ced9d8, size 0x64, virtual false, abstract: false, final false
   inline void set_ChannelsCount(uint8_t value);
 
 protected:
@@ -900,7 +900,7 @@ public:
   NetManager(NetManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20554 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20601 };
 
   /// @brief Field _socket, offset: 0x10, size: 0x8, def value: None
   ::LiteNetLib::NetSocket* ____socket;

@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Shared::MatchInfo::*)(::StringW, ::StringW, ::StringW)>(
     &::Meta::XR::MultiplayerBlocks::Shared::MatchInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e8c400;
+  constexpr static std::size_t addrs = 0x5ec8b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

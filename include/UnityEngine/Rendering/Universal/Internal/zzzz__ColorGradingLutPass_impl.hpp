@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d2034c;
+  constexpr static std::size_t addrs = 0x6d5cfc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d208c0;
+  constexpr static std::size_t addrs = 0x6d5d53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass___c::_Render_b__12_0)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6d208c4;
+  constexpr static std::size_t addrs = 0x6d5d540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass___c*>(),
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::*)(
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::Execute)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d1e6a0;
+  constexpr static std::size_t addrs = 0x6d5b31c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass*>(),
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::*)(
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Rendering::Universal::PostProcessData*)>(&::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::_ctor)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6d1e6a4;
+  constexpr static std::size_t addrs = 0x6d5b320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::*)(::by_ref<::UnityEngine::Rendering::RTHandle* const>)>(
     &::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::Setup)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d1e98c;
+  constexpr static std::size_t addrs = 0x6d5b608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass*>(),
@@ -393,7 +393,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::Universal::PostProcessingData const>, ::by_ref<::UnityEngine::RenderTextureDescriptor>, ::by_ref<::UnityEngine::FilterMode>)>(
     &::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::ConfigureDescriptor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6d1e990;
+  constexpr static std::size_t addrs = 0x6d5b60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -412,7 +412,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::Universal::UniversalPostProcessingData* const>, ::by_ref<::UnityEngine::RenderTextureDescriptor>, ::by_ref<::UnityEngine::FilterMode>)>(
     &::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::ConfigureDescriptor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6d1e9e0;
+  constexpr static std::size_t addrs = 0x6d5b65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -430,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass_PassData*,
                                                                 ::UnityEngine::Rendering::RTHandle*)>(&::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::ExecutePass)> {
   constexpr static std::size_t size = 0x12a0;
-  constexpr static std::size_t addrs = 0x6d1ea70;
+  constexpr static std::size_t addrs = 0x6d5b6ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass*>(),
@@ -449,7 +449,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>)>(
     &::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::Render)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x6d1fd10;
+  constexpr static std::size_t addrs = 0x6d5c98c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::RecordRenderGraph)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6d2023c;
+  constexpr static std::size_t addrs = 0x6d5ceb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass*>(),
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::Cleanup)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6d202e0;
+  constexpr static std::size_t addrs = 0x6d5cf5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass::__ctor_g__Load_6_0)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6d1e898;
+  constexpr static std::size_t addrs = 0x6d5b514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass*>(),

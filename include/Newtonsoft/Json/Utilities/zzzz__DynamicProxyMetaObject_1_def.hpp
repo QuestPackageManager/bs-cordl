@@ -249,7 +249,7 @@ public:
   DynamicProxyMetaObject_1_Fallback(DynamicProxyMetaObject_1_Fallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13640 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -288,7 +288,7 @@ public:
   DynamicProxyMetaObject_1_GetBinderAdapter(DynamicProxyMetaObject_1_GetBinderAdapter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13641 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -342,7 +342,7 @@ public:
   DynamicProxyMetaObject_1___c(DynamicProxyMetaObject_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13642 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -408,7 +408,7 @@ public:
   DynamicProxyMetaObject_1___c__DisplayClass10_0(DynamicProxyMetaObject_1___c__DisplayClass10_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13643 };
 
   /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
@@ -477,7 +477,7 @@ public:
   DynamicProxyMetaObject_1___c__DisplayClass11_0(DynamicProxyMetaObject_1___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13644 };
 
   /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
@@ -551,7 +551,7 @@ public:
   DynamicProxyMetaObject_1___c__DisplayClass12_0(DynamicProxyMetaObject_1___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13645 };
 
   /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
@@ -638,7 +638,7 @@ public:
   DynamicProxyMetaObject_1___c__DisplayClass13_0(DynamicProxyMetaObject_1___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13646 };
 
   /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
@@ -720,7 +720,7 @@ public:
   DynamicProxyMetaObject_1___c__DisplayClass14_0(DynamicProxyMetaObject_1___c__DisplayClass14_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13640 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13647 };
 
   /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
@@ -789,7 +789,7 @@ public:
   DynamicProxyMetaObject_1___c__DisplayClass3_0(DynamicProxyMetaObject_1___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13641 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13648 };
 
   /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
@@ -863,7 +863,7 @@ public:
   DynamicProxyMetaObject_1___c__DisplayClass4_0(DynamicProxyMetaObject_1___c__DisplayClass4_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13649 };
 
   /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
@@ -932,7 +932,7 @@ public:
   DynamicProxyMetaObject_1___c__DisplayClass5_0(DynamicProxyMetaObject_1___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13650 };
 
   /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
@@ -997,7 +997,7 @@ public:
   DynamicProxyMetaObject_1___c__DisplayClass6_0(DynamicProxyMetaObject_1___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13644 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13651 };
 
   /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
@@ -1074,7 +1074,7 @@ public:
   DynamicProxyMetaObject_1___c__DisplayClass7_0(DynamicProxyMetaObject_1___c__DisplayClass7_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13652 };
 
   /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
@@ -1152,7 +1152,7 @@ public:
   DynamicProxyMetaObject_1___c__DisplayClass8_0(DynamicProxyMetaObject_1___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13646 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13653 };
 
   /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
@@ -1230,7 +1230,7 @@ public:
   DynamicProxyMetaObject_1___c__DisplayClass9_0(DynamicProxyMetaObject_1___c__DisplayClass9_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13654 };
 
   /// [Nullable(0)]
   /// @brief Field binder, offset: 0x10, size: 0x8, def value: None
@@ -1401,7 +1401,7 @@ public:
   DynamicProxyMetaObject_1(DynamicProxyMetaObject_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13655 };
 
   /// @brief Field _proxy, offset: 0x28, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxy_1<T>* ____proxy;

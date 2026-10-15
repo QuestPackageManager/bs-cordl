@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureSlotManager::*)()>(&::UnityEngine::UIElements::UIR::TextureSlotManager::_ctor)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x7186be8;
+  constexpr static std::size_t addrs = 0x71c3b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::TextureSlotManager*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureSlotManager::*)()>(&::UnityEngine::UIElements::UIR::TextureSlotManager::Reset)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x7186d64;
+  constexpr static std::size_t addrs = 0x71c3c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::TextureSlotManager*>(), { "Reset", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureSlotManager::*)(int32_t, int32_t)>(&::UnityEngine::UIElements::UIR::TextureSlotManager::Unbind)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x7186dd0;
+  constexpr static std::size_t addrs = 0x71c3d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureSlotManager::*)(int32_t)>(&::UnityEngine::UIElements::UIR::TextureSlotManager::StartNewBatch)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7187028;
+  constexpr static std::size_t addrs = 0x71c3f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIR::TextureSlotManager::*)(::UnityEngine::UIElements::TextureId)>(
     &::UnityEngine::UIElements::UIR::TextureSlotManager::IndexOf)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x718706c;
+  constexpr static std::size_t addrs = 0x71c3fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureSlotManager::*)(int32_t)>(&::UnityEngine::UIElements::UIR::TextureSlotManager::MarkUsed)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7187120;
+  constexpr static std::size_t addrs = 0x71c4054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIR::TextureSlotManager::*)()>(&::UnityEngine::UIElements::UIR::TextureSlotManager::get_FreeSlots)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7187178;
+  constexpr static std::size_t addrs = 0x71c40ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::TextureSlotManager*>(), { "get_FreeSlots", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureSlotManager::*)(int32_t)>(&::UnityEngine::UIElements::UIR::TextureSlotManager::set_FreeSlots)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7187180;
+  constexpr static std::size_t addrs = 0x71c40b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIR::TextureSlotManager::*)()>(&::UnityEngine::UIElements::UIR::TextureSlotManager::FindOldestSlot)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x7187188;
+  constexpr static std::size_t addrs = 0x71c40bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::TextureSlotManager*>(), { "FindOldestSlot", {}, {} })));
@@ -130,7 +130,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::TextureId, float_t, float_t, bool, int32_t, ::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::UIElements::UIR::CommandList*)>(
     &::UnityEngine::UIElements::UIR::TextureSlotManager::Bind)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x7187200;
+  constexpr static std::size_t addrs = 0x71c4134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::TextureSlotManager::*)(int32_t, ::UnityEngine::UIElements::TextureId, int32_t, int32_t, float_t, float_t,
                                                                                                                     bool)>(&::UnityEngine::UIElements::UIR::TextureSlotManager::SetGpuData)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x7186ee0;
+  constexpr static std::size_t addrs = 0x71c3e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

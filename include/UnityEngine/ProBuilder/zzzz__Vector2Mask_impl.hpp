@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::Vector2Mask::*)()>(&::UnityEngine::ProBuilder::Vector2Mask::get_x)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b10374;
+  constexpr static std::size_t addrs = 0x6b4cff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Vector2Mask>(), { "get_x", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::Vector2Mask::*)()>(&::UnityEngine::ProBuilder::Vector2Mask::get_y)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b1038c;
+  constexpr static std::size_t addrs = 0x6b4d008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Vector2Mask>(), { "get_y", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Vector2Mask::*)(::UnityEngine::Vector3, float_t)>(&::UnityEngine::ProBuilder::Vector2Mask::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6b103a4;
+  constexpr static std::size_t addrs = 0x6b4d020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Vector2Mask::*)(uint8_t)>(&::UnityEngine::ProBuilder::Vector2Mask::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b103c8;
+  constexpr static std::size_t addrs = 0x6b4d044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Vector2Mask>(), { ".ctor", {}, { ::i2c::type_of<uint8_t>() } })));
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::ProBuilder::Vector2Mask)>(
     &::UnityEngine::ProBuilder::Vector2Mask::op_Implicit___UnityEngine__Vector2)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6b103d0;
+  constexpr static std::size_t addrs = 0x6b4d04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Vector2Mask (*)(::UnityEngine::Vector2)>(
     &::UnityEngine::ProBuilder::Vector2Mask::op_Implicit___UnityEngine__ProBuilder__Vector2Mask)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b1043c;
+  constexpr static std::size_t addrs = 0x6b4d0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Vector2Mask (*)(::UnityEngine::ProBuilder::Vector2Mask, ::UnityEngine::ProBuilder::Vector2Mask)>(
     &::UnityEngine::ProBuilder::Vector2Mask::op_BitwiseOr)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b10464;
+  constexpr static std::size_t addrs = 0x6b4d0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Vector2Mask (*)(::UnityEngine::ProBuilder::Vector2Mask, ::UnityEngine::ProBuilder::Vector2Mask)>(
     &::UnityEngine::ProBuilder::Vector2Mask::op_BitwiseAnd)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b1046c;
+  constexpr static std::size_t addrs = 0x6b4d0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Vector2Mask (*)(::UnityEngine::ProBuilder::Vector2Mask, ::UnityEngine::ProBuilder::Vector2Mask)>(
     &::UnityEngine::ProBuilder::Vector2Mask::op_ExclusiveOr)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b10474;
+  constexpr static std::size_t addrs = 0x6b4d0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::ProBuilder::Vector2Mask, float_t)>(&::UnityEngine::ProBuilder::Vector2Mask::op_Multiply)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6b1047c;
+  constexpr static std::size_t addrs = 0x6b4d0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

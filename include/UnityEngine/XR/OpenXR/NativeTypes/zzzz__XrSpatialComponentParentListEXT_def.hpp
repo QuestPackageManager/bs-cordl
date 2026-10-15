@@ -39,38 +39,38 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e4251c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f1b8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint32_t parentCount, uint64_t* parents);
 
-  /// @brief Method .ctor, addr 0x6e42554, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f1f0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1<uint64_t> parents);
 
-  /// @brief Method .ctor, addr 0x6e42630, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f2cc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1_ReadOnly<uint64_t> parents);
 
-  /// @brief Method .ctor, addr 0x6e42538, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f1d4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t parentCount, uint64_t* parents);
 
-  /// @brief Method .ctor, addr 0x6e425c8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f264, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<uint64_t> parents);
 
-  /// @brief Method .ctor, addr 0x6e426b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f354, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1_ReadOnly<uint64_t> parents);
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e42504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e7f1a0, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_parentCount, addr 0x6e4250c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentCount, addr 0x6e7f1a8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_parentCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_parents, addr 0x6e42514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parents, addr 0x6e7f1b0, size 0x8, virtual false, abstract: false, final false
   inline uint64_t* get_parents();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e424fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e7f198, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -84,7 +84,7 @@ public:
                                             uint64_t* _parents_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17548 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17581 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

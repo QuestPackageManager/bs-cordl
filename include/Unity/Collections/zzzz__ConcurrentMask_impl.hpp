@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::by_ref<int64_t>, int64_t)>(&::Unity::Collections::ConcurrentMask::AtomicOr)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x68d5034;
+  constexpr static std::size_t addrs = 0x6911cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::by_ref<int64_t>, int64_t)>(&::Unity::Collections::ConcurrentMask::AtomicAnd)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x68d5080;
+  constexpr static std::size_t addrs = 0x6911cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int64_t, ::by_ref<int32_t>, ::by_ref<int32_t>)>(&::Unity::Collections::ConcurrentMask::longestConsecutiveOnes)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x68d50cc;
+  constexpr static std::size_t addrs = 0x6911d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int64_t, int32_t, ::by_ref<int32_t>, ::by_ref<int32_t>)>(&::Unity::Collections::ConcurrentMask::foundAtLeastThisManyConsecutiveOnes)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x68d5140;
+  constexpr static std::size_t addrs = 0x6911dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int64_t, int32_t, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::Unity::Collections::ConcurrentMask::foundAtLeastThisManyConsecutiveZeroes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68d51e8;
+  constexpr static std::size_t addrs = 0x6911e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::Unity::Collections::ConcurrentMask::Succeeded)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68d0d24;
+  constexpr static std::size_t addrs = 0x690d9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int32_t, int32_t)>(&::Unity::Collections::ConcurrentMask::MakeMask)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68d51f0;
+  constexpr static std::size_t addrs = 0x6911e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<int64_t>, int32_t, int32_t)>(&::Unity::Collections::ConcurrentMask::TryAllocate)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x68d5204;
+  constexpr static std::size_t addrs = 0x6911e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<int64_t>, int32_t, int32_t)>(&::Unity::Collections::ConcurrentMask::TryFree)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x68d5278;
+  constexpr static std::size_t addrs = 0x6911ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<int64_t>, ::by_ref<int32_t>, int32_t)>(&::Unity::Collections::ConcurrentMask::TryAllocate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x68d5304;
+  constexpr static std::size_t addrs = 0x6911f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::ConcurrentMask::*)()>(&::Unity::Collections::ConcurrentMask::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68d53ac;
+  constexpr static std::size_t addrs = 0x6912028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::ConcurrentMask*>(), { ".ctor", {}, {} })));

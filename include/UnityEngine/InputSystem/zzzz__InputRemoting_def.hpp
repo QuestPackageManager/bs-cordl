@@ -288,7 +288,7 @@ public:
   static ::UnityEngine::InputSystem::InputRemoting_MessageType const StopSending;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10698 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10705 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -321,7 +321,7 @@ public:
   constexpr InputRemoting_Message(int32_t participantId, ::UnityEngine::InputSystem::InputRemoting_MessageType type, ::ArrayW<uint8_t> data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10706 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -387,7 +387,7 @@ public:
   static ::UnityEngine::InputSystem::InputRemoting_Flags const StartSendingOnConnect;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10700 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10707 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -419,7 +419,7 @@ public:
   constexpr InputRemoting_RemoteInputDevice(int32_t remoteId, int32_t localId, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription description) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10702 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10709 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -463,7 +463,7 @@ public:
                                        ::ArrayW<::UnityEngine::InputSystem::InputRemoting_RemoteInputDevice> devices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10708 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -505,7 +505,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x698f544, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x69cc1c0, size 0x5c, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::InputSystem::InputRemoting_Subscriber* New_ctor();
@@ -522,7 +522,7 @@ public:
 
   constexpr void __cordl_internal_set_owner(::UnityEngine::InputSystem::InputRemoting* value);
 
-  /// @brief Method .ctor, addr 0x698dc44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69ca8c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -543,7 +543,7 @@ public:
   InputRemoting_Subscriber(InputRemoting_Subscriber const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10703 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10710 };
 
   /// @brief Field owner, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputRemoting* ___owner;
@@ -568,7 +568,7 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE InputRemoting_ConnectMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Process, addr 0x698d034, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x69c9cb0, size 0x44, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver);
 
 protected:
@@ -586,7 +586,7 @@ public:
   InputRemoting_ConnectMsg(InputRemoting_ConnectMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10711 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -601,7 +601,7 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE InputRemoting_StartSendingMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Process, addr 0x698db3c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x69ca7b8, size 0x10, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver);
 
 protected:
@@ -619,7 +619,7 @@ public:
   InputRemoting_StartSendingMsg(InputRemoting_StartSendingMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10712 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -634,7 +634,7 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE InputRemoting_StopSendingMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Process, addr 0x698db4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x69ca7c8, size 0x10, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver);
 
 protected:
@@ -652,7 +652,7 @@ public:
   InputRemoting_StopSendingMsg(InputRemoting_StopSendingMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10706 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10713 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -667,7 +667,7 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE InputRemoting_DisconnectMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Process, addr 0x698d078, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x69c9cf4, size 0x9c, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::InputRemoting_Message msg);
 
 protected:
@@ -685,7 +685,7 @@ public:
   InputRemoting_DisconnectMsg(InputRemoting_DisconnectMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10714 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -709,7 +709,7 @@ public:
   constexpr NewLayoutMsg_InputRemoting_Data(::StringW name, ::StringW layoutJson, bool isOverride) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10708 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10715 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -744,10 +744,10 @@ public:
   // Declarations
   using Data = ::UnityEngine::InputSystem::NewLayoutMsg_InputRemoting_Data;
 
-  /// @brief Method Create, addr 0x698dfa8, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x69cac24, size 0x270, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::InputRemoting_Message> Create(::UnityEngine::InputSystem::InputRemoting* sender, ::StringW layoutName);
 
-  /// @brief Method Process, addr 0x698d114, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x69c9d90, size 0x100, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::InputRemoting_Message msg);
 
 protected:
@@ -765,7 +765,7 @@ public:
   InputRemoting_NewLayoutMsg(InputRemoting_NewLayoutMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10709 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10716 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -791,7 +791,7 @@ public:
                                             ::UnityEngine::InputSystem::Layouts::InputDeviceDescription description) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10710 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10717 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -843,10 +843,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::NewDeviceMsg_InputRemoting___c* New_ctor();
 
-  /// @brief Method <Create>b__1_0, addr 0x698fdb4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Create>b__1_0, addr 0x69cca30, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _Create_b__1_0(::UnityEngine::InputSystem::Utilities::InternedString x);
 
-  /// @brief Method .ctor, addr 0x698fdb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69cca2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::NewDeviceMsg_InputRemoting___c* getStaticF___9();
@@ -872,7 +872,7 @@ public:
   NewDeviceMsg_InputRemoting___c(NewDeviceMsg_InputRemoting___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10711 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10718 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -891,10 +891,10 @@ public:
 
   using __c = ::UnityEngine::InputSystem::NewDeviceMsg_InputRemoting___c;
 
-  /// @brief Method Create, addr 0x698e3e8, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x69cb064, size 0x220, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputRemoting_Message Create(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Process, addr 0x698d214, size 0x500, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x69c9e90, size 0x500, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::InputRemoting_Message msg);
 
 protected:
@@ -912,7 +912,7 @@ public:
   InputRemoting_NewDeviceMsg(InputRemoting_NewDeviceMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10712 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10719 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -927,16 +927,16 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE InputRemoting_NewEventsMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x698e748, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x69cb3c4, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputRemoting_Message Create(::UnityEngine::InputSystem::LowLevel::InputEvent* events, int32_t eventCount);
 
-  /// @brief Method CreateResetEvent, addr 0x698ead0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CreateResetEvent, addr 0x69cb74c, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputRemoting_Message CreateResetEvent(::UnityEngine::InputSystem::InputDevice* device, bool isHardReset);
 
-  /// @brief Method CreateStateEvent, addr 0x698e608, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CreateStateEvent, addr 0x69cb284, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputRemoting_Message CreateStateEvent(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Process, addr 0x698d714, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x69ca390, size 0xcc, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::InputRemoting_Message msg);
 
 protected:
@@ -954,7 +954,7 @@ public:
   InputRemoting_NewEventsMsg(InputRemoting_NewEventsMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10713 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10720 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -978,7 +978,7 @@ public:
   constexpr ChangeUsageMsg_InputRemoting_Data(int32_t deviceId, ::ArrayW<::StringW> usages) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10721 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -1015,10 +1015,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::ChangeUsageMsg_InputRemoting___c* New_ctor();
 
-  /// @brief Method <Create>b__1_0, addr 0x698ff78, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Create>b__1_0, addr 0x69ccbf4, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _Create_b__1_0(::UnityEngine::InputSystem::Utilities::InternedString x);
 
-  /// @brief Method .ctor, addr 0x698ff74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69ccbf0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::ChangeUsageMsg_InputRemoting___c* getStaticF___9();
@@ -1044,7 +1044,7 @@ public:
   ChangeUsageMsg_InputRemoting___c(ChangeUsageMsg_InputRemoting___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10715 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10722 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1063,10 +1063,10 @@ public:
 
   using __c = ::UnityEngine::InputSystem::ChangeUsageMsg_InputRemoting___c;
 
-  /// @brief Method Create, addr 0x698e924, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x69cb5a0, size 0x1ac, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputRemoting_Message Create(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Process, addr 0x698d7e0, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x69ca45c, size 0x2f0, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::InputRemoting_Message msg);
 
 protected:
@@ -1084,7 +1084,7 @@ public:
   InputRemoting_ChangeUsageMsg(InputRemoting_ChangeUsageMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10716 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10723 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1099,10 +1099,10 @@ namespace UnityEngine::InputSystem {
 class CORDL_TYPE InputRemoting_RemoveDeviceMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x698e8fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x69cb578, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputRemoting_Message Create(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Process, addr 0x698dad0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x69ca74c, size 0x6c, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::InputRemoting_Message msg);
 
 protected:
@@ -1120,7 +1120,7 @@ public:
   InputRemoting_RemoveDeviceMsg(InputRemoting_RemoveDeviceMsg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10724 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1187,72 +1187,72 @@ public:
   /// @brief Convert operator to "::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>"
   constexpr operator ::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>*() noexcept;
 
-  /// @brief Method BuildLayoutNamespace, addr 0x698ed2c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method BuildLayoutNamespace, addr 0x69cb9a8, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::InternedString BuildLayoutNamespace(int32_t senderId);
 
   /// @brief Method DeserializeData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TData> static inline TData DeserializeData(::ArrayW<uint8_t> data);
 
-  /// @brief Method FindLocalDeviceId, addr 0x698edd8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method FindLocalDeviceId, addr 0x69cba54, size 0x70, virtual false, abstract: false, final false
   inline int32_t FindLocalDeviceId(int32_t remoteDeviceId, int32_t senderIndex);
 
-  /// @brief Method FindOrCreateSenderRecord, addr 0x698ec7c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method FindOrCreateSenderRecord, addr 0x69cb8f8, size 0xb0, virtual false, abstract: false, final false
   inline int32_t FindOrCreateSenderRecord(int32_t senderId);
 
   static inline ::UnityEngine::InputSystem::InputRemoting* New_ctor(::UnityEngine::InputSystem::InputManager* manager, bool startSendingOnConnect);
 
-  /// @brief Method RemoveRemoteDevices, addr 0x698eef4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method RemoveRemoteDevices, addr 0x69cbb70, size 0x100, virtual false, abstract: false, final false
   inline void RemoveRemoteDevices(int32_t participantId);
 
-  /// @brief Method Send, addr 0x698e218, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x69cae94, size 0x108, virtual false, abstract: false, final false
   inline void Send(::UnityEngine::InputSystem::InputRemoting_Message msg);
 
-  /// @brief Method SendAllDevices, addr 0x698dd90, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method SendAllDevices, addr 0x69caa0c, size 0x16c, virtual false, abstract: false, final false
   inline void SendAllDevices();
 
-  /// @brief Method SendAllGeneratedLayouts, addr 0x698dc48, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SendAllGeneratedLayouts, addr 0x69ca8c4, size 0x148, virtual false, abstract: false, final false
   inline void SendAllGeneratedLayouts();
 
-  /// @brief Method SendDevice, addr 0x698e36c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SendDevice, addr 0x69cafe8, size 0x7c, virtual false, abstract: false, final false
   inline void SendDevice(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method SendDeviceChange, addr 0x698e848, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SendDeviceChange, addr 0x69cb4c4, size 0xb4, virtual false, abstract: false, final false
   inline void SendDeviceChange(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::InputDeviceChange change);
 
-  /// @brief Method SendEvent, addr 0x698e6fc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SendEvent, addr 0x69cb378, size 0x4c, virtual false, abstract: false, final false
   inline void SendEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method SendInitialMessages, addr 0x698ccac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SendInitialMessages, addr 0x69c9928, size 0x18, virtual false, abstract: false, final false
   inline void SendInitialMessages();
 
-  /// @brief Method SendLayout, addr 0x698defc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SendLayout, addr 0x69cab78, size 0xac, virtual false, abstract: false, final false
   inline void SendLayout(::StringW layoutName);
 
-  /// @brief Method SendLayoutChange, addr 0x698eb8c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SendLayoutChange, addr 0x69cb808, size 0xf0, virtual false, abstract: false, final false
   inline void SendLayoutChange(::StringW layout, ::UnityEngine::InputSystem::InputControlLayoutChange change);
 
   /// @brief Method SerializeData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TData> static inline ::ArrayW<uint8_t> SerializeData(TData data);
 
-  /// @brief Method StartSending, addr 0x698c9e4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method StartSending, addr 0x69c9660, size 0x1b4, virtual false, abstract: false, final false
   inline void StartSending();
 
-  /// @brief Method StopSending, addr 0x698ccc4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method StopSending, addr 0x69c9940, size 0x19c, virtual false, abstract: false, final false
   inline void StopSending();
 
-  /// @brief Method Subscribe, addr 0x698db64, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method Subscribe, addr 0x69ca7e0, size 0xe0, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>* observer);
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnCompleted, addr 0x698db60, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnCompleted, addr 0x69ca7dc, size 0x4, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnCompleted();
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnError, addr 0x698db5c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnError, addr 0x69ca7d8, size 0x4, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnError(::System::Exception* error);
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnNext, addr 0x698cf74, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnNext, addr 0x69c9bf0, size 0xc0, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnNext(::UnityEngine::InputSystem::InputRemoting_Message msg);
 
-  /// @brief Method TryGetDeviceByRemoteId, addr 0x698ee48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method TryGetDeviceByRemoteId, addr 0x69cbac4, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* TryGetDeviceByRemoteId(int32_t remoteDeviceId, int32_t senderIndex);
 
   constexpr ::UnityEngine::InputSystem::InputRemoting_Flags const& __cordl_internal_get_m_Flags() const;
@@ -1279,13 +1279,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Subscribers(::ArrayW<::UnityEngine::InputSystem::InputRemoting_Subscriber*> value);
 
-  /// @brief Method .ctor, addr 0x698c97c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69c95f8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputManager* manager, bool startSendingOnConnect);
 
-  /// @brief Method get_manager, addr 0x698eeec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_manager, addr 0x69cbb68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputManager* get_manager();
 
-  /// @brief Method get_sending, addr 0x698c960, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_sending, addr 0x69c95dc, size 0xc, virtual false, abstract: false, final false
   inline bool get_sending();
 
   /// @brief Convert to "::System::IObservable_1<::UnityEngine::InputSystem::InputRemoting_Message>"
@@ -1294,7 +1294,7 @@ public:
   /// @brief Convert to "::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>"
   constexpr ::System::IObserver_1<::UnityEngine::InputSystem::InputRemoting_Message>* i___System__IObserver_1___UnityEngine__InputSystem__InputRemoting_Message_() noexcept;
 
-  /// @brief Method set_sending, addr 0x698c96c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_sending, addr 0x69c95e8, size 0x10, virtual false, abstract: false, final false
   inline void set_sending(bool value);
 
 protected:
@@ -1312,7 +1312,7 @@ public:
   InputRemoting(InputRemoting const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10725 };
 
   /// @brief Field m_Flags, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::InputSystem::InputRemoting_Flags ___m_Flags;

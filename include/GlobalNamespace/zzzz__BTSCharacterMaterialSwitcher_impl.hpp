@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Renderer> (::GlobalNamespace::BTSCharacterMaterialSwitcher_RendererMaterialsPairs::*)()>(
     &::GlobalNamespace::BTSCharacterMaterialSwitcher_RendererMaterialsPairs::get_renderer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3508dcc;
+  constexpr static std::size_t addrs = 0x3529740;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::BTSCharacterMaterialSwitcher_MaterialPairs*>* (
     ::GlobalNamespace::BTSCharacterMaterialSwitcher_RendererMaterialsPairs::*)()>(&::GlobalNamespace::BTSCharacterMaterialSwitcher_RendererMaterialsPairs::get_materialPairs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3508dd4;
+  constexpr static std::size_t addrs = 0x3529748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterMaterialSwitcher_RendererMaterialsPairs::*)(::UnityEngine::Renderer*)>(
     &::GlobalNamespace::BTSCharacterMaterialSwitcher_RendererMaterialsPairs::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3508ddc;
+  constexpr static std::size_t addrs = 0x3529750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterMaterialSwitcher_MaterialPairs::*)()>(
     &::GlobalNamespace::BTSCharacterMaterialSwitcher_MaterialPairs::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3508e60;
+  constexpr static std::size_t addrs = 0x35297d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterMaterialSwitcher_MaterialPairs*>(), { ".ctor", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterMaterialSwitcher::*)(bool)>(&::GlobalNamespace::BTSCharacterMaterialSwitcher::SwapMaterials)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x3508b74;
+  constexpr static std::size_t addrs = 0x35294e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterMaterialSwitcher::*)()>(&::GlobalNamespace::BTSCharacterMaterialSwitcher::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3508dc8;
+  constexpr static std::size_t addrs = 0x352973c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterMaterialSwitcher*>(), { ".ctor", {}, {} })));

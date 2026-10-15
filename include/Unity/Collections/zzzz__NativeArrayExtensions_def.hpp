@@ -68,7 +68,7 @@ public:
   constexpr NativeArrayExtensions_NativeArrayStaticId_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15905 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -212,7 +212,7 @@ public:
   NativeArrayExtensions(NativeArrayExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15906 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

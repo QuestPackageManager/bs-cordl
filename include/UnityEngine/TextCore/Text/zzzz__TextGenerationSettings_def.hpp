@@ -144,18 +144,18 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::Text::TextGenerationSettings*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::Text::TextGenerationSettings*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x7058e20, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7095d14, size 0xf4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x7058a00, size 0x39c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x70958f4, size 0x39c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::Text::TextGenerationSettings* other);
 
-  /// @brief Method GetHashCode, addr 0x7058f14, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7095e08, size 0x2b0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* New_ctor();
 
-  /// @brief Method ToString, addr 0x7059200, size 0xd58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x70960f4, size 0xd58, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_characterSpacing() const;
@@ -302,7 +302,7 @@ public:
 
   constexpr void __cordl_internal_set_wordSpacing(float_t value);
 
-  /// @brief Method .ctor, addr 0x70589b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70958a4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Func_1<bool>* getStaticF_IsEditorTextRenderingModeBitmap();
@@ -311,16 +311,16 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::OTL_FeatureTag>* getStaticF_fontFeatures();
 
-  /// @brief Method get_renderedText, addr 0x7058800, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_renderedText, addr 0x70956f4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::RenderedText get_renderedText();
 
-  /// @brief Method get_text, addr 0x705881c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x7095710, size 0x34, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::Text::TextGenerationSettings*>"
   constexpr ::System::IEquatable_1<::UnityEngine::TextCore::Text::TextGenerationSettings*>* i___System__IEquatable_1___UnityEngine__TextCore__Text__TextGenerationSettings__() noexcept;
 
-  /// @brief Method op_Inequality, addr 0x70591c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x70960b8, size 0x3c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::TextCore::Text::TextGenerationSettings* left, ::UnityEngine::TextCore::Text::TextGenerationSettings* right);
 
   static inline void setStaticF_IsEditorTextRenderingModeBitmap(::System::Func_1<bool>* value);
@@ -329,10 +329,10 @@ public:
 
   static inline void setStaticF_fontFeatures(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::OTL_FeatureTag>* value);
 
-  /// @brief Method set_renderedText, addr 0x705880c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_renderedText, addr 0x7095700, size 0x10, virtual false, abstract: false, final false
   inline void set_renderedText(::UnityEngine::TextCore::Text::RenderedText value);
 
-  /// @brief Method set_text, addr 0x705892c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x7095820, size 0x40, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -350,7 +350,7 @@ public:
   TextGenerationSettings(TextGenerationSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17879 };
 
   /// @brief Field autoSize offset 0xffffffff size 0x1
   static constexpr bool autoSize{ false };

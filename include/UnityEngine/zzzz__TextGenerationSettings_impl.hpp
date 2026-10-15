@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextGenerationSettings::*)(::UnityEngine::Color, ::UnityEngine::Color)>(
     &::UnityEngine::TextGenerationSettings::CompareColors)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x7068364;
+  constexpr static std::size_t addrs = 0x70a5298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextGenerationSettings::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::UnityEngine::TextGenerationSettings::CompareVector2)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x70684a8;
+  constexpr static std::size_t addrs = 0x70a53dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextGenerationSettings::*)(::UnityEngine::TextGenerationSettings)>(&::UnityEngine::TextGenerationSettings::Equals)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x706857c;
+  constexpr static std::size_t addrs = 0x70a54b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -51,7 +51,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE TemplateAsset_AttributeOverride {
 public:
   // Declarations
-  /// @brief Method NamesPathMatchesElementNamesPath, addr 0x7143e6c, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method NamesPathMatchesElementNamesPath, addr 0x7180da0, size 0x328, virtual false, abstract: false, final false
   inline bool NamesPathMatchesElementNamesPath(::System::Collections::Generic::IList_1<::StringW>* elementNamesPath);
 
   // Ctor Parameters []
@@ -193,14 +193,14 @@ public:
 
   static inline ::StringW getStaticF_UxmlInstanceTypeName();
 
-  /// @brief Method get_attributeOverrides, addr 0x7143df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attributeOverrides, addr 0x7180d28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* get_attributeOverrides();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method get_slotUsages, addr 0x7143dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_slotUsages, addr 0x7180d30, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualTreeAsset_SlotUsageEntry>* get_slotUsages();
 
-  /// @brief Method get_templateAlias, addr 0x7143dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_templateAlias, addr 0x7180d20, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_templateAlias();
 
   static inline void setStaticF_UxmlInstanceTypeName(::StringW value);

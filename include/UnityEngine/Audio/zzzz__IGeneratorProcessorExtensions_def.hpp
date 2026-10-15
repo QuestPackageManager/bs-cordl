@@ -91,7 +91,7 @@ public:
                                                            ::UnityEngine::Audio::GeneratorInstance_Arguments GeneratorArguments, ::UnityEngine::Audio::GeneratorInstance_Result Result) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20385 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20432 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -150,7 +150,7 @@ public:
   constexpr JobStruct_1_IGeneratorProcessorExtensions_Storage(::UnityEngine::Audio::GeneratorInstance_GeneratorHeader Header, TUserProcessor UserProcessor) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20433 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -207,7 +207,7 @@ public:
   JobStruct_1_IGeneratorProcessorExtensions_ExecuteJobFunction(JobStruct_1_IGeneratorProcessorExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20387 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -247,7 +247,7 @@ public:
   constexpr IGeneratorProcessorExtensions_JobStruct_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20388 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20435 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -290,7 +290,7 @@ public:
   IGeneratorProcessorExtensions(IGeneratorProcessorExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20436 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

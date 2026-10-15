@@ -33,11 +33,11 @@ public:
 
   constexpr void __cordl_internal_set__canHaveAnyAttribute_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x7146898, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71837cc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method set_canHaveAnyAttribute, addr 0x71468a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_canHaveAnyAttribute, addr 0x71837d8, size 0x8, virtual false, abstract: false, final false
   inline void set_canHaveAnyAttribute(bool value);
 
 protected:

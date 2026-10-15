@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::AllocateBinsPerBatch::*)(int32_t)>(&::UnityEngine::Rendering::AllocateBinsPerBatch::IsInstanceFlipped)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6c4931c;
+  constexpr static std::size_t addrs = 0x6c85f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::AllocateBinsPerBatch::*)(int32_t, int32_t, bool)>(
     &::UnityEngine::Rendering::AllocateBinsPerBatch::IsMeshLodVisible)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6c493bc;
+  constexpr static std::size_t addrs = 0x6c86038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::UnityEngine::MeshTopology, bool)>(&::UnityEngine::Rendering::AllocateBinsPerBatch::GetPrimitiveCount)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c49410;
+  constexpr static std::size_t addrs = 0x6c8608c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AllocateBinsPerBatch::*)(int32_t)>(&::UnityEngine::Rendering::AllocateBinsPerBatch::Execute)> {
   constexpr static std::size_t size = 0x5a0;
-  constexpr static std::size_t addrs = 0x6c494ac;
+  constexpr static std::size_t addrs = 0x6c86128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

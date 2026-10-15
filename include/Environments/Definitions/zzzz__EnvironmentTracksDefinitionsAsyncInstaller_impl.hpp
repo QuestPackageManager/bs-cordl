@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3574658;
+  constexpr static std::size_t addrs = 0x3596cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>(),
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Environments::Def
     ::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>*, ::BGLib::AppFlow::Initialization::IInstallerRegistry*)>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x357469c;
+  constexpr static std::size_t addrs = 0x3596d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3574710;
+  constexpr static std::size_t addrs = 0x3596db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3574984;
+  constexpr static std::size_t addrs = 0x3597024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

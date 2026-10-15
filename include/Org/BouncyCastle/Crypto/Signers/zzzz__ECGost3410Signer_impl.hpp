@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x36ada28;
+  constexpr static std::size_t addrs = 0x36d038c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer*>(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::Init)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x36ada40;
+  constexpr static std::size_t addrs = 0x36d03a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer*>(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::get_Order)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x36adc3c;
+  constexpr static std::size_t addrs = 0x36d05a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer*>(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::Org::BouncyCastle::Math::BigInteger*> (::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::GenerateSignature)> {
   constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x36adc60;
+  constexpr static std::size_t addrs = 0x36d05c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer*>(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::*)(
     ::ArrayW<uint8_t>, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::VerifySignature)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x36ae01c;
+  constexpr static std::size_t addrs = 0x36d0980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer*>(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* (::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::CreateBasePointMultiplier)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x36ae324;
+  constexpr static std::size_t addrs = 0x36d0c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer*>(),
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::*)()>(&::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x36ae368;
+  constexpr static std::size_t addrs = 0x36d0ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Signers::ECGost3410Signer*>(), { ".ctor", {}, {} })));

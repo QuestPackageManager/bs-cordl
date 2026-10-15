@@ -50,10 +50,10 @@ public:
 
   static inline ::GlobalNamespace::GameServersFilterText* New_ctor();
 
-  /// @brief Method Setup, addr 0x5e3edf4, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5d2a8a4, size 0x264, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask, ::GlobalNamespace::SongPackMask songPackMask, bool visible);
 
-  /// @brief Method Setup, addr 0x5e3eb44, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5d2a5f4, size 0x2b0, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::GameServersFilter* filter, bool visible);
 
   constexpr ::GlobalNamespace::SongPackMasksModel* const& __cordl_internal_get__songPackMasksModel() const;
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::HMUI::CurvedTextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x5e3f058, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d2ab08, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   GameServersFilterText(GameServersFilterText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6607 };
 
   /// @brief Field kAllLevelPacksLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kAllLevelPacksLocalizationKey{ u"ALL_LEVEL_PACKS" };

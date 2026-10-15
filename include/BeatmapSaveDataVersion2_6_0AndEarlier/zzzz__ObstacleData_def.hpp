@@ -83,22 +83,22 @@ public:
 
   constexpr void __cordl_internal_set__width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x39e9404, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a12b78, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType type, float_t duration, int32_t width);
 
-  /// @brief Method get_duration, addr 0x39e93f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x3a12b68, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_lineIndex, addr 0x39e93e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x3a12b58, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_time, addr 0x39e93dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_time, addr 0x3a12b50, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_type, addr 0x39e93ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x3a12b60, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType get_type();
 
-  /// @brief Method get_width, addr 0x39e93fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x3a12b70, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
 protected:
@@ -116,7 +116,7 @@ public:
   ObstacleData(ObstacleData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15631 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14867 };
 
   /// [SerializeField]
   /// @brief Field _time, offset: 0x10, size: 0x4, def value: None

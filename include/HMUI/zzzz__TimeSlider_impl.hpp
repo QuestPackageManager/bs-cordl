@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TimeSlider::*)(bool, float_t, float_t)>(&::HMUI::TimeSlider::SetBounds)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5c96364;
+  constexpr static std::size_t addrs = 0x5ccf0ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::HMUI::TimeSlider::*)(float_t)>(&::HMUI::TimeSlider::TextForValue)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x5c96374;
+  constexpr static std::size_t addrs = 0x5ccf0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::TimeSlider*>(), { ::i2c::class_of<::HMUI::TimeSlider*>(), 55 }));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::TimeSpan)>(&::HMUI::TimeSlider::FormatTimeSpan)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x5c965d0;
+  constexpr static std::size_t addrs = 0x5ccf318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TimeSlider::*)()>(&::HMUI::TimeSlider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c9682c;
+  constexpr static std::size_t addrs = 0x5ccf574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TimeSlider*>(), { ".ctor", {}, {} })));

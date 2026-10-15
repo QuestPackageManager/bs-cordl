@@ -41,99 +41,99 @@ class CORDL_TYPE TextSelectionService : public ::System::Object {
 public:
   // Declarations
   /// [NativeMethod(Name = "TextSelectionService::GetCharacterHeightFromIndex")]
-  /// @brief Method GetCharacterHeightFromIndex, addr 0x7060108, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterHeightFromIndex, addr 0x709cffc, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetCharacterHeightFromIndex(::System::IntPtr textGenerationInfo, int32_t index);
 
   /// [NativeMethod(Name = "TextSelectionService::GetCursorLogicalIndexFromPosition")]
-  /// @brief Method GetCursorLogicalIndexFromPosition, addr 0x705fdc0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetCursorLogicalIndexFromPosition, addr 0x709ccb4, size 0x48, virtual false, abstract: false, final false
   static inline int32_t GetCursorLogicalIndexFromPosition(::System::IntPtr textGenerationInfo, ::UnityEngine::Vector2 position);
 
-  /// @brief Method GetCursorLogicalIndexFromPosition_Injected, addr 0x705fe08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetCursorLogicalIndexFromPosition_Injected, addr 0x709ccfc, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetCursorLogicalIndexFromPosition_Injected(::System::IntPtr textGenerationInfo, ::by_ref<::UnityEngine::Vector2 const> position);
 
   /// [NativeMethod(Name = "TextSelectionService::GetCursorPositionFromLogicalIndex")]
-  /// @brief Method GetCursorPositionFromLogicalIndex, addr 0x705fe4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetCursorPositionFromLogicalIndex, addr 0x709cd40, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetCursorPositionFromLogicalIndex(::System::IntPtr textGenerationInfo, int32_t logicalIndex);
 
-  /// @brief Method GetCursorPositionFromLogicalIndex_Injected, addr 0x705fea8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetCursorPositionFromLogicalIndex_Injected, addr 0x709cd9c, size 0x54, virtual false, abstract: false, final false
   static inline void GetCursorPositionFromLogicalIndex_Injected(::System::IntPtr textGenerationInfo, int32_t logicalIndex, ::by_ref<::UnityEngine::Vector2> ret);
 
   /// [NativeMethod(Name = "TextSelectionService::GetEndOfPreviousWord")]
-  /// @brief Method GetEndOfPreviousWord, addr 0x7060190, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetEndOfPreviousWord, addr 0x709d084, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetEndOfPreviousWord(::System::IntPtr textGenerationInfo, int32_t currentIndex);
 
   /// [NativeMethod(Name = "TextSelectionService::GetFirstCharacterIndexOnLine")]
-  /// @brief Method GetFirstCharacterIndexOnLine, addr 0x70601d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetFirstCharacterIndexOnLine, addr 0x709d0c8, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetFirstCharacterIndexOnLine(::System::IntPtr textGenerationInfo, int32_t currentIndex);
 
   /// [NativeMethod(Name = "TextSelectionService::GetHighlightRectangles")]
-  /// @brief Method GetHighlightRectangles, addr 0x705ff84, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetHighlightRectangles, addr 0x709ce78, size 0x128, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Rect> GetHighlightRectangles(::System::IntPtr textGenerationInfo, int32_t cursorIndex, int32_t selectIndex);
 
-  /// @brief Method GetHighlightRectangles_Injected, addr 0x70600ac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetHighlightRectangles_Injected, addr 0x709cfa0, size 0x5c, virtual false, abstract: false, final false
   static inline void GetHighlightRectangles_Injected(::System::IntPtr textGenerationInfo, int32_t cursorIndex, int32_t selectIndex, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
 
   /// [NativeMethod(Name = "TextSelectionService::GetLastCharacterIndexOnLine")]
-  /// @brief Method GetLastCharacterIndexOnLine, addr 0x7060218, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLastCharacterIndexOnLine, addr 0x709d10c, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetLastCharacterIndexOnLine(::System::IntPtr textGenerationInfo, int32_t currentIndex);
 
   /// [NativeMethod(Name = "TextSelectionService::GetLineHeight")]
-  /// @brief Method GetLineHeight, addr 0x706025c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeight, addr 0x709d150, size 0x44, virtual false, abstract: false, final false
   static inline float_t GetLineHeight(::System::IntPtr textGenerationInfo, int32_t lineIndex);
 
   /// [NativeMethod(Name = "TextSelectionService::GetLineNumberFromLogicalIndex")]
-  /// @brief Method GetLineNumber, addr 0x70602a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLineNumber, addr 0x709d194, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetLineNumber(::System::IntPtr textGenerationInfo, int32_t logicalIndex);
 
   /// [NativeMethod(Name = "TextSelectionService::GetStartOfNextWord")]
-  /// @brief Method GetStartOfNextWord, addr 0x706014c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetStartOfNextWord, addr 0x709d040, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetStartOfNextWord(::System::IntPtr textGenerationInfo, int32_t currentIndex);
 
   /// [NativeMethod(Name = "TextSelectionService::LineDownCharacterPosition")]
-  /// @brief Method LineDownCharacterPosition, addr 0x705ff40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LineDownCharacterPosition, addr 0x709ce34, size 0x44, virtual false, abstract: false, final false
   static inline int32_t LineDownCharacterPosition(::System::IntPtr textGenerationInfo, int32_t originalPos);
 
   /// [NativeMethod(Name = "TextSelectionService::LineUpCharacterPosition")]
-  /// @brief Method LineUpCharacterPosition, addr 0x705fefc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LineUpCharacterPosition, addr 0x709cdf0, size 0x44, virtual false, abstract: false, final false
   static inline int32_t LineUpCharacterPosition(::System::IntPtr textGenerationInfo, int32_t originalPos);
 
   /// [NativeMethod(Name = "TextSelectionService::NextCodePointIndex")]
-  /// @brief Method NextCodePointIndex, addr 0x705fd7c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method NextCodePointIndex, addr 0x709cc70, size 0x44, virtual false, abstract: false, final false
   static inline int32_t NextCodePointIndex(::System::IntPtr textGenerationInfo, int32_t currentIndex);
 
   /// [NativeMethod(Name = "TextSelectionService::PreviousCodePointIndex")]
-  /// @brief Method PreviousCodePointIndex, addr 0x705fd38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PreviousCodePointIndex, addr 0x709cc2c, size 0x44, virtual false, abstract: false, final false
   static inline int32_t PreviousCodePointIndex(::System::IntPtr textGenerationInfo, int32_t currentIndex);
 
   /// [NativeMethod(Name = "TextSelectionService::SelectCurrentParagraph")]
-  /// @brief Method SelectCurrentParagraph, addr 0x70603f4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SelectCurrentParagraph, addr 0x709d2e8, size 0x54, virtual false, abstract: false, final false
   static inline void SelectCurrentParagraph(::System::IntPtr textGenerationInfo, ::by_ref<int32_t> cursorIndex, ::by_ref<int32_t> selectIndex);
 
   /// [NativeMethod(Name = "TextSelectionService::SelectCurrentWord")]
-  /// @brief Method SelectCurrentWord, addr 0x705fcdc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SelectCurrentWord, addr 0x709cbd0, size 0x5c, virtual false, abstract: false, final false
   static inline void SelectCurrentWord(::System::IntPtr textGenerationInfo, int32_t currentIndex, ::by_ref<int32_t> startIndex, ::by_ref<int32_t> endIndex);
 
   /// [NativeMethod(Name = "TextSelectionService::SelectToEndOfParagraph")]
-  /// @brief Method SelectToEndOfParagraph, addr 0x706036c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SelectToEndOfParagraph, addr 0x709d260, size 0x44, virtual false, abstract: false, final false
   static inline void SelectToEndOfParagraph(::System::IntPtr textGenerationInfo, ::by_ref<int32_t> cursorIndex);
 
   /// [NativeMethod(Name = "TextSelectionService::SelectToNextParagraph")]
-  /// @brief Method SelectToNextParagraph, addr 0x70603b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SelectToNextParagraph, addr 0x709d2a4, size 0x44, virtual false, abstract: false, final false
   static inline void SelectToNextParagraph(::System::IntPtr textGenerationInfo, ::by_ref<int32_t> cursorIndex);
 
   /// [NativeMethod(Name = "TextSelectionService::SelectToPreviousParagraph")]
-  /// @brief Method SelectToPreviousParagraph, addr 0x70602e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SelectToPreviousParagraph, addr 0x709d1d8, size 0x44, virtual false, abstract: false, final false
   static inline void SelectToPreviousParagraph(::System::IntPtr textGenerationInfo, ::by_ref<int32_t> cursorIndex);
 
   /// [NativeMethod(Name = "TextSelectionService::SelectToStartOfParagraph")]
-  /// @brief Method SelectToStartOfParagraph, addr 0x7060328, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SelectToStartOfParagraph, addr 0x709d21c, size 0x44, virtual false, abstract: false, final false
   static inline void SelectToStartOfParagraph(::System::IntPtr textGenerationInfo, ::by_ref<int32_t> cursorIndex);
 
   /// [NativeMethod(Name = "TextSelectionService::Substring")]
-  /// @brief Method Substring, addr 0x705fba0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Substring, addr 0x709ca94, size 0xe0, virtual false, abstract: false, final false
   static inline ::StringW Substring(::System::IntPtr textGenerationInfo, int32_t startIndex, int32_t endIndex);
 
-  /// @brief Method Substring_Injected, addr 0x705fc80, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Substring_Injected, addr 0x709cb74, size 0x5c, virtual false, abstract: false, final false
   static inline void Substring_Injected(::System::IntPtr textGenerationInfo, int32_t startIndex, int32_t endIndex, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
 protected:
@@ -151,7 +151,7 @@ public:
   TextSelectionService(TextSelectionService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17864 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17897 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

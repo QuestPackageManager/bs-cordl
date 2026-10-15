@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Ice::NoteCutFloorLightStreakTileEffectSpawner::*)(::UnityEngine::Color)>(
     &::Ice::NoteCutFloorLightStreakTileEffectSpawner::set_spawnColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3510b3c;
+  constexpr static std::size_t addrs = 0x35314b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::Ice::NoteCutFloorLightStreakTileEffectSpawner::*)()>(&::Ice::NoteCutFloorLightStreakTileEffectSpawner::get_spawnColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3510b48;
+  constexpr static std::size_t addrs = 0x35314bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Ice::NoteCutFloorLightStreakTileEffectSpawner*>(), { "get_spawnColor", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Ice::NoteCutFloorLightStreakTileEffectSpawner::*)()>(&::Ice::NoteCutFloorLightStreakTileEffectSpawner::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3510b54;
+  constexpr static std::size_t addrs = 0x35314c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Ice::NoteCutFloorLightStreakTileEffectSpawner*>(), { "Start", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Ice::NoteCutFloorLightStreakTileEffectSpawner::*)()>(&::Ice::NoteCutFloorLightStreakTileEffectSpawner::OnDestroy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3510be4;
+  constexpr static std::size_t addrs = 0x3531558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Ice::NoteCutFloorLightStreakTileEffectSpawner*>(), { "OnDestroy", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Ice::NoteCutFloorLightStreakTileEffectSpawner::*)(::GlobalNamespace::NoteController*, ::by_ref<::GlobalNamespace::NoteCutInfo const>)>(
     &::Ice::NoteCutFloorLightStreakTileEffectSpawner::HandleNoteWasCut)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3510c7c;
+  constexpr static std::size_t addrs = 0x35315f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Ice::NoteCutFloorLightStreakTileEffectSpawner::*)()>(&::Ice::NoteCutFloorLightStreakTileEffectSpawner::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3510ce0;
+  constexpr static std::size_t addrs = 0x3531654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Ice::NoteCutFloorLightStreakTileEffectSpawner*>(), { ".ctor", {}, {} })));

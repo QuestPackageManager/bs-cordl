@@ -54,13 +54,13 @@ public:
 
   static inline ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c* New_ctor();
 
-  /// @brief Method <.ctor>b__36_0, addr 0x6f99970, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__36_0, addr 0x6fd684c, size 0xc4, virtual false, abstract: false, final false
   inline bool __ctor_b__36_0(::Unity::Hierarchy::HierarchySearchFilter f);
 
-  /// @brief Method <.ctor>b__36_1, addr 0x6f99a34, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__36_1, addr 0x6fd6910, size 0xb8, virtual false, abstract: false, final false
   inline bool __ctor_b__36_1(::Unity::Hierarchy::HierarchySearchFilter f);
 
-  /// @brief Method .ctor, addr 0x6f9996c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fd6848, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Unity::Hierarchy::HierarchySearchQueryDescriptor___c* getStaticF___9();
@@ -90,7 +90,7 @@ public:
   HierarchySearchQueryDescriptor___c(HierarchySearchQueryDescriptor___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22611 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22661 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -152,21 +152,21 @@ public:
   __declspec(property(get = getStaticF_s_SystemFilters, put = setStaticF_s_SystemFilters)) ::System::Collections::Generic::HashSet_1<::StringW>* s_SystemFilters;
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.HierarchyModule" })]
-  /// @brief Method BuildFilterQuery, addr 0x6f9959c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BuildFilterQuery, addr 0x6fd6478, size 0x68, virtual false, abstract: false, final false
   inline ::StringW BuildFilterQuery();
 
-  /// @brief Method BuildQuery, addr 0x6f990b8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method BuildQuery, addr 0x6fd5f94, size 0x13c, virtual false, abstract: false, final false
   inline ::StringW BuildQuery();
 
-  /// @brief Method BuildSystemFilterQuery, addr 0x6f99604, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BuildSystemFilterQuery, addr 0x6fd64e0, size 0x68, virtual false, abstract: false, final false
   inline ::StringW BuildSystemFilterQuery();
 
-  /// @brief Method BuildTextQuery, addr 0x6f9966c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method BuildTextQuery, addr 0x6fd6548, size 0x11c, virtual false, abstract: false, final false
   inline ::StringW BuildTextQuery();
 
   static inline ::Unity::Hierarchy::HierarchySearchQueryDescriptor* New_ctor(::ArrayW<::Unity::Hierarchy::HierarchySearchFilter> filters, ::ArrayW<::StringW> textValues);
 
-  /// @brief Method ToString, addr 0x6f99598, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6fd6474, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method Where, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -208,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Query(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6f991f4, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fd60d0, size 0x3a4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Unity::Hierarchy::HierarchySearchFilter> filters, ::ArrayW<::StringW> textValues);
 
   static inline ::Unity::Hierarchy::HierarchySearchQueryDescriptor* getStaticF_s_Empty();
@@ -218,18 +218,18 @@ public:
   static inline ::System::Collections::Generic::HashSet_1<::StringW>* getStaticF_s_SystemFilters();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Filters, addr 0x6f98fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Filters, addr 0x6fd5ec8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Unity::Hierarchy::HierarchySearchFilter> get_Filters();
 
-  /// @brief Method get_Query, addr 0x6f9901c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_Query, addr 0x6fd5ef8, size 0x9c, virtual false, abstract: false, final false
   inline ::StringW get_Query();
 
   /// [CompilerGenerated]
-  /// @brief Method get_SystemFilters, addr 0x6f98fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SystemFilters, addr 0x6fd5eb8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Unity::Hierarchy::HierarchySearchFilter> get_SystemFilters();
 
   /// [CompilerGenerated]
-  /// @brief Method get_TextValues, addr 0x6f98ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TextValues, addr 0x6fd5ed8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_TextValues();
 
   static inline void setStaticF_s_Empty(::Unity::Hierarchy::HierarchySearchQueryDescriptor* value);
@@ -239,23 +239,23 @@ public:
   static inline void setStaticF_s_SystemFilters(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Filters, addr 0x6f98ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Filters, addr 0x6fd5ed0, size 0x8, virtual false, abstract: false, final false
   inline void set_Filters(::ArrayW<::Unity::Hierarchy::HierarchySearchFilter> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Invalid, addr 0x6f99014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Invalid, addr 0x6fd5ef0, size 0x8, virtual false, abstract: false, final false
   inline void set_Invalid(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Strict, addr 0x6f9900c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Strict, addr 0x6fd5ee8, size 0x8, virtual false, abstract: false, final false
   inline void set_Strict(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_SystemFilters, addr 0x6f98fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SystemFilters, addr 0x6fd5ec0, size 0x8, virtual false, abstract: false, final false
   inline void set_SystemFilters(::ArrayW<::Unity::Hierarchy::HierarchySearchFilter> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_TextValues, addr 0x6f99004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TextValues, addr 0x6fd5ee0, size 0x8, virtual false, abstract: false, final false
   inline void set_TextValues(::ArrayW<::StringW> value);
 
 protected:
@@ -273,7 +273,7 @@ public:
   HierarchySearchQueryDescriptor(HierarchySearchQueryDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22612 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22662 };
 
   /// @brief Field m_Query, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Query;

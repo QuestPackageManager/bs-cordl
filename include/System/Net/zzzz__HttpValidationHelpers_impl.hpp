@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::Net::HttpValidationHelpers::IsInvalidMethodOrHeaderString)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x682069c;
+  constexpr static std::size_t addrs = 0x685d2e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OculusMetrics* (*)(int32_t)>(&::GlobalNamespace::OculusMetrics::RecordMetrics)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d0962c;
+  constexpr static std::size_t addrs = 0x5d42640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusMetrics::*)(int32_t)>(&::GlobalNamespace::OculusMetrics::_ctor)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5d09688;
+  constexpr static std::size_t addrs = 0x5d4269c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusMetrics*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusMetrics::*)()>(&::GlobalNamespace::OculusMetrics::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d09868;
+  constexpr static std::size_t addrs = 0x5d4287c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusMetrics*>(), { "Dispose", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusMetrics::*)()>(&::GlobalNamespace::OculusMetrics::CaptureFrame)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x5d0986c;
+  constexpr static std::size_t addrs = 0x5d42880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusMetrics*>(), { "CaptureFrame", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OculusMetrics::*)()>(&::GlobalNamespace::OculusMetrics::GenerateListReport)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x5d09a70;
+  constexpr static std::size_t addrs = 0x5d42a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusMetrics*>(), { "GenerateListReport", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OculusMetrics::*)()>(&::GlobalNamespace::OculusMetrics::GenerateTableReport)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x5d09c6c;
+  constexpr static std::size_t addrs = 0x5d42c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusMetrics*>(), { "GenerateTableReport", {}, {} })));

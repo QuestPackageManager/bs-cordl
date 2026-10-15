@@ -33,7 +33,7 @@ public:
   constexpr VertexBufferChunk(::UnityEngine::GraphicsBuffer* vertices, int32_t verticesStartOffset, uint32_t vertexCount, uint32_t vertexStride, int32_t baseVertex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20528 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

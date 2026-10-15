@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Xml::XmlConfiguration::XmlReaderSection::get_ProhibitDefaultUrlResolver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x673e6f8;
+  constexpr static std::size_t addrs = 0x677b2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlResolver* (*)()>(&::System::Xml::XmlConfiguration::XmlReaderSection::CreateDefaultResolver)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x673e700;
+  constexpr static std::size_t addrs = 0x677b2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Xml::XmlConfiguration::XmlReaderSection::get_CollapseWhiteSpaceIntoEmptyString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x673e744;
+  constexpr static std::size_t addrs = 0x677b314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

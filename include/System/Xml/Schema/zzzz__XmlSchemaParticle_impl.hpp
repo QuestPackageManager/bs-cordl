@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::get_MinOccursString)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x665b45c;
+  constexpr static std::size_t addrs = 0x669802c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(), { "get_MinOccursString", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaParticle::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaParticle::set_MinOccursString)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x665b4d8;
+  constexpr static std::size_t addrs = 0x66980a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::get_MaxOccursString)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x665b634;
+  constexpr static std::size_t addrs = 0x6698204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(), { "get_MaxOccursString", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaParticle::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaParticle::set_MaxOccursString)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x665b718;
+  constexpr static std::size_t addrs = 0x66982e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::get_MinOccurs)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665b8ec;
+  constexpr static std::size_t addrs = 0x66984bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(), { "get_MinOccurs", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaParticle::*)(::System::Decimal)>(&::System::Xml::Schema::XmlSchemaParticle::set_MinOccurs)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x665b8f8;
+  constexpr static std::size_t addrs = 0x66984c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::get_MaxOccurs)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x665ba24;
+  constexpr static std::size_t addrs = 0x66985f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(), { "get_MaxOccurs", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaParticle::*)(::System::Decimal)>(&::System::Xml::Schema::XmlSchemaParticle::set_MaxOccurs)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x665ba30;
+  constexpr static std::size_t addrs = 0x6698600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::get_IsEmpty)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x665bb94;
+  constexpr static std::size_t addrs = 0x6698764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::get_NameString)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x665bc04;
+  constexpr static std::size_t addrs = 0x66987d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::GetQualifiedName)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x665bc18;
+  constexpr static std::size_t addrs = 0x66987e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(), { "GetQualifiedName", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlSchemaParticle::*)()>(&::System::Xml::Schema::XmlSchemaParticle::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x665bda0;
+  constexpr static std::size_t addrs = 0x6698970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::XmlSchemaParticle*>(), { ".ctor", {}, {} })));

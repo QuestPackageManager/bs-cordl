@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x656f044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x65abc14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
-  /// @brief Method get_Value, addr 0x65714a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x65ae078, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Value();
 
 protected:
@@ -54,7 +54,7 @@ public:
   IntRef(IntRef const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16432 };
 
   /// @brief Field value, offset: 0x10, size: 0x4, def value: None
   int32_t ___value;

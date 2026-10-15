@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::NativeTextGenerationSettings___c::*)()>(&::UnityEngine::TextCore::NativeTextGenerationSettings___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x70220f0;
+  constexpr static std::size_t addrs = 0x705efe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::NativeTextGenerationSettings___c*>(), { ".ctor", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::NativeTextGenerationSettings___c::*)(::UnityEngine::TextCore::TextSpan)>(
     &::UnityEngine::TextCore::NativeTextGenerationSettings___c::_get_hasLink_b__24_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x70220f4;
+  constexpr static std::size_t addrs = 0x705efe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::NativeTextGenerationSettings___c*>(),
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::NativeTextGenerationSettings::*)()>(&::UnityEngine::TextCore::NativeTextGenerationSettings::get_hasLink)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x7020b60;
+  constexpr static std::size_t addrs = 0x705da54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::NativeTextGenerationSettings>(), { "get_hasLink", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::TextSpan (::UnityEngine::TextCore::NativeTextGenerationSettings::*)()>(
     &::UnityEngine::TextCore::NativeTextGenerationSettings::CreateTextSpan)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x7020c7c;
+  constexpr static std::size_t addrs = 0x705db70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::NativeTextGenerationSettings>(), { "CreateTextSpan", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::NativeTextGenerationSettings (*)()>(&::UnityEngine::TextCore::NativeTextGenerationSettings::get_Default)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x7020dac;
+  constexpr static std::size_t addrs = 0x705dca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::NativeTextGenerationSettings>(), { "get_Default", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::TextCore::NativeTextGenerationSettings::*)()>(&::UnityEngine::TextCore::NativeTextGenerationSettings::ToString)> {
   constexpr static std::size_t size = 0xd88;
-  constexpr static std::size_t addrs = 0x7020e00;
+  constexpr static std::size_t addrs = 0x705dcf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::NativeTextGenerationSettings>(),

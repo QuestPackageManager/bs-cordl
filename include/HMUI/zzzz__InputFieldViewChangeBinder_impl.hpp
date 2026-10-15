@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c8c8d8;
+  constexpr static std::size_t addrs = 0x5cc4dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::Init)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5c8c8e4;
+  constexpr static std::size_t addrs = 0x5cc4de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(), { "Init", {}, {} })));
@@ -38,7 +38,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldV
     ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>*)>(
     &::HMUI::InputFieldViewChangeBinder::AddBindings)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5c8c958;
+  constexpr static std::size_t addrs = 0x5cc4e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)(::HMUI::InputFieldView*, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*)>(
     &::HMUI::InputFieldViewChangeBinder::AddBinding)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5c8ca94;
+  constexpr static std::size_t addrs = 0x5cc4f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::ClearBindings)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x5c8cb78;
+  constexpr static std::size_t addrs = 0x5cc5078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(), { "ClearBindings", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::Disable)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x5c8cd8c;
+  constexpr static std::size_t addrs = 0x5cc528c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(), { "Disable", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::InputFieldViewChangeBinder::*)()>(&::HMUI::InputFieldViewChangeBinder::Enable)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5c8cf4c;
+  constexpr static std::size_t addrs = 0x5cc544c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::InputFieldViewChangeBinder*>(), { "Enable", {}, {} })));

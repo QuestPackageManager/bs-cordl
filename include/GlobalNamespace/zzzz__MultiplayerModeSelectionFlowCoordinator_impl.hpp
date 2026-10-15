@@ -47,13 +47,82 @@
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0::*)()>(
+    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d89c78;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0*>(), { ".ctor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0._HandleServerCodeEntryViewControllerDidFinish_b__0
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0::*)()>(
+    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0::_HandleServerCodeEntryViewControllerDidFinish_b__0)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5d8b088;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0*>(),
+                                                                                           { "<HandleServerCodeEntryViewControllerDidFinish>b__0", {}, {} })));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> const&
+GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void
+GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____4__this = value;
+}
+constexpr ::StringW& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0::__cordl_internal_get_code() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___code;
+}
+constexpr ::StringW const& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0::__cordl_internal_get_code() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___code;
+}
+constexpr void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0::__cordl_internal_set_code(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___code = value;
+}
+inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0*>(), { ".ctor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0::_HandleServerCodeEntryViewControllerDidFinish_b__0() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0*>(),
+                                                                                         { "<HandleServerCodeEntryViewControllerDidFinish>b__0", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0* GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0*>());
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass46_0() {}
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d4ea04;
+  constexpr static std::size_t addrs = 0x5d8a1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,17 +130,17 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0._HandleServerCodeEntryViewControllerDidFinish_b__0
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0._HandleCreateServerViewControllerDidFinish_b__0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::*)()>(
-    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::_HandleServerCodeEntryViewControllerDidFinish_b__0)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5d4fe14;
+    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::_HandleCreateServerViewControllerDidFinish_b__0)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5d8b0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0*>(),
-                                                                                           { "<HandleServerCodeEntryViewControllerDidFinish>b__0", {}, {} })));
+                                                                                           { "<HandleCreateServerViewControllerDidFinish>b__0", {}, {} })));
     return ___internal_method;
   }
 };
@@ -89,26 +158,26 @@ GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::StringW& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::__cordl_internal_get_code() {
+constexpr ::GlobalNamespace::CreateServerFormData& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::__cordl_internal_get_data() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___code;
+  return this->___data;
 }
-constexpr ::StringW const& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::__cordl_internal_get_code() const {
+constexpr ::GlobalNamespace::CreateServerFormData const& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::__cordl_internal_get_data() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___code;
+  return this->___data;
 }
-constexpr void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::__cordl_internal_set_code(::StringW value) {
+constexpr void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::__cordl_internal_set_data(::GlobalNamespace::CreateServerFormData value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___code = value;
+  this->___data = value;
 }
 inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::_HandleServerCodeEntryViewControllerDidFinish_b__0() {
+inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::_HandleCreateServerViewControllerDidFinish_b__0() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0*>(),
-                                                                                         { "<HandleServerCodeEntryViewControllerDidFinish>b__0", {}, {} })));
+                                                                                         { "<HandleCreateServerViewControllerDidFinish>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0* GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::New_ctor() {
@@ -116,192 +185,123 @@ inline ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayCl
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass47_0() {}
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0::*)()>(
-    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0::*)()>(
+    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d4ef44;
+  constexpr static std::size_t addrs = 0x5d8ad54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0*>(), { ".ctor", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0._HandleCreateServerViewControllerDidFinish_b__0
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0._ProcessDeeplinkingToLobby_b__0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0::*)()>(
-    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0::_HandleCreateServerViewControllerDidFinish_b__0)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5d4fe50;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0*>(),
-                                                                                           { "<HandleCreateServerViewControllerDidFinish>b__0", {}, {} })));
-    return ___internal_method;
-  }
-};
-constexpr ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> const&
-GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void
-GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____4__this = value;
-}
-constexpr ::GlobalNamespace::CreateServerFormData& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0::__cordl_internal_get_data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___data;
-}
-constexpr ::GlobalNamespace::CreateServerFormData const& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0::__cordl_internal_get_data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___data;
-}
-constexpr void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0::__cordl_internal_set_data(::GlobalNamespace::CreateServerFormData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___data = value;
-}
-inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0*>(), { ".ctor", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0::_HandleCreateServerViewControllerDidFinish_b__0() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0*>(),
-                                                                                         { "<HandleCreateServerViewControllerDidFinish>b__0", {}, {} })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
-}
-inline ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0* GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0*>());
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass48_0() {}
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0::*)()>(
-    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d4fae0;
-
-  inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0*>(), { ".ctor", {}, {} })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0._ProcessDeeplinkingToLobby_b__0
-template <>
-
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0::*)()>(
-    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0::_ProcessDeeplinkingToLobby_b__0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0::*)()>(
+    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0::_ProcessDeeplinkingToLobby_b__0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5d4fe9c;
+  constexpr static std::size_t addrs = 0x5d8b110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0*>(), { "<ProcessDeeplinkingToLobby>b__0", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0*>(), { "<ProcessDeeplinkingToLobby>b__0", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> const&
-GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0::__cordl_internal_get___4__this() const {
+GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void
-GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> value) {
+GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr ::GlobalNamespace::SelectMultiplayerLobbyDestination*& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0::__cordl_internal_get_lobbyDestination() {
+constexpr ::GlobalNamespace::SelectMultiplayerLobbyDestination*& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0::__cordl_internal_get_lobbyDestination() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lobbyDestination;
 }
-constexpr ::GlobalNamespace::SelectMultiplayerLobbyDestination* const& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0::__cordl_internal_get_lobbyDestination() const {
+constexpr ::GlobalNamespace::SelectMultiplayerLobbyDestination* const& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0::__cordl_internal_get_lobbyDestination() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lobbyDestination;
 }
-constexpr void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0::__cordl_internal_set_lobbyDestination(::GlobalNamespace::SelectMultiplayerLobbyDestination* value) {
+constexpr void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0::__cordl_internal_set_lobbyDestination(::GlobalNamespace::SelectMultiplayerLobbyDestination* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lobbyDestination = value;
 }
-inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0::_ctor() {
+inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0*>(), { ".ctor", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0::_ProcessDeeplinkingToLobby_b__0() {
+inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0::_ProcessDeeplinkingToLobby_b__0() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0*>(), { "<ProcessDeeplinkingToLobby>b__0", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0*>(), { "<ProcessDeeplinkingToLobby>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0* GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0*>());
+inline ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0* GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass56_0() {}
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51.MoveNext
+constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0::MultiplayerModeSelectionFlowCoordinator___c__DisplayClass55_0() {}
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51::*)()>(
-    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50::*)()>(
+    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50::MoveNext)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x5d4fec8;
+  constexpr static std::size_t addrs = 0x5d8b13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51>(), { "MoveNext", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d502d8;
+  constexpr static std::size_t addrs = 0x5d8b54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50>(),
                                                              { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51::MoveNext() {
+inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51>(), { "MoveNext", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 inline void
-GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50>(),
                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -309,7 +309,7 @@ GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerM
 // "::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "networkPlayerModel", ty:
 // "::GlobalNamespace::INetworkPlayerModel*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerAvatarsData>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51(
+constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> __4__this,
     ::GlobalNamespace::INetworkPlayerModel* networkPlayerModel, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerAvatarsData> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -319,55 +319,55 @@ constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConn
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__51() {}
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53.MoveNext
+constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50::MultiplayerModeSelectionFlowCoordinator__HandleConnectedPlayerManagerCreated_d__50() {}
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53::*)()>(
-    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52::*)()>(
+    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52::MoveNext)> {
   constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x5d502e0;
+  constexpr static std::size_t addrs = 0x5d8b554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53>(), { "MoveNext", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d5074c;
+  constexpr static std::size_t addrs = 0x5d8b9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53>(),
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52>(),
                                                              { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53::MoveNext() {
+inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53>(), { "MoveNext", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
 inline void
-GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53>(),
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52>(),
                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -375,7 +375,7 @@ GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextF
 // "::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty:
 // "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__7__wrap1", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None },
 // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53(
+constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> __4__this,
     ::System::Threading::CancellationToken cancellationToken, int32_t __7__wrap1, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -386,53 +386,53 @@ constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAnd
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53::
-    MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__53() {}
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52.MoveNext
+constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52::
+    MultiplayerModeSelectionFlowCoordinator__ResolveAndPresentNextFlowCoordinator_d__52() {}
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52::*)()>(
-    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51::*)()>(
+    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51::MoveNext)> {
   constexpr static std::size_t size = 0xc34;
-  constexpr static std::size_t addrs = 0x5d50754;
+  constexpr static std::size_t addrs = 0x5d8b9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d51388;
+  constexpr static std::size_t addrs = 0x5d8c5fc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52::MoveNext() {
+inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52>(),
+inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -443,7 +443,7 @@ GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d
 // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__2", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerStatusData*>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__3", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::QuickPlaySetupData*>", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52(
+constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> __4__this,
     ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::MultiplayerStatusData* _multiplayerStatusData_5__2, ::System::Exception* _exception_5__3,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerStatusData*> __u__2,
@@ -459,14 +459,14 @@ constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowMod
   this->__u__3 = __u__3;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__52() {}
+constexpr ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51::MultiplayerModeSelectionFlowCoordinator__TryShowModeSelection_d__51() {}
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator.add_didFinishEvent
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d4bb28;
+  constexpr static std::size_t addrs = 0x5d86d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>*)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d4bbe8;
+  constexpr static std::size_t addrs = 0x5d86e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -496,7 +496,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(::GlobalNamespace::SelectMultiplayerLobbyDestination*)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d4bca8;
+  constexpr static std::size_t addrs = 0x5d86f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(),
@@ -510,7 +510,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(bool, bool, bool)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::DidActivate)> {
   constexpr static std::size_t size = 0x6cc;
-  constexpr static std::size_t addrs = 0x5d4bcb0;
+  constexpr static std::size_t addrs = 0x5d86f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(),
@@ -524,7 +524,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::DidDeactivate)> {
   constexpr static std::size_t size = 0x570;
-  constexpr static std::size_t addrs = 0x5d4c42c;
+  constexpr static std::size_t addrs = 0x5d876a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(),
@@ -538,7 +538,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::BackButtonWasPressed)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5d4c99c;
+  constexpr static std::size_t addrs = 0x5d87c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(),
@@ -552,7 +552,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(
     ::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::TopViewControllerWillChange)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x5d4ca7c;
+  constexpr static std::size_t addrs = 0x5d87cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(),
@@ -566,7 +566,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::TransitionDidStart)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5d4ccc8;
+  constexpr static std::size_t addrs = 0x5d87f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(),
@@ -580,7 +580,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::TransitionDidFinish)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x5d4ce90;
+  constexpr static std::size_t addrs = 0x5d88104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(),
@@ -594,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d4d940;
+  constexpr static std::size_t addrs = 0x5d88bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(),
@@ -608,7 +608,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleMultiplayerLobbyConnectionControllerConnectionSuccess)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5d4d958;
+  constexpr static std::size_t addrs = 0x5d88bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -624,7 +624,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                             ::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleMultiplayerLobbyConnectionControllerConnectionFailed)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5d4d98c;
+  constexpr static std::size_t addrs = 0x5d88c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -643,7 +643,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                             ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleMultiplayerLobbyControllerDidFinish)> {
   constexpr static std::size_t size = 0x7a4;
-  constexpr static std::size_t addrs = 0x5d4da54;
+  constexpr static std::size_t addrs = 0x5d88cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(),
@@ -660,7 +660,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(::GlobalNamespace::GameServerBrowserFlowCoordinator*)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleGameServerBrowserFlowCoordinatorDidFinish)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d4e1f8;
+  constexpr static std::size_t addrs = 0x5d8946c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -675,7 +675,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleJoiningLobbyViewControllerDidCancel)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5d4e20c;
+  constexpr static std::size_t addrs = 0x5d89480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -689,7 +689,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(bool)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleJoinQuickPlayViewControllerDidFinish)> {
   constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x5d4e2ec;
+  constexpr static std::size_t addrs = 0x5d89560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(),
@@ -703,7 +703,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(bool, ::StringW)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleServerCodeEntryViewControllerDidFinish)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x5d4e838;
+  constexpr static std::size_t addrs = 0x5d89aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -718,7 +718,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(bool, ::GlobalNamespace::CreateServerFormData)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleCreateServerViewControllerDidFinish)> {
   constexpr static std::size_t size = 0x53c;
-  constexpr static std::size_t addrs = 0x5d4ea08;
+  constexpr static std::size_t addrs = 0x5d89c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -733,7 +733,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleGameServerLobbyFlowCoordinatorDidFinish)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x5d4ef48;
+  constexpr static std::size_t addrs = 0x5d8a1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -747,7 +747,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleGameServerLobbyFlowCoordinatorWillFinish)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5d4f1e0;
+  constexpr static std::size_t addrs = 0x5d8a454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -761,7 +761,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(::GlobalNamespace::INetworkPlayerModel*)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::HandleConnectedPlayerManagerCreated)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d4f284;
+  constexpr static std::size_t addrs = 0x5d8a4f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -776,7 +776,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(bool, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::TryShowModeSelection)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5d4c37c;
+  constexpr static std::size_t addrs = 0x5d875f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -791,7 +791,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::ResolveAndPresentNextFlowCoordinator)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5d4d1fc;
+  constexpr static std::size_t addrs = 0x5d88470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -807,7 +807,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                             ::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::PresentConnectionErrorDialog)> {
   constexpr static std::size_t size = 0x694;
-  constexpr static std::size_t addrs = 0x5d4d2ac;
+  constexpr static std::size_t addrs = 0x5d88520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -826,7 +826,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(::GlobalNamespace::MultiplayerUnavailableReason, ::System::Exception*, ::System::Nullable_1<int64_t>, ::StringW)>(
         &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::PresentMasterServerUnavailableErrorDialog)> {
   constexpr static std::size_t size = 0x5f4;
-  constexpr static std::size_t addrs = 0x5d4f330;
+  constexpr static std::size_t addrs = 0x5d8a5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -844,7 +844,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::ProcessDeeplinkingToLobby)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x5d4f924;
+  constexpr static std::size_t addrs = 0x5d8ab98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -857,80 +857,80 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(&::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d4fae4;
+  constexpr static std::size_t addrs = 0x5d8ad58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator._HandleJoinQuickPlayViewControllerDidFinish_b__46_0
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator._HandleJoinQuickPlayViewControllerDidFinish_b__45_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
-    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_HandleJoinQuickPlayViewControllerDidFinish_b__46_0)> {
+    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_HandleJoinQuickPlayViewControllerDidFinish_b__45_0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5d4faec;
+  constexpr static std::size_t addrs = 0x5d8ad60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(), { "<HandleJoinQuickPlayViewControllerDidFinish>b__46_0", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(), { "<HandleJoinQuickPlayViewControllerDidFinish>b__45_0", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator._ResolveAndPresentNextFlowCoordinator_b__53_0
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator._ResolveAndPresentNextFlowCoordinator_b__52_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)()>(
-    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_ResolveAndPresentNextFlowCoordinator_b__53_0)> {
+    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_ResolveAndPresentNextFlowCoordinator_b__52_0)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x5d4fb74;
+  constexpr static std::size_t addrs = 0x5d8ade8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(), { "<ResolveAndPresentNextFlowCoordinator>b__53_0", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(), { "<ResolveAndPresentNextFlowCoordinator>b__52_0", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator._PresentConnectionErrorDialog_b__54_0
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator._PresentConnectionErrorDialog_b__53_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(int32_t)>(
-    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_PresentConnectionErrorDialog_b__54_0)> {
+    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_PresentConnectionErrorDialog_b__53_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d4fdc4;
+  constexpr static std::size_t addrs = 0x5d8b038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(),
-                                                                                           { "<PresentConnectionErrorDialog>b__54_0", {}, { ::i2c::type_of<int32_t>() } })));
+                                                                                           { "<PresentConnectionErrorDialog>b__53_0", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator._PresentConnectionErrorDialog_b__54_1
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator._PresentConnectionErrorDialog_b__53_1
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(int32_t)>(
-    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_PresentConnectionErrorDialog_b__54_1)> {
+    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_PresentConnectionErrorDialog_b__53_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d4fddc;
+  constexpr static std::size_t addrs = 0x5d8b050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(),
-                                                                                           { "<PresentConnectionErrorDialog>b__54_1", {}, { ::i2c::type_of<int32_t>() } })));
+                                                                                           { "<PresentConnectionErrorDialog>b__53_1", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator._PresentMasterServerUnavailableErrorDialog_b__55_0
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator._PresentMasterServerUnavailableErrorDialog_b__54_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::*)(int32_t)>(
-    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_PresentMasterServerUnavailableErrorDialog_b__55_0)> {
+    &::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_PresentMasterServerUnavailableErrorDialog_b__54_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d4fdf4;
+  constexpr static std::size_t addrs = 0x5d8b068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(),
-                                                                                           { "<PresentMasterServerUnavailableErrorDialog>b__55_0", {}, { ::i2c::type_of<int32_t>() } })));
+                                                                                           { "<PresentMasterServerUnavailableErrorDialog>b__54_0", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
@@ -1253,18 +1253,6 @@ constexpr void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____transitionFinishedTaskSource = value;
 }
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::__cordl_internal_get__checkingAvailabilityTaskSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____checkingAvailabilityTaskSource;
-}
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>* const& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::__cordl_internal_get__checkingAvailabilityTaskSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____checkingAvailabilityTaskSource;
-}
-constexpr void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::__cordl_internal_set__checkingAvailabilityTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____checkingAvailabilityTaskSource = value;
-}
 constexpr ::GlobalNamespace::QuickPlaySetupData*& GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::__cordl_internal_get__quickPlaySetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____quickPlaySetupData;
@@ -1452,29 +1440,29 @@ inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_HandleJoinQuickPlayViewControllerDidFinish_b__46_0() {
+inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_HandleJoinQuickPlayViewControllerDidFinish_b__45_0() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(), { "<HandleJoinQuickPlayViewControllerDidFinish>b__46_0", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(), { "<HandleJoinQuickPlayViewControllerDidFinish>b__45_0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_ResolveAndPresentNextFlowCoordinator_b__53_0() {
+inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_ResolveAndPresentNextFlowCoordinator_b__52_0() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(), { "<ResolveAndPresentNextFlowCoordinator>b__53_0", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(), { "<ResolveAndPresentNextFlowCoordinator>b__52_0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_PresentConnectionErrorDialog_b__54_0(int32_t btnId) {
+inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_PresentConnectionErrorDialog_b__53_0(int32_t btnId) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(),
-                                                                                         { "<PresentConnectionErrorDialog>b__54_0", {}, { ::i2c::type_of<int32_t>() } })));
+                                                                                         { "<PresentConnectionErrorDialog>b__53_0", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, btnId);
 }
-inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_PresentConnectionErrorDialog_b__54_1(int32_t btnId) {
+inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_PresentConnectionErrorDialog_b__53_1(int32_t btnId) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(),
-                                                                                         { "<PresentConnectionErrorDialog>b__54_1", {}, { ::i2c::type_of<int32_t>() } })));
+                                                                                         { "<PresentConnectionErrorDialog>b__53_1", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, btnId);
 }
-inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_PresentMasterServerUnavailableErrorDialog_b__55_0(int32_t btnId) {
+inline void GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::_PresentMasterServerUnavailableErrorDialog_b__54_0(int32_t btnId) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>(),
-                                                                                         { "<PresentMasterServerUnavailableErrorDialog>b__55_0", {}, { ::i2c::type_of<int32_t>() } })));
+                                                                                         { "<PresentMasterServerUnavailableErrorDialog>b__54_0", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, btnId);
 }
 inline ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::New_ctor() {

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialFilterTrackingStateEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialFilterTrackingStateEXT::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e43718;
+  constexpr static std::size_t addrs = 0x6e803b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialFilterTrackingStateEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialFilterTrackingStateEXT::get_next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e43720;
+  constexpr static std::size_t addrs = 0x6e803bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityTrackingStateEXT (
     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialFilterTrackingStateEXT::*)()>(&::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialFilterTrackingStateEXT::get_trackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e43728;
+  constexpr static std::size_t addrs = 0x6e803c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialFilterTrackingStateEXT::*)(
     void*, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityTrackingStateEXT)>(&::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialFilterTrackingStateEXT::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e43730;
+  constexpr static std::size_t addrs = 0x6e803cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialFilterTrackingStateEXT::*)(
     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialEntityTrackingStateEXT)>(&::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialFilterTrackingStateEXT::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e43748;
+  constexpr static std::size_t addrs = 0x6e803e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

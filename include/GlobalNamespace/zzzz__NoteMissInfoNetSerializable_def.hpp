@@ -61,23 +61,23 @@ public:
   __declspec(property(get = get_noteTime, put = set_noteTime)) float_t noteTime;
 
   /// [Preserve]
-  /// @brief Method Deserialize, addr 0x3a09ae8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x3a33e60, size 0x94, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x3a09c90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3a34008, size 0x10, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteMissInfoNetSerializable* Init(::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteLineLayer lineLayer, int32_t noteLineIndex, float_t noteTime);
 
-  /// @brief Method Init, addr 0x3a09c68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3a33fe0, size 0x28, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteMissInfoNetSerializable* Init(::GlobalNamespace::NoteData* noteData);
 
   /// @brief [Preserve]
   static inline ::GlobalNamespace::NoteMissInfoNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x3a09a7c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x3a33df4, size 0x6c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteMissInfoNetSerializable* Obtain();
 
   /// [Preserve]
-  /// @brief Method Serialize, addr 0x3a09b7c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x3a33ef4, size 0x94, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get__colorType_k__BackingField() const;
@@ -105,39 +105,39 @@ public:
   constexpr void __cordl_internal_set__noteTime_k__BackingField(float_t value);
 
   /// [Preserve]
-  /// @brief Method .ctor, addr 0x3a09c10, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a33f88, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_colorType, addr 0x3a09a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x3a33db4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();
 
   /// [CompilerGenerated]
-  /// @brief Method get_noteLineIndex, addr 0x3a09a5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteLineIndex, addr 0x3a33dd4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_noteLineIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_noteLineLayer, addr 0x3a09a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteLineLayer, addr 0x3a33de4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_noteTime, addr 0x3a09a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteTime, addr 0x3a33dc4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noteTime();
 
   /// [CompilerGenerated]
-  /// @brief Method set_colorType, addr 0x3a09a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorType, addr 0x3a33dbc, size 0x8, virtual false, abstract: false, final false
   inline void set_colorType(::GlobalNamespace::ColorType value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_noteLineIndex, addr 0x3a09a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noteLineIndex, addr 0x3a33ddc, size 0x8, virtual false, abstract: false, final false
   inline void set_noteLineIndex(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_noteLineLayer, addr 0x3a09a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noteLineLayer, addr 0x3a33dec, size 0x8, virtual false, abstract: false, final false
   inline void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_noteTime, addr 0x3a09a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noteTime, addr 0x3a33dcc, size 0x8, virtual false, abstract: false, final false
   inline void set_noteTime(float_t value);
 
 protected:
@@ -155,7 +155,7 @@ public:
   NoteMissInfoNetSerializable(NoteMissInfoNetSerializable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21968 };
 
   /// [CompilerGenerated]
   /// @brief Field <colorType>k__BackingField, offset: 0x14, size: 0x4, def value: None

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames::get_Names)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6fd42c0;
+  constexpr static std::size_t addrs = 0x70111b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames*>(), { "get_Names", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* (::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames::get_NameMap)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6fd4328;
+  constexpr static std::size_t addrs = 0x701121c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames*>(), { "get_NameMap", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames::OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6fd43bc;
+  constexpr static std::size_t addrs = 0x70112b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames::OnAfterDeserialize)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6fd43c0;
+  constexpr static std::size_t addrs = 0x70112b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames* (*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames::get_DefaultLayerNames)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6fd1cbc;
+  constexpr static std::size_t addrs = 0x700ebb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames::*)()>(&::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6fd44a4;
+  constexpr static std::size_t addrs = 0x7011398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames*>(), { ".ctor", {}, {} })));

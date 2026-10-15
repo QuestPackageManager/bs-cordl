@@ -62,25 +62,25 @@ public:
 
   __declspec(property(get = get_touchScreenTextFieldChanged)) bool touchScreenTextFieldChanged;
 
-  /// @brief Method HandleEventBubbleUp, addr 0x7125e84, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method HandleEventBubbleUp, addr 0x7162db8, size 0x298, virtual false, abstract: false, final false
   inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::TextEditingManipulator* New_ctor(::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method OnFocusInEvent, addr 0x712611c, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method OnFocusInEvent, addr 0x7163050, size 0x2e0, virtual false, abstract: false, final false
   inline void OnFocusInEvent();
 
-  /// @brief Method OnFocusOutEvent, addr 0x71263fc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnFocusOutEvent, addr 0x7163330, size 0xb8, virtual false, abstract: false, final false
   inline void OnFocusOutEvent();
 
-  /// @brief Method Reset, addr 0x7125c40, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x7162b74, size 0x48, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method UpdateTextEditorEventHandler, addr 0x7125b24, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTextEditorEventHandler, addr 0x7162a58, size 0x11c, virtual false, abstract: false, final false
   inline void UpdateTextEditorEventHandler();
 
   /// [CompilerGenerated]
-  /// @brief Method <OnFocusInEvent>b__21_0, addr 0x71264b4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <OnFocusInEvent>b__21_0, addr 0x71633e8, size 0x40, virtual false, abstract: false, final false
   inline void _OnFocusInEvent_b__21_0();
 
   constexpr ::UnityEngine::TextEditingUtilities* const& __cordl_internal_get_editingUtilities() const;
@@ -113,28 +113,28 @@ public:
 
   constexpr void __cordl_internal_set_m_TouchScreenEditingEventHandler(::UnityEngine::UIElements::TextEditorEventHandler* value);
 
-  /// @brief Method .ctor, addr 0x7125a00, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7162934, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method get_keyboardCanBeUsed, addr 0x7125dac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_keyboardCanBeUsed, addr 0x7162ce0, size 0xd8, virtual false, abstract: false, final false
   inline bool get_keyboardCanBeUsed();
 
-  /// @brief Method get_keyboardEditingEventHandler, addr 0x7125998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyboardEditingEventHandler, addr 0x71628cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextEditorEventHandler* get_keyboardEditingEventHandler();
 
-  /// @brief Method get_touchScreenCanBeUsed, addr 0x7125cdc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_touchScreenCanBeUsed, addr 0x7162c10, size 0xd0, virtual false, abstract: false, final false
   inline bool get_touchScreenCanBeUsed();
 
-  /// @brief Method get_touchScreenEditingEventHandler, addr 0x7125930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchScreenEditingEventHandler, addr 0x7162864, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextEditorEventHandler* get_touchScreenEditingEventHandler();
 
-  /// @brief Method get_touchScreenTextFieldChanged, addr 0x7125c88, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_touchScreenTextFieldChanged, addr 0x7162bbc, size 0x54, virtual false, abstract: false, final false
   inline bool get_touchScreenTextFieldChanged();
 
-  /// @brief Method set_keyboardEditingEventHandler, addr 0x71259a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_keyboardEditingEventHandler, addr 0x71628d4, size 0x60, virtual false, abstract: false, final false
   inline void set_keyboardEditingEventHandler(::UnityEngine::UIElements::TextEditorEventHandler* value);
 
-  /// @brief Method set_touchScreenEditingEventHandler, addr 0x7125938, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_touchScreenEditingEventHandler, addr 0x716286c, size 0x60, virtual false, abstract: false, final false
   inline void set_touchScreenEditingEventHandler(::UnityEngine::UIElements::TextEditorEventHandler* value);
 
 protected:

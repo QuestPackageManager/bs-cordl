@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)()>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3853978;
+  constexpr static std::size_t addrs = 0x38762dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(), { ".ctor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Org::BouncyCastle::Asn1::Asn1Sequence*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::WithinDNSubtree)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x3862958;
+  constexpr static std::size_t addrs = 0x38852bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckPermittedDN)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3862d24;
+  constexpr static std::size_t addrs = 0x3885688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckExcludedDN)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3862e5c;
+  constexpr static std::size_t addrs = 0x38857c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Util
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectDN)> {
   constexpr static std::size_t size = 0x78c;
-  constexpr static std::size_t addrs = 0x3862ec4;
+  constexpr static std::size_t addrs = 0x3885828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Util
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::UnionDN)> {
   constexpr static std::size_t size = 0x5ec;
-  constexpr static std::size_t addrs = 0x3863650;
+  constexpr static std::size_t addrs = 0x3885fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Util
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectOtherName)> {
   constexpr static std::size_t size = 0x65c;
-  constexpr static std::size_t addrs = 0x3863c3c;
+  constexpr static std::size_t addrs = 0x38865a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Asn1::X509::OtherName*, ::Org::BouncyCastle::Asn1::X509::OtherName*, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectOtherName)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3864298;
+  constexpr static std::size_t addrs = 0x3886bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Util
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Asn1::X509::OtherName*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::UnionOtherName)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3864374;
+  constexpr static std::size_t addrs = 0x3886cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Util
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectEmail)> {
   constexpr static std::size_t size = 0x650;
-  constexpr static std::size_t addrs = 0x386446c;
+  constexpr static std::size_t addrs = 0x3886dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::UnionEmail)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x3865014;
+  constexpr static std::size_t addrs = 0x3887978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Util
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectIP)> {
   constexpr static std::size_t size = 0x720;
-  constexpr static std::size_t addrs = 0x3865c34;
+  constexpr static std::size_t addrs = 0x3888598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,7 +210,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::ArrayW<uint8_t>)>(
         &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::UnionIP)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x3866598;
+  constexpr static std::size_t addrs = 0x3888efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::UnionIPRange)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3866a24;
+  constexpr static std::size_t addrs = 0x3889388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectIPRange)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x3866354;
+  constexpr static std::size_t addrs = 0x3888cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IpWithSubnetMask)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3867258;
+  constexpr static std::size_t addrs = 0x3889bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::ArrayW<uint8_t>> (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::ExtractIPsAndSubnetMasks)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3866bfc;
+  constexpr static std::size_t addrs = 0x3889560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::ArrayW<uint8_t>> (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::MinMaxIPs)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x3866d80;
+  constexpr static std::size_t addrs = 0x38896e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Asn1::X509::OtherName*, ::Org::BouncyCastle::Asn1::X509::OtherName*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsOtherNameConstrained)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3867300;
+  constexpr static std::size_t addrs = 0x3889c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Asn1::X509::OtherName*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsOtherNameConstrained)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x386731c;
+  constexpr static std::size_t addrs = 0x3889c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Asn1::X509::OtherName*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckPermittedOtherName)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3867604;
+  constexpr static std::size_t addrs = 0x3889f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Asn1::X509::OtherName*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckExcludedOtherName)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x38676cc;
+  constexpr static std::size_t addrs = 0x388a030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::StringW, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsEmailConstrained)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3867724;
+  constexpr static std::size_t addrs = 0x388a088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsEmailConstrained)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x3867acc;
+  constexpr static std::size_t addrs = 0x388a430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckPermittedEmail)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3867dbc;
+  constexpr static std::size_t addrs = 0x388a720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckExcludedEmail)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3867ed4;
+  constexpr static std::size_t addrs = 0x388a838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::StringW, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsDnsConstrained)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3867f2c;
+  constexpr static std::size_t addrs = 0x388a890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -439,7 +439,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsDnsConstrained)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x3867fbc;
+  constexpr static std::size_t addrs = 0x388a920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -454,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckPermittedDns)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x38682ac;
+  constexpr static std::size_t addrs = 0x388ac10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -469,7 +469,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckExcludedDns)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x38683c4;
+  constexpr static std::size_t addrs = 0x388ad28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -484,7 +484,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsDirectoryConstrained)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x386841c;
+  constexpr static std::size_t addrs = 0x388ad80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckPermittedDirectory)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3862d34;
+  constexpr static std::size_t addrs = 0x3885698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -516,7 +516,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckExcludedDirectory)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3862e6c;
+  constexpr static std::size_t addrs = 0x38857d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -532,7 +532,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::StringW, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsUriConstrained)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3868728;
+  constexpr static std::size_t addrs = 0x388b08c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -546,7 +546,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsUriConstrained)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x38689f8;
+  constexpr static std::size_t addrs = 0x388b35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -561,7 +561,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckPermittedUri)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3868ce8;
+  constexpr static std::size_t addrs = 0x388b64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -576,7 +576,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckExcludedUri)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3868e00;
+  constexpr static std::size_t addrs = 0x388b764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -591,7 +591,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsIPConstrained)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3868e58;
+  constexpr static std::size_t addrs = 0x388b7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -605,7 +605,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsIPConstrained)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x3869018;
+  constexpr static std::size_t addrs = 0x388b97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -620,7 +620,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckPermittedIP)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x386933c;
+  constexpr static std::size_t addrs = 0x388bca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -635,7 +635,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckExcludedIP)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3869454;
+  constexpr static std::size_t addrs = 0x388bdb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -650,7 +650,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::StringW, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::WithinDomain)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x38678bc;
+  constexpr static std::size_t addrs = 0x388a220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -664,7 +664,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::StringW, ::StringW, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::UnionEmail)> {
   constexpr static std::size_t size = 0x834;
-  constexpr static std::size_t addrs = 0x3865400;
+  constexpr static std::size_t addrs = 0x3887d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -680,7 +680,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::StringW, ::StringW, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::unionURI)> {
   constexpr static std::size_t size = 0x834;
-  constexpr static std::size_t addrs = 0x38694ac;
+  constexpr static std::size_t addrs = 0x388be10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -697,7 +697,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Util
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectDns)> {
   constexpr static std::size_t size = 0x754;
-  constexpr static std::size_t addrs = 0x3869ce0;
+  constexpr static std::size_t addrs = 0x388c644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -713,7 +713,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::UnionDns)> {
   constexpr static std::size_t size = 0x5c4;
-  constexpr static std::size_t addrs = 0x386a434;
+  constexpr static std::size_t addrs = 0x388cd98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -728,7 +728,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::StringW, ::StringW, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectEmail)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x3864ae8;
+  constexpr static std::size_t addrs = 0x388744c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -745,7 +745,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Util
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectUri)> {
   constexpr static std::size_t size = 0x650;
-  constexpr static std::size_t addrs = 0x386a9f8;
+  constexpr static std::size_t addrs = 0x388d35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -761,7 +761,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::UnionUri)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x386b574;
+  constexpr static std::size_t addrs = 0x388ded8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -776,7 +776,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::StringW, ::StringW, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectUri)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x386b048;
+  constexpr static std::size_t addrs = 0x388d9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -791,7 +791,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::ExtractHostFromURL)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3868820;
+  constexpr static std::size_t addrs = 0x388b184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -805,7 +805,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Asn1::X509::GeneralName*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::checkPermitted)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x386b960;
+  constexpr static std::size_t addrs = 0x388e2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -819,7 +819,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Asn1::X509::GeneralName*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::checkExcluded)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x386ba74;
+  constexpr static std::size_t addrs = 0x388e3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -833,7 +833,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectPermittedSubtree)> {
   constexpr static std::size_t size = 0xa04;
-  constexpr static std::size_t addrs = 0x386bb88;
+  constexpr static std::size_t addrs = 0x388e4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -847,7 +847,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Asn1::X509::GeneralName*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::ExtractNameAsString)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3864abc;
+  constexpr static std::size_t addrs = 0x3887420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -861,7 +861,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(int32_t)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectEmptyPermittedSubtree)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x386c58c;
+  constexpr static std::size_t addrs = 0x388eef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -875,7 +875,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Asn1::X509::GeneralSubtree*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::AddExcludedSubtree)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x386c6c8;
+  constexpr static std::size_t addrs = 0x388f02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -888,7 +888,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::Max)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3867034;
+  constexpr static std::size_t addrs = 0x3889998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -901,7 +901,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::Min)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3866fc4;
+  constexpr static std::size_t addrs = 0x3889928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -914,7 +914,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CompareTo)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x38670a4;
+  constexpr static std::size_t addrs = 0x3889a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -927,7 +927,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::Or)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3867188;
+  constexpr static std::size_t addrs = 0x3889aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -940,7 +940,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)()>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::HashCode)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x386c86c;
+  constexpr static std::size_t addrs = 0x388f1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(), { "HashCode", {}, {} })));
@@ -952,7 +952,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)()>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::GetHashCode)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x386c878;
+  constexpr static std::size_t addrs = 0x388f1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -966,7 +966,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::System::Collections::ICollection*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::HashCollection)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x386c968;
+  constexpr static std::size_t addrs = 0x388f2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -980,7 +980,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::System::Object*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::Equals)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x386cce4;
+  constexpr static std::size_t addrs = 0x388f648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -994,7 +994,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::System::Collections::ICollection*, ::System::Collections::ICollection*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CollectionsAreEqual)> {
   constexpr static std::size_t size = 0x630;
-  constexpr static std::size_t addrs = 0x386ce30;
+  constexpr static std::size_t addrs = 0x388f794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1009,7 +1009,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::System::Object*, ::System::Object*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::SpecialEquals)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x386d460;
+  constexpr static std::size_t addrs = 0x388fdc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -1023,7 +1023,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::StringifyIP)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x386d590;
+  constexpr static std::size_t addrs = 0x388fef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1037,7 +1037,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::StringifyIPCollection)> {
   constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x386d744;
+  constexpr static std::size_t addrs = 0x38900a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),
@@ -1051,7 +1051,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::StringifyOtherNameCollection)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x386db18;
+  constexpr static std::size_t addrs = 0x389047c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1065,7 +1065,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)()>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::ToString)> {
   constexpr static std::size_t size = 0x6e8;
-  constexpr static std::size_t addrs = 0x386e090;
+  constexpr static std::size_t addrs = 0x38909f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>(),

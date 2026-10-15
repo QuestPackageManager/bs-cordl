@@ -26,7 +26,7 @@ class CORDL_TYPE StyleValueKeywordExtension : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ToUssString, addr 0x7119f50, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ToUssString, addr 0x7156e84, size 0x17c, virtual false, abstract: false, final false
   static inline ::StringW ToUssString(::UnityEngine::UIElements::StyleValueKeyword svk);
 
 protected:

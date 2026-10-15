@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_endBeat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34e2dc0;
+  constexpr static std::size_t addrs = 0x34fb210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "get_endBeat", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(float_t)>(&::GlobalNamespace::ObstacleData::set_endBeat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34e2dc8;
+  constexpr static std::size_t addrs = 0x34fb218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "set_endBeat", {}, { ::i2c::type_of<float_t>() } })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_lineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34e2dd0;
+  constexpr static std::size_t addrs = 0x34fb220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "get_lineIndex", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(int32_t)>(&::GlobalNamespace::ObstacleData::set_lineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34e2dd8;
+  constexpr static std::size_t addrs = 0x34fb228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteLineLayer (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_lineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34e2de0;
+  constexpr static std::size_t addrs = 0x34fb230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "get_lineLayer", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(::GlobalNamespace::NoteLineLayer)>(&::GlobalNamespace::ObstacleData::set_lineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34e2de8;
+  constexpr static std::size_t addrs = 0x34fb238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34e2df0;
+  constexpr static std::size_t addrs = 0x34fb240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "get_duration", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(float_t)>(&::GlobalNamespace::ObstacleData::set_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34e2df8;
+  constexpr static std::size_t addrs = 0x34fb248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34e2e00;
+  constexpr static std::size_t addrs = 0x34fb250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "get_width", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(int32_t)>(&::GlobalNamespace::ObstacleData::set_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34e2e08;
+  constexpr static std::size_t addrs = 0x34fb258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "set_width", {}, { ::i2c::type_of<int32_t>() } })));
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::get_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34e2e10;
+  constexpr static std::size_t addrs = 0x34fb260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "get_height", {}, {} })));
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(int32_t)>(&::GlobalNamespace::ObstacleData::set_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34e2e18;
+  constexpr static std::size_t addrs = 0x34fb268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleData*>(), { "set_height", {}, { ::i2c::type_of<int32_t>() } })));
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(float_t, float_t, float_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer, float_t, int32_t,
                                                                                                  int32_t)>(&::GlobalNamespace::ObstacleData::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x34e2e20;
+  constexpr static std::size_t addrs = 0x34fb270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(float_t)>(&::GlobalNamespace::ObstacleData::UpdateDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34e2e78;
+  constexpr static std::size_t addrs = 0x34fb2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::ObstacleData::*)()>(&::GlobalNamespace::ObstacleData::GetCopy)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x34e2e80;
+  constexpr static std::size_t addrs = 0x34fb2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleData::*)(int32_t)>(&::GlobalNamespace::ObstacleData::Mirror)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x34e2f2c;
+  constexpr static std::size_t addrs = 0x34fb37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

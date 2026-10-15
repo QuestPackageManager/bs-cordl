@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ILightGroup)
+namespace GlobalNamespace {
+class LightGroupCountProvider;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class ILightGroup;
@@ -20,11 +23,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE ILightGroup {
 public:
   // Declarations
+  __declspec(property(get = get_countProvider)) ::GlobalNamespace::LightGroupCountProvider* countProvider;
+
   __declspec(property(get = get_groupId)) int32_t groupId;
 
   __declspec(property(get = get_groupName)) ::StringW groupName;
 
   __declspec(property(get = get_numberOfElements)) int32_t numberOfElements;
+
+  /// @brief Method get_countProvider, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::GlobalNamespace::LightGroupCountProvider* get_countProvider();
 
   /// @brief Method get_groupId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_groupId();
@@ -40,7 +48,7 @@ public:
   ILightGroup(ILightGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19972 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

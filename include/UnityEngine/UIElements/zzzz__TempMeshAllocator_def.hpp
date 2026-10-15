@@ -32,11 +32,11 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE TempMeshAllocator {
 public:
   // Declarations
-  /// @brief Method AllocateTempMesh, addr 0x7275fc0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method AllocateTempMesh, addr 0x72b2ef4, size 0x158, virtual false, abstract: false, final false
   inline void AllocateTempMesh(int32_t vertexCount, int32_t indexCount, ::by_ref<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertices,
                                ::by_ref<::Unity::Collections::NativeSlice_1<uint16_t>> indices);
 
-  /// @brief Method Create, addr 0x7276ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x72b3f2c, size 0x8, virtual false, abstract: false, final false
   static inline void Create(::System::Runtime::InteropServices::GCHandle handle, ::by_ref<::UnityEngine::UIElements::TempMeshAllocator> allocator);
 
   // Ctor Parameters []

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Playables::FrameRate::*)()>(&::UnityEngine::Playables::FrameRate::get_dropFrame)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6f5efc0;
+  constexpr static std::size_t addrs = 0x6f9be9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::FrameRate>(), { "get_dropFrame", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::Playables::FrameRate::*)()>(&::UnityEngine::Playables::FrameRate::get_rate)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6f5efcc;
+  constexpr static std::size_t addrs = 0x6f9bea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::FrameRate>(), { "get_rate", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Playables::FrameRate::*)(uint32_t, bool)>(&::UnityEngine::Playables::FrameRate::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6f5f044;
+  constexpr static std::size_t addrs = 0x6f9bf20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Playables::FrameRate::*)()>(&::UnityEngine::Playables::FrameRate::IsValid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6f5f054;
+  constexpr static std::size_t addrs = 0x6f9bf30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Playables::FrameRate>(), { "IsValid", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Playables::FrameRate::*)(::UnityEngine::Playables::FrameRate)>(&::UnityEngine::Playables::FrameRate::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6f5f064;
+  constexpr static std::size_t addrs = 0x6f9bf40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Playables::FrameRate::*)(::System::Object*)>(&::UnityEngine::Playables::FrameRate::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6f5f074;
+  constexpr static std::size_t addrs = 0x6f9bf50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Playables::FrameRate, ::UnityEngine::Playables::FrameRate)>(&::UnityEngine::Playables::FrameRate::op_Equality)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6f5f124;
+  constexpr static std::size_t addrs = 0x6f9c000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Playables::FrameRate::*)()>(&::UnityEngine::Playables::FrameRate::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f5f18c;
+  constexpr static std::size_t addrs = 0x6f9c068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Playables::FrameRate::*)()>(&::UnityEngine::Playables::FrameRate::ToString)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6f5f194;
+  constexpr static std::size_t addrs = 0x6f9c070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Playables::FrameRate::*)(::StringW, ::System::IFormatProvider*)>(&::UnityEngine::Playables::FrameRate::ToString)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6f5f1f4;
+  constexpr static std::size_t addrs = 0x6f9c0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::FrameRate (*)(double_t)>(&::UnityEngine::Playables::FrameRate::DoubleToFrameRate)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6f5f388;
+  constexpr static std::size_t addrs = 0x6f9c264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

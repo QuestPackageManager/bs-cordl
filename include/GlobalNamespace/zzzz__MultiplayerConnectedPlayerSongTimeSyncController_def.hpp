@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_timeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x5dd78c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e14870, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t startSongTime, float_t songTimeOffset, float_t timeScale);
 
 protected:
@@ -89,7 +89,7 @@ public:
   MultiplayerConnectedPlayerSongTimeSyncController_InitData(MultiplayerConnectedPlayerSongTimeSyncController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6182 };
 
   /// @brief Field startSongTime, offset: 0x10, size: 0x4, def value: None
   float_t ___startSongTime;
@@ -181,19 +181,19 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* New_ctor();
 
-  /// @brief Method SetConnectedPlayerSongTime, addr 0x5dd8028, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetConnectedPlayerSongTime, addr 0x5e14fd4, size 0x38, virtual false, abstract: false, final false
   inline void SetConnectedPlayerSongTime(int64_t syncTime, float_t songTime);
 
-  /// @brief Method Start, addr 0x5dd7e9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e14e48, size 0xc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartSong, addr 0x5dd5fdc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method StartSong, addr 0x5e12f88, size 0x14c, virtual false, abstract: false, final false
   inline void StartSong(int64_t songStartSyncTime);
 
-  /// @brief Method StopSong, addr 0x5dd62ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StopSong, addr 0x5e13258, size 0xc, virtual false, abstract: false, final false
   inline void StopSong();
 
-  /// @brief Method Update, addr 0x5dd7ea8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e14e54, size 0x180, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__audioSyncLerpSpeed() const;
@@ -274,41 +274,41 @@ public:
 
   constexpr void __cordl_internal_set__timeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x5dd8060, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e1500c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isReady, addr 0x5dd7e8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isReady, addr 0x5e14e38, size 0x8, virtual true, abstract: false, final true
   inline bool get_isReady();
 
   /// [CompilerGenerated]
-  /// @brief Method get_lastFrameDeltaSongTime, addr 0x5dd7e5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_lastFrameDeltaSongTime, addr 0x5e14e08, size 0x8, virtual true, abstract: false, final true
   inline float_t get_lastFrameDeltaSongTime();
 
-  /// @brief Method get_songEndTime, addr 0x5dd7e6c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_songEndTime, addr 0x5e14e18, size 0xc, virtual true, abstract: false, final true
   inline float_t get_songEndTime();
 
-  /// @brief Method get_songLength, addr 0x5dd7e78, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_songLength, addr 0x5e14e24, size 0xc, virtual true, abstract: false, final true
   inline float_t get_songLength();
 
   /// [CompilerGenerated]
-  /// @brief Method get_songTime, addr 0x5dd7e4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_songTime, addr 0x5e14df8, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songTime();
 
-  /// @brief Method get_state, addr 0x5dd7e94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_state, addr 0x5e14e40, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IAudioTimeSource_State get_state();
 
-  /// @brief Method get_timeScale, addr 0x5dd7e84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_timeScale, addr 0x5e14e30, size 0x8, virtual true, abstract: false, final true
   inline float_t get_timeScale();
 
   /// @brief Convert to "::GlobalNamespace::IAudioTimeSource"
   constexpr ::GlobalNamespace::IAudioTimeSource* i___GlobalNamespace__IAudioTimeSource() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_lastFrameDeltaSongTime, addr 0x5dd7e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastFrameDeltaSongTime, addr 0x5e14e10, size 0x8, virtual false, abstract: false, final false
   inline void set_lastFrameDeltaSongTime(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_songTime, addr 0x5dd7e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songTime, addr 0x5e14e00, size 0x8, virtual false, abstract: false, final false
   inline void set_songTime(float_t value);
 
 protected:
@@ -326,7 +326,7 @@ public:
   MultiplayerConnectedPlayerSongTimeSyncController(MultiplayerConnectedPlayerSongTimeSyncController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6183 };
 
   /// [SerializeField]
   /// @brief Field _audioSyncLerpSpeed, offset: 0x20, size: 0x4, def value: None

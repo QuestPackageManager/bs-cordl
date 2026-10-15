@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FilteringSettings::*)(::System::Nullable_1<::UnityEngine::Rendering::RenderQueueRange>, int32_t, uint32_t,
                                                                                                              int32_t)>(&::UnityEngine::Rendering::FilteringSettings::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6f7fac0;
+  constexpr static std::size_t addrs = 0x6fbc99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderQueueRange (::UnityEngine::Rendering::FilteringSettings::*)()>(
     &::UnityEngine::Rendering::FilteringSettings::get_renderQueueRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f7fbc0;
+  constexpr static std::size_t addrs = 0x6fbca9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::FilteringSettings>(), { "get_renderQueueRange", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FilteringSettings::*)(uint32_t)>(&::UnityEngine::Rendering::FilteringSettings::set_batchLayerMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f7fbc8;
+  constexpr static std::size_t addrs = 0x6fbcaa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FilteringSettings::*)(bool)>(&::UnityEngine::Rendering::FilteringSettings::set_excludeMotionVectorObjects)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6f7fbd0;
+  constexpr static std::size_t addrs = 0x6fbcaac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FilteringSettings::*)(bool)>(&::UnityEngine::Rendering::FilteringSettings::set_forceAllMotionVectorObjects)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6f7fbdc;
+  constexpr static std::size_t addrs = 0x6fbcab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::FilteringSettings::*)(::UnityEngine::Rendering::FilteringSettings)>(
     &::UnityEngine::Rendering::FilteringSettings::Equals)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6f7fbe8;
+  constexpr static std::size_t addrs = 0x6fbcac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::FilteringSettings::*)(::System::Object*)>(&::UnityEngine::Rendering::FilteringSettings::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6f7fce8;
+  constexpr static std::size_t addrs = 0x6fbcbc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::FilteringSettings::*)()>(&::UnityEngine::Rendering::FilteringSettings::GetHashCode)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6f7fd74;
+  constexpr static std::size_t addrs = 0x6fbcc50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Rendering::FilteringSettings, ::UnityEngine::Rendering::FilteringSettings)>(
     &::UnityEngine::Rendering::FilteringSettings::op_Equality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f7fe20;
+  constexpr static std::size_t addrs = 0x6fbccfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

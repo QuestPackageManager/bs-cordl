@@ -32,13 +32,13 @@ public:
 
   static inline ::System::TimeoutException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x6079c4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60b6664, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6079cc8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60b66e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x6079ca8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60b66c0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

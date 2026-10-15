@@ -31,30 +31,30 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE ShaderKeywordSet {
 public:
   // Declarations
-  /// @brief Method CheckKeywordCompatible, addr 0x6f8bb8c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CheckKeywordCompatible, addr 0x6fc8a68, size 0xc4, virtual false, abstract: false, final false
   inline void CheckKeywordCompatible(::UnityEngine::Rendering::ShaderKeyword keyword);
 
   /// [FreeFunction("keywords::GetEnabledKeywords")]
-  /// @brief Method GetEnabledKeywords, addr 0x6f8bb14, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetEnabledKeywords, addr 0x6fc89f0, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Rendering::ShaderKeyword> GetEnabledKeywords(::UnityEngine::Rendering::ShaderKeywordSet state);
 
-  /// @brief Method GetEnabledKeywords_Injected, addr 0x6f8bb50, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetEnabledKeywords_Injected, addr 0x6fc8a2c, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Rendering::ShaderKeyword> GetEnabledKeywords_Injected(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet const> state);
 
-  /// @brief Method IsEnabled, addr 0x6f8bc50, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsEnabled, addr 0x6fc8b2c, size 0x40, virtual false, abstract: false, final false
   inline bool IsEnabled(::UnityEngine::Rendering::ShaderKeyword keyword);
 
   /// [FreeFunction("keywords::IsKeywordEnabled")]
-  /// @brief Method IsKeywordNameEnabled, addr 0x6f8b990, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method IsKeywordNameEnabled, addr 0x6fc886c, size 0x140, virtual false, abstract: false, final false
   static inline bool IsKeywordNameEnabled(::UnityEngine::Rendering::ShaderKeywordSet state, ::StringW name);
 
-  /// @brief Method IsKeywordNameEnabled_Injected, addr 0x6f8bad0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsKeywordNameEnabled_Injected, addr 0x6fc89ac, size 0x44, virtual false, abstract: false, final false
   static inline bool IsKeywordNameEnabled_Injected(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet const> state, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
-  /// @brief Method ShaderKeywordComparer, addr 0x6f8bd98, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ShaderKeywordComparer, addr 0x6fc8c74, size 0x18, virtual false, abstract: false, final false
   static inline int32_t ShaderKeywordComparer(::UnityEngine::Rendering::ShaderKeyword kw1, ::UnityEngine::Rendering::ShaderKeyword kw2);
 
-  /// @brief Method ToString, addr 0x6f8bc90, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6fc8b6c, size 0x108, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -67,7 +67,7 @@ public:
   constexpr ShaderKeywordSet(::System::IntPtr m_KeywordState, ::System::IntPtr m_Shader, ::System::IntPtr m_ComputeShader, uint64_t m_StateIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10510 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

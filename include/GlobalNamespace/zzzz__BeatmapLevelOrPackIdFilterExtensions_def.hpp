@@ -24,16 +24,20 @@ class CORDL_TYPE BeatmapLevelOrPackIdFilterExtensions : public ::System::Object 
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ShouldAllowEmpty, addr 0x39d7b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldAllowEmpty, addr 0x3a01200, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldAllowEmpty(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter);
 
   /// [Extension]
-  /// @brief Method ShouldAllowLevels, addr 0x39d7b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldAllowLevels, addr 0x3a011ec, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldAllowLevels(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter);
 
   /// [Extension]
-  /// @brief Method ShouldAllowPacks, addr 0x39d7b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldAllowPacks, addr 0x3a011d8, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldAllowPacks(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter);
+
+  /// [Extension]
+  /// @brief Method WithoutEmpty, addr 0x3a01214, size 0x8, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::BeatmapLevelOrPackIdFilter WithoutEmpty(::GlobalNamespace::BeatmapLevelOrPackIdFilter filter);
 
 protected:
   // Ctor Parameters []
@@ -50,7 +54,7 @@ public:
   BeatmapLevelOrPackIdFilterExtensions(BeatmapLevelOrPackIdFilterExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14653 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

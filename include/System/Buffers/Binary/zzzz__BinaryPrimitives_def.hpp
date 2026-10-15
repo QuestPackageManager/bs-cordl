@@ -20,15 +20,15 @@ namespace System::Buffers::Binary {
 class CORDL_TYPE BinaryPrimitives : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReverseEndianness, addr 0x600c318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x6048c00, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ReverseEndianness(int32_t value);
 
   /// [CLSCompliant(false)]
-  /// @brief Method ReverseEndianness, addr 0x600c320, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x6048c08, size 0xc, virtual false, abstract: false, final false
   static inline uint16_t ReverseEndianness(uint16_t value);
 
   /// [CLSCompliant(false)]
-  /// @brief Method ReverseEndianness, addr 0x600c32c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x6048c14, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ReverseEndianness(uint32_t value);
 
 protected:

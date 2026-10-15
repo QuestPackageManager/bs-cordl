@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CreateAssetMenuAttribute::*)(::StringW)>(&::UnityEngine::CreateAssetMenuAttribute::set_menuName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f34f68;
+  constexpr static std::size_t addrs = 0x6f71dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CreateAssetMenuAttribute::*)(::StringW)>(&::UnityEngine::CreateAssetMenuAttribute::set_fileName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f34f70;
+  constexpr static std::size_t addrs = 0x6f71dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CreateAssetMenuAttribute::*)(int32_t)>(&::UnityEngine::CreateAssetMenuAttribute::set_order)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f34f78;
+  constexpr static std::size_t addrs = 0x6f71dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CreateAssetMenuAttribute::*)()>(&::UnityEngine::CreateAssetMenuAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f34f80;
+  constexpr static std::size_t addrs = 0x6f71de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CreateAssetMenuAttribute*>(), { ".ctor", {}, {} })));

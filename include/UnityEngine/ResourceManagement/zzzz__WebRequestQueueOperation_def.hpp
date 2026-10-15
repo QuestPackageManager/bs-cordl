@@ -44,7 +44,7 @@ public:
   /// @brief Field m_WebRequest, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_WebRequest, put = __cordl_internal_set_m_WebRequest)) ::UnityEngine::Networking::UnityWebRequest* m_WebRequest;
 
-  /// @brief Method Complete, addr 0x6d38718, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x6d75394, size 0x28, virtual false, abstract: false, final false
   inline void Complete(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
 
   static inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* New_ctor(::UnityEngine::Networking::UnityWebRequest* request);
@@ -73,16 +73,16 @@ public:
 
   constexpr void __cordl_internal_set_m_WebRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x6d38710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d7538c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method get_IsDone, addr 0x6d386e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsDone, addr 0x6d7535c, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsDone();
 
-  /// @brief Method get_WebRequest, addr 0x6d38700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WebRequest, addr 0x6d7537c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest* get_WebRequest();
 
-  /// @brief Method set_WebRequest, addr 0x6d38708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_WebRequest, addr 0x6d75384, size 0x8, virtual false, abstract: false, final false
   inline void set_WebRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
 protected:
@@ -100,7 +100,7 @@ public:
   WebRequestQueueOperation(WebRequestQueueOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19129 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19162 };
 
   /// @brief Field m_Completed, offset: 0x10, size: 0x1, def value: None
   bool ___m_Completed;

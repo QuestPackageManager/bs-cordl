@@ -46,19 +46,19 @@ public:
 
   constexpr void __cordl_internal_set__Description_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6eb04e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eed184, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Data, addr 0x6eb04e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x6eed17c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Data();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Description, addr 0x6eb04d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x6eed16c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Description();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Description, addr 0x6eb04d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Description, addr 0x6eed174, size 0x8, virtual false, abstract: false, final false
   inline void set_Description(::StringW value);
 
 protected:
@@ -76,7 +76,7 @@ public:
   MemorySnapshotMetadata(MemorySnapshotMetadata const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9542 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]

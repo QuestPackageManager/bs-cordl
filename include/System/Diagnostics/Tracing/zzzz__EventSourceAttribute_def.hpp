@@ -45,15 +45,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5ffb298, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6037b80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Guid, addr 0x5ffb288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Guid, addr 0x6037b70, size 0x8, virtual false, abstract: false, final false
   inline void set_Guid(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Name, addr 0x5ffb290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x6037b78, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::MergeFailedEventHandler::*)(::System::Object*, ::System::IntPtr)>(&::System::Data::MergeFailedEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x64643e8;
+  constexpr static std::size_t addrs = 0x64a0fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::MergeFailedEventHandler::*)(::System::Object*, ::System::Data::MergeFailedEventArgs*)>(
     &::System::Data::MergeFailedEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6464530;
+  constexpr static std::size_t addrs = 0x64a1100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

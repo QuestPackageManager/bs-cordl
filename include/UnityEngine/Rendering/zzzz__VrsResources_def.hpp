@@ -84,27 +84,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AllocFragmentSizeBuffer, addr 0x6bf0a90, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method AllocFragmentSizeBuffer, addr 0x6c2d70c, size 0x1e4, virtual false, abstract: false, final false
   inline void AllocFragmentSizeBuffer();
 
-  /// @brief Method Dispose, addr 0x6bedaa0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c2a71c, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeResources, addr 0x6bf06f0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method DisposeResources, addr 0x6c2d36c, size 0xa8, virtual false, abstract: false, final false
   inline void DisposeResources();
 
-  /// @brief Method Finalize, addr 0x6bf0654, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6c2d2d0, size 0x9c, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method InitComputeShader, addr 0x6bf0798, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method InitComputeShader, addr 0x6c2d414, size 0x2f8, virtual false, abstract: false, final false
   inline bool InitComputeShader(::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources* resources);
 
-  /// @brief Method InitializeResources, addr 0x6bf05dc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InitializeResources, addr 0x6c2d258, size 0x78, virtual false, abstract: false, final false
   inline void InitializeResources(::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources* resources);
 
   static inline ::UnityEngine::Rendering::VrsResources* New_ctor(::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources* resources);
 
-  /// @brief Method TryFindKernel, addr 0x6bf0c74, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method TryFindKernel, addr 0x6c2d8f0, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t TryFindKernel(::UnityEngine::ComputeShader* computeShader, ::StringW name);
 
   constexpr ::UnityEngine::GraphicsBuffer* const& __cordl_internal_get_conversionLutBuffer() const;
@@ -173,10 +173,10 @@ public:
 
   constexpr void __cordl_internal_set_visualizationProfilingSampler(::UnityEngine::Rendering::ProfilingSampler* value);
 
-  /// @brief Method .ctor, addr 0x6bed954, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2a5d0, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources* resources);
 
-  /// @brief Method get_visualizationMaterial, addr 0x6beeeb4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_visualizationMaterial, addr 0x6c2bb30, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_visualizationMaterial();
 
   /// @brief Convert to "::System::IDisposable"
@@ -197,7 +197,7 @@ public:
   VrsResources(VrsResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9273 };
 
   /// @brief Field conversionProfilingSampler, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Rendering::ProfilingSampler* ___conversionProfilingSampler;

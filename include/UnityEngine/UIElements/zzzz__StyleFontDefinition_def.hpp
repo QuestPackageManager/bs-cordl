@@ -53,43 +53,43 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::FontDefinition>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::FontDefinition>*();
 
-  /// @brief Method Equals, addr 0x710925c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7146190, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x7109230, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7146164, size 0x2c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleFontDefinition other);
 
-  /// @brief Method GetHashCode, addr 0x71092f0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7146224, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x7109200, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7146134, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Font* f);
 
-  /// @brief Method .ctor, addr 0x710920c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7146140, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Font* f, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x71091e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x714611c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::Text::FontAsset* f);
 
-  /// @brief Method .ctor, addr 0x71091f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7146128, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::Text::FontAsset* f, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x71091d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7146104, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::FontDefinition f);
 
-  /// @brief Method .ctor, addr 0x71091dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7146110, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::FontDefinition f, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x7109218, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x714614c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x71051f4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7142128, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* obj, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x71091c0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x71460f4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x7109198, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x71460cc, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::FontDefinition get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleFontDefinition>"
@@ -98,16 +98,16 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::FontDefinition>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::FontDefinition>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__FontDefinition_();
 
-  /// @brief Method op_Implicit, addr 0x7109224, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7146158, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleFontDefinition op_Implicit___UnityEngine__UIElements__StyleFontDefinition(::UnityEngine::UIElements::FontDefinition f);
 
-  /// @brief Method op_Implicit, addr 0x7105224, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7142158, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleFontDefinition op_Implicit___UnityEngine__UIElements__StyleFontDefinition(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method set_keyword, addr 0x71091c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_keyword, addr 0x71460fc, size 0x8, virtual true, abstract: false, final true
   inline void set_keyword(::UnityEngine::UIElements::StyleKeyword value);
 
-  /// @brief Method set_value, addr 0x71091b4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x71460e8, size 0xc, virtual true, abstract: false, final true
   inline void set_value(::UnityEngine::UIElements::FontDefinition value);
 
   // Ctor Parameters []

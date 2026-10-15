@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentsListModel___c::*)()>(&::GlobalNamespace::EnvironmentsListModel___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3993328;
+  constexpr static std::size_t addrs = 0x39b7718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentsListModel___c*>(), { ".ctor", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::EnvironmentsListModel___c::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
     &::GlobalNamespace::EnvironmentsListModel___c::__ctor_b__14_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x399332c;
+  constexpr static std::size_t addrs = 0x39b771c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::EnvironmentsListModel___c::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
     &::GlobalNamespace::EnvironmentsListModel___c::__ctor_b__14_2)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3993340;
+  constexpr static std::size_t addrs = 0x39b7730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::EnvironmentsListModel___c::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
     &::GlobalNamespace::EnvironmentsListModel___c::__ctor_b__14_3)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3993354;
+  constexpr static std::size_t addrs = 0x39b7744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::EnvironmentsListModel___c::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
     &::GlobalNamespace::EnvironmentsListModel___c::__ctor_b__14_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3993368;
+  constexpr static std::size_t addrs = 0x39b7758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentsListModel___c::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
     &::GlobalNamespace::EnvironmentsListModel___c::_CreateFromAddressables_b__15_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x399337c;
+  constexpr static std::size_t addrs = 0x39b776c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentsListModel___c*>(),
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentsListModel___c__DisplayClass22_0::*)()>(
     &::GlobalNamespace::EnvironmentsListModel___c__DisplayClass22_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39932d0;
+  constexpr static std::size_t addrs = 0x39b76c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentsListModel___c__DisplayClass22_0*>(), { ".ctor", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EnvironmentsListModel___c__DisplayClass22_0::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
     &::GlobalNamespace::EnvironmentsListModel___c__DisplayClass22_0::_AddEnvironmentNames_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3993380;
+  constexpr static std::size_t addrs = 0x39b7770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentsListModel___c__DisplayClass22_0*>(),
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::EnvironmentsListModel::*)()>(&::GlobalNamespace::EnvironmentsListModel::get_loggerPrefix)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x399229c;
+  constexpr static std::size_t addrs = 0x39b668c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentsListModel*>(), { "get_loggerPrefix", {}, {} })));
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* (
     ::GlobalNamespace::EnvironmentsListModel::*)()>(&::GlobalNamespace::EnvironmentsListModel::get_environmentInfos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39922e0;
+  constexpr static std::size_t addrs = 0x39b66d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentsListModel*>(), { "get_environmentInfos", {}, {} })));
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::ArrayW<::StringW>>* (
     ::GlobalNamespace::EnvironmentsListModel::*)()>(&::GlobalNamespace::EnvironmentsListModel::get_environmentNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39922e8;
+  constexpr static std::size_t addrs = 0x39b66d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentsListModel*>(), { "get_environmentNames", {}, {} })));
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::ArrayW<::StringW>>* (
     ::GlobalNamespace::EnvironmentsListModel::*)()>(&::GlobalNamespace::EnvironmentsListModel::get_environmentSerializedNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39922f0;
+  constexpr static std::size_t addrs = 0x39b66e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::GlobalNamespace::EnvironmentsListModel::*)(::GlobalNamespace::BeatmapCharacteristic)>(
     &::GlobalNamespace::EnvironmentsListModel::GetEnvironmentSerializedNamesByCharacteristic)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x39922f8;
+  constexpr static std::size_t addrs = 0x39b66e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::GlobalNamespace::EnvironmentsListModel::*)(::GlobalNamespace::BeatmapCharacteristic)>(
     &::GlobalNamespace::EnvironmentsListModel::GetEnvironmentNamesByCharacteristic)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x39923c8;
+  constexpr static std::size_t addrs = 0x39b67b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentsListModel::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*)>(&::GlobalNamespace::EnvironmentsListModel::_ctor)> {
   constexpr static std::size_t size = 0x6b0;
-  constexpr static std::size_t addrs = 0x3992438;
+  constexpr static std::size_t addrs = 0x39b6828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EnvironmentsListModel* (*)()>(&::GlobalNamespace::EnvironmentsListModel::CreateFromAddressables)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x3992c58;
+  constexpr static std::size_t addrs = 0x39b7048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentsListModel*>(), { "CreateFromAddressables", {}, {} })));
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::EnvironmentsListModel::*)(::StringW)>(
     &::GlobalNamespace::EnvironmentsListModel::GetEnvironmentInfoBySerializedName)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3992ec4;
+  constexpr static std::size_t addrs = 0x39b72b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::EnvironmentsListModel::*)(::StringW)>(
     &::GlobalNamespace::EnvironmentsListModel::GetEnvironmentInfoBySerializedNameSafe)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x3992f40;
+  constexpr static std::size_t addrs = 0x39b7330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* (
     ::GlobalNamespace::EnvironmentsListModel::*)(::GlobalNamespace::EnvironmentType)>(&::GlobalNamespace::EnvironmentsListModel::GetAllEnvironmentInfosWithType)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x39930bc;
+  constexpr static std::size_t addrs = 0x39b74ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentsListModel*>(),
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::EnvironmentsListModel::*)(::GlobalNamespace::EnvironmentType)>(
     &::GlobalNamespace::EnvironmentsListModel::GetFirstEnvironmentInfoWithType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3993200;
+  constexpr static std::size_t addrs = 0x39b75f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentsListModel*>(),
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::EnvironmentsListModel::*)(::GlobalNamespace::EnvironmentType)>(
     &::GlobalNamespace::EnvironmentsListModel::GetLastEnvironmentInfoWithType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3993260;
+  constexpr static std::size_t addrs = 0x39b7650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentsListModel*>(),
@@ -419,7 +419,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EnvironmentType (::GlobalNamespace::EnvironmentsListModel::*)(::GlobalNamespace::BeatmapCharacteristic)>(
     &::GlobalNamespace::EnvironmentsListModel::EnvironmentTypeByCharacteristic)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3992368;
+  constexpr static std::size_t addrs = 0x39b6758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentsListModel*>(),
@@ -434,7 +434,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::ArrayW<::StringW>>*, ::GlobalNamespace::EnvironmentType,
     ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>*)>(&::GlobalNamespace::EnvironmentsListModel::AddEnvironmentNames)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3992ae8;
+  constexpr static std::size_t addrs = 0x39b6ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

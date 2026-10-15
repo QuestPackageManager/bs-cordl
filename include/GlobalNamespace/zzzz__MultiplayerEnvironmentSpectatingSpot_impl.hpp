@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::add_hasBeenRemovedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e049bc;
+  constexpr static std::size_t addrs = 0x5e42180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::remove_hasBeenRemovedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e04a7c;
+  constexpr static std::size_t addrs = 0x5e42240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IMultiplayerObservable* (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::get_observable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e04b3c;
+  constexpr static std::size_t addrs = 0x5e42300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>(), { "get_observable", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::get_spotName)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5e04b44;
+  constexpr static std::size_t addrs = 0x5e42308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>(), { "get_spotName", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(&::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::get_isMain)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e04c18;
+  constexpr static std::size_t addrs = 0x5e423dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>(), { "get_isMain", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(&::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::Start)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e04c20;
+  constexpr static std::size_t addrs = 0x5e423e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>(), { "Start", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(&::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::OnDisable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e04c38;
+  constexpr static std::size_t addrs = 0x5e423fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>(), { "OnDisable", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)(bool)>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::SetIsObserved)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e04c58;
+  constexpr static std::size_t addrs = 0x5e4241c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(&::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e04c5c;
+  constexpr static std::size_t addrs = 0x5e42420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>(), { ".ctor", {}, {} })));
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::IMultiplayerSpectatingSpot_get_transform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e04c60;
+  constexpr static std::size_t addrs = 0x5e42424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

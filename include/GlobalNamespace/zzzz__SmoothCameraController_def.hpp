@@ -32,21 +32,21 @@ public:
   /// @brief Field _smoothCamera, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__smoothCamera, put = __cordl_internal_set__smoothCamera)) ::UnityW<::GlobalNamespace::SmoothCamera> _smoothCamera;
 
-  /// @brief Method ActivateSmoothCameraIfNeeded, addr 0x5e12298, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ActivateSmoothCameraIfNeeded, addr 0x5e4faa8, size 0x8c, virtual false, abstract: false, final false
   inline void ActivateSmoothCameraIfNeeded();
 
-  /// @brief Method HandleDidActivate, addr 0x5e12328, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleDidActivate, addr 0x5e4fb38, size 0x40, virtual false, abstract: false, final false
   inline void HandleDidActivate();
 
-  /// @brief Method HandleDidDeactivate, addr 0x5e12368, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDidDeactivate, addr 0x5e4fb78, size 0x4, virtual false, abstract: false, final false
   inline void HandleDidDeactivate();
 
   static inline ::GlobalNamespace::SmoothCameraController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5e12324, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5e4fb34, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5e12294, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e4faa4, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__smoothCamera(::UnityW<::GlobalNamespace::SmoothCamera> value);
 
-  /// @brief Method .ctor, addr 0x5e1236c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4fb7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +79,7 @@ public:
   SmoothCameraController(SmoothCameraController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6393 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6397 };
 
   /// [SerializeField]
   /// @brief Field _smoothCamera, offset: 0x20, size: 0x8, def value: None

@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager_PlayerJoinedEvent::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager_PlayerJoinedEvent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x69b11d0;
+  constexpr static std::size_t addrs = 0x69ede4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager_PlayerJoinedEvent*>(), { ".ctor", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager_PlayerLeftEvent::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager_PlayerLeftEvent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x69b1280;
+  constexpr static std::size_t addrs = 0x69edefc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager_PlayerLeftEvent*>(), { ".ctor", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::PlayerInputManager::*)()>(&::UnityEngine::InputSystem::PlayerInputManager::get_splitScreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b0534;
+  constexpr static std::size_t addrs = 0x69ed1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "get_splitScreen", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(bool)>(&::UnityEngine::InputSystem::PlayerInputManager::set_splitScreen)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x69b053c;
+  constexpr static std::size_t addrs = 0x69ed1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_maintainAspectRatioInSplitScreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b0cb8;
+  constexpr static std::size_t addrs = 0x69ed934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::PlayerInputManager::*)()>(&::UnityEngine::InputSystem::PlayerInputManager::get_fixedNumberOfSplitScreens)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b0cc0;
+  constexpr static std::size_t addrs = 0x69ed93c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_splitScreenArea)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69b0cc8;
+  constexpr static std::size_t addrs = 0x69ed944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "get_splitScreenArea", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::PlayerInputManager::*)()>(&::UnityEngine::InputSystem::PlayerInputManager::get_playerCount)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69b0cd4;
+  constexpr static std::size_t addrs = 0x69ed950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "get_playerCount", {}, {} })));
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::PlayerInputManager::*)()>(&::UnityEngine::InputSystem::PlayerInputManager::get_maxPlayerCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b0d30;
+  constexpr static std::size_t addrs = 0x69ed9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "get_maxPlayerCount", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::PlayerInputManager::*)()>(&::UnityEngine::InputSystem::PlayerInputManager::get_joiningEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b0d38;
+  constexpr static std::size_t addrs = 0x69ed9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "get_joiningEnabled", {}, {} })));
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::PlayerJoinBehavior (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_joinBehavior)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b0d40;
+  constexpr static std::size_t addrs = 0x69ed9bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "get_joinBehavior", {}, {} })));
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::InputSystem::PlayerJoinBehavior)>(
     &::UnityEngine::InputSystem::PlayerInputManager::set_joinBehavior)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x69b0d48;
+  constexpr static std::size_t addrs = 0x69ed9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(),
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_joinAction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69b10a4;
+  constexpr static std::size_t addrs = 0x69edd20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "get_joinAction", {}, {} })));
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::PlayerInputManager::set_joinAction)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x69b10b8;
+  constexpr static std::size_t addrs = 0x69edd34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(),
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::PlayerNotifications (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_notificationBehavior)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b115c;
+  constexpr static std::size_t addrs = 0x69eddd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::InputSystem::PlayerNotifications)>(
     &::UnityEngine::InputSystem::PlayerInputManager::set_notificationBehavior)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b1164;
+  constexpr static std::size_t addrs = 0x69edde0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(),
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::PlayerInputManager_PlayerJoinedEvent* (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_playerJoinedEvent)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69b116c;
+  constexpr static std::size_t addrs = 0x69edde8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "get_playerJoinedEvent", {}, {} })));
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::PlayerInputManager_PlayerLeftEvent* (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_playerLeftEvent)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x69b121c;
+  constexpr static std::size_t addrs = 0x69ede98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "get_playerLeftEvent", {}, {} })));
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*)>(
     &::UnityEngine::InputSystem::PlayerInputManager::add_onPlayerJoined)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69b12cc;
+  constexpr static std::size_t addrs = 0x69edf48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*)>(
     &::UnityEngine::InputSystem::PlayerInputManager::remove_onPlayerJoined)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69b1374;
+  constexpr static std::size_t addrs = 0x69edff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*)>(
     &::UnityEngine::InputSystem::PlayerInputManager::add_onPlayerLeft)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69b141c;
+  constexpr static std::size_t addrs = 0x69ee098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*)>(
     &::UnityEngine::InputSystem::PlayerInputManager::remove_onPlayerLeft)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69b14c4;
+  constexpr static std::size_t addrs = 0x69ee140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -340,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_playerPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b156c;
+  constexpr static std::size_t addrs = 0x69ee1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "get_playerPrefab", {}, {} })));
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::GameObject*)>(
     &::UnityEngine::InputSystem::PlayerInputManager::set_playerPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69b1574;
+  constexpr static std::size_t addrs = 0x69ee1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -366,7 +366,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::InputSystem::PlayerInputManager> (*)()>(&::UnityEngine::InputSystem::PlayerInputManager::get_instance)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x69b157c;
+  constexpr static std::size_t addrs = 0x69ee1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "get_instance", {}, {} })));
@@ -378,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::PlayerInputManager*)>(&::UnityEngine::InputSystem::PlayerInputManager::set_instance)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x69b15c8;
+  constexpr static std::size_t addrs = 0x69ee244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(),
@@ -391,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)()>(&::UnityEngine::InputSystem::PlayerInputManager::EnableJoining)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x69b0e7c;
+  constexpr static std::size_t addrs = 0x69edaf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "EnableJoining", {}, {} })));
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)()>(&::UnityEngine::InputSystem::PlayerInputManager::DisableJoining)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x69b0d98;
+  constexpr static std::size_t addrs = 0x69eda14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "DisableJoining", {}, {} })));
@@ -415,7 +415,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)()>(&::UnityEngine::InputSystem::PlayerInputManager::JoinPlayerFromUI)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x69b161c;
+  constexpr static std::size_t addrs = 0x69ee298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "JoinPlayerFromUI", {}, {} })));
@@ -428,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::PlayerInputManager::JoinPlayerFromAction)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69b1988;
+  constexpr static std::size_t addrs = 0x69ee604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -443,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::PlayerInputManager::JoinPlayerFromActionIfNotAlreadyJoined)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x69b1aa8;
+  constexpr static std::size_t addrs = 0x69ee724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -458,7 +458,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::InputSystem::PlayerInput> (::UnityEngine::InputSystem::PlayerInputManager::*)(
     int32_t, int32_t, ::StringW, ::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::PlayerInputManager::JoinPlayer)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x69b19e4;
+  constexpr static std::size_t addrs = 0x69ee660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::InputSystem::PlayerInput> (::UnityEngine::InputSystem::PlayerInputManager::*)(
     int32_t, int32_t, ::StringW, ::ArrayW<::UnityEngine::InputSystem::InputDevice*>)>(&::UnityEngine::InputSystem::PlayerInputManager::JoinPlayer)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x69b1ba4;
+  constexpr static std::size_t addrs = 0x69ee820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -490,7 +490,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)()>(&::UnityEngine::InputSystem::PlayerInputManager::get_messages)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x69b1c68;
+  constexpr static std::size_t addrs = 0x69ee8e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "get_messages", {}, {} })));
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::PlayerInputManager::*)(int32_t)>(&::UnityEngine::InputSystem::PlayerInputManager::CheckIfPlayerCanJoin)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x69b1668;
+  constexpr static std::size_t addrs = 0x69ee2e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -516,7 +516,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(
     ::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(&::UnityEngine::InputSystem::PlayerInputManager::OnUnpairedDeviceUsed)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x69b1d10;
+  constexpr static std::size_t addrs = 0x69ee98c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -531,7 +531,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)()>(&::UnityEngine::InputSystem::PlayerInputManager::OnEnable)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x69b2184;
+  constexpr static std::size_t addrs = 0x69eee00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "OnEnable", {}, {} })));
@@ -543,7 +543,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)()>(&::UnityEngine::InputSystem::PlayerInputManager::OnDisable)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x69b24e8;
+  constexpr static std::size_t addrs = 0x69ef164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "OnDisable", {}, {} })));
@@ -555,7 +555,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)()>(&::UnityEngine::InputSystem::PlayerInputManager::UpdateSplitScreen)> {
   constexpr static std::size_t size = 0x560;
-  constexpr static std::size_t addrs = 0x69b0758;
+  constexpr static std::size_t addrs = 0x69ed3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { "UpdateSplitScreen", {}, {} })));
@@ -568,7 +568,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::PlayerInputManager::IsDeviceUsableWithPlayerActions)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x69b1dd4;
+  constexpr static std::size_t addrs = 0x69eea50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(),
@@ -581,7 +581,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)()>(&::UnityEngine::InputSystem::PlayerInputManager::ValidateInputActionAsset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69b1618;
+  constexpr static std::size_t addrs = 0x69ee294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -595,7 +595,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::InputSystem::PlayerInput*)>(
     &::UnityEngine::InputSystem::PlayerInputManager::NotifyPlayerJoined)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x69ae72c;
+  constexpr static std::size_t addrs = 0x69eb3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(),
@@ -609,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::InputSystem::PlayerInput*)>(
     &::UnityEngine::InputSystem::PlayerInputManager::NotifyPlayerLeft)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x69af1c0;
+  constexpr static std::size_t addrs = 0x69ebe3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(),
@@ -622,7 +622,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)()>(&::UnityEngine::InputSystem::PlayerInputManager::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x69b25e0;
+  constexpr static std::size_t addrs = 0x69ef25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::PlayerInputManager*>(), { ".ctor", {}, {} })));

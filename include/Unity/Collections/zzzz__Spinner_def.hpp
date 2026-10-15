@@ -21,16 +21,16 @@ namespace Unity::Collections {
 struct CORDL_TYPE Spinner {
 public:
   // Declarations
-  /// @brief Method Acquire, addr 0x68d02e0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x690cf5c, size 0x40, virtual false, abstract: false, final false
   inline void Acquire();
 
-  /// @brief Method Release, addr 0x68d0400, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x690d07c, size 0xc, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method TryAcquire, addr 0x68d0320, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method TryAcquire, addr 0x690cf9c, size 0x3c, virtual false, abstract: false, final false
   inline bool TryAcquire();
 
-  /// @brief Method TryAcquire, addr 0x68d035c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method TryAcquire, addr 0x690cfd8, size 0xa4, virtual false, abstract: false, final false
   inline bool TryAcquire(bool spin);
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   constexpr Spinner(int32_t m_Lock) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15795 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

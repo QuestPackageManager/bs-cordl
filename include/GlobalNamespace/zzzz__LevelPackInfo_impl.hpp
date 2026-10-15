@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::LevelPackInfo::*)()>(&::GlobalNamespace::LevelPackInfo::get_packID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35400f4;
+  constexpr static std::size_t addrs = 0x356105c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelPackInfo*>(), { "get_packID", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelPackInfo::*)(::StringW)>(&::GlobalNamespace::LevelPackInfo::set_packID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35400fc;
+  constexpr static std::size_t addrs = 0x3561064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::LevelInfo*> (::GlobalNamespace::LevelPackInfo::*)()>(&::GlobalNamespace::LevelPackInfo::get_levels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3540104;
+  constexpr static std::size_t addrs = 0x356106c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelPackInfo*>(), { "get_levels", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelPackInfo::*)(::ArrayW<::GlobalNamespace::LevelInfo*>)>(&::GlobalNamespace::LevelPackInfo::set_levels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x354010c;
+  constexpr static std::size_t addrs = 0x3561074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::GlobalNamespace::LevelPackInfo::*)()>(&::GlobalNamespace::LevelPackInfo::get_minimumProtocolVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3540114;
+  constexpr static std::size_t addrs = 0x356107c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelPackInfo*>(), { "get_minimumProtocolVersion", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelPackInfo::*)(uint32_t)>(&::GlobalNamespace::LevelPackInfo::set_minimumProtocolVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x354011c;
+  constexpr static std::size_t addrs = 0x3561084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelPackInfo::*)()>(&::GlobalNamespace::LevelPackInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3540124;
+  constexpr static std::size_t addrs = 0x356108c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelPackInfo*>(), { ".ctor", {}, {} })));

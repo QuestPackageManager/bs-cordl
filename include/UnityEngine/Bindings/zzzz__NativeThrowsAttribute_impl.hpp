@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeThrowsAttribute::*)(bool)>(&::UnityEngine::Bindings::NativeThrowsAttribute::set_ThrowsException)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7015078;
+  constexpr static std::size_t addrs = 0x7051f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Bindings::NativeThrowsAttribute::*)()>(&::UnityEngine::Bindings::NativeThrowsAttribute::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7015080;
+  constexpr static std::size_t addrs = 0x7051f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Bindings::NativeThrowsAttribute*>(), { ".ctor", {}, {} })));

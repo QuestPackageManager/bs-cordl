@@ -64,7 +64,7 @@ public:
 
   static inline ::System::Data::Common::SqlUdtStorage___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <GetStaticNullForUdtType>b__0, addr 0x64e9160, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method <GetStaticNullForUdtType>b__0, addr 0x6525d30, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Object* _GetStaticNullForUdtType_b__0(::System::Type* t);
 
   constexpr ::System::Type* const& __cordl_internal_get_type() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x64e7dc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6524994, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,7 +91,7 @@ public:
   SqlUdtStorage___c__DisplayClass6_0(SqlUdtStorage___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14191 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
@@ -125,56 +125,56 @@ public:
   /// @brief Field s_typeToNull, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_typeToNull, put = setStaticF_s_typeToNull)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Object*>* s_typeToNull;
 
-  /// @brief Method Aggregate, addr 0x64e7ed8, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Aggregate, addr 0x6524aa8, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* Aggregate(::ArrayW<int32_t> records, ::System::Data::AggregateType kind);
 
-  /// @brief Method Compare, addr 0x64e7f08, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x6524ad8, size 0x38, virtual true, abstract: false, final false
   inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CompareValueTo, addr 0x64e7f40, size 0x298, virtual true, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x6524b10, size 0x298, virtual true, abstract: false, final false
   inline int32_t CompareValueTo(int32_t recordNo1, ::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x64e8a6c, size 0x2e0, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x652563c, size 0x2e0, virtual true, abstract: false, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x64e8d4c, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x652591c, size 0x16c, virtual true, abstract: false, final false
   inline void ConvertObjectToXml(::System::Object* value, ::System::Xml::XmlWriter* xmlWriter, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
 
-  /// @brief Method ConvertXmlToObject, addr 0x64e84a8, size 0x318, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x6525078, size 0x318, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-  /// @brief Method ConvertXmlToObject, addr 0x64e87c0, size 0x2ac, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x6525390, size 0x2ac, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::System::Xml::XmlReader* xmlReader, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
 
-  /// @brief Method Copy, addr 0x64e81d8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x6524da8, size 0x84, virtual true, abstract: false, final false
   inline void Copy(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CopyValue, addr 0x64e8f04, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method CopyValue, addr 0x6525ad4, size 0x13c, virtual true, abstract: false, final false
   inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method Get, addr 0x64e825c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x6524e2c, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* Get(int32_t recordNo);
 
-  /// @brief Method GetEmptyStorage, addr 0x64e8eb8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetEmptyStorage, addr 0x6525a88, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Object* GetEmptyStorage(int32_t recordCount);
 
-  /// @brief Method GetStaticNullForUdtType, addr 0x64e7b28, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetStaticNullForUdtType, addr 0x65246f8, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Object* GetStaticNullForUdtType(::System::Type* type);
 
-  /// @brief Method IsNull, addr 0x64e7dc8, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method IsNull, addr 0x6524998, size 0x110, virtual true, abstract: false, final false
   inline bool IsNull(int32_t record);
 
   static inline ::System::Data::Common::SqlUdtStorage* New_ctor(::System::Data::DataColumn* column, ::System::Type* type);
 
   static inline ::System::Data::Common::SqlUdtStorage* New_ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* nullValue);
 
-  /// @brief Method Set, addr 0x64e828c, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x6524e5c, size 0x158, virtual true, abstract: false, final false
   inline void Set(int32_t recordNo, ::System::Object* value);
 
-  /// @brief Method SetCapacity, addr 0x64e83e4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x6524fb4, size 0xc4, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method SetStorage, addr 0x64e9040, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method SetStorage, addr 0x6525c10, size 0x90, virtual true, abstract: false, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
   constexpr bool const& __cordl_internal_get__implementsIComparable() const;
@@ -195,10 +195,10 @@ public:
 
   constexpr void __cordl_internal_set__values(::ArrayW<::System::Object*> value);
 
-  /// @brief Method .ctor, addr 0x64e7aac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x652467c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column, ::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x64e7c3c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x652480c, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* nullValue);
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Object*>* getStaticF_s_typeToNull();
@@ -220,7 +220,7 @@ public:
   SqlUdtStorage(SqlUdtStorage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14185 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14192 };
 
   /// @brief Field _values, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::System::Object*> ____values;

@@ -46,7 +46,7 @@ public:
 
   static inline ::OculusStudios::Platform::Oculus::OculusPlatformResponseException* New_ctor(::StringW message, ::Oculus::Platform::Models::Error* error);
 
-  /// @brief Method ParseMessage, addr 0x635004c, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method ParseMessage, addr 0x638cb24, size 0x2b8, virtual false, abstract: false, final false
   static inline ::StringW ParseMessage(::StringW message, ::Oculus::Platform::Models::Error* error, ::by_ref<::OculusStudios::Platform::Oculus::OculusPlatformResponseErrorCode> errorCode,
                                        ::by_ref<::System::Net::HttpStatusCode> httpCode);
 
@@ -68,13 +68,13 @@ public:
 
   constexpr void __cordl_internal_set_httpCode(::System::Net::HttpStatusCode value);
 
-  /// @brief Method .ctor, addr 0x634ffb4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638ca8c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Oculus::Platform::Models::Error* error);
 
-  /// @brief Method .ctor, addr 0x634d8d4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638a3ac, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::Oculus::Platform::Models::Error* error);
 
-  /// @brief Method get_message, addr 0x634ff9c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_message, addr 0x638ca74, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_message();
 
 protected:
@@ -92,7 +92,7 @@ public:
   OculusPlatformResponseException(OculusPlatformResponseException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23092 };
 
   /// @brief Field error, offset: 0x90, size: 0x8, def value: None
   ::Oculus::Platform::Models::Error* ___error;

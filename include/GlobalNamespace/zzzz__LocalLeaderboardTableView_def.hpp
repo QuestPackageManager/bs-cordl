@@ -28,10 +28,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LocalLeaderboardTableView* New_ctor();
 
-  /// @brief Method SetScores, addr 0x5d8916c, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method SetScores, addr 0x5dc4650, size 0x2a8, virtual false, abstract: false, final false
   inline void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::LocalLeaderboardsModel_ScoreData*>* scores, int32_t specialScorePos, int32_t maxNumberOfCells);
 
-  /// @brief Method .ctor, addr 0x5d89414, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc48f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +49,7 @@ public:
   LocalLeaderboardTableView(LocalLeaderboardTableView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7129 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7136 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

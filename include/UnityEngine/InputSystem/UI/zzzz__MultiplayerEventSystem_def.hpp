@@ -28,18 +28,18 @@ public:
 
   __declspec(property(get = get_playerRoot, put = set_playerRoot)) ::UnityW<::UnityEngine::GameObject> playerRoot;
 
-  /// @brief Method InitializePlayerRoot, addr 0x69c5fb8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method InitializePlayerRoot, addr 0x6a02c34, size 0xa4, virtual false, abstract: false, final false
   inline void InitializePlayerRoot();
 
   static inline ::UnityEngine::InputSystem::UI::MultiplayerEventSystem* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x69c6078, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6a02cf4, size 0x8, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x69c605c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6a02cd8, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x69c6080, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x6a02cfc, size 0xf8, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_PlayerRoot() const;
@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set_m_PlayerRoot(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x69c6178, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a02df4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_playerRoot, addr 0x69c5fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerRoot, addr 0x6a02c24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_playerRoot();
 
-  /// @brief Method set_playerRoot, addr 0x69c5fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerRoot, addr 0x6a02c2c, size 0x8, virtual false, abstract: false, final false
   inline void set_playerRoot(::UnityEngine::GameObject* value);
 
 protected:
@@ -72,7 +72,7 @@ public:
   MultiplayerEventSystem(MultiplayerEventSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10837 };
 
   /// [Tooltip("If set, only process mouse and navigation events for any game objects which are children of this game object.")]
   /// [SerializeField]

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::OnEnable)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5db398c;
+  constexpr static std::size_t addrs = 0x5df0b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget*>(), { "OnEnable", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::OnValidate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5db3ad8;
+  constexpr static std::size_t addrs = 0x5df0c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::*)(float_t)>(
     &::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::CalculateDisplacementVector)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5db3a54;
+  constexpr static std::size_t addrs = 0x5df0be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5db3afc;
+  constexpr static std::size_t addrs = 0x5df0c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5db3bd0;
+  constexpr static std::size_t addrs = 0x5df0d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget*>(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::*)(float_t)>(
     &::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5db3b00;
+  constexpr static std::size_t addrs = 0x5df0c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5db3bd4;
+  constexpr static std::size_t addrs = 0x5df0d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget*>(), { ".ctor", {}, {} })));

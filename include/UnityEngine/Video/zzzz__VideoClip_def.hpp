@@ -51,88 +51,88 @@ public:
 
   __declspec(property(get = get_width)) uint32_t width;
 
-  /// @brief Method GetAudioChannelCount, addr 0x72cbcc0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetAudioChannelCount, addr 0x7308bf4, size 0x90, virtual false, abstract: false, final false
   inline uint16_t GetAudioChannelCount(uint16_t audioTrackIdx);
 
-  /// @brief Method GetAudioChannelCount_Injected, addr 0x72cbd50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAudioChannelCount_Injected, addr 0x7308c84, size 0x44, virtual false, abstract: false, final false
   static inline uint16_t GetAudioChannelCount_Injected(::System::IntPtr _unity_self, uint16_t audioTrackIdx);
 
-  /// @brief Method GetAudioLanguage, addr 0x72cbe68, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetAudioLanguage, addr 0x7308d9c, size 0x140, virtual false, abstract: false, final false
   inline ::StringW GetAudioLanguage(uint16_t audioTrackIdx);
 
-  /// @brief Method GetAudioLanguage_Injected, addr 0x72cbfa8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetAudioLanguage_Injected, addr 0x7308edc, size 0x54, virtual false, abstract: false, final false
   static inline void GetAudioLanguage_Injected(::System::IntPtr _unity_self, uint16_t audioTrackIdx, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-  /// @brief Method GetAudioSampleRate, addr 0x72cbd94, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetAudioSampleRate, addr 0x7308cc8, size 0x90, virtual false, abstract: false, final false
   inline uint32_t GetAudioSampleRate(uint16_t audioTrackIdx);
 
-  /// @brief Method GetAudioSampleRate_Injected, addr 0x72cbe24, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAudioSampleRate_Injected, addr 0x7308d58, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t GetAudioSampleRate_Injected(::System::IntPtr _unity_self, uint16_t audioTrackIdx);
 
   static inline ::UnityEngine::Video::VideoClip* New_ctor();
 
-  /// @brief Method .ctor, addr 0x72cb454, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7308388, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioTrackCount, addr 0x72cbc04, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_audioTrackCount, addr 0x7308b38, size 0x80, virtual false, abstract: false, final false
   inline uint16_t get_audioTrackCount();
 
-  /// @brief Method get_audioTrackCount_Injected, addr 0x72cbc84, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioTrackCount_Injected, addr 0x7308bb8, size 0x3c, virtual false, abstract: false, final false
   static inline uint16_t get_audioTrackCount_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_frameCount, addr 0x72cb624, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_frameCount, addr 0x7308558, size 0x80, virtual false, abstract: false, final false
   inline uint64_t get_frameCount();
 
-  /// @brief Method get_frameCount_Injected, addr 0x72cb6a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_frameCount_Injected, addr 0x73085d8, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t get_frameCount_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_frameRate, addr 0x72cb6e0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_frameRate, addr 0x7308614, size 0x80, virtual false, abstract: false, final false
   inline double_t get_frameRate();
 
-  /// @brief Method get_frameRate_Injected, addr 0x72cb760, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_frameRate_Injected, addr 0x7308694, size 0x3c, virtual false, abstract: false, final false
   static inline double_t get_frameRate_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_height, addr 0x72cb914, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x7308848, size 0x80, virtual false, abstract: false, final false
   inline uint32_t get_height();
 
-  /// @brief Method get_height_Injected, addr 0x72cb994, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_height_Injected, addr 0x73088c8, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t get_height_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_length, addr 0x72cb79c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x73086d0, size 0x80, virtual false, abstract: false, final false
   inline double_t get_length();
 
-  /// @brief Method get_length_Injected, addr 0x72cb81c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_length_Injected, addr 0x7308750, size 0x3c, virtual false, abstract: false, final false
   static inline double_t get_length_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_originalPath, addr 0x72cb4ac, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_originalPath, addr 0x73083e0, size 0x134, virtual false, abstract: false, final false
   inline ::StringW get_originalPath();
 
-  /// @brief Method get_originalPath_Injected, addr 0x72cb5e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_originalPath_Injected, addr 0x7308514, size 0x44, virtual false, abstract: false, final false
   static inline void get_originalPath_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-  /// @brief Method get_pixelAspectRatioDenominator, addr 0x72cba8c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_pixelAspectRatioDenominator, addr 0x73089c0, size 0x80, virtual false, abstract: false, final false
   inline uint32_t get_pixelAspectRatioDenominator();
 
-  /// @brief Method get_pixelAspectRatioDenominator_Injected, addr 0x72cbb0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_pixelAspectRatioDenominator_Injected, addr 0x7308a40, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t get_pixelAspectRatioDenominator_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_pixelAspectRatioNumerator, addr 0x72cb9d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_pixelAspectRatioNumerator, addr 0x7308904, size 0x80, virtual false, abstract: false, final false
   inline uint32_t get_pixelAspectRatioNumerator();
 
-  /// @brief Method get_pixelAspectRatioNumerator_Injected, addr 0x72cba50, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_pixelAspectRatioNumerator_Injected, addr 0x7308984, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t get_pixelAspectRatioNumerator_Injected(::System::IntPtr _unity_self);
 
   /// [NativeName("IssRGB")]
-  /// @brief Method get_sRGB, addr 0x72cbb48, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_sRGB, addr 0x7308a7c, size 0x80, virtual false, abstract: false, final false
   inline bool get_sRGB();
 
-  /// @brief Method get_sRGB_Injected, addr 0x72cbbc8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sRGB_Injected, addr 0x7308afc, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_sRGB_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_width, addr 0x72cb858, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x730878c, size 0x80, virtual false, abstract: false, final false
   inline uint32_t get_width();
 
-  /// @brief Method get_width_Injected, addr 0x72cb8d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_width_Injected, addr 0x730880c, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t get_width_Injected(::System::IntPtr _unity_self);
 
 protected:
@@ -150,7 +150,7 @@ public:
   VideoClip(VideoClip const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23232 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

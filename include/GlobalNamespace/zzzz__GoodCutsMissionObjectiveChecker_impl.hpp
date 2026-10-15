@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GoodCutsMissionObjectiveChecker::*)()>(&::GlobalNamespace::GoodCutsMissionObjectiveChecker::Init)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x5d34cf0;
+  constexpr static std::size_t addrs = 0x5d6f5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GoodCutsMissionObjectiveChecker::*)()>(&::GlobalNamespace::GoodCutsMissionObjectiveChecker::OnDestroy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5d34e3c;
+  constexpr static std::size_t addrs = 0x5d6f6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GoodCutsMissionObjectiveChecker*>(), { "OnDestroy", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GoodCutsMissionObjectiveChecker::*)(
     ::GlobalNamespace::NoteController*, ::by_ref<::GlobalNamespace::NoteCutInfo const>)>(&::GlobalNamespace::GoodCutsMissionObjectiveChecker::HandleNoteWasCut)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5d34ed4;
+  constexpr static std::size_t addrs = 0x5d6f790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GoodCutsMissionObjectiveChecker::*)()>(&::GlobalNamespace::GoodCutsMissionObjectiveChecker::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d34f70;
+  constexpr static std::size_t addrs = 0x5d6f82c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GoodCutsMissionObjectiveChecker*>(), { ".ctor", {}, {} })));

@@ -127,7 +127,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::Audio::ProcessorHeader*, ::UnityEngine::Audio::ControlHeader*, ::UnityEngine::Audio::ProcessorInstance_InitializationFlags)>(
         &::UnityEngine::Audio::IRootOutputProcessorExtensions::InitializeRootOutputHandle)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eace64;
+  constexpr static std::size_t addrs = 0x6ee9b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, void*, ::UnityEngine::Audio::ProcessorInstance_InitializationFlags)>(
     &::UnityEngine::Audio::IRootOutputProcessorExtensions::InternalInitializeRootOutputHandle)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eaceb8;
+  constexpr static std::size_t addrs = 0x6ee9b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

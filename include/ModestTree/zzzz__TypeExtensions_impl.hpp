@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeExtensions___c__DisplayClass36_0::*)()>(&::ModestTree::TypeExtensions___c__DisplayClass36_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72dc850;
+  constexpr static std::size_t addrs = 0x73198b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass36_0*>(), { ".ctor", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::ModestTree::TypeExtensions___c__DisplayClass36_0::*)(::System::Attribute*)>(
     &::ModestTree::TypeExtensions___c__DisplayClass36_0::_AllAttributes_b__0)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x72dcbe8;
+  constexpr static std::size_t addrs = 0x7319c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeExtensions___c__DisplayClass36_1::*)()>(&::ModestTree::TypeExtensions___c__DisplayClass36_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72dccc4;
+  constexpr static std::size_t addrs = 0x7319d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass36_1*>(), { ".ctor", {}, {} })));
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::ModestTree::TypeExtensions___c__DisplayClass36_1::*)(::System::Type*)>(
     &::ModestTree::TypeExtensions___c__DisplayClass36_1::_AllAttributes_b__1)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x72dccc8;
+  constexpr static std::size_t addrs = 0x7319d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeExtensions___c__DisplayClass40_0::*)()>(&::ModestTree::TypeExtensions___c__DisplayClass40_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72dca2c;
+  constexpr static std::size_t addrs = 0x7319a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass40_0*>(), { ".ctor", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::ModestTree::TypeExtensions___c__DisplayClass40_0::*)(::System::Attribute*)>(
     &::ModestTree::TypeExtensions___c__DisplayClass40_0::_AllAttributes_b__0)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x72dcd50;
+  constexpr static std::size_t addrs = 0x7319db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeExtensions___c__DisplayClass40_1::*)()>(&::ModestTree::TypeExtensions___c__DisplayClass40_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72dce2c;
+  constexpr static std::size_t addrs = 0x7319e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions___c__DisplayClass40_1*>(), { ".ctor", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::ModestTree::TypeExtensions___c__DisplayClass40_1::*)(::System::Type*)>(
     &::ModestTree::TypeExtensions___c__DisplayClass40_1::_AllAttributes_b__1)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x72dce30;
+  constexpr static std::size_t addrs = 0x7319e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeExtensions__GetParentTypes_d__29::*)(int32_t)>(&::ModestTree::TypeExtensions__GetParentTypes_d__29::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x72dc4e0;
+  constexpr static std::size_t addrs = 0x7319544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeExtensions__GetParentTypes_d__29::*)()>(
     &::ModestTree::TypeExtensions__GetParentTypes_d__29::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x72dceb8;
+  constexpr static std::size_t addrs = 0x7319f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::ModestTree::TypeExtensions__GetParentTypes_d__29::*)()>(&::ModestTree::TypeExtensions__GetParentTypes_d__29::MoveNext)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x72dced4;
+  constexpr static std::size_t addrs = 0x7319f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__29*>(), { "MoveNext", {}, {} })));
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeExtensions__GetParentTypes_d__29::*)()>(&::ModestTree::TypeExtensions__GetParentTypes_d__29::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x72dd348;
+  constexpr static std::size_t addrs = 0x731a3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions__GetParentTypes_d__29*>(), { "<>m__Finally1", {}, {} })));
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::ModestTree::TypeExtensions__GetParentTypes_d__29::*)()>(
     &::ModestTree::TypeExtensions__GetParentTypes_d__29::System_Collections_Generic_IEnumerator_System_Type__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72dd3fc;
+  constexpr static std::size_t addrs = 0x731a460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ModestTree::TypeExtensions__GetParentTypes_d__29::*)()>(
     &::ModestTree::TypeExtensions__GetParentTypes_d__29::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x72dd404;
+  constexpr static std::size_t addrs = 0x731a468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::ModestTree::TypeExtensions__GetParentTypes_d__29::*)()>(
     &::ModestTree::TypeExtensions__GetParentTypes_d__29::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72dd43c;
+  constexpr static std::size_t addrs = 0x731a4a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>* (::ModestTree::TypeExtensions__GetParentTypes_d__29::*)()>(
     &::ModestTree::TypeExtensions__GetParentTypes_d__29::System_Collections_Generic_IEnumerable_System_Type__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x72dd444;
+  constexpr static std::size_t addrs = 0x731a4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::ModestTree::TypeExtensions__GetParentTypes_d__29::*)()>(
     &::ModestTree::TypeExtensions__GetParentTypes_d__29::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72dd4dc;
+  constexpr static std::size_t addrs = 0x731a540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -521,7 +521,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::ModestTree::TypeExtensions::NoDomainReloadInit)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x72dbaec;
+  constexpr static std::size_t addrs = 0x7318b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "NoDomainReloadInit", {}, {} })));
@@ -533,7 +533,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::ModestTree::TypeExtensions::DerivesFrom)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x72da128;
+  constexpr static std::size_t addrs = 0x731718c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -546,7 +546,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::ModestTree::TypeExtensions::DerivesFromOrEqual)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x72da374;
+  constexpr static std::size_t addrs = 0x73173d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -560,7 +560,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::ModestTree::TypeExtensions::IsAssignableToGenericType)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x72dbcb4;
+  constexpr static std::size_t addrs = 0x7318d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -574,7 +574,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsEnum)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x72dbf90;
+  constexpr static std::size_t addrs = 0x7318ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ModestTree::TypeExtensions*>(), { "IsEnum", {}, { ::i2c::type_of<::System::Type*>() } })));
@@ -586,7 +586,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsValueType)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x72dbfac;
+  constexpr static std::size_t addrs = 0x7319010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -599,7 +599,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::MethodInfo*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::DeclaredInstanceMethods)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x72dc0d8;
+  constexpr static std::size_t addrs = 0x731913c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -612,7 +612,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::PropertyInfo*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::DeclaredInstanceProperties)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x72dc0f8;
+  constexpr static std::size_t addrs = 0x731915c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -625,7 +625,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::FieldInfo*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::DeclaredInstanceFields)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x72dc118;
+  constexpr static std::size_t addrs = 0x731917c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -638,7 +638,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (*)(::System::Type*)>(&::ModestTree::TypeExtensions::BaseType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x72dc138;
+  constexpr static std::size_t addrs = 0x731919c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -651,7 +651,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsGenericType)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x72dc154;
+  constexpr static std::size_t addrs = 0x73191b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -664,7 +664,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsGenericTypeDefinition)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x72dc170;
+  constexpr static std::size_t addrs = 0x73191d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -677,7 +677,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsPrimitive)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x72dc18c;
+  constexpr static std::size_t addrs = 0x73191f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -690,7 +690,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsInterface)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x72dc1a8;
+  constexpr static std::size_t addrs = 0x731920c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -703,7 +703,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::ContainsGenericParameters)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x72dc1bc;
+  constexpr static std::size_t addrs = 0x7319220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -716,7 +716,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsAbstract)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x72dc1d8;
+  constexpr static std::size_t addrs = 0x731923c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -729,7 +729,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsSealed)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x72dc200;
+  constexpr static std::size_t addrs = 0x7319264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -742,7 +742,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Delegate*)>(&::ModestTree::TypeExtensions::Method)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x72dc228;
+  constexpr static std::size_t addrs = 0x731928c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -755,7 +755,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::GenericArguments)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x72dc240;
+  constexpr static std::size_t addrs = 0x73192a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -768,7 +768,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Type*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::Interfaces)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x72dbe6c;
+  constexpr static std::size_t addrs = 0x7318ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -781,7 +781,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Reflection::ConstructorInfo*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::Constructors)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x72dc25c;
+  constexpr static std::size_t addrs = 0x73192c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -794,7 +794,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Type*)>(&::ModestTree::TypeExtensions::GetDefaultValue)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x72dc27c;
+  constexpr static std::size_t addrs = 0x73192e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -807,7 +807,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsClosedGenericType)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x72dc2f8;
+  constexpr static std::size_t addrs = 0x731935c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -820,7 +820,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>* (*)(::System::Type*)>(&::ModestTree::TypeExtensions::GetParentTypes)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x72dc470;
+  constexpr static std::size_t addrs = 0x73194d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -833,7 +833,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsOpenGenericType)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x72dc500;
+  constexpr static std::size_t addrs = 0x7319564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -846,7 +846,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::ArrayW<::System::Type*>)>(&::ModestTree::TypeExtensions::HasAttribute)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x72dc678;
+  constexpr static std::size_t addrs = 0x73196dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -861,7 +861,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* (*)(::System::Reflection::MemberInfo*, ::ArrayW<::System::Type*>)>(
     &::ModestTree::TypeExtensions::AllAttributes)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x72dc700;
+  constexpr static std::size_t addrs = 0x7319764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -875,7 +875,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::ParameterInfo*, ::ArrayW<::System::Type*>)>(&::ModestTree::TypeExtensions::HasAttribute)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x72dc854;
+  constexpr static std::size_t addrs = 0x73198b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -890,7 +890,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* (*)(::System::Reflection::ParameterInfo*, ::ArrayW<::System::Type*>)>(
     &::ModestTree::TypeExtensions::AllAttributes)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x72dc8dc;
+  constexpr static std::size_t addrs = 0x7319940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

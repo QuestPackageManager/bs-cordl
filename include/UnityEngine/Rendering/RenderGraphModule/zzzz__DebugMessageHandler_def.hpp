@@ -108,7 +108,7 @@ public:
   static ::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_MessageType const DebugData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9274 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9281 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -144,10 +144,10 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6bf3280, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2fefc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isCompatible, addr 0x6bf30c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isCompatible, addr 0x6c2fd3c, size 0x10, virtual false, abstract: false, final false
   inline bool get_isCompatible();
 
 protected:
@@ -165,7 +165,7 @@ public:
   DebugMessageHandler_IPayload(DebugMessageHandler_IPayload const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9275 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9282 };
 
   /// @brief Field version, offset: 0x10, size: 0x4, def value: None
   int32_t ___version;
@@ -214,7 +214,7 @@ public:
 
   constexpr void __cordl_internal_set_graphName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bf30bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2fd38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -232,7 +232,7 @@ public:
   DebugMessageHandler_DebugDataPayload(DebugMessageHandler_DebugDataPayload const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9276 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9283 };
 
   /// @brief Field graphName, offset: 0x18, size: 0x8, def value: None
   ::StringW ___graphName;
@@ -309,7 +309,7 @@ public:
 
   constexpr void __cordl_internal_set_graphicsDeviceType(::UnityEngine::Rendering::GraphicsDeviceType value);
 
-  /// @brief Method .ctor, addr 0x6bf3138, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2fdb4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -327,7 +327,7 @@ public:
   DebugMessageHandler_AnalyticsPayload(DebugMessageHandler_AnalyticsPayload const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9277 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9284 };
 
   /// @brief Field graphicsDeviceType, offset: 0x14, size: 0x4, def value: None
   ::UnityEngine::Rendering::GraphicsDeviceType ___graphicsDeviceType;
@@ -386,27 +386,27 @@ public:
   /// @brief Field s_PlayerToEditorGuid, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_s_PlayerToEditorGuid, put = setStaticF_s_PlayerToEditorGuid)) ::System::Guid s_PlayerToEditorGuid;
 
-  /// @brief Method DeserializeMessage, addr 0x6bf22d4, size 0x5c0, virtual false, abstract: false, final false
+  /// @brief Method DeserializeMessage, addr 0x6c2ef50, size 0x5c0, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_MessageType, ::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_IPayload*>
   DeserializeMessage(::ArrayW<uint8_t> data);
 
-  /// @brief Method InternalCallback, addr 0x6bf223c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method InternalCallback, addr 0x6c2eeb8, size 0x98, virtual false, abstract: false, final false
   inline void InternalCallback(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* msg);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler* New_ctor();
 
-  /// @brief Method Register, addr 0x6bf2894, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x6c2f510, size 0xe8, virtual false, abstract: false, final false
   inline void
   Register(::System::Action_2<::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_MessageType, ::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_IPayload*>* callback);
 
-  /// @brief Method Send, addr 0x6bf2a5c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x6c2f6d8, size 0xa4, virtual false, abstract: false, final false
   inline void Send(::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_MessageType messageType, ::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_IPayload* payload);
 
-  /// @brief Method SerializeMessage, addr 0x6bf2b00, size 0x598, virtual false, abstract: false, final false
+  /// @brief Method SerializeMessage, addr 0x6c2f77c, size 0x598, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> SerializeMessage(::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_MessageType type,
                                                    ::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_IPayload* payload);
 
-  /// @brief Method UnregisterAll, addr 0x6bf297c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method UnregisterAll, addr 0x6c2f5f8, size 0xe0, virtual false, abstract: false, final false
   inline void UnregisterAll();
 
   constexpr ::System::Action_2<::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_MessageType, ::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_IPayload*>* const&
@@ -418,7 +418,7 @@ public:
   constexpr void __cordl_internal_set_m_UserCallback(
       ::System::Action_2<::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_MessageType, ::UnityEngine::Rendering::RenderGraphModule::DebugMessageHandler_IPayload*>* value);
 
-  /// @brief Method .ctor, addr 0x6bf31b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2fe34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Guid getStaticF_s_EditorToPlayerGuid();
@@ -444,7 +444,7 @@ public:
   DebugMessageHandler(DebugMessageHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9278 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9285 };
 
   /// @brief Field k_Version offset 0xffffffff size 0x4
   static constexpr int32_t k_Version{ static_cast<int32_t>(0x1) };

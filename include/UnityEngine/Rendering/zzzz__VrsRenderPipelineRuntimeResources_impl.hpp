@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::*)()>(
     &::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bf03cc;
+  constexpr static std::size_t addrs = 0x6c2d048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::*)()>(
     &::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bf03d4;
+  constexpr static std::size_t addrs = 0x6c2d050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ComputeShader> (::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::*)()>(
     &::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::get_textureComputeShader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bf03dc;
+  constexpr static std::size_t addrs = 0x6c2d058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::*)(::UnityEngine::ComputeShader*)>(
     &::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::set_textureComputeShader)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6bf03e4;
+  constexpr static std::size_t addrs = 0x6c2d060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::*)()>(
     &::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::get_visualizationShader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bf0454;
+  constexpr static std::size_t addrs = 0x6c2d0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::set_visualizationShader)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6bf045c;
+  constexpr static std::size_t addrs = 0x6c2d0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources*>(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::VrsLut* (::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::*)()>(
     &::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::get_visualizationLookupTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bf04cc;
+  constexpr static std::size_t addrs = 0x6c2d148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::*)(::UnityEngine::Rendering::VrsLut*)>(
     &::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::set_visualizationLookupTable)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6bf04d4;
+  constexpr static std::size_t addrs = 0x6c2d150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources*>(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::VrsLut* (::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::*)()>(
     &::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::get_conversionLookupTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bf0544;
+  constexpr static std::size_t addrs = 0x6c2d1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::*)(::UnityEngine::Rendering::VrsLut*)>(
     &::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::set_conversionLookupTable)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6bf054c;
+  constexpr static std::size_t addrs = 0x6c2d1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources*>(),
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::*)()>(&::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6bf05bc;
+  constexpr static std::size_t addrs = 0x6c2d238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources*>(), { ".ctor", {}, {} })));

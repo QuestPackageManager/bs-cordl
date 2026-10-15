@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_zTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x5daa9ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de7c20, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform, ::UnityEngine::Transform* zTransform,
                     ::GlobalNamespace::CompositeTransformMode transformMode);
 
@@ -149,7 +149,7 @@ public:
   LightRotationEventHandler_InitData(LightRotationEventHandler_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5960 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5961 };
 
   /// @brief Field xMirrored, offset: 0x10, size: 0x1, def value: None
   bool ___xMirrored;
@@ -233,27 +233,30 @@ public:
   /// @brief Field _zRotationTween, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__zRotationTween, put = __cordl_internal_set__zRotationTween)) ::Tweening::FloatTween* _zRotationTween;
 
-  /// @brief Method Cleanup, addr 0x5daa3e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ApplyCurrentRotation, addr 0x5debae8, size 0x66c, virtual false, abstract: false, final false
+  inline void ApplyCurrentRotation();
+
+  /// @brief Method Cleanup, addr 0x5de765c, size 0x8c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method ComputeTargetAngle, addr 0x5dae898, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ComputeTargetAngle, addr 0x5deba14, size 0xd0, virtual false, abstract: false, final false
   static inline float_t ComputeTargetAngle(float_t startAngle, float_t targetAngle, int32_t loopCount, ::GlobalNamespace::LightRotationDirection rotationOrientation);
 
-  /// @brief Method HandleRotationEvent, addr 0x5dace00, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method HandleRotationEvent, addr 0x5dea074, size 0x48, virtual false, abstract: false, final false
   inline void HandleRotationEvent(::GlobalNamespace::LightRotationBeatmapEventData* currentEventData);
 
-  /// @brief Method MaybeMirror, addr 0x5daefd4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method MaybeMirror, addr 0x5dec154, size 0x10, virtual false, abstract: false, final false
   static inline float_t MaybeMirror(float_t value, bool mirrored);
 
   static inline ::GlobalNamespace::LightRotationEventHandler* New_ctor(::GlobalNamespace::LightRotationEventHandler_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager);
 
-  /// @brief Method ProcessAxisEvent, addr 0x5dae730, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ProcessAxisEvent, addr 0x5deb8ac, size 0x148, virtual false, abstract: false, final false
   inline void ProcessAxisEvent(::Tweening::FloatTween* rotationTween, ::GlobalNamespace::LightRotationBeatmapEventData* currentEventData);
 
-  /// @brief Method SetRotation, addr 0x5dae968, size 0x66c, virtual false, abstract: false, final false
+  /// @brief Method SetRotation, addr 0x5debae4, size 0x4, virtual false, abstract: false, final false
   inline void SetRotation(float_t _);
 
-  /// @brief Method SetTweenData, addr 0x5dae878, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetTweenData, addr 0x5deb9f4, size 0x20, virtual false, abstract: false, final false
   static inline void SetTweenData(::Tweening::FloatTween* tween, float_t from, float_t to, float_t startTime, float_t endTime, ::GlobalNamespace::EaseType easeType);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* const& __cordl_internal_get__baseRotations() const;
@@ -316,7 +319,7 @@ public:
 
   constexpr void __cordl_internal_set__zRotationTween(::Tweening::FloatTween* value);
 
-  /// @brief Method .ctor, addr 0x5daa9c8, size 0xd48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de7c3c, size 0xd48, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightRotationEventHandler_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager);
 
 protected:
@@ -334,7 +337,7 @@ public:
   LightRotationEventHandler(LightRotationEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5961 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5962 };
 
   /// @brief Field _tweeningManager, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____tweeningManager;

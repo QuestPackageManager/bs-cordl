@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Delegate* (::System::ComponentModel::EventHandlerList::*)(::System::Object*)>(&::System::ComponentModel::EventHandlerList::get_Item)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67dce50;
+  constexpr static std::size_t addrs = 0x6819a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::EventHandlerList_ListEntry* (::System::ComponentModel::EventHandlerList::*)(::System::Object*)>(
     &::System::ComponentModel::EventHandlerList::Find)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x67dceac;
+  constexpr static std::size_t addrs = 0x6819af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

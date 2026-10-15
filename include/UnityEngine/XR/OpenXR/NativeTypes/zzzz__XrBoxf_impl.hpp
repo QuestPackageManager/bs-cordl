@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef (::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf::get_center)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e48bc8;
+  constexpr static std::size_t addrs = 0x6e85864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf>(), { "get_center", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrExtent3Df (::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf::get_extents)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e48bdc;
+  constexpr static std::size_t addrs = 0x6e85878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf>(), { "get_extents", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf::*)(
     ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef, ::UnityEngine::XR::OpenXR::NativeTypes::XrExtent3Df)>(&::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6e48be8;
+  constexpr static std::size_t addrs = 0x6e85884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf::*)(::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf::Equals)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6e48c0c;
+  constexpr static std::size_t addrs = 0x6e858a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf::*)(::System::Object*)>(&::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6e48d4c;
+  constexpr static std::size_t addrs = 0x6e859e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf::*)()>(&::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf::GetHashCode)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6e48de0;
+  constexpr static std::size_t addrs = 0x6e85a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

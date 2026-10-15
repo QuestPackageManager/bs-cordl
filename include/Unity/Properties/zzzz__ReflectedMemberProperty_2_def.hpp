@@ -87,7 +87,7 @@ public:
   ReflectedMemberProperty_2_GetStructValueAction(ReflectedMemberProperty_2_GetStructValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20764 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -125,7 +125,7 @@ public:
   ReflectedMemberProperty_2_SetStructValueAction(ReflectedMemberProperty_2_SetStructValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20765 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -163,7 +163,7 @@ public:
   ReflectedMemberProperty_2_GetClassValueAction(ReflectedMemberProperty_2_GetClassValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20719 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20766 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -201,7 +201,7 @@ public:
   ReflectedMemberProperty_2_SetClassValueAction(ReflectedMemberProperty_2_SetClassValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20767 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -338,7 +338,7 @@ public:
   ReflectedMemberProperty_2(ReflectedMemberProperty_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20768 };
 
   /// @brief Field m_Info, offset: 0x18, size: 0x8, def value: None
   ::Unity::Properties::IMemberInfo* ___m_Info;

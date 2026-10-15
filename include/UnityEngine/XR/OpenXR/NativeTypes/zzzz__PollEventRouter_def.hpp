@@ -53,35 +53,35 @@ public:
   /// @brief Field s_XrPollEventCallback, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_XrPollEventCallback, put = setStaticF_s_XrPollEventCallback)) ::System::IntPtr s_XrPollEventCallback;
 
-  /// @brief Method ClearAllState, addr 0x6e3d144, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method ClearAllState, addr 0x6e79de0, size 0x19c, virtual false, abstract: false, final false
   static inline void ClearAllState(::UnityEngine::XR::OpenXR::OpenXRLoaderBase* _);
 
-  /// @brief Method Internal_RegisterPollEventCallback, addr 0x6e3cf2c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_RegisterPollEventCallback, addr 0x6e79bc8, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_RegisterPollEventCallback(::System::IntPtr callback);
 
-  /// @brief Method Internal_UnregisterPollEventCallback, addr 0x6e3d0e0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_UnregisterPollEventCallback, addr 0x6e79d7c, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_UnregisterPollEventCallback();
 
   /// [MonoPInvokeCallback(typeof(UnityEngine.XR.OpenXR.NativeTypes.XrPollEventCallback))]
-  /// @brief Method OnXrPollEvent, addr 0x6e3caec, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method OnXrPollEvent, addr 0x6e79788, size 0x254, virtual false, abstract: false, final false
   static inline void OnXrPollEvent(::UnityEngine::XR::OpenXR::NativeTypes::XrEventDataBaseHeader* eventData);
 
-  /// @brief Method RegisterNativeCallback, addr 0x6e3cde8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method RegisterNativeCallback, addr 0x6e79a84, size 0x144, virtual false, abstract: false, final false
   static inline void RegisterNativeCallback();
 
-  /// @brief Method TrySubscribeToAllEvents, addr 0x6e3d2e0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method TrySubscribeToAllEvents, addr 0x6e79f7c, size 0xd4, virtual false, abstract: false, final false
   static inline bool TrySubscribeToAllEvents(::UnityEngine::XR::OpenXR::NativeTypes::XrPollEventCallback* callback);
 
-  /// @brief Method TrySubscribeToEventType, addr 0x6e3d3b4, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method TrySubscribeToEventType, addr 0x6e7a050, size 0x1bc, virtual false, abstract: false, final false
   static inline bool TrySubscribeToEventType(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType eventType, ::UnityEngine::XR::OpenXR::NativeTypes::XrPollEventCallback* callback);
 
-  /// @brief Method TryUnsubscribeFromAllEvents, addr 0x6e3d570, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method TryUnsubscribeFromAllEvents, addr 0x6e7a20c, size 0xc4, virtual false, abstract: false, final false
   static inline bool TryUnsubscribeFromAllEvents(::UnityEngine::XR::OpenXR::NativeTypes::XrPollEventCallback* callback);
 
-  /// @brief Method TryUnsubscribeFromEventType, addr 0x6e3d634, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method TryUnsubscribeFromEventType, addr 0x6e7a2d0, size 0x170, virtual false, abstract: false, final false
   static inline bool TryUnsubscribeFromEventType(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType eventType, ::UnityEngine::XR::OpenXR::NativeTypes::XrPollEventCallback* callback);
 
-  /// @brief Method UnregisterNativeCallback, addr 0x6e3cfa8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method UnregisterNativeCallback, addr 0x6e79c44, size 0x138, virtual false, abstract: false, final false
   static inline void UnregisterNativeCallback();
 
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::XR::OpenXR::NativeTypes::XrPollEventCallback*>* getStaticF_s_SubscribersToAllEvents();
@@ -92,7 +92,7 @@ public:
 
   static inline ::System::IntPtr getStaticF_s_XrPollEventCallback();
 
-  /// @brief Method get_numSubscribersToEventReceived, addr 0x6e3cd40, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_numSubscribersToEventReceived, addr 0x6e799dc, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t get_numSubscribersToEventReceived();
 
   static inline void setStaticF_s_SubscribersToAllEvents(::System::Collections::Generic::HashSet_1<::UnityEngine::XR::OpenXR::NativeTypes::XrPollEventCallback*>* value);
@@ -118,7 +118,7 @@ public:
   PollEventRouter(PollEventRouter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17539 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

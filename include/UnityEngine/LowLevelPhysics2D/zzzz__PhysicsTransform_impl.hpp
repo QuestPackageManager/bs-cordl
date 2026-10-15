@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsTransform::*)()>(&::UnityEngine::LowLevelPhysics2D::PhysicsTransform::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6fd4d78;
+  constexpr static std::size_t addrs = 0x7011c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsTransform>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsTransform::*)(
     ::by_ref<::UnityEngine::Vector2>, ::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRotate>)>(&::UnityEngine::LowLevelPhysics2D::PhysicsTransform::GetPositionAndRotation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6fd4e58;
+  constexpr static std::size_t addrs = 0x7011d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::LowLevelPhysics2D::PhysicsTransform::*)()>(&::UnityEngine::LowLevelPhysics2D::PhysicsTransform::ToString)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6fd4e6c;
+  constexpr static std::size_t addrs = 0x7011d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

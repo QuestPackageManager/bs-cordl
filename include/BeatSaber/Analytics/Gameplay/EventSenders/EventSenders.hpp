@@ -14,9 +14,12 @@ module;
 #include "BeatSaber/Analytics/Gameplay/EventSenders/IBeatmapAttemptEventSender.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/IBlockLevelGameplayEventSender.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/IHMDSessionEventSender.hpp"
+#include "BeatSaber/Analytics/Gameplay/EventSenders/ISettingsEventSender.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/NoopBeatmapAttemptEventSender.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/NoopBlockLevelGameplayEventSender.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/NoopHMDSessionEventSender.hpp"
+#include "BeatSaber/Analytics/Gameplay/EventSenders/NoopSettingsEventSender.hpp"
+#include "BeatSaber/Analytics/Gameplay/EventSenders/SettingsEventSender.hpp"
 #ifdef __cpp_modules
 export module EventSenders;
 #endif

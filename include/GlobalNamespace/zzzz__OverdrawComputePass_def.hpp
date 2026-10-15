@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set_width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6367940, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a4418, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -117,7 +117,7 @@ public:
   OverdrawComputePass_PassData(OverdrawComputePass_PassData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21206 };
 
   /// @brief Field colorTexture, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___colorTexture;
@@ -163,10 +163,10 @@ public:
 
   static inline ::GlobalNamespace::OverdrawComputePass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__4_0, addr 0x636799c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__4_0, addr 0x63a4474, size 0xc, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__4_0(::GlobalNamespace::OverdrawComputePass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method .ctor, addr 0x6367998, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a4470, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OverdrawComputePass___c* getStaticF___9();
@@ -194,7 +194,7 @@ public:
   OverdrawComputePass___c(OverdrawComputePass___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21207 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -218,15 +218,15 @@ public:
       get = __cordl_internal_get__recordOverdrawCompute,
       put = __cordl_internal_set__recordOverdrawCompute)) ::System::Action_4<::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, int32_t, int32_t>* _recordOverdrawCompute;
 
-  /// @brief Method Execute, addr 0x6367850, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x63a4328, size 0xf0, virtual false, abstract: false, final false
   static inline void Execute(::GlobalNamespace::OverdrawComputePass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
   static inline ::GlobalNamespace::OverdrawComputePass* New_ctor();
 
-  /// @brief Method RecordRenderGraph, addr 0x6367294, size 0x5bc, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x63a3d6c, size 0x5bc, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method Setup, addr 0x636728c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x63a3d64, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::System::Action_4<::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, int32_t, int32_t>* recordOverdrawCompute);
 
   constexpr ::System::Action_4<::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, int32_t, int32_t>* const& __cordl_internal_get__recordOverdrawCompute() const;
@@ -235,7 +235,7 @@ public:
 
   constexpr void __cordl_internal_set__recordOverdrawCompute(::System::Action_4<::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, int32_t, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x63671c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a3ca0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -253,7 +253,7 @@ public:
   OverdrawComputePass(OverdrawComputePass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21161 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21208 };
 
   /// @brief Field _recordOverdrawCompute, offset: 0x60, size: 0x8, def value: None
   ::System::Action_4<::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RTHandle*, int32_t, int32_t>* ____recordOverdrawCompute;

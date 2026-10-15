@@ -32,16 +32,16 @@ public:
 
   __declspec(property(get = get_width)) int32_t width;
 
-  /// @brief Method ToString, addr 0x6ee0614, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f1d2b0, size 0xe8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_height, addr 0x6ee0604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x6f1d2a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method get_refreshRateRatio, addr 0x6ee060c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_refreshRateRatio, addr 0x6f1d2a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::RefreshRate get_refreshRateRatio();
 
-  /// @brief Method get_width, addr 0x6ee05fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x6f1d298, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
   // Ctor Parameters []
@@ -53,7 +53,7 @@ public:
   constexpr Resolution(int32_t m_Width, int32_t m_Height, ::UnityEngine::RefreshRate m_RefreshRate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9738 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -80,52 +80,52 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TextAutoSize>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TextAutoSize>*();
 
-  /// @brief Method Equals, addr 0x7134ff0, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7171f24, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x7134f84, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7171eb8, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TextAutoSize other);
 
-  /// @brief Method GetHashCode, addr 0x71350bc, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7171ff0, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method None, addr 0x7134f70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x7171ea4, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TextAutoSize None();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_maxSize, addr 0x7134f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxSize, addr 0x7171e94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_maxSize();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_minSize, addr 0x7134f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minSize, addr 0x7171e84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_minSize();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_mode, addr 0x7134f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x7171e74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextAutoSizeMode get_mode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TextAutoSize>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TextAutoSize>* i___System__IEquatable_1___UnityEngine__UIElements__TextAutoSize_();
 
-  /// @brief Method op_Equality, addr 0x7135124, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x7172058, size 0x6c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TextAutoSize left, ::UnityEngine::UIElements::TextAutoSize right);
 
-  /// @brief Method op_Inequality, addr 0x7135190, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x71720c4, size 0x6c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TextAutoSize left, ::UnityEngine::UIElements::TextAutoSize right);
 
   /// [CompilerGenerated]
-  /// @brief Method set_maxSize, addr 0x7134f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxSize, addr 0x7171e9c, size 0x8, virtual false, abstract: false, final false
   inline void set_maxSize(::UnityEngine::UIElements::Length value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_minSize, addr 0x7134f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minSize, addr 0x7171e8c, size 0x8, virtual false, abstract: false, final false
   inline void set_minSize(::UnityEngine::UIElements::Length value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_mode, addr 0x7134f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mode, addr 0x7171e7c, size 0x8, virtual false, abstract: false, final false
   inline void set_mode(::UnityEngine::UIElements::TextAutoSizeMode value);
 
   // Ctor Parameters []
@@ -188,12 +188,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x7135488, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x71723bc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::TextAutoSizeMode GetValue(::by_ref<::UnityEngine::UIElements::TextAutoSize> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_TextAutoSize_ModeProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x7135490, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x71723c4, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::TextAutoSize> container, ::UnityEngine::UIElements::TextAutoSizeMode value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -208,15 +208,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x713534c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7172280, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x7135480, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x71723b4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x7135478, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x71723ac, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -273,12 +273,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x71354a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x71723dc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::Length GetValue(::by_ref<::UnityEngine::UIElements::TextAutoSize> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_TextAutoSize_MinSizeProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x71354b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x71723e4, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::TextAutoSize> container, ::UnityEngine::UIElements::Length value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -293,15 +293,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x71353b0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71722e4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x71354a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x71723d4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x7135498, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x71723cc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -358,12 +358,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x71354c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x71723fc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::Length GetValue(::by_ref<::UnityEngine::UIElements::TextAutoSize> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_TextAutoSize_MaxSizeProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x71354d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7172404, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::TextAutoSize> container, ::UnityEngine::UIElements::Length value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -378,15 +378,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x7135414, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7172348, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x71354c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x71723f4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x71354b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x71723ec, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -441,7 +441,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TextAutoSize_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x71351fc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7172130, size 0x150, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

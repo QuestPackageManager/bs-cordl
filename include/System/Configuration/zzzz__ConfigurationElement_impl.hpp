@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (::System::Configuration::ConfigurationElement::*)()>(
     &::System::Configuration::ConfigurationElement::get_Properties)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6373784;
+  constexpr static std::size_t addrs = 0x63b0354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Configuration::ConfigurationElement::*)()>(&::System::Configuration::ConfigurationElement::IsModified)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x63737c0;
+  constexpr static std::size_t addrs = 0x63b0390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Configuration::ConfigurationElement::*)(::System::Configuration::ConfigurationElement*)>(
     &::System::Configuration::ConfigurationElement::Reset)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x63737fc;
+  constexpr static std::size_t addrs = 0x63b03cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Configuration::ConfigurationElement::*)()>(&::System::Configuration::ConfigurationElement::ResetModified)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6373838;
+  constexpr static std::size_t addrs = 0x63b0408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

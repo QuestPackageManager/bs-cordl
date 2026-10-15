@@ -134,7 +134,7 @@ public:
 
   constexpr void __cordl_internal_set_requestTimeoutMsOverride(int32_t value);
 
-  /// @brief Method .ctor, addr 0x351cc34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x353d5a8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW endpoint, bool autoInitialize, int32_t requestTimeoutMsOverride);
 
 protected:
@@ -152,7 +152,7 @@ public:
   GraphQLClientProvider_Settings(GraphQLClientProvider_Settings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23528 };
 
   /// @brief Field endpoint, offset: 0x10, size: 0x8, def value: None
   ::StringW ___endpoint;
@@ -186,11 +186,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x351cc44, size 0xad8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x353d5b8, size 0xad8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x351d71c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x353e090, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -210,7 +210,7 @@ public:
                                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23529 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -262,11 +262,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x351d788, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x353e0fc, size 0x200, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x351d988, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x353e2fc, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -285,7 +285,7 @@ public:
                                                          ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23530 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -395,30 +395,30 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x351c7e8, size 0x190, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x353d15c, size 0x190, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleMetaApiUserAgentValueDidChange, addr 0x351ca5c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method HandleMetaApiUserAgentValueDidChange, addr 0x353d3d0, size 0x1a4, virtual false, abstract: false, final false
   inline void HandleMetaApiUserAgentValueDidChange();
 
   /// [AsyncStateMachine(typeof(BeatSaber.GraphQL.GraphQLClientProvider::<InitializationTask>d__27))]
-  /// @brief Method InitializationTask, addr 0x351c5f0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method InitializationTask, addr 0x353cf64, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializationTask(::System::Threading::CancellationToken ctx);
 
-  /// @brief Method Initialize, addr 0x351c6b0, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x353d024, size 0x138, virtual true, abstract: false, final true
   inline void Initialize();
 
   /// [AsyncStateMachine(typeof(BeatSaber.GraphQL.GraphQLClientProvider::<InitializeAsync>d__26))]
-  /// @brief Method InitializeAsync, addr 0x351c52c, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method InitializeAsync, addr 0x353cea0, size 0xc4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* InitializeAsync(::System::Threading::CancellationToken ctx);
 
   static inline ::BeatSaber::GraphQL::GraphQLClientProvider* New_ctor();
 
-  /// @brief Method Tick, addr 0x351c978, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x353d2ec, size 0xe4, virtual true, abstract: false, final true
   inline void Tick();
 
   /// [CompilerGenerated]
-  /// @brief Method <Initialize>b__28_0, addr 0x351cc00, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__28_0, addr 0x353d574, size 0x34, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _Initialize_b__28_0();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* const& __cordl_internal_get__customAppHeaders() const;
@@ -499,26 +499,26 @@ public:
 
   constexpr void __cordl_internal_set_initializationDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x351c480, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x353cdf4, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_globalRequestFailureEvent, addr 0x351c2e8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_globalRequestFailureEvent, addr 0x353cc5c, size 0xc0, virtual true, abstract: false, final true
   inline void add_globalRequestFailureEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_globalRequestSucceededEvent, addr 0x351c168, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_globalRequestSucceededEvent, addr 0x353cadc, size 0xc0, virtual true, abstract: false, final true
   inline void add_globalRequestSucceededEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_initializationDidFinishEvent, addr 0x351c010, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_initializationDidFinishEvent, addr 0x353c984, size 0xac, virtual true, abstract: false, final true
   inline void add_initializationDidFinishEvent(::System::Action* value);
 
-  /// @brief Method get_graphQLClient, addr 0x351c468, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_graphQLClient, addr 0x353cddc, size 0x8, virtual true, abstract: false, final true
   inline ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* get_graphQLClient();
 
   /// [CompilerGenerated]
-  /// @brief Method get_initializationState, addr 0x351c470, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_initializationState, addr 0x353cde4, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::GraphQL::BSClientProviderInitializationState get_initializationState();
 
   /// @brief Convert to "::BeatSaber::GraphQL::IGraphQLClientProvider"
@@ -534,19 +534,19 @@ public:
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_globalRequestFailureEvent, addr 0x351c3a8, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_globalRequestFailureEvent, addr 0x353cd1c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_globalRequestFailureEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_globalRequestSucceededEvent, addr 0x351c228, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_globalRequestSucceededEvent, addr 0x353cb9c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_globalRequestSucceededEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_initializationDidFinishEvent, addr 0x351c0bc, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_initializationDidFinishEvent, addr 0x353ca30, size 0xac, virtual true, abstract: false, final true
   inline void remove_initializationDidFinishEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_initializationState, addr 0x351c478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_initializationState, addr 0x353cdec, size 0x8, virtual false, abstract: false, final false
   inline void set_initializationState(::BeatSaber::GraphQL::BSClientProviderInitializationState value);
 
 protected:
@@ -564,7 +564,7 @@ public:
   GraphQLClientProvider(GraphQLClientProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23531 };
 
   /// [Inject]
   /// @brief Field _settings, offset: 0x10, size: 0x8, def value: None

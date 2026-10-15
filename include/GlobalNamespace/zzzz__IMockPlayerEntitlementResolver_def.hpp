@@ -1,0 +1,44 @@
+#pragma once
+// IWYU pragma private; include "GlobalNamespace/IMockPlayerEntitlementResolver.hpp"
+#include "beatsaber-hook/shared/types.hpp"
+#include "../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/stringw.hpp"
+CORDL_MODULE_EXPORT(IMockPlayerEntitlementResolver)
+namespace GlobalNamespace {
+struct EntitlementsStatus;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+// Forward declare root types
+namespace GlobalNamespace {
+class IMockPlayerEntitlementResolver;
+}
+// Write type traits
+MARK_REF_T(::GlobalNamespace::IMockPlayerEntitlementResolver*);
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::IMockPlayerEntitlementResolver*, "", "IMockPlayerEntitlementResolver");
+// Dependencies
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: IMockPlayerEntitlementResolver
+class CORDL_TYPE IMockPlayerEntitlementResolver {
+public:
+  // Declarations
+  /// @brief Method GetLevelEntitlementStatusAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* GetLevelEntitlementStatusAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
+
+  // Ctor Parameters [CppParam { name: "", ty: "IMockPlayerEntitlementResolver", modifiers: "const&", def_value: None, comment: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  IMockPlayerEntitlementResolver(IMockPlayerEntitlementResolver const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23048 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace GlobalNamespace

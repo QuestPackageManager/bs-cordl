@@ -22,7 +22,7 @@ namespace UnityEngine {
 struct CORDL_TYPE MeshLodRange {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x6f0dfac, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f4ac48, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -34,7 +34,7 @@ public:
   constexpr MeshLodRange(uint32_t m_IndexStart, uint32_t m_IndexCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9814 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

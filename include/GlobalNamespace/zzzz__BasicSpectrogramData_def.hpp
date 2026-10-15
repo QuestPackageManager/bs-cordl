@@ -11,6 +11,9 @@ CORDL_MODULE_EXPORT(BasicSpectrogramData)
 namespace GlobalNamespace {
 class DeterminismConfig;
 }
+namespace GlobalNamespace {
+class TimeHelper;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -36,39 +39,42 @@ public:
 
   __declspec(property(get = get_Samples)) ::ArrayW<float_t> Samples;
 
-  /// @brief Field _audioSource, offset 0x28, size 0x8
+  /// @brief Field _audioSource, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource)) ::UnityW<::UnityEngine::AudioSource> _audioSource;
 
   /// @brief Field _determinismConfig, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__determinismConfig, put = __cordl_internal_set__determinismConfig)) ::GlobalNamespace::DeterminismConfig* _determinismConfig;
 
-  /// @brief Field _hasData, offset 0x34, size 0x1
+  /// @brief Field _hasData, offset 0x3c, size 0x1
   __declspec(property(get = __cordl_internal_get__hasData, put = __cordl_internal_set__hasData)) bool _hasData;
 
-  /// @brief Field _hasProcessedData, offset 0x35, size 0x1
+  /// @brief Field _hasProcessedData, offset 0x3d, size 0x1
   __declspec(property(get = __cordl_internal_get__hasProcessedData, put = __cordl_internal_set__hasProcessedData)) bool _hasProcessedData;
 
-  /// @brief Field _instantChangeThreshold, offset 0x30, size 0x4
+  /// @brief Field _instantChangeThreshold, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__instantChangeThreshold, put = __cordl_internal_set__instantChangeThreshold)) float_t _instantChangeThreshold;
 
-  /// @brief Field _processedSamples, offset 0x40, size 0x8
+  /// @brief Field _processedSamples, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__processedSamples, put = __cordl_internal_set__processedSamples)) ::System::Collections::Generic::List_1<float_t>* _processedSamples;
 
-  /// @brief Field _samples, offset 0x38, size 0x8
+  /// @brief Field _samples, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__samples, put = __cordl_internal_set__samples)) ::ArrayW<float_t> _samples;
 
-  /// @brief Method Awake, addr 0x5dc2768, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Field _timeHelper, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__timeHelper, put = __cordl_internal_set__timeHelper)) ::UnityW<::GlobalNamespace::TimeHelper> _timeHelper;
+
+  /// @brief Method Awake, addr 0x5dff94c, size 0xb0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetFakeSamples, addr 0x5dc2430, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetFakeSamples, addr 0x5dff600, size 0x158, virtual false, abstract: false, final false
   inline void GetFakeSamples(::ArrayW<float_t> samples);
 
-  /// @brief Method LateUpdate, addr 0x5dc2818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5dff9fc, size 0x8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BasicSpectrogramData* New_ctor();
 
-  /// @brief Method ProcessSamples, addr 0x5dc25b0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ProcessSamples, addr 0x5dff794, size 0x1b8, virtual false, abstract: false, final false
   inline void ProcessSamples(::ArrayW<float_t> sourceSamples, ::System::Collections::Generic::List_1<float_t>* processedSamples);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -99,6 +105,10 @@ public:
 
   constexpr ::ArrayW<float_t>& __cordl_internal_get__samples();
 
+  constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& __cordl_internal_get__timeHelper() const;
+
+  constexpr ::UnityW<::GlobalNamespace::TimeHelper>& __cordl_internal_get__timeHelper();
+
   constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
   constexpr void __cordl_internal_set__determinismConfig(::GlobalNamespace::DeterminismConfig* value);
@@ -113,13 +123,15 @@ public:
 
   constexpr void __cordl_internal_set__samples(::ArrayW<float_t> value);
 
-  /// @brief Method .ctor, addr 0x5dc2820, size 0xb4, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value);
+
+  /// @brief Method .ctor, addr 0x5dffa04, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ProcessedSamples, addr 0x5dc2574, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessedSamples, addr 0x5dff758, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<float_t>* get_ProcessedSamples();
 
-  /// @brief Method get_Samples, addr 0x5dc2378, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_Samples, addr 0x5dff548, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> get_Samples();
 
 protected:
@@ -137,7 +149,7 @@ public:
   BasicSpectrogramData(BasicSpectrogramData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6103 };
 
   /// @brief Field kNumberOfSamples offset 0xffffffff size 0x4
   static constexpr int32_t kNumberOfSamples{ static_cast<int32_t>(0x40) };
@@ -146,24 +158,28 @@ public:
   /// @brief Field _determinismConfig, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::DeterminismConfig* ____determinismConfig;
 
+  /// [Inject]
+  /// @brief Field _timeHelper, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
+
   /// [SerializeField]
-  /// @brief Field _audioSource, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _audioSource, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
   /// [SerializeField]
-  /// @brief Field _instantChangeThreshold, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _instantChangeThreshold, offset: 0x38, size: 0x4, def value: None
   float_t ____instantChangeThreshold;
 
-  /// @brief Field _hasData, offset: 0x34, size: 0x1, def value: None
+  /// @brief Field _hasData, offset: 0x3c, size: 0x1, def value: None
   bool ____hasData;
 
-  /// @brief Field _hasProcessedData, offset: 0x35, size: 0x1, def value: None
+  /// @brief Field _hasProcessedData, offset: 0x3d, size: 0x1, def value: None
   bool ____hasProcessedData;
 
-  /// @brief Field _samples, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _samples, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<float_t> ____samples;
 
-  /// @brief Field _processedSamples, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _processedSamples, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<float_t>* ____processedSamples;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -171,18 +187,20 @@ public:
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BasicSpectrogramData, ____determinismConfig) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BasicSpectrogramData, ____audioSource) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BasicSpectrogramData, ____timeHelper) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BasicSpectrogramData, ____instantChangeThreshold) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BasicSpectrogramData, ____audioSource) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BasicSpectrogramData, ____hasData) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BasicSpectrogramData, ____instantChangeThreshold) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BasicSpectrogramData, ____hasProcessedData) == 0x35, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BasicSpectrogramData, ____hasData) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BasicSpectrogramData, ____samples) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BasicSpectrogramData, ____hasProcessedData) == 0x3d, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BasicSpectrogramData, ____processedSamples) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BasicSpectrogramData, ____samples) == 0x40, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::BasicSpectrogramData) == 0x48, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::BasicSpectrogramData, ____processedSamples) == 0x48, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::BasicSpectrogramData) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace

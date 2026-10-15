@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set_eventTypes(::ArrayW<::System::Type*> value);
 
-  /// @brief Method .ctor, addr 0x7155b64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7192a98, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> eventTypes);
 
-  /// @brief Method .ctor, addr 0x7155b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7192aa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventInterestOptions interests);
 
-  /// @brief Method .ctor, addr 0x7155b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7192aac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventInterestOptionsInternal interests);
 
 protected:

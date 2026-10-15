@@ -14,6 +14,9 @@ class IBlockLevelGameplayEventSender;
 namespace BeatSaber::Analytics::Gameplay::EventSenders {
 class IHMDSessionEventSender;
 }
+namespace BeatSaber::Analytics::Gameplay::EventSenders {
+class ISettingsEventSender;
+}
 namespace BeatSaber::Analytics::Gameplay {
 class IGameplayEventsDispatcher;
 }
@@ -48,16 +51,22 @@ public:
   __declspec(property(get = __cordl_internal_get__hmdSession_k__BackingField,
                       put = __cordl_internal_set__hmdSession_k__BackingField)) ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* _hmdSession_k__BackingField;
 
+  /// @brief Field <settingsEvents>k__BackingField, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__settingsEvents_k__BackingField,
+                      put = __cordl_internal_set__settingsEvents_k__BackingField)) ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* _settingsEvents_k__BackingField;
+
   __declspec(property(get = get_beatmapAttempt)) ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* beatmapAttempt;
 
   __declspec(property(get = get_blockLevel)) ::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* blockLevel;
 
   __declspec(property(get = get_hmdSession)) ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* hmdSession;
 
+  __declspec(property(get = get_settingsEvents)) ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* settingsEvents;
+
   /// @brief Convert operator to "::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher"
   constexpr operator ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher*() noexcept;
 
-  /// @brief Method InitializeAsync, addr 0x34e994c, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method InitializeAsync, addr 0x3502040, size 0x94, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
   static inline ::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher* New_ctor();
@@ -74,26 +83,36 @@ public:
 
   constexpr ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender*& __cordl_internal_get__hmdSession_k__BackingField();
 
+  constexpr ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* const& __cordl_internal_get__settingsEvents_k__BackingField() const;
+
+  constexpr ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender*& __cordl_internal_get__settingsEvents_k__BackingField();
+
   constexpr void __cordl_internal_set__beatmapAttempt_k__BackingField(::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* value);
 
   constexpr void __cordl_internal_set__blockLevel_k__BackingField(::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* value);
 
   constexpr void __cordl_internal_set__hmdSession_k__BackingField(::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* value);
 
-  /// @brief Method .ctor, addr 0x34e99e0, size 0xa0, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__settingsEvents_k__BackingField(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* value);
+
+  /// @brief Method .ctor, addr 0x35020d4, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_beatmapAttempt, addr 0x34e9934, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beatmapAttempt, addr 0x3502020, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* get_beatmapAttempt();
 
   /// [CompilerGenerated]
-  /// @brief Method get_blockLevel, addr 0x34e993c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_blockLevel, addr 0x3502028, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* get_blockLevel();
 
   /// [CompilerGenerated]
-  /// @brief Method get_hmdSession, addr 0x34e9944, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hmdSession, addr 0x3502030, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* get_hmdSession();
+
+  /// [CompilerGenerated]
+  /// @brief Method get_settingsEvents, addr 0x3502038, size 0x8, virtual true, abstract: false, final true
+  inline ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* get_settingsEvents();
 
   /// @brief Convert to "::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher"
   constexpr ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* i___BeatSaber__Analytics__Gameplay__IGameplayEventsDispatcher() noexcept;
@@ -113,7 +132,7 @@ public:
   NoopGameplayEventsDispatcher(NoopGameplayEventsDispatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22857 };
 
   /// [CompilerGenerated]
   /// @brief Field <beatmapAttempt>k__BackingField, offset: 0x10, size: 0x8, def value: None
@@ -127,6 +146,10 @@ public:
   /// @brief Field <hmdSession>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* ____hmdSession_k__BackingField;
 
+  /// [CompilerGenerated]
+  /// @brief Field <settingsEvents>k__BackingField, offset: 0x28, size: 0x8, def value: None
+  ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* ____settingsEvents_k__BackingField;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -136,6 +159,8 @@ static_assert(offsetof(::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispa
 
 static_assert(offsetof(::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher, ____hmdSession_k__BackingField) == 0x20, "Offset mismatch!");
 
-static_assert(sizeof(::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher) == 0x28, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher, ____settingsEvents_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(sizeof(::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher) == 0x30, "Size mismatch!");
 
 } // namespace BeatSaber::Analytics::Gameplay

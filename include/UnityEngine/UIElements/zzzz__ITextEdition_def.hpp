@@ -109,16 +109,16 @@ public:
   /// @brief Method get_UpdateValueFromText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Action* get_UpdateValueFromText();
 
-  /// @brief Method get_autoCorrection, addr 0x71354d8, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_autoCorrection, addr 0x717240c, size 0xd4, virtual true, abstract: false, final false
   inline bool get_autoCorrection();
 
-  /// @brief Method get_hideMobileInput, addr 0x7135818, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_hideMobileInput, addr 0x717274c, size 0xd4, virtual true, abstract: false, final false
   inline bool get_hideMobileInput();
 
   /// @brief Method get_hidePlaceholderOnFocus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_hidePlaceholderOnFocus();
 
-  /// @brief Method get_hideSoftKeyboard, addr 0x7135678, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_hideSoftKeyboard, addr 0x71725ac, size 0xd4, virtual true, abstract: false, final false
   inline bool get_hideSoftKeyboard();
 
   /// @brief Method get_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -130,7 +130,7 @@ public:
   /// @brief Method get_isReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isReadOnly();
 
-  /// @brief Method get_keyboardType, addr 0x7135a8c, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_keyboardType, addr 0x71729c0, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::TouchScreenKeyboardType get_keyboardType();
 
   /// @brief Method get_maskChar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -145,7 +145,7 @@ public:
   /// @brief Method get_placeholder, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_placeholder();
 
-  /// @brief Method get_touchScreenKeyboard, addr 0x71359b8, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_touchScreenKeyboard, addr 0x71728ec, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::TouchScreenKeyboard* get_touchScreenKeyboard();
 
   /// @brief Method set_AcceptCharacter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -166,16 +166,16 @@ public:
   /// @brief Method set_UpdateValueFromText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_UpdateValueFromText(::System::Action* value);
 
-  /// @brief Method set_autoCorrection, addr 0x71355ac, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method set_autoCorrection, addr 0x71724e0, size 0xcc, virtual true, abstract: false, final false
   inline void set_autoCorrection(bool value);
 
-  /// @brief Method set_hideMobileInput, addr 0x71358ec, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method set_hideMobileInput, addr 0x7172820, size 0xcc, virtual true, abstract: false, final false
   inline void set_hideMobileInput(bool value);
 
   /// @brief Method set_hidePlaceholderOnFocus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_hidePlaceholderOnFocus(bool value);
 
-  /// @brief Method set_hideSoftKeyboard, addr 0x713574c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method set_hideSoftKeyboard, addr 0x7172680, size 0xcc, virtual true, abstract: false, final false
   inline void set_hideSoftKeyboard(bool value);
 
   /// @brief Method set_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -187,7 +187,7 @@ public:
   /// @brief Method set_isReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_isReadOnly(bool value);
 
-  /// @brief Method set_keyboardType, addr 0x7135b60, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method set_keyboardType, addr 0x7172a94, size 0xcc, virtual true, abstract: false, final false
   inline void set_keyboardType(::UnityEngine::TouchScreenKeyboardType value);
 
   /// @brief Method set_maskChar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

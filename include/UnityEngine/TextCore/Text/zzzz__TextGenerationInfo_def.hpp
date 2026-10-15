@@ -28,29 +28,29 @@ public:
   __declspec(property(get = getStaticF__CurrentGenerationIteration_k__BackingField, put = setStaticF__CurrentGenerationIteration_k__BackingField)) int32_t _CurrentGenerationIteration_k__BackingField;
 
   /// [ThreadSafe]
-  /// @brief Method Create, addr 0x705fa54, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x709c948, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(bool isPermanent);
 
   /// [ThreadSafe]
-  /// @brief Method Destroy, addr 0x705fa90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x709c984, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr ptr);
 
-  /// @brief Method DestroyAllTempAllocations, addr 0x705fb78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method DestroyAllTempAllocations, addr 0x709ca6c, size 0x28, virtual false, abstract: false, final false
   static inline void DestroyAllTempAllocations();
 
-  /// @brief Method OnRepaintEnd, addr 0x705facc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnRepaintEnd, addr 0x709c9c0, size 0xac, virtual false, abstract: false, final false
   static inline void OnRepaintEnd();
 
   static inline int32_t getStaticF__CurrentGenerationIteration_k__BackingField();
 
   /// [CompilerGenerated]
-  /// @brief Method get_CurrentGenerationIteration, addr 0x705f9b8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentGenerationIteration, addr 0x709c8ac, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t get_CurrentGenerationIteration();
 
   static inline void setStaticF__CurrentGenerationIteration_k__BackingField(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_CurrentGenerationIteration, addr 0x705fa04, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentGenerationIteration, addr 0x709c8f8, size 0x50, virtual false, abstract: false, final false
   static inline void set_CurrentGenerationIteration(int32_t value);
 
 protected:
@@ -68,7 +68,7 @@ public:
   TextGenerationInfo(TextGenerationInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17863 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17896 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_hdrDebugViewPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6ca2110, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cded8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +99,7 @@ public:
   ScriptableRendererData_DebugShaderResources(ScriptableRendererData_DebugShaderResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12958 };
 
   /// [Obsolete("Moved to UniversalRenderPipelineDebugShaders on GraphicsSettings. #from(2023.3)")]
   /// [Reload("Shaders/Debug/DebugReplacement.shader", (UnityEngine.Rendering.ReloadAttribute::Package)1)]
@@ -197,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set_probeVolumeSamplingDebugShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6ca2114, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cded90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -215,7 +215,7 @@ public:
   ScriptableRendererData_ProbeVolumeResources(ScriptableRendererData_ProbeVolumeResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12959 };
 
   /// [Obsolete("This shader is now in the ProbeVolumeDebugResources class. #from(2023.3)")]
   /// @brief Field probeVolumeDebugShader, offset: 0x10, size: 0x8, def value: None
@@ -316,18 +316,18 @@ public:
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* Create();
 
-  /// @brief Method InternalCreateRenderer, addr 0x6ca2004, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateRenderer, addr 0x6cdec80, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* InternalCreateRenderer();
 
   static inline ::UnityEngine::Rendering::Universal::ScriptableRendererData* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x6ca2020, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6cdec9c, size 0xc, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x6ca2014, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6cdec90, size 0xc, virtual true, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetDirty, addr 0x6ca1ff8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetDirty, addr 0x6cdec74, size 0xc, virtual false, abstract: false, final false
   inline void SetDirty();
 
   /// @brief Method TryGetRendererFeature, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -383,36 +383,36 @@ public:
 
   constexpr void __cordl_internal_set_probeVolumeResources(::UnityEngine::Rendering::Universal::ScriptableRendererData_ProbeVolumeResources* value);
 
-  /// @brief Method .ctor, addr 0x6ca2044, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cdecc0, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isInvalidated, addr 0x6ca1fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInvalidated, addr 0x6cdec3c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInvalidated();
 
-  /// @brief Method get_rendererFeatures, addr 0x6ca1ff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rendererFeatures, addr 0x6cdec6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::Universal::ScriptableRendererFeature>>* get_rendererFeatures();
 
-  /// @brief Method get_stripAdditionalLightOffVariants, addr 0x6ca1fe0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_stripAdditionalLightOffVariants, addr 0x6cdec5c, size 0x8, virtual true, abstract: false, final false
   inline bool get_stripAdditionalLightOffVariants();
 
-  /// @brief Method get_stripShadowsOffVariants, addr 0x6ca1fd0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_stripShadowsOffVariants, addr 0x6cdec4c, size 0x8, virtual true, abstract: false, final false
   inline bool get_stripShadowsOffVariants();
 
-  /// @brief Method get_useNativeRenderPass, addr 0x6ca202c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useNativeRenderPass, addr 0x6cdeca8, size 0x8, virtual false, abstract: false, final false
   inline bool get_useNativeRenderPass();
 
   /// [CompilerGenerated]
-  /// @brief Method set_isInvalidated, addr 0x6ca1fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isInvalidated, addr 0x6cdec44, size 0x8, virtual false, abstract: false, final false
   inline void set_isInvalidated(bool value);
 
-  /// @brief Method set_stripAdditionalLightOffVariants, addr 0x6ca1fe8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_stripAdditionalLightOffVariants, addr 0x6cdec64, size 0x8, virtual true, abstract: false, final false
   inline void set_stripAdditionalLightOffVariants(bool value);
 
-  /// @brief Method set_stripShadowsOffVariants, addr 0x6ca1fd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_stripShadowsOffVariants, addr 0x6cdec54, size 0x8, virtual true, abstract: false, final false
   inline void set_stripShadowsOffVariants(bool value);
 
-  /// @brief Method set_useNativeRenderPass, addr 0x6ca2034, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_useNativeRenderPass, addr 0x6cdecb0, size 0x10, virtual false, abstract: false, final false
   inline void set_useNativeRenderPass(bool value);
 
 protected:
@@ -430,7 +430,7 @@ public:
   ScriptableRendererData(ScriptableRendererData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12960 };
 
   /// [Obsolete("Moved to UniversalRenderPipelineDebugShaders on GraphicsSettings. #from(2023.3)")]
   /// @brief Field debugShaders, offset: 0x18, size: 0x8, def value: None

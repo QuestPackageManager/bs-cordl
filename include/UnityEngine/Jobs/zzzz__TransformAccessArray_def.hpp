@@ -43,79 +43,79 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Add, addr 0x6f5783c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6f946f0, size 0x8, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::Transform* transform);
 
   /// [NativeMethod(Name = "TransformAccessArrayBindings::AddTransform", IsFreeFunction = true)]
-  /// @brief Method Add, addr 0x6f57844, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6f946f8, size 0x90, virtual false, abstract: false, final false
   static inline void Add(::System::IntPtr transformArrayIntPtr, ::UnityEngine::Transform* transform);
 
-  /// @brief Method Add_Injected, addr 0x6f5795c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Add_Injected, addr 0x6f94810, size 0x44, virtual false, abstract: false, final false
   static inline void Add_Injected(::System::IntPtr transformArrayIntPtr, ::System::IntPtr transform);
 
-  /// @brief Method Allocate, addr 0x6f57474, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x6f94328, size 0x88, virtual false, abstract: false, final false
   static inline void Allocate(int32_t capacity, int32_t desiredJobCount, ::by_ref<::UnityEngine::Jobs::TransformAccessArray> array);
 
   /// [NativeMethod(Name = "TransformAccessArrayBindings::Create", IsFreeFunction = true)]
-  /// @brief Method Create, addr 0x6f574fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6f943b0, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(int32_t capacity, int32_t desiredJobCount);
 
   /// [NativeMethod(Name = "DestroyTransformAccessArray", IsFreeFunction = true)]
-  /// @brief Method DestroyTransformAccessArray, addr 0x6f575c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DestroyTransformAccessArray, addr 0x6f9447c, size 0x3c, virtual false, abstract: false, final false
   static inline void DestroyTransformAccessArray(::System::IntPtr transformArray);
 
-  /// @brief Method Dispose, addr 0x6f57550, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6f94404, size 0x78, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// [NativeMethod(Name = "TransformAccessArrayBindings::GetLength", IsFreeFunction = true)]
-  /// @brief Method GetLength, addr 0x6f57800, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLength, addr 0x6f946b4, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetLength(::System::IntPtr transformArrayIntPtr);
 
   /// [NativeMethod(Name = "TransformAccessArrayBindings::GetSortedToUserIndex", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method GetSortedToUserIndex, addr 0x6f579dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetSortedToUserIndex, addr 0x6f94890, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetSortedToUserIndex(::System::IntPtr transformArrayIntPtr);
 
   /// [NativeMethod(Name = "TransformAccessArrayBindings::GetSortedTransformAccess", IsThreadSafe = true, IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method GetSortedTransformAccess, addr 0x6f579a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetSortedTransformAccess, addr 0x6f94854, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetSortedTransformAccess(::System::IntPtr transformArrayIntPtr);
 
   /// [NativeMethod(Name = "TransformAccessArrayBindings::GetTransform", IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method GetTransform, addr 0x6f57614, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetTransform, addr 0x6f944c8, size 0x128, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> GetTransform(::System::IntPtr transformArrayIntPtr, int32_t index);
 
-  /// @brief Method GetTransformAccessArrayForSchedule, addr 0x6f57604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTransformAccessArrayForSchedule, addr 0x6f944b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr GetTransformAccessArrayForSchedule();
 
-  /// @brief Method GetTransform_Injected, addr 0x6f57a18, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTransform_Injected, addr 0x6f948cc, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetTransform_Injected(::System::IntPtr transformArrayIntPtr, int32_t index);
 
-  /// @brief Method RemoveAtSwapBack, addr 0x6f578d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RemoveAtSwapBack, addr 0x6f94788, size 0x44, virtual false, abstract: false, final false
   inline void RemoveAtSwapBack(int32_t index);
 
   /// [NativeMethod(Name = "TransformAccessArrayBindings::RemoveAtSwapBack", IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method RemoveAtSwapBack, addr 0x6f57918, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RemoveAtSwapBack, addr 0x6f947cc, size 0x44, virtual false, abstract: false, final false
   static inline void RemoveAtSwapBack(::System::IntPtr transformArrayIntPtr, int32_t index);
 
   /// [NativeMethod(Name = "TransformAccessArrayBindings::SetCapacity", IsFreeFunction = true)]
-  /// @brief Method SetCapacity, addr 0x6f57780, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x6f94634, size 0x44, virtual false, abstract: false, final false
   static inline void SetCapacity(::System::IntPtr transformArrayIntPtr, int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x6f57460, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f94314, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, int32_t desiredJobCount);
 
-  /// @brief Method get_Item, addr 0x6f5760c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6f944c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_Item(int32_t index);
 
-  /// @brief Method get_isCreated, addr 0x6f57540, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isCreated, addr 0x6f943f4, size 0x10, virtual false, abstract: false, final false
   inline bool get_isCreated();
 
-  /// @brief Method get_length, addr 0x6f577c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x6f94678, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_length();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method set_capacity, addr 0x6f5773c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_capacity, addr 0x6f945f0, size 0x44, virtual false, abstract: false, final false
   inline void set_capacity(int32_t value);
 
   // Ctor Parameters []
@@ -126,7 +126,7 @@ public:
   constexpr TransformAccessArray(::System::IntPtr m_TransformArray) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10035 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

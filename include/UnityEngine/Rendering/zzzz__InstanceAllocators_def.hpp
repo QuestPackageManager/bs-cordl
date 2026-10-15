@@ -33,31 +33,31 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE InstanceAllocators {
 public:
   // Declarations
-  /// @brief Method AllocateInstance, addr 0x6c57ae4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AllocateInstance, addr 0x6c94760, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::InstanceHandle AllocateInstance(::UnityEngine::Rendering::InstanceType type);
 
-  /// @brief Method AllocateSharedInstance, addr 0x6c57c10, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AllocateSharedInstance, addr 0x6c9488c, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SharedInstanceHandle AllocateSharedInstance();
 
-  /// @brief Method Dispose, addr 0x6c57a14, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c94690, size 0x20, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FreeInstance, addr 0x6c57b78, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FreeInstance, addr 0x6c947f4, size 0x98, virtual false, abstract: false, final false
   inline void FreeInstance(::UnityEngine::Rendering::InstanceHandle instance);
 
-  /// @brief Method FreeSharedInstance, addr 0x6c57c78, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FreeSharedInstance, addr 0x6c948f4, size 0x68, virtual false, abstract: false, final false
   inline void FreeSharedInstance(::UnityEngine::Rendering::SharedInstanceHandle instance);
 
-  /// @brief Method GetInstanceAllocator, addr 0x6c57a34, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceAllocator, addr 0x6c946b0, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::InstanceAllocator GetInstanceAllocator(::UnityEngine::Rendering::InstanceType type);
 
-  /// @brief Method GetInstanceHandlesLength, addr 0x6c57a9c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceHandlesLength, addr 0x6c94718, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetInstanceHandlesLength(::UnityEngine::Rendering::InstanceType type);
 
-  /// @brief Method GetInstancesLength, addr 0x6c57ac0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetInstancesLength, addr 0x6c9473c, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetInstancesLength(::UnityEngine::Rendering::InstanceType type);
 
-  /// @brief Method Initialize, addr 0x6c579b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6c94630, size 0x60, virtual false, abstract: false, final false
   inline void Initialize();
 
   // Ctor Parameters []
@@ -71,7 +71,7 @@ public:
                                ::UnityEngine::Rendering::InstanceAllocator m_SharedInstanceAlloc) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18217 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18250 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

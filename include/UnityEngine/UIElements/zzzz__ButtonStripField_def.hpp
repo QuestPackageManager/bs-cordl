@@ -46,7 +46,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ButtonStripField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x71ac498, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71e93cc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,7 +82,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ButtonStripField_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x71ac500, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71e9434, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,10 +124,10 @@ public:
 
   static inline ::UnityEngine::UIElements::ButtonStripField* New_ctor();
 
-  /// @brief Method RefreshButtonsState, addr 0x71ac3d0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method RefreshButtonsState, addr 0x71e9304, size 0xc8, virtual false, abstract: false, final false
   inline void RefreshButtonsState();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x71ac338, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x71e926c, size 0x98, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(int32_t newValue);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* const& __cordl_internal_get_m_Buttons() const;
@@ -136,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Buttons(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Button*>* value);
 
-  /// @brief Method .ctor, addr 0x71ac278, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71e91ac, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

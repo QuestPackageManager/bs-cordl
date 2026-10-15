@@ -34,25 +34,25 @@ namespace UnityEngine::LowLevelPhysics2D {
 struct CORDL_TYPE PhysicsMath {
 public:
   // Declarations
-  /// @brief Method AngularVelocityToQuaternion, addr 0x6fd8b30, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method AngularVelocityToQuaternion, addr 0x7015a24, size 0x1c8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion AngularVelocityToQuaternion(float_t angularVelocity, float_t deltaTime, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane transformPlane);
 
-  /// @brief Method Atan2, addr 0x6fd88ac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Atan2, addr 0x70157a0, size 0x40, virtual false, abstract: false, final false
   static inline float_t Atan2(float_t y, float_t x);
 
-  /// @brief Method Swizzle, addr 0x6fd88ec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Swizzle, addr 0x70157e0, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Swizzle(::UnityEngine::Vector3 position, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane transformPlane);
 
-  /// @brief Method ToPosition3D, addr 0x6fd8978, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ToPosition3D, addr 0x701586c, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 ToPosition3D(::UnityEngine::Vector2 position, ::UnityEngine::Vector3 reference, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane transformPlane);
 
-  /// @brief Method ToRotation2D, addr 0x6fd8a0c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ToRotation2D, addr 0x7015900, size 0x124, virtual false, abstract: false, final false
   static inline float_t ToRotation2D(::UnityEngine::Quaternion quaternion, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane transformPlane);
 
-  /// @brief Method ToRotationFast3D, addr 0x6fd8cf8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ToRotationFast3D, addr 0x7015bec, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion ToRotationFast3D(float_t angle, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane transformPlane);
 
-  /// @brief Method ToRotationSlow3D, addr 0x6fd8e3c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ToRotationSlow3D, addr 0x7015d30, size 0x190, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion ToRotationSlow3D(float_t angle, ::UnityEngine::Quaternion reference, ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_TransformPlane transformPlane);
 
   // Ctor Parameters []
@@ -60,7 +60,7 @@ public:
   constexpr PhysicsMath();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21628 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

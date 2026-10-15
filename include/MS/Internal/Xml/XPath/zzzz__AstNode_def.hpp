@@ -92,7 +92,7 @@ public:
   static ::MS::Internal::Xml::XPath::AstNode_AstType const Variable;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11834 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -123,7 +123,7 @@ public:
 
   static inline ::MS::Internal::Xml::XPath::AstNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x669e66c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66db23c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_ReturnType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -147,7 +147,7 @@ public:
   AstNode(AstNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11828 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11835 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -30,16 +30,16 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE MeshInfo {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x702fd40, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x706cc34, size 0x40, virtual false, abstract: false, final false
   inline void Clear(bool uploadChanges);
 
-  /// @brief Method ClearUnusedVertices, addr 0x702fd80, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x706cc74, size 0x48, virtual false, abstract: false, final false
   inline void ClearUnusedVertices();
 
-  /// @brief Method ResizeMeshInfo, addr 0x702fcc8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x706cbbc, size 0x78, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size, bool isIMGUI);
 
-  /// @brief Method .ctor, addr 0x702fc2c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x706cb20, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(int32_t size, bool isIMGUI);
 
   // Ctor Parameters []
@@ -54,7 +54,7 @@ public:
                      ::UnityEngine::TextCore::LowLevel::GlyphRenderMode glyphRenderMode) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17846 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

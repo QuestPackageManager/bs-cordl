@@ -34,130 +34,130 @@ public:
   /// @brief Field wantsToRestart, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_wantsToRestart, put = setStaticF_wantsToRestart)) ::System::Func_1<bool>* wantsToRestart;
 
-  /// @brief Method GetAvailableExtensions, addr 0x6e2f854, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetAvailableExtensions, addr 0x6e6c4f0, size 0xd8, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetAvailableExtensions();
 
-  /// @brief Method GetEnabledExtensions, addr 0x6e2f77c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetEnabledExtensions, addr 0x6e6c418, size 0xd8, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> GetEnabledExtensions();
 
-  /// @brief Method GetExtensionVersion, addr 0x6e2fa28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetExtensionVersion, addr 0x6e6c6c4, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t GetExtensionVersion(::StringW extensionName);
 
-  /// @brief Method GetLastError, addr 0x6e37eb4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetLastError, addr 0x6e74b50, size 0xa8, virtual false, abstract: false, final false
   static inline bool GetLastError(::by_ref<::StringW> error);
 
-  /// @brief Method Internal_GetAPIVersion, addr 0x6e37044, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetAPIVersion, addr 0x6e73ce0, size 0x9c, virtual false, abstract: false, final false
   static inline bool Internal_GetAPIVersion(::by_ref<uint16_t> major, ::by_ref<uint16_t> minor, ::by_ref<uint32_t> patch);
 
-  /// @brief Method Internal_GetAvailableExtensionCount, addr 0x6e375ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetAvailableExtensionCount, addr 0x6e74288, size 0x64, virtual false, abstract: false, final false
   static inline uint32_t Internal_GetAvailableExtensionCount();
 
-  /// @brief Method Internal_GetAvailableExtensionName, addr 0x6e37650, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetAvailableExtensionName, addr 0x6e742ec, size 0xb0, virtual false, abstract: false, final false
   static inline bool Internal_GetAvailableExtensionName(uint32_t index, ::by_ref<::StringW> extensionName);
 
-  /// @brief Method Internal_GetAvailableExtensionNamePtr, addr 0x6e37db4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetAvailableExtensionNamePtr, addr 0x6e74a50, size 0x84, virtual false, abstract: false, final false
   static inline bool Internal_GetAvailableExtensionNamePtr(uint32_t index, ::by_ref<::System::IntPtr> extensionName);
 
-  /// @brief Method Internal_GetEnabledExtensionCount, addr 0x6e374d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetEnabledExtensionCount, addr 0x6e74174, size 0x64, virtual false, abstract: false, final false
   static inline uint32_t Internal_GetEnabledExtensionCount();
 
-  /// @brief Method Internal_GetEnabledExtensionName, addr 0x6e3753c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetEnabledExtensionName, addr 0x6e741d8, size 0xb0, virtual false, abstract: false, final false
   static inline bool Internal_GetEnabledExtensionName(uint32_t index, ::by_ref<::StringW> extensionName);
 
-  /// @brief Method Internal_GetEnabledExtensionNamePtr, addr 0x6e37d30, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetEnabledExtensionNamePtr, addr 0x6e749cc, size 0x84, virtual false, abstract: false, final false
   static inline bool Internal_GetEnabledExtensionNamePtr(uint32_t index, ::by_ref<::System::IntPtr> outName);
 
-  /// @brief Method Internal_GetExtensionVersion, addr 0x6e37440, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetExtensionVersion, addr 0x6e740dc, size 0x98, virtual false, abstract: false, final false
   static inline uint32_t Internal_GetExtensionVersion(::StringW extensionName);
 
-  /// @brief Method Internal_GetLastError, addr 0x6e37e38, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetLastError, addr 0x6e74ad4, size 0x7c, virtual false, abstract: false, final false
   static inline bool Internal_GetLastError(::by_ref<::System::IntPtr> error);
 
-  /// @brief Method Internal_GetPluginVersion, addr 0x6e370e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetPluginVersion, addr 0x6e73d7c, size 0x84, virtual false, abstract: false, final false
   static inline bool Internal_GetPluginVersion(::by_ref<::System::IntPtr> pluginVersionPtr);
 
-  /// @brief Method Internal_GetRuntimeName, addr 0x6e36f24, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetRuntimeName, addr 0x6e73bc0, size 0x84, virtual false, abstract: false, final false
   static inline bool Internal_GetRuntimeName(::by_ref<::System::IntPtr> runtimeNamePtr);
 
-  /// @brief Method Internal_GetRuntimeVersion, addr 0x6e36fa8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetRuntimeVersion, addr 0x6e73c44, size 0x9c, virtual false, abstract: false, final false
   static inline bool Internal_GetRuntimeVersion(::by_ref<uint16_t> major, ::by_ref<uint16_t> minor, ::by_ref<uint32_t> patch);
 
-  /// @brief Method Internal_GetSoftRestartLoopAtInitialization, addr 0x6e37a8c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetSoftRestartLoopAtInitialization, addr 0x6e74728, size 0x6c, virtual false, abstract: false, final false
   static inline bool Internal_GetSoftRestartLoopAtInitialization();
 
-  /// @brief Method Internal_IsExtensionEnabled, addr 0x6e371b4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Internal_IsExtensionEnabled, addr 0x6e73e50, size 0x9c, virtual false, abstract: false, final false
   static inline bool Internal_IsExtensionEnabled(::StringW extensionName);
 
-  /// @brief Method Internal_IsExtensionRequested, addr 0x6e37254, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Internal_IsExtensionRequested, addr 0x6e73ef0, size 0x9c, virtual false, abstract: false, final false
   static inline bool Internal_IsExtensionRequested(::StringW extensionName);
 
-  /// @brief Method Internal_SetSoftRestartLoopAtInitialization, addr 0x6e37afc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetSoftRestartLoopAtInitialization, addr 0x6e74798, size 0x7c, virtual false, abstract: false, final false
   static inline void Internal_SetSoftRestartLoopAtInitialization(bool value);
 
-  /// @brief Method InvokeEvent, addr 0x6e37b78, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method InvokeEvent, addr 0x6e74814, size 0x1b8, virtual false, abstract: false, final false
   static inline bool InvokeEvent(::System::Func_1<bool>* func);
 
-  /// @brief Method IsExtensionEnabled, addr 0x6e372f0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method IsExtensionEnabled, addr 0x6e73f8c, size 0x150, virtual false, abstract: false, final false
   static inline bool IsExtensionEnabled(::StringW extension, ::StringW featureName);
 
-  /// @brief Method IsExtensionEnabled, addr 0x6e371b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method IsExtensionEnabled, addr 0x6e73e4c, size 0x4, virtual false, abstract: false, final false
   static inline bool IsExtensionEnabled(::StringW extensionName);
 
-  /// @brief Method IsExtensionRequested, addr 0x6e37250, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method IsExtensionRequested, addr 0x6e73eec, size 0x4, virtual false, abstract: false, final false
   static inline bool IsExtensionRequested(::StringW extensionName);
 
-  /// @brief Method LogLastError, addr 0x6e37f5c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LogLastError, addr 0x6e74bf8, size 0x78, virtual false, abstract: false, final false
   static inline void LogLastError();
 
-  /// @brief Method ShouldQuit, addr 0x6e36e58, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ShouldQuit, addr 0x6e73af4, size 0x4c, virtual false, abstract: false, final false
   static inline bool ShouldQuit();
 
-  /// @brief Method ShouldRestart, addr 0x6e36e0c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ShouldRestart, addr 0x6e73aa8, size 0x4c, virtual false, abstract: false, final false
   static inline bool ShouldRestart();
 
   /// [CompilerGenerated]
-  /// @brief Method add_wantsToQuit, addr 0x6e37700, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method add_wantsToQuit, addr 0x6e7439c, size 0xe0, virtual false, abstract: false, final false
   static inline void add_wantsToQuit(::System::Func_1<bool>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_wantsToRestart, addr 0x6e378c0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method add_wantsToRestart, addr 0x6e7455c, size 0xe4, virtual false, abstract: false, final false
   static inline void add_wantsToRestart(::System::Func_1<bool>* value);
 
   static inline ::System::Func_1<bool>* getStaticF_wantsToQuit();
 
   static inline ::System::Func_1<bool>* getStaticF_wantsToRestart();
 
-  /// @brief Method get_apiVersion, addr 0x6e28ef8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method get_apiVersion, addr 0x6e65b94, size 0x110, virtual false, abstract: false, final false
   static inline ::StringW get_apiVersion();
 
-  /// @brief Method get_name, addr 0x6e2f554, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6e6c1f0, size 0x8c, virtual false, abstract: false, final false
   static inline ::StringW get_name();
 
-  /// @brief Method get_pluginVersion, addr 0x6e2f6f0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_pluginVersion, addr 0x6e6c38c, size 0x8c, virtual false, abstract: false, final false
   static inline ::StringW get_pluginVersion();
 
-  /// @brief Method get_retryInitializationOnFormFactorErrors, addr 0x6e37a88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_retryInitializationOnFormFactorErrors, addr 0x6e74724, size 0x4, virtual false, abstract: false, final false
   static inline bool get_retryInitializationOnFormFactorErrors();
 
-  /// @brief Method get_version, addr 0x6e2f5e0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x6e6c27c, size 0x110, virtual false, abstract: false, final false
   static inline ::StringW get_version();
 
-  /// @brief Method isRuntimeAPIVersionGreaterThan1_1, addr 0x6e37164, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method isRuntimeAPIVersionGreaterThan1_1, addr 0x6e73e00, size 0x4c, virtual false, abstract: false, final false
   static inline bool isRuntimeAPIVersionGreaterThan1_1();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_wantsToQuit, addr 0x6e377e0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method remove_wantsToQuit, addr 0x6e7447c, size 0xe0, virtual false, abstract: false, final false
   static inline void remove_wantsToQuit(::System::Func_1<bool>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_wantsToRestart, addr 0x6e379a4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method remove_wantsToRestart, addr 0x6e74640, size 0xe4, virtual false, abstract: false, final false
   static inline void remove_wantsToRestart(::System::Func_1<bool>* value);
 
   static inline void setStaticF_wantsToQuit(::System::Func_1<bool>* value);
 
   static inline void setStaticF_wantsToRestart(::System::Func_1<bool>* value);
 
-  /// @brief Method set_retryInitializationOnFormFactorErrors, addr 0x6e37af8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_retryInitializationOnFormFactorErrors, addr 0x6e74794, size 0x4, virtual false, abstract: false, final false
   static inline void set_retryInitializationOnFormFactorErrors(bool value);
 
 protected:
@@ -178,7 +178,7 @@ public:
   static constexpr ::ConstString LibraryName{ u"UnityOpenXR" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17516 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

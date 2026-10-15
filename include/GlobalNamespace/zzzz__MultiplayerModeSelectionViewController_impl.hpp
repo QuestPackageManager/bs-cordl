@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>*)>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d7d3dc;
+  constexpr static std::size_t addrs = 0x5db87c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton>*)>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d7d49c;
+  constexpr static std::size_t addrs = 0x5db8888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::DidActivate)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x5d7d55c;
+  constexpr static std::size_t addrs = 0x5db8948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionViewController*>(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionViewController::*)(::GlobalNamespace::MultiplayerStatusData*)>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::SetData)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x5d7d8e4;
+  constexpr static std::size_t addrs = 0x5db8cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionViewController*>(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionViewController::*)(::GlobalNamespace::MultiplayerModeSelectionViewController_MenuButton)>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::HandleMenuButton)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5d7db94;
+  constexpr static std::size_t addrs = 0x5db8f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionViewController::*)()>(&::GlobalNamespace::MultiplayerModeSelectionViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d7dbbc;
+  constexpr static std::size_t addrs = 0x5db8fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerModeSelectionViewController*>(), { ".ctor", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionViewController::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::_DidActivate_b__11_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d7dbc0;
+  constexpr static std::size_t addrs = 0x5db8fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionViewController::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::_DidActivate_b__11_1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d7dbe4;
+  constexpr static std::size_t addrs = 0x5db8fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionViewController::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::_DidActivate_b__11_2)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d7dc08;
+  constexpr static std::size_t addrs = 0x5db8ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerModeSelectionViewController::*)()>(
     &::GlobalNamespace::MultiplayerModeSelectionViewController::_DidActivate_b__11_3)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d7dc2c;
+  constexpr static std::size_t addrs = 0x5db9018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

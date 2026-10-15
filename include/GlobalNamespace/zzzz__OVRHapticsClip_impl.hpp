@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OVRHapticsClip::*)()>(&::GlobalNamespace::OVRHapticsClip::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6272ba0;
+  constexpr static std::size_t addrs = 0x62af5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRHapticsClip*>(), { "get_Count", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHapticsClip::*)(int32_t)>(&::GlobalNamespace::OVRHapticsClip::set_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6272ba8;
+  constexpr static std::size_t addrs = 0x62af5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRHapticsClip*>(), { "set_Count", {}, { ::i2c::type_of<int32_t>() } })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::OVRHapticsClip::*)()>(&::GlobalNamespace::OVRHapticsClip::get_Capacity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6272bb0;
+  constexpr static std::size_t addrs = 0x62af5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRHapticsClip*>(), { "get_Capacity", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHapticsClip::*)(int32_t)>(&::GlobalNamespace::OVRHapticsClip::set_Capacity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6272bb8;
+  constexpr static std::size_t addrs = 0x62af600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::GlobalNamespace::OVRHapticsClip::*)()>(&::GlobalNamespace::OVRHapticsClip::get_Samples)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6272bc0;
+  constexpr static std::size_t addrs = 0x62af608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRHapticsClip*>(), { "get_Samples", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHapticsClip::*)(::ArrayW<uint8_t>)>(&::GlobalNamespace::OVRHapticsClip::set_Samples)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6272bc8;
+  constexpr static std::size_t addrs = 0x62af610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHapticsClip::*)()>(&::GlobalNamespace::OVRHapticsClip::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6272bd0;
+  constexpr static std::size_t addrs = 0x62af618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRHapticsClip*>(), { ".ctor", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHapticsClip::*)(int32_t)>(&::GlobalNamespace::OVRHapticsClip::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6272960;
+  constexpr static std::size_t addrs = 0x62af3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRHapticsClip*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHapticsClip::*)(::ArrayW<uint8_t>, int32_t)>(&::GlobalNamespace::OVRHapticsClip::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6272cec;
+  constexpr static std::size_t addrs = 0x62af734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHapticsClip::*)(::GlobalNamespace::OVRHapticsClip*, ::GlobalNamespace::OVRHapticsClip*)>(
     &::GlobalNamespace::OVRHapticsClip::_ctor)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x6272db8;
+  constexpr static std::size_t addrs = 0x62af800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHapticsClip::*)(::UnityEngine::AudioClip*, int32_t)>(&::GlobalNamespace::OVRHapticsClip::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6272fd8;
+  constexpr static std::size_t addrs = 0x62afa20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHapticsClip::*)(uint8_t)>(&::GlobalNamespace::OVRHapticsClip::WriteSample)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6272a3c;
+  constexpr static std::size_t addrs = 0x62af484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHapticsClip::*)()>(&::GlobalNamespace::OVRHapticsClip::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6273420;
+  constexpr static std::size_t addrs = 0x62afe68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRHapticsClip*>(), { "Reset", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRHapticsClip::*)(::ArrayW<float_t>, double_t, int32_t, int32_t)>(
     &::GlobalNamespace::OVRHapticsClip::InitializeFromAudioFloatTrack)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x62730a4;
+  constexpr static std::size_t addrs = 0x62afaec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

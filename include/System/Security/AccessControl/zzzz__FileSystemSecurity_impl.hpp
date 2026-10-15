@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::FileSystemSecurity::*)(bool, ::StringW, ::System::Security::AccessControl::AccessControlSections)>(
     &::System::Security::AccessControl::FileSystemSecurity::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f37390;
+  constexpr static std::size_t addrs = 0x5f73c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Acces
                                                               ::System::Security::AccessControl::PropagationFlags, ::System::Security::AccessControl::AccessControlType)>(
     &::System::Security::AccessControl::FileSystemSecurity::AccessRuleFactory)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5f3759c;
+  constexpr static std::size_t addrs = 0x5f73e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

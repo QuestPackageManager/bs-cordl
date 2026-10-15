@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SweepLineRectUtils_EventComparer::*)(::UnityEngine::Vector4, ::UnityEngine::Vector4)>(
     &::UnityEngine::Rendering::SweepLineRectUtils_EventComparer::Compare)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6be615c;
+  constexpr static std::size_t addrs = 0x6c22dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SweepLineRectUtils_EventComparer>(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::SweepLineRectUtils_ActiveComparer::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::UnityEngine::Rendering::SweepLineRectUtils_ActiveComparer::Compare)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6be6200;
+  constexpr static std::size_t addrs = 0x6c22e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SweepLineRectUtils_ActiveComparer>(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::Collections::Generic::List_1<::UnityEngine::Rect>*)>(
     &::UnityEngine::Rendering::SweepLineRectUtils::CalculateRectUnionArea)> {
   constexpr static std::size_t size = 0x42c;
-  constexpr static std::size_t addrs = 0x6bdedd0;
+  constexpr static std::size_t addrs = 0x6c1ba4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::ArrayW<::UnityEngine::Vector2>, int32_t)>(&::UnityEngine::Rendering::SweepLineRectUtils::MergeLengthY)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6be609c;
+  constexpr static std::size_t addrs = 0x6c22d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SweepLineRectUtils*>(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::ArrayW<::UnityEngine::Vector4>, ::ArrayW<::UnityEngine::Vector2>, int32_t)>(
     &::UnityEngine::Rendering::SweepLineRectUtils::CalculateRectUnionArea)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x6be5d04;
+  constexpr static std::size_t addrs = 0x6c22980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rect const>, ::ArrayW<::UnityEngine::Vector4>, ::by_ref<int32_t>)>(
     &::UnityEngine::Rendering::SweepLineRectUtils::InsertEvents)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6be5ba4;
+  constexpr static std::size_t addrs = 0x6c22820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

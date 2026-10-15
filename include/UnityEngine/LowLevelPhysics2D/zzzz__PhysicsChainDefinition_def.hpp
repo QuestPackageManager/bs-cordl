@@ -20,13 +20,13 @@ namespace UnityEngine::LowLevelPhysics2D {
 struct CORDL_TYPE PhysicsChainDefinition {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6fd60a4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7012f98, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6fd18f0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700e7e4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(bool useSettings);
 
-  /// @brief Method get_defaultDefinition, addr 0x6fd60d4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_defaultDefinition, addr 0x7012fc8, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsChainDefinition get_defaultDefinition();
 
   // Ctor Parameters []
@@ -40,7 +40,7 @@ public:
                                    bool m_IsLoop, bool m_TriggerEvents) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21547 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21594 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor)>(&::Mono::Math::Prime::PrimalityTests::GetSPPRounds)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x5ec32b0;
+  constexpr static std::size_t addrs = 0x5effb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor)>(&::Mono::Math::Prime::PrimalityTests::RabinMillerTest)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x5ec3458;
+  constexpr static std::size_t addrs = 0x5effce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

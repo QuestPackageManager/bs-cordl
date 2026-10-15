@@ -31,22 +31,22 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e42c68, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f904, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint64_t bufferId);
 
-  /// @brief Method .ctor, addr 0x6e42c54, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f8f0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint64_t bufferId);
 
   /// [CompilerGenerated]
-  /// @brief Method get_bufferId, addr 0x6e42c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bufferId, addr 0x6e7f8e8, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_bufferId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e42c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e7f8e0, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e42c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e7f8d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -59,7 +59,7 @@ public:
   constexpr XrSpatialBufferGetInfoEXT(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType _type_k__BackingField, void* _next_k__BackingField, uint64_t _bufferId_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17588 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

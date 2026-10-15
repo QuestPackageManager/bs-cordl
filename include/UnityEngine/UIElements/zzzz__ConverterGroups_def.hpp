@@ -45,7 +45,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE ConverterGroups_Unsafe {
 public:
   // Declarations
-  /// @brief Method LazyRegisterGlobal, addr 0x7088114, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method LazyRegisterGlobal, addr 0x70c5048, size 0xb0, virtual false, abstract: false, final false
   static inline void LazyRegisterGlobal(::System::Type* source, ::System::Type* destination, ::System::Func_1<::System::Delegate*>* converterDelegate);
 
   // Ctor Parameters []

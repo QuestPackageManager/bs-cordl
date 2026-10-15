@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__NativeType_k__BackingField(::UnityEngine::Bindings::NativeType value);
 
-  /// @brief Method .ctor, addr 0x701509c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7051f90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bindings::NativeType nativeType);
 
 protected:
@@ -54,7 +54,7 @@ public:
   UnityMarshalAsAttribute(UnityMarshalAsAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23548 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23664 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]

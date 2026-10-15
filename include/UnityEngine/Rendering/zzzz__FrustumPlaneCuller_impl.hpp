@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4::*)(
     ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, int32_t, int32_t)>(&::UnityEngine::Rendering::FrustumPlaneCuller_PlanePacket4::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6c40b14;
+  constexpr static std::size_t addrs = 0x6c7d790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::FrustumPlaneCuller::*)(::Unity::Jobs::JobHandle)>(&::UnityEngine::Rendering::FrustumPlaneCuller::Dispose)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6c405d8;
+  constexpr static std::size_t addrs = 0x6c7d254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::by_ref<::UnityEngine::Rendering::BatchCullingContext const>, ::Unity::Collections::NativeArray_1<::UnityEngine::Plane>, ::by_ref<::UnityEngine::Rendering::ReceiverSphereCuller const>,
     ::Unity::Collections::Allocator)>(&::UnityEngine::Rendering::FrustumPlaneCuller::Create)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x6c40668;
+  constexpr static std::size_t addrs = 0x6c7d2e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::Unity::Col
                                                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::FrustumPlaneCuller_SplitInfo>,
                                                                     ::by_ref<::UnityEngine::Rendering::AABB const>)>(&::UnityEngine::Rendering::FrustumPlaneCuller::ComputeSplitVisibilityMask)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6c40bdc;
+  constexpr static std::size_t addrs = 0x6c7d858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

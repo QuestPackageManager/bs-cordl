@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__VRControllerTransformOffset_impl.hpp"
 #include "GlobalNamespace/zzzz__VRControllersValueSettingsOffsets_def.hpp"
 #include "BeatSaber/GameSettings/zzzz__ControllerProfilesModel_def.hpp"
-#include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::VRControllersValueSettingsOffsets.get_alternativeHandling
 template <>
@@ -11,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_alternativeHandling)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39df41c;
+  constexpr static std::size_t addrs = 0x3a08b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersValueSettingsOffsets*>(),
@@ -25,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_leftPositionOffset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x39df444;
+  constexpr static std::size_t addrs = 0x3a08b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersValueSettingsOffsets*>(),
@@ -39,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_leftRotationOffset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x39df470;
+  constexpr static std::size_t addrs = 0x3a08b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersValueSettingsOffsets*>(),
@@ -53,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_rightPositionOffset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x39df49c;
+  constexpr static std::size_t addrs = 0x3a08b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersValueSettingsOffsets*>(),
@@ -67,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(
     &::GlobalNamespace::VRControllersValueSettingsOffsets::get_rightRotationOffset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x39df4c8;
+  constexpr static std::size_t addrs = 0x3a08bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersValueSettingsOffsets*>(),
@@ -80,25 +79,13 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRControllersValueSettingsOffsets::*)()>(&::GlobalNamespace::VRControllersValueSettingsOffsets::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39df4f4;
+  constexpr static std::size_t addrs = 0x3a08be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRControllersValueSettingsOffsets*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::VRControllersValueSettingsOffsets::__cordl_internal_get__settingsManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____settingsManager;
-}
-constexpr ::GlobalNamespace::SettingsManager* const& GlobalNamespace::VRControllersValueSettingsOffsets::__cordl_internal_get__settingsManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____settingsManager;
-}
-constexpr void GlobalNamespace::VRControllersValueSettingsOffsets::__cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____settingsManager = value;
-}
 constexpr ::BeatSaber::GameSettings::ControllerProfilesModel*& GlobalNamespace::VRControllersValueSettingsOffsets::__cordl_internal_get__controllersProfile() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controllersProfile;

@@ -25,7 +25,7 @@ public:
   // Declarations
   /// [Extension]
   /// [EditorBrowsable((System.ComponentModel.EditorBrowsableState)1)]
-  /// @brief Method MarkDirty, addr 0x69f84d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MarkDirty, addr 0x6a35154, size 0x14, virtual false, abstract: false, final false
   static inline void MarkDirty(::UnityEngine::Object* obj);
 
 protected:
@@ -43,7 +43,7 @@ public:
   ObjectUtilsBridge(ObjectUtilsBridge const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24507 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24600 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

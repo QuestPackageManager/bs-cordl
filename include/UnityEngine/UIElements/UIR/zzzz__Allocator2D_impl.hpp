@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::Allocator2D_Area::*)(::UnityEngine::RectInt)>(&::UnityEngine::UIElements::UIR::Allocator2D_Area::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x7160fc4;
+  constexpr static std::size_t addrs = 0x719def8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::Allocator2D_Row* (*)()>(&::UnityEngine::UIElements::UIR::Allocator2D_Row::Create)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x7161064;
+  constexpr static std::size_t addrs = 0x719df98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Allocator2D_Row*>(), { "Create", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UIR::Allocator2D_Row*)>(&::UnityEngine::UIElements::UIR::Allocator2D_Row::Reset)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x7161118;
+  constexpr static std::size_t addrs = 0x719e04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Allocator2D_Row*>(),
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::Allocator2D_Row::*)()>(&::UnityEngine::UIElements::UIR::Allocator2D_Row::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x71610dc;
+  constexpr static std::size_t addrs = 0x719e010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::Allocator2D_Row*>(), { ".ctor", {}, {} })));
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D::*)(
     ::UnityEngine::UIElements::UIR::Allocator2D_Row*, ::UnityEngine::UIElements::UIR::Alloc, int32_t, int32_t)>(&::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x7160cc8;
+  constexpr static std::size_t addrs = 0x719dbfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::Allocator2D::*)(::UnityEngine::Vector2Int, ::UnityEngine::Vector2Int, int32_t)>(
     &::UnityEngine::UIElements::UIR::Allocator2D::_ctor)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x71601d4;
+  constexpr static std::size_t addrs = 0x719d108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::Allocator2D::*)(int32_t, int32_t, ::by_ref<::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D>)>(
     &::UnityEngine::UIElements::UIR::Allocator2D::TryAllocate)> {
   constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x7160820;
+  constexpr static std::size_t addrs = 0x719d754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::Allocator2D::*)(::UnityEngine::UIElements::UIR::Allocator2D_Alloc2D)>(
     &::UnityEngine::UIElements::UIR::Allocator2D::Free)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x7160d8c;
+  constexpr static std::size_t addrs = 0x719dcc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>*, ::UnityEngine::Vector2Int,
                                                                 ::UnityEngine::Vector2Int)>(&::UnityEngine::UIElements::UIR::Allocator2D::BuildAreas)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x71603e4;
+  constexpr static std::size_t addrs = 0x719d318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int (*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::Allocator2D_Area*>*, int32_t)>(
     &::UnityEngine::UIElements::UIR::Allocator2D::ComputeMaxAllocSize)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x7160610;
+  constexpr static std::size_t addrs = 0x719d544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::UIElements::UIR::Allocator2D_Row*> (*)(int32_t, int32_t)>(&::UnityEngine::UIElements::UIR::Allocator2D::BuildRowArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x7160780;
+  constexpr static std::size_t addrs = 0x719d6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

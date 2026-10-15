@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataMirrorTransform___c__DisplayClass0_0::*)()>(
     &::GlobalNamespace::BeatmapDataMirrorTransform___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x398eac4;
+  constexpr static std::size_t addrs = 0x39b2ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::BeatmapDataMirrorTransform___c__DisplayClass0_0::*)(::GlobalNamespace::BeatmapDataItem*)>(
         &::GlobalNamespace::BeatmapDataMirrorTransform___c__DisplayClass0_0::_CreateTransformedData_g__ProcessData_0)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x398eac8;
+  constexpr static std::size_t addrs = 0x39b2ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(
     &::GlobalNamespace::BeatmapDataMirrorTransform::CreateTransformedData)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x398e93c;
+  constexpr static std::size_t addrs = 0x39b2d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataMirrorTransform*>(),

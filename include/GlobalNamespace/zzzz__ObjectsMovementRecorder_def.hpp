@@ -116,7 +116,7 @@ public:
   static ::GlobalNamespace::ObjectsMovementRecorder_Mode const Record;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6687 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -171,7 +171,7 @@ public:
   static ::GlobalNamespace::ObjectsMovementRecorder_CameraView const ThirdPerson;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6688 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -309,7 +309,7 @@ public:
 
   constexpr void __cordl_internal_set_screenshotWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x5d02c4c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d3bc60, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ObjectsMovementRecorder_Mode mode, ::StringW recordingPath, ::GlobalNamespace::ObjectsMovementRecorder_CameraView cameraView,
                     bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate,
                     ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*> playbackScreenshots, bool saveToOldFormat, ::GlobalNamespace::IBeatSaberLogger* logger,
@@ -330,7 +330,7 @@ public:
   ObjectsMovementRecorder_InitData(ObjectsMovementRecorder_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6689 };
 
   /// @brief Field mode, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::ObjectsMovementRecorder_Mode ___mode;
@@ -399,7 +399,7 @@ static_assert(sizeof(::GlobalNamespace::ObjectsMovementRecorder_InitData) == 0x5
 
 } // namespace GlobalNamespace
 // [DefaultExecutionOrder(-4900)]
-// Dependencies ObjectsMovementRecorder::CameraView, ObjectsMovementRecorder::Mode, PlaybackRenderer::PlaybackScreenshot, PoseObject, UnityEngine.MonoBehaviour
+// Dependencies ObjectsMovementRecorder::CameraView, ObjectsMovementRecorder::Mode, PoseObject, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ObjectsMovementRecorder
@@ -434,7 +434,7 @@ public:
   /// @brief Field _livPoseObjectId, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__livPoseObjectId, put = __cordl_internal_set__livPoseObjectId)) ::UnityW<::GlobalNamespace::PoseObjectIdSO> _livPoseObjectId;
 
-  /// @brief Field _logger, offset 0x98, size 0x8
+  /// @brief Field _logger, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger)) ::GlobalNamespace::IBeatSaberLogger* _logger;
 
   /// @brief Field _mode, offset 0x70, size 0x4
@@ -450,14 +450,10 @@ public:
   __declspec(property(get = __cordl_internal_get__playbackScreenshotRecorder, put = __cordl_internal_set__playbackScreenshotRecorder)) ::UnityW<::GlobalNamespace::PlaybackScreenshotRecorder>
       _playbackScreenshotRecorder;
 
-  /// @brief Field _playbackScreenshots, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__playbackScreenshots, put = __cordl_internal_set__playbackScreenshots)) ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>
-      _playbackScreenshots;
-
   /// @brief Field _poseObjects, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__poseObjects, put = __cordl_internal_set__poseObjects)) ::ArrayW<::GlobalNamespace::PoseObject*> _poseObjects;
 
-  /// @brief Field _posesSerializer, offset 0xa0, size 0x8
+  /// @brief Field _posesSerializer, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__posesSerializer, put = __cordl_internal_set__posesSerializer)) ::GlobalNamespace::IPosesSerializer* _posesSerializer;
 
   /// @brief Field _recorder, offset 0x30, size 0x8
@@ -466,16 +462,16 @@ public:
   /// @brief Field _recordingPath, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__recordingPath, put = __cordl_internal_set__recordingPath)) ::StringW _recordingPath;
 
-  /// @brief Method HandleGameStateChanged, addr 0x5d02ad0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleGameStateChanged, addr 0x5d3bae4, size 0x74, virtual false, abstract: false, final false
   inline void HandleGameStateChanged();
 
   /// [Inject]
-  /// @brief Method Init, addr 0x5d01a6c, size 0x6b0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5d3aa80, size 0x6b0, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::ObjectsMovementRecorder* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5d02850, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5d3b864, size 0x268, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -526,10 +522,6 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::PlaybackScreenshotRecorder>& __cordl_internal_get__playbackScreenshotRecorder();
 
-  constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*> const& __cordl_internal_get__playbackScreenshots() const;
-
-  constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>& __cordl_internal_get__playbackScreenshots();
-
   constexpr ::ArrayW<::GlobalNamespace::PoseObject*> const& __cordl_internal_get__poseObjects() const;
 
   constexpr ::ArrayW<::GlobalNamespace::PoseObject*>& __cordl_internal_get__poseObjects();
@@ -570,8 +562,6 @@ public:
 
   constexpr void __cordl_internal_set__playbackScreenshotRecorder(::UnityW<::GlobalNamespace::PlaybackScreenshotRecorder> value);
 
-  constexpr void __cordl_internal_set__playbackScreenshots(::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*> value);
-
   constexpr void __cordl_internal_set__poseObjects(::ArrayW<::GlobalNamespace::PoseObject*> value);
 
   constexpr void __cordl_internal_set__posesSerializer(::GlobalNamespace::IPosesSerializer* value);
@@ -580,7 +570,7 @@ public:
 
   constexpr void __cordl_internal_set__recordingPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5d02c40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d3bc54, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -598,7 +588,7 @@ public:
   ObjectsMovementRecorder(ObjectsMovementRecorder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6690 };
 
   /// [SerializeField]
   /// @brief Field _poseObjects, offset: 0x20, size: 0x8, def value: None
@@ -655,13 +645,10 @@ public:
   /// @brief Field _externalCamera, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____externalCamera;
 
-  /// @brief Field _playbackScreenshots, offset: 0x90, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*> ____playbackScreenshots;
-
-  /// @brief Field _logger, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _logger, offset: 0x90, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberLogger* ____logger;
 
-  /// @brief Field _posesSerializer, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _posesSerializer, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::IPosesSerializer* ____posesSerializer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -695,12 +682,10 @@ static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____cameraVie
 
 static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____externalCamera) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____playbackScreenshots) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____logger) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____logger) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____posesSerializer) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____posesSerializer) == 0xa0, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::ObjectsMovementRecorder) == 0xa8, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::ObjectsMovementRecorder) == 0xa0, "Size mismatch!");
 
 } // namespace GlobalNamespace

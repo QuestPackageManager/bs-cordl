@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngineInternal::DisplayInternal::PrimaryDisplayIndex)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6ead22c;
+  constexpr static std::size_t addrs = 0x6ee9ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::DisplayInternal*>(), { "PrimaryDisplayIndex", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::UnityEngineInternal::DisplayInternal::IsASecondaryDisplayIndex)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6ead254;
+  constexpr static std::size_t addrs = 0x6ee9ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

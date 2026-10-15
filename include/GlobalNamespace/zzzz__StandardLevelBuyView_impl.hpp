@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*)>(
     &::GlobalNamespace::StandardLevelBuyView::add_didFavoriteToggleChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5cf4af8;
+  constexpr static std::size_t addrs = 0x5d2d8ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*)>(
     &::GlobalNamespace::StandardLevelBuyView::remove_didFavoriteToggleChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5cf4bb8;
+  constexpr static std::size_t addrs = 0x5d2d96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelBuyView::*)()>(&::GlobalNamespace::StandardLevelBuyView::get_buyButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cf4c78;
+  constexpr static std::size_t addrs = 0x5d2da2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelBuyView*>(), { "get_buyButton", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)()>(&::GlobalNamespace::StandardLevelBuyView::Awake)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5cf4c80;
+  constexpr static std::size_t addrs = 0x5d2da34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelBuyView*>(), { "Awake", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)()>(&::GlobalNamespace::StandardLevelBuyView::OnDestroy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cf4d90;
+  constexpr static std::size_t addrs = 0x5d2db44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelBuyView*>(), { "OnDestroy", {}, {} })));
@@ -80,8 +80,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)(::GlobalNamespace::BeatmapLevel*)>(&::GlobalNamespace::StandardLevelBuyView::SetContent)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5cf4da4;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5d2db58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)()>(&::GlobalNamespace::StandardLevelBuyView::RefreshFavouriteToggle)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5cf4ddc;
+  constexpr static std::size_t addrs = 0x5d2dba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelBuyView*>(), { "RefreshFavouriteToggle", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)()>(&::GlobalNamespace::StandardLevelBuyView::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cf4e20;
+  constexpr static std::size_t addrs = 0x5d2dbe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardLevelBuyView*>(), { ".ctor", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)(bool)>(&::GlobalNamespace::StandardLevelBuyView::_Awake_b__12_0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5cf4e24;
+  constexpr static std::size_t addrs = 0x5d2dbec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

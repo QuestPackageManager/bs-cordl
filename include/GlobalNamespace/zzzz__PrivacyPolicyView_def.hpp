@@ -77,7 +77,7 @@ public:
   static ::GlobalNamespace::PrivacyPolicyView_LinkState const Opened;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6612 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6616 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -125,18 +125,18 @@ public:
   /// @brief Field _settingsManager, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method Activate, addr 0x5cf30f0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x5d2bea4, size 0x160, virtual false, abstract: false, final false
   inline void Activate(::HMUI::ButtonBinder* buttonBinder, bool firstActivation);
 
   static inline ::GlobalNamespace::PrivacyPolicyView* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x5cf3670, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x5d2c424, size 0x10, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool focus);
 
-  /// @brief Method OpenLink, addr 0x5cf3600, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method OpenLink, addr 0x5d2c3b4, size 0x70, virtual false, abstract: false, final false
   inline void OpenLink();
 
-  /// @brief Method SetLinkState, addr 0x5cf359c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetLinkState, addr 0x5d2c350, size 0x64, virtual false, abstract: false, final false
   inline void SetLinkState(::GlobalNamespace::PrivacyPolicyView_LinkState linkState);
 
   constexpr ::UnityW<::GlobalNamespace::LocalizedTextAsset> const& __cordl_internal_get__koreanLocalizedTextAsset() const;
@@ -181,7 +181,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x5cf3680, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d2c434, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -199,7 +199,7 @@ public:
   PrivacyPolicyView(PrivacyPolicyView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6613 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6617 };
 
   /// @brief Field kPrivacyPolicyURL offset 0xffffffff size 0x8
   static constexpr ::ConstString kPrivacyPolicyURL{ u"https://www.meta.com/legal/privacy-policy/" };

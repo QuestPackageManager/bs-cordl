@@ -31,7 +31,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE SetupDragAndDropArgs {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x7219480, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72563b4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* draggedElement, ::System::Collections::Generic::IEnumerable_1<int32_t>* selectedIds,
                     ::UnityEngine::UIElements::StartDragArgs startDragArgs);
 

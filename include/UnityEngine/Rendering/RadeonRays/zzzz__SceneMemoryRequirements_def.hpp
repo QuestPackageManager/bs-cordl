@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_totalBottomLevelBvhSizeInNodes(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x6dfcef4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e39b90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,7 +104,7 @@ public:
   SceneMemoryRequirements(SceneMemoryRequirements const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20479 };
 
   /// @brief Field buildScratchSizeInDwords, offset: 0x10, size: 0x8, def value: None
   uint64_t ___buildScratchSizeInDwords;

@@ -50,10 +50,10 @@ public:
 
   static inline ::UnityEngine::UIElements::StyleSelector___c* New_ctor();
 
-  /// @brief Method <ToString>b__11_0, addr 0x7115b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__11_0, addr 0x7152a44, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__11_0(::UnityEngine::UIElements::StyleSelectorPart p);
 
-  /// @brief Method .ctor, addr 0x7115b0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7152a40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::StyleSelector___c* getStaticF___9();
@@ -116,7 +116,7 @@ public:
 
   static inline ::UnityEngine::UIElements::StyleSelector* New_ctor();
 
-  /// @brief Method ToString, addr 0x7115968, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x715289c, size 0x150, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<::UnityEngine::UIElements::StyleSelectorPart> const& __cordl_internal_get_m_Parts() const;
@@ -143,21 +143,21 @@ public:
 
   constexpr void __cordl_internal_set_pseudoStateMask(int32_t value);
 
-  /// @brief Method .ctor, addr 0x711365c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7150590, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_parts, addr 0x7113d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parts, addr 0x7150cbc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleSelectorPart> get_parts();
 
-  /// @brief Method get_previousRelationship, addr 0x7115960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previousRelationship, addr 0x7152894, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSelectorRelationship get_previousRelationship();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method set_parts, addr 0x7113668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parts, addr 0x715059c, size 0x8, virtual false, abstract: false, final false
   inline void set_parts(::ArrayW<::UnityEngine::UIElements::StyleSelectorPart> value);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method set_previousRelationship, addr 0x7113670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_previousRelationship, addr 0x71505a4, size 0x8, virtual false, abstract: false, final false
   inline void set_previousRelationship(::UnityEngine::UIElements::StyleSelectorRelationship value);
 
 protected:

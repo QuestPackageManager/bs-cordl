@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GraphAPIClient::*)(::StringW, ::StringW, ::System::Action_1<::System::Net::Http::Headers::HttpRequestHeaders*>*)>(
     &::GlobalNamespace::GraphAPIClient::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x35bbb44;
+  constexpr static std::size_t addrs = 0x35de4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::GlobalNamespace::GraphAPIClient_PostOptions)>(&::GlobalNamespace::GraphAPIClient::CalculateDelayMsBeforeRetry)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x35bbbc0;
+  constexpr static std::size_t addrs = 0x35de524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

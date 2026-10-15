@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FilterFunction (::UnityEngine::UIElements::FilterPassContext::*)()>(
     &::UnityEngine::UIElements::FilterPassContext::get_filterFunction)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x723622c;
+  constexpr static std::size_t addrs = 0x7273160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FilterPassContext>(), { "get_filterFunction", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FilterPassContext::*)(::UnityEngine::UIElements::FilterFunction)>(
     &::UnityEngine::UIElements::FilterPassContext::set_filterFunction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x723623c;
+  constexpr static std::size_t addrs = 0x7273170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FilterPassContext>(),
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FilterPassContext::*)(int32_t)>(&::UnityEngine::UIElements::FilterPassContext::set_filterPassIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7236244;
+  constexpr static std::size_t addrs = 0x7273178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::FilterPassContext::*)()>(&::UnityEngine::UIElements::FilterPassContext::get_readsGamma)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x723624c;
+  constexpr static std::size_t addrs = 0x7273180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FilterPassContext>(), { "get_readsGamma", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FilterPassContext::*)(bool)>(&::UnityEngine::UIElements::FilterPassContext::set_readsGamma)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7236254;
+  constexpr static std::size_t addrs = 0x7273188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FilterPassContext::*)(bool)>(&::UnityEngine::UIElements::FilterPassContext::set_writesGamma)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x723625c;
+  constexpr static std::size_t addrs = 0x7273190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::FilterPassContext::*)()>(&::UnityEngine::UIElements::FilterPassContext::get_scaledPixelsPerPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7236264;
+  constexpr static std::size_t addrs = 0x7273198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FilterPassContext>(), { "get_scaledPixelsPerPoint", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::FilterPassContext::*)(float_t)>(&::UnityEngine::UIElements::FilterPassContext::set_scaledPixelsPerPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x723626c;
+  constexpr static std::size_t addrs = 0x72731a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::UnifiedRayTracing::AsyncTerrainToMeshRequest (*)(
     int32_t, int32_t, ::UnityEngine::Vector3, ::System::Object*, ::System::Object*)>(&::UnityEngine::Rendering::UnifiedRayTracing::TerrainToMesh::MakeAsyncTerrainToMeshRequest)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x6e06a80;
+  constexpr static std::size_t addrs = 0x6e4371c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::TerrainToMesh*>(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::UnifiedRayTracing::AsyncTerrainToMeshRequest (*)(::UnityEngine::Terrain*)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::TerrainToMesh::ConvertAsync)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6e06e38;
+  constexpr static std::size_t addrs = 0x6e43ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::UnifiedRayTracing::AsyncTerrainToMeshRequest (*)(
     int32_t, int32_t, ::ArrayW<int16_t>, ::UnityEngine::Vector3, int32_t, int32_t, ::ArrayW<uint8_t>)>(&::UnityEngine::Rendering::UnifiedRayTracing::TerrainToMesh::ConvertAsync)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x6e06f4c;
+  constexpr static std::size_t addrs = 0x6e43be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (*)(::UnityEngine::Terrain*)>(&::UnityEngine::Rendering::UnifiedRayTracing::TerrainToMesh::Convert)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e00d78;
+  constexpr static std::size_t addrs = 0x6e3da14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (*)(int32_t, int32_t, ::ArrayW<int16_t>, ::UnityEngine::Vector3, int32_t, int32_t, ::ArrayW<uint8_t>)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::TerrainToMesh::Convert)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6e073c8;
+  constexpr static std::size_t addrs = 0x6e44064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

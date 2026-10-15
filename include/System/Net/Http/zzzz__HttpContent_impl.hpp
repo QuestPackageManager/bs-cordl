@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent_FixedMemoryStream::*)(int64_t)>(&::System::Net::Http::HttpContent_FixedMemoryStream::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64f9a00;
+  constexpr static std::size_t addrs = 0x65365d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent_FixedMemoryStream::*)(int32_t)>(&::System::Net::Http::HttpContent_FixedMemoryStream::CheckOverflow)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x64f9e3c;
+  constexpr static std::size_t addrs = 0x6536a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent_FixedMemoryStream::*)(uint8_t)>(&::System::Net::Http::HttpContent_FixedMemoryStream::WriteByte)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64f9f4c;
+  constexpr static std::size_t addrs = 0x6536b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent_FixedMemoryStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::System::Net::Http::HttpContent_FixedMemoryStream::Write)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x64f9f7c;
+  constexpr static std::size_t addrs = 0x6536b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent__CreateContentReadStreamAsync_d__12::*)()>(
     &::System::Net::Http::HttpContent__CreateContentReadStreamAsync_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x64f9fc4;
+  constexpr static std::size_t addrs = 0x6536b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent__CreateContentReadStreamAsync_d__12::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::Net::Http::HttpContent__CreateContentReadStreamAsync_d__12::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64fa1e8;
+  constexpr static std::size_t addrs = 0x6536db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent__CreateContentReadStreamAsync_d__12>(),
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent__LoadIntoBufferAsync_d__17::*)()>(
     &::System::Net::Http::HttpContent__LoadIntoBufferAsync_d__17::MoveNext)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x64fa268;
+  constexpr static std::size_t addrs = 0x6536e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent__LoadIntoBufferAsync_d__17>(), { "MoveNext", {}, {} })));
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent__LoadIntoBufferAsync_d__17::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::Net::Http::HttpContent__LoadIntoBufferAsync_d__17::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x64fa524;
+  constexpr static std::size_t addrs = 0x65370f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent__LoadIntoBufferAsync_d__17>(),
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent__ReadAsStreamAsync_d__18::*)()>(&::System::Net::Http::HttpContent__ReadAsStreamAsync_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x64fa590;
+  constexpr static std::size_t addrs = 0x6537160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent__ReadAsStreamAsync_d__18>(), { "MoveNext", {}, {} })));
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent__ReadAsStreamAsync_d__18::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::Net::Http::HttpContent__ReadAsStreamAsync_d__18::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64fa954;
+  constexpr static std::size_t addrs = 0x6537524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent__ReadAsStreamAsync_d__18>(),
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent__ReadAsByteArrayAsync_d__19::*)()>(
     &::System::Net::Http::HttpContent__ReadAsByteArrayAsync_d__19::MoveNext)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x64fa9d4;
+  constexpr static std::size_t addrs = 0x65375a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent__ReadAsByteArrayAsync_d__19>(), { "MoveNext", {}, {} })));
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent__ReadAsByteArrayAsync_d__19::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::Net::Http::HttpContent__ReadAsByteArrayAsync_d__19::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64fac1c;
+  constexpr static std::size_t addrs = 0x65377ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent__ReadAsByteArrayAsync_d__19>(),
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent__ReadAsStringAsync_d__20::*)()>(&::System::Net::Http::HttpContent__ReadAsStringAsync_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x64fac9c;
+  constexpr static std::size_t addrs = 0x653786c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent__ReadAsStringAsync_d__20>(), { "MoveNext", {}, {} })));
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent__ReadAsStringAsync_d__20::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::Net::Http::HttpContent__ReadAsStringAsync_d__20::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64fb1ec;
+  constexpr static std::size_t addrs = 0x6537dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent__ReadAsStringAsync_d__20>(),
@@ -403,7 +403,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::Headers::HttpContentHeaders* (::System::Net::Http::HttpContent::*)()>(&::System::Net::Http::HttpContent::get_Headers)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x64f4868;
+  constexpr static std::size_t addrs = 0x6531438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent*>(), { "get_Headers", {}, {} })));
@@ -415,7 +415,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<int64_t> (::System::Net::Http::HttpContent::*)()>(&::System::Net::Http::HttpContent::get_LoadedBufferLength)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x64f97c0;
+  constexpr static std::size_t addrs = 0x6536390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent*>(), { "get_LoadedBufferLength", {}, {} })));
@@ -428,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::Http::HttpContent::*)(::System::IO::Stream*)>(
     &::System::Net::Http::HttpContent::CopyToAsync)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f6ab8;
+  constexpr static std::size_t addrs = 0x6533688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -442,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::Http::HttpContent::*)(::System::IO::Stream*, ::System::Net::TransportContext*)>(
     &::System::Net::Http::HttpContent::CopyToAsync)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x64f9824;
+  constexpr static std::size_t addrs = 0x65363f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -457,7 +457,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::IO::Stream*>* (::System::Net::Http::HttpContent::*)()>(
     &::System::Net::Http::HttpContent::CreateContentReadStreamAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x64f98bc;
+  constexpr static std::size_t addrs = 0x653648c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -470,7 +470,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::HttpContent_FixedMemoryStream* (*)(int64_t)>(&::System::Net::Http::HttpContent::CreateFixedMemoryStream)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x64f99a0;
+  constexpr static std::size_t addrs = 0x6536570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -483,7 +483,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent::*)()>(&::System::Net::Http::HttpContent::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64f9a28;
+  constexpr static std::size_t addrs = 0x65365f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent*>(), { "Dispose", {}, {} })));
@@ -495,7 +495,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent::*)(bool)>(&::System::Net::Http::HttpContent::Dispose)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x64f9a38;
+  constexpr static std::size_t addrs = 0x6536608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -508,7 +508,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::Http::HttpContent::*)()>(&::System::Net::Http::HttpContent::LoadIntoBufferAsync)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64f9a6c;
+  constexpr static std::size_t addrs = 0x653663c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent*>(), { "LoadIntoBufferAsync", {}, {} })));
@@ -520,7 +520,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::Http::HttpContent::*)(int64_t)>(&::System::Net::Http::HttpContent::LoadIntoBufferAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x64f69f8;
+  constexpr static std::size_t addrs = 0x65335c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -534,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::IO::Stream*>* (::System::Net::Http::HttpContent::*)()>(
     &::System::Net::Http::HttpContent::ReadAsStreamAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x64f9a74;
+  constexpr static std::size_t addrs = 0x6536644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent*>(), { "ReadAsStreamAsync", {}, {} })));
@@ -547,7 +547,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* (::System::Net::Http::HttpContent::*)()>(
     &::System::Net::Http::HttpContent::ReadAsByteArrayAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x64f9b58;
+  constexpr static std::size_t addrs = 0x6536728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent*>(), { "ReadAsByteArrayAsync", {}, {} })));
@@ -559,7 +559,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::System::Net::Http::HttpContent::*)()>(&::System::Net::Http::HttpContent::ReadAsStringAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x64f95e8;
+  constexpr static std::size_t addrs = 0x65361b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent*>(), { "ReadAsStringAsync", {}, {} })));
@@ -571,7 +571,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (*)(::ArrayW<uint8_t>, int32_t, ::by_ref<int32_t>)>(&::System::Net::Http::HttpContent::GetEncodingFromBuffer)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x64f9c3c;
+  constexpr static std::size_t addrs = 0x653680c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -585,7 +585,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t, ::ArrayW<uint8_t>)>(&::System::Net::Http::HttpContent::StartsWith)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x64f9dbc;
+  constexpr static std::size_t addrs = 0x653698c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -600,7 +600,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::Net::Http::HttpContent::*)(::System::IO::Stream*, ::System::Net::TransportContext*)>(
     &::System::Net::Http::HttpContent::SerializeToStreamAsync_internal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64f9e30;
+  constexpr static std::size_t addrs = 0x6536a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -641,7 +641,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::HttpContent::*)()>(&::System::Net::Http::HttpContent::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x64f7184;
+  constexpr static std::size_t addrs = 0x6533d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::HttpContent*>(), { ".ctor", {}, {} })));

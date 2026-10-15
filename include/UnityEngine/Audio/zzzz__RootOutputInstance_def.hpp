@@ -87,7 +87,7 @@ public:
   RootOutputInstance_IProcessor(RootOutputInstance_IProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20421 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -117,7 +117,7 @@ public:
   RootOutputInstance_IControl_1(RootOutputInstance_IControl_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20422 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -155,7 +155,7 @@ public:
   RootOutputInstance_IRealtime(RootOutputInstance_IRealtime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20376 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20423 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -177,28 +177,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Audio::RootOutputInstance>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Audio::RootOutputInstance>*();
 
-  /// @brief Method Equals, addr 0x6eabb58, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ee87f4, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6eabb2c, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6ee87c8, size 0x2c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Audio::RootOutputInstance other);
 
-  /// @brief Method GetHashCode, addr 0x6eabc3c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6ee88d8, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6eabc54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee88f0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Audio::ProcessorHeader* header);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Audio::RootOutputInstance>"
   constexpr ::System::IEquatable_1<::UnityEngine::Audio::RootOutputInstance>* i___System__IEquatable_1___UnityEngine__Audio__RootOutputInstance_();
 
-  /// @brief Method op_Equality, addr 0x6eabbe4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6ee8880, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Audio::RootOutputInstance a, ::UnityEngine::Audio::RootOutputInstance b);
 
-  /// @brief Method op_Implicit, addr 0x6eabb18, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6ee87b4, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::ProcessorInstance op_Implicit___UnityEngine__Audio__ProcessorInstance(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RootOutputInstance const> root);
 
-  /// @brief Method op_Inequality, addr 0x6eabc10, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6ee88ac, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Audio::RootOutputInstance a, ::UnityEngine::Audio::RootOutputInstance b);
 
   // Ctor Parameters []
@@ -209,7 +209,7 @@ public:
   constexpr RootOutputInstance(::UnityEngine::Audio::ProcessorInstance m_ProcessorInstance) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20377 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20424 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

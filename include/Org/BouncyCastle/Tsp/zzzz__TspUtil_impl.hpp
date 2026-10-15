@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (*)(::Org::BouncyCastle::Cms::SignerInformation*)>(
     &::Org::BouncyCastle::Tsp::TspUtil::GetSignatureTimestamps)> {
   constexpr static std::size_t size = 0x974;
-  constexpr static std::size_t addrs = 0x38af11c;
+  constexpr static std::size_t addrs = 0x38d1a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Org::BouncyCastle::X509::X509Certificate*)>(&::Org::BouncyCastle::Tsp::TspUtil::ValidateCertificate)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x38ac83c;
+  constexpr static std::size_t addrs = 0x38cf1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::Org::BouncyCastle::Tsp::TspUtil::GetDigestAlgName)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x38afa90;
+  constexpr static std::size_t addrs = 0x38d23f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::Org::BouncyCastle::Tsp::TspUtil::GetDigestLength)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x38a90e0;
+  constexpr static std::size_t addrs = 0x38cba44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (*)(::StringW)>(&::Org::BouncyCastle::Tsp::TspUtil::CreateDigestInstance)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x38afb90;
+  constexpr static std::size_t addrs = 0x38d24f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (*)(::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
     &::Org::BouncyCastle::Tsp::TspUtil::GetCriticalExtensionOids)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x38afc24;
+  constexpr static std::size_t addrs = 0x38d2588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (*)(::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
     &::Org::BouncyCastle::Tsp::TspUtil::GetNonCriticalExtensionOids)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x38affd0;
+  constexpr static std::size_t addrs = 0x38d2934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (*)(::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(&::Org::BouncyCastle::Tsp::TspUtil::GetExtensionOids)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x38a934c;
+  constexpr static std::size_t addrs = 0x38cbcb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Tsp::TspUtil::*)()>(&::Org::BouncyCastle::Tsp::TspUtil::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x38b0084;
+  constexpr static std::size_t addrs = 0x38d29e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Tsp::TspUtil*>(), { ".ctor", {}, {} })));

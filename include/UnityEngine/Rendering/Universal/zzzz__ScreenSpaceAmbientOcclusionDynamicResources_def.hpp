@@ -67,16 +67,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6ce9288, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d25f04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BlueNoise256Textures, addr 0x6ce9200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlueNoise256Textures, addr 0x6d25e7c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Texture2D>> get_BlueNoise256Textures();
 
-  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6ce9278, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6d25ef4, size 0x8, virtual true, abstract: false, final true
   inline bool get_isAvailableInPlayerBuild();
 
-  /// @brief Method get_version, addr 0x6ce9280, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6d25efc, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -85,7 +85,7 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_BlueNoise256Textures, addr 0x6ce9208, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_BlueNoise256Textures, addr 0x6d25e84, size 0x70, virtual false, abstract: false, final false
   inline void set_BlueNoise256Textures(::ArrayW<::UnityEngine::Texture2D*> value);
 
 protected:
@@ -103,7 +103,7 @@ public:
   ScreenSpaceAmbientOcclusionDynamicResources(ScreenSpaceAmbientOcclusionDynamicResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13181 };
 
   /// [SerializeField]
   /// [ResourceFormattedPaths("Textures/BlueNoise256/LDR_LLL1_{0}.png", 0, 7, (UnityEngine.Rendering.SearchType)0)]

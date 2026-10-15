@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::AddressablesInternalBridge::Runtime::Extensions___c::*)()>(&::AddressablesInternalBridge::Runtime::Extensions___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68728dc;
+  constexpr static std::size_t addrs = 0x68af558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::AddressablesInternalBridge::Runtime::Extensions___c*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::AddressablesInternalBridge::Runtime::Extensions___c::*)(::UnityEngine::AddressableAssets::ResourceLocatorInfo*)>(
     &::AddressablesInternalBridge::Runtime::Extensions___c::_GetUpdateableCatalogLocationDatas_b__1_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68728e0;
+  constexpr static std::size_t addrs = 0x68af55c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::AddressablesInternalBridge::Runtime::CatalogLocationData* (::AddressablesInternalBridge::Runtime::Extensions___c::*)(::UnityEngine::AddressableAssets::ResourceLocatorInfo*)>(
         &::AddressablesInternalBridge::Runtime::Extensions___c::_GetUpdateableCatalogLocationDatas_b__1_1)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6872aa0;
+  constexpr static std::size_t addrs = 0x68af71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::AddressablesInternalBridge::Runtime::CatalogLocationData* (*)(::StringW)>(
     &::AddressablesInternalBridge::Runtime::Extensions::GetCatalogLocationData)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6872390;
+  constexpr static std::size_t addrs = 0x68af00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::AddressablesInternalBridge::Runtime::CatalogLocationData*>* (*)()>(
     &::AddressablesInternalBridge::Runtime::Extensions::GetUpdateableCatalogLocationDatas)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x687268c;
+  constexpr static std::size_t addrs = 0x68af308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

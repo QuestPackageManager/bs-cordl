@@ -5,13 +5,12 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ModalViewBase_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(ModalView)
 namespace HMUI {
-class ModalView___c__DisplayClass19_0;
+class ModalView___c__DisplayClass18_0;
 }
 namespace HMUI {
-class ModalView___c__DisplayClass23_0;
+class ModalView___c__DisplayClass22_0;
 }
 namespace HMUI {
 class PanelAnimationSO;
@@ -42,24 +41,24 @@ namespace HMUI {
 class ModalView;
 }
 namespace HMUI {
-class ModalView___c__DisplayClass19_0;
+class ModalView___c__DisplayClass18_0;
 }
 namespace HMUI {
-class ModalView___c__DisplayClass23_0;
+class ModalView___c__DisplayClass22_0;
 }
 // Write type traits
 MARK_REF_T(::HMUI::ModalView*);
-MARK_REF_T(::HMUI::ModalView___c__DisplayClass19_0*);
-MARK_REF_T(::HMUI::ModalView___c__DisplayClass23_0*);
+MARK_REF_T(::HMUI::ModalView___c__DisplayClass18_0*);
+MARK_REF_T(::HMUI::ModalView___c__DisplayClass22_0*);
 DEFINE_IL2CPP_CLASS(::HMUI::ModalView*, "HMUI", "ModalView");
-DEFINE_IL2CPP_CLASS(::HMUI::ModalView___c__DisplayClass19_0*, "HMUI", "ModalView/<>c__DisplayClass19_0");
-DEFINE_IL2CPP_CLASS(::HMUI::ModalView___c__DisplayClass23_0*, "HMUI", "ModalView/<>c__DisplayClass23_0");
+DEFINE_IL2CPP_CLASS(::HMUI::ModalView___c__DisplayClass18_0*, "HMUI", "ModalView/<>c__DisplayClass18_0");
+DEFINE_IL2CPP_CLASS(::HMUI::ModalView___c__DisplayClass22_0*, "HMUI", "ModalView/<>c__DisplayClass22_0");
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
-// CS Name: HMUI.ModalView/<>c__DisplayClass19_0
-class CORDL_TYPE ModalView___c__DisplayClass19_0 : public ::System::Object {
+// CS Name: HMUI.ModalView/<>c__DisplayClass18_0
+class CORDL_TYPE ModalView___c__DisplayClass18_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -68,9 +67,9 @@ public:
   /// @brief Field finishedCallback, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback)) ::System::Action* finishedCallback;
 
-  static inline ::HMUI::ModalView___c__DisplayClass19_0* New_ctor();
+  static inline ::HMUI::ModalView___c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <Hide>b__0, addr 0x3587ccc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <Hide>b__0, addr 0x35aa36c, size 0x7c, virtual false, abstract: false, final false
   inline void _Hide_b__0();
 
   constexpr ::UnityW<::HMUI::ModalView> const& __cordl_internal_get___4__this() const;
@@ -85,25 +84,25 @@ public:
 
   constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x358718c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a982c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr ModalView___c__DisplayClass19_0();
+  constexpr ModalView___c__DisplayClass18_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass19_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass18_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  ModalView___c__DisplayClass19_0(ModalView___c__DisplayClass19_0&&) = delete;
+  ModalView___c__DisplayClass18_0(ModalView___c__DisplayClass18_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass19_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass18_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ModalView___c__DisplayClass19_0(ModalView___c__DisplayClass19_0 const&) = delete;
+  ModalView___c__DisplayClass18_0(ModalView___c__DisplayClass18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21798 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HMUI::ModalView> _____4__this;
@@ -114,19 +113,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::HMUI::ModalView___c__DisplayClass19_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ModalView___c__DisplayClass18_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ModalView___c__DisplayClass19_0, ___finishedCallback) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ModalView___c__DisplayClass18_0, ___finishedCallback) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::HMUI::ModalView___c__DisplayClass19_0) == 0x20, "Size mismatch!");
+static_assert(sizeof(::HMUI::ModalView___c__DisplayClass18_0) == 0x20, "Size mismatch!");
 
 } // namespace HMUI
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace HMUI {
 // Is value type: false
-// CS Name: HMUI.ModalView/<>c__DisplayClass23_0
-class CORDL_TYPE ModalView___c__DisplayClass23_0 : public ::System::Object {
+// CS Name: HMUI.ModalView/<>c__DisplayClass22_0
+class CORDL_TYPE ModalView___c__DisplayClass22_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -135,9 +134,9 @@ public:
   /// @brief Field prevAnimateParentCanvas, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_prevAnimateParentCanvas, put = __cordl_internal_set_prevAnimateParentCanvas)) bool prevAnimateParentCanvas;
 
-  static inline ::HMUI::ModalView___c__DisplayClass23_0* New_ctor();
+  static inline ::HMUI::ModalView___c__DisplayClass22_0* New_ctor();
 
-  /// @brief Method <HandleParentViewControllerDidDeactivate>b__0, addr 0x3587d48, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <HandleParentViewControllerDidDeactivate>b__0, addr 0x35aa3e8, size 0x1c, virtual false, abstract: false, final false
   inline void _HandleParentViewControllerDidDeactivate_b__0();
 
   constexpr ::UnityW<::HMUI::ModalView> const& __cordl_internal_get___4__this() const;
@@ -152,25 +151,25 @@ public:
 
   constexpr void __cordl_internal_set_prevAnimateParentCanvas(bool value);
 
-  /// @brief Method .ctor, addr 0x3587cbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35aa35c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr ModalView___c__DisplayClass23_0();
+  constexpr ModalView___c__DisplayClass22_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass23_0", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass22_0", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  ModalView___c__DisplayClass23_0(ModalView___c__DisplayClass23_0&&) = delete;
+  ModalView___c__DisplayClass22_0(ModalView___c__DisplayClass22_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass23_0", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ModalView___c__DisplayClass22_0", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ModalView___c__DisplayClass23_0(ModalView___c__DisplayClass23_0 const&) = delete;
+  ModalView___c__DisplayClass22_0(ModalView___c__DisplayClass22_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21752 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21799 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HMUI::ModalView> _____4__this;
@@ -181,11 +180,11 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::HMUI::ModalView___c__DisplayClass23_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ModalView___c__DisplayClass22_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ModalView___c__DisplayClass23_0, ___prevAnimateParentCanvas) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ModalView___c__DisplayClass22_0, ___prevAnimateParentCanvas) == 0x18, "Offset mismatch!");
 
-static_assert(sizeof(::HMUI::ModalView___c__DisplayClass23_0) == 0x20, "Size mismatch!");
+static_assert(sizeof(::HMUI::ModalView___c__DisplayClass22_0) == 0x20, "Size mismatch!");
 
 } // namespace HMUI
 // Dependencies HMUI.ModalViewBase
@@ -195,9 +194,9 @@ namespace HMUI {
 class CORDL_TYPE ModalView : public ::HMUI::ModalViewBase {
 public:
   // Declarations
-  using __c__DisplayClass19_0 = ::HMUI::ModalView___c__DisplayClass19_0;
+  using __c__DisplayClass18_0 = ::HMUI::ModalView___c__DisplayClass18_0;
 
-  using __c__DisplayClass23_0 = ::HMUI::ModalView___c__DisplayClass23_0;
+  using __c__DisplayClass22_0 = ::HMUI::ModalView___c__DisplayClass22_0;
 
   /// @brief Field _animateParentCanvas, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__animateParentCanvas, put = __cordl_internal_set__animateParentCanvas)) bool _animateParentCanvas;
@@ -226,9 +225,6 @@ public:
   /// @brief Field _previousParent, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__previousParent, put = __cordl_internal_set__previousParent)) ::UnityW<::UnityEngine::Transform> _previousParent;
 
-  /// @brief Field _test, offset 0x70, size 0x4
-  __declspec(property(get = __cordl_internal_get__test, put = __cordl_internal_set__test)) int32_t _test;
-
   /// @brief Field _viewIsValid, offset 0x51, size 0x1
   __declspec(property(get = __cordl_internal_get__viewIsValid, put = __cordl_internal_set__viewIsValid)) bool _viewIsValid;
 
@@ -237,34 +233,34 @@ public:
 
   __declspec(property(get = get_isShown)) bool isShown;
 
-  /// @brief Method CreateBlocker, addr 0x3587704, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method CreateBlocker, addr 0x35a9da4, size 0x48c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateBlocker();
 
-  /// @brief Method GetModalRootTransform, addr 0x35875f4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetModalRootTransform, addr 0x35a9c94, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> GetModalRootTransform(::UnityEngine::Transform* transform, ::by_ref<::UnityEngine::Canvas*> canvas,
                                                                          ::by_ref<::HMUI::ViewControllerBase*> viewController);
 
-  /// @brief Method HandleBlockerButtonClicked, addr 0x3587b90, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleBlockerButtonClicked, addr 0x35aa230, size 0x1c, virtual false, abstract: false, final false
   inline void HandleBlockerButtonClicked();
 
-  /// @brief Method HandleParentViewControllerDidDeactivate, addr 0x3587bac, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method HandleParentViewControllerDidDeactivate, addr 0x35aa24c, size 0x110, virtual false, abstract: false, final false
   inline void HandleParentViewControllerDidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Hide, addr 0x3586f0c, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method Hide, addr 0x35a95ac, size 0x280, virtual true, abstract: false, final false
   inline void Hide(bool animated, ::System::Action* finishedCallback);
 
   static inline ::HMUI::ModalView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3586be0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x35a9280, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3586bcc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x35a926c, size 0x14, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method SetupView, addr 0x3586c70, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method SetupView, addr 0x35a9310, size 0x29c, virtual false, abstract: false, final false
   inline void SetupView(::UnityEngine::Transform* screenTransform);
 
-  /// @brief Method Show, addr 0x3587190, size 0x464, virtual true, abstract: false, final false
+  /// @brief Method Show, addr 0x35a9830, size 0x464, virtual true, abstract: false, final false
   inline void Show(bool animated, bool moveToCenter, ::System::Action* finishedCallback);
 
   constexpr bool const& __cordl_internal_get__animateParentCanvas() const;
@@ -303,10 +299,6 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__previousParent();
 
-  constexpr int32_t const& __cordl_internal_get__test() const;
-
-  constexpr int32_t& __cordl_internal_get__test();
-
   constexpr bool const& __cordl_internal_get__viewIsValid() const;
 
   constexpr bool& __cordl_internal_get__viewIsValid();
@@ -333,24 +325,22 @@ public:
 
   constexpr void __cordl_internal_set__previousParent(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr void __cordl_internal_set__test(int32_t value);
-
   constexpr void __cordl_internal_set__viewIsValid(bool value);
 
   constexpr void __cordl_internal_set_blockerClickedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3587cc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35aa360, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_blockerClickedEvent, addr 0x3586a6c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method add_blockerClickedEvent, addr 0x35a910c, size 0xac, virtual true, abstract: false, final false
   inline void add_blockerClickedEvent(::System::Action* value);
 
-  /// @brief Method get_isShown, addr 0x3586bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isShown, addr 0x35a9264, size 0x8, virtual false, abstract: false, final false
   inline bool get_isShown();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_blockerClickedEvent, addr 0x3586b18, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method remove_blockerClickedEvent, addr 0x35a91b8, size 0xac, virtual true, abstract: false, final false
   inline void remove_blockerClickedEvent(::System::Action* value);
 
 protected:
@@ -368,7 +358,7 @@ public:
   ModalView(ModalView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21753 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21800 };
 
   /// [SerializeField]
   /// @brief Field _presentPanelAnimations, offset: 0x20, size: 0x8, def value: None
@@ -408,9 +398,6 @@ public:
   /// @brief Field _blockerGO, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____blockerGO;
 
-  /// @brief Field _test, offset: 0x70, size: 0x4, def value: None
-  int32_t ____test;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -436,8 +423,6 @@ static_assert(offsetof(::HMUI::ModalView, ____parentCanvasGroup) == 0x60, "Offse
 
 static_assert(offsetof(::HMUI::ModalView, ____blockerGO) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ModalView, ____test) == 0x70, "Offset mismatch!");
-
-static_assert(sizeof(::HMUI::ModalView) == 0x78, "Size mismatch!");
+static_assert(sizeof(::HMUI::ModalView) == 0x70, "Size mismatch!");
 
 } // namespace HMUI

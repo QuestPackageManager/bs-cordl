@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::LevelGameplaySetupData::*)()>(&::GlobalNamespace::LevelGameplaySetupData::get_beatmapKey)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39c0278;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x39e6804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelGameplaySetupData*>(), { "get_beatmapKey", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::LevelGameplaySetupData::*)()>(
     &::GlobalNamespace::LevelGameplaySetupData::get_gameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c0284;
+  constexpr static std::size_t addrs = 0x39e6818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelGameplaySetupData*>(), { "get_gameplayModifiers", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)()>(&::GlobalNamespace::LevelGameplaySetupData::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x39c028c;
+  constexpr static std::size_t addrs = 0x39e6820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelGameplaySetupData*>(), { ".ctor", {}, {} })));
@@ -48,8 +48,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)(::by_ref<::GlobalNamespace::BeatmapKey const>, ::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::LevelGameplaySetupData::_ctor)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39c02f0;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x39e6884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,8 +62,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)()>(&::GlobalNamespace::LevelGameplaySetupData::ClearGameplaySetupData)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x39c038c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x39e6928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelGameplaySetupData*>(), { "ClearGameplaySetupData", {}, {} })));
@@ -75,8 +75,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)(::by_ref<::GlobalNamespace::BeatmapKey const>)>(
     &::GlobalNamespace::LevelGameplaySetupData::SetBeatmapKey)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39c03f4;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x39e6994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::LevelGameplaySetupData::SetGameplayModifiers)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x39c0400;
+  constexpr static std::size_t addrs = 0x39e69a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

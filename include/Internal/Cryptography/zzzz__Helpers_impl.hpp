@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&::Internal::Cryptography::Helpers::CloneByteArray)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5edf9b0;
+  constexpr static std::size_t addrs = 0x5f1c23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<char16_t> (*)(::ArrayW<uint8_t>)>(&::Internal::Cryptography::Helpers::ToHexArrayUpper)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5edfa28;
+  constexpr static std::size_t addrs = 0x5f1c2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::ArrayW<uint8_t>)>(&::Internal::Cryptography::Helpers::ToHexStringUpper)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5edfb24;
+  constexpr static std::size_t addrs = 0x5f1c3b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(uint8_t)>(&::Internal::Cryptography::Helpers::NibbleToHex)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5edfb08;
+  constexpr static std::size_t addrs = 0x5f1c394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

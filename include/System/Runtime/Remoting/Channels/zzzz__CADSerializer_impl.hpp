@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (*)(::System::IO::MemoryStream*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(
     &::System::Runtime::Remoting::Channels::CADSerializer::DeserializeMessage)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5f544e8;
+  constexpr static std::size_t addrs = 0x5f90dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::MemoryStream* (*)(::System::Runtime::Remoting::Messaging::IMessage*)>(
     &::System::Runtime::Remoting::Channels::CADSerializer::SerializeMessage)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5f53fac;
+  constexpr static std::size_t addrs = 0x5f90894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Channels::CADSerializer*>(),
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<uint8_t>)>(&::System::Runtime::Remoting::Channels::CADSerializer::DeserializeObjectSafe)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5f54878;
+  constexpr static std::size_t addrs = 0x5f91160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::MemoryStream* (*)(::System::Object*)>(&::System::Runtime::Remoting::Channels::CADSerializer::SerializeObject)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5f549c0;
+  constexpr static std::size_t addrs = 0x5f912a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::IO::MemoryStream*)>(&::System::Runtime::Remoting::Channels::CADSerializer::DeserializeObject)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5f5491c;
+  constexpr static std::size_t addrs = 0x5f91204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

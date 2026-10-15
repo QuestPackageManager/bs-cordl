@@ -35,10 +35,10 @@ public:
 
   static inline ::UnityEngine::UIElements::IMEEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__4_0, addr 0x722ae7c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__4_0, addr 0x7267db0, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IMEEvent* __cctor_b__4_0();
 
-  /// @brief Method .ctor, addr 0x722ae78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7267dac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::IMEEvent___c* getStaticF___9();
@@ -83,13 +83,13 @@ public:
 
   __declspec(property(put = set_compositionString)) ::StringW compositionString;
 
-  /// @brief Method GetPooled, addr 0x722acb4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x7267be8, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IMEEvent* GetPooled(::StringW compositionString);
 
-  /// @brief Method Init, addr 0x722ad34, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x7267c68, size 0x5c, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x722ad90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x7267cc4, size 0x10, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::IMEEvent* New_ctor();
@@ -100,11 +100,11 @@ public:
 
   constexpr void __cordl_internal_set__compositionString_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x722ada0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7267cd4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method set_compositionString, addr 0x722abbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_compositionString, addr 0x7267af0, size 0x8, virtual false, abstract: false, final false
   inline void set_compositionString(::StringW value);
 
 protected:

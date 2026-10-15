@@ -61,13 +61,13 @@ public:
   /// @brief Field s_UssNameToCSharpName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_UssNameToCSharpName, put = setStaticF_s_UssNameToCSharpName)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_UssNameToCSharpName;
 
-  /// @brief Method IsAnimatable, addr 0x71a3548, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsAnimatable, addr 0x71e047c, size 0x88, virtual false, abstract: false, final false
   static inline bool IsAnimatable(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method IsMatchingShorthand, addr 0x71a32c0, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method IsMatchingShorthand, addr 0x71e01f4, size 0x1d0, virtual false, abstract: false, final false
   static inline bool IsMatchingShorthand(::UnityEngine::UIElements::StyleSheets::StylePropertyId shorthand, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method TryGetEnumIntValue, addr 0x719fdc8, size 0x12f0, virtual false, abstract: false, final false
+  /// @brief Method TryGetEnumIntValue, addr 0x71dccfc, size 0x12f0, virtual false, abstract: false, final false
   static inline bool TryGetEnumIntValue(::UnityEngine::UIElements::StyleSheets::StyleEnumType enumType, ::StringW value, ::by_ref<int32_t> intValue);
 
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* getStaticF_s_AnimatableProperties();
@@ -84,11 +84,11 @@ public:
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_UssNameToCSharpName();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method get_propertyNameToStylePropertyId, addr 0x71a3490, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_propertyNameToStylePropertyId, addr 0x71e03c4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyId>* get_propertyNameToStylePropertyId();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method get_stylePropertyIdToPropertyName, addr 0x71a34ec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_stylePropertyIdToPropertyName, addr 0x71e0420, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::StringW>* get_stylePropertyIdToPropertyName();
 
   static inline void setStaticF_s_AnimatableProperties(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* value);

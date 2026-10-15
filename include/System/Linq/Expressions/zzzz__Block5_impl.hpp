@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::System::Linq::Expressions::Block5::*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
                                                               ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Block5::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x63953e4;
+  constexpr static std::size_t addrs = 0x63d1fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::Block5::*)(int32_t)>(
     &::System::Linq::Expressions::Block5::GetExpression)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6395430;
+  constexpr static std::size_t addrs = 0x63d2000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Block5::*)()>(&::System::Linq::Expressions::Block5::get_ExpressionCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x639550c;
+  constexpr static std::size_t addrs = 0x63d20dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* (::System::Linq::Expressions::Block5::*)()>(
     &::System::Linq::Expressions::Block5::GetOrMakeExpressions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6395514;
+  constexpr static std::size_t addrs = 0x63d20e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressio
     ::System::Linq::Expressions::Block5::*)(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*,
                                             ::ArrayW<::System::Linq::Expressions::Expression*>)>(&::System::Linq::Expressions::Block5::Rewrite)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x639551c;
+  constexpr static std::size_t addrs = 0x63d20ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

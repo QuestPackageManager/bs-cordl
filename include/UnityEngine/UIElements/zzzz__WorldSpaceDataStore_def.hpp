@@ -33,16 +33,16 @@ public:
   __declspec(property(get = getStaticF_m_WorldSpaceData,
                       put = setStaticF_m_WorldSpaceData)) ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::UIElements::WorldSpaceData>* m_WorldSpaceData;
 
-  /// @brief Method ClearLocalBounds3DData, addr 0x715e630, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ClearLocalBounds3DData, addr 0x719b564, size 0xc8, virtual false, abstract: false, final false
   static inline void ClearLocalBounds3DData(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ClearWorldSpaceData, addr 0x715e524, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ClearWorldSpaceData, addr 0x719b458, size 0x10c, virtual false, abstract: false, final false
   static inline void ClearWorldSpaceData(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetWorldSpaceData, addr 0x715e42c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetWorldSpaceData, addr 0x719b360, size 0xf8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WorldSpaceData GetWorldSpaceData(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method SetWorldSpaceData, addr 0x715e35c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetWorldSpaceData, addr 0x719b290, size 0xd0, virtual false, abstract: false, final false
   static inline void SetWorldSpaceData(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::WorldSpaceData data);
 
   static inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::UIElements::WorldSpaceData>* getStaticF_m_WorldSpaceData();

@@ -5,13 +5,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Init/zzzz__GameVersionProvider_def.hpp"
 #include "BeatSaber/Init/zzzz__GameVersion_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Init::GameVersionProvider.NoDomainReloadInit
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::BeatSaber::Init::GameVersionProvider::NoDomainReloadInit)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x35230b8;
+  constexpr static std::size_t addrs = 0x35440c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Init::GameVersionProvider*>(), { "NoDomainReloadInit", {}, {} })));
@@ -23,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Init::GameVersion_Content (*)()>(&::BeatSaber::Init::GameVersionProvider::GetContentVersion)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3523104;
+  constexpr static std::size_t addrs = 0x354410c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Init::GameVersionProvider*>(), { "GetContentVersion", {}, {} })));
@@ -35,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)()>(&::BeatSaber::Init::GameVersionProvider::GetBuildId)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x352320c;
+  constexpr static std::size_t addrs = 0x3544214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Init::GameVersionProvider*>(), { "GetBuildId", {}, {} })));
@@ -47,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Init::GameVersion* (*)()>(&::BeatSaber::Init::GameVersionProvider::GetBuildTimeGameVersion)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x35232a4;
+  constexpr static std::size_t addrs = 0x3541094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Init::GameVersionProvider*>(), { "GetBuildTimeGameVersion", {}, {} })));
@@ -59,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Init::GameVersion* (::BeatSaber::Init::GameVersionProvider::*)()>(&::BeatSaber::Init::GameVersionProvider::GetVersion)> {
   constexpr static std::size_t size = 0x7d8;
-  constexpr static std::size_t addrs = 0x3523440;
+  constexpr static std::size_t addrs = 0x35442ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Init::GameVersionProvider*>(), { "GetVersion", {}, {} })));
@@ -71,25 +70,13 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Init::GameVersionProvider::*)()>(&::BeatSaber::Init::GameVersionProvider::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3523c18;
+  constexpr static std::size_t addrs = 0x3544a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Init::GameVersionProvider*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr ::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>*& BeatSaber::Init::GameVersionProvider::__cordl_internal_get__versionTask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____versionTask;
-}
-constexpr ::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* const& BeatSaber::Init::GameVersionProvider::__cordl_internal_get__versionTask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____versionTask;
-}
-constexpr void BeatSaber::Init::GameVersionProvider::__cordl_internal_set__versionTask(::System::Threading::Tasks::Task_1<::BeatSaber::Init::GameVersion*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____versionTask = value;
-}
 inline void BeatSaber::Init::GameVersionProvider::setStaticF__contentVersion(::System::Nullable_1<::BeatSaber::Init::GameVersion_Content> value) {
   ::cordl_internals::setStaticField<::System::Nullable_1<::BeatSaber::Init::GameVersion_Content>, "_contentVersion", ::BeatSaber::Init::GameVersionProvider*>(
       std::forward<::System::Nullable_1<::BeatSaber::Init::GameVersion_Content>>(value));

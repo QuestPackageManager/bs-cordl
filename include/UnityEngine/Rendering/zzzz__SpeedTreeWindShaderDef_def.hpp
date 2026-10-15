@@ -36,7 +36,7 @@ public:
   SpeedTreeWindShaderDef(SpeedTreeWindShaderDef const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18295 };
 
   /// @brief Field kMaxWindParamsCount offset 0xffffffff size 0x4
   static constexpr int32_t kMaxWindParamsCount{ static_cast<int32_t>(0x10) };

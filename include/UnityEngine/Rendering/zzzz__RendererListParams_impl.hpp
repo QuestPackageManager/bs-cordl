@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RendererListParams::*)(
     ::UnityEngine::Rendering::CullingResults, ::UnityEngine::Rendering::DrawingSettings, ::UnityEngine::Rendering::FilteringSettings)>(&::UnityEngine::Rendering::RendererListParams::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6f82ae8;
+  constexpr static std::size_t addrs = 0x6fbf9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RendererListParams::*)()>(&::UnityEngine::Rendering::RendererListParams::get_numStateBlocks)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6f82b8c;
+  constexpr static std::size_t addrs = 0x6fbfa68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(), { "get_numStateBlocks", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::UnityEngine::Rendering::RendererListParams::*)()>(&::UnityEngine::Rendering::RendererListParams::get_stateBlocksPtr)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6f82bf4;
+  constexpr static std::size_t addrs = 0x6fbfad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(), { "get_stateBlocksPtr", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::UnityEngine::Rendering::RendererListParams::*)()>(&::UnityEngine::Rendering::RendererListParams::get_tagsValuePtr)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6f82c70;
+  constexpr static std::size_t addrs = 0x6fbfb4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(), { "get_tagsValuePtr", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RendererListParams::*)()>(&::UnityEngine::Rendering::RendererListParams::Validate)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x6f82cec;
+  constexpr static std::size_t addrs = 0x6fbfbc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RendererListParams>(), { "Validate", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RendererListParams::*)(::UnityEngine::Rendering::RendererListParams)>(
     &::UnityEngine::Rendering::RendererListParams::Equals)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x6f830cc;
+  constexpr static std::size_t addrs = 0x6fbffa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RendererListParams::*)(::System::Object*)>(&::UnityEngine::Rendering::RendererListParams::Equals)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6f83370;
+  constexpr static std::size_t addrs = 0x6fc024c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RendererListParams::*)()>(&::UnityEngine::Rendering::RendererListParams::GetHashCode)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6f83470;
+  constexpr static std::size_t addrs = 0x6fc034c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

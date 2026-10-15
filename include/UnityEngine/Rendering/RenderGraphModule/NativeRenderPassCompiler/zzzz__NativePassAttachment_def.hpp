@@ -35,7 +35,7 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE NativePassAttachment {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c282c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c64f44, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle, ::UnityEngine::Rendering::RenderBufferLoadAction loadAction,
                     ::UnityEngine::Rendering::RenderBufferStoreAction storeAction, bool memoryless, int32_t mipLevel, int32_t depthSlice);
 
@@ -51,7 +51,7 @@ public:
                                  ::UnityEngine::Rendering::RenderBufferStoreAction storeAction, bool memoryless, int32_t mipLevel, int32_t depthSlice) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9416 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

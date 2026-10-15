@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5cc3210;
+  constexpr static std::size_t addrs = 0x5cfc1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate*>(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate::*)(::LiteNetLib::Utils::NetDataReader*, ::System::Object*)>(
     &::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cc3358;
+  constexpr static std::size_t addrs = 0x5cfc320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate*>(),
@@ -69,7 +69,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                                                               ::System::AsyncCallback*, ::System::Object*)>(
     &::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5cc336c;
+  constexpr static std::size_t addrs = 0x5cfc334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate*>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate::*)(::System::IAsyncResult*)>(
     &::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cc3394;
+  constexpr static std::size_t addrs = 0x5cfc35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate*>(),
@@ -514,7 +514,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)()>(&::LiteNetLib::Utils::NetPacketProcessor::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5cc2d1c;
+  constexpr static std::size_t addrs = 0x5cfbce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LiteNetLib::Utils::NetPacketProcessor*>(), { ".ctor", {}, {} })));
@@ -526,7 +526,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)(int32_t)>(&::LiteNetLib::Utils::NetPacketProcessor::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5cc2e20;
+  constexpr static std::size_t addrs = 0x5cfbde8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -540,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate* (::LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::LiteNetLib::Utils::NetPacketProcessor::GetCallbackFromData)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5cc2fd0;
+  constexpr static std::size_t addrs = 0x5cfbf98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -554,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::LiteNetLib::Utils::NetPacketProcessor::ReadAllPackets)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5cc3114;
+  constexpr static std::size_t addrs = 0x5cfc0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -568,7 +568,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*, ::System::Object*)>(
     &::LiteNetLib::Utils::NetPacketProcessor::ReadAllPackets)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5cc3170;
+  constexpr static std::size_t addrs = 0x5cfc138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -582,7 +582,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*)>(&::LiteNetLib::Utils::NetPacketProcessor::ReadPacket)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc3168;
+  constexpr static std::size_t addrs = 0x5cfc130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -596,7 +596,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*, ::System::Object*)>(
     &::LiteNetLib::Utils::NetPacketProcessor::ReadPacket)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5cc31c8;
+  constexpr static std::size_t addrs = 0x5cfc190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

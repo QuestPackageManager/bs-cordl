@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::BinaryNode::*)(::System::Data::DataTable*, int32_t, ::System::Data::ExpressionNode*, ::System::Data::ExpressionNode*)>(
     &::System::Data::BinaryNode::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6452d74;
+  constexpr static std::size_t addrs = 0x648f944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::BinaryNode::*)(::System::Data::DataTable*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(
     &::System::Data::BinaryNode::Bind)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6452d84;
+  constexpr static std::size_t addrs = 0x648f954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::BinaryNode*>(), { ::i2c::class_of<::System::Data::BinaryNode*>(), 5 }));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::Eval)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6452dd8;
+  constexpr static std::size_t addrs = 0x648f9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::BinaryNode*>(), { ::i2c::class_of<::System::Data::BinaryNode*>(), 6 }));
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::BinaryNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::BinaryNode::Eval)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6452dec;
+  constexpr static std::size_t addrs = 0x648f9bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::BinaryNode*>(), { ::i2c::class_of<::System::Data::BinaryNode*>(), 7 }));
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::BinaryNode::*)(::ArrayW<int32_t>)>(&::System::Data::BinaryNode::Eval)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x645844c;
+  constexpr static std::size_t addrs = 0x649501c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::BinaryNode*>(), { ::i2c::class_of<::System::Data::BinaryNode*>(), 8 }));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::IsConstant)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6458468;
+  constexpr static std::size_t addrs = 0x6495038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::BinaryNode*>(), { ::i2c::class_of<::System::Data::BinaryNode*>(), 9 }));
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::IsTableConstant)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x64584b0;
+  constexpr static std::size_t addrs = 0x6495080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::BinaryNode*>(), { ::i2c::class_of<::System::Data::BinaryNode*>(), 10 }));
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::HasLocalAggregate)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x64584f8;
+  constexpr static std::size_t addrs = 0x64950c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::BinaryNode*>(), { ::i2c::class_of<::System::Data::BinaryNode*>(), 11 }));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::HasRemoteAggregate)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6458540;
+  constexpr static std::size_t addrs = 0x6495110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::BinaryNode*>(), { ::i2c::class_of<::System::Data::BinaryNode*>(), 12 }));
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::BinaryNode::*)(::System::Data::DataColumn*)>(&::System::Data::BinaryNode::DependsOn)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6458588;
+  constexpr static std::size_t addrs = 0x6495158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::BinaryNode*>(), { ::i2c::class_of<::System::Data::BinaryNode*>(), 14 }));
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::ExpressionNode* (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::Optimize)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x64585ec;
+  constexpr static std::size_t addrs = 0x64951bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::BinaryNode*>(), { ::i2c::class_of<::System::Data::BinaryNode*>(), 13 }));
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::BinaryNode::*)(int32_t, ::System::Type*, ::System::Type*)>(&::System::Data::BinaryNode::SetTypeMismatchError)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6458b40;
+  constexpr static std::size_t addrs = 0x6495710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Data::ExpressionNode*, ::System::Data::DataRow*, ::System::Data::DataRowVersion, ::ArrayW<int32_t>)>(
     &::System::Data::BinaryNode::Eval)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6458c48;
+  constexpr static std::size_t addrs = 0x6495818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::BinaryNode::*)(::System::Object*, ::System::Object*, ::System::Data::Common::StorageType, int32_t)>(
     &::System::Data::BinaryNode::BinaryCompare)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6458c80;
+  constexpr static std::size_t addrs = 0x6495850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::BinaryNode::*)(::System::Object*, ::System::Object*, ::System::Data::Common::StorageType, int32_t,
                                                                                                ::System::Globalization::CompareInfo*)>(&::System::Data::BinaryNode::BinaryCompare)> {
   constexpr static std::size_t size = 0x1004;
-  constexpr static std::size_t addrs = 0x6458c88;
+  constexpr static std::size_t addrs = 0x6495858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Syst
                                                                                                          ::System::Data::DataRow*, ::System::Data::DataRowVersion, ::ArrayW<int32_t>)>(
     &::System::Data::BinaryNode::EvalBinaryOp)> {
   constexpr static std::size_t size = 0x5644;
-  constexpr static std::size_t addrs = 0x6452e08;
+  constexpr static std::size_t addrs = 0x648f9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::BinaryNode_DataTypePrecedence (::System::Data::BinaryNode::*)(::System::Data::Common::StorageType)>(
     &::System::Data::BinaryNode::GetPrecedence)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x645a7ec;
+  constexpr static std::size_t addrs = 0x64973bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::Common::StorageType (*)(::System::Data::BinaryNode_DataTypePrecedence)>(&::System::Data::BinaryNode::GetPrecedenceType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x645a810;
+  constexpr static std::size_t addrs = 0x64973e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::BinaryNode::*)(::System::Data::Common::StorageType, ::System::Data::Common::StorageType)>(
     &::System::Data::BinaryNode::IsMixed)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x645a834;
+  constexpr static std::size_t addrs = 0x6497404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::BinaryNode::*)(::System::Data::Common::StorageType, ::System::Data::Common::StorageType)>(
     &::System::Data::BinaryNode::IsMixedSql)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x645a8f0;
+  constexpr static std::size_t addrs = 0x64974c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::Common::StorageType (::System::Data::BinaryNode::*)(::System::Data::Common::StorageType, ::System::Data::Common::StorageType,
                                                                                                                            bool, bool, int32_t)>(&::System::Data::BinaryNode::ResultType)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x645a32c;
+  constexpr static std::size_t addrs = 0x6496efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::Common::StorageType (::System::Data::BinaryNode::*)(::System::Data::Common::StorageType, ::System::Data::Common::StorageType,
                                                                                                                            bool, bool, int32_t)>(&::System::Data::BinaryNode::ResultSqlType)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x6459f48;
+  constexpr static std::size_t addrs = 0x6496b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -376,7 +376,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::BinaryNode::*)(int32_t)>(&::System::Data::BinaryNode::SqlResultType)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x645aaa8;
+  constexpr static std::size_t addrs = 0x6497678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::BinaryNode*>(), { "SqlResultType", {}, { ::i2c::type_of<int32_t>() } })));

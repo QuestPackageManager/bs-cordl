@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)()>(&::GlobalNamespace::MultiplayerBigAvatarAnimator::OnDestroy)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5deaaf8;
+  constexpr static std::size_t addrs = 0x5e283f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBigAvatarAnimator*>(), { "OnDestroy", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)()>(&::GlobalNamespace::MultiplayerBigAvatarAnimator::InitIfNeeded)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x5deab84;
+  constexpr static std::size_t addrs = 0x5e28484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBigAvatarAnimator*>(), { "InitIfNeeded", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::MultiplayerBigAvatarAnimator::SetPositionAndRotation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5deae64;
+  constexpr static std::size_t addrs = 0x5e28764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)()>(&::GlobalNamespace::MultiplayerBigAvatarAnimator::HideInstant)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5deaedc;
+  constexpr static std::size_t addrs = 0x5e287dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBigAvatarAnimator*>(), { "HideInstant", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)(bool, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::MultiplayerBigAvatarAnimator::Animate)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x5deaf84;
+  constexpr static std::size_t addrs = 0x5e28884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)()>(&::GlobalNamespace::MultiplayerBigAvatarAnimator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5deb150;
+  constexpr static std::size_t addrs = 0x5e28a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBigAvatarAnimator*>(), { ".ctor", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)(float_t)>(&::GlobalNamespace::MultiplayerBigAvatarAnimator::_InitIfNeeded_b__8_0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5deb15c;
+  constexpr static std::size_t addrs = 0x5e28a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)(float_t)>(&::GlobalNamespace::MultiplayerBigAvatarAnimator::_InitIfNeeded_b__8_1)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5deb1d8;
+  constexpr static std::size_t addrs = 0x5e28ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarAnimator::*)()>(&::GlobalNamespace::MultiplayerBigAvatarAnimator::_InitIfNeeded_b__8_2)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5deb254;
+  constexpr static std::size_t addrs = 0x5e28b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerBigAvatarAnimator*>(), { "<InitIfNeeded>b__8_2", {}, {} })));

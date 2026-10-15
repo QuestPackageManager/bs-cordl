@@ -32,24 +32,24 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrUuid>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrUuid>*();
 
-  /// @brief Method Equals, addr 0x6e49004, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e85ca0, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::OpenXR::NativeTypes::XrUuid other);
 
-  /// @brief Method ToString, addr 0x6e49028, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6e85cc4, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6e48fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e85c88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint64_t dataPart1, uint64_t dataPart2);
 
   /// [CompilerGenerated]
-  /// @brief Method get_dataPart1, addr 0x6e48ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataPart1, addr 0x6e85c90, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_dataPart1();
 
   /// [CompilerGenerated]
-  /// @brief Method get_dataPart2, addr 0x6e48ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataPart2, addr 0x6e85c98, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_dataPart2();
 
-  /// @brief Method get_empty, addr 0x6e48fe0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x6e85c7c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrUuid get_empty();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrUuid>"
@@ -64,7 +64,7 @@ public:
   constexpr XrUuid(uint64_t _dataPart1_k__BackingField, uint64_t _dataPart2_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17632 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

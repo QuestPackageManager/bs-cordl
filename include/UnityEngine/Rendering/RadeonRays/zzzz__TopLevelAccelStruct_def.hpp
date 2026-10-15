@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6dfc520, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e391bc, size 0x34, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// @brief Convert to "::System::IDisposable"
@@ -47,7 +47,7 @@ public:
                                 uint32_t instanceCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20472 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

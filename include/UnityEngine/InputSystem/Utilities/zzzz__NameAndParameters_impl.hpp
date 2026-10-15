@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::NameAndParameters___c::*)()>(
     &::UnityEngine::InputSystem::Utilities::NameAndParameters___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x692ea58;
+  constexpr static std::size_t addrs = 0x696b6d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::NameAndParameters___c*>(), { ".ctor", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::NameAndParameters___c::*)(::UnityEngine::InputSystem::Utilities::NamedValue)>(
     &::UnityEngine::InputSystem::Utilities::NameAndParameters___c::_ToString_b__8_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x692ea5c;
+  constexpr static std::size_t addrs = 0x696b6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::NameAndParameters___c*>(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::NameAndParameters___c::*)(::UnityEngine::InputSystem::Utilities::NameAndParameters)>(
     &::UnityEngine::InputSystem::Utilities::NameAndParameters___c::_ToSerializableString_b__9_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x692eb18;
+  constexpr static std::size_t addrs = 0x696b794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::NameAndParameters::*)()>(
     &::UnityEngine::InputSystem::Utilities::NameAndParameters::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x692dd50;
+  constexpr static std::size_t addrs = 0x696a9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::NameAndParameters>(), { "get_name", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::NameAndParameters::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::NameAndParameters::set_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x692dd58;
+  constexpr static std::size_t addrs = 0x696a9d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> (
     ::UnityEngine::InputSystem::Utilities::NameAndParameters::*)()>(&::UnityEngine::InputSystem::Utilities::NameAndParameters::get_parameters)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x692dd60;
+  constexpr static std::size_t addrs = 0x696a9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::NameAndParameters>(), { "get_parameters", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Utilities::NameAndParameters::*)(
     ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue>)>(&::UnityEngine::InputSystem::Utilities::NameAndParameters::set_parameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x692dd6c;
+  constexpr static std::size_t addrs = 0x696a9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::NameAndParameters::*)()>(
     &::UnityEngine::InputSystem::Utilities::NameAndParameters::ToString)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x692dd74;
+  constexpr static std::size_t addrs = 0x696a9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::NameAndParameters>(),
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>*)>(
     &::UnityEngine::InputSystem::Utilities::NameAndParameters::ToSerializableString)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x692df90;
+  constexpr static std::size_t addrs = 0x696ac0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::NameAndParameters (*)(
     ::StringW, ::System::Collections::Generic::IList_1<::UnityEngine::InputSystem::Utilities::NamedValue>*)>(&::UnityEngine::InputSystem::Utilities::NameAndParameters::Create)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x692e100;
+  constexpr static std::size_t addrs = 0x696ad7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>* (*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::NameAndParameters::ParseMultiple)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x692e190;
+  constexpr static std::size_t addrs = 0x696ae0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>*>)>(
     &::UnityEngine::InputSystem::Utilities::NameAndParameters::ParseMultiple)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x692e24c;
+  constexpr static std::size_t addrs = 0x696aec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::InputSystem::Utilities::NameAndParameters::ParseName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x692e774;
+  constexpr static std::size_t addrs = 0x696b3f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::NameAndParameters (*)(::StringW)>(&::UnityEngine::InputSystem::Utilities::NameAndParameters::Parse)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x692e7ec;
+  constexpr static std::size_t addrs = 0x696b468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::NameAndParameters (*)(::StringW, ::by_ref<int32_t>, bool)>(
     &::UnityEngine::InputSystem::Utilities::NameAndParameters::ParseNameAndParameters)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x692e414;
+  constexpr static std::size_t addrs = 0x696b090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

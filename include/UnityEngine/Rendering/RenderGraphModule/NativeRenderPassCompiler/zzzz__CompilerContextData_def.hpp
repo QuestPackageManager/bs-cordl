@@ -38,16 +38,16 @@ public:
   /// @brief [IsReadOnly]
   __declspec(property(get = get_Current)) ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData Current;
 
-  /// @brief Method GetEnumerator, addr 0x6c1a5b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6c57234, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::CompilerContextData_PassIterator GetEnumerator();
 
-  /// @brief Method MoveNext, addr 0x6c1a644, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x6c572c0, size 0x84, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method .ctor, addr 0x6c1a454, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c570d0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(Il2CppObject* ctx);
 
-  /// @brief Method get_Current, addr 0x6c1a5c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x6c57240, size 0x80, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> get_Current();
 
   // Ctor Parameters []
@@ -59,7 +59,7 @@ public:
   constexpr CompilerContextData_PassIterator(Il2CppObject* m_Ctx, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9403 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -92,16 +92,16 @@ public:
   /// @brief [IsReadOnly]
   __declspec(property(get = get_Current)) ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData Current;
 
-  /// @brief Method GetEnumerator, addr 0x6c1a834, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6c574b0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::CompilerContextData_NativePassIterator GetEnumerator();
 
-  /// @brief Method MoveNext, addr 0x6c1a8c0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x6c5753c, size 0x100, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method .ctor, addr 0x6c1a6d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5734c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(Il2CppObject* ctx);
 
-  /// @brief Method get_Current, addr 0x6c1a840, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x6c574bc, size 0x80, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> get_Current();
 
   // Ctor Parameters []
@@ -113,7 +113,7 @@ public:
   constexpr CompilerContextData_NativePassIterator(Il2CppObject* m_Ctx, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9397 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9404 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

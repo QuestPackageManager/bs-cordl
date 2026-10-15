@@ -33,55 +33,61 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlayerTransforms : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _beatmapKey, offset 0x40, size 0x18
+  /// @brief Field _beatmapKey, offset 0x40, size 0x20
   __declspec(property(get = __cordl_internal_get__beatmapKey, put = __cordl_internal_set__beatmapKey)) ::System::Nullable_1<::GlobalNamespace::BeatmapKey> _beatmapKey;
 
-  /// @brief Field _headPseudoLocalPos, offset 0x78, size 0xc
+  /// @brief Field _headPseudoLocalPos, offset 0x80, size 0xc
   __declspec(property(get = __cordl_internal_get__headPseudoLocalPos, put = __cordl_internal_set__headPseudoLocalPos)) ::UnityEngine::Vector3 _headPseudoLocalPos;
 
-  /// @brief Field _headPseudoLocalRot, offset 0x84, size 0x10
+  /// @brief Field _headPseudoLocalRot, offset 0x8c, size 0x10
   __declspec(property(get = __cordl_internal_get__headPseudoLocalRot, put = __cordl_internal_set__headPseudoLocalRot)) ::UnityEngine::Quaternion _headPseudoLocalRot;
 
-  /// @brief Field _headPseudoLocalZOnlyPos, offset 0x94, size 0xc
+  /// @brief Field _headPseudoLocalZOnlyPos, offset 0x9c, size 0xc
   __declspec(property(get = __cordl_internal_get__headPseudoLocalZOnlyPos, put = __cordl_internal_set__headPseudoLocalZOnlyPos)) ::UnityEngine::Vector3 _headPseudoLocalZOnlyPos;
 
   /// @brief Field _headTransform, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__headTransform, put = __cordl_internal_set__headTransform)) ::UnityW<::UnityEngine::Transform> _headTransform;
 
-  /// @brief Field _headWorldPos, offset 0x5c, size 0xc
+  /// @brief Field _headWorldPos, offset 0x64, size 0xc
   __declspec(property(get = __cordl_internal_get__headWorldPos, put = __cordl_internal_set__headWorldPos)) ::UnityEngine::Vector3 _headWorldPos;
 
-  /// @brief Field _headWorldRot, offset 0x68, size 0x10
+  /// @brief Field _headWorldRot, offset 0x70, size 0x10
   __declspec(property(get = __cordl_internal_get__headWorldRot, put = __cordl_internal_set__headWorldRot)) ::UnityEngine::Quaternion _headWorldRot;
 
-  /// @brief Field _leftHandPseudoLocalPos, offset 0xa0, size 0xc
+  /// @brief Field _leftHandPseudoLocalPos, offset 0xc4, size 0xc
   __declspec(property(get = __cordl_internal_get__leftHandPseudoLocalPos, put = __cordl_internal_set__leftHandPseudoLocalPos)) ::UnityEngine::Vector3 _leftHandPseudoLocalPos;
 
-  /// @brief Field _leftHandPseudoLocalRot, offset 0xac, size 0x10
+  /// @brief Field _leftHandPseudoLocalRot, offset 0xd0, size 0x10
   __declspec(property(get = __cordl_internal_get__leftHandPseudoLocalRot, put = __cordl_internal_set__leftHandPseudoLocalRot)) ::UnityEngine::Quaternion _leftHandPseudoLocalRot;
 
   /// @brief Field _leftHandTransform, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__leftHandTransform, put = __cordl_internal_set__leftHandTransform)) ::UnityW<::UnityEngine::Transform> _leftHandTransform;
 
-  /// @brief Field _originParentTransform, offset 0xd8, size 0x8
+  /// @brief Field _originParentTransform, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get__originParentTransform, put = __cordl_internal_set__originParentTransform)) ::UnityW<::UnityEngine::Transform> _originParentTransform;
 
   /// @brief Field _originTransform, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__originTransform, put = __cordl_internal_set__originTransform)) ::UnityW<::UnityEngine::Transform> _originTransform;
 
-  /// @brief Field _overrideHeadPos, offset 0x58, size 0x1
+  /// @brief Field _overrideHeadPos, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__overrideHeadPos, put = __cordl_internal_set__overrideHeadPos)) bool _overrideHeadPos;
 
-  /// @brief Field _rightHandPseudoLocalPos, offset 0xbc, size 0xc
+  /// @brief Field _rawHeadPseudoLocalPos, offset 0xa8, size 0xc
+  __declspec(property(get = __cordl_internal_get__rawHeadPseudoLocalPos, put = __cordl_internal_set__rawHeadPseudoLocalPos)) ::UnityEngine::Vector3 _rawHeadPseudoLocalPos;
+
+  /// @brief Field _rawHeadPseudoLocalRot, offset 0xb4, size 0x10
+  __declspec(property(get = __cordl_internal_get__rawHeadPseudoLocalRot, put = __cordl_internal_set__rawHeadPseudoLocalRot)) ::UnityEngine::Quaternion _rawHeadPseudoLocalRot;
+
+  /// @brief Field _rightHandPseudoLocalPos, offset 0xe0, size 0xc
   __declspec(property(get = __cordl_internal_get__rightHandPseudoLocalPos, put = __cordl_internal_set__rightHandPseudoLocalPos)) ::UnityEngine::Vector3 _rightHandPseudoLocalPos;
 
-  /// @brief Field _rightHandPseudoLocalRot, offset 0xc8, size 0x10
+  /// @brief Field _rightHandPseudoLocalRot, offset 0xec, size 0x10
   __declspec(property(get = __cordl_internal_get__rightHandPseudoLocalRot, put = __cordl_internal_set__rightHandPseudoLocalRot)) ::UnityEngine::Quaternion _rightHandPseudoLocalRot;
 
   /// @brief Field _rightHandTransform, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__rightHandTransform, put = __cordl_internal_set__rightHandTransform)) ::UnityW<::UnityEngine::Transform> _rightHandTransform;
 
-  /// @brief Field _useOriginParentTransformForPseudoLocalCalculations, offset 0xe0, size 0x1
+  /// @brief Field _useOriginParentTransformForPseudoLocalCalculations, offset 0x108, size 0x1
   __declspec(property(get = __cordl_internal_get__useOriginParentTransformForPseudoLocalCalculations,
                       put = __cordl_internal_set__useOriginParentTransformForPseudoLocalCalculations)) bool _useOriginParentTransformForPseudoLocalCalculations;
 
@@ -99,23 +105,33 @@ public:
 
   __declspec(property(get = get_leftHandPseudoLocalRot)) ::UnityEngine::Quaternion leftHandPseudoLocalRot;
 
+  __declspec(property(get = get_rawHeadPseudoLocalPos)) ::UnityEngine::Vector3 rawHeadPseudoLocalPos;
+
+  __declspec(property(get = get_rawHeadPseudoLocalRot)) ::UnityEngine::Quaternion rawHeadPseudoLocalRot;
+
   __declspec(property(get = get_rightHandPseudoLocalPos)) ::UnityEngine::Vector3 rightHandPseudoLocalPos;
 
   __declspec(property(get = get_rightHandPseudoLocalRot)) ::UnityEngine::Quaternion rightHandPseudoLocalRot;
 
-  /// @brief Method Awake, addr 0x5e082f4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e45a58, size 0x88, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ClearHeadPositionOverride, addr 0x5e0839c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearHeadPositionOverride, addr 0x5e45b00, size 0x8, virtual false, abstract: false, final false
   inline void ClearHeadPositionOverride();
 
   static inline ::GlobalNamespace::PlayerTransforms* New_ctor();
 
-  /// @brief Method OverrideHeadPos, addr 0x5e0837c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OverrideHeadPos, addr 0x5e45ae0, size 0x20, virtual false, abstract: false, final false
   inline void OverrideHeadPos(::UnityEngine::Vector3 pos);
 
-  /// @brief Method Update, addr 0x5e083a4, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e45b08, size 0x18, virtual false, abstract: false, final false
   inline void Update();
+
+  /// @brief Method UpdateHands, addr 0x5e45b20, size 0x128, virtual false, abstract: false, final false
+  inline void UpdateHands();
+
+  /// @brief Method UpdateHead, addr 0x5e45c48, size 0x1b0, virtual false, abstract: false, final false
+  inline void UpdateHead();
 
   constexpr ::System::Nullable_1<::GlobalNamespace::BeatmapKey> const& __cordl_internal_get__beatmapKey() const;
 
@@ -169,6 +185,14 @@ public:
 
   constexpr bool& __cordl_internal_get__overrideHeadPos();
 
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__rawHeadPseudoLocalPos() const;
+
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__rawHeadPseudoLocalPos();
+
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__rawHeadPseudoLocalRot() const;
+
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__rawHeadPseudoLocalRot();
+
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__rightHandPseudoLocalPos() const;
 
   constexpr ::UnityEngine::Vector3& __cordl_internal_get__rightHandPseudoLocalPos();
@@ -211,6 +235,10 @@ public:
 
   constexpr void __cordl_internal_set__overrideHeadPos(bool value);
 
+  constexpr void __cordl_internal_set__rawHeadPseudoLocalPos(::UnityEngine::Vector3 value);
+
+  constexpr void __cordl_internal_set__rawHeadPseudoLocalRot(::UnityEngine::Quaternion value);
+
   constexpr void __cordl_internal_set__rightHandPseudoLocalPos(::UnityEngine::Vector3 value);
 
   constexpr void __cordl_internal_set__rightHandPseudoLocalRot(::UnityEngine::Quaternion value);
@@ -219,34 +247,40 @@ public:
 
   constexpr void __cordl_internal_set__useOriginParentTransformForPseudoLocalCalculations(bool value);
 
-  /// @brief Method .ctor, addr 0x5e085f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e45df8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_headPseudoLocalPos, addr 0x5e082a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headPseudoLocalPos, addr 0x5e459ec, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headPseudoLocalPos();
 
-  /// @brief Method get_headPseudoLocalRot, addr 0x5e082b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headPseudoLocalRot, addr 0x5e45a04, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_headPseudoLocalRot();
 
-  /// @brief Method get_headPseudoLocalZOnlyPos, addr 0x5e082ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headPseudoLocalZOnlyPos, addr 0x5e459f8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headPseudoLocalZOnlyPos();
 
-  /// @brief Method get_headWorldPos, addr 0x5e08288, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headWorldPos, addr 0x5e459d4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headWorldPos();
 
-  /// @brief Method get_headWorldRot, addr 0x5e08294, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headWorldRot, addr 0x5e459e0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_headWorldRot();
 
-  /// @brief Method get_leftHandPseudoLocalPos, addr 0x5e082c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_leftHandPseudoLocalPos, addr 0x5e45a28, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_leftHandPseudoLocalPos();
 
-  /// @brief Method get_leftHandPseudoLocalRot, addr 0x5e082d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_leftHandPseudoLocalRot, addr 0x5e45a34, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_leftHandPseudoLocalRot();
 
-  /// @brief Method get_rightHandPseudoLocalPos, addr 0x5e082dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rawHeadPseudoLocalPos, addr 0x5e45a10, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_rawHeadPseudoLocalPos();
+
+  /// @brief Method get_rawHeadPseudoLocalRot, addr 0x5e45a1c, size 0xc, virtual false, abstract: false, final false
+  inline ::UnityEngine::Quaternion get_rawHeadPseudoLocalRot();
+
+  /// @brief Method get_rightHandPseudoLocalPos, addr 0x5e45a40, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rightHandPseudoLocalPos();
 
-  /// @brief Method get_rightHandPseudoLocalRot, addr 0x5e082e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rightHandPseudoLocalRot, addr 0x5e45a4c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rightHandPseudoLocalRot();
 
 protected:
@@ -264,7 +298,7 @@ public:
   PlayerTransforms(PlayerTransforms const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6336 };
 
   /// [SerializeField]
   /// @brief Field _headTransform, offset: 0x20, size: 0x8, def value: None
@@ -283,43 +317,49 @@ public:
   ::UnityW<::UnityEngine::Transform> ____rightHandTransform;
 
   /// [InjectOptional]
-  /// @brief Field _beatmapKey, offset: 0x40, size: 0x18, def value: None
+  /// @brief Field _beatmapKey, offset: 0x40, size: 0x20, def value: None
   ::System::Nullable_1<::GlobalNamespace::BeatmapKey> ____beatmapKey;
 
-  /// @brief Field _overrideHeadPos, offset: 0x58, size: 0x1, def value: None
+  /// @brief Field _overrideHeadPos, offset: 0x60, size: 0x1, def value: None
   bool ____overrideHeadPos;
 
-  /// @brief Field _headWorldPos, offset: 0x5c, size: 0xc, def value: None
+  /// @brief Field _headWorldPos, offset: 0x64, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____headWorldPos;
 
-  /// @brief Field _headWorldRot, offset: 0x68, size: 0x10, def value: None
+  /// @brief Field _headWorldRot, offset: 0x70, size: 0x10, def value: None
   ::UnityEngine::Quaternion ____headWorldRot;
 
-  /// @brief Field _headPseudoLocalPos, offset: 0x78, size: 0xc, def value: None
+  /// @brief Field _headPseudoLocalPos, offset: 0x80, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____headPseudoLocalPos;
 
-  /// @brief Field _headPseudoLocalRot, offset: 0x84, size: 0x10, def value: None
+  /// @brief Field _headPseudoLocalRot, offset: 0x8c, size: 0x10, def value: None
   ::UnityEngine::Quaternion ____headPseudoLocalRot;
 
-  /// @brief Field _headPseudoLocalZOnlyPos, offset: 0x94, size: 0xc, def value: None
+  /// @brief Field _headPseudoLocalZOnlyPos, offset: 0x9c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____headPseudoLocalZOnlyPos;
 
-  /// @brief Field _leftHandPseudoLocalPos, offset: 0xa0, size: 0xc, def value: None
+  /// @brief Field _rawHeadPseudoLocalPos, offset: 0xa8, size: 0xc, def value: None
+  ::UnityEngine::Vector3 ____rawHeadPseudoLocalPos;
+
+  /// @brief Field _rawHeadPseudoLocalRot, offset: 0xb4, size: 0x10, def value: None
+  ::UnityEngine::Quaternion ____rawHeadPseudoLocalRot;
+
+  /// @brief Field _leftHandPseudoLocalPos, offset: 0xc4, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____leftHandPseudoLocalPos;
 
-  /// @brief Field _leftHandPseudoLocalRot, offset: 0xac, size: 0x10, def value: None
+  /// @brief Field _leftHandPseudoLocalRot, offset: 0xd0, size: 0x10, def value: None
   ::UnityEngine::Quaternion ____leftHandPseudoLocalRot;
 
-  /// @brief Field _rightHandPseudoLocalPos, offset: 0xbc, size: 0xc, def value: None
+  /// @brief Field _rightHandPseudoLocalPos, offset: 0xe0, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____rightHandPseudoLocalPos;
 
-  /// @brief Field _rightHandPseudoLocalRot, offset: 0xc8, size: 0x10, def value: None
+  /// @brief Field _rightHandPseudoLocalRot, offset: 0xec, size: 0x10, def value: None
   ::UnityEngine::Quaternion ____rightHandPseudoLocalRot;
 
-  /// @brief Field _originParentTransform, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field _originParentTransform, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____originParentTransform;
 
-  /// @brief Field _useOriginParentTransformForPseudoLocalCalculations, offset: 0xe0, size: 0x1, def value: None
+  /// @brief Field _useOriginParentTransformForPseudoLocalCalculations, offset: 0x108, size: 0x1, def value: None
   bool ____useOriginParentTransformForPseudoLocalCalculations;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -335,30 +375,34 @@ static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____rightHandTransfo
 
 static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____beatmapKey) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____overrideHeadPos) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____overrideHeadPos) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____headWorldPos) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____headWorldPos) == 0x64, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____headWorldRot) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____headWorldRot) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____headPseudoLocalPos) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____headPseudoLocalPos) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____headPseudoLocalRot) == 0x84, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____headPseudoLocalRot) == 0x8c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____headPseudoLocalZOnlyPos) == 0x94, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____headPseudoLocalZOnlyPos) == 0x9c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____leftHandPseudoLocalPos) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____rawHeadPseudoLocalPos) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____leftHandPseudoLocalRot) == 0xac, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____rawHeadPseudoLocalRot) == 0xb4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____rightHandPseudoLocalPos) == 0xbc, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____leftHandPseudoLocalPos) == 0xc4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____rightHandPseudoLocalRot) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____leftHandPseudoLocalRot) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____originParentTransform) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____rightHandPseudoLocalPos) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____useOriginParentTransformForPseudoLocalCalculations) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____rightHandPseudoLocalRot) == 0xec, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::PlayerTransforms) == 0xe8, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____originParentTransform) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerTransforms, ____useOriginParentTransformForPseudoLocalCalculations) == 0x108, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::PlayerTransforms) == 0x110, "Size mismatch!");
 
 } // namespace GlobalNamespace

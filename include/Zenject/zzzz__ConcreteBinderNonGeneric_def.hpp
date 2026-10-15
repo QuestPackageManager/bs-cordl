@@ -53,23 +53,23 @@ public:
   /// @brief Method To, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TConcrete> inline ::Zenject::FromBinderNonGeneric* To();
 
-  /// @brief Method To, addr 0x72e7344, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method To, addr 0x73243a8, size 0x4, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderNonGeneric* To(/* [ParamArray] */ ::ArrayW<::System::Type*> concreteTypes);
 
-  /// @brief Method To, addr 0x72e7348, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method To, addr 0x73243ac, size 0x134, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderNonGeneric* To(::System::Collections::Generic::IEnumerable_1<::System::Type*>* concreteTypes);
 
-  /// @brief Method To, addr 0x72e747c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method To, addr 0x73244e0, size 0x158, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderNonGeneric* To(::System::Action_1<::Zenject::ConventionSelectTypesBinder*>* generator);
 
-  /// @brief Method ToSelf, addr 0x72e720c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ToSelf, addr 0x7324270, size 0x120, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderNonGeneric* ToSelf();
 
   /// [CompilerGenerated]
-  /// @brief Method <ToSelf>b__1_0, addr 0x72e7858, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <ToSelf>b__1_0, addr 0x73248bc, size 0xa4, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _ToSelf_b__1_0(::Zenject::DiContainer* container, ::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x72e7200, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7324264, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
 protected:
@@ -87,7 +87,7 @@ public:
   ConcreteBinderNonGeneric(ConcreteBinderNonGeneric const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14274 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15050 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

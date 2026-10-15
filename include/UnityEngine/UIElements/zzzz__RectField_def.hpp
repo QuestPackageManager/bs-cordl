@@ -80,7 +80,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::RectField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x71acd44, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71e9c78, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,7 +126,7 @@ public:
   /// @brief Field m_YValue, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_YValue, put = __cordl_internal_set_m_YValue)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_YValue;
 
-  /// @brief Method Init, addr 0x71acdac, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x71e9ce0, size 0x1e8, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::RectField_UxmlTraits* New_ctor();
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_m_YValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x71acf94, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71e9ec8, size 0x158, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -246,31 +246,31 @@ public:
 
   static inline ::UnityEngine::UIElements::RectField___c* New_ctor();
 
-  /// @brief Method <DescribeFields>b__0_0, addr 0x71ad144, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_0, addr 0x71ea078, size 0x60, virtual false, abstract: false, final false
   inline float_t _DescribeFields_b__0_0(::UnityEngine::Rect r);
 
-  /// @brief Method <DescribeFields>b__0_1, addr 0x71ad1a4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_1, addr 0x71ea0d8, size 0x64, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_1(::by_ref<::UnityEngine::Rect> r, float_t v);
 
-  /// @brief Method <DescribeFields>b__0_2, addr 0x71ad208, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_2, addr 0x71ea13c, size 0x60, virtual false, abstract: false, final false
   inline float_t _DescribeFields_b__0_2(::UnityEngine::Rect r);
 
-  /// @brief Method <DescribeFields>b__0_3, addr 0x71ad268, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_3, addr 0x71ea19c, size 0x64, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_3(::by_ref<::UnityEngine::Rect> r, float_t v);
 
-  /// @brief Method <DescribeFields>b__0_4, addr 0x71ad2cc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_4, addr 0x71ea200, size 0x60, virtual false, abstract: false, final false
   inline float_t _DescribeFields_b__0_4(::UnityEngine::Rect r);
 
-  /// @brief Method <DescribeFields>b__0_5, addr 0x71ad32c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_5, addr 0x71ea260, size 0x64, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_5(::by_ref<::UnityEngine::Rect> r, float_t v);
 
-  /// @brief Method <DescribeFields>b__0_6, addr 0x71ad390, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_6, addr 0x71ea2c4, size 0x60, virtual false, abstract: false, final false
   inline float_t _DescribeFields_b__0_6(::UnityEngine::Rect r);
 
-  /// @brief Method <DescribeFields>b__0_7, addr 0x71ad3f0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_7, addr 0x71ea324, size 0x64, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_7(::by_ref<::UnityEngine::Rect> r, float_t v);
 
-  /// @brief Method .ctor, addr 0x71ad140, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71ea074, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::RectField___c* getStaticF___9();
@@ -355,17 +355,17 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method DescribeFields, addr 0x71ac54c, size 0x5d0, virtual true, abstract: false, final false
+  /// @brief Method DescribeFields, addr 0x71e9480, size 0x5d0, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<::UnityEngine::Rect, ::UnityEngine::UIElements::FloatField*, float_t>> DescribeFields();
 
   static inline ::UnityEngine::UIElements::RectField* New_ctor();
 
   static inline ::UnityEngine::UIElements::RectField* New_ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x71acb1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71e9a50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x71acb24, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71e9a58, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_inputUssClassName();

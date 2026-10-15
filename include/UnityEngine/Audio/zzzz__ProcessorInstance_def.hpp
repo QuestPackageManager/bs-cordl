@@ -193,7 +193,7 @@ public:
   static ::UnityEngine::Audio::ProcessorInstance_UpdateSetting const UpdateIfDataIsAvailable;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20407 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -224,31 +224,31 @@ public:
   __declspec(property(get = get_realtimeUpdateSetting, put = set_realtimeUpdateSetting)) ::UnityEngine::Audio::ProcessorInstance_UpdateSetting realtimeUpdateSetting;
 
   /// [IsReadOnly]
-  /// @brief Method BuildInitializationFlags, addr 0x6eab960, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method BuildInitializationFlags, addr 0x6ee85fc, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::ProcessorInstance_InitializationFlags BuildInitializationFlags();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_controlUpdateSetting, addr 0x6eab940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_controlUpdateSetting, addr 0x6ee85dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::ProcessorInstance_UpdateSetting get_controlUpdateSetting();
 
-  /// @brief Method get_processorUpdateSetting, addr 0x6eab8d0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_processorUpdateSetting, addr 0x6ee856c, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::ProcessorInstance_UpdateSetting get_processorUpdateSetting();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_realtimeUpdateSetting, addr 0x6eab950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_realtimeUpdateSetting, addr 0x6ee85ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::ProcessorInstance_UpdateSetting get_realtimeUpdateSetting();
 
   /// [CompilerGenerated]
-  /// @brief Method set_controlUpdateSetting, addr 0x6eab948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_controlUpdateSetting, addr 0x6ee85e4, size 0x8, virtual false, abstract: false, final false
   inline void set_controlUpdateSetting(::UnityEngine::Audio::ProcessorInstance_UpdateSetting value);
 
-  /// @brief Method set_processorUpdateSetting, addr 0x6eab908, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_processorUpdateSetting, addr 0x6ee85a4, size 0x38, virtual false, abstract: false, final false
   inline void set_processorUpdateSetting(::UnityEngine::Audio::ProcessorInstance_UpdateSetting value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_realtimeUpdateSetting, addr 0x6eab958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_realtimeUpdateSetting, addr 0x6ee85f4, size 0x8, virtual false, abstract: false, final false
   inline void set_realtimeUpdateSetting(::UnityEngine::Audio::ProcessorInstance_UpdateSetting value);
 
   // Ctor Parameters []
@@ -261,7 +261,7 @@ public:
                                                  ::UnityEngine::Audio::ProcessorInstance_UpdateSetting _realtimeUpdateSetting_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20403 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -299,7 +299,7 @@ public:
   ProcessorInstance_IProcessor(ProcessorInstance_IProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20357 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20404 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -336,7 +336,7 @@ public:
   constexpr ProcessorInstance_MessageStatus(int32_t value__) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20405 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -371,7 +371,7 @@ public:
   ProcessorInstance_IContext(ProcessorInstance_IContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20359 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20406 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -425,7 +425,7 @@ public:
   static ::UnityEngine::Audio::ProcessorInstance_InitializationFlags const UpdateProcessorIfDataIsAvailable;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20408 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -451,13 +451,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::Audio::ProcessorInstance_IContext"
   constexpr operator ::UnityEngine::Audio::ProcessorInstance_IContext*();
 
-  /// @brief Method UnityEngine.Audio.ProcessorInstance.IContext.GetAvailableData, addr 0x6eab994, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Audio.ProcessorInstance.IContext.GetAvailableData, addr 0x6ee8630, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Audio::ProcessorInstance_AvailableData UnityEngine_Audio_ProcessorInstance_IContext_GetAvailableData(::Unity::Audio::Handle handle);
 
-  /// @brief Method UnityEngine.Audio.ProcessorInstance.IContext.SendData, addr 0x6eab9a0, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Audio.ProcessorInstance.IContext.SendData, addr 0x6ee863c, size 0x84, virtual true, abstract: false, final true
   inline bool UnityEngine_Audio_ProcessorInstance_IContext_SendData(::Unity::Audio::Handle handle, void* data, int32_t size, int32_t align, int64_t typehash);
 
-  /// @brief Method .ctor, addr 0x6eaba98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee8734, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Audio::RealtimeAccess const> access);
 
   /// @brief Convert to "::UnityEngine::Audio::ProcessorInstance_IContext"
@@ -471,7 +471,7 @@ public:
   constexpr ProcessorInstance_UpdatedDataContext(::UnityEngine::Audio::RealtimeAccess Access) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20409 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -502,7 +502,7 @@ public:
   ProcessorInstance_IRealtime(ProcessorInstance_IRealtime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20410 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -532,7 +532,7 @@ public:
   ProcessorInstance_IControl_1(ProcessorInstance_IControl_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20411 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -561,7 +561,7 @@ public:
              ::cordl_internals::default_constructor_constraint<TAudioContext> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline bool SendData(TAudioContext context, /* [IsReadOnly] */ ::by_ref<T const> data);
 
-  /// @brief Method .ctor, addr 0x6eabaa4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee8740, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Audio::Handle dualThreadHandle, ::UnityEngine::Audio::AvailableData_ProcessorInstance_Element* head);
 
   // Ctor Parameters []
@@ -573,7 +573,7 @@ public:
   constexpr ProcessorInstance_Pipe(::UnityEngine::Audio::AvailableData_ProcessorInstance_Element* Head, ::Unity::Audio::Handle DualThreadHandle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20412 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -622,7 +622,7 @@ public:
   constexpr ProcessorInstance_Message(int64_t TypeHash, void* Data, ::System::IntPtr ManagedHandle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20413 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -687,7 +687,7 @@ public:
   static ::UnityEngine::Audio::ProcessorInstance_Response const Unhandled;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20414 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -713,7 +713,7 @@ struct CORDL_TYPE AvailableData_ProcessorInstance_Element {
 public:
   // Declarations
   /// [IsReadOnly]
-  /// @brief Method Next, addr 0x6eabb10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Next, addr 0x6ee87ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::AvailableData_ProcessorInstance_Element* Next();
 
   /// @brief Method TryGetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -733,7 +733,7 @@ public:
                                                     ::UnityEngine::Audio::AvailableData_ProcessorInstance_Element* m_NextElement) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20415 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -787,16 +787,16 @@ public:
 
   __declspec(property(get = get_Current)) ::UnityEngine::Audio::AvailableData_ProcessorInstance_Element Current;
 
-  /// @brief Method GetEnumerator, addr 0x6eabac8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6ee8764, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::ProcessorInstance_AvailableData GetEnumerator();
 
-  /// @brief Method MoveNext, addr 0x6eabad4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x6ee8770, size 0x3c, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method .ctor, addr 0x6eaaee4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee7b80, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Audio::AvailableData_ProcessorInstance_Element* element);
 
-  /// @brief Method get_Current, addr 0x6eabab0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x6ee874c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::AvailableData_ProcessorInstance_Element get_Current();
 
   // Ctor Parameters []
@@ -808,7 +808,7 @@ public:
   constexpr ProcessorInstance_AvailableData(::UnityEngine::Audio::AvailableData_ProcessorInstance_Element* m_CurrentElement, bool m_MoveNextCalled) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20416 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -866,25 +866,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Audio::ProcessorInstance>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Audio::ProcessorInstance>*();
 
-  /// @brief Method Equals, addr 0x6eab7d4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ee8470, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6eab5e8, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6ee8284, size 0x2c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Audio::ProcessorInstance other);
 
-  /// @brief Method GetHashCode, addr 0x6eab710, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6ee83ac, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6eab728, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee83c4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Audio::Handle handle, ::UnityEngine::Audio::ProcessorHeader* header);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Audio::ProcessorInstance>"
   constexpr ::System::IEquatable_1<::UnityEngine::Audio::ProcessorInstance>* i___System__IEquatable_1___UnityEngine__Audio__ProcessorInstance_();
 
-  /// @brief Method op_Equality, addr 0x6eab860, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6ee84fc, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Audio::ProcessorInstance a, ::UnityEngine::Audio::ProcessorInstance b);
 
-  /// @brief Method op_Inequality, addr 0x6eab88c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6ee8528, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Audio::ProcessorInstance a, ::UnityEngine::Audio::ProcessorInstance b);
 
   // Ctor Parameters []
@@ -896,7 +896,7 @@ public:
   constexpr ProcessorInstance(::Unity::Audio::Handle Handle, ::UnityEngine::Audio::ProcessorHeader* Header) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20417 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

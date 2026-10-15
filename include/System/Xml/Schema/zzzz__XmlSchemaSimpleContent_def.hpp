@@ -37,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set_content(::System::Xml::Schema::XmlSchemaContent* value);
 
-  /// @brief Method .ctor, addr 0x66634f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66a00c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Content, addr 0x66634e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0x66a00b0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContent* get_Content();
 
-  /// @brief Method set_Content, addr 0x66634e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Content, addr 0x66a00b8, size 0x8, virtual true, abstract: false, final false
   inline void set_Content(::System::Xml::Schema::XmlSchemaContent* value);
 
 protected:
@@ -61,7 +61,7 @@ public:
   XmlSchemaSimpleContent(XmlSchemaSimpleContent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11776 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11783 };
 
   /// @brief Field content, offset: 0x50, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaContent* ___content;

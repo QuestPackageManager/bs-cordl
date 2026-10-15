@@ -2,6 +2,7 @@
 // IWYU pragma private; include "GlobalNamespace/SimpleLevelStarter.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristic_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
+#include "GlobalNamespace/zzzz__GameplayType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
 #include "UnityEngine/zzzz__Component_impl.hpp"
@@ -24,205 +25,205 @@
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15._ctor
+//  Writing Method size for method: ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::*)(int32_t)>(&::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::*)(int32_t)>(&::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d30944;
+  constexpr static std::size_t addrs = 0x5d6b1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::*)()>(
-    &::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::*)()>(
+    &::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d30b80;
+  constexpr static std::size_t addrs = 0x5d6b418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*>(), { "System.IDisposable.Dispose", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::*)()>(&::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::MoveNext)> {
-  constexpr static std::size_t size = 0x6d4;
-  constexpr static std::size_t addrs = 0x5d30b84;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::*)()>(&::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::MoveNext)> {
+  constexpr static std::size_t size = 0x6f8;
+  constexpr static std::size_t addrs = 0x5d6b41c;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::*)()>(
-    &::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::*)()>(
+    &::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d31258;
+  constexpr static std::size_t addrs = 0x5d6bb14;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*>(),
                                                                                            { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::*)()>(
-    &::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::*)()>(
+    &::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d31260;
+  constexpr static std::size_t addrs = 0x5d6bb1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::*)()>(
-    &::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::*)()>(
+    &::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d31298;
+  constexpr static std::size_t addrs = 0x5d6bb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr ::UnityW<::GlobalNamespace::SimpleLevelStarter>& GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::SimpleLevelStarter>& GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::SimpleLevelStarter> const& GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::SimpleLevelStarter> const& GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SimpleLevelStarter> value) {
+constexpr void GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SimpleLevelStarter> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>&
-GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::__cordl_internal_get__handle_5__2() {
+GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::__cordl_internal_get__handle_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handle_5__2;
 }
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>> const&
-GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::__cordl_internal_get__handle_5__2() const {
+GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::__cordl_internal_get__handle_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handle_5__2;
 }
-constexpr void GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::__cordl_internal_set__handle_5__2(
+constexpr void GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::__cordl_internal_set__handle_5__2(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____handle_5__2 = value;
 }
-inline void GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::System_IDisposable_Dispose() {
+inline void GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*>(), { "System.IDisposable.Dispose", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*>(), { "MoveNext", {}, {} })));
+inline bool GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
 /// @brief [DebuggerHidden]
-inline ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15* GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15*>(__1__state));
+inline ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16* GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__15::SimpleLevelStarter__StartLevel_d__15() {}
+constexpr ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16::SimpleLevelStarter__StartLevel_d__16() {}
 //  Writing Method size for method: ::GlobalNamespace::SimpleLevelStarter.Awake
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)()>(&::GlobalNamespace::SimpleLevelStarter::Awake)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5d307d0;
+  constexpr static std::size_t addrs = 0x5d6b068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter*>(), { "Awake", {}, {} })));
@@ -234,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)()>(&::GlobalNamespace::SimpleLevelStarter::OnDestroy)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5d30898;
+  constexpr static std::size_t addrs = 0x5d6b130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter*>(), { "OnDestroy", {}, {} })));
@@ -246,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SimpleLevelStarter::*)()>(&::GlobalNamespace::SimpleLevelStarter::StartLevel)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5d308f0;
+  constexpr static std::size_t addrs = 0x5d6b188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter*>(), { "StartLevel", {}, {} })));
@@ -259,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)(::GlobalNamespace::ScenesTransitionSetupData*, ::Zenject::DiContainer*)>(
     &::GlobalNamespace::SimpleLevelStarter::InstallEarlyBindings)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5d3094c;
+  constexpr static std::size_t addrs = 0x5d6b1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)()>(&::GlobalNamespace::SimpleLevelStarter::ButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d30a90;
+  constexpr static std::size_t addrs = 0x5d6b328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter*>(), { "ButtonPressed", {}, {} })));
@@ -286,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)(
     ::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::SimpleLevelStarter::HandleLevelDidFinish)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5d30ab0;
+  constexpr static std::size_t addrs = 0x5d6b348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -302,24 +303,24 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)()>(&::GlobalNamespace::SimpleLevelStarter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d30aec;
+  constexpr static std::size_t addrs = 0x5d6b384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SimpleLevelStarter._StartLevel_g__AfterSceneSwitchCallback_15_0
+//  Writing Method size for method: ::GlobalNamespace::SimpleLevelStarter._StartLevel_g__AfterSceneSwitchCallback_16_0
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleLevelStarter::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::SimpleLevelStarter::_StartLevel_g__AfterSceneSwitchCallback_15_0)> {
+    &::GlobalNamespace::SimpleLevelStarter::_StartLevel_g__AfterSceneSwitchCallback_16_0)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5d30af0;
+  constexpr static std::size_t addrs = 0x5d6b388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter*>(),
-                                                                                           { "<StartLevel>g__AfterSceneSwitchCallback|15_0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                                                                                           { "<StartLevel>g__AfterSceneSwitchCallback|16_0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
     return ___internal_method;
   }
 };
@@ -334,6 +335,18 @@ constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalN
 constexpr void GlobalNamespace::SimpleLevelStarter::__cordl_internal_set__beatmapLevel(::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatmapLevel = value;
+}
+constexpr ::GlobalNamespace::GameplayType& GlobalNamespace::SimpleLevelStarter::__cordl_internal_get__gameplayType() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gameplayType;
+}
+constexpr ::GlobalNamespace::GameplayType const& GlobalNamespace::SimpleLevelStarter::__cordl_internal_get__gameplayType() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____gameplayType;
+}
+constexpr void GlobalNamespace::SimpleLevelStarter::__cordl_internal_set__gameplayType(::GlobalNamespace::GameplayType value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____gameplayType = value;
 }
 constexpr ::GlobalNamespace::BeatmapCharacteristic& GlobalNamespace::SimpleLevelStarter::__cordl_internal_get__beatmapCharacteristic() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -514,9 +527,9 @@ inline void GlobalNamespace::SimpleLevelStarter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::SimpleLevelStarter::_StartLevel_g__AfterSceneSwitchCallback_15_0(::Zenject::DiContainer* container) {
+inline void GlobalNamespace::SimpleLevelStarter::_StartLevel_g__AfterSceneSwitchCallback_16_0(::Zenject::DiContainer* container) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleLevelStarter*>(),
-                                                                                         { "<StartLevel>g__AfterSceneSwitchCallback|15_0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
+                                                                                         { "<StartLevel>g__AfterSceneSwitchCallback|16_0", {}, { ::i2c::type_of<::Zenject::DiContainer*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, container);
 }
 inline ::GlobalNamespace::SimpleLevelStarter* GlobalNamespace::SimpleLevelStarter::New_ctor() {

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* (*)()>(
     &::GlobalNamespace::DirectionalLight::get_lights)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5c7e968;
+  constexpr static std::size_t addrs = 0x5cb658c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DirectionalLight*>(), { "get_lights", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DirectionalLight::*)()>(&::GlobalNamespace::DirectionalLight::OnEnable)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5c7e9c4;
+  constexpr static std::size_t addrs = 0x5cb65e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DirectionalLight*>(), { "OnEnable", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DirectionalLight::*)()>(&::GlobalNamespace::DirectionalLight::OnDisable)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5c7ea98;
+  constexpr static std::size_t addrs = 0x5cb66bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DirectionalLight*>(), { "OnDisable", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DirectionalLight::*)()>(&::GlobalNamespace::DirectionalLight::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c7eb20;
+  constexpr static std::size_t addrs = 0x5cb6744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DirectionalLight*>(), { ".ctor", {}, {} })));
@@ -95,13 +95,6 @@ inline void GlobalNamespace::DirectionalLight::setStaticF__lights(::System::Coll
 }
 inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* GlobalNamespace::DirectionalLight::getStaticF__lights() {
   return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>*, "_lights", ::GlobalNamespace::DirectionalLight*>();
-}
-inline void GlobalNamespace::DirectionalLight::setStaticF__mainLight(::UnityW<::GlobalNamespace::DirectionalLight> value) {
-  ::cordl_internals::setStaticField<::UnityW<::GlobalNamespace::DirectionalLight>, "_mainLight", ::GlobalNamespace::DirectionalLight*>(
-      std::forward<::UnityW<::GlobalNamespace::DirectionalLight>>(value));
-}
-inline ::UnityW<::GlobalNamespace::DirectionalLight> GlobalNamespace::DirectionalLight::getStaticF__mainLight() {
-  return ::cordl_internals::getStaticField<::UnityW<::GlobalNamespace::DirectionalLight>, "_mainLight", ::GlobalNamespace::DirectionalLight*>();
 }
 inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* GlobalNamespace::DirectionalLight::get_lights() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DirectionalLight*>(), { "get_lights", {}, {} })));

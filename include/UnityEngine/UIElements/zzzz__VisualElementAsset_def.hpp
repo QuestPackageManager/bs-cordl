@@ -83,23 +83,23 @@ public:
 
   __declspec(property(get = get_stylesheets)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* stylesheets;
 
-  /// @brief Method Accepts, addr 0x71498b8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Accepts, addr 0x71867ec, size 0x78, virtual true, abstract: false, final false
   inline bool Accepts(::UnityEngine::UIElements::UxmlAsset* asset, ::by_ref<::StringW> errorMessage);
 
-  /// @brief Method IdsPathMatchesAttributeOverrideIdsPath, addr 0x7149200, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method IdsPathMatchesAttributeOverrideIdsPath, addr 0x7186134, size 0x13c, virtual false, abstract: false, final false
   static inline bool IdsPathMatchesAttributeOverrideIdsPath(::System::Collections::Generic::List_1<int32_t>* idsPath, ::System::Collections::Generic::List_1<int32_t>* attributeOverrideIdsPath,
                                                             int32_t templateId);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method Instantiate, addr 0x714933c, size 0x57c, virtual true, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x7186270, size 0x57c, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* Instantiate(::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::VisualElementAsset* New_ctor(::StringW fullTypeName, ::UnityEngine::UIElements::UxmlNamespaceDefinition xmlNamespace);
 
-  /// @brief Method OnVisualTreeAssetChanged, addr 0x7149a70, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method OnVisualTreeAssetChanged, addr 0x71869a4, size 0x144, virtual true, abstract: false, final false
   inline void OnVisualTreeAssetChanged(::UnityEngine::UIElements::VisualTreeAsset* previousVta, ::UnityEngine::UIElements::VisualTreeAsset* newVta);
 
-  /// @brief Method ToString, addr 0x7149930, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7186864, size 0x140, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<::StringW> const& __cordl_internal_get_m_Classes() const;
@@ -138,34 +138,34 @@ public:
 
   constexpr void __cordl_internal_set_m_Stylesheets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* value);
 
-  /// @brief Method .ctor, addr 0x7149134, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7186068, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW fullTypeName, ::UnityEngine::UIElements::UxmlNamespaceDefinition xmlNamespace);
 
-  /// @brief Method get_classes, addr 0x7148ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_classes, addr 0x7185f30, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_classes();
 
-  /// @brief Method get_hasStylesheetPaths, addr 0x7149084, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasStylesheetPaths, addr 0x7185fb8, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasStylesheetPaths();
 
-  /// @brief Method get_hasStylesheets, addr 0x7149114, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasStylesheets, addr 0x7186048, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasStylesheets();
 
-  /// @brief Method get_ruleIndex, addr 0x7148fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ruleIndex, addr 0x7185f20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ruleIndex();
 
-  /// @brief Method get_serializedData, addr 0x7149124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serializedData, addr 0x7186058, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UxmlSerializedData* get_serializedData();
 
-  /// @brief Method get_skipClone, addr 0x714912c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skipClone, addr 0x7186060, size 0x8, virtual false, abstract: false, final false
   inline bool get_skipClone();
 
-  /// @brief Method get_stylesheetPaths, addr 0x7149004, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_stylesheetPaths, addr 0x7185f38, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_stylesheetPaths();
 
-  /// @brief Method get_stylesheets, addr 0x7149094, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_stylesheets, addr 0x7185fc8, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_stylesheets();
 
-  /// @brief Method set_ruleIndex, addr 0x7148ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ruleIndex, addr 0x7185f28, size 0x8, virtual false, abstract: false, final false
   inline void set_ruleIndex(int32_t value);
 
 protected:

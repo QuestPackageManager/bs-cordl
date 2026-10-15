@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UIElements::StyleSheet> (::UnityEngine::UIElements::StyleRule::*)()>(
     &::UnityEngine::UIElements::StyleRule::get_styleSheet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7115594;
+  constexpr static std::size_t addrs = 0x71524c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleRule*>(), { "get_styleSheet", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleRule::*)(::UnityEngine::UIElements::StyleSheet*)>(&::UnityEngine::UIElements::StyleRule::set_styleSheet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x711559c;
+  constexpr static std::size_t addrs = 0x71524d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleRule::*)(::UnityEngine::UIElements::StyleSheet*)>(&::UnityEngine::UIElements::StyleRule::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x71155a4;
+  constexpr static std::size_t addrs = 0x71524d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*> (::UnityEngine::UIElements::StyleRule::*)()>(
     &::UnityEngine::UIElements::StyleRule::get_complexSelectors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71156c8;
+  constexpr static std::size_t addrs = 0x71525fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleRule*>(), { "get_complexSelectors", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::UIElements::StyleProperty*> (::UnityEngine::UIElements::StyleRule::*)()>(
     &::UnityEngine::UIElements::StyleRule::get_properties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71156d0;
+  constexpr static std::size_t addrs = 0x7152604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleRule*>(), { "get_properties", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleRule::*)(::StringW, ::by_ref<::UnityEngine::UIElements::StyleComplexSelector*>, ::by_ref<::StringW>)>(
     &::UnityEngine::UIElements::StyleRule::TryAddSelector)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x71156d8;
+  constexpr static std::size_t addrs = 0x715260c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleComplexSelector* (::UnityEngine::UIElements::StyleRule::*)(::StringW)>(
     &::UnityEngine::UIElements::StyleRule::AddSelector)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x7115828;
+  constexpr static std::size_t addrs = 0x715275c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleProperty* (::UnityEngine::UIElements::StyleRule::*)(::StringW)>(
     &::UnityEngine::UIElements::StyleRule::AddProperty)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x7115894;
+  constexpr static std::size_t addrs = 0x71527c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

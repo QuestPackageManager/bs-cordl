@@ -24,7 +24,7 @@ public:
   // Declarations
   __declspec(property(get = get_lodSelectionActive)) bool lodSelectionActive;
 
-  /// @brief Method get_lodSelectionActive, addr 0x6f8a2a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_lodSelectionActive, addr 0x6fc7180, size 0x10, virtual false, abstract: false, final false
   inline bool get_lodSelectionActive();
 
   // Ctor Parameters []
@@ -36,7 +36,7 @@ public:
   constexpr GPUDrivenMeshLodInfo(int32_t levelCount, float_t lodSlope, float_t lodBias) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10499 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

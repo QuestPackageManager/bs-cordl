@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_projectPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x399134c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39b573c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW projectPath);
 
 protected:
@@ -49,7 +49,7 @@ public:
   OpenBeatmapLevelDestination(OpenBeatmapLevelDestination const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14281 };
 
   /// @brief Field projectPath, offset: 0x10, size: 0x8, def value: None
   ::StringW ___projectPath;

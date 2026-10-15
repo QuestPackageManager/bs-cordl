@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutParticlesEffect::*)()>(&::GlobalNamespace::NoteCutParticlesEffect::Awake)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5da4980;
+  constexpr static std::size_t addrs = 0x5de1ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutParticlesEffect*>(), { "Awake", {}, {} })));
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                            ::UnityEngine::Vector3, ::UnityEngine::Color32, int32_t, int32_t, float_t)>(
     &::GlobalNamespace::NoteCutParticlesEffect::SpawnParticles)> {
   constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x5da4b48;
+  constexpr static std::size_t addrs = 0x5de1e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutParticlesEffect::*)()>(&::GlobalNamespace::NoteCutParticlesEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5da5030;
+  constexpr static std::size_t addrs = 0x5de237c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutParticlesEffect*>(), { ".ctor", {}, {} })));

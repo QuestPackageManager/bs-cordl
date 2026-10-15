@@ -11,6 +11,7 @@
 #include "GlobalNamespace/zzzz__AnnotatedBeatmapLevelCollectionCell_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPack_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__GameplayType_def.hpp"
 #include "GlobalNamespace/zzzz__IEntitlementModel_def.hpp"
 #include "HMUI/zzzz__ImageView_def.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23::MoveNext)> {
   constexpr static std::size_t size = 0x5e0;
-  constexpr static std::size_t addrs = 0x5e1c798;
+  constexpr static std::size_t addrs = 0x5e5a008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e1cd78;
+  constexpr static std::size_t addrs = 0x5e5a5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell__RefreshAvailabilityAsync_d__23>(),
@@ -96,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)()>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::get_cellIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e1c280;
+  constexpr static std::size_t addrs = 0x5e59af0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(), { "get_cellIndex", {}, {} })));
@@ -109,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(int32_t)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::set_cellIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e1c288;
+  constexpr static std::size_t addrs = 0x5e59af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,16 +121,18 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 //  Writing Method size for method: ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell.SetData
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(::GlobalNamespace::BeatmapLevelPack*, bool, bool, bool)>(
-    &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::SetData)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(
+    ::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::GameplayType, bool, bool, bool)>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::SetData)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5e1c290;
+  constexpr static std::size_t addrs = 0x5e59b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(),
-                                         { "SetData", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelPack*>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(),
+                                                             { "SetData",
+                                                               {},
+                                                               { ::i2c::type_of<::GlobalNamespace::BeatmapLevelPack*>(), ::i2c::type_of<::GlobalNamespace::GameplayType>(), ::i2c::type_of<bool>(),
+                                                                 ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -138,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)()>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::InternalToggle)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5e1c538;
+  constexpr static std::size_t addrs = 0x5e59da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(),
@@ -152,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::SelectionDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e1c58c;
+  constexpr static std::size_t addrs = 0x5e59dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(),
@@ -166,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::HighlightDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e1c68c;
+  constexpr static std::size_t addrs = 0x5e59efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(),
@@ -179,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)()>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::RefreshVisuals)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5e1c590;
+  constexpr static std::size_t addrs = 0x5e59e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(), { "RefreshVisuals", {}, {} })));
@@ -192,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(::StringW, int32_t, int32_t)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::GetInfoText)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5e1c3d8;
+  constexpr static std::size_t addrs = 0x5e59c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(::GlobalNamespace::IEntitlementModel*)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::RefreshAvailabilityAsync)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5e1c690;
+  constexpr static std::size_t addrs = 0x5e59f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(),
@@ -221,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)(bool)>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::SetDownloadIconVisible)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5e1c4ec;
+  constexpr static std::size_t addrs = 0x5e59d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -235,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)()>(
     &::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::CancelAsyncOperations)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5e1c744;
+  constexpr static std::size_t addrs = 0x5e59fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::*)()>(&::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5e1c770;
+  constexpr static std::size_t addrs = 0x5e59fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(), { ".ctor", {}, {} })));
@@ -432,11 +435,14 @@ inline void GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::set_cellIndex(
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(), { "set_cellIndex", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::SetData(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, bool isPromoted, bool isUpdated, bool interactable) {
-  static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(),
-                                              { "SetData", {}, { ::i2c::type_of<::GlobalNamespace::BeatmapLevelPack*>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapLevelPack, isPromoted, isUpdated, interactable);
+inline void GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::SetData(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::GameplayType gameplayType, bool isPromoted,
+                                                                          bool isUpdated, bool interactable) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*>(),
+                                                                                         { "SetData",
+                                                                                           {},
+                                                                                           { ::i2c::type_of<::GlobalNamespace::BeatmapLevelPack*>(), ::i2c::type_of<::GlobalNamespace::GameplayType>(),
+                                                                                             ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, beatmapLevelPack, gameplayType, isPromoted, isUpdated, interactable);
 }
 inline void GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::InternalToggle() {
   auto* ___internal_method =

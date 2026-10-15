@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::*)()>(&::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::Clear)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x34e87a4;
+  constexpr static std::size_t addrs = 0x3500cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache*>(), { "Clear", {}, {} })));
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analyt
     ::StringW, ::StringW, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentType*, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField*)>(
     &::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::AddSegment)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x34e77ac;
+  constexpr static std::size_t addrs = 0x34ffcfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::*)(::StringW, ::by_ref<::StringW>)>(
     &::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::TryGetSegmentId)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x34e76dc;
+  constexpr static std::size_t addrs = 0x34ffc2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::*)(::StringW)>(
     &::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::IsSegmentFinished)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x34e7748;
+  constexpr static std::size_t addrs = 0x34ffc98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::SegmentState* (::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::*)(::StringW)>(
     &::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::GetSegmentState)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x34e7a68;
+  constexpr static std::size_t addrs = 0x34fffb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::*)(::StringW, int32_t)>(
     &::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::UpdateSeqNum)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x34e83e0;
+  constexpr static std::size_t addrs = 0x3500930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache*>(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::*)(
     ::StringW, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipSegmentEventSettingsField*)>(&::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::UpdateSettings)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x34e732c;
+  constexpr static std::size_t addrs = 0x34ff87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::*)(::StringW)>(
     &::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::RemoveSegment)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x34e8454;
+  constexpr static std::size_t addrs = 0x35009a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::*)(::StringW)>(
     &::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::MarkSegmentAsFinished)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x34e8514;
+  constexpr static std::size_t addrs = 0x3500a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::*)()>(&::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x34e8650;
+  constexpr static std::size_t addrs = 0x3500ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::EventsBuilderSharedCache*>(), { ".ctor", {}, {} })));

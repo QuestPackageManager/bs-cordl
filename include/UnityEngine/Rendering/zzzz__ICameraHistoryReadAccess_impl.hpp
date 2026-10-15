@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6b62504;
+  constexpr static std::size_t addrs = 0x6b9f180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate*>(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate::*)(::UnityEngine::Rendering::IPerFrameHistoryAccessTracker*)>(
     &::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b62648;
+  constexpr static std::size_t addrs = 0x6b9f2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate*>(),
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate::*)(::UnityEngine::Rendering::IPerFrameHistoryAccessTracker*, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6b6265c;
+  constexpr static std::size_t addrs = 0x6b9f2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate::*)(::System::IAsyncResult*)>(
     &::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b6267c;
+  constexpr static std::size_t addrs = 0x6b9f2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ICameraHistoryReadAccess_HistoryRequestDelegate*>(),

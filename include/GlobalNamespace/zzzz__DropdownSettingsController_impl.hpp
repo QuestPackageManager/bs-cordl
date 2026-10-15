@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownSettingsController::*)(::System::Action*)>(
     &::GlobalNamespace::DropdownSettingsController::add_dropDownValueDidChangeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e2fe74;
+  constexpr static std::size_t addrs = 0x5e6dab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownSettingsController::*)(::System::Action*)>(
     &::GlobalNamespace::DropdownSettingsController::remove_dropDownValueDidChangeEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e2ff20;
+  constexpr static std::size_t addrs = 0x5e6db5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownSettingsController::*)()>(&::GlobalNamespace::DropdownSettingsController::OnEnable)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e2ffcc;
+  constexpr static std::size_t addrs = 0x5e6dc08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DropdownSettingsController*>(), { "OnEnable", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownSettingsController::*)()>(&::GlobalNamespace::DropdownSettingsController::OnDisable)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5e301d4;
+  constexpr static std::size_t addrs = 0x5e6de10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DropdownSettingsController*>(), { "OnDisable", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownSettingsController::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::DropdownSettingsController::HandleDropdownValueDidChange)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5e302ac;
+  constexpr static std::size_t addrs = 0x5e6dee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownSettingsController::*)()>(&::GlobalNamespace::DropdownSettingsController::RefreshUI)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5e3008c;
+  constexpr static std::size_t addrs = 0x5e6dcc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DropdownSettingsController*>(), { "RefreshUI", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownSettingsController::*)(bool)>(&::GlobalNamespace::DropdownSettingsController::Refresh)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5e302ec;
+  constexpr static std::size_t addrs = 0x5e6df28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DropdownSettingsController::*)()>(&::GlobalNamespace::DropdownSettingsController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e30348;
+  constexpr static std::size_t addrs = 0x5e6df84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DropdownSettingsController*>(), { ".ctor", {}, {} })));

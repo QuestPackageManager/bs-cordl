@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::get_hidden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63152c8;
+  constexpr static std::size_t addrs = 0x6351d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGazePointer*>(), { "get_hidden", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(bool)>(&::GlobalNamespace::OVRGazePointer::set_hidden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63152d0;
+  constexpr static std::size_t addrs = 0x6351d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGazePointer*>(), { "set_hidden", {}, { ::i2c::type_of<bool>() } })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::get_currentScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63152d8;
+  constexpr static std::size_t addrs = 0x6351d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGazePointer*>(), { "get_currentScale", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(float_t)>(&::GlobalNamespace::OVRGazePointer::set_currentScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63152e0;
+  constexpr static std::size_t addrs = 0x6351d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OVRGazePointer> (*)()>(&::GlobalNamespace::OVRGazePointer::get_instance)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x63152e8;
+  constexpr static std::size_t addrs = 0x6351d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGazePointer*>(), { "get_instance", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::get_visibilityStrength)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6315510;
+  constexpr static std::size_t addrs = 0x6351f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGazePointer*>(), { "get_visibilityStrength", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::get_SelectionProgress)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x63155e8;
+  constexpr static std::size_t addrs = 0x6352030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGazePointer*>(), { "get_SelectionProgress", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(float_t)>(&::GlobalNamespace::OVRGazePointer::set_SelectionProgress)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6315664;
+  constexpr static std::size_t addrs = 0x63520ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::Awake)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x63156e8;
+  constexpr static std::size_t addrs = 0x6352130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGazePointer*>(), { "Awake", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::Update)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6315868;
+  constexpr static std::size_t addrs = 0x63522b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGazePointer*>(), { "Update", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::OVRGazePointer::SetCursorStartDest)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x6315c44;
+  constexpr static std::size_t addrs = 0x635268c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)(::UnityEngine::Transform*)>(&::GlobalNamespace::OVRGazePointer::SetCursorRay)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6315e88;
+  constexpr static std::size_t addrs = 0x63528d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::LateUpdate)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6315e8c;
+  constexpr static std::size_t addrs = 0x63528d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGazePointer*>(), { "LateUpdate", {}, {} })));
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::RequestHide)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6316018;
+  constexpr static std::size_t addrs = 0x6352a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGazePointer*>(), { "RequestHide", {}, {} })));
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::RequestShow)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6315e48;
+  constexpr static std::size_t addrs = 0x6352890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGazePointer*>(), { "RequestShow", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::Hide)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6315a00;
+  constexpr static std::size_t addrs = 0x6352448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGazePointer*>(), { "Hide", {}, {} })));
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::Show)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6315b24;
+  constexpr static std::size_t addrs = 0x635256c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGazePointer*>(), { "Show", {}, {} })));
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGazePointer::*)()>(&::GlobalNamespace::OVRGazePointer::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6316064;
+  constexpr static std::size_t addrs = 0x6352aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGazePointer*>(), { ".ctor", {}, {} })));

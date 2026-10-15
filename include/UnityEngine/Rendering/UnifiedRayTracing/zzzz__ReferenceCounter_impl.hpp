@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::ReferenceCounter::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::ReferenceCounter::Inc)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e0c7e4;
+  constexpr static std::size_t addrs = 0x6e49480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::ReferenceCounter*>(), { "Inc", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::ReferenceCounter::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::ReferenceCounter::Dec)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e0c824;
+  constexpr static std::size_t addrs = 0x6e494c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::ReferenceCounter*>(), { "Dec", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::ReferenceCounter::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::ReferenceCounter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e0d0fc;
+  constexpr static std::size_t addrs = 0x6e49d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::ReferenceCounter*>(), { ".ctor", {}, {} })));

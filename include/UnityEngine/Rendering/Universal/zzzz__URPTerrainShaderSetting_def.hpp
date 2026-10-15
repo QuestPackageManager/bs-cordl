@@ -60,7 +60,7 @@ public:
   static ::UnityEngine::Rendering::Universal::URPTerrainShaderSetting_Version const Initial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13202 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -115,19 +115,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::UnityEngine::Rendering::Universal::URPTerrainShaderSetting_Version value);
 
-  /// @brief Method .ctor, addr 0x6cf157c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d2e1f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_includeTerrainShaders, addr 0x6cf1504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_includeTerrainShaders, addr 0x6d2e180, size 0x8, virtual false, abstract: false, final false
   inline bool get_includeTerrainShaders();
 
-  /// @brief Method get_version, addr 0x6cf14fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6d2e178, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
 
-  /// @brief Method set_includeTerrainShaders, addr 0x6cf150c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_includeTerrainShaders, addr 0x6d2e188, size 0x70, virtual false, abstract: false, final false
   inline void set_includeTerrainShaders(bool value);
 
 protected:
@@ -145,7 +145,7 @@ public:
   URPTerrainShaderSetting(URPTerrainShaderSetting const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13203 };
 
   /// [SerializeField]
   /// [HideInInspector]

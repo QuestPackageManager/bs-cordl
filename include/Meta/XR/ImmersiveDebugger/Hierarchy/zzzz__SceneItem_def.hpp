@@ -36,24 +36,24 @@ public:
 
   __declspec(property(get = get_Valid)) bool Valid;
 
-  /// @brief Method BuildHandle, addr 0x5e82568, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method BuildHandle, addr 0x5ebecf0, size 0x18, virtual true, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle BuildHandle();
 
-  /// @brief Method CompareChildren, addr 0x5e82448, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CompareChildren, addr 0x5ebebd0, size 0x6c, virtual true, abstract: false, final false
   inline bool CompareChildren(::UnityEngine::GameObject* lhs, ::UnityEngine::GameObject* rhs);
 
-  /// @brief Method FetchExpectedChildren, addr 0x5e82580, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method FetchExpectedChildren, addr 0x5ebed08, size 0xc, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>> FetchExpectedChildren();
 
   static inline ::Meta::XR::ImmersiveDebugger::Hierarchy::SceneItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5e8258c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ebed14, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Label, addr 0x5e824b4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_Label, addr 0x5ebec3c, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW get_Label();
 
-  /// @brief Method get_Valid, addr 0x5e82520, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x5ebeca8, size 0x48, virtual true, abstract: false, final false
   inline bool get_Valid();
 
 protected:
@@ -71,7 +71,7 @@ public:
   SceneItem(SceneItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19005 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19038 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

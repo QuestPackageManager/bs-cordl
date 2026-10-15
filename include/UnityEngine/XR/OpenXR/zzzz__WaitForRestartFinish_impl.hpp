@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::WaitForRestartFinish::*)(float_t)>(&::UnityEngine::XR::OpenXR::WaitForRestartFinish::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e364f0;
+  constexpr static std::size_t addrs = 0x6e7318c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::WaitForRestartFinish::*)()>(&::UnityEngine::XR::OpenXR::WaitForRestartFinish::get_keepWaiting)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6e385dc;
+  constexpr static std::size_t addrs = 0x6e75278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

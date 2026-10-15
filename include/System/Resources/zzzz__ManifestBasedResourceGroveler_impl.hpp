@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::ManifestBasedResourceGroveler::*)(::System::Resources::ResourceManager_ResourceManagerMediator*)>(
     &::System::Resources::ManifestBasedResourceGroveler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f8d7e0;
+  constexpr static std::size_t addrs = 0x5fca0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ManifestBasedResourceGroveler*>(),
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Resources::Reso
     ::System::Resources::ManifestBasedResourceGroveler::*)(::System::Globalization::CultureInfo*, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>*, bool,
                                                            bool, ::by_ref<::System::Threading::StackCrawlMark>)>(&::System::Resources::ManifestBasedResourceGroveler::GrovelForResourceSet)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x5f8d7e8;
+  constexpr static std::size_t addrs = 0x5fca0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::CultureInfo* (::System::Resources::ManifestBasedResourceGroveler::*)(::System::Globalization::CultureInfo*)>(
     &::System::Resources::ManifestBasedResourceGroveler::UltimateFallbackFixup)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5f8da9c;
+  constexpr static std::size_t addrs = 0x5fca384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ManifestBasedResourceGroveler*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::CultureInfo* (*)(::System::Reflection::Assembly*, ::by_ref<::System::Resources::UltimateResourceFallbackLocation>)>(
     &::System::Resources::ManifestBasedResourceGroveler::GetNeutralResourcesLanguage)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x5f8ee10;
+  constexpr static std::size_t addrs = 0x5fcb6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Resources::ResourceSet* (
     ::System::Resources::ManifestBasedResourceGroveler::*)(::System::IO::Stream*, ::System::Reflection::Assembly*)>(&::System::Resources::ManifestBasedResourceGroveler::CreateResourceSet)> {
   constexpr static std::size_t size = 0x910;
-  constexpr static std::size_t addrs = 0x5f8e23c;
+  constexpr static std::size_t addrs = 0x5fcab24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IO::Stream* (::System::Resources::ManifestBasedResourceGroveler::*)(::System::Reflection::RuntimeAssembly*, ::StringW, ::by_ref<::System::Threading::StackCrawlMark>)>(
         &::System::Resources::ManifestBasedResourceGroveler::GetManifestResourceStream)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5f8e170;
+  constexpr static std::size_t addrs = 0x5fcaa58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::System::Resources::ManifestBasedResourceGroveler::*)(::System::Reflection::RuntimeAssembly*, ::StringW)>(
     &::System::Resources::ManifestBasedResourceGroveler::CaseInsensitiveManifestResourceStreamLookup)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x5f8f2fc;
+  constexpr static std::size_t addrs = 0x5fcbbe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Reflection::RuntimeAssembly* (::System::Resources::ManifestBasedResourceGroveler::*)(::System::Globalization::CultureInfo*, ::by_ref<::System::Threading::StackCrawlMark>)>(
         &::System::Resources::ManifestBasedResourceGroveler::GetSatelliteAssembly)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x5f8dc4c;
+  constexpr static std::size_t addrs = 0x5fca534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Resources::ManifestBasedResourceGroveler::*)(::StringW, ::StringW)>(
     &::System::Resources::ManifestBasedResourceGroveler::CanUseDefaultResourceClasses)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5f8f1a0;
+  constexpr static std::size_t addrs = 0x5fcba88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ManifestBasedResourceGroveler*>(),
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Resources::ManifestBasedResourceGroveler::*)()>(
     &::System::Resources::ManifestBasedResourceGroveler::GetSatelliteAssemblyName)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5f8f6f8;
+  constexpr static std::size_t addrs = 0x5fcbfe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::ManifestBasedResourceGroveler::*)()>(&::System::Resources::ManifestBasedResourceGroveler::HandleSatelliteMissing)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x5f8ddcc;
+  constexpr static std::size_t addrs = 0x5fca6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::ManifestBasedResourceGroveler::*)(::StringW)>(
     &::System::Resources::ManifestBasedResourceGroveler::HandleResourceStreamMissing)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x5f8eb4c;
+  constexpr static std::size_t addrs = 0x5fcb434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Reflection::Assembly*, ::by_ref<::StringW>, ::by_ref<int16_t>)>(
     &::System::Resources::ManifestBasedResourceGroveler::GetNeutralResourcesLanguageAttribute)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5f8f124;
+  constexpr static std::size_t addrs = 0x5fcba0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

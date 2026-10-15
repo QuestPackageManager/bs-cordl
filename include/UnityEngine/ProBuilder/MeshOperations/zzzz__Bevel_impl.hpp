@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::Bevel___c::*)()>(&::UnityEngine::ProBuilder::MeshOperations::Bevel___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b2ffc8;
+  constexpr static std::size_t addrs = 0x6b6cc44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::Bevel___c*>(), { ".ctor", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Face* (::UnityEngine::ProBuilder::MeshOperations::Bevel___c::*)(::UnityEngine::ProBuilder::FaceRebuildData*)>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel___c::_BevelEdges_b__0_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b2ffcc;
+  constexpr static std::size_t addrs = 0x6b6cc48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::Bevel___c*>(),
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::P
     ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::System::Collections::Generic::List_1<int32_t>*>)>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel___c::_BevelEdges_b__0_6)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6b2ffe0;
+  constexpr static std::size_t addrs = 0x6b6cc5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Face* (::UnityEngine::ProBuilder::MeshOperations::Bevel___c::*)(::UnityEngine::ProBuilder::FaceRebuildData*)>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel___c::_BevelEdges_b__0_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b30040;
+  constexpr static std::size_t addrs = 0x6b6ccbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::Bevel___c*>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Face* (::UnityEngine::ProBuilder::MeshOperations::Bevel___c::*)(::UnityEngine::ProBuilder::FaceRebuildData*)>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel___c::_BevelEdges_b__0_2)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b30054;
+  constexpr static std::size_t addrs = 0x6b6ccd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::Bevel___c*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Face* (::UnityEngine::ProBuilder::MeshOperations::Bevel___c::*)(::UnityEngine::ProBuilder::FaceRebuildData*)>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel___c::_BevelEdges_b__0_3)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b30068;
+  constexpr static std::size_t addrs = 0x6b6cce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::Bevel___c*>(),
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_0::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b2f044;
+  constexpr static std::size_t addrs = 0x6b6bcc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_0::*)(int32_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_0::_BevelEdges_b__7)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b3007c;
+  constexpr static std::size_t addrs = 0x6b6ccf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_0::*)(int32_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_0::_BevelEdges_b__8)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6b300b8;
+  constexpr static std::size_t addrs = 0x6b6cd34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_1::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b2f048;
+  constexpr static std::size_t addrs = 0x6b6bcc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_1::*)(::UnityEngine::ProBuilder::WingedEdge*)>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_1::_BevelEdges_b__4)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6b300f4;
+  constexpr static std::size_t addrs = 0x6b6cd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_1*>(),
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_2::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_2::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b2fd00;
+  constexpr static std::size_t addrs = 0x6b6c97c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_2::*)(::UnityEngine::ProBuilder::WingedEdge*)>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_2::_BevelEdges_b__5)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6b3012c;
+  constexpr static std::size_t addrs = 0x6b6cda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::Bevel___c__DisplayClass0_2*>(),
@@ -440,7 +440,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>*,
                                                                                   float_t)>(&::UnityEngine::ProBuilder::MeshOperations::Bevel::BevelEdges)> {
   constexpr static std::size_t size = 0x28b4;
-  constexpr static std::size_t addrs = 0x6b2c790;
+  constexpr static std::size_t addrs = 0x6b6940c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -462,7 +462,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
                                                                                          ::UnityEngine::ProBuilder::FaceRebuildData*, ::System::Collections::Generic::List_1<int32_t>*>>*>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel::GetBridgeFaces)> {
   constexpr static std::size_t size = 0x8a0;
-  constexpr static std::size_t addrs = 0x6b2f460;
+  constexpr static std::size_t addrs = 0x6b6c0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -484,7 +484,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::UnityEngine::ProBuilder::WingedEdge*, float_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel::SlideEdge)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x6b2f04c;
+  constexpr static std::size_t addrs = 0x6b6bcc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::Bevel*>(),
@@ -501,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::ProBuilder::Edge (*)(::UnityEngine::ProBuilder::WingedEdge*, int32_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel::GetLeadingEdge)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6b2fe08;
+  constexpr static std::size_t addrs = 0x6b6ca84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

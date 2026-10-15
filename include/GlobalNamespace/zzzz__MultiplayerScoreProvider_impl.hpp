@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::*)()>(
     &::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::get_offsetSyncTime)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5e008c0;
+  constexpr static std::size_t addrs = 0x5e3e090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::*)()>(
     &::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::get_lastScoreTime)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5e00bb8;
+  constexpr static std::size_t addrs = 0x5e3e388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::*)()>(&::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::get_score)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5dffebc;
+  constexpr static std::size_t addrs = 0x5e3d68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>(), { "get_score", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::*)()>(
     &::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::get_isConnected)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5e007d4;
+  constexpr static std::size_t addrs = 0x5e3dfa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::*)()>(
     &::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::get_isActiveOrFinished)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5e00c0c;
+  constexpr static std::size_t addrs = 0x5e3e3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::*)()>(&::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::get_isFailed)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5e00c4c;
+  constexpr static std::size_t addrs = 0x5e3e41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>(), { "get_isFailed", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::*)()>(
     &::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::get_wasActiveAtLevelStart)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5e00890;
+  constexpr static std::size_t addrs = 0x5e3e060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::*)()>(&::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::get_isMe)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5e00c74;
+  constexpr static std::size_t addrs = 0x5e3e444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>(), { "get_isMe", {}, {} })));
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::*)()>(
     &::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::get_userId)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5e00d2c;
+  constexpr static std::size_t addrs = 0x5e3e4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>(), { "get_userId", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::*)()>(
     &::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::get_userName)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5e00de8;
+  constexpr static std::size_t addrs = 0x5e3e5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>(), { "get_userName", {}, {} })));
@@ -152,7 +152,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::StandardScoreSyncState_Score, int32_t>*, ::GlobalNamespace::MultiplayerScoreProvider*)>(
     &::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e008b8;
+  constexpr static std::size_t addrs = 0x5e3e088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::*)(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*)>(
     &::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer::CompareTo)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5e00ea4;
+  constexpr static std::size_t addrs = 0x5e3e674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>(),
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreProvider___c::*)()>(&::GlobalNamespace::MultiplayerScoreProvider___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e00f7c;
+  constexpr static std::size_t addrs = 0x5e3e74c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreProvider___c*>(), { ".ctor", {}, {} })));
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerScoreProvider___c::*)(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*)>(
     &::GlobalNamespace::MultiplayerScoreProvider___c::_Update_b__16_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e00f80;
+  constexpr static std::size_t addrs = 0x5e3e750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreProvider___c__DisplayClass18_0::*)()>(
     &::GlobalNamespace::MultiplayerScoreProvider___c__DisplayClass18_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e00ad0;
+  constexpr static std::size_t addrs = 0x5e3e2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerScoreProvider___c__DisplayClass18_0::*)(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*)>(
     &::GlobalNamespace::MultiplayerScoreProvider___c__DisplayClass18_0::_GetPositionOfPlayer_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e00fa4;
+  constexpr static std::size_t addrs = 0x5e3e774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -399,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerScoreProvider::*)()>(&::GlobalNamespace::MultiplayerScoreProvider::get_scoresAvailable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5dffe9c;
+  constexpr static std::size_t addrs = 0x5e3d66c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreProvider*>(), { "get_scoresAvailable", {}, {} })));
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer* (::GlobalNamespace::MultiplayerScoreProvider::*)()>(
     &::GlobalNamespace::MultiplayerScoreProvider::get_firstPlayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dffeec;
+  constexpr static std::size_t addrs = 0x5e3d6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreProvider*>(), { "get_firstPlayer", {}, {} })));
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreProvider::*)(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*)>(
     &::GlobalNamespace::MultiplayerScoreProvider::set_firstPlayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dffef4;
+  constexpr static std::size_t addrs = 0x5e3d6c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreProvider::*)(::System::Action_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerScoreProvider::add_firstPlayerDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5dffefc;
+  constexpr static std::size_t addrs = 0x5e3d6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -455,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreProvider::*)(::System::Action_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerScoreProvider::remove_firstPlayerDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5dfffbc;
+  constexpr static std::size_t addrs = 0x5e3d78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>* (
     ::GlobalNamespace::MultiplayerScoreProvider::*)()>(&::GlobalNamespace::MultiplayerScoreProvider::get_rankedPlayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0007c;
+  constexpr static std::size_t addrs = 0x5e3d84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreProvider*>(), { "get_rankedPlayers", {}, {} })));
@@ -482,7 +482,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreProvider::*)()>(&::GlobalNamespace::MultiplayerScoreProvider::Update)> {
   constexpr static std::size_t size = 0x750;
-  constexpr static std::size_t addrs = 0x5e00084;
+  constexpr static std::size_t addrs = 0x5e3d854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreProvider*>(), { "Update", {}, {} })));
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerScoreProvider::*)(::StringW, ::by_ref<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>)>(
     &::GlobalNamespace::MultiplayerScoreProvider::TryGetScore)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5e0097c;
+  constexpr static std::size_t addrs = 0x5e3e14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -509,7 +509,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MultiplayerScoreProvider::*)(::StringW)>(&::GlobalNamespace::MultiplayerScoreProvider::GetPositionOfPlayer)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x5e009e8;
+  constexpr static std::size_t addrs = 0x5e3e1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -522,7 +522,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerScoreProvider::*)()>(&::GlobalNamespace::MultiplayerScoreProvider::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5e00ad4;
+  constexpr static std::size_t addrs = 0x5e3e2a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerScoreProvider*>(), { ".ctor", {}, {} })));

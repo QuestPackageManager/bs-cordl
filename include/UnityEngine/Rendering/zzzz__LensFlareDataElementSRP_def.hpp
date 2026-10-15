@@ -207,7 +207,7 @@ public:
   /// @brief Field visible, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_visible, put = __cordl_internal_set_visible)) bool visible;
 
-  /// @brief Method Clone, addr 0x6bbcc1c, size 0x52c, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x6bf9898, size 0x52c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::LensFlareDataElementSRP* Clone();
 
   static inline ::UnityEngine::Rendering::LensFlareDataElementSRP* New_ctor();
@@ -512,49 +512,49 @@ public:
 
   constexpr void __cordl_internal_set_visible(bool value);
 
-  /// @brief Method .ctor, addr 0x6bbc624, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bf92a0, size 0x54c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_count, addr 0x6bbd150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x6bf9dcc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_count();
 
-  /// @brief Method get_edgeOffset, addr 0x6bbd168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_edgeOffset, addr 0x6bf9de4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_edgeOffset();
 
-  /// @brief Method get_fallOff, addr 0x6bbd160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fallOff, addr 0x6bf9ddc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fallOff();
 
-  /// @brief Method get_intensityVariation, addr 0x6bbd158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensityVariation, addr 0x6bf9dd4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensityVariation();
 
-  /// @brief Method get_localIntensity, addr 0x6bbd148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localIntensity, addr 0x6bf9dc4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_localIntensity();
 
-  /// @brief Method get_sdfRoundness, addr 0x6bbd178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sdfRoundness, addr 0x6bf9df4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sdfRoundness();
 
-  /// @brief Method get_sideCount, addr 0x6bbd170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sideCount, addr 0x6bf9dec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sideCount();
 
-  /// @brief Method set_count, addr 0x6bbcb84, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_count, addr 0x6bf9800, size 0x10, virtual false, abstract: false, final false
   inline void set_count(int32_t value);
 
-  /// @brief Method set_edgeOffset, addr 0x6bbcbc8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_edgeOffset, addr 0x6bf9844, size 0x20, virtual false, abstract: false, final false
   inline void set_edgeOffset(float_t value);
 
-  /// @brief Method set_fallOff, addr 0x6bbcba8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_fallOff, addr 0x6bf9824, size 0x20, virtual false, abstract: false, final false
   inline void set_fallOff(float_t value);
 
-  /// @brief Method set_intensityVariation, addr 0x6bbcb94, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_intensityVariation, addr 0x6bf9810, size 0x14, virtual false, abstract: false, final false
   inline void set_intensityVariation(float_t value);
 
-  /// @brief Method set_localIntensity, addr 0x6bbcb70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_localIntensity, addr 0x6bf97ec, size 0x14, virtual false, abstract: false, final false
   inline void set_localIntensity(float_t value);
 
-  /// @brief Method set_sdfRoundness, addr 0x6bbcbe8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_sdfRoundness, addr 0x6bf9864, size 0x20, virtual false, abstract: false, final false
   inline void set_sdfRoundness(float_t value);
 
-  /// @brief Method set_sideCount, addr 0x6bbcc08, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_sideCount, addr 0x6bf9884, size 0x14, virtual false, abstract: false, final false
   inline void set_sideCount(int32_t value);
 
 protected:
@@ -572,7 +572,7 @@ public:
   LensFlareDataElementSRP(LensFlareDataElementSRP const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9058 };
 
   /// @brief Field lensFlareDataSRP, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Rendering::LensFlareDataSRP> ___lensFlareDataSRP;

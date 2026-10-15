@@ -34,63 +34,63 @@ public:
   __declspec(property(get = get_subMeshStartIndex)) int32_t subMeshStartIndex;
 
   /// [RequiredByNativeCode]
-  /// @brief Method DontStripMeshRenderer, addr 0x6efc000, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DontStripMeshRenderer, addr 0x6f38c9c, size 0x4, virtual false, abstract: false, final false
   inline void DontStripMeshRenderer();
 
-  /// @brief Method GetShaderUserValue, addr 0x6efc774, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetShaderUserValue, addr 0x6f39410, size 0x4, virtual false, abstract: false, final false
   inline uint32_t GetShaderUserValue();
 
   /// [FreeFunction(Name = "MeshRendererScripting::GetShaderUserValue", HasExplicitThis = true)]
-  /// @brief Method Internal_GetShaderUserValueUInt, addr 0x6efc6b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetShaderUserValueUInt, addr 0x6f39354, size 0x80, virtual false, abstract: false, final false
   inline uint32_t Internal_GetShaderUserValueUInt();
 
-  /// @brief Method Internal_GetShaderUserValueUInt_Injected, addr 0x6efc738, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetShaderUserValueUInt_Injected, addr 0x6f393d4, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t Internal_GetShaderUserValueUInt_Injected(::System::IntPtr _unity_self);
 
   /// [FreeFunction(Name = "MeshRendererScripting::SetShaderUserValue", HasExplicitThis = true)]
-  /// @brief Method Internal_SetShaderUserValueUInt, addr 0x6efc5e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetShaderUserValueUInt, addr 0x6f3927c, size 0x90, virtual false, abstract: false, final false
   inline void Internal_SetShaderUserValueUInt(uint32_t v);
 
-  /// @brief Method Internal_SetShaderUserValueUInt_Injected, addr 0x6efc670, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetShaderUserValueUInt_Injected, addr 0x6f3930c, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_SetShaderUserValueUInt_Injected(::System::IntPtr _unity_self, uint32_t v);
 
   static inline ::UnityEngine::MeshRenderer* New_ctor();
 
-  /// @brief Method SetShaderUserValue, addr 0x6efc6b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetShaderUserValue, addr 0x6f39350, size 0x4, virtual false, abstract: false, final false
   inline void SetShaderUserValue(uint32_t v);
 
-  /// @brief Method .ctor, addr 0x6efc778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f39414, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_additionalVertexStreams, addr 0x6efc004, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_additionalVertexStreams, addr 0x6f38ca0, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_additionalVertexStreams();
 
-  /// @brief Method get_additionalVertexStreams_Injected, addr 0x6efc154, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_additionalVertexStreams_Injected, addr 0x6f38df0, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_additionalVertexStreams_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_enlightenVertexStream, addr 0x6efc294, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_enlightenVertexStream, addr 0x6f38f30, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_enlightenVertexStream();
 
-  /// @brief Method get_enlightenVertexStream_Injected, addr 0x6efc3e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enlightenVertexStream_Injected, addr 0x6f39080, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_enlightenVertexStream_Injected(::System::IntPtr _unity_self);
 
   /// [NativeName("GetSubMeshStartIndex")]
-  /// @brief Method get_subMeshStartIndex, addr 0x6efc524, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_subMeshStartIndex, addr 0x6f391c0, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_subMeshStartIndex();
 
-  /// @brief Method get_subMeshStartIndex_Injected, addr 0x6efc5a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_subMeshStartIndex_Injected, addr 0x6f39240, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_subMeshStartIndex_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_additionalVertexStreams, addr 0x6efc190, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_additionalVertexStreams, addr 0x6f38e2c, size 0xc0, virtual false, abstract: false, final false
   inline void set_additionalVertexStreams(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_additionalVertexStreams_Injected, addr 0x6efc250, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_additionalVertexStreams_Injected, addr 0x6f38eec, size 0x44, virtual false, abstract: false, final false
   static inline void set_additionalVertexStreams_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
-  /// @brief Method set_enlightenVertexStream, addr 0x6efc420, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_enlightenVertexStream, addr 0x6f390bc, size 0xc0, virtual false, abstract: false, final false
   inline void set_enlightenVertexStream(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_enlightenVertexStream_Injected, addr 0x6efc4e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enlightenVertexStream_Injected, addr 0x6f3917c, size 0x44, virtual false, abstract: false, final false
   static inline void set_enlightenVertexStream_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
 protected:
@@ -108,7 +108,7 @@ public:
   MeshRenderer(MeshRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9801 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

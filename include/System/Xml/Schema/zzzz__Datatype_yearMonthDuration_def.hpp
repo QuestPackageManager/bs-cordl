@@ -39,13 +39,13 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_yearMonthDuration* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x65ed994, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x662a564, size 0x1cc, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::by_ref<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x65e842c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6624ffc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x65edb60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x662a730, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -63,7 +63,7 @@ public:
   Datatype_yearMonthDuration(Datatype_yearMonthDuration const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11597 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

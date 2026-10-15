@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Security::SecureRandom*, ::Org::BouncyCastle::Crypto::IEntropySource*, ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*, bool)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x36a8cc8;
+  constexpr static std::size_t addrs = 0x36cb62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::SetSeed)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x36a8d58;
+  constexpr static std::size_t addrs = 0x36cb6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom*>(),
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(int64_t)>(&::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::SetSeed)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x36a8dfc;
+  constexpr static std::size_t addrs = 0x36cb760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::NextBytes)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x36a8ea0;
+  constexpr static std::size_t addrs = 0x36cb804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::NextBytes)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x36a9174;
+  constexpr static std::size_t addrs = 0x36cbad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom*>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::GenerateSeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36a9210;
+  constexpr static std::size_t addrs = 0x36cbb74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom*>(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::Reseed)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x36a9218;
+  constexpr static std::size_t addrs = 0x36cbb7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom*>(),

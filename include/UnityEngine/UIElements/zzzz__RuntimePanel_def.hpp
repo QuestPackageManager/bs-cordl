@@ -68,10 +68,10 @@ public:
 
   static inline ::UnityEngine::UIElements::RuntimePanel___c* New_ctor();
 
-  /// @brief Method <.ctor>b__8_0, addr 0x7248240, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__8_0, addr 0x7285174, size 0x14, virtual false, abstract: false, final false
   inline void __ctor_b__8_0(::UnityEngine::UIElements::FocusEvent* e, ::UnityEngine::UIElements::RuntimePanel* p);
 
-  /// @brief Method .ctor, addr 0x724823c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7285170, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::RuntimePanel___c* getStaticF___9();
@@ -135,15 +135,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IRuntimePanel"
   constexpr operator ::UnityEngine::UIElements::IRuntimePanel*() noexcept;
 
-  /// @brief Method Create, addr 0x7247bec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x7284b20, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::RuntimePanel* Create(::UnityEngine::ScriptableObject* ownerObject);
 
   static inline ::UnityEngine::UIElements::RuntimePanel* New_ctor(::UnityEngine::ScriptableObject* ownerObject);
 
-  /// @brief Method OnElementFocus, addr 0x72480e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method OnElementFocus, addr 0x7285014, size 0x68, virtual false, abstract: false, final false
   inline void OnElementFocus(::UnityEngine::UIElements::FocusEvent* evt);
 
-  /// @brief Method Update, addr 0x7248040, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x7284f74, size 0xa0, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::UIElements::PanelSettings> const& __cordl_internal_get_m_PanelSettings() const;
@@ -152,14 +152,14 @@ public:
 
   constexpr void __cordl_internal_set_m_PanelSettings(::UnityW<::UnityEngine::UIElements::PanelSettings> value);
 
-  /// @brief Method .ctor, addr 0x7247d30, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7284c64, size 0x310, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ScriptableObject* ownerObject);
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* getStaticF_s_EmptyDocumentList();
 
   static inline ::UnityEngine::UIElements::EventDispatcher* getStaticF_s_EventDispatcher();
 
-  /// @brief Method get_panelSettings, addr 0x7247d28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_panelSettings, addr 0x7284c5c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::UIElements::PanelSettings> get_panelSettings();
 
   /// @brief Convert to "::System::IDisposable"

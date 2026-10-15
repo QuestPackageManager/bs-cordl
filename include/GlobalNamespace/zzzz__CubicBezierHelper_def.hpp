@@ -26,28 +26,28 @@ namespace GlobalNamespace {
 class CORDL_TYPE CubicBezierHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EstimateCurveLength, addr 0x35ae428, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method EstimateCurveLength, addr 0x35d0d08, size 0x2f8, virtual false, abstract: false, final false
   static inline float_t EstimateCurveLength(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> p0, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> p1,
                                             /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> p2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> p3);
 
-  /// @brief Method EvaluateCurve, addr 0x35adc10, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method EvaluateCurve, addr 0x35d04f0, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 EvaluateCurve(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> a1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> c1,
                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> c2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> a2, float_t t);
 
-  /// @brief Method EvaluateCurveDerivative, addr 0x35adca0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method EvaluateCurveDerivative, addr 0x35d0580, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 EvaluateCurveDerivative(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> a1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> c1,
                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> c2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> a2, float_t t);
 
-  /// @brief Method EvaluateCurveSecondDerivative, addr 0x35add54, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method EvaluateCurveSecondDerivative, addr 0x35d0634, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 EvaluateCurveSecondDerivative(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> a1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> c1,
                                                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> c2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> a2,
                                                                      float_t t);
 
-  /// @brief Method Normal, addr 0x35addf8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Normal, addr 0x35d06d8, size 0x170, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Normal(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> a1, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> c1,
                                               /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> c2, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> a2, float_t t);
 
-  /// @brief Method SplitCurve, addr 0x35adf68, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method SplitCurve, addr 0x35d0848, size 0x4c0, virtual false, abstract: false, final false
   static inline void SplitCurve(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* points, float_t t);
 
 protected:
@@ -65,7 +65,7 @@ public:
   CubicBezierHelper(CubicBezierHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21450 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

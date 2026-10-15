@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(float_t)>(&::UnityEngine::Rendering::CullingJob::PackFloatToUint8)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6c484f8;
+  constexpr static std::size_t addrs = 0x6c85174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::CullingJob::*)(int32_t, int32_t, ::UnityEngine::Rendering::InstanceFlags)>(
     &::UnityEngine::Rendering::CullingJob::CalculateLODVisibility)> {
   constexpr static std::size_t size = 0x574;
-  constexpr static std::size_t addrs = 0x6c48558;
+  constexpr static std::size_t addrs = 0x6c851d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::CullingJob::*)(int32_t, int32_t, ::UnityEngine::Rendering::InstanceFlags)>(
     &::UnityEngine::Rendering::CullingJob::CalculateVisibilityMask)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6c48acc;
+  constexpr static std::size_t addrs = 0x6c85748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::CullingJob::*)(int32_t, int32_t)>(&::UnityEngine::Rendering::CullingJob::ComputeMeshLODLevel)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x6c48cc4;
+  constexpr static std::size_t addrs = 0x6c85940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::CullingJob::*)(int32_t, ::by_ref<uint32_t>)>(
     &::UnityEngine::Rendering::CullingJob::ComputeMeshLODCrossfade)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6c48fb4;
+  constexpr static std::size_t addrs = 0x6c85c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingJob>(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CullingJob::*)(int32_t, ::by_ref<uint32_t>)>(
     &::UnityEngine::Rendering::CullingJob::EnforcePreviousFrameMeshLOD)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c490ac;
+  constexpr static std::size_t addrs = 0x6c85d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CullingJob::*)(int32_t)>(&::UnityEngine::Rendering::CullingJob::Execute)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x6c49110;
+  constexpr static std::size_t addrs = 0x6c85d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::CullingJob>(), { "Execute", {}, { ::i2c::type_of<int32_t>() } })));

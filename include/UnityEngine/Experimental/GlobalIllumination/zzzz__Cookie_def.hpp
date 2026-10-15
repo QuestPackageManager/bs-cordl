@@ -22,7 +22,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 struct CORDL_TYPE Cookie {
 public:
   // Declarations
-  /// @brief Method Defaults, addr 0x6f8cc28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Defaults, addr 0x6fc9b04, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::Cookie Defaults();
 
   // Ctor Parameters []
@@ -34,7 +34,7 @@ public:
   constexpr Cookie(::UnityEngine::EntityId entityId, float_t scale, ::UnityEngine::Vector2 sizes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10524 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

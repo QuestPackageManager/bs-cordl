@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsScribeConverter___c__DisplayClass4_0::*)()>(
     &::OSCE::Analytics::AnalyticsScribeConverter___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6358934;
+  constexpr static std::size_t addrs = 0x639540c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsScribeConverter___c__DisplayClass4_0*>(), { ".ctor", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OSCE::Analytics::AnalyticsScribeConverter___c__DisplayClass4_0::*)(::System::Reflection::PropertyInfo*)>(
     &::OSCE::Analytics::AnalyticsScribeConverter___c__DisplayClass4_0::_CacheAndWriteTypePropertiesForType_b__0)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x63589f0;
+  constexpr static std::size_t addrs = 0x63954c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OSCE::Analytics::AnalyticsScribeConverter::*)(::System::Type*)>(&::OSCE::Analytics::AnalyticsScribeConverter::CanConvert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6358044;
+  constexpr static std::size_t addrs = 0x6394b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::OSCE::Analytics::AnalyticsScribeConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::OSCE::Analytics::AnalyticsScribeConverter::ReadJson)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x635804c;
+  constexpr static std::size_t addrs = 0x6394b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsScribeConverter::*)(::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
     &::OSCE::Analytics::AnalyticsScribeConverter::WriteJson)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x6358084;
+  constexpr static std::size_t addrs = 0x6394b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::
                                                                                                              ::Newtonsoft::Json::JsonWriter*, ::Newtonsoft::Json::JsonSerializer*)>(
     &::OSCE::Analytics::AnalyticsScribeConverter::CacheAndWriteTypePropertiesForType)> {
   constexpr static std::size_t size = 0x638;
-  constexpr static std::size_t addrs = 0x63582fc;
+  constexpr static std::size_t addrs = 0x6394dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Analytics::AnalyticsScribeConverter::*)()>(&::OSCE::Analytics::AnalyticsScribeConverter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6358938;
+  constexpr static std::size_t addrs = 0x6395410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OSCE::Analytics::AnalyticsScribeConverter*>(), { ".ctor", {}, {} })));

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::HierarchyTraversal::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::StyleSheets::HierarchyTraversal::Traverse)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x719a5ec;
+  constexpr static std::size_t addrs = 0x71d7520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::HierarchyTraversal*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::HierarchyTraversal::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(
     &::UnityEngine::UIElements::StyleSheets::HierarchyTraversal::Recurse)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x719a5fc;
+  constexpr static std::size_t addrs = 0x71d7530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleSheets::HierarchyTraversal::*)()>(&::UnityEngine::UIElements::StyleSheets::HierarchyTraversal::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x719a6bc;
+  constexpr static std::size_t addrs = 0x71d75f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleSheets::HierarchyTraversal*>(), { ".ctor", {}, {} })));

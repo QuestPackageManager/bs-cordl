@@ -26,10 +26,10 @@ public:
 
   static inline ::System::ReflectionOnlyType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x60a39b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60e03f8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeHandle, addr 0x60a3a0c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_TypeHandle, addr 0x60e044c, size 0x50, virtual true, abstract: false, final false
   inline ::System::RuntimeTypeHandle get_TypeHandle();
 
 protected:

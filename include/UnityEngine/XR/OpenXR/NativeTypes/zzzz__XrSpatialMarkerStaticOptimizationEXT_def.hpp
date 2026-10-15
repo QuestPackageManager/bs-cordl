@@ -31,22 +31,22 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e445b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81254, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(void* next, bool optimizeForStaticMarker);
 
-  /// @brief Method .ctor, addr 0x6e445d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81270, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(bool optimizeForStaticMarker);
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e445a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e81244, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_optimizeForStaticMarker, addr 0x6e445b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_optimizeForStaticMarker, addr 0x6e8124c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_optimizeForStaticMarker();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e445a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e8123c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -60,7 +60,7 @@ public:
                                                  uint32_t _optimizeForStaticMarker_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17574 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17607 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

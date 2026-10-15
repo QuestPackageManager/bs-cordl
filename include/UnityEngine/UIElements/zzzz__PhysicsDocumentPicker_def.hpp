@@ -33,21 +33,21 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PhysicsDocumentPicker : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCapturingDocument, addr 0x7242b0c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method GetCapturingDocument, addr 0x727fa40, size 0x1c8, virtual false, abstract: false, final false
   inline bool GetCapturingDocument(int32_t pointerId, ::by_ref<::UnityEngine::UIElements::UIDocument*> capturingDocument);
 
   static inline ::UnityEngine::UIElements::PhysicsDocumentPicker* New_ctor();
 
-  /// @brief Method Pick, addr 0x72421c0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Pick, addr 0x727f0f4, size 0x70, virtual false, abstract: false, final false
   inline void Pick(::UnityEngine::Ray worldRay, float_t maxDistance, int32_t layerMask, ::by_ref<::UnityEngine::Collider*> collider, ::by_ref<::UnityEngine::UIElements::UIDocument*> document,
                    ::by_ref<::UnityEngine::UIElements::VisualElement*> pickedElement, ::by_ref<float_t> distance);
 
-  /// @brief Method TryPickWithCapture, addr 0x724296c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method TryPickWithCapture, addr 0x727f8a0, size 0x1a0, virtual false, abstract: false, final false
   inline bool TryPickWithCapture(int32_t pointerId, ::UnityEngine::Ray worldRay, float_t maxDistance, int32_t layerMask, ::by_ref<::UnityEngine::Collider*> collider,
                                  ::by_ref<::UnityEngine::UIElements::UIDocument*> document, ::by_ref<::UnityEngine::UIElements::VisualElement*> elementUnderPointer, ::by_ref<float_t> distance,
                                  ::by_ref<bool> captured);
 
-  /// @brief Method .ctor, addr 0x7242f44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x727fe78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

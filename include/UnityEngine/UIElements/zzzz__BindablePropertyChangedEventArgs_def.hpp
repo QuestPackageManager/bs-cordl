@@ -26,10 +26,10 @@ public:
   // Declarations
   __declspec(property(get = get_propertyName)) ::UnityEngine::UIElements::BindingId propertyName;
 
-  /// @brief Method .ctor, addr 0x708e770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70cb6a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> propertyName);
 
-  /// @brief Method get_propertyName, addr 0x708e778, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_propertyName, addr 0x70cb6ac, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingId get_propertyName();
 
   // Ctor Parameters []

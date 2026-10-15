@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::ExpressionNode::*)(::System::Data::DataTable*)>(&::System::Data::ExpressionNode::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6452314;
+  constexpr static std::size_t addrs = 0x648eee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IFormatProvider* (::System::Data::ExpressionNode::*)()>(&::System::Data::ExpressionNode::get_FormatProvider)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6459c8c;
+  constexpr static std::size_t addrs = 0x649685c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExpressionNode*>(), { "get_FormatProvider", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::ExpressionNode::*)()>(&::System::Data::ExpressionNode::get_IsSqlColumn)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x645d324;
+  constexpr static std::size_t addrs = 0x6499ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataTable* (::System::Data::ExpressionNode::*)()>(&::System::Data::ExpressionNode::get_table)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x645d32c;
+  constexpr static std::size_t addrs = 0x6499efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::ExpressionNode*>(), { "get_table", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::ExpressionNode::*)(::System::Data::DataTable*)>(&::System::Data::ExpressionNode::BindTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x645d334;
+  constexpr static std::size_t addrs = 0x6499f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::ExpressionNode::*)(::System::Data::DataColumn*)>(&::System::Data::ExpressionNode::DependsOn)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x645d33c;
+  constexpr static std::size_t addrs = 0x6499f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsInteger)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x645a9c0;
+  constexpr static std::size_t addrs = 0x6497590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsIntegerSql)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x645a68c;
+  constexpr static std::size_t addrs = 0x649725c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsSigned)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x645a8b0;
+  constexpr static std::size_t addrs = 0x6497480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsSignedSql)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x645a974;
+  constexpr static std::size_t addrs = 0x6497544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsUnsigned)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x645a8e0;
+  constexpr static std::size_t addrs = 0x64974b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsUnsignedSql)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x645a990;
+  constexpr static std::size_t addrs = 0x6497560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsNumeric)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x645a9b0;
+  constexpr static std::size_t addrs = 0x6497580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsNumericSql)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x645aad8;
+  constexpr static std::size_t addrs = 0x64976a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsFloat)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x645d344;
+  constexpr static std::size_t addrs = 0x6499f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsFloatSql)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x645d354;
+  constexpr static std::size_t addrs = 0x6499f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::ListBindableAttribute::*)(bool)>(&::System::ComponentModel::ListBindableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67eae28;
+  constexpr static std::size_t addrs = 0x6827a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::ListBindableAttribute::*)()>(&::System::ComponentModel::ListBindableAttribute::get_ListBindable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67eae30;
+  constexpr static std::size_t addrs = 0x6827a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::ListBindableAttribute*>(), { "get_ListBindable", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::ListBindableAttribute::*)(::System::Object*)>(&::System::ComponentModel::ListBindableAttribute::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x67eae38;
+  constexpr static std::size_t addrs = 0x6827a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::ListBindableAttribute::*)()>(&::System::ComponentModel::ListBindableAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67eaed0;
+  constexpr static std::size_t addrs = 0x6827b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::ListBindableAttribute::*)()>(&::System::ComponentModel::ListBindableAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x67eaed8;
+  constexpr static std::size_t addrs = 0x6827b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

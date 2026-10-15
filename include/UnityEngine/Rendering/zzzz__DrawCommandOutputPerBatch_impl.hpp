@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DrawCommandOutputPerBatch::*)(int32_t, bool)>(
     &::UnityEngine::Rendering::DrawCommandOutputPerBatch::EncodeGPUInstanceIndexAndCrossFade)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6c49ef8;
+  constexpr static std::size_t addrs = 0x6c86b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DrawCommandOutputPerBatch>(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DrawCommandOutputPerBatch::*)(int32_t)>(
     &::UnityEngine::Rendering::DrawCommandOutputPerBatch::IsInstanceFlipped)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6c49fe4;
+  constexpr static std::size_t addrs = 0x6c86c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DrawCommandOutputPerBatch::*)(int32_t, int32_t, bool, ::by_ref<bool>)>(
     &::UnityEngine::Rendering::DrawCommandOutputPerBatch::IsMeshLodVisible)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c4a084;
+  constexpr static std::size_t addrs = 0x6c86d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DrawCommandOutputPerBatch::*)(int32_t)>(&::UnityEngine::Rendering::DrawCommandOutputPerBatch::Execute)> {
   constexpr static std::size_t size = 0x7b8;
-  constexpr static std::size_t addrs = 0x6c4a0e0;
+  constexpr static std::size_t addrs = 0x6c86d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

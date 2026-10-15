@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::*)(float_t, float_t)>(
     &::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::Activate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df7ed4;
+  constexpr static std::size_t addrs = 0x5e35504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::*)()>(&::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::Deactivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5df837c;
+  constexpr static std::size_t addrs = 0x5e359ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*>(), { "Deactivate", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::*)()>(&::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5df8504;
+  constexpr static std::size_t addrs = 0x5e35b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*>(), { "OnDestroy", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::*)()>(&::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::SpawnAllPlaces)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x5df7edc;
+  constexpr static std::size_t addrs = 0x5e3550c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*>(), { "SpawnAllPlaces", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::*)()>(&::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::DespawnAllPlaces)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5df8380;
+  constexpr static std::size_t addrs = 0x5e359b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*>(), { "DespawnAllPlaces", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::*)()>(&::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5df8508;
+  constexpr static std::size_t addrs = 0x5e35b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager*>(), { ".ctor", {}, {} })));

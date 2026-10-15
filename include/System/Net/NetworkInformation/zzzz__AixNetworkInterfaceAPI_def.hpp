@@ -39,33 +39,33 @@ namespace System::Net::NetworkInformation {
 class CORDL_TYPE AixNetworkInterfaceAPI : public ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI {
 public:
   // Declarations
-  /// @brief Method ByteArrayCopy, addr 0x677b218, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ByteArrayCopy, addr 0x67b7e5c, size 0x1c, virtual false, abstract: false, final false
   static inline void ByteArrayCopy(uint8_t* dst, uint8_t* src, int32_t elements);
 
-  /// @brief Method GetAllNetworkInterfaces, addr 0x677b234, size 0xf2c, virtual true, abstract: false, final false
+  /// @brief Method GetAllNetworkInterfaces, addr 0x67b7e78, size 0xf2c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
 
   static inline ::System::Net::NetworkInformation::AixNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x677c380, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67b8fc4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method close, addr 0x677af20, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method close, addr 0x67b7b64, size 0x78, virtual false, abstract: false, final false
   static inline int32_t close(int32_t fd);
 
-  /// @brief Method ioctl, addr 0x677b038, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ioctl, addr 0x67b7c7c, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t ioctl(int32_t fd, ::System::Net::NetworkInformation::AixIoctlRequest request, ::by_ref<::System::Net::NetworkInformation::AixStructs::ifconf> arg);
 
-  /// @brief Method ioctl, addr 0x677b0d8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ioctl, addr 0x67b7d1c, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t ioctl(int32_t fd, ::System::Net::NetworkInformation::AixIoctlRequest request, ::by_ref<::System::Net::NetworkInformation::AixStructs::ifreq_flags> arg);
 
-  /// @brief Method ioctl, addr 0x677b178, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ioctl, addr 0x67b7dbc, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t ioctl(int32_t fd, ::System::Net::NetworkInformation::AixIoctlRequest request, ::by_ref<::System::Net::NetworkInformation::AixStructs::ifreq_mtu> arg);
 
-  /// @brief Method ioctl, addr 0x677af98, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ioctl, addr 0x67b7bdc, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t ioctl(int32_t fd, ::System::Net::NetworkInformation::AixIoctlRequest request, ::by_ref<int32_t> arg);
 
-  /// @brief Method socket, addr 0x677ae80, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method socket, addr 0x67b7ac4, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t socket(::System::Net::NetworkInformation::AixAddressFamily family, int32_t type, int32_t protocol);
 
 protected:
@@ -83,7 +83,7 @@ public:
   AixNetworkInterfaceAPI(AixNetworkInterfaceAPI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12618 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12625 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

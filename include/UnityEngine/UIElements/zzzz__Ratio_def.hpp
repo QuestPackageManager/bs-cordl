@@ -62,40 +62,40 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Ratio>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Ratio>*();
 
-  /// @brief Method Equals, addr 0x7106cb4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7143be8, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x7106c7c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7143bb0, size 0x38, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Ratio other);
 
-  /// @brief Method GetHashCode, addr 0x7106d5c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x7143c90, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsAuto, addr 0x7106bf4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsAuto, addr 0x7143b28, size 0x18, virtual false, abstract: false, final false
   inline bool IsAuto();
 
-  /// @brief Method ToString, addr 0x7106d7c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x7143cb0, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x7106be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7143b18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t value);
 
-  /// @brief Method get_value, addr 0x7106bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x7143b20, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Ratio>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Ratio>* i___System__IEquatable_1___UnityEngine__UIElements__Ratio_();
 
-  /// @brief Method op_Equality, addr 0x7106c10, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x7143b44, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Ratio lhs, ::UnityEngine::UIElements::Ratio rhs);
 
-  /// @brief Method op_Implicit, addr 0x7105360, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7142294, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Ratio op_Implicit___UnityEngine__UIElements__Ratio(float_t value);
 
-  /// @brief Method op_Implicit, addr 0x7106c0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7143b40, size 0x4, virtual false, abstract: false, final false
   static inline float_t op_Implicit_float_t(::UnityEngine::UIElements::Ratio value);
 
-  /// @brief Method op_Inequality, addr 0x7106c44, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x7143b78, size 0x38, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Ratio lhs, ::UnityEngine::UIElements::Ratio rhs);
 
   // Ctor Parameters []
@@ -139,12 +139,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x7107018, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7143f4c, size 0x8, virtual true, abstract: false, final false
   inline float_t GetValue(::by_ref<::UnityEngine::UIElements::Ratio> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Ratio_ValueProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x7107020, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7143f54, size 0x38, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Ratio> container, float_t value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -159,15 +159,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x7106f3c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7143e70, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x7107010, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7143f44, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x7107008, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7143f3c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -224,12 +224,12 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method GetValue, addr 0x7107068, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x7143f9c, size 0x18, virtual true, abstract: false, final false
   inline bool GetValue(::by_ref<::UnityEngine::UIElements::Ratio> container);
 
   static inline ::UnityEngine::UIElements::PropertyBag_Ratio_AutoProperty* New_ctor();
 
-  /// @brief Method SetValue, addr 0x7107080, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x7143fb4, size 0x38, virtual true, abstract: false, final false
   inline void SetValue(::by_ref<::UnityEngine::UIElements::Ratio> container, bool value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
@@ -244,15 +244,15 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x7106fa0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7143ed4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsReadOnly, addr 0x7107060, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x7143f94, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Name, addr 0x7107058, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x7143f8c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -305,7 +305,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Ratio_PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x7106e24, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7143d58, size 0x118, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

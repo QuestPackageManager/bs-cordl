@@ -53,48 +53,48 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IXRSystemState"
   constexpr operator ::GlobalNamespace::IXRSystemState*() noexcept;
 
-  /// @brief Method AddListener, addr 0x5e15e0c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method AddListener, addr 0x5e536b4, size 0x9c, virtual true, abstract: false, final true
   inline void AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks);
 
-  /// @brief Method Awake, addr 0x5e15f84, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e5382c, size 0x80, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleRemovedXRNode, addr 0x5e1618c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleRemovedXRNode, addr 0x5e53a34, size 0x30, virtual false, abstract: false, final false
   inline void HandleRemovedXRNode(::UnityEngine::XR::XRNodeState state);
 
-  /// @brief Method InvokeStateChangeEventIfFocusEventsAreEnabled, addr 0x5e15f24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeStateChangeEventIfFocusEventsAreEnabled, addr 0x5e537cc, size 0x1c, virtual false, abstract: false, final false
   static inline void InvokeStateChangeEventIfFocusEventsAreEnabled(::System::Action_1<::GlobalNamespace::XRSystemEventType>* action, ::GlobalNamespace::XRSystemEventType eventType);
 
-  /// @brief Method IsAppFocusCurrentlyLost, addr 0x5e15f64, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method IsAppFocusCurrentlyLost, addr 0x5e5380c, size 0x20, virtual true, abstract: false, final true
   inline bool IsAppFocusCurrentlyLost();
 
-  /// @brief Method IsCurrentStateMatchingEvent, addr 0x5e15ea8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsCurrentStateMatchingEvent, addr 0x5e53750, size 0x7c, virtual false, abstract: false, final false
   inline bool IsCurrentStateMatchingEvent(::GlobalNamespace::XRSystemEventType eventType);
 
   static inline ::GlobalNamespace::UnityXRSystemState* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x5e160ec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x5e53994, size 0x30, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method RefreshControllersReference, addr 0x5e15f44, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method RefreshControllersReference, addr 0x5e537ec, size 0x20, virtual true, abstract: false, final true
   inline void RefreshControllersReference();
 
-  /// @brief Method RemoveListener, addr 0x5e15f40, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method RemoveListener, addr 0x5e537e8, size 0x4, virtual true, abstract: false, final true
   inline void RemoveListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener);
 
-  /// @brief Method SetInputFocus, addr 0x5e1611c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetInputFocus, addr 0x5e539c4, size 0x34, virtual false, abstract: false, final false
   inline void SetInputFocus(bool newInputFocus);
 
-  /// @brief Method SetUserPresence, addr 0x5e16150, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetUserPresence, addr 0x5e539f8, size 0x3c, virtual false, abstract: false, final false
   inline void SetUserPresence(bool newUserPresence);
 
-  /// @brief Method Start, addr 0x5e16004, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e538ac, size 0xc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5e160e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e53990, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateUserPresence, addr 0x5e16010, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UpdateUserPresence, addr 0x5e538b8, size 0xd8, virtual false, abstract: false, final false
   inline void UpdateUserPresence();
 
   constexpr bool const& __cordl_internal_get__hasInputFocus() const;
@@ -121,32 +121,32 @@ public:
 
   constexpr void __cordl_internal_set__userPresence(bool value);
 
-  /// @brief Method .ctor, addr 0x5e161bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e53a64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add__onChangeStateEvent, addr 0x5e15c6c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add__onChangeStateEvent, addr 0x5e53514, size 0xc0, virtual false, abstract: false, final false
   inline void add__onChangeStateEvent(::System::Action_1<::GlobalNamespace::XRSystemEventType>* value);
 
-  /// @brief Method get_hasHmdMounted, addr 0x5e15e04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasHmdMounted, addr 0x5e536ac, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasHmdMounted();
 
-  /// @brief Method get_hasInputFocus, addr 0x5e15dec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasInputFocus, addr 0x5e53694, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasInputFocus();
 
   /// [CompilerGenerated]
-  /// @brief Method get_hasVrFocus, addr 0x5e15df4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasVrFocus, addr 0x5e5369c, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasVrFocus();
 
   /// @brief Convert to "::GlobalNamespace::IXRSystemState"
   constexpr ::GlobalNamespace::IXRSystemState* i___GlobalNamespace__IXRSystemState() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove__onChangeStateEvent, addr 0x5e15d2c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove__onChangeStateEvent, addr 0x5e535d4, size 0xc0, virtual false, abstract: false, final false
   inline void remove__onChangeStateEvent(::System::Action_1<::GlobalNamespace::XRSystemEventType>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_hasVrFocus, addr 0x5e15dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hasVrFocus, addr 0x5e536a4, size 0x8, virtual false, abstract: false, final false
   inline void set_hasVrFocus(bool value);
 
 protected:
@@ -164,7 +164,7 @@ public:
   UnityXRSystemState(UnityXRSystemState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6418 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6422 };
 
   /// [CompilerGenerated]
   /// @brief Field _onChangeStateEvent, offset: 0x20, size: 0x8, def value: None

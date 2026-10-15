@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::UnityEngine::UIElements::StyleSheets::CSSSpec::GetSelectorSpecificity)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x71c22d0;
+  constexpr static std::size_t addrs = 0x71ff204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<::UnityEngine::UIElements::StyleSelectorPart>)>(&::UnityEngine::UIElements::StyleSheets::CSSSpec::GetSelectorSpecificity)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x71c2820;
+  constexpr static std::size_t addrs = 0x71ff754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::ArrayW<::UnityEngine::UIElements::StyleSelectorPart>>)>(
     &::UnityEngine::UIElements::StyleSheets::CSSSpec::ParseSelector)> {
   constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x71c236c;
+  constexpr static std::size_t addrs = 0x71ff2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

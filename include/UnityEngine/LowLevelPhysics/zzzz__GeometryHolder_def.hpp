@@ -43,7 +43,7 @@ public:
   constexpr GeometryHolder__m_Data_e__FixedBuffer(int32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19109 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19142 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -79,7 +79,7 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::LowLevelPhysics::IGeometry*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline T As();
 
-  /// @brief Method get_Type, addr 0x7009abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x70469b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics::GeometryType get_Type();
 
   // Ctor Parameters []
@@ -90,7 +90,7 @@ public:
   constexpr GeometryHolder(::UnityEngine::LowLevelPhysics::GeometryHolder__m_Data_e__FixedBuffer m_Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19110 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19143 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

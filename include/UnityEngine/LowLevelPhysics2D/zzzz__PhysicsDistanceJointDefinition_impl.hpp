@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsDistanceJointDefinition::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsDistanceJointDefinition::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6fd392c;
+  constexpr static std::size_t addrs = 0x7010820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsDistanceJointDefinition>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsDistanceJointDefinition::*)(bool)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsDistanceJointDefinition::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6fd1964;
+  constexpr static std::size_t addrs = 0x700e858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsDistanceJointDefinition (*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsDistanceJointDefinition::get_defaultDefinition)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6fd395c;
+  constexpr static std::size_t addrs = 0x7010850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

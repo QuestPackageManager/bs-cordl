@@ -38,17 +38,17 @@ namespace UnityEngine::Audio {
 class CORDL_TYPE ScriptableGeneratorBindings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InitializeGeneratorHandle, addr 0x6eac8c0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method InitializeGeneratorHandle, addr 0x6ee955c, size 0x5c, virtual false, abstract: false, final false
   static inline void InitializeGeneratorHandle(::UnityEngine::Audio::GeneratorInstance_GeneratorHeader* header, ::UnityEngine::Audio::ControlHeader* control,
                                                ::UnityEngine::AudioConfiguration* nestedConfiguration, ::UnityEngine::Audio::ProcessorInstance_InitializationFlags flags);
 
   /// [RequiredByNativeCode(GenerateProxy = true)]
-  /// @brief Method InstantiateGeneratorFromObject, addr 0x6eac120, size 0x7a0, virtual false, abstract: false, final false
+  /// @brief Method InstantiateGeneratorFromObject, addr 0x6ee8dbc, size 0x7a0, virtual false, abstract: false, final false
   static inline void InstantiateGeneratorFromObject(::UnityEngine::Object* generatorObjectDefinition, ::by_ref<::UnityEngine::Audio::ControlHeader> control,
                                                     ::by_ref<::UnityEngine::Audio::GeneratorInstance> runtimeHandle);
 
   /// [NativeMethod(Name = "audio::InitializeGeneratorHandle", IsFreeFunction = true, ThrowsException = true)]
-  /// @brief Method InternalInitializeGeneratorHandle, addr 0x6eac91c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method InternalInitializeGeneratorHandle, addr 0x6ee95b8, size 0x5c, virtual false, abstract: false, final false
   static inline void InternalInitializeGeneratorHandle(void* header, void* control, ::UnityEngine::AudioConfiguration* nestedConfiguration,
                                                        ::UnityEngine::Audio::ProcessorInstance_InitializationFlags flags);
 
@@ -67,7 +67,7 @@ public:
   ScriptableGeneratorBindings(ScriptableGeneratorBindings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20390 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20437 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

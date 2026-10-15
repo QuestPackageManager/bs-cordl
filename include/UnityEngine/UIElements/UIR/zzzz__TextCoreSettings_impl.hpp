@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::TextCoreSettings::*)(::System::Object*)>(&::UnityEngine::UIElements::UIR::TextCoreSettings::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x71857ec;
+  constexpr static std::size_t addrs = 0x71c2720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::TextCoreSettings::*)(::UnityEngine::UIElements::UIR::TextCoreSettings)>(
     &::UnityEngine::UIElements::UIR::TextCoreSettings::Equals)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x7185880;
+  constexpr static std::size_t addrs = 0x71c27b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::TextCoreSettings>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UIR::TextCoreSettings::*)()>(&::UnityEngine::UIElements::UIR::TextCoreSettings::GetHashCode)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x7185974;
+  constexpr static std::size_t addrs = 0x71c28a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

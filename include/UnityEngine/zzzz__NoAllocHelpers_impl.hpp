@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Array*)>(&::UnityEngine::NoAllocHelpers::SafeLength)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6f40554;
+  constexpr static std::size_t addrs = 0x6f7d3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Array* (*)(::System::Object*, ::System::Type*, int32_t)>(&::UnityEngine::NoAllocHelpers::PrepareListForNativeFill)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6f40564;
+  constexpr static std::size_t addrs = 0x6f7d3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

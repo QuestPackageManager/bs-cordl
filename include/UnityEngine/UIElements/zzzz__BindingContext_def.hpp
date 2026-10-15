@@ -42,20 +42,20 @@ public:
 
   __declspec(property(get = get_targetElement)) ::UnityEngine::UIElements::VisualElement* targetElement;
 
-  /// @brief Method .ctor, addr 0x7086398, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70c32cc, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* targetElement, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId,
                     /* [IsReadOnly] */ ::by_ref<::Unity::Properties::PropertyPath const> resolvedDataSourcePath, ::System::Object* resolvedDataSource);
 
-  /// @brief Method get_bindingId, addr 0x7086370, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_bindingId, addr 0x70c32a4, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingId get_bindingId();
 
-  /// @brief Method get_dataSource, addr 0x7086390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataSource, addr 0x70c32c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_dataSource();
 
-  /// @brief Method get_dataSourcePath, addr 0x7086380, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_dataSourcePath, addr 0x70c32b4, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Properties::PropertyPath get_dataSourcePath();
 
-  /// @brief Method get_targetElement, addr 0x7086368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetElement, addr 0x70c329c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_targetElement();
 
   // Ctor Parameters []

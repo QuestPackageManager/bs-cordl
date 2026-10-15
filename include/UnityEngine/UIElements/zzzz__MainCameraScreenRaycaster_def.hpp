@@ -26,10 +26,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MainCameraScreenRaycaster* New_ctor();
 
-  /// @brief Method ResolveCamera, addr 0x7248aa0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ResolveCamera, addr 0x72859d4, size 0x110, virtual false, abstract: false, final false
   inline void ResolveCamera();
 
-  /// @brief Method Update, addr 0x7248bb0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x7285ae4, size 0x4, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Camera>> const& __cordl_internal_get_singleCameraArray() const;
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set_singleCameraArray(::ArrayW<::UnityW<::UnityEngine::Camera>> value);
 
-  /// @brief Method .ctor, addr 0x7245a68, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x728299c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

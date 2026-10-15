@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIScrollGroup::*)()>(&::UnityEngine::GUIScrollGroup::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6faf090;
+  constexpr static std::size_t addrs = 0x6febf84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUIScrollGroup*>(), { ".ctor", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIScrollGroup::*)()>(&::UnityEngine::GUIScrollGroup::CalcWidth)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6faf0f0;
+  constexpr static std::size_t addrs = 0x6febfe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::GUIScrollGroup*>(), { ::i2c::class_of<::UnityEngine::GUIScrollGroup*>(), 8 }));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIScrollGroup::*)(float_t, float_t)>(&::UnityEngine::GUIScrollGroup::SetHorizontal)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6faf164;
+  constexpr static std::size_t addrs = 0x6fec058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIScrollGroup::*)()>(&::UnityEngine::GUIScrollGroup::CalcHeight)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6faf28c;
+  constexpr static std::size_t addrs = 0x6fec180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::GUIScrollGroup*>(), { ::i2c::class_of<::UnityEngine::GUIScrollGroup*>(), 9 }));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIScrollGroup::*)(float_t, float_t)>(&::UnityEngine::GUIScrollGroup::SetVertical)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x6faf354;
+  constexpr static std::size_t addrs = 0x6fec248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

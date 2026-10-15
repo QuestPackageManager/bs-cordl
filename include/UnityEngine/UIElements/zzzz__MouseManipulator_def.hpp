@@ -40,15 +40,15 @@ public:
 
   constexpr void __cordl_internal_set__activators_k__BackingField(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* value);
 
-  /// @brief Method .ctor, addr 0x7269c60, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72a6b94, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_activators, addr 0x7269c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activators, addr 0x72a6b84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* get_activators();
 
   /// [CompilerGenerated]
-  /// @brief Method set_activators, addr 0x7269c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activators, addr 0x72a6b8c, size 0x8, virtual false, abstract: false, final false
   inline void set_activators(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ManipulatorActivationFilter>* value);
 
 protected:

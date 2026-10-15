@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_sprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x5e78aec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5eb5274, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -110,7 +110,7 @@ public:
   ImageStyle(ImageStyle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18985 };
 
   /// @brief Field enabled, offset: 0x19, size: 0x1, def value: None
   bool ___enabled;

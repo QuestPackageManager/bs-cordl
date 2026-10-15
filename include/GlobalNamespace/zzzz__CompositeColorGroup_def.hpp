@@ -70,7 +70,7 @@ public:
   static ::GlobalNamespace::CompositeColorGroup_AssignMethod const Static;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5937 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -108,10 +108,10 @@ public:
 
   constexpr void __cordl_internal_set__colorTargets(::ArrayW<::UnityW<::GlobalNamespace::LightWithIdMonoBehaviour>> value);
 
-  /// @brief Method .ctor, addr 0x5da8170, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de5464, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorTargets, addr 0x5da8168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorTargets, addr 0x5de545c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::LightWithIdMonoBehaviour>> get_colorTargets();
 
 protected:
@@ -129,7 +129,7 @@ public:
   CompositeColorGroup(CompositeColorGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5938 };
 
   /// [SerializeField]
   /// [HideInInspector]

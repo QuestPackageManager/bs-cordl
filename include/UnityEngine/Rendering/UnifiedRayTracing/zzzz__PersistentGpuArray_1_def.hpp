@@ -158,7 +158,7 @@ public:
   PersistentGpuArray_1(PersistentGpuArray_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20479 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20526 };
 
   /// @brief Field m_SlotAllocator, offset: 0x10, size: 0x20, def value: None
   ::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator ___m_SlotAllocator;

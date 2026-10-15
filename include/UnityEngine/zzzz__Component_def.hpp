@@ -55,33 +55,33 @@ public:
   __declspec(property(get = get_transform)) ::UnityW<::UnityEngine::Transform> transform;
 
   /// [FreeFunction("BroadcastMessage", HasExplicitThis = true)]
-  /// @brief Method BroadcastMessage, addr 0x6f38610, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method BroadcastMessage, addr 0x6f75470, size 0x184, virtual false, abstract: false, final false
   inline void BroadcastMessage(::StringW methodName, /* [DefaultValue("null")] */ ::System::Object* parameter,
                                /* [DefaultValue("SendMessageOptions.RequireReceiver")] */ ::UnityEngine::SendMessageOptions options);
 
-  /// @brief Method BroadcastMessage_Injected, addr 0x6f38794, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method BroadcastMessage_Injected, addr 0x6f755f4, size 0x5c, virtual false, abstract: false, final false
   static inline void BroadcastMessage_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> methodName, /* [DefaultValue("null")] */ ::System::Object* parameter,
                                                /* [DefaultValue("SendMessageOptions.RequireReceiver")] */ ::UnityEngine::SendMessageOptions options);
 
-  /// @brief Method CompareTag, addr 0x6f3840c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CompareTag, addr 0x6f7526c, size 0x20, virtual false, abstract: false, final false
   inline bool CompareTag(::StringW tag);
 
   /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)0)]
-  /// @brief Method GetComponent, addr 0x6f37918, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetComponent, addr 0x6f74778, size 0x20, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> GetComponent(::System::Type* type);
 
   /// @brief Method GetComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponent();
 
   /// [FreeFunction(HasExplicitThis = true, ThrowsException = true)]
-  /// @brief Method GetComponentFastPath, addr 0x6f37a90, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetComponentFastPath, addr 0x6f748f0, size 0x98, virtual false, abstract: false, final false
   inline void GetComponentFastPath(::System::Type* type, ::System::IntPtr oneFurtherThanResultValue);
 
-  /// @brief Method GetComponentFastPath_Injected, addr 0x6f37b28, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetComponentFastPath_Injected, addr 0x6f74988, size 0x54, virtual false, abstract: false, final false
   static inline void GetComponentFastPath_Injected(::System::IntPtr _unity_self, ::System::Type* type, ::System::IntPtr oneFurtherThanResultValue);
 
   /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)0)]
-  /// @brief Method GetComponentInChildren, addr 0x6f37c30, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetComponentInChildren, addr 0x6f74a90, size 0x30, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> GetComponentInChildren(::System::Type* t, bool includeInactive);
 
   /// [ExcludeFromDocs]
@@ -92,7 +92,7 @@ public:
   template <typename T> inline T GetComponentInChildren(/* [DefaultValue("false")] */ bool includeInactive);
 
   /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)0)]
-  /// @brief Method GetComponentInParent, addr 0x6f37e88, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetComponentInParent, addr 0x6f74ce8, size 0x30, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Component> GetComponentInParent(::System::Type* t, bool includeInactive);
 
   /// @brief Method GetComponentInParent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -101,7 +101,7 @@ public:
   /// @brief Method GetComponentInParent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponentInParent(/* [DefaultValue("false")] */ bool includeInactive);
 
-  /// @brief Method GetComponents, addr 0x6f380e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetComponents, addr 0x6f74f40, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Component>> GetComponents(::System::Type* type);
 
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -110,17 +110,17 @@ public:
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void GetComponents(::System::Collections::Generic::List_1<T>* results);
 
-  /// @brief Method GetComponents, addr 0x6f38280, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetComponents, addr 0x6f750e0, size 0x4, virtual false, abstract: false, final false
   inline void GetComponents(::System::Type* type, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* results);
 
   /// [FreeFunction(HasExplicitThis = true, ThrowsException = true)]
-  /// @brief Method GetComponentsForListInternal, addr 0x6f38194, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetComponentsForListInternal, addr 0x6f74ff4, size 0x98, virtual false, abstract: false, final false
   inline void GetComponentsForListInternal(::System::Type* searchType, ::System::Object* resultList);
 
-  /// @brief Method GetComponentsForListInternal_Injected, addr 0x6f3822c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetComponentsForListInternal_Injected, addr 0x6f7508c, size 0x54, virtual false, abstract: false, final false
   static inline void GetComponentsForListInternal_Injected(::System::IntPtr _unity_self, ::System::Type* searchType, ::System::Object* resultList);
 
-  /// @brief Method GetComponentsInChildren, addr 0x6f37dc0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetComponentsInChildren, addr 0x6f74c20, size 0x30, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Component>> GetComponentsInChildren(::System::Type* t, bool includeInactive);
 
   /// @brief Method GetComponentsInChildren, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -135,7 +135,7 @@ public:
   /// @brief Method GetComponentsInChildren, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void GetComponentsInChildren(::System::Collections::Generic::List_1<T>* results);
 
-  /// @brief Method GetComponentsInParent, addr 0x6f38018, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetComponentsInParent, addr 0x6f74e78, size 0x30, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Component>> GetComponentsInParent(::System::Type* t, /* [DefaultValue("false")] */ bool includeInactive);
 
   /// @brief Method GetComponentsInParent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -150,10 +150,10 @@ public:
   static inline ::UnityEngine::Component* New_ctor();
 
   /// [FreeFunction("SendMessage", HasExplicitThis = true)]
-  /// @brief Method SendMessage, addr 0x6f38430, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method SendMessage, addr 0x6f75290, size 0x184, virtual false, abstract: false, final false
   inline void SendMessage(::StringW methodName, ::System::Object* value, ::UnityEngine::SendMessageOptions options);
 
-  /// @brief Method SendMessage_Injected, addr 0x6f385b4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendMessage_Injected, addr 0x6f75414, size 0x5c, virtual false, abstract: false, final false
   static inline void SendMessage_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> methodName, ::System::Object* value,
                                           ::UnityEngine::SendMessageOptions options);
 
@@ -161,27 +161,27 @@ public:
   template <typename T> inline bool TryGetComponent(::by_ref<T> component);
 
   /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)0)]
-  /// @brief Method TryGetComponent, addr 0x6f37b7c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method TryGetComponent, addr 0x6f749dc, size 0x30, virtual false, abstract: false, final false
   inline bool TryGetComponent(::System::Type* type, ::by_ref<::UnityEngine::Component*> component);
 
-  /// @brief Method .ctor, addr 0x6f36fc8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f73e28, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [FreeFunction("GetGameObject", HasExplicitThis = true)]
-  /// @brief Method get_gameObject, addr 0x6f3778c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_gameObject, addr 0x6f745ec, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
-  /// @brief Method get_gameObject_Injected, addr 0x6f378dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_gameObject_Injected, addr 0x6f7473c, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_gameObject_Injected(::System::IntPtr _unity_self);
 
   /// [FreeFunction("GetTransform", HasExplicitThis = true, ThrowsException = true)]
-  /// @brief Method get_transform, addr 0x6f37600, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0x6f74460, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_transform();
 
-  /// @brief Method get_transform_Injected, addr 0x6f37750, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_transform_Injected, addr 0x6f745b0, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_transform_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_tag, addr 0x6f38284, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_tag, addr 0x6f750e4, size 0x20, virtual false, abstract: false, final false
   inline void set_tag(::StringW value);
 
 protected:
@@ -199,7 +199,7 @@ public:
   Component(Component const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9926 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

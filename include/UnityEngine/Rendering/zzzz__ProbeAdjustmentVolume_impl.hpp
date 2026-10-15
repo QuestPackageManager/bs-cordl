@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeAdjustmentVolume::*)()>(
     &::UnityEngine::Rendering::ProbeAdjustmentVolume::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ba2fa0;
+  constexpr static std::size_t addrs = 0x6bdfc1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeAdjustmentVolume::*)()>(
     &::UnityEngine::Rendering::ProbeAdjustmentVolume::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ba2fb8;
+  constexpr static std::size_t addrs = 0x6bdfc34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeAdjustmentVolume::*)()>(&::UnityEngine::Rendering::ProbeAdjustmentVolume::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6b9e6e8;
+  constexpr static std::size_t addrs = 0x6bdb364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeAdjustmentVolume*>(), { ".ctor", {}, {} })));

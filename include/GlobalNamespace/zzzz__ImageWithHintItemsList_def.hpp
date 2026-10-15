@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ImageWithHintItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5e1d4a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e5ad10, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +42,7 @@ public:
   ImageWithHintItemsList(ImageWithHintItemsList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

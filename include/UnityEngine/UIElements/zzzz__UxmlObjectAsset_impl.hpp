@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UxmlObjectAsset::*)()>(&::UnityEngine::UIElements::UxmlObjectAsset::HasParent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7147ecc;
+  constexpr static std::size_t addrs = 0x7184e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::UxmlObjectAsset::*)()>(&::UnityEngine::UIElements::UxmlObjectAsset::get_parentId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7147edc;
+  constexpr static std::size_t addrs = 0x7184e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlObjectAsset*>(), { "get_parentId", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlObjectAsset::*)(int32_t)>(&::UnityEngine::UIElements::UxmlObjectAsset::set_parentId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7147ee4;
+  constexpr static std::size_t addrs = 0x7184e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UxmlObjectAsset::*)()>(&::UnityEngine::UIElements::UxmlObjectAsset::get_isField)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7147eec;
+  constexpr static std::size_t addrs = 0x7184e20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlObjectAsset*>(), { "get_isField", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlObjectAsset::*)(::StringW, bool, ::UnityEngine::UIElements::UxmlNamespaceDefinition)>(
     &::UnityEngine::UIElements::UxmlObjectAsset::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7147ef4;
+  constexpr static std::size_t addrs = 0x7184e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UxmlObjectAsset::*)(::UnityEngine::UIElements::UxmlAsset*, ::by_ref<::StringW>)>(
     &::UnityEngine::UIElements::UxmlObjectAsset::Accepts)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x7147f04;
+  constexpr static std::size_t addrs = 0x7184e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::UxmlObjectAsset::*)()>(&::UnityEngine::UIElements::UxmlObjectAsset::ToString)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x7148074;
+  constexpr static std::size_t addrs = 0x7184fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

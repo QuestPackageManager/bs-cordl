@@ -70,7 +70,7 @@ public:
   constexpr ValueListBuilder_1(::System::Span_1<T> _span, ::ArrayW<T> _arrayFromPool, int32_t _pos) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12332 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

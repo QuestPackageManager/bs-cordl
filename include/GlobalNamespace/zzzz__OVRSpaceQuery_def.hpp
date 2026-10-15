@@ -141,7 +141,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7824 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7831 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -176,80 +176,80 @@ public:
 
   __declspec(property(get = get_UuidFilter, put = set_UuidFilter)) ::System::Collections::Generic::IEnumerable_1<::System::Guid>* UuidFilter;
 
-  /// @brief Method ToQueryInfo, addr 0x62ed2cc, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ToQueryInfo, addr 0x6329d14, size 0x1cc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo ToQueryInfo();
 
-  /// @brief Method ToQueryInfo2, addr 0x62ed498, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method ToQueryInfo2, addr 0x6329ee0, size 0x228, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 ToQueryInfo2();
 
-  /// @brief Method TryQuerySpaces, addr 0x62ed6c0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method TryQuerySpaces, addr 0x632a108, size 0x88, virtual false, abstract: false, final false
   inline bool TryQuerySpaces(::by_ref<uint64_t> requestId);
 
-  /// @brief Method ValidateSingleFilter, addr 0x62ecfd4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ValidateSingleFilter, addr 0x6329a1c, size 0xc4, virtual false, abstract: false, final false
   static inline void ValidateSingleFilter(::System::Collections::Generic::IEnumerable_1<::System::Guid>* uuidFilter, ::GlobalNamespace::OVRPlugin_SpaceComponentType componentFilter,
                                           ::System::Nullable_1<::System::Guid> groupFilter);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_ActionType, addr 0x62ecf78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ActionType, addr 0x63299c0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_SpaceQueryActionType get_ActionType();
 
-  /// @brief Method get_ComponentFilter, addr 0x62ecf88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ComponentFilter, addr 0x63299d0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_SpaceComponentType get_ComponentFilter();
 
-  /// @brief Method get_GroupFilter, addr 0x62ed264, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_GroupFilter, addr 0x6329cac, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::Guid> get_GroupFilter();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_Location, addr 0x62ecf58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x63299a0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSpace_StorageLocation get_Location();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_MaxResults, addr 0x62ecf38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxResults, addr 0x6329980, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxResults();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_QueryType, addr 0x62ecf68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QueryType, addr 0x63299b0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_SpaceQueryType get_QueryType();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_Timeout, addr 0x62ecf48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Timeout, addr 0x6329990, size 0x8, virtual false, abstract: false, final false
   inline double_t get_Timeout();
 
-  /// @brief Method get_UuidFilter, addr 0x62ed098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UuidFilter, addr 0x6329ae0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Guid>* get_UuidFilter();
 
   /// [CompilerGenerated]
-  /// @brief Method set_ActionType, addr 0x62ecf80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ActionType, addr 0x63299c8, size 0x8, virtual false, abstract: false, final false
   inline void set_ActionType(::GlobalNamespace::OVRPlugin_SpaceQueryActionType value);
 
-  /// @brief Method set_ComponentFilter, addr 0x62ecf90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_ComponentFilter, addr 0x63299d8, size 0x44, virtual false, abstract: false, final false
   inline void set_ComponentFilter(::GlobalNamespace::OVRPlugin_SpaceComponentType value);
 
-  /// @brief Method set_GroupFilter, addr 0x62ed278, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_GroupFilter, addr 0x6329cc0, size 0x54, virtual false, abstract: false, final false
   inline void set_GroupFilter(::System::Nullable_1<::System::Guid> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Location, addr 0x62ecf60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Location, addr 0x63299a8, size 0x8, virtual false, abstract: false, final false
   inline void set_Location(::GlobalNamespace::OVRSpace_StorageLocation value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_MaxResults, addr 0x62ecf40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxResults, addr 0x6329988, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxResults(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_QueryType, addr 0x62ecf70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QueryType, addr 0x63299b8, size 0x8, virtual false, abstract: false, final false
   inline void set_QueryType(::GlobalNamespace::OVRPlugin_SpaceQueryType value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Timeout, addr 0x62ecf50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Timeout, addr 0x6329998, size 0x8, virtual false, abstract: false, final false
   inline void set_Timeout(double_t value);
 
-  /// @brief Method set_UuidFilter, addr 0x62ed0a0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method set_UuidFilter, addr 0x6329ae8, size 0x1c4, virtual false, abstract: false, final false
   inline void set_UuidFilter(::System::Collections::Generic::IEnumerable_1<::System::Guid>* value);
 
   // Ctor Parameters []
@@ -271,7 +271,7 @@ public:
   static constexpr int32_t MaxUuidCount{ static_cast<int32_t>(0x400) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7832 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -348,50 +348,50 @@ public:
   /// @brief Field s_TemplateQuery, offset 0xffffffff, size 0x50
   __declspec(property(get = getStaticF_s_TemplateQuery, put = setStaticF_s_TemplateQuery)) ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 s_TemplateQuery;
 
-  /// @brief Method AppendAnchors, addr 0x62ebe4c, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method AppendAnchors, addr 0x6328894, size 0x2a0, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> AppendAnchors(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query,
                                                                                                      ::System::Collections::Generic::IEnumerable_1<::System::Guid>* anchorIds);
 
-  /// @brief Method ForAnchors, addr 0x62ebdbc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ForAnchors, addr 0x6328804, size 0x90, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> ForAnchors(/* [CanBeNull] */ ::System::Collections::Generic::IEnumerable_1<::System::Guid>* anchorIds,
                                                                                                   ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query);
 
-  /// @brief Method ForAnchorsThrow, addr 0x62ec3cc, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ForAnchorsThrow, addr 0x6328e14, size 0x1b0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 ForAnchorsThrow(/* [NotNull] */ ::System::Collections::Generic::IEnumerable_1<::System::Guid>* anchorIds, ::StringW argName);
 
-  /// @brief Method ForAnchorsUnchecked, addr 0x62ec0ec, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ForAnchorsUnchecked, addr 0x6328b34, size 0x230, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 ForAnchorsUnchecked(::GlobalNamespace::OVREnumerable_1<::System::Guid> anchorIds);
 
-  /// @brief Method ForComponent, addr 0x62ec57c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ForComponent, addr 0x6328fc4, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> ForComponent(::GlobalNamespace::OVRPlugin_SpaceComponentType type,
                                                                                                     ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query);
 
-  /// @brief Method ForComponentThrow, addr 0x62ec728, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ForComponentThrow, addr 0x6329170, size 0x1a8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 ForComponentThrow(::GlobalNamespace::OVRPlugin_SpaceComponentType type, ::StringW argName);
 
-  /// @brief Method ForComponentUnchecked, addr 0x62ec644, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ForComponentUnchecked, addr 0x632908c, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 ForComponentUnchecked(::GlobalNamespace::OVRPlugin_SpaceComponentType type);
 
-  /// @brief Method ForGroup, addr 0x62ec8d0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ForGroup, addr 0x6329318, size 0x150, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> ForGroup(::System::Guid groupUuid, ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query,
                                                                                                 ::System::Collections::Generic::IEnumerable_1<::System::Guid>* anchorIds);
 
-  /// @brief Method ForGroupThrow, addr 0x62ecc58, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ForGroupThrow, addr 0x63296a0, size 0x1c8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 ForGroupThrow(::System::Guid groupUuid, ::StringW argName, ::System::Collections::Generic::IEnumerable_1<::System::Guid>* anchorIds);
 
-  /// @brief Method ForGroupUnchecked, addr 0x62eca20, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method ForGroupUnchecked, addr 0x6329468, size 0x238, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 ForGroupUnchecked(::System::Guid groupUuid, ::GlobalNamespace::OVREnumerable_1<::System::Guid> anchorIds);
 
-  /// @brief Method PostProcessQuery, addr 0x62ec31c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method PostProcessQuery, addr 0x6328d64, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<::GlobalNamespace::OVRPlugin_Result, ::StringW> PostProcessQuery(::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2> query,
                                                                                                         ::GlobalNamespace::OVRPlugin_Result result, /* [IsReadOnly] */ ::by_ref<::StringW const> why);
 
   /// [Extension]
-  /// @brief Method ToV1, addr 0x62ece20, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToV1, addr 0x6329868, size 0x14, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo ToV1(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 const> query2);
 
   /// [Extension]
-  /// @brief Method ToV2, addr 0x62ece34, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ToV2, addr 0x632987c, size 0x38, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPlugin_SpaceQueryInfo2 ToV2(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::OVRPlugin_SpaceQueryInfo const> query1);
 
   static inline ::ArrayW<::GlobalNamespace::OVRPlugin_SpaceComponentType> getStaticF_s_ComponentTypes();
@@ -433,7 +433,7 @@ public:
   static constexpr int32_t MaxResultsForGroup{ static_cast<int32_t>(0x400) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7833 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -27,21 +27,21 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE GraphicsFence {
 public:
   // Declarations
-  /// @brief Method GetPlatformNotSupportedVersion, addr 0x6f653b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformNotSupportedVersion, addr 0x6fa2290, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetPlatformNotSupportedVersion();
 
   /// [NativeThrows]
   /// [FreeFunction("GPUFenceInternals::GetVersionNumber")]
-  /// @brief Method GetVersionNumber, addr 0x6f653bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetVersionNumber, addr 0x6fa2298, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetVersionNumber(::System::IntPtr fencePtr);
 
-  /// @brief Method InitPostAllocation, addr 0x6f652f4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method InitPostAllocation, addr 0x6fa21d0, size 0xc0, virtual false, abstract: false, final false
   inline void InitPostAllocation();
 
-  /// @brief Method IsFencePending, addr 0x6f653f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsFencePending, addr 0x6fa22d4, size 0x58, virtual false, abstract: false, final false
   inline bool IsFencePending();
 
-  /// @brief Method Validate, addr 0x6f65450, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x6fa232c, size 0x98, virtual false, abstract: false, final false
   inline void Validate();
 
   // Ctor Parameters []
@@ -53,7 +53,7 @@ public:
   constexpr GraphicsFence(::System::IntPtr m_Ptr, int32_t m_Version, ::UnityEngine::Rendering::GraphicsFenceType m_FenceType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10365 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

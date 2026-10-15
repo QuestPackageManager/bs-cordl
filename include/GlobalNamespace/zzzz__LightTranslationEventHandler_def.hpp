@@ -182,7 +182,7 @@ public:
 
   constexpr void __cordl_internal_set_zTranslationLimits(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x5dab710, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de8984, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform, ::UnityEngine::Transform* zTransform,
                     ::UnityEngine::Vector2 xTranslationLimits, ::UnityEngine::Vector2 xDistributionLimits, ::UnityEngine::Vector2 yTranslationLimits, ::UnityEngine::Vector2 yDistributionLimits,
                     ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits, ::GlobalNamespace::CompositeTransformMode transformMode);
@@ -202,7 +202,7 @@ public:
   LightTranslationEventHandler_InitData(LightTranslationEventHandler_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5963 };
 
   /// @brief Field xMirrored, offset: 0x10, size: 0x1, def value: None
   bool ___xMirrored;
@@ -334,25 +334,28 @@ public:
   /// @brief Field _zTranslationTween, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__zTranslationTween, put = __cordl_internal_set__zTranslationTween)) ::Tweening::FloatTween* _zTranslationTween;
 
-  /// @brief Method Cleanup, addr 0x5daa474, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ApplyCurrentTranslation, addr 0x5dec368, size 0x194, virtual false, abstract: false, final false
+  inline void ApplyCurrentTranslation();
+
+  /// @brief Method Cleanup, addr 0x5de76e8, size 0x1c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method ComputeTranslation, addr 0x5daf178, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ComputeTranslation, addr 0x5dec2f8, size 0x4c, virtual false, abstract: false, final false
   static inline float_t ComputeTranslation(float_t translation, ::UnityEngine::Vector2 translationLimits, float_t distribution, ::UnityEngine::Vector2 distributionLimits, bool mirrored);
 
-  /// @brief Method HandleTranslationEvent, addr 0x5dacfa4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HandleTranslationEvent, addr 0x5dea218, size 0x9c, virtual false, abstract: false, final false
   inline void HandleTranslationEvent(::GlobalNamespace::LightTranslationBeatmapEventData* currentEventData);
 
   static inline ::GlobalNamespace::LightTranslationEventHandler* New_ctor(::GlobalNamespace::LightTranslationEventHandler_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager);
 
-  /// @brief Method ProcessAxisEvent, addr 0x5daefe4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ProcessAxisEvent, addr 0x5dec164, size 0x194, virtual false, abstract: false, final false
   inline void ProcessAxisEvent(::Tweening::FloatTween* translationTween, ::GlobalNamespace::LightTranslationBeatmapEventData* currentEventData, ::UnityEngine::Vector2 translationLimits,
                                ::UnityEngine::Vector2 distributionLimits, bool mirrored);
 
-  /// @brief Method SetTranslation, addr 0x5daf1e4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method SetTranslation, addr 0x5dec364, size 0x4, virtual false, abstract: false, final false
   inline void SetTranslation(float_t _);
 
-  /// @brief Method SetTweenData, addr 0x5daf1c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetTweenData, addr 0x5dec344, size 0x20, virtual false, abstract: false, final false
   static inline void SetTweenData(::Tweening::FloatTween* tween, float_t from, float_t to, float_t startTime, float_t endTime, ::GlobalNamespace::EaseType easeType);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& __cordl_internal_get__basePositions() const;
@@ -451,7 +454,7 @@ public:
 
   constexpr void __cordl_internal_set__zTranslationTween(::Tweening::FloatTween* value);
 
-  /// @brief Method .ctor, addr 0x5dab744, size 0xd70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de89b8, size 0xd70, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightTranslationEventHandler_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager);
 
 protected:
@@ -469,7 +472,7 @@ public:
   LightTranslationEventHandler(LightTranslationEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5964 };
 
   /// @brief Field _tweeningManager, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____tweeningManager;

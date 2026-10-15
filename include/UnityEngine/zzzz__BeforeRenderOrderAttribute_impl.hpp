@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::BeforeRenderOrderAttribute::*)()>(&::UnityEngine::BeforeRenderOrderAttribute::get_order)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ed688c;
+  constexpr static std::size_t addrs = 0x6f13528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::BeforeRenderOrderAttribute*>(), { "get_order", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BeforeRenderOrderAttribute::*)(int32_t)>(&::UnityEngine::BeforeRenderOrderAttribute::set_order)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ed6894;
+  constexpr static std::size_t addrs = 0x6f13530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::BeforeRenderOrderAttribute::*)(int32_t)>(&::UnityEngine::BeforeRenderOrderAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ed689c;
+  constexpr static std::size_t addrs = 0x6f13538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

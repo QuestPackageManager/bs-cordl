@@ -97,12 +97,12 @@ namespace UnityEngine::Playables {
 class CORDL_TYPE PlayableSystems_PlayableSystemDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6f931a8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6fd0084, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Playables::DataPlayableOutput>* outputs);
 
   static inline ::UnityEngine::Playables::PlayableSystems_PlayableSystemDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6f93064, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fcff40, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -120,7 +120,7 @@ public:
   PlayableSystems_PlayableSystemDelegate(PlayableSystems_PlayableSystemDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23225 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -187,7 +187,7 @@ public:
   static ::UnityEngine::Playables::PlayableSystems_PlayableSystemStage const Update;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23226 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
@@ -229,18 +229,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6f93498, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6fd0374, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x6f934a0, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6fd037c, size 0x2c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::Playables::DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator* New_ctor(::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList* list);
 
-  /// @brief Method Reset, addr 0x6f934cc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x6fd03a8, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6f93430, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6fd030c, size 0x68, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr int32_t const& __cordl_internal_get_m_Index() const;
@@ -255,10 +255,10 @@ public:
 
   constexpr void __cordl_internal_set_m_List(::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList* value);
 
-  /// @brief Method .ctor, addr 0x6f9333c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fd0218, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList* list);
 
-  /// @brief Method get_Current, addr 0x6f93350, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x6fd022c, size 0xe0, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::DataPlayableOutput get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::DataPlayableOutput>"
@@ -286,7 +286,7 @@ public:
   DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator(DataPlayableOutputList_PlayableSystems_DataPlayableOutputEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23227 };
 
   /// @brief Field m_List, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList* ___m_List;
@@ -336,12 +336,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x6f932e4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x6fd01c0, size 0x58, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::DataPlayableOutput>* GetEnumerator();
 
   static inline ::UnityEngine::Playables::PlayableSystems_DataPlayableOutputList* New_ctor(::UnityEngine::Playables::PlayableOutputHandle* outputs, int32_t count);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6f9334c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6fd0228, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr int32_t const& __cordl_internal_get_m_Count() const;
@@ -356,13 +356,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Outputs(::UnityEngine::Playables::PlayableOutputHandle* value);
 
-  /// @brief Method .ctor, addr 0x6f92ef8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fcfdd4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle* outputs, int32_t count);
 
-  /// @brief Method get_Count, addr 0x6f932dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x6fd01b8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x6f931bc, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x6fd0098, size 0x120, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::DataPlayableOutput get_Item(int32_t index);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::DataPlayableOutput>"
@@ -395,7 +395,7 @@ public:
   PlayableSystems_DataPlayableOutputList(PlayableSystems_DataPlayableOutputList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23228 };
 
   /// @brief Field m_Outputs, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Playables::PlayableOutputHandle* ___m_Outputs;
@@ -438,11 +438,11 @@ public:
   /// @brief Field s_SystemTypes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_SystemTypes, put = setStaticF_s_SystemTypes)) ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Type*>* s_SystemTypes;
 
-  /// @brief Method CombineTypeAndIndex, addr 0x6f92d40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CombineTypeAndIndex, addr 0x6fcfc1c, size 0xc, virtual false, abstract: false, final false
   static inline int32_t CombineTypeAndIndex(int32_t typeIndex, ::UnityEngine::Playables::PlayableSystems_PlayableSystemStage stage);
 
   /// [RequiredByNativeCode]
-  /// @brief Method Internal_CallSystemDelegate, addr 0x6f92d4c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Internal_CallSystemDelegate, addr 0x6fcfc28, size 0x1ac, virtual false, abstract: false, final false
   static inline bool Internal_CallSystemDelegate(int32_t systemIndex, ::UnityEngine::Playables::PlayableSystems_PlayableSystemStage stage, ::System::IntPtr outputsPtr, int32_t numOutputs);
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Playables::PlayableSystems_PlayableSystemDelegate*>* getStaticF_s_Delegates();
@@ -472,7 +472,7 @@ public:
   PlayableSystems(PlayableSystems const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23149 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23229 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

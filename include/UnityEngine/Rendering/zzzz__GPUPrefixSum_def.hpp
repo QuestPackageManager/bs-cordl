@@ -117,13 +117,13 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE GPUPrefixSum_ShaderDefs : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AlignUpGroup, addr 0x6be03ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method AlignUpGroup, addr 0x6c1d068, size 0x18, virtual false, abstract: false, final false
   static inline int32_t AlignUpGroup(int32_t value);
 
-  /// @brief Method CalculateTotalBufferSize, addr 0x6be0404, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CalculateTotalBufferSize, addr 0x6c1d080, size 0x58, virtual false, abstract: false, final false
   static inline void CalculateTotalBufferSize(int32_t maxElementCount, ::by_ref<int32_t> totalSize, ::by_ref<int32_t> levelCounts);
 
-  /// @brief Method DivUpGroup, addr 0x6be03d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DivUpGroup, addr 0x6c1d050, size 0x18, virtual false, abstract: false, final false
   static inline int32_t DivUpGroup(int32_t value);
 
 protected:
@@ -153,7 +153,7 @@ public:
   static constexpr int32_t GroupSize{ static_cast<int32_t>(0x80) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9165 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -178,7 +178,7 @@ public:
   constexpr GPUPrefixSum_LevelOffsets(uint32_t count, uint32_t offset, uint32_t parentOffset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9166 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -213,24 +213,24 @@ public:
   // Declarations
   __declspec(property(get = get_output)) ::UnityEngine::Rendering::RenderGraphModule::BufferHandle output;
 
-  /// @brief Method Create, addr 0x6be07ac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6c1d428, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources Create(int32_t newMaxElementCount, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                    ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* builder, bool outputIsTemp);
 
   /// [Obsolete("This Create signature is deprecated and will be removed in the future. Please use Create(IBaseRenderGraphBuilder) instead. #from(6000.3)")]
-  /// @brief Method Create, addr 0x6be046c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6c1d0e8, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources Create(int32_t newMaxElementCount, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                    ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder builder, bool outputIsTemp);
 
-  /// @brief Method Initialize, addr 0x6be07fc, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6c1d478, size 0x4ec, virtual false, abstract: false, final false
   inline void Initialize(int32_t newMaxElementCount, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                          ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* builder, bool outputIsTemp);
 
-  /// @brief Method Initialize, addr 0x6be04c8, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6c1d144, size 0x2e4, virtual false, abstract: false, final false
   inline void Initialize(int32_t newMaxElementCount, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder builder,
                          bool outputIsTemp);
 
-  /// @brief Method get_output, addr 0x6be045c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_output, addr 0x6c1d0d8, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle get_output();
 
   // Ctor Parameters []
@@ -250,7 +250,7 @@ public:
                                               ::UnityEngine::Rendering::RenderGraphModule::BufferHandle indirectDispatchArgsBuffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9167 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -310,26 +310,26 @@ public:
   // Declarations
   __declspec(property(get = get_output)) ::UnityEngine::GraphicsBuffer* output;
 
-  /// @brief Method Create, addr 0x6be0cf0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6c1d96c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUPrefixSum_SupportResources Create(int32_t maxElementCount);
 
-  /// @brief Method Dispose, addr 0x6be10c8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c1dd44, size 0x78, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Load, addr 0x6be0f88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x6c1dc04, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUPrefixSum_SupportResources Load(::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources shaderGraphResources);
 
-  /// @brief Method LoadFromShaderGraph, addr 0x6be0fe4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method LoadFromShaderGraph, addr 0x6c1dc60, size 0xe4, virtual false, abstract: false, final false
   inline void LoadFromShaderGraph(::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources shaderGraphResources);
 
-  /// @brief Method Resize, addr 0x6be0d4c, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x6c1d9c8, size 0x23c, virtual false, abstract: false, final false
   inline void Resize(int32_t newMaxElementCount);
 
   /// [CompilerGenerated]
-  /// @brief Method <Dispose>g__TryFreeBuffer|15_0, addr 0x6be1140, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Dispose>g__TryFreeBuffer|15_0, addr 0x6c1ddbc, size 0x10, virtual false, abstract: false, final false
   static inline void _Dispose_g__TryFreeBuffer_15_0(::UnityEngine::GraphicsBuffer* resource);
 
-  /// @brief Method get_output, addr 0x6be0ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_output, addr 0x6c1d964, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_output();
 
   // Ctor Parameters []
@@ -347,7 +347,7 @@ public:
                                           ::UnityEngine::GraphicsBuffer* indirectDispatchArgsBuffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9161 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9168 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -420,7 +420,7 @@ public:
   constexpr GPUPrefixSum_DirectArgs(bool exclusive, int32_t inputCount, ::UnityEngine::GraphicsBuffer* input, ::UnityEngine::Rendering::GPUPrefixSum_SupportResources supportResources) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9162 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9169 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -470,7 +470,7 @@ public:
                                             ::UnityEngine::Rendering::GPUPrefixSum_SupportResources supportResources) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9170 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -513,7 +513,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE GPUPrefixSum_SystemResources {
 public:
   // Declarations
-  /// @brief Method LoadKernels, addr 0x6bdf958, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method LoadKernels, addr 0x6c1c5d4, size 0x1d8, virtual false, abstract: false, final false
   inline void LoadKernels();
 
   // Ctor Parameters []
@@ -531,7 +531,7 @@ public:
                                          int32_t kernelPrefixSumResolveParentExclusive) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9164 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9171 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -667,7 +667,7 @@ public:
   GPUPrefixSum_ShaderIDs(GPUPrefixSum_ShaderIDs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9172 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -698,26 +698,26 @@ public:
 
   using SystemResources = ::UnityEngine::Rendering::GPUPrefixSum_SystemResources;
 
-  /// @brief Method DispatchDirect, addr 0x6bdff60, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method DispatchDirect, addr 0x6c1cbdc, size 0x1f0, virtual false, abstract: false, final false
   inline void DispatchDirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs const> arguments);
 
-  /// @brief Method DispatchDirect, addr 0x6bdfec0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DispatchDirect, addr 0x6c1cb3c, size 0xa0, virtual false, abstract: false, final false
   inline void DispatchDirect(::UnityEngine::Rendering::IComputeCommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs const> arguments);
 
-  /// @brief Method DispatchIndirect, addr 0x6be01f0, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method DispatchIndirect, addr 0x6c1ce6c, size 0x1e4, virtual false, abstract: false, final false
   inline void DispatchIndirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs const> arguments);
 
-  /// @brief Method DispatchIndirect, addr 0x6be0150, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DispatchIndirect, addr 0x6c1cdcc, size 0xa0, virtual false, abstract: false, final false
   inline void DispatchIndirect(::UnityEngine::Rendering::IComputeCommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs const> arguments);
 
-  /// @brief Method ExecuteCommonIndirect, addr 0x6bdfb44, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCommonIndirect, addr 0x6c1c7c0, size 0x37c, virtual false, abstract: false, final false
   inline void ExecuteCommonIndirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, ::UnityEngine::GraphicsBuffer* inputBuffer,
                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources const> supportResources, bool isExclusive);
 
-  /// @brief Method PackPrefixSumArgs, addr 0x6bdfb30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method PackPrefixSumArgs, addr 0x6c1c7ac, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 PackPrefixSumArgs(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method .ctor, addr 0x6bdf944, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1c5c0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::GPUPrefixSum_SystemResources resources);
 
   // Ctor Parameters []
@@ -728,7 +728,7 @@ public:
   constexpr GPUPrefixSum(::UnityEngine::Rendering::GPUPrefixSum_SystemResources resources) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9166 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9173 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

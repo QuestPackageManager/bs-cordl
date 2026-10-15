@@ -47,10 +47,10 @@ namespace UnityEngine::Rendering::RadeonRays {
 struct CORDL_TYPE RestructureBvh_ScratchBufferLayout {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x6dfe5a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6e3b244, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RadeonRays::RestructureBvh_ScratchBufferLayout Create(uint32_t triangleCount);
 
-  /// @brief Method Reserve, addr 0x6dfe6f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reserve, addr 0x6e3b394, size 0x14, virtual false, abstract: false, final false
   inline uint32_t Reserve(uint32_t size);
 
   // Ctor Parameters []
@@ -63,7 +63,7 @@ public:
   constexpr RestructureBvh_ScratchBufferLayout(uint32_t LeafParents, uint32_t TreeletCount, uint32_t TreeletRoots, uint32_t PrimitiveCounts, uint32_t TotalSize) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20491 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
@@ -129,21 +129,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BindKernelArguments, addr 0x6dfe5d0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method BindKernelArguments, addr 0x6e3b26c, size 0x128, virtual false, abstract: false, final false
   inline void BindKernelArguments(::UnityEngine::Rendering::CommandBuffer* cmd, int32_t kernel, ::UnityEngine::GraphicsBuffer* vertices, ::UnityEngine::GraphicsBuffer* scratch,
                                   ::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct result);
 
-  /// @brief Method Dispose, addr 0x6dfd428, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e3a0c4, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Execute, addr 0x6dfd6f4, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x6e3a390, size 0x394, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* vertices, int32_t verticesOffset, uint32_t vertexStride, uint32_t triangleCount,
                       ::UnityEngine::GraphicsBuffer* scratch, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const> result);
 
-  /// @brief Method GetBvhNodeCount, addr 0x6dfe5c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBvhNodeCount, addr 0x6e3b264, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t GetBvhNodeCount(uint32_t leafCount);
 
-  /// @brief Method GetScratchDataSizeInDwords, addr 0x6dfdb54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetScratchDataSizeInDwords, addr 0x6e3a7f0, size 0x8, virtual false, abstract: false, final false
   inline uint64_t GetScratchDataSizeInDwords(uint32_t triangleCount);
 
   static inline ::UnityEngine::Rendering::RadeonRays::RestructureBvh* New_ctor(::UnityEngine::Rendering::RadeonRays::RadeonRaysShaders* shaders);
@@ -184,7 +184,7 @@ public:
 
   constexpr void __cordl_internal_set_treeletDispatchIndirectBuffer(::UnityEngine::GraphicsBuffer* value);
 
-  /// @brief Method .ctor, addr 0x6dfd2b4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e39f50, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RadeonRays::RadeonRaysShaders* shaders);
 
   /// @brief Convert to "::System::IDisposable"
@@ -205,7 +205,7 @@ public:
   RestructureBvh(RestructureBvh const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20492 };
 
   /// @brief Field kGroupSize offset 0xffffffff size 0x4
   static constexpr uint32_t kGroupSize{ static_cast<uint32_t>(0x100u) };

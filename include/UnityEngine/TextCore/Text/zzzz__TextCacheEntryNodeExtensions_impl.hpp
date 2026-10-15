@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::LinkedListNode_1<::UnityEngine::TextCore::Text::TextCacheEntry>*, float_t)>(
     &::UnityEngine::TextCore::Text::TextCacheEntryNodeExtensions::SetTime)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x70641e0;
+  constexpr static std::size_t addrs = 0x70a10d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::LinkedListNode_1<::UnityEngine::TextCore::Text::TextCacheEntry>*,
                                                                 ::UnityEngine::TextCore::Text::TextHandle*)>(&::UnityEngine::TextCore::Text::TextCacheEntryNodeExtensions::SetTextHandle)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x7063ec4;
+  constexpr static std::size_t addrs = 0x70a0db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

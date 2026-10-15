@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::MotionBlur::*)()>(&::UnityEngine::Rendering::Universal::MotionBlur::IsActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6cbe544;
+  constexpr static std::size_t addrs = 0x6cfb1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::MotionBlur*>(), { "IsActive", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::MotionBlur::*)()>(&::UnityEngine::Rendering::Universal::MotionBlur::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cbe574;
+  constexpr static std::size_t addrs = 0x6cfb1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::MotionBlur*>(), { "IsTileCompatible", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::MotionBlur::*)()>(&::UnityEngine::Rendering::Universal::MotionBlur::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6cbe57c;
+  constexpr static std::size_t addrs = 0x6cfb1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::MotionBlur*>(), { ".ctor", {}, {} })));

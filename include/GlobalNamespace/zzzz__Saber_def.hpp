@@ -94,12 +94,12 @@ public:
 
   __declspec(property(get = get_saberType)) ::GlobalNamespace::SaberType saberType;
 
-  /// @brief Method ManualUpdate, addr 0x5e0aae8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x5e482e8, size 0xac, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::GlobalNamespace::Saber* New_ctor();
 
-  /// @brief Method OverridePositionAndRotation, addr 0x5e0ab94, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OverridePositionAndRotation, addr 0x5e48394, size 0x78, virtual false, abstract: false, final false
   inline void OverridePositionAndRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__handlePos() const;
@@ -156,43 +156,43 @@ public:
 
   constexpr void __cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value);
 
-  /// @brief Method .ctor, addr 0x5e0ac0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4840c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bladeSpeed, addr 0x5e0aac0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_bladeSpeed, addr 0x5e482c0, size 0x18, virtual false, abstract: false, final false
   inline float_t get_bladeSpeed();
 
-  /// @brief Method get_bladeSpeedForLogic, addr 0x5e0aaa8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_bladeSpeedForLogic, addr 0x5e482a8, size 0x18, virtual false, abstract: false, final false
   inline float_t get_bladeSpeedForLogic();
 
-  /// @brief Method get_handlePos, addr 0x5e0aa54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_handlePos, addr 0x5e48254, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_handlePos();
 
-  /// @brief Method get_movementDataForLogic, addr 0x5e0aad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_movementDataForLogic, addr 0x5e482d8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SaberMovementData* get_movementDataForLogic();
 
-  /// @brief Method get_movementDataForVisualEffects, addr 0x5e0aae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_movementDataForVisualEffects, addr 0x5e482e0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SaberMovementData* get_movementDataForVisualEffects();
 
-  /// @brief Method get_saberBladeBottomPos, addr 0x5e0aa6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_saberBladeBottomPos, addr 0x5e4826c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_saberBladeBottomPos();
 
-  /// @brief Method get_saberBladeBottomPosForLogic, addr 0x5e0aa84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_saberBladeBottomPosForLogic, addr 0x5e48284, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_saberBladeBottomPosForLogic();
 
-  /// @brief Method get_saberBladeBottomPosForVisualEffects, addr 0x5e0aa9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_saberBladeBottomPosForVisualEffects, addr 0x5e4829c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_saberBladeBottomPosForVisualEffects();
 
-  /// @brief Method get_saberBladeTopPos, addr 0x5e0aa60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_saberBladeTopPos, addr 0x5e48260, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_saberBladeTopPos();
 
-  /// @brief Method get_saberBladeTopPosForLogic, addr 0x5e0aa78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_saberBladeTopPosForLogic, addr 0x5e48278, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_saberBladeTopPosForLogic();
 
-  /// @brief Method get_saberBladeTopPosForVisualEffects, addr 0x5e0aa90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_saberBladeTopPosForVisualEffects, addr 0x5e48290, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_saberBladeTopPosForVisualEffects();
 
-  /// @brief Method get_saberType, addr 0x5e0aa3c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_saberType, addr 0x5e4823c, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SaberType get_saberType();
 
 protected:
@@ -210,7 +210,7 @@ public:
   Saber(Saber const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6351 };
 
   /// [Inject]
   /// @brief Field _timeHelper, offset: 0x20, size: 0x8, def value: None

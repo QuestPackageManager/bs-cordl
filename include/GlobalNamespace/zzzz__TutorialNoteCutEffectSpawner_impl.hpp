@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialNoteCutEffectSpawner::*)()>(&::GlobalNamespace::TutorialNoteCutEffectSpawner::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5e13d1c;
+  constexpr static std::size_t addrs = 0x5e51648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialNoteCutEffectSpawner*>(), { "Start", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialNoteCutEffectSpawner::*)()>(&::GlobalNamespace::TutorialNoteCutEffectSpawner::OnDestroy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5e13dac;
+  constexpr static std::size_t addrs = 0x5e516d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialNoteCutEffectSpawner*>(), { "OnDestroy", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialNoteCutEffectSpawner::*)(::GlobalNamespace::NoteController*, ::by_ref<::GlobalNamespace::NoteCutInfo const>)>(
     &::GlobalNamespace::TutorialNoteCutEffectSpawner::HandleNoteWasCut)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x5e13e44;
+  constexpr static std::size_t addrs = 0x5e51770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TutorialNoteCutEffectSpawner::*)()>(&::GlobalNamespace::TutorialNoteCutEffectSpawner::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e140bc;
+  constexpr static std::size_t addrs = 0x5e519e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TutorialNoteCutEffectSpawner*>(), { ".ctor", {}, {} })));

@@ -44,29 +44,29 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT>*();
 
-  /// @brief Method Equals, addr 0x6e42848, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6e7f4e4, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6e42784, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e7f420, size 0xa0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT other);
 
-  /// @brief Method GetHashCode, addr 0x6e428dc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6e7f578, size 0xc0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6e42760, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f3fc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrPosef origin, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT vertexBuffer,
                     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT indexBuffer);
 
   /// [CompilerGenerated]
-  /// @brief Method get_indexBuffer, addr 0x6e42754, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_indexBuffer, addr 0x6e7f3f0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT get_indexBuffer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_origin, addr 0x6e42734, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_origin, addr 0x6e7f3d0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef get_origin();
 
   /// [CompilerGenerated]
-  /// @brief Method get_vertexBuffer, addr 0x6e42748, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_vertexBuffer, addr 0x6e7f3e4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT get_vertexBuffer();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT>"
@@ -83,7 +83,7 @@ public:
                                  ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT _indexBuffer_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17582 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

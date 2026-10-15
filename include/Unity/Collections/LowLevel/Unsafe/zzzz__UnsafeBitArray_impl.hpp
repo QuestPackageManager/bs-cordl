@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::get_IsCreated)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68ec068;
+  constexpr static std::size_t addrs = 0x6928ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::get_IsEmpty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68ec098;
+  constexpr static std::size_t addrs = 0x6928d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::*)(uint64_t*, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68f7000;
+  constexpr static std::size_t addrs = 0x6933c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly>(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::GetBits)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68ec0f0;
+  constexpr static std::size_t addrs = 0x6928d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::*)(int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::IsSet)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68ec128;
+  constexpr static std::size_t addrs = 0x6928da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::Find)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68ec154;
+  constexpr static std::size_t addrs = 0x6928dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly>(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::*)(int32_t, int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::Find)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68ec174;
+  constexpr static std::size_t addrs = 0x6928df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly>(),
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::TestNone)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68ec1a0;
+  constexpr static std::size_t addrs = 0x6928e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly>(),
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::TestAny)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68ec1e0;
+  constexpr static std::size_t addrs = 0x6928e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly>(),
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::TestAll)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68ec220;
+  constexpr static std::size_t addrs = 0x6928e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly>(),
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::CountBits)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68ec260;
+  constexpr static std::size_t addrs = 0x6928edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly>(),
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::CheckArgs)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x68f7548;
+  constexpr static std::size_t addrs = 0x69341c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly>(),
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::*)(int32_t, int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::CheckArgsPosCount)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x68f7624;
+  constexpr static std::size_t addrs = 0x69342a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly::CheckArgsUlong)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x68f7778;
+  constexpr static std::size_t addrs = 0x69343f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly>(),
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(void*, int32_t, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68f6330;
+  constexpr static std::size_t addrs = 0x6932fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(
     int32_t, ::Unity::Collections::AllocatorManager_AllocatorHandle, ::Unity::Collections::NativeArrayOptions)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68eb5c4;
+  constexpr static std::size_t addrs = 0x6928240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray* (*)(::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::Alloc)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x68eb558;
+  constexpr static std::size_t addrs = 0x69281d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>(),
@@ -337,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray*, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::Free)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x68eb774;
+  constexpr static std::size_t addrs = 0x69283f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::get_IsCreated)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68eb5f4;
+  constexpr static std::size_t addrs = 0x6928270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>(), { "get_IsCreated", {}, {} })));
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::get_IsEmpty)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68f6d8c;
+  constexpr static std::size_t addrs = 0x6933a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>(), { "get_IsEmpty", {}, {} })));
@@ -376,7 +376,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::Realloc)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x68f6dac;
+  constexpr static std::size_t addrs = 0x6933a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -390,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t, ::Unity::Collections::NativeArrayOptions)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::Resize)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x68eb634;
+  constexpr static std::size_t addrs = 0x69282b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::SetCapacity)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68eb6b4;
+  constexpr static std::size_t addrs = 0x6928330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -418,7 +418,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::TrimExcess)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68eb6e0;
+  constexpr static std::size_t addrs = 0x692835c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>(), { "TrimExcess", {}, {} })));
@@ -430,7 +430,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::Dispose)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x68f6cec;
+  constexpr static std::size_t addrs = 0x6933968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>(), { "Dispose", {}, {} })));
@@ -443,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(::Unity::Jobs::JobHandle)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::Dispose)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x68f6ec0;
+  constexpr static std::size_t addrs = 0x6933b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -456,7 +456,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::Clear)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x68eb970;
+  constexpr static std::size_t addrs = 0x69285ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>(), { "Clear", {}, {} })));
@@ -468,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t*, int32_t, bool)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::Set)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x68f6f8c;
+  constexpr static std::size_t addrs = 0x6933c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>(),
@@ -481,7 +481,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t, bool)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::Set)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x68eb9f4;
+  constexpr static std::size_t addrs = 0x6928670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t, bool, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::SetBits)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x68eba28;
+  constexpr static std::size_t addrs = 0x69286a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>(),
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t, uint64_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::SetBits)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x68ebadc;
+  constexpr static std::size_t addrs = 0x6928758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>(),
@@ -523,7 +523,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::GetBits)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68ebba0;
+  constexpr static std::size_t addrs = 0x692881c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -537,7 +537,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::IsSet)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68ebbdc;
+  constexpr static std::size_t addrs = 0x6928858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -551,7 +551,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(
     int32_t, ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>, int32_t, int32_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::CopyUlong)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x68f6fb4;
+  constexpr static std::size_t addrs = 0x6933c30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -569,7 +569,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t, int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::Copy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x68ebc14;
+  constexpr static std::size_t addrs = 0x6928890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>(),
@@ -583,7 +583,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(
     int32_t, ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>, int32_t, int32_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::Copy)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x68ebc3c;
+  constexpr static std::size_t addrs = 0x69288b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -600,7 +600,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::Find)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68ebefc;
+  constexpr static std::size_t addrs = 0x6928b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -614,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t, int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::Find)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68ebf20;
+  constexpr static std::size_t addrs = 0x6928b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>(),
@@ -628,7 +628,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::TestNone)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68ebf4c;
+  constexpr static std::size_t addrs = 0x6928bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -643,7 +643,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::TestAny)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68ebf8c;
+  constexpr static std::size_t addrs = 0x6928c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -658,7 +658,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::TestAll)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68ebfcc;
+  constexpr static std::size_t addrs = 0x6928c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -673,7 +673,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::CountBits)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x68ec00c;
+  constexpr static std::size_t addrs = 0x6928c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -688,7 +688,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray_ReadOnly (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::AsReadOnly)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68ec0b8;
+  constexpr static std::size_t addrs = 0x6928d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>(), { "AsReadOnly", {}, {} })));
@@ -700,7 +700,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::CheckSizeMultipleOf8)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x68f700c;
+  constexpr static std::size_t addrs = 0x6933c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -714,7 +714,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::CheckArgs)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x68f70b0;
+  constexpr static std::size_t addrs = 0x6933d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -729,7 +729,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t, int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::CheckArgsPosCount)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x68f718c;
+  constexpr static std::size_t addrs = 0x6933e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -744,7 +744,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::CheckArgsUlong)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x68f72e0;
+  constexpr static std::size_t addrs = 0x6933f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>(),
@@ -759,7 +759,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>, int32_t, ::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray>, int32_t, int32_t)>(
         &::Unity::Collections::LowLevel::Unsafe::UnsafeBitArray::CheckArgsCopy)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x68f7400;
+  constexpr static std::size_t addrs = 0x693407c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

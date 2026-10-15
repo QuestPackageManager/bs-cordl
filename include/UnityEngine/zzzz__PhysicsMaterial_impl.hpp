@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::PhysicsMaterial::*)()>(&::UnityEngine::PhysicsMaterial::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6ffeb88;
+  constexpr static std::size_t addrs = 0x703ba7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsMaterial*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::PhysicsMaterial::*)(::StringW)>(&::UnityEngine::PhysicsMaterial::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6ffed30;
+  constexpr static std::size_t addrs = 0x703bc24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsMaterial*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::PhysicsMaterial*, ::StringW)>(&::UnityEngine::PhysicsMaterial::Internal_CreateDynamicsMaterial)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6ffebfc;
+  constexpr static std::size_t addrs = 0x703baf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::PhysicsMaterial::*)()>(&::UnityEngine::PhysicsMaterial::get_bounciness)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ffeddc;
+  constexpr static std::size_t addrs = 0x703bcd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsMaterial*>(), { "get_bounciness", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::PhysicsMaterial::*)(float_t)>(&::UnityEngine::PhysicsMaterial::set_bounciness)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6ffee98;
+  constexpr static std::size_t addrs = 0x703bd8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::PhysicsMaterial::*)()>(&::UnityEngine::PhysicsMaterial::get_dynamicFriction)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ffef74;
+  constexpr static std::size_t addrs = 0x703be68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsMaterial*>(), { "get_dynamicFriction", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::PhysicsMaterial::*)(float_t)>(&::UnityEngine::PhysicsMaterial::set_dynamicFriction)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6fff030;
+  constexpr static std::size_t addrs = 0x703bf24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::PhysicsMaterial::*)()>(&::UnityEngine::PhysicsMaterial::get_staticFriction)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6fff10c;
+  constexpr static std::size_t addrs = 0x703c000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsMaterial*>(), { "get_staticFriction", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::PhysicsMaterial::*)(float_t)>(&::UnityEngine::PhysicsMaterial::set_staticFriction)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6fff1c8;
+  constexpr static std::size_t addrs = 0x703c0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PhysicsMaterialCombine (::UnityEngine::PhysicsMaterial::*)()>(&::UnityEngine::PhysicsMaterial::get_frictionCombine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6fff2a4;
+  constexpr static std::size_t addrs = 0x703c198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsMaterial*>(), { "get_frictionCombine", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::PhysicsMaterial::*)(::UnityEngine::PhysicsMaterialCombine)>(&::UnityEngine::PhysicsMaterial::set_frictionCombine)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6fff360;
+  constexpr static std::size_t addrs = 0x703c254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PhysicsMaterialCombine (::UnityEngine::PhysicsMaterial::*)()>(&::UnityEngine::PhysicsMaterial::get_bounceCombine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6fff434;
+  constexpr static std::size_t addrs = 0x703c328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsMaterial*>(), { "get_bounceCombine", {}, {} })));
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::PhysicsMaterial::*)(::UnityEngine::PhysicsMaterialCombine)>(&::UnityEngine::PhysicsMaterial::set_bounceCombine)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6fff4f0;
+  constexpr static std::size_t addrs = 0x703c3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::PhysicsMaterial*, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::PhysicsMaterial::Internal_CreateDynamicsMaterial_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ffed98;
+  constexpr static std::size_t addrs = 0x703bc8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::PhysicsMaterial::get_bounciness_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ffee5c;
+  constexpr static std::size_t addrs = 0x703bd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::PhysicsMaterial::set_bounciness_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6ffef28;
+  constexpr static std::size_t addrs = 0x703be1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::PhysicsMaterial::get_dynamicFriction_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ffeff4;
+  constexpr static std::size_t addrs = 0x703bee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::PhysicsMaterial::set_dynamicFriction_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6fff0c0;
+  constexpr static std::size_t addrs = 0x703bfb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsMaterial*>(),
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::PhysicsMaterial::get_staticFriction_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6fff18c;
+  constexpr static std::size_t addrs = 0x703c080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::PhysicsMaterial::set_staticFriction_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6fff258;
+  constexpr static std::size_t addrs = 0x703c14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::PhysicsMaterial*>(),
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PhysicsMaterialCombine (*)(::System::IntPtr)>(&::UnityEngine::PhysicsMaterial::get_frictionCombine_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6fff324;
+  constexpr static std::size_t addrs = 0x703c218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::PhysicsMaterialCombine)>(&::UnityEngine::PhysicsMaterial::set_frictionCombine_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6fff3f0;
+  constexpr static std::size_t addrs = 0x703c2e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::PhysicsMaterialCombine (*)(::System::IntPtr)>(&::UnityEngine::PhysicsMaterial::get_bounceCombine_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6fff4b4;
+  constexpr static std::size_t addrs = 0x703c3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::PhysicsMaterialCombine)>(&::UnityEngine::PhysicsMaterial::set_bounceCombine_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6fff580;
+  constexpr static std::size_t addrs = 0x703c474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

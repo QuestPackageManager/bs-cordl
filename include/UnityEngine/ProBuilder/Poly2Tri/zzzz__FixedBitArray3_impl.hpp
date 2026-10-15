@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)(int32_t)>(&::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::get_Item)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6ad904c;
+  constexpr static std::size_t addrs = 0x6b15cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)(int32_t, bool)>(&::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::set_Item)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6ad937c;
+  constexpr static std::size_t addrs = 0x6b15ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)(bool)>(&::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::Contains)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6adf02c;
+  constexpr static std::size_t addrs = 0x6b1bca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)(bool)>(&::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::IndexOf)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6adf0a0;
+  constexpr static std::size_t addrs = 0x6b1bd1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::Clear)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6adcbd8;
+  constexpr static std::size_t addrs = 0x6b19854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3>(), { "Clear", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)(bool)>(&::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::Clear)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6adf0ec;
+  constexpr static std::size_t addrs = 0x6b1bd68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<bool>* (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::Enumerate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6adf13c;
+  constexpr static std::size_t addrs = 0x6b1bdb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3>(), { "Enumerate", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<bool>* (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::GetEnumerator)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6adf1d8;
+  constexpr static std::size_t addrs = 0x6b1be54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3>(), { "GetEnumerator", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6adf284;
+  constexpr static std::size_t addrs = 0x6b1bf00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::*)(int32_t)>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6adf1b8;
+  constexpr static std::size_t addrs = 0x6b1be34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6adf288;
+  constexpr static std::size_t addrs = 0x6b1bf04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::MoveNext)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6adf28c;
+  constexpr static std::size_t addrs = 0x6b1bf08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::System_Collections_Generic_IEnumerator_System_Boolean__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6adf300;
+  constexpr static std::size_t addrs = 0x6b1bf7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10*>(),
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6adf308;
+  constexpr static std::size_t addrs = 0x6b1bf84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6adf340;
+  constexpr static std::size_t addrs = 0x6b1bfbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<bool>* (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::System_Collections_Generic_IEnumerable_System_Boolean__GetEnumerator)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6adf364;
+  constexpr static std::size_t addrs = 0x6b1bfe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10*>(),
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3__Enumerate_d__10::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6adf404;
+  constexpr static std::size_t addrs = 0x6b1c080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

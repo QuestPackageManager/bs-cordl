@@ -25,13 +25,13 @@ namespace UnityEngine::TextCore::Text {
 class CORDL_TYPE TextUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHashCodeCaseInSensitive, addr 0x7066d24, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeCaseInSensitive, addr 0x70a3c58, size 0x70, virtual false, abstract: false, final false
   static inline int32_t GetHashCodeCaseInSensitive(::StringW s);
 
-  /// @brief Method GetTextFontWeightIndex, addr 0x7067f94, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetTextFontWeightIndex, addr 0x70a4ec8, size 0x94, virtual false, abstract: false, final false
   static inline int32_t GetTextFontWeightIndex(::UnityEngine::TextCore::Text::TextFontWeight fontWeight);
 
-  /// @brief Method ToUpperFast, addr 0x7067f14, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToUpperFast, addr 0x70a4e48, size 0x80, virtual false, abstract: false, final false
   static inline char16_t ToUpperFast(char16_t c);
 
 protected:
@@ -49,7 +49,7 @@ public:
   TextUtilities(TextUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17916 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -97,34 +97,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x7152bb4, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x718fae8, size 0xdc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x7152cd8, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x718fc0c, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System_Collections_Generic_IEnumerable_System_String__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x7152c90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x718fbc4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x7152d70, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x718fca4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x7152c98, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x718fbcc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x7152cd0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x718fc04, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x7152bb0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x718fae4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -170,7 +170,7 @@ public:
   constexpr void __cordl_internal_set_fullTypeName(::StringW value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x7152b90, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x718fac4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::StringW>"
@@ -258,11 +258,11 @@ public:
   using _EnumerateEnclosingNamespaces_d__0 = ::UnityEngine::UIElements::VisualTreeAssetUtilities__EnumerateEnclosingNamespaces_d__0;
 
   /// [IteratorStateMachine(typeof(UnityEngine.UIElements.VisualTreeAssetUtilities::<EnumerateEnclosingNamespaces>d__0))]
-  /// @brief Method EnumerateEnclosingNamespaces, addr 0x7152b20, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method EnumerateEnclosingNamespaces, addr 0x718fa54, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* EnumerateEnclosingNamespaces(::StringW fullTypeName);
 
   /// [Extension]
-  /// @brief Method FindUxmlNamespaceDefinitionForTypeName, addr 0x7150430, size 0x5e0, virtual false, abstract: false, final false
+  /// @brief Method FindUxmlNamespaceDefinitionForTypeName, addr 0x718d364, size 0x5e0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UxmlNamespaceDefinition FindUxmlNamespaceDefinitionForTypeName(::UnityEngine::UIElements::VisualTreeAsset* vta, ::UnityEngine::UIElements::UxmlAsset* asset,
                                                                                                           ::StringW fullTypeName);
 

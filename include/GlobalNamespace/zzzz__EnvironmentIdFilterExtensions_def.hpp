@@ -24,11 +24,11 @@ class CORDL_TYPE EnvironmentIdFilterExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ShouldExcludeMultiplayer, addr 0x39b8c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldExcludeMultiplayer, addr 0x39df1b4, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldExcludeMultiplayer(::GlobalNamespace::EnvironmentIdFilter filter);
 
   /// [Extension]
-  /// @brief Method ShouldExcludeTutorial, addr 0x39b8c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldExcludeTutorial, addr 0x39df1ac, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldExcludeTutorial(::GlobalNamespace::EnvironmentIdFilter filter);
 
 protected:
@@ -46,7 +46,7 @@ public:
   EnvironmentIdFilterExtensions(EnvironmentIdFilterExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15270 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14494 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

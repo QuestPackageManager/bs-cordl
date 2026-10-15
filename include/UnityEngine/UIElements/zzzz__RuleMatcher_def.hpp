@@ -26,7 +26,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE RuleMatcher {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x71427cc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x717f700, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []

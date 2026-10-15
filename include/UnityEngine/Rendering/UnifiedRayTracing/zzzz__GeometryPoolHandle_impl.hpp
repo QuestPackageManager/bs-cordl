@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle::get_valid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e02e18;
+  constexpr static std::size_t addrs = 0x6e3fab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle::*)(::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e02e28;
+  constexpr static std::size_t addrs = 0x6e3fac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle>(),

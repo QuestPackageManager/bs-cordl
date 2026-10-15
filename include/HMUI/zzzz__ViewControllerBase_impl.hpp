@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerBase_DidActivateDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::HMUI::ViewControllerBase_DidActivateDelegate::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c97930;
+  constexpr static std::size_t addrs = 0x5cd0678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ViewControllerBase_DidActivateDelegate*>(),
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerBase_DidActivateDelegate::*)(bool, bool, bool)>(&::HMUI::ViewControllerBase_DidActivateDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c9799c;
+  constexpr static std::size_t addrs = 0x5cd06e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::HMUI::ViewControllerBase_DidActivateDelegate::*)(bool, bool, bool, ::System::AsyncCallback*, ::System::Object*)>(
     &::HMUI::ViewControllerBase_DidActivateDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5c979b0;
+  constexpr static std::size_t addrs = 0x5cd06f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerBase_DidActivateDelegate::*)(::System::IAsyncResult*)>(&::HMUI::ViewControllerBase_DidActivateDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c97a40;
+  constexpr static std::size_t addrs = 0x5cd0788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerBase_DidDeactivateDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::HMUI::ViewControllerBase_DidDeactivateDelegate::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5c97a4c;
+  constexpr static std::size_t addrs = 0x5cd0794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ViewControllerBase_DidDeactivateDelegate*>(),
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerBase_DidDeactivateDelegate::*)(bool, bool)>(&::HMUI::ViewControllerBase_DidDeactivateDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5c97ab8;
+  constexpr static std::size_t addrs = 0x5cd0800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::HMUI::ViewControllerBase_DidDeactivateDelegate::*)(bool, bool, ::System::AsyncCallback*, ::System::Object*)>(
     &::HMUI::ViewControllerBase_DidDeactivateDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5c97acc;
+  constexpr static std::size_t addrs = 0x5cd0814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerBase_DidDeactivateDelegate::*)(::System::IAsyncResult*)>(
     &::HMUI::ViewControllerBase_DidDeactivateDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5c97b40;
+  constexpr static std::size_t addrs = 0x5cd0888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerBase::*)(::HMUI::ViewControllerBase_DidActivateDelegate*)>(&::HMUI::ViewControllerBase::add_didActivateEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5c97630;
+  constexpr static std::size_t addrs = 0x5cd0378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerBase::*)(::HMUI::ViewControllerBase_DidActivateDelegate*)>(&::HMUI::ViewControllerBase::remove_didActivateEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5c976dc;
+  constexpr static std::size_t addrs = 0x5cd0424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerBase::*)(::HMUI::ViewControllerBase_DidDeactivateDelegate*)>(&::HMUI::ViewControllerBase::add_didDeactivateEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5c97788;
+  constexpr static std::size_t addrs = 0x5cd04d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerBase::*)(::HMUI::ViewControllerBase_DidDeactivateDelegate*)>(
     &::HMUI::ViewControllerBase::remove_didDeactivateEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5c97834;
+  constexpr static std::size_t addrs = 0x5cd057c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerBase::*)(bool, bool, bool)>(&::HMUI::ViewControllerBase::CallDidActivate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5c978e0;
+  constexpr static std::size_t addrs = 0x5cd0628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerBase::*)(bool, bool)>(&::HMUI::ViewControllerBase::CallDidDeactivate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5c97908;
+  constexpr static std::size_t addrs = 0x5cd0650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::ViewControllerBase::*)()>(&::HMUI::ViewControllerBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c9792c;
+  constexpr static std::size_t addrs = 0x5cd0674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::ViewControllerBase*>(), { ".ctor", {}, {} })));

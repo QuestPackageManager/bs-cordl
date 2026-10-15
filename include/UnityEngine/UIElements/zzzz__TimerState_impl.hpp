@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::TimerState::*)()>(&::UnityEngine::UIElements::TimerState::get_start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7278c00;
+  constexpr static std::size_t addrs = 0x72b5b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TimerState>(), { "get_start", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TimerState::*)(int64_t)>(&::UnityEngine::UIElements::TimerState::set_start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7278c08;
+  constexpr static std::size_t addrs = 0x72b5b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::TimerState::*)()>(&::UnityEngine::UIElements::TimerState::get_now)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7278c10;
+  constexpr static std::size_t addrs = 0x72b5b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TimerState>(), { "get_now", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TimerState::*)(int64_t)>(&::UnityEngine::UIElements::TimerState::set_now)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7278c18;
+  constexpr static std::size_t addrs = 0x72b5b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::TimerState::*)()>(&::UnityEngine::UIElements::TimerState::get_deltaTime)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7278c20;
+  constexpr static std::size_t addrs = 0x72b5b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TimerState>(), { "get_deltaTime", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TimerState::*)(::System::Object*)>(&::UnityEngine::UIElements::TimerState::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x7278c2c;
+  constexpr static std::size_t addrs = 0x72b5b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TimerState::*)(::UnityEngine::UIElements::TimerState)>(&::UnityEngine::UIElements::TimerState::Equals)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x7278cb8;
+  constexpr static std::size_t addrs = 0x72b5bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::TimerState::*)()>(&::UnityEngine::UIElements::TimerState::GetHashCode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7278cdc;
+  constexpr static std::size_t addrs = 0x72b5c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

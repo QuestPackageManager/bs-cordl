@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::*)()>(
     &::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::get_xPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70201e4;
+  constexpr static std::size_t addrs = 0x705d0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::*)(float_t)>(
     &::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::set_xPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70201ec;
+  constexpr static std::size_t addrs = 0x705d0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::*)()>(
     &::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::get_yPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70201f4;
+  constexpr static std::size_t addrs = 0x705d0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::*)(float_t)>(
     &::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment::set_yPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70201fc;
+  constexpr static std::size_t addrs = 0x705d0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

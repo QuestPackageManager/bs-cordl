@@ -193,7 +193,7 @@ public:
   constexpr ApiLayers_ApiLayerJson(::StringW name, ::StringW library_path, ::StringW api_version, ::StringW implementation_version, ::StringW description) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17470 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -252,34 +252,34 @@ public:
 
   __declspec(property(get = get_name)) ::StringW name;
 
-  /// @brief Method .ctor, addr 0x6e29c24, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e668c0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::ApiLayers_ApiLayerJson json, ::StringW jsonFileName, ::System::Runtime::InteropServices::Architecture libraryArchitecture, bool isEnabled);
 
-  /// @brief Method get_apiVersion, addr 0x6e29c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_apiVersion, addr 0x6e668a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_apiVersion();
 
-  /// @brief Method get_description, addr 0x6e29c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_description, addr 0x6e668b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_description();
 
-  /// @brief Method get_implementationVersion, addr 0x6e29c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_implementationVersion, addr 0x6e668a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_implementationVersion();
 
-  /// @brief Method get_isEnabled, addr 0x6e29be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEnabled, addr 0x6e66880, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEnabled();
 
-  /// @brief Method get_jsonFileName, addr 0x6e29c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_jsonFileName, addr 0x6e668b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_jsonFileName();
 
-  /// @brief Method get_libraryArchitecture, addr 0x6e29bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_libraryArchitecture, addr 0x6e66890, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::InteropServices::Architecture get_libraryArchitecture();
 
-  /// @brief Method get_libraryPath, addr 0x6e29bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_libraryPath, addr 0x6e66898, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_libraryPath();
 
-  /// @brief Method get_name, addr 0x6e29588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6e66224, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_isEnabled, addr 0x6e29bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isEnabled, addr 0x6e66888, size 0x8, virtual false, abstract: false, final false
   inline void set_isEnabled(bool value);
 
   // Ctor Parameters []
@@ -293,7 +293,7 @@ public:
                                bool m_IsEnabled) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17469 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -344,7 +344,7 @@ public:
   constexpr ApiLayers_ApiLayerManifestJson(::StringW file_format_version, ::UnityEngine::XR::OpenXR::ApiLayers_ApiLayerJson api_layer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17471 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -372,14 +372,14 @@ namespace UnityEngine::XR::OpenXR {
 class CORDL_TYPE ApiLayers_FileProcessor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CleanupApiLayerFiles, addr 0x6e2a2b4, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method CleanupApiLayerFiles, addr 0x6e66f50, size 0x33c, virtual false, abstract: false, final false
   static inline void CleanupApiLayerFiles(::StringW layerName, ::StringW jsonPath);
 
-  /// @brief Method CopyApiLayerFiles, addr 0x6e29c40, size 0x674, virtual false, abstract: false, final false
+  /// @brief Method CopyApiLayerFiles, addr 0x6e668dc, size 0x674, virtual false, abstract: false, final false
   static inline bool CopyApiLayerFiles(::StringW jsonPath, ::StringW libraryPath, ::System::Runtime::InteropServices::Architecture libraryArchitecture,
                                        ::UnityEngine::XR::OpenXR::ApiLayers_IPlatformSupport* platformSupport, ::by_ref<::UnityEngine::XR::OpenXR::ApiLayers_ApiLayerManifestJson> layerManifest);
 
-  /// @brief Method ResolveLibraryPath, addr 0x6e2a5f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ResolveLibraryPath, addr 0x6e6728c, size 0xb0, virtual false, abstract: false, final false
   static inline ::StringW ResolveLibraryPath(::StringW jsonPath, ::StringW libraryPath);
 
 protected:
@@ -397,7 +397,7 @@ public:
   ApiLayers_FileProcessor(ApiLayers_FileProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17472 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -424,30 +424,30 @@ public:
   /// @brief Convert operator to "::UnityEngine::XR::OpenXR::ApiLayers_ISupport"
   constexpr operator ::UnityEngine::XR::OpenXR::ApiLayers_ISupport*() noexcept;
 
-  /// @brief Method GetApiLayersDir, addr 0x6e2a6a8, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method GetApiLayersDir, addr 0x6e67344, size 0xc8, virtual true, abstract: false, final true
   inline ::StringW GetApiLayersDir();
 
-  /// @brief Method GetBundleDir, addr 0x6e2a770, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetBundleDir, addr 0x6e6740c, size 0x14, virtual true, abstract: false, final true
   inline ::StringW GetBundleDir();
 
-  /// @brief Method GetExpectedArchitectureImportString, addr 0x6e2a83c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetExpectedArchitectureImportString, addr 0x6e674d8, size 0x64, virtual false, abstract: false, final false
   inline ::StringW GetExpectedArchitectureImportString(::System::Runtime::InteropServices::Architecture architecture);
 
-  /// @brief Method GetSupportedArchitectures, addr 0x6e2a784, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method GetSupportedArchitectures, addr 0x6e67420, size 0x5c, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Runtime::InteropServices::Architecture> GetSupportedArchitectures();
 
-  /// @brief Method GetSupportedExtensions, addr 0x6e2a7e0, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method GetSupportedExtensions, addr 0x6e6747c, size 0x5c, virtual true, abstract: false, final true
   inline ::ArrayW<::StringW> GetSupportedExtensions();
 
   static inline ::UnityEngine::XR::OpenXR::ApiLayers_AndroidPlatformSupport* New_ctor();
 
-  /// @brief Method Setup, addr 0x6e2a6a0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Setup, addr 0x6e6733c, size 0x4, virtual true, abstract: false, final true
   inline void Setup(::System::IntPtr hookGetInstanceProcAddr);
 
-  /// @brief Method Teardown, addr 0x6e2a6a4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Teardown, addr 0x6e67340, size 0x4, virtual true, abstract: false, final true
   inline void Teardown(uint64_t xrInstance);
 
-  /// @brief Method .ctor, addr 0x6e2a8a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e6753c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Runtime::InteropServices::Architecture> getStaticF_s_SupportedArchitectures();
@@ -479,7 +479,7 @@ public:
   ApiLayers_AndroidPlatformSupport(ApiLayers_AndroidPlatformSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17473 };
 
   /// @brief Field k_AndroidApiLayersPath offset 0xffffffff size 0x8
   static constexpr ::ConstString k_AndroidApiLayersPath{ u"AndroidLayers" };
@@ -529,7 +529,7 @@ public:
   ApiLayers_IPlatformSupport(ApiLayers_IPlatformSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17474 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -556,24 +556,24 @@ public:
   /// @brief Convert operator to "::UnityEngine::XR::OpenXR::ApiLayers_ISupport"
   constexpr operator ::UnityEngine::XR::OpenXR::ApiLayers_ISupport*() noexcept;
 
-  /// @brief Method GetApiLayersDir, addr 0x6e2aa88, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method GetApiLayersDir, addr 0x6e67724, size 0xc8, virtual true, abstract: false, final true
   inline ::StringW GetApiLayersDir();
 
-  /// @brief Method GetBundleDir, addr 0x6e2aba0, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetBundleDir, addr 0x6e6783c, size 0x14, virtual true, abstract: false, final true
   inline ::StringW GetBundleDir();
 
-  /// @brief Method GetSupportedArchitectures, addr 0x6e2abb4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method GetSupportedArchitectures, addr 0x6e67850, size 0x5c, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Runtime::InteropServices::Architecture> GetSupportedArchitectures();
 
-  /// @brief Method GetSupportedExtensions, addr 0x6e2ac10, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method GetSupportedExtensions, addr 0x6e678ac, size 0x80, virtual true, abstract: false, final true
   inline ::ArrayW<::StringW> GetSupportedExtensions();
 
   static inline ::UnityEngine::XR::OpenXR::ApiLayers_WindowsPlatformSupport* New_ctor();
 
-  /// @brief Method Setup, addr 0x6e2a998, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method Setup, addr 0x6e67634, size 0xf0, virtual true, abstract: false, final true
   inline void Setup(::System::IntPtr hookGetInstanceProcAddr);
 
-  /// @brief Method Teardown, addr 0x6e2ab50, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method Teardown, addr 0x6e677ec, size 0x50, virtual true, abstract: false, final true
   inline void Teardown(uint64_t xrInstance);
 
   constexpr ::StringW const& __cordl_internal_get_m_OriginalEnabledLayersPath() const;
@@ -582,12 +582,12 @@ public:
 
   constexpr void __cordl_internal_set_m_OriginalEnabledLayersPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e2ac90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e6792c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Runtime::InteropServices::Architecture> getStaticF_s_SupportedArchitectures();
 
-  /// @brief Method get_callbackOrder, addr 0x6e2a990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_callbackOrder, addr 0x6e6762c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_callbackOrder();
 
   /// @brief Convert to "::UnityEngine::XR::OpenXR::ApiLayers_IPlatformSupport"
@@ -613,7 +613,7 @@ public:
   ApiLayers_WindowsPlatformSupport(ApiLayers_WindowsPlatformSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17475 };
 
   /// @brief Field k_ApiLayerPathVar offset 0xffffffff size 0x8
   static constexpr ::ConstString k_ApiLayerPathVar{ u"XR_API_LAYER_PATH" };
@@ -658,24 +658,24 @@ public:
   /// @brief Convert operator to "::UnityEngine::XR::OpenXR::ApiLayers_ISupport"
   constexpr operator ::UnityEngine::XR::OpenXR::ApiLayers_ISupport*() noexcept;
 
-  /// @brief Method GetDefaultLogPath, addr 0x6e2b09c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultLogPath, addr 0x6e67d38, size 0x13c, virtual false, abstract: false, final false
   inline ::StringW GetDefaultLogPath();
 
   static inline ::UnityEngine::XR::OpenXR::ApiLayers_LogSupport* New_ctor();
 
-  /// @brief Method ProcessLog, addr 0x6e2b6fc, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ProcessLog, addr 0x6e68398, size 0x1ac, virtual false, abstract: false, final false
   inline void ProcessLog();
 
-  /// @brief Method ProcessLogFile, addr 0x6e2b8a8, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method ProcessLogFile, addr 0x6e68544, size 0x208, virtual false, abstract: false, final false
   inline void ProcessLogFile(::StringW filePath, int32_t maxLines);
 
-  /// @brief Method Setup, addr 0x6e2b6a8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x6e68344, size 0x54, virtual true, abstract: false, final false
   inline void Setup(::System::IntPtr hookGetInstanceProcAddr);
 
   /// @brief Method SetupLog, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetupLog();
 
-  /// @brief Method Teardown, addr 0x6e2b284, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Teardown, addr 0x6e67f20, size 0x4, virtual true, abstract: false, final false
   inline void Teardown(uint64_t xrInstance);
 
   constexpr ::StringW const& __cordl_internal_get_m_LogFilePath() const;
@@ -684,7 +684,7 @@ public:
 
   constexpr void __cordl_internal_set_m_LogFilePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e2b288, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e67f24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_LogFileName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -711,7 +711,7 @@ public:
   ApiLayers_LogSupport(ApiLayers_LogSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17479 };
 
   /// @brief Field k_LogsDir offset 0xffffffff size 0x8
   static constexpr ::ConstString k_LogsDir{ u"Logs~" };
@@ -745,30 +745,30 @@ public:
   __declspec(property(get = get_LogPrefix)) ::StringW LogPrefix;
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method AddSupport, addr 0x6e2ad20, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AddSupport, addr 0x6e679bc, size 0x80, virtual false, abstract: false, final false
   static inline void AddSupport();
 
   static inline ::UnityEngine::XR::OpenXR::ApiLayers_ApiDumpLogSupport* New_ctor();
 
-  /// @brief Method SetupLog, addr 0x6e2ae2c, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method SetupLog, addr 0x6e67ac8, size 0x1a4, virtual true, abstract: false, final false
   inline void SetupLog();
 
-  /// @brief Method SetupWindowsLog, addr 0x6e2afd8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetupWindowsLog, addr 0x6e67c74, size 0xc4, virtual false, abstract: false, final false
   inline void SetupWindowsLog();
 
-  /// @brief Method Teardown, addr 0x6e2b280, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Teardown, addr 0x6e67f1c, size 0x4, virtual true, abstract: false, final false
   inline void Teardown(uint64_t xrInstance);
 
-  /// @brief Method TeardownWindowsLog, addr 0x6e2b1d8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method TeardownWindowsLog, addr 0x6e67e74, size 0xa8, virtual false, abstract: false, final false
   inline void TeardownWindowsLog();
 
-  /// @brief Method .ctor, addr 0x6e2ada0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e67a3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LogFileName, addr 0x6e2ada4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_LogFileName, addr 0x6e67a40, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_LogFileName();
 
-  /// @brief Method get_LogPrefix, addr 0x6e2ade8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_LogPrefix, addr 0x6e67a84, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_LogPrefix();
 
 protected:
@@ -786,7 +786,7 @@ public:
   ApiLayers_ApiDumpLogSupport(ApiLayers_ApiDumpLogSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17476 };
 
   /// @brief Field k_LayerName offset 0xffffffff size 0x8
   static constexpr ::ConstString k_LayerName{ u"XR_APILAYER_LUNARG_api_dump" };
@@ -821,30 +821,30 @@ public:
   __declspec(property(get = get_LogPrefix)) ::StringW LogPrefix;
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method AddSupport, addr 0x6e2b314, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AddSupport, addr 0x6e67fb0, size 0x80, virtual false, abstract: false, final false
   static inline void AddSupport();
 
   static inline ::UnityEngine::XR::OpenXR::ApiLayers_CoreValidationLogSupport* New_ctor();
 
-  /// @brief Method SetupLog, addr 0x6e2b398, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method SetupLog, addr 0x6e68034, size 0x1a4, virtual true, abstract: false, final false
   inline void SetupLog();
 
-  /// @brief Method SetupWindowsLog, addr 0x6e2b53c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetupWindowsLog, addr 0x6e681d8, size 0xc4, virtual false, abstract: false, final false
   inline void SetupWindowsLog();
 
-  /// @brief Method Teardown, addr 0x6e2b600, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Teardown, addr 0x6e6829c, size 0x4, virtual true, abstract: false, final false
   inline void Teardown(uint64_t xrInstance);
 
-  /// @brief Method TeardownWindowsLog, addr 0x6e2b604, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method TeardownWindowsLog, addr 0x6e682a0, size 0xa4, virtual false, abstract: false, final false
   inline void TeardownWindowsLog();
 
-  /// @brief Method .ctor, addr 0x6e2b394, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e68030, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LogFileName, addr 0x6e2b28c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_LogFileName, addr 0x6e67f28, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_LogFileName();
 
-  /// @brief Method get_LogPrefix, addr 0x6e2b2d0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_LogPrefix, addr 0x6e67f6c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_LogPrefix();
 
 protected:
@@ -862,7 +862,7 @@ public:
   ApiLayers_CoreValidationLogSupport(ApiLayers_CoreValidationLogSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17477 };
 
   /// @brief Field k_LayerName offset 0xffffffff size 0x8
   static constexpr ::ConstString k_LayerName{ u"XR_APILAYER_LUNARG_core_validation" };
@@ -903,7 +903,7 @@ public:
   ApiLayers_ISupport(ApiLayers_ISupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17478 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -925,10 +925,10 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::ApiLayers___c* New_ctor();
 
-  /// @brief Method <IsEnabled>b__20_1, addr 0x6e2bb08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <IsEnabled>b__20_1, addr 0x6e687a4, size 0x8, virtual false, abstract: false, final false
   inline bool _IsEnabled_b__20_1(::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer layer);
 
-  /// @brief Method .ctor, addr 0x6e2bb04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e687a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::XR::OpenXR::ApiLayers___c* getStaticF___9();
@@ -954,7 +954,7 @@ public:
   ApiLayers___c(ApiLayers___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17447 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17480 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -978,7 +978,7 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::ApiLayers___c__DisplayClass19_0* New_ctor();
 
-  /// @brief Method <IsEnabled>b__0, addr 0x6e2bb10, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <IsEnabled>b__0, addr 0x6e687ac, size 0x44, virtual false, abstract: false, final false
   inline bool _IsEnabled_b__0(::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer layer);
 
   constexpr ::StringW const& __cordl_internal_get_layerName() const;
@@ -993,7 +993,7 @@ public:
 
   constexpr void __cordl_internal_set_libraryArchitecture(::System::Runtime::InteropServices::Architecture value);
 
-  /// @brief Method .ctor, addr 0x6e29144, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e65de0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1011,7 +1011,7 @@ public:
   ApiLayers___c__DisplayClass19_0(ApiLayers___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17481 };
 
   /// @brief Field layerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___layerName;
@@ -1042,7 +1042,7 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::ApiLayers___c__DisplayClass20_0* New_ctor();
 
-  /// @brief Method <IsEnabled>b__0, addr 0x6e2bb54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <IsEnabled>b__0, addr 0x6e687f0, size 0x10, virtual false, abstract: false, final false
   inline bool _IsEnabled_b__0(::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer layer);
 
   constexpr ::StringW const& __cordl_internal_get_layerName() const;
@@ -1051,7 +1051,7 @@ public:
 
   constexpr void __cordl_internal_set_layerName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e2933c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e65fd8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1069,7 +1069,7 @@ public:
   ApiLayers___c__DisplayClass20_0(ApiLayers___c__DisplayClass20_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17449 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17482 };
 
   /// @brief Field layerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___layerName;
@@ -1098,7 +1098,7 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::ApiLayers___c__DisplayClass21_0* New_ctor();
 
-  /// @brief Method <SetEnabled>b__0, addr 0x6e2bb64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <SetEnabled>b__0, addr 0x6e68800, size 0x44, virtual false, abstract: false, final false
   inline bool _SetEnabled_b__0(::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer layer);
 
   constexpr ::StringW const& __cordl_internal_get_layerName() const;
@@ -1113,7 +1113,7 @@ public:
 
   constexpr void __cordl_internal_set_libraryArchitecture(::System::Runtime::InteropServices::Architecture value);
 
-  /// @brief Method .ctor, addr 0x6e2956c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e66208, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1131,7 +1131,7 @@ public:
   ApiLayers___c__DisplayClass21_0(ApiLayers___c__DisplayClass21_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17450 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17483 };
 
   /// @brief Field layerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___layerName;
@@ -1162,7 +1162,7 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::ApiLayers___c__DisplayClass23_0* New_ctor();
 
-  /// @brief Method <SetEnabled>b__0, addr 0x6e2bba8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <SetEnabled>b__0, addr 0x6e68844, size 0x10, virtual false, abstract: false, final false
   inline bool _SetEnabled_b__0(::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer layer);
 
   constexpr ::StringW const& __cordl_internal_get_layerName() const;
@@ -1171,7 +1171,7 @@ public:
 
   constexpr void __cordl_internal_set_layerName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6e29790, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e6642c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1189,7 +1189,7 @@ public:
   ApiLayers___c__DisplayClass23_0(ApiLayers___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17484 };
 
   /// @brief Field layerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___layerName;
@@ -1218,7 +1218,7 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::ApiLayers___c__DisplayClass25_0* New_ctor();
 
-  /// @brief Method <SetIndex>b__0, addr 0x6e2bbb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <SetIndex>b__0, addr 0x6e68854, size 0x44, virtual false, abstract: false, final false
   inline bool _SetIndex_b__0(::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer layer);
 
   constexpr ::StringW const& __cordl_internal_get_layerName() const;
@@ -1233,7 +1233,7 @@ public:
 
   constexpr void __cordl_internal_set_libraryArchitecture(::System::Runtime::InteropServices::Architecture value);
 
-  /// @brief Method .ctor, addr 0x6e29a10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e666ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1251,7 +1251,7 @@ public:
   ApiLayers___c__DisplayClass25_0(ApiLayers___c__DisplayClass25_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17485 };
 
   /// @brief Field layerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___layerName;
@@ -1285,7 +1285,7 @@ public:
 
   static inline ::UnityEngine::XR::OpenXR::ApiLayers___c__DisplayClass27_0* New_ctor();
 
-  /// @brief Method <Exists>b__0, addr 0x6e2bbfc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <Exists>b__0, addr 0x6e68898, size 0x48, virtual false, abstract: false, final false
   inline bool _Exists_b__0(::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer layer);
 
   constexpr ::StringW const& __cordl_internal_get_layerName() const;
@@ -1300,7 +1300,7 @@ public:
 
   constexpr void __cordl_internal_set_libraryArchitecture(::System::Runtime::InteropServices::Architecture value);
 
-  /// @brief Method .ctor, addr 0x6e29b48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e667e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1318,7 +1318,7 @@ public:
   ApiLayers___c__DisplayClass27_0(ApiLayers___c__DisplayClass27_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17486 };
 
   /// @brief Field layerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___layerName;
@@ -1388,36 +1388,36 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Collection,
                       put = __cordl_internal_set_m_Collection)) ::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer>* m_Collection;
 
-  /// @brief Method Exists, addr 0x6e29a2c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Exists, addr 0x6e666c8, size 0x11c, virtual false, abstract: false, final false
   inline bool Exists(::StringW layerName, ::System::Runtime::InteropServices::Architecture libraryArchitecture);
 
-  /// @brief Method GetExplicitLayersDir, addr 0x6e28dec, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetExplicitLayersDir, addr 0x6e65a88, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW GetExplicitLayersDir();
 
-  /// @brief Method IsEnabled, addr 0x6e29148, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method IsEnabled, addr 0x6e65de4, size 0x1f4, virtual false, abstract: false, final false
   inline bool IsEnabled(::StringW layerName);
 
-  /// @brief Method IsEnabled, addr 0x6e29008, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method IsEnabled, addr 0x6e65ca4, size 0x13c, virtual false, abstract: false, final false
   inline bool IsEnabled(::StringW layerName, ::System::Runtime::InteropServices::Architecture libraryArchitecture);
 
   static inline ::UnityEngine::XR::OpenXR::ApiLayers* New_ctor();
 
-  /// @brief Method SetEnabled, addr 0x6e29570, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetEnabled, addr 0x6e6620c, size 0x18, virtual false, abstract: false, final false
   inline void SetEnabled(::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer apiLayer, bool enabled);
 
-  /// @brief Method SetEnabled, addr 0x6e29590, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method SetEnabled, addr 0x6e6622c, size 0x200, virtual false, abstract: false, final false
   inline void SetEnabled(::StringW layerName, bool enabled);
 
-  /// @brief Method SetEnabled, addr 0x6e29340, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method SetEnabled, addr 0x6e65fdc, size 0x22c, virtual false, abstract: false, final false
   inline void SetEnabled(::StringW layerName, ::System::Runtime::InteropServices::Architecture libraryArchitecture, bool enabled);
 
-  /// @brief Method SetIndex, addr 0x6e29a14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetIndex, addr 0x6e666b0, size 0x18, virtual false, abstract: false, final false
   inline bool SetIndex(::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer apiLayer, int32_t destinationIndex);
 
-  /// @brief Method SetIndex, addr 0x6e298d4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetIndex, addr 0x6e66570, size 0x13c, virtual false, abstract: false, final false
   inline bool SetIndex(::StringW layerName, ::System::Runtime::InteropServices::Architecture libraryArchitecture, int32_t destinationIndex);
 
-  /// @brief Method SetIndex, addr 0x6e29794, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method SetIndex, addr 0x6e66430, size 0x140, virtual false, abstract: false, final false
   inline bool SetIndex(int32_t originalIndex, int32_t destinationIndex);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer>* const& __cordl_internal_get_m_Collection() const;
@@ -1426,12 +1426,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Collection(::System::Collections::Generic::List_1<::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer>* value);
 
-  /// @brief Method .ctor, addr 0x6e28d70, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e65a0c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<char16_t> getStaticF_k_PathTrimChars();
 
-  /// @brief Method get_collection, addr 0x6e28de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_collection, addr 0x6e65a80, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::XR::OpenXR::ApiLayers_ApiLayer>* get_collection();
 
   static inline void setStaticF_k_PathTrimChars(::ArrayW<char16_t> value);
@@ -1451,7 +1451,7 @@ public:
   ApiLayers(ApiLayers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17487 };
 
   /// @brief Field k_EditorApiLayersDir offset 0xffffffff size 0x8
   static constexpr ::ConstString k_EditorApiLayersDir{ u"APILayers~" };

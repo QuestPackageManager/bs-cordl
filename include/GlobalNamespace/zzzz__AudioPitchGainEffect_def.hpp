@@ -9,7 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioPitchGainEffect)
 namespace GlobalNamespace {
-class AudioPitchGainEffect__StartEffectCoroutine_d__8;
+class AudioPitchGainEffect__StartEffectCoroutine_d__7;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -40,19 +40,19 @@ namespace GlobalNamespace {
 class AudioPitchGainEffect;
 }
 namespace GlobalNamespace {
-class AudioPitchGainEffect__StartEffectCoroutine_d__8;
+class AudioPitchGainEffect__StartEffectCoroutine_d__7;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::AudioPitchGainEffect*);
-MARK_REF_T(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*);
+MARK_REF_T(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::AudioPitchGainEffect*, "", "AudioPitchGainEffect");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*, "", "AudioPitchGainEffect/<StartEffectCoroutine>d__8");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7*, "", "AudioPitchGainEffect/<StartEffectCoroutine>d__7");
 // [CompilerGenerated]
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: AudioPitchGainEffect/<StartEffectCoroutine>d__8
-class CORDL_TYPE AudioPitchGainEffect__StartEffectCoroutine_d__8 : public ::System::Object {
+// CS Name: AudioPitchGainEffect/<StartEffectCoroutine>d__7
+class CORDL_TYPE AudioPitchGainEffect__StartEffectCoroutine_d__7 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -89,26 +89,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5ccb6d4, size 0x190, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d046c0, size 0x190, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
-  static inline ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5ccb864, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d04850, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5ccb86c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d04858, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5ccb8a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d04890, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5ccb6d0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d046bc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -154,7 +154,7 @@ public:
   constexpr void __cordl_internal_set_volumeScale(float_t value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5ccb64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d04638, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -169,16 +169,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr AudioPitchGainEffect__StartEffectCoroutine_d__8();
+  constexpr AudioPitchGainEffect__StartEffectCoroutine_d__7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioPitchGainEffect__StartEffectCoroutine_d__8", modifiers: "&&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioPitchGainEffect__StartEffectCoroutine_d__7", modifiers: "&&", def_value: None, comment: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  AudioPitchGainEffect__StartEffectCoroutine_d__8(AudioPitchGainEffect__StartEffectCoroutine_d__8&&) = delete;
+  AudioPitchGainEffect__StartEffectCoroutine_d__7(AudioPitchGainEffect__StartEffectCoroutine_d__7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioPitchGainEffect__StartEffectCoroutine_d__8", modifiers: "const&", def_value: None, comment: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AudioPitchGainEffect__StartEffectCoroutine_d__7", modifiers: "const&", def_value: None, comment: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  AudioPitchGainEffect__StartEffectCoroutine_d__8(AudioPitchGainEffect__StartEffectCoroutine_d__8 const&) = delete;
+  AudioPitchGainEffect__StartEffectCoroutine_d__7(AudioPitchGainEffect__StartEffectCoroutine_d__7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5672 };
@@ -207,21 +207,21 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8, ___volumeScale) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7, ___volumeScale) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8, ___finishCallback) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7, ___finishCallback) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8, ____startPitch_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7, ____startPitch_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8, ____time_5__3) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7, ____time_5__3) == 0x3c, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8) == 0x40, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies UnityEngine.MonoBehaviour
@@ -231,7 +231,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE AudioPitchGainEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _StartEffectCoroutine_d__8 = ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8;
+  using _StartEffectCoroutine_d__7 = ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7;
 
   /// @brief Field _audioSource, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource)) ::UnityW<::UnityEngine::AudioSource> _audioSource;
@@ -251,25 +251,22 @@ public:
   /// @brief Field _startPitch, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__startPitch, put = __cordl_internal_set__startPitch)) float_t _startPitch;
 
-  /// @brief Field _startVolume, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get__startVolume, put = __cordl_internal_set__startVolume)) float_t _startVolume;
-
-  /// @brief Method InterruptEffect, addr 0x5ccb67c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InterruptEffect, addr 0x5d04668, size 0x3c, virtual false, abstract: false, final false
   inline void InterruptEffect();
 
   static inline ::GlobalNamespace::AudioPitchGainEffect* New_ctor();
 
-  /// @brief Method SetAudioSource, addr 0x5ccb6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAudioSource, addr 0x5d046a4, size 0x8, virtual false, abstract: false, final false
   inline void SetAudioSource(::UnityEngine::AudioSource* audioSource);
 
-  /// @brief Method Start, addr 0x5ccb5b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d045a0, size 0x24, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEffect, addr 0x5ccb654, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StartEffect, addr 0x5d04640, size 0x28, virtual false, abstract: false, final false
   inline void StartEffect(float_t volumeScale, ::System::Action* finishCallback);
 
-  /// [IteratorStateMachine(typeof(AudioPitchGainEffect::<StartEffectCoroutine>d__8))]
-  /// @brief Method StartEffectCoroutine, addr 0x5ccb5d8, size 0x74, virtual false, abstract: false, final false
+  /// [IteratorStateMachine(typeof(AudioPitchGainEffect::<StartEffectCoroutine>d__7))]
+  /// @brief Method StartEffectCoroutine, addr 0x5d045c4, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartEffectCoroutine(float_t volumeScale, ::System::Action* finishCallback);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -296,10 +293,6 @@ public:
 
   constexpr float_t& __cordl_internal_get__startPitch();
 
-  constexpr float_t const& __cordl_internal_get__startVolume() const;
-
-  constexpr float_t& __cordl_internal_get__startVolume();
-
   constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
   constexpr void __cordl_internal_set__currentCoroutine(::UnityEngine::Coroutine* value);
@@ -312,9 +305,7 @@ public:
 
   constexpr void __cordl_internal_set__startPitch(float_t value);
 
-  constexpr void __cordl_internal_set__startVolume(float_t value);
-
-  /// @brief Method .ctor, addr 0x5ccb6c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d046ac, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -356,9 +347,6 @@ public:
   /// @brief Field _startPitch, offset: 0x48, size: 0x4, def value: None
   float_t ____startPitch;
 
-  /// @brief Field _startVolume, offset: 0x4c, size: 0x4, def value: None
-  float_t ____startVolume;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -373,8 +361,6 @@ static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____gainCurve) =
 static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____currentCoroutine) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____startPitch) == 0x48, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____startVolume) == 0x4c, "Offset mismatch!");
 
 static_assert(sizeof(::GlobalNamespace::AudioPitchGainEffect) == 0x50, "Size mismatch!");
 

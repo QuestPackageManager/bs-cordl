@@ -94,8 +94,6 @@ public:
   /// @brief Field _translationZMirrored, offset 0x2d, size 0x1
   __declspec(property(get = __cordl_internal_get__translationZMirrored, put = __cordl_internal_set__translationZMirrored)) bool _translationZMirrored;
 
-  __declspec(property(get = get_childCount)) int32_t childCount;
-
   __declspec(property(get = get_children)) ::ArrayW<::UnityW<::UnityEngine::Transform>> children;
 
   __declspec(property(get = get_colorTargets)) ::ArrayW<::GlobalNamespace::ColorTargetsBucket*> colorTargets;
@@ -134,7 +132,7 @@ public:
 
   __declspec(property(get = get_translationZMirrored)) bool translationZMirrored;
 
-  /// @brief Method IsValid, addr 0x5dae20c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x5deb3fc, size 0x20, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::GlobalNamespace::CompositeLightControllerData* New_ctor();
@@ -247,67 +245,64 @@ public:
 
   constexpr void __cordl_internal_set__translationZMirrored(bool value);
 
-  /// @brief Method .ctor, addr 0x5dae22c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5deb41c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_childCount, addr 0x5dae110, size 0x84, virtual false, abstract: false, final false
-  inline int32_t get_childCount();
-
-  /// @brief Method get_children, addr 0x5dae0f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_children, addr 0x5deb36c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Transform>> get_children();
 
-  /// @brief Method get_colorTargets, addr 0x5dae1cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorTargets, addr 0x5deb3bc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::ColorTargetsBucket*> get_colorTargets();
 
-  /// @brief Method get_defaultTransformTarget, addr 0x5dae100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultTransformTarget, addr 0x5deb374, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_defaultTransformTarget();
 
-  /// @brief Method get_floatFxTargets, addr 0x5dae1c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatFxTargets, addr 0x5deb3b4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::FloatFxTargetsBucket*> get_floatFxTargets();
 
-  /// @brief Method get_groupId, addr 0x5daa928, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_groupId, addr 0x5de7b9c, size 0x84, virtual false, abstract: false, final false
   inline int32_t get_groupId();
 
-  /// @brief Method get_lightGroupSO, addr 0x5dae108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroupSO, addr 0x5deb37c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroupSO();
 
-  /// @brief Method get_rotationTransformsX, addr 0x5dae1dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationTransformsX, addr 0x5deb3cc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Transform>> get_rotationTransformsX();
 
-  /// @brief Method get_rotationTransformsY, addr 0x5dae1e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationTransformsY, addr 0x5deb3d4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Transform>> get_rotationTransformsY();
 
-  /// @brief Method get_rotationTransformsZ, addr 0x5dae1ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationTransformsZ, addr 0x5deb3dc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Transform>> get_rotationTransformsZ();
 
-  /// @brief Method get_rotationXMirrored, addr 0x5dae194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationXMirrored, addr 0x5deb384, size 0x8, virtual false, abstract: false, final false
   inline bool get_rotationXMirrored();
 
-  /// @brief Method get_rotationYMirrored, addr 0x5dae19c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationYMirrored, addr 0x5deb38c, size 0x8, virtual false, abstract: false, final false
   inline bool get_rotationYMirrored();
 
-  /// @brief Method get_rotationZMirrored, addr 0x5dae1a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationZMirrored, addr 0x5deb394, size 0x8, virtual false, abstract: false, final false
   inline bool get_rotationZMirrored();
 
-  /// @brief Method get_transformMode, addr 0x5dae1d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transformMode, addr 0x5deb3c4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CompositeTransformMode get_transformMode();
 
-  /// @brief Method get_translationTransformsX, addr 0x5dae1f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationTransformsX, addr 0x5deb3e4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Transform>> get_translationTransformsX();
 
-  /// @brief Method get_translationTransformsY, addr 0x5dae1fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationTransformsY, addr 0x5deb3ec, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Transform>> get_translationTransformsY();
 
-  /// @brief Method get_translationTransformsZ, addr 0x5dae204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationTransformsZ, addr 0x5deb3f4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Transform>> get_translationTransformsZ();
 
-  /// @brief Method get_translationXMirrored, addr 0x5dae1ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationXMirrored, addr 0x5deb39c, size 0x8, virtual false, abstract: false, final false
   inline bool get_translationXMirrored();
 
-  /// @brief Method get_translationYMirrored, addr 0x5dae1b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationYMirrored, addr 0x5deb3a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_translationYMirrored();
 
-  /// @brief Method get_translationZMirrored, addr 0x5dae1bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationZMirrored, addr 0x5deb3ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_translationZMirrored();
 
 protected:
@@ -325,7 +320,7 @@ public:
   CompositeLightControllerData(CompositeLightControllerData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5949 };
 
   /// [SerializeField]
   /// @brief Field _children, offset: 0x10, size: 0x8, def value: None

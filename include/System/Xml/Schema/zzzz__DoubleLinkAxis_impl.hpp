@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::MS::Internal::Xml::XPath::Axis* (::System::Xml::Schema::DoubleLinkAxis::*)()>(&::System::Xml::Schema::DoubleLinkAxis::get_Next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x673f918;
+  constexpr static std::size_t addrs = 0x677c4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::DoubleLinkAxis*>(), { "get_Next", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DoubleLinkAxis::*)(::MS::Internal::Xml::XPath::Axis*)>(&::System::Xml::Schema::DoubleLinkAxis::set_Next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x673f920;
+  constexpr static std::size_t addrs = 0x677c4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::DoubleLinkAxis::*)(::MS::Internal::Xml::XPath::Axis*, ::System::Xml::Schema::DoubleLinkAxis*)>(
     &::System::Xml::Schema::DoubleLinkAxis::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x673f928;
+  constexpr static std::size_t addrs = 0x677c4f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::DoubleLinkAxis* (*)(::MS::Internal::Xml::XPath::Axis*)>(&::System::Xml::Schema::DoubleLinkAxis::ConvertTree)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x673f980;
+  constexpr static std::size_t addrs = 0x677c550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

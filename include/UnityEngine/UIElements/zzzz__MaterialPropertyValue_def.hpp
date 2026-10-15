@@ -43,31 +43,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::MaterialPropertyValue>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::MaterialPropertyValue>*();
 
-  /// @brief Method Equals, addr 0x7106b50, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x7143a84, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x7106a54, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x7143988, size 0xfc, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::MaterialPropertyValue other);
 
-  /// @brief Method GetColor, addr 0x7106084, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetColor, addr 0x7142fb8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetColor();
 
-  /// @brief Method GetFloat, addr 0x7106070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetFloat, addr 0x7142fa4, size 0x8, virtual false, abstract: false, final false
   inline float_t GetFloat();
 
-  /// @brief Method GetHashCode, addr 0x710646c, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x71433a0, size 0x14c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetVector, addr 0x7106078, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetVector, addr 0x7142fac, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetVector();
 
-  /// @brief Method ToString, addr 0x7106788, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x71436bc, size 0x180, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::MaterialPropertyValue>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::MaterialPropertyValue>* i___System__IEquatable_1___UnityEngine__UIElements__MaterialPropertyValue_();
 
-  /// @brief Method op_Inequality, addr 0x710622c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x7143160, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::MaterialPropertyValue lhs, ::UnityEngine::UIElements::MaterialPropertyValue rhs);
 
   // Ctor Parameters []

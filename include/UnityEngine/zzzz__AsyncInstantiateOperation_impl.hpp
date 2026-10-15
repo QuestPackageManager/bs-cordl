@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AsyncInstantiateOperation::*)(::System::IntPtr, ::System::Threading::CancellationToken)>(
     &::UnityEngine::AsyncInstantiateOperation::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6f33e5c;
+  constexpr static std::size_t addrs = 0x6f70cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AsyncInstantiateOperation::*)()>(&::UnityEngine::AsyncInstantiateOperation::IsCancellationRequested)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6f33f58;
+  constexpr static std::size_t addrs = 0x6f70db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AsyncInstantiateOperation*>(), { "IsCancellationRequested", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Object>> (::UnityEngine::AsyncInstantiateOperation::*)(int32_t)>(
     &::UnityEngine::AsyncInstantiateOperation::CreateResultArray)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6f33fcc;
+  constexpr static std::size_t addrs = 0x6f70e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

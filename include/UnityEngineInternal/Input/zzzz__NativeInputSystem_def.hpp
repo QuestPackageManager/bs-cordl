@@ -55,42 +55,42 @@ public:
   __declspec(property(get = getStaticF_s_OnDeviceDiscoveredCallback, put = setStaticF_s_OnDeviceDiscoveredCallback)) ::System::Action_2<int32_t, ::StringW>* s_OnDeviceDiscoveredCallback;
 
   /// [FreeFunction("AllocateInputDeviceId")]
-  /// @brief Method AllocateDeviceId, addr 0x6fc3d68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AllocateDeviceId, addr 0x7000c5c, size 0x28, virtual false, abstract: false, final false
   static inline int32_t AllocateDeviceId();
 
-  /// @brief Method GetPollingFrequency, addr 0x6fc3e60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetPollingFrequency, addr 0x7000d54, size 0x28, virtual false, abstract: false, final false
   static inline float_t GetPollingFrequency();
 
-  /// @brief Method GetScrollWheelDeltaPerTick, addr 0x6fc3f28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetScrollWheelDeltaPerTick, addr 0x7000e1c, size 0x28, virtual false, abstract: false, final false
   static inline float_t GetScrollWheelDeltaPerTick();
 
-  /// @brief Method IOCTL, addr 0x6fc3dcc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IOCTL, addr 0x7000cc0, size 0x5c, virtual false, abstract: false, final false
   static inline int64_t IOCTL(int32_t deviceId, int32_t code, ::System::IntPtr data, int32_t sizeInBytes);
 
   /// [RequiredByNativeCode]
-  /// @brief Method NotifyBeforeUpdate, addr 0x6fc3ad0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method NotifyBeforeUpdate, addr 0x70009c4, size 0x80, virtual false, abstract: false, final false
   static inline void NotifyBeforeUpdate(::UnityEngineInternal::Input::NativeInputUpdateType updateType);
 
   /// [RequiredByNativeCode]
-  /// @brief Method NotifyDeviceDiscovered, addr 0x6fc3bf0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method NotifyDeviceDiscovered, addr 0x7000ae4, size 0x94, virtual false, abstract: false, final false
   static inline void NotifyDeviceDiscovered(int32_t deviceId, ::StringW deviceDescriptor);
 
   /// [RequiredByNativeCode]
-  /// @brief Method NotifyUpdate, addr 0x6fc3b50, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method NotifyUpdate, addr 0x7000a44, size 0xa0, virtual false, abstract: false, final false
   static inline void NotifyUpdate(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::System::IntPtr eventBuffer);
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method QueueInputEvent, addr 0x6fc3d90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method QueueInputEvent, addr 0x7000c84, size 0x3c, virtual false, abstract: false, final false
   static inline void QueueInputEvent(::System::IntPtr inputEvent);
 
-  /// @brief Method SetPollingFrequency, addr 0x6fc3e28, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetPollingFrequency, addr 0x7000d1c, size 0x38, virtual false, abstract: false, final false
   static inline void SetPollingFrequency(float_t hertz);
 
   /// [RequiredByNativeCode]
-  /// @brief Method ShouldRunUpdate, addr 0x6fc3c84, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ShouldRunUpdate, addr 0x7000b78, size 0x94, virtual false, abstract: false, final false
   static inline void ShouldRunUpdate(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::by_ref<bool> retval);
 
-  /// @brief Method Update, addr 0x6fc3e88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x7000d7c, size 0x3c, virtual false, abstract: false, final false
   static inline void Update(::UnityEngineInternal::Input::NativeInputUpdateType updateType);
 
   static inline ::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>* getStaticF_onBeforeUpdate();
@@ -101,16 +101,16 @@ public:
 
   static inline ::System::Action_2<int32_t, ::StringW>* getStaticF_s_OnDeviceDiscoveredCallback();
 
-  /// @brief Method get_currentTime, addr 0x6fc3d18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_currentTime, addr 0x7000c0c, size 0x28, virtual false, abstract: false, final false
   static inline double_t get_currentTime();
 
-  /// @brief Method get_currentTimeOffsetToRealtimeSinceStartup, addr 0x6fc3d40, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_currentTimeOffsetToRealtimeSinceStartup, addr 0x7000c34, size 0x28, virtual false, abstract: false, final false
   static inline double_t get_currentTimeOffsetToRealtimeSinceStartup();
 
-  /// @brief Method get_normalizeScrollWheelDelta, addr 0x6fc3ec4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_normalizeScrollWheelDelta, addr 0x7000db8, size 0x28, virtual false, abstract: false, final false
   static inline bool get_normalizeScrollWheelDelta();
 
-  /// @brief Method get_onDeviceDiscovered, addr 0x6fc3980, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_onDeviceDiscovered, addr 0x7000874, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Action_2<int32_t, ::StringW>* get_onDeviceDiscovered();
 
   static inline void setStaticF_onBeforeUpdate(::System::Action_1<::UnityEngineInternal::Input::NativeInputUpdateType>* value);
@@ -121,13 +121,13 @@ public:
 
   static inline void setStaticF_s_OnDeviceDiscoveredCallback(::System::Action_2<int32_t, ::StringW>* value);
 
-  /// @brief Method set_hasDeviceDiscoveredCallback, addr 0x6fc3a64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_hasDeviceDiscoveredCallback, addr 0x7000958, size 0x3c, virtual false, abstract: false, final false
   static inline void set_hasDeviceDiscoveredCallback(bool value);
 
-  /// @brief Method set_normalizeScrollWheelDelta, addr 0x6fc3eec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_normalizeScrollWheelDelta, addr 0x7000de0, size 0x3c, virtual false, abstract: false, final false
   static inline void set_normalizeScrollWheelDelta(bool value);
 
-  /// @brief Method set_onDeviceDiscovered, addr 0x6fc39dc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_onDeviceDiscovered, addr 0x70008d0, size 0x88, virtual false, abstract: false, final false
   static inline void set_onDeviceDiscovered(::System::Action_2<int32_t, ::StringW>* value);
 
 protected:
@@ -145,7 +145,7 @@ public:
   NativeInputSystem(NativeInputSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23963 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

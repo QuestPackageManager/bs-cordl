@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IO::LowLevel::Unsafe::ReadHandle (*)(::StringW, void*)>(&::Unity::IO::LowLevel::Unsafe::AsyncReadManager::GetFileInfoInternal)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6eb1258;
+  constexpr static std::size_t addrs = 0x6eedef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::AsyncReadManager*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IO::LowLevel::Unsafe::ReadHandle (*)(::StringW, ::Unity::IO::LowLevel::Unsafe::FileInfoResult*)>(
     &::Unity::IO::LowLevel::Unsafe::AsyncReadManager::GetFileInfo)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb13f0;
+  constexpr static std::size_t addrs = 0x6eee08c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IO::LowLevel::Unsafe::ReadHandle (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const>, void*)>(
     &::Unity::IO::LowLevel::Unsafe::AsyncReadManager::ReadWithHandlesInternal_NativeCopy)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6eb1444;
+  constexpr static std::size_t addrs = 0x6eee0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IO::LowLevel::Unsafe::ReadHandle (*)(
     ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const>, ::Unity::IO::LowLevel::Unsafe::ReadCommandArray)>(&::Unity::IO::LowLevel::Unsafe::AsyncReadManager::Read)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6eb14f4;
+  constexpr static std::size_t addrs = 0x6eee190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IO::LowLevel::Unsafe::FileHandle (*)(::StringW)>(&::Unity::IO::LowLevel::Unsafe::AsyncReadManager::OpenFileAsync_Internal)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6eb1598;
+  constexpr static std::size_t addrs = 0x6eee234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IO::LowLevel::Unsafe::FileHandle (*)(::StringW)>(&::Unity::IO::LowLevel::Unsafe::AsyncReadManager::OpenFileAsync)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6eb1710;
+  constexpr static std::size_t addrs = 0x6eee3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const>, ::Unity::Jobs::JobHandle)>(
     &::Unity::IO::LowLevel::Unsafe::AsyncReadManager::CloseFileAsync)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6eb0bb4;
+  constexpr static std::size_t addrs = 0x6eed850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, void*, ::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>)>(
     &::Unity::IO::LowLevel::Unsafe::AsyncReadManager::GetFileInfoInternal_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb139c;
+  constexpr static std::size_t addrs = 0x6eee038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::AsyncReadManager*>(),
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const>, void*, ::by_ref<::Unity::IO::LowLevel::Unsafe::ReadHandle>)>(
     &::Unity::IO::LowLevel::Unsafe::AsyncReadManager::ReadWithHandlesInternal_NativeCopy_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb14a0;
+  constexpr static std::size_t addrs = 0x6eee13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::IO::LowLevel::Unsafe::AsyncReadManager*>(),
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle>)>(
     &::Unity::IO::LowLevel::Unsafe::AsyncReadManager::OpenFileAsync_Internal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eb16cc;
+  constexpr static std::size_t addrs = 0x6eee368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const>, ::by_ref<::Unity::Jobs::JobHandle const>,
                                                                 ::by_ref<::Unity::Jobs::JobHandle>)>(&::Unity::IO::LowLevel::Unsafe::AsyncReadManager::CloseFileAsync_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eb1774;
+  constexpr static std::size_t addrs = 0x6eee410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

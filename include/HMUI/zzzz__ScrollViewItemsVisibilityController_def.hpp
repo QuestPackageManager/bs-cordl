@@ -50,36 +50,36 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::HMUI::ScrollViewItemsVisibilityController___c* __9;
 
-  /// @brief Field <>9__11_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__11_0,
-                      put = setStaticF___9__11_0)) ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* __9__11_0;
+  /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__12_0,
+                      put = setStaticF___9__12_0)) ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* __9__12_0;
 
-  /// @brief Field <>9__11_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__11_1,
-                      put = setStaticF___9__11_1)) ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* __9__11_1;
+  /// @brief Field <>9__12_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__12_1,
+                      put = setStaticF___9__12_1)) ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* __9__12_1;
 
   static inline ::HMUI::ScrollViewItemsVisibilityController___c* New_ctor();
 
-  /// @brief Method <Start>b__11_0, addr 0x5ca11c4, size 0x4c, virtual false, abstract: false, final false
-  inline float_t _Start_b__11_0(::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>* item);
+  /// @brief Method <CacheItemBounds>b__12_0, addr 0x5cda170, size 0x4c, virtual false, abstract: false, final false
+  inline float_t _CacheItemBounds_b__12_0(::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>* item);
 
-  /// @brief Method <Start>b__11_1, addr 0x5ca1210, size 0x4c, virtual false, abstract: false, final false
-  inline float_t _Start_b__11_1(::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>* item);
+  /// @brief Method <CacheItemBounds>b__12_1, addr 0x5cda1bc, size 0x4c, virtual false, abstract: false, final false
+  inline float_t _CacheItemBounds_b__12_1(::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>* item);
 
-  /// @brief Method .ctor, addr 0x5ca11c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cda16c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HMUI::ScrollViewItemsVisibilityController___c* getStaticF___9();
 
-  static inline ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* getStaticF___9__11_0();
+  static inline ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* getStaticF___9__12_0();
 
-  static inline ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* getStaticF___9__11_1();
+  static inline ::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* getStaticF___9__12_1();
 
   static inline void setStaticF___9(::HMUI::ScrollViewItemsVisibilityController___c* value);
 
-  static inline void setStaticF___9__11_0(::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* value);
+  static inline void setStaticF___9__12_0(::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* value);
 
-  static inline void setStaticF___9__11_1(::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* value);
+  static inline void setStaticF___9__12_1(::System::Func_2<::System::Tuple_2<::UnityW<::HMUI::ScrollViewItemForVisibilityController>, float_t>*, float_t>* value);
 
 protected:
   // Ctor Parameters []
@@ -96,7 +96,7 @@ public:
   ScrollViewItemsVisibilityController___c(ScrollViewItemsVisibilityController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19699 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -150,18 +150,21 @@ public:
   /// @brief Field _viewportWorldCorners, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__viewportWorldCorners, put = __cordl_internal_set__viewportWorldCorners)) ::ArrayW<::UnityEngine::Vector3> _viewportWorldCorners;
 
+  /// @brief Method CacheItemBounds, addr 0x5cd9814, size 0x4c8, virtual false, abstract: false, final false
+  inline void CacheItemBounds();
+
   static inline ::HMUI::ScrollViewItemsVisibilityController* New_ctor();
 
-  /// @brief Method Start, addr 0x5ca0860, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cd97f8, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5ca0edc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5cd9e88, size 0xac, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateVisibilityDownDirection, addr 0x5ca0f88, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisibilityDownDirection, addr 0x5cd9f34, size 0x188, virtual false, abstract: false, final false
   inline void UpdateVisibilityDownDirection(float_t newContentAnchoredPositionY);
 
-  /// @brief Method UpdateVisibilityUpDirection, addr 0x5ca0d30, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisibilityUpDirection, addr 0x5cd9cdc, size 0x1ac, virtual false, abstract: false, final false
   inline void UpdateVisibilityUpDirection(float_t newContentAnchoredPositionY);
 
   constexpr float_t const& __cordl_internal_get__contentMaxY() const;
@@ -230,7 +233,7 @@ public:
 
   constexpr void __cordl_internal_set__viewportWorldCorners(::ArrayW<::UnityEngine::Vector3> value);
 
-  /// @brief Method .ctor, addr 0x5ca1110, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cda0bc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -248,7 +251,7 @@ public:
   ScrollViewItemsVisibilityController(ScrollViewItemsVisibilityController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19700 };
 
   /// [SerializeField]
   /// @brief Field _viewport, offset: 0x20, size: 0x8, def value: None

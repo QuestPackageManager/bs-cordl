@@ -2,6 +2,7 @@
 // IWYU pragma private; include "GlobalNamespace/RankModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RankModel_def.hpp"
+#include "GlobalNamespace/zzzz__LevelScore_def.hpp"
 #include "GlobalNamespace/zzzz__RankModel_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::RankModel_Rank::RankModel_Rank(int32_t value__) noexcept {
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::RankModel_Rank)>(&::GlobalNamespace::RankModel::GetRankName)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3a0b824;
+  constexpr static std::size_t addrs = 0x3a35b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,9 +34,22 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNam
 //  Writing Method size for method: ::GlobalNamespace::RankModel.GetRankForScore
 template <>
 
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::RankModel_Rank (*)(::by_ref<::GlobalNamespace::LevelScore const>)>(&::GlobalNamespace::RankModel::GetRankForScore)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3a35ca0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RankModel*>(), { "GetRankForScore", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelScore const>>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::RankModel.GetRankForScore
+template <>
+
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::RankModel_Rank (*)(int32_t, int32_t, int32_t, int32_t)>(&::GlobalNamespace::RankModel::GetRankForScore)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3a0b928;
+  constexpr static std::size_t addrs = 0x3a35cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,6 +62,11 @@ inline ::StringW GlobalNamespace::RankModel::GetRankName(::GlobalNamespace::Rank
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RankModel*>(), { "GetRankName", {}, { ::i2c::type_of<::GlobalNamespace::RankModel_Rank>() } })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(nullptr, ___internal_method, rank);
+}
+inline ::GlobalNamespace::RankModel_Rank GlobalNamespace::RankModel::GetRankForScore(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::LevelScore const> score) {
+  static auto* ___internal_method = THROW_UNLESS(
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::RankModel*>(), { "GetRankForScore", {}, { ::i2c::type_of<::by_ref<::GlobalNamespace::LevelScore const>>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::RankModel_Rank>(nullptr, ___internal_method, score);
 }
 inline ::GlobalNamespace::RankModel_Rank GlobalNamespace::RankModel::GetRankForScore(int32_t multipliedScore, int32_t modifiedScore, int32_t maxMultipliedScore, int32_t maxModifiedScore) {
   static auto* ___internal_method =

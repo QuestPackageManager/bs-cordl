@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::PassType (::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant::*)()>(
     &::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant::get_passType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636aecc;
+  constexpr static std::size_t addrs = 0x63a79a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant*>(), { "get_passType", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant::*)()>(
     &::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant::get_keywords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636aed4;
+  constexpr static std::size_t addrs = 0x63a79ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant*>(), { "get_keywords", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant::*)(::UnityEngine::Rendering::PassType, ::StringW)>(
     &::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x636aedc;
+  constexpr static std::size_t addrs = 0x63a79b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant*> (::GlobalNamespace::ShaderVariantsSO_ShaderVariant::*)()>(
     &::GlobalNamespace::ShaderVariantsSO_ShaderVariant::get_variants)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636aeb4;
+  constexpr static std::size_t addrs = 0x63a798c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShaderVariantsSO_ShaderVariant*>(), { "get_variants", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::GlobalNamespace::ShaderVariantsSO_ShaderVariant::*)()>(
     &::GlobalNamespace::ShaderVariantsSO_ShaderVariant::get_shader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636aebc;
+  constexpr static std::size_t addrs = 0x63a7994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShaderVariantsSO_ShaderVariant*>(), { "get_shader", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShaderVariantsSO_ShaderVariant::*)(
     ::UnityEngine::Shader*, ::ArrayW<::GlobalNamespace::ShaderVariant_ShaderVariantsSO_Variant*>)>(&::GlobalNamespace::ShaderVariantsSO_ShaderVariant::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636aec4;
+  constexpr static std::size_t addrs = 0x63a799c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::ShaderVariantsSO_ShaderVariant*> (::GlobalNamespace::ShaderVariantsSO::*)()>(
     &::GlobalNamespace::ShaderVariantsSO::get_shaderVariants)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636ae9c;
+  constexpr static std::size_t addrs = 0x63a7974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShaderVariantsSO*>(), { "get_shaderVariants", {}, {} })));
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShaderVariantsSO::*)(::ArrayW<::GlobalNamespace::ShaderVariantsSO_ShaderVariant*>)>(
     &::GlobalNamespace::ShaderVariantsSO::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636aea4;
+  constexpr static std::size_t addrs = 0x63a797c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ShaderVariantsSO::*)()>(&::GlobalNamespace::ShaderVariantsSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x636aeac;
+  constexpr static std::size_t addrs = 0x63a7984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ShaderVariantsSO*>(), { ".ctor", {}, {} })));

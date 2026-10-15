@@ -5,6 +5,7 @@
 #include "BeatSaber/Analytics/Gameplay/EventSenders/zzzz__IBeatmapAttemptEventSender_def.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/zzzz__IBlockLevelGameplayEventSender_def.hpp"
 #include "BeatSaber/Analytics/Gameplay/EventSenders/zzzz__IHMDSessionEventSender_def.hpp"
+#include "BeatSaber/Analytics/Gameplay/EventSenders/zzzz__ISettingsEventSender_def.hpp"
 #include "BeatSaber/Analytics/Gameplay/zzzz__IGameplayEventsDispatcher_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher.get_beatmapAttempt
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* (
     ::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::*)()>(&::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::get_beatmapAttempt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34e9934;
+  constexpr static std::size_t addrs = 0x3502020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventSenders::IBlockLevelGameplayEventSender* (
     ::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::*)()>(&::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::get_blockLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34e993c;
+  constexpr static std::size_t addrs = 0x3502028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,11 +42,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* (::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::*)()>(
     &::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::get_hmdSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34e9944;
+  constexpr static std::size_t addrs = 0x3502030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher*>(), { "get_hmdSession", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher.get_settingsEvents
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* (::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::*)()>(
+    &::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::get_settingsEvents)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3502038;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher*>(), { "get_settingsEvents", {}, {} })));
     return ___internal_method;
   }
 };
@@ -55,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::*)()>(
     &::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::InitializeAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x34e994c;
+  constexpr static std::size_t addrs = 0x3502040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::*)()>(
     &::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x34e99e0;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x35020d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher*>(), { ".ctor", {}, {} })));
@@ -120,6 +135,20 @@ BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::__cordl_internal_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hmdSession_k__BackingField = value;
 }
+constexpr ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender*& BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::__cordl_internal_get__settingsEvents_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____settingsEvents_k__BackingField;
+}
+constexpr ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* const&
+BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::__cordl_internal_get__settingsEvents_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____settingsEvents_k__BackingField;
+}
+constexpr void
+BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::__cordl_internal_set__settingsEvents_k__BackingField(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____settingsEvents_k__BackingField = value;
+}
 inline ::BeatSaber::Analytics::Gameplay::EventSenders::IBeatmapAttemptEventSender* BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::get_beatmapAttempt() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher*>(), { "get_beatmapAttempt", {}, {} })));
@@ -134,6 +163,11 @@ inline ::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender* B
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher*>(), { "get_hmdSession", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::BeatSaber::Analytics::Gameplay::EventSenders::IHMDSessionEventSender*>(this, ___internal_method);
+}
+inline ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::get_settingsEvents() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher*>(), { "get_settingsEvents", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender*>(this, ___internal_method);
 }
 inline ::System::Threading::Tasks::Task* BeatSaber::Analytics::Gameplay::NoopGameplayEventsDispatcher::InitializeAsync() {
   static auto* ___internal_method =

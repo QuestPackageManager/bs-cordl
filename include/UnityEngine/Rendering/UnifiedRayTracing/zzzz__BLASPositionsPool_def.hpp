@@ -56,18 +56,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x6e08dec, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6e45a88, size 0x470, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::Rendering::UnifiedRayTracing::VertexBufferChunk info, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation> verticesAllocation);
 
-  /// @brief Method Clear, addr 0x6e08d54, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6e459f0, size 0x98, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x6e08d24, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6e459c0, size 0x28, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::Rendering::UnifiedRayTracing::BLASPositionsPool* New_ctor(::UnityEngine::ComputeShader* copyPositionsShader, ::UnityEngine::ComputeShader* copyShader);
 
-  /// @brief Method Remove, addr 0x6e0925c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x6e45ef8, size 0x84, virtual false, abstract: false, final false
   inline void Remove(::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation> verticesAllocation);
 
   constexpr ::UnityW<::UnityEngine::ComputeShader> const& __cordl_internal_get_m_CopyPositionsShader() const;
@@ -100,10 +100,10 @@ public:
 
   constexpr void __cordl_internal_set_m_VerticesBuffer(::UnityEngine::GraphicsBuffer* value);
 
-  /// @brief Method .ctor, addr 0x6e08c54, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e458f0, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ComputeShader* copyPositionsShader, ::UnityEngine::ComputeShader* copyShader);
 
-  /// @brief Method get_VertexBuffer, addr 0x6e08d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VertexBuffer, addr 0x6e459e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_VertexBuffer();
 
   /// @brief Convert to "::System::IDisposable"
@@ -127,7 +127,7 @@ public:
   static constexpr int32_t VertexSizeInDwords{ static_cast<int32_t>(0x3) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20529 };
 
   /// @brief Field intialVertexCount offset 0xffffffff size 0x4
   static constexpr int32_t intialVertexCount{ static_cast<int32_t>(0x3e8) };

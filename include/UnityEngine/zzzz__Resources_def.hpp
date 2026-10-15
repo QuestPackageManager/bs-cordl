@@ -48,20 +48,20 @@ public:
   static inline ::ArrayW<T> ConvertObjects(::ArrayW<::UnityEngine::Object*> rawObjects);
 
   /// [FreeFunction("Resources_Bindings::DoesObjectWithInstanceIDExist", IsThreadSafe = true)]
-  /// @brief Method EntityIdIsValid, addr 0x6f33ddc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EntityIdIsValid, addr 0x6f70c3c, size 0x44, virtual false, abstract: false, final false
   static inline bool EntityIdIsValid(::UnityEngine::EntityId entityId);
 
-  /// @brief Method EntityIdIsValid_Injected, addr 0x6f33e20, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EntityIdIsValid_Injected, addr 0x6f70c80, size 0x3c, virtual false, abstract: false, final false
   static inline bool EntityIdIsValid_Injected(::by_ref<::UnityEngine::EntityId const> entityId);
 
   /// [FreeFunction("Resources_Bindings::InstanceIDToObject")]
-  /// @brief Method EntityIdToObject, addr 0x6f33c80, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method EntityIdToObject, addr 0x6f70ae0, size 0x120, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> EntityIdToObject(::UnityEngine::EntityId entityId);
 
-  /// @brief Method EntityIdToObject_Injected, addr 0x6f33da0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EntityIdToObject_Injected, addr 0x6f70c00, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr EntityIdToObject_Injected(::by_ref<::UnityEngine::EntityId const> entityId);
 
-  /// @brief Method FindObjectsOfTypeAll, addr 0x6f33694, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method FindObjectsOfTypeAll, addr 0x6f704f4, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> FindObjectsOfTypeAll(::System::Type* type);
 
   /// @brief Method FindObjectsOfTypeAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -71,7 +71,7 @@ public:
 
   /// [FreeFunction("GetScriptingBuiltinResource", ThrowsException = true)]
   /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)0)]
-  /// @brief Method GetBuiltinResource, addr 0x6f3385c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltinResource, addr 0x6f706bc, size 0x28c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> GetBuiltinResource(/* [NotNull] */ ::System::Type* type, ::StringW path);
 
   /// @brief Method GetBuiltinResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -79,13 +79,13 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
   static inline T GetBuiltinResource(::StringW path);
 
-  /// @brief Method GetBuiltinResource_Injected, addr 0x6f33ae8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltinResource_Injected, addr 0x6f70948, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetBuiltinResource_Injected(::System::Type* type, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> path);
 
-  /// @brief Method Load, addr 0x6f33700, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x6f70560, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path);
 
-  /// @brief Method Load, addr 0x6f32b5c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x6f6f9bc, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
   /// @brief Method Load, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -93,20 +93,20 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
   static inline T Load(::StringW path);
 
-  /// @brief Method LoadAll, addr 0x6f337ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x6f7064c, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> LoadAll(::StringW path);
 
-  /// @brief Method LoadAll, addr 0x6f33770, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x6f705d0, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method UnloadAsset, addr 0x6f33b2c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UnloadAsset, addr 0x6f7098c, size 0x6c, virtual false, abstract: false, final false
   static inline void UnloadAsset(::UnityEngine::Object* assetToUnload);
 
   /// [FreeFunction("Resources_Bindings::UnloadUnusedAssets")]
-  /// @brief Method UnloadUnusedAssets, addr 0x6f33b98, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UnloadUnusedAssets, addr 0x6f709f8, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* UnloadUnusedAssets();
 
-  /// @brief Method UnloadUnusedAssets_Injected, addr 0x6f33bd0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UnloadUnusedAssets_Injected, addr 0x6f70a30, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr UnloadUnusedAssets_Injected();
 
 protected:
@@ -124,7 +124,7 @@ public:
   Resources(Resources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9888 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

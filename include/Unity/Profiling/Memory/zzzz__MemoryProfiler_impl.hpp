@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)()>(&::Unity::Profiling::Memory::MemoryProfiler::PrepareMetadata)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6eb04ec;
+  constexpr static std::size_t addrs = 0x6eed188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Profiling::Memory::MemoryProfiler*>(), { "PrepareMetadata", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::Unity::Profiling::Memory::MemoryProfiler::WriteIntToByteArray)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6eb06e4;
+  constexpr static std::size_t addrs = 0x6eed380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t, ::StringW)>(&::Unity::Profiling::Memory::MemoryProfiler::WriteStringToByteArray)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6eb076c;
+  constexpr static std::size_t addrs = 0x6eed408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, bool)>(&::Unity::Profiling::Memory::MemoryProfiler::FinalizeSnapshot)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6eb0838;
+  constexpr static std::size_t addrs = 0x6eed4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, bool, ::System::IntPtr, int32_t, ::UnityEngine::TextureFormat, int32_t, int32_t)>(
     &::Unity::Profiling::Memory::MemoryProfiler::SaveScreenshotToDisk)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6eb08c0;
+  constexpr static std::size_t addrs = 0x6eed55c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

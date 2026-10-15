@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionAsyncInstaller___c::*)()>(&::GlobalNamespace::PackDefinitionAsyncInstaller___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39b6904;
+  constexpr static std::size_t addrs = 0x39dce98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionAsyncInstaller___c*>(), { ".ctor", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::PackDefinitionAsyncInstaller___c::*)(::GlobalNamespace::PackDefinitionSO*)>(
     &::GlobalNamespace::PackDefinitionAsyncInstaller___c::_LoadResourcesBeforeInstall_b__5_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39b6908;
+  constexpr static std::size_t addrs = 0x39dce9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionAsyncInstaller___c*>(),
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PackDefinitionAsyncInstaller::*)()>(&::GlobalNamespace::PackDefinitionAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x39b6518;
+  constexpr static std::size_t addrs = 0x39dcaac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PackDefinitionAsyncInstaller::*)()>(&::GlobalNamespace::PackDefinitionAsyncInstaller::get_telemetryEventName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x39b655c;
+  constexpr static std::size_t addrs = 0x39dcaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*, ::BGLib::AppFlow::Initialization::IInstallerRegistry*)>(
     &::GlobalNamespace::PackDefinitionAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x39b65a0;
+  constexpr static std::size_t addrs = 0x39dcb34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionAsyncInstaller::*)()>(&::GlobalNamespace::PackDefinitionAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39b6730;
+  constexpr static std::size_t addrs = 0x39dccc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>> (*)()>(
     &::GlobalNamespace::PackDefinitionAsyncInstaller::LoadPackDefinitionListAsync)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39b67a8;
+  constexpr static std::size_t addrs = 0x39dcd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackDefinitionAsyncInstaller::*)()>(&::GlobalNamespace::PackDefinitionAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x39b6824;
+  constexpr static std::size_t addrs = 0x39dcdb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackDefinitionAsyncInstaller*>(), { ".ctor", {}, {} })));

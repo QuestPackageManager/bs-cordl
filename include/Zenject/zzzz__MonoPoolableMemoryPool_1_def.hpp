@@ -81,7 +81,7 @@ public:
   MonoPoolableMemoryPool_1(MonoPoolableMemoryPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15425 };
 
   /// @brief Field _originalParent, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____originalParent;

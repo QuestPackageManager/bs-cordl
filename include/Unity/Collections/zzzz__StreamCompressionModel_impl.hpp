@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::StreamCompressionModel (*)()>(&::Unity::Collections::StreamCompressionModel::get_Default)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x68f0e24;
+  constexpr static std::size_t addrs = 0x692daa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::StreamCompressionModel>(), { "get_Default", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Collections::StreamCompressionModel::Initialize)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x68f0f84;
+  constexpr static std::size_t addrs = 0x692dc00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::StreamCompressionModel>(), { "Initialize", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::NativeArray_1<uint8_t>, int32_t, ::Unity::Collections::NativeArray_1<uint8_t>, int32_t, int32_t, int32_t)>(
     &::Unity::Collections::StreamCompressionModel::GenerateHuffmanCodes)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x68f13fc;
+  constexpr static std::size_t addrs = 0x692e078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, int32_t)>(&::Unity::Collections::StreamCompressionModel::ReverseBits)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68f15fc;
+  constexpr static std::size_t addrs = 0x692e278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::Unity::Collections::NativeArray_1<uint16_t>, int32_t, ::Unity::Collections::NativeArray_1<uint8_t>, ::Unity::Collections::NativeArray_1<uint8_t>, int32_t, int32_t)>(
         &::Unity::Collections::StreamCompressionModel::GenerateHuffmanDecodeTable)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x68f15a4;
+  constexpr static std::size_t addrs = 0x692e220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::StreamCompressionModel::*)(uint32_t)>(&::Unity::Collections::StreamCompressionModel::CalculateBucket)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x68f160c;
+  constexpr static std::size_t addrs = 0x692e288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::StreamCompressionModel::*)(uint32_t)>(&::Unity::Collections::StreamCompressionModel::GetCompressedSizeInBits)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x68f16ec;
+  constexpr static std::size_t addrs = 0x692e368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::Unity::Collections::StreamCompressionModel::CheckAlphabetSize)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x68f176c;
+  constexpr static std::size_t addrs = 0x692e3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::NativeArray_1<uint8_t>, int32_t, int32_t, int32_t)>(
     &::Unity::Collections::StreamCompressionModel::CheckSymbolLength)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68f17ec;
+  constexpr static std::size_t addrs = 0x692e468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t)>(&::Unity::Collections::StreamCompressionModel::CheckAlphabetAndMaxCodeLength)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x68f184c;
+  constexpr static std::size_t addrs = 0x692e4c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::StreamCompressionModel>(),
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, int32_t)>(&::Unity::Collections::StreamCompressionModel::CheckExceedMaxCodeLength)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x68f18ac;
+  constexpr static std::size_t addrs = 0x692e528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::StreamCompressionModel>(),

@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set_timeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x5de391c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e21ac0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale);
 
 protected:
@@ -114,7 +114,7 @@ public:
   MultiplayerLocalInactivePlayerSongSyncController_InitData(MultiplayerLocalInactivePlayerSongSyncController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6224 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6225 };
 
   /// @brief Field audioClip, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ___audioClip;
@@ -203,36 +203,36 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IStartSeekSongController"
   constexpr operator ::GlobalNamespace::IStartSeekSongController*() noexcept;
 
-  /// @brief Method Awake, addr 0x5de3d68, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e20e9c, size 0x100, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FollowOffsetSyncTime, addr 0x5de4780, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method FollowOffsetSyncTime, addr 0x5e218b4, size 0x1f4, virtual false, abstract: false, final false
   inline void FollowOffsetSyncTime(::GlobalNamespace::IMultiplayerObservable* observable, bool crossFade, bool forceUpdate);
 
-  /// @brief Method HandleSystemStateChange, addr 0x5de4980, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleSystemStateChange, addr 0x5e21ab4, size 0x4, virtual false, abstract: false, final false
   inline void HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType);
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5de3fd0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5e21104, size 0x13c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SeekTo, addr 0x5de4974, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SeekTo, addr 0x5e21aa8, size 0xc, virtual true, abstract: false, final true
   inline void SeekTo(float_t offsetTime);
 
-  /// @brief Method SeekTo, addr 0x5de45d0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method SeekTo, addr 0x5e21704, size 0x1b0, virtual false, abstract: false, final false
   inline void SeekTo(float_t offsetTime, bool crossFade, float_t toVolume);
 
-  /// @brief Method Start, addr 0x5de3e68, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e20f9c, size 0x168, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartSong, addr 0x5de44dc, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method StartSong, addr 0x5e21610, size 0xf4, virtual true, abstract: false, final true
   inline void StartSong(float_t offsetTime);
 
-  /// @brief Method Update, addr 0x5de410c, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e21240, size 0x264, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateOffsetSyncTime, addr 0x5de4370, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method UpdateOffsetSyncTime, addr 0x5e214a4, size 0x16c, virtual false, abstract: false, final false
   inline void UpdateOffsetSyncTime(int64_t offsetSyncTime, bool crossFade, bool forceUpdate);
 
   constexpr ::UnityW<::GlobalNamespace::CrossFadeAudioSource> const& __cordl_internal_get__audioSource() const;
@@ -319,20 +319,20 @@ public:
 
   constexpr void __cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value);
 
-  /// @brief Method .ctor, addr 0x5de4984, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e21ab8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method <get_waitUntilIsReadyToStartTheSong>b__7_0, addr 0x5de4988, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <get_waitUntilIsReadyToStartTheSong>b__7_0, addr 0x5e21abc, size 0x4, virtual false, abstract: false, final false
   inline bool _get_waitUntilIsReadyToStartTheSong_b__7_0();
 
-  /// @brief Method get_isAudioLoaded, addr 0x5de3ba4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method get_isAudioLoaded, addr 0x5e20cd8, size 0xe0, virtual false, abstract: false, final false
   inline bool get_isAudioLoaded();
 
-  /// @brief Method get_songFailedToLoad, addr 0x5de3c84, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method get_songFailedToLoad, addr 0x5e20db8, size 0xe4, virtual true, abstract: false, final true
   inline bool get_songFailedToLoad();
 
-  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x5de3b00, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x5e20c34, size 0xa4, virtual true, abstract: false, final true
   inline ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
 
   /// @brief Convert to "::GlobalNamespace::IStartSeekSongController"
@@ -353,7 +353,7 @@ public:
   MultiplayerLocalInactivePlayerSongSyncController(MultiplayerLocalInactivePlayerSongSyncController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6225 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6226 };
 
   /// @brief Field kReSyncThresholdMs offset 0xffffffff size 0x8
   static constexpr int64_t kReSyncThresholdMs{ static_cast<int64_t>(0x32) };

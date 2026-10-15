@@ -76,7 +76,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ToggleButtonGroup_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x720d938, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x724a86c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,7 +118,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_IsMultipleSelection,
                       put = __cordl_internal_set_m_IsMultipleSelection)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_IsMultipleSelection;
 
-  /// @brief Method Init, addr 0x720d9a0, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x724a8d4, size 0x160, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::ToggleButtonGroup_UxmlTraits* New_ctor();
@@ -135,7 +135,7 @@ public:
 
   constexpr void __cordl_internal_set_m_IsMultipleSelection(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x720db00, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x724aa34, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -183,10 +183,10 @@ public:
 
   static inline ::UnityEngine::UIElements::ToggleButtonGroup_ButtonGroupContainer* New_ctor(::UnityEngine::UIElements::ToggleButtonGroup* group);
 
-  /// @brief Method OnChildAdded, addr 0x720dbe0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method OnChildAdded, addr 0x724ab14, size 0x14, virtual true, abstract: false, final false
   inline void OnChildAdded(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method OnChildRemoved, addr 0x720dbf4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method OnChildRemoved, addr 0x724ab28, size 0x14, virtual true, abstract: false, final false
   inline void OnChildRemoved(::UnityEngine::UIElements::VisualElement* ve);
 
   constexpr ::UnityEngine::UIElements::ToggleButtonGroup* const& __cordl_internal_get_m_Group() const;
@@ -195,7 +195,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Group(::UnityEngine::UIElements::ToggleButtonGroup* value);
 
-  /// @brief Method .ctor, addr 0x720c2a0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72491d4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::ToggleButtonGroup* group);
 
 protected:
@@ -305,28 +305,28 @@ public:
 
   static inline ::UnityEngine::UIElements::ToggleButtonGroup* New_ctor(::StringW label, ::UnityEngine::UIElements::ToggleButtonGroupState toggleButtonGroupState);
 
-  /// @brief Method OnButtonGroupContainerElementAdded, addr 0x720c944, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method OnButtonGroupContainerElementAdded, addr 0x7249878, size 0x340, virtual false, abstract: false, final false
   inline void OnButtonGroupContainerElementAdded(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method OnButtonGroupContainerElementRemoved, addr 0x720ce20, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method OnButtonGroupContainerElementRemoved, addr 0x7249d54, size 0x378, virtual false, abstract: false, final false
   inline void OnButtonGroupContainerElementRemoved(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method OnOptionChange, addr 0x720d198, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method OnOptionChange, addr 0x724a0cc, size 0x300, virtual false, abstract: false, final false
   inline void OnOptionChange(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method OnViewDataReady, addr 0x720c320, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method OnViewDataReady, addr 0x7249254, size 0x78, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x720c760, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x7249694, size 0x1e4, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::UnityEngine::UIElements::ToggleButtonGroupState newValue);
 
-  /// @brief Method UpdateButtonStates, addr 0x720c398, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method UpdateButtonStates, addr 0x72492cc, size 0x234, virtual false, abstract: false, final false
   inline void UpdateButtonStates(::UnityEngine::UIElements::ToggleButtonGroupState options);
 
-  /// @brief Method UpdateButtonsStyling, addr 0x720cc84, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method UpdateButtonsStyling, addr 0x7249bb8, size 0x19c, virtual false, abstract: false, final false
   inline void UpdateButtonsStyling();
 
-  /// @brief Method UpdateMixedValueContent, addr 0x720c5cc, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x7249500, size 0x194, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   constexpr bool const& __cordl_internal_get_m_AllowEmptySelection() const;
@@ -359,13 +359,13 @@ public:
 
   constexpr void __cordl_internal_set_m_IsMultipleSelection(bool value);
 
-  /// @brief Method .ctor, addr 0x720bee0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7248e14, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x720bef0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7248e24, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x720c048, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7248f7c, size 0x258, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, ::UnityEngine::UIElements::ToggleButtonGroupState toggleButtonGroupState);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_allowEmptySelectionProperty();
@@ -392,13 +392,13 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_allowEmptySelection, addr 0x720bcf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowEmptySelection, addr 0x7248c24, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowEmptySelection();
 
-  /// @brief Method get_contentContainer, addr 0x720c310, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_contentContainer, addr 0x7249244, size 0x10, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method get_isMultipleSelection, addr 0x720b888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isMultipleSelection, addr 0x72487bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isMultipleSelection();
 
   static inline void setStaticF_allowEmptySelectionProperty(::UnityEngine::UIElements::BindingId value);
@@ -425,10 +425,10 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_allowEmptySelection, addr 0x720bcf8, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method set_allowEmptySelection, addr 0x7248c2c, size 0x1e8, virtual false, abstract: false, final false
   inline void set_allowEmptySelection(bool value);
 
-  /// @brief Method set_isMultipleSelection, addr 0x720b890, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method set_isMultipleSelection, addr 0x72487c4, size 0x1e8, virtual false, abstract: false, final false
   inline void set_isMultipleSelection(bool value);
 
 protected:

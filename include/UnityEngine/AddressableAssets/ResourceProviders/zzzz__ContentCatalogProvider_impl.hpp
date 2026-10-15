@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Addr
     ::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*)>(
     &::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::add_OnLoaded)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x688ef7c;
+  constexpr static std::size_t addrs = 0x68cbbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Addr
     ::System::Action_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*)>(
     &::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::remove_OnLoaded)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x688fbc0;
+  constexpr static std::size_t addrs = 0x68cc83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::*)()>(
     &::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::get_OpInProgress)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x688fc80;
+  constexpr static std::size_t addrs = 0x68cc8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::*)()>(
     &::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::get_OpIsSuccess)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x688fc88;
+  constexpr static std::size_t addrs = 0x68cc904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::*)(::StringW, int32_t)>(
     &::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x688ee6c;
+  constexpr static std::size_t addrs = 0x68cbae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::*)()>(
     &::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::Finalize)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x688fca8;
+  constexpr static std::size_t addrs = 0x68cc924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::*)()>(
     &::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::Unload)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x688fd04;
+  constexpr static std::size_t addrs = 0x68cc980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::*)()>(
     &::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::LoadCatalogFromBundleAsync)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x688f03c;
+  constexpr static std::size_t addrs = 0x68cbcb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::*)(::UnityEngine::AsyncOperation*)>(
     &::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::WebRequestOperationCompleted)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x688fd2c;
+  constexpr static std::size_t addrs = 0x68cc9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::*)(::UnityEngine::AsyncOperation*)>(
     &::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::LoadTextAssetRequestComplete)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x688ff48;
+  constexpr static std::size_t addrs = 0x68ccbc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::*)()>(
     &::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::WaitForCompletion)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x688ec54;
+  constexpr static std::size_t addrs = 0x68cb8d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::*)(::UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(
         &::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::_LoadCatalogFromBundleAsync_b__19_1)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x68900fc;
+  constexpr static std::size_t addrs = 0x68ccd78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::*)(::UnityEngine::AsyncOperation*)>(
     &::UnityEngine::AddressableAssets::ResourceProviders::InternalOp_ContentCatalogProvider_BundledCatalog::_LoadCatalogFromBundleAsync_b__19_0)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x6890198;
+  constexpr static std::size_t addrs = 0x68cce14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -459,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::*)(
     ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, bool, bool)>(&::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::Start)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x688dc7c;
+  constexpr static std::size_t addrs = 0x68ca8f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -475,7 +475,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::*)()>(
     &::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::WaitForCompletionCallback)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x688eb70;
+  constexpr static std::size_t addrs = 0x68cb7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::*)()>(
     &::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::Release)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x688db00;
+  constexpr static std::size_t addrs = 0x68ca77c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -504,7 +504,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::*)(::StringW, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(
         &::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::CanLoadCatalogFromBundle)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x688e4b4;
+  constexpr static std::size_t addrs = 0x68cb130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -520,7 +520,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::*)(::StringW, bool)>(
     &::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::LoadCatalog)> {
   constexpr static std::size_t size = 0x5f4;
-  constexpr static std::size_t addrs = 0x688e57c;
+  constexpr static std::size_t addrs = 0x68cb1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp*>(),
@@ -535,7 +535,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Addr
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>)>(
     &::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::CatalogLoadOpCompleteCallback)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x688f2f0;
+  constexpr static std::size_t addrs = 0x68cbf6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -554,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::*)(
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::GetTransformedInternalId)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x688eda0;
+  constexpr static std::size_t addrs = 0x68cba1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -570,7 +570,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine:
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::System::Collections::Generic::IList_1<::System::Object*>*, bool)>(
     &::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::DetermineIdToLoad)> {
   constexpr static std::size_t size = 0x6c8;
-  constexpr static std::size_t addrs = 0x688ddec;
+  constexpr static std::size_t addrs = 0x68caa68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -588,7 +588,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::*)(
     ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*)>(&::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::OnCatalogLoaded)> {
   constexpr static std::size_t size = 0x83c;
-  constexpr static std::size_t addrs = 0x688f37c;
+  constexpr static std::size_t addrs = 0x68cbff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -603,7 +603,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::*)()>(
     &::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x688dc78;
+  constexpr static std::size_t addrs = 0x68ca8f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -617,7 +617,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::*)(
     ::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*)>(&::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider_InternalOp::_LoadCatalog_b__14_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x688fbb8;
+  constexpr static std::size_t addrs = 0x68cc834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -848,7 +848,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::*)(::UnityEngine::ResourceManagement::ResourceManager*)>(
     &::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x688d974;
+  constexpr static std::size_t addrs = 0x68ca5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider*>(),
@@ -862,7 +862,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::*)(
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::System::Object*)>(&::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::Release)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x688da14;
+  constexpr static std::size_t addrs = 0x68ca690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider*>(),
@@ -876,7 +876,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::*)(
     ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::Provide)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x688db10;
+  constexpr static std::size_t addrs = 0x68ca78c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider*>(),

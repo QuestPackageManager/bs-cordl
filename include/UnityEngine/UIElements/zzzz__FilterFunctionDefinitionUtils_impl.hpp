@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::UIElements::FilterFunctionType)>(&::UnityEngine::UIElements::FilterFunctionDefinitionUtils::GetBuiltinFilterName)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x72362b4;
+  constexpr static std::size_t addrs = 0x72731e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FilterFunctionDefinitionUtils*>(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UIElements::FilterFunctionDefinition> (*)(::UnityEngine::UIElements::FilterFunctionType)>(
     &::UnityEngine::UIElements::FilterFunctionDefinitionUtils::GetBuiltinDefinition)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x7236438;
+  constexpr static std::size_t addrs = 0x727336c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FilterFunctionDefinitionUtils*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UIElements::FilterFunctionDefinition> (*)()>(
     &::UnityEngine::UIElements::FilterFunctionDefinitionUtils::CreateBlurFilterFunctionDefinition)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x72367dc;
+  constexpr static std::size_t addrs = 0x7273710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UIElements::FilterFunctionDefinition> (*)(::UnityEngine::UIElements::FilterFunctionType)>(
     &::UnityEngine::UIElements::FilterFunctionDefinitionUtils::CreateColorEffectFilterFunctionDefinition)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x7236b9c;
+  constexpr static std::size_t addrs = 0x7273ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PostProcessingMargins (*)(::UnityEngine::UIElements::FilterFunction)>(
     &::UnityEngine::UIElements::FilterFunctionDefinitionUtils::ComputeHorizontalBlurMargins)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x7236e40;
+  constexpr static std::size_t addrs = 0x7273d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FilterFunctionDefinitionUtils*>(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PostProcessingMargins (*)(::UnityEngine::UIElements::FilterFunction)>(
     &::UnityEngine::UIElements::FilterFunctionDefinitionUtils::ComputeVerticalBlurMargins)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x7236f34;
+  constexpr static std::size_t addrs = 0x7273e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::FilterFunctionDefinitionUtils*>(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::UIElements::FilterPassContext)>(
     &::UnityEngine::UIElements::FilterFunctionDefinitionUtils::ApplyBlurSettings)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x7237024;
+  constexpr static std::size_t addrs = 0x7273f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::UIElements::FilterPassContext)>(
     &::UnityEngine::UIElements::FilterFunctionDefinitionUtils::ApplySettings)> {
   constexpr static std::size_t size = 0x5d8;
-  constexpr static std::size_t addrs = 0x72370ec;
+  constexpr static std::size_t addrs = 0x7274020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

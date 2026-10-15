@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Authenticode::AuthenticodeBase::*)()>(&::Mono::Security::Authenticode::AuthenticodeBase::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5ebd818;
+  constexpr static std::size_t addrs = 0x5efa0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Authenticode::AuthenticodeBase*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Security::Authenticode::AuthenticodeBase::*)()>(&::Mono::Security::Authenticode::AuthenticodeBase::get_PEOffset)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5ebd86c;
+  constexpr static std::size_t addrs = 0x5efa0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Authenticode::AuthenticodeBase*>(), { "get_PEOffset", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Authenticode::AuthenticodeBase::*)(::StringW)>(&::Mono::Security::Authenticode::AuthenticodeBase::Open)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5ebd960;
+  constexpr static std::size_t addrs = 0x5efa1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Authenticode::AuthenticodeBase::*)(::ArrayW<uint8_t>)>(&::Mono::Security::Authenticode::AuthenticodeBase::Open)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5ebda34;
+  constexpr static std::size_t addrs = 0x5efa2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Authenticode::AuthenticodeBase::*)()>(&::Mono::Security::Authenticode::AuthenticodeBase::Close)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5ebda08;
+  constexpr static std::size_t addrs = 0x5efa294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Authenticode::AuthenticodeBase*>(), { "Close", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Authenticode::AuthenticodeBase::*)()>(&::Mono::Security::Authenticode::AuthenticodeBase::ReadFirstBlock)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5ebd894;
+  constexpr static std::size_t addrs = 0x5efa120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Authenticode::AuthenticodeBase*>(), { "ReadFirstBlock", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Security::Authenticode::AuthenticodeBase::*)()>(&::Mono::Security::Authenticode::AuthenticodeBase::ProcessFirstBlock)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x5ebdac4;
+  constexpr static std::size_t addrs = 0x5efa350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Authenticode::AuthenticodeBase*>(), { "ProcessFirstBlock", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Authenticode::AuthenticodeBase::*)()>(
     &::Mono::Security::Authenticode::AuthenticodeBase::GetSecurityEntry)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5ebdd14;
+  constexpr static std::size_t addrs = 0x5efa5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Authenticode::AuthenticodeBase*>(), { "GetSecurityEntry", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Authenticode::AuthenticodeBase::*)(::System::Security::Cryptography::HashAlgorithm*)>(
     &::Mono::Security::Authenticode::AuthenticodeBase::GetHash)> {
   constexpr static std::size_t size = 0x4cc;
-  constexpr static std::size_t addrs = 0x5ebdde8;
+  constexpr static std::size_t addrs = 0x5efa674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Authenticode::AuthenticodeBase*>(),

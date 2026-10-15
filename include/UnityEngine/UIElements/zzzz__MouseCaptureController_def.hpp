@@ -24,11 +24,11 @@ class CORDL_TYPE MouseCaptureController : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method CaptureMouse, addr 0x7269a78, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CaptureMouse, addr 0x72a69ac, size 0xcc, virtual false, abstract: false, final false
   static inline void CaptureMouse(::UnityEngine::UIElements::IEventHandler* handler);
 
   /// [Extension]
-  /// @brief Method HasMouseCapture, addr 0x726998c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HasMouseCapture, addr 0x72a68c0, size 0xb4, virtual false, abstract: false, final false
   static inline bool HasMouseCapture(::UnityEngine::UIElements::IEventHandler* handler);
 
 protected:

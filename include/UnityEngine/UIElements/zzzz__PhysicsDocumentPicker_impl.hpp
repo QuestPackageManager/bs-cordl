@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::Ray, float_t, int32_t, ::by_ref<::UnityEngine::Collider*>, ::by_ref<::UnityEngine::UIElements::UIDocument*>, ::by_ref<::UnityEngine::UIElements::VisualElement*>,
     ::by_ref<float_t>)>(&::UnityEngine::UIElements::PhysicsDocumentPicker::Pick)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x72421c0;
+  constexpr static std::size_t addrs = 0x727f0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     int32_t, ::UnityEngine::Ray, float_t, int32_t, ::by_ref<::UnityEngine::Collider*>, ::by_ref<::UnityEngine::UIElements::UIDocument*>, ::by_ref<::UnityEngine::UIElements::VisualElement*>,
     ::by_ref<float_t>, ::by_ref<bool>)>(&::UnityEngine::UIElements::PhysicsDocumentPicker::TryPickWithCapture)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x724296c;
+  constexpr static std::size_t addrs = 0x727f8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PhysicsDocumentPicker::*)(int32_t, ::by_ref<::UnityEngine::UIElements::UIDocument*>)>(
     &::UnityEngine::UIElements::PhysicsDocumentPicker::GetCapturingDocument)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x7242b0c;
+  constexpr static std::size_t addrs = 0x727fa40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PhysicsDocumentPicker::*)()>(&::UnityEngine::UIElements::PhysicsDocumentPicker::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7242f44;
+  constexpr static std::size_t addrs = 0x727fe78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PhysicsDocumentPicker*>(), { ".ctor", {}, {} })));

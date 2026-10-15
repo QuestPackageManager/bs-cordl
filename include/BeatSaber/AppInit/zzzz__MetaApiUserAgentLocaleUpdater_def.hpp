@@ -50,15 +50,15 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3a046b0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3a2e8bc, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Initialize, addr 0x3a04694, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x3a2e8a0, size 0x1c, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::BeatSaber::AppInit::MetaApiUserAgentLocaleUpdater* New_ctor();
 
-  /// @brief Method OnLocalize, addr 0x3a046cc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method OnLocalize, addr 0x3a2e8d8, size 0x38, virtual true, abstract: false, final true
   inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
 
   constexpr ::BGLib::Polyglot::LocalizationModel* const& __cordl_internal_get__localizationModel() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__metaApiUserAgentProvider(::BeatSaber::AppInit::MetaApiUserAgentProvider* value);
 
-  /// @brief Method .ctor, addr 0x3a04740, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a2e94c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::Polyglot::ILocalize"
@@ -100,7 +100,7 @@ public:
   MetaApiUserAgentLocaleUpdater(MetaApiUserAgentLocaleUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21857 };
 
   /// [Inject]
   /// @brief Field _metaApiUserAgentProvider, offset: 0x10, size: 0x8, def value: None

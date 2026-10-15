@@ -68,7 +68,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ListView_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x71dec68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x721bb9c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,7 +106,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ItemTemplate,
                       put = __cordl_internal_set_m_ItemTemplate)) ::UnityEngine::UIElements::UxmlAssetAttributeDescription_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* m_ItemTemplate;
 
-  /// @brief Method Init, addr 0x71decd0, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x721bc04, size 0x128, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::ListView_UxmlTraits* New_ctor();
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ItemTemplate(::UnityEngine::UIElements::UxmlAssetAttributeDescription_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* value);
 
-  /// @brief Method .ctor, addr 0x71dedf8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x721bd2c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -207,15 +207,15 @@ public:
   /// @brief Field unbindItemProperty, offset 0xffffffff, size 0x98
   __declspec(property(get = getStaticF_unbindItemProperty, put = setStaticF_unbindItemProperty)) ::UnityEngine::UIElements::BindingId unbindItemProperty;
 
-  /// @brief Method CreateViewController, addr 0x71de834, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method CreateViewController, addr 0x721b768, size 0x44, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::CollectionViewController* CreateViewController();
 
-  /// @brief Method HasValidDataAndBindings, addr 0x71de7d8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method HasValidDataAndBindings, addr 0x721b70c, size 0x5c, virtual true, abstract: false, final false
   inline bool HasValidDataAndBindings();
 
   static inline ::UnityEngine::UIElements::ListView* New_ctor();
 
-  /// @brief Method TemplateMakeItem, addr 0x71de4b8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TemplateMakeItem, addr 0x721b3ec, size 0xec, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* TemplateMakeItem();
 
   constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* const& __cordl_internal_get_m_BindItem() const;
@@ -254,7 +254,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UnbindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x71de878, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x721b7ac, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_bindItemProperty();
@@ -267,19 +267,19 @@ public:
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_unbindItemProperty();
 
-  /// @brief Method get_bindItem, addr 0x71de5a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindItem, addr 0x721b4d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_bindItem();
 
-  /// @brief Method get_destroyItem, addr 0x71de720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_destroyItem, addr 0x721b654, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* get_destroyItem();
 
-  /// @brief Method get_itemTemplate, addr 0x71de3a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_itemTemplate, addr 0x721b2dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> get_itemTemplate();
 
-  /// @brief Method get_makeItem, addr 0x71de2e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_makeItem, addr 0x721b218, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* get_makeItem();
 
-  /// @brief Method get_unbindItem, addr 0x71de668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unbindItem, addr 0x721b59c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* get_unbindItem();
 
   static inline void setStaticF_bindItemProperty(::UnityEngine::UIElements::BindingId value);
@@ -292,19 +292,19 @@ public:
 
   static inline void setStaticF_unbindItemProperty(::UnityEngine::UIElements::BindingId value);
 
-  /// @brief Method set_bindItem, addr 0x71de5ac, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_bindItem, addr 0x721b4e0, size 0xbc, virtual false, abstract: false, final false
   inline void set_bindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value);
 
-  /// @brief Method set_destroyItem, addr 0x71de728, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_destroyItem, addr 0x721b65c, size 0xb0, virtual false, abstract: false, final false
   inline void set_destroyItem(::System::Action_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_itemTemplate, addr 0x71de3b0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method set_itemTemplate, addr 0x721b2e4, size 0x108, virtual false, abstract: false, final false
   inline void set_itemTemplate(::UnityEngine::UIElements::VisualTreeAsset* value);
 
-  /// @brief Method set_makeItem, addr 0x71de2ec, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_makeItem, addr 0x721b220, size 0xbc, virtual false, abstract: false, final false
   inline void set_makeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_unbindItem, addr 0x71de670, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_unbindItem, addr 0x721b5a4, size 0xb0, virtual false, abstract: false, final false
   inline void set_unbindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* value);
 
 protected:

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::DateTimeStyles (::Newtonsoft::Json::Converters::IsoDateTimeConverter::*)()>(
     &::Newtonsoft::Json::Converters::IsoDateTimeConverter::get_DateTimeStyles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b5028;
+  constexpr static std::size_t addrs = 0x61f1a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::IsoDateTimeConverter::*)(::System::Globalization::DateTimeStyles)>(
     &::Newtonsoft::Json::Converters::IsoDateTimeConverter::set_DateTimeStyles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b5030;
+  constexpr static std::size_t addrs = 0x61f1a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::IsoDateTimeConverter*>(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Converters::IsoDateTimeConverter::*)()>(
     &::Newtonsoft::Json::Converters::IsoDateTimeConverter::get_DateTimeFormat)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x61b5038;
+  constexpr static std::size_t addrs = 0x61f1a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::IsoDateTimeConverter::*)(::StringW)>(
     &::Newtonsoft::Json::Converters::IsoDateTimeConverter::set_DateTimeFormat)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x61b5058;
+  constexpr static std::size_t addrs = 0x61f1aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::CultureInfo* (::Newtonsoft::Json::Converters::IsoDateTimeConverter::*)()>(
     &::Newtonsoft::Json::Converters::IsoDateTimeConverter::get_Culture)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x61b507c;
+  constexpr static std::size_t addrs = 0x61f1ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::IsoDateTimeConverter*>(), { "get_Culture", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::IsoDateTimeConverter::*)(::System::Globalization::CultureInfo*)>(
     &::Newtonsoft::Json::Converters::IsoDateTimeConverter::set_Culture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61b50e8;
+  constexpr static std::size_t addrs = 0x61f1b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::IsoDateTimeConverter*>(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::IsoDateTimeConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::IsoDateTimeConverter::WriteJson)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x61b50f0;
+  constexpr static std::size_t addrs = 0x61f1b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::IsoDateTimeConverter*>(),
@@ -114,7 +114,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Object* (::Newtonsoft::Json::Converters::IsoDateTimeConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::Newtonsoft::Json::Converters::IsoDateTimeConverter::ReadJson)> {
   constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x61b5348;
+  constexpr static std::size_t addrs = 0x61f1d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::IsoDateTimeConverter*>(),
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::IsoDateTimeConverter::*)()>(&::Newtonsoft::Json::Converters::IsoDateTimeConverter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x61b57fc;
+  constexpr static std::size_t addrs = 0x61f2244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::IsoDateTimeConverter*>(), { ".ctor", {}, {} })));

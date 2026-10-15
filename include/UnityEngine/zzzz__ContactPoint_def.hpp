@@ -43,26 +43,26 @@ public:
 
   __declspec(property(get = get_thisCollider)) ::UnityW<::UnityEngine::Collider> thisCollider;
 
-  /// @brief Method .ctor, addr 0x6fdce64, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7019d58, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, ::UnityEngine::Vector3 impulse, float_t separation, ::UnityEngine::EntityId thisEntityId,
                     ::UnityEngine::EntityId otherEntityId);
 
-  /// @brief Method get_impulse, addr 0x6fdcc50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_impulse, addr 0x7019b44, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_impulse();
 
-  /// @brief Method get_normal, addr 0x6fdcc44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x7019b38, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
-  /// @brief Method get_otherCollider, addr 0x6fdce00, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_otherCollider, addr 0x7019cf4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_otherCollider();
 
-  /// @brief Method get_point, addr 0x6fdcc38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x7019b2c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point();
 
-  /// @brief Method get_separation, addr 0x6fdce5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_separation, addr 0x7019d50, size 0x8, virtual false, abstract: false, final false
   inline float_t get_separation();
 
-  /// @brief Method get_thisCollider, addr 0x6fdcc5c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_thisCollider, addr 0x7019b50, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_thisCollider();
 
   // Ctor Parameters []
@@ -77,7 +77,7 @@ public:
                          ::UnityEngine::EntityId m_OtherColliderEntityId, float_t m_Separation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19055 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

@@ -76,23 +76,23 @@ public:
 
   constexpr void __cordl_internal_set__repaintEvent_k__BackingField(::UnityEngine::Event* value);
 
-  /// @brief Method .ctor, addr 0x726ab1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72a7a50, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_currentOffset, addr 0x726aaec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_currentOffset, addr 0x72a7a20, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_currentOffset();
 
   /// [CompilerGenerated]
-  /// @brief Method get_currentWorldClip, addr 0x726ab00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentWorldClip, addr 0x72a7a34, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_currentWorldClip();
 
   /// [CompilerGenerated]
-  /// @brief Method get_repaintEvent, addr 0x726ab0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_repaintEvent, addr 0x72a7a40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Event* get_repaintEvent();
 
   /// [CompilerGenerated]
-  /// @brief Method set_repaintEvent, addr 0x726ab14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_repaintEvent, addr 0x72a7a48, size 0x8, virtual false, abstract: false, final false
   inline void set_repaintEvent(::UnityEngine::Event* value);
 
 protected:

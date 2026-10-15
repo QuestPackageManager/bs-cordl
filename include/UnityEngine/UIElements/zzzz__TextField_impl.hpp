@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextField_UxmlFactory::*)()>(&::UnityEngine::UIElements::TextField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x71bfec4;
+  constexpr static std::size_t addrs = 0x71fcdf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextField_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextField_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::TextField_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x71bff2c;
+  constexpr static std::size_t addrs = 0x71fce60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextField_UxmlTraits::*)()>(&::UnityEngine::UIElements::TextField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x71c00e0;
+  constexpr static std::size_t addrs = 0x71fd014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextField_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextField* (::UnityEngine::UIElements::TextField_TextInput::*)()>(
     &::UnityEngine::UIElements::TextField_TextInput::get_parentTextField)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x71c0288;
+  constexpr static std::size_t addrs = 0x71fd1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextField_TextInput*>(), { "get_parentTextField", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TextField_TextInput::*)()>(&::UnityEngine::UIElements::TextField_TextInput::get_multiline)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x71bf018;
+  constexpr static std::size_t addrs = 0x71fbf4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextField_TextInput*>(), { "get_multiline", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextField_TextInput::*)(bool)>(&::UnityEngine::UIElements::TextField_TextInput::set_multiline)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x71bf18c;
+  constexpr static std::size_t addrs = 0x71fc0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::TextField_TextInput::*)(::StringW)>(&::UnityEngine::UIElements::TextField_TextInput::StringToValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71c0304;
+  constexpr static std::size_t addrs = 0x71fd238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextField_TextInput::*)()>(&::UnityEngine::UIElements::TextField_TextInput::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x71bf6f4;
+  constexpr static std::size_t addrs = 0x71fc628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextField_TextInput*>(), { ".ctor", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextField_TextInput* (::UnityEngine::UIElements::TextField::*)()>(
     &::UnityEngine::UIElements::TextField::get_textInput)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x71bef70;
+  constexpr static std::size_t addrs = 0x71fbea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextField*>(), { "get_textInput", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TextField::*)()>(&::UnityEngine::UIElements::TextField::get_multiline)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x71bf000;
+  constexpr static std::size_t addrs = 0x71fbf34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextField*>(), { "get_multiline", {}, {} })));
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextField::*)(bool)>(&::UnityEngine::UIElements::TextField::set_multiline)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x71bf0d0;
+  constexpr static std::size_t addrs = 0x71fc004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextField::*)()>(&::UnityEngine::UIElements::TextField::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x71bf45c;
+  constexpr static std::size_t addrs = 0x71fc390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextField*>(), { ".ctor", {}, {} })));
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextField::*)(::StringW)>(&::UnityEngine::UIElements::TextField::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x71bf474;
+  constexpr static std::size_t addrs = 0x71fc3a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextField::*)(::StringW, int32_t, bool, bool, char16_t)>(&::UnityEngine::UIElements::TextField::_ctor)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x71bf488;
+  constexpr static std::size_t addrs = 0x71fc3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::TextField::*)()>(&::UnityEngine::UIElements::TextField::get_value)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x71bf768;
+  constexpr static std::size_t addrs = 0x71fc69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextField::*)(::StringW)>(&::UnityEngine::UIElements::TextField::set_value)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x71bf7ac;
+  constexpr static std::size_t addrs = 0x71fc6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextField::*)(::StringW)>(&::UnityEngine::UIElements::TextField::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x71bf8c8;
+  constexpr static std::size_t addrs = 0x71fc7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextField::*)()>(&::UnityEngine::UIElements::TextField::UpdateTextFromValue)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x71bfa38;
+  constexpr static std::size_t addrs = 0x71fc96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextField::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::TextField::HandleEventBubbleUp)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x71bfa8c;
+  constexpr static std::size_t addrs = 0x71fc9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextField::*)()>(&::UnityEngine::UIElements::TextField::OnViewDataReady)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x71bfc7c;
+  constexpr static std::size_t addrs = 0x71fcbb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::TextField::*)(::StringW)>(&::UnityEngine::UIElements::TextField::ValueToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71bfd24;
+  constexpr static std::size_t addrs = 0x71fcc58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -357,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::TextField::*)(::StringW)>(&::UnityEngine::UIElements::TextField::StringToValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71bfd2c;
+  constexpr static std::size_t addrs = 0x71fcc60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

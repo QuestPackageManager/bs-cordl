@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatLocalScaleEffect::*)()>(&::GlobalNamespace::FloatLocalScaleEffect::Awake)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5db0f98;
+  constexpr static std::size_t addrs = 0x5dee11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatLocalScaleEffect*>(), { "Awake", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatLocalScaleEffect::*)(int32_t, int32_t, float_t)>(&::GlobalNamespace::FloatLocalScaleEffect::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5db1000;
+  constexpr static std::size_t addrs = 0x5dee184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatLocalScaleEffect::*)(int32_t, int32_t, float_t)>(&::GlobalNamespace::FloatLocalScaleEffect::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5db1098;
+  constexpr static std::size_t addrs = 0x5dee21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatLocalScaleEffect::*)(float_t)>(&::GlobalNamespace::FloatLocalScaleEffect::Move)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5db1004;
+  constexpr static std::size_t addrs = 0x5dee188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatLocalScaleEffect::*)()>(&::GlobalNamespace::FloatLocalScaleEffect::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5db109c;
+  constexpr static std::size_t addrs = 0x5dee220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatLocalScaleEffect*>(), { ".ctor", {}, {} })));

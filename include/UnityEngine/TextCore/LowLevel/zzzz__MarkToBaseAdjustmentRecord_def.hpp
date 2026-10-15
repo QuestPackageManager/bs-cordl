@@ -38,28 +38,28 @@ public:
 
   __declspec(property(get = get_markPositionAdjustment, put = set_markPositionAdjustment)) ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment markPositionAdjustment;
 
-  /// @brief Method get_baseGlyphAnchorPoint, addr 0x7020214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseGlyphAnchorPoint, addr 0x705d108, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint get_baseGlyphAnchorPoint();
 
-  /// @brief Method get_baseGlyphID, addr 0x7020204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_baseGlyphID, addr 0x705d0f8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_baseGlyphID();
 
-  /// @brief Method get_markGlyphID, addr 0x7020224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_markGlyphID, addr 0x705d118, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_markGlyphID();
 
-  /// @brief Method get_markPositionAdjustment, addr 0x7020234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_markPositionAdjustment, addr 0x705d128, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment get_markPositionAdjustment();
 
-  /// @brief Method set_baseGlyphAnchorPoint, addr 0x702021c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_baseGlyphAnchorPoint, addr 0x705d110, size 0x8, virtual false, abstract: false, final false
   inline void set_baseGlyphAnchorPoint(::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint value);
 
-  /// @brief Method set_baseGlyphID, addr 0x702020c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_baseGlyphID, addr 0x705d100, size 0x8, virtual false, abstract: false, final false
   inline void set_baseGlyphID(uint32_t value);
 
-  /// @brief Method set_markGlyphID, addr 0x702022c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_markGlyphID, addr 0x705d120, size 0x8, virtual false, abstract: false, final false
   inline void set_markGlyphID(uint32_t value);
 
-  /// @brief Method set_markPositionAdjustment, addr 0x702023c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_markPositionAdjustment, addr 0x705d130, size 0x8, virtual false, abstract: false, final false
   inline void set_markPositionAdjustment(::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment value);
 
   // Ctor Parameters []
@@ -73,7 +73,7 @@ public:
                                        ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment m_MarkPositionAdjustment) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23020 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

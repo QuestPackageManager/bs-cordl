@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t* (::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::*)()>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::get_firstFreeTLS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68f79c4;
+  constexpr static std::size_t addrs = 0x6934640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int32_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::GetBucketSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68f79cc;
+  constexpr static std::size_t addrs = 0x6934648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::GrowCapacity)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68f79d4;
+  constexpr static std::size_t addrs = 0x6934650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*, ::Unity::Collections::AllocatorManager_AllocatorHandle)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::DeallocateHashMap)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x68f79e4;
+  constexpr static std::size_t addrs = 0x6934660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::IsEmpty)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x68f7a70;
+  constexpr static std::size_t addrs = 0x69346ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::GetCount)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x68f7acc;
+  constexpr static std::size_t addrs = 0x6934748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::MoveNextSearch)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x68f7b7c;
+  constexpr static std::size_t addrs = 0x69347f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*, ::by_ref<int32_t>, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::MoveNext)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68f7bf0;
+  constexpr static std::size_t addrs = 0x693486c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapBucketData (
     ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::*)()>(&::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::GetBucketData)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68f7c28;
+  constexpr static std::size_t addrs = 0x69348a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData*, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::CheckHashMapReallocateDoesNotShrink)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x68f7c40;
+  constexpr static std::size_t addrs = 0x69348bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashMapData::CheckCapacity)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x68f7ca8;
+  constexpr static std::size_t addrs = 0x6934924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

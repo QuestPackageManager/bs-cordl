@@ -83,7 +83,7 @@ public:
                                        ::System::Collections::Generic::HashSet_1<::UnityEngine::InputForUI::Event_Type>* _types) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22551 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -130,10 +130,10 @@ public:
 
   static inline ::UnityEngine::InputForUI::EventProvider___c* New_ctor();
 
-  /// @brief Method <Subscribe>b__7_0, addr 0x6fbc150, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Subscribe>b__7_0, addr 0x6ff9044, size 0x18, virtual false, abstract: false, final false
   inline int32_t _Subscribe_b__7_0(::UnityEngine::InputForUI::EventProvider_Registration a, ::UnityEngine::InputForUI::EventProvider_Registration b);
 
-  /// @brief Method .ctor, addr 0x6fbc14c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ff9040, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputForUI::EventProvider___c* getStaticF___9();
@@ -159,7 +159,7 @@ public:
   EventProvider___c(EventProvider___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22502 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22552 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -180,7 +180,7 @@ public:
 
   static inline ::UnityEngine::InputForUI::EventProvider___c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <Unsubscribe>b__0, addr 0x6fbc168, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <Unsubscribe>b__0, addr 0x6ff905c, size 0x34, virtual false, abstract: false, final false
   inline bool _Unsubscribe_b__0(::UnityEngine::InputForUI::EventProvider_Registration x);
 
   constexpr ::UnityEngine::InputForUI::EventConsumer* const& __cordl_internal_get_handler() const;
@@ -189,7 +189,7 @@ public:
 
   constexpr void __cordl_internal_set_handler(::UnityEngine::InputForUI::EventConsumer* value);
 
-  /// @brief Method .ctor, addr 0x6fbb134, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ff8028, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -207,7 +207,7 @@ public:
   EventProvider___c__DisplayClass8_0(EventProvider___c__DisplayClass8_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22553 };
 
   /// @brief Field handler, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputForUI::EventConsumer* ___handler;
@@ -255,36 +255,36 @@ public:
   /// @brief Field s_sanitizer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_sanitizer, put = setStaticF_s_sanitizer)) ::UnityEngine::InputForUI::EventSanitizer s_sanitizer;
 
-  /// @brief Method Bootstrap, addr 0x6fbaf80, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Bootstrap, addr 0x6ff7e74, size 0x78, virtual false, abstract: false, final false
   static inline void Bootstrap();
 
-  /// @brief Method Dispatch, addr 0x6fbb568, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x6ff845c, size 0x234, virtual false, abstract: false, final false
   static inline void Dispatch(/* [IsReadOnly] */ ::by_ref<::UnityEngine::InputForUI::Event const> ev);
 
-  /// @brief Method Initialize, addr 0x6fbb1dc, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6ff80d0, size 0x1d8, virtual false, abstract: false, final false
   static inline void Initialize();
 
   /// [RequiredByNativeCode]
-  /// @brief Method NotifyUpdate, addr 0x6fbba94, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method NotifyUpdate, addr 0x6ff8988, size 0x1b0, virtual false, abstract: false, final false
   static inline void NotifyUpdate();
 
-  /// @brief Method OnFocusChanged, addr 0x6fbb9b0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnFocusChanged, addr 0x6ff88a4, size 0xe4, virtual false, abstract: false, final false
   static inline void OnFocusChanged(bool focus);
 
-  /// @brief Method SetEnabled, addr 0x6fbb138, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetEnabled, addr 0x6ff802c, size 0xa4, virtual false, abstract: false, final false
   static inline void SetEnabled(bool enable);
 
-  /// @brief Method SetInputSystemProvider, addr 0x6fbbe3c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetInputSystemProvider, addr 0x6ff8d30, size 0x90, virtual false, abstract: false, final false
   static inline void SetInputSystemProvider(::UnityEngine::InputForUI::IEventProviderImpl* impl);
 
-  /// @brief Method Shutdown, addr 0x6fbb3b4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Shutdown, addr 0x6ff82a8, size 0x1b4, virtual false, abstract: false, final false
   static inline void Shutdown();
 
-  /// @brief Method Subscribe, addr 0x6fbad08, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method Subscribe, addr 0x6ff7bfc, size 0x278, virtual false, abstract: false, final false
   static inline void Subscribe(::UnityEngine::InputForUI::EventConsumer* handler, int32_t priority, ::System::Nullable_1<int32_t> playerId,
                                /* [ParamArray] */ ::ArrayW<::UnityEngine::InputForUI::Event_Type> type);
 
-  /// @brief Method Unsubscribe, addr 0x6fbaff8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Unsubscribe, addr 0x6ff7eec, size 0x13c, virtual false, abstract: false, final false
   static inline void Unsubscribe(::UnityEngine::InputForUI::EventConsumer* handler);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::InputForUI::EventProvider_Registration>* getStaticF__registrations();
@@ -330,7 +330,7 @@ public:
   EventProvider(EventProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22554 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

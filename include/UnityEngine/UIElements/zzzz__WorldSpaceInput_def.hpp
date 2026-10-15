@@ -58,7 +58,7 @@ public:
   /// @brief Field Empty, offset 0xffffffff, size 0x40
   __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::UnityEngine::UIElements::WorldSpaceInput_PickResult Empty;
 
-  /// @brief Method ComputeCollisionData, addr 0x724c6f8, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method ComputeCollisionData, addr 0x728962c, size 0x204, virtual false, abstract: false, final false
   inline void ComputeCollisionData(::UnityEngine::Ray ray);
 
   static inline ::UnityEngine::UIElements::WorldSpaceInput_PickResult getStaticF_Empty();
@@ -133,44 +133,44 @@ public:
   // Declarations
   using PickResult = ::UnityEngine::UIElements::WorldSpaceInput_PickResult;
 
-  /// @brief Method GetPicking3DLocalBounds, addr 0x724c604, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetPicking3DLocalBounds, addr 0x7289538, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Bounds GetPicking3DLocalBounds(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetPicking3DWorldBounds, addr 0x724b22c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetPicking3DWorldBounds, addr 0x7288160, size 0xf8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Bounds GetPicking3DWorldBounds(::UnityEngine::UIElements::VisualElement* ve);
 
   /// [VisibleToOtherModules(new[] { "Assembly-CSharp-testable" })]
-  /// @brief Method PerformPick, addr 0x724c5ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method PerformPick, addr 0x72894e0, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* PerformPick(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::Ray ray,
                                                                       ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* outResults);
 
-  /// @brief Method PerformPick2D, addr 0x724c8fc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method PerformPick2D, addr 0x7289830, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* PerformPick2D(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::Ray ray,
                                                                         ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* outResults);
 
-  /// @brief Method PerformPick2D_LocalPoint, addr 0x724cc5c, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method PerformPick2D_LocalPoint, addr 0x7289b90, size 0x318, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* PerformPick2D_LocalPoint(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::Vector3 localPoint,
                                                                                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* picked);
 
-  /// @brief Method PerformPick3D, addr 0x724c958, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method PerformPick3D, addr 0x728988c, size 0x304, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* PerformPick3D(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::Ray ray,
                                                                         ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* outResults);
 
-  /// @brief Method Pick3D, addr 0x7242cd4, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Pick3D, addr 0x727fc08, size 0x1ac, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* Pick3D(::UnityEngine::UIElements::UIDocument* document, ::UnityEngine::Ray worldRay, ::by_ref<float_t> distance);
 
-  /// @brief Method Pick3D, addr 0x724c3ec, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Pick3D, addr 0x7289320, size 0x158, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* Pick3D(::UnityEngine::UIElements::IPanel* panel, ::UnityEngine::Ray panelRay,
                                                                  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* outResults);
 
-  /// @brief Method Pick3D, addr 0x724c544, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Pick3D, addr 0x7289478, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* Pick3D(::UnityEngine::UIElements::VisualElement* rootVisualElement, ::UnityEngine::Ray localRay,
                                                                  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* outResults);
 
-  /// @brief Method PickDocument3D, addr 0x7242230, size 0x73c, virtual false, abstract: false, final false
+  /// @brief Method PickDocument3D, addr 0x727f164, size 0x73c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WorldSpaceInput_PickResult PickDocument3D(::UnityEngine::Ray worldRay, float_t maxDistance, int32_t layerMask);
 
-  /// @brief Method Pick_Internal, addr 0x724c360, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Pick_Internal, addr 0x7289294, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* Pick_Internal(::UnityEngine::UIElements::UIDocument* document, ::UnityEngine::Ray documentRay,
                                                                         ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* outResults);
 

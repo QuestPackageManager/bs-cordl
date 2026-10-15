@@ -29,6 +29,9 @@ namespace BeatSaber::Destinations {
 class LevelStartDestinationParameters;
 }
 namespace BeatSaber::Destinations {
+struct LevelStartSource;
+}
+namespace BeatSaber::Destinations {
 class SimpleMissionObjective;
 }
 namespace GlobalNamespace {
@@ -68,6 +71,9 @@ namespace GlobalNamespace {
 class EnvironmentsListModel;
 }
 namespace GlobalNamespace {
+struct GameMode;
+}
+namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
@@ -80,37 +86,37 @@ namespace GlobalNamespace {
 class HealthWarningScenesTransitionSetupData;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__GoToCreditsAsync_d__37;
+struct InitialDestinationResolver__GoToCreditsAsync_d__36;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__GoToMainMenuAsync_d__40;
+struct InitialDestinationResolver__GoToMainMenuAsync_d__39;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__GoToMissionLevelAsync_d__32;
+struct InitialDestinationResolver__GoToMissionLevelAsync_d__31;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39;
+struct InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__GoToStandardLevelAsync_d__31;
+struct InitialDestinationResolver__GoToStandardLevelAsync_d__30;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__GoToStartupErrorAsync_d__34;
+struct InitialDestinationResolver__GoToStartupErrorAsync_d__33;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__GoToTargetDestinationAsync_d__29;
+struct InitialDestinationResolver__GoToTargetDestinationAsync_d__28;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__GoToTutorialAsync_d__35;
+struct InitialDestinationResolver__GoToTutorialAsync_d__34;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__InitializeScenesAsync_d__27;
+struct InitialDestinationResolver__InitializeScenesAsync_d__26;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__PresentHealthWarningAsync_d__42;
+struct InitialDestinationResolver__PresentHealthWarningAsync_d__41;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__PresentShaderWarmUpAsync_d__41;
+struct InitialDestinationResolver__PresentShaderWarmUpAsync_d__40;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
@@ -144,9 +150,6 @@ class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class RecordingToolManager;
 }
 namespace GlobalNamespace {
 class SettingsManager;
@@ -189,79 +192,79 @@ namespace GlobalNamespace {
 class InitialDestinationResolver;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__GoToCreditsAsync_d__37;
+struct InitialDestinationResolver__GoToCreditsAsync_d__36;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__GoToMainMenuAsync_d__40;
+struct InitialDestinationResolver__GoToMainMenuAsync_d__39;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__GoToMissionLevelAsync_d__32;
+struct InitialDestinationResolver__GoToMissionLevelAsync_d__31;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39;
+struct InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__GoToStandardLevelAsync_d__31;
+struct InitialDestinationResolver__GoToStandardLevelAsync_d__30;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__GoToStartupErrorAsync_d__34;
+struct InitialDestinationResolver__GoToStartupErrorAsync_d__33;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__GoToTargetDestinationAsync_d__29;
+struct InitialDestinationResolver__GoToTargetDestinationAsync_d__28;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__GoToTutorialAsync_d__35;
+struct InitialDestinationResolver__GoToTutorialAsync_d__34;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__InitializeScenesAsync_d__27;
+struct InitialDestinationResolver__InitializeScenesAsync_d__26;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__PresentHealthWarningAsync_d__42;
+struct InitialDestinationResolver__PresentHealthWarningAsync_d__41;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__PresentShaderWarmUpAsync_d__41;
+struct InitialDestinationResolver__PresentShaderWarmUpAsync_d__40;
 }
 // Write type traits
 MARK_REF_T(::GlobalNamespace::InitialDestinationResolver*);
-MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37);
-MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__40);
-MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32);
-MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39);
-MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31);
-MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__34);
-MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__29);
-MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35);
-MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__27);
-MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42);
-MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__41);
+MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__36);
+MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__39);
+MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__31);
+MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38);
+MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__30);
+MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__33);
+MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__28);
+MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__34);
+MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26);
+MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41);
+MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver*, "", "InitialDestinationResolver");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37, "", "InitialDestinationResolver/<GoToCreditsAsync>d__37");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__40, "", "InitialDestinationResolver/<GoToMainMenuAsync>d__40");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32, "", "InitialDestinationResolver/<GoToMissionLevelAsync>d__32");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, "", "InitialDestinationResolver/<GoToMultiplayerLevelAsync>d__39");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31, "", "InitialDestinationResolver/<GoToStandardLevelAsync>d__31");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__34, "", "InitialDestinationResolver/<GoToStartupErrorAsync>d__34");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__29, "", "InitialDestinationResolver/<GoToTargetDestinationAsync>d__29");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35, "", "InitialDestinationResolver/<GoToTutorialAsync>d__35");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__27, "", "InitialDestinationResolver/<InitializeScenesAsync>d__27");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42, "", "InitialDestinationResolver/<PresentHealthWarningAsync>d__42");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__41, "", "InitialDestinationResolver/<PresentShaderWarmUpAsync>d__41");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__36, "", "InitialDestinationResolver/<GoToCreditsAsync>d__36");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__39, "", "InitialDestinationResolver/<GoToMainMenuAsync>d__39");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__31, "", "InitialDestinationResolver/<GoToMissionLevelAsync>d__31");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, "", "InitialDestinationResolver/<GoToMultiplayerLevelAsync>d__38");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__30, "", "InitialDestinationResolver/<GoToStandardLevelAsync>d__30");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__33, "", "InitialDestinationResolver/<GoToStartupErrorAsync>d__33");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__28, "", "InitialDestinationResolver/<GoToTargetDestinationAsync>d__28");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__34, "", "InitialDestinationResolver/<GoToTutorialAsync>d__34");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26, "", "InitialDestinationResolver/<InitializeScenesAsync>d__26");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41, "", "InitialDestinationResolver/<PresentHealthWarningAsync>d__41");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, "", "InitialDestinationResolver/<PresentShaderWarmUpAsync>d__40");
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: InitialDestinationResolver/<GoToCreditsAsync>d__37
-struct CORDL_TYPE InitialDestinationResolver__GoToCreditsAsync_d__37 {
+// CS Name: InitialDestinationResolver/<GoToCreditsAsync>d__36
+struct CORDL_TYPE InitialDestinationResolver__GoToCreditsAsync_d__36 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39fb3d4, size 0x51c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a25574, size 0x51c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39fb8f0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a25a90, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -269,7 +272,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr InitialDestinationResolver__GoToCreditsAsync_d__37();
+  constexpr InitialDestinationResolver__GoToCreditsAsync_d__36();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::InitialDestinationResolver*",
@@ -277,13 +280,13 @@ public:
   // name: "shouldReplace", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_transition_5__2", ty: "::GlobalNamespace::CreditsScenesTransitionSetupData*", modifiers: "",
   // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2",
   // ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*>", modifiers: "", def_value: None, comment: None }]
-  constexpr InitialDestinationResolver__GoToCreditsAsync_d__37(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr InitialDestinationResolver__GoToCreditsAsync_d__36(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                ::GlobalNamespace::InitialDestinationResolver* __4__this, ::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace,
                                                                ::GlobalNamespace::CreditsScenesTransitionSetupData* _transition_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
                                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21817 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -319,41 +322,41 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__36, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__36, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__36, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37, targetDestination) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__36, targetDestination) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37, shouldReplace) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__36, shouldReplace) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37, _transition_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__36, _transition_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37, __u__1) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__36, __u__1) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37, __u__2) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__36, __u__2) == 0x48, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37) == 0x50, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__36) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: InitialDestinationResolver/<GoToMainMenuAsync>d__40
-struct CORDL_TYPE InitialDestinationResolver__GoToMainMenuAsync_d__40 {
+// CS Name: InitialDestinationResolver/<GoToMainMenuAsync>d__39
+struct CORDL_TYPE InitialDestinationResolver__GoToMainMenuAsync_d__39 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39fb95c, size 0x320, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a25afc, size 0x320, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39fbc7c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a25e1c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -361,18 +364,18 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr InitialDestinationResolver__GoToMainMenuAsync_d__40();
+  constexpr InitialDestinationResolver__GoToMainMenuAsync_d__39();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::InitialDestinationResolver*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "shouldReplace", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*>", modifiers: "", def_value: None, comment: None }]
-  constexpr InitialDestinationResolver__GoToMainMenuAsync_d__40(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr InitialDestinationResolver__GoToMainMenuAsync_d__39(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                 ::GlobalNamespace::InitialDestinationResolver* __4__this, bool shouldReplace,
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21818 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -397,35 +400,35 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__40, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__39, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__40, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__39, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__40, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__39, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__40, shouldReplace) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__39, shouldReplace) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__40, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__39, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__40) == 0x38, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__39) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: InitialDestinationResolver/<GoToMissionLevelAsync>d__32
-struct CORDL_TYPE InitialDestinationResolver__GoToMissionLevelAsync_d__32 {
+// CS Name: InitialDestinationResolver/<GoToMissionLevelAsync>d__31
+struct CORDL_TYPE InitialDestinationResolver__GoToMissionLevelAsync_d__31 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39fbce8, size 0x760, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a25e88, size 0x764, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39fc448, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a265ec, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -433,7 +436,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr InitialDestinationResolver__GoToMissionLevelAsync_d__32();
+  constexpr InitialDestinationResolver__GoToMissionLevelAsync_d__31();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::InitialDestinationResolver*",
@@ -441,14 +444,14 @@ public:
   // name: "shouldReplace", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_transition_5__2", ty: "::GlobalNamespace::MissionLevelScenesTransitionSetupData*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam {
   // name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*>", modifiers: "", def_value: None, comment: None }]
-  constexpr InitialDestinationResolver__GoToMissionLevelAsync_d__32(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr InitialDestinationResolver__GoToMissionLevelAsync_d__31(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                     ::GlobalNamespace::InitialDestinationResolver* __4__this, ::BeatSaber::Destinations::Destination* targetDestination,
                                                                     bool shouldReplace, ::GlobalNamespace::MissionLevelScenesTransitionSetupData* _transition_5__2,
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21819 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -484,23 +487,23 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__31, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__31, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__31, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32, targetDestination) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__31, targetDestination) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32, shouldReplace) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__31, shouldReplace) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32, _transition_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__31, _transition_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32, __u__1) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__31, __u__1) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32, __u__2) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__31, __u__2) == 0x48, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32) == 0x50, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__31) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
@@ -508,18 +511,18 @@ static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToMissionL
 // System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: InitialDestinationResolver/<GoToMultiplayerLevelAsync>d__39
-struct CORDL_TYPE InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39 {
+// CS Name: InitialDestinationResolver/<GoToMultiplayerLevelAsync>d__38
+struct CORDL_TYPE InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39fc4b4, size 0xa80, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a26658, size 0xa30, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39fcf34, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a27088, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -527,7 +530,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39();
+  constexpr InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "targetDestination", ty:
@@ -542,7 +545,7 @@ public:
   // def_value: None, comment: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: None,
   // comment: None }, CppParam { name: "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: None, comment: None
   // }, CppParam { name: "__u__4", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*>", modifiers: "", def_value: None, comment: None }]
-  constexpr InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39(
+  constexpr InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BeatSaber::Destinations::Destination* targetDestination,
       ::GlobalNamespace::InitialDestinationResolver* __4__this, bool shouldReplace, ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* _transition_5__2,
       ::BeatSaber::Destinations::LevelStartDestinationParameters* _parameters_5__3, ::GlobalNamespace::GameplayAdditionalInformation* _additionalInformation_5__4,
@@ -553,10 +556,10 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21820 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -587,89 +590,89 @@ public:
   /// @brief Field <additionalInformation>5__4, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::GameplayAdditionalInformation* _additionalInformation_5__4;
 
-  /// @brief Field <beatmapLevelKey>5__5, offset: 0x50, size: 0x10, def value: None
+  /// @brief Field <beatmapLevelKey>5__5, offset: 0x50, size: 0x18, def value: None
   ::GlobalNamespace::BeatmapKey _beatmapLevelKey_5__5;
 
   /// [Nullable(0)]
-  /// @brief Field <beatmapLevel>5__6, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field <beatmapLevel>5__6, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* _beatmapLevel_5__6;
 
   /// [Nullable(0)]
-  /// @brief Field <playerSpecificSettings>5__7, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field <playerSpecificSettings>5__7, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings_5__7;
 
-  /// @brief Field <beatmapLevelDataVersion>5__8, offset: 0x70, size: 0x4, def value: None
+  /// @brief Field <beatmapLevelDataVersion>5__8, offset: 0x78, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapLevelDataVersion _beatmapLevelDataVersion_5__8;
 
-  /// @brief Field <>u__1, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field <>u__1, offset: 0x80, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   /// [Nullable(0)]
-  /// @brief Field <>u__2, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field <>u__2, offset: 0x88, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__2;
 
   /// [Nullable(0)]
-  /// @brief Field <>u__3, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field <>u__3, offset: 0x90, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__3;
 
   /// [Nullable(0)]
-  /// @brief Field <>u__4, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field <>u__4, offset: 0x98, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__4;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, targetDestination) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, targetDestination) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, shouldReplace) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, shouldReplace) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, _transition_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, _transition_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, _parameters_5__3) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, _parameters_5__3) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, _additionalInformation_5__4) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, _additionalInformation_5__4) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, _beatmapLevelKey_5__5) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, _beatmapLevelKey_5__5) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, _beatmapLevel_5__6) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, _beatmapLevel_5__6) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, _playerSpecificSettings_5__7) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, _playerSpecificSettings_5__7) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, _beatmapLevelDataVersion_5__8) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, _beatmapLevelDataVersion_5__8) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, __u__1) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, __u__1) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, __u__2) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, __u__2) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, __u__3) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, __u__3) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39, __u__4) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38, __u__4) == 0x98, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39) == 0x98, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38) == 0xa0, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: InitialDestinationResolver/<GoToStandardLevelAsync>d__31
-struct CORDL_TYPE InitialDestinationResolver__GoToStandardLevelAsync_d__31 {
+// CS Name: InitialDestinationResolver/<GoToStandardLevelAsync>d__30
+struct CORDL_TYPE InitialDestinationResolver__GoToStandardLevelAsync_d__30 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39fcfa0, size 0x4a0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a270f4, size 0x4a0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39fd440, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a27594, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -677,7 +680,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr InitialDestinationResolver__GoToStandardLevelAsync_d__31();
+  constexpr InitialDestinationResolver__GoToStandardLevelAsync_d__30();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::InitialDestinationResolver*",
@@ -685,14 +688,14 @@ public:
   // name: "shouldReplace", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_transition_5__2", ty: "::GlobalNamespace::StandardLevelScenesTransitionSetupData*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam {
   // name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*>", modifiers: "", def_value: None, comment: None }]
-  constexpr InitialDestinationResolver__GoToStandardLevelAsync_d__31(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr InitialDestinationResolver__GoToStandardLevelAsync_d__30(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                      ::GlobalNamespace::InitialDestinationResolver* __4__this, ::BeatSaber::Destinations::Destination* targetDestination,
                                                                      bool shouldReplace, ::GlobalNamespace::StandardLevelScenesTransitionSetupData* _transition_5__2,
                                                                      ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
                                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21821 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -728,41 +731,41 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__30, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__30, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__30, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31, targetDestination) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__30, targetDestination) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31, shouldReplace) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__30, shouldReplace) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31, _transition_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__30, _transition_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31, __u__1) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__30, __u__1) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31, __u__2) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__30, __u__2) == 0x48, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31) == 0x50, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__30) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: InitialDestinationResolver/<GoToStartupErrorAsync>d__34
-struct CORDL_TYPE InitialDestinationResolver__GoToStartupErrorAsync_d__34 {
+// CS Name: InitialDestinationResolver/<GoToStartupErrorAsync>d__33
+struct CORDL_TYPE InitialDestinationResolver__GoToStartupErrorAsync_d__33 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39fd4ac, size 0x350, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a27600, size 0x350, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39fd7fc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a27950, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -770,18 +773,18 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr InitialDestinationResolver__GoToStartupErrorAsync_d__34();
+  constexpr InitialDestinationResolver__GoToStartupErrorAsync_d__33();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "targetDestination", ty:
   // "::BeatSaber::Destinations::Destination*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::InitialDestinationResolver*", modifiers: "",
   // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*>", modifiers: "", def_value: None, comment: None }]
-  constexpr InitialDestinationResolver__GoToStartupErrorAsync_d__34(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr InitialDestinationResolver__GoToStartupErrorAsync_d__33(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                     ::BeatSaber::Destinations::Destination* targetDestination, ::GlobalNamespace::InitialDestinationResolver* __4__this,
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21822 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -807,35 +810,35 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__34, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__33, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__34, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__33, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__34, targetDestination) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__33, targetDestination) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__34, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__33, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__34, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__33, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__34) == 0x38, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__33) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: InitialDestinationResolver/<GoToTargetDestinationAsync>d__29
-struct CORDL_TYPE InitialDestinationResolver__GoToTargetDestinationAsync_d__29 {
+// CS Name: InitialDestinationResolver/<GoToTargetDestinationAsync>d__28
+struct CORDL_TYPE InitialDestinationResolver__GoToTargetDestinationAsync_d__28 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39fd868, size 0x6bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a279bc, size 0x6bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39fdf24, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a28078, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -843,19 +846,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr InitialDestinationResolver__GoToTargetDestinationAsync_d__29();
+  constexpr InitialDestinationResolver__GoToTargetDestinationAsync_d__28();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "targetDestination", ty:
   // "::BeatSaber::Destinations::Destination*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::InitialDestinationResolver*", modifiers: "",
   // def_value: None, comment: None }, CppParam { name: "shouldReplace", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr InitialDestinationResolver__GoToTargetDestinationAsync_d__29(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr InitialDestinationResolver__GoToTargetDestinationAsync_d__28(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                          ::BeatSaber::Destinations::Destination* targetDestination, ::GlobalNamespace::InitialDestinationResolver* __4__this,
                                                                          bool shouldReplace, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21823 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -883,37 +886,37 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__29, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__28, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__29, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__28, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__29, targetDestination) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__28, targetDestination) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__29, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__28, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__29, shouldReplace) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__28, shouldReplace) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__29, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__28, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__29) == 0x40, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__28) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: InitialDestinationResolver/<GoToTutorialAsync>d__35
-struct CORDL_TYPE InitialDestinationResolver__GoToTutorialAsync_d__35 {
+// CS Name: InitialDestinationResolver/<GoToTutorialAsync>d__34
+struct CORDL_TYPE InitialDestinationResolver__GoToTutorialAsync_d__34 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39fdf90, size 0x5c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a280e4, size 0x5c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39fe558, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a286ac, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -921,7 +924,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr InitialDestinationResolver__GoToTutorialAsync_d__35();
+  constexpr InitialDestinationResolver__GoToTutorialAsync_d__34();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::InitialDestinationResolver*",
@@ -929,13 +932,13 @@ public:
   // name: "shouldReplace", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_transition_5__2", ty: "::GlobalNamespace::TutorialScenesTransitionSetupData*", modifiers:
   // "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }, CppParam { name:
   // "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*>", modifiers: "", def_value: None, comment: None }]
-  constexpr InitialDestinationResolver__GoToTutorialAsync_d__35(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr InitialDestinationResolver__GoToTutorialAsync_d__34(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                 ::GlobalNamespace::InitialDestinationResolver* __4__this, ::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace,
                                                                 ::GlobalNamespace::TutorialScenesTransitionSetupData* _transition_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21824 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -971,41 +974,41 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__34, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__34, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__34, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35, targetDestination) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__34, targetDestination) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35, shouldReplace) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__34, shouldReplace) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35, _transition_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__34, _transition_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35, __u__1) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__34, __u__1) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35, __u__2) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__34, __u__2) == 0x48, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35) == 0x50, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__34) == 0x50, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: InitialDestinationResolver/<InitializeScenesAsync>d__27
-struct CORDL_TYPE InitialDestinationResolver__InitializeScenesAsync_d__27 {
+// CS Name: InitialDestinationResolver/<InitializeScenesAsync>d__26
+struct CORDL_TYPE InitialDestinationResolver__InitializeScenesAsync_d__26 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39fe5c4, size 0x588, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a28718, size 0x588, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39feb4c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a28ca0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1013,18 +1016,18 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr InitialDestinationResolver__InitializeScenesAsync_d__27();
+  constexpr InitialDestinationResolver__InitializeScenesAsync_d__26();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::InitialDestinationResolver*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "_targetDestination_5__2", ty: "::BeatSaber::Destinations::Destination*", modifiers: "", def_value: None, comment: None },
   // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr InitialDestinationResolver__InitializeScenesAsync_d__27(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr InitialDestinationResolver__InitializeScenesAsync_d__26(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                     ::GlobalNamespace::InitialDestinationResolver* __4__this, ::BeatSaber::Destinations::Destination* _targetDestination_5__2,
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21825 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -1049,35 +1052,35 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__27, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__27, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__27, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__27, _targetDestination_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26, _targetDestination_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__27, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__27) == 0x38, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26) == 0x38, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: InitialDestinationResolver/<PresentHealthWarningAsync>d__42
-struct CORDL_TYPE InitialDestinationResolver__PresentHealthWarningAsync_d__42 {
+// CS Name: InitialDestinationResolver/<PresentHealthWarningAsync>d__41
+struct CORDL_TYPE InitialDestinationResolver__PresentHealthWarningAsync_d__41 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39febb8, size 0x3d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a28d0c, size 0x3d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39fef8c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a290e0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1085,20 +1088,20 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr InitialDestinationResolver__PresentHealthWarningAsync_d__42();
+  constexpr InitialDestinationResolver__PresentHealthWarningAsync_d__41();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::InitialDestinationResolver*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "_sceneSetupData_5__2", ty: "::GlobalNamespace::HealthWarningSceneSetupData*", modifiers: "", def_value: None, comment: None },
   // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
-  constexpr InitialDestinationResolver__PresentHealthWarningAsync_d__42(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr InitialDestinationResolver__PresentHealthWarningAsync_d__41(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                         ::GlobalNamespace::InitialDestinationResolver* __4__this, ::GlobalNamespace::HealthWarningSceneSetupData* _sceneSetupData_5__2,
                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__1,
                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21826 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1128,37 +1131,37 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42, _sceneSetupData_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41, _sceneSetupData_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42, __u__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41, __u__2) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42) == 0x40, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: InitialDestinationResolver/<PresentShaderWarmUpAsync>d__41
-struct CORDL_TYPE InitialDestinationResolver__PresentShaderWarmUpAsync_d__41 {
+// CS Name: InitialDestinationResolver/<PresentShaderWarmUpAsync>d__40
+struct CORDL_TYPE InitialDestinationResolver__PresentShaderWarmUpAsync_d__40 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39feff8, size 0x3d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a2914c, size 0x3d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39ff3cc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a29520, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1166,20 +1169,20 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr InitialDestinationResolver__PresentShaderWarmUpAsync_d__41();
+  constexpr InitialDestinationResolver__PresentShaderWarmUpAsync_d__40();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::InitialDestinationResolver*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "_sceneSetupData_5__2", ty: "::GlobalNamespace::ShaderWarmupSceneSetupData*", modifiers: "", def_value: None, comment: None },
   // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
-  constexpr InitialDestinationResolver__PresentShaderWarmUpAsync_d__41(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr InitialDestinationResolver__PresentShaderWarmUpAsync_d__40(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                        ::GlobalNamespace::InitialDestinationResolver* __4__this, ::GlobalNamespace::ShaderWarmupSceneSetupData* _sceneSetupData_5__2,
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__1,
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21827 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -1209,19 +1212,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__41, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__41, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__41, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__41, _sceneSetupData_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, _sceneSetupData_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__41, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__41, __u__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, __u__2) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__41) == 0x40, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [NullableContext(1)]
@@ -1233,33 +1236,33 @@ namespace GlobalNamespace {
 class CORDL_TYPE InitialDestinationResolver : public ::System::Object {
 public:
   // Declarations
-  using _GoToCreditsAsync_d__37 = ::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__37;
+  using _GoToCreditsAsync_d__36 = ::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__36;
 
-  using _GoToMainMenuAsync_d__40 = ::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__40;
+  using _GoToMainMenuAsync_d__39 = ::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__39;
 
-  using _GoToMissionLevelAsync_d__32 = ::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__32;
+  using _GoToMissionLevelAsync_d__31 = ::GlobalNamespace::InitialDestinationResolver__GoToMissionLevelAsync_d__31;
 
-  using _GoToMultiplayerLevelAsync_d__39 = ::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__39;
+  using _GoToMultiplayerLevelAsync_d__38 = ::GlobalNamespace::InitialDestinationResolver__GoToMultiplayerLevelAsync_d__38;
 
-  using _GoToStandardLevelAsync_d__31 = ::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__31;
+  using _GoToStandardLevelAsync_d__30 = ::GlobalNamespace::InitialDestinationResolver__GoToStandardLevelAsync_d__30;
 
-  using _GoToStartupErrorAsync_d__34 = ::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__34;
+  using _GoToStartupErrorAsync_d__33 = ::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_d__33;
 
-  using _GoToTargetDestinationAsync_d__29 = ::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__29;
+  using _GoToTargetDestinationAsync_d__28 = ::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__28;
 
-  using _GoToTutorialAsync_d__35 = ::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__35;
+  using _GoToTutorialAsync_d__34 = ::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__34;
 
-  using _InitializeScenesAsync_d__27 = ::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__27;
+  using _InitializeScenesAsync_d__26 = ::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26;
 
-  using _PresentHealthWarningAsync_d__42 = ::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42;
+  using _PresentHealthWarningAsync_d__41 = ::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41;
 
-  using _PresentShaderWarmUpAsync_d__41 = ::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__41;
+  using _PresentShaderWarmUpAsync_d__40 = ::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40;
 
-  /// @brief Field _appInitSceneSetupData, offset 0x80, size 0x8
+  /// @brief Field _appInitSceneSetupData, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__appInitSceneSetupData,
                       put = __cordl_internal_set__appInitSceneSetupData)) ::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitSceneSetupData* _appInitSceneSetupData;
 
-  /// @brief Field _appInitScenesTransitionSetupData, offset 0x88, size 0x8
+  /// @brief Field _appInitScenesTransitionSetupData, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__appInitScenesTransitionSetupData,
                       put = __cordl_internal_set__appInitScenesTransitionSetupData)) ::GlobalNamespace::AppInitScenesTransitionSetupData* _appInitScenesTransitionSetupData;
 
@@ -1282,7 +1285,7 @@ public:
   /// @brief Field _controller, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__controller, put = __cordl_internal_set__controller)) ::BeatSaber::Destinations::InitialDestinationController* _controller;
 
-  /// @brief Field _creditsScenesTransitionSetupData, offset 0xb0, size 0x8
+  /// @brief Field _creditsScenesTransitionSetupData, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__creditsScenesTransitionSetupData,
                       put = __cordl_internal_set__creditsScenesTransitionSetupData)) ::GlobalNamespace::CreditsScenesTransitionSetupData* _creditsScenesTransitionSetupData;
 
@@ -1292,18 +1295,18 @@ public:
   /// @brief Field _gameScenesManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
-  /// @brief Field _healthWarningScenesTransitionSetupData, offset 0xb8, size 0x8
+  /// @brief Field _healthWarningScenesTransitionSetupData, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__healthWarningScenesTransitionSetupData,
                       put = __cordl_internal_set__healthWarningScenesTransitionSetupData)) ::GlobalNamespace::HealthWarningScenesTransitionSetupData* _healthWarningScenesTransitionSetupData;
 
-  /// @brief Field _lastDestination, offset 0xd8, size 0x8
+  /// @brief Field _lastDestination, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__lastDestination, put = __cordl_internal_set__lastDestination)) ::BeatSaber::Destinations::Destination* _lastDestination;
 
-  /// @brief Field _menuScenesTransitionSetupData, offset 0xc8, size 0x8
+  /// @brief Field _menuScenesTransitionSetupData, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__menuScenesTransitionSetupData,
                       put = __cordl_internal_set__menuScenesTransitionSetupData)) ::GlobalNamespace::MenuScenesTransitionSetupData* _menuScenesTransitionSetupData;
 
-  /// @brief Field _missionLevelScenesTransitionSetupData, offset 0xa0, size 0x8
+  /// @brief Field _missionLevelScenesTransitionSetupData, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__missionLevelScenesTransitionSetupData,
                       put = __cordl_internal_set__missionLevelScenesTransitionSetupData)) ::GlobalNamespace::MissionLevelScenesTransitionSetupData* _missionLevelScenesTransitionSetupData;
 
@@ -1311,7 +1314,7 @@ public:
   __declspec(property(get = __cordl_internal_get__missionObjectiveTypeCollection,
                       put = __cordl_internal_set__missionObjectiveTypeCollection)) ::GlobalNamespace::MissionObjectiveTypeCollection* _missionObjectiveTypeCollection;
 
-  /// @brief Field _multiplayerLevelScenesTransitionSetupData, offset 0x98, size 0x8
+  /// @brief Field _multiplayerLevelScenesTransitionSetupData, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerLevelScenesTransitionSetupData,
                       put = __cordl_internal_set__multiplayerLevelScenesTransitionSetupData)) ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* _multiplayerLevelScenesTransitionSetupData;
 
@@ -1321,28 +1324,25 @@ public:
   /// @brief Field _playerDataModel, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  /// @brief Field _recordingToolManager, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__recordingToolManager, put = __cordl_internal_set__recordingToolManager)) ::GlobalNamespace::RecordingToolManager* _recordingToolManager;
-
   /// @brief Field _settingsManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Field _shaderWarmupSceneSetupData, offset 0xc0, size 0x8
+  /// @brief Field _shaderWarmupSceneSetupData, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__shaderWarmupSceneSetupData,
                       put = __cordl_internal_set__shaderWarmupSceneSetupData)) ::GlobalNamespace::ShaderWarmupScenesTransitionSetupData* _shaderWarmupSceneSetupData;
 
-  /// @brief Field _standardLevelScenesTransitionSetupData, offset 0x90, size 0x8
+  /// @brief Field _standardLevelScenesTransitionSetupData, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__standardLevelScenesTransitionSetupData,
                       put = __cordl_internal_set__standardLevelScenesTransitionSetupData)) ::GlobalNamespace::StandardLevelScenesTransitionSetupData* _standardLevelScenesTransitionSetupData;
 
-  /// @brief Field _startupErrorScenesTransitionSetupData, offset 0xd0, size 0x8
+  /// @brief Field _startupErrorScenesTransitionSetupData, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__startupErrorScenesTransitionSetupData,
                       put = __cordl_internal_set__startupErrorScenesTransitionSetupData)) ::GlobalNamespace::StartupErrorScenesTransitionSetupData* _startupErrorScenesTransitionSetupData;
 
-  /// @brief Field _terminalRunner, offset 0x78, size 0x8
+  /// @brief Field _terminalRunner, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__terminalRunner, put = __cordl_internal_set__terminalRunner)) ::GlobalNamespace::TerminalController* _terminalRunner;
 
-  /// @brief Field _tutorialScenesTransitionSetupData, offset 0xa8, size 0x8
+  /// @brief Field _tutorialScenesTransitionSetupData, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__tutorialScenesTransitionSetupData,
                       put = __cordl_internal_set__tutorialScenesTransitionSetupData)) ::GlobalNamespace::TutorialScenesTransitionSetupData* _tutorialScenesTransitionSetupData;
 
@@ -1352,96 +1352,99 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method ClearPreviousState, addr 0x39fa0d8, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ClearPreviousState, addr 0x3a24198, size 0x1bc, virtual false, abstract: false, final false
   inline void ClearPreviousState();
 
-  /// @brief Method DelaySmallAmountOfTime, addr 0x39fa360, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method DelaySmallAmountOfTime, addr 0x3a24420, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* DelaySmallAmountOfTime();
 
-  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToCreditsAsync>d__37))]
-  /// @brief Method GoToCreditsAsync, addr 0x39fa908, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GameModeForLevelStart, addr 0x3a25278, size 0x100, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::GameMode GameModeForLevelStart(::BeatSaber::Destinations::LevelStartSource levelStartSource);
+
+  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToCreditsAsync>d__36))]
+  /// @brief Method GoToCreditsAsync, addr 0x3a249c8, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToCreditsAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
-  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToMainMenuAsync>d__40))]
-  /// @brief Method GoToMainMenuAsync, addr 0x39fab60, size 0xc8, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToMainMenuAsync>d__39))]
+  /// @brief Method GoToMainMenuAsync, addr 0x3a24c20, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToMainMenuAsync(bool shouldReplace);
 
-  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToMissionLevelAsync>d__32))]
-  /// @brief Method GoToMissionLevelAsync, addr 0x39fa488, size 0xd0, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToMissionLevelAsync>d__31))]
+  /// @brief Method GoToMissionLevelAsync, addr 0x3a24548, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToMissionLevelAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
-  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToMultiplayerLevelAsync>d__39))]
-  /// @brief Method GoToMultiplayerLevelAsync, addr 0x39faa90, size 0xd0, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToMultiplayerLevelAsync>d__38))]
+  /// @brief Method GoToMultiplayerLevelAsync, addr 0x3a24b50, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToMultiplayerLevelAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
-  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToStandardLevelAsync>d__31))]
-  /// @brief Method GoToStandardLevelAsync, addr 0x39fa3b8, size 0xd0, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToStandardLevelAsync>d__30))]
+  /// @brief Method GoToStandardLevelAsync, addr 0x3a24478, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToStandardLevelAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
-  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToStartupErrorAsync>d__34))]
-  /// @brief Method GoToStartupErrorAsync, addr 0x39fa610, size 0xc4, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToStartupErrorAsync>d__33))]
+  /// @brief Method GoToStartupErrorAsync, addr 0x3a246d0, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToStartupErrorAsync(::BeatSaber::Destinations::Destination* targetDestination);
 
-  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToTargetDestinationAsync>d__29))]
-  /// @brief Method GoToTargetDestinationAsync, addr 0x39fa294, size 0xcc, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToTargetDestinationAsync>d__28))]
+  /// @brief Method GoToTargetDestinationAsync, addr 0x3a24354, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToTargetDestinationAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
-  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToTutorialAsync>d__35))]
-  /// @brief Method GoToTutorialAsync, addr 0x39fa6d4, size 0xd0, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToTutorialAsync>d__34))]
+  /// @brief Method GoToTutorialAsync, addr 0x3a24794, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToTutorialAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
-  /// @brief Method HandleCreditsSceneDidFinish, addr 0x39fa9d8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleCreditsSceneDidFinish, addr 0x3a24a98, size 0xb8, virtual false, abstract: false, final false
   inline void HandleCreditsSceneDidFinish(::GlobalNamespace::CreditsScenesTransitionSetupData* setupData);
 
-  /// @brief Method HandleMissionSceneDidFinish, addr 0x39fa558, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionSceneDidFinish, addr 0x3a24618, size 0xb8, virtual false, abstract: false, final false
   inline void HandleMissionSceneDidFinish(::GlobalNamespace::MissionLevelScenesTransitionSetupData* setupData, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method HandleStandardLevelSetupDataFinishEvent, addr 0x39fb1d8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method HandleStandardLevelSetupDataFinishEvent, addr 0x3a25378, size 0x164, virtual false, abstract: false, final false
   inline void HandleStandardLevelSetupDataFinishEvent(::GlobalNamespace::StandardLevelScenesTransitionSetupData* standardLevelScenesTransitionSetupData,
                                                       ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandleTutorialSceneDidFinish, addr 0x39fa7a4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method HandleTutorialSceneDidFinish, addr 0x3a24864, size 0x164, virtual false, abstract: false, final false
   inline void HandleTutorialSceneDidFinish(::GlobalNamespace::TutorialScenesTransitionSetupData* setupData,
                                            ::GlobalNamespace::TutorialScenesTransitionSetupData_TutorialEndStateType tutorialEndStateType);
 
-  /// @brief Method Initialize, addr 0x39fa008, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x3a240c8, size 0x1c, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<InitializeScenesAsync>d__27))]
-  /// @brief Method InitializeScenesAsync, addr 0x39fa024, size 0xb4, virtual true, abstract: false, final true
+  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<InitializeScenesAsync>d__26))]
+  /// @brief Method InitializeScenesAsync, addr 0x3a240e4, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* InitializeScenesAsync();
 
-  /// @brief Method InitializeStandardLevelSetupData, addr 0x39fad88, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method InitializeStandardLevelSetupData, addr 0x3a24e48, size 0x1b4, virtual false, abstract: false, final false
   inline void InitializeStandardLevelSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupData* setupData, ::BeatSaber::Destinations::Destination* targetDestination);
 
   static inline ::GlobalNamespace::InitialDestinationResolver* New_ctor();
 
-  /// @brief Method PrepareParametersForLevelSetupData, addr 0x39faf68, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method PrepareParametersForLevelSetupData, addr 0x3a24ffc, size 0x27c, virtual false, abstract: false, final false
   inline void PrepareParametersForLevelSetupData(::BeatSaber::Destinations::LevelStartDestinationParameters* parameters, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapLevelKey,
                                                  ::by_ref<::GlobalNamespace::BeatmapLevel*> beatmapLevel, ::by_ref<::GlobalNamespace::PlayerSpecificSettings*> playerSpecificSettings,
                                                  /* [Nullable(2)] */ ::by_ref<::GlobalNamespace::OverrideEnvironmentSettings*> overrideEnvironmentSettings,
                                                  /* [Nullable(2)] */ ::by_ref<::GlobalNamespace::ColorScheme*> playerOverrideColorScheme,
                                                  ::by_ref<::BeatSaber::Destinations::GameplayEnvironmentOverride*> environmentOverride);
 
-  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<PresentHealthWarningAsync>d__42))]
-  /// @brief Method PresentHealthWarningAsync, addr 0x39facd8, size 0xb0, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<PresentHealthWarningAsync>d__41))]
+  /// @brief Method PresentHealthWarningAsync, addr 0x3a24d98, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PresentHealthWarningAsync();
 
-  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<PresentShaderWarmUpAsync>d__41))]
-  /// @brief Method PresentShaderWarmUpAsync, addr 0x39fac28, size 0xb0, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<PresentShaderWarmUpAsync>d__40))]
+  /// @brief Method PresentShaderWarmUpAsync, addr 0x3a24ce8, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PresentShaderWarmUpAsync();
 
-  /// @brief Method ShouldGoDirectlyToMenu, addr 0x39fb33c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ShouldGoDirectlyToMenu, addr 0x3a254dc, size 0x20, virtual false, abstract: false, final false
   inline bool ShouldGoDirectlyToMenu();
 
   /// [NullableContext(0)]
   /// [CompilerGenerated]
-  /// @brief Method <GoToMissionLevelAsync>b__32_0, addr 0x39fb3b0, size 0x20, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionObjective* _GoToMissionLevelAsync_b__32_0(::BeatSaber::Destinations::SimpleMissionObjective* objective);
+  /// @brief Method <GoToMissionLevelAsync>b__31_0, addr 0x3a25550, size 0x20, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::MissionObjective* _GoToMissionLevelAsync_b__31_0(::BeatSaber::Destinations::SimpleMissionObjective* objective);
 
   /// [CompilerGenerated]
-  /// @brief Method <GoToMultiplayerLevelAsync>g__InitializeMultiplayerMocks|39_0, addr 0x39fb3d0, size 0x4, virtual false, abstract: false, final false
-  static inline void _GoToMultiplayerLevelAsync_g__InitializeMultiplayerMocks_39_0(::Zenject::DiContainer* container);
+  /// @brief Method <GoToMultiplayerLevelAsync>g__InitializeMultiplayerMocks|38_0, addr 0x3a25570, size 0x4, virtual false, abstract: false, final false
+  static inline void _GoToMultiplayerLevelAsync_g__InitializeMultiplayerMocks_38_0(::Zenject::DiContainer* container);
 
   constexpr ::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitSceneSetupData* const& __cordl_internal_get__appInitSceneSetupData() const;
 
@@ -1519,10 +1522,6 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::GlobalNamespace::RecordingToolManager* const& __cordl_internal_get__recordingToolManager() const;
-
-  constexpr ::GlobalNamespace::RecordingToolManager*& __cordl_internal_get__recordingToolManager();
-
   constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
 
   constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
@@ -1585,8 +1584,6 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr void __cordl_internal_set__recordingToolManager(::GlobalNamespace::RecordingToolManager* value);
-
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
   constexpr void __cordl_internal_set__shaderWarmupSceneSetupData(::GlobalNamespace::ShaderWarmupScenesTransitionSetupData* value);
@@ -1599,7 +1596,7 @@ public:
 
   constexpr void __cordl_internal_set__tutorialScenesTransitionSetupData(::GlobalNamespace::TutorialScenesTransitionSetupData* value);
 
-  /// @brief Method .ctor, addr 0x39fb35c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a254fc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::Destinations::IInitialDestinationResolver"
@@ -1623,7 +1620,7 @@ public:
   InitialDestinationResolver(InitialDestinationResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21843 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21828 };
 
   /// [Inject]
   /// @brief Field _beatmapLevelsModel, offset: 0x10, size: 0x8, def value: None
@@ -1675,60 +1672,55 @@ public:
 
   /// [Nullable(2)]
   /// [InjectOptional]
-  /// @brief Field _recordingToolManager, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::RecordingToolManager* ____recordingToolManager;
-
-  /// [Nullable(2)]
-  /// [InjectOptional]
-  /// @brief Field _terminalRunner, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _terminalRunner, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::TerminalController* ____terminalRunner;
 
   /// [InjectOptional]
-  /// @brief Field _appInitSceneSetupData, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _appInitSceneSetupData, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitSceneSetupData* ____appInitSceneSetupData;
 
   /// [Inject]
-  /// @brief Field _appInitScenesTransitionSetupData, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _appInitScenesTransitionSetupData, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::AppInitScenesTransitionSetupData* ____appInitScenesTransitionSetupData;
 
   /// [Inject]
-  /// @brief Field _standardLevelScenesTransitionSetupData, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _standardLevelScenesTransitionSetupData, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::StandardLevelScenesTransitionSetupData* ____standardLevelScenesTransitionSetupData;
 
   /// [Inject]
-  /// @brief Field _multiplayerLevelScenesTransitionSetupData, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _multiplayerLevelScenesTransitionSetupData, offset: 0x90, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupData* ____multiplayerLevelScenesTransitionSetupData;
 
   /// [Inject]
-  /// @brief Field _missionLevelScenesTransitionSetupData, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _missionLevelScenesTransitionSetupData, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::MissionLevelScenesTransitionSetupData* ____missionLevelScenesTransitionSetupData;
 
   /// [Inject]
-  /// @brief Field _tutorialScenesTransitionSetupData, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field _tutorialScenesTransitionSetupData, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::TutorialScenesTransitionSetupData* ____tutorialScenesTransitionSetupData;
 
   /// [Inject]
-  /// @brief Field _creditsScenesTransitionSetupData, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _creditsScenesTransitionSetupData, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::CreditsScenesTransitionSetupData* ____creditsScenesTransitionSetupData;
 
   /// [Inject]
-  /// @brief Field _healthWarningScenesTransitionSetupData, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _healthWarningScenesTransitionSetupData, offset: 0xb0, size: 0x8, def value: None
   ::GlobalNamespace::HealthWarningScenesTransitionSetupData* ____healthWarningScenesTransitionSetupData;
 
   /// [Inject]
-  /// @brief Field _shaderWarmupSceneSetupData, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field _shaderWarmupSceneSetupData, offset: 0xb8, size: 0x8, def value: None
   ::GlobalNamespace::ShaderWarmupScenesTransitionSetupData* ____shaderWarmupSceneSetupData;
 
   /// [Inject]
-  /// @brief Field _menuScenesTransitionSetupData, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _menuScenesTransitionSetupData, offset: 0xc0, size: 0x8, def value: None
   ::GlobalNamespace::MenuScenesTransitionSetupData* ____menuScenesTransitionSetupData;
 
   /// [Inject]
-  /// @brief Field _startupErrorScenesTransitionSetupData, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _startupErrorScenesTransitionSetupData, offset: 0xc8, size: 0x8, def value: None
   ::GlobalNamespace::StartupErrorScenesTransitionSetupData* ____startupErrorScenesTransitionSetupData;
 
   /// [Nullable(2)]
-  /// @brief Field _lastDestination, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field _lastDestination, offset: 0xd0, size: 0x8, def value: None
   ::BeatSaber::Destinations::Destination* ____lastDestination;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -1758,34 +1750,32 @@ static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____player
 
 static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____missionObjectiveTypeCollection) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____recordingToolManager) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____terminalRunner) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____terminalRunner) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____appInitSceneSetupData) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____appInitSceneSetupData) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____appInitScenesTransitionSetupData) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____appInitScenesTransitionSetupData) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____standardLevelScenesTransitionSetupData) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____standardLevelScenesTransitionSetupData) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____multiplayerLevelScenesTransitionSetupData) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____multiplayerLevelScenesTransitionSetupData) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____missionLevelScenesTransitionSetupData) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____missionLevelScenesTransitionSetupData) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____tutorialScenesTransitionSetupData) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____tutorialScenesTransitionSetupData) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____creditsScenesTransitionSetupData) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____creditsScenesTransitionSetupData) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____healthWarningScenesTransitionSetupData) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____healthWarningScenesTransitionSetupData) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____shaderWarmupSceneSetupData) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____shaderWarmupSceneSetupData) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____menuScenesTransitionSetupData) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____menuScenesTransitionSetupData) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____startupErrorScenesTransitionSetupData) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____startupErrorScenesTransitionSetupData) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____lastDestination) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver, ____lastDestination) == 0xd8, "Offset mismatch!");
-
-static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver) == 0xe0, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver) == 0xd8, "Size mismatch!");
 
 } // namespace GlobalNamespace

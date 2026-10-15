@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleMaterialSetter::*)(::BeatSaber::Settings::QualitySettings_ObstacleQuality, bool)>(
     &::GlobalNamespace::ObstacleMaterialSetter::Init)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5cf0bb0;
+  constexpr static std::size_t addrs = 0x5dcc388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleMaterialSetter::*)(::UnityEngine::Renderer*, ::BeatSaber::Settings::QualitySettings_ObstacleQuality, bool)>(
     &::GlobalNamespace::ObstacleMaterialSetter::SetCoreMaterial)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5cf1768;
+  constexpr static std::size_t addrs = 0x5dcc3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleMaterialSetter::*)(::UnityEngine::Renderer*, ::BeatSaber::Settings::QualitySettings_ObstacleQuality)>(
     &::GlobalNamespace::ObstacleMaterialSetter::SetFakeGlowMaterial)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5cf1874;
+  constexpr static std::size_t addrs = 0x5dcc4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleMaterialSetter::*)()>(&::GlobalNamespace::ObstacleMaterialSetter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cf18b0;
+  constexpr static std::size_t addrs = 0x5dcc50c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleMaterialSetter*>(), { ".ctor", {}, {} })));

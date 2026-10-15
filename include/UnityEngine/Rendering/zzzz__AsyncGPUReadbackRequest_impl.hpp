@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AsyncGPUReadbackRequest::*)()>(&::UnityEngine::Rendering::AsyncGPUReadbackRequest::WaitForCompletion)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f63d70;
+  constexpr static std::size_t addrs = 0x6fa0c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AsyncGPUReadbackRequest>(), { "WaitForCompletion", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::AsyncGPUReadbackRequest::*)()>(&::UnityEngine::Rendering::AsyncGPUReadbackRequest::get_done)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f63dac;
+  constexpr static std::size_t addrs = 0x6fa0c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AsyncGPUReadbackRequest>(), { "get_done", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::AsyncGPUReadbackRequest::*)()>(&::UnityEngine::Rendering::AsyncGPUReadbackRequest::get_hasError)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f63e24;
+  constexpr static std::size_t addrs = 0x6fa0d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AsyncGPUReadbackRequest>(), { "get_hasError", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::AsyncGPUReadbackRequest::*)()>(&::UnityEngine::Rendering::AsyncGPUReadbackRequest::get_layerCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f63e9c;
+  constexpr static std::size_t addrs = 0x6fa0d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AsyncGPUReadbackRequest>(), { "get_layerCount", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::AsyncGPUReadbackRequest::*)()>(&::UnityEngine::Rendering::AsyncGPUReadbackRequest::get_layerDataSize)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f63f14;
+  constexpr static std::size_t addrs = 0x6fa0df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AsyncGPUReadbackRequest>(), { "get_layerDataSize", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::AsyncGPUReadbackRequest::*)()>(&::UnityEngine::Rendering::AsyncGPUReadbackRequest::IsDone)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f63de8;
+  constexpr static std::size_t addrs = 0x6fa0cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AsyncGPUReadbackRequest>(), { "IsDone", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::AsyncGPUReadbackRequest::*)()>(&::UnityEngine::Rendering::AsyncGPUReadbackRequest::HasError)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f63e60;
+  constexpr static std::size_t addrs = 0x6fa0d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AsyncGPUReadbackRequest>(), { "HasError", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::AsyncGPUReadbackRequest::*)()>(&::UnityEngine::Rendering::AsyncGPUReadbackRequest::GetLayerCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f63ed8;
+  constexpr static std::size_t addrs = 0x6fa0db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AsyncGPUReadbackRequest>(), { "GetLayerCount", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::AsyncGPUReadbackRequest::*)()>(&::UnityEngine::Rendering::AsyncGPUReadbackRequest::GetLayerDataSize)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f63f50;
+  constexpr static std::size_t addrs = 0x6fa0e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::AsyncGPUReadbackRequest>(), { "GetLayerDataSize", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::AsyncGPUReadbackRequest::*)(::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>*)>(
     &::UnityEngine::Rendering::AsyncGPUReadbackRequest::SetScriptingCallback)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f63f8c;
+  constexpr static std::size_t addrs = 0x6fa0e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::UnityEngine::Rendering::AsyncGPUReadbackRequest::*)(int32_t)>(
     &::UnityEngine::Rendering::AsyncGPUReadbackRequest::GetDataRaw)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f63fd0;
+  constexpr static std::size_t addrs = 0x6fa0eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>*, ::UnityEngine::Rendering::AsyncGPUReadbackRequest)>(
     &::UnityEngine::Rendering::AsyncGPUReadbackRequest::InvokeCallback)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6f64014;
+  constexpr static std::size_t addrs = 0x6fa0ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

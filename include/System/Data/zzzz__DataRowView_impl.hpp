@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRowView::*)(::System::Data::DataView*, ::System::Data::DataRow*)>(&::System::Data::DataRowView::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644a6f4;
+  constexpr static std::size_t addrs = 0x64872c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataRowView::*)(::System::Object*)>(&::System::Data::DataRowView::Equals)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x644a6fc;
+  constexpr static std::size_t addrs = 0x64872cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::DataRowView*>(), { ::i2c::class_of<::System::Data::DataRowView*>(), 0 }));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataRowView::*)()>(&::System::Data::DataRowView::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x644a708;
+  constexpr static std::size_t addrs = 0x64872d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Data::DataRowView*>(), { ::i2c::class_of<::System::Data::DataRowView*>(), 2 }));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataView* (::System::Data::DataRowView::*)()>(&::System::Data::DataRowView::get_DataView)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644a724;
+  constexpr static std::size_t addrs = 0x64872f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRowView*>(), { "get_DataView", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataRowVersion (::System::Data::DataRowView::*)()>(&::System::Data::DataRowView::get_RowVersionDefault)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x644a72c;
+  constexpr static std::size_t addrs = 0x64872fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRowView*>(), { "get_RowVersionDefault", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Data::DataRowView::*)()>(&::System::Data::DataRowView::GetRecord)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x644a784;
+  constexpr static std::size_t addrs = 0x6487354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRowView*>(), { "GetRecord", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataRowView::*)()>(&::System::Data::DataRowView::HasRecord)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x644a7a8;
+  constexpr static std::size_t addrs = 0x6487378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRowView*>(), { "HasRecord", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::DataRowView::*)(::System::Data::DataColumn*)>(&::System::Data::DataRowView::GetColumnValue)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x643f550;
+  constexpr static std::size_t addrs = 0x647c120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRowView::*)(::System::Data::DataColumn*, ::System::Object*)>(&::System::Data::DataRowView::SetColumnValue)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x643f6e4;
+  constexpr static std::size_t addrs = 0x647c2b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataView* (::System::Data::DataRowView::*)(::System::Data::DataRelation*, bool)>(
     &::System::Data::DataRowView::CreateChildView)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x644a7cc;
+  constexpr static std::size_t addrs = 0x648739c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataView* (::System::Data::DataRowView::*)(::System::Data::DataRelation*)>(&::System::Data::DataRowView::CreateChildView)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6446754;
+  constexpr static std::size_t addrs = 0x6483324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataRow* (::System::Data::DataRowView::*)()>(&::System::Data::DataRowView::get_Row)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644a970;
+  constexpr static std::size_t addrs = 0x6487540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRowView*>(), { "get_Row", {}, {} })));
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRowView::*)()>(&::System::Data::DataRowView::EndEdit)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x644a978;
+  constexpr static std::size_t addrs = 0x6487548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRowView*>(), { "EndEdit", {}, {} })));
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::DataRowView::*)()>(&::System::Data::DataRowView::get_IsNew)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x644a9c4;
+  constexpr static std::size_t addrs = 0x6487594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::DataRowView*>(), { "get_IsNew", {}, {} })));
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataRowView::*)(::StringW)>(&::System::Data::DataRowView::RaisePropertyChangedEvent)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x644a9e8;
+  constexpr static std::size_t addrs = 0x64875b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::AttributeCollection* (::System::Data::DataRowView::*)()>(
     &::System::Data::DataRowView::System_ComponentModel_ICustomTypeDescriptor_GetAttributes)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x644aa7c;
+  constexpr static std::size_t addrs = 0x648764c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::DataRowView::*)()>(&::System::Data::DataRowView::System_ComponentModel_ICustomTypeDescriptor_GetClassName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644aad8;
+  constexpr static std::size_t addrs = 0x64876a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::DataRowView::*)()>(&::System::Data::DataRowView::System_ComponentModel_ICustomTypeDescriptor_GetComponentName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644aae0;
+  constexpr static std::size_t addrs = 0x64876b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::TypeConverter* (::System::Data::DataRowView::*)()>(
     &::System::Data::DataRowView::System_ComponentModel_ICustomTypeDescriptor_GetConverter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644aae8;
+  constexpr static std::size_t addrs = 0x64876b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::EventDescriptor* (::System::Data::DataRowView::*)()>(
     &::System::Data::DataRowView::System_ComponentModel_ICustomTypeDescriptor_GetDefaultEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644aaf0;
+  constexpr static std::size_t addrs = 0x64876c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::PropertyDescriptor* (::System::Data::DataRowView::*)()>(
     &::System::Data::DataRowView::System_ComponentModel_ICustomTypeDescriptor_GetDefaultProperty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644aaf8;
+  constexpr static std::size_t addrs = 0x64876c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::DataRowView::*)(::System::Type*)>(
     &::System::Data::DataRowView::System_ComponentModel_ICustomTypeDescriptor_GetEditor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x644ab00;
+  constexpr static std::size_t addrs = 0x64876d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::EventDescriptorCollection* (::System::Data::DataRowView::*)()>(
     &::System::Data::DataRowView::System_ComponentModel_ICustomTypeDescriptor_GetEvents)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x644ab08;
+  constexpr static std::size_t addrs = 0x64876d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::EventDescriptorCollection* (::System::Data::DataRowView::*)(::ArrayW<::System::Attribute*>)>(
     &::System::Data::DataRowView::System_ComponentModel_ICustomTypeDescriptor_GetEvents)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x644ab64;
+  constexpr static std::size_t addrs = 0x6487734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (::System::Data::DataRowView::*)()>(
     &::System::Data::DataRowView::System_ComponentModel_ICustomTypeDescriptor_GetProperties)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x644abc0;
+  constexpr static std::size_t addrs = 0x6487790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -355,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (::System::Data::DataRowView::*)(::ArrayW<::System::Attribute*>)>(
     &::System::Data::DataRowView::System_ComponentModel_ICustomTypeDescriptor_GetProperties)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x644ac60;
+  constexpr static std::size_t addrs = 0x6487830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -370,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Data::DataRowView::*)(::System::ComponentModel::PropertyDescriptor*)>(
     &::System::Data::DataRowView::System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x644acf8;
+  constexpr static std::size_t addrs = 0x64878c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

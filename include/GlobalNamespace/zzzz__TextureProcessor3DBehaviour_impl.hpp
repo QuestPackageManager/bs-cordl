@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3DBehaviour::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData,
                                                                                                                 ::System::Object*)>(&::GlobalNamespace::TextureProcessor3DBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x5d23540;
+  constexpr static std::size_t addrs = 0x5d5d850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3DBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::TextureProcessor3DBehaviour::OnPlayableDestroy)> {
-  constexpr static std::size_t size = 0x7a8;
-  constexpr static std::size_t addrs = 0x5d23944;
+  constexpr static std::size_t size = 0x7a0;
+  constexpr static std::size_t addrs = 0x5d5dc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3DBehaviour::*)()>(&::GlobalNamespace::TextureProcessor3DBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d240ec;
+  constexpr static std::size_t addrs = 0x5d5e3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3DBehaviour*>(), { ".ctor", {}, {} })));

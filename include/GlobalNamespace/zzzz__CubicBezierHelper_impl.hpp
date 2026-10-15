@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*
                                                                                   ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, float_t)>(
     &::GlobalNamespace::CubicBezierHelper::EvaluateCurve)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x35adc10;
+  constexpr static std::size_t addrs = 0x35d04f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*
                                                                                   ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, float_t)>(
     &::GlobalNamespace::CubicBezierHelper::EvaluateCurveDerivative)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x35adca0;
+  constexpr static std::size_t addrs = 0x35d0580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*
                                                                                   ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, float_t)>(
     &::GlobalNamespace::CubicBezierHelper::EvaluateCurveSecondDerivative)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x35add54;
+  constexpr static std::size_t addrs = 0x35d0634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*
                                                                                   ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, float_t)>(
     &::GlobalNamespace::CubicBezierHelper::Normal)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x35addf8;
+  constexpr static std::size_t addrs = 0x35d06d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, float_t)>(&::GlobalNamespace::CubicBezierHelper::SplitCurve)> {
   constexpr static std::size_t size = 0x4c0;
-  constexpr static std::size_t addrs = 0x35adf68;
+  constexpr static std::size_t addrs = 0x35d0848;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>, ::by_ref<::UnityEngine::Vector3 const>,
                                                                    ::by_ref<::UnityEngine::Vector3 const>)>(&::GlobalNamespace::CubicBezierHelper::EstimateCurveLength)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x35ae428;
+  constexpr static std::size_t addrs = 0x35d0d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

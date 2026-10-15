@@ -148,72 +148,72 @@ public:
   __declspec(property(get = get_useFullLayers, put = set_useFullLayers)) bool useFullLayers;
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetBypassLowLevel, addr 0x6fd1f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBypassLowLevel, addr 0x700ee78, size 0x8, virtual false, abstract: false, final false
   inline bool GetBypassLowLevel();
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetConcurrentSimulations, addr 0x6fd1f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetConcurrentSimulations, addr 0x700ee60, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetConcurrentSimulations();
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetDrawInBuild, addr 0x6fd1f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDrawInBuild, addr 0x700ee70, size 0x8, virtual false, abstract: false, final false
   inline bool GetDrawInBuild();
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetLengthUnitsPerMeter, addr 0x6fd1f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLengthUnitsPerMeter, addr 0x700ee68, size 0x8, virtual false, abstract: false, final false
   inline float_t GetLengthUnitsPerMeter();
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetPhysicsBodyDefinition, addr 0x6fd1eb4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsBodyDefinition, addr 0x700eda8, size 0x14, virtual false, abstract: false, final false
   inline void GetPhysicsBodyDefinition(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsBodyDefinition> definition);
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetPhysicsChainDefinition, addr 0x6fd1edc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsChainDefinition, addr 0x700edd0, size 0x18, virtual false, abstract: false, final false
   inline void GetPhysicsChainDefinition(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsChainDefinition> definition);
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetPhysicsDistanceJointDefinition, addr 0x6fd1ef4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsDistanceJointDefinition, addr 0x700ede8, size 0x14, virtual false, abstract: false, final false
   inline void GetPhysicsDistanceJointDefinition(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsDistanceJointDefinition> definition);
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetPhysicsFixedJointDefinition, addr 0x6fd1f08, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsFixedJointDefinition, addr 0x700edfc, size 0x14, virtual false, abstract: false, final false
   inline void GetPhysicsFixedJointDefinition(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsFixedJointDefinition> definition);
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetPhysicsHingeJointDefinition, addr 0x6fd1f1c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsHingeJointDefinition, addr 0x700ee10, size 0x14, virtual false, abstract: false, final false
   inline void GetPhysicsHingeJointDefinition(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsHingeJointDefinition> definition);
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetPhysicsLayerNames, addr 0x6fd1e94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsLayerNames, addr 0x700ed88, size 0xc, virtual false, abstract: false, final false
   inline void GetPhysicsLayerNames(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames*> layerNames);
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetPhysicsRelativeJointDefinition, addr 0x6fd1f30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsRelativeJointDefinition, addr 0x700ee24, size 0x14, virtual false, abstract: false, final false
   inline void GetPhysicsRelativeJointDefinition(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsRelativeJointDefinition> definition);
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetPhysicsShapeDefinition, addr 0x6fd1ec8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsShapeDefinition, addr 0x700edbc, size 0x14, virtual false, abstract: false, final false
   inline void GetPhysicsShapeDefinition(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsShapeDefinition> definition);
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetPhysicsSliderJointDefinition, addr 0x6fd1f44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsSliderJointDefinition, addr 0x700ee38, size 0x14, virtual false, abstract: false, final false
   inline void GetPhysicsSliderJointDefinition(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsSliderJointDefinition> definition);
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetPhysicsWheelJointDefinition, addr 0x6fd1f58, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsWheelJointDefinition, addr 0x700ee4c, size 0x14, virtual false, abstract: false, final false
   inline void GetPhysicsWheelJointDefinition(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWheelJointDefinition> definition);
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetPhysicsWorldDefinition, addr 0x6fd1ea0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsWorldDefinition, addr 0x700ed94, size 0x14, virtual false, abstract: false, final false
   inline void GetPhysicsWorldDefinition(::by_ref<::UnityEngine::LowLevelPhysics2D::PhysicsWorldDefinition> definition);
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetUseFullLayers, addr 0x6fd1f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetUseFullLayers, addr 0x700ee80, size 0x8, virtual false, abstract: false, final false
   inline bool GetUseFullLayers();
 
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsLowLevelSettings2D* New_ctor();
 
-  /// @brief Method Reset, addr 0x6fd1558, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x700e44c, size 0x210, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get_m_BypassLowLevel() const;
@@ -312,67 +312,67 @@ public:
 
   constexpr void __cordl_internal_set_m_UseFullLayers(bool value);
 
-  /// @brief Method .ctor, addr 0x6fd153c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700e430, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bypassLowLevel, addr 0x6fd1e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bypassLowLevel, addr 0x700ed78, size 0x8, virtual false, abstract: false, final false
   inline bool get_bypassLowLevel();
 
-  /// @brief Method get_concurrentSimulations, addr 0x6fd1e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_concurrentSimulations, addr 0x700ed24, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_concurrentSimulations();
 
-  /// @brief Method get_drawInBuild, addr 0x6fd1e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawInBuild, addr 0x700ed68, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawInBuild();
 
-  /// @brief Method get_lengthUnitsPerMeter, addr 0x6fd1e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lengthUnitsPerMeter, addr 0x700ed48, size 0x8, virtual false, abstract: false, final false
   inline float_t get_lengthUnitsPerMeter();
 
-  /// @brief Method get_physicsBodyDefinition, addr 0x6fd1dc8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_physicsBodyDefinition, addr 0x700ecbc, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsBodyDefinition get_physicsBodyDefinition();
 
-  /// @brief Method get_physicsChainDefinition, addr 0x6fd1e00, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_physicsChainDefinition, addr 0x700ecf4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsChainDefinition get_physicsChainDefinition();
 
-  /// @brief Method get_physicsLayerNames, addr 0x6fd1d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_physicsLayerNames, addr 0x700ec80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames* get_physicsLayerNames();
 
-  /// @brief Method get_physicsShapeDefinition, addr 0x6fd1de4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_physicsShapeDefinition, addr 0x700ecd8, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsShapeDefinition get_physicsShapeDefinition();
 
-  /// @brief Method get_physicsWorldDefinition, addr 0x6fd1dac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_physicsWorldDefinition, addr 0x700eca0, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::LowLevelPhysics2D::PhysicsWorldDefinition get_physicsWorldDefinition();
 
-  /// @brief Method get_useFullLayers, addr 0x6fd1d9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useFullLayers, addr 0x700ec90, size 0x8, virtual false, abstract: false, final false
   inline bool get_useFullLayers();
 
-  /// @brief Method set_bypassLowLevel, addr 0x6fd1e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bypassLowLevel, addr 0x700ed80, size 0x8, virtual false, abstract: false, final false
   inline void set_bypassLowLevel(bool value);
 
-  /// @brief Method set_concurrentSimulations, addr 0x6fd1e38, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_concurrentSimulations, addr 0x700ed2c, size 0x1c, virtual false, abstract: false, final false
   inline void set_concurrentSimulations(int32_t value);
 
-  /// @brief Method set_drawInBuild, addr 0x6fd1e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_drawInBuild, addr 0x700ed70, size 0x8, virtual false, abstract: false, final false
   inline void set_drawInBuild(bool value);
 
-  /// @brief Method set_lengthUnitsPerMeter, addr 0x6fd1e5c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_lengthUnitsPerMeter, addr 0x700ed50, size 0x18, virtual false, abstract: false, final false
   inline void set_lengthUnitsPerMeter(float_t value);
 
-  /// @brief Method set_physicsBodyDefinition, addr 0x6fd1dd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_physicsBodyDefinition, addr 0x700eccc, size 0xc, virtual false, abstract: false, final false
   inline void set_physicsBodyDefinition(::UnityEngine::LowLevelPhysics2D::PhysicsBodyDefinition value);
 
-  /// @brief Method set_physicsChainDefinition, addr 0x6fd1e18, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_physicsChainDefinition, addr 0x700ed0c, size 0x18, virtual false, abstract: false, final false
   inline void set_physicsChainDefinition(::UnityEngine::LowLevelPhysics2D::PhysicsChainDefinition value);
 
-  /// @brief Method set_physicsLayerNames, addr 0x6fd1d94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_physicsLayerNames, addr 0x700ec88, size 0x8, virtual false, abstract: false, final false
   inline void set_physicsLayerNames(::UnityEngine::LowLevelPhysics2D::PhysicsLayers_LayerNames* value);
 
-  /// @brief Method set_physicsShapeDefinition, addr 0x6fd1df4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_physicsShapeDefinition, addr 0x700ece8, size 0xc, virtual false, abstract: false, final false
   inline void set_physicsShapeDefinition(::UnityEngine::LowLevelPhysics2D::PhysicsShapeDefinition value);
 
-  /// @brief Method set_physicsWorldDefinition, addr 0x6fd1dbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_physicsWorldDefinition, addr 0x700ecb0, size 0xc, virtual false, abstract: false, final false
   inline void set_physicsWorldDefinition(::UnityEngine::LowLevelPhysics2D::PhysicsWorldDefinition value);
 
-  /// @brief Method set_useFullLayers, addr 0x6fd1da4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useFullLayers, addr 0x700ec98, size 0x8, virtual false, abstract: false, final false
   inline void set_useFullLayers(bool value);
 
 protected:
@@ -390,7 +390,7 @@ public:
   PhysicsLowLevelSettings2D(PhysicsLowLevelSettings2D const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21553 };
 
   /// [Header("Layers")]
   /// [SerializeField]

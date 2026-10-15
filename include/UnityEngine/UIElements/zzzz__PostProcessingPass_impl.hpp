@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingPass_PrepareMaterialPropertyBlockDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UIElements::PostProcessingPass_PrepareMaterialPropertyBlockDelegate::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7235fcc;
+  constexpr static std::size_t addrs = 0x7272f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingPass_PrepareMaterialPropertyBlockDelegate*>(),
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingPass_PrepareMaterialPropertyBlockDelegate::*)(
     ::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::UIElements::FilterFunction)>(&::UnityEngine::UIElements::PostProcessingPass_PrepareMaterialPropertyBlockDelegate::Invoke)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x723604c;
+  constexpr static std::size_t addrs = 0x7272f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingPass_ApplyFilterPassSettingsDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UIElements::PostProcessingPass_ApplyFilterPassSettingsDelegate::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x72360a4;
+  constexpr static std::size_t addrs = 0x7272fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingPass_ApplyFilterPassSettingsDelegate*>(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingPass_ApplyFilterPassSettingsDelegate::*)(
     ::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::UIElements::FilterPassContext)>(&::UnityEngine::UIElements::PostProcessingPass_ApplyFilterPassSettingsDelegate::Invoke)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7236124;
+  constexpr static std::size_t addrs = 0x7273058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingPass_ApplyFilterPassSettingsDelegate*>(),
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingPass_ComputeRequiredMarginsDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UIElements::PostProcessingPass_ComputeRequiredMarginsDelegate::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x723617c;
+  constexpr static std::size_t addrs = 0x72730b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingPass_ComputeRequiredMarginsDelegate*>(),
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PostProcessingMargins (::UnityEngine::UIElements::PostProcessingPass_ComputeRequiredMarginsDelegate::*)(
     ::UnityEngine::UIElements::FilterFunction)>(&::UnityEngine::UIElements::PostProcessingPass_ComputeRequiredMarginsDelegate::Invoke)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x72361e8;
+  constexpr static std::size_t addrs = 0x727311c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingPass_ComputeRequiredMarginsDelegate*>(),
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::UnityEngine::UIElements::PostProcessingPass::*)()>(
     &::UnityEngine::UIElements::PostProcessingPass::get_material)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235f3c;
+  constexpr static std::size_t addrs = 0x7272e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingPass>(), { "get_material", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingPass::*)(::UnityEngine::Material*)>(
     &::UnityEngine::UIElements::PostProcessingPass::set_material)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235f44;
+  constexpr static std::size_t addrs = 0x7272e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::PostProcessingPass::*)()>(&::UnityEngine::UIElements::PostProcessingPass::get_passIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235f4c;
+  constexpr static std::size_t addrs = 0x7272e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingPass>(), { "get_passIndex", {}, {} })));
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingPass::*)(int32_t)>(&::UnityEngine::UIElements::PostProcessingPass::set_passIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235f54;
+  constexpr static std::size_t addrs = 0x7272e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::UIElements::ParameterBinding> (::UnityEngine::UIElements::PostProcessingPass::*)()>(
     &::UnityEngine::UIElements::PostProcessingPass::get_parameterBindings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235f5c;
+  constexpr static std::size_t addrs = 0x7272e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingPass>(), { "get_parameterBindings", {}, {} })));
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingPass::*)(::ArrayW<::UnityEngine::UIElements::ParameterBinding>)>(
     &::UnityEngine::UIElements::PostProcessingPass::set_parameterBindings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235f64;
+  constexpr static std::size_t addrs = 0x7272e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PostProcessingMargins (::UnityEngine::UIElements::PostProcessingPass::*)()>(
     &::UnityEngine::UIElements::PostProcessingPass::get_readMargins)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7235f6c;
+  constexpr static std::size_t addrs = 0x7272ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingPass>(), { "get_readMargins", {}, {} })));
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingPass::*)(::UnityEngine::UIElements::PostProcessingMargins)>(
     &::UnityEngine::UIElements::PostProcessingPass::set_readMargins)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7235f78;
+  constexpr static std::size_t addrs = 0x7272eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingPass>(),
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PostProcessingMargins (::UnityEngine::UIElements::PostProcessingPass::*)()>(
     &::UnityEngine::UIElements::PostProcessingPass::get_writeMargins)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7235f84;
+  constexpr static std::size_t addrs = 0x7272eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingPass>(), { "get_writeMargins", {}, {} })));
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingPass::*)(::UnityEngine::UIElements::PostProcessingMargins)>(
     &::UnityEngine::UIElements::PostProcessingPass::set_writeMargins)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7235f90;
+  constexpr static std::size_t addrs = 0x7272ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingPass>(),
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PostProcessingPass_ApplyFilterPassSettingsDelegate* (::UnityEngine::UIElements::PostProcessingPass::*)()>(
     &::UnityEngine::UIElements::PostProcessingPass::get_applySettingsCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235f9c;
+  constexpr static std::size_t addrs = 0x7272ed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PostProcessingPass>(), { "get_applySettingsCallback", {}, {} })));
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingPass::*)(::UnityEngine::UIElements::PostProcessingPass_ApplyFilterPassSettingsDelegate*)>(
     &::UnityEngine::UIElements::PostProcessingPass::set_applySettingsCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235fa4;
+  constexpr static std::size_t addrs = 0x7272ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PostProcessingPass_ComputeRequiredMarginsDelegate* (::UnityEngine::UIElements::PostProcessingPass::*)()>(
     &::UnityEngine::UIElements::PostProcessingPass::get_computeRequiredReadMarginsCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235fac;
+  constexpr static std::size_t addrs = 0x7272ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingPass::*)(::UnityEngine::UIElements::PostProcessingPass_ComputeRequiredMarginsDelegate*)>(
     &::UnityEngine::UIElements::PostProcessingPass::set_computeRequiredReadMarginsCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235fb4;
+  constexpr static std::size_t addrs = 0x7272ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PostProcessingPass_ComputeRequiredMarginsDelegate* (::UnityEngine::UIElements::PostProcessingPass::*)()>(
     &::UnityEngine::UIElements::PostProcessingPass::get_computeRequiredWriteMarginsCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235fbc;
+  constexpr static std::size_t addrs = 0x7272ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PostProcessingPass::*)(::UnityEngine::UIElements::PostProcessingPass_ComputeRequiredMarginsDelegate*)>(
     &::UnityEngine::UIElements::PostProcessingPass::set_computeRequiredWriteMarginsCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7235fc4;
+  constexpr static std::size_t addrs = 0x7272ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

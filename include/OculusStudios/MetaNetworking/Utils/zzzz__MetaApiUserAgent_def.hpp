@@ -34,20 +34,20 @@ namespace OculusStudios::MetaNetworking::Utils {
 class CORDL_TYPE MetaApiUserAgent : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendToken, addr 0x6348ef8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method AppendToken, addr 0x63859d0, size 0x13c, virtual false, abstract: false, final false
   static inline void AppendToken(::System::Text::StringBuilder* builder, ::StringW key, /* [Nullable(2)] */ ::StringW value,
                                  /* [TupleElementNames(new[] { "original", "sanitized" })] [Nullable(new[] { 1, 1, 0, 1, 1 })] */
                                  ::System::Collections::Generic::Dictionary_2<::StringW, ::System::ValueTuple_2<::StringW, ::StringW>>* sanitizedAgentParts);
 
-  /// @brief Method Build, addr 0x6348c64, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x638573c, size 0x294, virtual false, abstract: false, final false
   static inline ::StringW Build(::StringW baseUserAgent, ::StringW appName, ::StringW appVersion, ::StringW buildVersion, ::StringW systemName, ::StringW systemVersion, ::StringW device,
                                 /* [Nullable(2)] */ ::StringW locale, /* [TupleElementNames(new[] { "original", "sanitized" })] [Nullable(new[] { 1, 1, 0, 1, 1 })] */
                                 ::by_ref<::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::System::ValueTuple_2<::StringW, ::StringW>>*> sanitizedAgentParts);
 
-  /// @brief Method IsReserved, addr 0x63491a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsReserved, addr 0x6385c80, size 0x24, virtual false, abstract: false, final false
   static inline bool IsReserved(char16_t character);
 
-  /// @brief Method Sanitize, addr 0x6349034, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Sanitize, addr 0x6385b0c, size 0x174, virtual false, abstract: false, final false
   static inline ::StringW Sanitize(::StringW value, ::by_ref<bool> didStrip);
 
 protected:
@@ -65,7 +65,7 @@ public:
   MetaApiUserAgent(MetaApiUserAgent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24251 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24333 };
 
   /// @brief Field kHeaderName offset 0xffffffff size 0x8
   static constexpr ::ConstString kHeaderName{ u"X-APIX-User-Agent" };

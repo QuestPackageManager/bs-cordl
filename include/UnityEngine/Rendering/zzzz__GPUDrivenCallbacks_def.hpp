@@ -48,13 +48,13 @@ class CORDL_TYPE GPUDrivenCallbacks : public ::System::Object {
 public:
   // Declarations
   /// [RequiredByNativeCode(GenerateProxy = true)]
-  /// @brief Method InvokeGPUDrivenLODGroupDataNativeCallback, addr 0x6f88eb8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InvokeGPUDrivenLODGroupDataNativeCallback, addr 0x6fc5d94, size 0x20, virtual false, abstract: false, final false
   static inline void InvokeGPUDrivenLODGroupDataNativeCallback(::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback* callback,
                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative const> lodGroupDataNative,
                                                                ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* target);
 
   /// [RequiredByNativeCode(GenerateProxy = true)]
-  /// @brief Method InvokeGPUDrivenRendererDataNativeCallback, addr 0x6f88ed8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InvokeGPUDrivenRendererDataNativeCallback, addr 0x6fc5db4, size 0x20, virtual false, abstract: false, final false
   static inline void InvokeGPUDrivenRendererDataNativeCallback(::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback* callback,
                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative const> rendererDataNative,
                                                                ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
@@ -76,7 +76,7 @@ public:
   GPUDrivenCallbacks(GPUDrivenCallbacks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10484 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10491 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

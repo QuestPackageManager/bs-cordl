@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MultiplayerResultsData::*)()>(&::GlobalNamespace::MultiplayerResultsData::get_gameId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c704c;
+  constexpr static std::size_t addrs = 0x39ed7ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerResultsData*>(), { "get_gameId", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerPlayerResultsData* (::GlobalNamespace::MultiplayerResultsData::*)()>(
     &::GlobalNamespace::MultiplayerResultsData::get_localPlayerResultData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c7054;
+  constexpr static std::size_t addrs = 0x39ed7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerResultsData*>(), { "get_localPlayerResultData", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* (
     ::GlobalNamespace::MultiplayerResultsData::*)()>(&::GlobalNamespace::MultiplayerResultsData::get_otherPlayersData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c705c;
+  constexpr static std::size_t addrs = 0x39ed7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerResultsData*>(), { "get_otherPlayersData", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* (
     ::GlobalNamespace::MultiplayerResultsData::*)()>(&::GlobalNamespace::MultiplayerResultsData::get_allPlayersSortedData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c7064;
+  constexpr static std::size_t addrs = 0x39ed7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerResultsData*>(), { "get_allPlayersSortedData", {}, {} })));
@@ -66,7 +66,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*,
     ::GlobalNamespace::MultiplayerBadgesProvider*, ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*)>(&::GlobalNamespace::MultiplayerResultsData::_ctor)> {
   constexpr static std::size_t size = 0x5cc;
-  constexpr static std::size_t addrs = 0x39c706c;
+  constexpr static std::size_t addrs = 0x39ed7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

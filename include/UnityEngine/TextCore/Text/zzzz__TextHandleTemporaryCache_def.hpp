@@ -42,28 +42,28 @@ public:
   /// @brief Field syncRoot, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_syncRoot, put = __cordl_internal_set_syncRoot)) ::System::Object* syncRoot;
 
-  /// @brief Method AddTextInfoToCache, addr 0x7064448, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method AddTextInfoToCache, addr 0x70a133c, size 0x3b0, virtual false, abstract: false, final false
   inline void AddTextInfoToCache(::UnityEngine::TextCore::Text::TextHandle* textHandle, int32_t hashCode);
 
-  /// @brief Method ClearTemporaryCache, addr 0x70642d8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ClearTemporaryCache, addr 0x70a11cc, size 0x134, virtual false, abstract: false, final false
   inline void ClearTemporaryCache();
 
   static inline ::UnityEngine::TextCore::Text::TextHandleTemporaryCache* New_ctor();
 
-  /// @brief Method RecycleTextInfoFromCache, addr 0x70648fc, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method RecycleTextInfoFromCache, addr 0x70a1810, size 0x18c, virtual false, abstract: false, final false
   inline void RecycleTextInfoFromCache(::UnityEngine::TextCore::Text::TextHandle* textHandle);
 
-  /// @brief Method RefreshCaching, addr 0x70647f8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method RefreshCaching, addr 0x70a16ec, size 0x124, virtual false, abstract: false, final false
   inline void RefreshCaching(::UnityEngine::TextCore::Text::TextHandle* textHandle);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
-  /// @brief Method RemoveFromCache, addr 0x7064a88, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromCache, addr 0x70a199c, size 0x17c, virtual false, abstract: false, final false
   inline void RemoveFromCache(::UnityEngine::TextCore::Text::TextHandle* handle);
 
-  /// @brief Method ResetEntryState, addr 0x706440c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ResetEntryState, addr 0x70a1300, size 0x3c, virtual false, abstract: false, final false
   inline void ResetEntryState(::UnityEngine::TextCore::Text::TextHandle* handle);
 
-  /// @brief Method UpdateCurrentFrame, addr 0x7064be4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method UpdateCurrentFrame, addr 0x70a1b18, size 0x40, virtual false, abstract: false, final false
   inline void UpdateCurrentFrame();
 
   constexpr int32_t const& __cordl_internal_get_currentFrame() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_syncRoot(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x7064c24, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70a1b58, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,7 +102,7 @@ public:
   TextHandleTemporaryCache(TextHandleTemporaryCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17904 };
 
   /// @brief Field s_MinFramesInCache offset 0xffffffff size 0x4
   static constexpr int32_t s_MinFramesInCache{ static_cast<int32_t>(0x2) };

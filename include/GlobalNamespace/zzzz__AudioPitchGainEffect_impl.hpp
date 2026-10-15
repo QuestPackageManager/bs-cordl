@@ -12,241 +12,241 @@
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8._ctor
+//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)(int32_t)>(
-    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::*)(int32_t)>(
+    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ccb64c;
+  constexpr static std::size_t addrs = 0x5d04638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)()>(
-    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::*)()>(
+    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ccb6d0;
+  constexpr static std::size_t addrs = 0x5d046bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(), { "System.IDisposable.Dispose", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)()>(
-    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::*)()>(
+    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5ccb6d4;
+  constexpr static std::size_t addrs = 0x5d046c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)()>(
-    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::*)()>(
+    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ccb864;
+  constexpr static std::size_t addrs = 0x5d04850;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7*>(),
                                                                                            { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)()>(
-    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::*)()>(
+    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5ccb86c;
+  constexpr static std::size_t addrs = 0x5d04858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::*)()>(
-    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::*)()>(
+    &::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ccb8a4;
+  constexpr static std::size_t addrs = 0x5d04890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+        ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect>& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect>& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect> const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect> const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::AudioPitchGainEffect> value) {
+constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::AudioPitchGainEffect> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr float_t& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get_volumeScale() {
+constexpr float_t& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_get_volumeScale() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___volumeScale;
 }
-constexpr float_t const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get_volumeScale() const {
+constexpr float_t const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_get_volumeScale() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___volumeScale;
 }
-constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_set_volumeScale(float_t value) {
+constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_set_volumeScale(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___volumeScale = value;
 }
-constexpr ::System::Action*& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get_finishCallback() {
+constexpr ::System::Action*& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_get_finishCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishCallback;
 }
-constexpr ::System::Action* const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get_finishCallback() const {
+constexpr ::System::Action* const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_get_finishCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishCallback;
 }
-constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_set_finishCallback(::System::Action* value) {
+constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_set_finishCallback(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___finishCallback = value;
 }
-constexpr float_t& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get__startPitch_5__2() {
+constexpr float_t& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_get__startPitch_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startPitch_5__2;
 }
-constexpr float_t const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get__startPitch_5__2() const {
+constexpr float_t const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_get__startPitch_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startPitch_5__2;
 }
-constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_set__startPitch_5__2(float_t value) {
+constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_set__startPitch_5__2(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startPitch_5__2 = value;
 }
-constexpr float_t& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get__time_5__3() {
+constexpr float_t& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_get__time_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time_5__3;
 }
-constexpr float_t const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_get__time_5__3() const {
+constexpr float_t const& GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_get__time_5__3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____time_5__3;
 }
-constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::__cordl_internal_set__time_5__3(float_t value) {
+constexpr void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::__cordl_internal_set__time_5__3(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____time_5__3 = value;
 }
-inline void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_IDisposable_Dispose() {
+inline void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(), { "System.IDisposable.Dispose", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::MoveNext() {
+inline bool GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(),
+inline ::System::Object* GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7*>(),
                                                                                          { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+      ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
 /// @brief [DebuggerHidden]
-inline ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8* GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8*>(__1__state));
+inline ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7* GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__8::AudioPitchGainEffect__StartEffectCoroutine_d__8() {}
+constexpr ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7::AudioPitchGainEffect__StartEffectCoroutine_d__7() {}
 //  Writing Method size for method: ::GlobalNamespace::AudioPitchGainEffect.Start
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect::*)()>(&::GlobalNamespace::AudioPitchGainEffect::Start)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5ccb5b4;
+  constexpr static std::size_t addrs = 0x5d045a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect*>(), { "Start", {}, {} })));
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::AudioPitchGainEffect::*)(float_t, ::System::Action*)>(
     &::GlobalNamespace::AudioPitchGainEffect::StartEffectCoroutine)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5ccb5d8;
+  constexpr static std::size_t addrs = 0x5d045c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect*>(),
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect::*)(float_t, ::System::Action*)>(&::GlobalNamespace::AudioPitchGainEffect::StartEffect)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5ccb654;
+  constexpr static std::size_t addrs = 0x5d04640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect::*)()>(&::GlobalNamespace::AudioPitchGainEffect::InterruptEffect)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5ccb67c;
+  constexpr static std::size_t addrs = 0x5d04668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect*>(), { "InterruptEffect", {}, {} })));
@@ -298,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect::*)(::UnityEngine::AudioSource*)>(&::GlobalNamespace::AudioPitchGainEffect::SetAudioSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ccb6b8;
+  constexpr static std::size_t addrs = 0x5d046a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AudioPitchGainEffect::*)()>(&::GlobalNamespace::AudioPitchGainEffect::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ccb6c0;
+  constexpr static std::size_t addrs = 0x5d046ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect*>(), { ".ctor", {}, {} })));
@@ -389,18 +389,6 @@ constexpr float_t const& GlobalNamespace::AudioPitchGainEffect::__cordl_internal
 constexpr void GlobalNamespace::AudioPitchGainEffect::__cordl_internal_set__startPitch(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startPitch = value;
-}
-constexpr float_t& GlobalNamespace::AudioPitchGainEffect::__cordl_internal_get__startVolume() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____startVolume;
-}
-constexpr float_t const& GlobalNamespace::AudioPitchGainEffect::__cordl_internal_get__startVolume() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____startVolume;
-}
-constexpr void GlobalNamespace::AudioPitchGainEffect::__cordl_internal_set__startVolume(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____startVolume = value;
 }
 inline void GlobalNamespace::AudioPitchGainEffect::Start() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AudioPitchGainEffect*>(), { "Start", {}, {} })));

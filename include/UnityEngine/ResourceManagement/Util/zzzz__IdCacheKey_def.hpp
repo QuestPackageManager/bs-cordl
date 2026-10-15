@@ -45,16 +45,16 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
 
-  /// @brief Method Equals, addr 0x6d3ec1c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6d7b898, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6d3ec8c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6d7b908, size 0x70, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
 
-  /// @brief Method Equals, addr 0x6d3eb5c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6d7b7d8, size 0x6c, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IdCacheKey* other);
 
-  /// @brief Method GetHashCode, addr 0x6d3ebc8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6d7b844, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::ResourceManagement::Util::IdCacheKey* New_ctor(::StringW id);
@@ -73,10 +73,10 @@ public:
 
   constexpr void __cordl_internal_set_locationType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x6d3eb0c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d7b788, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x6d3eb54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d7b7d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* locType, ::StringW id);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
@@ -100,7 +100,7 @@ public:
   IdCacheKey(IdCacheKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19191 };
 
   /// @brief Field ID, offset: 0x10, size: 0x8, def value: None
   ::StringW ____cordl_ID;

@@ -61,21 +61,21 @@ public:
   /// @brief Field postProcessingEvent, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_postProcessingEvent, put = __cordl_internal_set_postProcessingEvent)) ::UnityEngine::Rendering::Universal::RenderPassEvent postProcessingEvent;
 
-  /// @brief Method AddRenderPasses, addr 0x6c71de4, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x6caea60, size 0x2cc, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x6c71bf4, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x6cae870, size 0x128, virtual true, abstract: false, final false
   inline void Create();
 
-  /// @brief Method Dispose, addr 0x6c720bc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6caed38, size 0x14, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method IsRuntimePlatformUntetheredXR, addr 0x6c71d6c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsRuntimePlatformUntetheredXR, addr 0x6cae9e8, size 0x78, virtual false, abstract: false, final false
   inline bool IsRuntimePlatformUntetheredXR();
 
   static inline ::GlobalNamespace::OnTilePostProcessFeature* New_ctor();
 
-  /// @brief Method TryLoadResources, addr 0x6c719ec, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method TryLoadResources, addr 0x6cae668, size 0x208, virtual false, abstract: false, final false
   inline bool TryLoadResources();
 
   constexpr ::UnityEngine::Rendering::Universal::Internal::ColorGradingLutPass* const& __cordl_internal_get_m_ColorGradingLutPass() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set_postProcessingEvent(::UnityEngine::Rendering::Universal::RenderPassEvent value);
 
-  /// @brief Method .ctor, addr 0x6c720d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6caed4c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,7 +132,7 @@ public:
   OnTilePostProcessFeature(OnTilePostProcessFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12779 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12786 };
 
   /// [SerializeField]
   /// [HideInInspector]

@@ -73,45 +73,45 @@ public:
   __declspec(property(get = __cordl_internal_get_tbsGen, put = __cordl_internal_set_tbsGen)) ::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator* tbsGen;
 
   /// [Obsolete("Use Generate with an ISignatureFactory")]
-  /// @brief Method Generate, addr 0x38dbd40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x38fe6a4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
   /// [Obsolete("Use Generate with an ISignatureFactory")]
-  /// @brief Method Generate, addr 0x38dbd48, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x38fe6ac, size 0x80, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Generate, addr 0x38dbdc8, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x38fe72c, size 0x488, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* Generate(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureCalculatorFactory);
 
-  /// @brief Method GenerateJcaObject, addr 0x38dc250, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GenerateJcaObject, addr 0x38febb4, size 0xd4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* GenerateJcaObject(::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* tbsCert, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlg,
                                                                        ::ArrayW<uint8_t> signature);
 
   static inline ::Org::BouncyCastle::X509::X509V1CertificateGenerator* New_ctor();
 
-  /// @brief Method Reset, addr 0x38db854, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x38fe1b8, size 0x5c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetIssuerDN, addr 0x38db99c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetIssuerDN, addr 0x38fe300, size 0x18, virtual false, abstract: false, final false
   inline void SetIssuerDN(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  /// @brief Method SetNotAfter, addr 0x38dba2c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetNotAfter, addr 0x38fe390, size 0x78, virtual false, abstract: false, final false
   inline void SetNotAfter(::System::DateTime date);
 
-  /// @brief Method SetNotBefore, addr 0x38db9b4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetNotBefore, addr 0x38fe318, size 0x78, virtual false, abstract: false, final false
   inline void SetNotBefore(::System::DateTime date);
 
-  /// @brief Method SetPublicKey, addr 0x38dbabc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SetPublicKey, addr 0x38fe420, size 0x110, virtual false, abstract: false, final false
   inline void SetPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method SetSerialNumber, addr 0x38db8b0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetSerialNumber, addr 0x38fe214, size 0xec, virtual false, abstract: false, final false
   inline void SetSerialNumber(::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
   /// [Obsolete("Not needed if Generate used with an ISignatureFactory")]
-  /// @brief Method SetSignatureAlgorithm, addr 0x38dbbcc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method SetSignatureAlgorithm, addr 0x38fe530, size 0x174, virtual false, abstract: false, final false
   inline void SetSignatureAlgorithm(::StringW signatureAlgorithm);
 
-  /// @brief Method SetSubjectDN, addr 0x38dbaa4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetSubjectDN, addr 0x38fe408, size 0x18, virtual false, abstract: false, final false
   inline void SetSubjectDN(::Org::BouncyCastle::Asn1::X509::X509Name* subject);
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_sigAlgId() const;
@@ -138,10 +138,10 @@ public:
 
   constexpr void __cordl_internal_set_tbsGen(::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator* value);
 
-  /// @brief Method .ctor, addr 0x38db7f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38fe15c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SignatureAlgNames, addr 0x38dc324, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgNames, addr 0x38fec88, size 0x50, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
 protected:

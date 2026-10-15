@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d22fd8;
+  constexpr static std::size_t addrs = 0x6d5fc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d23030;
+  constexpr static std::size_t addrs = 0x6d5fcac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c*>(), { ".ctor", {}, {} })));
@@ -180,7 +180,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c::_Render_b__28_0)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6d23034;
+  constexpr static std::size_t addrs = 0x6d5fcb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass___c*>(),
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::OnCameraSetup)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d21b74;
+  constexpr static std::size_t addrs = 0x6d5e7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(),
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::Execute)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d21b78;
+  constexpr static std::size_t addrs = 0x6d5e7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(),
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::get_MsaaSamples)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d21b7c;
+  constexpr static std::size_t addrs = 0x6d5e7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(int32_t)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::set_MsaaSamples)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d21b84;
+  constexpr static std::size_t addrs = 0x6d5e800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::get_CopyToDepth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d21b8c;
+  constexpr static std::size_t addrs = 0x6d5e808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(bool)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::set_CopyToDepth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d21b94;
+  constexpr static std::size_t addrs = 0x6d5e810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::get_CopyToDepthXR)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d21b9c;
+  constexpr static std::size_t addrs = 0x6d5e818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(bool)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::set_CopyToDepthXR)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d21ba4;
+  constexpr static std::size_t addrs = 0x6d5e820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::get_CopyToBackbuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d21bac;
+  constexpr static std::size_t addrs = 0x6d5e828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(bool)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::set_CopyToBackbuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d21bb4;
+  constexpr static std::size_t addrs = 0x6d5e830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::UnityEngine::Shader*, bool, bool, bool, ::StringW)>(&::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::_ctor)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6d21bbc;
+  constexpr static std::size_t addrs = 0x6d5e838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -396,7 +396,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(
     ::UnityEngine::Rendering::RTHandle*, ::UnityEngine::Rendering::RTHandle*)>(&::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::Setup)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6d21d1c;
+  constexpr static std::size_t addrs = 0x6d5e998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)()>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::Dispose)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6d21d28;
+  constexpr static std::size_t addrs = 0x6d5e9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(), { "Dispose", {}, {} })));
@@ -424,7 +424,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::Internal::CopyDepthPass_PassData*,
                                                                 ::UnityEngine::Rendering::RTHandle*, bool)>(&::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::ExecutePass)> {
   constexpr static std::size_t size = 0x5e0;
-  constexpr static std::size_t addrs = 0x6d21d88;
+  constexpr static std::size_t addrs = 0x6d5ea04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -443,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::OnCameraCleanup)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d22368;
+  constexpr static std::size_t addrs = 0x6d5efe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Internal::CopyDepthPass*>(),
@@ -458,7 +458,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, bool, ::StringW)>(&::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::Render)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6d2236c;
+  constexpr static std::size_t addrs = 0x6d5efe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -479,7 +479,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::UniversalResourceData*, ::UnityEngine::Rendering::Universal::UniversalCameraData*, bool, ::StringW)>(
     &::UnityEngine::Rendering::Universal::Internal::CopyDepthPass::Render)> {
   constexpr static std::size_t size = 0xa9c;
-  constexpr static std::size_t addrs = 0x6d22464;
+  constexpr static std::size_t addrs = 0x6d5f0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

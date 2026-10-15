@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23::*)(int32_t)>(
     &::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e219dc;
+  constexpr static std::size_t addrs = 0x5e5f24c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23::*)()>(
     &::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e21c6c;
+  constexpr static std::size_t addrs = 0x5e5f4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23::*)()>(
     &::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23::MoveNext)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5e21c70;
+  constexpr static std::size_t addrs = 0x5e5f4e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23*>(), { "MoveNext", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23::*)()>(
     &::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e21da0;
+  constexpr static std::size_t addrs = 0x5e5f610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23*>(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23::*)()>(
     &::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e21da8;
+  constexpr static std::size_t addrs = 0x5e5f618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23::*)()>(
     &::GlobalNamespace::VRTextEntryController__BlinkCursor_d__23::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e21de0;
+  constexpr static std::size_t addrs = 0x5e5f650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::VRTextEntryController::add_textDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e2121c;
+  constexpr static std::size_t addrs = 0x5e5ea8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::VRTextEntryController::remove_textDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e212dc;
+  constexpr static std::size_t addrs = 0x5e5eb4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController::*)(::System::Action*)>(&::GlobalNamespace::VRTextEntryController::add_okButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e2139c;
+  constexpr static std::size_t addrs = 0x5e5ec0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController::*)(::System::Action*)>(
     &::GlobalNamespace::VRTextEntryController::remove_okButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e21448;
+  constexpr static std::size_t addrs = 0x5e5ecb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController::*)(::System::Action*)>(
     &::GlobalNamespace::VRTextEntryController::add_cancelButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e214f4;
+  constexpr static std::size_t addrs = 0x5e5ed64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController::*)(::System::Action*)>(
     &::GlobalNamespace::VRTextEntryController::remove_cancelButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e215a0;
+  constexpr static std::size_t addrs = 0x5e5ee10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController::*)(bool)>(&::GlobalNamespace::VRTextEntryController::set_hideCancelButton)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e2164c;
+  constexpr static std::size_t addrs = 0x5e5eebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::VRTextEntryController::*)()>(&::GlobalNamespace::VRTextEntryController::get_text)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e21664;
+  constexpr static std::size_t addrs = 0x5e5eed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRTextEntryController*>(), { "get_text", {}, {} })));
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController::*)(::StringW)>(&::GlobalNamespace::VRTextEntryController::set_text)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5e21684;
+  constexpr static std::size_t addrs = 0x5e5eef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController::*)()>(&::GlobalNamespace::VRTextEntryController::Awake)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x5e21738;
+  constexpr static std::size_t addrs = 0x5e5efa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRTextEntryController*>(), { "Awake", {}, {} })));
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController::*)()>(&::GlobalNamespace::VRTextEntryController::OnEnable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e21958;
+  constexpr static std::size_t addrs = 0x5e5f1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRTextEntryController*>(), { "OnEnable", {}, {} })));
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController::*)()>(&::GlobalNamespace::VRTextEntryController::OnDisable)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e219d0;
+  constexpr static std::size_t addrs = 0x5e5f240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRTextEntryController*>(), { "OnDisable", {}, {} })));
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::VRTextEntryController::*)()>(&::GlobalNamespace::VRTextEntryController::BlinkCursor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5e2197c;
+  constexpr static std::size_t addrs = 0x5e5f1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRTextEntryController*>(), { "BlinkCursor", {}, {} })));
@@ -379,7 +379,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController::*)(char16_t)>(&::GlobalNamespace::VRTextEntryController::HandleUIKeyboardTextKeyWasPressed)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5e219e4;
+  constexpr static std::size_t addrs = 0x5e5f254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -392,7 +392,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController::*)()>(&::GlobalNamespace::VRTextEntryController::HandleUIKeyboardDeleteButtonWasPressed)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5e21af4;
+  constexpr static std::size_t addrs = 0x5e5f364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -405,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController::*)()>(&::GlobalNamespace::VRTextEntryController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e21c28;
+  constexpr static std::size_t addrs = 0x5e5f498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRTextEntryController*>(), { ".ctor", {}, {} })));
@@ -417,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController::*)()>(&::GlobalNamespace::VRTextEntryController::_Awake_b__20_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e21c34;
+  constexpr static std::size_t addrs = 0x5e5f4a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRTextEntryController*>(), { "<Awake>b__20_0", {}, {} })));
@@ -429,7 +429,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::VRTextEntryController::*)()>(&::GlobalNamespace::VRTextEntryController::_Awake_b__20_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e21c50;
+  constexpr static std::size_t addrs = 0x5e5f4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::VRTextEntryController*>(), { "<Awake>b__20_1", {}, {} })));

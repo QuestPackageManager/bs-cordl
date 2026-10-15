@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*, bool)>(
         &::Tayx::Graphy::Utils::G_ExtensionMethods::SetAllActive)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x68660b8;
+  constexpr static std::size_t addrs = 0x68a2d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*, int32_t)>(
         &::Tayx::Graphy::Utils::G_ExtensionMethods::SetOneActive)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x68661d0;
+  constexpr static std::size_t addrs = 0x68a2e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*, bool)>(
         &::Tayx::Graphy::Utils::G_ExtensionMethods::SetAllActive)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6866290;
+  constexpr static std::size_t addrs = 0x68a2f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

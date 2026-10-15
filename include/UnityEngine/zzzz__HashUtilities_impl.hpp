@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Hash128>, ::by_ref<::UnityEngine::Hash128>)>(&::UnityEngine::HashUtilities::AppendHash)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6f20fbc;
+  constexpr static std::size_t addrs = 0x6f5ddf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

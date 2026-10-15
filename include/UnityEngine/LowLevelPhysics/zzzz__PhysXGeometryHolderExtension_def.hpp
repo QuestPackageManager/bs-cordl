@@ -32,10 +32,10 @@ public:
   // Declarations
   /// [FreeFunction("Physics::PhysXGeometryExtension::GetGeometryHolderFromCollider")]
   /// [Extension]
-  /// @brief Method GetGeometryHolder, addr 0x7009ac4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetGeometryHolder, addr 0x70469b8, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevelPhysics::GeometryHolder GetGeometryHolder(::UnityEngine::Collider* col);
 
-  /// @brief Method GetGeometryHolder_Injected, addr 0x7009b9c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetGeometryHolder_Injected, addr 0x7046a90, size 0x44, virtual false, abstract: false, final false
   static inline void GetGeometryHolder_Injected(::System::IntPtr col, ::by_ref<::UnityEngine::LowLevelPhysics::GeometryHolder> ret);
 
 protected:
@@ -53,7 +53,7 @@ public:
   PhysXGeometryHolderExtension(PhysXGeometryHolderExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19111 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19144 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -42,18 +42,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
 
-  /// @brief Method Init, addr 0x3728bbc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x374b520, size 0xc0, virtual true, abstract: false, final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::StreamBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method ProcessBytes, addr 0x3728e18, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method ProcessBytes, addr 0x374b77c, size 0x154, virtual true, abstract: false, final true
   inline void ProcessBytes(::ArrayW<uint8_t> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x3728f6c, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x374b8d0, size 0xa8, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method ReturnByte, addr 0x3728d20, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method ReturnByte, addr 0x374b684, size 0xf8, virtual true, abstract: false, final true
   inline uint8_t ReturnByte(uint8_t input);
 
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* const& __cordl_internal_get_cipher() const;
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set_oneByte(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x3728a48, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x374b3ac, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method get_AlgorithmName, addr 0x3728c7c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x374b5e0, size 0xa4, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"

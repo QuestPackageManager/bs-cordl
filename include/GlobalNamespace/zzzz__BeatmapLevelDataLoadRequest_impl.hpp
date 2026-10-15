@@ -4,10 +4,13 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataLoadRequest_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataLoadRequest_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/IO/zzzz__InvalidDataException_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
@@ -15,13 +18,49 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/zzzz__AssetBundle_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
+template <typename T> inline void GlobalNamespace::BeatmapLevelDataLoadRequest__LoadAssetAsync_d__9_1<T>::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadAssetAsync_d__9_1<T>>(), { "MoveNext", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
+}
+template <typename T>
+inline void GlobalNamespace::BeatmapLevelDataLoadRequest__LoadAssetAsync_d__9_1<T>::SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadAssetAsync_d__9_1<T>>(),
+                                                                                         { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename T> constexpr GlobalNamespace::BeatmapLevelDataLoadRequest__LoadAssetAsync_d__9_1<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+template <typename T>
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::BeatmapLevelDataLoadRequest__LoadAssetAsync_d__9_1<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "bundle", ty: "::UnityW<::UnityEngine::AssetBundle>",
+// modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "assetName", ty: "::StringW", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Object>>", modifiers: "", def_value: Some("{}"), comment: None }]
+template <typename T>
+constexpr ::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadAssetAsync_d__9_1<T>::BeatmapLevelDataLoadRequest__LoadAssetAsync_d__9_1(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> __t__builder, ::UnityW<::UnityEngine::AssetBundle> bundle, ::StringW assetName,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Object>> __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->bundle = bundle;
+  this->assetName = assetName;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+template <typename T> constexpr ::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadAssetAsync_d__9_1<T>::BeatmapLevelDataLoadRequest__LoadAssetAsync_d__9_1() {}
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8.MoveNext
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8::*)()>(
     &::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8::MoveNext)> {
-  constexpr static std::size_t size = 0x790;
-  constexpr static std::size_t addrs = 0x39a6a5c;
+  constexpr static std::size_t size = 0x6d8;
+  constexpr static std::size_t addrs = 0x39cb004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39a71ec;
+  constexpr static std::size_t addrs = 0x39cb6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8>(),
@@ -67,12 +106,12 @@ GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8::i___Sy
 // "::GlobalNamespace::BeatmapLevelDataLoadRequest*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}"), comment: None
 // }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AssetBundle>>", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name:
-// "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Object>>", modifiers: "", def_value: Some("{}"), comment: None }]
+// "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>>", modifiers: "", def_value: Some("{}"), comment: None }]
 constexpr ::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IBeatmapLevelData*> __t__builder, ::GlobalNamespace::BeatmapLevelDataLoadRequest* __4__this,
     ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AssetBundle>> __u__2,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Object>> __u__3) noexcept {
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>> __u__3) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -88,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelDataLoadRequest::*)(::StringW, ::StringW)>(&::GlobalNamespace::BeatmapLevelDataLoadRequest::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x39a6450;
+  constexpr static std::size_t addrs = 0x39ca940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* (
     ::GlobalNamespace::BeatmapLevelDataLoadRequest::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelDataLoadRequest::LoadDataAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x39a6518;
+  constexpr static std::size_t addrs = 0x39caa08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,11 +156,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* (
     ::GlobalNamespace::BeatmapLevelDataLoadRequest::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelDataLoadRequest::LoadDataAsyncInternal)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39a65ec;
+  constexpr static std::size_t addrs = 0x39caadc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataLoadRequest*>(),
                                                                                            { "LoadDataAsyncInternal", {}, { ::i2c::type_of<::System::Threading::CancellationToken>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BeatmapLevelDataLoadRequest.CreateInvalidBundleContentException
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::InvalidDataException* (::GlobalNamespace::BeatmapLevelDataLoadRequest::*)()>(
+    &::GlobalNamespace::BeatmapLevelDataLoadRequest::CreateInvalidBundleContentException)> {
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x39cabcc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataLoadRequest*>(), { "CreateInvalidBundleContentException", {}, {} })));
     return ___internal_method;
   }
 };
@@ -131,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelDataLoadRequest::*)()>(
     &::GlobalNamespace::BeatmapLevelDataLoadRequest::ThrowIfExternalCancellationRequested)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x39a66dc;
+  constexpr static std::size_t addrs = 0x39cac84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelDataLoadRequest::*)()>(&::GlobalNamespace::BeatmapLevelDataLoadRequest::UnloadBundle)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x39a6878;
+  constexpr static std::size_t addrs = 0x39cae20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataLoadRequest*>(), { "UnloadBundle", {}, {} })));
@@ -156,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelDataLoadRequest::*)()>(&::GlobalNamespace::BeatmapLevelDataLoadRequest::Dispose)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x39a6900;
+  constexpr static std::size_t addrs = 0x39caea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataLoadRequest*>(), { "Dispose", {}, {} })));
@@ -168,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevelDataLoadRequest::*)()>(&::GlobalNamespace::BeatmapLevelDataLoadRequest::get_HasFailed)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x39a6974;
+  constexpr static std::size_t addrs = 0x39caf1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataLoadRequest*>(), { "get_HasFailed", {}, {} })));
@@ -180,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevelDataLoadRequest::*)()>(&::GlobalNamespace::BeatmapLevelDataLoadRequest::get_HasValidResult)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x39a69b0;
+  constexpr static std::size_t addrs = 0x39caf58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataLoadRequest*>(), { "get_HasValidResult", {}, {} })));
@@ -277,6 +330,20 @@ GlobalNamespace::BeatmapLevelDataLoadRequest::LoadDataAsyncInternal(::System::Th
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataLoadRequest*>(),
                                                                                          { "LoadDataAsyncInternal", {}, { ::i2c::type_of<::System::Threading::CancellationToken>() } })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>*>(this, ___internal_method, cancellationToken);
+}
+template <typename T>
+  requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
+inline ::System::Threading::Tasks::Task_1<T>* GlobalNamespace::BeatmapLevelDataLoadRequest::LoadAssetAsync(::UnityEngine::AssetBundle* bundle, ::StringW assetName) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataLoadRequest*>(),
+                                                           { "LoadAssetAsync", { ::i2c::class_of<T>() }, { ::i2c::type_of<::UnityEngine::AssetBundle*>(), ::i2c::type_of<::StringW>() } })));
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::make_generic(___internal_method_base, { ::i2c::class_of<T>() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<T>*>(nullptr, ___internal_method, bundle, assetName);
+}
+inline ::System::IO::InvalidDataException* GlobalNamespace::BeatmapLevelDataLoadRequest::CreateInvalidBundleContentException() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevelDataLoadRequest*>(), { "CreateInvalidBundleContentException", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::IO::InvalidDataException*>(this, ___internal_method);
 }
 inline void GlobalNamespace::BeatmapLevelDataLoadRequest::ThrowIfExternalCancellationRequested() {
   static auto* ___internal_method =

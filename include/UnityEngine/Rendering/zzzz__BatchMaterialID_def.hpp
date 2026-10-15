@@ -35,13 +35,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::BatchMaterialID>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::BatchMaterialID>*();
 
-  /// @brief Method Equals, addr 0x6f87a60, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fc493c, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6f87b10, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fc49ec, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::BatchMaterialID other);
 
-  /// @brief Method GetHashCode, addr 0x6f87a58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fc4934, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::BatchMaterialID getStaticF_Null();
@@ -49,7 +49,7 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::BatchMaterialID>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::BatchMaterialID>* i___System__IEquatable_1___UnityEngine__Rendering__BatchMaterialID_();
 
-  /// @brief Method op_Equality, addr 0x6f87b20, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6fc49fc, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::BatchMaterialID a, ::UnityEngine::Rendering::BatchMaterialID b);
 
   static inline void setStaticF_Null(::UnityEngine::Rendering::BatchMaterialID value);
@@ -62,7 +62,7 @@ public:
   constexpr BatchMaterialID(uint32_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10461 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

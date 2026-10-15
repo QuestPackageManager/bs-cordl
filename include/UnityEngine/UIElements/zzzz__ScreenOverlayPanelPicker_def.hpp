@@ -32,16 +32,16 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE ScreenOverlayPanelPicker : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCapturingPanel, addr 0x7243098, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetCapturingPanel, addr 0x727ffcc, size 0x11c, virtual false, abstract: false, final false
   inline bool GetCapturingPanel(int32_t pointerId, ::by_ref<::UnityEngine::UIElements::BaseVisualElementPanel*> capturingPanel);
 
   static inline ::UnityEngine::UIElements::ScreenOverlayPanelPicker* New_ctor();
 
-  /// @brief Method TryPick, addr 0x7242f48, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method TryPick, addr 0x727fe7c, size 0x150, virtual false, abstract: false, final false
   inline bool TryPick(::UnityEngine::UIElements::BaseRuntimePanel* panel, int32_t pointerId, ::UnityEngine::Vector2 screenPosition, ::UnityEngine::Vector2 delta,
                       ::System::Nullable_1<int32_t> targetDisplay, ::by_ref<bool> captured);
 
-  /// @brief Method .ctor, addr 0x72431b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x72800e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

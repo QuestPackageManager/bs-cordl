@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Input::HapticControl::*)()>(&::UnityEngine::XR::OpenXR::Input::HapticControl::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e386c8;
+  constexpr static std::size_t addrs = 0x6e75364;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Input::HapticControl*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::Input::Haptic (::UnityEngine::XR::OpenXR::Input::HapticControl::*)(void*)>(
     &::UnityEngine::XR::OpenXR::Input::HapticControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e38748;
+  constexpr static std::size_t addrs = 0x6e753e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

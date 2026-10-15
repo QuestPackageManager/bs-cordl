@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity
                                                                 ::UnityEngine::UIElements::Layout::LayoutMeasureMode, ::by_ref<::System::IntPtr>,
                                                                 ::by_ref<::UnityEngine::UIElements::Layout::LayoutSize>)>(&::UnityEngine::UIElements::Layout::LayoutDelegates::InvokeMeasureFunction)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x7197e98;
+  constexpr static std::size_t addrs = 0x71d4dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::by_ref<::UnityEngine::UIElements::Layout::LayoutNode>, float_t, float_t)>(
     &::UnityEngine::UIElements::Layout::LayoutDelegates::InvokeBaselineFunction)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x719813c;
+  constexpr static std::size_t addrs = 0x71d5070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

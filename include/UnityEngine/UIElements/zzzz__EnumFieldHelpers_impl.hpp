@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext, ::by_ref<::System::Type*>,
                                                                 ::by_ref<::System::Enum*>, ::by_ref<bool>)>(&::UnityEngine::UIElements::EnumFieldHelpers::ExtractValue)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x71b2028;
+  constexpr static std::size_t addrs = 0x71eef5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

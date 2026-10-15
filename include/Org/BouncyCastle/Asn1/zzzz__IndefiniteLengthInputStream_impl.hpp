@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::*)(::System::IO::Stream*, int32_t)>(
     &::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x390cda8;
+  constexpr static std::size_t addrs = 0x392f70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::*)(bool)>(&::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::SetEofOn00)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x391146c;
+  constexpr static std::size_t addrs = 0x3933dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::*)()>(&::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::CheckForEof)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x391c600;
+  constexpr static std::size_t addrs = 0x393ef64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream*>(), { "CheckForEof", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::Read)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x391c698;
+  constexpr static std::size_t addrs = 0x393effc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream*>(),
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::*)()>(&::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::ReadByte)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x391c798;
+  constexpr static std::size_t addrs = 0x393f0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream*>(),
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::*)()>(&::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::RequireByte)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x391c5a0;
+  constexpr static std::size_t addrs = 0x393ef04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream*>(), { "RequireByte", {}, {} })));
