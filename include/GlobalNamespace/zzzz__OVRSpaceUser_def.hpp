@@ -31,23 +31,23 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x632a368, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x632a5f0, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method TryCreate, addr 0x632a200, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method TryCreate, addr 0x632a488, size 0x48, virtual false, abstract: false, final false
   static inline bool TryCreate(::StringW platformUserId, ::by_ref<::GlobalNamespace::OVRSpaceUser> spaceUser);
 
-  /// @brief Method TryCreate, addr 0x632a190, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryCreate, addr 0x632a418, size 0x70, virtual false, abstract: false, final false
   static inline bool TryCreate(uint64_t platformUserId, ::by_ref<::GlobalNamespace::OVRSpaceUser> spaceUser);
 
   /// [Obsolete("Constructor ignores validation. Use TryCreate(*) methods instead.", false)]
-  /// @brief Method .ctor, addr 0x632a2fc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x632a584, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(uint64_t spaceUserId);
 
-  /// @brief Method get_Id, addr 0x632a270, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x632a4f8, size 0x8c, virtual false, abstract: false, final false
   inline uint64_t get_Id();
 
-  /// @brief Method get_Valid, addr 0x632a248, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x632a4d0, size 0x28, virtual false, abstract: false, final false
   inline bool get_Valid();
 
   /// @brief Convert to "::System::IDisposable"

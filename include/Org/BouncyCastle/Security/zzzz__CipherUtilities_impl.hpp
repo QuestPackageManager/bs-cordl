@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Security::CipherUtilities::*)()>(&::Org::BouncyCastle::Security::CipherUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x389ef50;
+  constexpr static std::size_t addrs = 0x38a33e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::CipherUtilities*>(), { ".ctor", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::StringW)>(&::Org::BouncyCastle::Security::CipherUtilities::GetObjectIdentifier)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x389ef54;
+  constexpr static std::size_t addrs = 0x38a33ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ICollection* (*)()>(&::Org::BouncyCastle::Security::CipherUtilities::get_Algorithms)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x389f1a4;
+  constexpr static std::size_t addrs = 0x38a363c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::CipherUtilities*>(), { "get_Algorithms", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBufferedCipher* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Security::CipherUtilities::GetCipher)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x389f278;
+  constexpr static std::size_t addrs = 0x38a3710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::CipherUtilities*>(),
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBufferedCipher* (*)(::StringW)>(&::Org::BouncyCastle::Security::CipherUtilities::GetCipher)> {
   constexpr static std::size_t size = 0x1da4;
-  constexpr static std::size_t addrs = 0x389f2dc;
+  constexpr static std::size_t addrs = 0x38a3774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Security::CipherUtilities::GetAlgorithmName)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x38a1608;
+  constexpr static std::size_t addrs = 0x38a5aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Security::CipherUtilities*>(),
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::Org::BouncyCastle::Security::CipherUtilities::GetDigitIndex)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x38a1080;
+  constexpr static std::size_t addrs = 0x38a5518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IBlockCipher* (*)(::Org::BouncyCastle::Security::CipherUtilities_CipherAlgorithm)>(
     &::Org::BouncyCastle::Security::CipherUtilities::CreateBlockCipher)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x38a10fc;
+  constexpr static std::size_t addrs = 0x38a5594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

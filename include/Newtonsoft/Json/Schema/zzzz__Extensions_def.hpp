@@ -60,7 +60,7 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <IsValid>b__0, addr 0x61b39a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <IsValid>b__0, addr 0x61b3c30, size 0x8, virtual false, abstract: false, final false
   inline void _IsValid_b__0(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* args);
 
   constexpr bool const& __cordl_internal_get_valid() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_valid(bool value);
 
-  /// @brief Method .ctor, addr 0x61b34a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b3730, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +113,7 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::Extensions___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <IsValid>b__0, addr 0x61b39b0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <IsValid>b__0, addr 0x61b3c38, size 0xd4, virtual false, abstract: false, final false
   inline void _IsValid_b__0(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* args);
 
   constexpr ::System::Collections::Generic::IList_1<::StringW>* const& __cordl_internal_get_errors() const;
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_errors(::System::Collections::Generic::IList_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x61b399c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61b3c24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -168,22 +168,22 @@ public:
 
   /// [Extension]
   /// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
-  /// @brief Method IsValid, addr 0x61b33e0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x61b3668, size 0xc8, virtual false, abstract: false, final false
   static inline bool IsValid(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
   /// [Extension]
   /// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
-  /// @brief Method IsValid, addr 0x61b380c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x61b3a94, size 0x190, virtual false, abstract: false, final false
   static inline bool IsValid(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema, ::by_ref<::System::Collections::Generic::IList_1<::StringW>*> errorMessages);
 
   /// [Extension]
   /// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
-  /// @brief Method Validate, addr 0x61b39a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x61b3c28, size 0x8, virtual false, abstract: false, final false
   static inline void Validate(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
   /// [Extension]
   /// [Obsolete("JSON Schema validation has been moved to its own package. See https://www.newtonsoft.com/jsonschema for more details.")]
-  /// @brief Method Validate, addr 0x61b35f4, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x61b387c, size 0x218, virtual false, abstract: false, final false
   static inline void Validate(::Newtonsoft::Json::Linq::JToken* source, ::Newtonsoft::Json::Schema::JsonSchema* schema, ::Newtonsoft::Json::Schema::ValidationEventHandler* validationEventHandler);
 
 protected:

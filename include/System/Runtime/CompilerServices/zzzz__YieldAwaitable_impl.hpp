@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::*)()>(
     &::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::get_IsCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc7188;
+  constexpr static std::size_t addrs = 0x5fc7410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::*)(::System::Action*)>(
     &::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::OnCompleted)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5fc7190;
+  constexpr static std::size_t addrs = 0x5fc7418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::*)(::System::Action*)>(
     &::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::UnsafeOnCompleted)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5fc74b0;
+  constexpr static std::size_t addrs = 0x5fc7738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action*, bool)>(&::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::QueueContinuation)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x5fc71ec;
+  constexpr static std::size_t addrs = 0x5fc7474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>(),
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*)>(&::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::RunAction)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5fc750c;
+  constexpr static std::size_t addrs = 0x5fc7794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::*)()>(
     &::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::GetResult)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fc757c;
+  constexpr static std::size_t addrs = 0x5fc7804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter (::System::Runtime::CompilerServices::YieldAwaitable::*)()>(
     &::System::Runtime::CompilerServices::YieldAwaitable::GetAwaiter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc7180;
+  constexpr static std::size_t addrs = 0x5fc7408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::CompilerServices::YieldAwaitable>(), { "GetAwaiter", {}, {} })));

@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::System::Action_1<char16_t>*)>(&::UnityEngine::InputSystem::Keyboard::add_onTextInput)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x69c18f8;
+  constexpr static std::size_t addrs = 0x69c29d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::System::Action_1<char16_t>*)>(&::UnityEngine::InputSystem::Keyboard::remove_onTextInput)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69c19e8;
+  constexpr static std::size_t addrs = 0x69c2ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::System::Action_1<::UnityEngine::InputSystem::LowLevel::IMECompositionString>*)>(
     &::UnityEngine::InputSystem::Keyboard::add_onIMECompositionChange)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x69c1a44;
+  constexpr static std::size_t addrs = 0x69c2b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::System::Action_1<::UnityEngine::InputSystem::LowLevel::IMECompositionString>*)>(
     &::UnityEngine::InputSystem::Keyboard::remove_onIMECompositionChange)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69c1b38;
+  constexpr static std::size_t addrs = 0x69c2c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(bool)>(&::UnityEngine::InputSystem::Keyboard::SetIMEEnabled)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x69c1b94;
+  constexpr static std::size_t addrs = 0x69c2c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::Vector2)>(&::UnityEngine::InputSystem::Keyboard::SetIMECursorPosition)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x69c1c14;
+  constexpr static std::size_t addrs = 0x69c2cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Keyboard::*)()>(&::UnityEngine::InputSystem::Keyboard::get_keyboardLayout)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x69c1cc4;
+  constexpr static std::size_t addrs = 0x69c2da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_keyboardLayout", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::StringW)>(&::UnityEngine::InputSystem::Keyboard::set_keyboardLayout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1d00;
+  constexpr static std::size_t addrs = 0x69c2de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AnyKeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_anyKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1d08;
+  constexpr static std::size_t addrs = 0x69c2de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_anyKey", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::InputSystem::Controls::AnyKeyControl*)>(
     &::UnityEngine::InputSystem::Keyboard::set_anyKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1d10;
+  constexpr static std::size_t addrs = 0x69c2df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_spaceKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1d18;
+  constexpr static std::size_t addrs = 0x69c2df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_spaceKey", {}, {} })));
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_enterKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1dec;
+  constexpr static std::size_t addrs = 0x69c2ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_enterKey", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_tabKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1df4;
+  constexpr static std::size_t addrs = 0x69c2ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_tabKey", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_backquoteKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1dfc;
+  constexpr static std::size_t addrs = 0x69c2edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_backquoteKey", {}, {} })));
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_quoteKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e04;
+  constexpr static std::size_t addrs = 0x69c2ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_quoteKey", {}, {} })));
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_semicolonKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e0c;
+  constexpr static std::size_t addrs = 0x69c2eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_semicolonKey", {}, {} })));
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_commaKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e14;
+  constexpr static std::size_t addrs = 0x69c2ef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_commaKey", {}, {} })));
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_periodKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e1c;
+  constexpr static std::size_t addrs = 0x69c2efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_periodKey", {}, {} })));
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_slashKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e24;
+  constexpr static std::size_t addrs = 0x69c2f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_slashKey", {}, {} })));
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_backslashKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e2c;
+  constexpr static std::size_t addrs = 0x69c2f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_backslashKey", {}, {} })));
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftBracketKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e34;
+  constexpr static std::size_t addrs = 0x69c2f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_leftBracketKey", {}, {} })));
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightBracketKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e3c;
+  constexpr static std::size_t addrs = 0x69c2f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_rightBracketKey", {}, {} })));
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_minusKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e44;
+  constexpr static std::size_t addrs = 0x69c2f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_minusKey", {}, {} })));
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_equalsKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e4c;
+  constexpr static std::size_t addrs = 0x69c2f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_equalsKey", {}, {} })));
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_aKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e54;
+  constexpr static std::size_t addrs = 0x69c2f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_aKey", {}, {} })));
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_bKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e5c;
+  constexpr static std::size_t addrs = 0x69c2f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_bKey", {}, {} })));
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_cKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e64;
+  constexpr static std::size_t addrs = 0x69c2f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_cKey", {}, {} })));
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_dKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e6c;
+  constexpr static std::size_t addrs = 0x69c2f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_dKey", {}, {} })));
@@ -390,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_eKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e74;
+  constexpr static std::size_t addrs = 0x69c2f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_eKey", {}, {} })));
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_fKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e7c;
+  constexpr static std::size_t addrs = 0x69c2f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_fKey", {}, {} })));
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_gKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e84;
+  constexpr static std::size_t addrs = 0x69c2f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_gKey", {}, {} })));
@@ -429,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_hKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e8c;
+  constexpr static std::size_t addrs = 0x69c2f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_hKey", {}, {} })));
@@ -442,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_iKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e94;
+  constexpr static std::size_t addrs = 0x69c2f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_iKey", {}, {} })));
@@ -455,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_jKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1e9c;
+  constexpr static std::size_t addrs = 0x69c2f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_jKey", {}, {} })));
@@ -468,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_kKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1ea4;
+  constexpr static std::size_t addrs = 0x69c2f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_kKey", {}, {} })));
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_lKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1eac;
+  constexpr static std::size_t addrs = 0x69c2f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_lKey", {}, {} })));
@@ -494,7 +494,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_mKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1eb4;
+  constexpr static std::size_t addrs = 0x69c2f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_mKey", {}, {} })));
@@ -507,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_nKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1ebc;
+  constexpr static std::size_t addrs = 0x69c2f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_nKey", {}, {} })));
@@ -520,7 +520,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_oKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1ec4;
+  constexpr static std::size_t addrs = 0x69c2fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_oKey", {}, {} })));
@@ -533,7 +533,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_pKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1ecc;
+  constexpr static std::size_t addrs = 0x69c2fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_pKey", {}, {} })));
@@ -546,7 +546,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_qKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1ed4;
+  constexpr static std::size_t addrs = 0x69c2fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_qKey", {}, {} })));
@@ -559,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1edc;
+  constexpr static std::size_t addrs = 0x69c2fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_rKey", {}, {} })));
@@ -572,7 +572,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_sKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1ee4;
+  constexpr static std::size_t addrs = 0x69c2fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_sKey", {}, {} })));
@@ -585,7 +585,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_tKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1eec;
+  constexpr static std::size_t addrs = 0x69c2fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_tKey", {}, {} })));
@@ -598,7 +598,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_uKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1ef4;
+  constexpr static std::size_t addrs = 0x69c2fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_uKey", {}, {} })));
@@ -611,7 +611,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_vKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1efc;
+  constexpr static std::size_t addrs = 0x69c2fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_vKey", {}, {} })));
@@ -624,7 +624,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_wKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f04;
+  constexpr static std::size_t addrs = 0x69c2fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_wKey", {}, {} })));
@@ -637,7 +637,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_xKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f0c;
+  constexpr static std::size_t addrs = 0x69c2fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_xKey", {}, {} })));
@@ -650,7 +650,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_yKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f14;
+  constexpr static std::size_t addrs = 0x69c2ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_yKey", {}, {} })));
@@ -663,7 +663,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_zKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f1c;
+  constexpr static std::size_t addrs = 0x69c2ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_zKey", {}, {} })));
@@ -676,7 +676,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit1Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f24;
+  constexpr static std::size_t addrs = 0x69c3004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_digit1Key", {}, {} })));
@@ -689,7 +689,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit2Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f2c;
+  constexpr static std::size_t addrs = 0x69c300c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_digit2Key", {}, {} })));
@@ -702,7 +702,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit3Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f34;
+  constexpr static std::size_t addrs = 0x69c3014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_digit3Key", {}, {} })));
@@ -715,7 +715,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit4Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f3c;
+  constexpr static std::size_t addrs = 0x69c301c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_digit4Key", {}, {} })));
@@ -728,7 +728,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit5Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f44;
+  constexpr static std::size_t addrs = 0x69c3024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_digit5Key", {}, {} })));
@@ -741,7 +741,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit6Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f4c;
+  constexpr static std::size_t addrs = 0x69c302c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_digit6Key", {}, {} })));
@@ -754,7 +754,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit7Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f54;
+  constexpr static std::size_t addrs = 0x69c3034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_digit7Key", {}, {} })));
@@ -767,7 +767,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit8Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f5c;
+  constexpr static std::size_t addrs = 0x69c303c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_digit8Key", {}, {} })));
@@ -780,7 +780,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit9Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f64;
+  constexpr static std::size_t addrs = 0x69c3044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_digit9Key", {}, {} })));
@@ -793,7 +793,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit0Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f6c;
+  constexpr static std::size_t addrs = 0x69c304c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_digit0Key", {}, {} })));
@@ -806,7 +806,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftShiftKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f74;
+  constexpr static std::size_t addrs = 0x69c3054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_leftShiftKey", {}, {} })));
@@ -819,7 +819,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightShiftKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f7c;
+  constexpr static std::size_t addrs = 0x69c305c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_rightShiftKey", {}, {} })));
@@ -832,7 +832,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftAltKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f84;
+  constexpr static std::size_t addrs = 0x69c3064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_leftAltKey", {}, {} })));
@@ -845,7 +845,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightAltKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f8c;
+  constexpr static std::size_t addrs = 0x69c306c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_rightAltKey", {}, {} })));
@@ -858,7 +858,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftCtrlKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f94;
+  constexpr static std::size_t addrs = 0x69c3074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_leftCtrlKey", {}, {} })));
@@ -871,7 +871,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightCtrlKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1f9c;
+  constexpr static std::size_t addrs = 0x69c307c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_rightCtrlKey", {}, {} })));
@@ -884,7 +884,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftMetaKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1fa4;
+  constexpr static std::size_t addrs = 0x69c3084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_leftMetaKey", {}, {} })));
@@ -897,7 +897,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightMetaKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1fac;
+  constexpr static std::size_t addrs = 0x69c308c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_rightMetaKey", {}, {} })));
@@ -910,7 +910,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftWindowsKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1fb4;
+  constexpr static std::size_t addrs = 0x69c3094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_leftWindowsKey", {}, {} })));
@@ -923,7 +923,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightWindowsKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1fbc;
+  constexpr static std::size_t addrs = 0x69c309c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_rightWindowsKey", {}, {} })));
@@ -936,7 +936,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftAppleKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1fc4;
+  constexpr static std::size_t addrs = 0x69c30a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_leftAppleKey", {}, {} })));
@@ -949,7 +949,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightAppleKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1fcc;
+  constexpr static std::size_t addrs = 0x69c30ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_rightAppleKey", {}, {} })));
@@ -962,7 +962,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftCommandKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1fd4;
+  constexpr static std::size_t addrs = 0x69c30b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_leftCommandKey", {}, {} })));
@@ -975,7 +975,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightCommandKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1fdc;
+  constexpr static std::size_t addrs = 0x69c30bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_rightCommandKey", {}, {} })));
@@ -988,7 +988,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_contextMenuKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1fe4;
+  constexpr static std::size_t addrs = 0x69c30c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_contextMenuKey", {}, {} })));
@@ -1001,7 +1001,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_escapeKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1fec;
+  constexpr static std::size_t addrs = 0x69c30cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_escapeKey", {}, {} })));
@@ -1014,7 +1014,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftArrowKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1ff4;
+  constexpr static std::size_t addrs = 0x69c30d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_leftArrowKey", {}, {} })));
@@ -1027,7 +1027,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightArrowKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c1ffc;
+  constexpr static std::size_t addrs = 0x69c30dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_rightArrowKey", {}, {} })));
@@ -1040,7 +1040,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_upArrowKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2004;
+  constexpr static std::size_t addrs = 0x69c30e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_upArrowKey", {}, {} })));
@@ -1053,7 +1053,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_downArrowKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c200c;
+  constexpr static std::size_t addrs = 0x69c30ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_downArrowKey", {}, {} })));
@@ -1066,7 +1066,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_backspaceKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2014;
+  constexpr static std::size_t addrs = 0x69c30f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_backspaceKey", {}, {} })));
@@ -1079,7 +1079,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_pageDownKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c201c;
+  constexpr static std::size_t addrs = 0x69c30fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_pageDownKey", {}, {} })));
@@ -1092,7 +1092,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_pageUpKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2024;
+  constexpr static std::size_t addrs = 0x69c3104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_pageUpKey", {}, {} })));
@@ -1105,7 +1105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_homeKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c202c;
+  constexpr static std::size_t addrs = 0x69c310c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_homeKey", {}, {} })));
@@ -1118,7 +1118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_endKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2034;
+  constexpr static std::size_t addrs = 0x69c3114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_endKey", {}, {} })));
@@ -1131,7 +1131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_insertKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c203c;
+  constexpr static std::size_t addrs = 0x69c311c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_insertKey", {}, {} })));
@@ -1144,7 +1144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_deleteKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2044;
+  constexpr static std::size_t addrs = 0x69c3124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_deleteKey", {}, {} })));
@@ -1157,7 +1157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_capsLockKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c204c;
+  constexpr static std::size_t addrs = 0x69c312c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_capsLockKey", {}, {} })));
@@ -1170,7 +1170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_scrollLockKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2054;
+  constexpr static std::size_t addrs = 0x69c3134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_scrollLockKey", {}, {} })));
@@ -1183,7 +1183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numLockKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c205c;
+  constexpr static std::size_t addrs = 0x69c313c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numLockKey", {}, {} })));
@@ -1196,7 +1196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_printScreenKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2064;
+  constexpr static std::size_t addrs = 0x69c3144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_printScreenKey", {}, {} })));
@@ -1209,7 +1209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_pauseKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c206c;
+  constexpr static std::size_t addrs = 0x69c314c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_pauseKey", {}, {} })));
@@ -1222,7 +1222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpadEnterKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2074;
+  constexpr static std::size_t addrs = 0x69c3154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpadEnterKey", {}, {} })));
@@ -1235,7 +1235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpadDivideKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c207c;
+  constexpr static std::size_t addrs = 0x69c315c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpadDivideKey", {}, {} })));
@@ -1248,7 +1248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpadMultiplyKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2084;
+  constexpr static std::size_t addrs = 0x69c3164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpadMultiplyKey", {}, {} })));
@@ -1261,7 +1261,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpadMinusKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c208c;
+  constexpr static std::size_t addrs = 0x69c316c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpadMinusKey", {}, {} })));
@@ -1274,7 +1274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpadPlusKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2094;
+  constexpr static std::size_t addrs = 0x69c3174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpadPlusKey", {}, {} })));
@@ -1287,7 +1287,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpadPeriodKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c209c;
+  constexpr static std::size_t addrs = 0x69c317c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpadPeriodKey", {}, {} })));
@@ -1300,7 +1300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpadEqualsKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c20a4;
+  constexpr static std::size_t addrs = 0x69c3184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpadEqualsKey", {}, {} })));
@@ -1313,7 +1313,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad0Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c20ac;
+  constexpr static std::size_t addrs = 0x69c318c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpad0Key", {}, {} })));
@@ -1326,7 +1326,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad1Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c20b4;
+  constexpr static std::size_t addrs = 0x69c3194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpad1Key", {}, {} })));
@@ -1339,7 +1339,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad2Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c20bc;
+  constexpr static std::size_t addrs = 0x69c319c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpad2Key", {}, {} })));
@@ -1352,7 +1352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad3Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c20c4;
+  constexpr static std::size_t addrs = 0x69c31a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpad3Key", {}, {} })));
@@ -1365,7 +1365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad4Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c20cc;
+  constexpr static std::size_t addrs = 0x69c31ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpad4Key", {}, {} })));
@@ -1378,7 +1378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad5Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c20d4;
+  constexpr static std::size_t addrs = 0x69c31b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpad5Key", {}, {} })));
@@ -1391,7 +1391,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad6Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c20dc;
+  constexpr static std::size_t addrs = 0x69c31bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpad6Key", {}, {} })));
@@ -1404,7 +1404,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad7Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c20e4;
+  constexpr static std::size_t addrs = 0x69c31c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpad7Key", {}, {} })));
@@ -1417,7 +1417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad8Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c20ec;
+  constexpr static std::size_t addrs = 0x69c31cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpad8Key", {}, {} })));
@@ -1430,7 +1430,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad9Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c20f4;
+  constexpr static std::size_t addrs = 0x69c31d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_numpad9Key", {}, {} })));
@@ -1443,7 +1443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f1Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c20fc;
+  constexpr static std::size_t addrs = 0x69c31dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f1Key", {}, {} })));
@@ -1456,7 +1456,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f2Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2104;
+  constexpr static std::size_t addrs = 0x69c31e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f2Key", {}, {} })));
@@ -1469,7 +1469,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f3Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c210c;
+  constexpr static std::size_t addrs = 0x69c31ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f3Key", {}, {} })));
@@ -1482,7 +1482,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f4Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2114;
+  constexpr static std::size_t addrs = 0x69c31f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f4Key", {}, {} })));
@@ -1495,7 +1495,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f5Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c211c;
+  constexpr static std::size_t addrs = 0x69c31fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f5Key", {}, {} })));
@@ -1508,7 +1508,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f6Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2124;
+  constexpr static std::size_t addrs = 0x69c3204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f6Key", {}, {} })));
@@ -1521,7 +1521,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f7Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c212c;
+  constexpr static std::size_t addrs = 0x69c320c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f7Key", {}, {} })));
@@ -1534,7 +1534,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f8Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2134;
+  constexpr static std::size_t addrs = 0x69c3214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f8Key", {}, {} })));
@@ -1547,7 +1547,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f9Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c213c;
+  constexpr static std::size_t addrs = 0x69c321c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f9Key", {}, {} })));
@@ -1560,7 +1560,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f10Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2144;
+  constexpr static std::size_t addrs = 0x69c3224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f10Key", {}, {} })));
@@ -1573,7 +1573,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f11Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c214c;
+  constexpr static std::size_t addrs = 0x69c322c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f11Key", {}, {} })));
@@ -1586,7 +1586,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f12Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2154;
+  constexpr static std::size_t addrs = 0x69c3234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f12Key", {}, {} })));
@@ -1599,7 +1599,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_oem1Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c215c;
+  constexpr static std::size_t addrs = 0x69c323c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_oem1Key", {}, {} })));
@@ -1612,7 +1612,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_oem2Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2164;
+  constexpr static std::size_t addrs = 0x69c3244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_oem2Key", {}, {} })));
@@ -1625,7 +1625,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_oem3Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c216c;
+  constexpr static std::size_t addrs = 0x69c324c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_oem3Key", {}, {} })));
@@ -1638,7 +1638,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_oem4Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2174;
+  constexpr static std::size_t addrs = 0x69c3254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_oem4Key", {}, {} })));
@@ -1651,7 +1651,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_oem5Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c217c;
+  constexpr static std::size_t addrs = 0x69c325c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_oem5Key", {}, {} })));
@@ -1664,7 +1664,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f13Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2184;
+  constexpr static std::size_t addrs = 0x69c3264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f13Key", {}, {} })));
@@ -1677,7 +1677,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f14Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c218c;
+  constexpr static std::size_t addrs = 0x69c326c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f14Key", {}, {} })));
@@ -1690,7 +1690,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f15Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2194;
+  constexpr static std::size_t addrs = 0x69c3274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f15Key", {}, {} })));
@@ -1703,7 +1703,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f16Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c219c;
+  constexpr static std::size_t addrs = 0x69c327c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f16Key", {}, {} })));
@@ -1716,7 +1716,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f17Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c21a4;
+  constexpr static std::size_t addrs = 0x69c3284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f17Key", {}, {} })));
@@ -1729,7 +1729,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f18Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c21ac;
+  constexpr static std::size_t addrs = 0x69c328c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f18Key", {}, {} })));
@@ -1742,7 +1742,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f19Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c21b4;
+  constexpr static std::size_t addrs = 0x69c3294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f19Key", {}, {} })));
@@ -1755,7 +1755,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f20Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c21bc;
+  constexpr static std::size_t addrs = 0x69c329c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f20Key", {}, {} })));
@@ -1768,7 +1768,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f21Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c21c4;
+  constexpr static std::size_t addrs = 0x69c32a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f21Key", {}, {} })));
@@ -1781,7 +1781,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f22Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c21cc;
+  constexpr static std::size_t addrs = 0x69c32ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f22Key", {}, {} })));
@@ -1794,7 +1794,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f23Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c21d4;
+  constexpr static std::size_t addrs = 0x69c32b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f23Key", {}, {} })));
@@ -1807,7 +1807,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f24Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c21dc;
+  constexpr static std::size_t addrs = 0x69c32bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_f24Key", {}, {} })));
@@ -1820,7 +1820,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_mediaPlayPause)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c21e4;
+  constexpr static std::size_t addrs = 0x69c32c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_mediaPlayPause", {}, {} })));
@@ -1833,7 +1833,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_mediaRewind)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c21ec;
+  constexpr static std::size_t addrs = 0x69c32cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_mediaRewind", {}, {} })));
@@ -1846,7 +1846,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_mediaForward)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c21f4;
+  constexpr static std::size_t addrs = 0x69c32d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_mediaForward", {}, {} })));
@@ -1859,7 +1859,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_shiftKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c21fc;
+  constexpr static std::size_t addrs = 0x69c32dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_shiftKey", {}, {} })));
@@ -1872,7 +1872,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Keyboard::set_shiftKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2204;
+  constexpr static std::size_t addrs = 0x69c32e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(),
@@ -1886,7 +1886,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_ctrlKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c220c;
+  constexpr static std::size_t addrs = 0x69c32ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_ctrlKey", {}, {} })));
@@ -1899,7 +1899,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Keyboard::set_ctrlKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2214;
+  constexpr static std::size_t addrs = 0x69c32f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1914,7 +1914,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_altKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c221c;
+  constexpr static std::size_t addrs = 0x69c32fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_altKey", {}, {} })));
@@ -1927,7 +1927,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Keyboard::set_altKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2224;
+  constexpr static std::size_t addrs = 0x69c3304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1942,7 +1942,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_imeSelected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c222c;
+  constexpr static std::size_t addrs = 0x69c330c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_imeSelected", {}, {} })));
@@ -1955,7 +1955,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Keyboard::set_imeSelected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c2234;
+  constexpr static std::size_t addrs = 0x69c3314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(),
@@ -1969,7 +1969,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::InputSystem::Key)>(
     &::UnityEngine::InputSystem::Keyboard::get_Item)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x69c1d20;
+  constexpr static std::size_t addrs = 0x69c2e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1983,7 +1983,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::KeyControl*> (
     ::UnityEngine::InputSystem::Keyboard::*)()>(&::UnityEngine::InputSystem::Keyboard::get_allKeys)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x69c223c;
+  constexpr static std::size_t addrs = 0x69c331c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_allKeys", {}, {} })));
@@ -1995,7 +1995,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Keyboard* (*)()>(&::UnityEngine::InputSystem::Keyboard::get_current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x69c2294;
+  constexpr static std::size_t addrs = 0x69c3374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_current", {}, {} })));
@@ -2007,7 +2007,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::Keyboard*)>(&::UnityEngine::InputSystem::Keyboard::set_current)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x69c22e0;
+  constexpr static std::size_t addrs = 0x69c33c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2020,7 +2020,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)()>(&::UnityEngine::InputSystem::Keyboard::MakeCurrent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x69c2330;
+  constexpr static std::size_t addrs = 0x69c3410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2033,7 +2033,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)()>(&::UnityEngine::InputSystem::Keyboard::OnRemoved)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x69c2380;
+  constexpr static std::size_t addrs = 0x69c3460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2046,7 +2046,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)()>(&::UnityEngine::InputSystem::Keyboard::FinishSetup)> {
   constexpr static std::size_t size = 0x1610;
-  constexpr static std::size_t addrs = 0x69c2410;
+  constexpr static std::size_t addrs = 0x69c34f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2059,7 +2059,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)()>(&::UnityEngine::InputSystem::Keyboard::RefreshConfiguration)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x69c3a20;
+  constexpr static std::size_t addrs = 0x69c4b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2072,7 +2072,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(char16_t)>(&::UnityEngine::InputSystem::Keyboard::OnTextInput)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x69c3ae8;
+  constexpr static std::size_t addrs = 0x69c4bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2086,7 +2086,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)(::StringW)>(
     &::UnityEngine::InputSystem::Keyboard::FindKeyOnCurrentKeyboardLayout)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x69c3b8c;
+  constexpr static std::size_t addrs = 0x69c4c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2100,7 +2100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::InputSystem::LowLevel::IMECompositionString)>(
     &::UnityEngine::InputSystem::Keyboard::OnIMECompositionChanged)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x69c3c6c;
+  constexpr static std::size_t addrs = 0x69c4d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2115,7 +2115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(
     &::UnityEngine::InputSystem::Keyboard::UnityEngine_InputSystem_LowLevel_IEventPreProcessor_PreProcessEvent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x69c3d60;
+  constexpr static std::size_t addrs = 0x69c4e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2131,7 +2131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::InputSystem::Controls::KeyControl*> (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_keys)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c3db0;
+  constexpr static std::size_t addrs = 0x69c4e90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { "get_keys", {}, {} })));
@@ -2144,7 +2144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::ArrayW<::UnityEngine::InputSystem::Controls::KeyControl*>)>(
     &::UnityEngine::InputSystem::Keyboard::set_keys)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69c3db8;
+  constexpr static std::size_t addrs = 0x69c4e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(),
@@ -2157,7 +2157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)()>(&::UnityEngine::InputSystem::Keyboard::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69c3dc0;
+  constexpr static std::size_t addrs = 0x69c4ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Keyboard*>(), { ".ctor", {}, {} })));

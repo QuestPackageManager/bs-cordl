@@ -631,49 +631,49 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c* New_ctor();
 
-  /// @brief Method <CreateAdditionalWireframeShaderViews>b__3_4, addr 0x6cc1194, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <CreateAdditionalWireframeShaderViews>b__3_4, addr 0x6cc2274, size 0x7c, virtual false, abstract: false, final false
   inline void _CreateAdditionalWireframeShaderViews_b__3_4(::UnityEngine::Rendering::DebugUI_Field_1<int32_t>* _, int32_t __param_1);
 
-  /// @brief Method <CreateMapOverlaySize>b__2_2, addr 0x6cc1184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <CreateMapOverlaySize>b__2_2, addr 0x6cc2264, size 0x8, virtual false, abstract: false, final false
   inline int32_t _CreateMapOverlaySize_b__2_2();
 
-  /// @brief Method <CreateMapOverlaySize>b__2_3, addr 0x6cc118c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <CreateMapOverlaySize>b__2_3, addr 0x6cc226c, size 0x8, virtual false, abstract: false, final false
   inline int32_t _CreateMapOverlaySize_b__2_3();
 
-  /// @brief Method <CreateMaxOverdrawCount>b__6_3, addr 0x6cc1210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <CreateMaxOverdrawCount>b__6_3, addr 0x6cc22f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t _CreateMaxOverdrawCount_b__6_3();
 
-  /// @brief Method <CreateMaxOverdrawCount>b__6_4, addr 0x6cc1218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <CreateMaxOverdrawCount>b__6_4, addr 0x6cc22f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t _CreateMaxOverdrawCount_b__6_4();
 
-  /// @brief Method <CreateMipMapDebugCooldownSlider>b__11_3, addr 0x6cc131c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugCooldownSlider>b__11_3, addr 0x6cc23fc, size 0x8, virtual false, abstract: false, final false
   inline float_t _CreateMipMapDebugCooldownSlider_b__11_3();
 
-  /// @brief Method <CreateMipMapDebugCooldownSlider>b__11_4, addr 0x6cc1324, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugCooldownSlider>b__11_4, addr 0x6cc2404, size 0xc, virtual false, abstract: false, final false
   inline float_t _CreateMipMapDebugCooldownSlider_b__11_4();
 
-  /// @brief Method <CreateMipMapDebugSettings>b__9_10, addr 0x6cc1314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSettings>b__9_10, addr 0x6cc23f4, size 0x8, virtual false, abstract: false, final false
   inline bool _CreateMipMapDebugSettings_b__9_10();
 
-  /// @brief Method <CreateMipMapDebugSettings>b__9_4, addr 0x6cc1304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSettings>b__9_4, addr 0x6cc23e4, size 0x8, virtual false, abstract: false, final false
   inline float_t _CreateMipMapDebugSettings_b__9_4();
 
-  /// @brief Method <CreateMipMapDebugSettings>b__9_5, addr 0x6cc130c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSettings>b__9_5, addr 0x6cc23ec, size 0x8, virtual false, abstract: false, final false
   inline float_t _CreateMipMapDebugSettings_b__9_5();
 
-  /// @brief Method <CreateMipMapDebugWidget>b__7_0, addr 0x6cc1220, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugWidget>b__7_0, addr 0x6cc2300, size 0x6c, virtual false, abstract: false, final false
   inline bool _CreateMipMapDebugWidget_b__7_0();
 
-  /// @brief Method <CreateMipMapDebugWidget>b__7_1, addr 0x6cc128c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugWidget>b__7_1, addr 0x6cc236c, size 0x78, virtual false, abstract: false, final false
   inline void _CreateMipMapDebugWidget_b__7_1(bool value);
 
-  /// @brief Method <CreatePixelValidationMode>b__17_4, addr 0x6cc13ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <CreatePixelValidationMode>b__17_4, addr 0x6cc248c, size 0x7c, virtual false, abstract: false, final false
   inline void _CreatePixelValidationMode_b__17_4(::UnityEngine::Rendering::DebugUI_Field_1<int32_t>* _, int32_t __param_1);
 
-  /// @brief Method <CreateTaaDebugMode>b__16_4, addr 0x6cc1330, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <CreateTaaDebugMode>b__16_4, addr 0x6cc2410, size 0x7c, virtual false, abstract: false, final false
   inline void _CreateTaaDebugMode_b__16_4(::UnityEngine::Rendering::DebugUI_Field_1<int32_t>* _, int32_t __param_1);
 
-  /// @brief Method .ctor, addr 0x6cc1180, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc2260, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c* getStaticF___9();
@@ -772,16 +772,16 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <CreateMapOverlays>b__0, addr 0x6cc1428, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMapOverlays>b__0, addr 0x6cc2508, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateMapOverlays_b__0();
 
-  /// @brief Method <CreateMapOverlays>b__1, addr 0x6cc1480, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMapOverlays>b__1, addr 0x6cc2560, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMapOverlays_b__1(int32_t value);
 
-  /// @brief Method <CreateMapOverlays>b__2, addr 0x6cc14e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMapOverlays>b__2, addr 0x6cc25c4, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateMapOverlays_b__2();
 
-  /// @brief Method <CreateMapOverlays>b__3, addr 0x6cc153c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMapOverlays>b__3, addr 0x6cc261c, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMapOverlays_b__3(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -790,7 +790,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cbc8b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbd990, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -834,16 +834,16 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <CreateMipMapDebugSlotSelector>b__0, addr 0x6cc15a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSlotSelector>b__0, addr 0x6cc2680, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateMipMapDebugSlotSelector_b__0();
 
-  /// @brief Method <CreateMipMapDebugSlotSelector>b__1, addr 0x6cc15f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSlotSelector>b__1, addr 0x6cc26d8, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMipMapDebugSlotSelector_b__1(int32_t value);
 
-  /// @brief Method <CreateMipMapDebugSlotSelector>b__2, addr 0x6cc165c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSlotSelector>b__2, addr 0x6cc273c, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateMipMapDebugSlotSelector_b__2();
 
-  /// @brief Method <CreateMipMapDebugSlotSelector>b__3, addr 0x6cc16b4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSlotSelector>b__3, addr 0x6cc2794, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMipMapDebugSlotSelector_b__3(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -852,7 +852,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cbf9f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc0ad0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -896,13 +896,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <CreateMipMapDebugCooldownSlider>b__0, addr 0x6cc1718, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugCooldownSlider>b__0, addr 0x6cc27f8, size 0x60, virtual false, abstract: false, final false
   inline bool _CreateMipMapDebugCooldownSlider_b__0();
 
-  /// @brief Method <CreateMipMapDebugCooldownSlider>b__1, addr 0x6cc1778, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugCooldownSlider>b__1, addr 0x6cc2858, size 0x58, virtual false, abstract: false, final false
   inline float_t _CreateMipMapDebugCooldownSlider_b__1();
 
-  /// @brief Method <CreateMipMapDebugCooldownSlider>b__2, addr 0x6cc17d0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugCooldownSlider>b__2, addr 0x6cc28b0, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMipMapDebugCooldownSlider_b__2(float_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -911,7 +911,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cbf9f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc0ad4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -955,13 +955,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <CreateMipMapShowStatusCodeToggle>b__0, addr 0x6cc1834, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapShowStatusCodeToggle>b__0, addr 0x6cc2914, size 0x60, virtual false, abstract: false, final false
   inline bool _CreateMipMapShowStatusCodeToggle_b__0();
 
-  /// @brief Method <CreateMipMapShowStatusCodeToggle>b__1, addr 0x6cc1894, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapShowStatusCodeToggle>b__1, addr 0x6cc2974, size 0x58, virtual false, abstract: false, final false
   inline bool _CreateMipMapShowStatusCodeToggle_b__1();
 
-  /// @brief Method <CreateMipMapShowStatusCodeToggle>b__2, addr 0x6cc18ec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapShowStatusCodeToggle>b__2, addr 0x6cc29cc, size 0x68, virtual false, abstract: false, final false
   inline void _CreateMipMapShowStatusCodeToggle_b__2(bool value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -970,7 +970,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cbf9f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc0ad8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1014,16 +1014,16 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <CreatePostProcessing>b__0, addr 0x6cc1954, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreatePostProcessing>b__0, addr 0x6cc2a34, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreatePostProcessing_b__0();
 
-  /// @brief Method <CreatePostProcessing>b__1, addr 0x6cc19ac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreatePostProcessing>b__1, addr 0x6cc2a8c, size 0x64, virtual false, abstract: false, final false
   inline void _CreatePostProcessing_b__1(int32_t value);
 
-  /// @brief Method <CreatePostProcessing>b__2, addr 0x6cc1a10, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreatePostProcessing>b__2, addr 0x6cc2af0, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreatePostProcessing_b__2();
 
-  /// @brief Method <CreatePostProcessing>b__3, addr 0x6cc1a68, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreatePostProcessing>b__3, addr 0x6cc2b48, size 0x64, virtual false, abstract: false, final false
   inline void _CreatePostProcessing_b__3(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1032,7 +1032,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cbfd30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc0e10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1076,10 +1076,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass14_0* New_ctor();
 
-  /// @brief Method <CreateMSAA>b__0, addr 0x6cc1acc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMSAA>b__0, addr 0x6cc2bac, size 0x58, virtual false, abstract: false, final false
   inline bool _CreateMSAA_b__0();
 
-  /// @brief Method <CreateMSAA>b__1, addr 0x6cc1b24, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <CreateMSAA>b__1, addr 0x6cc2c04, size 0x68, virtual false, abstract: false, final false
   inline void _CreateMSAA_b__1(bool value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1088,7 +1088,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cbff60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc1040, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1132,10 +1132,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass15_0* New_ctor();
 
-  /// @brief Method <CreateHDR>b__0, addr 0x6cc1b8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDR>b__0, addr 0x6cc2c6c, size 0x58, virtual false, abstract: false, final false
   inline bool _CreateHDR_b__0();
 
-  /// @brief Method <CreateHDR>b__1, addr 0x6cc1be4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDR>b__1, addr 0x6cc2cc4, size 0x68, virtual false, abstract: false, final false
   inline void _CreateHDR_b__1(bool value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1144,7 +1144,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cc0190, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc1270, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1188,16 +1188,16 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method <CreateTaaDebugMode>b__0, addr 0x6cc1c4c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateTaaDebugMode>b__0, addr 0x6cc2d2c, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateTaaDebugMode_b__0();
 
-  /// @brief Method <CreateTaaDebugMode>b__1, addr 0x6cc1ca4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateTaaDebugMode>b__1, addr 0x6cc2d84, size 0x64, virtual false, abstract: false, final false
   inline void _CreateTaaDebugMode_b__1(int32_t value);
 
-  /// @brief Method <CreateTaaDebugMode>b__2, addr 0x6cc1d08, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateTaaDebugMode>b__2, addr 0x6cc2de8, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateTaaDebugMode_b__2();
 
-  /// @brief Method <CreateTaaDebugMode>b__3, addr 0x6cc1d60, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateTaaDebugMode>b__3, addr 0x6cc2e40, size 0x64, virtual false, abstract: false, final false
   inline void _CreateTaaDebugMode_b__3(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1206,7 +1206,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cc0578, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc1658, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1250,16 +1250,16 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass17_0* New_ctor();
 
-  /// @brief Method <CreatePixelValidationMode>b__0, addr 0x6cc1dc4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreatePixelValidationMode>b__0, addr 0x6cc2ea4, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreatePixelValidationMode_b__0();
 
-  /// @brief Method <CreatePixelValidationMode>b__1, addr 0x6cc1e1c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreatePixelValidationMode>b__1, addr 0x6cc2efc, size 0x64, virtual false, abstract: false, final false
   inline void _CreatePixelValidationMode_b__1(int32_t value);
 
-  /// @brief Method <CreatePixelValidationMode>b__2, addr 0x6cc1e80, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreatePixelValidationMode>b__2, addr 0x6cc2f60, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreatePixelValidationMode_b__2();
 
-  /// @brief Method <CreatePixelValidationMode>b__3, addr 0x6cc1ed8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreatePixelValidationMode>b__3, addr 0x6cc2fb8, size 0x64, virtual false, abstract: false, final false
   inline void _CreatePixelValidationMode_b__3(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1268,7 +1268,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cc0960, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc1a40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1312,16 +1312,16 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <CreatePixelValidationChannels>b__0, addr 0x6cc1f3c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreatePixelValidationChannels>b__0, addr 0x6cc301c, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreatePixelValidationChannels_b__0();
 
-  /// @brief Method <CreatePixelValidationChannels>b__1, addr 0x6cc1f94, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreatePixelValidationChannels>b__1, addr 0x6cc3074, size 0x64, virtual false, abstract: false, final false
   inline void _CreatePixelValidationChannels_b__1(int32_t value);
 
-  /// @brief Method <CreatePixelValidationChannels>b__2, addr 0x6cc1ff8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreatePixelValidationChannels>b__2, addr 0x6cc30d8, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreatePixelValidationChannels_b__2();
 
-  /// @brief Method <CreatePixelValidationChannels>b__3, addr 0x6cc2050, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreatePixelValidationChannels>b__3, addr 0x6cc3130, size 0x64, virtual false, abstract: false, final false
   inline void _CreatePixelValidationChannels_b__3(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1330,7 +1330,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cc0c98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc1d78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1374,10 +1374,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass19_0* New_ctor();
 
-  /// @brief Method <CreatePixelValueRangeMin>b__0, addr 0x6cc20b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreatePixelValueRangeMin>b__0, addr 0x6cc3194, size 0x58, virtual false, abstract: false, final false
   inline float_t _CreatePixelValueRangeMin_b__0();
 
-  /// @brief Method <CreatePixelValueRangeMin>b__1, addr 0x6cc210c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreatePixelValueRangeMin>b__1, addr 0x6cc31ec, size 0x64, virtual false, abstract: false, final false
   inline void _CreatePixelValueRangeMin_b__1(float_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1386,7 +1386,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cc0ee0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc1fc0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1430,19 +1430,19 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <CreateStpDebugViews>b__0, addr 0x6cc2170, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <CreateStpDebugViews>b__0, addr 0x6cc3250, size 0x60, virtual false, abstract: false, final false
   inline bool _CreateStpDebugViews_b__0();
 
-  /// @brief Method <CreateStpDebugViews>b__1, addr 0x6cc21d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateStpDebugViews>b__1, addr 0x6cc32b0, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateStpDebugViews_b__1();
 
-  /// @brief Method <CreateStpDebugViews>b__2, addr 0x6cc2228, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateStpDebugViews>b__2, addr 0x6cc3308, size 0x64, virtual false, abstract: false, final false
   inline void _CreateStpDebugViews_b__2(int32_t value);
 
-  /// @brief Method <CreateStpDebugViews>b__3, addr 0x6cc228c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateStpDebugViews>b__3, addr 0x6cc336c, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateStpDebugViews_b__3();
 
-  /// @brief Method <CreateStpDebugViews>b__4, addr 0x6cc22e4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateStpDebugViews>b__4, addr 0x6cc33c4, size 0x64, virtual false, abstract: false, final false
   inline void _CreateStpDebugViews_b__4(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1451,7 +1451,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cbcd00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbdde0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1495,10 +1495,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass20_0* New_ctor();
 
-  /// @brief Method <CreatePixelValueRangeMax>b__0, addr 0x6cc2348, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreatePixelValueRangeMax>b__0, addr 0x6cc3428, size 0x58, virtual false, abstract: false, final false
   inline float_t _CreatePixelValueRangeMax_b__0();
 
-  /// @brief Method <CreatePixelValueRangeMax>b__1, addr 0x6cc23a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreatePixelValueRangeMax>b__1, addr 0x6cc3480, size 0x64, virtual false, abstract: false, final false
   inline void _CreatePixelValueRangeMax_b__1(float_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1507,7 +1507,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cc1128, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc2208, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1551,10 +1551,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <CreateMapOverlaySize>b__0, addr 0x6cc2404, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMapOverlaySize>b__0, addr 0x6cc34e4, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateMapOverlaySize_b__0();
 
-  /// @brief Method <CreateMapOverlaySize>b__1, addr 0x6cc245c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMapOverlaySize>b__1, addr 0x6cc353c, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMapOverlaySize_b__1(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1563,7 +1563,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cbd0b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbe194, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1607,16 +1607,16 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <CreateAdditionalWireframeShaderViews>b__0, addr 0x6cc24c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateAdditionalWireframeShaderViews>b__0, addr 0x6cc35a0, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateAdditionalWireframeShaderViews_b__0();
 
-  /// @brief Method <CreateAdditionalWireframeShaderViews>b__1, addr 0x6cc2518, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <CreateAdditionalWireframeShaderViews>b__1, addr 0x6cc35f8, size 0x88, virtual false, abstract: false, final false
   inline void _CreateAdditionalWireframeShaderViews_b__1(int32_t value);
 
-  /// @brief Method <CreateAdditionalWireframeShaderViews>b__2, addr 0x6cc25a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateAdditionalWireframeShaderViews>b__2, addr 0x6cc3680, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateAdditionalWireframeShaderViews_b__2();
 
-  /// @brief Method <CreateAdditionalWireframeShaderViews>b__3, addr 0x6cc25f8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <CreateAdditionalWireframeShaderViews>b__3, addr 0x6cc36d8, size 0x88, virtual false, abstract: false, final false
   inline void _CreateAdditionalWireframeShaderViews_b__3(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1625,7 +1625,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cbd49c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbe57c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1669,7 +1669,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <CreateWireframeNotSupportedWarning>b__0, addr 0x6cc2680, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method <CreateWireframeNotSupportedWarning>b__0, addr 0x6cc3760, size 0x98, virtual false, abstract: false, final false
   inline bool _CreateWireframeNotSupportedWarning_b__0();
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1678,7 +1678,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cbd5f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbe6d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1722,16 +1722,16 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <CreateOverdrawMode>b__0, addr 0x6cc2718, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateOverdrawMode>b__0, addr 0x6cc37f8, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateOverdrawMode_b__0();
 
-  /// @brief Method <CreateOverdrawMode>b__1, addr 0x6cc2770, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <CreateOverdrawMode>b__1, addr 0x6cc3850, size 0x80, virtual false, abstract: false, final false
   inline void _CreateOverdrawMode_b__1(int32_t value);
 
-  /// @brief Method <CreateOverdrawMode>b__2, addr 0x6cc27f0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateOverdrawMode>b__2, addr 0x6cc38d0, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateOverdrawMode_b__2();
 
-  /// @brief Method <CreateOverdrawMode>b__3, addr 0x6cc2848, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <CreateOverdrawMode>b__3, addr 0x6cc3928, size 0x80, virtual false, abstract: false, final false
   inline void _CreateOverdrawMode_b__3(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1740,7 +1740,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cbd92c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbea0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1784,13 +1784,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <CreateMaxOverdrawCount>b__0, addr 0x6cc28c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <CreateMaxOverdrawCount>b__0, addr 0x6cc39a8, size 0x60, virtual false, abstract: false, final false
   inline bool _CreateMaxOverdrawCount_b__0();
 
-  /// @brief Method <CreateMaxOverdrawCount>b__1, addr 0x6cc2928, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMaxOverdrawCount>b__1, addr 0x6cc3a08, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateMaxOverdrawCount_b__1();
 
-  /// @brief Method <CreateMaxOverdrawCount>b__2, addr 0x6cc2980, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMaxOverdrawCount>b__2, addr 0x6cc3a60, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMaxOverdrawCount_b__2(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1799,7 +1799,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cbdd68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbee48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1843,16 +1843,16 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <CreateMipMapMode>b__0, addr 0x6cc29e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapMode>b__0, addr 0x6cc3ac4, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateMipMapMode_b__0();
 
-  /// @brief Method <CreateMipMapMode>b__1, addr 0x6cc2a3c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapMode>b__1, addr 0x6cc3b1c, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMipMapMode_b__1(int32_t value);
 
-  /// @brief Method <CreateMipMapMode>b__2, addr 0x6cc2aa0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapMode>b__2, addr 0x6cc3b80, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateMipMapMode_b__2();
 
-  /// @brief Method <CreateMipMapMode>b__3, addr 0x6cc2af8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapMode>b__3, addr 0x6cc3bd8, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMipMapMode_b__3(int32_t value);
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1861,7 +1861,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cbf05c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc013c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1905,40 +1905,40 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0* New_ctor();
 
-  /// @brief Method <CreateMipMapDebugSettings>b__0, addr 0x6cc2b5c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSettings>b__0, addr 0x6cc3c3c, size 0x60, virtual false, abstract: false, final false
   inline bool _CreateMipMapDebugSettings_b__0();
 
-  /// @brief Method <CreateMipMapDebugSettings>b__1, addr 0x6cc2c78, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSettings>b__1, addr 0x6cc3d58, size 0x64, virtual false, abstract: false, final false
   inline bool _CreateMipMapDebugSettings_b__1();
 
-  /// @brief Method <CreateMipMapDebugSettings>b__11, addr 0x6cc2e84, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSettings>b__11, addr 0x6cc3f64, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateMipMapDebugSettings_b__11();
 
-  /// @brief Method <CreateMipMapDebugSettings>b__12, addr 0x6cc2edc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSettings>b__12, addr 0x6cc3fbc, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMipMapDebugSettings_b__12(int32_t value);
 
-  /// @brief Method <CreateMipMapDebugSettings>b__13, addr 0x6cc2f40, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSettings>b__13, addr 0x6cc4020, size 0x58, virtual false, abstract: false, final false
   inline int32_t _CreateMipMapDebugSettings_b__13();
 
-  /// @brief Method <CreateMipMapDebugSettings>b__14, addr 0x6cc2f98, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSettings>b__14, addr 0x6cc4078, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMipMapDebugSettings_b__14(int32_t value);
 
-  /// @brief Method <CreateMipMapDebugSettings>b__2, addr 0x6cc2bbc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSettings>b__2, addr 0x6cc3c9c, size 0x58, virtual false, abstract: false, final false
   inline float_t _CreateMipMapDebugSettings_b__2();
 
-  /// @brief Method <CreateMipMapDebugSettings>b__3, addr 0x6cc2c14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSettings>b__3, addr 0x6cc3cf4, size 0x64, virtual false, abstract: false, final false
   inline void _CreateMipMapDebugSettings_b__3(float_t value);
 
-  /// @brief Method <CreateMipMapDebugSettings>b__6, addr 0x6cc2cdc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSettings>b__6, addr 0x6cc3dbc, size 0x64, virtual false, abstract: false, final false
   inline bool _CreateMipMapDebugSettings_b__6();
 
-  /// @brief Method <CreateMipMapDebugSettings>b__7, addr 0x6cc2d40, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSettings>b__7, addr 0x6cc3e20, size 0x58, virtual false, abstract: false, final false
   inline bool _CreateMipMapDebugSettings_b__7();
 
-  /// @brief Method <CreateMipMapDebugSettings>b__8, addr 0x6cc2d98, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSettings>b__8, addr 0x6cc3e78, size 0x74, virtual false, abstract: false, final false
   inline void _CreateMipMapDebugSettings_b__8(bool value);
 
-  /// @brief Method <CreateMipMapDebugSettings>b__9, addr 0x6cc2e0c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <CreateMipMapDebugSettings>b__9, addr 0x6cc3eec, size 0x78, virtual false, abstract: false, final false
   inline bool _CreateMipMapDebugSettings_b__9();
 
   constexpr ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* const& __cordl_internal_get_panel() const;
@@ -1947,7 +1947,7 @@ public:
 
   constexpr void __cordl_internal_set_panel(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* value);
 
-  /// @brief Method .ctor, addr 0x6cbf060, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc0140, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2027,69 +2027,69 @@ public:
 
   using __c__DisplayClass9_0 = ::UnityEngine::Rendering::Universal::WidgetFactory_DebugDisplaySettingsRendering___c__DisplayClass9_0;
 
-  /// @brief Method CreateAdditionalWireframeShaderViews, addr 0x6cbd0b8, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method CreateAdditionalWireframeShaderViews, addr 0x6cbe198, size 0x3e4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateAdditionalWireframeShaderViews(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreateHDR, addr 0x6cbff64, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method CreateHDR, addr 0x6cc1044, size 0x22c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateHDR(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreateMSAA, addr 0x6cbfd34, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method CreateMSAA, addr 0x6cc0e14, size 0x22c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMSAA(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreateMapOverlaySize, addr 0x6cbcd04, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method CreateMapOverlaySize, addr 0x6cbdde4, size 0x3b0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMapOverlaySize(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreateMapOverlays, addr 0x6cbc57c, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method CreateMapOverlays, addr 0x6cbd65c, size 0x334, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMapOverlays(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreateMaxOverdrawCount, addr 0x6cbd930, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method CreateMaxOverdrawCount, addr 0x6cbea10, size 0x438, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMaxOverdrawCount(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreateMipMapDebugCooldownSlider, addr 0x6cbf620, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method CreateMipMapDebugCooldownSlider, addr 0x6cc0700, size 0x3d0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapDebugCooldownSlider(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreateMipMapDebugSettings, addr 0x6cbe390, size 0xccc, virtual false, abstract: false, final false
+  /// @brief Method CreateMipMapDebugSettings, addr 0x6cbf470, size 0xccc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapDebugSettings(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreateMipMapDebugSlotSelector, addr 0x6cbf064, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method CreateMipMapDebugSlotSelector, addr 0x6cc0144, size 0x328, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapDebugSlotSelector(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel,
                                                                                         ::System::Func_1<bool>* hiddenCB, ::ArrayW<::UnityEngine::GUIContent*> texSlotStrings,
                                                                                         ::ArrayW<int32_t> texSlotValues);
 
-  /// @brief Method CreateMipMapDebugWidget, addr 0x6cbdd6c, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method CreateMipMapDebugWidget, addr 0x6cbee4c, size 0x2f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapDebugWidget(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreateMipMapMode, addr 0x6cbe05c, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method CreateMipMapMode, addr 0x6cbf13c, size 0x334, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreateMipMapShowStatusCodeToggle, addr 0x6cbf38c, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method CreateMipMapShowStatusCodeToggle, addr 0x6cc046c, size 0x294, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateMipMapShowStatusCodeToggle(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreateOverdrawMode, addr 0x6cbd5f8, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method CreateOverdrawMode, addr 0x6cbe6d8, size 0x334, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateOverdrawMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreatePixelValidationChannels, addr 0x6cc0964, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method CreatePixelValidationChannels, addr 0x6cc1a44, size 0x334, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreatePixelValidationChannels(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreatePixelValidationMode, addr 0x6cc057c, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method CreatePixelValidationMode, addr 0x6cc165c, size 0x3e4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreatePixelValidationMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreatePixelValueRangeMax, addr 0x6cc0ee4, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method CreatePixelValueRangeMax, addr 0x6cc1fc4, size 0x244, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreatePixelValueRangeMax(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreatePixelValueRangeMin, addr 0x6cc0c9c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method CreatePixelValueRangeMin, addr 0x6cc1d7c, size 0x244, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreatePixelValueRangeMin(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreatePostProcessing, addr 0x6cbf9fc, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method CreatePostProcessing, addr 0x6cc0adc, size 0x334, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreatePostProcessing(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreateStpDebugViews, addr 0x6cbc8b4, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method CreateStpDebugViews, addr 0x6cbd994, size 0x44c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateStpDebugViews(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreateTaaDebugMode, addr 0x6cc0194, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method CreateTaaDebugMode, addr 0x6cc1274, size 0x3e4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateTaaDebugMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
-  /// @brief Method CreateWireframeNotSupportedWarning, addr 0x6cbd4a0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CreateWireframeNotSupportedWarning, addr 0x6cbe580, size 0x154, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Widget* CreateWireframeNotSupportedWarning(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* panel);
 
 protected:
@@ -2134,10 +2134,10 @@ public:
 
   constexpr void __cordl_internal_set_data(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* value);
 
-  /// @brief Method <.ctor>b__0, addr 0x6cc3000, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0, addr 0x6cc40e0, size 0x20, virtual false, abstract: false, final false
   inline bool __ctor_b__0();
 
-  /// @brief Method .ctor, addr 0x6cc2ffc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc40dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2180,7 +2180,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_SettingsPanel* New_ctor(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* data);
 
-  /// @brief Method .ctor, addr 0x6cbb9d8, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbcab8, size 0x560, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* data);
 
 protected:
@@ -2374,13 +2374,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* New_ctor();
 
-  /// @brief Method TryGetScreenClearColor, addr 0x6cbb8c8, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method TryGetScreenClearColor, addr 0x6cbc9a8, size 0xb4, virtual true, abstract: false, final true
   inline bool TryGetScreenClearColor(::by_ref<::UnityEngine::Color> color);
 
-  /// @brief Method UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel, addr 0x6cbb97c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel, addr 0x6cbca5c, size 0x5c, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel();
 
-  /// @brief Method UpdateDebugSceneOverrideMode, addr 0x6cbb638, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method UpdateDebugSceneOverrideMode, addr 0x6cbc718, size 0x2c, virtual false, abstract: false, final false
   inline void UpdateDebugSceneOverrideMode();
 
   constexpr bool const& __cordl_internal_get__enableHDR_k__BackingField() const;
@@ -2527,112 +2527,112 @@ public:
 
   constexpr void __cordl_internal_set_m_WireframeMode(::UnityEngine::Rendering::Universal::DebugWireframeMode value);
 
-  /// @brief Method .ctor, addr 0x6cbbf38, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cbd018, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AreAnySettingsActive, addr 0x6cbb82c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method get_AreAnySettingsActive, addr 0x6cbc90c, size 0x54, virtual true, abstract: false, final true
   inline bool get_AreAnySettingsActive();
 
-  /// @brief Method get_IsLightingActive, addr 0x6cbb8a8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_IsLightingActive, addr 0x6cbc988, size 0x20, virtual true, abstract: false, final true
   inline bool get_IsLightingActive();
 
-  /// @brief Method get_IsPostProcessingAllowed, addr 0x6cbb880, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_IsPostProcessingAllowed, addr 0x6cbc960, size 0x28, virtual true, abstract: false, final true
   inline bool get_IsPostProcessingAllowed();
 
-  /// @brief Method get_canAggregateData, addr 0x6cbb788, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_canAggregateData, addr 0x6cbc868, size 0x14, virtual false, abstract: false, final false
   inline bool get_canAggregateData();
 
   /// [CompilerGenerated]
-  /// @brief Method get_enableHDR, addr 0x6cbb7cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableHDR, addr 0x6cbc8ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableHDR();
 
   /// [CompilerGenerated]
-  /// @brief Method get_enableMsaa, addr 0x6cbb7bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableMsaa, addr 0x6cbc89c, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableMsaa();
 
   /// [CompilerGenerated]
-  /// @brief Method get_fullScreenDebugMode, addr 0x6cbb6d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullScreenDebugMode, addr 0x6cbc7b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugFullScreenMode get_fullScreenDebugMode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_fullScreenDebugModeOutputSizeScreenPercent, addr 0x6cbb6f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullScreenDebugModeOutputSizeScreenPercent, addr 0x6cbc7d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fullScreenDebugModeOutputSizeScreenPercent();
 
   /// [CompilerGenerated]
-  /// @brief Method get_maxOverdrawCount, addr 0x6cbb6c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxOverdrawCount, addr 0x6cbc7a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxOverdrawCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_mipDebugMaterialTextureSlot, addr 0x6cbb768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mipDebugMaterialTextureSlot, addr 0x6cbc848, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_mipDebugMaterialTextureSlot();
 
   /// [CompilerGenerated]
-  /// @brief Method get_mipDebugOpacity, addr 0x6cbb748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mipDebugOpacity, addr 0x6cbc828, size 0x8, virtual false, abstract: false, final false
   inline float_t get_mipDebugOpacity();
 
   /// [CompilerGenerated]
-  /// @brief Method get_mipDebugRecentUpdateCooldown, addr 0x6cbb758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mipDebugRecentUpdateCooldown, addr 0x6cbc838, size 0x8, virtual false, abstract: false, final false
   inline float_t get_mipDebugRecentUpdateCooldown();
 
   /// [CompilerGenerated]
-  /// @brief Method get_mipDebugStatusMode, addr 0x6cbb738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mipDebugStatusMode, addr 0x6cbc818, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugMipMapStatusMode get_mipDebugStatusMode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_mipDebugStatusShowCode, addr 0x6cbb728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mipDebugStatusShowCode, addr 0x6cbc808, size 0x8, virtual false, abstract: false, final false
   inline bool get_mipDebugStatusShowCode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_mipDebugTerrainTexture, addr 0x6cbb79c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mipDebugTerrainTexture, addr 0x6cbc87c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture get_mipDebugTerrainTexture();
 
   /// [CompilerGenerated]
-  /// @brief Method get_mipInfoMode, addr 0x6cbb718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mipInfoMode, addr 0x6cbc7f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugMipInfoMode get_mipInfoMode();
 
-  /// @brief Method get_overdraw, addr 0x6cbb664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overdraw, addr 0x6cbc744, size 0x8, virtual false, abstract: false, final false
   inline bool get_overdraw();
 
-  /// @brief Method get_overdrawMode, addr 0x6cbb69c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overdrawMode, addr 0x6cbc77c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugOverdrawMode get_overdrawMode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_postProcessingDebugMode, addr 0x6cbb7ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_postProcessingDebugMode, addr 0x6cbc88c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugPostProcessingMode get_postProcessingDebugMode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_sceneOverrideMode, addr 0x6cbb708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneOverrideMode, addr 0x6cbc7e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugSceneOverrideMode get_sceneOverrideMode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_showInfoForAllSlots, addr 0x6cbb778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showInfoForAllSlots, addr 0x6cbc858, size 0x8, virtual false, abstract: false, final false
   inline bool get_showInfoForAllSlots();
 
   /// [CompilerGenerated]
-  /// @brief Method get_stpDebugViewIndex, addr 0x6cbb6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stpDebugViewIndex, addr 0x6cbc7c8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_stpDebugViewIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method get_taaDebugMode, addr 0x6cbb7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_taaDebugMode, addr 0x6cbc8bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode get_taaDebugMode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_validationChannels, addr 0x6cbb7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validationChannels, addr 0x6cbc8dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::PixelValidationChannels get_validationChannels();
 
   /// [CompilerGenerated]
-  /// @brief Method get_validationMode, addr 0x6cbb7ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validationMode, addr 0x6cbc8cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugValidationMode get_validationMode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_validationRangeMax, addr 0x6cbb81c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validationRangeMax, addr 0x6cbc8fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_validationRangeMax();
 
   /// [CompilerGenerated]
-  /// @brief Method get_validationRangeMin, addr 0x6cbb80c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validationRangeMin, addr 0x6cbc8ec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_validationRangeMin();
 
-  /// @brief Method get_wireframeMode, addr 0x6cbb604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wireframeMode, addr 0x6cbc6e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::DebugWireframeMode get_wireframeMode();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsData"
@@ -2642,96 +2642,96 @@ public:
   constexpr ::UnityEngine::Rendering::IDebugDisplaySettingsQuery* i___UnityEngine__Rendering__IDebugDisplaySettingsQuery() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_enableHDR, addr 0x6cbb7d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_enableHDR, addr 0x6cbc8b4, size 0x8, virtual false, abstract: false, final false
   inline void set_enableHDR(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_enableMsaa, addr 0x6cbb7c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_enableMsaa, addr 0x6cbc8a4, size 0x8, virtual false, abstract: false, final false
   inline void set_enableMsaa(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_fullScreenDebugMode, addr 0x6cbb6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fullScreenDebugMode, addr 0x6cbc7c0, size 0x8, virtual false, abstract: false, final false
   inline void set_fullScreenDebugMode(::UnityEngine::Rendering::Universal::DebugFullScreenMode value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_fullScreenDebugModeOutputSizeScreenPercent, addr 0x6cbb700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fullScreenDebugModeOutputSizeScreenPercent, addr 0x6cbc7e0, size 0x8, virtual false, abstract: false, final false
   inline void set_fullScreenDebugModeOutputSizeScreenPercent(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_maxOverdrawCount, addr 0x6cbb6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxOverdrawCount, addr 0x6cbc7b0, size 0x8, virtual false, abstract: false, final false
   inline void set_maxOverdrawCount(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_mipDebugMaterialTextureSlot, addr 0x6cbb770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mipDebugMaterialTextureSlot, addr 0x6cbc850, size 0x8, virtual false, abstract: false, final false
   inline void set_mipDebugMaterialTextureSlot(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_mipDebugOpacity, addr 0x6cbb750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mipDebugOpacity, addr 0x6cbc830, size 0x8, virtual false, abstract: false, final false
   inline void set_mipDebugOpacity(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_mipDebugRecentUpdateCooldown, addr 0x6cbb760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mipDebugRecentUpdateCooldown, addr 0x6cbc840, size 0x8, virtual false, abstract: false, final false
   inline void set_mipDebugRecentUpdateCooldown(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_mipDebugStatusMode, addr 0x6cbb740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mipDebugStatusMode, addr 0x6cbc820, size 0x8, virtual false, abstract: false, final false
   inline void set_mipDebugStatusMode(::UnityEngine::Rendering::Universal::DebugMipMapStatusMode value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_mipDebugStatusShowCode, addr 0x6cbb730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mipDebugStatusShowCode, addr 0x6cbc810, size 0x8, virtual false, abstract: false, final false
   inline void set_mipDebugStatusShowCode(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_mipDebugTerrainTexture, addr 0x6cbb7a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mipDebugTerrainTexture, addr 0x6cbc884, size 0x8, virtual false, abstract: false, final false
   inline void set_mipDebugTerrainTexture(::UnityEngine::Rendering::Universal::DebugMipMapModeTerrainTexture value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_mipInfoMode, addr 0x6cbb720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mipInfoMode, addr 0x6cbc800, size 0x8, virtual false, abstract: false, final false
   inline void set_mipInfoMode(::UnityEngine::Rendering::Universal::DebugMipInfoMode value);
 
-  /// @brief Method set_overdraw, addr 0x6cbb66c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_overdraw, addr 0x6cbc74c, size 0x30, virtual false, abstract: false, final false
   inline void set_overdraw(bool value);
 
-  /// @brief Method set_overdrawMode, addr 0x6cbb6a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_overdrawMode, addr 0x6cbc784, size 0x24, virtual false, abstract: false, final false
   inline void set_overdrawMode(::UnityEngine::Rendering::Universal::DebugOverdrawMode value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_postProcessingDebugMode, addr 0x6cbb7b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_postProcessingDebugMode, addr 0x6cbc894, size 0x8, virtual false, abstract: false, final false
   inline void set_postProcessingDebugMode(::UnityEngine::Rendering::Universal::DebugPostProcessingMode value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_sceneOverrideMode, addr 0x6cbb710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sceneOverrideMode, addr 0x6cbc7f0, size 0x8, virtual false, abstract: false, final false
   inline void set_sceneOverrideMode(::UnityEngine::Rendering::Universal::DebugSceneOverrideMode value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_showInfoForAllSlots, addr 0x6cbb780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_showInfoForAllSlots, addr 0x6cbc860, size 0x8, virtual false, abstract: false, final false
   inline void set_showInfoForAllSlots(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_stpDebugViewIndex, addr 0x6cbb6f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stpDebugViewIndex, addr 0x6cbc7d0, size 0x8, virtual false, abstract: false, final false
   inline void set_stpDebugViewIndex(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_taaDebugMode, addr 0x6cbb7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_taaDebugMode, addr 0x6cbc8c4, size 0x8, virtual false, abstract: false, final false
   inline void set_taaDebugMode(::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering_TaaDebugMode value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_validationChannels, addr 0x6cbb804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_validationChannels, addr 0x6cbc8e4, size 0x8, virtual false, abstract: false, final false
   inline void set_validationChannels(::UnityEngine::Rendering::Universal::PixelValidationChannels value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_validationMode, addr 0x6cbb7f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_validationMode, addr 0x6cbc8d4, size 0x8, virtual false, abstract: false, final false
   inline void set_validationMode(::UnityEngine::Rendering::Universal::DebugValidationMode value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_validationRangeMax, addr 0x6cbb824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_validationRangeMax, addr 0x6cbc904, size 0x8, virtual false, abstract: false, final false
   inline void set_validationRangeMax(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_validationRangeMin, addr 0x6cbb814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_validationRangeMin, addr 0x6cbc8f4, size 0x8, virtual false, abstract: false, final false
   inline void set_validationRangeMin(float_t value);
 
-  /// @brief Method set_wireframeMode, addr 0x6cbb60c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_wireframeMode, addr 0x6cbc6ec, size 0x2c, virtual false, abstract: false, final false
   inline void set_wireframeMode(::UnityEngine::Rendering::Universal::DebugWireframeMode value);
 
 protected:

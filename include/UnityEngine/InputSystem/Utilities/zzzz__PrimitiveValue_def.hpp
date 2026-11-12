@@ -98,13 +98,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue>*();
 
-  /// @brief Method ConvertTo, addr 0x696b804, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x696c8e4, size 0x208, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue ConvertTo(::System::TypeCode type);
 
-  /// @brief Method Equals, addr 0x696d9ec, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x696eacc, size 0x178, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x696d978, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x696ea58, size 0x74, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::Utilities::PrimitiveValue other);
 
   /// @brief Method From, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -112,106 +112,106 @@ public:
     requires(::cordl_internals::value_type_constraint<TValue> && ::cordl_internals::default_constructor_constraint<TValue>)
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue From(TValue value);
 
-  /// @brief Method FromBoolean, addr 0x696e54c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method FromBoolean, addr 0x696f62c, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromBoolean(bool value);
 
-  /// @brief Method FromByte, addr 0x696e57c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method FromByte, addr 0x696f65c, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromByte(uint8_t value);
 
-  /// @brief Method FromChar, addr 0x696e568, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method FromChar, addr 0x696f648, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromChar(char16_t value);
 
-  /// @brief Method FromDouble, addr 0x696e638, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method FromDouble, addr 0x696f718, size 0xc8, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromDouble(double_t value);
 
-  /// @brief Method FromInt16, addr 0x696e5a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method FromInt16, addr 0x696f684, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromInt16(int16_t value);
 
-  /// @brief Method FromInt32, addr 0x696e5cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FromInt32, addr 0x696f6ac, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromInt32(int32_t value);
 
-  /// @brief Method FromInt64, addr 0x696e5ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method FromInt64, addr 0x696f6cc, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromInt64(int64_t value);
 
-  /// @brief Method FromObject, addr 0x696db64, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method FromObject, addr 0x696ec44, size 0x418, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromObject(::System::Object* value);
 
-  /// @brief Method FromSByte, addr 0x696e590, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method FromSByte, addr 0x696f670, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromSByte(int8_t value);
 
-  /// @brief Method FromSingle, addr 0x696e624, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method FromSingle, addr 0x696f704, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromSingle(float_t value);
 
-  /// @brief Method FromString, addr 0x696c00c, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method FromString, addr 0x696d0ec, size 0x328, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromString(::StringW value);
 
-  /// @brief Method FromUInt16, addr 0x696e5b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method FromUInt16, addr 0x696f698, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromUInt16(uint16_t value);
 
-  /// @brief Method FromUInt32, addr 0x696e5dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FromUInt32, addr 0x696f6bc, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromUInt32(uint32_t value);
 
-  /// @brief Method FromUInt64, addr 0x696e608, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method FromUInt64, addr 0x696f6e8, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FromUInt64(uint64_t value);
 
-  /// @brief Method GetHashCode, addr 0x696bbd4, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x696ccb4, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTypeCode, addr 0x696e42c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetTypeCode, addr 0x696f50c, size 0x8, virtual true, abstract: false, final true
   inline ::System::TypeCode GetTypeCode();
 
-  /// @brief Method ToBoolean, addr 0x696d3a0, size 0x1d4, virtual true, abstract: false, final true
+  /// @brief Method ToBoolean, addr 0x696e480, size 0x1d4, virtual true, abstract: false, final true
   inline bool ToBoolean(::System::IFormatProvider* provider);
 
-  /// @brief Method ToByte, addr 0x696d5c0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ToByte, addr 0x696e6a0, size 0x10, virtual true, abstract: false, final true
   inline uint8_t ToByte(::System::IFormatProvider* provider);
 
-  /// @brief Method ToChar, addr 0x696d574, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method ToChar, addr 0x696e654, size 0x38, virtual true, abstract: false, final true
   inline char16_t ToChar(::System::IFormatProvider* provider);
 
-  /// @brief Method ToDateTime, addr 0x696e434, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method ToDateTime, addr 0x696f514, size 0x4c, virtual true, abstract: false, final true
   inline ::System::DateTime ToDateTime(::System::IFormatProvider* provider);
 
-  /// @brief Method ToDecimal, addr 0x696e480, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method ToDecimal, addr 0x696f560, size 0x4c, virtual true, abstract: false, final true
   inline ::System::Decimal ToDecimal(::System::IFormatProvider* provider);
 
-  /// @brief Method ToDouble, addr 0x696d868, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method ToDouble, addr 0x696e948, size 0xf4, virtual true, abstract: false, final true
   inline double_t ToDouble(::System::IFormatProvider* provider);
 
-  /// @brief Method ToInt16, addr 0x696d608, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ToInt16, addr 0x696e6e8, size 0x10, virtual true, abstract: false, final true
   inline int16_t ToInt16(::System::IFormatProvider* provider);
 
-  /// @brief Method ToInt32, addr 0x696d62c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ToInt32, addr 0x696e70c, size 0x10, virtual true, abstract: false, final true
   inline int32_t ToInt32(::System::IFormatProvider* provider);
 
-  /// @brief Method ToInt64, addr 0x696d64c, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method ToInt64, addr 0x696e72c, size 0xf8, virtual true, abstract: false, final true
   inline int64_t ToInt64(::System::IFormatProvider* provider);
 
-  /// @brief Method ToObject, addr 0x696c548, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ToObject, addr 0x696d628, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Object* ToObject();
 
-  /// @brief Method ToSByte, addr 0x696d5e4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ToSByte, addr 0x696e6c4, size 0x10, virtual true, abstract: false, final true
   inline int8_t ToSByte(::System::IFormatProvider* provider);
 
-  /// @brief Method ToSingle, addr 0x695ffd8, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method ToSingle, addr 0x69610b8, size 0x14, virtual true, abstract: false, final true
   inline float_t ToSingle(::System::IFormatProvider* provider);
 
-  /// @brief Method ToString, addr 0x696dff0, size 0x43c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x696f0d0, size 0x43c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x696e4cc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x696f5ac, size 0x4, virtual true, abstract: false, final true
   inline ::StringW ToString(::System::IFormatProvider* provider);
 
-  /// @brief Method ToType, addr 0x696e4d0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method ToType, addr 0x696f5b0, size 0x38, virtual true, abstract: false, final true
   inline ::System::Object* ToType(::System::Type* conversionType, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToUInt16, addr 0x696e508, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ToUInt16, addr 0x696f5e8, size 0x10, virtual true, abstract: false, final true
   inline uint16_t ToUInt16(::System::IFormatProvider* provider);
 
-  /// @brief Method ToUInt32, addr 0x696e518, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ToUInt32, addr 0x696f5f8, size 0x10, virtual true, abstract: false, final true
   inline uint32_t ToUInt32(::System::IFormatProvider* provider);
 
-  /// @brief Method ToUInt64, addr 0x696d760, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method ToUInt64, addr 0x696e840, size 0xec, virtual true, abstract: false, final true
   inline uint64_t ToUInt64(::System::IFormatProvider* provider);
 
   constexpr bool const& __cordl_internal_get_m_BoolValue() const;
@@ -292,49 +292,49 @@ public:
 
   constexpr void __cordl_internal_set_m_UShortValue(uint16_t value);
 
-  /// @brief Method .ctor, addr 0x696d2a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x696e380, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool value);
 
-  /// @brief Method .ctor, addr 0x696d2b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x696e398, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(char16_t value);
 
-  /// @brief Method .ctor, addr 0x696d38c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x696e46c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(double_t value);
 
-  /// @brief Method .ctor, addr 0x696d378, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x696e458, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t value);
 
-  /// @brief Method .ctor, addr 0x696d300, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x696e3e0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int16_t value);
 
-  /// @brief Method .ctor, addr 0x696d330, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x696e410, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
-  /// @brief Method .ctor, addr 0x696d350, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x696e430, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int64_t value);
 
-  /// @brief Method .ctor, addr 0x696d2e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x696e3c8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int8_t value);
 
-  /// @brief Method .ctor, addr 0x696d318, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x696e3f8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(uint16_t value);
 
-  /// @brief Method .ctor, addr 0x696d340, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x696e420, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x696d364, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x696e444, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x696d2d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x696e3b0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(uint8_t value);
 
-  /// @brief Method get_isEmpty, addr 0x695ffc8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x69610a8, size 0x10, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
-  /// @brief Method get_type, addr 0x696d298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x696e378, size 0x8, virtual false, abstract: false, final false
   inline ::System::TypeCode get_type();
 
-  /// @brief Method get_valuePtr, addr 0x696d290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_valuePtr, addr 0x696e370, size 0x8, virtual false, abstract: false, final false
   inline uint8_t* get_valuePtr();
 
   /// @brief Convert to "::System::IConvertible"
@@ -343,46 +343,46 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::PrimitiveValue>* i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__PrimitiveValue_();
 
-  /// @brief Method op_Equality, addr 0x696ba58, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x696cb38, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Utilities::PrimitiveValue left, ::UnityEngine::InputSystem::Utilities::PrimitiveValue right);
 
-  /// @brief Method op_Implicit, addr 0x696bff0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x696d0d0, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(bool value);
 
-  /// @brief Method op_Implicit, addr 0x696d5ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x696e68c, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(char16_t value);
 
-  /// @brief Method op_Implicit, addr 0x696d95c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x696ea3c, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(double_t value);
 
-  /// @brief Method op_Implicit, addr 0x69601c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x69612a4, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(float_t value);
 
-  /// @brief Method op_Implicit, addr 0x696d618, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x696e6f8, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(int16_t value);
 
-  /// @brief Method op_Implicit, addr 0x696d63c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x696e71c, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(int32_t value);
 
-  /// @brief Method op_Implicit, addr 0x696d744, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x696e824, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(int64_t value);
 
-  /// @brief Method op_Implicit, addr 0x696d5f4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x696e6d4, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(int8_t value);
 
-  /// @brief Method op_Implicit, addr 0x696e528, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x696f608, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(uint16_t value);
 
-  /// @brief Method op_Implicit, addr 0x696e53c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x696f61c, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(uint32_t value);
 
-  /// @brief Method op_Implicit, addr 0x696d84c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x696e92c, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(uint64_t value);
 
-  /// @brief Method op_Implicit, addr 0x696d5d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x696e6b0, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue(uint8_t value);
 
-  /// @brief Method op_Inequality, addr 0x696df7c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x696f05c, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Utilities::PrimitiveValue left, ::UnityEngine::InputSystem::Utilities::PrimitiveValue right);
 
   // Ctor Parameters []

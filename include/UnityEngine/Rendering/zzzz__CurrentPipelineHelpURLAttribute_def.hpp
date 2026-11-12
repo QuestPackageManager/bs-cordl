@@ -48,18 +48,18 @@ public:
 
   constexpr void __cordl_internal_set__pageName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6bdf478, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be0558, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW pageName, ::StringW pageHash);
 
-  /// @brief Method get_URL, addr 0x6bdf4e0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_URL, addr 0x6be05c0, size 0x14, virtual true, abstract: false, final false
   inline ::StringW get_URL();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pageHash, addr 0x6bdf470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pageHash, addr 0x6be0550, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_pageHash();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pageName, addr 0x6bdf468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pageName, addr 0x6be0548, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_pageName();
 
 protected:

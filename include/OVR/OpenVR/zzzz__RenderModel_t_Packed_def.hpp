@@ -25,10 +25,10 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE RenderModel_t_Packed {
 public:
   // Declarations
-  /// @brief Method Unpack, addr 0x629e9d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x629ec5c, size 0x24, virtual false, abstract: false, final false
   inline void Unpack(::by_ref<::OVR::OpenVR::RenderModel_t> unpacked);
 
-  /// @brief Method .ctor, addr 0x629e9a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x629ec30, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::RenderModel_t unpacked);
 
   // Ctor Parameters []

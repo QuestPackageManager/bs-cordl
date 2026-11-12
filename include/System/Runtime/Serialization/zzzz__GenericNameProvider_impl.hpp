@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::GenericNameProvider::*)(::System::Type*)>(
     &::System::Runtime::Serialization::GenericNameProvider::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x65a957c;
+  constexpr static std::size_t addrs = 0x65a9bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::GenericNameProvider::*)(::StringW, ::ArrayW<::System::Object*>)>(
     &::System::Runtime::Serialization::GenericNameProvider::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x65adb04;
+  constexpr static std::size_t addrs = 0x65ae154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::GenericNameProvider*>(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Serialization::GenericNameProvider::*)()>(
     &::System::Runtime::Serialization::GenericNameProvider::GetParameterCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x65adbb4;
+  constexpr static std::size_t addrs = 0x65ae204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IList_1<int32_t>* (::System::Runtime::Serialization::GenericNameProvider::*)()>(
     &::System::Runtime::Serialization::GenericNameProvider::GetNestedParameterCounts)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65adbcc;
+  constexpr static std::size_t addrs = 0x65ae21c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::GenericNameProvider::*)(int32_t)>(
     &::System::Runtime::Serialization::GenericNameProvider::GetParameterName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x65adbd4;
+  constexpr static std::size_t addrs = 0x65ae224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::GenericNameProvider::*)()>(&::System::Runtime::Serialization::GenericNameProvider::GetNamespaces)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x65addc8;
+  constexpr static std::size_t addrs = 0x65ae418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::GenericNameProvider*>(), { "GetNamespaces", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Serialization::GenericNameProvider::*)()>(
     &::System::Runtime::Serialization::GenericNameProvider::GetGenericTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65adeac;
+  constexpr static std::size_t addrs = 0x65ae4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Serialization::GenericNameProvider::*)()>(
     &::System::Runtime::Serialization::GenericNameProvider::get_ParametersFromBuiltInNamespaces)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x65adeb4;
+  constexpr static std::size_t addrs = 0x65ae504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlQualifiedName* (::System::Runtime::Serialization::GenericNameProvider::*)(int32_t)>(
     &::System::Runtime::Serialization::GenericNameProvider::GetStableName)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x65adbf0;
+  constexpr static std::size_t addrs = 0x65ae240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

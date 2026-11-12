@@ -45,11 +45,11 @@ public:
 
   constexpr void __cordl_internal_set__Table_k__BackingField(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x64a0f48, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a1598, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW conflict);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Conflict, addr 0x64a0fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Conflict, addr 0x64a1600, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Conflict();
 
 protected:

@@ -32,7 +32,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x6873a1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x687406c, size 0x8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   static inline ::System::Net::ProtocolViolationException* New_ctor();
@@ -42,17 +42,17 @@ public:
   static inline ::System::Net::ProtocolViolationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                     ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x6873a14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x6874064, size 0x8, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x6873a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6874054, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x686c70c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x686cd5c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x6873a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687405c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

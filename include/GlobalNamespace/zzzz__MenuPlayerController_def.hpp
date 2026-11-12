@@ -68,19 +68,19 @@ public:
 
   constexpr void __cordl_internal_set__rightController(::UnityW<::GlobalNamespace::VRController> value);
 
-  /// @brief Method .ctor, addr 0x5e69500, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e69418, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_headPos, addr 0x5e694d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_headPos, addr 0x5e693e8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headPos();
 
-  /// @brief Method get_headRot, addr 0x5e694e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_headRot, addr 0x5e69400, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_headRot();
 
-  /// @brief Method get_leftController, addr 0x5e694c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftController, addr 0x5e693d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_leftController();
 
-  /// @brief Method get_rightController, addr 0x5e694c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightController, addr 0x5e693e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_rightController();
 
 protected:

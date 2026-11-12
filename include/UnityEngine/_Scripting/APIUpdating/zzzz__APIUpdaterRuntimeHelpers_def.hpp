@@ -24,11 +24,11 @@ class CORDL_TYPE APIUpdaterRuntimeHelpers : public ::System::Object {
 public:
   // Declarations
   /// [RequiredByNativeCode]
-  /// @brief Method GetMovedFromAttributeDataForType, addr 0x6f92e94, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetMovedFromAttributeDataForType, addr 0x6f93f74, size 0x134, virtual false, abstract: false, final false
   static inline bool GetMovedFromAttributeDataForType(::System::Type* sourceType, ::by_ref<::StringW> assembly, ::by_ref<::StringW> nsp, ::by_ref<::StringW> klass);
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetObsoleteTypeRedirection, addr 0x6f92fc8, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method GetObsoleteTypeRedirection, addr 0x6f940a8, size 0x2c4, virtual false, abstract: false, final false
   static inline bool GetObsoleteTypeRedirection(::System::Type* sourceType, ::by_ref<::StringW> assemblyName, ::by_ref<::StringW> nsp, ::by_ref<::StringW> className);
 
 protected:

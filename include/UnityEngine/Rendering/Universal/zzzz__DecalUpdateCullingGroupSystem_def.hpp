@@ -51,13 +51,13 @@ public:
   /// @brief Field m_Sampler, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Sampler, put = __cordl_internal_set_m_Sampler)) ::UnityEngine::Rendering::ProfilingSampler* m_Sampler;
 
-  /// @brief Method Execute, addr 0x6cd4a50, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x6cd5b30, size 0x160, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::Universal::DecalCachedChunk* cachedChunk, ::UnityEngine::Rendering::Universal::DecalCulledChunk* culledChunk, int32_t count);
 
-  /// @brief Method Execute, addr 0x6cd48d4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x6cd59b4, size 0x17c, virtual false, abstract: false, final false
   inline void Execute(::UnityEngine::Camera* camera);
 
-  /// @brief Method GetSceneCullingMaskFromCamera, addr 0x6cd4bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSceneCullingMaskFromCamera, addr 0x6cd5c90, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t GetSceneCullingMaskFromCamera(::UnityEngine::Camera* camera);
 
   static inline ::UnityEngine::Rendering::Universal::DecalUpdateCullingGroupSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager, float_t drawDistance);
@@ -86,13 +86,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Sampler(::UnityEngine::Rendering::ProfilingSampler* value);
 
-  /// @brief Method .ctor, addr 0x6cd47fc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd58dc, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager, float_t drawDistance);
 
-  /// @brief Method get_boundingDistance, addr 0x6cd47ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_boundingDistance, addr 0x6cd588c, size 0x28, virtual false, abstract: false, final false
   inline float_t get_boundingDistance();
 
-  /// @brief Method set_boundingDistance, addr 0x6cd47d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_boundingDistance, addr 0x6cd58b4, size 0x28, virtual false, abstract: false, final false
   inline void set_boundingDistance(float_t value);
 
 protected:

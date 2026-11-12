@@ -119,7 +119,7 @@ public:
   /// @brief [InputControl(name = "isTracked", layout = "Button", aliases = new[] { "deviceistracked" })]
   __declspec(property(get = get_userPresence, put = set_userPresence)) ::UnityEngine::InputSystem::Controls::ButtonControl* userPresence;
 
-  /// @brief Method FinishSetup, addr 0x6937158, size 0x2a4, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6938238, size 0x2a4, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::Oculus::Input::OculusHMD* New_ctor();
@@ -202,111 +202,111 @@ public:
 
   constexpr void __cordl_internal_set__userPresence_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method .ctor, addr 0x69373fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69384dc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_centerEyeAcceleration, addr 0x6937138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyeAcceleration, addr 0x6938218, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_centerEyeAcceleration();
 
   /// [CompilerGenerated]
-  /// @brief Method get_centerEyeAngularAcceleration, addr 0x6937148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyeAngularAcceleration, addr 0x6938228, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_centerEyeAngularAcceleration();
 
   /// [CompilerGenerated]
-  /// @brief Method get_centerEyeAngularVelocity, addr 0x6937128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyeAngularVelocity, addr 0x6938208, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_centerEyeAngularVelocity();
 
   /// [CompilerGenerated]
-  /// @brief Method get_deviceAcceleration, addr 0x69370a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceAcceleration, addr 0x6938188, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAcceleration();
 
   /// [CompilerGenerated]
-  /// @brief Method get_deviceAngularAcceleration, addr 0x69370b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceAngularAcceleration, addr 0x6938198, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularAcceleration();
 
   /// [CompilerGenerated]
-  /// @brief Method get_deviceAngularVelocity, addr 0x6937098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceAngularVelocity, addr 0x6938178, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularVelocity();
 
   /// [CompilerGenerated]
-  /// @brief Method get_leftEyeAcceleration, addr 0x69370d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeAcceleration, addr 0x69381b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyeAcceleration();
 
   /// [CompilerGenerated]
-  /// @brief Method get_leftEyeAngularAcceleration, addr 0x69370e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeAngularAcceleration, addr 0x69381c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyeAngularAcceleration();
 
   /// [CompilerGenerated]
-  /// @brief Method get_leftEyeAngularVelocity, addr 0x69370c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeAngularVelocity, addr 0x69381a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyeAngularVelocity();
 
   /// [CompilerGenerated]
-  /// @brief Method get_rightEyeAcceleration, addr 0x6937108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeAcceleration, addr 0x69381e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyeAcceleration();
 
   /// [CompilerGenerated]
-  /// @brief Method get_rightEyeAngularAcceleration, addr 0x6937118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeAngularAcceleration, addr 0x69381f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyeAngularAcceleration();
 
   /// [CompilerGenerated]
-  /// @brief Method get_rightEyeAngularVelocity, addr 0x69370f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeAngularVelocity, addr 0x69381d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyeAngularVelocity();
 
   /// [CompilerGenerated]
-  /// @brief Method get_userPresence, addr 0x6937088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userPresence, addr 0x6938168, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_userPresence();
 
   /// [CompilerGenerated]
-  /// @brief Method set_centerEyeAcceleration, addr 0x6937140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyeAcceleration, addr 0x6938220, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_centerEyeAngularAcceleration, addr 0x6937150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyeAngularAcceleration, addr 0x6938230, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeAngularAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_centerEyeAngularVelocity, addr 0x6937130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyeAngularVelocity, addr 0x6938210, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_deviceAcceleration, addr 0x69370b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceAcceleration, addr 0x6938190, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_deviceAngularAcceleration, addr 0x69370c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceAngularAcceleration, addr 0x69381a0, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAngularAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_deviceAngularVelocity, addr 0x69370a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceAngularVelocity, addr 0x6938180, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_leftEyeAcceleration, addr 0x69370e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeAcceleration, addr 0x69381c0, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_leftEyeAngularAcceleration, addr 0x69370f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeAngularAcceleration, addr 0x69381d0, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeAngularAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_leftEyeAngularVelocity, addr 0x69370d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeAngularVelocity, addr 0x69381b0, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_rightEyeAcceleration, addr 0x6937110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeAcceleration, addr 0x69381f0, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_rightEyeAngularAcceleration, addr 0x6937120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeAngularAcceleration, addr 0x6938200, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeAngularAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_rightEyeAngularVelocity, addr 0x6937100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeAngularVelocity, addr 0x69381e0, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_userPresence, addr 0x6937090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userPresence, addr 0x6938170, size 0x8, virtual false, abstract: false, final false
   inline void set_userPresence(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:

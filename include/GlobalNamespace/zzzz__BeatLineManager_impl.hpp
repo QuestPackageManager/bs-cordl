@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatLineManager::*)()>(&::GlobalNamespace::BeatLineManager::get_isMidRotationValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d10144;
+  constexpr static std::size_t addrs = 0x5d10100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatLineManager*>(), { "get_isMidRotationValid", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatLineManager::*)()>(&::GlobalNamespace::BeatLineManager::get_midRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d1014c;
+  constexpr static std::size_t addrs = 0x5d10108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatLineManager*>(), { "get_midRotation", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatLineManager::*)()>(&::GlobalNamespace::BeatLineManager::get_rotationRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d10154;
+  constexpr static std::size_t addrs = 0x5d10110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatLineManager*>(), { "get_rotationRange", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatLineManager::*)()>(&::GlobalNamespace::BeatLineManager::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5d1015c;
+  constexpr static std::size_t addrs = 0x5d10118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatLineManager*>(), { "Start", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatLineManager::*)()>(&::GlobalNamespace::BeatLineManager::OnDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5d101ec;
+  constexpr static std::size_t addrs = 0x5d101a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatLineManager*>(), { "OnDestroy", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatLineManager::*)()>(&::GlobalNamespace::BeatLineManager::Update)> {
   constexpr static std::size_t size = 0x55c;
-  constexpr static std::size_t addrs = 0x5d1027c;
+  constexpr static std::size_t addrs = 0x5d10238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatLineManager*>(), { "Update", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatLineManager::*)(::GlobalNamespace::NoteController*)>(&::GlobalNamespace::BeatLineManager::HandleNoteWasSpawned)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x5d107d8;
+  constexpr static std::size_t addrs = 0x5d10794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatLineManager::*)()>(&::GlobalNamespace::BeatLineManager::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5d1098c;
+  constexpr static std::size_t addrs = 0x5d10948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatLineManager*>(), { ".ctor", {}, {} })));

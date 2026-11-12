@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Org::BouncyCastle::Utilities::Integers::NumberOfLeadingZeros)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x38e9904;
+  constexpr static std::size_t addrs = 0x38edd9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Org::BouncyCastle::Utilities::Integers::NumberOfTrailingZeros)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x38e997c;
+  constexpr static std::size_t addrs = 0x38ede14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::Integers::RotateLeft)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x38e99b0;
+  constexpr static std::size_t addrs = 0x38ede48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, int32_t)>(&::Org::BouncyCastle::Utilities::Integers::RotateLeft)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x38e99c4;
+  constexpr static std::size_t addrs = 0x38ede5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::Integers::RotateRight)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x38e99d8;
+  constexpr static std::size_t addrs = 0x38ede70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, int32_t)>(&::Org::BouncyCastle::Utilities::Integers::RotateRight)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x38e99ec;
+  constexpr static std::size_t addrs = 0x38ede84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::Integers::*)()>(&::Org::BouncyCastle::Utilities::Integers::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x38e9a00;
+  constexpr static std::size_t addrs = 0x38ede98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Utilities::Integers*>(), { ".ctor", {}, {} })));

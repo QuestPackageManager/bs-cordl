@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::*)(::GlobalNamespace::IBeatSaberMultiplayerSessionManager*)>(
     &::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5edb6c8;
+  constexpr static std::size_t addrs = 0x5edb950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::*)()>(&::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::Init)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5edc6a8;
+  constexpr static std::size_t addrs = 0x5edc930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::*)()>(&::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::Tick)> {
   constexpr static std::size_t size = 0x9e0;
-  constexpr static std::size_t addrs = 0x5edc888;
+  constexpr static std::size_t addrs = 0x5edcb10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

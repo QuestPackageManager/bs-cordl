@@ -84,11 +84,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x642f99c, size 0x3ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x642ffec, size 0x3ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x642fd94, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x64303e4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -157,11 +157,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x642fe14, size 0x5b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6430464, size 0x5b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x643063c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6430c8c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -248,11 +248,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x64306a8, size 0x3cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6430cf8, size 0x3cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x6430b80, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x64311d0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -364,29 +364,29 @@ public:
   __declspec(property(get = __cordl_internal_get_locker, put = __cordl_internal_set_locker)) ::System::Object* locker;
 
   /// [AsyncStateMachine(typeof(Mono.Net.Security.AsyncProtocolRequest::<InnerRead>d__25))]
-  /// @brief Method InnerRead, addr 0x642f824, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method InnerRead, addr 0x642fe74, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* InnerRead(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::Mono::Net::Security::AsyncProtocolRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
   /// [AsyncStateMachine(typeof(Mono.Net.Security.AsyncProtocolRequest::<ProcessOperation>d__24))]
-  /// @brief Method ProcessOperation, addr 0x642f75c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ProcessOperation, addr 0x642fdac, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ProcessOperation(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method RequestRead, addr 0x642f5a4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RequestRead, addr 0x642fbf4, size 0xc0, virtual false, abstract: false, final false
   inline void RequestRead(int32_t size);
 
-  /// @brief Method RequestWrite, addr 0x642f664, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RequestWrite, addr 0x642fcb4, size 0xc, virtual false, abstract: false, final false
   inline void RequestWrite();
 
   /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
   /// [AsyncStateMachine(typeof(Mono.Net.Security.AsyncProtocolRequest::<StartOperation>d__23))]
-  /// @brief Method StartOperation, addr 0x642f670, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method StartOperation, addr 0x642fcc0, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::Mono::Net::Security::AsyncProtocolResult*>* StartOperation(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ToString, addr 0x642f914, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x642ff64, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_RequestedSize() const;
@@ -431,26 +431,26 @@ public:
 
   constexpr void __cordl_internal_set_locker(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x642f538, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642fb88, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
-  /// @brief Method get_Name, addr 0x642f500, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x642fb50, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Parent, addr 0x642f4f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x642fb40, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* get_Parent();
 
   /// [CompilerGenerated]
-  /// @brief Method get_RunSynchronously, addr 0x642f4f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RunSynchronously, addr 0x642fb48, size 0x8, virtual false, abstract: false, final false
   inline bool get_RunSynchronously();
 
   /// [CompilerGenerated]
-  /// @brief Method get_UserResult, addr 0x642f528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserResult, addr 0x642fb78, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_UserResult();
 
   /// [CompilerGenerated]
-  /// @brief Method set_UserResult, addr 0x642f530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UserResult, addr 0x642fb80, size 0x8, virtual false, abstract: false, final false
   inline void set_UserResult(int32_t value);
 
 protected:

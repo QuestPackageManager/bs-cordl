@@ -295,48 +295,48 @@ public:
   /// @brief Field shape, offset 0xa0, size 0x4
   __declspec(property(get = __cordl_internal_get_shape, put = __cordl_internal_set_shape)) ::GlobalNamespace::OVROverlayCanvas_CanvasShape shape;
 
-  /// @brief Method ApplyViewportScale, addr 0x62d0900, size 0xab0, virtual false, abstract: false, final false
+  /// @brief Method ApplyViewportScale, addr 0x62d0b88, size 0xab0, virtual false, abstract: false, final false
   inline void ApplyViewportScale();
 
-  /// @brief Method CalculateCurveViewBillboardMatrix, addr 0x62d1754, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method CalculateCurveViewBillboardMatrix, addr 0x62d19dc, size 0x418, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 CalculateCurveViewBillboardMatrix(::UnityEngine::Camera* mainCamera);
 
-  /// @brief Method InitializeRenderTexture, addr 0x62cf7a4, size 0x9c8, virtual false, abstract: false, final false
+  /// @brief Method InitializeRenderTexture, addr 0x62cfa2c, size 0x9c8, virtual false, abstract: false, final false
   inline void InitializeRenderTexture();
 
-  /// @brief Method LateUpdate, addr 0x62d16b8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x62d1940, size 0x98, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method LineCircleIntersection, addr 0x62d1e00, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method LineCircleIntersection, addr 0x62d2088, size 0xcc, virtual false, abstract: false, final false
   static inline bool LineCircleIntersection(::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 dp, ::UnityEngine::Vector2 center, float_t radius, ::by_ref<float_t> distance);
 
   static inline ::GlobalNamespace::OVROverlayCanvas* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x62d016c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x62d03f4, size 0xe4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x62d034c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x62d05d4, size 0x9c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x62d0250, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x62d04d8, size 0xfc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x62d1750, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x62d19d8, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RenderCamera, addr 0x62d13b0, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method RenderCamera, addr 0x62d1638, size 0x308, virtual false, abstract: false, final false
   inline void RenderCamera();
 
-  /// @brief Method ShouldRender, addr 0x62d03e8, size 0x4dc, virtual true, abstract: false, final false
+  /// @brief Method ShouldRender, addr 0x62d0670, size 0x4dc, virtual true, abstract: false, final false
   inline bool ShouldRender();
 
-  /// @brief Method Start, addr 0x62cf300, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x62cf588, size 0x4a4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TransformRay, addr 0x62d1b6c, size 0x294, virtual true, abstract: false, final false
+  /// @brief Method TransformRay, addr 0x62d1df4, size 0x294, virtual true, abstract: false, final false
   inline ::UnityEngine::Ray TransformRay(::UnityEngine::Ray ray);
 
-  /// @brief Method Update, addr 0x62d08c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x62d0b4c, size 0x3c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -507,21 +507,21 @@ public:
 
   constexpr void __cordl_internal_set_shape(::GlobalNamespace::OVROverlayCanvas_CanvasShape value);
 
-  /// @brief Method .ctor, addr 0x62d1ecc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62d2154, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::UnityEngine::Vector3> getStaticF__Corners();
 
   static inline ::ArrayW<::UnityEngine::Plane> getStaticF__FrustumPlanes();
 
-  /// @brief Method get_overlayEnabled, addr 0x62cf1ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overlayEnabled, addr 0x62cf474, size 0x8, virtual false, abstract: false, final false
   inline bool get_overlayEnabled();
 
   static inline void setStaticF__Corners(::ArrayW<::UnityEngine::Vector3> value);
 
   static inline void setStaticF__FrustumPlanes(::ArrayW<::UnityEngine::Plane> value);
 
-  /// @brief Method set_overlayEnabled, addr 0x62cf1f4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method set_overlayEnabled, addr 0x62cf47c, size 0x10c, virtual false, abstract: false, final false
   inline void set_overlayEnabled(bool value);
 
 protected:

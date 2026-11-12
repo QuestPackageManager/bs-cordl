@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::InspectedItemBase::*)()>(&::Meta::XR::ImmersiveDebugger::InspectedItemBase::get_Valid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e95848;
+  constexpr static std::size_t addrs = 0x5e95ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::InspectedItemBase*>(), { "get_Valid", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::InspectedItemBase::*)(bool)>(&::Meta::XR::ImmersiveDebugger::InspectedItemBase::set_Valid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e95850;
+  constexpr static std::size_t addrs = 0x5e95ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::ImmersiveDebugger::InspectedItemBase::*)()>(&::Meta::XR::ImmersiveDebugger::InspectedItemBase::get_Visible)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e94ea4;
+  constexpr static std::size_t addrs = 0x5e95124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::InspectedItemBase*>(), { "get_Visible", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::InspectedItemBase::*)()>(&::Meta::XR::ImmersiveDebugger::InspectedItemBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e95858;
+  constexpr static std::size_t addrs = 0x5e95ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::InspectedItemBase*>(), { ".ctor", {}, {} })));

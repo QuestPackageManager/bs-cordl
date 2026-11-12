@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_sslPolicyErrors(::System::Net::Security::SslPolicyErrors value);
 
-  /// @brief Method .ctor, addr 0x688c194, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x688c7e4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                     ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 
@@ -165,10 +165,10 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ValidationCallback,
                       put = __cordl_internal_set_m_ValidationCallback)) ::System::Net::Security::RemoteCertificateValidationCallback* m_ValidationCallback;
 
-  /// @brief Method Callback, addr 0x688bf80, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Callback, addr 0x688c5d0, size 0xb8, virtual false, abstract: false, final false
   inline void Callback(::System::Object* state);
 
-  /// @brief Method Invoke, addr 0x688c038, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x688c688, size 0x15c, virtual false, abstract: false, final false
   inline bool Invoke(::System::Object* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                      ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 
@@ -186,10 +186,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value);
 
-  /// @brief Method .ctor, addr 0x688bf08, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x688c558, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Security::RemoteCertificateValidationCallback* validationCallback);
 
-  /// @brief Method get_ValidationCallback, addr 0x688bf78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidationCallback, addr 0x688c5c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Security::RemoteCertificateValidationCallback* get_ValidationCallback();
 
 protected:

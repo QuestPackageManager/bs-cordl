@@ -59,13 +59,13 @@ public:
 
   static inline ::GlobalNamespace::CutoutEffect* New_ctor();
 
-  /// @brief Method SetCutout, addr 0x5ddcec8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetCutout, addr 0x5ddcfe4, size 0x5c, virtual false, abstract: false, final false
   inline void SetCutout(float_t cutout);
 
-  /// @brief Method SetCutout, addr 0x5ddd194, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetCutout, addr 0x5ddd2b0, size 0xe0, virtual false, abstract: false, final false
   inline void SetCutout(float_t cutout, ::UnityEngine::Vector3 cutoutOffset);
 
-  /// @brief Method Start, addr 0x5ddd158, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5ddd274, size 0x3c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__cutout() const;
@@ -98,14 +98,14 @@ public:
 
   constexpr void __cordl_internal_set__useRandomCutoutOffset(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x5ddd274, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ddd390, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__cutoutPropertyID();
 
   static inline int32_t getStaticF__cutoutTexOffsetPropertyID();
 
-  /// @brief Method get_useRandomCutoutOffset, addr 0x5ddd0b8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_useRandomCutoutOffset, addr 0x5ddd1d4, size 0xa0, virtual false, abstract: false, final false
   inline bool get_useRandomCutoutOffset();
 
   static inline void setStaticF__cutoutPropertyID(int32_t value);

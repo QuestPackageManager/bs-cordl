@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::BaseTransitionSO> (::GlobalNamespace::PositionRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::get_transition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a9de8;
+  constexpr static std::size_t addrs = 0x68aa440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(),
@@ -28,11 +28,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::TransitionToNormalState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x68a9df0;
+  constexpr static std::size_t addrs = 0x68aa448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 5 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 6 }));
     return ___internal_method;
   }
 };
@@ -42,11 +42,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::TransitionToHighlightedState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x68aa054;
+  constexpr static std::size_t addrs = 0x68aa6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 6 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -56,11 +56,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::TransitionToPressedState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x68aa070;
+  constexpr static std::size_t addrs = 0x68aa6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 7 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 8 }));
     return ___internal_method;
   }
 };
@@ -70,11 +70,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::TransitionToDisabledState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x68aa08c;
+  constexpr static std::size_t addrs = 0x68aa6e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 8 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -84,11 +84,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::TransitionToSelectedState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x68aa0a8;
+  constexpr static std::size_t addrs = 0x68aa700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 9 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -98,11 +98,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::TransitionToSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x68aa0c4;
+  constexpr static std::size_t addrs = 0x68aa71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 10 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -112,11 +112,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::SetNormalState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x68aa0e0;
+  constexpr static std::size_t addrs = 0x68aa738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 12 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 13 }));
     return ___internal_method;
   }
 };
@@ -126,11 +126,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::SetHighlightedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x68aa108;
+  constexpr static std::size_t addrs = 0x68aa760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 13 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 14 }));
     return ___internal_method;
   }
 };
@@ -140,11 +140,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::SetPressedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x68aa130;
+  constexpr static std::size_t addrs = 0x68aa788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 14 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 15 }));
     return ___internal_method;
   }
 };
@@ -154,11 +154,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::SetDisabledState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x68aa158;
+  constexpr static std::size_t addrs = 0x68aa7b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 15 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 16 }));
     return ___internal_method;
   }
 };
@@ -168,11 +168,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::SetSelectedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x68aa180;
+  constexpr static std::size_t addrs = 0x68aa7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 16 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 17 }));
     return ___internal_method;
   }
 };
@@ -182,11 +182,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::SetSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x68aa1a8;
+  constexpr static std::size_t addrs = 0x68aa800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 17 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 18 }));
     return ___internal_method;
   }
 };
@@ -196,11 +196,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::StopCurrentTransitionAnimation)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x68aa1d0;
+  constexpr static std::size_t addrs = 0x68aa828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(),
-                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 11 }));
+                                                                                          { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 12 }));
     return ___internal_method;
   }
 };
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)(::UnityEngine::Vector3, ::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::StartTween)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x68a9e0c;
+  constexpr static std::size_t addrs = 0x68aa464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)()>(&::GlobalNamespace::PositionRectTransformViewStateTransition::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x68aa268;
+  constexpr static std::size_t addrs = 0x68aa8c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), { ".ctor", {}, {} })));
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::_StartTween_b__17_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68aa2ac;
+  constexpr static std::size_t addrs = 0x68aa904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(),
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PositionRectTransformViewStateTransition::*)()>(
     &::GlobalNamespace::PositionRectTransformViewStateTransition::_StartTween_b__17_1)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x68aa2c4;
+  constexpr static std::size_t addrs = 0x68aa91c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,67 +290,67 @@ inline ::UnityW<::GlobalNamespace::BaseTransitionSO> GlobalNamespace::PositionRe
 }
 inline void GlobalNamespace::PositionRectTransformViewStateTransition::TransitionToNormalState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 5 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::PositionRectTransformViewStateTransition::TransitionToHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 6 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::PositionRectTransformViewStateTransition::TransitionToPressedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 7 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::PositionRectTransformViewStateTransition::TransitionToDisabledState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 8 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::PositionRectTransformViewStateTransition::TransitionToSelectedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 9 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::PositionRectTransformViewStateTransition::TransitionToSelectedAndHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 10 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 11 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
 inline void GlobalNamespace::PositionRectTransformViewStateTransition::SetNormalState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 12 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::PositionRectTransformViewStateTransition::SetHighlightedState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 13 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::PositionRectTransformViewStateTransition::SetPressedState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 14 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::PositionRectTransformViewStateTransition::SetDisabledState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 15 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 16 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::PositionRectTransformViewStateTransition::SetSelectedState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 16 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 17 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::PositionRectTransformViewStateTransition::SetSelectedAndHighlightedState() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 17 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::PositionRectTransformViewStateTransition::StopCurrentTransitionAnimation() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 11 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::PositionRectTransformViewStateTransition*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::PositionRectTransformViewStateTransition::StartTween(::UnityEngine::Vector3 endPosition, ::GlobalNamespace::TransitionTimingSO* transitionTiming) {

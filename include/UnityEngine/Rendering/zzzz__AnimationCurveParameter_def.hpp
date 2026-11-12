@@ -30,21 +30,21 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE AnimationCurveParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::AnimationCurve*> {
 public:
   // Declarations
-  /// @brief Method Clone, addr 0x6c2907c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x6c2a15c, size 0xec, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method GetHashCode, addr 0x6c29168, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c2a248, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Interp, addr 0x6c28fd0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Interp, addr 0x6c2a0b0, size 0xc, virtual true, abstract: false, final false
   inline void Interp(::UnityEngine::AnimationCurve* lhsCurve, ::UnityEngine::AnimationCurve* rhsCurve, float_t t);
 
   static inline ::UnityEngine::Rendering::AnimationCurveParameter* New_ctor(::UnityEngine::AnimationCurve* value, bool overrideState);
 
-  /// @brief Method SetValue, addr 0x6c28fdc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x6c2a0bc, size 0xa0, virtual true, abstract: false, final false
   inline void SetValue(::UnityEngine::Rendering::VolumeParameter* parameter);
 
-  /// @brief Method .ctor, addr 0x6c28f6c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2a04c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AnimationCurve* value, bool overrideState);
 
 protected:

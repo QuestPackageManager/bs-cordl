@@ -46,7 +46,7 @@ public:
   /// @brief Field s_PackedValues, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_PackedValues, put = setStaticF_s_PackedValues)) ::ArrayW<uint32_t> s_PackedValues;
 
-  /// @brief Method Pack, addr 0x6be6144, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Pack, addr 0x6be7224, size 0x12c, virtual false, abstract: false, final false
   inline void Pack(::by_ref<::ArrayW<uint32_t>> vals);
 
   static inline ::ArrayW<uint32_t> getStaticF_s_PackedValues();
@@ -133,39 +133,39 @@ public:
   /// @brief Field m_NeedUpdateComputeBuffer, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get_m_NeedUpdateComputeBuffer, put = __cordl_internal_set_m_NeedUpdateComputeBuffer)) bool m_NeedUpdateComputeBuffer;
 
-  /// @brief Method Cleanup, addr 0x6be6354, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6be7434, size 0x68, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method GetFlatIdxForEntry, addr 0x6be5d3c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetFlatIdxForEntry, addr 0x6be6e1c, size 0x30, virtual false, abstract: false, final false
   inline int32_t GetFlatIdxForEntry(::UnityEngine::Vector3Int entryPosition);
 
-  /// @brief Method GetFlatIndex, addr 0x6be5b54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetFlatIndex, addr 0x6be6c34, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetFlatIndex(::UnityEngine::Vector3Int normalizedPos);
 
-  /// @brief Method GetFlatIndicesForCell, addr 0x6be5d6c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetFlatIndicesForCell, addr 0x6be6e4c, size 0x140, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t> GetFlatIndicesForCell(::UnityEngine::Vector3Int cellPosition);
 
-  /// @brief Method GetGlobalIndirectionDimension, addr 0x6be5b00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalIndirectionDimension, addr 0x6be6be0, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3Int GetGlobalIndirectionDimension();
 
-  /// @brief Method GetGlobalIndirectionMinEntry, addr 0x6be5b10, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalIndirectionMinEntry, addr 0x6be6bf0, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3Int GetGlobalIndirectionMinEntry();
 
-  /// @brief Method GetMinMaxEntry, addr 0x6be5adc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetMinMaxEntry, addr 0x6be6bbc, size 0x24, virtual false, abstract: false, final false
   inline void GetMinMaxEntry(::by_ref<::UnityEngine::Vector3Int> minEntry, ::by_ref<::UnityEngine::Vector3Int> maxEntry);
 
-  /// @brief Method GetRuntimeResources, addr 0x6be6320, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeResources, addr 0x6be7400, size 0x34, virtual false, abstract: false, final false
   inline void GetRuntimeResources(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_RuntimeResources> rr);
 
-  /// @brief Method MarkEntriesAsUnloaded, addr 0x6be6270, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method MarkEntriesAsUnloaded, addr 0x6be7350, size 0x84, virtual false, abstract: false, final false
   inline void MarkEntriesAsUnloaded(::ArrayW<int32_t> entriesFlatIndices);
 
   static inline ::UnityEngine::Rendering::ProbeGlobalIndirection* New_ctor(::UnityEngine::Vector3Int cellMin, ::UnityEngine::Vector3Int cellMax, int32_t cellSizeInMinBricks);
 
-  /// @brief Method PushComputeData, addr 0x6be62f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method PushComputeData, addr 0x6be73d4, size 0x2c, virtual false, abstract: false, final false
   inline void PushComputeData();
 
-  /// @brief Method UpdateCell, addr 0x6be5eac, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method UpdateCell, addr 0x6be6f8c, size 0x298, virtual false, abstract: false, final false
   inline void UpdateCell(::UnityEngine::Rendering::ProbeReferenceVolume_CellIndexInfo* cellInfo);
 
   constexpr int32_t const& __cordl_internal_get__estimatedVMemCost_k__BackingField() const;
@@ -216,21 +216,21 @@ public:
 
   constexpr void __cordl_internal_set_m_NeedUpdateComputeBuffer(bool value);
 
-  /// @brief Method .ctor, addr 0x6be5b6c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be6c4c, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3Int cellMin, ::UnityEngine::Vector3Int cellMax, int32_t cellSizeInMinBricks);
 
-  /// @brief Method get_entriesPerCellDimension, addr 0x6be5b34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_entriesPerCellDimension, addr 0x6be6c14, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_entriesPerCellDimension();
 
-  /// @brief Method get_entrySizeInBricks, addr 0x6be5b20, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_entrySizeInBricks, addr 0x6be6c00, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_entrySizeInBricks();
 
   /// [CompilerGenerated]
-  /// @brief Method get_estimatedVMemCost, addr 0x6be5acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_estimatedVMemCost, addr 0x6be6bac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_estimatedVMemCost();
 
   /// [CompilerGenerated]
-  /// @brief Method set_estimatedVMemCost, addr 0x6be5ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_estimatedVMemCost, addr 0x6be6bb4, size 0x8, virtual false, abstract: false, final false
   inline void set_estimatedVMemCost(int32_t value);
 
 protected:

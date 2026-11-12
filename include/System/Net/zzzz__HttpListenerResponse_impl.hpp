@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerResponse::*)(::System::Net::HttpListenerContext*)>(&::System::Net::HttpListenerResponse::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x679398c;
+  constexpr static std::size_t addrs = 0x6793fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::HttpListenerResponse::*)()>(&::System::Net::HttpListenerResponse::get_ForceCloseChunked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6793a84;
+  constexpr static std::size_t addrs = 0x67940d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerResponse*>(), { "get_ForceCloseChunked", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (::System::Net::HttpListenerResponse::*)()>(&::System::Net::HttpListenerResponse::get_ContentEncoding)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6793a8c;
+  constexpr static std::size_t addrs = 0x67940dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerResponse*>(), { "get_ContentEncoding", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerResponse::*)(int64_t)>(&::System::Net::HttpListenerResponse::set_ContentLength64)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6793aac;
+  constexpr static std::size_t addrs = 0x67940fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerResponse::*)(::StringW)>(&::System::Net::HttpListenerResponse::set_ContentType)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6793bcc;
+  constexpr static std::size_t addrs = 0x679421c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::WebHeaderCollection* (::System::Net::HttpListenerResponse::*)()>(&::System::Net::HttpListenerResponse::get_Headers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6793c98;
+  constexpr static std::size_t addrs = 0x67942e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerResponse*>(), { "get_Headers", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::System::Net::HttpListenerResponse::*)()>(&::System::Net::HttpListenerResponse::get_OutputStream)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6793ca0;
+  constexpr static std::size_t addrs = 0x67942f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerResponse*>(), { "get_OutputStream", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::HttpListenerResponse::*)()>(&::System::Net::HttpListenerResponse::get_SendChunked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6793cd8;
+  constexpr static std::size_t addrs = 0x6794328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerResponse*>(), { "get_SendChunked", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerResponse::*)(bool)>(&::System::Net::HttpListenerResponse::set_SendChunked)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6793ce0;
+  constexpr static std::size_t addrs = 0x6794330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerResponse::*)(int32_t)>(&::System::Net::HttpListenerResponse::set_StatusCode)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6793db0;
+  constexpr static std::size_t addrs = 0x6794400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerResponse::*)()>(&::System::Net::HttpListenerResponse::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6793ed4;
+  constexpr static std::size_t addrs = 0x6794524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerResponse*>(), { "System.IDisposable.Dispose", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerResponse::*)(bool)>(&::System::Net::HttpListenerResponse::Close)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6793edc;
+  constexpr static std::size_t addrs = 0x679452c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerResponse*>(), { "Close", {}, { ::i2c::type_of<bool>() } })));
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerResponse::*)()>(&::System::Net::HttpListenerResponse::Close)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6793f0c;
+  constexpr static std::size_t addrs = 0x679455c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerResponse*>(), { "Close", {}, {} })));
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerResponse::*)(::ArrayW<uint8_t>, bool)>(&::System::Net::HttpListenerResponse::Close)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6793f20;
+  constexpr static std::size_t addrs = 0x6794570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerResponse::*)(bool, ::System::IO::MemoryStream*)>(&::System::Net::HttpListenerResponse::SendHeaders)> {
   constexpr static std::size_t size = 0xa00;
-  constexpr static std::size_t addrs = 0x6793fd8;
+  constexpr static std::size_t addrs = 0x6794628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Net::WebHeaderCollection*)>(&::System::Net::HttpListenerResponse::FormatHeaders)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x6794c58;
+  constexpr static std::size_t addrs = 0x67952a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Net::Cookie*)>(&::System::Net::HttpListenerResponse::CookieToClientString)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x67949d8;
+  constexpr static std::size_t addrs = 0x6795028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Net::Cookie*, ::StringW)>(&::System::Net::HttpListenerResponse::QuotedString)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6794ea4;
+  constexpr static std::size_t addrs = 0x67954f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -246,7 +246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::Net::HttpListenerResponse::IsToken)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6794f8c;
+  constexpr static std::size_t addrs = 0x67955dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

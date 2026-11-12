@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::FileSystemHelper::FindFirstExistedParentPath)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x35b72c4;
+  constexpr static std::size_t addrs = 0x35bac40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::AccessControl::FileSystemSecurity*)>(&::GlobalNamespace::FileSystemHelper::HasWritePermission)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x35b7358;
+  constexpr static std::size_t addrs = 0x35bacd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::FileSystemHelper::HasWritePermissionOnDirectory)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x35b7690;
+  constexpr static std::size_t addrs = 0x35bb00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::FileSystemHelper::HasWritePermissionOnFile)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x35b76a4;
+  constexpr static std::size_t addrs = 0x35bb020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::FileSystemHelper::IsFileWritable)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x35b76b8;
+  constexpr static std::size_t addrs = 0x35bb034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

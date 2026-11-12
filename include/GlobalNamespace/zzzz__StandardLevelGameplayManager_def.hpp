@@ -112,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set_continueGameplayWith0Energy(bool value);
 
-  /// @brief Method .ctor, addr 0x5e06d1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e07120, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool continueGameplayWith0Energy);
 
 protected:
@@ -130,7 +130,7 @@ public:
   StandardLevelGameplayManager_InitData(StandardLevelGameplayManager_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6138 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6139 };
 
   /// @brief Field continueGameplayWith0Energy, offset: 0x10, size: 0x1, def value: None
   bool ___continueGameplayWith0Energy;
@@ -198,7 +198,7 @@ public:
   static ::GlobalNamespace::StandardLevelGameplayManager_GameState const Resuming;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6139 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6140 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -244,26 +244,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5e06d28, size 0x780, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e0712c, size 0x780, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::StandardLevelGameplayManager__Start_d__27* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e074a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e078ac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e074b0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e078b4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e074e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e078ec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5e06d24, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5e07128, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -285,7 +285,7 @@ public:
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::StandardLevelGameplayManager> value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5e06774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e06b78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -312,7 +312,7 @@ public:
   StandardLevelGameplayManager__Start_d__27(StandardLevelGameplayManager__Start_d__27 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6140 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6141 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -407,37 +407,37 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILevelStartController"
   constexpr operator ::GlobalNamespace::ILevelStartController*() noexcept;
 
-  /// @brief Method Awake, addr 0x5e06718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e06b1c, size 0x8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleGameEnergyDidReach0, addr 0x5e06ba4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEnergyDidReach0, addr 0x5e06fa8, size 0x50, virtual false, abstract: false, final false
   inline void HandleGameEnergyDidReach0();
 
-  /// @brief Method HandlePauseControllerCanPause, addr 0x5e06c28, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerCanPause, addr 0x5e0702c, size 0x38, virtual false, abstract: false, final false
   inline void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
 
-  /// @brief Method HandlePauseControllerDidPause, addr 0x5e06c60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerDidPause, addr 0x5e07064, size 0x1c, virtual false, abstract: false, final false
   inline void HandlePauseControllerDidPause();
 
-  /// @brief Method HandlePauseControllerDidResume, addr 0x5e06c94, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerDidResume, addr 0x5e07098, size 0x18, virtual false, abstract: false, final false
   inline void HandlePauseControllerDidResume();
 
-  /// @brief Method HandlePauseControllerDidStartResume, addr 0x5e06c7c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerDidStartResume, addr 0x5e07080, size 0x18, virtual false, abstract: false, final false
   inline void HandlePauseControllerDidStartResume();
 
-  /// @brief Method HandleSongDidFinish, addr 0x5e06bf4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleSongDidFinish, addr 0x5e06ff8, size 0x34, virtual false, abstract: false, final false
   inline void HandleSongDidFinish();
 
   static inline ::GlobalNamespace::StandardLevelGameplayManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5e0677c, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5e06b80, size 0x3c8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   /// [IteratorStateMachine(typeof(StandardLevelGameplayManager::<Start>d__27))]
-  /// @brief Method Start, addr 0x5e06720, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e06b24, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
-  /// @brief Method Update, addr 0x5e06b44, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e06f48, size 0x60, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -530,24 +530,24 @@ public:
 
   constexpr void __cordl_internal_set_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x5e06cac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e070b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_levelDidStartEvent, addr 0x5e06308, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_levelDidStartEvent, addr 0x5e0670c, size 0xac, virtual true, abstract: false, final true
   inline void add_levelDidStartEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_levelFailedEvent, addr 0x5e065b8, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_levelFailedEvent, addr 0x5e069bc, size 0xac, virtual true, abstract: false, final true
   inline void add_levelFailedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_levelFinishedEvent, addr 0x5e06460, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_levelFinishedEvent, addr 0x5e06864, size 0xac, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action* value);
 
   static inline ::UnityEngine::WaitForFixedUpdate* getStaticF_kWaitForFixedUpdate();
 
-  /// @brief Method get_levelEndStateType, addr 0x5e06710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelEndStateType, addr 0x5e06b14, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType get_levelEndStateType();
 
   /// @brief Convert to "::GlobalNamespace::ILevelEndActions"
@@ -557,15 +557,15 @@ public:
   constexpr ::GlobalNamespace::ILevelStartController* i___GlobalNamespace__ILevelStartController() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_levelDidStartEvent, addr 0x5e063b4, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_levelDidStartEvent, addr 0x5e067b8, size 0xac, virtual true, abstract: false, final true
   inline void remove_levelDidStartEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_levelFailedEvent, addr 0x5e06664, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFailedEvent, addr 0x5e06a68, size 0xac, virtual true, abstract: false, final true
   inline void remove_levelFailedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_levelFinishedEvent, addr 0x5e0650c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFinishedEvent, addr 0x5e06910, size 0xac, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action* value);
 
   static inline void setStaticF_kWaitForFixedUpdate(::UnityEngine::WaitForFixedUpdate* value);
@@ -585,7 +585,7 @@ public:
   StandardLevelGameplayManager(StandardLevelGameplayManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6142 };
 
   /// [Inject]
   /// @brief Field _gameScenesManager, offset: 0x20, size: 0x8, def value: None

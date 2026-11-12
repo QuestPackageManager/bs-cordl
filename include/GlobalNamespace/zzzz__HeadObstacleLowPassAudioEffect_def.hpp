@@ -39,7 +39,7 @@ public:
 
   static inline ::GlobalNamespace::HeadObstacleLowPassAudioEffect* New_ctor();
 
-  /// @brief Method Update, addr 0x5decbf8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5decd24, size 0x7c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__headWasInObstacle() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__playerHeadAndObstacleInteraction(::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> value);
 
-  /// @brief Method .ctor, addr 0x5decc74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5decda0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

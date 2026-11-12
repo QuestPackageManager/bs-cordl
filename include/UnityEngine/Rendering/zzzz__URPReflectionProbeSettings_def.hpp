@@ -42,10 +42,10 @@ public:
 
   static inline ::UnityEngine::Rendering::URPReflectionProbeSettings* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6cb2764, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6cb3844, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x6cb275c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x6cb383c, size 0x8, virtual true, abstract: false, final true
   inline int32_t UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version();
 
   constexpr bool const& __cordl_internal_get_useReflectionProbeRotation() const;
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6cb2774, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb3854, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_UseReflectionProbeRotation, addr 0x6cb276c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseReflectionProbeRotation, addr 0x6cb384c, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseReflectionProbeRotation();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"

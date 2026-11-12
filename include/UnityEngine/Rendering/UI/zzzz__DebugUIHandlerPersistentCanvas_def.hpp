@@ -62,7 +62,7 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <Toggle>b__0, addr 0x6c71288, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Toggle>b__0, addr 0x6c72368, size 0x20, virtual false, abstract: false, final false
   inline bool _Toggle_b__0(::UnityEngine::Rendering::UI::DebugUIHandlerValue* x);
 
   constexpr ::UnityEngine::Rendering::DebugUI_Value* const& __cordl_internal_get_widget() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_widget(::UnityEngine::Rendering::DebugUI_Value* value);
 
-  /// @brief Method .ctor, addr 0x6c70c4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c71d2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,7 +115,7 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <Toggle>b__0, addr 0x6c712a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Toggle>b__0, addr 0x6c72388, size 0x10, virtual false, abstract: false, final false
   inline bool _Toggle_b__0(::UnityEngine::Rendering::DebugUI_ValueTuple* x);
 
   constexpr ::UnityEngine::Rendering::DebugUI_ValueTuple* const& __cordl_internal_get_widget() const;
@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set_widget(::UnityEngine::Rendering::DebugUI_ValueTuple* value);
 
-  /// @brief Method .ctor, addr 0x6c70fd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c720b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -180,18 +180,18 @@ public:
   /// @brief Field valuePrefab, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_valuePrefab, put = __cordl_internal_set_valuePrefab)) ::UnityW<::UnityEngine::RectTransform> valuePrefab;
 
-  /// @brief Method Clear, addr 0x6c71030, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6c72110, size 0x198, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method IsEmpty, addr 0x6c70fd8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x6c720b8, size 0x58, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerPersistentCanvas* New_ctor();
 
-  /// @brief Method Toggle, addr 0x6c70964, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method Toggle, addr 0x6c71a44, size 0x2e8, virtual false, abstract: false, final false
   inline void Toggle(::UnityEngine::Rendering::DebugUI_Value* widget, ::StringW displayName);
 
-  /// @brief Method Toggle, addr 0x6c70c50, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method Toggle, addr 0x6c71d30, size 0x384, virtual false, abstract: false, final false
   inline void Toggle(::UnityEngine::Rendering::DebugUI_ValueTuple* widget, ::System::Nullable_1<int32_t> forceTupleIndex);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerValue>>* const& __cordl_internal_get_m_Items() const;
@@ -218,7 +218,7 @@ public:
 
   constexpr void __cordl_internal_set_valuePrefab(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x6c711c8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c722a8, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

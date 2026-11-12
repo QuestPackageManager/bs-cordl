@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5d9c5a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9c720, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::GlobalNamespace::IRefreshable* refreshable, ::UnityEngine::GameObject* gameObject);
 
 protected:
@@ -223,42 +223,42 @@ public:
 
   __declspec(property(get = get_playerSettings)) ::GlobalNamespace::PlayerSpecificSettings* playerSettings;
 
-  /// @brief Method DidActivate, addr 0x5d9be4c, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5d9bfc8, size 0x24c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5d9c144, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5d9c2c0, size 0xe4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers, addr 0x5d9c478, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers, addr 0x5d9c5f4, size 0x4c, virtual false, abstract: false, final false
   inline void HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers();
 
-  /// @brief Method HandlePlayerSettingsPanelControllerDidChangePlayerSettings, addr 0x5d9c448, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerSettingsPanelControllerDidChangePlayerSettings, addr 0x5d9c5c4, size 0x30, virtual false, abstract: false, final false
   inline void HandlePlayerSettingsPanelControllerDidChangePlayerSettings();
 
-  /// @brief Method HandleSelectionSegmentedControlDidSelectCell, addr 0x5d9c384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectionSegmentedControlDidSelectCell, addr 0x5d9c500, size 0x8, virtual false, abstract: false, final false
   inline void HandleSelectionSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
-  /// @brief Method Init, addr 0x5d9b638, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5d9b7b4, size 0x90, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::GameplaySetupViewController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5d9c228, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5d9c3a4, size 0x15c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RefreshActivePanel, addr 0x5d9c4c4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RefreshActivePanel, addr 0x5d9c640, size 0xe0, virtual false, abstract: false, final false
   inline void RefreshActivePanel();
 
-  /// @brief Method RefreshContent, addr 0x5d9b6e0, size 0x6bc, virtual false, abstract: false, final false
+  /// @brief Method RefreshContent, addr 0x5d9b85c, size 0x6bc, virtual false, abstract: false, final false
   inline void RefreshContent();
 
-  /// @brief Method SetActivePanel, addr 0x5d9c38c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetActivePanel, addr 0x5d9c508, size 0xbc, virtual false, abstract: false, final false
   inline void SetActivePanel(int32_t panelIdx);
 
-  /// @brief Method SetIsInteractable, addr 0x5d9bd9c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetIsInteractable, addr 0x5d9bf18, size 0x90, virtual false, abstract: false, final false
   inline void SetIsInteractable(bool interactable);
 
-  /// @brief Method Setup, addr 0x5d9b598, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5d8e12c, size 0xa0, virtual false, abstract: false, final false
   inline void Setup(bool showModifiers, bool showEnvironmentOverrideSettings, bool showColorSchemesSettings, bool showMultiplayer,
                     ::GlobalNamespace::PlayerSettingsPanelController_PlayerSettingsPanelLayout playerSettingsPanelLayout);
 
@@ -352,19 +352,19 @@ public:
 
   constexpr void __cordl_internal_set__showMultiplayer(bool value);
 
-  /// @brief Method .ctor, addr 0x5d9c5b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9c72c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorSchemesSettings, addr 0x5d9b574, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_colorSchemesSettings, addr 0x5d8e014, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
 
-  /// @brief Method get_environmentOverrideSettings, addr 0x5d9b550, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_environmentOverrideSettings, addr 0x5d8dff0, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OverrideEnvironmentSettings* get_environmentOverrideSettings();
 
-  /// @brief Method get_gameplayModifiers, addr 0x5d9b538, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x5d8d55c, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_playerSettings, addr 0x5d9b220, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_playerSettings, addr 0x5d8d50c, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSettings();
 
 protected:

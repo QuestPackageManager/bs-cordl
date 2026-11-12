@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set_TagReader(::Newtonsoft::Json::Utilities::FSharpFunction* value);
 
-  /// @brief Method .ctor, addr 0x61efca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61eff2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Utilities::FSharpFunction* tagReader, ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_UnionCase*>* cases);
 
 protected:
@@ -202,7 +202,7 @@ public:
 
   constexpr void __cordl_internal_set_Tag(int32_t value);
 
-  /// @brief Method .ctor, addr 0x61efcac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61eff34, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t tag, ::StringW name, ::ArrayW<::System::Reflection::PropertyInfo*> fields, ::Newtonsoft::Json::Utilities::FSharpFunction* fieldReader,
                     ::Newtonsoft::Json::Utilities::FSharpFunction* constructor);
 
@@ -268,7 +268,7 @@ public:
   static inline ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter___c__DisplayClass8_0* New_ctor();
 
   /// [NullableContext(0)]
-  /// @brief Method <WriteJson>b__0, addr 0x61f0c48, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <WriteJson>b__0, addr 0x61f0ed0, size 0x20, virtual false, abstract: false, final false
   inline bool _WriteJson_b__0(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_UnionCase* c);
 
   constexpr int32_t const& __cordl_internal_get_tag() const;
@@ -277,7 +277,7 @@ public:
 
   constexpr void __cordl_internal_set_tag(int32_t value);
 
-  /// @brief Method .ctor, addr 0x61f01b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f043c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -325,7 +325,7 @@ public:
   static inline ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter___c__DisplayClass9_0* New_ctor();
 
   /// [NullableContext(0)]
-  /// @brief Method <ReadJson>b__0, addr 0x61f0c68, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <ReadJson>b__0, addr 0x61f0ef0, size 0x1c, virtual false, abstract: false, final false
   inline bool _ReadJson_b__0(::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_UnionCase* c);
 
   constexpr ::System::Func_2<::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_UnionCase*, bool>* const& __cordl_internal_get___9__0() const;
@@ -340,7 +340,7 @@ public:
 
   constexpr void __cordl_internal_set_caseName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x61f0834, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f0abc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -403,25 +403,25 @@ public:
   __declspec(property(get = getStaticF_UnionTypeLookupCache,
                       put = setStaticF_UnionTypeLookupCache)) ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::System::Type*>* UnionTypeLookupCache;
 
-  /// @brief Method CanConvert, addr 0x61f0838, size 0x28c, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x61f0ac0, size 0x28c, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method CreateUnion, addr 0x61ef4e8, size 0x7bc, virtual false, abstract: false, final false
+  /// @brief Method CreateUnion, addr 0x61ef770, size 0x7bc, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_Union* CreateUnion(::System::Type* t);
 
-  /// @brief Method CreateUnionTypeLookup, addr 0x61ef2dc, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method CreateUnionTypeLookup, addr 0x61ef564, size 0x20c, virtual false, abstract: false, final false
   static inline ::System::Type* CreateUnionTypeLookup(::System::Type* t);
 
   static inline ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x61f01b8, size 0x67c, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x61f0440, size 0x67c, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue,
                                     ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x61efcbc, size 0x4f8, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x61eff44, size 0x4f8, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x61f0ac4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f0d4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Type*, ::Newtonsoft::Json::Converters::DiscriminatedUnionConverter_Union*>* getStaticF_UnionCache();

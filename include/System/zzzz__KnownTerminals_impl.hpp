@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)()>(&::System::KnownTerminals::get_linux)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x60e92b8;
+  constexpr static std::size_t addrs = 0x60e9540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::KnownTerminals*>(), { "get_linux", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)()>(&::System::KnownTerminals::get_xterm)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x60e9330;
+  constexpr static std::size_t addrs = 0x60e95b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::KnownTerminals*>(), { "get_xterm", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)()>(&::System::KnownTerminals::get_ansi)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x60e93a8;
+  constexpr static std::size_t addrs = 0x60e9630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::KnownTerminals*>(), { "get_ansi", {}, {} })));

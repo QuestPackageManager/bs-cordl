@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellInstancedDebugProbes::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellInstancedDebugProbes::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6be6774;
+  constexpr static std::size_t addrs = 0x6be7854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_RenderFragmentationOverlayPassData::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_RenderFragmentationOverlayPassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6be6778;
+  constexpr static std::size_t addrs = 0x6be7858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::*)(int32_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6be677c;
+  constexpr static std::size_t addrs = 0x6be785c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::*)(int32_t, int32_t, uint8_t*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::AddReadCommand)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6be67f8;
+  constexpr static std::size_t addrs = 0x6be78d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::*)(::Unity::IO::LowLevel::Unsafe::FileHandle)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::RunCommands)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6be6834;
+  constexpr static std::size_t addrs = 0x6be7914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest*>(),
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::Clear)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6be68a0;
+  constexpr static std::size_t addrs = 0x6be7980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -401,7 +401,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::Cancel)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6be6918;
+  constexpr static std::size_t addrs = 0x6be79f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -415,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::Wait)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6be6948;
+  constexpr static std::size_t addrs = 0x6be7a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -429,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::Dispose)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6be69ac;
+  constexpr static std::size_t addrs = 0x6be7a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -443,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::IO::LowLevel::Unsafe::ReadStatus (::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest::GetStatus)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6be69f8;
+  constexpr static std::size_t addrs = 0x6be7ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -605,7 +605,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_BufferLayoutBuilder::*)(int32_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_BufferLayoutBuilder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be6a2c;
+  constexpr static std::size_t addrs = 0x6be7b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -619,7 +619,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume_BufferLayoutBuilder::*)(int32_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_BufferLayoutBuilder::AddBlock)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6be6a34;
+  constexpr static std::size_t addrs = 0x6be7b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -649,7 +649,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer::*)(int32_t, int32_t, bool)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6be6a48;
+  constexpr static std::size_t addrs = 0x6be7b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer*>(),
@@ -663,7 +663,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer::Swap)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6be6b98;
+  constexpr static std::size_t addrs = 0x6be7c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -677,7 +677,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer::Dispose)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6be6bb4;
+  constexpr static std::size_t addrs = 0x6be7c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -691,7 +691,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GraphicsBuffer* (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer::get_buffer)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6be38e4;
+  constexpr static std::size_t addrs = 0x6be49c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -705,7 +705,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer::get_chunkCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be6c48;
+  constexpr static std::size_t addrs = 0x6be7d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -719,7 +719,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer::get_chunkSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be6c50;
+  constexpr static std::size_t addrs = 0x6be7d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -840,7 +840,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6be7134;
+  constexpr static std::size_t addrs = 0x6be8214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -856,7 +856,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest*, ::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6be727c;
+  constexpr static std::size_t addrs = 0x6be835c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -873,7 +873,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                         ::UnityEngine::Rendering::CommandBuffer*, ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6be7290;
+  constexpr static std::size_t addrs = 0x6be8370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -888,7 +888,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate::*)(::System::IAsyncResult*)>(
     &::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be72b8;
+  constexpr static std::size_t addrs = 0x6be8398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -935,7 +935,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ProbeReferenceVolume_Cell* (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::get_cell)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be6c58;
+  constexpr static std::size_t addrs = 0x6be7d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -949,7 +949,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::set_cell)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be6c60;
+  constexpr static std::size_t addrs = 0x6be7d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest*>(),
@@ -963,7 +963,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_State (
     ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::get_state)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be6c68;
+  constexpr static std::size_t addrs = 0x6be7d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -977,7 +977,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)(
     ::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_State)>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::set_state)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be6c70;
+  constexpr static std::size_t addrs = 0x6be7d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -992,7 +992,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer* (
     ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::get_scratchBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be6c78;
+  constexpr static std::size_t addrs = 0x6be7d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1006,7 +1006,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)(
     ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer*)>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::set_scratchBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be6c80;
+  constexpr static std::size_t addrs = 0x6be7d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1021,7 +1021,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout (
     ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::get_scratchBufferLayout)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6be6c88;
+  constexpr static std::size_t addrs = 0x6be7d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1035,7 +1035,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)(
     ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout)>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::set_scratchBufferLayout)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be6c98;
+  constexpr static std::size_t addrs = 0x6be7d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1050,7 +1050,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo* (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::get_scenarioData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be6ca4;
+  constexpr static std::size_t addrs = 0x6be7d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1064,7 +1064,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)(
     ::UnityEngine::Rendering::ProbeVolumeBakingSet_PerScenarioDataInfo*)>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::set_scenarioData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be6cac;
+  constexpr static std::size_t addrs = 0x6be7d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1079,7 +1079,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::get_poolIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be6cb4;
+  constexpr static std::size_t addrs = 0x6be7d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1093,7 +1093,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)(int32_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::set_poolIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be6cbc;
+  constexpr static std::size_t addrs = 0x6be7d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1107,7 +1107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::get_streamSharedData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be6cc4;
+  constexpr static std::size_t addrs = 0x6be7da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1121,7 +1121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)(bool)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::set_streamSharedData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be6ccc;
+  constexpr static std::size_t addrs = 0x6be7dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1135,7 +1135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::IsStreaming)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6be6cd4;
+  constexpr static std::size_t addrs = 0x6be7db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1149,7 +1149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::Cancel)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6be6ce4;
+  constexpr static std::size_t addrs = 0x6be7dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1163,7 +1163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::WaitAll)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6be6dec;
+  constexpr static std::size_t addrs = 0x6be7ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1177,7 +1177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)(
     ::UnityEngine::Rendering::ProbeReferenceVolume_DiskStreamingRequest*, ::by_ref<bool>)>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::UpdateRequestState)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6be6e58;
+  constexpr static std::size_t addrs = 0x6be7f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1193,7 +1193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::UpdateState)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6be6ecc;
+  constexpr static std::size_t addrs = 0x6be7fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1207,7 +1207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::Clear)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be6f98;
+  constexpr static std::size_t addrs = 0x6be8078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1221,7 +1221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::Reset)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6be6fa0;
+  constexpr static std::size_t addrs = 0x6be8080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1235,7 +1235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::Dispose)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6be7008;
+  constexpr static std::size_t addrs = 0x6be80e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1249,7 +1249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6be7060;
+  constexpr static std::size_t addrs = 0x6be8140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1614,7 +1614,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc::ToString)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6be72c4;
+  constexpr static std::size_t addrs = 0x6be83a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>(),
@@ -1627,7 +1627,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6be7398;
+  constexpr static std::size_t addrs = 0x6be8478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellDesc*>(), { ".ctor", {}, {} })));
@@ -1772,7 +1772,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<uint16_t> (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellData::get_skyOcclusionDataL0L1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be739c;
+  constexpr static std::size_t addrs = 0x6be847c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1786,7 +1786,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)(::Unity::Collections::NativeArray_1<uint16_t>)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellData::set_skyOcclusionDataL0L1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be73a8;
+  constexpr static std::size_t addrs = 0x6be8488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>(),
@@ -1800,7 +1800,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellData::get_skyShadingDirectionIndices)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be73b0;
+  constexpr static std::size_t addrs = 0x6be8490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1814,7 +1814,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)(::Unity::Collections::NativeArray_1<uint8_t>)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellData::set_skyShadingDirectionIndices)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be73bc;
+  constexpr static std::size_t addrs = 0x6be849c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1829,7 +1829,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick> (
     ::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellData::get_bricks)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be73c4;
+  constexpr static std::size_t addrs = 0x6be84a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>(), { "get_bricks", {}, {} })));
@@ -1842,7 +1842,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)(
     ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick>)>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellData::set_bricks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be73d0;
+  constexpr static std::size_t addrs = 0x6be84b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1857,7 +1857,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellData::get_probePositions)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be73d8;
+  constexpr static std::size_t addrs = 0x6be84b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1871,7 +1871,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellData::set_probePositions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be73e4;
+  constexpr static std::size_t addrs = 0x6be84c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1886,7 +1886,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<float_t> (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellData::get_touchupVolumeInteraction)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be73ec;
+  constexpr static std::size_t addrs = 0x6be84cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1900,7 +1900,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)(::Unity::Collections::NativeArray_1<float_t>)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellData::set_touchupVolumeInteraction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be73f8;
+  constexpr static std::size_t addrs = 0x6be84d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1915,7 +1915,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellData::get_offsetVectors)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be7400;
+  constexpr static std::size_t addrs = 0x6be84e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1929,7 +1929,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)(::Unity::Collections::NativeArray_1<::UnityEngine::Vector3>)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellData::set_offsetVectors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be740c;
+  constexpr static std::size_t addrs = 0x6be84ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1944,7 +1944,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<float_t> (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellData::get_validity)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be7414;
+  constexpr static std::size_t addrs = 0x6be84f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>(), { "get_validity", {}, {} })));
@@ -1957,7 +1957,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)(::Unity::Collections::NativeArray_1<float_t>)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellData::set_validity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be7420;
+  constexpr static std::size_t addrs = 0x6be8500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>(),
@@ -1971,7 +1971,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellData::get_layer)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be7428;
+  constexpr static std::size_t addrs = 0x6be8508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>(), { "get_layer", {}, {} })));
@@ -1984,7 +1984,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)(::Unity::Collections::NativeArray_1<uint8_t>)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellData::set_layer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be7434;
+  constexpr static std::size_t addrs = 0x6be8514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>(),
@@ -1998,7 +1998,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)(
     ::by_ref<::UnityEngine::Rendering::CellData_ProbeReferenceVolume_PerScenarioData const>)>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellData::CleanupPerScenarioData)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6be743c;
+  constexpr static std::size_t addrs = 0x6be851c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2012,7 +2012,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellData::Cleanup)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x6be7580;
+  constexpr static std::size_t addrs = 0x6be8660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2025,7 +2025,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellData::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellData::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6be7950;
+  constexpr static std::size_t addrs = 0x6be8a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellData*>(), { ".ctor", {}, {} })));
@@ -2264,7 +2264,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellPoolInfo::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellPoolInfo::Clear)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6be79e8;
+  constexpr static std::size_t addrs = 0x6be8ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellPoolInfo*>(), { "Clear", {}, {} })));
@@ -2276,7 +2276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellPoolInfo::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume_CellPoolInfo::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6be7a40;
+  constexpr static std::size_t addrs = 0x6be8b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellPoolInfo*>(), { ".ctor", {}, {} })));
@@ -2329,7 +2329,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellIndexInfo::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellIndexInfo::Clear)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6be7ab4;
+  constexpr static std::size_t addrs = 0x6be8b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellIndexInfo*>(), { "Clear", {}, {} })));
@@ -2342,7 +2342,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellIndexInfo::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellIndexInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6be7ac4;
+  constexpr static std::size_t addrs = 0x6be8ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellIndexInfo*>(), { ".ctor", {}, {} })));
@@ -2430,7 +2430,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo::MarkUpToDate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be7ac8;
+  constexpr static std::size_t addrs = 0x6be8ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2444,7 +2444,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo::IsUpToDate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6be7ad4;
+  constexpr static std::size_t addrs = 0x6be8bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2458,7 +2458,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo::ForceReupload)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be7aec;
+  constexpr static std::size_t addrs = 0x6be8bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2472,7 +2472,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo::ShouldReupload)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6be7af8;
+  constexpr static std::size_t addrs = 0x6be8bd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2486,7 +2486,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo::Prioritize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be7b0c;
+  constexpr static std::size_t addrs = 0x6be8bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2500,7 +2500,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo::ShouldPrioritize)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6be7b18;
+  constexpr static std::size_t addrs = 0x6be8bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2514,7 +2514,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo::Clear)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6be7b2c;
+  constexpr static std::size_t addrs = 0x6be8c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo*>(), { "Clear", {}, {} })));
@@ -2527,7 +2527,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6be7b8c;
+  constexpr static std::size_t addrs = 0x6be8c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellBlendingInfo*>(), { ".ctor", {}, {} })));
@@ -2634,7 +2634,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingInfo::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingInfo::IsStreaming)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6be7c00;
+  constexpr static std::size_t addrs = 0x6be8ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2648,7 +2648,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingInfo::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingInfo::IsBlendingStreaming)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6be7c20;
+  constexpr static std::size_t addrs = 0x6be8d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2662,7 +2662,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingInfo::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingInfo::Clear)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6be7c5c;
+  constexpr static std::size_t addrs = 0x6be8d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingInfo*>(), { "Clear", {}, {} })));
@@ -2675,7 +2675,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingInfo::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6be7c6c;
+  constexpr static std::size_t addrs = 0x6be8d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingInfo*>(), { ".ctor", {}, {} })));
@@ -2759,7 +2759,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume_Cell::*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_Cell::CompareTo)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6be7c70;
+  constexpr static std::size_t addrs = 0x6be8d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>(),
@@ -2773,7 +2773,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume_Cell::*)(::StringW, ::StringW)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_Cell::UpdateCellScenarioData)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6be7cbc;
+  constexpr static std::size_t addrs = 0x6be8d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>(),
@@ -2786,7 +2786,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_Cell::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume_Cell::Clear)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6be7d7c;
+  constexpr static std::size_t addrs = 0x6be8e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>(), { "Clear", {}, {} })));
@@ -2798,7 +2798,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_Cell::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume_Cell::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6be7dec;
+  constexpr static std::size_t addrs = 0x6be8ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>(), { ".ctor", {}, {} })));
@@ -2987,7 +2987,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_Volume::*)(::UnityEngine::Matrix4x4, float_t, float_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_Volume::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6be7ebc;
+  constexpr static std::size_t addrs = 0x6be8f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3002,7 +3002,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_Volume::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, float_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume_Volume::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6be7f3c;
+  constexpr static std::size_t addrs = 0x6be901c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3020,7 +3020,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_Volume::*)(::UnityEngine::Rendering::ProbeReferenceVolume_Volume)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_Volume::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6be7f7c;
+  constexpr static std::size_t addrs = 0x6be905c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>(),
@@ -3034,7 +3034,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_Volume::*)(::UnityEngine::Bounds)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_Volume::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6be8010;
+  constexpr static std::size_t addrs = 0x6be90f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3048,7 +3048,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::Rendering::ProbeReferenceVolume_Volume::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_Volume::CalculateAABB)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6be8070;
+  constexpr static std::size_t addrs = 0x6be9150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>(), { "CalculateAABB", {}, {} })));
@@ -3061,7 +3061,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_Volume::*)(::by_ref<::UnityEngine::Vector3>, ::by_ref<::UnityEngine::Vector3>)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_Volume::CalculateCenterAndSize)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6be817c;
+  constexpr static std::size_t addrs = 0x6be925c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3076,7 +3076,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume_Volume::*)(::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_Volume::Transform)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6be8340;
+  constexpr static std::size_t addrs = 0x6be9420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3089,7 +3089,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::ProbeReferenceVolume_Volume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume_Volume::ToString)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x6be84bc;
+  constexpr static std::size_t addrs = 0x6be959c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>(),
@@ -3103,7 +3103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume_Volume::*)(::UnityEngine::Rendering::ProbeReferenceVolume_Volume)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume_Volume::Equals)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6be86d4;
+  constexpr static std::size_t addrs = 0x6be97b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume_Volume>(),
@@ -3237,7 +3237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6be881c;
+  constexpr static std::size_t addrs = 0x6be98fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume___c*>(), { ".ctor", {}, {} })));
@@ -3249,7 +3249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be8820;
+  constexpr static std::size_t addrs = 0x6be9900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3263,7 +3263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_8)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be8828;
+  constexpr static std::size_t addrs = 0x6be9908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3277,7 +3277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_18)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be8830;
+  constexpr static std::size_t addrs = 0x6be9910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3291,7 +3291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_19)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be883c;
+  constexpr static std::size_t addrs = 0x6be991c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3305,7 +3305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_25)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be8844;
+  constexpr static std::size_t addrs = 0x6be9924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3319,7 +3319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_29)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be884c;
+  constexpr static std::size_t addrs = 0x6be992c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3333,7 +3333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_36)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be8854;
+  constexpr static std::size_t addrs = 0x6be9934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3347,7 +3347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_37)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be8860;
+  constexpr static std::size_t addrs = 0x6be9940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3361,7 +3361,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_45)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be8868;
+  constexpr static std::size_t addrs = 0x6be9948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3375,7 +3375,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_46)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6be8874;
+  constexpr static std::size_t addrs = 0x6be9954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3389,7 +3389,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_50)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be8880;
+  constexpr static std::size_t addrs = 0x6be9960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3402,7 +3402,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_60)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6be8888;
+  constexpr static std::size_t addrs = 0x6be9968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3416,7 +3416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)(bool)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_61)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6be8928;
+  constexpr static std::size_t addrs = 0x6be9a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3429,7 +3429,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_62)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6be89d8;
+  constexpr static std::size_t addrs = 0x6be9ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3443,7 +3443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_63)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6be8a78;
+  constexpr static std::size_t addrs = 0x6be9b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3457,7 +3457,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)(int32_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_64)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6be8b18;
+  constexpr static std::size_t addrs = 0x6be9bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3471,7 +3471,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_65)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be8bd8;
+  constexpr static std::size_t addrs = 0x6be9cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3485,7 +3485,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_66)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be8be0;
+  constexpr static std::size_t addrs = 0x6be9cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3499,7 +3499,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_70)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6be8be8;
+  constexpr static std::size_t addrs = 0x6be9cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3513,7 +3513,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_76)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6be8cbc;
+  constexpr static std::size_t addrs = 0x6be9d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3527,7 +3527,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)(int32_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_77)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6be8d5c;
+  constexpr static std::size_t addrs = 0x6be9e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3541,7 +3541,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_78)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be8e10;
+  constexpr static std::size_t addrs = 0x6be9ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3555,7 +3555,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_79)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6be8e18;
+  constexpr static std::size_t addrs = 0x6be9ef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3569,7 +3569,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)(float_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_80)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6be8eb8;
+  constexpr static std::size_t addrs = 0x6be9f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3583,7 +3583,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_81)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be8f7c;
+  constexpr static std::size_t addrs = 0x6bea05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3597,7 +3597,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_82)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be8f84;
+  constexpr static std::size_t addrs = 0x6bea064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3611,7 +3611,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_87)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6be8f8c;
+  constexpr static std::size_t addrs = 0x6bea06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3625,7 +3625,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)(float_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_88)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6be902c;
+  constexpr static std::size_t addrs = 0x6bea10c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3639,7 +3639,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_89)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be90dc;
+  constexpr static std::size_t addrs = 0x6bea1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3653,7 +3653,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RegisterDebug_b__42_90)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6be90e4;
+  constexpr static std::size_t addrs = 0x6bea1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3668,7 +3668,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                     ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_RenderFragmentationOverlay_b__45_0)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6be90ec;
+  constexpr static std::size_t addrs = 0x6bea1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume___c*>(),
@@ -3685,7 +3685,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::_CleanupStreaming_b__110_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6be9290;
+  constexpr static std::size_t addrs = 0x6bea370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3700,7 +3700,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::__ctor_b__297_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6be92a8;
+  constexpr static std::size_t addrs = 0x6bea388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3715,7 +3715,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume___c::*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c::__ctor_b__297_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6be92c0;
+  constexpr static std::size_t addrs = 0x6bea3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume___c*>(),
@@ -4143,7 +4143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume___c__DisplayClass141_0::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume___c__DisplayClass141_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6be92d4;
+  constexpr static std::size_t addrs = 0x6bea3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4157,7 +4157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume___c__DisplayClass141_0::*)(
     ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest*)>(&::UnityEngine::Rendering::ProbeReferenceVolume___c__DisplayClass141_0::_HasActiveStreamingRequest_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6be92d8;
+  constexpr static std::size_t addrs = 0x6bea3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4200,7 +4200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::CommandBuffer*, bool)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::BindAPVRuntimeResources)> {
   constexpr static std::size_t size = 0xd28;
-  constexpr static std::size_t addrs = 0x6bc472c;
+  constexpr static std::size_t addrs = 0x6bc580c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4215,7 +4215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::ProbeVolumesOptions*, int32_t, bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::UpdateShaderVariablesProbeVolumes)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x6bc559c;
+  constexpr static std::size_t addrs = 0x6bc667c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4233,7 +4233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ProbeVolumeDebug* (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::get_probeVolumeDebug)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bc5d2c;
+  constexpr static std::size_t addrs = 0x6bc6e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_probeVolumeDebug", {}, {} })));
@@ -4246,7 +4246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Color> (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::get_subdivisionDebugColors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bc5d34;
+  constexpr static std::size_t addrs = 0x6bc6e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4260,7 +4260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::get_debugMesh)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6bc5d3c;
+  constexpr static std::size_t addrs = 0x6bc6e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_debugMesh", {}, {} })));
@@ -4273,7 +4273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Camera*, ::UnityEngine::Texture*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::RenderDebug)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6bc5eb4;
+  constexpr static std::size_t addrs = 0x6bc6f94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4288,7 +4288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(
     ::UnityEngine::Camera*, ::UnityEngine::Rendering::ProbeVolumesOptions*, ::UnityEngine::Texture*)>(&::UnityEngine::Rendering::ProbeReferenceVolume::RenderDebug)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6bc5ec0;
+  constexpr static std::size_t addrs = 0x6bc6fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4304,7 +4304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::IsProbeSamplingDebugEnabled)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6bc7174;
+  constexpr static std::size_t addrs = 0x6bc8254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4318,7 +4318,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)(
     ::UnityEngine::Camera*, ::by_ref<::UnityEngine::GraphicsBuffer*>, ::by_ref<::UnityEngine::Vector2>)>(&::UnityEngine::Rendering::ProbeReferenceVolume::GetProbeSamplingDebugResources)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6bc71e4;
+  constexpr static std::size_t addrs = 0x6bc82c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4335,7 +4335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::TryCreateDebugRenderData)> {
   constexpr static std::size_t size = 0x5b4;
-  constexpr static std::size_t addrs = 0x6bc7314;
+  constexpr static std::size_t addrs = 0x6bc83f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4348,7 +4348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::InitializeDebug)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6bc78c8;
+  constexpr static std::size_t addrs = 0x6bc89a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "InitializeDebug", {}, {} })));
@@ -4360,7 +4360,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::CleanupDebug)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6bcb024;
+  constexpr static std::size_t addrs = 0x6bcc104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "CleanupDebug", {}, {} })));
@@ -4372,7 +4372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::RegisterDebug)> {
   constexpr static std::size_t size = 0x3738;
-  constexpr static std::size_t addrs = 0x6bc78ec;
+  constexpr static std::size_t addrs = 0x6bc89cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "RegisterDebug", {}, {} })));
@@ -4384,7 +4384,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::UnregisterDebug)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6bcb130;
+  constexpr static std::size_t addrs = 0x6bcc210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4399,7 +4399,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
     ::UnityEngine::Rendering::DebugOverlay*)>(&::UnityEngine::Rendering::ProbeReferenceVolume::RenderFragmentationOverlay)> {
   constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x6bcb278;
+  constexpr static std::size_t addrs = 0x6bcc358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4418,7 +4418,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Vector3, ::UnityEngine::Transform*, ::ArrayW<::UnityEngine::Plane>)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::ShouldCullCell)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x6bcb6e4;
+  constexpr static std::size_t addrs = 0x6bcc7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4434,7 +4434,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::ArrayW<::UnityEngine::Vector4>>, ::by_ref<int32_t>)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::UpdateDebugFromSelection)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6bcbb04;
+  constexpr static std::size_t addrs = 0x6bccbe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4449,7 +4449,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::GetCellBounds)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6bcb940;
+  constexpr static std::size_t addrs = 0x6bcca20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4463,7 +4463,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Vector3, ::ArrayW<::UnityEngine::Vector4>, int32_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::ShouldCullCell)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x6bcbb40;
+  constexpr static std::size_t addrs = 0x6bccc20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4479,7 +4479,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Camera*, ::UnityEngine::Texture*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::DrawProbeDebug)> {
   constexpr static std::size_t size = 0x119c;
-  constexpr static std::size_t addrs = 0x6bc5fd8;
+  constexpr static std::size_t addrs = 0x6bc70b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4493,7 +4493,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::ResetDebugViewToMaxSubdiv)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6bccd18;
+  constexpr static std::size_t addrs = 0x6bcddf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4506,7 +4506,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::ClearDebugData)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6bccd40;
+  constexpr static std::size_t addrs = 0x6bcde20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "ClearDebugData", {}, {} })));
@@ -4518,7 +4518,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::SphericalHarmonicsL2>)>(&::UnityEngine::Rendering::ProbeReferenceVolume::DecompressSH)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x6bccd94;
+  constexpr static std::size_t addrs = 0x6bcde74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -4531,7 +4531,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(uint32_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::DecodeSkyShadingDirection)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6bccf80;
+  constexpr static std::size_t addrs = 0x6bce060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4547,7 +4547,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     ::by_ref<::ArrayW<::UnityEngine::Vector4>>, ::by_ref<::ArrayW<::UnityEngine::Vector3>>, ::by_ref<::ArrayW<::UnityEngine::Vector3>>)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::GetFlattenedProbeData)> {
   constexpr static std::size_t size = 0x147c;
-  constexpr static std::size_t addrs = 0x6bcd060;
+  constexpr static std::size_t addrs = 0x6bce140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4567,7 +4567,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ProbeReferenceVolume_CellInstancedDebugProbes* (
     ::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*)>(&::UnityEngine::Rendering::ProbeReferenceVolume::CreateInstancedProbes)> {
   constexpr static std::size_t size = 0xed8;
-  constexpr static std::size_t addrs = 0x6bcbe40;
+  constexpr static std::size_t addrs = 0x6bccf20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4581,7 +4581,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::OnClearLightingdata)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bce5e0;
+  constexpr static std::size_t addrs = 0x6bcf6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "OnClearLightingdata", {}, {} })));
@@ -4593,7 +4593,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::EnableMaxCellStreaming)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bce5e4;
+  constexpr static std::size_t addrs = 0x6bcf6c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4607,7 +4607,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(int32_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::SetNumberOfCellsLoadedPerFrame)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6bce5ec;
+  constexpr static std::size_t addrs = 0x6bcf6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4620,7 +4620,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_loadMaxCellsPerFrame)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bce608;
+  constexpr static std::size_t addrs = 0x6bcf6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4633,7 +4633,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::set_loadMaxCellsPerFrame)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bce610;
+  constexpr static std::size_t addrs = 0x6bcf6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4647,7 +4647,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::get_numberOfCellsLoadedPerFrame)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6bce618;
+  constexpr static std::size_t addrs = 0x6bcf6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4661,7 +4661,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::get_numberOfCellsBlendedPerFrame)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bce680;
+  constexpr static std::size_t addrs = 0x6bcf760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4675,7 +4675,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(int32_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::set_numberOfCellsBlendedPerFrame)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6bce688;
+  constexpr static std::size_t addrs = 0x6bcf768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4688,7 +4688,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_turnoverRate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bce698;
+  constexpr static std::size_t addrs = 0x6bcf778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_turnoverRate", {}, {} })));
@@ -4700,7 +4700,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(float_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::set_turnoverRate)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6bce6a0;
+  constexpr static std::size_t addrs = 0x6bcf780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4713,7 +4713,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::InitStreaming)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6bce6c0;
+  constexpr static std::size_t addrs = 0x6bcf7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "InitStreaming", {}, {} })));
@@ -4725,7 +4725,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::CleanupStreaming)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x6bce774;
+  constexpr static std::size_t addrs = 0x6bcf854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "CleanupStreaming", {}, {} })));
@@ -4737,7 +4737,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::ScenarioBlendingChanged)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6bced70;
+  constexpr static std::size_t addrs = 0x6bcfe50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4751,7 +4751,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::ComputeCellStreamingScore)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x6bcef20;
+  constexpr static std::size_t addrs = 0x6bd0000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4770,7 +4770,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::ComputeStreamingScore)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6bcf134;
+  constexpr static std::size_t addrs = 0x6bd0214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4788,7 +4788,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::ComputeBestToBeLoadedCells)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x6bcf250;
+  constexpr static std::size_t addrs = 0x6bd0330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4803,7 +4803,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::ComputeStreamingScoreAndWorseLoadedCells)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x6bcf5bc;
+  constexpr static std::size_t addrs = 0x6bd069c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4818,7 +4818,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(
     ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>*, float_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::ComputeBlendingScore)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6bcf964;
+  constexpr static std::size_t addrs = 0x6bd0a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4836,7 +4836,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     ::UnityEngine::Rendering::ProbeReferenceVolume_Cell*, ::by_ref<int32_t>, ::by_ref<int32_t>, ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::TryLoadCell)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6bcfaf0;
+  constexpr static std::size_t addrs = 0x6bd0bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4855,7 +4855,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::ProbeReferenceVolume_Cell*, ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::UnloadBlendingCell)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6bd019c;
+  constexpr static std::size_t addrs = 0x6bd127c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4874,7 +4874,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     ::UnityEngine::Rendering::ProbeReferenceVolume_Cell*, ::UnityEngine::Rendering::DynamicArray_1<::UnityEngine::Rendering::ProbeReferenceVolume_Cell*>*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::TryLoadBlendingCell)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6bd0308;
+  constexpr static std::size_t addrs = 0x6bd13e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4891,7 +4891,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::ComputeMinMaxStreamingScore)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6bd09f4;
+  constexpr static std::size_t addrs = 0x6bd1ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4905,7 +4905,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::UpdateCellStreaming)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd0b58;
+  constexpr static std::size_t addrs = 0x6bd1c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4920,7 +4920,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Camera*, ::UnityEngine::Rendering::ProbeVolumesOptions*)>(&::UnityEngine::Rendering::ProbeReferenceVolume::UpdateCellStreaming)> {
   constexpr static std::size_t size = 0xb9c;
-  constexpr static std::size_t addrs = 0x6bd0b60;
+  constexpr static std::size_t addrs = 0x6bd1c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -4937,7 +4937,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::FindWorstBlendingCellToBeLoaded)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6bd29e4;
+  constexpr static std::size_t addrs = 0x6bd3ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4951,7 +4951,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*, ::UnityEngine::Rendering::ProbeReferenceVolume_Cell*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::BlendingComparer)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6bd2ae4;
+  constexpr static std::size_t addrs = 0x6bd3bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4968,7 +4968,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::UpdateBlendingCellStreaming)> {
   constexpr static std::size_t size = 0x6ac;
-  constexpr static std::size_t addrs = 0x6bd2338;
+  constexpr static std::size_t addrs = 0x6bd3418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -4982,7 +4982,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*, ::UnityEngine::Rendering::ProbeReferenceVolume_Cell*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::DefragComparer)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6bd2b34;
+  constexpr static std::size_t addrs = 0x6bd3c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4998,7 +4998,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::StartIndexDefragmentation)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6bd1c4c;
+  constexpr static std::size_t addrs = 0x6bd2d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5011,7 +5011,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::UpdateIndexDefragmentation)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x6bd16fc;
+  constexpr static std::size_t addrs = 0x6bd27dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5025,7 +5025,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(
     ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest*, ::UnityEngine::Rendering::CommandBuffer*)>(&::UnityEngine::Rendering::ProbeReferenceVolume::OnStreamingComplete)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6bd2bcc;
+  constexpr static std::size_t addrs = 0x6bd3cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5042,7 +5042,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(
     ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest*, ::UnityEngine::Rendering::CommandBuffer*)>(&::UnityEngine::Rendering::ProbeReferenceVolume::OnBlendingStreamingComplete)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6bd30e8;
+  constexpr static std::size_t addrs = 0x6bd41c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5061,7 +5061,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::ProbeReferenceVolume_Cell*, ::StringW, int32_t, ::UnityEngine::Rendering::CellStreamingRequest_ProbeReferenceVolume_OnStreamingCompleteDelegate*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::PushDiskStreamingRequest)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6bd348c;
+  constexpr static std::size_t addrs = 0x6bd456c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5079,7 +5079,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::CancelStreamingRequest)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6bd35f4;
+  constexpr static std::size_t addrs = 0x6bd46d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5094,7 +5094,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::CancelBlendingStreamingRequest)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6bd3668;
+  constexpr static std::size_t addrs = 0x6bd4748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5109,7 +5109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingRequest*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::ProcessDiskStreamingRequest)> {
   constexpr static std::size_t size = 0xd80;
-  constexpr static std::size_t addrs = 0x6bd36b4;
+  constexpr static std::size_t addrs = 0x6bd4794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5124,7 +5124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::AllocateScratchBufferPoolIfNeeded)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6bd4434;
+  constexpr static std::size_t addrs = 0x6bd5514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5138,7 +5138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::UpdateActiveRequests)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x6bcea90;
+  constexpr static std::size_t addrs = 0x6bcfb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -5151,7 +5151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::ProcessNewRequests)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6bce9a0;
+  constexpr static std::size_t addrs = 0x6bcfa80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "ProcessNewRequests", {}, {} })));
@@ -5164,7 +5164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::UpdateDiskStreaming)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x6bd1f18;
+  constexpr static std::size_t addrs = 0x6bd2ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -5178,7 +5178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::HasActiveStreamingRequest)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6bce4dc;
+  constexpr static std::size_t addrs = 0x6bcf5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5192,7 +5192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::StringW)>(&::UnityEngine::Rendering::ProbeReferenceVolume::LogStreaming)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6bd4718;
+  constexpr static std::size_t addrs = 0x6bd57f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5206,7 +5206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::get_globalBounds)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bd4774;
+  constexpr static std::size_t addrs = 0x6bd5854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_globalBounds", {}, {} })));
@@ -5219,7 +5219,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Bounds)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::set_globalBounds)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6bd4788;
+  constexpr static std::size_t addrs = 0x6bd5868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5233,7 +5233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::ProbeVolumeBakingSet> (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::get_m_CurrentBakingSet)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bc5a78;
+  constexpr static std::size_t addrs = 0x6bc6b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_m_CurrentBakingSet", {}, {} })));
@@ -5246,7 +5246,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeVolumeBakingSet*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::set_m_CurrentBakingSet)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd479c;
+  constexpr static std::size_t addrs = 0x6bd587c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -5260,7 +5260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::ProbeVolumeBakingSet> (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::get_m_LazyBakingSet)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd47b4;
+  constexpr static std::size_t addrs = 0x6bd5894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_m_LazyBakingSet", {}, {} })));
@@ -5273,7 +5273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeVolumeBakingSet*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::set_m_LazyBakingSet)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd47cc;
+  constexpr static std::size_t addrs = 0x6bd58ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -5286,7 +5286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_isInitialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd47e4;
+  constexpr static std::size_t addrs = 0x6bd58c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_isInitialized", {}, {} })));
@@ -5298,7 +5298,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_enabledBySRP)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd47ec;
+  constexpr static std::size_t addrs = 0x6bd58cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_enabledBySRP", {}, {} })));
@@ -5310,7 +5310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_vertexSampling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd47f4;
+  constexpr static std::size_t addrs = 0x6bd58d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_vertexSampling", {}, {} })));
@@ -5322,7 +5322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_hasUnloadedCells)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6bd47fc;
+  constexpr static std::size_t addrs = 0x6bd58dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_hasUnloadedCells", {}, {} })));
@@ -5334,7 +5334,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_supportLightingScenarios)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd4854;
+  constexpr static std::size_t addrs = 0x6bd5934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5347,7 +5347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_supportScenarioBlending)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd485c;
+  constexpr static std::size_t addrs = 0x6bd593c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5360,7 +5360,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_gpuStreamingEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd4864;
+  constexpr static std::size_t addrs = 0x6bd5944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_gpuStreamingEnabled", {}, {} })));
@@ -5372,7 +5372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_diskStreamingEnabled)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6bd456c;
+  constexpr static std::size_t addrs = 0x6bd564c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5385,7 +5385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_probeOcclusion)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6bd486c;
+  constexpr static std::size_t addrs = 0x6bd594c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_probeOcclusion", {}, {} })));
@@ -5397,7 +5397,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_skyOcclusion)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6bc5928;
+  constexpr static std::size_t addrs = 0x6bc6a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_skyOcclusion", {}, {} })));
@@ -5409,7 +5409,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_skyOcclusionShadingDirection)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6bc59d0;
+  constexpr static std::size_t addrs = 0x6bc6ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5422,7 +5422,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_useRenderingLayers)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6bd4914;
+  constexpr static std::size_t addrs = 0x6bd59f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_useRenderingLayers", {}, {} })));
@@ -5435,7 +5435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ProbeVolumeSHBands (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::get_shBands)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd4944;
+  constexpr static std::size_t addrs = 0x6bd5a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_shBands", {}, {} })));
@@ -5448,7 +5448,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::ProbeVolumeBakingSet> (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::get_currentBakingSet)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd494c;
+  constexpr static std::size_t addrs = 0x6bd5a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_currentBakingSet", {}, {} })));
@@ -5460,7 +5460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_lightingScenario)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6bd03dc;
+  constexpr static std::size_t addrs = 0x6bd14bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_lightingScenario", {}, {} })));
@@ -5472,7 +5472,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::StringW)>(&::UnityEngine::Rendering::ProbeReferenceVolume::set_lightingScenario)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd4964;
+  constexpr static std::size_t addrs = 0x6bd5a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5485,7 +5485,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_otherScenario)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6bd458c;
+  constexpr static std::size_t addrs = 0x6bd566c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_otherScenario", {}, {} })));
@@ -5497,7 +5497,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_scenarioBlendingFactor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6bcfa54;
+  constexpr static std::size_t addrs = 0x6bd0b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5511,7 +5511,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(float_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::set_scenarioBlendingFactor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6bd4a30;
+  constexpr static std::size_t addrs = 0x6bd5b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5524,7 +5524,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::SceneManagement::Scene)>(&::UnityEngine::Rendering::ProbeReferenceVolume::GetSceneGUID)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6bd4b10;
+  constexpr static std::size_t addrs = 0x6bd5bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5538,7 +5538,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::StringW, bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::SetActiveScenario)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6bd496c;
+  constexpr static std::size_t addrs = 0x6bd5a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5553,7 +5553,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::StringW, float_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::BlendLightingScenario)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6bd4b6c;
+  constexpr static std::size_t addrs = 0x6bd5c4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -5567,7 +5567,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::get_memoryBudget)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd4c3c;
+  constexpr static std::size_t addrs = 0x6bd5d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_memoryBudget", {}, {} })));
@@ -5580,7 +5580,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::ProbeVolumePerSceneData>>* (
     ::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_perSceneDataList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd4c44;
+  constexpr static std::size_t addrs = 0x6bd5d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_perSceneDataList", {}, {} })));
@@ -5593,7 +5593,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(
     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rendering::ProbeVolumePerSceneData>>*)>(&::UnityEngine::Rendering::ProbeReferenceVolume::set_perSceneDataList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd4c4c;
+  constexpr static std::size_t addrs = 0x6bd5d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5609,7 +5609,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeVolumePerSceneData*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::RegisterPerSceneData)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6bd4c54;
+  constexpr static std::size_t addrs = 0x6bd5d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -5623,7 +5623,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeVolumeBakingSet*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::ScheduleBakingSet)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6bd4d54;
+  constexpr static std::size_t addrs = 0x6bd5e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -5636,7 +5636,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::ProcessScheduledBakingSet)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6bd4d84;
+  constexpr static std::size_t addrs = 0x6bd5e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5650,7 +5650,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::SceneManagement::Scene)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::SetActiveScene)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6bd5074;
+  constexpr static std::size_t addrs = 0x6bd6154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5665,7 +5665,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeVolumeBakingSet*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::SetActiveBakingSet)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x6bd4e44;
+  constexpr static std::size_t addrs = 0x6bd5f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -5679,7 +5679,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeVolumeBakingSet*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::SetBakingSetAsCurrent)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6bd5394;
+  constexpr static std::size_t addrs = 0x6bd6474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -5693,7 +5693,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeVolumePerSceneData*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::RegisterBakingSet)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6bd59f4;
+  constexpr static std::size_t addrs = 0x6bd6ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -5706,7 +5706,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::UnloadBakingSet)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6bd52bc;
+  constexpr static std::size_t addrs = 0x6bd639c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "UnloadBakingSet", {}, {} })));
@@ -5719,7 +5719,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeVolumePerSceneData*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::UnregisterPerSceneData)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6bd5ac0;
+  constexpr static std::size_t addrs = 0x6bd6ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5734,7 +5734,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::StringW, ::by_ref<::UnityEngine::Rendering::ProbeVolumePerSceneData*>)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::TryGetPerSceneData)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6bd5118;
+  constexpr static std::size_t addrs = 0x6bd61f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5748,7 +5748,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_indexFragmentationRate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6bd5b60;
+  constexpr static std::size_t addrs = 0x6bd6c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5761,7 +5761,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ProbeReferenceVolume* (*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::get_instance)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6bd5b88;
+  constexpr static std::size_t addrs = 0x6bd6c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "get_instance", {}, {} })));
@@ -5774,7 +5774,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::by_ref<::UnityEngine::Rendering::ProbeVolumeSystemParameters const>)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::Initialize)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x6bd5be4;
+  constexpr static std::size_t addrs = 0x6bd6cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5788,7 +5788,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::SetEnableStateFromSRP)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd6088;
+  constexpr static std::size_t addrs = 0x6bd7168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5801,7 +5801,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::SetVertexSamplingEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd6090;
+  constexpr static std::size_t addrs = 0x6bd7170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5815,7 +5815,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeVolumeTextureMemoryBudget)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::ForceMemoryBudget)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd6098;
+  constexpr static std::size_t addrs = 0x6bd7178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5830,7 +5830,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeVolumeSHBands)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::ForceSHBand)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6bd60a0;
+  constexpr static std::size_t addrs = 0x6bd7180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -5843,7 +5843,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::ForceNoDiskStreaming)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd6404;
+  constexpr static std::size_t addrs = 0x6bd74e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5856,7 +5856,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::Cleanup)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6bd640c;
+  constexpr static std::size_t addrs = 0x6bd74ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "Cleanup", {}, {} })));
@@ -5868,7 +5868,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::GetVideoMemoryCost)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6bd6528;
+  constexpr static std::size_t addrs = 0x6bd7608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "GetVideoMemoryCost", {}, {} })));
@@ -5880,7 +5880,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(int32_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::RemoveCell)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6bd65a4;
+  constexpr static std::size_t addrs = 0x6bd7684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5894,7 +5894,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::UnloadCell)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6bd1ae0;
+  constexpr static std::size_t addrs = 0x6bd2bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -5908,7 +5908,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::UnloadBlendingCell)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6bd0220;
+  constexpr static std::size_t addrs = 0x6bd1300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -5921,7 +5921,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::UnloadAllCells)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6bd462c;
+  constexpr static std::size_t addrs = 0x6bd570c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "UnloadAllCells", {}, {} })));
@@ -5933,7 +5933,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::UnloadAllBlendingCells)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6bcee34;
+  constexpr static std::size_t addrs = 0x6bcff14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "UnloadAllBlendingCells", {}, {} })));
@@ -5945,7 +5945,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(int32_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::AddCell)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x6bd6844;
+  constexpr static std::size_t addrs = 0x6bd7924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5959,7 +5959,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*, bool)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::LoadCell)> {
   constexpr static std::size_t size = 0x598;
-  constexpr static std::size_t addrs = 0x6bcfc04;
+  constexpr static std::size_t addrs = 0x6bd0ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -5973,7 +5973,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::LoadAllCells)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6bd7290;
+  constexpr static std::size_t addrs = 0x6bd8370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "LoadAllCells", {}, {} })));
@@ -5985,7 +5985,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::ComputeCellGlobalInfo)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6bd1d44;
+  constexpr static std::size_t addrs = 0x6bd2e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "ComputeCellGlobalInfo", {}, {} })));
@@ -5998,7 +5998,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::StringW, ::UnityEngine::Rendering::ProbeVolumeBakingSet*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::AddPendingSceneLoading)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x6bd73e8;
+  constexpr static std::size_t addrs = 0x6bd84c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6012,7 +6012,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::StringW)>(&::UnityEngine::Rendering::ProbeReferenceVolume::AddPendingSceneRemoval)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x6bd785c;
+  constexpr static std::size_t addrs = 0x6bd893c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6026,7 +6026,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::StringW, ::System::Collections::Generic::List_1<int32_t>*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::RemovePendingScene)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6bd79f4;
+  constexpr static std::size_t addrs = 0x6bd8ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6040,7 +6040,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::PerformPendingIndexChangeAndInit)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6bd7b64;
+  constexpr static std::size_t addrs = 0x6bd8c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6054,7 +6054,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(float_t, int32_t, ::UnityEngine::Vector3)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::SetSubdivisionDimensions)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6bd59b4;
+  constexpr static std::size_t addrs = 0x6bd6a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6069,7 +6069,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::System::Collections::Generic::List_1<int32_t>*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::LoadCells)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6bd7ee8;
+  constexpr static std::size_t addrs = 0x6bd8fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -6082,7 +6082,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::PerformPendingLoading)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x6bd7fc4;
+  constexpr static std::size_t addrs = 0x6bd90a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "PerformPendingLoading", {}, {} })));
@@ -6094,7 +6094,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::PerformPendingDeletion)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6bd8410;
+  constexpr static std::size_t addrs = 0x6bd94f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "PerformPendingDeletion", {}, {} })));
@@ -6108,7 +6108,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                 ::System::ReadOnlySpan_1<::UnityEngine::Rendering::ProbeBrickIndex_Brick>)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::ComputeEntryMinMax)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x6bd6b20;
+  constexpr static std::size_t addrs = 0x6bd7c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -6125,7 +6125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Rendering::ProbeReferenceVolume_IndirectionEntryInfo)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::GetNumberOfBricksAtSubdiv)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6bd6eb8;
+  constexpr static std::size_t addrs = 0x6bd7f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6139,7 +6139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::PerformPendingOperations)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6bd5aa0;
+  constexpr static std::size_t addrs = 0x6bd6b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6152,7 +6152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::InitializeGlobalIndirection)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x6bd7b98;
+  constexpr static std::size_t addrs = 0x6bd8c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6165,7 +6165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::InitProbeReferenceVolume)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x6bd54d8;
+  constexpr static std::size_t addrs = 0x6bd65b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6178,7 +6178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_ctor)> {
   constexpr static std::size_t size = 0x890;
-  constexpr static std::size_t addrs = 0x6bd8568;
+  constexpr static std::size_t addrs = 0x6bd9648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { ".ctor", {}, {} })));
@@ -6191,7 +6191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ProbeReferenceVolume_RuntimeResources (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::GetRuntimeResources)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6bc5454;
+  constexpr static std::size_t addrs = 0x6bc6534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "GetRuntimeResources", {}, {} })));
@@ -6203,7 +6203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(int32_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::SetMaxSubdivision)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6bd7e20;
+  constexpr static std::size_t addrs = 0x6bd8f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6216,7 +6216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::CellSize)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6bd6e88;
+  constexpr static std::size_t addrs = 0x6bd7f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6229,7 +6229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)(int32_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::BrickSize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6bd8df8;
+  constexpr static std::size_t addrs = 0x6bd9ed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6242,7 +6242,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::MinBrickSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd8e3c;
+  constexpr static std::size_t addrs = 0x6bd9f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "MinBrickSize", {}, {} })));
@@ -6254,7 +6254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::MaxBrickSize)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6bcbab8;
+  constexpr static std::size_t addrs = 0x6bccb98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "MaxBrickSize", {}, {} })));
@@ -6266,7 +6266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::ProbeOffset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6bd8e44;
+  constexpr static std::size_t addrs = 0x6bd9f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "ProbeOffset", {}, {} })));
@@ -6278,7 +6278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::GetMaxSubdivision)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd8e54;
+  constexpr static std::size_t addrs = 0x6bd9f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "GetMaxSubdivision", {}, {} })));
@@ -6290,7 +6290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)(float_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::GetMaxSubdivision)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6bd8e5c;
+  constexpr static std::size_t addrs = 0x6bd9f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6304,7 +6304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)(int32_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::GetDistanceBetweenProbes)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6bd8ee0;
+  constexpr static std::size_t addrs = 0x6bd9fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6317,7 +6317,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::MinDistanceBetweenProbes)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6bd8f2c;
+  constexpr static std::size_t addrs = 0x6bda00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6331,7 +6331,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::GetGlobalIndirectionEntryMaxSubdiv)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bd8f3c;
+  constexpr static std::size_t addrs = 0x6bda01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6344,7 +6344,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::GetEntrySubdivLevel)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd6e70;
+  constexpr static std::size_t addrs = 0x6bd7f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "GetEntrySubdivLevel", {}, {} })));
@@ -6356,7 +6356,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::GetEntrySize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6bd8f44;
+  constexpr static std::size_t addrs = 0x6bda024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "GetEntrySize", {}, {} })));
@@ -6368,7 +6368,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::DataHasBeenLoaded)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6bc58d0;
+  constexpr static std::size_t addrs = 0x6bc69b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "DataHasBeenLoaded", {}, {} })));
@@ -6380,7 +6380,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::Clear)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6bd8f9c;
+  constexpr static std::size_t addrs = 0x6bda07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "Clear", {}, {} })));
@@ -6393,7 +6393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>* (
     ::UnityEngine::Rendering::ProbeReferenceVolume::*)(int32_t, int32_t, ::UnityEngine::Rendering::ProbeBrickPool_DataLocation)>(&::UnityEngine::Rendering::ProbeReferenceVolume::GetSourceLocations)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6bd90d4;
+  constexpr static std::size_t addrs = 0x6bda1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6409,7 +6409,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Texture*, ::Unity::Collections::NativeArray_1<uint8_t>)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::UpdateValidityTextureWithoutMask)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x6bd9264;
+  constexpr static std::size_t addrs = 0x6bda344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6427,7 +6427,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::Unity::Collections::NativeArray_1<uint8_t>, ::Unity::Collections::NativeArray_1<uint16_t>, ::Unity::Collections::NativeArray_1<uint8_t>, int32_t, int32_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::UpdatePool)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x6bd9410;
+  constexpr static std::size_t addrs = 0x6bda4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6449,7 +6449,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBuffer*, ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout, int32_t)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::UpdatePool)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x6bd31d0;
+  constexpr static std::size_t addrs = 0x6bd42b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6470,7 +6470,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>*, ::Unity::Collections::NativeArray_1<uint8_t>, ::Unity::Collections::NativeArray_1<uint16_t>,
     ::Unity::Collections::NativeArray_1<uint8_t>, int32_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::UpdateSharedData)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x6bd993c;
+  constexpr static std::size_t addrs = 0x6bdaa1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6489,7 +6489,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::AddBlendingBricks)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x6bd047c;
+  constexpr static std::size_t addrs = 0x6bd155c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -6503,7 +6503,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)(
     int32_t, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>*, bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::ReservePoolChunks)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6bd6a60;
+  constexpr static std::size_t addrs = 0x6bd7b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6521,7 +6521,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ProbeBrickPool_BrickChunkAlloc>*)>(&::UnityEngine::Rendering::ProbeReferenceVolume::ReleasePoolChunks)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6bd721c;
+  constexpr static std::size_t addrs = 0x6bd82fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6538,7 +6538,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::ProbeReferenceVolume_CellStreamingScratchBufferLayout, int32_t, ::UnityEngine::Rendering::CommandBuffer*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::UpdatePoolAndIndex)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x6bd2c48;
+  constexpr static std::size_t addrs = 0x6bd3d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -6557,7 +6557,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::AddBricks)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x6bd6f84;
+  constexpr static std::size_t addrs = 0x6bd8064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -6571,7 +6571,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::UpdateCellIndex)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6bd33a8;
+  constexpr static std::size_t addrs = 0x6bd4488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -6585,7 +6585,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::UnityEngine::Rendering::ProbeReferenceVolume_Cell*)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::ReleaseBricks)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6bd6714;
+  constexpr static std::size_t addrs = 0x6bd77f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(),
@@ -6599,7 +6599,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::ProbeVolumeShadingParameters)>(&::UnityEngine::Rendering::ProbeReferenceVolume::UpdateConstantBuffer)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x6bc5a90;
+  constexpr static std::size_t addrs = 0x6bc6b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6614,7 +6614,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::DeinitProbeReferenceVolume)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x6bd61c4;
+  constexpr static std::size_t addrs = 0x6bd72a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6627,7 +6627,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::CleanupLoadedData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bd6524;
+  constexpr static std::size_t addrs = 0x6bd7604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "CleanupLoadedData", {}, {} })));
@@ -6639,7 +6639,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_2)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd9db0;
+  constexpr static std::size_t addrs = 0x6bdae90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_2", {}, {} })));
@@ -6651,7 +6651,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_3)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6bd9dc8;
+  constexpr static std::size_t addrs = 0x6bdaea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6664,7 +6664,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_4)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd9de4;
+  constexpr static std::size_t addrs = 0x6bdaec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_4", {}, {} })));
@@ -6676,7 +6676,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_5)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6bd9dfc;
+  constexpr static std::size_t addrs = 0x6bdaedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6689,7 +6689,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_6)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd9e18;
+  constexpr static std::size_t addrs = 0x6bdaef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_6", {}, {} })));
@@ -6701,7 +6701,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(float_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_7)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd9e30;
+  constexpr static std::size_t addrs = 0x6bdaf10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6714,7 +6714,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_9)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd9e48;
+  constexpr static std::size_t addrs = 0x6bdaf28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_9", {}, {} })));
@@ -6726,7 +6726,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_10)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6bd9e60;
+  constexpr static std::size_t addrs = 0x6bdaf40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6739,7 +6739,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_11)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6bd9e7c;
+  constexpr static std::size_t addrs = 0x6bdaf5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_11", {}, {} })));
@@ -6751,7 +6751,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_12)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd9e9c;
+  constexpr static std::size_t addrs = 0x6bdaf7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_12", {}, {} })));
@@ -6763,7 +6763,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(int32_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_13)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd9eb4;
+  constexpr static std::size_t addrs = 0x6bdaf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6776,7 +6776,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_14)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd9ecc;
+  constexpr static std::size_t addrs = 0x6bdafac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_14", {}, {} })));
@@ -6788,7 +6788,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(int32_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_15)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd9ee4;
+  constexpr static std::size_t addrs = 0x6bdafc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6801,7 +6801,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_16)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd9efc;
+  constexpr static std::size_t addrs = 0x6bdafdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_16", {}, {} })));
@@ -6813,7 +6813,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(float_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_17)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd9f14;
+  constexpr static std::size_t addrs = 0x6bdaff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6826,7 +6826,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_20)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd9f2c;
+  constexpr static std::size_t addrs = 0x6bdb00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_20", {}, {} })));
@@ -6838,7 +6838,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(float_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_21)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd9f44;
+  constexpr static std::size_t addrs = 0x6bdb024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6851,7 +6851,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_22)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6bd9f5c;
+  constexpr static std::size_t addrs = 0x6bdb03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_22", {}, {} })));
@@ -6863,7 +6863,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_23)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd9f8c;
+  constexpr static std::size_t addrs = 0x6bdb06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_23", {}, {} })));
@@ -6875,7 +6875,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(int32_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_24)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6bd9fa4;
+  constexpr static std::size_t addrs = 0x6bdb084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6888,7 +6888,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_26)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6bd9fdc;
+  constexpr static std::size_t addrs = 0x6bdb0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_26", {}, {} })));
@@ -6900,7 +6900,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_27)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bd9fec;
+  constexpr static std::size_t addrs = 0x6bdb0cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_27", {}, {} })));
@@ -6912,7 +6912,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(int32_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_28)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6bda004;
+  constexpr static std::size_t addrs = 0x6bdb0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6925,7 +6925,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_30)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6bda020;
+  constexpr static std::size_t addrs = 0x6bdb100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_30", {}, {} })));
@@ -6937,7 +6937,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_31)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bda030;
+  constexpr static std::size_t addrs = 0x6bdb110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_31", {}, {} })));
@@ -6949,7 +6949,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_32)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6bda048;
+  constexpr static std::size_t addrs = 0x6bdb128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6962,7 +6962,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_33)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6bda0d8;
+  constexpr static std::size_t addrs = 0x6bdb1b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_33", {}, {} })));
@@ -6974,7 +6974,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_34)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bda0f8;
+  constexpr static std::size_t addrs = 0x6bdb1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_34", {}, {} })));
@@ -6986,7 +6986,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(float_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_35)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bda110;
+  constexpr static std::size_t addrs = 0x6bdb1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -6999,7 +6999,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_38)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bda128;
+  constexpr static std::size_t addrs = 0x6bdb208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_38", {}, {} })));
@@ -7011,7 +7011,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_39)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6bda140;
+  constexpr static std::size_t addrs = 0x6bdb220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7024,7 +7024,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_40)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bda15c;
+  constexpr static std::size_t addrs = 0x6bdb23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_40", {}, {} })));
@@ -7036,7 +7036,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_41)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6bda174;
+  constexpr static std::size_t addrs = 0x6bdb254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7049,7 +7049,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_42)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6bda2cc;
+  constexpr static std::size_t addrs = 0x6bdb3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_42", {}, {} })));
@@ -7061,7 +7061,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_43)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bda2ec;
+  constexpr static std::size_t addrs = 0x6bdb3cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_43", {}, {} })));
@@ -7073,7 +7073,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(float_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_44)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bda304;
+  constexpr static std::size_t addrs = 0x6bdb3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7086,7 +7086,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_47)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6bda31c;
+  constexpr static std::size_t addrs = 0x6bdb3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_47", {}, {} })));
@@ -7098,7 +7098,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_48)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bda33c;
+  constexpr static std::size_t addrs = 0x6bdb41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_48", {}, {} })));
@@ -7110,7 +7110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(float_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_49)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bda354;
+  constexpr static std::size_t addrs = 0x6bdb434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7123,7 +7123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_51)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bda36c;
+  constexpr static std::size_t addrs = 0x6bdb44c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_51", {}, {} })));
@@ -7135,7 +7135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_52)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6bda384;
+  constexpr static std::size_t addrs = 0x6bdb464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7148,7 +7148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_53)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bda3a0;
+  constexpr static std::size_t addrs = 0x6bdb480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_53", {}, {} })));
@@ -7160,7 +7160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_54)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6bda3b8;
+  constexpr static std::size_t addrs = 0x6bdb498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7173,7 +7173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_55)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6bda3d4;
+  constexpr static std::size_t addrs = 0x6bdb4b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_55", {}, {} })));
@@ -7185,7 +7185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_56)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bda404;
+  constexpr static std::size_t addrs = 0x6bdb4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_56", {}, {} })));
@@ -7197,7 +7197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_57)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6bda41c;
+  constexpr static std::size_t addrs = 0x6bdb4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7210,7 +7210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_58)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bda438;
+  constexpr static std::size_t addrs = 0x6bdb518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_58", {}, {} })));
@@ -7222,7 +7222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_59)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6bda450;
+  constexpr static std::size_t addrs = 0x6bdb530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7235,7 +7235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_67)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bda46c;
+  constexpr static std::size_t addrs = 0x6bdb54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_67", {}, {} })));
@@ -7247,7 +7247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_68)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6bda484;
+  constexpr static std::size_t addrs = 0x6bdb564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7260,7 +7260,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_69)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6bda4a0;
+  constexpr static std::size_t addrs = 0x6bdb580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_69", {}, {} })));
@@ -7272,7 +7272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_71)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bda4c0;
+  constexpr static std::size_t addrs = 0x6bdb5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_71", {}, {} })));
@@ -7284,7 +7284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_72)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6bda4d8;
+  constexpr static std::size_t addrs = 0x6bdb5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7297,7 +7297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_73)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bda4f4;
+  constexpr static std::size_t addrs = 0x6bdb5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_73", {}, {} })));
@@ -7309,7 +7309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(bool)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_74)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6bda50c;
+  constexpr static std::size_t addrs = 0x6bdb5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7323,7 +7323,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(::StringW)>(
     &::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_g__RefreshScenarioNames_42_75)> {
   constexpr static std::size_t size = 0x774;
-  constexpr static std::size_t addrs = 0x6bda528;
+  constexpr static std::size_t addrs = 0x6bdb608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7337,7 +7337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_83)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6bdac9c;
+  constexpr static std::size_t addrs = 0x6bdbd7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_83", {}, {} })));
@@ -7349,7 +7349,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(int32_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_84)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6bdae44;
+  constexpr static std::size_t addrs = 0x6bdbf24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -7362,7 +7362,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::ProbeReferenceVolume::*)()>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_85)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bdaef0;
+  constexpr static std::size_t addrs = 0x6bdbfd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeReferenceVolume*>(), { "<RegisterDebug>b__42_85", {}, {} })));
@@ -7374,7 +7374,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeReferenceVolume::*)(int32_t)>(&::UnityEngine::Rendering::ProbeReferenceVolume::_RegisterDebug_b__42_86)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bdaf08;
+  constexpr static std::size_t addrs = 0x6bdbfe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

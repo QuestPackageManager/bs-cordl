@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Security::Cryptography::RSACryptoServiceProvider::get_UseMachineKeyStore)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f57454;
+  constexpr static std::size_t addrs = 0x5f576dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)()>(&::System::Security::Cryptography::RSACryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f569e8;
+  constexpr static std::size_t addrs = 0x5f56c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RSACryptoServiceProvider*>(), { ".ctor", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)(::System::Security::Cryptography::CspParameters*)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f574bc;
+  constexpr static std::size_t addrs = 0x5f57744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RSACryptoServiceProvider*>(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)(int32_t)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f574ac;
+  constexpr static std::size_t addrs = 0x5f57734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)(int32_t, ::System::Security::Cryptography::CspParameters*)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5f574c8;
+  constexpr static std::size_t addrs = 0x5f57750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)(int32_t, bool)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::Common)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x5f57510;
+  constexpr static std::size_t addrs = 0x5f57798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)(::System::Security::Cryptography::CspParameters*)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::Common)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5f57714;
+  constexpr static std::size_t addrs = 0x5f5799c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RSACryptoServiceProvider*>(),
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)()>(&::System::Security::Cryptography::RSACryptoServiceProvider::Finalize)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5f57834;
+  constexpr static std::size_t addrs = 0x5f57abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RSACryptoServiceProvider*>(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Cryptography::RSACryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::get_KeySize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f57884;
+  constexpr static std::size_t addrs = 0x5f57b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RSACryptoServiceProvider*>(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Cryptography::RSACryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::get_PublicOnly)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5f578a4;
+  constexpr static std::size_t addrs = 0x5f57b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::RSACryptoServiceProvider::*)(::ArrayW<uint8_t>)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::EncryptValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f578bc;
+  constexpr static std::size_t addrs = 0x5f57b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RSACryptoServiceProvider*>(),
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::RSAParameters (::System::Security::Cryptography::RSACryptoServiceProvider::*)(bool)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::ExportParameters)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x5f578d8;
+  constexpr static std::size_t addrs = 0x5f57b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RSACryptoServiceProvider*>(),
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)(::System::Security::Cryptography::RSAParameters)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::ImportParameters)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5f57a0c;
+  constexpr static std::size_t addrs = 0x5f57c94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RSACryptoServiceProvider*>(),
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::RSACryptoServiceProvider::*)(::StringW)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::GetHashNameFromOID)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x5f57a50;
+  constexpr static std::size_t addrs = 0x5f57cd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Cryptography::RSACryptoServiceProvider::*)(::ArrayW<uint8_t>, ::StringW, ::ArrayW<uint8_t>)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::VerifyHash)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5f57c3c;
+  constexpr static std::size_t addrs = 0x5f57ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)(bool)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::Dispose)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5f57d6c;
+  constexpr static std::size_t addrs = 0x5f57ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RSACryptoServiceProvider*>(),
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RSACryptoServiceProvider::*)(::System::Object*, ::System::EventArgs*)>(
     &::System::Security::Cryptography::RSACryptoServiceProvider::OnKeyGenerated)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f57dc4;
+  constexpr static std::size_t addrs = 0x5f5804c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::RSACryptoServiceProvider*>(),

@@ -42,7 +42,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILevelGameplaySetupData"
   constexpr operator ::GlobalNamespace::ILevelGameplaySetupData*() noexcept;
 
-  /// @brief Method ClearGameplaySetupData, addr 0x39e6928, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ClearGameplaySetupData, addr 0x39eb9d0, size 0x6c, virtual false, abstract: false, final false
   inline void ClearGameplaySetupData();
 
   static inline ::GlobalNamespace::LevelGameplaySetupData* New_ctor();
@@ -50,10 +50,10 @@ public:
   static inline ::GlobalNamespace::LevelGameplaySetupData* New_ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey,
                                                                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method SetBeatmapKey, addr 0x39e6994, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetBeatmapKey, addr 0x39eba3c, size 0x14, virtual false, abstract: false, final false
   inline void SetBeatmapKey(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
-  /// @brief Method SetGameplayModifiers, addr 0x39e69a8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetGameplayModifiers, addr 0x39eba50, size 0x84, virtual false, abstract: false, final false
   inline void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey() const;
@@ -68,16 +68,16 @@ public:
 
   constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method .ctor, addr 0x39e6820, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39eb8c8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x39e6884, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39eb92c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method get_beatmapKey, addr 0x39e6804, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_beatmapKey, addr 0x39eb8ac, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_gameplayModifiers, addr 0x39e6818, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gameplayModifiers, addr 0x39eb8c0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
   /// @brief Convert to "::GlobalNamespace::ILevelGameplaySetupData"
@@ -98,7 +98,7 @@ public:
   LevelGameplaySetupData(LevelGameplaySetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14568 };
 
   /// @brief Field _beatmapKey, offset: 0x10, size: 0x18, def value: None
   ::GlobalNamespace::BeatmapKey ____beatmapKey;

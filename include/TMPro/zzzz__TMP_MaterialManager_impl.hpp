@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_MaterialManager_FallbackMaterial::*)()>(&::TMPro::TMP_MaterialManager_FallbackMaterial::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ddb9e4;
+  constexpr static std::size_t addrs = 0x6ddcac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_MaterialManager_FallbackMaterial*>(), { ".ctor", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_MaterialManager_MaskingMaterial::*)()>(&::TMPro::TMP_MaterialManager_MaskingMaterial::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dd9ebc;
+  constexpr static std::size_t addrs = 0x6ddaf9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_MaterialManager_MaskingMaterial*>(), { ".ctor", {}, {} })));
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_MaterialManager___c__DisplayClass11_0::*)()>(&::TMPro::TMP_MaterialManager___c__DisplayClass11_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dda590;
+  constexpr static std::size_t addrs = 0x6ddb670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_MaterialManager___c__DisplayClass11_0*>(), { ".ctor", {}, {} })));
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_MaterialManager___c__DisplayClass11_0::*)(::TMPro::TMP_MaterialManager_MaskingMaterial*)>(
     &::TMPro::TMP_MaterialManager___c__DisplayClass11_0::_AddMaskingMaterial_b__0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6ddc350;
+  constexpr static std::size_t addrs = 0x6ddd430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_MaterialManager___c__DisplayClass11_0*>(),
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_MaterialManager___c__DisplayClass12_0::*)()>(&::TMPro::TMP_MaterialManager___c__DisplayClass12_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dda700;
+  constexpr static std::size_t addrs = 0x6ddb7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_MaterialManager___c__DisplayClass12_0*>(), { ".ctor", {}, {} })));
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_MaterialManager___c__DisplayClass12_0::*)(::TMPro::TMP_MaterialManager_MaskingMaterial*)>(
     &::TMPro::TMP_MaterialManager___c__DisplayClass12_0::_RemoveStencilMaterial_b__0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6ddc3cc;
+  constexpr static std::size_t addrs = 0x6ddd4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_MaterialManager___c__DisplayClass13_0::*)()>(&::TMPro::TMP_MaterialManager___c__DisplayClass13_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ddabe4;
+  constexpr static std::size_t addrs = 0x6ddbcc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_MaterialManager___c__DisplayClass13_0*>(), { ".ctor", {}, {} })));
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_MaterialManager___c__DisplayClass13_0::*)(::TMPro::TMP_MaterialManager_MaskingMaterial*)>(
     &::TMPro::TMP_MaterialManager___c__DisplayClass13_0::_ReleaseBaseMaterial_b__0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6ddc448;
+  constexpr static std::size_t addrs = 0x6ddd528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_MaterialManager___c__DisplayClass13_0*>(),
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_MaterialManager___c__DisplayClass9_0::*)()>(&::TMPro::TMP_MaterialManager___c__DisplayClass9_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dda25c;
+  constexpr static std::size_t addrs = 0x6ddb33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_MaterialManager___c__DisplayClass9_0*>(), { ".ctor", {}, {} })));
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_MaterialManager___c__DisplayClass9_0::*)(::TMPro::TMP_MaterialManager_MaskingMaterial*)>(
     &::TMPro::TMP_MaterialManager___c__DisplayClass9_0::_GetBaseMaterial_b__0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6ddc4c4;
+  constexpr static std::size_t addrs = 0x6ddd5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_MaterialManager___c__DisplayClass9_0*>(),
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::TMPro::TMP_MaterialManager::OnPreRender)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6dd8a74;
+  constexpr static std::size_t addrs = 0x6dd9b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_MaterialManager*>(), { "OnPreRender", {}, {} })));
@@ -386,7 +386,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*, int32_t)>(&::TMPro::TMP_MaterialManager::GetStencilMaterial)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x6dd8d44;
+  constexpr static std::size_t addrs = 0x6dd9e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -400,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::ReleaseStencilMaterial)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x6dd9ec0;
+  constexpr static std::size_t addrs = 0x6ddafa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -413,7 +413,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::GetBaseMaterial)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6dda0ec;
+  constexpr static std::size_t addrs = 0x6ddb1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -426,7 +426,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*, int32_t)>(&::TMPro::TMP_MaterialManager::SetStencil)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6dda260;
+  constexpr static std::size_t addrs = 0x6ddb340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -439,7 +439,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Material*, int32_t)>(&::TMPro::TMP_MaterialManager::AddMaskingMaterial)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x6dda318;
+  constexpr static std::size_t addrs = 0x6ddb3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -453,7 +453,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::RemoveStencilMaterial)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6dda594;
+  constexpr static std::size_t addrs = 0x6ddb674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -466,7 +466,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::ReleaseBaseMaterial)> {
   constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x6dda704;
+  constexpr static std::size_t addrs = 0x6ddb7e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -479,7 +479,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::TMPro::TMP_MaterialManager::ClearMaterials)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x6ddabe8;
+  constexpr static std::size_t addrs = 0x6ddbcc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_MaterialManager*>(), { "ClearMaterials", {}, {} })));
@@ -491,7 +491,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::GameObject*)>(&::TMPro::TMP_MaterialManager::GetStencilID)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x6ddade4;
+  constexpr static std::size_t addrs = 0x6ddbec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -505,7 +505,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::UI::MaskableGraphic*, ::UnityEngine::Material*)>(
     &::TMPro::TMP_MaterialManager::GetMaterialForRendering)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x6ddb28c;
+  constexpr static std::size_t addrs = 0x6ddc36c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -519,7 +519,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::UnityEngine::Transform*)>(&::TMPro::TMP_MaterialManager::FindRootSortOverrideCanvas)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x6ddb0cc;
+  constexpr static std::size_t addrs = 0x6ddc1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -533,7 +533,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::TMPro::TMP_FontAsset*, ::UnityEngine::Material*, int32_t)>(
     &::TMPro::TMP_MaterialManager::GetFallbackMaterial)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x6ddb4ac;
+  constexpr static std::size_t addrs = 0x6ddc58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -547,7 +547,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*, ::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::GetFallbackMaterial)> {
   constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x6ddb9e8;
+  constexpr static std::size_t addrs = 0x6ddcac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -561,7 +561,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::AddFallbackMaterialReference)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6ddbe0c;
+  constexpr static std::size_t addrs = 0x6ddceec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -574,7 +574,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::RemoveFallbackMaterialReference)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x6ddbf60;
+  constexpr static std::size_t addrs = 0x6ddd040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -587,7 +587,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::TMPro::TMP_MaterialManager::CleanupFallbackMaterials)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x6dd8af0;
+  constexpr static std::size_t addrs = 0x6dd9bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_MaterialManager*>(), { "CleanupFallbackMaterials", {}, {} })));
@@ -599,7 +599,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::ReleaseFallbackMaterial)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x6ddc14c;
+  constexpr static std::size_t addrs = 0x6ddd22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -612,7 +612,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Material*)>(&::TMPro::TMP_MaterialManager::CopyMaterialPresetProperties)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x6ddb790;
+  constexpr static std::size_t addrs = 0x6ddc870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

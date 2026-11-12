@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel___c::*)()>(&::UnityEngine::UIElements::BaseRuntimePanel___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x72ad250;
+  constexpr static std::size_t addrs = 0x72ae330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseRuntimePanel___c*>(), { ".ctor", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::BaseRuntimePanel___c::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::BaseRuntimePanel___c::__cctor_b__51_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72ad254;
+  constexpr static std::size_t addrs = 0x72ae334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::UIElements::BaseRuntimePanel::*)()>(
     &::UnityEngine::UIElements::BaseRuntimePanel::get_selectableGameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72abe54;
+  constexpr static std::size_t addrs = 0x72acf34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseRuntimePanel*>(), { "get_selectableGameObject", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)(::UnityEngine::GameObject*)>(
     &::UnityEngine::UIElements::BaseRuntimePanel::set_selectableGameObject)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x72abe5c;
+  constexpr static std::size_t addrs = 0x72acf3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::BaseRuntimePanel::*)()>(&::UnityEngine::UIElements::BaseRuntimePanel::get_sortingPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72ac1dc;
+  constexpr static std::size_t addrs = 0x72ad2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseRuntimePanel*>(), { "get_sortingPriority", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)(float_t)>(&::UnityEngine::UIElements::BaseRuntimePanel::set_sortingPriority)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x72ac1e4;
+  constexpr static std::size_t addrs = 0x72ad2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)(::System::Action*)>(&::UnityEngine::UIElements::BaseRuntimePanel::add_destroyed)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x72ac2e8;
+  constexpr static std::size_t addrs = 0x72ad3c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)(::System::Action*)>(&::UnityEngine::UIElements::BaseRuntimePanel::remove_destroyed)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x72ac394;
+  constexpr static std::size_t addrs = 0x72ad474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)(::UnityEngine::ScriptableObject*, ::UnityEngine::UIElements::EventDispatcher*)>(
     &::UnityEngine::UIElements::BaseRuntimePanel::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x72ac440;
+  constexpr static std::size_t addrs = 0x72ad520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)(bool)>(&::UnityEngine::UIElements::BaseRuntimePanel::Dispose)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x72ac51c;
+  constexpr static std::size_t addrs = 0x72ad5fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)(::System::Action*)>(
     &::UnityEngine::UIElements::BaseRuntimePanel::add_drawsInCamerasChanged)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x72ac568;
+  constexpr static std::size_t addrs = 0x72ad648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)(::System::Action*)>(
     &::UnityEngine::UIElements::BaseRuntimePanel::remove_drawsInCamerasChanged)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x72ac614;
+  constexpr static std::size_t addrs = 0x72ad6f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)()>(&::UnityEngine::UIElements::BaseRuntimePanel::InvokeDrawsInCamerasChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x72ac6c0;
+  constexpr static std::size_t addrs = 0x72ad7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseRuntimePanel::*)()>(&::UnityEngine::UIElements::BaseRuntimePanel::get_drawsInCameras)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72ac6dc;
+  constexpr static std::size_t addrs = 0x72ad7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseRuntimePanel*>(), { "get_drawsInCameras", {}, {} })));
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)(bool)>(&::UnityEngine::UIElements::BaseRuntimePanel::set_drawsInCameras)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x72ac6e4;
+  constexpr static std::size_t addrs = 0x72ad7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::BaseRuntimePanel::*)()>(&::UnityEngine::UIElements::BaseRuntimePanel::get_pixelsPerUnit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72ac780;
+  constexpr static std::size_t addrs = 0x72ad860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseRuntimePanel*>(), { "get_pixelsPerUnit", {}, {} })));
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)(float_t)>(&::UnityEngine::UIElements::BaseRuntimePanel::set_pixelsPerUnit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72ac788;
+  constexpr static std::size_t addrs = 0x72ad868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::BaseRuntimePanel::*)()>(&::UnityEngine::UIElements::BaseRuntimePanel::get_targetDisplay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72ac790;
+  constexpr static std::size_t addrs = 0x72ad870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseRuntimePanel*>(), { "get_targetDisplay", {}, {} })));
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)(int32_t)>(&::UnityEngine::UIElements::BaseRuntimePanel::set_targetDisplay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72ac798;
+  constexpr static std::size_t addrs = 0x72ad878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::BaseRuntimePanel::*)()>(&::UnityEngine::UIElements::BaseRuntimePanel::get_screenRenderingWidth)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x72ac7a0;
+  constexpr static std::size_t addrs = 0x72ad880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseRuntimePanel*>(), { "get_screenRenderingWidth", {}, {} })));
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::BaseRuntimePanel::*)()>(&::UnityEngine::UIElements::BaseRuntimePanel::get_screenRenderingHeight)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x72ac8d8;
+  constexpr static std::size_t addrs = 0x72ad9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseRuntimePanel*>(), { "get_screenRenderingHeight", {}, {} })));
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)()>(&::UnityEngine::UIElements::BaseRuntimePanel::Update)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x72aca10;
+  constexpr static std::size_t addrs = 0x72adaf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::UIElements::BaseRuntimePanel::getScreenRenderingHeight)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x72ac934;
+  constexpr static std::size_t addrs = 0x72ada14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::UIElements::BaseRuntimePanel::getScreenRenderingWidth)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x72ac7fc;
+  constexpr static std::size_t addrs = 0x72ad8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)()>(&::UnityEngine::UIElements::BaseRuntimePanel::Render)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x72aca40;
+  constexpr static std::size_t addrs = 0x72adb20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>* (::UnityEngine::UIElements::BaseRuntimePanel::*)()>(
     &::UnityEngine::UIElements::BaseRuntimePanel::get_screenToPanelSpace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72accb0;
+  constexpr static std::size_t addrs = 0x72add90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseRuntimePanel*>(), { "get_screenToPanelSpace", {}, {} })));
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector3>*)>(
     &::UnityEngine::UIElements::BaseRuntimePanel::set_screenToPanelSpace)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x72accb8;
+  constexpr static std::size_t addrs = 0x72add98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -392,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::BaseRuntimePanel::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::BaseRuntimePanel::ScreenToPanel)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x72acd3c;
+  constexpr static std::size_t addrs = 0x72ade1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -406,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::BaseRuntimePanel::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, ::by_ref<::UnityEngine::Vector3>, bool)>(
     &::UnityEngine::UIElements::BaseRuntimePanel::ScreenToPanel)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x72acd78;
+  constexpr static std::size_t addrs = 0x72ade58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -423,7 +423,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)(::UnityEngine::UIElements::BaseRuntimePanel*)>(
     &::UnityEngine::UIElements::BaseRuntimePanel::AssignPanelToComponents)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x72abefc;
+  constexpr static std::size_t addrs = 0x72acfdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseRuntimePanel*>(),
@@ -436,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)(int32_t)>(&::UnityEngine::UIElements::BaseRuntimePanel::PointerLeavesPanel)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x72acf84;
+  constexpr static std::size_t addrs = 0x72ae064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -450,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::BaseRuntimePanel::*)(int32_t, ::UnityEngine::Vector3)>(
     &::UnityEngine::UIElements::BaseRuntimePanel::PointerEntersPanel)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x72ad070;
+  constexpr static std::size_t addrs = 0x72ae150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::BaseRuntimePanel*>(),

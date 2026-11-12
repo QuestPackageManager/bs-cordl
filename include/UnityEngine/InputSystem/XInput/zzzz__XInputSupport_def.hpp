@@ -19,7 +19,7 @@ namespace UnityEngine::InputSystem::XInput {
 class CORDL_TYPE XInputSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x69f4e04, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x69f5ee4, size 0x78, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:

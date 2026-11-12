@@ -39,18 +39,18 @@ public:
   /// @brief Field cameraRig, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_cameraRig, put = __cordl_internal_set_cameraRig)) ::UnityW<::GlobalNamespace::OVRCameraRig> cameraRig;
 
-  /// @brief Method Awake, addr 0x6274b9c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6274e24, size 0xfc, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRControllerDrivenHandPosesSample* New_ctor();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToControllerConforming, addr 0x6274d7c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToControllerConforming, addr 0x6275004, size 0xe8, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToControllerConforming();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToNatural, addr 0x6274e64, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToNatural, addr 0x62750ec, size 0xe8, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToNatural();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToNone, addr 0x6274c98, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToNone, addr 0x6274f20, size 0xe4, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToNone();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_buttonConforming() const;
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set_cameraRig(::UnityW<::GlobalNamespace::OVRCameraRig> value);
 
-  /// @brief Method .ctor, addr 0x6274f4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62751d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

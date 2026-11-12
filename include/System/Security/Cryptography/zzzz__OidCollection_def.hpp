@@ -62,18 +62,18 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x68072e8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6807938, size 0xc4, virtual false, abstract: false, final false
   inline int32_t Add(::System::Security::Cryptography::Oid* oid);
 
-  /// @brief Method GetEnumerator, addr 0x6807460, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6807ab0, size 0x58, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::OidEnumerator* GetEnumerator();
 
   static inline ::System::Security::Cryptography::OidCollection* New_ctor();
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x68074cc, size 0x1a4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x6807b1c, size 0x1a4, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x68074c8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6807b18, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>* const& __cordl_internal_get__list() const;
@@ -82,19 +82,19 @@ public:
 
   constexpr void __cordl_internal_set__list(::System::Collections::Generic::List_1<::System::Security::Cryptography::Oid*>* value);
 
-  /// @brief Method .ctor, addr 0x6807274, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68078c4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x6807410, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x6807a60, size 0x50, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x6807670, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x6807cc0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x68073ac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x68079fc, size 0x64, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::Oid* get_Item(int32_t index);
 
-  /// @brief Method get_SyncRoot, addr 0x6807678, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x6807cc8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"

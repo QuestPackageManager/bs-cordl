@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PracticeSettings::*)()>(&::GlobalNamespace::PracticeSettings::get_startSongTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a01104;
+  constexpr static std::size_t addrs = 0x3a05e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeSettings*>(), { "get_startSongTime", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeSettings::*)(float_t)>(&::GlobalNamespace::PracticeSettings::set_startSongTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a0110c;
+  constexpr static std::size_t addrs = 0x3a05e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PracticeSettings::*)()>(&::GlobalNamespace::PracticeSettings::get_songSpeedMul)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a01114;
+  constexpr static std::size_t addrs = 0x3a05e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeSettings*>(), { "get_songSpeedMul", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeSettings::*)(float_t)>(&::GlobalNamespace::PracticeSettings::set_songSpeedMul)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a0111c;
+  constexpr static std::size_t addrs = 0x3a05e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PracticeSettings::*)()>(&::GlobalNamespace::PracticeSettings::get_startInAdvanceAndClearNotes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a01124;
+  constexpr static std::size_t addrs = 0x3a05e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeSettings*>(), { "get_startInAdvanceAndClearNotes", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeSettings::*)(bool)>(&::GlobalNamespace::PracticeSettings::set_startInAdvanceAndClearNotes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a0112c;
+  constexpr static std::size_t addrs = 0x3a05e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PracticeSettings* (*)()>(&::GlobalNamespace::PracticeSettings::get_defaultPracticeSettings)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3a01134;
+  constexpr static std::size_t addrs = 0x3a05e88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeSettings*>(), { "get_defaultPracticeSettings", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeSettings::*)()>(&::GlobalNamespace::PracticeSettings::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39fa370;
+  constexpr static std::size_t addrs = 0x39ff0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeSettings*>(), { ".ctor", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeSettings::*)(::GlobalNamespace::PracticeSettings*)>(&::GlobalNamespace::PracticeSettings::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3a011a8;
+  constexpr static std::size_t addrs = 0x3a05efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeSettings::*)(float_t, float_t)>(&::GlobalNamespace::PracticeSettings::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39fee54;
+  constexpr static std::size_t addrs = 0x3a03ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PracticeSettings::*)()>(&::GlobalNamespace::PracticeSettings::ResetToDefault)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3a01190;
+  constexpr static std::size_t addrs = 0x3a05ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PracticeSettings*>(), { "ResetToDefault", {}, {} })));

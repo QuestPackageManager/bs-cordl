@@ -12,6 +12,7 @@
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSO_def.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
+#include "System/zzzz__ValueTuple_2_def.hpp"
 #include "Tweening/zzzz__ColorTween_def.hpp"
 #include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::LightSwitchEventEffect::*)()>(&::GlobalNamespace::LightSwitchEventEffect::get_lightsId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df5574;
+  constexpr static std::size_t addrs = 0x5df5830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightSwitchEventEffect*>(), { "get_lightsId", {}, {} })));
@@ -33,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BasicBeatmapEventType (::GlobalNamespace::LightSwitchEventEffect::*)()>(
     &::GlobalNamespace::LightSwitchEventEffect::get_eventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5df557c;
+  constexpr static std::size_t addrs = 0x5df5838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightSwitchEventEffect*>(), { "get_eventType", {}, {} })));
@@ -44,8 +45,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BasicB
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)()>(&::GlobalNamespace::LightSwitchEventEffect::Start)> {
-  constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x5df5584;
+  constexpr static std::size_t size = 0x300;
+  constexpr static std::size_t addrs = 0x5df5840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightSwitchEventEffect*>(), { "Start", {}, {} })));
@@ -57,10 +58,35 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)()>(&::GlobalNamespace::LightSwitchEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5df5970;
+  constexpr static std::size_t addrs = 0x5df5c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightSwitchEventEffect*>(), { "OnDestroy", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::LightSwitchEventEffect.ApplyDefaultColor
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)()>(&::GlobalNamespace::LightSwitchEventEffect::ApplyDefaultColor)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x5df5d14;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightSwitchEventEffect*>(), { "ApplyDefaultColor", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::LightSwitchEventEffect.GetDefaultColors
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::UnityEngine::Color, ::UnityEngine::Color> (::GlobalNamespace::LightSwitchEventEffect::*)()>(
+    &::GlobalNamespace::LightSwitchEventEffect::GetDefaultColors)> {
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5df5b40;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightSwitchEventEffect*>(), { "GetDefaultColors", {}, {} })));
     return ___internal_method;
   }
 };
@@ -69,8 +95,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::LightSwitchEventEffect::HandleColorChangeBeatmapEvent)> {
-  constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x5df5a24;
+  constexpr static std::size_t size = 0x3e4;
+  constexpr static std::size_t addrs = 0x5df5e10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightSwitchEventEffect*>(),
@@ -84,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)(::GlobalNamespace::ColorBoostBeatmapEventData*)>(
     &::GlobalNamespace::LightSwitchEventEffect::HandleColorBoostBeatmapEvent)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5df6164;
+  constexpr static std::size_t addrs = 0x5df6568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)(::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color)>(
     &::GlobalNamespace::LightSwitchEventEffect::SetupTweenAndSaveOtherColors)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5df5934;
+  constexpr static std::size_t addrs = 0x5df5c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::LightSwitchEventEffect::CheckNextEventForFade)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x5df5df0;
+  constexpr static std::size_t addrs = 0x5df61f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightSwitchEventEffect*>(),
@@ -131,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::LightSwitchEventEffect::*)(int32_t, bool)>(
     &::GlobalNamespace::LightSwitchEventEffect::GetNormalColor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5df602c;
+  constexpr static std::size_t addrs = 0x5df6430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::LightSwitchEventEffect::*)(int32_t, bool)>(
     &::GlobalNamespace::LightSwitchEventEffect::GetHighlightColor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5df60c8;
+  constexpr static std::size_t addrs = 0x5df64cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)(::UnityEngine::Color)>(&::GlobalNamespace::LightSwitchEventEffect::SetColor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5df5dd0;
+  constexpr static std::size_t addrs = 0x5df5df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightSwitchEventEffect::*)()>(&::GlobalNamespace::LightSwitchEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5df6240;
+  constexpr static std::size_t addrs = 0x5df6644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightSwitchEventEffect*>(), { ".ctor", {}, {} })));
@@ -457,6 +483,14 @@ inline void GlobalNamespace::LightSwitchEventEffect::Start() {
 inline void GlobalNamespace::LightSwitchEventEffect::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightSwitchEventEffect*>(), { "OnDestroy", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::LightSwitchEventEffect::ApplyDefaultColor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightSwitchEventEffect*>(), { "ApplyDefaultColor", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline ::System::ValueTuple_2<::UnityEngine::Color, ::UnityEngine::Color> GlobalNamespace::LightSwitchEventEffect::GetDefaultColors() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightSwitchEventEffect*>(), { "GetDefaultColors", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<::UnityEngine::Color, ::UnityEngine::Color>>(this, ___internal_method);
 }
 inline void GlobalNamespace::LightSwitchEventEffect::HandleColorChangeBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightSwitchEventEffect*>(),

@@ -46,10 +46,10 @@ public:
 
   static inline ::HMUI::VerticalScrollIndicator* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x5ce0e0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5ce060c, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshHandle, addr 0x5ce0ce4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method RefreshHandle, addr 0x5ce04e4, size 0x110, virtual false, abstract: false, final false
   inline void RefreshHandle();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__handle() const;
@@ -82,22 +82,22 @@ public:
 
   constexpr void __cordl_internal_set__progress(float_t value);
 
-  /// @brief Method .ctor, addr 0x5ce0e10, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ce0610, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_handle, addr 0x5ce0e04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handle, addr 0x5ce0604, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_handle();
 
-  /// @brief Method get_normalizedPageHeight, addr 0x5ce0dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedPageHeight, addr 0x5ce05fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalizedPageHeight();
 
-  /// @brief Method get_progress, addr 0x5ce0df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x5ce05f4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method set_normalizedPageHeight, addr 0x5cd8a6c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedPageHeight, addr 0x5cd826c, size 0x30, virtual false, abstract: false, final false
   inline void set_normalizedPageHeight(float_t value);
 
-  /// @brief Method set_progress, addr 0x5cd8f2c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_progress, addr 0x5cd872c, size 0x30, virtual false, abstract: false, final false
   inline void set_progress(float_t value);
 
 protected:
@@ -115,7 +115,7 @@ public:
   VerticalScrollIndicator(VerticalScrollIndicator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19740 };
 
   /// [SerializeField]
   /// @brief Field _handle, offset: 0x20, size: 0x8, def value: None

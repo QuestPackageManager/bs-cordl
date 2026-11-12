@@ -22,7 +22,7 @@ public:
   inline bool IsActive();
 
   /// [Obsolete("Unused #from(2023.1)")]
-  /// @brief Method IsTileCompatible, addr 0x6bf1b3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsTileCompatible, addr 0x6bf2c1c, size 0x8, virtual true, abstract: false, final false
   inline bool IsTileCompatible();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPostProcessComponent", modifiers: "const&", def_value: None, comment: None }]

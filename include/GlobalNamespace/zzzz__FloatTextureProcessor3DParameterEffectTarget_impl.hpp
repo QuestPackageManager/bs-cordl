@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5deee14;
+  constexpr static std::size_t addrs = 0x5deef44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5defb24;
+  constexpr static std::size_t addrs = 0x5defc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget*>(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget::*)(float_t)>(
     &::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget::SetFloat)> {
   constexpr static std::size_t size = 0xd0c;
-  constexpr static std::size_t addrs = 0x5deee18;
+  constexpr static std::size_t addrs = 0x5deef48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget::*)()>(
     &::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5defb28;
+  constexpr static std::size_t addrs = 0x5defc58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatTextureProcessor3DParameterEffectTarget*>(), { ".ctor", {}, {} })));

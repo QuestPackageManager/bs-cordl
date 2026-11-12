@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerGenerator::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Asn1::DerGenerator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x393ba1c;
+  constexpr static std::size_t addrs = 0x393feb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerGenerator::*)(::System::IO::Stream*, int32_t, bool)>(&::Org::BouncyCastle::Asn1::DerGenerator::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x393ba28;
+  constexpr static std::size_t addrs = 0x393fec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::Stream*, int32_t)>(&::Org::BouncyCastle::Asn1::DerGenerator::WriteLength)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x393ba40;
+  constexpr static std::size_t addrs = 0x393fed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::Stream*, int32_t, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::DerGenerator::WriteDerEncoded)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x393bafc;
+  constexpr static std::size_t addrs = 0x393ff94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerGenerator::*)(int32_t, ::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::DerGenerator::WriteDerEncoded)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x393bb5c;
+  constexpr static std::size_t addrs = 0x393fff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IO::Stream*, int32_t, ::System::IO::Stream*)>(&::Org::BouncyCastle::Asn1::DerGenerator::WriteDerEncoded)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x393bc3c;
+  constexpr static std::size_t addrs = 0x39400d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

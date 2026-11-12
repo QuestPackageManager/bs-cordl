@@ -24,10 +24,10 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE VirtualOffsetSettings {
 public:
   // Declarations
-  /// @brief Method SetDefaults, addr 0x6be9780, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetDefaults, addr 0x6bea860, size 0x20, virtual false, abstract: false, final false
   inline void SetDefaults();
 
-  /// @brief Method UpgradeFromTo, addr 0x6be97a0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method UpgradeFromTo, addr 0x6bea880, size 0x24, virtual false, abstract: false, final false
   inline void UpgradeFromTo(::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion from, ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion to);
 
   // Ctor Parameters []

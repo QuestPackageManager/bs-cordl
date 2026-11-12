@@ -28,7 +28,7 @@ namespace UnityEngine::Bindings {
 struct CORDL_TYPE Unmarshal {
 public:
   // Declarations
-  /// @brief Method FromIntPtrUnsafe, addr 0x6f96e78, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FromIntPtrUnsafe, addr 0x6f97f58, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::GCHandle FromIntPtrUnsafe(::System::IntPtr gcHandle);
 
   /// @brief Method UnmarshalUnityObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

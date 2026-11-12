@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Xml::SmallXmlParser_AttrListImpl::*)()>(&::Mono::Xml::SmallXmlParser_AttrListImpl::get_Length)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5f04aa4;
+  constexpr static std::size_t addrs = 0x5f04d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser_AttrListImpl*>(), { "get_Length", {}, {} })));
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Xml::SmallXmlParser_AttrListImpl::*)(int32_t)>(&::Mono::Xml::SmallXmlParser_AttrListImpl::GetName)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5f04af4;
+  constexpr static std::size_t addrs = 0x5f04d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Xml::SmallXmlParser_AttrListImpl::*)(int32_t)>(&::Mono::Xml::SmallXmlParser_AttrListImpl::GetValue)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5f04b58;
+  constexpr static std::size_t addrs = 0x5f04de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Xml::SmallXmlParser_AttrListImpl::*)(::StringW)>(&::Mono::Xml::SmallXmlParser_AttrListImpl::GetValue)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5f04bbc;
+  constexpr static std::size_t addrs = 0x5f04e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::Mono::Xml::SmallXmlParser_AttrListImpl::*)()>(&::Mono::Xml::SmallXmlParser_AttrListImpl::get_Names)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5f04c84;
+  constexpr static std::size_t addrs = 0x5f04f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser_AttrListImpl*>(), { "get_Names", {}, {} })));
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::Mono::Xml::SmallXmlParser_AttrListImpl::*)()>(&::Mono::Xml::SmallXmlParser_AttrListImpl::get_Values)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5f04cd8;
+  constexpr static std::size_t addrs = 0x5f04f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser_AttrListImpl*>(), { "get_Values", {}, {} })));
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser_AttrListImpl::*)()>(&::Mono::Xml::SmallXmlParser_AttrListImpl::Clear)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5f04490;
+  constexpr static std::size_t addrs = 0x5f04718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser_AttrListImpl*>(), { "Clear", {}, {} })));
@@ -332,7 +332,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser_AttrListImpl::*)(::StringW, ::StringW)>(&::Mono::Xml::SmallXmlParser_AttrListImpl::Add)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5f04994;
+  constexpr static std::size_t addrs = 0x5f04c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -345,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser_AttrListImpl::*)()>(&::Mono::Xml::SmallXmlParser_AttrListImpl::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5f03128;
+  constexpr static std::size_t addrs = 0x5f033b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser_AttrListImpl*>(), { ".ctor", {}, {} })));
@@ -434,7 +434,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser::*)()>(&::Mono::Xml::SmallXmlParser::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5f02a18;
+  constexpr static std::size_t addrs = 0x5f02ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { ".ctor", {}, {} })));
@@ -446,7 +446,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::Mono::Xml::SmallXmlParser::*)(::StringW)>(&::Mono::Xml::SmallXmlParser::Error)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5f031bc;
+  constexpr static std::size_t addrs = 0x5f03444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "Error", {}, { ::i2c::type_of<::StringW>() } })));
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::Mono::Xml::SmallXmlParser::*)()>(&::Mono::Xml::SmallXmlParser::UnexpectedEndError)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5f03310;
+  constexpr static std::size_t addrs = 0x5f03598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "UnexpectedEndError", {}, {} })));
@@ -470,7 +470,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Xml::SmallXmlParser::*)(char16_t, bool)>(&::Mono::Xml::SmallXmlParser::IsNameChar)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5f03428;
+  constexpr static std::size_t addrs = 0x5f036b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -483,7 +483,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Xml::SmallXmlParser::*)(int32_t)>(&::Mono::Xml::SmallXmlParser::IsWhitespace)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f03500;
+  constexpr static std::size_t addrs = 0x5f03788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "IsWhitespace", {}, { ::i2c::type_of<int32_t>() } })));
@@ -495,7 +495,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser::*)()>(&::Mono::Xml::SmallXmlParser::SkipWhitespaces)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f0351c;
+  constexpr static std::size_t addrs = 0x5f037a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "SkipWhitespaces", {}, {} })));
@@ -507,7 +507,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser::*)()>(&::Mono::Xml::SmallXmlParser::HandleWhitespaces)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x5f035d0;
+  constexpr static std::size_t addrs = 0x5f03858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "HandleWhitespaces", {}, {} })));
@@ -519,7 +519,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser::*)(bool)>(&::Mono::Xml::SmallXmlParser::SkipWhitespaces)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5f03524;
+  constexpr static std::size_t addrs = 0x5f037ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "SkipWhitespaces", {}, { ::i2c::type_of<bool>() } })));
@@ -531,7 +531,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Xml::SmallXmlParser::*)()>(&::Mono::Xml::SmallXmlParser::Peek)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f036e8;
+  constexpr static std::size_t addrs = 0x5f03970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "Peek", {}, {} })));
@@ -543,7 +543,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Xml::SmallXmlParser::*)()>(&::Mono::Xml::SmallXmlParser::Read)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f0368c;
+  constexpr static std::size_t addrs = 0x5f03914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "Read", {}, {} })));
@@ -555,7 +555,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser::*)(int32_t)>(&::Mono::Xml::SmallXmlParser::Expect)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5f03704;
+  constexpr static std::size_t addrs = 0x5f0398c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "Expect", {}, { ::i2c::type_of<int32_t>() } })));
@@ -567,7 +567,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Xml::SmallXmlParser::*)(char16_t, bool)>(&::Mono::Xml::SmallXmlParser::ReadUntil)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5f037bc;
+  constexpr static std::size_t addrs = 0x5f03a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -580,7 +580,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Xml::SmallXmlParser::*)()>(&::Mono::Xml::SmallXmlParser::ReadName)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x5f03a60;
+  constexpr static std::size_t addrs = 0x5f03ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "ReadName", {}, {} })));
@@ -593,7 +593,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser::*)(::System::IO::TextReader*, ::Mono::Xml::SmallXmlParser_IContentHandler*)>(
     &::Mono::Xml::SmallXmlParser::Parse)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x5f02bb4;
+  constexpr static std::size_t addrs = 0x5f02e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -607,7 +607,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser::*)()>(&::Mono::Xml::SmallXmlParser::Cleanup)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5f04414;
+  constexpr static std::size_t addrs = 0x5f0469c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "Cleanup", {}, {} })));
@@ -619,7 +619,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser::*)()>(&::Mono::Xml::SmallXmlParser::ReadContent)> {
   constexpr static std::size_t size = 0x6c4;
-  constexpr static std::size_t addrs = 0x5f03c04;
+  constexpr static std::size_t addrs = 0x5f03e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "ReadContent", {}, {} })));
@@ -631,7 +631,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser::*)()>(&::Mono::Xml::SmallXmlParser::HandleBufferedContent)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x5f042c8;
+  constexpr static std::size_t addrs = 0x5f04550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "HandleBufferedContent", {}, {} })));
@@ -643,7 +643,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser::*)()>(&::Mono::Xml::SmallXmlParser::ReadCharacters)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5f0481c;
+  constexpr static std::size_t addrs = 0x5f04aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "ReadCharacters", {}, {} })));
@@ -655,7 +655,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser::*)()>(&::Mono::Xml::SmallXmlParser::ReadReference)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5f03898;
+  constexpr static std::size_t addrs = 0x5f03b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "ReadReference", {}, {} })));
@@ -667,7 +667,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Xml::SmallXmlParser::*)()>(&::Mono::Xml::SmallXmlParser::ReadCharacterReference)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5f048a4;
+  constexpr static std::size_t addrs = 0x5f04b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "ReadCharacterReference", {}, {} })));
@@ -679,7 +679,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser::*)(::Mono::Xml::SmallXmlParser_AttrListImpl*)>(&::Mono::Xml::SmallXmlParser::ReadAttribute)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x5f046b8;
+  constexpr static std::size_t addrs = 0x5f04940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -692,7 +692,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser::*)()>(&::Mono::Xml::SmallXmlParser::ReadCDATASection)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5f04534;
+  constexpr static std::size_t addrs = 0x5f047bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "ReadCDATASection", {}, {} })));
@@ -704,7 +704,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Xml::SmallXmlParser::*)()>(&::Mono::Xml::SmallXmlParser::ReadComment)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5f04630;
+  constexpr static std::size_t addrs = 0x5f048b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Xml::SmallXmlParser*>(), { "ReadComment", {}, {} })));

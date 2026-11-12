@@ -53,7 +53,7 @@ public:
 
   static inline ::GlobalNamespace::OVRResources___c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <Load>b__0, addr 0x6316588, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <Load>b__0, addr 0x6316810, size 0x48, virtual false, abstract: false, final false
   inline bool _Load_b__0(::StringW s);
 
   constexpr ::StringW const& __cordl_internal_get_path() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_path(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6316494, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x631671c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -161,7 +161,7 @@ public:
   /// @brief Field resourceBundle, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_resourceBundle, put = setStaticF_resourceBundle)) ::UnityW<::UnityEngine::AssetBundle> resourceBundle;
 
-  /// @brief Method Load, addr 0x6316284, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x631650c, size 0x210, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path);
 
   /// @brief Method Load, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -171,10 +171,10 @@ public:
 
   static inline ::GlobalNamespace::OVRResources* New_ctor();
 
-  /// @brief Method SetResourceBundle, addr 0x6316498, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetResourceBundle, addr 0x6316720, size 0xec, virtual false, abstract: false, final false
   static inline void SetResourceBundle(::UnityEngine::AssetBundle* bundle);
 
-  /// @brief Method .ctor, addr 0x6316584, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x631680c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::StringW>* getStaticF_assetNames();

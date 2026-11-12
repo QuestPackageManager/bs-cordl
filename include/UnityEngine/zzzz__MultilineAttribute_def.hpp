@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set_lines(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6f6eee8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f6ffc8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -118,48 +118,48 @@ public:
   constexpr void __cordl_internal_set__itemContract(::Newtonsoft::Json::Serialization::JsonContract* value);
 
   /// [NullableContext(1)]
-  /// @brief Method .ctor, addr 0x61976bc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6197944, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
-  /// @brief Method get_FinalItemContract, addr 0x6198000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FinalItemContract, addr 0x6198288, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* get_FinalItemContract();
 
-  /// @brief Method get_ItemContract, addr 0x6197fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemContract, addr 0x6198238, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* get_ItemContract();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ItemConverter, addr 0x6198008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemConverter, addr 0x6198290, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonConverter* get_ItemConverter();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ItemIsReference, addr 0x6198018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemIsReference, addr 0x61982a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ItemIsReference();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ItemReferenceLoopHandling, addr 0x6198028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemReferenceLoopHandling, addr 0x61982b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> get_ItemReferenceLoopHandling();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ItemTypeNameHandling, addr 0x6198038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemTypeNameHandling, addr 0x61982c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> get_ItemTypeNameHandling();
 
-  /// @brief Method set_ItemContract, addr 0x6197fb8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_ItemContract, addr 0x6198240, size 0x48, virtual false, abstract: false, final false
   inline void set_ItemContract(::Newtonsoft::Json::Serialization::JsonContract* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ItemConverter, addr 0x6198010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemConverter, addr 0x6198298, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemConverter(::Newtonsoft::Json::JsonConverter* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ItemIsReference, addr 0x6198020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemIsReference, addr 0x61982a8, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemIsReference(::System::Nullable_1<bool> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ItemReferenceLoopHandling, addr 0x6198030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemReferenceLoopHandling, addr 0x61982b8, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ItemTypeNameHandling, addr 0x6198040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemTypeNameHandling, addr 0x61982c8, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
 protected:

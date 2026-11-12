@@ -34,17 +34,17 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x64a40ec, size 0x2dc, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x64a473c, size 0x2dc, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
   static inline ::System::Data::PropertyCollection* New_ctor();
 
   static inline ::System::Data::PropertyCollection* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x64a40d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a4728, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x64a40e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a4734, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Convert to "::System::ICloneable"

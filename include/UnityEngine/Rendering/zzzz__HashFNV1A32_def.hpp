@@ -34,28 +34,28 @@ public:
   // Declarations
   __declspec(property(get = get_value)) int32_t value;
 
-  /// @brief Method Append, addr 0x6c20434, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6c21514, size 0x48, virtual false, abstract: false, final false
   inline void Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> input);
 
-  /// @brief Method Append, addr 0x6c2047c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6c2155c, size 0x64, virtual false, abstract: false, final false
   inline void Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> input);
 
-  /// @brief Method Append, addr 0x6c204e0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6c215c0, size 0x7c, virtual false, abstract: false, final false
   inline void Append(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector4 const> input);
 
-  /// @brief Method Append, addr 0x6c203a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6c21484, size 0x28, virtual false, abstract: false, final false
   inline void Append(/* [IsReadOnly] */ ::by_ref<bool const> input);
 
-  /// @brief Method Append, addr 0x6c203fc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6c214dc, size 0x38, virtual false, abstract: false, final false
   inline void Append(/* [IsReadOnly] */ ::by_ref<double_t const> input);
 
-  /// @brief Method Append, addr 0x6c203cc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6c214ac, size 0x30, virtual false, abstract: false, final false
   inline void Append(/* [IsReadOnly] */ ::by_ref<float_t const> input);
 
-  /// @brief Method Append, addr 0x6c20364, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6c21444, size 0x20, virtual false, abstract: false, final false
   inline void Append(/* [IsReadOnly] */ ::by_ref<int32_t const> input);
 
-  /// @brief Method Append, addr 0x6c20384, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Append, addr 0x6c21464, size 0x20, virtual false, abstract: false, final false
   inline void Append(/* [IsReadOnly] */ ::by_ref<uint32_t const> input);
 
   /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -63,13 +63,13 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void Append(T input);
 
-  /// @brief Method Create, addr 0x6c20358, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6c21438, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::HashFNV1A32 Create();
 
-  /// @brief Method GetHashCode, addr 0x6c20564, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c21644, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_value, addr 0x6c2055c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x6c2163c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
   // Ctor Parameters []

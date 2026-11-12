@@ -26,10 +26,10 @@ public:
   /// @brief Field node, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_node, put = __cordl_internal_set_node)) ::System::Xml::Schema::XmlSchemaObject* node;
 
-  /// @brief Method LookupNamespace, addr 0x666f870, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method LookupNamespace, addr 0x666fec0, size 0x124, virtual true, abstract: false, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method LookupPrefix, addr 0x666f994, size 0x3e8, virtual true, abstract: false, final false
+  /// @brief Method LookupPrefix, addr 0x666ffe4, size 0x3e8, virtual true, abstract: false, final false
   inline ::StringW LookupPrefix(::StringW ns);
 
   static inline ::System::Xml::Schema::SchemaNamespaceManager* New_ctor(::System::Xml::Schema::XmlSchemaObject* node);
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_node(::System::Xml::Schema::XmlSchemaObject* value);
 
-  /// @brief Method .ctor, addr 0x666f868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x666feb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaObject* node);
 
 protected:

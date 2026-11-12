@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass21_0::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass21_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ed3060;
+  constexpr static std::size_t addrs = 0x5ed32e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Multipl
     ::GlobalNamespace::OVRSpatialAnchor*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass21_0::_AnchorCreationTask_g__CreateCompletedCallback_0)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5ed3064;
+  constexpr static std::size_t addrs = 0x5ed32e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass23_0::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass23_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ed30f4;
+  constexpr static std::size_t addrs = 0x5ed3374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Multipl
     ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass23_0::_RetrieveAnchorsFromGroup_g__LoadCompletedCallback_0)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5ed30f8;
+  constexpr static std::size_t addrs = 0x5ed3378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass23_0*>(),
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass24_0::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass24_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ed31c0;
+  constexpr static std::size_t addrs = 0x5ed3440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Multipl
     ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass24_0::_RetrieveAnchors_g__LoadCompletedCallback_0)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5ed31c4;
+  constexpr static std::size_t addrs = 0x5ed3444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass24_0*>(),
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass26_0::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass26_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ed328c;
+  constexpr static std::size_t addrs = 0x5ed350c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Multipl
     ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRAnchor_ShareResult)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass26_0::_ShareAnchorsWithGroup_g__ShareToGroupCompletedCallback_0)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5ed3290;
+  constexpr static std::size_t addrs = 0x5ed3510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass26_0*>(),
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass27_0::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass27_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ed33a8;
+  constexpr static std::size_t addrs = 0x5ed3628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::Multipl
     ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::OVRSpatialAnchor_OperationResult)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass27_0::_ShareAnchorsWithUser_g__ShareCompleteCallback_0)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5ed33ac;
+  constexpr static std::size_t addrs = 0x5ed362c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass27_0*>(),
@@ -429,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass29_0::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass29_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ed305c;
+  constexpr static std::size_t addrs = 0x5ed32dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -443,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass29_0::*)(::GlobalNamespace::OVRSpaceUser)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass29_0::_StopSharingAnchorsWithUser_b__0)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5ed34c4;
+  constexpr static std::size_t addrs = 0x5ed3744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager___c__DisplayClass29_0*>(),
@@ -484,7 +484,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__AnchorCreationTask_d__21::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__AnchorCreationTask_d__21::MoveNext)> {
   constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x5ed34f8;
+  constexpr static std::size_t addrs = 0x5ed3778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__AnchorCreationTask_d__21::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__AnchorCreationTask_d__21::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5ed3978;
+  constexpr static std::size_t addrs = 0x5ed3bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__AnchorCreationTask_d__21>(),
@@ -556,7 +556,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CheckIfRetrievingAnchorServiceHung_d__25::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CheckIfRetrievingAnchorServiceHung_d__25::MoveNext)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x5ed39f8;
+  constexpr static std::size_t addrs = 0x5ed3c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -570,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CheckIfRetrievingAnchorServiceHung_d__25::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CheckIfRetrievingAnchorServiceHung_d__25::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed3c38;
+  constexpr static std::size_t addrs = 0x5ed3eb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -620,7 +620,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CheckIfSavingAnchorsServiceHung_d__22::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CheckIfSavingAnchorsServiceHung_d__22::MoveNext)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x5ed3c40;
+  constexpr static std::size_t addrs = 0x5ed3ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -634,7 +634,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CheckIfSavingAnchorsServiceHung_d__22::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CheckIfSavingAnchorsServiceHung_d__22::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed3e64;
+  constexpr static std::size_t addrs = 0x5ed40e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -684,7 +684,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CheckIfSharingAnchorServiceHung_d__28::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CheckIfSharingAnchorServiceHung_d__28::MoveNext)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x5ed3e6c;
+  constexpr static std::size_t addrs = 0x5ed40ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -698,7 +698,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CheckIfSharingAnchorServiceHung_d__28::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CheckIfSharingAnchorServiceHung_d__28::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed40ac;
+  constexpr static std::size_t addrs = 0x5ed432c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -748,7 +748,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CreateAlignmentAnchor_d__19::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CreateAlignmentAnchor_d__19::MoveNext)> {
   constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x5ed40b4;
+  constexpr static std::size_t addrs = 0x5ed4334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -762,7 +762,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CreateAlignmentAnchor_d__19::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CreateAlignmentAnchor_d__19::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5ed459c;
+  constexpr static std::size_t addrs = 0x5ed481c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -812,7 +812,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CreateAnchor_d__20::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CreateAnchor_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x4d8;
-  constexpr static std::size_t addrs = 0x5ed461c;
+  constexpr static std::size_t addrs = 0x5ed489c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -826,7 +826,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CreateAnchor_d__20::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CreateAnchor_d__20::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5ed4af4;
+  constexpr static std::size_t addrs = 0x5ed4d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__CreateAnchor_d__20>(),
@@ -881,7 +881,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__RetrieveAnchors_d__24::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__RetrieveAnchors_d__24::MoveNext)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x5ed4b74;
+  constexpr static std::size_t addrs = 0x5ed4df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -895,7 +895,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__RetrieveAnchors_d__24::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__RetrieveAnchors_d__24::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5ed5050;
+  constexpr static std::size_t addrs = 0x5ed52d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__RetrieveAnchors_d__24>(),
@@ -949,7 +949,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__RetrieveAnchorsFromGroup_d__23::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__RetrieveAnchorsFromGroup_d__23::MoveNext)> {
   constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x5ed50d0;
+  constexpr static std::size_t addrs = 0x5ed5350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -963,7 +963,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__RetrieveAnchorsFromGroup_d__23::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__RetrieveAnchorsFromGroup_d__23::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5ed5534;
+  constexpr static std::size_t addrs = 0x5ed57b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1018,7 +1018,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__ShareAnchorsWithGroup_d__26::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__ShareAnchorsWithGroup_d__26::MoveNext)> {
   constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x5ed55b4;
+  constexpr static std::size_t addrs = 0x5ed5834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1032,7 +1032,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__ShareAnchorsWithGroup_d__26::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__ShareAnchorsWithGroup_d__26::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5ed5a20;
+  constexpr static std::size_t addrs = 0x5ed5ca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1083,7 +1083,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__ShareAnchorsWithUser_d__27::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__ShareAnchorsWithUser_d__27::MoveNext)> {
   constexpr static std::size_t size = 0x6d4;
-  constexpr static std::size_t addrs = 0x5ed5aa0;
+  constexpr static std::size_t addrs = 0x5ed5d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1097,7 +1097,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__ShareAnchorsWithUser_d__27::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager__ShareAnchorsWithUser_d__27::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5ed6174;
+  constexpr static std::size_t addrs = 0x5ed63f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1148,7 +1148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::get_AnchorPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed2ae4;
+  constexpr static std::size_t addrs = 0x5ed2d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1162,7 +1162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::*)(::UnityEngine::GameObject*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::set_AnchorPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed2aec;
+  constexpr static std::size_t addrs = 0x5ed2d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*>(),
@@ -1176,7 +1176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* (
     ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::*)()>(&::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::get_LocalAnchors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ed2af4;
+  constexpr static std::size_t addrs = 0x5ed2d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1190,7 +1190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::*)(::Meta::XR::BuildingBlocks::SharedSpatialAnchorCore*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5ec5d3c;
+  constexpr static std::size_t addrs = 0x5ec5fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*>(),
@@ -1204,7 +1204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* (
     ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::*)()>(&::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::CreateAlignmentAnchor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5ec63fc;
+  constexpr static std::size_t addrs = 0x5ec667c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1220,7 +1220,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
         &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::CreateAnchor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5ed2afc;
+  constexpr static std::size_t addrs = 0x5ed2d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1237,7 +1237,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
         ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
         &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::AnchorCreationTask)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5ed2c28;
+  constexpr static std::size_t addrs = 0x5ed2ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1252,7 +1252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::CheckIfSavingAnchorsServiceHung)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5ed2d58;
+  constexpr static std::size_t addrs = 0x5ed2fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1266,7 +1266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>* (
     ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::*)(::System::Guid)>(&::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::RetrieveAnchorsFromGroup)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5ec6a54;
+  constexpr static std::size_t addrs = 0x5ec6cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*>(),
@@ -1281,7 +1281,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::*)(::System::Collections::Generic::List_1<::System::Guid>*)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::RetrieveAnchors)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5ed15b8;
+  constexpr static std::size_t addrs = 0x5ed1838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager*>(),
@@ -1295,7 +1295,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::CheckIfRetrievingAnchorServiceHung)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5ed2dfc;
+  constexpr static std::size_t addrs = 0x5ed307c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1309,7 +1309,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::*)(::System::Guid)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::ShareAnchorsWithGroup)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5ec64d8;
+  constexpr static std::size_t addrs = 0x5ec6758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1324,7 +1324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::*)(uint64_t)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::ShareAnchorsWithUser)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5ed1bf8;
+  constexpr static std::size_t addrs = 0x5ed1e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1338,7 +1338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::*)()>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::CheckIfSharingAnchorServiceHung)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5ed2ea0;
+  constexpr static std::size_t addrs = 0x5ed3120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1352,7 +1352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::*)(uint64_t)>(
     &::Meta::XR::MultiplayerBlocks::Colocation::SharedAnchorManager::StopSharingAnchorsWithUser)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5ed2f44;
+  constexpr static std::size_t addrs = 0x5ed31c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

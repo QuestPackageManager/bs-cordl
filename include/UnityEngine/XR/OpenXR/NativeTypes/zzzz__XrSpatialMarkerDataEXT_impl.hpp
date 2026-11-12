@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityEXT (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT::get_capability)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e81044;
+  constexpr static std::size_t addrs = 0x6e82124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT::get_markerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e8104c;
+  constexpr static std::size_t addrs = 0x6e8212c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT::get_data)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e81054;
+  constexpr static std::size_t addrs = 0x6e82134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT>(), { "get_data", {}, {} })));
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
                                                                                                                                 uint32_t, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e81060;
+  constexpr static std::size_t addrs = 0x6e82140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT::*)(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6e8106c;
+  constexpr static std::size_t addrs = 0x6e8214c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT>(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT::*)(::System::Object*)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT::Equals)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e810b8;
+  constexpr static std::size_t addrs = 0x6e82198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT>(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT::GetHashCode)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e81164;
+  constexpr static std::size_t addrs = 0x6e82244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT>(),

@@ -40,43 +40,43 @@ public:
 
   static inline ::UnityEngine::LineRenderer* New_ctor();
 
-  /// @brief Method SetPosition, addr 0x6f1dd44, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetPosition, addr 0x6f1ee24, size 0xa8, virtual false, abstract: false, final false
   inline void SetPosition(int32_t index, ::UnityEngine::Vector3 position);
 
-  /// @brief Method SetPosition_Injected, addr 0x6f1ddec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetPosition_Injected, addr 0x6f1eecc, size 0x54, virtual false, abstract: false, final false
   static inline void SetPosition_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<::UnityEngine::Vector3 const> position);
 
-  /// @brief Method .ctor, addr 0x6f1de40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f1ef20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_startWidth, addr 0x6f1d928, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_startWidth, addr 0x6f1ea08, size 0x80, virtual false, abstract: false, final false
   inline float_t get_startWidth();
 
-  /// @brief Method get_startWidth_Injected, addr 0x6f1d9a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_startWidth_Injected, addr 0x6f1ea88, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_startWidth_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_endWidth, addr 0x6f1dac0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_endWidth, addr 0x6f1eba0, size 0x90, virtual false, abstract: false, final false
   inline void set_endWidth(float_t value);
 
-  /// @brief Method set_endWidth_Injected, addr 0x6f1db50, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_endWidth_Injected, addr 0x6f1ec30, size 0x4c, virtual false, abstract: false, final false
   static inline void set_endWidth_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_positionCount, addr 0x6f1dc70, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_positionCount, addr 0x6f1ed50, size 0x90, virtual false, abstract: false, final false
   inline void set_positionCount(int32_t value);
 
-  /// @brief Method set_positionCount_Injected, addr 0x6f1dd00, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_positionCount_Injected, addr 0x6f1ede0, size 0x44, virtual false, abstract: false, final false
   static inline void set_positionCount_Injected(::System::IntPtr _unity_self, int32_t value);
 
-  /// @brief Method set_startWidth, addr 0x6f1d9e4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_startWidth, addr 0x6f1eac4, size 0x90, virtual false, abstract: false, final false
   inline void set_startWidth(float_t value);
 
-  /// @brief Method set_startWidth_Injected, addr 0x6f1da74, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_startWidth_Injected, addr 0x6f1eb54, size 0x4c, virtual false, abstract: false, final false
   static inline void set_startWidth_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_useWorldSpace, addr 0x6f1db9c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_useWorldSpace, addr 0x6f1ec7c, size 0x90, virtual false, abstract: false, final false
   inline void set_useWorldSpace(bool value);
 
-  /// @brief Method set_useWorldSpace_Injected, addr 0x6f1dc2c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_useWorldSpace_Injected, addr 0x6f1ed0c, size 0x44, virtual false, abstract: false, final false
   static inline void set_useWorldSpace_Injected(::System::IntPtr _unity_self, bool value);
 
 protected:

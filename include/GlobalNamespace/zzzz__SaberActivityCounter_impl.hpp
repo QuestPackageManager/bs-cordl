@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::SaberActivityCounter::add_totalDistanceDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e4846c;
+  constexpr static std::size_t addrs = 0x5e4889c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::SaberActivityCounter::remove_totalDistanceDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e4852c;
+  constexpr static std::size_t addrs = 0x5e4895c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberActivityCounter*>(),
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SaberActivityCounter::*)()>(&::GlobalNamespace::SaberActivityCounter::get_leftSaberMovementDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e485ec;
+  constexpr static std::size_t addrs = 0x5e48a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberActivityCounter*>(), { "get_leftSaberMovementDistance", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SaberActivityCounter::*)()>(&::GlobalNamespace::SaberActivityCounter::get_rightSaberMovementDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e485f4;
+  constexpr static std::size_t addrs = 0x5e48a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberActivityCounter*>(), { "get_rightSaberMovementDistance", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SaberActivityCounter::*)()>(&::GlobalNamespace::SaberActivityCounter::get_leftHandMovementDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e485fc;
+  constexpr static std::size_t addrs = 0x5e48a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberActivityCounter*>(), { "get_leftHandMovementDistance", {}, {} })));
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SaberActivityCounter::*)()>(&::GlobalNamespace::SaberActivityCounter::get_rightHandMovementDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e48604;
+  constexpr static std::size_t addrs = 0x5e48a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberActivityCounter*>(), { "get_rightHandMovementDistance", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::AveragingValueRecorder* (::GlobalNamespace::SaberActivityCounter::*)()>(
     &::GlobalNamespace::SaberActivityCounter::get_saberMovementAveragingValueRecorder)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e4571c;
+  constexpr static std::size_t addrs = 0x5e45b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::AveragingValueRecorder* (::GlobalNamespace::SaberActivityCounter::*)()>(
     &::GlobalNamespace::SaberActivityCounter::get_handMovementAveragingValueRecorder)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e45734;
+  constexpr static std::size_t addrs = 0x5e45b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)()>(&::GlobalNamespace::SaberActivityCounter::Awake)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5e4860c;
+  constexpr static std::size_t addrs = 0x5e48a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberActivityCounter*>(), { "Awake", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)()>(&::GlobalNamespace::SaberActivityCounter::Start)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x5e486b8;
+  constexpr static std::size_t addrs = 0x5e48ae8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberActivityCounter*>(), { "Start", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)()>(&::GlobalNamespace::SaberActivityCounter::OnDestroy)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x5e48810;
+  constexpr static std::size_t addrs = 0x5e48c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberActivityCounter*>(), { "OnDestroy", {}, {} })));
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)(::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*)>(
     &::GlobalNamespace::SaberActivityCounter::HandleSaberPositionsWereUpdated)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x5e489ec;
+  constexpr static std::size_t addrs = 0x5e48e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)()>(&::GlobalNamespace::SaberActivityCounter::HandleDidPauseEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e48ebc;
+  constexpr static std::size_t addrs = 0x5e492ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberActivityCounter*>(), { "HandleDidPauseEvent", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberActivityCounter::*)()>(&::GlobalNamespace::SaberActivityCounter::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e48ec4;
+  constexpr static std::size_t addrs = 0x5e492f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberActivityCounter*>(), { ".ctor", {}, {} })));

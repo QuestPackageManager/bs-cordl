@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_depthTarget(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x6d01830, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d02910, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,10 +126,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c* New_ctor();
 
-  /// @brief Method <Render>b__2_0, addr 0x6d0188c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__2_0, addr 0x6d0296c, size 0xec, virtual false, abstract: false, final false
   inline void _Render_b__2_0(::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
 
-  /// @brief Method .ctor, addr 0x6d01888, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d02968, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass___c* getStaticF___9();
@@ -179,11 +179,11 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::InvokeOnRenderObjectCallbackPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method Render, addr 0x6d013d0, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d024b0, size 0x460, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorTarget,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthTarget);
 
-  /// @brief Method .ctor, addr 0x6d01330, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d02410, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
 protected:

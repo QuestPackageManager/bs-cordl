@@ -239,31 +239,31 @@ public:
   /// @brief Field cachedVector3fSize, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_cachedVector3fSize, put = setStaticF_cachedVector3fSize)) int32_t cachedVector3fSize;
 
-  /// @brief Method GetConfigured, addr 0x626ed98, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetConfigured, addr 0x626f020, size 0xa0, virtual false, abstract: false, final false
   inline bool GetConfigured();
 
-  /// @brief Method GetDimensions, addr 0x626f3f8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetDimensions, addr 0x626f680, size 0xdc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetDimensions(::GlobalNamespace::OVRBoundary_BoundaryType boundaryType);
 
-  /// @brief Method GetGeometry, addr 0x626efe8, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method GetGeometry, addr 0x626f270, size 0x3e0, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3> GetGeometry(::GlobalNamespace::OVRBoundary_BoundaryType boundaryType);
 
   /// [Obsolete("Deprecated. This function will not be supported in OpenXR", false)]
-  /// @brief Method GetVisible, addr 0x626f4d8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetVisible, addr 0x626f760, size 0xa0, virtual false, abstract: false, final false
   inline bool GetVisible();
 
   static inline ::GlobalNamespace::OVRBoundary* New_ctor();
 
   /// [Obsolete("Deprecated. This function will not be supported in OpenXR", false)]
-  /// @brief Method SetVisible, addr 0x626f578, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetVisible, addr 0x626f800, size 0xa4, virtual false, abstract: false, final false
   inline void SetVisible(bool value);
 
   /// [Obsolete("Deprecated. This function will not be supported in OpenXR", false)]
-  /// @brief Method TestNode, addr 0x626ee38, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method TestNode, addr 0x626f0c0, size 0xc4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRBoundary_BoundaryTestResult TestNode(::GlobalNamespace::OVRBoundary_Node node, ::GlobalNamespace::OVRBoundary_BoundaryType boundaryType);
 
   /// [Obsolete("Deprecated. This function will not be supported in OpenXR", false)]
-  /// @brief Method TestPoint, addr 0x626eefc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method TestPoint, addr 0x626f184, size 0xe4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRBoundary_BoundaryTestResult TestPoint(::UnityEngine::Vector3 point, ::GlobalNamespace::OVRBoundary_BoundaryType boundaryType);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& __cordl_internal_get_cachedGeometryList() const;
@@ -272,7 +272,7 @@ public:
 
   constexpr void __cordl_internal_set_cachedGeometryList(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x626f61c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x626f8a4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<float_t> getStaticF_cachedGeometryManagedBuffer();

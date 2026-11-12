@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)(::System::Action_1<::UnityW<::HMUI::ViewController>>*)>(
     &::GlobalNamespace::PlayerOptionsViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d9c9d8;
+  constexpr static std::size_t addrs = 0x5d9cb54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerOptionsViewController*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)(::System::Action_1<::UnityW<::HMUI::ViewController>>*)>(
     &::GlobalNamespace::PlayerOptionsViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d9ca98;
+  constexpr static std::size_t addrs = 0x5d9cc14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)(bool, bool, bool)>(&::GlobalNamespace::PlayerOptionsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x5d9cb58;
+  constexpr static std::size_t addrs = 0x5d9ccd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)(bool, bool)>(&::GlobalNamespace::PlayerOptionsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5d9d060;
+  constexpr static std::size_t addrs = 0x5d9d1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)()>(&::GlobalNamespace::PlayerOptionsViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d9d184;
+  constexpr static std::size_t addrs = 0x5d9d300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerOptionsViewController*>(), { ".ctor", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)()>(&::GlobalNamespace::PlayerOptionsViewController::_DidActivate_b__7_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d9d188;
+  constexpr static std::size_t addrs = 0x5d9d304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerOptionsViewController*>(), { "<DidActivate>b__7_0", {}, {} })));

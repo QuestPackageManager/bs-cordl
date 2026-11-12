@@ -38,10 +38,10 @@ public:
 
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x39ef424, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x39f44cc, size 0x180, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x39ef368, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x39f4410, size 0xbc, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::GameDlcProductSO>>* assets,
                                          ::BGLib::AppFlow::Initialization::IInstallerRegistry* registry);
 
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__gameDlcProducts(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameDlcProductSO>>* value);
 
-  /// @brief Method .ctor, addr 0x39ef5a4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f464c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x39ef324, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x39f43cc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -74,7 +74,7 @@ public:
   GameDlcProductAsyncInstaller(GameDlcProductAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14594 };
 
   /// @brief Field _gameDlcProducts, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameDlcProductSO>>* ____gameDlcProducts;

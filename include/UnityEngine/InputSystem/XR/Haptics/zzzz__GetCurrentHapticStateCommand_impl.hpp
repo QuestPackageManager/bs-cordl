@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(&::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand::get_Type)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69f4c10;
+  constexpr static std::size_t addrs = 0x69f5cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand::*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69f4c1c;
+  constexpr static std::size_t addrs = 0x69f5cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::XR::Haptics::HapticState (::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand::*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand::get_currentState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f4c28;
+  constexpr static std::size_t addrs = 0x69f5d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand (*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand::Create)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x69f4c30;
+  constexpr static std::size_t addrs = 0x69f5d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

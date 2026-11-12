@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(::System::Type*, ::UnityEngine::ProBuilder::PivotLocation)>(
     &::UnityEngine::ProBuilder::ShapeFactory::Instantiate)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x6b3aaa8;
+  constexpr static std::size_t addrs = 0x6b3bb88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
     &::UnityEngine::ProBuilder::ShapeFactory::Instantiate)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x6b3ad10;
+  constexpr static std::size_t addrs = 0x6b3bdf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

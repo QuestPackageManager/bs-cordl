@@ -61,7 +61,7 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsUI___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <RegisterDebug>b__0, addr 0x6bafb10, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebug>b__0, addr 0x6bb0bf0, size 0x314, virtual false, abstract: false, final false
   inline void _RegisterDebug_b__0(::UnityEngine::Rendering::IDebugDisplaySettingsData* data);
 
   constexpr ::UnityEngine::Rendering::DebugManager* const& __cordl_internal_get_debugManager() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_panels(::System::Collections::Generic::List_1<::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable*>* value);
 
-  /// @brief Method .ctor, addr 0x6baf734, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb0814, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,18 +132,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IDebugData"
   constexpr operator ::UnityEngine::Rendering::IDebugData*() noexcept;
 
-  /// @brief Method GetReset, addr 0x6bafa90, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method GetReset, addr 0x6bb0b70, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Action* GetReset();
 
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsUI* New_ctor();
 
-  /// @brief Method RegisterDebug, addr 0x6baf42c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method RegisterDebug, addr 0x6bb050c, size 0x254, virtual false, abstract: false, final false
   inline void RegisterDebug(::UnityEngine::Rendering::IDebugDisplaySettings* settings);
 
-  /// @brief Method Reset, addr 0x6baee74, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6baff54, size 0xf4, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method UnregisterDebug, addr 0x6baef68, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method UnregisterDebug, addr 0x6bb0048, size 0x4c4, virtual false, abstract: false, final false
   inline void UnregisterDebug();
 
   constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable*>* const& __cordl_internal_get_m_DisposablePanels() const;
@@ -158,7 +158,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Settings(::UnityEngine::Rendering::IDebugDisplaySettings* value);
 
-  /// @brief Method .ctor, addr 0x6bafb0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb0bec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugData"

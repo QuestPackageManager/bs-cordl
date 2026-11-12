@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevel___c::*)()>(&::GlobalNamespace::BeatmapLevel___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39d0030;
+  constexpr static std::size_t addrs = 0x39d452c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(), { ".ctor", {}, {} })));
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespac
     ::System::ValueTuple_3<::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>)>(
     &::GlobalNamespace::BeatmapLevel___c::_GetBeatmapKeys_b__23_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d0034;
+  constexpr static std::size_t addrs = 0x39d4530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespac
     ::System::ValueTuple_3<::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>)>(
     &::GlobalNamespace::BeatmapLevel___c::_GetBeatmapKeys_b__23_1)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39d003c;
+  constexpr static std::size_t addrs = 0x39d4538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespac
     ::System::ValueTuple_3<::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>)>(
     &::GlobalNamespace::BeatmapLevel___c::_GetBeatmapKeys_b__23_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d0094;
+  constexpr static std::size_t addrs = 0x39d4590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Beatma
     ::System::ValueTuple_3<::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>)>(
     &::GlobalNamespace::BeatmapLevel___c::_GetDifficulties_b__29_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d009c;
+  constexpr static std::size_t addrs = 0x39d4598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapLevel___c::*)(::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::BeatmapLevel___c::_GetDifficulties_b__29_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d00a4;
+  constexpr static std::size_t addrs = 0x39d45a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Beatma
     ::System::ValueTuple_3<::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>)>(
     &::GlobalNamespace::BeatmapLevel___c::_CollectCharacteristics_b__34_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d00ac;
+  constexpr static std::size_t addrs = 0x39d45a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapLevel___c::*)(::GlobalNamespace::BeatmapCharacteristic)>(
     &::GlobalNamespace::BeatmapLevel___c::_CollectCharacteristics_b__34_2)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39d00b4;
+  constexpr static std::size_t addrs = 0x39d45b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c*>(),
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevel___c__DisplayClass29_0::*)()>(&::GlobalNamespace::BeatmapLevel___c__DisplayClass29_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39cfd04;
+  constexpr static std::size_t addrs = 0x39d4200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c__DisplayClass29_0*>(), { ".ctor", {}, {} })));
@@ -340,7 +340,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
     ::System::ValueTuple_3<::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>)>(
     &::GlobalNamespace::BeatmapLevel___c__DisplayClass29_0::_GetDifficulties_b__0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39d010c;
+  constexpr static std::size_t addrs = 0x39d4608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -401,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevel___c__DisplayClass34_0::*)()>(&::GlobalNamespace::BeatmapLevel___c__DisplayClass34_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39cffc0;
+  constexpr static std::size_t addrs = 0x39d44bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel___c__DisplayClass34_0*>(), { ".ctor", {}, {} })));
@@ -415,7 +415,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
     ::System::ValueTuple_3<::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>)>(
     &::GlobalNamespace::BeatmapLevel___c__DisplayClass34_0::_CollectCharacteristics_b__0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39d0134;
+  constexpr static std::size_t addrs = 0x39d4630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -467,7 +467,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::System::ValueTuple_3<::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>, ::GlobalNamespace::BeatmapBasicData*>* (
     ::GlobalNamespace::BeatmapLevel::*)()>(&::GlobalNamespace::BeatmapLevel::get_gameplayTypeBeatmapBasicData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cefa8;
+  constexpr static std::size_t addrs = 0x39d34a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(), { "get_gameplayTypeBeatmapBasicData", {}, {} })));
@@ -483,7 +483,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>,
                                                  ::GlobalNamespace::BeatmapBasicData*>*)>(&::GlobalNamespace::BeatmapLevel::_ctor)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x39cefb0;
+  constexpr static std::size_t addrs = 0x39d34ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -506,7 +506,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapKey>* (::GlobalNamespace::BeatmapLevel::*)()>(
     &::GlobalNamespace::BeatmapLevel::GetBeatmapKeys)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x39cf160;
+  constexpr static std::size_t addrs = 0x39d365c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(), { "GetBeatmapKeys", {}, {} })));
@@ -519,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapBasicData* (::GlobalNamespace::BeatmapLevel::*)(::by_ref<::GlobalNamespace::BeatmapKey const>)>(
     &::GlobalNamespace::BeatmapLevel::GetDifficultyBeatmapData)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39cf4cc;
+  constexpr static std::size_t addrs = 0x39d39c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(),
@@ -533,7 +533,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EnvironmentName (::GlobalNamespace::BeatmapLevel::*)(::by_ref<::GlobalNamespace::BeatmapKey const>)>(
     &::GlobalNamespace::BeatmapLevel::GetEnvironmentName)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x39c0780;
+  constexpr static std::size_t addrs = 0x39c4d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -548,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::BeatmapLevel::*)(::by_ref<::GlobalNamespace::BeatmapKey const>)>(
     &::GlobalNamespace::BeatmapLevel::GetColorScheme)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39cf544;
+  constexpr static std::size_t addrs = 0x39d3a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -561,7 +561,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevel::*)(::GlobalNamespace::GameplayType)>(&::GlobalNamespace::BeatmapLevel::HasGameplayType)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x39cf55c;
+  constexpr static std::size_t addrs = 0x39d3a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -575,7 +575,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::BeatmapCharacteristic> (::GlobalNamespace::BeatmapLevel::*)(::GlobalNamespace::GameplayType)>(
     &::GlobalNamespace::BeatmapLevel::GetCharacteristics)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x39cf6a0;
+  constexpr static std::size_t addrs = 0x39d3b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -589,7 +589,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapDifficulty>* (
     ::GlobalNamespace::BeatmapLevel::*)(::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic)>(&::GlobalNamespace::BeatmapLevel::GetDifficulties)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x39cfa20;
+  constexpr static std::size_t addrs = 0x39d3f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -605,7 +605,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Beatma
     ::GlobalNamespace::BeatmapLevel::*)(::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::BeatmapLevel::GetDifficultyBeatmapData)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x39cfd08;
+  constexpr static std::size_t addrs = 0x39d4204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -623,7 +623,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EnvironmentName (::GlobalNamespace::BeatmapLevel::*)(
     ::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapLevel::GetEnvironmentName)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cfd90;
+  constexpr static std::size_t addrs = 0x39d428c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -642,7 +642,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                  ::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::BeatmapBasicData*)>(
     &::GlobalNamespace::BeatmapLevel::AddBeatmapBasicData)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39cfe2c;
+  constexpr static std::size_t addrs = 0x39d4328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -660,7 +660,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevel::*)(::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic,
                                                                                                  ::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapLevel::RemoveBeatmapBasicData)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x39cff28;
+  constexpr static std::size_t addrs = 0x39d4424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -678,7 +678,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::GlobalNamespace::BeatmapCharacteristic> (::GlobalNamespace::BeatmapLevel::*)(::GlobalNamespace::GameplayType)>(
     &::GlobalNamespace::BeatmapLevel::CollectCharacteristics)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x39cf700;
+  constexpr static std::size_t addrs = 0x39d3bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -691,7 +691,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevel::*)()>(&::GlobalNamespace::BeatmapLevel::InvalidateCaches)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x39cfedc;
+  constexpr static std::size_t addrs = 0x39d43d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLevel*>(), { "InvalidateCaches", {}, {} })));
@@ -705,7 +705,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Beatma
     ::System::ValueTuple_3<::GlobalNamespace::GameplayType, ::GlobalNamespace::BeatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty>)>(
     &::GlobalNamespace::BeatmapLevel::_GetBeatmapKeys_b__23_3)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39cffc4;
+  constexpr static std::size_t addrs = 0x39d44c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

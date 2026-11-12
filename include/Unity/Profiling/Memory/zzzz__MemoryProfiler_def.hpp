@@ -55,21 +55,21 @@ public:
   __declspec(property(get = getStaticF_m_SnapshotFinished, put = setStaticF_m_SnapshotFinished)) ::System::Action_2<::StringW, bool>* m_SnapshotFinished;
 
   /// [RequiredByNativeCode]
-  /// @brief Method FinalizeSnapshot, addr 0x6eed4d4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method FinalizeSnapshot, addr 0x6eee5b4, size 0x88, virtual false, abstract: false, final false
   static inline void FinalizeSnapshot(::StringW path, bool result);
 
   /// [RequiredByNativeCode]
-  /// @brief Method PrepareMetadata, addr 0x6eed188, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method PrepareMetadata, addr 0x6eee268, size 0x1f8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> PrepareMetadata();
 
   /// [RequiredByNativeCode]
-  /// @brief Method SaveScreenshotToDisk, addr 0x6eed55c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SaveScreenshotToDisk, addr 0x6eee63c, size 0xf0, virtual false, abstract: false, final false
   static inline void SaveScreenshotToDisk(::StringW path, bool result, ::System::IntPtr pixelsPtr, int32_t pixelsCount, ::UnityEngine::TextureFormat format, int32_t width, int32_t height);
 
-  /// @brief Method WriteIntToByteArray, addr 0x6eed380, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method WriteIntToByteArray, addr 0x6eee460, size 0x88, virtual false, abstract: false, final false
   static inline int32_t WriteIntToByteArray(::ArrayW<uint8_t> array, int32_t offset, int32_t value);
 
-  /// @brief Method WriteStringToByteArray, addr 0x6eed408, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToByteArray, addr 0x6eee4e8, size 0x78, virtual false, abstract: false, final false
   static inline int32_t WriteStringToByteArray(::ArrayW<uint8_t> array, int32_t offset, ::StringW value);
 
   static inline ::System::Action_1<::Unity::Profiling::Memory::MemorySnapshotMetadata*>* getStaticF_CreatingMetadata();

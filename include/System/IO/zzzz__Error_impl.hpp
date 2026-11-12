@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::IO::Error::GetStreamIsClosed)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x604b1b0;
+  constexpr static std::size_t addrs = 0x604b438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Error*>(), { "GetStreamIsClosed", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::IO::Error::GetEndOfFile)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x604b234;
+  constexpr static std::size_t addrs = 0x604b4bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Error*>(), { "GetEndOfFile", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::IO::Error::GetReadNotSupported)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x604b2b4;
+  constexpr static std::size_t addrs = 0x604b53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Error*>(), { "GetReadNotSupported", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::IO::Error::GetWriteNotSupported)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x604b334;
+  constexpr static std::size_t addrs = 0x604b5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Error*>(), { "GetWriteNotSupported", {}, {} })));

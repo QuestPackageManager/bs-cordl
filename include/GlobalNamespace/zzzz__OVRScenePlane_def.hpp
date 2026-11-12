@@ -67,7 +67,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x6323948, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6323bd0, size 0x88, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -114,13 +114,13 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x6323a90, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6323d18, size 0xac, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method HasBoundaryChanged, addr 0x63239d0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HasBoundaryChanged, addr 0x6323c58, size 0xa8, virtual false, abstract: false, final false
   inline bool HasBoundaryChanged();
 
-  /// @brief Method SetNaN, addr 0x6323a78, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetNaN, addr 0x6323d00, size 0x18, virtual false, abstract: false, final false
   static inline void SetNaN(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> array);
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -232,36 +232,36 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IOVRSceneComponent"
   constexpr operator ::GlobalNamespace::IOVRSceneComponent*() noexcept;
 
-  /// @brief Method Awake, addr 0x6322fc8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6323250, size 0xdc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method IOVRSceneComponent.Initialize, addr 0x63230a8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method IOVRSceneComponent.Initialize, addr 0x6323330, size 0x4, virtual true, abstract: false, final true
   inline void IOVRSceneComponent_Initialize();
 
   static inline ::GlobalNamespace::OVRScenePlane* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x63237d0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6323a58, size 0xf8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RequestBoundary, addr 0x631bf68, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RequestBoundary, addr 0x631c1f0, size 0x30, virtual false, abstract: false, final false
   inline void RequestBoundary();
 
-  /// @brief Method ScheduleGetLengthJob, addr 0x63230ac, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ScheduleGetLengthJob, addr 0x6323334, size 0x16c, virtual false, abstract: false, final false
   inline void ScheduleGetLengthJob();
 
-  /// @brief Method SetChildOffset, addr 0x6322e94, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SetChildOffset, addr 0x632311c, size 0x134, virtual false, abstract: false, final false
   inline void SetChildOffset();
 
-  /// @brief Method SetChildScale, addr 0x6322d18, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SetChildScale, addr 0x6322fa0, size 0x14c, virtual false, abstract: false, final false
   inline void SetChildScale();
 
-  /// @brief Method Start, addr 0x63230a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x632332c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x6323218, size 0x588, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x63234a0, size 0x588, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateTransform, addr 0x631be10, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransform, addr 0x631c098, size 0x158, virtual false, abstract: false, final false
   inline void UpdateTransform();
 
   constexpr float_t const& __cordl_internal_get__Height_k__BackingField() const;
@@ -336,52 +336,52 @@ public:
 
   constexpr void __cordl_internal_set__sceneAnchor(::UnityW<::GlobalNamespace::OVRSceneAnchor> value);
 
-  /// @brief Method .ctor, addr 0x63238c8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6323b50, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Boundary, addr 0x6322ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Boundary, addr 0x6322f68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2>* get_Boundary();
 
-  /// @brief Method get_Dimensions, addr 0x6322cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dimensions, addr 0x6322f60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_Dimensions();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Height, addr 0x6322cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Height, addr 0x6322f40, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Height();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Offset, addr 0x6322cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Offset, addr 0x6322f50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_Offset();
 
-  /// @brief Method get_OffsetChildren, addr 0x6322e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OffsetChildren, addr 0x63230ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_OffsetChildren();
 
-  /// @brief Method get_ScaleChildren, addr 0x6322ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ScaleChildren, addr 0x6322f70, size 0x8, virtual false, abstract: false, final false
   inline bool get_ScaleChildren();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Width, addr 0x6322ca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Width, addr 0x6322f30, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Width();
 
   /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
   constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_Height, addr 0x6322cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Height, addr 0x6322f48, size 0x8, virtual false, abstract: false, final false
   inline void set_Height(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Offset, addr 0x6322cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Offset, addr 0x6322f58, size 0x8, virtual false, abstract: false, final false
   inline void set_Offset(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_OffsetChildren, addr 0x6322e6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_OffsetChildren, addr 0x63230f4, size 0x28, virtual false, abstract: false, final false
   inline void set_OffsetChildren(bool value);
 
-  /// @brief Method set_ScaleChildren, addr 0x6322cf0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_ScaleChildren, addr 0x6322f78, size 0x28, virtual false, abstract: false, final false
   inline void set_ScaleChildren(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Width, addr 0x6322cb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Width, addr 0x6322f38, size 0x8, virtual false, abstract: false, final false
   inline void set_Width(float_t value);
 
 protected:

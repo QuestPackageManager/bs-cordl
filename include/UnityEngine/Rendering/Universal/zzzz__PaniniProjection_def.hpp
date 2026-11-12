@@ -36,11 +36,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x6cfb3d0, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cfc4b0, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
   /// [Obsolete("Unused. #from(2023.1)")]
-  /// @brief Method IsTileCompatible, addr 0x6cfb400, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x6cfc4e0, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::PaniniProjection* New_ctor();
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_distance(::UnityEngine::Rendering::ClampedFloatParameter* value);
 
-  /// @brief Method .ctor, addr 0x6cfb408, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfc4e8, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"

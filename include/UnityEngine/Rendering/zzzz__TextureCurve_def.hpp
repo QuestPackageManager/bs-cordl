@@ -75,22 +75,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddKey, addr 0x6c23594, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method AddKey, addr 0x6c24674, size 0x38, virtual false, abstract: false, final false
   inline int32_t AddKey(float_t time, float_t value);
 
-  /// @brief Method Dispose, addr 0x6c23074, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c24154, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Evaluate, addr 0x6c2339c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x6c2447c, size 0x1f8, virtual false, abstract: false, final false
   inline float_t Evaluate(float_t time);
 
-  /// @brief Method GetTexture, addr 0x6c231ac, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x6c2428c, size 0x1f0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> GetTexture();
 
-  /// @brief Method GetTextureFormat, addr 0x6c23128, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetTextureFormat, addr 0x6c24208, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetTextureFormat();
 
-  /// @brief Method MoveKey, addr 0x6c235cc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method MoveKey, addr 0x6c246ac, size 0x48, virtual false, abstract: false, final false
   inline int32_t MoveKey(int32_t index, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Keyframe const> key);
 
   static inline ::UnityEngine::Rendering::TextureCurve* New_ctor(::UnityEngine::AnimationCurve* baseCurve, float_t zeroValue, bool loop,
@@ -99,16 +99,16 @@ public:
   static inline ::UnityEngine::Rendering::TextureCurve* New_ctor(::ArrayW<::UnityEngine::Keyframe> keys, float_t zeroValue, bool loop,
                                                                  /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> bounds);
 
-  /// @brief Method Release, addr 0x6c23078, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x6c24158, size 0xa4, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method RemoveKey, addr 0x6c23614, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method RemoveKey, addr 0x6c246f4, size 0x2c, virtual false, abstract: false, final false
   inline void RemoveKey(int32_t index);
 
-  /// @brief Method SetDirty, addr 0x6c2311c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetDirty, addr 0x6c241fc, size 0xc, virtual false, abstract: false, final false
   inline void SetDirty();
 
-  /// @brief Method SmoothTangents, addr 0x6c23640, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SmoothTangents, addr 0x6c24720, size 0x2c, virtual false, abstract: false, final false
   inline void SmoothTangents(int32_t index, float_t weight);
 
   constexpr int32_t const& __cordl_internal_get__length_k__BackingField() const;
@@ -165,24 +165,24 @@ public:
 
   constexpr void __cordl_internal_set_m_ZeroValue(float_t value);
 
-  /// @brief Method .ctor, addr 0x6c22f20, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c24000, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AnimationCurve* baseCurve, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> bounds);
 
-  /// @brief Method .ctor, addr 0x6c22f74, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c24054, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::Keyframe> keys, float_t zeroValue, bool loop, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector2 const> bounds);
 
-  /// @brief Method get_Item, addr 0x6c22ee4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6c23fc4, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Keyframe get_Item(int32_t index);
 
   /// [CompilerGenerated]
-  /// @brief Method get_length, addr 0x6c22ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x6c23fb4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_length();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_length, addr 0x6c22edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_length, addr 0x6c23fbc, size 0x8, virtual false, abstract: false, final false
   inline void set_length(int32_t value);
 
 protected:

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::StyleColor::*)()>(&::UnityEngine::UIElements::StyleColor::get_value)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x71456cc;
+  constexpr static std::size_t addrs = 0x71467ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleColor>(), { "get_value", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleColor::*)(::UnityEngine::Color)>(&::UnityEngine::UIElements::StyleColor::set_value)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x71456f4;
+  constexpr static std::size_t addrs = 0x71467d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleColor::*)()>(&::UnityEngine::UIElements::StyleColor::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7145704;
+  constexpr static std::size_t addrs = 0x71467e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleColor>(), { "get_keyword", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleColor::*)(::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleColor::set_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x714570c;
+  constexpr static std::size_t addrs = 0x71467ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleColor::*)(::UnityEngine::Color)>(&::UnityEngine::UIElements::StyleColor::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7145714;
+  constexpr static std::size_t addrs = 0x71467f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleColor::*)(::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleColor::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7145724;
+  constexpr static std::size_t addrs = 0x7146804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleColor::*)(::UnityEngine::Color, ::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleColor::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7141b64;
+  constexpr static std::size_t addrs = 0x7142c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::StyleColor, ::UnityEngine::UIElements::StyleColor)>(&::UnityEngine::UIElements::StyleColor::op_Equality)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7145730;
+  constexpr static std::size_t addrs = 0x7146810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleColor (*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleColor::op_Implicit___UnityEngine__UIElements__StyleColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7141b74;
+  constexpr static std::size_t addrs = 0x7142c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleColor (*)(::UnityEngine::Color)>(
     &::UnityEngine::UIElements::StyleColor::op_Implicit___UnityEngine__UIElements__StyleColor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7145788;
+  constexpr static std::size_t addrs = 0x7146868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleColor::*)(::UnityEngine::UIElements::StyleColor)>(&::UnityEngine::UIElements::StyleColor::Equals)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7145798;
+  constexpr static std::size_t addrs = 0x7146878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleColor::*)(::System::Object*)>(&::UnityEngine::UIElements::StyleColor::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x71457f0;
+  constexpr static std::size_t addrs = 0x71468d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleColor::*)()>(&::UnityEngine::UIElements::StyleColor::GetHashCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x7145884;
+  constexpr static std::size_t addrs = 0x7146964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StyleColor::*)()>(&::UnityEngine::UIElements::StyleColor::ToString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x7145900;
+  constexpr static std::size_t addrs = 0x71469e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

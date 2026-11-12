@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::LeafNode::*)(int32_t)>(&::System::Xml::Schema::LeafNode::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6783550;
+  constexpr static std::size_t addrs = 0x6783ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::LeafNode*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::LeafNode::*)()>(&::System::Xml::Schema::LeafNode::get_Pos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6783558;
+  constexpr static std::size_t addrs = 0x6783ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::LeafNode*>(), { "get_Pos", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::LeafNode::*)(int32_t)>(&::System::Xml::Schema::LeafNode::set_Pos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6783560;
+  constexpr static std::size_t addrs = 0x6783bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::LeafNode*>(), { "set_Pos", {}, { ::i2c::type_of<int32_t>() } })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::LeafNode::*)(::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*,
                                                                                                  ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::LeafNode::ExpandTree)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6783568;
+  constexpr static std::size_t addrs = 0x6783bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::LeafNode::*)(::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*,
                                                                                                  ::ArrayW<::System::Xml::Schema::BitSet*>)>(&::System::Xml::Schema::LeafNode::ConstructPos)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x678356c;
+  constexpr static std::size_t addrs = 0x6783bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::LeafNode::*)()>(&::System::Xml::Schema::LeafNode::get_IsNullable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67835ac;
+  constexpr static std::size_t addrs = 0x6783bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::WaitCallback::*)(::System::Object*, ::System::IntPtr)>(&::System::Threading::WaitCallback::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x610aa78;
+  constexpr static std::size_t addrs = 0x610ad00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::WaitCallback::*)(::System::Object*)>(&::System::Threading::WaitCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x610abbc;
+  constexpr static std::size_t addrs = 0x610ae44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

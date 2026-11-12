@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::StringW>, ::UnityEngine::TextCore::PreProcessFlags, ::UnityEngine::TextCore::Text::TextSettings*)>(
     &::UnityEngine::TextCore::TextPreprocessor::PreProcessString)> {
   constexpr static std::size_t size = 0x720;
-  constexpr static std::size_t addrs = 0x7069294;
+  constexpr static std::size_t addrs = 0x706a374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::TextPreprocessor*>(),
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::ReadOnlySpan_1<char16_t>)>(&::UnityEngine::TextCore::TextPreprocessor::GetStyleHashCode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x706a38c;
+  constexpr static std::size_t addrs = 0x706b46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TextCore::Text::TextStyle* (*)(::UnityEngine::TextCore::Text::TextSettings*, int32_t)>(
     &::UnityEngine::TextCore::TextPreprocessor::GetStyle)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x706a414;
+  constexpr static std::size_t addrs = 0x706b4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::UnityEngine::TextCore::Text::TextSettings*)>(&::UnityEngine::TextCore::TextPreprocessor::ReplaceStyleTags)> {
   constexpr static std::size_t size = 0x650;
-  constexpr static std::size_t addrs = 0x70699b4;
+  constexpr static std::size_t addrs = 0x706aa94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::TextCore::TextPreprocessor::ReplaceNobrTags)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x706a004;
+  constexpr static std::size_t addrs = 0x706b0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

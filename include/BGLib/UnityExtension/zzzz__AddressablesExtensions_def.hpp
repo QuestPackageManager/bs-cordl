@@ -11,10 +11,10 @@ namespace BGLib::UnityExtension {
 template <typename T> class AddressablesExtensions___c__DisplayClass4_0_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class List_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
@@ -98,7 +98,7 @@ public:
   AddressablesExtensions___c__DisplayClass4_0_1(AddressablesExtensions___c__DisplayClass4_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21423 };
 
   /// @brief Field asyncOperationHandle, offset: 0x10, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> ___asyncOperationHandle;
@@ -134,8 +134,8 @@ public:
   template <typename T>
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<T> GetAwaiter(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> asyncOperationHandle);
 
-  /// @brief Method GetLocations, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* GetLocations(::StringW runtimeKey);
+  /// @brief Method GetUniqueAssetLocations, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* GetUniqueAssetLocations(::StringW runtimeKey);
 
   /// @brief Method LoadContent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IList_1<T>* LoadContent(::System::Object* label);
@@ -159,7 +159,7 @@ public:
   AddressablesExtensions(AddressablesExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21494 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21424 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

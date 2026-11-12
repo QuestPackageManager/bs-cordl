@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerResultsViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>*)>(&::GlobalNamespace::MultiplayerResultsViewController::add_backToLobbyPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5db903c;
+  constexpr static std::size_t addrs = 0x5db8fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerResultsViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>*)>(&::GlobalNamespace::MultiplayerResultsViewController::remove_backToLobbyPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5db90fc;
+  constexpr static std::size_t addrs = 0x5db90a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerResultsViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>*)>(&::GlobalNamespace::MultiplayerResultsViewController::add_backToMenuPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5db91bc;
+  constexpr static std::size_t addrs = 0x5db9160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerResultsViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>*)>(&::GlobalNamespace::MultiplayerResultsViewController::remove_backToMenuPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5db927c;
+  constexpr static std::size_t addrs = 0x5db9220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerResultsViewController::*)(::GlobalNamespace::MultiplayerResultsData*, ::GlobalNamespace::BeatmapKey, bool,
                                                                                                                      bool)>(&::GlobalNamespace::MultiplayerResultsViewController::Init)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5db933c;
+  constexpr static std::size_t addrs = 0x5db92e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerResultsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::MultiplayerResultsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5db94f4;
+  constexpr static std::size_t addrs = 0x5db9498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerResultsViewController*>(),
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerResultsViewController::*)()>(&::GlobalNamespace::MultiplayerResultsViewController::BackToLobbyPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5db9634;
+  constexpr static std::size_t addrs = 0x5db95d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerResultsViewController*>(), { "BackToLobbyPressed", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerResultsViewController::*)()>(&::GlobalNamespace::MultiplayerResultsViewController::BackToMenuPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5db9654;
+  constexpr static std::size_t addrs = 0x5db95f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerResultsViewController*>(), { "BackToMenuPressed", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerResultsViewController::*)()>(&::GlobalNamespace::MultiplayerResultsViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5db9674;
+  constexpr static std::size_t addrs = 0x5db9618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerResultsViewController*>(), { ".ctor", {}, {} })));

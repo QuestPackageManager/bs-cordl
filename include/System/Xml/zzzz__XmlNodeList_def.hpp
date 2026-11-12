@@ -51,19 +51,19 @@ public:
 
   static inline ::System::Xml::XmlNodeList* New_ctor();
 
-  /// @brief Method PrivateDisposeNodeList, addr 0x672d3c4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PrivateDisposeNodeList, addr 0x672da14, size 0x4, virtual true, abstract: false, final false
   inline void PrivateDisposeNodeList();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x672d3b8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x672da08, size 0xc, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method .ctor, addr 0x671f5ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x671fc3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_ItemOf, addr 0x672d3ac, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_ItemOf, addr 0x672d9fc, size 0xc, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_ItemOf(int32_t i);
 
   /// @brief Convert to "::System::Collections::IEnumerable"

@@ -34,21 +34,21 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x28
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRIOBuffer FnTable;
 
-  /// @brief Method Close, addr 0x629e1c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x629e450, size 0x20, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Close(uint64_t ulBuffer);
 
   static inline ::OVR::OpenVR::CVRIOBuffer* New_ctor(::System::IntPtr pInterface);
 
-  /// @brief Method Open, addr 0x629e1a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x629e42c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Open(::StringW pchPath, ::OVR::OpenVR::EIOBufferMode mode, uint32_t unElementSize, uint32_t unElements, ::by_ref<uint64_t> pulBuffer);
 
-  /// @brief Method PropertyContainer, addr 0x629e22c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method PropertyContainer, addr 0x629e4b4, size 0x20, virtual false, abstract: false, final false
   inline uint64_t PropertyContainer(uint64_t ulBuffer);
 
-  /// @brief Method Read, addr 0x629e1e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x629e470, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Read(uint64_t ulBuffer, ::System::IntPtr pDst, uint32_t unBytes, ::by_ref<uint32_t> punRead);
 
-  /// @brief Method Write, addr 0x629e20c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x629e494, size 0x20, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Write(uint64_t ulBuffer, ::System::IntPtr pSrc, uint32_t unBytes);
 
   constexpr ::OVR::OpenVR::IVRIOBuffer const& __cordl_internal_get_FnTable() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRIOBuffer value);
 
-  /// @brief Method .ctor, addr 0x629e0a8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x629e330, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:

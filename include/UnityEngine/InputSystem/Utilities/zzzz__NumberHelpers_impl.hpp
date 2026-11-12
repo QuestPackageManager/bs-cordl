@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::InputSystem::Utilities::NumberHelpers::AlignToMultipleOf)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x696c6b4;
+  constexpr static std::size_t addrs = 0x696d794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::NumberHelpers*>(),
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int64_t, int64_t)>(&::UnityEngine::InputSystem::Utilities::NumberHelpers::AlignToMultipleOf)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x696c6d0;
+  constexpr static std::size_t addrs = 0x696d7b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::NumberHelpers*>(),
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::UnityEngine::InputSystem::Utilities::NumberHelpers::AlignToMultipleOf)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x696c6ec;
+  constexpr static std::size_t addrs = 0x696d7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::NumberHelpers*>(),
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(double_t, double_t)>(&::UnityEngine::InputSystem::Utilities::NumberHelpers::Approximately)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x696c708;
+  constexpr static std::size_t addrs = 0x696d7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Utilities::NumberHelpers*>(),
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(int32_t, int32_t, int32_t)>(&::UnityEngine::InputSystem::Utilities::NumberHelpers::IntToNormalizedFloat)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x696c7b4;
+  constexpr static std::size_t addrs = 0x696d894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(float_t, int32_t, int32_t)>(&::UnityEngine::InputSystem::Utilities::NumberHelpers::NormalizedFloatToInt)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x696c7ec;
+  constexpr static std::size_t addrs = 0x696d8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(uint32_t, uint32_t, uint32_t)>(&::UnityEngine::InputSystem::Utilities::NumberHelpers::UIntToNormalizedFloat)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x696c83c;
+  constexpr static std::size_t addrs = 0x696d91c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(float_t, uint32_t, uint32_t)>(&::UnityEngine::InputSystem::Utilities::NumberHelpers::NormalizedFloatToUInt)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x696c874;
+  constexpr static std::size_t addrs = 0x696d954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(&::UnityEngine::InputSystem::Utilities::NumberHelpers::RemapUIntBitsToNormalizeFloatToUIntBits)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x696c8bc;
+  constexpr static std::size_t addrs = 0x696d99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

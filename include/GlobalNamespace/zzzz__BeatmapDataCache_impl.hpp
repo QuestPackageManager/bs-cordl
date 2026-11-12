@@ -22,7 +22,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::by_ref<::GlobalNamespace::BeatmapKey const>, ::GlobalNamespace::IEnvironmentInfo*, ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PlayerSpecificSettings*,
     ::GlobalNamespace::BeatmapLevelDataVersion, bool)>(&::GlobalNamespace::BeatmapDataCache_CacheKey::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x39beb14;
+  constexpr static std::size_t addrs = 0x39c30f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapDataCache_CacheKey::*)(::GlobalNamespace::BeatmapDataCache_CacheKey)>(
     &::GlobalNamespace::BeatmapDataCache_CacheKey::Equals)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x39bea10;
+  constexpr static std::size_t addrs = 0x39c2fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapDataCache_CacheKey::*)(::System::Object*)>(&::GlobalNamespace::BeatmapDataCache_CacheKey::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39bebcc;
+  constexpr static std::size_t addrs = 0x39c31a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapDataCache_CacheKey::*)()>(&::GlobalNamespace::BeatmapDataCache_CacheKey::GetHashCode)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x39bec68;
+  constexpr static std::size_t addrs = 0x39c3244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapDataCache::*)(
     ::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey const>, ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*)>(&::GlobalNamespace::BeatmapDataCache::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39be9b0;
+  constexpr static std::size_t addrs = 0x39c2f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapDataCache*>(),
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapDataCache::*)(::by_ref<::GlobalNamespace::BeatmapDataCache_CacheKey const>)>(
     &::GlobalNamespace::BeatmapDataCache::AreSameBeatmapDataCached)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x39be9d4;
+  constexpr static std::size_t addrs = 0x39c2fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

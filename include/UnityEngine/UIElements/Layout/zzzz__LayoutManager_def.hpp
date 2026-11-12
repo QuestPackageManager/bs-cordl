@@ -156,10 +156,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Layout::LayoutManager___c* New_ctor();
 
-  /// @brief Method <Initialize>b__9_0, addr 0x71d2040, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__9_0, addr 0x71d3120, size 0x54, virtual false, abstract: false, final false
   inline void _Initialize_b__9_0(::System::Object* _, ::System::EventArgs* __);
 
-  /// @brief Method .ctor, addr 0x71d203c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71d311c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Layout::LayoutManager___c* getStaticF___9();
@@ -256,68 +256,68 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Collect, addr 0x71d16dc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Collect, addr 0x71d27bc, size 0xe4, virtual false, abstract: false, final false
   inline void Collect();
 
-  /// @brief Method CreateConfig, addr 0x71d0e44, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CreateConfig, addr 0x71d1f24, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutConfig CreateConfig();
 
-  /// @brief Method CreateNode, addr 0x71d102c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method CreateNode, addr 0x71d210c, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutNode CreateNode();
 
-  /// @brief Method CreateNodeInternal, addr 0x71d1060, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method CreateNodeInternal, addr 0x71d2140, size 0x2c8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutNode CreateNodeInternal(::UnityEngine::UIElements::Layout::LayoutHandle configHandle);
 
-  /// @brief Method DestroyConfig, addr 0x71d0ff0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DestroyConfig, addr 0x71d20d0, size 0x3c, virtual false, abstract: false, final false
   inline void DestroyConfig(::by_ref<::UnityEngine::UIElements::Layout::LayoutConfig> config);
 
-  /// @brief Method Dispose, addr 0x71d048c, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x71d156c, size 0x228, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method EnqueueNodeForRecycling, addr 0x71d1658, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method EnqueueNodeForRecycling, addr 0x71d2738, size 0x84, virtual false, abstract: false, final false
   inline void EnqueueNodeForRecycling(::by_ref<::UnityEngine::UIElements::Layout::LayoutNode> node);
 
-  /// @brief Method FreeNode, addr 0x71d13a0, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method FreeNode, addr 0x71d2480, size 0x234, virtual false, abstract: false, final false
   inline void FreeNode(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method GetAccess, addr 0x71d0f24, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetAccess, addr 0x71d2004, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutDataAccess GetAccess();
 
-  /// @brief Method GetBaselineFunction, addr 0x71d1be4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetBaselineFunction, addr 0x71d2cc4, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutBaselineFunction* GetBaselineFunction(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method GetDefaultConfig, addr 0x71d0f88, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultConfig, addr 0x71d2068, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutConfig GetDefaultConfig();
 
-  /// @brief Method GetManager, addr 0x71d06bc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetManager, addr 0x71d179c, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutManager* GetManager(int32_t index);
 
-  /// @brief Method GetMeasureFunction, addr 0x71d1a84, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetMeasureFunction, addr 0x71d2b64, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Layout::LayoutMeasureFunction* GetMeasureFunction(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method GetOwner, addr 0x71d17c0, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method GetOwner, addr 0x71d28a0, size 0x1a0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetOwner(::UnityEngine::UIElements::Layout::LayoutHandle handle);
 
-  /// @brief Method Initialize, addr 0x71d01e0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x71d12c0, size 0x1a8, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::UnityEngine::UIElements::Layout::LayoutManager* New_ctor(::Unity::Collections::Allocator allocator);
 
   static inline ::UnityEngine::UIElements::Layout::LayoutManager* New_ctor(::Unity::Collections::Allocator allocator, int32_t initialNodeCapacity);
 
-  /// @brief Method SetMeasureFunction, addr 0x71d1b2c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method SetMeasureFunction, addr 0x71d2c0c, size 0xb8, virtual false, abstract: false, final false
   inline void SetMeasureFunction(::UnityEngine::UIElements::Layout::LayoutHandle handle, ::UnityEngine::UIElements::Layout::LayoutMeasureFunction* value);
 
-  /// @brief Method SetOwner, addr 0x71d1960, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetOwner, addr 0x71d2a40, size 0x124, virtual false, abstract: false, final false
   inline void SetOwner(::UnityEngine::UIElements::Layout::LayoutHandle handle, ::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method Shutdown, addr 0x71d03f4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Shutdown, addr 0x71d14d4, size 0x98, virtual false, abstract: false, final false
   static inline void Shutdown();
 
-  /// @brief Method TryRecycleNodes, addr 0x71d15d4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TryRecycleNodes, addr 0x71d26b4, size 0x84, virtual false, abstract: false, final false
   inline void TryRecycleNodes();
 
-  /// @brief Method TryRecycleSingleNode, addr 0x71d1328, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryRecycleSingleNode, addr 0x71d2408, size 0x78, virtual false, abstract: false, final false
   inline void TryRecycleSingleNode();
 
   constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_CollectMarker() const;
@@ -380,10 +380,10 @@ public:
 
   constexpr void __cordl_internal_set_m_NodesToFree(::System::Collections::Concurrent::ConcurrentQueue_1<::UnityEngine::UIElements::Layout::LayoutHandle>* value);
 
-  /// @brief Method .ctor, addr 0x71d0388, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71d1468, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::Allocator allocator);
 
-  /// @brief Method .ctor, addr 0x71d0798, size 0x6ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71d1878, size 0x6ac, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::Allocator allocator, int32_t initialNodeCapacity);
 
   static inline bool getStaticF_s_AppDomainUnloadRegistered();
@@ -394,13 +394,13 @@ public:
 
   static inline ::UnityEngine::UIElements::Layout::LayoutManager* getStaticF_s_SharedInstance();
 
-  /// @brief Method get_DefaultCapacity, addr 0x71d06b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultCapacity, addr 0x71d1794, size 0x8, virtual false, abstract: false, final false
   static inline int32_t get_DefaultCapacity();
 
-  /// @brief Method get_IsSharedManagerCreated, addr 0x71d011c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_IsSharedManagerCreated, addr 0x71d11fc, size 0x64, virtual false, abstract: false, final false
   static inline bool get_IsSharedManagerCreated();
 
-  /// @brief Method get_SharedManager, addr 0x71d0180, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_SharedManager, addr 0x71d1260, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Layout::LayoutManager* get_SharedManager();
 
   /// @brief Convert to "::System::IDisposable"

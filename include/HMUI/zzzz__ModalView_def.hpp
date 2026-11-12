@@ -69,7 +69,7 @@ public:
 
   static inline ::HMUI::ModalView___c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <Hide>b__0, addr 0x35aa36c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <Hide>b__0, addr 0x35ad52c, size 0x7c, virtual false, abstract: false, final false
   inline void _Hide_b__0();
 
   constexpr ::UnityW<::HMUI::ModalView> const& __cordl_internal_get___4__this() const;
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x35a982c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ac9ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,7 +102,7 @@ public:
   ModalView___c__DisplayClass18_0(ModalView___c__DisplayClass18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21798 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21812 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HMUI::ModalView> _____4__this;
@@ -136,7 +136,7 @@ public:
 
   static inline ::HMUI::ModalView___c__DisplayClass22_0* New_ctor();
 
-  /// @brief Method <HandleParentViewControllerDidDeactivate>b__0, addr 0x35aa3e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <HandleParentViewControllerDidDeactivate>b__0, addr 0x35ad5a8, size 0x1c, virtual false, abstract: false, final false
   inline void _HandleParentViewControllerDidDeactivate_b__0();
 
   constexpr ::UnityW<::HMUI::ModalView> const& __cordl_internal_get___4__this() const;
@@ -151,7 +151,7 @@ public:
 
   constexpr void __cordl_internal_set_prevAnimateParentCanvas(bool value);
 
-  /// @brief Method .ctor, addr 0x35aa35c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ad51c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -169,7 +169,7 @@ public:
   ModalView___c__DisplayClass22_0(ModalView___c__DisplayClass22_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21813 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HMUI::ModalView> _____4__this;
@@ -233,34 +233,34 @@ public:
 
   __declspec(property(get = get_isShown)) bool isShown;
 
-  /// @brief Method CreateBlocker, addr 0x35a9da4, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method CreateBlocker, addr 0x35acf64, size 0x48c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateBlocker();
 
-  /// @brief Method GetModalRootTransform, addr 0x35a9c94, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetModalRootTransform, addr 0x35ace54, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> GetModalRootTransform(::UnityEngine::Transform* transform, ::by_ref<::UnityEngine::Canvas*> canvas,
                                                                          ::by_ref<::HMUI::ViewControllerBase*> viewController);
 
-  /// @brief Method HandleBlockerButtonClicked, addr 0x35aa230, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleBlockerButtonClicked, addr 0x35ad3f0, size 0x1c, virtual false, abstract: false, final false
   inline void HandleBlockerButtonClicked();
 
-  /// @brief Method HandleParentViewControllerDidDeactivate, addr 0x35aa24c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method HandleParentViewControllerDidDeactivate, addr 0x35ad40c, size 0x110, virtual false, abstract: false, final false
   inline void HandleParentViewControllerDidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Hide, addr 0x35a95ac, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method Hide, addr 0x35ac76c, size 0x280, virtual true, abstract: false, final false
   inline void Hide(bool animated, ::System::Action* finishedCallback);
 
   static inline ::HMUI::ModalView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x35a9280, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x35ac440, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x35a926c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x35ac42c, size 0x14, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method SetupView, addr 0x35a9310, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method SetupView, addr 0x35ac4d0, size 0x29c, virtual false, abstract: false, final false
   inline void SetupView(::UnityEngine::Transform* screenTransform);
 
-  /// @brief Method Show, addr 0x35a9830, size 0x464, virtual true, abstract: false, final false
+  /// @brief Method Show, addr 0x35ac9f0, size 0x464, virtual true, abstract: false, final false
   inline void Show(bool animated, bool moveToCenter, ::System::Action* finishedCallback);
 
   constexpr bool const& __cordl_internal_get__animateParentCanvas() const;
@@ -329,18 +329,18 @@ public:
 
   constexpr void __cordl_internal_set_blockerClickedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x35aa360, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ad520, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_blockerClickedEvent, addr 0x35a910c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method add_blockerClickedEvent, addr 0x35ac2cc, size 0xac, virtual true, abstract: false, final false
   inline void add_blockerClickedEvent(::System::Action* value);
 
-  /// @brief Method get_isShown, addr 0x35a9264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isShown, addr 0x35ac424, size 0x8, virtual false, abstract: false, final false
   inline bool get_isShown();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_blockerClickedEvent, addr 0x35a91b8, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method remove_blockerClickedEvent, addr 0x35ac378, size 0xac, virtual true, abstract: false, final false
   inline void remove_blockerClickedEvent(::System::Action* value);
 
 protected:
@@ -358,7 +358,7 @@ public:
   ModalView(ModalView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21814 };
 
   /// [SerializeField]
   /// @brief Field _presentPanelAnimations, offset: 0x20, size: 0x8, def value: None

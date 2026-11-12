@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory::*)()>(
     &::UnityEngine::UIElements::SortColumnDescription_UxmlObjectFactory::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x722f948;
+  constexpr static std::size_t addrs = 0x7230a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(
     ::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>*)>(&::UnityEngine::UIElements::SortColumnDescription::add_propertyChanged)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x722f0f0;
+  constexpr static std::size_t addrs = 0x72301d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(
     ::System::EventHandler_1<::UnityEngine::UIElements::BindablePropertyChangedEventArgs>*)>(&::UnityEngine::UIElements::SortColumnDescription::remove_propertyChanged)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x722f1b0;
+  constexpr static std::size_t addrs = 0x7230290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::SortColumnDescription::*)()>(&::UnityEngine::UIElements::SortColumnDescription::get_columnName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x722f270;
+  constexpr static std::size_t addrs = 0x7230350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(), { "get_columnName", {}, {} })));
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(::StringW)>(&::UnityEngine::UIElements::SortColumnDescription::set_columnName)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x722f278;
+  constexpr static std::size_t addrs = 0x7230358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::SortColumnDescription::*)()>(&::UnityEngine::UIElements::SortColumnDescription::get_columnIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x722f390;
+  constexpr static std::size_t addrs = 0x7230470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(), { "get_columnIndex", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(int32_t)>(&::UnityEngine::UIElements::SortColumnDescription::set_columnIndex)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x722f398;
+  constexpr static std::size_t addrs = 0x7230478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Column* (::UnityEngine::UIElements::SortColumnDescription::*)()>(
     &::UnityEngine::UIElements::SortColumnDescription::get_column)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x722f464;
+  constexpr static std::size_t addrs = 0x7230544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(), { "get_column", {}, {} })));
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::SortColumnDescription::set_column)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x722f46c;
+  constexpr static std::size_t addrs = 0x723054c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::SortDirection (::UnityEngine::UIElements::SortColumnDescription::*)()>(
     &::UnityEngine::UIElements::SortColumnDescription::get_direction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x722f474;
+  constexpr static std::size_t addrs = 0x7230554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(), { "get_direction", {}, {} })));
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(::UnityEngine::UIElements::SortDirection)>(
     &::UnityEngine::UIElements::SortColumnDescription::set_direction)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x722f47c;
+  constexpr static std::size_t addrs = 0x723055c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(),
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>*)>(
     &::UnityEngine::UIElements::SortColumnDescription::add_changed)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x722f548;
+  constexpr static std::size_t addrs = 0x7230628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(::System::Action_1<::UnityEngine::UIElements::SortColumnDescription*>*)>(
     &::UnityEngine::UIElements::SortColumnDescription::remove_changed)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x722f608;
+  constexpr static std::size_t addrs = 0x72306e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)()>(&::UnityEngine::UIElements::SortColumnDescription::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x722f6c8;
+  constexpr static std::size_t addrs = 0x72307a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::SortColumnDescription*>(), { ".ctor", {}, {} })));
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(int32_t, ::UnityEngine::UIElements::SortDirection)>(
     &::UnityEngine::UIElements::SortColumnDescription::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x722f6d4;
+  constexpr static std::size_t addrs = 0x72307b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(::StringW, ::UnityEngine::UIElements::SortDirection)>(
     &::UnityEngine::UIElements::SortColumnDescription::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x722f704;
+  constexpr static std::size_t addrs = 0x72307e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::SortColumnDescription::*)(::by_ref<::UnityEngine::UIElements::BindingId const>)>(
     &::UnityEngine::UIElements::SortColumnDescription::NotifyPropertyChanged)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x722f344;
+  constexpr static std::size_t addrs = 0x7230424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

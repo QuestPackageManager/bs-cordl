@@ -61,22 +61,22 @@ public:
 
   constexpr void __cordl_internal_set_isMixed(bool value);
 
-  /// @brief Method .ctor, addr 0x66927d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6692e20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Content, addr 0x66927b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0x6692e08, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContent* get_Content();
 
-  /// @brief Method get_HasMixedAttribute, addr 0x66927c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasMixedAttribute, addr 0x6692e18, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasMixedAttribute();
 
-  /// @brief Method get_IsMixed, addr 0x66927a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsMixed, addr 0x6692df0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsMixed();
 
-  /// @brief Method set_Content, addr 0x66927c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Content, addr 0x6692e10, size 0x8, virtual true, abstract: false, final false
   inline void set_Content(::System::Xml::Schema::XmlSchemaContent* value);
 
-  /// @brief Method set_IsMixed, addr 0x66927a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_IsMixed, addr 0x6692df8, size 0x10, virtual false, abstract: false, final false
   inline void set_IsMixed(bool value);
 
 protected:

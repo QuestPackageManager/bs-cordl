@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::GlobalNamespace::LightConstants_BakeId)>(&::GlobalNamespace::LightConstants::GetLightmapLightBakeIdPropertyId)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5cbb7c0;
+  constexpr static std::size_t addrs = 0x5cba010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::GlobalNamespace::LightConstants_BakeId)>(&::GlobalNamespace::LightConstants::GetLightProbeLightBakeIdPropertyId)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5cbb88c;
+  constexpr static std::size_t addrs = 0x5cba0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::StringW)>(&::GlobalNamespace::LightConstants::GetComputeFieldPropertyId)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5cbb958;
+  constexpr static std::size_t addrs = 0x5cba1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

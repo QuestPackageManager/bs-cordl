@@ -166,7 +166,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_BodyUpdateEvent (::UnityEngine::LowLevelPhysics2D::BodyUpdateCallbackTargets_PhysicsCallbacks_BodyUpdateTarget::*)()>(
         &::UnityEngine::LowLevelPhysics2D::BodyUpdateCallbackTargets_PhysicsCallbacks_BodyUpdateTarget::get_bodyUpdateEvent)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7012420;
+  constexpr static std::size_t addrs = 0x7013500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_IBodyUpdateCallback* (::UnityEngine::LowLevelPhysics2D::BodyUpdateCallbackTargets_PhysicsCallbacks_BodyUpdateTarget::*)()>(
         &::UnityEngine::LowLevelPhysics2D::BodyUpdateCallbackTargets_PhysicsCallbacks_BodyUpdateTarget::get_bodyTarget)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x7012434;
+  constexpr static std::size_t addrs = 0x7013514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<::UnityEngine::LowLevelPhysics2D::BodyUpdateCallbackTargets_PhysicsCallbacks_BodyUpdateTarget> (
     ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_BodyUpdateCallbackTargets::*)()>(&::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_BodyUpdateCallbackTargets::get_bodyUpdateCallbackTargets)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x7012384;
+  constexpr static std::size_t addrs = 0x7013464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_BodyUpdateCallbackTargets::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_BodyUpdateCallbackTargets::Dispose)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x70123d0;
+  constexpr static std::size_t addrs = 0x70134b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerBeginEvent (::UnityEngine::LowLevelPhysics2D::TriggerCallbackTargets_PhysicsCallbacks_TriggerBeginTarget::*)()>(
         &::UnityEngine::LowLevelPhysics2D::TriggerCallbackTargets_PhysicsCallbacks_TriggerBeginTarget::get_beginEvent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x701262c;
+  constexpr static std::size_t addrs = 0x701370c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -283,7 +283,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ITriggerCallback* (::UnityEngine::LowLevelPhysics2D::TriggerCallbackTargets_PhysicsCallbacks_TriggerBeginTarget::*)()>(
         &::UnityEngine::LowLevelPhysics2D::TriggerCallbackTargets_PhysicsCallbacks_TriggerBeginTarget::get_triggerShapeTarget)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x7012638;
+  constexpr static std::size_t addrs = 0x7013718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ITriggerCallback* (::UnityEngine::LowLevelPhysics2D::TriggerCallbackTargets_PhysicsCallbacks_TriggerBeginTarget::*)()>(
         &::UnityEngine::LowLevelPhysics2D::TriggerCallbackTargets_PhysicsCallbacks_TriggerBeginTarget::get_visitorShapeTarget)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x7012784;
+  constexpr static std::size_t addrs = 0x7013864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -337,7 +337,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_TriggerEndEvent (::UnityEngine::LowLevelPhysics2D::TriggerCallbackTargets_PhysicsCallbacks_TriggerEndTarget::*)()>(
         &::UnityEngine::LowLevelPhysics2D::TriggerCallbackTargets_PhysicsCallbacks_TriggerEndTarget::get_endEvent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7012844;
+  constexpr static std::size_t addrs = 0x7013924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -352,7 +352,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ITriggerCallback* (::UnityEngine::LowLevelPhysics2D::TriggerCallbackTargets_PhysicsCallbacks_TriggerEndTarget::*)()>(
         &::UnityEngine::LowLevelPhysics2D::TriggerCallbackTargets_PhysicsCallbacks_TriggerEndTarget::get_triggerShapeTarget)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x7012850;
+  constexpr static std::size_t addrs = 0x7013930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -367,7 +367,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ITriggerCallback* (::UnityEngine::LowLevelPhysics2D::TriggerCallbackTargets_PhysicsCallbacks_TriggerEndTarget::*)()>(
         &::UnityEngine::LowLevelPhysics2D::TriggerCallbackTargets_PhysicsCallbacks_TriggerEndTarget::get_visitorShapeTarget)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x7012910;
+  constexpr static std::size_t addrs = 0x70139f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<::UnityEngine::LowLevelPhysics2D::TriggerCallbackTargets_PhysicsCallbacks_TriggerBeginTarget> (
     ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_TriggerCallbackTargets::*)()>(&::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_TriggerCallbackTargets::get_BeginCallbackTargets)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x70124f4;
+  constexpr static std::size_t addrs = 0x70135d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<::UnityEngine::LowLevelPhysics2D::TriggerCallbackTargets_PhysicsCallbacks_TriggerEndTarget> (
     ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_TriggerCallbackTargets::*)()>(&::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_TriggerCallbackTargets::get_EndCallbackTargets)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x7012540;
+  constexpr static std::size_t addrs = 0x7013620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_TriggerCallbackTargets::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_TriggerCallbackTargets::Dispose)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x701258c;
+  constexpr static std::size_t addrs = 0x701366c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -481,7 +481,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactBeginEvent (::UnityEngine::LowLevelPhysics2D::ContactCallbackTargets_PhysicsCallbacks_ContactBeginTarget::*)()>(
         &::UnityEngine::LowLevelPhysics2D::ContactCallbackTargets_PhysicsCallbacks_ContactBeginTarget::get_beginEvent)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7012b08;
+  constexpr static std::size_t addrs = 0x7013be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -496,7 +496,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_IContactCallback* (::UnityEngine::LowLevelPhysics2D::ContactCallbackTargets_PhysicsCallbacks_ContactBeginTarget::*)()>(
         &::UnityEngine::LowLevelPhysics2D::ContactCallbackTargets_PhysicsCallbacks_ContactBeginTarget::get_shapeTargetA)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x7012b1c;
+  constexpr static std::size_t addrs = 0x7013bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -511,7 +511,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_IContactCallback* (::UnityEngine::LowLevelPhysics2D::ContactCallbackTargets_PhysicsCallbacks_ContactBeginTarget::*)()>(
         &::UnityEngine::LowLevelPhysics2D::ContactCallbackTargets_PhysicsCallbacks_ContactBeginTarget::get_shapeTargetB)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x7012bdc;
+  constexpr static std::size_t addrs = 0x7013cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -548,7 +548,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_ContactEndEvent (::UnityEngine::LowLevelPhysics2D::ContactCallbackTargets_PhysicsCallbacks_ContactEndTarget::*)()>(
         &::UnityEngine::LowLevelPhysics2D::ContactCallbackTargets_PhysicsCallbacks_ContactEndTarget::get_endEvent)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7012c9c;
+  constexpr static std::size_t addrs = 0x7013d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -563,7 +563,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_IContactCallback* (::UnityEngine::LowLevelPhysics2D::ContactCallbackTargets_PhysicsCallbacks_ContactEndTarget::*)()>(
         &::UnityEngine::LowLevelPhysics2D::ContactCallbackTargets_PhysicsCallbacks_ContactEndTarget::get_shapeTargetA)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x7012cb0;
+  constexpr static std::size_t addrs = 0x7013d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -578,7 +578,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_IContactCallback* (::UnityEngine::LowLevelPhysics2D::ContactCallbackTargets_PhysicsCallbacks_ContactEndTarget::*)()>(
         &::UnityEngine::LowLevelPhysics2D::ContactCallbackTargets_PhysicsCallbacks_ContactEndTarget::get_shapeTargetB)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x7012d70;
+  constexpr static std::size_t addrs = 0x7013e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -614,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<::UnityEngine::LowLevelPhysics2D::ContactCallbackTargets_PhysicsCallbacks_ContactBeginTarget> (
     ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ContactCallbackTargets::*)()>(&::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ContactCallbackTargets::get_BeginCallbackTargets)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x70129d0;
+  constexpr static std::size_t addrs = 0x7013ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -628,7 +628,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<::UnityEngine::LowLevelPhysics2D::ContactCallbackTargets_PhysicsCallbacks_ContactEndTarget> (
     ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ContactCallbackTargets::*)()>(&::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ContactCallbackTargets::get_EndCallbackTargets)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x7012a1c;
+  constexpr static std::size_t addrs = 0x7013afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -642,7 +642,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ContactCallbackTargets::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_ContactCallbackTargets::Dispose)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x7012a68;
+  constexpr static std::size_t addrs = 0x7013b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -692,7 +692,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsEvents_JointThresholdEvent (::UnityEngine::LowLevelPhysics2D::JointThresholdCallbackTargets_PhysicsCallbacks_JointThresholdTarget::*)()>(
         &::UnityEngine::LowLevelPhysics2D::JointThresholdCallbackTargets_PhysicsCallbacks_JointThresholdTarget::get_jointThresholdEvent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7012ecc;
+  constexpr static std::size_t addrs = 0x7013fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -708,7 +708,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPh
     ::UnityEngine::LowLevelPhysics2D::JointThresholdCallbackTargets_PhysicsCallbacks_JointThresholdTarget::*)()>(
     &::UnityEngine::LowLevelPhysics2D::JointThresholdCallbackTargets_PhysicsCallbacks_JointThresholdTarget::get_jointTarget)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x7012ed8;
+  constexpr static std::size_t addrs = 0x7013fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -745,7 +745,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<
     ::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_JointThresholdCallbackTargets::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_JointThresholdCallbackTargets::get_jointThresholdCallbackTargets)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x7012e30;
+  constexpr static std::size_t addrs = 0x7013f10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -759,7 +759,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_JointThresholdCallbackTargets::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsCallbacks_JointThresholdCallbackTargets::Dispose)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x7012e7c;
+  constexpr static std::size_t addrs = 0x7013f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -89,26 +89,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d046c0, size 0x190, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d03ec8, size 0x190, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::AudioPitchGainEffect__StartEffectCoroutine_d__7* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d04850, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d04058, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d04858, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d04060, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d04890, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d04098, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d046bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d03ec4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -154,7 +154,7 @@ public:
   constexpr void __cordl_internal_set_volumeScale(float_t value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5d04638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d03e40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -251,22 +251,22 @@ public:
   /// @brief Field _startPitch, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__startPitch, put = __cordl_internal_set__startPitch)) float_t _startPitch;
 
-  /// @brief Method InterruptEffect, addr 0x5d04668, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InterruptEffect, addr 0x5d03e70, size 0x3c, virtual false, abstract: false, final false
   inline void InterruptEffect();
 
   static inline ::GlobalNamespace::AudioPitchGainEffect* New_ctor();
 
-  /// @brief Method SetAudioSource, addr 0x5d046a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAudioSource, addr 0x5d03eac, size 0x8, virtual false, abstract: false, final false
   inline void SetAudioSource(::UnityEngine::AudioSource* audioSource);
 
-  /// @brief Method Start, addr 0x5d045a0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d03da8, size 0x24, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEffect, addr 0x5d04640, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StartEffect, addr 0x5d03e48, size 0x28, virtual false, abstract: false, final false
   inline void StartEffect(float_t volumeScale, ::System::Action* finishCallback);
 
   /// [IteratorStateMachine(typeof(AudioPitchGainEffect::<StartEffectCoroutine>d__7))]
-  /// @brief Method StartEffectCoroutine, addr 0x5d045c4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method StartEffectCoroutine, addr 0x5d03dcc, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartEffectCoroutine(float_t volumeScale, ::System::Action* finishCallback);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -305,7 +305,7 @@ public:
 
   constexpr void __cordl_internal_set__startPitch(float_t value);
 
-  /// @brief Method .ctor, addr 0x5d046ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d03eb4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

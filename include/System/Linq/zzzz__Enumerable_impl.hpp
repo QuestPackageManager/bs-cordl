@@ -3683,7 +3683,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Enumerable__RangeIterator_d__115::*)(int32_t)>(&::System::Linq::Enumerable__RangeIterator_d__115::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x63b5fd0;
+  constexpr static std::size_t addrs = 0x63b6620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3696,7 +3696,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Enumerable__RangeIterator_d__115::*)()>(&::System::Linq::Enumerable__RangeIterator_d__115::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63b765c;
+  constexpr static std::size_t addrs = 0x63b7cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3709,7 +3709,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Enumerable__RangeIterator_d__115::*)()>(&::System::Linq::Enumerable__RangeIterator_d__115::MoveNext)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x63b7660;
+  constexpr static std::size_t addrs = 0x63b7cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Enumerable__RangeIterator_d__115*>(), { "MoveNext", {}, {} })));
@@ -3722,7 +3722,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Enumerable__RangeIterator_d__115::*)()>(
     &::System::Linq::Enumerable__RangeIterator_d__115::System_Collections_Generic_IEnumerator_System_Int32__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63b76c0;
+  constexpr static std::size_t addrs = 0x63b7d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3736,7 +3736,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Enumerable__RangeIterator_d__115::*)()>(
     &::System::Linq::Enumerable__RangeIterator_d__115::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x63b76c8;
+  constexpr static std::size_t addrs = 0x63b7d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3750,7 +3750,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Linq::Enumerable__RangeIterator_d__115::*)()>(
     &::System::Linq::Enumerable__RangeIterator_d__115::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x63b7700;
+  constexpr static std::size_t addrs = 0x63b7d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3764,7 +3764,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<int32_t>* (::System::Linq::Enumerable__RangeIterator_d__115::*)()>(
     &::System::Linq::Enumerable__RangeIterator_d__115::System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x63b7724;
+  constexpr static std::size_t addrs = 0x63b7d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3779,7 +3779,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Linq::Enumerable__RangeIterator_d__115::*)()>(
     &::System::Linq::Enumerable__RangeIterator_d__115::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63b77c4;
+  constexpr static std::size_t addrs = 0x63b7e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3973,7 +3973,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (*)(int32_t, int32_t)>(&::System::Linq::Enumerable::Range)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x63b5f08;
+  constexpr static std::size_t addrs = 0x63b6558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3986,7 +3986,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (*)(int32_t, int32_t)>(&::System::Linq::Enumerable::RangeIterator)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x63b5f54;
+  constexpr static std::size_t addrs = 0x63b65a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3999,7 +3999,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::System::Linq::Enumerable::Sum)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x63b5ff0;
+  constexpr static std::size_t addrs = 0x63b6640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4012,7 +4012,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::Collections::Generic::IEnumerable_1<float_t>*)>(&::System::Linq::Enumerable::Sum)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x63b6324;
+  constexpr static std::size_t addrs = 0x63b6974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4025,7 +4025,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::System::Linq::Enumerable::Min)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x63b6614;
+  constexpr static std::size_t addrs = 0x63b6c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4038,7 +4038,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::Collections::Generic::IEnumerable_1<float_t>*)>(&::System::Linq::Enumerable::Min)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x63b6924;
+  constexpr static std::size_t addrs = 0x63b6f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4051,7 +4051,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::System::Linq::Enumerable::Max)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x63b6c50;
+  constexpr static std::size_t addrs = 0x63b72a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4064,7 +4064,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::Collections::Generic::IEnumerable_1<float_t>*)>(&::System::Linq::Enumerable::Max)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x63b6f60;
+  constexpr static std::size_t addrs = 0x63b75b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4077,7 +4077,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::System::Linq::Enumerable::Average)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x63b728c;
+  constexpr static std::size_t addrs = 0x63b78dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

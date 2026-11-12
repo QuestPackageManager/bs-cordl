@@ -51,63 +51,63 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>*();
 
-  /// @brief Method Equals, addr 0x6fc80c8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fc91a8, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x6fc8154, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fc9234, size 0x2c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LocalKeyword rhs);
 
   /// [FreeFunction("ShaderScripting::GetKeywordCount")]
-  /// @brief Method GetComputeShaderKeywordCount, addr 0x6fc7aa4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetComputeShaderKeywordCount, addr 0x6fc8b84, size 0x80, virtual false, abstract: false, final false
   static inline uint32_t GetComputeShaderKeywordCount(::UnityEngine::ComputeShader* shader);
 
-  /// @brief Method GetComputeShaderKeywordCount_Injected, addr 0x6fc7b24, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetComputeShaderKeywordCount_Injected, addr 0x6fc8c04, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t GetComputeShaderKeywordCount_Injected(::System::IntPtr shader);
 
   /// [FreeFunction("ShaderScripting::GetKeywordIndex")]
-  /// @brief Method GetComputeShaderKeywordIndex, addr 0x6fc7b60, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetComputeShaderKeywordIndex, addr 0x6fc8c40, size 0x174, virtual false, abstract: false, final false
   static inline uint32_t GetComputeShaderKeywordIndex(::UnityEngine::ComputeShader* shader, ::StringW keyword);
 
-  /// @brief Method GetComputeShaderKeywordIndex_Injected, addr 0x6fc7cd4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetComputeShaderKeywordIndex_Injected, addr 0x6fc8db4, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t GetComputeShaderKeywordIndex_Injected(::System::IntPtr shader, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
 
-  /// @brief Method GetHashCode, addr 0x6fc818c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fc926c, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [FreeFunction("ShaderScripting::GetKeywordCount")]
-  /// @brief Method GetShaderKeywordCount, addr 0x6fc7830, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetShaderKeywordCount, addr 0x6fc8910, size 0x80, virtual false, abstract: false, final false
   static inline uint32_t GetShaderKeywordCount(::UnityEngine::Shader* shader);
 
-  /// @brief Method GetShaderKeywordCount_Injected, addr 0x6fc78b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetShaderKeywordCount_Injected, addr 0x6fc8990, size 0x3c, virtual false, abstract: false, final false
   static inline uint32_t GetShaderKeywordCount_Injected(::System::IntPtr shader);
 
   /// [FreeFunction("ShaderScripting::GetKeywordIndex")]
-  /// @brief Method GetShaderKeywordIndex, addr 0x6fc78ec, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetShaderKeywordIndex, addr 0x6fc89cc, size 0x174, virtual false, abstract: false, final false
   static inline uint32_t GetShaderKeywordIndex(::UnityEngine::Shader* shader, ::StringW keyword);
 
-  /// @brief Method GetShaderKeywordIndex_Injected, addr 0x6fc7a60, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetShaderKeywordIndex_Injected, addr 0x6fc8b40, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t GetShaderKeywordIndex_Injected(::System::IntPtr shader, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> keyword);
 
   /// [FreeFunction("keywords::IsKeywordOverridable")]
-  /// @brief Method IsOverridable, addr 0x6fc77b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsOverridable, addr 0x6fc8898, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsOverridable(::UnityEngine::Rendering::LocalKeyword kw);
 
-  /// @brief Method IsOverridable_Injected, addr 0x6fc77f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsOverridable_Injected, addr 0x6fc88d4, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsOverridable_Injected(::by_ref<::UnityEngine::Rendering::LocalKeyword const> kw);
 
-  /// @brief Method ToString, addr 0x6fc80c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6fc91a0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6fc7f18, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fc8ff8, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ComputeShader* shader, ::StringW name);
 
-  /// @brief Method .ctor, addr 0x6fc7d70, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fc8e50, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Shader* shader, ::StringW name);
 
-  /// @brief Method get_isOverridable, addr 0x6fc7d20, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_isOverridable, addr 0x6fc8e00, size 0x50, virtual false, abstract: false, final false
   inline bool get_isOverridable();
 
-  /// @brief Method get_name, addr 0x6fc7d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6fc8df8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeyword>"

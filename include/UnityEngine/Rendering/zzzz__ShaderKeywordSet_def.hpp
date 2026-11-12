@@ -31,30 +31,30 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE ShaderKeywordSet {
 public:
   // Declarations
-  /// @brief Method CheckKeywordCompatible, addr 0x6fc8a68, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CheckKeywordCompatible, addr 0x6fc9b48, size 0xc4, virtual false, abstract: false, final false
   inline void CheckKeywordCompatible(::UnityEngine::Rendering::ShaderKeyword keyword);
 
   /// [FreeFunction("keywords::GetEnabledKeywords")]
-  /// @brief Method GetEnabledKeywords, addr 0x6fc89f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetEnabledKeywords, addr 0x6fc9ad0, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Rendering::ShaderKeyword> GetEnabledKeywords(::UnityEngine::Rendering::ShaderKeywordSet state);
 
-  /// @brief Method GetEnabledKeywords_Injected, addr 0x6fc8a2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetEnabledKeywords_Injected, addr 0x6fc9b0c, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Rendering::ShaderKeyword> GetEnabledKeywords_Injected(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet const> state);
 
-  /// @brief Method IsEnabled, addr 0x6fc8b2c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsEnabled, addr 0x6fc9c0c, size 0x40, virtual false, abstract: false, final false
   inline bool IsEnabled(::UnityEngine::Rendering::ShaderKeyword keyword);
 
   /// [FreeFunction("keywords::IsKeywordEnabled")]
-  /// @brief Method IsKeywordNameEnabled, addr 0x6fc886c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method IsKeywordNameEnabled, addr 0x6fc994c, size 0x140, virtual false, abstract: false, final false
   static inline bool IsKeywordNameEnabled(::UnityEngine::Rendering::ShaderKeywordSet state, ::StringW name);
 
-  /// @brief Method IsKeywordNameEnabled_Injected, addr 0x6fc89ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsKeywordNameEnabled_Injected, addr 0x6fc9a8c, size 0x44, virtual false, abstract: false, final false
   static inline bool IsKeywordNameEnabled_Injected(::by_ref<::UnityEngine::Rendering::ShaderKeywordSet const> state, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
-  /// @brief Method ShaderKeywordComparer, addr 0x6fc8c74, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ShaderKeywordComparer, addr 0x6fc9d54, size 0x18, virtual false, abstract: false, final false
   static inline int32_t ShaderKeywordComparer(::UnityEngine::Rendering::ShaderKeyword kw1, ::UnityEngine::Rendering::ShaderKeyword kw2);
 
-  /// @brief Method ToString, addr 0x6fc8b6c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6fc9c4c, size 0x108, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []

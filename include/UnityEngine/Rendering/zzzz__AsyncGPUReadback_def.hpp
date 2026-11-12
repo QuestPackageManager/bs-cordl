@@ -36,28 +36,28 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE AsyncGPUReadback : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Request, addr 0x6fa0f10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Request, addr 0x6fa1ff0, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::AsyncGPUReadbackRequest Request(::UnityEngine::GraphicsBuffer* src, ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
 
-  /// @brief Method Request, addr 0x6fa1024, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Request, addr 0x6fa2104, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::AsyncGPUReadbackRequest Request(::UnityEngine::GraphicsBuffer* src, int32_t size, int32_t offset,
                                                                           ::System::Action_1<::UnityEngine::Rendering::AsyncGPUReadbackRequest>* callback);
 
   /// [NativeMethod("Request")]
-  /// @brief Method Request_Internal_GraphicsBuffer_1, addr 0x6fa0f6c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Request_Internal_GraphicsBuffer_1, addr 0x6fa204c, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::AsyncGPUReadbackRequest Request_Internal_GraphicsBuffer_1(/* [NotNull] */ ::UnityEngine::GraphicsBuffer* buffer,
                                                                                                     ::UnityEngine::Rendering::AsyncRequestNativeArrayData* data);
 
-  /// @brief Method Request_Internal_GraphicsBuffer_1_Injected, addr 0x6fa1150, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Request_Internal_GraphicsBuffer_1_Injected, addr 0x6fa2230, size 0x54, virtual false, abstract: false, final false
   static inline void Request_Internal_GraphicsBuffer_1_Injected(::System::IntPtr buffer, ::UnityEngine::Rendering::AsyncRequestNativeArrayData* data,
                                                                 ::by_ref<::UnityEngine::Rendering::AsyncGPUReadbackRequest> ret);
 
   /// [NativeMethod("Request")]
-  /// @brief Method Request_Internal_GraphicsBuffer_2, addr 0x6fa1080, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Request_Internal_GraphicsBuffer_2, addr 0x6fa2160, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::AsyncGPUReadbackRequest Request_Internal_GraphicsBuffer_2(/* [NotNull] */ ::UnityEngine::GraphicsBuffer* src, int32_t size, int32_t offset,
                                                                                                     ::UnityEngine::Rendering::AsyncRequestNativeArrayData* data);
 
-  /// @brief Method Request_Internal_GraphicsBuffer_2_Injected, addr 0x6fa11a4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Request_Internal_GraphicsBuffer_2_Injected, addr 0x6fa2284, size 0x6c, virtual false, abstract: false, final false
   static inline void Request_Internal_GraphicsBuffer_2_Injected(::System::IntPtr src, int32_t size, int32_t offset, ::UnityEngine::Rendering::AsyncRequestNativeArrayData* data,
                                                                 ::by_ref<::UnityEngine::Rendering::AsyncGPUReadbackRequest> ret);
 

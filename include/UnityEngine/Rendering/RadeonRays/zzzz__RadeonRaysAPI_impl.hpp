@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::*)(::UnityEngine::Rendering::RadeonRays::RadeonRaysShaders*)>(
     &::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6e39e88;
+  constexpr static std::size_t addrs = 0x6e3af68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI*>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::*)()>(&::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::Dispose)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6e3a0a0;
+  constexpr static std::size_t addrs = 0x6e3b180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI*>(), { "Dispose", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::BvhInternalNodeSizeInDwords)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e3a0dc;
+  constexpr static std::size_t addrs = 0x6e3b1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::BvhInternalNodeSizeInBytes)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e3a15c;
+  constexpr static std::size_t addrs = 0x6e3b23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::BvhLeafNodeSizeInBytes)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e3a1c8;
+  constexpr static std::size_t addrs = 0x6e3b2a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::BvhLeafNodeSizeInDwords)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e3a234;
+  constexpr static std::size_t addrs = 0x6e3b314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Rendering::RadeonRays::MeshBuildInfo, ::UnityEngine::Rendering::RadeonRays::BuildFlags, ::UnityEngine::GraphicsBuffer*,
     ::by_ref<::UnityEngine::Rendering::RadeonRays::BottomLevelLevelAccelStruct const>)>(&::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::BuildMeshAccelStruct)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6e3a2b4;
+  constexpr static std::size_t addrs = 0x6e3b394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RadeonRays::MeshBuildMemoryRequirements (::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::*)(
     ::UnityEngine::Rendering::RadeonRays::MeshBuildInfo, ::UnityEngine::Rendering::RadeonRays::BuildFlags)>(&::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::GetMeshBuildMemoryRequirements)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6e3a724;
+  constexpr static std::size_t addrs = 0x6e3b804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::GraphicsBuffer*, ::ArrayW<::UnityEngine::Rendering::RadeonRays::Instance>, ::UnityEngine::GraphicsBuffer*)>(
     &::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::BuildSceneAccelStruct)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x6e3a7f8;
+  constexpr static std::size_t addrs = 0x6e3b8d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RadeonRays::TopLevelAccelStruct (::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::*)(
     ::UnityEngine::GraphicsBuffer*, uint32_t, ::ArrayW<::UnityEngine::Rendering::RadeonRays::Instance>)>(&::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::CreateSceneAccelStructBuffers)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x6e3a9c8;
+  constexpr static std::size_t addrs = 0x6e3baa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RadeonRays::SceneBuildMemoryRequirements (::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::*)(uint32_t)>(
     &::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::GetSceneBuildMemoryRequirements)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6e3ac64;
+  constexpr static std::size_t addrs = 0x6e3bd44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,7 +191,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::*)(::ArrayW<::UnityEngine::Rendering::RadeonRays::MeshBuildInfo>, ::UnityEngine::Rendering::RadeonRays::BuildFlags)>(
     &::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::GetSceneMemoryRequirements)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x6e3ac94;
+  constexpr static std::size_t addrs = 0x6e3bd74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint32_t)>(&::UnityEngine::Rendering::RadeonRays::RadeonRaysAPI::GetTraceMemoryRequirements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3af20;
+  constexpr static std::size_t addrs = 0x6e3c000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

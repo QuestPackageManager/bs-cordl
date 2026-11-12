@@ -62,25 +62,25 @@ public:
 
   static inline ::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema* New_ctor(::System::Xml::XmlReader* reader);
 
-  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_IsDefault, addr 0x661983c, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_IsDefault, addr 0x6619e8c, size 0xa8, virtual true, abstract: false, final true
   inline bool System_Xml_Schema_IXmlSchemaInfo_get_IsDefault();
 
-  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_IsNil, addr 0x66198e4, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_IsNil, addr 0x6619f34, size 0xa8, virtual true, abstract: false, final true
   inline bool System_Xml_Schema_IXmlSchemaInfo_get_IsNil();
 
-  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_MemberType, addr 0x661998c, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_MemberType, addr 0x6619fdc, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaSimpleType* System_Xml_Schema_IXmlSchemaInfo_get_MemberType();
 
-  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_SchemaAttribute, addr 0x6619b84, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_SchemaAttribute, addr 0x661a1d4, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaAttribute* System_Xml_Schema_IXmlSchemaInfo_get_SchemaAttribute();
 
-  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_SchemaElement, addr 0x6619adc, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_SchemaElement, addr 0x661a12c, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaElement* System_Xml_Schema_IXmlSchemaInfo_get_SchemaElement();
 
-  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_SchemaType, addr 0x6619a34, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_SchemaType, addr 0x661a084, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaType* System_Xml_Schema_IXmlSchemaInfo_get_SchemaType();
 
-  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_Validity, addr 0x6619798, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Schema.IXmlSchemaInfo.get_Validity, addr 0x6619de8, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchemaValidity System_Xml_Schema_IXmlSchemaInfo_get_Validity();
 
   constexpr ::System::Xml::Schema::IXmlSchemaInfo* const& __cordl_internal_get_readerAsIXmlSchemaInfo() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_readerAsIXmlSchemaInfo(::System::Xml::Schema::IXmlSchemaInfo* value);
 
-  /// @brief Method .ctor, addr 0x6618020, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6618670, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlReader* reader);
 
   /// @brief Convert to "::System::Xml::Schema::IXmlSchemaInfo"

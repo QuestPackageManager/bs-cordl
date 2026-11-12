@@ -33,21 +33,21 @@ public:
   /// @brief Field s_NullHandle, offset 0xffffffff, size 0xc
   __declspec(property(get = getStaticF_s_NullHandle, put = setStaticF_s_NullHandle)) ::UnityEngine::Rendering::RenderGraphModule::BufferHandle s_NullHandle;
 
-  /// @brief Method IsValid, addr 0x6c49c1c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6c4acfc, size 0xe4, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method .ctor, addr 0x6c49ad8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4abb8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h);
 
-  /// @brief Method .ctor, addr 0x6c49aec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4abcc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t handle, bool shared);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle getStaticF_s_NullHandle();
 
-  /// @brief Method get_nullHandle, addr 0x6c49a78, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_nullHandle, addr 0x6c4ab58, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle get_nullHandle();
 
-  /// @brief Method op_Implicit, addr 0x6c49b2c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6c4ac0c, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::GraphicsBuffer* op_Implicit___UnityEngine__GraphicsBuffer_(::UnityEngine::Rendering::RenderGraphModule::BufferHandle buffer);
 
   static inline void setStaticF_s_NullHandle(::UnityEngine::Rendering::RenderGraphModule::BufferHandle value);

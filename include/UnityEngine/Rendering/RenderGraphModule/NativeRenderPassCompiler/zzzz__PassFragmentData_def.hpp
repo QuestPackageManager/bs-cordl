@@ -30,14 +30,14 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE PassFragmentData {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x6c63bc0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c64ca0, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method SameSubResource, addr 0x6c63c38, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SameSubResource, addr 0x6c64d18, size 0x98, virtual false, abstract: false, final false
   static inline bool SameSubResource(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData const> x,
                                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData const> y);
 
-  /// @brief Method .ctor, addr 0x6c63ba8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c64c88, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags,
                     int32_t mipLevel, int32_t depthSlice);
 

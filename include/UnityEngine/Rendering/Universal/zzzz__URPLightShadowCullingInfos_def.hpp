@@ -23,7 +23,7 @@ struct CORDL_TYPE URPLightShadowCullingInfos {
 public:
   // Declarations
   /// [IsReadOnly]
-  /// @brief Method IsSliceValid, addr 0x6d2ee98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsSliceValid, addr 0x6d2ff78, size 0x10, virtual false, abstract: false, final false
   inline bool IsSliceValid(int32_t i);
 
   // Ctor Parameters []

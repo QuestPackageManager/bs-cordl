@@ -44,28 +44,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>*();
 
-  /// @brief Method Equals, addr 0x6fbcda8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fbde88, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6fbae60, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fbbf40, size 0xd0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LODParameters other);
 
-  /// @brief Method GetHashCode, addr 0x6fbb29c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fbc37c, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_cameraPixelHeight, addr 0x6fbcda0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cameraPixelHeight, addr 0x6fbde80, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cameraPixelHeight();
 
-  /// @brief Method get_cameraPosition, addr 0x6fbcd84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_cameraPosition, addr 0x6fbde64, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_cameraPosition();
 
-  /// @brief Method get_fieldOfView, addr 0x6fbcd90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fieldOfView, addr 0x6fbde70, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fieldOfView();
 
-  /// @brief Method get_isOrthographic, addr 0x6fbcd24, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_isOrthographic, addr 0x6fbde04, size 0x60, virtual false, abstract: false, final false
   inline bool get_isOrthographic();
 
-  /// @brief Method get_orthoSize, addr 0x6fbcd98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_orthoSize, addr 0x6fbde78, size 0x8, virtual false, abstract: false, final false
   inline float_t get_orthoSize();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LODParameters>"

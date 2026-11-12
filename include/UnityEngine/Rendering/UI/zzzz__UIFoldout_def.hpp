@@ -34,16 +34,16 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::UIFoldout* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x6c75c14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6c76cf4, size 0xc, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetState, addr 0x6c75c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetState, addr 0x6c76cec, size 0x8, virtual false, abstract: false, final false
   inline void SetState(bool state);
 
-  /// @brief Method SetState, addr 0x6c75c20, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method SetState, addr 0x6c76d00, size 0x1f8, virtual false, abstract: false, final false
   inline void SetState(bool state, bool rebuildLayout);
 
-  /// @brief Method Start, addr 0x6c75b48, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x6c76c28, size 0xc4, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_arrowClosed() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_content(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x6c75e18, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c76ef8, size 0x210, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -66,11 +66,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x674c404, size 0x3cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x674ca54, size 0x3cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x674c7d0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x674ce20, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -152,16 +152,16 @@ public:
   /// @brief Field s_DownloadManager, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_DownloadManager, put = setStaticF_s_DownloadManager)) ::System::Object* s_DownloadManager;
 
-  /// @brief Method GetEntity, addr 0x674c1cc, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method GetEntity, addr 0x674c81c, size 0x13c, virtual true, abstract: false, final false
   inline ::System::Object* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
   /// [AsyncStateMachine(typeof(System.Xml.XmlUrlResolver::<GetEntityAsync>d__15))]
-  /// @brief Method GetEntityAsync, addr 0x674c30c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetEntityAsync, addr 0x674c95c, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
   static inline ::System::Xml::XmlUrlResolver* New_ctor();
 
-  /// @brief Method ResolveUri, addr 0x674c308, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResolveUri, addr 0x674c958, size 0x4, virtual true, abstract: false, final false
   inline ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
 
   constexpr ::System::Net::Cache::RequestCachePolicy* const& __cordl_internal_get__cachePolicy() const;
@@ -182,12 +182,12 @@ public:
 
   constexpr void __cordl_internal_set__proxy(::System::Net::IWebProxy* value);
 
-  /// @brief Method .ctor, addr 0x674c1c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x674c818, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_s_DownloadManager();
 
-  /// @brief Method get_DownloadManager, addr 0x674c0fc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_DownloadManager, addr 0x674c74c, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDownloadManager* get_DownloadManager();
 
   static inline void setStaticF_s_DownloadManager(::System::Object* value);

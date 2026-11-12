@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)(
     ::Mono::Net::Security::MobileAuthenticatedStream*, ::Mono::Net::Security::MonoSslAuthenticationOptions*)>(&::Mono::Net::Security::MobileTlsContext::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x642bd4c;
+  constexpr static std::size_t addrs = 0x642c39c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Net::Security::MobileAuthenticatedStream* (::Mono::Net::Security::MobileTlsContext::*)()>(
     &::Mono::Net::Security::MobileTlsContext::get_Parent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64357d4;
+  constexpr static std::size_t addrs = 0x6435e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), { "get_Parent", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::Interface::MonoTlsSettings* (::Mono::Net::Security::MobileTlsContext::*)()>(
     &::Mono::Net::Security::MobileTlsContext::get_Settings)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x642c620;
+  constexpr static std::size_t addrs = 0x642cc70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), { "get_Settings", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_IsServer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64357dc;
+  constexpr static std::size_t addrs = 0x6435e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), { "get_IsServer", {}, {} })));
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_TargetHost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64357e4;
+  constexpr static std::size_t addrs = 0x6435e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), { "get_TargetHost", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_ServerName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64357ec;
+  constexpr static std::size_t addrs = 0x6435e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), { "get_ServerName", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_AskForClientCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64357f4;
+  constexpr static std::size_t addrs = 0x6435e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), { "get_AskForClientCertificate", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateCollection* (::Mono::Net::Security::MobileTlsContext::*)()>(
     &::Mono::Net::Security::MobileTlsContext::get_ClientCertificates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64357fc;
+  constexpr static std::size_t addrs = 0x6435e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), { "get_ClientCertificates", {}, {} })));
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (::Mono::Net::Security::MobileTlsContext::*)()>(
     &::Mono::Net::Security::MobileTlsContext::get_LocalServerCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6435804;
+  constexpr static std::size_t addrs = 0x6435e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), { "get_LocalServerCertificate", {}, {} })));
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)(::System::Security::Cryptography::X509Certificates::X509Certificate*)>(
     &::Mono::Net::Security::MobileTlsContext::set_LocalServerCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x643580c;
+  constexpr static std::size_t addrs = 0x6435e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Net::Securi
                                                                                                          ::System::Security::Cryptography::X509Certificates::X509Chain*)>(
     &::Mono::Net::Security::MobileTlsContext::ValidateCertificate)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x642c97c;
+  constexpr static std::size_t addrs = 0x642cfcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (::Mono::Net::Security::MobileTlsContext::*)(::ArrayW<::StringW>)>(
     &::Mono::Net::Security::MobileTlsContext::SelectClientCertificate)> {
   constexpr static std::size_t size = 0x5b4;
-  constexpr static std::size_t addrs = 0x642d934;
+  constexpr static std::size_t addrs = 0x642df84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::Dispose)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x643368c;
+  constexpr static std::size_t addrs = 0x6433cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::MobileTlsContext*>(), { "Dispose", {}, {} })));
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)(bool)>(&::Mono::Net::Security::MobileTlsContext::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6435814;
+  constexpr static std::size_t addrs = 0x6435e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::Finalize)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6435818;
+  constexpr static std::size_t addrs = 0x6435e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

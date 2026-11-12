@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier::GetInstance)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x36077a0;
+  constexpr static std::size_t addrs = 0x360bc38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier::GetInstance)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x36077b4;
+  constexpr static std::size_t addrs = 0x360bc4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier::*)(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*)>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3607984;
+  constexpr static std::size_t addrs = 0x360be1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier*>(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier::*)(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier*)>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36079a0;
+  constexpr static std::size_t addrs = 0x360be38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier*>(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier::get_IssuerAndSerialNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36079a8;
+  constexpr static std::size_t addrs = 0x360be40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier::get_RKeyID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36079b0;
+  constexpr static std::size_t addrs = 0x360be48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier*>(), { "get_RKeyID", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier::ToAsn1Object)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x36079b8;
+  constexpr static std::size_t addrs = 0x360be50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier*>(),

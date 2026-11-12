@@ -39,15 +39,15 @@ public:
                       put = __cordl_internal_set__disableSpecificComponents)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* _disableSpecificComponents;
 
   /// [Inject]
-  /// @brief Method Init, addr 0x5ddd31c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5ddd438, size 0x9c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::DeterminismConfig* determinismConfig);
 
   static inline ::GlobalNamespace::DisableForVisualTestComparator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5ddd3b8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5ddd4d4, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDeterminismSet, addr 0x5ddd488, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method OnDeterminismSet, addr 0x5ddd5a4, size 0x254, virtual false, abstract: false, final false
   inline void OnDeterminismSet(bool isDeterministic);
 
   constexpr ::GlobalNamespace::DeterminismConfig* const& __cordl_internal_get__determinismConfig() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__disableSpecificComponents(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* value);
 
-  /// @brief Method .ctor, addr 0x5ddd6dc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ddd7f8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

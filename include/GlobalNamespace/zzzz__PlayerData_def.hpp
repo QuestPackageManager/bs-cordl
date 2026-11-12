@@ -270,77 +270,77 @@ public:
 
   __declspec(property(get = get_userAgeCategory, put = set_userAgeCategory)) ::OculusStudios::Platform::Core::UserAgeCategory userAgeCategory;
 
-  /// @brief Method AddGuestPlayerName, addr 0x39fb530, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method AddGuestPlayerName, addr 0x3a00284, size 0x15c, virtual false, abstract: false, final false
   inline void AddGuestPlayerName(::StringW guestPlayerName);
 
-  /// @brief Method AddLevelToFavorites, addr 0x39fb340, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddLevelToFavorites, addr 0x3a00094, size 0xac, virtual false, abstract: false, final false
   inline void AddLevelToFavorites(::GlobalNamespace::BeatmapLevel* level);
 
-  /// @brief Method DeleteAllGuestPlayers, addr 0x39fb68c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method DeleteAllGuestPlayers, addr 0x3a003e0, size 0x78, virtual false, abstract: false, final false
   inline void DeleteAllGuestPlayers();
 
-  /// @brief Method DidSelectRegion, addr 0x39fb744, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DidSelectRegion, addr 0x3a00498, size 0x10, virtual false, abstract: false, final false
   inline bool DidSelectRegion();
 
-  /// @brief Method GetOrCreatePlayerLevelStatsData, addr 0x39fad90, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreatePlayerLevelStatsData, addr 0x39ffae4, size 0x120, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerLevelStatsData* GetOrCreatePlayerLevelStatsData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
-  /// @brief Method GetOrCreatePlayerLevelStatsData, addr 0x39faf58, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreatePlayerLevelStatsData, addr 0x39ffcac, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerLevelStatsData* GetOrCreatePlayerLevelStatsData(::StringW levelId, ::GlobalNamespace::BeatmapDifficulty difficulty,
                                                                                   ::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic);
 
-  /// @brief Method GetOrCreatePlayerMissionStatsData, addr 0x39faf7c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreatePlayerMissionStatsData, addr 0x39ffcd0, size 0x1bc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerMissionStatsData* GetOrCreatePlayerMissionStatsData(::StringW missionId);
 
-  /// @brief Method GetPromoClickCount, addr 0x39facc0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetPromoClickCount, addr 0x39ffa14, size 0x68, virtual false, abstract: false, final false
   inline int32_t GetPromoClickCount(::StringW promoId);
 
-  /// @brief Method GetPromoCounter, addr 0x39faae4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetPromoCounter, addr 0x39ff838, size 0x5c, virtual false, abstract: false, final false
   inline int32_t GetPromoCounter(::StringW counterKey);
 
-  /// @brief Method GetPromoDisplayCount, addr 0x39fabf0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetPromoDisplayCount, addr 0x39ff944, size 0x68, virtual false, abstract: false, final false
   inline int32_t GetPromoDisplayCount(::StringW promoId);
 
-  /// @brief Method IncreaseNumberOfGameplays, addr 0x39fb294, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IncreaseNumberOfGameplays, addr 0x39fffe8, size 0x34, virtual false, abstract: false, final false
   inline void IncreaseNumberOfGameplays(::GlobalNamespace::PlayerLevelStatsData* playerLevelStats);
 
-  /// @brief Method IncreasePromoClickCount, addr 0x39fad28, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IncreasePromoClickCount, addr 0x39ffa7c, size 0x68, virtual false, abstract: false, final false
   inline int32_t IncreasePromoClickCount(::StringW promoId);
 
-  /// @brief Method IncreasePromoCounter, addr 0x39fab40, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method IncreasePromoCounter, addr 0x39ff894, size 0xb0, virtual false, abstract: false, final false
   inline int32_t IncreasePromoCounter(::StringW counterKey);
 
-  /// @brief Method IncreasePromoDisplayCount, addr 0x39fac58, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IncreasePromoDisplayCount, addr 0x39ff9ac, size 0x68, virtual false, abstract: false, final false
   inline int32_t IncreasePromoDisplayCount(::StringW promoId);
 
-  /// @brief Method IsLevelUserFavorite, addr 0x39fb2d8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsLevelUserFavorite, addr 0x3a0002c, size 0x68, virtual false, abstract: false, final false
   inline bool IsLevelUserFavorite(::GlobalNamespace::BeatmapLevel* level);
 
-  /// @brief Method Mark360WarningAsShown, addr 0x39fb494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Mark360WarningAsShown, addr 0x3a001e8, size 0x8, virtual false, abstract: false, final false
   inline void Mark360WarningAsShown();
 
-  /// @brief Method MarkEulaAsAgreed, addr 0x39fb49c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method MarkEulaAsAgreed, addr 0x3a001f0, size 0x34, virtual false, abstract: false, final false
   inline void MarkEulaAsAgreed();
 
-  /// @brief Method MarkHealthAndSafetyAsAgreed, addr 0x39fb514, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MarkHealthAndSafetyAsAgreed, addr 0x3a00268, size 0x1c, virtual false, abstract: false, final false
   inline void MarkHealthAndSafetyAsAgreed();
 
-  /// @brief Method MarkLanguageAsSelected, addr 0x39fb4d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MarkLanguageAsSelected, addr 0x3a00224, size 0xc, virtual false, abstract: false, final false
   inline void MarkLanguageAsSelected();
 
-  /// @brief Method MarkMultiplayerDisclaimerAsAgreed, addr 0x39fb4ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MarkMultiplayerDisclaimerAsAgreed, addr 0x3a00240, size 0xc, virtual false, abstract: false, final false
   inline void MarkMultiplayerDisclaimerAsAgreed();
 
-  /// @brief Method MarkPrivacyPolicyAsAgreed, addr 0x39fb4f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MarkPrivacyPolicyAsAgreed, addr 0x3a0024c, size 0x1c, virtual false, abstract: false, final false
   inline void MarkPrivacyPolicyAsAgreed();
 
-  /// @brief Method MarkRegionAsSelected, addr 0x39fb4dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MarkRegionAsSelected, addr 0x3a00230, size 0x8, virtual false, abstract: false, final false
   inline void MarkRegionAsSelected(int32_t version);
 
-  /// @brief Method MarkTutorialAsShown, addr 0x39fb48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MarkTutorialAsShown, addr 0x3a001e0, size 0x8, virtual false, abstract: false, final false
   inline void MarkTutorialAsShown();
 
-  /// @brief Method MissionHelpWasShowed, addr 0x39fb1ac, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method MissionHelpWasShowed, addr 0x39fff00, size 0xe8, virtual false, abstract: false, final false
   inline void MissionHelpWasShowed(::GlobalNamespace::MissionHelpSO* missionHelp);
 
   static inline ::GlobalNamespace::PlayerData* New_ctor(::StringW playerId, ::StringW playerName, ::GlobalNamespace::BeatmapCharacteristic lastSelectedBeatmapCharacteristic,
@@ -359,34 +359,34 @@ public:
            ::OculusStudios::Platform::Core::UserAgeCategory userAgeCategory, ::GlobalNamespace::PlayerSensitivityFlag desiredSensitivityFlag,
            /* [TupleElementNames(new[] { "key", "counter" })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, int32_t>>* promoCounters);
 
-  /// @brief Method RemoveLevelFromFavorites, addr 0x39fb3ec, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method RemoveLevelFromFavorites, addr 0x3a00140, size 0xa0, virtual false, abstract: false, final false
   inline void RemoveLevelFromFavorites(::GlobalNamespace::BeatmapLevel* level);
 
-  /// @brief Method SelectAvatarSystemTypeId, addr 0x39fb4e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SelectAvatarSystemTypeId, addr 0x3a00238, size 0x8, virtual false, abstract: false, final false
   inline void SelectAvatarSystemTypeId(::StringW selectedAvatarSystemTypeId);
 
-  /// @brief Method SetGameplayModifiers, addr 0x39fb714, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetGameplayModifiers, addr 0x3a00468, size 0x20, virtual false, abstract: false, final false
   inline void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* newGameplayModifiers);
 
-  /// @brief Method SetLastSelectedBeatmapCharacteristic, addr 0x39fb70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetLastSelectedBeatmapCharacteristic, addr 0x3a00460, size 0x8, virtual false, abstract: false, final false
   inline void SetLastSelectedBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristic beatmapCharacteristic);
 
-  /// @brief Method SetLastSelectedBeatmapDifficulty, addr 0x39fb704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetLastSelectedBeatmapDifficulty, addr 0x3a00458, size 0x8, virtual false, abstract: false, final false
   inline void SetLastSelectedBeatmapDifficulty(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
-  /// @brief Method SetMultiplayerModeSettings, addr 0x39fb73c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMultiplayerModeSettings, addr 0x3a00490, size 0x8, virtual false, abstract: false, final false
   inline void SetMultiplayerModeSettings(::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
 
-  /// @brief Method SetPlayerSpecificSettings, addr 0x39fb734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerSpecificSettings, addr 0x3a00488, size 0x8, virtual false, abstract: false, final false
   inline void SetPlayerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* newPlayerSpecificSettings);
 
-  /// @brief Method ShouldForceApplySensitivity, addr 0x39faad4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ShouldForceApplySensitivity, addr 0x39ff828, size 0x10, virtual false, abstract: false, final false
   inline bool ShouldForceApplySensitivity();
 
-  /// @brief Method TryGetPlayerLevelStatsData, addr 0x39faec8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetPlayerLevelStatsData, addr 0x39ffc1c, size 0x90, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerLevelStatsData* TryGetPlayerLevelStatsData(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
-  /// @brief Method WasMissionHelpShowed, addr 0x39fb144, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method WasMissionHelpShowed, addr 0x39ffe98, size 0x68, virtual false, abstract: false, final false
   inline bool WasMissionHelpShowed(::GlobalNamespace::MissionHelpSO* missionHelp);
 
   constexpr bool const& __cordl_internal_get__agreedToEula_k__BackingField() const;
@@ -581,11 +581,11 @@ public:
 
   constexpr void __cordl_internal_set_gameplayModifiersDidChangeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x39f9f70, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fecc4, size 0x39c, virtual false, abstract: false, final false
   inline void _ctor(::StringW playerId, ::StringW playerName, ::GlobalNamespace::BeatmapCharacteristic lastSelectedBeatmapCharacteristic, ::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings,
                     ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
 
-  /// @brief Method .ctor, addr 0x39fa388, size 0x6f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ff0dc, size 0x6f8, virtual false, abstract: false, final false
   inline void _ctor(::StringW playerId, ::StringW playerName, bool shouldShowTutorialPrompt, bool shouldShow360Warning, bool agreedToEula, bool didSelectLanguage, bool agreedToMultiplayerDisclaimer,
                     int32_t didSelectRegionVersion, ::StringW selectedAvatarSystemTypeId, ::GlobalNamespace::PlayerAgreements* playerAgreements,
                     ::GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristic lastSelectedBeatmapCharacteristic,
@@ -599,259 +599,259 @@ public:
                     /* [TupleElementNames(new[] { "key", "counter" })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, int32_t>>* promoCounters);
 
   /// [CompilerGenerated]
-  /// @brief Method add_didIncreaseNumberOfGameplaysEvent, addr 0x39f9cc0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_didIncreaseNumberOfGameplaysEvent, addr 0x39fea14, size 0xac, virtual false, abstract: false, final false
   inline void add_didIncreaseNumberOfGameplaysEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_favoriteLevelsSetDidChangeEvent, addr 0x39f9b68, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_favoriteLevelsSetDidChangeEvent, addr 0x39fe8bc, size 0xac, virtual false, abstract: false, final false
   inline void add_favoriteLevelsSetDidChangeEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_gameplayModifiersDidChangeEvent, addr 0x39f9e18, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_gameplayModifiersDidChangeEvent, addr 0x39feb6c, size 0xac, virtual false, abstract: false, final false
   inline void add_gameplayModifiersDidChangeEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_agreedToEula, addr 0x39f99d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_agreedToEula, addr 0x39fe72c, size 0x8, virtual false, abstract: false, final false
   inline bool get_agreedToEula();
 
   /// [CompilerGenerated]
-  /// @brief Method get_agreedToMultiplayerDisclaimer, addr 0x39f99f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_agreedToMultiplayerDisclaimer, addr 0x39fe74c, size 0x8, virtual false, abstract: false, final false
   inline bool get_agreedToMultiplayerDisclaimer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_colorSchemesSettings, addr 0x39f9ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorSchemesSettings, addr 0x39fe82c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
 
   /// [CompilerGenerated]
-  /// @brief Method get_currentDlcPromoDisplayCount, addr 0x39f9b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentDlcPromoDisplayCount, addr 0x39fe88c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentDlcPromoDisplayCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_currentDlcPromoId, addr 0x39f9b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentDlcPromoId, addr 0x39fe89c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_currentDlcPromoId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_desiredSensitivityFlag, addr 0x39f9b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_desiredSensitivityFlag, addr 0x39fe87c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSensitivityFlag get_desiredSensitivityFlag();
 
   /// [CompilerGenerated]
-  /// @brief Method get_didSelectLanguage, addr 0x39f99e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didSelectLanguage, addr 0x39fe73c, size 0x8, virtual false, abstract: false, final false
   inline bool get_didSelectLanguage();
 
   /// [CompilerGenerated]
-  /// @brief Method get_didSelectRegionVersion, addr 0x39f9a08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didSelectRegionVersion, addr 0x39fe75c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_didSelectRegionVersion();
 
   /// [CompilerGenerated]
-  /// @brief Method get_favoritesLevelIds, addr 0x39f9af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_favoritesLevelIds, addr 0x39fe84c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::StringW>* get_favoritesLevelIds();
 
   /// [CompilerGenerated]
-  /// @brief Method get_gameplayModifiers, addr 0x39f9a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x39fe7ac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
   /// [CompilerGenerated]
-  /// @brief Method get_guestPlayerNames, addr 0x39f9ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_guestPlayerNames, addr 0x39fe81c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_guestPlayerNames();
 
   /// [CompilerGenerated]
-  /// @brief Method get_lastSelectedBeatmapCharacteristic, addr 0x39f9a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastSelectedBeatmapCharacteristic, addr 0x39fe79c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapCharacteristic get_lastSelectedBeatmapCharacteristic();
 
   /// [CompilerGenerated]
-  /// @brief Method get_lastSelectedBeatmapDifficulty, addr 0x39f9a38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastSelectedBeatmapDifficulty, addr 0x39fe78c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_lastSelectedBeatmapDifficulty();
 
   /// [CompilerGenerated]
-  /// @brief Method get_levelsStatsData, addr 0x39f9a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelsStatsData, addr 0x39fe7ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BeatmapKey, ::GlobalNamespace::PlayerLevelStatsData*>* get_levelsStatsData();
 
   /// [CompilerGenerated]
-  /// @brief Method get_missionsStatsData, addr 0x39f9aa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionsStatsData, addr 0x39fe7fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>* get_missionsStatsData();
 
   /// [CompilerGenerated]
-  /// @brief Method get_multiplayerModeSettings, addr 0x39f9b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplayerModeSettings, addr 0x39fe85c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
 
   /// [CompilerGenerated]
-  /// @brief Method get_overrideEnvironmentSettings, addr 0x39f9ae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideEnvironmentSettings, addr 0x39fe83c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();
 
   /// [CompilerGenerated]
-  /// @brief Method get_playerAgreements, addr 0x39f9a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerAgreements, addr 0x39fe77c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAgreements* get_playerAgreements();
 
   /// [CompilerGenerated]
-  /// @brief Method get_playerAllOverallStatsData, addr 0x39f9a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerAllOverallStatsData, addr 0x39fe7dc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerAllOverallStatsData* get_playerAllOverallStatsData();
 
   /// [CompilerGenerated]
-  /// @brief Method get_playerId, addr 0x39f9998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerId, addr 0x39fe6ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_playerName, addr 0x39f99a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerName, addr 0x39fe6fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerName();
 
   /// [CompilerGenerated]
-  /// @brief Method get_playerSpecificSettings, addr 0x39f9a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerSpecificSettings, addr 0x39fe7bc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
 
   /// [CompilerGenerated]
-  /// @brief Method get_practiceSettings, addr 0x39f9a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_practiceSettings, addr 0x39fe7cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
 
   /// [CompilerGenerated]
-  /// @brief Method get_promoCounters, addr 0x39f9b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoCounters, addr 0x39fe8ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* get_promoCounters();
 
   /// [CompilerGenerated]
-  /// @brief Method get_selectedAvatarSystemTypeId, addr 0x39f9a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAvatarSystemTypeId, addr 0x39fe76c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_selectedAvatarSystemTypeId();
 
   /// [CompilerGenerated]
-  /// @brief Method get_shouldShow360Warning, addr 0x39f99c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shouldShow360Warning, addr 0x39fe71c, size 0x8, virtual false, abstract: false, final false
   inline bool get_shouldShow360Warning();
 
   /// [CompilerGenerated]
-  /// @brief Method get_shouldShowTutorialPrompt, addr 0x39f99b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shouldShowTutorialPrompt, addr 0x39fe70c, size 0x8, virtual false, abstract: false, final false
   inline bool get_shouldShowTutorialPrompt();
 
   /// [CompilerGenerated]
-  /// @brief Method get_showedMissionHelpIds, addr 0x39f9ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showedMissionHelpIds, addr 0x39fe80c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_showedMissionHelpIds();
 
   /// [CompilerGenerated]
-  /// @brief Method get_userAgeCategory, addr 0x39f9b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userAgeCategory, addr 0x39fe86c, size 0x8, virtual false, abstract: false, final false
   inline ::OculusStudios::Platform::Core::UserAgeCategory get_userAgeCategory();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didIncreaseNumberOfGameplaysEvent, addr 0x39f9d6c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_didIncreaseNumberOfGameplaysEvent, addr 0x39feac0, size 0xac, virtual false, abstract: false, final false
   inline void remove_didIncreaseNumberOfGameplaysEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_favoriteLevelsSetDidChangeEvent, addr 0x39f9c14, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_favoriteLevelsSetDidChangeEvent, addr 0x39fe968, size 0xac, virtual false, abstract: false, final false
   inline void remove_favoriteLevelsSetDidChangeEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_gameplayModifiersDidChangeEvent, addr 0x39f9ec4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_gameplayModifiersDidChangeEvent, addr 0x39fec18, size 0xac, virtual false, abstract: false, final false
   inline void remove_gameplayModifiersDidChangeEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_agreedToEula, addr 0x39f99e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_agreedToEula, addr 0x39fe734, size 0x8, virtual false, abstract: false, final false
   inline void set_agreedToEula(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_agreedToMultiplayerDisclaimer, addr 0x39f9a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_agreedToMultiplayerDisclaimer, addr 0x39fe754, size 0x8, virtual false, abstract: false, final false
   inline void set_agreedToMultiplayerDisclaimer(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_colorSchemesSettings, addr 0x39f9ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorSchemesSettings, addr 0x39fe834, size 0x8, virtual false, abstract: false, final false
   inline void set_colorSchemesSettings(::GlobalNamespace::ColorSchemesSettings* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_currentDlcPromoDisplayCount, addr 0x39f9b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentDlcPromoDisplayCount, addr 0x39fe894, size 0x8, virtual false, abstract: false, final false
   inline void set_currentDlcPromoDisplayCount(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_currentDlcPromoId, addr 0x39f9b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentDlcPromoId, addr 0x39fe8a4, size 0x8, virtual false, abstract: false, final false
   inline void set_currentDlcPromoId(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_desiredSensitivityFlag, addr 0x39f9b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_desiredSensitivityFlag, addr 0x39fe884, size 0x8, virtual false, abstract: false, final false
   inline void set_desiredSensitivityFlag(::GlobalNamespace::PlayerSensitivityFlag value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_didSelectLanguage, addr 0x39f99f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_didSelectLanguage, addr 0x39fe744, size 0x8, virtual false, abstract: false, final false
   inline void set_didSelectLanguage(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_didSelectRegionVersion, addr 0x39f9a10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_didSelectRegionVersion, addr 0x39fe764, size 0x8, virtual false, abstract: false, final false
   inline void set_didSelectRegionVersion(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_favoritesLevelIds, addr 0x39f9b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_favoritesLevelIds, addr 0x39fe854, size 0x8, virtual false, abstract: false, final false
   inline void set_favoritesLevelIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_gameplayModifiers, addr 0x39f9a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayModifiers, addr 0x39fe7b4, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_guestPlayerNames, addr 0x39f9ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_guestPlayerNames, addr 0x39fe824, size 0x8, virtual false, abstract: false, final false
   inline void set_guestPlayerNames(::System::Collections::Generic::List_1<::StringW>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_lastSelectedBeatmapCharacteristic, addr 0x39f9a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastSelectedBeatmapCharacteristic, addr 0x39fe7a4, size 0x8, virtual false, abstract: false, final false
   inline void set_lastSelectedBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristic value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_lastSelectedBeatmapDifficulty, addr 0x39f9a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastSelectedBeatmapDifficulty, addr 0x39fe794, size 0x8, virtual false, abstract: false, final false
   inline void set_lastSelectedBeatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_levelsStatsData, addr 0x39f9aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levelsStatsData, addr 0x39fe7f4, size 0x8, virtual false, abstract: false, final false
   inline void set_levelsStatsData(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BeatmapKey, ::GlobalNamespace::PlayerLevelStatsData*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_missionsStatsData, addr 0x39f9ab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missionsStatsData, addr 0x39fe804, size 0x8, virtual false, abstract: false, final false
   inline void set_missionsStatsData(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_multiplayerModeSettings, addr 0x39f9b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_multiplayerModeSettings, addr 0x39fe864, size 0x8, virtual false, abstract: false, final false
   inline void set_multiplayerModeSettings(::GlobalNamespace::MultiplayerModeSettings* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_overrideEnvironmentSettings, addr 0x39f9af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_overrideEnvironmentSettings, addr 0x39fe844, size 0x8, virtual false, abstract: false, final false
   inline void set_overrideEnvironmentSettings(::GlobalNamespace::OverrideEnvironmentSettings* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_playerAgreements, addr 0x39f9a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerAgreements, addr 0x39fe784, size 0x8, virtual false, abstract: false, final false
   inline void set_playerAgreements(::GlobalNamespace::PlayerAgreements* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_playerAllOverallStatsData, addr 0x39f9a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerAllOverallStatsData, addr 0x39fe7e4, size 0x8, virtual false, abstract: false, final false
   inline void set_playerAllOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_playerId, addr 0x39f99a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerId, addr 0x39fe6f4, size 0x8, virtual false, abstract: false, final false
   inline void set_playerId(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_playerName, addr 0x39f99b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerName, addr 0x39fe704, size 0x8, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_playerSpecificSettings, addr 0x39f9a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerSpecificSettings, addr 0x39fe7c4, size 0x8, virtual false, abstract: false, final false
   inline void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_practiceSettings, addr 0x39f9a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_practiceSettings, addr 0x39fe7d4, size 0x8, virtual false, abstract: false, final false
   inline void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_promoCounters, addr 0x39f9b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_promoCounters, addr 0x39fe8b4, size 0x8, virtual false, abstract: false, final false
   inline void set_promoCounters(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_selectedAvatarSystemTypeId, addr 0x39f9a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedAvatarSystemTypeId, addr 0x39fe774, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedAvatarSystemTypeId(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_shouldShow360Warning, addr 0x39f99d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shouldShow360Warning, addr 0x39fe724, size 0x8, virtual false, abstract: false, final false
   inline void set_shouldShow360Warning(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_shouldShowTutorialPrompt, addr 0x39f99c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shouldShowTutorialPrompt, addr 0x39fe714, size 0x8, virtual false, abstract: false, final false
   inline void set_shouldShowTutorialPrompt(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_showedMissionHelpIds, addr 0x39f9ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_showedMissionHelpIds, addr 0x39fe814, size 0x8, virtual false, abstract: false, final false
   inline void set_showedMissionHelpIds(::System::Collections::Generic::List_1<::StringW>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_userAgeCategory, addr 0x39f9b20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userAgeCategory, addr 0x39fe874, size 0x8, virtual false, abstract: false, final false
   inline void set_userAgeCategory(::OculusStudios::Platform::Core::UserAgeCategory value);
 
 protected:
@@ -869,7 +869,7 @@ public:
   PlayerData(PlayerData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14644 };
 
   /// @brief Field kCurrentRegionVersion offset 0xffffffff size 0x4
   static constexpr int32_t kCurrentRegionVersion{ static_cast<int32_t>(0x2) };

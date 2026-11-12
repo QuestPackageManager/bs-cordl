@@ -80,7 +80,7 @@ public:
   __declspec(property(get = __cordl_internal_get_VariantsWarmupTimeTotal, put = __cordl_internal_set_VariantsWarmupTimeTotal)) int32_t VariantsWarmupTimeTotal;
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreateShaderRuntimeInfoAnalytic, addr 0x6f9fec8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateShaderRuntimeInfoAnalytic, addr 0x6fa0fa8, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Analytics::ShaderRuntimeInfoAnalytic* CreateShaderRuntimeInfoAnalytic();
 
   static inline ::UnityEngine::Analytics::ShaderRuntimeInfoAnalytic* New_ctor();
@@ -199,7 +199,7 @@ public:
 
   constexpr void __cordl_internal_set_VariantsWarmupTimeTotal(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6f9fe34, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa0f14, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

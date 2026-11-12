@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::WindowsIdentity::*)(::System::IntPtr, ::StringW, ::System::Security::Principal::WindowsAccountType, bool)>(
     &::System::Security::Principal::WindowsIdentity::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5f6bb4c;
+  constexpr static std::size_t addrs = 0x5f6bdd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::WindowsIdentity::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Security::Principal::WindowsIdentity::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f6bc50;
+  constexpr static std::size_t addrs = 0x5f6bed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::WindowsIdentity::*)(::System::Security::Claims::ClaimsIdentity*, ::System::IntPtr)>(
     &::System::Security::Principal::WindowsIdentity::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f6bc8c;
+  constexpr static std::size_t addrs = 0x5f6bf14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::WindowsIdentity::*)()>(&::System::Security::Principal::WindowsIdentity::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f6bcc8;
+  constexpr static std::size_t addrs = 0x5f6bf50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::WindowsIdentity*>(), { "Dispose", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Principal::WindowsIdentity* (*)()>(&::System::Security::Principal::WindowsIdentity::GetCurrent)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5f6bcd0;
+  constexpr static std::size_t addrs = 0x5f6bf58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::WindowsIdentity*>(), { "GetCurrent", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Principal::WindowsImpersonationContext* (::System::Security::Principal::WindowsIdentity::*)()>(
     &::System::Security::Principal::WindowsIdentity::Impersonate)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5f6bd4c;
+  constexpr static std::size_t addrs = 0x5f6bfd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Principal::WindowsIdentity::*)()>(&::System::Security::Principal::WindowsIdentity::get_AuthenticationType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f6bda4;
+  constexpr static std::size_t addrs = 0x5f6c02c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::WindowsIdentity*>(), { "get_AuthenticationType", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Principal::WindowsIdentity::*)()>(&::System::Security::Principal::WindowsIdentity::get_Name)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5f6bdac;
+  constexpr static std::size_t addrs = 0x5f6c034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Principal::SecurityIdentifier* (::System::Security::Principal::WindowsIdentity::*)()>(
     &::System::Security::Principal::WindowsIdentity::get_User)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5f6be20;
+  constexpr static std::size_t addrs = 0x5f6c0a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::WindowsIdentity*>(), { "get_User", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::WindowsIdentity::*)(::System::Object*)>(
     &::System::Security::Principal::WindowsIdentity::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x5f6be58;
+  constexpr static std::size_t addrs = 0x5f6c0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::System::Security::Principal::WindowsIdentity::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
         &::System::Security::Principal::WindowsIdentity::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x5f6c118;
+  constexpr static std::size_t addrs = 0x5f6c3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Claims::ClaimsIdentity* (::System::Security::Principal::WindowsIdentity::*)()>(
     &::System::Security::Principal::WindowsIdentity::CloneAsBase)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f6c27c;
+  constexpr static std::size_t addrs = 0x5f6c504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::WindowsIdentity*>(), { "CloneAsBase", {}, {} })));
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::System::Security::Principal::WindowsIdentity::*)()>(&::System::Security::Principal::WindowsIdentity::GetTokenInternal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f6c3c8;
+  constexpr static std::size_t addrs = 0x5f6c650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::WindowsIdentity*>(), { "GetTokenInternal", {}, {} })));
@@ -203,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::WindowsIdentity::*)(::System::IntPtr)>(&::System::Security::Principal::WindowsIdentity::SetToken)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5f6bbb0;
+  constexpr static std::size_t addrs = 0x5f6be38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::System::Security::Principal::WindowsIdentity::GetCurrentToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f6bd44;
+  constexpr static std::size_t addrs = 0x5f6bfcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::WindowsIdentity*>(), { "GetCurrentToken", {}, {} })));
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::IntPtr)>(&::System::Security::Principal::WindowsIdentity::GetTokenName)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f6be14;
+  constexpr static std::size_t addrs = 0x5f6c09c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(bool)>(&::Newtonsoft::Json::Utilities::BoxedPrimitives::Get)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6171d48;
+  constexpr static std::size_t addrs = 0x6171fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(int32_t)>(&::Newtonsoft::Json::Utilities::BoxedPrimitives::Get)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x6171dc4;
+  constexpr static std::size_t addrs = 0x617204c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(int64_t)>(&::Newtonsoft::Json::Utilities::BoxedPrimitives::Get)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6171fec;
+  constexpr static std::size_t addrs = 0x6172274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::Decimal)>(&::Newtonsoft::Json::Utilities::BoxedPrimitives::Get)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6172194;
+  constexpr static std::size_t addrs = 0x617241c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(double_t)>(&::Newtonsoft::Json::Utilities::BoxedPrimitives::Get)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6172284;
+  constexpr static std::size_t addrs = 0x617250c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

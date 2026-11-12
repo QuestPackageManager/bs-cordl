@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::SpriteSwapTransitionSO::*)()>(
     &::GlobalNamespace::SpriteSwapTransitionSO::get_normalSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68aa49c;
+  constexpr static std::size_t addrs = 0x68aaaf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapTransitionSO*>(), { "get_normalSprite", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::SpriteSwapTransitionSO::*)()>(
     &::GlobalNamespace::SpriteSwapTransitionSO::get_highlightedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68aa4a4;
+  constexpr static std::size_t addrs = 0x68aaafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapTransitionSO*>(), { "get_highlightedSprite", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::SpriteSwapTransitionSO::*)()>(
     &::GlobalNamespace::SpriteSwapTransitionSO::get_pressedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68aa4ac;
+  constexpr static std::size_t addrs = 0x68aab04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapTransitionSO*>(), { "get_pressedSprite", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::SpriteSwapTransitionSO::*)()>(
     &::GlobalNamespace::SpriteSwapTransitionSO::get_disabledSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68aa4b4;
+  constexpr static std::size_t addrs = 0x68aab0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapTransitionSO*>(), { "get_disabledSprite", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::SpriteSwapTransitionSO::*)()>(
     &::GlobalNamespace::SpriteSwapTransitionSO::get_selectedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68aa4bc;
+  constexpr static std::size_t addrs = 0x68aab14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapTransitionSO*>(), { "get_selectedSprite", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::SpriteSwapTransitionSO::*)()>(
     &::GlobalNamespace::SpriteSwapTransitionSO::get_selectedAndHighlightedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68aa4c4;
+  constexpr static std::size_t addrs = 0x68aab1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SpriteSwapTransitionSO::*)()>(&::GlobalNamespace::SpriteSwapTransitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68aa4cc;
+  constexpr static std::size_t addrs = 0x68aab24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SpriteSwapTransitionSO*>(), { ".ctor", {}, {} })));

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData::get_time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a12a94;
+  constexpr static std::size_t addrs = 0x3a17b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData::get_lineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a12a9c;
+  constexpr static std::size_t addrs = 0x3a17b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>(), { "get_lineIndex", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::NoteLineLayer (::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData::get_lineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a12aa4;
+  constexpr static std::size_t addrs = 0x3a17b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>(), { "get_lineLayer", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatmapSaveDataCommon::OffsetDirection (::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData::get_offsetDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a12aac;
+  constexpr static std::size_t addrs = 0x3a17b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData::*)(
     float_t, int32_t, ::BeatmapSaveDataCommon::NoteLineLayer, ::BeatmapSaveDataCommon::OffsetDirection)>(&::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a12ab4;
+  constexpr static std::size_t addrs = 0x3a17b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

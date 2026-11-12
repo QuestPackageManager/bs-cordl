@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::ProBuilder::ColorPalette::*)()>(&::UnityEngine::ProBuilder::ColorPalette::get_current)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b003a0;
+  constexpr static std::size_t addrs = 0x6b01480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "get_current", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ColorPalette::*)(::UnityEngine::Color)>(&::UnityEngine::ProBuilder::ColorPalette::set_current)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6b003ac;
+  constexpr static std::size_t addrs = 0x6b0148c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>* (::UnityEngine::ProBuilder::ColorPalette::*)()>(
     &::UnityEngine::ProBuilder::ColorPalette::get_colors)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6b003b8;
+  constexpr static std::size_t addrs = 0x6b01498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "get_colors", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ColorPalette::*)(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>*)>(
     &::UnityEngine::ProBuilder::ColorPalette::SetColors)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6b00430;
+  constexpr static std::size_t addrs = 0x6b01510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ColorPalette::*)()>(&::UnityEngine::ProBuilder::ColorPalette::SetDefaultValues)> {
   constexpr static std::size_t size = 0x798;
-  constexpr static std::size_t addrs = 0x6b004dc;
+  constexpr static std::size_t addrs = 0x6b015bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "SetDefaultValues", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::UnityEngine::ProBuilder::ColorPalette::*)(int32_t)>(&::UnityEngine::ProBuilder::ColorPalette::get_Item)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6b00c74;
+  constexpr static std::size_t addrs = 0x6b01d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ColorPalette::*)(int32_t, ::UnityEngine::Color)>(&::UnityEngine::ProBuilder::ColorPalette::set_Item)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6b00cd8;
+  constexpr static std::size_t addrs = 0x6b01db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ProBuilder::ColorPalette::*)()>(&::UnityEngine::ProBuilder::ColorPalette::get_Count)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6b00d6c;
+  constexpr static std::size_t addrs = 0x6b01e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { "get_Count", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::ColorPalette::*)()>(&::UnityEngine::ProBuilder::ColorPalette::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b00dbc;
+  constexpr static std::size_t addrs = 0x6b01e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::ColorPalette*>(), { ".ctor", {}, {} })));

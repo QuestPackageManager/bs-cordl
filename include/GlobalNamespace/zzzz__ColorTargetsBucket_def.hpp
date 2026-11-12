@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__targets(::ArrayW<::UnityW<::GlobalNamespace::LightWithIdMonoBehaviour>> value);
 
-  /// @brief Method .ctor, addr 0x5deb368, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5deb480, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_targets, addr 0x5deb360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targets, addr 0x5deb478, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::LightWithIdMonoBehaviour>> get_targets();
 
 protected:

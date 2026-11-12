@@ -72,20 +72,20 @@ public:
 
   __declspec(property(get = get_values, put = set_values)) ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> values;
 
-  /// @brief Method CacheId, addr 0x7151614, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CacheId, addr 0x71526f4, size 0x138, virtual false, abstract: false, final false
   inline void CacheId(::StringW value);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ConvertDimensionToFilterFloat, addr 0x7152438, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ConvertDimensionToFilterFloat, addr 0x7153518, size 0x90, virtual false, abstract: false, final false
   static inline float_t ConvertDimensionToFilterFloat(::UnityEngine::UIElements::StyleSheets::Dimension dim);
 
   static inline ::UnityEngine::UIElements::StyleProperty* New_ctor();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method ToFilterFunctionType, addr 0x7152424, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ToFilterFunctionType, addr 0x7153504, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FilterFunctionType ToFilterFunctionType(::UnityEngine::UIElements::StyleValueFunction function);
 
-  /// @brief Method TryGetMaterialDefinition, addr 0x7151824, size 0x854, virtual false, abstract: false, final false
+  /// @brief Method TryGetMaterialDefinition, addr 0x7152904, size 0x854, virtual false, abstract: false, final false
   inline bool TryGetMaterialDefinition(::UnityEngine::UIElements::StyleSheet* styleSheet, ::by_ref<::UnityEngine::UIElements::MaterialDefinition> value);
 
   constexpr ::StringW const& __cordl_internal_get_m_CustomName() const;
@@ -118,32 +118,32 @@ public:
 
   constexpr void __cordl_internal_set_requireVariableResolve(bool value);
 
-  /// @brief Method .ctor, addr 0x7151784, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7152864, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method get_handleCount, addr 0x715175c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_handleCount, addr 0x715283c, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_handleCount();
 
-  /// @brief Method get_id, addr 0x715151c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x71525fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId get_id();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method get_isCustomProperty, addr 0x7151774, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isCustomProperty, addr 0x7152854, size 0x10, virtual false, abstract: false, final false
   inline bool get_isCustomProperty();
 
-  /// @brief Method get_name, addr 0x7151524, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x7152604, size 0xec, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_values, addr 0x715174c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_values, addr 0x715282c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> get_values();
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method set_name, addr 0x7151610, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x71526f0, size 0x4, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
-  /// @brief Method set_values, addr 0x7151754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_values, addr 0x7152834, size 0x8, virtual false, abstract: false, final false
   inline void set_values(::ArrayW<::UnityEngine::UIElements::StyleValueHandle> value);
 
 protected:

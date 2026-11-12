@@ -27,7 +27,7 @@ public:
 
   static inline ::Newtonsoft::Json::Bson::BsonBoolean* New_ctor(bool value);
 
-  /// @brief Method .ctor, addr 0x6204da8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6205030, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool value);
 
   static inline ::Newtonsoft::Json::Bson::BsonBoolean* getStaticF_False();

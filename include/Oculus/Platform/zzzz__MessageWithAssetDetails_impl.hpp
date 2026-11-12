@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithAssetDetails::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithAssetDetails::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x622d738;
+  constexpr static std::size_t addrs = 0x622d9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AssetDetails* (::Oculus::Platform::MessageWithAssetDetails::*)()>(
     &::Oculus::Platform::MessageWithAssetDetails::GetAssetDetails)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x62304dc;
+  constexpr static std::size_t addrs = 0x6230764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::AssetDetails* (::Oculus::Platform::MessageWithAssetDetails::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAssetDetails::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6230520;
+  constexpr static std::size_t addrs = 0x62307a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::NumericConvertInstruction_Unchecked::*)()>(
     &::GlobalNamespace::NumericConvertInstruction_Unchecked::get_InstructionName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6412848;
+  constexpr static std::size_t addrs = 0x6412e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::NumericConvertInstruction_Unchecked*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NumericConvertInstruction_Unchecked::*)(::System::TypeCode, ::System::TypeCode, bool)>(
     &::GlobalNamespace::NumericConvertInstruction_Unchecked::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x641288c;
+  constexpr static std::size_t addrs = 0x6412edc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::NumericConvertInstruction_Unchecked::*)(::System::Object*)>(
     &::GlobalNamespace::NumericConvertInstruction_Unchecked::Convert)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x6412898;
+  constexpr static std::size_t addrs = 0x6412ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::NumericConvertInstruction_Unchecked*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::NumericConvertInstruction_Unchecked::*)(int32_t)>(
     &::GlobalNamespace::NumericConvertInstruction_Unchecked::ConvertInt32)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6412b10;
+  constexpr static std::size_t addrs = 0x6413160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::NumericConvertInstruction_Unchecked::*)(int64_t)>(
     &::GlobalNamespace::NumericConvertInstruction_Unchecked::ConvertInt64)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x6412cd4;
+  constexpr static std::size_t addrs = 0x6413324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::NumericConvertInstruction_Unchecked::*)(uint64_t)>(
     &::GlobalNamespace::NumericConvertInstruction_Unchecked::ConvertUInt64)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x6412ed0;
+  constexpr static std::size_t addrs = 0x6413520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::NumericConvertInstruction_Unchecked::*)(double_t)>(
     &::GlobalNamespace::NumericConvertInstruction_Unchecked::ConvertDouble)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x64130c0;
+  constexpr static std::size_t addrs = 0x6413710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

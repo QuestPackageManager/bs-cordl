@@ -78,25 +78,25 @@ public:
 
   constexpr void __cordl_internal_set_r(int32_t value);
 
-  /// @brief Method .ctor, addr 0x36bfb2c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36c3fc4, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> fixedInputDataCounterPrefix, ::ArrayW<uint8_t> fixedInputDataCounterSuffix, int32_t r);
 
-  /// @brief Method .ctor, addr 0x36bfb1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36c3fb4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t> ki, ::ArrayW<uint8_t> fixedInputDataCounterSuffix, int32_t r);
 
-  /// @brief Method get_FixedInputData, addr 0x36bfcbc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_FixedInputData, addr 0x36c4154, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_FixedInputData();
 
-  /// @brief Method get_FixedInputDataCounterPrefix, addr 0x36bfd1c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_FixedInputDataCounterPrefix, addr 0x36c41b4, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_FixedInputDataCounterPrefix();
 
-  /// @brief Method get_FixedInputDataCounterSuffix, addr 0x36bfd7c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_FixedInputDataCounterSuffix, addr 0x36c4214, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_FixedInputDataCounterSuffix();
 
-  /// @brief Method get_Ki, addr 0x36bfcb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ki, addr 0x36c414c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Ki();
 
-  /// @brief Method get_R, addr 0x36bfddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_R, addr 0x36c4274, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_R();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"

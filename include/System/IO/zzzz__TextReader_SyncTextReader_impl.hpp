@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextReader_SyncTextReader::*)(::System::IO::TextReader*)>(&::GlobalNamespace::TextReader_SyncTextReader::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x60581b8;
+  constexpr static std::size_t addrs = 0x6058440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextReader_SyncTextReader::*)()>(&::GlobalNamespace::TextReader_SyncTextReader::Close)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x60582f8;
+  constexpr static std::size_t addrs = 0x6058580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextReader_SyncTextReader::*)(bool)>(&::GlobalNamespace::TextReader_SyncTextReader::Dispose)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6058314;
+  constexpr static std::size_t addrs = 0x605859c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TextReader_SyncTextReader::*)()>(&::GlobalNamespace::TextReader_SyncTextReader::Peek)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x60583d8;
+  constexpr static std::size_t addrs = 0x6058660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TextReader_SyncTextReader::*)()>(&::GlobalNamespace::TextReader_SyncTextReader::Read)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x60583f4;
+  constexpr static std::size_t addrs = 0x605867c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::TextReader_SyncTextReader::*)(::ArrayW<char16_t>, int32_t, int32_t)>(
     &::GlobalNamespace::TextReader_SyncTextReader::Read)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6058410;
+  constexpr static std::size_t addrs = 0x6058698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::TextReader_SyncTextReader::*)()>(&::GlobalNamespace::TextReader_SyncTextReader::ReadLine)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x605842c;
+  constexpr static std::size_t addrs = 0x60586b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::TextReader_SyncTextReader::*)()>(&::GlobalNamespace::TextReader_SyncTextReader::ReadToEnd)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x605844c;
+  constexpr static std::size_t addrs = 0x60586d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (::GlobalNamespace::TextReader_SyncTextReader::*)(::ArrayW<char16_t>, int32_t, int32_t)>(
     &::GlobalNamespace::TextReader_SyncTextReader::ReadAsync)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x605846c;
+  constexpr static std::size_t addrs = 0x60586f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

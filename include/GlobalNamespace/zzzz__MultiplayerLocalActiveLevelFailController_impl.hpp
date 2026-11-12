@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8::*)(int32_t)>(
     &::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e1df14;
+  constexpr static std::size_t addrs = 0x5e1e344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e1df60;
+  constexpr static std::size_t addrs = 0x5e1e390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8::MoveNext)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5e1df64;
+  constexpr static std::size_t addrs = 0x5e1e394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e1e060;
+  constexpr static std::size_t addrs = 0x5e1e490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8*>(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e1e068;
+  constexpr static std::size_t addrs = 0x5e1e498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8*>(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e1e0a0;
+  constexpr static std::size_t addrs = 0x5e1e4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActiveLevelFailController__PlayerFailedCoroutine_d__8*>(),
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveLevelFailController::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveLevelFailController::Start)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5e1dccc;
+  constexpr static std::size_t addrs = 0x5e1e0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActiveLevelFailController*>(), { "Start", {}, {} })));
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveLevelFailController::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveLevelFailController::OnDestroy)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5e1ddc0;
+  constexpr static std::size_t addrs = 0x5e1e1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActiveLevelFailController*>(), { "OnDestroy", {}, {} })));
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MultiplayerLocalActiveLevelFailController::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveLevelFailController::PlayerFailedCoroutine)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5e1dec0;
+  constexpr static std::size_t addrs = 0x5e1e2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveLevelFailController::*)(::GlobalNamespace::MultiplayerLevelCompletionResults*)>(
     &::GlobalNamespace::MultiplayerLocalActiveLevelFailController::HandlePlayerDidFinish)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5e1df1c;
+  constexpr static std::size_t addrs = 0x5e1e34c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveLevelFailController::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveLevelFailController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e1df5c;
+  constexpr static std::size_t addrs = 0x5e1e38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActiveLevelFailController*>(), { ".ctor", {}, {} })));

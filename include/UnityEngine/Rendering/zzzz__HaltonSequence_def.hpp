@@ -21,7 +21,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE HaltonSequence : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x6c20314, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x6c213f4, size 0x44, virtual false, abstract: false, final false
   static inline float_t Get(int32_t index, int32_t radix);
 
 protected:

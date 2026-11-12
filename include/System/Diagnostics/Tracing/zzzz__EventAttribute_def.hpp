@@ -77,23 +77,23 @@ public:
 
   constexpr void __cordl_internal_set__Message_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x60373dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6037664, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t eventId);
 
   /// [CompilerGenerated]
-  /// @brief Method set_EventId, addr 0x60373e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EventId, addr 0x603766c, size 0x8, virtual false, abstract: false, final false
   inline void set_EventId(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Keywords, addr 0x60373f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Keywords, addr 0x603767c, size 0x8, virtual false, abstract: false, final false
   inline void set_Keywords(::System::Diagnostics::Tracing::EventKeywords value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Level, addr 0x60373ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Level, addr 0x6037674, size 0x8, virtual false, abstract: false, final false
   inline void set_Level(::System::Diagnostics::Tracing::EventLevel value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Message, addr 0x60373fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Message, addr 0x6037684, size 0x8, virtual false, abstract: false, final false
   inline void set_Message(::StringW value);
 
 protected:

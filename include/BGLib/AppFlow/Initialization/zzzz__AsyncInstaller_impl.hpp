@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncInstaller__LoadInternalAsync_d__8::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncInstaller__LoadInternalAsync_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x35b3a18;
+  constexpr static std::size_t addrs = 0x35b7394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncInstaller__LoadInternalAsync_d__8::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BGLib::AppFlow::Initialization::AsyncInstaller__LoadInternalAsync_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35b3c84;
+  constexpr static std::size_t addrs = 0x35b7600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::AsyncInstaller__LoadInternalAsync_d__8>(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGLib::AppFlow::Initialization::AsyncLoader_SynchronizationStep (::BGLib::AppFlow::Initialization::AsyncInstaller::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncInstaller::get_synchronizationStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b3934;
+  constexpr static std::size_t addrs = 0x35b72b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::DiContainer* (::BGLib::AppFlow::Initialization::AsyncInstaller::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncInstaller::get_Container)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b393c;
+  constexpr static std::size_t addrs = 0x35b72b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::AsyncInstaller*>(), { "get_Container", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BGLib::AppFlow::Initialization::AsyncInstaller::*)()>(&::BGLib::AppFlow::Initialization::AsyncInstaller::get_IsEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35b3944;
+  constexpr static std::size_t addrs = 0x35b72c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::BGLib::AppFlow::Initialization::AsyncInstaller::*)(::BGLib::AppFlow::Initialization::IInstallerRegistry*, ::Zenject::DiContainer*, ::System::Threading::CancellationToken)>(
     &::BGLib::AppFlow::Initialization::AsyncInstaller::LoadInternalAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x35b394c;
+  constexpr static std::size_t addrs = 0x35b72c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncInstaller::*)()>(&::BGLib::AppFlow::Initialization::AsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35b3a10;
+  constexpr static std::size_t addrs = 0x35b738c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::AppFlow::Initialization::AsyncInstaller*>(), { ".ctor", {}, {} })));

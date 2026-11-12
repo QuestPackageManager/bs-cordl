@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Mono::Net::Security::AsyncProtocolResult::*)()>(&::Mono::Net::Security::AsyncProtocolResult::get_UserResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x642f4d0;
+  constexpr static std::size_t addrs = 0x642fb20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::AsyncProtocolResult*>(), { "get_UserResult", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::ExceptionServices::ExceptionDispatchInfo* (::Mono::Net::Security::AsyncProtocolResult::*)()>(
     &::Mono::Net::Security::AsyncProtocolResult::get_Error)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x642f4d8;
+  constexpr static std::size_t addrs = 0x642fb28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::AsyncProtocolResult*>(), { "get_Error", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::AsyncProtocolResult::*)(int32_t)>(&::Mono::Net::Security::AsyncProtocolResult::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x642f4e0;
+  constexpr static std::size_t addrs = 0x642fb30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Net::Security::AsyncProtocolResult::*)(::System::Runtime::ExceptionServices::ExceptionDispatchInfo*)>(
     &::Mono::Net::Security::AsyncProtocolResult::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x642f4e8;
+  constexpr static std::size_t addrs = 0x642fb38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Net::Security::AsyncProtocolResult*>(),

@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__14::*)()>(
     &::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__14::MoveNext)> {
   constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x3511358;
+  constexpr static std::size_t addrs = 0x3513798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__14::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__14::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35119f4;
+  constexpr static std::size_t addrs = 0x3513e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__14>(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::BeatSaber::AvatarCore::Avatar> (::BeatSaber::AvatarCore::AvatarController::*)()>(
     &::BeatSaber::AvatarCore::AvatarController::get_avatar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3510c84;
+  constexpr static std::size_t addrs = 0x35130c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarController*>(), { "get_avatar", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarController::*)()>(&::BeatSaber::AvatarCore::AvatarController::Start)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3510c8c;
+  constexpr static std::size_t addrs = 0x35130cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarController*>(), { "Start", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarController::*)()>(&::BeatSaber::AvatarCore::AvatarController::OnDestroy)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3510e2c;
+  constexpr static std::size_t addrs = 0x351326c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarController*>(), { "OnDestroy", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarController::*)()>(&::BeatSaber::AvatarCore::AvatarController::LoadAndDisplayAvatar)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3510d8c;
+  constexpr static std::size_t addrs = 0x35131cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarController*>(), { "LoadAndDisplayAvatar", {}, {} })));
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarController::*)(::BeatSaber::AvatarCore::Avatar*, uint32_t)>(
     &::BeatSaber::AvatarCore::AvatarController::DisplayAvatar)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3510f68;
+  constexpr static std::size_t addrs = 0x35133a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::BeatSaber::AvatarCore::AvatarController::*)()>(&::BeatSaber::AvatarCore::AvatarController::ResolveAvatarSystemHash)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x35110fc;
+  constexpr static std::size_t addrs = 0x351353c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarController*>(), { "ResolveAvatarSystemHash", {}, {} })));
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarController::*)(::GlobalNamespace::MultiplayerAvatarsData)>(
     &::BeatSaber::AvatarCore::AvatarController::HandleVisualDataDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3511350;
+  constexpr static std::size_t addrs = 0x3513790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarController*>(),
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::AvatarController::*)()>(&::BeatSaber::AvatarCore::AvatarController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3511354;
+  constexpr static std::size_t addrs = 0x3513794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::AvatarController*>(), { ".ctor", {}, {} })));

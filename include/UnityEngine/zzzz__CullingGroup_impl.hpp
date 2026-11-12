@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CullingGroup_StateChanged::*)(::System::Object*, ::System::IntPtr)>(&::UnityEngine::CullingGroup_StateChanged::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6f051a0;
+  constexpr static std::size_t addrs = 0x6f06280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CullingGroup_StateChanged::*)(::UnityEngine::CullingGroupEvent)>(&::UnityEngine::CullingGroup_StateChanged::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6f0520c;
+  constexpr static std::size_t addrs = 0x6f062ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::CullingGroup*)>(&::UnityEngine::CullingGroup_BindingsMarshaller::ConvertToNative)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6f05220;
+  constexpr static std::size_t addrs = 0x6f06300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CullingGroup::*)()>(&::UnityEngine::CullingGroup::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6f04990;
+  constexpr static std::size_t addrs = 0x6f05a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CullingGroup*>(), { ".ctor", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CullingGroup::*)()>(&::UnityEngine::CullingGroup::Finalize)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6f04a14;
+  constexpr static std::size_t addrs = 0x6f05af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::CullingGroup*>(), { ::i2c::class_of<::UnityEngine::CullingGroup*>(), 1 }));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CullingGroup::*)()>(&::UnityEngine::CullingGroup::DisposeInternal)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6f04ab0;
+  constexpr static std::size_t addrs = 0x6f05b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CullingGroup*>(), { "DisposeInternal", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CullingGroup::*)()>(&::UnityEngine::CullingGroup::Dispose)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6f04b3c;
+  constexpr static std::size_t addrs = 0x6f05c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CullingGroup*>(), { "Dispose", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CullingGroup::*)(::UnityEngine::Camera*)>(&::UnityEngine::CullingGroup::set_targetCamera)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6f04b54;
+  constexpr static std::size_t addrs = 0x6f05c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CullingGroup::*)(::ArrayW<::UnityEngine::BoundingSphere>)>(&::UnityEngine::CullingGroup::SetBoundingSpheres)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6f04c44;
+  constexpr static std::size_t addrs = 0x6f05d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CullingGroup::*)(int32_t)>(&::UnityEngine::CullingGroup::SetBoundingSphereCount)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6f04ce0;
+  constexpr static std::size_t addrs = 0x6f05dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::CullingGroup::*)(bool, ::ArrayW<int32_t>, int32_t)>(&::UnityEngine::CullingGroup::QueryIndices)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6f04d7c;
+  constexpr static std::size_t addrs = 0x6f05e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::CullingGroup::*)(bool, int32_t, ::UnityEngine::CullingQueryOptions, ::ArrayW<int32_t>, int32_t)>(
     &::UnityEngine::CullingGroup::QueryIndices)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6f04d90;
+  constexpr static std::size_t addrs = 0x6f05e70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CullingGroup::*)(::ArrayW<float_t>)>(&::UnityEngine::CullingGroup::SetBoundingDistances)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6f04f24;
+  constexpr static std::size_t addrs = 0x6f06004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CullingGroup::*)(::UnityEngine::Vector3)>(&::UnityEngine::CullingGroup::SetDistanceReferencePoint_InternalVector3)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6f05058;
+  constexpr static std::size_t addrs = 0x6f06138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CullingGroup::*)(::UnityEngine::Vector3)>(&::UnityEngine::CullingGroup::SetDistanceReferencePoint)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f05104;
+  constexpr static std::size_t addrs = 0x6f061e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::CullingGroup*, ::System::IntPtr, int32_t)>(&::UnityEngine::CullingGroup::SendEvents)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6f05108;
+  constexpr static std::size_t addrs = 0x6f061e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::Object*)>(&::UnityEngine::CullingGroup::Init)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f049d8;
+  constexpr static std::size_t addrs = 0x6f05ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CullingGroup*>(), { "Init", {}, { ::i2c::type_of<::System::Object*>() } })));
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CullingGroup::*)()>(&::UnityEngine::CullingGroup::FinalizerFailure)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6f04a60;
+  constexpr static std::size_t addrs = 0x6f05b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CullingGroup*>(), { "FinalizerFailure", {}, {} })));
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::CullingGroup::DisposeInternal_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f04b00;
+  constexpr static std::size_t addrs = 0x6f05be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::CullingGroup::set_targetCamera_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f04c00;
+  constexpr static std::size_t addrs = 0x6f05ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::ArrayW<::UnityEngine::BoundingSphere>)>(&::UnityEngine::CullingGroup::SetBoundingSpheres_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f04c9c;
+  constexpr static std::size_t addrs = 0x6f05d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t)>(&::UnityEngine::CullingGroup::SetBoundingSphereCount_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f04d38;
+  constexpr static std::size_t addrs = 0x6f05e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr, bool, int32_t, ::UnityEngine::CullingQueryOptions, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>,
                                                                    int32_t)>(&::UnityEngine::CullingGroup::QueryIndices_Injected)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6f04eb0;
+  constexpr static std::size_t addrs = 0x6f05f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::CullingGroup::SetBoundingDistances_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f05014;
+  constexpr static std::size_t addrs = 0x6f060f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3 const>)>(
     &::UnityEngine::CullingGroup::SetDistanceReferencePoint_InternalVector3_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f050c0;
+  constexpr static std::size_t addrs = 0x6f061a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -382,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::CullingGroup::FinalizerFailure_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f05164;
+  constexpr static std::size_t addrs = 0x6f06244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

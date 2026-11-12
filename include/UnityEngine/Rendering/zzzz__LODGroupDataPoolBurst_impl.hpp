@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$PostfixBurstDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$PostfixBurstDelegate::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ca5494;
+  constexpr static std::size_t addrs = 0x6ca6574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>)>(
     &::UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$PostfixBurstDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ca5514;
+  constexpr static std::size_t addrs = 0x6ca65f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                  ::System::Object*)>(
     &::UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$PostfixBurstDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6ca5528;
+  constexpr static std::size_t addrs = 0x6ca6608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$PostfixBurstDelegate::*)(::System::IAsyncResult*)>(
     &::UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$PostfixBurstDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ca5650;
+  constexpr static std::size_t addrs = 0x6ca6730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::IntPtr>)>(
     &::UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$BurstDirectCall::GetFunctionPointerDiscard)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6ca5674;
+  constexpr static std::size_t addrs = 0x6ca6754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$BurstDirectCall::GetFunctionPointer)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ca5780;
+  constexpr static std::size_t addrs = 0x6ca6860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>)>(&::UnityEngine::Rendering::LODGroupDataPoolBurst_FreeLODGroupData_000002F2$BurstDirectCall::Invoke)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6ca4da0;
+  constexpr static std::size_t addrs = 0x6ca5e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$PostfixBurstDelegate::*)(
     ::System::Object*, ::System::IntPtr)>(&::UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$PostfixBurstDelegate::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ca5798;
+  constexpr static std::size_t addrs = 0x6ca6878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::R
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>>)>(
     &::UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$PostfixBurstDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ca5818;
+  constexpr static std::size_t addrs = 0x6ca68f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +260,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                    ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$PostfixBurstDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6ca582c;
+  constexpr static std::size_t addrs = 0x6ca690c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$PostfixBurstDelegate::*)(
     ::System::IAsyncResult*)>(&::UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$PostfixBurstDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ca59bc;
+  constexpr static std::size_t addrs = 0x6ca6a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::System::IntPtr>)>(
     &::UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$BurstDirectCall::GetFunctionPointerDiscard)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6ca59e0;
+  constexpr static std::size_t addrs = 0x6ca6ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(
     &::UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$BurstDirectCall::GetFunctionPointer)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ca5aec;
+  constexpr static std::size_t addrs = 0x6ca6bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -372,7 +372,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>>)>(
     &::UnityEngine::Rendering::LODGroupDataPoolBurst_AllocateOrGetLODGroupDataInstances_000002F3$BurstDirectCall::Invoke)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6ca4e68;
+  constexpr static std::size_t addrs = 0x6ca5f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -438,7 +438,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                             ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>,
                             ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>)>(&::UnityEngine::Rendering::LODGroupDataPoolBurst::FreeLODGroupData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ca4bf4;
+  constexpr static std::size_t addrs = 0x6ca5cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -462,7 +462,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>>)>(
     &::UnityEngine::Rendering::LODGroupDataPoolBurst::AllocateOrGetLODGroupDataInstances)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ca4bf0;
+  constexpr static std::size_t addrs = 0x6ca5cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -486,7 +486,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
     ::by_ref<::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex>>,
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>)>(&::UnityEngine::Rendering::LODGroupDataPoolBurst::FreeLODGroupData$BurstManaged)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x6ca4f54;
+  constexpr static std::size_t addrs = 0x6ca6034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -510,7 +510,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(
     ::by_ref<::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>>, ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::GPUInstanceIndex>>)>(
     &::UnityEngine::Rendering::LODGroupDataPoolBurst::AllocateOrGetLODGroupDataInstances$BurstManaged)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x6ca51b4;
+  constexpr static std::size_t addrs = 0x6ca6294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

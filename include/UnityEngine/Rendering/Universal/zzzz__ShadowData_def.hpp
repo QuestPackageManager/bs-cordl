@@ -91,76 +91,76 @@ public:
 
   __declspec(property(get = get_visibleLightsShadowCullingInfos)) ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos> visibleLightsShadowCullingInfos;
 
-  /// @brief Method .ctor, addr 0x6d4a4dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d4b5bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method get_additionalLightShadowsEnabled, addr 0x6d4a838, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_additionalLightShadowsEnabled, addr 0x6d4b918, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_additionalLightShadowsEnabled();
 
-  /// @brief Method get_additionalLightsShadowmapHeight, addr 0x6d4a8f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_additionalLightsShadowmapHeight, addr 0x6d4b9d8, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<int32_t> get_additionalLightsShadowmapHeight();
 
-  /// @brief Method get_additionalLightsShadowmapWidth, addr 0x6d4a898, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_additionalLightsShadowmapWidth, addr 0x6d4b978, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<int32_t> get_additionalLightsShadowmapWidth();
 
-  /// @brief Method get_bias, addr 0x6d4aa18, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_bias, addr 0x6d4baf8, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> get_bias();
 
-  /// @brief Method get_isKeywordAdditionalLightShadowsEnabled, addr 0x6d4aad8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_isKeywordAdditionalLightShadowsEnabled, addr 0x6d4bbb8, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_isKeywordAdditionalLightShadowsEnabled();
 
-  /// @brief Method get_isKeywordSoftShadowsEnabled, addr 0x6d4ab38, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_isKeywordSoftShadowsEnabled, addr 0x6d4bc18, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_isKeywordSoftShadowsEnabled();
 
-  /// @brief Method get_mainLightRenderTargetHeight, addr 0x6d4ac58, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_mainLightRenderTargetHeight, addr 0x6d4bd38, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<int32_t> get_mainLightRenderTargetHeight();
 
-  /// @brief Method get_mainLightRenderTargetWidth, addr 0x6d4abf8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_mainLightRenderTargetWidth, addr 0x6d4bcd8, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<int32_t> get_mainLightRenderTargetWidth();
 
-  /// @brief Method get_mainLightShadowCascadeBorder, addr 0x6d4a778, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_mainLightShadowCascadeBorder, addr 0x6d4b858, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<float_t> get_mainLightShadowCascadeBorder();
 
-  /// @brief Method get_mainLightShadowCascadesCount, addr 0x6d4a6b8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_mainLightShadowCascadesCount, addr 0x6d4b798, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<int32_t> get_mainLightShadowCascadesCount();
 
-  /// @brief Method get_mainLightShadowCascadesSplit, addr 0x6d4a718, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_mainLightShadowCascadesSplit, addr 0x6d4b7f8, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Vector3> get_mainLightShadowCascadesSplit();
 
-  /// @brief Method get_mainLightShadowResolution, addr 0x6d4ab98, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_mainLightShadowResolution, addr 0x6d4bc78, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<int32_t> get_mainLightShadowResolution();
 
-  /// @brief Method get_mainLightShadowmapHeight, addr 0x6d4a658, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_mainLightShadowmapHeight, addr 0x6d4b738, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<int32_t> get_mainLightShadowmapHeight();
 
-  /// @brief Method get_mainLightShadowmapWidth, addr 0x6d4a5f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_mainLightShadowmapWidth, addr 0x6d4b6d8, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<int32_t> get_mainLightShadowmapWidth();
 
-  /// @brief Method get_mainLightShadowsEnabled, addr 0x6d4a598, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_mainLightShadowsEnabled, addr 0x6d4b678, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_mainLightShadowsEnabled();
 
-  /// @brief Method get_resolution, addr 0x6d4aa78, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_resolution, addr 0x6d4bb58, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<::System::Collections::Generic::List_1<int32_t>*> get_resolution();
 
-  /// @brief Method get_shadowAtlasLayout, addr 0x6d4ad18, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_shadowAtlasLayout, addr 0x6d4bdf8, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::Universal::AdditionalLightsShadowAtlasLayout> get_shadowAtlasLayout();
 
-  /// @brief Method get_shadowmapDepthBufferBits, addr 0x6d4a9b8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_shadowmapDepthBufferBits, addr 0x6d4ba98, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<int32_t> get_shadowmapDepthBufferBits();
 
-  /// @brief Method get_supportsAdditionalLightShadows, addr 0x6d4a7d8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportsAdditionalLightShadows, addr 0x6d4b8b8, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_supportsAdditionalLightShadows();
 
-  /// @brief Method get_supportsMainLightShadows, addr 0x6d4a538, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportsMainLightShadows, addr 0x6d4b618, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_supportsMainLightShadows();
 
-  /// @brief Method get_supportsSoftShadows, addr 0x6d4a958, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportsSoftShadows, addr 0x6d4ba38, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_supportsSoftShadows();
 
-  /// @brief Method get_universalShadowData, addr 0x6d4a4e4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_universalShadowData, addr 0x6d4b5c4, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalShadowData* get_universalShadowData();
 
-  /// @brief Method get_visibleLightsShadowCullingInfos, addr 0x6d4acb8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_visibleLightsShadowCullingInfos, addr 0x6d4bd98, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos>> get_visibleLightsShadowCullingInfos();
 
   // Ctor Parameters []

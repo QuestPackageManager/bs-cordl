@@ -65,105 +65,105 @@ public:
   constexpr operator ::System::IFormattable*();
 
   /// [IsReadOnly]
-  /// @brief Method ClosestPoint, addr 0x6f0f520, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ClosestPoint, addr 0x6f10600, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ClosestPoint(::UnityEngine::Vector3 point);
 
   /// [IsReadOnly]
-  /// @brief Method Contains, addr 0x6f0f410, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x6f104f0, size 0x58, virtual false, abstract: false, final false
   inline bool Contains(::UnityEngine::Vector3 point);
 
-  /// @brief Method Encapsulate, addr 0x6f0efc0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Encapsulate, addr 0x6f100a0, size 0xdc, virtual false, abstract: false, final false
   inline void Encapsulate(::UnityEngine::Bounds bounds);
 
-  /// @brief Method Encapsulate, addr 0x6f0eecc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Encapsulate, addr 0x6f0ffac, size 0x78, virtual false, abstract: false, final false
   inline void Encapsulate(::UnityEngine::Vector3 point);
 
-  /// @brief Method Encapsulate, addr 0x6f0ef44, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Encapsulate, addr 0x6f10024, size 0x7c, virtual false, abstract: false, final false
   inline void Encapsulate(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> point);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6f0ea70, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f0fb50, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6f0eb3c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f0fc1c, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Bounds other);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6f0eba8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f0fc88, size 0x6c, virtual false, abstract: false, final false
   inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> other);
 
-  /// @brief Method Expand, addr 0x6f0f09c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Expand, addr 0x6f1017c, size 0x30, virtual false, abstract: false, final false
   inline void Expand(::UnityEngine::Vector3 amount);
 
   /// [IsReadOnly]
-  /// @brief Method GetHashCode, addr 0x6f0e9d0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f0fab0, size 0xa0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [FreeFunction("BoundsScripting::ClosestPoint", HasExplicitThis = true, IsThreadSafe = true)]
   /// [IsReadOnly]
-  /// @brief Method Internal_ClosestPoint, addr 0x6f0f468, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_ClosestPoint, addr 0x6f10548, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 Internal_ClosestPoint(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> point);
 
-  /// @brief Method Internal_ClosestPoint_Injected, addr 0x6f0f4cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_ClosestPoint_Injected, addr 0x6f105ac, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_ClosestPoint_Injected(::by_ref<::UnityEngine::Bounds> _unity_self, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> point, ::by_ref<::UnityEngine::Vector3> ret);
 
   /// [NativeMethod("IsInside", IsThreadSafe = true)]
   /// [IsReadOnly]
-  /// @brief Method Internal_Contains, addr 0x6f0f3cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_Contains, addr 0x6f104ac, size 0x44, virtual false, abstract: false, final false
   inline bool Internal_Contains(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> point);
 
   /// [IsReadOnly]
-  /// @brief Method IntersectRay, addr 0x6f0f16c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IntersectRay, addr 0x6f1024c, size 0x5c, virtual false, abstract: false, final false
   inline bool IntersectRay(::UnityEngine::Ray ray);
 
   /// [IsReadOnly]
-  /// @brief Method IntersectRay, addr 0x6f0f21c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IntersectRay, addr 0x6f102fc, size 0x54, virtual false, abstract: false, final false
   inline bool IntersectRay(::UnityEngine::Ray ray, ::by_ref<float_t> distance);
 
   /// [FreeFunction("IntersectRayAABB", IsThreadSafe = true)]
-  /// @brief Method IntersectRayAABB, addr 0x6f0f1c8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IntersectRayAABB, addr 0x6f102a8, size 0x54, virtual false, abstract: false, final false
   static inline bool IntersectRayAABB(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Ray const> ray, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Bounds const> bounds, ::by_ref<float_t> dist);
 
   /// [IsReadOnly]
-  /// @brief Method Intersects, addr 0x6f0f0cc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Intersects, addr 0x6f101ac, size 0xa0, virtual false, abstract: false, final false
   inline bool Intersects(::UnityEngine::Bounds bounds);
 
-  /// @brief Method SetMinMax, addr 0x6f0ee48, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetMinMax, addr 0x6f0ff28, size 0x38, virtual false, abstract: false, final false
   inline void SetMinMax(::UnityEngine::Vector3 min, ::UnityEngine::Vector3 max);
 
-  /// @brief Method SetMinMax, addr 0x6f0ee80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetMinMax, addr 0x6f0ff60, size 0x4c, virtual false, abstract: false, final false
   inline void SetMinMax(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> min, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Vector3 const> max);
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x6f0f270, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f10350, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x6f0f280, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x6f10360, size 0x14c, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x6f0e9a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f0fa88, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 size);
 
   /// [IsReadOnly]
-  /// @brief Method get_center, addr 0x6f0ec14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x6f0fcf4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_center();
 
   /// [IsReadOnly]
-  /// @brief Method get_extents, addr 0x6f0ec64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_extents, addr 0x6f0fd44, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_extents();
 
   /// [IsReadOnly]
-  /// @brief Method get_max, addr 0x6f0ecec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_max, addr 0x6f0fdcc, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_max();
 
   /// [IsReadOnly]
-  /// @brief Method get_min, addr 0x6f0ec7c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_min, addr 0x6f0fd5c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_min();
 
   /// [IsReadOnly]
-  /// @brief Method get_size, addr 0x6f0ec2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x6f0fd0c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_size();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Bounds>"
@@ -172,25 +172,25 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Equality, addr 0x6f0ed5c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6f0fe3c, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Bounds lhs, ::UnityEngine::Bounds rhs);
 
-  /// @brief Method op_Inequality, addr 0x6f0edd0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6f0feb0, size 0x78, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Bounds lhs, ::UnityEngine::Bounds rhs);
 
-  /// @brief Method set_center, addr 0x6f0ec20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_center, addr 0x6f0fd00, size 0xc, virtual false, abstract: false, final false
   inline void set_center(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_extents, addr 0x6f0ec70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_extents, addr 0x6f0fd50, size 0xc, virtual false, abstract: false, final false
   inline void set_extents(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_max, addr 0x6f0ed0c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_max, addr 0x6f0fdec, size 0x50, virtual false, abstract: false, final false
   inline void set_max(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_min, addr 0x6f0ec9c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_min, addr 0x6f0fd7c, size 0x50, virtual false, abstract: false, final false
   inline void set_min(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_size, addr 0x6f0ec44, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_size, addr 0x6f0fd24, size 0x20, virtual false, abstract: false, final false
   inline void set_size(::UnityEngine::Vector3 value);
 
   // Ctor Parameters []

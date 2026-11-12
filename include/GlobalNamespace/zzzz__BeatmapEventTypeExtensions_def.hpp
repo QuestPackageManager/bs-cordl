@@ -25,11 +25,11 @@ class CORDL_TYPE BeatmapEventTypeExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method IsCoreLightIntensityChangeEvent, addr 0x34f78b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsCoreLightIntensityChangeEvent, addr 0x34f9bb8, size 0xc, virtual false, abstract: false, final false
   static inline bool IsCoreLightIntensityChangeEvent(::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType);
 
   /// [Extension]
-  /// @brief Method IsLightIntensityChangeEvent, addr 0x34f78c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsLightIntensityChangeEvent, addr 0x34f9bc4, size 0x14, virtual false, abstract: false, final false
   static inline bool IsLightIntensityChangeEvent(::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType);
 
 protected:
@@ -47,7 +47,7 @@ public:
   BeatmapEventTypeExtensions(BeatmapEventTypeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21952 };
 
   /// @brief Field kColorBoost value: I32(5)
   static ::GlobalNamespace::BasicBeatmapEventType const kColorBoost;

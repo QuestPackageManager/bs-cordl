@@ -24,7 +24,7 @@ class CORDL_TYPE ValidationUtils : public ::System::Object {
 public:
   // Declarations
   /// [NullableContext(1)]
-  /// @brief Method ArgumentNotNull, addr 0x618a4f8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ArgumentNotNull, addr 0x618a780, size 0x4c, virtual false, abstract: false, final false
   static inline void ArgumentNotNull(/* [Nullable(2)] [NotNull] */ ::System::Object* value, ::StringW parameterName);
 
 protected:

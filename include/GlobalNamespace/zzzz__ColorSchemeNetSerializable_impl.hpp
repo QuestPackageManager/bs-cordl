@@ -5,6 +5,7 @@
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorSchemeNetSerializable._ctor
 template <>
@@ -13,7 +14,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color)>(
     &::GlobalNamespace::ColorSchemeNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3550e10;
+  constexpr static std::size_t addrs = 0x3553dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ColorSchemeNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3550e4c;
+  constexpr static std::size_t addrs = 0x3553e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,11 +47,26 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorSchemeNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ColorSchemeNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3550ecc;
+  constexpr static std::size_t addrs = 0x3553e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemeNetSerializable>(), { "Deserialize", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ColorSchemeNetSerializable.Equals
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ColorSchemeNetSerializable::*)(::GlobalNamespace::ColorSchemeNetSerializable)>(
+    &::GlobalNamespace::ColorSchemeNetSerializable::Equals)> {
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x3553f00;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemeNetSerializable>(), { "Equals", {}, { ::i2c::type_of<::GlobalNamespace::ColorSchemeNetSerializable>() } })));
     return ___internal_method;
   }
 };
@@ -77,6 +93,12 @@ inline void GlobalNamespace::ColorSchemeNetSerializable::Deserialize(::LiteNetLi
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemeNetSerializable>(), { "Deserialize", {}, { ::i2c::type_of<::LiteNetLib::Utils::NetDataReader*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, reader);
 }
+inline bool GlobalNamespace::ColorSchemeNetSerializable::Equals(::GlobalNamespace::ColorSchemeNetSerializable other) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorSchemeNetSerializable>(), { "Equals", {}, { ::i2c::type_of<::GlobalNamespace::ColorSchemeNetSerializable>() } })));
+  return ::cordl_internals::RunMethodRethrow<bool>(*this, ___internal_method, other);
+}
 /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
 constexpr GlobalNamespace::ColorSchemeNetSerializable::operator ::LiteNetLib::Utils::INetSerializable*() {
   return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
@@ -84,6 +106,15 @@ constexpr GlobalNamespace::ColorSchemeNetSerializable::operator ::LiteNetLib::Ut
 /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
 constexpr ::LiteNetLib::Utils::INetSerializable* GlobalNamespace::ColorSchemeNetSerializable::i___LiteNetLib__Utils__INetSerializable() {
   return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::ColorSchemeNetSerializable>"
+constexpr GlobalNamespace::ColorSchemeNetSerializable::operator ::System::IEquatable_1<::GlobalNamespace::ColorSchemeNetSerializable>*() {
+  return static_cast<::System::IEquatable_1<::GlobalNamespace::ColorSchemeNetSerializable>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
+}
+/// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::ColorSchemeNetSerializable>"
+constexpr ::System::IEquatable_1<::GlobalNamespace::ColorSchemeNetSerializable>*
+GlobalNamespace::ColorSchemeNetSerializable::i___System__IEquatable_1___GlobalNamespace__ColorSchemeNetSerializable_() {
+  return static_cast<::System::IEquatable_1<::GlobalNamespace::ColorSchemeNetSerializable>*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "saberAColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "saberBColor", ty:
 // "::GlobalNamespace::ColorNoAlphaSerializable", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "obstaclesColor", ty: "::GlobalNamespace::ColorNoAlphaSerializable",

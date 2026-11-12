@@ -38,13 +38,13 @@ public:
   /// @brief Field <Visible>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__Visible_k__BackingField, put = __cordl_internal_set__Visible_k__BackingField)) bool _Visible_k__BackingField;
 
-  /// @brief Method Equals, addr 0x6825158, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x68257a8, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x68251f0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6825840, size 0x88, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x6825278, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x68258c8, size 0x84, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::DesignTimeVisibleAttribute* New_ctor(bool visible);
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__Visible_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6825148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6825798, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool visible);
 
   static inline ::System::ComponentModel::DesignTimeVisibleAttribute* getStaticF_Default();
@@ -65,7 +65,7 @@ public:
   static inline ::System::ComponentModel::DesignTimeVisibleAttribute* getStaticF_Yes();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Visible, addr 0x6825150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Visible, addr 0x68257a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_Visible();
 
   static inline void setStaticF_Default(::System::ComponentModel::DesignTimeVisibleAttribute* value);

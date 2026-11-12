@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::TripleDESTransform::*)(
     ::System::Security::Cryptography::TripleDES*, bool, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&::System::Security::Cryptography::TripleDESTransform::_ctor)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x5f658b8;
+  constexpr static std::size_t addrs = 0x5f65b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::TripleDESTransform::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::System::Security::Cryptography::TripleDESTransform::ECB)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5f65c84;
+  constexpr static std::size_t addrs = 0x5f65f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::TripleDESTransform*>(),
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)()>(&::System::Security::Cryptography::TripleDESTransform::GetStrongKey)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5f65bd4;
+  constexpr static std::size_t addrs = 0x5f65e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::TripleDESTransform*>(), { "GetStrongKey", {}, {} })));

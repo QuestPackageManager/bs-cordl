@@ -47,7 +47,7 @@ namespace UnityEngine {
 class CORDL_TYPE ComputeBuffer_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6f848f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6f859d8, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::ComputeBuffer* computeBuffer);
 
 protected:
@@ -97,48 +97,48 @@ public:
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// [FreeFunction("GraphicsBuffer_Bindings::DestroyComputeBuffer")]
-  /// @brief Method DestroyBuffer, addr 0x6f840dc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method DestroyBuffer, addr 0x6f851bc, size 0x48, virtual false, abstract: false, final false
   static inline void DestroyBuffer(::UnityEngine::ComputeBuffer* buf);
 
-  /// @brief Method DestroyBuffer_Injected, addr 0x6f84180, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DestroyBuffer_Injected, addr 0x6f85260, size 0x3c, virtual false, abstract: false, final false
   static inline void DestroyBuffer_Injected(::System::IntPtr buf);
 
-  /// @brief Method Dispose, addr 0x6f84074, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6f85154, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6f83fa4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6f85084, size 0xd0, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x6f83f5c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6f8503c, size 0x48, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// [FreeFunction("GraphicsBuffer_Bindings::InitComputeBuffer")]
-  /// @brief Method InitBuffer, addr 0x6f84124, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method InitBuffer, addr 0x6f85204, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr InitBuffer(int32_t count, int32_t stride, ::UnityEngine::ComputeBufferType type, ::UnityEngine::ComputeBufferMode usage);
 
   /// [FreeFunction(Name = "GraphicsBuffer_Bindings::InternalSetData", HasExplicitThis = true, ThrowsException = true)]
-  /// @brief Method InternalSetData, addr 0x6f84708, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InternalSetData, addr 0x6f857e8, size 0x84, virtual false, abstract: false, final false
   inline void InternalSetData(::System::Array* data, int32_t managedBufferStartIndex, int32_t computeBufferStartIndex, int32_t count, int32_t elemSize);
 
-  /// @brief Method InternalSetData_Injected, addr 0x6f84884, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InternalSetData_Injected, addr 0x6f85964, size 0x74, virtual false, abstract: false, final false
   static inline void InternalSetData_Injected(::System::IntPtr _unity_self, ::System::Array* data, int32_t managedBufferStartIndex, int32_t computeBufferStartIndex, int32_t count, int32_t elemSize);
 
   /// [FreeFunction(Name = "GraphicsBuffer_Bindings::InternalSetNativeData", HasExplicitThis = true, ThrowsException = true)]
-  /// @brief Method InternalSetNativeData, addr 0x6f8478c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InternalSetNativeData, addr 0x6f8586c, size 0x84, virtual false, abstract: false, final false
   inline void InternalSetNativeData(::System::IntPtr data, int32_t nativeBufferStartIndex, int32_t computeBufferStartIndex, int32_t count, int32_t elemSize);
 
-  /// @brief Method InternalSetNativeData_Injected, addr 0x6f84810, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InternalSetNativeData_Injected, addr 0x6f858f0, size 0x74, virtual false, abstract: false, final false
   static inline void InternalSetNativeData_Injected(::System::IntPtr _unity_self, ::System::IntPtr data, int32_t nativeBufferStartIndex, int32_t computeBufferStartIndex, int32_t count,
                                                     int32_t elemSize);
 
-  /// @brief Method IsValid, addr 0x6f8444c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6f8552c, size 0x50, virtual false, abstract: false, final false
   inline bool IsValid();
 
   /// [FreeFunction("GraphicsBuffer_Bindings::IsValidBuffer")]
-  /// @brief Method IsValidBuffer, addr 0x6f843c8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsValidBuffer, addr 0x6f854a8, size 0x48, virtual false, abstract: false, final false
   static inline bool IsValidBuffer(::UnityEngine::ComputeBuffer* buf);
 
-  /// @brief Method IsValidBuffer_Injected, addr 0x6f84410, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValidBuffer_Injected, addr 0x6f854f0, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsValidBuffer_Injected(::System::IntPtr buf);
 
   static inline ::UnityEngine::ComputeBuffer* New_ctor(int32_t count, int32_t stride);
@@ -147,10 +147,10 @@ public:
 
   static inline ::UnityEngine::ComputeBuffer* New_ctor(int32_t count, int32_t stride, ::UnityEngine::ComputeBufferType type, ::UnityEngine::ComputeBufferMode usage, int32_t stackDepth);
 
-  /// @brief Method Release, addr 0x6f843c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x6f854a4, size 0x4, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method SetData, addr 0x6f845ac, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x6f8568c, size 0x15c, virtual false, abstract: false, final false
   inline void SetData(::System::Array* data);
 
   /// @brief Method SetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -169,25 +169,25 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6f841bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f8529c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t count, int32_t stride);
 
-  /// @brief Method .ctor, addr 0x6f84394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f85474, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t count, int32_t stride, ::UnityEngine::ComputeBufferType type);
 
-  /// @brief Method .ctor, addr 0x6f841c8, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f852a8, size 0x1cc, virtual false, abstract: false, final false
   inline void _ctor(int32_t count, int32_t stride, ::UnityEngine::ComputeBufferType type, ::UnityEngine::ComputeBufferMode usage, int32_t stackDepth);
 
-  /// @brief Method get_count, addr 0x6f8449c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x6f8557c, size 0x4c, virtual false, abstract: false, final false
   inline int32_t get_count();
 
-  /// @brief Method get_count_Injected, addr 0x6f844e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_count_Injected, addr 0x6f855c8, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_count_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_stride, addr 0x6f84524, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_stride, addr 0x6f85604, size 0x4c, virtual false, abstract: false, final false
   inline int32_t get_stride();
 
-  /// @brief Method get_stride_Injected, addr 0x6f84570, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_stride_Injected, addr 0x6f85650, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_stride_Injected(::System::IntPtr _unity_self);
 
   /// @brief Convert to "::System::IDisposable"

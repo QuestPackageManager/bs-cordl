@@ -162,7 +162,7 @@ public:
 
   constexpr void __cordl_internal_set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x6d0325c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d0433c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -245,7 +245,7 @@ public:
 
   constexpr void __cordl_internal_set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x6d03260, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d04340, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -304,14 +304,14 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::MotionVectorRenderPass___c* New_ctor();
 
-  /// @brief Method <Render>b__17_0, addr 0x6d032bc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__17_0, addr 0x6d0439c, size 0x150, virtual false, abstract: false, final false
   inline void _Render_b__17_0(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method <SetRenderGraphMotionVectorGlobalMatrices>b__19_0, addr 0x6d0340c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <SetRenderGraphMotionVectorGlobalMatrices>b__19_0, addr 0x6d044ec, size 0x24, virtual false, abstract: false, final false
   inline void _SetRenderGraphMotionVectorGlobalMatrices_b__19_0(::UnityEngine::Rendering::Universal::MotionVectorRenderPass_MotionMatrixPassData* data,
                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6d032b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d04398, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::MotionVectorRenderPass___c* getStaticF___9();
@@ -384,24 +384,24 @@ public:
   /// @brief Field s_ShaderTags, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ShaderTags, put = setStaticF_s_ShaderTags)) ::ArrayW<::StringW> s_ShaderTags;
 
-  /// @brief Method DrawCameraMotionVectors, addr 0x6d01ba0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method DrawCameraMotionVectors, addr 0x6d02c80, size 0x1ac, virtual false, abstract: false, final false
   static inline void DrawCameraMotionVectors(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Experimental::Rendering::XRPass* xr, ::UnityEngine::Material* cameraMaterial);
 
-  /// @brief Method DrawObjectMotionVectors, addr 0x6d01d4c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method DrawObjectMotionVectors, addr 0x6d02e2c, size 0xb8, virtual false, abstract: false, final false
   static inline void DrawObjectMotionVectors(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Experimental::Rendering::XRPass* xr,
                                              ::by_ref<::UnityEngine::Rendering::RendererList> rendererList);
 
-  /// @brief Method ExecutePass, addr 0x6d01a88, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6d02b68, size 0x118, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData* passData,
                                  ::UnityEngine::Rendering::RendererList rendererList);
 
-  /// @brief Method GetDrawingSettings, addr 0x6d01e04, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method GetDrawingSettings, addr 0x6d02ee4, size 0x230, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DrawingSettings GetDrawingSettings(::UnityEngine::Camera* camera, bool supportsDynamicBatching);
 
-  /// @brief Method InitPassData, addr 0x6d02034, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6d03114, size 0x44, virtual false, abstract: false, final false
   inline void InitPassData(::by_ref<::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData*> passData, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method InitRendererLists, addr 0x6d02078, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method InitRendererLists, addr 0x6d03158, size 0x218, virtual false, abstract: false, final false
   inline void InitRendererLists(::by_ref<::UnityEngine::Rendering::Universal::MotionVectorRenderPass_PassData*> passData, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                 bool supportsDynamicBatching, ::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                 bool useRenderGraph);
@@ -409,12 +409,12 @@ public:
   static inline ::UnityEngine::Rendering::Universal::MotionVectorRenderPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* cameraMaterial,
                                                                                       ::UnityEngine::LayerMask opaqueLayerMask);
 
-  /// @brief Method Render, addr 0x6d02290, size 0xac4, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d03370, size 0xac4, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle cameraDepthTexture, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle motionVectorColor,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle motionVectorDepth);
 
-  /// @brief Method SetRenderGraphMotionVectorGlobalMatrices, addr 0x6d02d54, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method SetRenderGraphMotionVectorGlobalMatrices, addr 0x6d03e34, size 0x3dc, virtual false, abstract: false, final false
   static inline void SetRenderGraphMotionVectorGlobalMatrices(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                               ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
@@ -430,7 +430,7 @@ public:
 
   constexpr void __cordl_internal_set_m_FilteringSettings(::UnityEngine::Rendering::FilteringSettings value);
 
-  /// @brief Method .ctor, addr 0x6d01978, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d02a58, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* cameraMaterial, ::UnityEngine::LayerMask opaqueLayerMask);
 
   static inline int32_t getStaticF_s_CameraDepthTextureID();

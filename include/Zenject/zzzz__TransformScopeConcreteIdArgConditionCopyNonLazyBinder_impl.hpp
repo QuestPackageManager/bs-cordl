@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::Zenject::BindInfo*, ::Zenject::GameObjectCreationParameters*)>(
     &::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7336580;
+  constexpr static std::size_t addrs = 0x7338860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::GameObjectCreationParameters* (::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(
     &::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::get_GameObjectInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x73365ac;
+  constexpr static std::size_t addrs = 0x733888c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::Zenject::GameObjectCreationParameters*)>(
     &::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::set_GameObjectInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x73365b4;
+  constexpr static std::size_t addrs = 0x7338894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*>(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (
     ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::UnityEngine::Transform*)>(&::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::UnderTransform)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x73365bc;
+  constexpr static std::size_t addrs = 0x733889c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*>(),
@@ -72,7 +72,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::ScopeConcreteI
     ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>*)>(
     &::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::UnderTransform)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x73365d4;
+  constexpr static std::size_t addrs = 0x73388b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::StringW)>(
     &::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::UnderTransformGroup)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x73365ec;
+  constexpr static std::size_t addrs = 0x73388cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

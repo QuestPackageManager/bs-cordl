@@ -33,7 +33,7 @@ public:
 
   static inline ::System::Net::NetworkInformation::SystemGatewayIPAddressInformation* New_ctor(::System::Net::IPAddress* address);
 
-  /// @brief Method ToGatewayIpAddressInformationCollection, addr 0x67b716c, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method ToGatewayIpAddressInformationCollection, addr 0x67b77bc, size 0x2ac, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* ToGatewayIpAddressInformationCollection(::System::Net::NetworkInformation::IPAddressCollection* addresses);
 
   constexpr ::System::Net::IPAddress* const& __cordl_internal_get_address() const;
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_address(::System::Net::IPAddress* value);
 
-  /// @brief Method .ctor, addr 0x67b7164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67b77b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* address);
 
 protected:

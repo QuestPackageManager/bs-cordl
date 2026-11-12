@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ComboUIController::*)()>(&::GlobalNamespace::ComboUIController::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5e01adc;
+  constexpr static std::size_t addrs = 0x5e01ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ComboUIController*>(), { "Start", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ComboUIController::*)()>(&::GlobalNamespace::ComboUIController::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e01e7c;
+  constexpr static std::size_t addrs = 0x5e02280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ComboUIController*>(), { "OnEnable", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ComboUIController::*)()>(&::GlobalNamespace::ComboUIController::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e01e80;
+  constexpr static std::size_t addrs = 0x5e02284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ComboUIController*>(), { "OnDisable", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ComboUIController::*)()>(&::GlobalNamespace::ComboUIController::RegisterForEvents)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x5e01b6c;
+  constexpr static std::size_t addrs = 0x5e01f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ComboUIController*>(), { "RegisterForEvents", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ComboUIController::*)()>(&::GlobalNamespace::ComboUIController::UnregisterFromEvents)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5e01e84;
+  constexpr static std::size_t addrs = 0x5e02288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ComboUIController*>(), { "UnregisterFromEvents", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ComboUIController::*)(int32_t)>(&::GlobalNamespace::ComboUIController::HandleComboDidChange)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5e02084;
+  constexpr static std::size_t addrs = 0x5e02488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ComboUIController::*)()>(&::GlobalNamespace::ComboUIController::HandleComboBreakingEventHappened)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5e020c8;
+  constexpr static std::size_t addrs = 0x5e024cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ComboUIController*>(), { "HandleComboBreakingEventHappened", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ComboUIController::*)()>(&::GlobalNamespace::ComboUIController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e020f8;
+  constexpr static std::size_t addrs = 0x5e024fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ComboUIController*>(), { ".ctor", {}, {} })));

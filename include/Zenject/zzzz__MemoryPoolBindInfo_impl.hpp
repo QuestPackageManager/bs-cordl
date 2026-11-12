@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::MemoryPoolBindInfo::*)()>(&::Zenject::MemoryPoolBindInfo::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x7323cfc;
+  constexpr static std::size_t addrs = 0x7325fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MemoryPoolBindInfo*>(), { ".ctor", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::MemoryPoolBindInfo::*)()>(&::Zenject::MemoryPoolBindInfo::get_ShowExpandWarning)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7323d14;
+  constexpr static std::size_t addrs = 0x7325ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MemoryPoolBindInfo*>(), { "get_ShowExpandWarning", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::MemoryPoolBindInfo::*)(bool)>(&::Zenject::MemoryPoolBindInfo::set_ShowExpandWarning)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7323d1c;
+  constexpr static std::size_t addrs = 0x7325ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::PoolExpandMethods (::Zenject::MemoryPoolBindInfo::*)()>(&::Zenject::MemoryPoolBindInfo::get_ExpandMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7323d24;
+  constexpr static std::size_t addrs = 0x7326004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MemoryPoolBindInfo*>(), { "get_ExpandMethod", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::MemoryPoolBindInfo::*)(::Zenject::PoolExpandMethods)>(&::Zenject::MemoryPoolBindInfo::set_ExpandMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7323d2c;
+  constexpr static std::size_t addrs = 0x732600c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Zenject::MemoryPoolBindInfo::*)()>(&::Zenject::MemoryPoolBindInfo::get_InitialSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7323d34;
+  constexpr static std::size_t addrs = 0x7326014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MemoryPoolBindInfo*>(), { "get_InitialSize", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::MemoryPoolBindInfo::*)(int32_t)>(&::Zenject::MemoryPoolBindInfo::set_InitialSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7323d3c;
+  constexpr static std::size_t addrs = 0x732601c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Zenject::MemoryPoolBindInfo::*)()>(&::Zenject::MemoryPoolBindInfo::get_MaxSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7323d44;
+  constexpr static std::size_t addrs = 0x7326024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MemoryPoolBindInfo*>(), { "get_MaxSize", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::MemoryPoolBindInfo::*)(int32_t)>(&::Zenject::MemoryPoolBindInfo::set_MaxSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7323d4c;
+  constexpr static std::size_t addrs = 0x732602c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::MemoryPoolBindInfo*>(), { "set_MaxSize", {}, { ::i2c::type_of<int32_t>() } })));

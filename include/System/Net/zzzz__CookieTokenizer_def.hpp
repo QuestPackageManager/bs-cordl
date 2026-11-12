@@ -37,13 +37,13 @@ public:
   // Declarations
   __declspec(property(get = get_Token)) ::System::Net::CookieToken Token;
 
-  /// @brief Method IsEqualTo, addr 0x68805f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsEqualTo, addr 0x6880c40, size 0x24, virtual false, abstract: false, final false
   inline bool IsEqualTo(::StringW value);
 
-  /// @brief Method .ctor, addr 0x688096c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6880fbc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::CookieToken token);
 
-  /// @brief Method get_Token, addr 0x6880978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Token, addr 0x6880fc8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::CookieToken get_Token();
 
   // Ctor Parameters []
@@ -134,21 +134,21 @@ public:
   /// @brief Field m_value, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_value, put = __cordl_internal_set_m_value)) ::StringW m_value;
 
-  /// @brief Method Extract, addr 0x6880060, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x68806b0, size 0x58, virtual false, abstract: false, final false
   inline ::StringW Extract();
 
-  /// @brief Method FindNext, addr 0x68800b8, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method FindNext, addr 0x6880708, size 0x21c, virtual false, abstract: false, final false
   inline ::System::Net::CookieToken FindNext(bool ignoreComma, bool ignoreEquals);
 
   static inline ::System::Net::CookieTokenizer* New_ctor(::StringW tokenStream);
 
-  /// @brief Method Next, addr 0x68802d4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Next, addr 0x6880924, size 0x130, virtual false, abstract: false, final false
   inline ::System::Net::CookieToken Next(bool first, bool parseResponseCookies);
 
-  /// @brief Method Reset, addr 0x6880404, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6880a54, size 0x30, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method TokenFromName, addr 0x6880434, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method TokenFromName, addr 0x6880a84, size 0x1bc, virtual false, abstract: false, final false
   inline ::System::Net::CookieToken TokenFromName(bool parseResponseCookies);
 
   constexpr bool const& __cordl_internal_get_m_eofCookie() const;
@@ -211,48 +211,48 @@ public:
 
   constexpr void __cordl_internal_set_m_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x687ffe4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6880634, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::StringW tokenStream);
 
   static inline ::ArrayW<::System::Net::CookieTokenizer_RecognizedAttribute> getStaticF_RecognizedAttributes();
 
   static inline ::ArrayW<::System::Net::CookieTokenizer_RecognizedAttribute> getStaticF_RecognizedServerAttributes();
 
-  /// @brief Method get_EndOfCookie, addr 0x6880000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EndOfCookie, addr 0x6880650, size 0x8, virtual false, abstract: false, final false
   inline bool get_EndOfCookie();
 
-  /// @brief Method get_Eof, addr 0x6880010, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Eof, addr 0x6880660, size 0x10, virtual false, abstract: false, final false
   inline bool get_Eof();
 
-  /// @brief Method get_Name, addr 0x6880020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6880670, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Quoted, addr 0x6880030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Quoted, addr 0x6880680, size 0x8, virtual false, abstract: false, final false
   inline bool get_Quoted();
 
-  /// @brief Method get_Token, addr 0x6880040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Token, addr 0x6880690, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::CookieToken get_Token();
 
-  /// @brief Method get_Value, addr 0x6880050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x68806a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   static inline void setStaticF_RecognizedAttributes(::ArrayW<::System::Net::CookieTokenizer_RecognizedAttribute> value);
 
   static inline void setStaticF_RecognizedServerAttributes(::ArrayW<::System::Net::CookieTokenizer_RecognizedAttribute> value);
 
-  /// @brief Method set_EndOfCookie, addr 0x6880008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EndOfCookie, addr 0x6880658, size 0x8, virtual false, abstract: false, final false
   inline void set_EndOfCookie(bool value);
 
-  /// @brief Method set_Name, addr 0x6880028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x6880678, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Quoted, addr 0x6880038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Quoted, addr 0x6880688, size 0x8, virtual false, abstract: false, final false
   inline void set_Quoted(bool value);
 
-  /// @brief Method set_Token, addr 0x6880048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Token, addr 0x6880698, size 0x8, virtual false, abstract: false, final false
   inline void set_Token(::System::Net::CookieToken value);
 
-  /// @brief Method set_Value, addr 0x6880058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x68806a8, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

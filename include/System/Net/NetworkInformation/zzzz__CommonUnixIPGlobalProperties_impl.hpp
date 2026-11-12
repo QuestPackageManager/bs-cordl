@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t)>(&::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::getdomainname)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x67bb7f0;
+  constexpr static std::size_t addrs = 0x67bbe40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::CommonUnixIPGlobalProperties*>(),
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::*)()>(
     &::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::get_DomainName)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x67bb87c;
+  constexpr static std::size_t addrs = 0x67bbecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::CommonUnixIPGlobalProperties*>(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::*)()>(
     &::System::Net::NetworkInformation::CommonUnixIPGlobalProperties::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67bba1c;
+  constexpr static std::size_t addrs = 0x67bc06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::NetworkInformation::CommonUnixIPGlobalProperties*>(), { ".ctor", {}, {} })));

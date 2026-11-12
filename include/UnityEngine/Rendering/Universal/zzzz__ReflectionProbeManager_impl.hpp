@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)()>(
     &::UnityEngine::Rendering::Universal::ReflectionProbeManager::get_atlasRT)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d1fa30;
+  constexpr static std::size_t addrs = 0x6d20b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ReflectionProbeManager>(), { "get_atlasRT", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)()>(
     &::UnityEngine::Rendering::Universal::ReflectionProbeManager::get_atlasRTHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d1fa38;
+  constexpr static std::size_t addrs = 0x6d20b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::ReflectionProbeManager (*)()>(&::UnityEngine::Rendering::Universal::ReflectionProbeManager::Create)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6d1fa40;
+  constexpr static std::size_t addrs = 0x6d20b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ReflectionProbeManager>(), { "Create", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)()>(&::UnityEngine::Rendering::Universal::ReflectionProbeManager::Init)> {
   constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x6d1fa80;
+  constexpr static std::size_t addrs = 0x6d20b60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ReflectionProbeManager>(), { "Init", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)(
     ::UnityEngine::Rendering::CommandBuffer*, ::by_ref<::UnityEngine::Rendering::CullingResults>)>(&::UnityEngine::Rendering::Universal::ReflectionProbeManager::UpdateGpuData)> {
   constexpr static std::size_t size = 0x181c;
-  constexpr static std::size_t addrs = 0x6d1fee0;
+  constexpr static std::size_t addrs = 0x6d20fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Mathematics::float4 (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)(int32_t, int32_t, bool, bool)>(
     &::UnityEngine::Rendering::Universal::ReflectionProbeManager::GetScaleOffset)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6d216fc;
+  constexpr static std::size_t addrs = 0x6d227dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::ReflectionProbeManager::*)()>(
     &::UnityEngine::Rendering::Universal::ReflectionProbeManager::Dispose)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6d217f0;
+  constexpr static std::size_t addrs = 0x6d228d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::ReflectionProbeManager>(), { "Dispose", {}, {} })));

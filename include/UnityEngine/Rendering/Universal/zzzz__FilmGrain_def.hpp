@@ -48,11 +48,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x6cfac1c, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cfbcfc, size 0xdc, virtual true, abstract: false, final true
   inline bool IsActive();
 
   /// [Obsolete("Unused. #from(2023.1)")]
-  /// @brief Method IsTileCompatible, addr 0x6cfacf8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x6cfbdd8, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::FilmGrain* New_ctor();
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::UnityEngine::Rendering::Universal::FilmGrainLookupParameter* value);
 
-  /// @brief Method .ctor, addr 0x6cfad00, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfbde0, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"

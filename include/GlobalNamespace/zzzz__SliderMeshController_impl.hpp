@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SliderMeshController::*)()>(&::GlobalNamespace::SliderMeshController::get_pathLength)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5dd3e28;
+  constexpr static std::size_t addrs = 0x5dd3f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderMeshController*>(), { "get_pathLength", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::GlobalNamespace::SliderMeshController::*)()>(&::GlobalNamespace::SliderMeshController::get_mesh)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5dd3e4c;
+  constexpr static std::size_t addrs = 0x5dd3f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderMeshController*>(), { "get_mesh", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PathsHolder* (::GlobalNamespace::SliderMeshController::*)()>(&::GlobalNamespace::SliderMeshController::get_pathsHolder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dd3e64;
+  constexpr static std::size_t addrs = 0x5dd3f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderMeshController*>(), { "get_pathsHolder", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderMeshController::*)(
     ::GlobalNamespace::SliderData*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t, int32_t, float_t, float_t)>(&::GlobalNamespace::SliderMeshController::CreateBezierPathAndMesh)> {
   constexpr static std::size_t size = 0xc18;
-  constexpr static std::size_t addrs = 0x5dce92c;
+  constexpr static std::size_t addrs = 0x5dcea48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::NoteCutDirection, float_t)>(
     &::GlobalNamespace::SliderMeshController::CutDirectionToControlPointPosition)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5dd3e6c;
+  constexpr static std::size_t addrs = 0x5dd3f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SliderMeshController::*)()>(&::GlobalNamespace::SliderMeshController::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5dd3f14;
+  constexpr static std::size_t addrs = 0x5dd4030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SliderMeshController*>(), { ".ctor", {}, {} })));

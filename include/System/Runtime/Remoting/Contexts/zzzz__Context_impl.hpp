@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Remoting::Contexts::Context*)>(&::System::Runtime::Remoting::Contexts::Context::RegisterContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f8af54;
+  constexpr static std::size_t addrs = 0x5f8b1dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Contexts::Context*>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Remoting::Contexts::Context*)>(&::System::Runtime::Remoting::Contexts::Context::ReleaseContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f8af5c;
+  constexpr static std::size_t addrs = 0x5f8b1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Contexts::Context*>(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Contexts::Context::*)()>(&::System::Runtime::Remoting::Contexts::Context::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f8af64;
+  constexpr static std::size_t addrs = 0x5f8b1ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Contexts::Context*>(), { ".ctor", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Contexts::Context::*)()>(&::System::Runtime::Remoting::Contexts::Context::Finalize)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5f8afe4;
+  constexpr static std::size_t addrs = 0x5f8b26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Contexts::Context* (*)()>(&::System::Runtime::Remoting::Contexts::Context::get_DefaultContext)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5f81b38;
+  constexpr static std::size_t addrs = 0x5f81dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Contexts::Context*>(), { "get_DefaultContext", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Runtime::Remoting::Contexts::Context::*)()>(&::System::Runtime::Remoting::Contexts::Context::get_ContextID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f8b074;
+  constexpr static std::size_t addrs = 0x5f8b2fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Runtime::Remoting::Contexts::IContextProperty*> (::System::Runtime::Remoting::Contexts::Context::*)()>(
     &::System::Runtime::Remoting::Contexts::Context::get_ContextProperties)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5f8b07c;
+  constexpr static std::size_t addrs = 0x5f8b304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Contexts::Context::*)()>(&::System::Runtime::Remoting::Contexts::Context::get_IsDefaultContext)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f8b0f8;
+  constexpr static std::size_t addrs = 0x5f8b380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Contexts::Context*>(), { "get_IsDefaultContext", {}, {} })));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Contexts::Context::*)()>(&::System::Runtime::Remoting::Contexts::Context::get_NeedsContextSink)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5f8b108;
+  constexpr static std::size_t addrs = 0x5f8b390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Contexts::Context*>(), { "get_NeedsContextSink", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Runtime::Remoting::Contexts::IDynamicProperty*, ::System::ContextBoundObject*,
                                                                 ::System::Runtime::Remoting::Contexts::Context*)>(&::System::Runtime::Remoting::Contexts::Context::RegisterDynamicProperty)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5f8b21c;
+  constexpr static std::size_t addrs = 0x5f8b4a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::System::ContextBoundObject*, ::System::Runtime::Remoting::Contexts::Context*)>(
     &::System::Runtime::Remoting::Contexts::Context::UnregisterDynamicProperty)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5f8b724;
+  constexpr static std::size_t addrs = 0x5f8b9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* (*)(::System::ContextBoundObject*, ::System::Runtime::Remoting::Contexts::Context*)>(
         &::System::Runtime::Remoting::Contexts::Context::GetDynamicPropertyCollection)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x5f8b298;
+  constexpr static std::size_t addrs = 0x5f8b520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, ::System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(
     &::System::Runtime::Remoting::Contexts::Context::NotifyGlobalDynamicSinks)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5f8b974;
+  constexpr static std::size_t addrs = 0x5f8bbfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Runtime::Remoting::Contexts::Context::get_HasGlobalDynamicSinks)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5f8c058;
+  constexpr static std::size_t addrs = 0x5f8c2e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Contexts::Context::*)(bool, ::System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(
     &::System::Runtime::Remoting::Contexts::Context::NotifyDynamicSinks)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5f8c100;
+  constexpr static std::size_t addrs = 0x5f8c388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Contexts::Context::*)()>(&::System::Runtime::Remoting::Contexts::Context::get_HasDynamicSinks)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5f8c184;
+  constexpr static std::size_t addrs = 0x5f8c40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Contexts::Context*>(), { "get_HasDynamicSinks", {}, {} })));
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::Remoting::Contexts::Context::*)()>(&::System::Runtime::Remoting::Contexts::Context::get_HasExitSinks)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5f88760;
+  constexpr static std::size_t addrs = 0x5f889e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Contexts::Context*>(), { "get_HasExitSinks", {}, {} })));
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Contexts::IContextProperty* (::System::Runtime::Remoting::Contexts::Context::*)(::StringW)>(
     &::System::Runtime::Remoting::Contexts::Context::GetProperty)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5f8c1c4;
+  constexpr static std::size_t addrs = 0x5f8c44c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Contexts::Context::*)(::System::Runtime::Remoting::Contexts::IContextProperty*)>(
     &::System::Runtime::Remoting::Contexts::Context::SetProperty)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x5f8c354;
+  constexpr static std::size_t addrs = 0x5f8c5dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Contexts::Context::*)()>(&::System::Runtime::Remoting::Contexts::Context::Freeze)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5f8c520;
+  constexpr static std::size_t addrs = 0x5f8c7a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Runtime::Remoting::Contexts::Context::*)()>(&::System::Runtime::Remoting::Contexts::Context::ToString)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5f8c69c;
+  constexpr static std::size_t addrs = 0x5f8c924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -316,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (::System::Runtime::Remoting::Contexts::Context::*)()>(
     &::System::Runtime::Remoting::Contexts::Context::GetServerContextSinkChain)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x5f8c6fc;
+  constexpr static std::size_t addrs = 0x5f8c984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (::System::Runtime::Remoting::Contexts::Context::*)()>(
     &::System::Runtime::Remoting::Contexts::Context::GetClientContextSinkChain)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x5f88820;
+  constexpr static std::size_t addrs = 0x5f88aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (::System::Runtime::Remoting::Contexts::Context::*)(::System::MarshalByRefObject*, bool)>(
     &::System::Runtime::Remoting::Contexts::Context::CreateServerObjectSinkChain)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x5f8389c;
+  constexpr static std::size_t addrs = 0x5f83b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (::System::Runtime::Remoting::Contexts::Context::*)(::System::MarshalByRefObject*)>(
     &::System::Runtime::Remoting::Contexts::Context::CreateEnvoySink)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5f8325c;
+  constexpr static std::size_t addrs = 0x5f834e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Contexts::Context* (*)(::System::Runtime::Remoting::Contexts::Context*)>(
     &::System::Runtime::Remoting::Contexts::Context::SwitchToContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f8c8e0;
+  constexpr static std::size_t addrs = 0x5f8cb68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Contexts::Context*>(),
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Contexts::Context* (*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(
     &::System::Runtime::Remoting::Contexts::Context::CreateNewContext)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5f8c8e8;
+  constexpr static std::size_t addrs = 0x5f8cb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Contexts::Context::*)(::System::Runtime::Remoting::Contexts::CrossContextDelegate*)>(
     &::System::Runtime::Remoting::Contexts::Context::DoCallBack)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5f8c98c;
+  constexpr static std::size_t addrs = 0x5f8cc14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Contexts::Context*>(),
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::LocalDataStore* (::System::Runtime::Remoting::Contexts::Context::*)()>(
     &::System::Runtime::Remoting::Contexts::Context::get_MyLocalStore)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x5f8cacc;
+  constexpr static std::size_t addrs = 0x5f8cd54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Contexts::Context*>(), { "get_MyLocalStore", {}, {} })));
@@ -428,7 +428,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::LocalDataStoreSlot* (*)()>(&::System::Runtime::Remoting::Contexts::Context::AllocateDataSlot)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5f8cc3c;
+  constexpr static std::size_t addrs = 0x5f8cec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Contexts::Context*>(), { "AllocateDataSlot", {}, {} })));
@@ -440,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::LocalDataStoreSlot* (*)(::StringW)>(&::System::Runtime::Remoting::Contexts::Context::AllocateNamedDataSlot)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f8cca4;
+  constexpr static std::size_t addrs = 0x5f8cf2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -453,7 +453,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::System::Runtime::Remoting::Contexts::Context::FreeNamedDataSlot)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f8cd14;
+  constexpr static std::size_t addrs = 0x5f8cf9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -466,7 +466,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::LocalDataStoreSlot* (*)(::StringW)>(&::System::Runtime::Remoting::Contexts::Context::GetNamedDataSlot)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f8cd84;
+  constexpr static std::size_t addrs = 0x5f8d00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -479,7 +479,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::LocalDataStoreSlot*)>(&::System::Runtime::Remoting::Contexts::Context::GetData)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5f8cdf4;
+  constexpr static std::size_t addrs = 0x5f8d07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -492,7 +492,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::LocalDataStoreSlot*, ::System::Object*)>(&::System::Runtime::Remoting::Contexts::Context::SetData)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5f8ce38;
+  constexpr static std::size_t addrs = 0x5f8d0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

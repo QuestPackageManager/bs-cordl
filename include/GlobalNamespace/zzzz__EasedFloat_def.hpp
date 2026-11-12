@@ -24,22 +24,22 @@ public:
 
   __declspec(property(get = get_target, put = set_target)) float_t target;
 
-  /// @brief Method SnapTo, addr 0x35cf448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SnapTo, addr 0x35d38a0, size 0x8, virtual false, abstract: false, final false
   inline void SnapTo(float_t value);
 
-  /// @brief Method TryStep, addr 0x35cf450, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TryStep, addr 0x35d38a8, size 0xec, virtual false, abstract: false, final false
   inline bool TryStep(float_t deltaTime);
 
-  /// @brief Method .ctor, addr 0x35cf408, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d3860, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t durationSec);
 
-  /// @brief Method get_current, addr 0x35cf440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x35d3898, size 0x8, virtual false, abstract: false, final false
   inline float_t get_current();
 
-  /// @brief Method get_target, addr 0x35cf430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_target, addr 0x35d3888, size 0x8, virtual false, abstract: false, final false
   inline float_t get_target();
 
-  /// @brief Method set_target, addr 0x35cf438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_target, addr 0x35d3890, size 0x8, virtual false, abstract: false, final false
   inline void set_target(float_t value);
 
   // Ctor Parameters []
@@ -51,7 +51,7 @@ public:
   constexpr EasedFloat(float_t _decay, float_t _current, float_t _target) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21374 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

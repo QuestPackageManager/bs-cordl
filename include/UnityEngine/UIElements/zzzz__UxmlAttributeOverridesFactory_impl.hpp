@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::UxmlAttributeOverridesFactory::*)()>(
     &::UnityEngine::UIElements::UxmlAttributeOverridesFactory::get_uxmlName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7180b64;
+  constexpr static std::size_t addrs = 0x7181c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlAttributeOverridesFactory*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::UxmlAttributeOverridesFactory::*)()>(
     &::UnityEngine::UIElements::UxmlAttributeOverridesFactory::get_uxmlQualifiedName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x7180ba8;
+  constexpr static std::size_t addrs = 0x7181c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlAttributeOverridesFactory*>(),
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::UnityEngine::UIElements::UxmlAttributeOverridesFactory::*)(::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::UxmlAttributeOverridesFactory::Create)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7180c20;
+  constexpr static std::size_t addrs = 0x7181d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlAttributeOverridesFactory*>(),
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UxmlAttributeOverridesFactory::*)()>(&::UnityEngine::UIElements::UxmlAttributeOverridesFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x7180c28;
+  constexpr static std::size_t addrs = 0x7181d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UxmlAttributeOverridesFactory*>(), { ".ctor", {}, {} })));

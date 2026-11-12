@@ -81,35 +81,35 @@ public:
   template <typename T> static inline void Copy(void* destination, ::by_ref<T> source);
 
   /// [NonVersionable]
-  /// @brief Method CopyBlock, addr 0x68f8548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlock, addr 0x68f9628, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlock(::by_ref<uint8_t> destination, ::by_ref<uint8_t> source, uint32_t byteCount);
 
   /// [NonVersionable]
-  /// @brief Method CopyBlock, addr 0x68f8540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlock, addr 0x68f9620, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlock(void* destination, void* source, uint32_t byteCount);
 
   /// [NonVersionable]
-  /// @brief Method CopyBlockUnaligned, addr 0x68f8558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlockUnaligned, addr 0x68f9638, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlockUnaligned(::by_ref<uint8_t> destination, ::by_ref<uint8_t> source, uint32_t byteCount);
 
   /// [NonVersionable]
-  /// @brief Method CopyBlockUnaligned, addr 0x68f8550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlockUnaligned, addr 0x68f9630, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlockUnaligned(void* destination, void* source, uint32_t byteCount);
 
   /// [NonVersionable]
-  /// @brief Method InitBlock, addr 0x68f8568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlock, addr 0x68f9648, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlock(::by_ref<uint8_t> startAddress, uint8_t value, uint32_t byteCount);
 
   /// [NonVersionable]
-  /// @brief Method InitBlock, addr 0x68f8560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlock, addr 0x68f9640, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlock(void* startAddress, uint8_t value, uint32_t byteCount);
 
   /// [NonVersionable]
-  /// @brief Method InitBlockUnaligned, addr 0x68f8578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlockUnaligned, addr 0x68f9658, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlockUnaligned(::by_ref<uint8_t> startAddress, uint8_t value, uint32_t byteCount);
 
   /// [NonVersionable]
-  /// @brief Method InitBlockUnaligned, addr 0x68f8570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlockUnaligned, addr 0x68f9650, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlockUnaligned(void* startAddress, uint8_t value, uint32_t byteCount);
 
   /// [NonVersionable]
@@ -185,7 +185,7 @@ public:
   Unsafe(Unsafe const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24523 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24541 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

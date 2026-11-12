@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Scripting::PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6f971dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f982bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

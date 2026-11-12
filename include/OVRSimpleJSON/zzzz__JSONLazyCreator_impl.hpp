@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVRSimpleJSON::JSONNodeType (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::get_Tag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x628133c;
+  constexpr static std::size_t addrs = 0x62815c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVRSimpleJSON::JSONNode_Enumerator (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::GetEnumerator)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6281344;
+  constexpr static std::size_t addrs = 0x62815cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(::OVRSimpleJSON::JSONNode*)>(&::OVRSimpleJSON::JSONLazyCreator::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x627de84;
+  constexpr static std::size_t addrs = 0x627e10c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(::OVRSimpleJSON::JSONNode*, ::StringW)>(&::OVRSimpleJSON::JSONLazyCreator::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x627ef4c;
+  constexpr static std::size_t addrs = 0x627f1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONLazyCreator::*)(int32_t)>(&::OVRSimpleJSON::JSONLazyCreator::get_Item)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6281358;
+  constexpr static std::size_t addrs = 0x62815e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(int32_t, ::OVRSimpleJSON::JSONNode*)>(&::OVRSimpleJSON::JSONLazyCreator::set_Item)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x62813b4;
+  constexpr static std::size_t addrs = 0x628163c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONLazyCreator::*)(::StringW)>(&::OVRSimpleJSON::JSONLazyCreator::get_Item)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6281458;
+  constexpr static std::size_t addrs = 0x62816e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(::StringW, ::OVRSimpleJSON::JSONNode*)>(&::OVRSimpleJSON::JSONLazyCreator::set_Item)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x62814c4;
+  constexpr static std::size_t addrs = 0x628174c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(::OVRSimpleJSON::JSONNode*)>(&::OVRSimpleJSON::JSONLazyCreator::Add)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6281570;
+  constexpr static std::size_t addrs = 0x62817f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(::StringW, ::OVRSimpleJSON::JSONNode*)>(&::OVRSimpleJSON::JSONLazyCreator::Add)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6281614;
+  constexpr static std::size_t addrs = 0x628189c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::OVRSimpleJSON::JSONLazyCreator*, ::System::Object*)>(&::OVRSimpleJSON::JSONLazyCreator::op_Equality)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62816c0;
+  constexpr static std::size_t addrs = 0x6281948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::OVRSimpleJSON::JSONLazyCreator*, ::System::Object*)>(&::OVRSimpleJSON::JSONLazyCreator::op_Inequality)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62816d0;
+  constexpr static std::size_t addrs = 0x6281958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVRSimpleJSON::JSONLazyCreator::*)(::System::Object*)>(&::OVRSimpleJSON::JSONLazyCreator::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x62816e0;
+  constexpr static std::size_t addrs = 0x6281968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x62816f0;
+  constexpr static std::size_t addrs = 0x6281978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::get_AsInt)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x62816f8;
+  constexpr static std::size_t addrs = 0x6281980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(int32_t)>(&::OVRSimpleJSON::JSONLazyCreator::set_AsInt)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x628177c;
+  constexpr static std::size_t addrs = 0x6281a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::get_AsFloat)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6281804;
+  constexpr static std::size_t addrs = 0x6281a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(float_t)>(&::OVRSimpleJSON::JSONLazyCreator::set_AsFloat)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6281888;
+  constexpr static std::size_t addrs = 0x6281b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::get_AsDouble)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6281910;
+  constexpr static std::size_t addrs = 0x6281b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(double_t)>(&::OVRSimpleJSON::JSONLazyCreator::set_AsDouble)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6281994;
+  constexpr static std::size_t addrs = 0x6281c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::get_AsLong)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6281a1c;
+  constexpr static std::size_t addrs = 0x6281ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(int64_t)>(&::OVRSimpleJSON::JSONLazyCreator::set_AsLong)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6281b40;
+  constexpr static std::size_t addrs = 0x6281dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::get_AsULong)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6281c9c;
+  constexpr static std::size_t addrs = 0x6281f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(uint64_t)>(&::OVRSimpleJSON::JSONLazyCreator::set_AsULong)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6281dc0;
+  constexpr static std::size_t addrs = 0x6282048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::get_AsBool)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6281f1c;
+  constexpr static std::size_t addrs = 0x62821a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(bool)>(&::OVRSimpleJSON::JSONLazyCreator::set_AsBool)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6281fa0;
+  constexpr static std::size_t addrs = 0x6282228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVRSimpleJSON::JSONArray* (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::get_AsArray)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6282028;
+  constexpr static std::size_t addrs = 0x62822b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVRSimpleJSON::JSONObject* (::OVRSimpleJSON::JSONLazyCreator::*)()>(&::OVRSimpleJSON::JSONLazyCreator::get_AsObject)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x62820a0;
+  constexpr static std::size_t addrs = 0x6282328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVRSimpleJSON::JSONLazyCreator::*)(::System::Text::StringBuilder*, int32_t, int32_t, ::OVRSimpleJSON::JSONTextMode)>(
     &::OVRSimpleJSON::JSONLazyCreator::WriteToStringBuilder)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6282118;
+  constexpr static std::size_t addrs = 0x62823a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

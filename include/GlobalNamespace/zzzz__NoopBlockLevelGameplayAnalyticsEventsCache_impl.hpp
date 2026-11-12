@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     float_t, float_t, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteData_GameplayType, ::System::Nullable_1<int32_t>, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer>)>(
     &::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddGoodCut)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4d058;
+  constexpr static std::size_t addrs = 0x5e4d488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     float_t, ::GlobalNamespace::NoteCutInfo_FailReason, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteData_GameplayType, ::System::Nullable_1<int32_t>,
     ::System::Nullable_1<::GlobalNamespace::NoteLineLayer>)>(&::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddBadCut)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4d05c;
+  constexpr static std::size_t addrs = 0x5e4d48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     float_t, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteData_GameplayType, ::System::Nullable_1<int32_t>, ::System::Nullable_1<::GlobalNamespace::NoteLineLayer>)>(
     &::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddBlockMiss)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4d060;
+  constexpr static std::size_t addrs = 0x5e4d490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)(float_t)>(
     &::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddBombCut)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4d064;
+  constexpr static std::size_t addrs = 0x5e4d494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)(float_t, float_t)>(
     &::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::AddObstacleHit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4d068;
+  constexpr static std::size_t addrs = 0x5e4d498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)()>(
     &::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::SerializeJSON)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4d06c;
+  constexpr static std::size_t addrs = 0x5e4d49c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)()>(
     &::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::IsEmpty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4d074;
+  constexpr static std::size_t addrs = 0x5e4d4a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(), { "IsEmpty", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::*)()>(
     &::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4d07c;
+  constexpr static std::size_t addrs = 0x5e4d4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoopBlockLevelGameplayAnalyticsEventsCache*>(), { ".ctor", {}, {} })));

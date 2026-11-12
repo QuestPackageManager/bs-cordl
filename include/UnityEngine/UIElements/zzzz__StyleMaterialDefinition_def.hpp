@@ -48,34 +48,34 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::MaterialDefinition>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::MaterialDefinition>*();
 
-  /// @brief Method Equals, addr 0x714673c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x714781c, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x7146714, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x71477f4, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleMaterialDefinition other);
 
-  /// @brief Method GetHashCode, addr 0x71467cc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x71478ac, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x7146814, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x71478f4, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x71466d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71477b0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x71466b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7147798, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::MaterialDefinition m);
 
-  /// @brief Method .ctor, addr 0x71466c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71477a4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::MaterialDefinition m, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x7142204, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71432e4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* obj, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x71466a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x7147788, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x7146690, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x7147770, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::MaterialDefinition get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleMaterialDefinition>"
@@ -84,19 +84,19 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::MaterialDefinition>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::MaterialDefinition>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__MaterialDefinition_();
 
-  /// @brief Method op_Equality, addr 0x71466dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x71477bc, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleMaterialDefinition lhs, ::UnityEngine::UIElements::StyleMaterialDefinition rhs);
 
-  /// @brief Method op_Implicit, addr 0x7142230, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x7143310, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleMaterialDefinition op_Implicit___UnityEngine__UIElements__StyleMaterialDefinition(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method op_Implicit, addr 0x7146708, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x71477e8, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleMaterialDefinition op_Implicit___UnityEngine__UIElements__StyleMaterialDefinition(::UnityEngine::UIElements::MaterialDefinition m);
 
-  /// @brief Method set_keyword, addr 0x71466b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_keyword, addr 0x7147790, size 0x8, virtual true, abstract: false, final true
   inline void set_keyword(::UnityEngine::UIElements::StyleKeyword value);
 
-  /// @brief Method set_value, addr 0x714669c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_value, addr 0x714777c, size 0xc, virtual true, abstract: false, final true
   inline void set_value(::UnityEngine::UIElements::MaterialDefinition value);
 
   // Ctor Parameters []

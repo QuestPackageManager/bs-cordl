@@ -55,7 +55,7 @@ public:
 
   static inline ::GlobalNamespace::DelayedMenuButtonTrigger* New_ctor();
 
-  /// @brief Method Tick, addr 0x3525b8c, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x35281e4, size 0x12c, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr float_t const& __cordl_internal_get__pressDuration() const;
@@ -88,11 +88,11 @@ public:
 
   constexpr void __cordl_internal_set_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3525cb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3528310, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_menuButtonTriggeredEvent, addr 0x3525a34, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_menuButtonTriggeredEvent, addr 0x352808c, size 0xac, virtual true, abstract: false, final true
   inline void add_menuButtonTriggeredEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
@@ -102,7 +102,7 @@ public:
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x3525ae0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x3528138, size 0xac, virtual true, abstract: false, final true
   inline void remove_menuButtonTriggeredEvent(::System::Action* value);
 
 protected:
@@ -120,7 +120,7 @@ public:
   DelayedMenuButtonTrigger(DelayedMenuButtonTrigger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24365 };
 
   /// @brief Field kDefaultPauseButtonPressDuration offset 0xffffffff size 0x4
   static constexpr float_t kDefaultPauseButtonPressDuration{ static_cast<float_t>(0.75f) };

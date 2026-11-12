@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::UnifiedRayTracing::GeoPoolMeshChunk (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_MeshChunk::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_MeshChunk::EncodeGPUEntry)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e427fc;
+  constexpr static std::size_t addrs = 0x6e438dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_MeshChunk (*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_MeshChunk::get_Invalid)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6e415f0;
+  constexpr static std::size_t addrs = 0x6e426d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_GeometrySlot::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_GeometrySlot::get_valid)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6e4013c;
+  constexpr static std::size_t addrs = 0x6e4121c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_GeoPoolEntrySlot::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_GeoPoolEntrySlot::get_valid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e419a0;
+  constexpr static std::size_t addrs = 0x6e42a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo::get_valid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e43088;
+  constexpr static std::size_t addrs = 0x6e44168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::GetVertexByteSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3f668;
+  constexpr static std::size_t addrs = 0x6e40748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -356,7 +356,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::GetIndexByteSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3fb2c;
+  constexpr static std::size_t addrs = 0x6e40c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -369,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::GetMeshChunkTableEntryByteSize)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e3fb34;
+  constexpr static std::size_t addrs = 0x6e40c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(::UnityEngine::Rendering::VertexAttributeFormat)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::GetFormatByteCount)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6e3fba0;
+  constexpr static std::size_t addrs = 0x6e40c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
@@ -396,7 +396,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::DivUp)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e3fbc4;
+  constexpr static std::size_t addrs = 0x6e40ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GraphicsBuffer* (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::get_globalIndexBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3fbd4;
+  constexpr static std::size_t addrs = 0x6e40cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GraphicsBuffer* (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::get_globalVertexBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3fbdc;
+  constexpr static std::size_t addrs = 0x6e40cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -439,7 +439,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::get_globalVertexBufferStrideBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3f9e0;
+  constexpr static std::size_t addrs = 0x6e40ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -453,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GraphicsBuffer* (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::get_globalMeshChunkTableEntryBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3fbe4;
+  constexpr static std::size_t addrs = 0x6e40cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::get_indicesCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3fbec;
+  constexpr static std::size_t addrs = 0x6e40ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::get_verticesCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3fbf4;
+  constexpr static std::size_t addrs = 0x6e40cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::get_meshChunkTablesEntryCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e3fbfc;
+  constexpr static std::size_t addrs = 0x6e40cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -510,7 +510,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolDesc const>, ::UnityEngine::ComputeShader*, ::UnityEngine::ComputeShader*)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::_ctor)> {
   constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x6e3c268;
+  constexpr static std::size_t addrs = 0x6e3d348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
@@ -527,7 +527,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::DisposeInputBuffers)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6e3ff00;
+  constexpr static std::size_t addrs = 0x6e40fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -540,7 +540,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)()>(&::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::Dispose)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x6e3ed44;
+  constexpr static std::size_t addrs = 0x6e3fe24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(), { "Dispose", {}, {} })));
@@ -553,7 +553,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(::UnityEngine::ComputeShader*)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::LoadKernels)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6e3fc04;
+  constexpr static std::size_t addrs = 0x6e40ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -568,7 +568,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(int32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::CalcVertexCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e3fcdc;
+  constexpr static std::size_t addrs = 0x6e40dbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -582,7 +582,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(int32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::CalcIndexCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e3fcf4;
+  constexpr static std::size_t addrs = 0x6e40dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -596,7 +596,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(int32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::CalcMeshChunkTablesCount)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e3fd0c;
+  constexpr static std::size_t addrs = 0x6e40dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -610,7 +610,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(
     ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_GeometrySlot>)>(&::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::DeallocateGeometrySlot)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x6e4019c;
+  constexpr static std::size_t addrs = 0x6e4127c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -625,7 +625,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(int32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::DeallocateGeometrySlot)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6e404b8;
+  constexpr static std::size_t addrs = 0x6e41598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -639,7 +639,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(::UnityEngine::Mesh*, ::by_ref<int32_t>)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::AllocateGeo)> {
   constexpr static std::size_t size = 0x8c0;
-  constexpr static std::size_t addrs = 0x6e405ec;
+  constexpr static std::size_t addrs = 0x6e416cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
@@ -653,7 +653,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::DeallocateGeoPoolEntrySlot)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6e4167c;
+  constexpr static std::size_t addrs = 0x6e4275c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -668,7 +668,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(
     ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_GeoPoolEntrySlot>)>(&::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::DeallocateGeoPoolEntrySlot)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6e417d4;
+  constexpr static std::size_t addrs = 0x6e428b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -683,7 +683,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolEntryInfo (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(
     ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle)>(&::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::GetEntryInfo)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6e41860;
+  constexpr static std::size_t addrs = 0x6e42940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -698,7 +698,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_GeometrySlot (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(
     ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle)>(&::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::GetEntryGeomAllocation)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6e3f598;
+  constexpr static std::size_t addrs = 0x6e40678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -713,7 +713,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(::UnityEngine::Mesh*)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::GetInstanceGeometryIndex)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6e419b0;
+  constexpr static std::size_t addrs = 0x6e42a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
@@ -727,7 +727,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(
     ::UnityEngine::Mesh*, ::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle)>(&::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::UpdateGeoGpuState)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x6e41a94;
+  constexpr static std::size_t addrs = 0x6e42b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -743,7 +743,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(uint32_t, uint32_t)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::FNVHash)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6e4280c;
+  constexpr static std::size_t addrs = 0x6e438ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
@@ -757,7 +757,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(
     ::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolSubmeshData>)>(&::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::CalculateClusterHash)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6e4283c;
+  constexpr static std::size_t addrs = 0x6e4391c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -774,7 +774,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(
     ::UnityEngine::Mesh*)>(&::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::GetHandle)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6e419e0;
+  constexpr static std::size_t addrs = 0x6e42ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -788,7 +788,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, ::by_ref<::ArrayW<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolSubmeshData> const>)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::FindSubmeshEntryInDesc)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e42984;
+  constexpr static std::size_t addrs = 0x6e43a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -805,7 +805,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(
     ::UnityEngine::Mesh*, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle>)>(&::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::Register)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6e3f4d8;
+  constexpr static std::size_t addrs = 0x6e405b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -822,7 +822,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolEntryDesc const>, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle>)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::Register)> {
   constexpr static std::size_t size = 0x6c0;
-  constexpr static std::size_t addrs = 0x6e429c8;
+  constexpr static std::size_t addrs = 0x6e43aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool*>(),
@@ -839,7 +839,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(::UnityEngine::Rendering::UnifiedRayTracing::GeometryPoolHandle)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::Unregister)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e3ec58;
+  constexpr static std::size_t addrs = 0x6e3fd38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -854,7 +854,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::SendGpuCommands)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e3ecc8;
+  constexpr static std::size_t addrs = 0x6e3fda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -868,7 +868,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GraphicsBuffer* (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)(::UnityEngine::Mesh*)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::LoadIndexBuffer)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6e41e64;
+  constexpr static std::size_t addrs = 0x6e42f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -883,7 +883,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Mesh*, ::UnityEngine::Rendering::VertexAttribute, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo>)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::LoadVertexAttribInfo)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6e41f64;
+  constexpr static std::size_t addrs = 0x6e43044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -901,7 +901,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::CommandBuffer* (::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::*)()>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::AllocateCommandBuffer)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6e41e24;
+  constexpr static std::size_t addrs = 0x6e42f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -917,7 +917,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const>, int32_t, int32_t, int32_t, int32_t, ::UnityEngine::GraphicsBuffer*)>(
     &::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::AddIndexUpdateCommand)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x6e42570;
+  constexpr static std::size_t addrs = 0x6e43650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -940,7 +940,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool_VertexBufferAttribInfo const>, ::by_ref<::UnityEngine::Rendering::UnifiedRayTracing::BlockAllocator_Allocation const>,
     ::UnityEngine::GraphicsBuffer*)>(&::UnityEngine::Rendering::UnifiedRayTracing::GeometryPool::AddVertexUpdateCommand)> {
   constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x6e420d8;
+  constexpr static std::size_t addrs = 0x6e431b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

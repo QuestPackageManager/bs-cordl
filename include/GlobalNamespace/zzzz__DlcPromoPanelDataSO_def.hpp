@@ -65,7 +65,7 @@ public:
   static ::GlobalNamespace::DlcPromoPanelDataSO_DlcPromoPanelType const Store;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14665 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -90,7 +90,7 @@ public:
   // Declarations
   using DlcPromoPanelType = ::GlobalNamespace::DlcPromoPanelDataSO_DlcPromoPanelType;
 
-  /// @brief Field _customDlcPromoBanner, offset 0x38, size 0x8
+  /// @brief Field _customDlcPromoBanner, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__customDlcPromoBanner, put = __cordl_internal_set__customDlcPromoBanner)) ::UnityW<::GlobalNamespace::PromoBannerInfoSO> _customDlcPromoBanner;
 
   /// @brief Field _cutOffTest, offset 0x18, size 0x4
@@ -99,7 +99,7 @@ public:
   /// @brief Field _defaultPromoInfoId, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultPromoInfoId, put = __cordl_internal_set__defaultPromoInfoId)) ::StringW _defaultPromoInfoId;
 
-  /// @brief Field _dlcPromoPanelType, offset 0x34, size 0x4
+  /// @brief Field _dlcPromoPanelType, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__dlcPromoPanelType, put = __cordl_internal_set__dlcPromoPanelType)) ::GlobalNamespace::DlcPromoPanelDataSO_DlcPromoPanelType _dlcPromoPanelType;
 
   /// @brief Field _minNumberOfNotOwnedPacks, offset 0x1c, size 0x4
@@ -107,6 +107,9 @@ public:
 
   /// @brief Field _priority, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__priority, put = __cordl_internal_set__priority)) int32_t _priority;
+
+  /// @brief Field _skipWhenOwned, offset 0x34, size 0x1
+  __declspec(property(get = __cordl_internal_get__skipWhenOwned, put = __cordl_internal_set__skipWhenOwned)) bool _skipWhenOwned;
 
   /// @brief Field _target, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__target, put = __cordl_internal_set__target)) ::StringW _target;
@@ -123,11 +126,13 @@ public:
 
   __declspec(property(get = get_promoId)) ::StringW promoId;
 
+  __declspec(property(get = get_skipWhenOwned)) bool skipWhenOwned;
+
   __declspec(property(get = get_target)) ::StringW target;
 
   static inline ::GlobalNamespace::DlcPromoPanelDataSO* New_ctor();
 
-  /// @brief Method SetMusicPackPromo, addr 0x3a015f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetMusicPackPromo, addr 0x3a06350, size 0x14, virtual false, abstract: false, final false
   inline void SetMusicPackPromo(::StringW targetPromoInfoId, int32_t priority, int32_t cutOffTest);
 
   constexpr ::UnityW<::GlobalNamespace::PromoBannerInfoSO> const& __cordl_internal_get__customDlcPromoBanner() const;
@@ -154,6 +159,10 @@ public:
 
   constexpr int32_t& __cordl_internal_get__priority();
 
+  constexpr bool const& __cordl_internal_get__skipWhenOwned() const;
+
+  constexpr bool& __cordl_internal_get__skipWhenOwned();
+
   constexpr ::StringW const& __cordl_internal_get__target() const;
 
   constexpr ::StringW& __cordl_internal_get__target();
@@ -170,30 +179,35 @@ public:
 
   constexpr void __cordl_internal_set__priority(int32_t value);
 
+  constexpr void __cordl_internal_set__skipWhenOwned(bool value);
+
   constexpr void __cordl_internal_set__target(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a01604, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a06364, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_customDlcPromoBanner, addr 0x3a015d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customDlcPromoBanner, addr 0x3a06328, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PromoBannerInfoSO> get_customDlcPromoBanner();
 
-  /// @brief Method get_cutOffTest, addr 0x3a015bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutOffTest, addr 0x3a06310, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cutOffTest();
 
-  /// @brief Method get_dlcPromoPanelType, addr 0x3a015cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dlcPromoPanelType, addr 0x3a06320, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DlcPromoPanelDataSO_DlcPromoPanelType get_dlcPromoPanelType();
 
-  /// @brief Method get_minNumberOfNotOwnedPacks, addr 0x3a015c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minNumberOfNotOwnedPacks, addr 0x3a06318, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minNumberOfNotOwnedPacks();
 
-  /// @brief Method get_priority, addr 0x3a015ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_priority, addr 0x3a06340, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_priority();
 
-  /// @brief Method get_promoId, addr 0x3a015dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoId, addr 0x3a06330, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_promoId();
 
-  /// @brief Method get_target, addr 0x3a015e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skipWhenOwned, addr 0x3a06348, size 0x8, virtual false, abstract: false, final false
+  inline bool get_skipWhenOwned();
+
+  /// @brief Method get_target, addr 0x3a06338, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_target();
 
 protected:
@@ -211,7 +225,7 @@ public:
   DlcPromoPanelDataSO(DlcPromoPanelDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14666 };
 
   /// [SerializeField]
   /// @brief Field _cutOffTest, offset: 0x18, size: 0x4, def value: None
@@ -234,15 +248,19 @@ public:
   /// @brief Field _priority, offset: 0x30, size: 0x4, def value: None
   int32_t ____priority;
 
+  /// [SerializeField]
+  /// @brief Field _skipWhenOwned, offset: 0x34, size: 0x1, def value: None
+  bool ____skipWhenOwned;
+
   /// [Space]
   /// [SerializeField]
-  /// @brief Field _dlcPromoPanelType, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field _dlcPromoPanelType, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::DlcPromoPanelDataSO_DlcPromoPanelType ____dlcPromoPanelType;
 
   /// [DrawIf("_dlcPromoPanelType", (DlcPromoPanelDataSO::DlcPromoPanelType)1, (DrawIfAttribute::DisablingType)1)]
   /// [NullAllowedIf("_dlcPromoPanelType", (ComparisonOperation)1, (DlcPromoPanelDataSO::DlcPromoPanelType)1, (NullAllowedContext)0)]
   /// [SerializeField]
-  /// @brief Field _customDlcPromoBanner, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _customDlcPromoBanner, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PromoBannerInfoSO> ____customDlcPromoBanner;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -258,10 +276,12 @@ static_assert(offsetof(::GlobalNamespace::DlcPromoPanelDataSO, ____target) == 0x
 
 static_assert(offsetof(::GlobalNamespace::DlcPromoPanelDataSO, ____priority) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DlcPromoPanelDataSO, ____dlcPromoPanelType) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DlcPromoPanelDataSO, ____skipWhenOwned) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DlcPromoPanelDataSO, ____customDlcPromoBanner) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DlcPromoPanelDataSO, ____dlcPromoPanelType) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::DlcPromoPanelDataSO) == 0x40, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::DlcPromoPanelDataSO, ____customDlcPromoBanner) == 0x40, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::DlcPromoPanelDataSO) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace

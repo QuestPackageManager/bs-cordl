@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x393f908;
+  constexpr static std::size_t addrs = 0x3943da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag, bool, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x393f918;
+  constexpr static std::size_t addrs = 0x3943db0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)()>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::get_SubpacketType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x393f928;
+  constexpr static std::size_t addrs = 0x3943dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)()>(&::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::GetData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x393f930;
+  constexpr static std::size_t addrs = 0x3943dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::Encode)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x393f938;
+  constexpr static std::size_t addrs = 0x3943dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)(::System::Object*)>(&::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::Equals)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x393fa58;
+  constexpr static std::size_t addrs = 0x3943ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)()>(&::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::GetHashCode)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x393fb48;
+  constexpr static std::size_t addrs = 0x3943fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

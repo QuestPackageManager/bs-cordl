@@ -124,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set_settings(::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* value);
 
-  /// @brief Method .ctor, addr 0x6cd62b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd7390, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -193,10 +193,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c* New_ctor();
 
-  /// @brief Method <RecordRenderGraph>b__11_0, addr 0x6cd630c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <RecordRenderGraph>b__11_0, addr 0x6cd73ec, size 0x50, virtual false, abstract: false, final false
   inline void _RecordRenderGraph_b__11_0(::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext rgContext);
 
-  /// @brief Method .ctor, addr 0x6cd6308, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd73e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass___c* getStaticF___9();
@@ -263,23 +263,23 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ShaderTagIdList,
                       put = __cordl_internal_set_m_ShaderTagIdList)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* m_ShaderTagIdList;
 
-  /// @brief Method ExecutePass, addr 0x6cd4ef0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6cd5fd0, size 0x170, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData* passData,
                                  ::UnityEngine::Rendering::RendererList rendererList);
 
-  /// @brief Method InitPassData, addr 0x6cd4eac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6cd5f8c, size 0x44, virtual false, abstract: false, final false
   inline void InitPassData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::Universal::DecalGBufferRenderPass_PassData*> passData);
 
   static inline ::UnityEngine::Rendering::Universal::DecalGBufferRenderPass* New_ctor(::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* settings,
                                                                                       ::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem* drawSystem, bool decalLayers);
 
-  /// @brief Method OnCameraCleanup, addr 0x6cd61c4, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x6cd72a4, size 0xec, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method RecordRenderGraph, addr 0x6cd5060, size 0x1164, virtual true, abstract: false, final false
+  /// @brief Method RecordRenderGraph, addr 0x6cd6140, size 0x1164, virtual true, abstract: false, final false
   inline void RecordRenderGraph(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method Setup, addr 0x6cd4ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6cd5f84, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::Universal::Internal::DeferredLights* deferredLights);
 
   constexpr bool const& __cordl_internal_get_m_DecalLayers() const;
@@ -318,7 +318,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShaderTagIdList(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* value);
 
-  /// @brief Method .ctor, addr 0x6cd4c50, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd5d30, size 0x254, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalScreenSpaceSettings* settings, ::UnityEngine::Rendering::Universal::DecalDrawGBufferSystem* drawSystem, bool decalLayers);
 
 protected:

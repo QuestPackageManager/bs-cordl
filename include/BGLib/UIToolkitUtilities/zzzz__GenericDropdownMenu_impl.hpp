@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UIToolkitUtilities::GenericDropdownMenu::*)()>(&::BGLib::UIToolkitUtilities::GenericDropdownMenu::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x70a8c48;
+  constexpr static std::size_t addrs = 0x70a9d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UIToolkitUtilities::GenericDropdownMenu*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UIToolkitUtilities::GenericDropdownMenu::*)(::StringW, bool, ::System::Action*)>(
     &::BGLib::UIToolkitUtilities::GenericDropdownMenu::AddItem)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x70a8ca4;
+  constexpr static std::size_t addrs = 0x70a9d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UIToolkitUtilities::GenericDropdownMenu::*)(::StringW, bool, ::System::Action_1<::System::Object*>*, ::System::Object*)>(
     &::BGLib::UIToolkitUtilities::GenericDropdownMenu::AddItem)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x70a8cc4;
+  constexpr static std::size_t addrs = 0x70a9da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UIToolkitUtilities::GenericDropdownMenu::*)(::StringW, bool)>(
     &::BGLib::UIToolkitUtilities::GenericDropdownMenu::AddDisabledItem)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x70a8ce4;
+  constexpr static std::size_t addrs = 0x70a9dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UIToolkitUtilities::GenericDropdownMenu::*)(::StringW)>(&::BGLib::UIToolkitUtilities::GenericDropdownMenu::AddSeparator)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x70a8d04;
+  constexpr static std::size_t addrs = 0x70a9de4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UIToolkitUtilities::GenericDropdownMenu::*)(::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*, bool)>(
     &::BGLib::UIToolkitUtilities::GenericDropdownMenu::DropDown)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x70a8d20;
+  constexpr static std::size_t addrs = 0x70a9e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UIToolkitUtilities::GenericDropdownMenu::*)(::StringW, bool)>(&::BGLib::UIToolkitUtilities::GenericDropdownMenu::UpdateItem)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x70a8d48;
+  constexpr static std::size_t addrs = 0x70a9e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

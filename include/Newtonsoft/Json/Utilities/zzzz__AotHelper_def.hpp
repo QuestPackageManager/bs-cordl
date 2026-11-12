@@ -217,7 +217,7 @@ public:
   __declspec(property(get = getStaticF_s_alwaysFalse, put = setStaticF_s_alwaysFalse)) bool s_alwaysFalse;
 
   /// [NullableContext(1)]
-  /// @brief Method Ensure, addr 0x6170700, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Ensure, addr 0x6170988, size 0x17c, virtual false, abstract: false, final false
   static inline void Ensure(::System::Action* action);
 
   /// @brief Method EnsureDictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -231,7 +231,7 @@ public:
     requires(::cordl_internals::default_constructor_constraint<T>)
   static inline void EnsureType();
 
-  /// @brief Method IsFalse, addr 0x617087c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsFalse, addr 0x6170b04, size 0x5c, virtual false, abstract: false, final false
   static inline bool IsFalse();
 
   static inline bool getStaticF_s_alwaysFalse();

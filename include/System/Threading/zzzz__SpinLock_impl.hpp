@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SpinLock::*)(bool)>(&::System::Threading::SpinLock::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6105c78;
+  constexpr static std::size_t addrs = 0x6105f00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SpinLock>(), { ".ctor", {}, { ::i2c::type_of<bool>() } })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SpinLock::*)(::by_ref<bool>)>(&::System::Threading::SpinLock::Enter)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6105c94;
+  constexpr static std::size_t addrs = 0x6105f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SpinLock>(), { "Enter", {}, { ::i2c::type_of<::by_ref<bool>>() } })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SpinLock::*)(int32_t, ::by_ref<bool>)>(&::System::Threading::SpinLock::TryEnter)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x61061c4;
+  constexpr static std::size_t addrs = 0x610644c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SpinLock::*)(int32_t, ::by_ref<bool>)>(&::System::Threading::SpinLock::ContinueTryEnter)> {
   constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x6105d60;
+  constexpr static std::size_t addrs = 0x6105fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SpinLock::*)()>(&::System::Threading::SpinLock::DecrementWaiters)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6106428;
+  constexpr static std::size_t addrs = 0x61066b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SpinLock>(), { "DecrementWaiters", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SpinLock::*)(int32_t, uint32_t, ::by_ref<bool>)>(
     &::System::Threading::SpinLock::ContinueTryEnterWithThreadTracking)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x61062b4;
+  constexpr static std::size_t addrs = 0x610653c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SpinLock::*)()>(&::System::Threading::SpinLock::Exit)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x61064d0;
+  constexpr static std::size_t addrs = 0x6106758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SpinLock>(), { "Exit", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SpinLock::*)(bool)>(&::System::Threading::SpinLock::Exit)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6106660;
+  constexpr static std::size_t addrs = 0x61068e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SpinLock>(), { "Exit", {}, { ::i2c::type_of<bool>() } })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Threading::SpinLock::*)(bool)>(&::System::Threading::SpinLock::ExitSlowPath)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6106558;
+  constexpr static std::size_t addrs = 0x61067e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SpinLock>(), { "ExitSlowPath", {}, { ::i2c::type_of<bool>() } })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::SpinLock::*)()>(&::System::Threading::SpinLock::get_IsHeldByCurrentThread)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x61066f4;
+  constexpr static std::size_t addrs = 0x610697c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SpinLock>(), { "get_IsHeldByCurrentThread", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Threading::SpinLock::*)()>(&::System::Threading::SpinLock::get_IsThreadOwnerTrackingEnabled)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x61062a0;
+  constexpr static std::size_t addrs = 0x6106528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::SpinLock>(), { "get_IsThreadOwnerTrackingEnabled", {}, {} })));

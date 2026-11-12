@@ -27,18 +27,18 @@ public:
   // Declarations
   __declspec(property(get = get_AddressFamily)) ::System::Net::Sockets::AddressFamily AddressFamily;
 
-  /// @brief Method Create, addr 0x6870b10, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x6871160, size 0x24, virtual true, abstract: false, final false
   inline ::System::Net::EndPoint* Create(::System::Net::SocketAddress* socketAddress);
 
   static inline ::System::Net::EndPoint* New_ctor();
 
-  /// @brief Method Serialize, addr 0x6870a68, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x68710b8, size 0x24, virtual true, abstract: false, final false
   inline ::System::Net::SocketAddress* Serialize();
 
-  /// @brief Method .ctor, addr 0x6870b34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6871184, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AddressFamily, addr 0x68709c0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_AddressFamily, addr 0x6871010, size 0x24, virtual true, abstract: false, final false
   inline ::System::Net::Sockets::AddressFamily get_AddressFamily();
 
 protected:

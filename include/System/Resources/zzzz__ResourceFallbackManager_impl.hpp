@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::*)(int32_t)>(
     &::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc7a7c;
+  constexpr static std::size_t addrs = 0x5fc7d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::*)()>(
     &::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fc7a84;
+  constexpr static std::size_t addrs = 0x5fc7d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::*)()>(
     &::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x5fc7a88;
+  constexpr static std::size_t addrs = 0x5fc7d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::CultureInfo* (::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::*)()>(
     &::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::System_Collections_Generic_IEnumerator_System_Globalization_CultureInfo__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc7c44;
+  constexpr static std::size_t addrs = 0x5fc7ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceFallbackManager__GetEnumerator_d__5*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::*)()>(
     &::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5fc7c4c;
+  constexpr static std::size_t addrs = 0x5fc7ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::*)()>(
     &::System::Resources::ResourceFallbackManager__GetEnumerator_d__5::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc7c84;
+  constexpr static std::size_t addrs = 0x5fc7f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::ResourceFallbackManager::*)(::System::Globalization::CultureInfo*, ::System::Globalization::CultureInfo*, bool)>(
     &::System::Resources::ResourceFallbackManager::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5fc7998;
+  constexpr static std::size_t addrs = 0x5fc7c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Resources::ResourceFallbackManager::*)()>(
     &::System::Resources::ResourceFallbackManager::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5fc7a24;
+  constexpr static std::size_t addrs = 0x5fc7cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Globalization::CultureInfo*>* (::System::Resources::ResourceFallbackManager::*)()>(
     &::System::Resources::ResourceFallbackManager::GetEnumerator)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5fc7a28;
+  constexpr static std::size_t addrs = 0x5fc7cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::ResourceFallbackManager*>(), { "GetEnumerator", {}, {} })));

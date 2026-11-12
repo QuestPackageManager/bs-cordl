@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventInterests::*)()>(&::UnityEngine::EventInterests::get_wantsMouseMove)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdaeb4;
+  constexpr static std::size_t addrs = 0x6fdbf94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventInterests>(), { "get_wantsMouseMove", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventInterests::*)(bool)>(&::UnityEngine::EventInterests::set_wantsMouseMove)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdaebc;
+  constexpr static std::size_t addrs = 0x6fdbf9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventInterests::*)()>(&::UnityEngine::EventInterests::get_wantsMouseEnterLeaveWindow)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdaec4;
+  constexpr static std::size_t addrs = 0x6fdbfa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventInterests>(), { "get_wantsMouseEnterLeaveWindow", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::EventInterests::*)(bool)>(&::UnityEngine::EventInterests::set_wantsMouseEnterLeaveWindow)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdaecc;
+  constexpr static std::size_t addrs = 0x6fdbfac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventInterests::*)()>(&::UnityEngine::EventInterests::get_wantsLessLayoutEvents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fdaed4;
+  constexpr static std::size_t addrs = 0x6fdbfb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventInterests>(), { "get_wantsLessLayoutEvents", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventInterests::*)(::UnityEngine::EventType)>(&::UnityEngine::EventInterests::WantsEvent)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6fdaedc;
+  constexpr static std::size_t addrs = 0x6fdbfbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::EventInterests::*)(::UnityEngine::EventType)>(&::UnityEngine::EventInterests::WantsLayoutPass)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6fdaf0c;
+  constexpr static std::size_t addrs = 0x6fdbfec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

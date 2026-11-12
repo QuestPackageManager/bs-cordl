@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::StandalonePlatform_UnityLogDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::Oculus::Platform::StandalonePlatform_UnityLogDelegate::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6242678;
+  constexpr static std::size_t addrs = 0x6242900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::StandalonePlatform_UnityLogDelegate*>(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::StandalonePlatform_UnityLogDelegate::*)(::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::StandalonePlatform_UnityLogDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x62426e4;
+  constexpr static std::size_t addrs = 0x624296c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::StandalonePlatform_UnityLogDelegate*>(),
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::IAsyncResult* (::Oculus::Platform::StandalonePlatform_UnityLogDelegate::*)(::System::IntPtr, ::System::IntPtr, ::System::AsyncCallback*, ::System::Object*)>(
         &::Oculus::Platform::StandalonePlatform_UnityLogDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x62426f8;
+  constexpr static std::size_t addrs = 0x6242980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::StandalonePlatform_UnityLogDelegate*>(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::StandalonePlatform_UnityLogDelegate::*)(::System::IAsyncResult*)>(
     &::Oculus::Platform::StandalonePlatform_UnityLogDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6242768;
+  constexpr static std::size_t addrs = 0x62429f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Oculus::Platform::StandalonePlatform_UnityLogDelegate*>(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* (::Oculus::Platform::StandalonePlatform::*)()>(
     &::Oculus::Platform::StandalonePlatform::InitializeInEditor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6234c94;
+  constexpr static std::size_t addrs = 0x6234f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::StandalonePlatform*>(), { "InitializeInEditor", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* (
     ::Oculus::Platform::StandalonePlatform::*)(uint64_t, ::StringW)>(&::Oculus::Platform::StandalonePlatform::AsyncInitialize)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6241ce0;
+  constexpr static std::size_t addrs = 0x6241f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +129,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Reque
     ::Oculus::Platform::StandalonePlatform::*)(::StringW, ::StringW, ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::InitConfigOptions, bool>*)>(
     &::Oculus::Platform::StandalonePlatform::AsyncInitializeWithAccessTokenAndOptions)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x62351c8;
+  constexpr static std::size_t addrs = 0x6235450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::StandalonePlatform::*)()>(&::Oculus::Platform::StandalonePlatform::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6234c90;
+  constexpr static std::size_t addrs = 0x6234f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::StandalonePlatform*>(), { ".ctor", {}, {} })));

@@ -29,13 +29,13 @@ public:
 
   static inline ::GlobalNamespace::OculusInvitePlatformHandler* New_ctor();
 
-  /// @brief Method OpenInvitePanel, addr 0x39e6728, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method OpenInvitePanel, addr 0x39eb7d0, size 0x5c, virtual true, abstract: false, final true
   inline void OpenInvitePanel();
 
-  /// @brief Method .ctor, addr 0x39e6784, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39eb82c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isSupported, addr 0x39e6720, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isSupported, addr 0x39eb7c8, size 0x8, virtual true, abstract: false, final true
   inline bool get_isSupported();
 
   /// @brief Convert to "::GlobalNamespace::IInvitePlatformHandler"
@@ -56,7 +56,7 @@ public:
   OculusInvitePlatformHandler(OculusInvitePlatformHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14563 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14566 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

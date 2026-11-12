@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::BoolCvar::Init)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35d3894;
+  constexpr static std::size_t addrs = 0x35d7cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BoolCvar*>(), { "Init", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BoolCvar::*)(::StringW, bool)>(&::GlobalNamespace::BoolCvar::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x35d3900;
+  constexpr static std::size_t addrs = 0x35d7d58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

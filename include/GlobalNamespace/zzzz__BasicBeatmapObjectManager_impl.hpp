@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager_InitData::*)(bool, bool, float_t, float_t)>(
     &::GlobalNamespace::BasicBeatmapObjectManager_InitData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d11ad8;
+  constexpr static std::size_t addrs = 0x5d11a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* (::GlobalNamespace::BasicBeatmapObjectManager::*)()>(
     &::GlobalNamespace::BasicBeatmapObjectManager::get_activeObstacleControllers)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5d10a64;
+  constexpr static std::size_t addrs = 0x5d10a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::GameNoteController_Pool*, ::GlobalNamespace::GameNoteController_Pool*, ::GlobalNamespace::BurstSliderGameNoteController_Pool*, ::GlobalNamespace::BombNoteController_Pool*,
     ::GlobalNamespace::ObstacleController_Pool*, ::GlobalNamespace::SliderController_Pool*)>(&::GlobalNamespace::BasicBeatmapObjectManager::Init)> {
   constexpr static std::size_t size = 0x5a4;
-  constexpr static std::size_t addrs = 0x5d10ab8;
+  constexpr static std::size_t addrs = 0x5d10a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(::GlobalNamespace::ObstacleData*, ::by_ref<::GlobalNamespace::ObstacleSpawnData const>)>(
     &::GlobalNamespace::BasicBeatmapObjectManager::ProcessObstacleData)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5d1105c;
+  constexpr static std::size_t addrs = 0x5d11018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5d1110c;
+  constexpr static std::size_t addrs = 0x5d110c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(::GlobalNamespace::NoteData*, ::by_ref<::GlobalNamespace::NoteSpawnData const>, bool)>(
     &::GlobalNamespace::BasicBeatmapObjectManager::ProcessNoteData)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x5d11170;
+  constexpr static std::size_t addrs = 0x5d1112c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x5d11464;
+  constexpr static std::size_t addrs = 0x5d11420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(::GlobalNamespace::SliderData*, ::by_ref<::GlobalNamespace::SliderSpawnData const>)>(
     &::GlobalNamespace::BasicBeatmapObjectManager::ProcessSliderData)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x5d1166c;
+  constexpr static std::size_t addrs = 0x5d11628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::BasicBeatmapObjectManager::DespawnInternal)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5d118a8;
+  constexpr static std::size_t addrs = 0x5d11864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)()>(&::GlobalNamespace::BasicBeatmapObjectManager::__InvalidateGameNotePools)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5d11958;
+  constexpr static std::size_t addrs = 0x5d11914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BasicBeatmapObjectManager*>(), { "__InvalidateGameNotePools", {}, {} })));
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)()>(&::GlobalNamespace::BasicBeatmapObjectManager::__InvalidateBombNotePool)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5d11a30;
+  constexpr static std::size_t addrs = 0x5d119ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BasicBeatmapObjectManager*>(), { "__InvalidateBombNotePool", {}, {} })));
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BasicBeatmapObjectManager::*)()>(&::GlobalNamespace::BasicBeatmapObjectManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d11ad0;
+  constexpr static std::size_t addrs = 0x5d11a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BasicBeatmapObjectManager*>(), { ".ctor", {}, {} })));

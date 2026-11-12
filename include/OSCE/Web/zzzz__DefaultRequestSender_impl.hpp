@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OSCE::Web::DefaultRequestSender::*)(::OSCE::Analytics::AnalyticsManager*)>(&::OSCE::Web::DefaultRequestSender::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x638f3b8;
+  constexpr static std::size_t addrs = 0x638f914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::OSCE::Web::DefaultRequestSender::*)(::StringW, ::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*, ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>*,
                                                             ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>*)>(&::OSCE::Web::DefaultRequestSender::SendBatchRequest)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x638f3c0;
+  constexpr static std::size_t addrs = 0x638f91c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::OSCE::Web::DefaultRequestSender::*)(::StringW, ::StringW, ::OSCE::Analytics::GetIdParams, ::System::Action_2<::StringW, ::OSCE::Analytics::LoggerAnalyticsBatch*>*,
                                                             ::System::Action_2<::System::Exception*, ::OSCE::Web::FailedPostRequest>*)>(&::OSCE::Web::DefaultRequestSender::SendIdRequest)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x638f5e0;
+  constexpr static std::size_t addrs = 0x638fb3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

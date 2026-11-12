@@ -26,13 +26,13 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Controls::TouchPhaseControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x6962b2c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x6963c0c, size 0x80, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::TouchPhase ReadUnprocessedValueFromState(void* statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x6962bac, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x6963c8c, size 0x6c, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::InputSystem::TouchPhase value, void* statePtr);
 
-  /// @brief Method .ctor, addr 0x6962aa8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6963b88, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

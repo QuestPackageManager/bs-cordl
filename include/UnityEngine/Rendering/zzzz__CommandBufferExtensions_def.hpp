@@ -36,30 +36,30 @@ class CORDL_TYPE CommandBufferExtensions : public ::System::Object {
 public:
   // Declarations
   /// [FreeFunction("RenderingCommandBufferExtensions_Bindings::Internal_SwitchIntoFastMemory")]
-  /// @brief Method Internal_SwitchIntoFastMemory, addr 0x6fb6ee8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Internal_SwitchIntoFastMemory, addr 0x6fb7fc8, size 0xc8, virtual false, abstract: false, final false
   static inline void Internal_SwitchIntoFastMemory(/* [NotNull] */ ::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt,
                                                    ::UnityEngine::Rendering::FastMemoryFlags fastMemoryFlags, float_t residency, bool copyContents);
 
-  /// @brief Method Internal_SwitchIntoFastMemory_Injected, addr 0x6fb6fb0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Internal_SwitchIntoFastMemory_Injected, addr 0x6fb8090, size 0x6c, virtual false, abstract: false, final false
   static inline void Internal_SwitchIntoFastMemory_Injected(::System::IntPtr cmd, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt,
                                                             ::UnityEngine::Rendering::FastMemoryFlags fastMemoryFlags, float_t residency, bool copyContents);
 
   /// [FreeFunction("RenderingCommandBufferExtensions_Bindings::Internal_SwitchOutOfFastMemory")]
-  /// @brief Method Internal_SwitchOutOfFastMemory, addr 0x6fb701c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Internal_SwitchOutOfFastMemory, addr 0x6fb80fc, size 0xa8, virtual false, abstract: false, final false
   static inline void Internal_SwitchOutOfFastMemory(/* [NotNull] */ ::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt, bool copyContents);
 
-  /// @brief Method Internal_SwitchOutOfFastMemory_Injected, addr 0x6fb70c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_SwitchOutOfFastMemory_Injected, addr 0x6fb81a4, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_SwitchOutOfFastMemory_Injected(::System::IntPtr cmd, ::by_ref<::UnityEngine::Rendering::RenderTargetIdentifier> rt, bool copyContents);
 
   /// [Extension]
   /// [NativeConditional("UNITY_XBOXONE || UNITY_GAMECORE_XBOXONE")]
-  /// @brief Method SwitchIntoFastMemory, addr 0x6fb7118, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SwitchIntoFastMemory, addr 0x6fb81f8, size 0x4, virtual false, abstract: false, final false
   static inline void SwitchIntoFastMemory(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier rid, ::UnityEngine::Rendering::FastMemoryFlags fastMemoryFlags,
                                           float_t residency, bool copyContents);
 
   /// [NativeConditional("UNITY_XBOXONE || UNITY_GAMECORE_XBOXONE")]
   /// [Extension]
-  /// @brief Method SwitchOutOfFastMemory, addr 0x6fb711c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SwitchOutOfFastMemory, addr 0x6fb81fc, size 0x4, virtual false, abstract: false, final false
   static inline void SwitchOutOfFastMemory(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RenderTargetIdentifier rid, bool copyContents);
 
 protected:

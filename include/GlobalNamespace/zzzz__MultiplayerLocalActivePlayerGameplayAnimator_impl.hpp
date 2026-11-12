@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::OnDestroy)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5e1e698;
+  constexpr static std::size_t addrs = 0x5e1eac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::InitializeIfNeeded)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5e1e7a4;
+  constexpr static std::size_t addrs = 0x5e1ebd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::*)(::GlobalNamespace::MultiplayerController_State)>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::HandleStateChanged)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x5e1e8ec;
+  constexpr static std::size_t addrs = 0x5e1ed1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator*>(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::*)(bool)>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::AnimateNewLeaderSelected)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5e1eb48;
+  constexpr static std::size_t addrs = 0x5e1ef78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::TransitionIntoFailedState)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5e1eaa4;
+  constexpr static std::size_t addrs = 0x5e1eed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::*)(::GlobalNamespace::MultiplayerLevelCompletionResults*)>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::HandlePlayerDidFinish)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5e1ec18;
+  constexpr static std::size_t addrs = 0x5e1f048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5e1ec3c;
+  constexpr static std::size_t addrs = 0x5e1f06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator*>(), { ".ctor", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::*)(float_t)>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::_InitializeIfNeeded_b__6_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5e1ec4c;
+  constexpr static std::size_t addrs = 0x5e1f07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -22,6 +22,7 @@
 #include "GlobalNamespace/zzzz__IStandaloneMonobehavior_def.hpp"
 #include "GlobalNamespace/zzzz__IStandaloneThreadRunnable_def.hpp"
 #include "GlobalNamespace/zzzz__IStandaloneThreadRunner_def.hpp"
+#include "GlobalNamespace/zzzz__MenuRpcManager_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerFiniteStateMachine_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerGamePoseGeneratorAI_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerInstance_def.hpp"
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance_FsmTickRunnable::*)(::GlobalNamespace::MockPlayerInstance*, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockPlayerInstance_FsmTickRunnable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edbcf0;
+  constexpr static std::size_t addrs = 0x5edbf78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayerInstance_FsmTickRunnable::*)()>(&::GlobalNamespace::MockPlayerInstance_FsmTickRunnable::MoveNext)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5edbcf8;
+  constexpr static std::size_t addrs = 0x5edbf80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance_FsmTickRunnable*>(), { "MoveNext", {}, {} })));
@@ -65,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance_FsmTickRunnable::*)()>(&::GlobalNamespace::MockPlayerInstance_FsmTickRunnable::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5edbd8c;
+  constexpr static std::size_t addrs = 0x5edc014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance_FsmTickRunnable*>(), { "Dispose", {}, {} })));
@@ -132,92 +133,92 @@ constexpr ::System::IDisposable* GlobalNamespace::MockPlayerInstance_FsmTickRunn
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPlayerInstance_FsmTickRunnable::MockPlayerInstance_FsmTickRunnable() {}
-template <typename T> constexpr ::GlobalNamespace::MockPlayerInstance*& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get___4__this() {
+template <typename T> constexpr ::GlobalNamespace::MockPlayerInstance*& GlobalNamespace::MockPlayerInstance___c__DisplayClass27_0_1<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr ::GlobalNamespace::MockPlayerInstance* const& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get___4__this() const {
+template <typename T> constexpr ::GlobalNamespace::MockPlayerInstance* const& GlobalNamespace::MockPlayerInstance___c__DisplayClass27_0_1<T>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_set___4__this(::GlobalNamespace::MockPlayerInstance* value) {
+template <typename T> constexpr void GlobalNamespace::MockPlayerInstance___c__DisplayClass27_0_1<T>::__cordl_internal_set___4__this(::GlobalNamespace::MockPlayerInstance* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-template <typename T> constexpr ::GlobalNamespace::IConnectionInitParams_1<T>*& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get_connectionInitParams() {
+template <typename T> constexpr ::GlobalNamespace::IConnectionInitParams_1<T>*& GlobalNamespace::MockPlayerInstance___c__DisplayClass27_0_1<T>::__cordl_internal_get_connectionInitParams() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionInitParams;
 }
 template <typename T>
-constexpr ::GlobalNamespace::IConnectionInitParams_1<T>* const& GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_get_connectionInitParams() const {
+constexpr ::GlobalNamespace::IConnectionInitParams_1<T>* const& GlobalNamespace::MockPlayerInstance___c__DisplayClass27_0_1<T>::__cordl_internal_get_connectionInitParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionInitParams;
 }
-template <typename T> constexpr void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::__cordl_internal_set_connectionInitParams(::GlobalNamespace::IConnectionInitParams_1<T>* value) {
+template <typename T> constexpr void GlobalNamespace::MockPlayerInstance___c__DisplayClass27_0_1<T>::__cordl_internal_set_connectionInitParams(::GlobalNamespace::IConnectionInitParams_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___connectionInitParams = value;
 }
-template <typename T> inline void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>*>(), { ".ctor", {}, {} })));
+template <typename T> inline void GlobalNamespace::MockPlayerInstance___c__DisplayClass27_0_1<T>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance___c__DisplayClass27_0_1<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline void GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::_ConnectToServer_b__0() {
+template <typename T> inline void GlobalNamespace::MockPlayerInstance___c__DisplayClass27_0_1<T>::_ConnectToServer_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>*>(), { "<ConnectToServer>b__0", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance___c__DisplayClass27_0_1<T>*>(), { "<ConnectToServer>b__0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline ::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>* GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::New_ctor() {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>*>());
+template <typename T> inline ::GlobalNamespace::MockPlayerInstance___c__DisplayClass27_0_1<T>* GlobalNamespace::MockPlayerInstance___c__DisplayClass27_0_1<T>::New_ctor() {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::MockPlayerInstance___c__DisplayClass27_0_1<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::MockPlayerInstance___c__DisplayClass26_0_1<T>::MockPlayerInstance___c__DisplayClass26_0_1() {}
-//  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33.MoveNext
+template <typename T> constexpr ::GlobalNamespace::MockPlayerInstance___c__DisplayClass27_0_1<T>::MockPlayerInstance___c__DisplayClass27_0_1() {}
+//  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__34.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33::*)()>(&::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__34::*)()>(&::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__34::MoveNext)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x5edbd90;
+  constexpr static std::size_t addrs = 0x5edc018;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__34>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__34.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__34::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__34::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5edc024;
+  constexpr static std::size_t addrs = 0x5edc2ac;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__34>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33>(), { "MoveNext", {}, {} })));
+inline void GlobalNamespace::MockPlayerInstance__DisposeAsync_d__34::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__34>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33>(),
+inline void GlobalNamespace::MockPlayerInstance__DisposeAsync_d__34::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__34>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::MockPlayerInstance__DisposeAsync_d__34::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::MockPlayerInstance__DisposeAsync_d__34::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockPlayerInstance*",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33::MockPlayerInstance__DisposeAsync_d__33(int32_t __1__state,
+constexpr ::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__34::MockPlayerInstance__DisposeAsync_d__34(int32_t __1__state,
                                                                                                             ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                                             ::GlobalNamespace::MockPlayerInstance* __4__this,
                                                                                                             ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
@@ -227,48 +228,48 @@ constexpr ::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33::MockPlayerI
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__33::MockPlayerInstance__DisposeAsync_d__33() {}
-//  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance__RunAsync_d__27.MoveNext
+constexpr ::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__34::MockPlayerInstance__DisposeAsync_d__34() {}
+//  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance__RunAsync_d__28.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance__RunAsync_d__27::*)()>(&::GlobalNamespace::MockPlayerInstance__RunAsync_d__27::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance__RunAsync_d__28::*)()>(&::GlobalNamespace::MockPlayerInstance__RunAsync_d__28::MoveNext)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x5edc090;
+  constexpr static std::size_t addrs = 0x5edc318;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__RunAsync_d__27>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__RunAsync_d__28>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance__RunAsync_d__27.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance__RunAsync_d__28.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance__RunAsync_d__27::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::MockPlayerInstance__RunAsync_d__27::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance__RunAsync_d__28::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::MockPlayerInstance__RunAsync_d__28::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5edc434;
+  constexpr static std::size_t addrs = 0x5edc6bc;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__RunAsync_d__27>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__RunAsync_d__28>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::MockPlayerInstance__RunAsync_d__27::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__RunAsync_d__27>(), { "MoveNext", {}, {} })));
+inline void GlobalNamespace::MockPlayerInstance__RunAsync_d__28::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__RunAsync_d__28>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::MockPlayerInstance__RunAsync_d__27::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__RunAsync_d__27>(),
+inline void GlobalNamespace::MockPlayerInstance__RunAsync_d__28::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__RunAsync_d__28>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::MockPlayerInstance__RunAsync_d__27::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::MockPlayerInstance__RunAsync_d__28::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::MockPlayerInstance__RunAsync_d__27::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::MockPlayerInstance__RunAsync_d__28::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
@@ -276,7 +277,7 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockPlayerInstance*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam {
 // name: "runner", ty: "::GlobalNamespace::IStandaloneThreadRunner*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::MockPlayerInstance__RunAsync_d__27::MockPlayerInstance__RunAsync_d__27(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+constexpr ::GlobalNamespace::MockPlayerInstance__RunAsync_d__28::MockPlayerInstance__RunAsync_d__28(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                                     ::System::Threading::CancellationToken token, ::GlobalNamespace::MockPlayerInstance* __4__this,
                                                                                                     ::GlobalNamespace::IStandaloneThreadRunner* runner,
                                                                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
@@ -288,54 +289,54 @@ constexpr ::GlobalNamespace::MockPlayerInstance__RunAsync_d__27::MockPlayerInsta
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MockPlayerInstance__RunAsync_d__27::MockPlayerInstance__RunAsync_d__27() {}
-//  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance__Stop_d__30.MoveNext
+constexpr ::GlobalNamespace::MockPlayerInstance__RunAsync_d__28::MockPlayerInstance__RunAsync_d__28() {}
+//  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance__Stop_d__31.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance__Stop_d__30::*)()>(&::GlobalNamespace::MockPlayerInstance__Stop_d__30::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance__Stop_d__31::*)()>(&::GlobalNamespace::MockPlayerInstance__Stop_d__31::MoveNext)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5edc4a0;
+  constexpr static std::size_t addrs = 0x5edc728;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__Stop_d__30>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__Stop_d__31>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance__Stop_d__30.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance__Stop_d__31.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance__Stop_d__30::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::MockPlayerInstance__Stop_d__30::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance__Stop_d__31::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::MockPlayerInstance__Stop_d__31::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edc624;
+  constexpr static std::size_t addrs = 0x5edc8ac;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__Stop_d__30>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__Stop_d__31>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::MockPlayerInstance__Stop_d__30::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__Stop_d__30>(), { "MoveNext", {}, {} })));
+inline void GlobalNamespace::MockPlayerInstance__Stop_d__31::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__Stop_d__31>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::MockPlayerInstance__Stop_d__30::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__Stop_d__30>(),
+inline void GlobalNamespace::MockPlayerInstance__Stop_d__31::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance__Stop_d__31>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::MockPlayerInstance__Stop_d__30::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::MockPlayerInstance__Stop_d__31::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::MockPlayerInstance__Stop_d__30::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::MockPlayerInstance__Stop_d__31::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockPlayerInstance*",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::MockPlayerInstance__Stop_d__30::MockPlayerInstance__Stop_d__30(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+constexpr ::GlobalNamespace::MockPlayerInstance__Stop_d__31::MockPlayerInstance__Stop_d__31(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                             ::GlobalNamespace::MockPlayerInstance* __4__this,
                                                                                             ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -344,13 +345,13 @@ constexpr ::GlobalNamespace::MockPlayerInstance__Stop_d__30::MockPlayerInstance_
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MockPlayerInstance__Stop_d__30::MockPlayerInstance__Stop_d__30() {}
+constexpr ::GlobalNamespace::MockPlayerInstance__Stop_d__31::MockPlayerInstance__Stop_d__31() {}
 //  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance.get_id
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MockPlayerInstance::*)()>(&::GlobalNamespace::MockPlayerInstance::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edb23c;
+  constexpr static std::size_t addrs = 0x5edb4bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(), { "get_id", {}, {} })));
@@ -362,7 +363,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MockPlayerInstance::*)()>(&::GlobalNamespace::MockPlayerInstance::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edb244;
+  constexpr static std::size_t addrs = 0x5edb4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(), { "get_userId", {}, {} })));
@@ -374,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MockPlayerInstance::*)()>(&::GlobalNamespace::MockPlayerInstance::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edb24c;
+  constexpr static std::size_t addrs = 0x5edb4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(), { "get_userName", {}, {} })));
@@ -387,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::GlobalNamespace::DisconnectedReason> (::GlobalNamespace::MockPlayerInstance::*)()>(
     &::GlobalNamespace::MockPlayerInstance::get_disconnectedReason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edb254;
+  constexpr static std::size_t addrs = 0x5edb4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(), { "get_disconnectedReason", {}, {} })));
@@ -400,7 +401,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance::*)(::System::Nullable_1<::GlobalNamespace::DisconnectedReason>)>(
     &::GlobalNamespace::MockPlayerInstance::set_disconnectedReason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edb25c;
+  constexpr static std::size_t addrs = 0x5edb4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -415,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::GlobalNamespace::ConnectionFailedReason> (::GlobalNamespace::MockPlayerInstance::*)()>(
     &::GlobalNamespace::MockPlayerInstance::get_connectionFailedReason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edb264;
+  constexpr static std::size_t addrs = 0x5edb4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(), { "get_connectionFailedReason", {}, {} })));
@@ -428,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance::*)(::System::Nullable_1<::GlobalNamespace::ConnectionFailedReason>)>(
     &::GlobalNamespace::MockPlayerInstance::set_connectionFailedReason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5edb26c;
+  constexpr static std::size_t addrs = 0x5edb4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -443,8 +444,8 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance::*)(::BGNet::Core::ITimeProvider*, ::BGNet::Core::ITaskUtility*,
                                                                                                        ::GlobalNamespace::IMockBeatmapDataProvider*, ::GlobalNamespace::IConnectionManager*)>(
     &::GlobalNamespace::MockPlayerInstance::_ctor)> {
-  constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x5edb274;
+  constexpr static std::size_t size = 0x45c;
+  constexpr static std::size_t addrs = 0x5edb4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -461,7 +462,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance::*)()>(&::GlobalNamespace::MockPlayerInstance::Tick)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5edb6cc;
+  constexpr static std::size_t addrs = 0x5edb954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(), { "Tick", {}, {} })));
@@ -474,7 +475,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::MockPlayerInstance::*)(::GlobalNamespace::IStandaloneThreadRunner*, ::System::Threading::CancellationToken)>(&::GlobalNamespace::MockPlayerInstance::RunAsync)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x5edb6e0;
+  constexpr static std::size_t addrs = 0x5edb968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -488,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance::*)(::System::Action*)>(&::GlobalNamespace::MockPlayerInstance::WhenReady)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5edb7a4;
+  constexpr static std::size_t addrs = 0x5edba2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -502,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::MockPlayerInstance::*)(::System::Func_1<::System::Threading::Tasks::Task*>*)>(
     &::GlobalNamespace::MockPlayerInstance::WhenReadyAsync)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5edb7bc;
+  constexpr static std::size_t addrs = 0x5edba44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(),
@@ -515,7 +516,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance::*)()>(&::GlobalNamespace::MockPlayerInstance::Stop)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5edb7d4;
+  constexpr static std::size_t addrs = 0x5edba5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(), { "Stop", {}, {} })));
@@ -528,7 +529,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance::*)(::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::MockPlayerInstance::HandleDisconnectedEvent)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5edb878;
+  constexpr static std::size_t addrs = 0x5edbb00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -543,7 +544,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance::*)(::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::MockPlayerInstance::HandleConnectionFailedEvent)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5edb8d4;
+  constexpr static std::size_t addrs = 0x5edbb5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(),
@@ -556,7 +557,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::MockPlayerInstance::*)()>(&::GlobalNamespace::MockPlayerInstance::DisposeAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5edb930;
+  constexpr static std::size_t addrs = 0x5edbbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(), { "DisposeAsync", {}, {} })));
@@ -568,22 +569,22 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerInstance::*)()>(&::GlobalNamespace::MockPlayerInstance::Dispose)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x5edb9e0;
+  constexpr static std::size_t addrs = 0x5edbc68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(), { "Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance._DisposeAsync_b__33_0
+//  Writing Method size for method: ::GlobalNamespace::MockPlayerInstance._DisposeAsync_b__34_0
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::MockPlayerInstance::*)()>(&::GlobalNamespace::MockPlayerInstance::_DisposeAsync_b__33_0)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::MockPlayerInstance::*)()>(&::GlobalNamespace::MockPlayerInstance::_DisposeAsync_b__34_0)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x5edba98;
+  constexpr static std::size_t addrs = 0x5edbd20;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(), { "<DisposeAsync>b__33_0", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(), { "<DisposeAsync>b__34_0", {}, {} })));
     return ___internal_method;
   }
 };
@@ -707,6 +708,18 @@ constexpr void GlobalNamespace::MockPlayerInstance::__cordl_internal_set__connec
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____connectedPlayerManager = value;
 }
+constexpr ::GlobalNamespace::MenuRpcManager*& GlobalNamespace::MockPlayerInstance::__cordl_internal_get__menuRpcManager() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____menuRpcManager;
+}
+constexpr ::GlobalNamespace::MenuRpcManager* const& GlobalNamespace::MockPlayerInstance::__cordl_internal_get__menuRpcManager() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____menuRpcManager;
+}
+constexpr void GlobalNamespace::MockPlayerInstance::__cordl_internal_set__menuRpcManager(::GlobalNamespace::MenuRpcManager* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____menuRpcManager = value;
+}
 constexpr ::GlobalNamespace::MockPlayerFiniteStateMachine*& GlobalNamespace::MockPlayerInstance::__cordl_internal_get__fsm() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fsm;
@@ -825,8 +838,8 @@ inline void GlobalNamespace::MockPlayerInstance::Dispose() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(), { "Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task* GlobalNamespace::MockPlayerInstance::_DisposeAsync_b__33_0() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(), { "<DisposeAsync>b__33_0", {}, {} })));
+inline ::System::Threading::Tasks::Task* GlobalNamespace::MockPlayerInstance::_DisposeAsync_b__34_0() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerInstance*>(), { "<DisposeAsync>b__34_0", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*>(this, ___internal_method);
 }
 inline ::GlobalNamespace::MockPlayerInstance* GlobalNamespace::MockPlayerInstance::New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility,

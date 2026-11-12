@@ -28,13 +28,13 @@ public:
 
   __declspec(property(get = get_Variant)) ::System::Net::CookieVariant Variant;
 
-  /// @brief Method .ctor, addr 0x6882174, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68827c4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::CookieVariant variant);
 
-  /// @brief Method get_Name, addr 0x6882180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x68827d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Variant, addr 0x6882188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Variant, addr 0x68827d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::CookieVariant get_Variant();
 
   // Ctor Parameters []

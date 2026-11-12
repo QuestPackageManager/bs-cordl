@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::ComponentModel::DesignTimeVisibleAttribute::*)(bool)>(&::System::ComponentModel::DesignTimeVisibleAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6825148;
+  constexpr static std::size_t addrs = 0x6825798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::DesignTimeVisibleAttribute::*)()>(&::System::ComponentModel::DesignTimeVisibleAttribute::get_Visible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6825150;
+  constexpr static std::size_t addrs = 0x68257a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ComponentModel::DesignTimeVisibleAttribute*>(), { "get_Visible", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::DesignTimeVisibleAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::DesignTimeVisibleAttribute::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6825158;
+  constexpr static std::size_t addrs = 0x68257a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::DesignTimeVisibleAttribute*>(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::ComponentModel::DesignTimeVisibleAttribute::*)()>(&::System::ComponentModel::DesignTimeVisibleAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x68251f0;
+  constexpr static std::size_t addrs = 0x6825840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::DesignTimeVisibleAttribute*>(),
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::ComponentModel::DesignTimeVisibleAttribute::*)()>(&::System::ComponentModel::DesignTimeVisibleAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6825278;
+  constexpr static std::size_t addrs = 0x68258c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::ComponentModel::DesignTimeVisibleAttribute*>(),

@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* (
     ::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&::System::Net::Http::Headers::CacheControlHeaderValue::get_Extensions)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x653bd08;
+  constexpr static std::size_t addrs = 0x653c358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(), { "get_Extensions", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::TimeSpan> (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_MaxAge)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x653bd88;
+  constexpr static std::size_t addrs = 0x653c3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(), { "get_MaxAge", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(::System::Nullable_1<::System::TimeSpan>)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_MaxAge)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653bd94;
+  constexpr static std::size_t addrs = 0x653c3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(),
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&::System::Net::Http::Headers::CacheControlHeaderValue::get_MaxStale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653bd9c;
+  constexpr static std::size_t addrs = 0x653c3ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(), { "get_MaxStale", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(&::System::Net::Http::Headers::CacheControlHeaderValue::set_MaxStale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653bda4;
+  constexpr static std::size_t addrs = 0x653c3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::TimeSpan> (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_MaxStaleLimit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x653bdac;
+  constexpr static std::size_t addrs = 0x653c3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(::System::Nullable_1<::System::TimeSpan>)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_MaxStaleLimit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653bdb8;
+  constexpr static std::size_t addrs = 0x653c408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(),
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::TimeSpan> (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_MinFresh)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x653bdc0;
+  constexpr static std::size_t addrs = 0x653c410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(), { "get_MinFresh", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(::System::Nullable_1<::System::TimeSpan>)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_MinFresh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653bdcc;
+  constexpr static std::size_t addrs = 0x653c41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(),
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&::System::Net::Http::Headers::CacheControlHeaderValue::get_MustRevalidate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653bdd4;
+  constexpr static std::size_t addrs = 0x653c424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_MustRevalidate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653bddc;
+  constexpr static std::size_t addrs = 0x653c42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&::System::Net::Http::Headers::CacheControlHeaderValue::get_NoCache)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653bde4;
+  constexpr static std::size_t addrs = 0x653c434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(), { "get_NoCache", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(&::System::Net::Http::Headers::CacheControlHeaderValue::set_NoCache)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653bdec;
+  constexpr static std::size_t addrs = 0x653c43c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::ICollection_1<::StringW>* (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_NoCacheHeaders)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x653bdf4;
+  constexpr static std::size_t addrs = 0x653c444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&::System::Net::Http::Headers::CacheControlHeaderValue::get_NoStore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653be74;
+  constexpr static std::size_t addrs = 0x653c4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(), { "get_NoStore", {}, {} })));
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(&::System::Net::Http::Headers::CacheControlHeaderValue::set_NoStore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653be7c;
+  constexpr static std::size_t addrs = 0x653c4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&::System::Net::Http::Headers::CacheControlHeaderValue::get_NoTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653be84;
+  constexpr static std::size_t addrs = 0x653c4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(), { "get_NoTransform", {}, {} })));
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_NoTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653be8c;
+  constexpr static std::size_t addrs = 0x653c4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&::System::Net::Http::Headers::CacheControlHeaderValue::get_OnlyIfCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653be94;
+  constexpr static std::size_t addrs = 0x653c4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(), { "get_OnlyIfCached", {}, {} })));
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_OnlyIfCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653be9c;
+  constexpr static std::size_t addrs = 0x653c4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&::System::Net::Http::Headers::CacheControlHeaderValue::get_Private)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653bea4;
+  constexpr static std::size_t addrs = 0x653c4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(), { "get_Private", {}, {} })));
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(&::System::Net::Http::Headers::CacheControlHeaderValue::set_Private)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653beac;
+  constexpr static std::size_t addrs = 0x653c4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::ICollection_1<::StringW>* (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_PrivateHeaders)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x653beb4;
+  constexpr static std::size_t addrs = 0x653c504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_ProxyRevalidate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653bf34;
+  constexpr static std::size_t addrs = 0x653c584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_ProxyRevalidate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653bf3c;
+  constexpr static std::size_t addrs = 0x653c58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&::System::Net::Http::Headers::CacheControlHeaderValue::get_Public)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653bf44;
+  constexpr static std::size_t addrs = 0x653c594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(), { "get_Public", {}, {} })));
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(&::System::Net::Http::Headers::CacheControlHeaderValue::set_Public)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653bf4c;
+  constexpr static std::size_t addrs = 0x653c59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -372,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::System::TimeSpan> (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_SharedMaxAge)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x653bf54;
+  constexpr static std::size_t addrs = 0x653c5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(), { "get_SharedMaxAge", {}, {} })));
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(::System::Nullable_1<::System::TimeSpan>)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_SharedMaxAge)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x653bf60;
+  constexpr static std::size_t addrs = 0x653c5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(),
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::System_ICloneable_Clone)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x653bf68;
+  constexpr static std::size_t addrs = 0x653c5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)(::System::Object*)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::Equals)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x653c3e0;
+  constexpr static std::size_t addrs = 0x653ca30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(),
@@ -426,7 +426,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&::System::Net::Http::Headers::CacheControlHeaderValue::GetHashCode)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x653c754;
+  constexpr static std::size_t addrs = 0x653cda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(),
@@ -440,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::System::Net::Http::Headers::CacheControlHeaderValue*>)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0x9ac;
-  constexpr static std::size_t addrs = 0x653c91c;
+  constexpr static std::size_t addrs = 0x653cf6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -454,7 +454,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&::System::Net::Http::Headers::CacheControlHeaderValue::ToString)> {
   constexpr static std::size_t size = 0x728;
-  constexpr static std::size_t addrs = 0x653d478;
+  constexpr static std::size_t addrs = 0x653dac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(),
@@ -467,7 +467,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&::System::Net::Http::Headers::CacheControlHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x653d2c8;
+  constexpr static std::size_t addrs = 0x653d918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::CacheControlHeaderValue*>(), { ".ctor", {}, {} })));

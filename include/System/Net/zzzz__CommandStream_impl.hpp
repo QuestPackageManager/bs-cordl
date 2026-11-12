@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CommandStream_PipelineEntry::*)(::StringW)>(&::System::Net::CommandStream_PipelineEntry::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6862de0;
+  constexpr static std::size_t addrs = 0x6863430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CommandStream_PipelineEntry::*)(::StringW, ::System::Net::CommandStream_PipelineEntryFlags)>(
     &::System::Net::CommandStream_PipelineEntry::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6862de8;
+  constexpr static std::size_t addrs = 0x6863438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::CommandStream_PipelineEntry::*)(::System::Net::CommandStream_PipelineEntryFlags)>(
     &::System::Net::CommandStream_PipelineEntry::HasFlag)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6861ac8;
+  constexpr static std::size_t addrs = 0x6862118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CommandStream::*)(::System::Net::Sockets::TcpClient*)>(&::System::Net::CommandStream::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x68610b0;
+  constexpr static std::size_t addrs = 0x6861700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CommandStream::*)(::System::Exception*)>(&::System::Net::CommandStream::Abort)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x686111c;
+  constexpr static std::size_t addrs = 0x686176c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::CommandStream*>(), { ::i2c::class_of<::System::Net::CommandStream*>(), 42 }));
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CommandStream::*)(bool)>(&::System::Net::CommandStream::Dispose)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6861308;
+  constexpr static std::size_t addrs = 0x6861958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::CommandStream*>(), { ::i2c::class_of<::System::Net::CommandStream*>(), 22 }));
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CommandStream::*)(::System::Object*)>(&::System::Net::CommandStream::InvokeRequestCallback)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x68613a4;
+  constexpr static std::size_t addrs = 0x68619f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::CommandStream::*)()>(&::System::Net::CommandStream::get_RecoverableFailure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6861428;
+  constexpr static std::size_t addrs = 0x6861a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::CommandStream*>(), { "get_RecoverableFailure", {}, {} })));
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CommandStream::*)()>(&::System::Net::CommandStream::MarkAsRecoverableFailure)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6861430;
+  constexpr static std::size_t addrs = 0x6861a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::CommandStream*>(), { "MarkAsRecoverableFailure", {}, {} })));
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::System::Net::CommandStream::*)(::System::Net::WebRequest*, bool, bool)>(&::System::Net::CommandStream::SubmitRequest)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6861448;
+  constexpr static std::size_t addrs = 0x6861a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CommandStream::*)()>(&::System::Net::CommandStream::ClearState)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6861898;
+  constexpr static std::size_t addrs = 0x6861ee8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::CommandStream*>(), { ::i2c::class_of<::System::Net::CommandStream*>(), 43 }));
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Net::CommandStream_PipelineEntry*> (::System::Net::CommandStream::*)(::System::Net::WebRequest*)>(
     &::System::Net::CommandStream::BuildCommandsList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68618cc;
+  constexpr static std::size_t addrs = 0x6861f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::CommandStream*>(), { ::i2c::class_of<::System::Net::CommandStream*>(), 44 }));
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Net::CommandStream::*)(::StringW, ::System::Net::WebExceptionStatus, ::System::Exception*)>(
     &::System::Net::CommandStream::GenerateException)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x68618d4;
+  constexpr static std::size_t addrs = 0x6861f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Net::CommandStream::*)(::System::Net::FtpStatusCode, ::StringW, ::System::Exception*)>(
     &::System::Net::CommandStream::GenerateException)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6861950;
+  constexpr static std::size_t addrs = 0x6861fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CommandStream::*)(::System::Net::WebRequest*, ::ArrayW<::System::Net::CommandStream_PipelineEntry*>, bool)>(
     &::System::Net::CommandStream::InitCommandPipeline)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x68614e8;
+  constexpr static std::size_t addrs = 0x6861b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CommandStream::*)()>(&::System::Net::CommandStream::CheckContinuePipeline)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6861a10;
+  constexpr static std::size_t addrs = 0x6862060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::CommandStream*>(), { "CheckContinuePipeline", {}, {} })));
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::Stream* (::System::Net::CommandStream::*)()>(&::System::Net::CommandStream::ContinueCommandPipeline)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x6861520;
+  constexpr static std::size_t addrs = 0x6861b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::CommandStream*>(), { "ContinueCommandPipeline", {}, {} })));
@@ -320,7 +320,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::CommandStream::*)(::by_ref<::System::IO::Stream*>)>(&::System::Net::CommandStream::PostSendCommandProcessing)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6861ad8;
+  constexpr static std::size_t addrs = 0x6862128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -333,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::CommandStream::*)(::by_ref<::System::IO::Stream*>)>(&::System::Net::CommandStream::PostReadCommandProcessing)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x6861f3c;
+  constexpr static std::size_t addrs = 0x686258c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::CommandStream_PipelineInstruction (::System::Net::CommandStream::*)(
     ::System::Net::CommandStream_PipelineEntry*, ::System::Net::ResponseDescription*, bool, ::by_ref<::System::IO::Stream*>)>(&::System::Net::CommandStream::PipelineCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6862160;
+  constexpr static std::size_t addrs = 0x68627b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::CommandStream*>(), { ::i2c::class_of<::System::Net::CommandStream*>(), 45 }));
@@ -359,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IAsyncResult*)>(&::System::Net::CommandStream::ReadCallback)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x6862168;
+  constexpr static std::size_t addrs = 0x68627b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IAsyncResult*)>(&::System::Net::CommandStream::WriteCallback)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x6862980;
+  constexpr static std::size_t addrs = 0x6862fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::Encoding* (::System::Net::CommandStream::*)()>(&::System::Net::CommandStream::get_Encoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6862c2c;
+  constexpr static std::size_t addrs = 0x686327c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::CommandStream*>(), { "get_Encoding", {}, {} })));
@@ -397,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CommandStream::*)(::System::Text::Encoding*)>(&::System::Net::CommandStream::set_Encoding)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6862c34;
+  constexpr static std::size_t addrs = 0x6863284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -411,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::CommandStream::*)(::System::Net::ResponseDescription*, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::System::Net::CommandStream::CheckValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6862c6c;
+  constexpr static std::size_t addrs = 0x68632bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Net::CommandStream*>(), { ::i2c::class_of<::System::Net::CommandStream*>(), 46 }));
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::ResponseDescription* (::System::Net::CommandStream::*)()>(&::System::Net::CommandStream::ReceiveCommandResponse)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x6861bf8;
+  constexpr static std::size_t addrs = 0x6862248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::CommandStream*>(), { "ReceiveCommandResponse", {}, {} })));
@@ -435,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::CommandStream::*)(::System::Net::ReceiveState*, int32_t)>(&::System::Net::CommandStream::ReceiveCommandResponseCallback)> {
   constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x686243c;
+  constexpr static std::size_t addrs = 0x6862a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

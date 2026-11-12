@@ -111,26 +111,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d6b41c, size 0x6f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d6b02c, size 0x708, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d6bb14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d6b734, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d6bb1c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d6b73c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d6bb54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d6b774, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d6b418, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d6b028, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -158,7 +158,7 @@ public:
   constexpr void __cordl_internal_set__handle_5__2(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>> value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5d6b1dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d6adec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -185,7 +185,7 @@ public:
   SimpleLevelStarter__StartLevel_d__16(SimpleLevelStarter__StartLevel_d__16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6896 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -266,29 +266,29 @@ public:
   /// @brief Field _useTestNoteCutSoundEffects, offset 0x34, size 0x1
   __declspec(property(get = __cordl_internal_get__useTestNoteCutSoundEffects, put = __cordl_internal_set__useTestNoteCutSoundEffects)) bool _useTestNoteCutSoundEffects;
 
-  /// @brief Method Awake, addr 0x5d6b068, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5d6ac78, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ButtonPressed, addr 0x5d6b328, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ButtonPressed, addr 0x5d6af38, size 0x20, virtual false, abstract: false, final false
   inline void ButtonPressed();
 
-  /// @brief Method HandleLevelDidFinish, addr 0x5d6b348, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelDidFinish, addr 0x5d6af58, size 0x3c, virtual false, abstract: false, final false
   inline void HandleLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupData* standardLevelSceneSetupData, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method InstallEarlyBindings, addr 0x5d6b1e4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method InstallEarlyBindings, addr 0x5d6adf4, size 0x144, virtual false, abstract: false, final false
   inline void InstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupData* scenesTransitionSetupData, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::SimpleLevelStarter* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5d6b130, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5d6ad40, size 0x58, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   /// [IteratorStateMachine(typeof(SimpleLevelStarter::<StartLevel>d__16))]
-  /// @brief Method StartLevel, addr 0x5d6b188, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method StartLevel, addr 0x5d6ad98, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartLevel();
 
   /// [CompilerGenerated]
-  /// @brief Method <StartLevel>g__AfterSceneSwitchCallback|16_0, addr 0x5d6b388, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <StartLevel>g__AfterSceneSwitchCallback|16_0, addr 0x5d6af98, size 0x90, virtual false, abstract: false, final false
   inline void _StartLevel_g__AfterSceneSwitchCallback_16_0(::Zenject::DiContainer* container);
 
   constexpr ::GlobalNamespace::BeatmapCharacteristic const& __cordl_internal_get__beatmapCharacteristic() const;
@@ -375,7 +375,7 @@ public:
 
   constexpr void __cordl_internal_set__useTestNoteCutSoundEffects(bool value);
 
-  /// @brief Method .ctor, addr 0x5d6b384, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d6af94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -393,7 +393,7 @@ public:
   SimpleLevelStarter(SimpleLevelStarter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6897 };
 
   /// [SerializeField]
   /// @brief Field _beatmapLevel, offset: 0x20, size: 0x8, def value: None

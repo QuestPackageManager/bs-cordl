@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "OculusStudios/GraphQL/Client/zzzz__GraphQLException_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(GraphQLConnectivityException)
+namespace System {
+class Exception;
+}
 // Forward declare root types
 namespace OculusStudios::GraphQL::Client {
 class GraphQLConnectivityException;
@@ -24,11 +27,16 @@ public:
 
   static inline ::OculusStudios::GraphQL::Client::GraphQLConnectivityException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x6375ecc, size 0x4, virtual false, abstract: false, final false
+  static inline ::OculusStudios::GraphQL::Client::GraphQLConnectivityException* New_ctor(::StringW message, ::System::Exception* innerException);
+
+  /// @brief Method .ctor, addr 0x6376154, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6375ed0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6376158, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
+
+  /// @brief Method .ctor, addr 0x637615c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
   // Ctor Parameters []
@@ -45,7 +53,7 @@ public:
   GraphQLConnectivityException(GraphQLConnectivityException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21075 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

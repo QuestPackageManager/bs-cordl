@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::GraphQL::BSClientProviderInitializationState (::BeatSaber::GraphQL::GraphQLDummyClientProvider::*)()>(
     &::BeatSaber::GraphQL::GraphQLDummyClientProvider::get_initializationState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x353e5b4;
+  constexpr static std::size_t addrs = 0x35414a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* (::BeatSaber::GraphQL::GraphQLDummyClientProvider::*)()>(
     &::BeatSaber::GraphQL::GraphQLDummyClientProvider::get_graphQLClient)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x353e5bc;
+  constexpr static std::size_t addrs = 0x35414b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLDummyClientProvider*>(), { "get_graphQLClient", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLDummyClientProvider::*)(::System::Action*)>(
     &::BeatSaber::GraphQL::GraphQLDummyClientProvider::add_initializationDidFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x353e5c4;
+  constexpr static std::size_t addrs = 0x35414b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLDummyClientProvider::*)(::System::Action*)>(
     &::BeatSaber::GraphQL::GraphQLDummyClientProvider::remove_initializationDidFinishEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x353e670;
+  constexpr static std::size_t addrs = 0x3541564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLDummyClientProvider*>(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLDummyClientProvider::*)(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>*)>(
     &::BeatSaber::GraphQL::GraphQLDummyClientProvider::add_globalRequestSucceededEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x353e71c;
+  constexpr static std::size_t addrs = 0x3541610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLDummyClientProvider::*)(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>*)>(
     &::BeatSaber::GraphQL::GraphQLDummyClientProvider::remove_globalRequestSucceededEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x353e7dc;
+  constexpr static std::size_t addrs = 0x35416d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLDummyClientProvider::*)(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>*)>(
     &::BeatSaber::GraphQL::GraphQLDummyClientProvider::add_globalRequestFailureEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x353e89c;
+  constexpr static std::size_t addrs = 0x3541790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLDummyClientProvider::*)(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>*)>(
     &::BeatSaber::GraphQL::GraphQLDummyClientProvider::remove_globalRequestFailureEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x353e95c;
+  constexpr static std::size_t addrs = 0x3541850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,8 +134,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::GraphQL::GraphQLDummyClientProvider::*)(::System::Threading::CancellationToken)>(
     &::BeatSaber::GraphQL::GraphQLDummyClientProvider::BeatSaber_GraphQL_IGraphQLClientProvider_InitializeAsync)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x353ea1c;
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x3541910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLDummyClientProvider::*)()>(
     &::BeatSaber::GraphQL::GraphQLDummyClientProvider::Zenject_IInitializable_Initialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x353eb8c;
+  constexpr static std::size_t addrs = 0x3541af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,11 +163,40 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLDummyClientProvider::*)()>(&::BeatSaber::GraphQL::GraphQLDummyClientProvider::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x353eb90;
+  constexpr static std::size_t addrs = 0x3541af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLDummyClientProvider*>(), { "System.IDisposable.Dispose", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLDummyClientProvider.HandleRequestSucceeded
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLDummyClientProvider::*)(::OculusStudios::GraphQL::ClientInterface::Request*)>(
+    &::BeatSaber::GraphQL::GraphQLDummyClientProvider::HandleRequestSucceeded)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x3541afc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLDummyClientProvider*>(),
+                                                             { "HandleRequestSucceeded", {}, { ::i2c::type_of<::OculusStudios::GraphQL::ClientInterface::Request*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BeatSaber::GraphQL::GraphQLDummyClientProvider.HandleRequestFailed
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLDummyClientProvider::*)(::OculusStudios::GraphQL::ClientInterface::Request*)>(
+    &::BeatSaber::GraphQL::GraphQLDummyClientProvider::HandleRequestFailed)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x3541b18;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLDummyClientProvider*>(),
+                                                                                           { "HandleRequestFailed", {}, { ::i2c::type_of<::OculusStudios::GraphQL::ClientInterface::Request*>() } })));
     return ___internal_method;
   }
 };
@@ -176,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLDummyClientProvider::*)()>(&::BeatSaber::GraphQL::GraphQLDummyClientProvider::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x353eb94;
+  constexpr static std::size_t addrs = 0x3541b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLDummyClientProvider*>(), { ".ctor", {}, {} })));
@@ -290,6 +319,16 @@ inline void BeatSaber::GraphQL::GraphQLDummyClientProvider::System_IDisposable_D
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLDummyClientProvider*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void BeatSaber::GraphQL::GraphQLDummyClientProvider::HandleRequestSucceeded(::OculusStudios::GraphQL::ClientInterface::Request* request) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLDummyClientProvider*>(),
+                                                                                         { "HandleRequestSucceeded", {}, { ::i2c::type_of<::OculusStudios::GraphQL::ClientInterface::Request*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, request);
+}
+inline void BeatSaber::GraphQL::GraphQLDummyClientProvider::HandleRequestFailed(::OculusStudios::GraphQL::ClientInterface::Request* request) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLDummyClientProvider*>(),
+                                                                                         { "HandleRequestFailed", {}, { ::i2c::type_of<::OculusStudios::GraphQL::ClientInterface::Request*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, request);
 }
 inline void BeatSaber::GraphQL::GraphQLDummyClientProvider::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLDummyClientProvider*>(), { ".ctor", {}, {} })));

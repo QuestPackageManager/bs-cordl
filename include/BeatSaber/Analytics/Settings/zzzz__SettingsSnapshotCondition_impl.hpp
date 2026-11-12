@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::SettingsSnapshotCondition___c::*)()>(
     &::BeatSaber::Analytics::Settings::SettingsSnapshotCondition___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x350c344;
+  constexpr static std::size_t addrs = 0x350e784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsSnapshotCondition___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatSaber::Analytics::Settings::SettingsSnapshotCondition___c::*)(
     ::System::ValueTuple_2<::StringW, float_t>, ::System::ValueTuple_2<::StringW, float_t>)>(&::BeatSaber::Analytics::Settings::SettingsSnapshotCondition___c::_ComputeHash_b__9_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x350c348;
+  constexpr static std::size_t addrs = 0x350e788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::SettingsSnapshotCondition::*)(int32_t)>(
     &::BeatSaber::Analytics::Settings::SettingsSnapshotCondition::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350bd64;
+  constexpr static std::size_t addrs = 0x350e1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Analytics::Settings::SettingsSnapshotCondition::*)(::UnityEngine::Hash128)>(
     &::BeatSaber::Analytics::Settings::SettingsSnapshotCondition::ShouldFire)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x350c0c0;
+  constexpr static std::size_t addrs = 0x350e500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::SettingsSnapshotCondition::*)(::UnityEngine::Hash128)>(
     &::BeatSaber::Analytics::Settings::SettingsSnapshotCondition::RecordFired)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x350c1ac;
+  constexpr static std::size_t addrs = 0x350e5ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::BeatSaber::Analytics::Settings::SettingsSnapshotCondition::ClearPersistedState)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x350c264;
+  constexpr static std::size_t addrs = 0x350e6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Hash128 (*)(::System::Collections::Generic::IReadOnlyList_1<::System::ValueTuple_2<::StringW, float_t>>*, ::StringW)>(
     &::BeatSaber::Analytics::Settings::SettingsSnapshotCondition::ComputeHash)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x350bd6c;
+  constexpr static std::size_t addrs = 0x350e1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

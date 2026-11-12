@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IConsoleDriver* (*)()>(&::System::ConsoleDriver::CreateNullConsoleDriver)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x60e6810;
+  constexpr static std::size_t addrs = 0x60e6a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ConsoleDriver*>(), { "CreateNullConsoleDriver", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IConsoleDriver* (*)()>(&::System::ConsoleDriver::CreateWindowsConsoleDriver)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x60e6854;
+  constexpr static std::size_t addrs = 0x60e6adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ConsoleDriver*>(), { "CreateWindowsConsoleDriver", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IConsoleDriver* (*)(::StringW)>(&::System::ConsoleDriver::CreateTermInfoDriver)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60e68ac;
+  constexpr static std::size_t addrs = 0x60e6b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ConsoleKeyInfo (*)(bool)>(&::System::ConsoleDriver::ReadKey)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x60e622c;
+  constexpr static std::size_t addrs = 0x60e64b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ConsoleDriver*>(), { "ReadKey", {}, { ::i2c::type_of<bool>() } })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::ConsoleDriver::get_IsConsole)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x60e582c;
+  constexpr static std::size_t addrs = 0x60e5ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ConsoleDriver*>(), { "get_IsConsole", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::System::ConsoleDriver::Isatty)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x60e6c74;
+  constexpr static std::size_t addrs = 0x60e6efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ConsoleDriver*>(), { "Isatty", {}, { ::i2c::type_of<::System::IntPtr>() } })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::ConsoleDriver::InternalKeyAvailable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60e6c90;
+  constexpr static std::size_t addrs = 0x60e6f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::StringW, ::by_ref<::ArrayW<uint8_t>>, ::by_ref<int32_t*>)>(&::System::ConsoleDriver::TtySetup)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x60e6c94;
+  constexpr static std::size_t addrs = 0x60e6f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(bool)>(&::System::ConsoleDriver::SetEcho)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x60e6c98;
+  constexpr static std::size_t addrs = 0x60e6f20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::ConsoleDriver*>(), { "SetEcho", {}, { ::i2c::type_of<bool>() } })));

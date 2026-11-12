@@ -53,7 +53,7 @@ public:
 
   static inline ::UnityEngine::UIElements::VectorImage* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x718fcb8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x7190d98, size 0xac, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_atlas() const;
@@ -92,13 +92,13 @@ public:
 
   constexpr void __cordl_internal_set_vertices(::ArrayW<::UnityEngine::UIElements::VectorImageVertex> value);
 
-  /// @brief Method .ctor, addr 0x718fd64, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7190e44, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_height, addr 0x718fcb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x7190d90, size 0x8, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_width, addr 0x718fca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x7190d88, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
 protected:

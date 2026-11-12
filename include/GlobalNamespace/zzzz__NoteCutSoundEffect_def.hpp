@@ -8,6 +8,7 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include "beatsaber-hook/shared/arrayw.hpp"
 #include <cmath>
+#include <cstdint>
 CORDL_MODULE_EXPORT(NoteCutSoundEffect)
 namespace GlobalNamespace {
 template <typename T> class ILazyCopyHashSet_1;
@@ -66,7 +67,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NoteCutSoundEffect_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5d085dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d07f7c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -188,32 +189,35 @@ public:
 
   __declspec(property(get = get_volumeMultiplier, put = set_volumeMultiplier)) float_t volumeMultiplier;
 
-  /// @brief Method Awake, addr 0x5d07b5c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5d07394, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ComputeDSPTimes, addr 0x5d07dc8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ComputeDSPTimes, addr 0x5d07600, size 0xac, virtual false, abstract: false, final false
   inline void ComputeDSPTimes(double_t noteDSPTime, float_t aheadTime, float_t timeToPrevNote, float_t timeToNextNote);
 
-  /// @brief Method Init, addr 0x5d07bfc, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5d07434, size 0x1cc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::NoteController* noteController, double_t noteDSPTime, float_t aheadTime, float_t missedTimeOffset, float_t timeToPrevNote,
                    float_t timeToNextNote, ::GlobalNamespace::Saber* saber, bool handleWrongSaberTypeAsGood, float_t volumeMultiplier, bool ignoreSaberSpeed, bool ignoreBadCuts);
 
   static inline ::GlobalNamespace::NoteCutSoundEffect* New_ctor();
 
-  /// @brief Method NoteDidStartDissolving, addr 0x5d084cc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method NoteDidStartDissolving, addr 0x5d07e6c, size 0x80, virtual false, abstract: false, final false
   inline void NoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method NoteWasCut, addr 0x5d0829c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method NoteWasCut, addr 0x5d07c3c, size 0x230, virtual false, abstract: false, final false
   inline void NoteWasCut(::GlobalNamespace::NoteController* noteController, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo);
 
-  /// @brief Method OnLateUpdate, addr 0x5d07e74, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method OnLateUpdate, addr 0x5d076ac, size 0x294, virtual false, abstract: false, final false
   inline void OnLateUpdate();
 
-  /// @brief Method Start, addr 0x5d07be0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d07418, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StopPlayingAndFinish, addr 0x5d080d8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method StopPlayingAndFinish, addr 0x5d07940, size 0x1c4, virtual false, abstract: false, final false
   inline void StopPlayingAndFinish();
+
+  /// @brief Method UpdateTailPriority, addr 0x5d07b04, size 0x138, virtual false, abstract: false, final false
+  inline void UpdateTailPriority(double_t dspTime, double_t tailStartDSPTime);
 
   constexpr float_t const& __cordl_internal_get__aheadTime() const;
 
@@ -371,19 +375,19 @@ public:
 
   constexpr void __cordl_internal_set__volumeMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x5d0854c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d07eec, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_didFinishEvent, addr 0x5d07b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x5d07350, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* get_didFinishEvent();
 
-  /// @brief Method get_time, addr 0x5d07b30, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x5d07368, size 0x2c, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_volumeMultiplier, addr 0x5d07b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeMultiplier, addr 0x5d07360, size 0x8, virtual false, abstract: false, final false
   inline float_t get_volumeMultiplier();
 
-  /// @brief Method set_volumeMultiplier, addr 0x5d07b20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_volumeMultiplier, addr 0x5d07358, size 0x8, virtual false, abstract: false, final false
   inline void set_volumeMultiplier(float_t value);
 
 protected:
@@ -408,6 +412,24 @@ public:
 
   /// @brief Field kEndOverlap offset 0xffffffff size 0x4
   static constexpr float_t kEndOverlap{ static_cast<float_t>(100.01f) };
+
+  /// @brief Field kMaxPitch offset 0xffffffff size 0x4
+  static constexpr float_t kMaxPitch{ static_cast<float_t>(1.2f) };
+
+  /// @brief Field kMaxTailPriority offset 0xffffffff size 0x4
+  static constexpr int32_t kMaxTailPriority{ static_cast<int32_t>(0xff) };
+
+  /// @brief Field kMinPitch offset 0xffffffff size 0x4
+  static constexpr float_t kMinPitch{ static_cast<float_t>(0.9f) };
+
+  /// @brief Field kMinTailPriority offset 0xffffffff size 0x4
+  static constexpr int32_t kMinTailPriority{ static_cast<int32_t>(0x81) };
+
+  /// @brief Field kScheduledPriority offset 0xffffffff size 0x4
+  static constexpr int32_t kScheduledPriority{ static_cast<int32_t>(0x80) };
+
+  /// @brief Field kTailStartTimeSec offset 0xffffffff size 0x4
+  static constexpr float_t kTailStartTimeSec{ static_cast<float_t>(0.2f) };
 
   /// [SerializeField]
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None

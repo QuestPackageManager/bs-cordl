@@ -163,37 +163,37 @@ public:
   /// @brief Field ordering, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_ordering, put = __cordl_internal_set_ordering)) ::System::Collections::IList* ordering;
 
-  /// @brief Method Equivalent, addr 0x391a108, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method Equivalent, addr 0x391e5a0, size 0x5a0, virtual false, abstract: false, final false
   inline bool Equivalent(::Org::BouncyCastle::Asn1::X509::X509Extensions* other);
 
-  /// @brief Method GetCriticalExtensionOids, addr 0x391ad4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCriticalExtensionOids, addr 0x391f1e4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> GetCriticalExtensionOids();
 
-  /// @brief Method GetExtension, addr 0x3918340, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetExtension, addr 0x391c7d8, size 0xc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extension* GetExtension(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetExtension, addr 0x391739c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetExtension, addr 0x391b834, size 0x104, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extension* GetExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetExtensionOids, addr 0x391a6a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetExtensionOids, addr 0x391eb40, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> GetExtensionOids();
 
-  /// @brief Method GetExtensionOids, addr 0x391a844, size 0x508, virtual false, abstract: false, final false
+  /// @brief Method GetExtensionOids, addr 0x391ecdc, size 0x508, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> GetExtensionOids(bool isCritical);
 
-  /// @brief Method GetExtensionParsedValue, addr 0x39059f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetExtensionParsedValue, addr 0x3909e88, size 0xc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetExtensionParsedValue(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetExtensionParsedValue, addr 0x391834c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetExtensionParsedValue, addr 0x391c7e4, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetExtensionParsedValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetInstance, addr 0x3918368, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x391c800, size 0x7c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x3913618, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3917ab0, size 0x220, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetNonCriticalExtensionOids, addr 0x391a83c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetNonCriticalExtensionOids, addr 0x391ecd4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> GetNonCriticalExtensionOids();
 
   /// @brief [Obsolete]
@@ -214,13 +214,13 @@ public:
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   /// [Obsolete("Use ExtensionOids IEnumerable property")]
-  /// @brief Method Oids, addr 0x3919a1c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Oids, addr 0x391deb4, size 0xac, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Oids();
 
-  /// @brief Method ToAsn1Object, addr 0x3919b2c, size 0x5dc, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x391dfc4, size 0x5dc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToOidArray, addr 0x391a704, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ToOidArray, addr 0x391eb9c, size 0x138, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> ToOidArray(::System::Collections::IList* oids);
 
   constexpr ::System::Collections::IDictionary* const& __cordl_internal_get_extensions() const;
@@ -236,27 +236,27 @@ public:
   constexpr void __cordl_internal_set_ordering(::System::Collections::IList* value);
 
   /// [Obsolete]
-  /// @brief Method .ctor, addr 0x39190e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x391d580, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* extensions);
 
-  /// @brief Method .ctor, addr 0x3918ba4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x391d03c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* extensions);
 
   /// [Obsolete]
-  /// @brief Method .ctor, addr 0x39195a0, size 0x47c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x391da38, size 0x47c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* oids, ::System::Collections::ArrayList* values);
 
-  /// @brief Method .ctor, addr 0x3916634, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x391aacc, size 0x4d4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* oids, ::System::Collections::IList* values);
 
   /// [Obsolete]
-  /// @brief Method .ctor, addr 0x39190f4, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x391d58c, size 0x4ac, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* ordering, ::System::Collections::Hashtable* extensions);
 
-  /// @brief Method .ctor, addr 0x3918bb0, size 0x538, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x391d048, size 0x538, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* ordering, ::System::Collections::IDictionary* extensions);
 
-  /// @brief Method .ctor, addr 0x39183e4, size 0x7c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x391c87c, size 0x7c0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_AuditIdentity();
@@ -323,7 +323,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_TargetInformation();
 
-  /// @brief Method get_ExtensionOids, addr 0x3919ac8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_ExtensionOids, addr 0x391df60, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_ExtensionOids();
 
   static inline void setStaticF_AuditIdentity(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);

@@ -84,13 +84,13 @@ public:
   /// @brief Convert operator to "::BeatSaber::GraphQL::IGraphQLClientProvider"
   constexpr operator ::BeatSaber::GraphQL::IGraphQLClientProvider*() noexcept;
 
-  /// @brief Method InitializeAsync, addr 0x353f054, size 0x164, virtual true, abstract: false, final true
+  /// @brief Method InitializeAsync, addr 0x3541ff4, size 0x164, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* InitializeAsync(::System::Threading::CancellationToken ctx);
 
   static inline ::BeatSaber::GraphQL::MockGraphQLClientProvider* New_ctor(::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* graphQLClient);
 
   /// [CompilerGenerated]
-  /// @brief Method <InitializeAsync>b__18_0, addr 0x353f1b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <InitializeAsync>b__18_0, addr 0x3542158, size 0xc, virtual false, abstract: false, final false
   inline void _InitializeAsync_b__18_0(::System::Threading::Tasks::Task_1<bool>* _);
 
   constexpr ::BeatSaber::GraphQL::BSClientProviderInitializationState const& __cordl_internal_get_InitializeState() const;
@@ -135,41 +135,41 @@ public:
 
   constexpr void __cordl_internal_set_initializationDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x353f04c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3541fec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* graphQLClient);
 
   /// [CompilerGenerated]
-  /// @brief Method add_globalRequestFailureEvent, addr 0x353eecc, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_globalRequestFailureEvent, addr 0x3541e6c, size 0xc0, virtual true, abstract: false, final true
   inline void add_globalRequestFailureEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_globalRequestSucceededEvent, addr 0x353ed4c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method add_globalRequestSucceededEvent, addr 0x3541cec, size 0xc0, virtual true, abstract: false, final true
   inline void add_globalRequestSucceededEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_initializationDidFinishEvent, addr 0x353ebf4, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_initializationDidFinishEvent, addr 0x3541b94, size 0xac, virtual true, abstract: false, final true
   inline void add_initializationDidFinishEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_graphQLClient, addr 0x353ebec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_graphQLClient, addr 0x3541b8c, size 0x8, virtual true, abstract: false, final true
   inline ::OculusStudios::GraphQL::ClientInterface::IGraphQLClient* get_graphQLClient();
 
-  /// @brief Method get_initializationState, addr 0x353ebe4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_initializationState, addr 0x3541b84, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::GraphQL::BSClientProviderInitializationState get_initializationState();
 
   /// @brief Convert to "::BeatSaber::GraphQL::IGraphQLClientProvider"
   constexpr ::BeatSaber::GraphQL::IGraphQLClientProvider* i___BeatSaber__GraphQL__IGraphQLClientProvider() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_globalRequestFailureEvent, addr 0x353ef8c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_globalRequestFailureEvent, addr 0x3541f2c, size 0xc0, virtual true, abstract: false, final true
   inline void remove_globalRequestFailureEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_globalRequestSucceededEvent, addr 0x353ee0c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method remove_globalRequestSucceededEvent, addr 0x3541dac, size 0xc0, virtual true, abstract: false, final true
   inline void remove_globalRequestSucceededEvent(::System::Action_1<::OculusStudios::GraphQL::ClientInterface::Request*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_initializationDidFinishEvent, addr 0x353eca0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_initializationDidFinishEvent, addr 0x3541c40, size 0xac, virtual true, abstract: false, final true
   inline void remove_initializationDidFinishEvent(::System::Action* value);
 
 protected:
@@ -187,7 +187,7 @@ public:
   MockGraphQLClientProvider(MockGraphQLClientProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23370 };
 
   /// @brief Field InitializeState, offset: 0x10, size: 0x4, def value: None
   ::BeatSaber::GraphQL::BSClientProviderInitializationState ___InitializeState;

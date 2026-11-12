@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BindingRestrictions_TypeRestriction::*)(::System::Linq::Expressions::Expression*, ::System::Type*)>(
     &::GlobalNamespace::BindingRestrictions_TypeRestriction::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x641a704;
+  constexpr static std::size_t addrs = 0x641ad54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BindingRestrictions_TypeRestriction::*)(::System::Object*)>(
     &::GlobalNamespace::BindingRestrictions_TypeRestriction::Equals)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x641b0b4;
+  constexpr static std::size_t addrs = 0x641b704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BindingRestrictions_TypeRestriction*>(),
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BindingRestrictions_TypeRestriction::*)()>(&::GlobalNamespace::BindingRestrictions_TypeRestriction::GetHashCode)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x641b184;
+  constexpr static std::size_t addrs = 0x641b7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BindingRestrictions_TypeRestriction*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Expression* (::GlobalNamespace::BindingRestrictions_TypeRestriction::*)()>(
     &::GlobalNamespace::BindingRestrictions_TypeRestriction::GetExpression)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x641b1d8;
+  constexpr static std::size_t addrs = 0x641b828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BindingRestrictions_TypeRestriction*>(),

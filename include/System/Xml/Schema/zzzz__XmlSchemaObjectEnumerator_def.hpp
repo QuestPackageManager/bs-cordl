@@ -38,18 +38,18 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6696b2c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x669717c, size 0xa4, virtual false, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Xml::Schema::XmlSchemaObjectEnumerator* New_ctor(::System::Collections::IEnumerator* enumerator);
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x6696d70, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x66973c0, size 0xa4, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6696cc8, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6697318, size 0xa8, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6696e14, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6697464, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr ::System::Collections::IEnumerator* const& __cordl_internal_get_enumerator() const;
@@ -58,10 +58,10 @@ public:
 
   constexpr void __cordl_internal_set_enumerator(::System::Collections::IEnumerator* value);
 
-  /// @brief Method .ctor, addr 0x6696b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6697174, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerator* enumerator);
 
-  /// @brief Method get_Current, addr 0x6696bd0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x6697220, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"

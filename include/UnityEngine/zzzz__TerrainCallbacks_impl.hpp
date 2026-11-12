@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TerrainCallbacks_HeightmapChangedCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::TerrainCallbacks_HeightmapChangedCallback::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7055664;
+  constexpr static std::size_t addrs = 0x7056744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainCallbacks_HeightmapChangedCallback*>(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TerrainCallbacks_HeightmapChangedCallback::*)(::UnityEngine::Terrain*, ::UnityEngine::RectInt, bool)>(
     &::UnityEngine::TerrainCallbacks_HeightmapChangedCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x70556e4;
+  constexpr static std::size_t addrs = 0x70567c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainCallbacks_HeightmapChangedCallback*>(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TerrainCallbacks_TextureChangedCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::TerrainCallbacks_TextureChangedCallback::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x70556f8;
+  constexpr static std::size_t addrs = 0x70567d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainCallbacks_TextureChangedCallback*>(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TerrainCallbacks_TextureChangedCallback::*)(::UnityEngine::Terrain*, ::StringW, ::UnityEngine::RectInt, bool)>(
     &::UnityEngine::TerrainCallbacks_TextureChangedCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7055778;
+  constexpr static std::size_t addrs = 0x7056858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainCallbacks_TextureChangedCallback*>(),
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::TerrainData*, ::UnityEngine::RectInt, bool)>(&::UnityEngine::TerrainCallbacks::InvokeHeightmapChangedCallback)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x70553d4;
+  constexpr static std::size_t addrs = 0x70564b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::TerrainData*, ::StringW, ::UnityEngine::RectInt, bool)>(
     &::UnityEngine::TerrainCallbacks::InvokeTextureChangedCallback)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x7055568;
+  constexpr static std::size_t addrs = 0x7056648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

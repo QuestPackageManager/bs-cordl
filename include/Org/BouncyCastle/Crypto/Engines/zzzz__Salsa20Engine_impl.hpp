@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(int32_t, ::ArrayW<uint32_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::PackTauOrSigma)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3654508;
+  constexpr static std::size_t addrs = 0x36589a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3654640;
+  constexpr static std::size_t addrs = 0x3658ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>(), { ".ctor", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x36546a4;
+  constexpr static std::size_t addrs = 0x3658b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::Init)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x36547a4;
+  constexpr static std::size_t addrs = 0x3658c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>(),
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::get_NonceSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3654b30;
+  constexpr static std::size_t addrs = 0x3658fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>(),
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3654b38;
+  constexpr static std::size_t addrs = 0x3658fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>(),
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ReturnByte)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3654c1c;
+  constexpr static std::size_t addrs = 0x36590b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>(),
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::AdvanceCounter)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3654d5c;
+  constexpr static std::size_t addrs = 0x36591f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ProcessBytes)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x3654da8;
+  constexpr static std::size_t addrs = 0x3659240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>(),
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::Reset)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3655064;
+  constexpr static std::size_t addrs = 0x36594fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>(),
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ResetCounter)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x365508c;
+  constexpr static std::size_t addrs = 0x3659524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>(),
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::SetKey)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x36550b8;
+  constexpr static std::size_t addrs = 0x3659550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>(),
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::GenerateKeyStream)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x36552ac;
+  constexpr static std::size_t addrs = 0x3659744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>(),
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::ArrayW<uint32_t>, ::ArrayW<uint32_t>)>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::SalsaCore)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x3655334;
+  constexpr static std::size_t addrs = 0x36597cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ResetLimitCounter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3655080;
+  constexpr static std::size_t addrs = 0x3659518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>(), { "ResetLimitCounter", {}, {} })));
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)()>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::LimitExceeded)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3654d1c;
+  constexpr static std::size_t addrs = 0x36591b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Engines::Salsa20Engine*>(), { "LimitExceeded", {}, {} })));
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(uint32_t)>(&::Org::BouncyCastle::Crypto::Engines::Salsa20Engine::LimitExceeded)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3655024;
+  constexpr static std::size_t addrs = 0x36594bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

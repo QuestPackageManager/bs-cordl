@@ -113,7 +113,7 @@ public:
   static ::GlobalNamespace::ConnectedPlayerManager_InternalMessageType const SyncTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18696 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -176,7 +176,7 @@ public:
   static ::GlobalNamespace::ConnectedPlayerManager_MessageType const PlayerIdentity;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18697 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -205,7 +205,7 @@ public:
 
   static inline ::GlobalNamespace::ConnectedPlayerManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35d9770, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ddbc8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -223,7 +223,7 @@ public:
   ConnectedPlayerManager(ConnectedPlayerManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18690 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18698 };
 
   /// @brief Field invalidSortIndex offset 0xffffffff size 0x4
   static constexpr int32_t invalidSortIndex{ static_cast<int32_t>(0xffffffff) };

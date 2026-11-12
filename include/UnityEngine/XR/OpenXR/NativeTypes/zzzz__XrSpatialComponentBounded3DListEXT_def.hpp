@@ -42,38 +42,38 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e7ed64, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7fe44, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t boundCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf* bounds);
 
-  /// @brief Method .ctor, addr 0x6e7edf4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7fed4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf> bounds);
 
-  /// @brief Method .ctor, addr 0x6e7eee4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7ffc4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf> bounds);
 
-  /// @brief Method .ctor, addr 0x6e7ed48, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7fe28, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint32_t boundCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf* bounds);
 
-  /// @brief Method .ctor, addr 0x6e7ed80, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7fe60, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf> bounds);
 
-  /// @brief Method .ctor, addr 0x6e7ee5c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7ff3c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1_ReadOnly<::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf> bounds);
 
   /// [CompilerGenerated]
-  /// @brief Method get_boundCount, addr 0x6e7ed38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_boundCount, addr 0x6e7fe18, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_boundCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_bounds, addr 0x6e7ed40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x6e7fe20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf* get_bounds();
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e7ed30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e7fe10, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e7ed28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e7fe08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -87,7 +87,7 @@ public:
                                                ::UnityEngine::XR::OpenXR::NativeTypes::XrBoxf* _bounds_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17579 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17587 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

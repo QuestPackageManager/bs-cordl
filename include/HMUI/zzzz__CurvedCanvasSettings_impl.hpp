@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::CurvedCanvasSettings::*)()>(&::HMUI::CurvedCanvasSettings::get_radius)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc707c;
+  constexpr static std::size_t addrs = 0x5cc67d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::CurvedCanvasSettings*>(), { "get_radius", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::CurvedCanvasSettings::*)(float_t)>(&::HMUI::CurvedCanvasSettings::SetRadius)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5cc7084;
+  constexpr static std::size_t addrs = 0x5cc67dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::CurvedCanvasSettings*>(), { "SetRadius", {}, { ::i2c::type_of<float_t>() } })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::CurvedCanvasSettings::*)()>(&::HMUI::CurvedCanvasSettings::Start)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5cc7194;
+  constexpr static std::size_t addrs = 0x5cc68ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::CurvedCanvasSettings*>(), { ::i2c::class_of<::HMUI::CurvedCanvasSettings*>(), 6 }));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::CurvedCanvasSettings::*)(::UnityEngine::UI::VertexHelper*)>(&::HMUI::CurvedCanvasSettings::OnPopulateMesh)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x5cc7234;
+  constexpr static std::size_t addrs = 0x5cc698c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::CurvedCanvasSettings*>(), { ::i2c::class_of<::HMUI::CurvedCanvasSettings*>(), 44 }));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::HMUI::CurvedCanvasSettings::*)(::UnityEngine::Vector2)>(&::HMUI::CurvedCanvasSettings::TransformPointFromCanvasTo3D)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5cc7448;
+  constexpr static std::size_t addrs = 0x5cc6ba0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Transform*)>(&::HMUI::CurvedCanvasSettings::RebuildAndSetup)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5cc709c;
+  constexpr static std::size_t addrs = 0x5cc67f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::CurvedCanvasSettings::*)()>(&::HMUI::CurvedCanvasSettings::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5cc7488;
+  constexpr static std::size_t addrs = 0x5cc6be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::CurvedCanvasSettings*>(), { ".ctor", {}, {} })));

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::MarkupElement::*)()>(&::TMPro::MarkupElement::get_NameHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6df933c;
+  constexpr static std::size_t addrs = 0x6dfa41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkupElement>(), { "get_NameHashCode", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MarkupElement::*)(int32_t)>(&::TMPro::MarkupElement::set_NameHashCode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6df9364;
+  constexpr static std::size_t addrs = 0x6dfa444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkupElement>(), { "set_NameHashCode", {}, { ::i2c::type_of<int32_t>() } })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::MarkupElement::*)()>(&::TMPro::MarkupElement::get_ValueHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6df93e4;
+  constexpr static std::size_t addrs = 0x6dfa4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkupElement>(), { "get_ValueHashCode", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MarkupElement::*)(int32_t)>(&::TMPro::MarkupElement::set_ValueHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6df940c;
+  constexpr static std::size_t addrs = 0x6dfa4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkupElement>(), { "set_ValueHashCode", {}, { ::i2c::type_of<int32_t>() } })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::MarkupElement::*)()>(&::TMPro::MarkupElement::get_ValueStartIndex)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6df9434;
+  constexpr static std::size_t addrs = 0x6dfa514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkupElement>(), { "get_ValueStartIndex", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MarkupElement::*)(int32_t)>(&::TMPro::MarkupElement::set_ValueStartIndex)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6df945c;
+  constexpr static std::size_t addrs = 0x6dfa53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkupElement>(), { "set_ValueStartIndex", {}, { ::i2c::type_of<int32_t>() } })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::MarkupElement::*)()>(&::TMPro::MarkupElement::get_ValueLength)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6df9484;
+  constexpr static std::size_t addrs = 0x6dfa564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkupElement>(), { "get_ValueLength", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MarkupElement::*)(int32_t)>(&::TMPro::MarkupElement::set_ValueLength)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6df94ac;
+  constexpr static std::size_t addrs = 0x6dfa58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkupElement>(), { "set_ValueLength", {}, { ::i2c::type_of<int32_t>() } })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::TMPro::MarkupAttribute> (::TMPro::MarkupElement::*)()>(&::TMPro::MarkupElement::get_Attributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6df94d4;
+  constexpr static std::size_t addrs = 0x6dfa5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::MarkupElement>(), { "get_Attributes", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MarkupElement::*)(::ArrayW<::TMPro::MarkupAttribute>)>(&::TMPro::MarkupElement::set_Attributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6df94dc;
+  constexpr static std::size_t addrs = 0x6dfa5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::MarkupElement::*)(int32_t, int32_t, int32_t)>(&::TMPro::MarkupElement::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6df94e4;
+  constexpr static std::size_t addrs = 0x6dfa5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

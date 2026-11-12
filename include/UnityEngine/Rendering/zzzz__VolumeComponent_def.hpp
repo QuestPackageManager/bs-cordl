@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_relativeAmount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6c272ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2838c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t relativeAmount);
 
 protected:
@@ -121,10 +121,10 @@ public:
 
   static inline ::UnityEngine::Rendering::VolumeComponent___c* New_ctor();
 
-  /// @brief Method <FindParameters>b__10_0, addr 0x6c27310, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FindParameters>b__10_0, addr 0x6c283f0, size 0x24, virtual false, abstract: false, final false
   inline int32_t _FindParameters_b__10_0(::System::Reflection::FieldInfo* t);
 
-  /// @brief Method .ctor, addr 0x6c2730c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c283ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::VolumeComponent___c* getStaticF___9();
@@ -188,37 +188,37 @@ public:
 
   __declspec(property(get = get_parameters)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* parameters;
 
-  /// @brief Method AnyPropertiesIsOverridden, addr 0x6c27154, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method AnyPropertiesIsOverridden, addr 0x6c28234, size 0x64, virtual false, abstract: false, final false
   inline bool AnyPropertiesIsOverridden();
 
-  /// @brief Method FindParameters, addr 0x6c26308, size 0x5f4, virtual false, abstract: false, final false
+  /// @brief Method FindParameters, addr 0x6c273e8, size 0x5f4, virtual false, abstract: false, final false
   static inline void FindParameters(::System::Object* o, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::VolumeParameter*>* parameters,
                                     ::System::Func_2<::System::Reflection::FieldInfo*, bool>* filter);
 
-  /// @brief Method GetStateHash, addr 0x6c271b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetStateHash, addr 0x6c28298, size 0x7c, virtual false, abstract: false, final false
   inline int32_t GetStateHash();
 
   static inline ::UnityEngine::Rendering::VolumeComponent* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x6c27234, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x6c28314, size 0x4, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x6c26aec, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6c27bcc, size 0x68, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6c268fc, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6c279dc, size 0x1f0, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Override, addr 0x6c26b54, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Override, addr 0x6c27c34, size 0x100, virtual true, abstract: false, final false
   inline void Override(::UnityEngine::Rendering::VolumeComponent* state, float_t interpFactor);
 
-  /// @brief Method Release, addr 0x6c27238, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x6c28318, size 0x64, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method SetAllOverridesTo, addr 0x6c26c54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetAllOverridesTo, addr 0x6c27d34, size 0x10, virtual false, abstract: false, final false
   inline void SetAllOverridesTo(bool state);
 
-  /// @brief Method SetOverridesTo, addr 0x6c26c64, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method SetOverridesTo, addr 0x6c27d44, size 0x3d0, virtual false, abstract: false, final false
   inline void SetOverridesTo(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Rendering::VolumeParameter*>* enumerable, bool state);
 
   constexpr ::StringW const& __cordl_internal_get__displayName_k__BackingField() const;
@@ -245,18 +245,18 @@ public:
 
   constexpr void __cordl_internal_set_parameterList(::ArrayW<::UnityEngine::Rendering::VolumeParameter*> value);
 
-  /// @brief Method .ctor, addr 0x6c2729c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2837c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_displayName, addr 0x6c26274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x6c27354, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_parameters, addr 0x6c26284, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_parameters, addr 0x6c27364, size 0x84, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Rendering::VolumeParameter*>* get_parameters();
 
   /// [CompilerGenerated]
-  /// @brief Method set_displayName, addr 0x6c2627c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x6c2735c, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
 protected:

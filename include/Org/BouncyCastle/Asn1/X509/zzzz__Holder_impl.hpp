@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::Holder* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::X509::Holder::GetInstance)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x390a844;
+  constexpr static std::size_t addrs = 0x390ecdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Holder::*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(
     &::Org::BouncyCastle::Asn1::X509::Holder::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x390ac08;
+  constexpr static std::size_t addrs = 0x390f0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Holder::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::X509::Holder::_ctor)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x390aa44;
+  constexpr static std::size_t addrs = 0x390eedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Holder::*)(::Org::BouncyCastle::Asn1::X509::IssuerSerial*)>(
     &::Org::BouncyCastle::Asn1::X509::Holder::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x390acf8;
+  constexpr static std::size_t addrs = 0x390f190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Holder::*)(::Org::BouncyCastle::Asn1::X509::IssuerSerial*, int32_t)>(
     &::Org::BouncyCastle::Asn1::X509::Holder::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x390ad08;
+  constexpr static std::size_t addrs = 0x390f1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::X509::Holder::*)()>(&::Org::BouncyCastle::Asn1::X509::Holder::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x390ad14;
+  constexpr static std::size_t addrs = 0x390f1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Holder*>(), { "get_Version", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Holder::*)(::Org::BouncyCastle::Asn1::X509::GeneralNames*)>(
     &::Org::BouncyCastle::Asn1::X509::Holder::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x390ad1c;
+  constexpr static std::size_t addrs = 0x390f1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Holder::*)(::Org::BouncyCastle::Asn1::X509::GeneralNames*, int32_t)>(
     &::Org::BouncyCastle::Asn1::X509::Holder::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x390ad2c;
+  constexpr static std::size_t addrs = 0x390f1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Holder::*)(::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo*)>(
     &::Org::BouncyCastle::Asn1::X509::Holder::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x390ad38;
+  constexpr static std::size_t addrs = 0x390f1d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::IssuerSerial* (::Org::BouncyCastle::Asn1::X509::Holder::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Holder::get_BaseCertificateID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x390ad48;
+  constexpr static std::size_t addrs = 0x390f1e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Holder*>(), { "get_BaseCertificateID", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralNames* (::Org::BouncyCastle::Asn1::X509::Holder::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Holder::get_EntityName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x390ad50;
+  constexpr static std::size_t addrs = 0x390f1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Holder*>(), { "get_EntityName", {}, {} })));
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* (::Org::BouncyCastle::Asn1::X509::Holder::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Holder::get_ObjectDigestInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x390ad58;
+  constexpr static std::size_t addrs = 0x390f1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::X509::Holder*>(), { "get_ObjectDigestInfo", {}, {} })));
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::Holder::*)()>(&::Org::BouncyCastle::Asn1::X509::Holder::ToAsn1Object)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x390ad60;
+  constexpr static std::size_t addrs = 0x390f1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

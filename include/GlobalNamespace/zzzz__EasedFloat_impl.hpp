@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EasedFloat::*)(float_t)>(&::GlobalNamespace::EasedFloat::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x35cf408;
+  constexpr static std::size_t addrs = 0x35d3860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EasedFloat>(), { ".ctor", {}, { ::i2c::type_of<float_t>() } })));
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::EasedFloat::*)()>(&::GlobalNamespace::EasedFloat::get_target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35cf430;
+  constexpr static std::size_t addrs = 0x35d3888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EasedFloat>(), { "get_target", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EasedFloat::*)(float_t)>(&::GlobalNamespace::EasedFloat::set_target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35cf438;
+  constexpr static std::size_t addrs = 0x35d3890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EasedFloat>(), { "set_target", {}, { ::i2c::type_of<float_t>() } })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::EasedFloat::*)()>(&::GlobalNamespace::EasedFloat::get_current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35cf440;
+  constexpr static std::size_t addrs = 0x35d3898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EasedFloat>(), { "get_current", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EasedFloat::*)(float_t)>(&::GlobalNamespace::EasedFloat::SnapTo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35cf448;
+  constexpr static std::size_t addrs = 0x35d38a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EasedFloat>(), { "SnapTo", {}, { ::i2c::type_of<float_t>() } })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EasedFloat::*)(float_t)>(&::GlobalNamespace::EasedFloat::TryStep)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x35cf450;
+  constexpr static std::size_t addrs = 0x35d38a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EasedFloat>(), { "TryStep", {}, { ::i2c::type_of<float_t>() } })));

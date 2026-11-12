@@ -28,37 +28,37 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRPose {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x6274578, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6274800, size 0xe0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x62746d8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6274960, size 0xc8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Inverse, addr 0x62672e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Inverse, addr 0x6267570, size 0x90, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose Inverse();
 
-  /// @brief Method Rotate180AlongX, addr 0x6274894, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Rotate180AlongX, addr 0x6274b1c, size 0x110, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose Rotate180AlongX();
 
-  /// @brief Method ToPosef, addr 0x6274868, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToPosef, addr 0x6274af0, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_Posef ToPosef();
 
-  /// @brief Method ToPosef_Legacy, addr 0x627484c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ToPosef_Legacy, addr 0x6274ad4, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_Posef ToPosef_Legacy();
 
-  /// @brief Method flipZ, addr 0x6274820, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method flipZ, addr 0x6274aa8, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose flipZ();
 
-  /// @brief Method get_identity, addr 0x6266d68, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_identity, addr 0x6266ff0, size 0xa0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPose get_identity();
 
-  /// @brief Method op_Equality, addr 0x6274658, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x62748e0, size 0x80, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::OVRPose x, ::GlobalNamespace::OVRPose y);
 
-  /// @brief Method op_Inequality, addr 0x62747a0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6274a28, size 0x80, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::OVRPose x, ::GlobalNamespace::OVRPose y);
 
-  /// @brief Method op_Multiply, addr 0x627360c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x6273894, size 0xfc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRPose op_Multiply(::GlobalNamespace::OVRPose lhs, ::GlobalNamespace::OVRPose rhs);
 
   // Ctor Parameters []

@@ -67,7 +67,7 @@ public:
   /// @brief Field scaleY, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_scaleY, put = __cordl_internal_set_scaleY)) float_t scaleY;
 
-  /// @brief Method Eval, addr 0x6c1fc60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Eval, addr 0x6c20d40, size 0x60, virtual false, abstract: false, final false
   inline float_t Eval(float_t x);
 
   static inline ::UnityEngine::Rendering::HableCurve_Segment* New_ctor();
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_scaleY(float_t value);
 
-  /// @brief Method .ctor, addr 0x6c1fba4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c20c84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -265,28 +265,28 @@ public:
 
   constexpr void __cordl_internal_set_parent(::UnityEngine::Rendering::HableCurve* value);
 
-  /// @brief Method .ctor, addr 0x6c1fba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c20c88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::HableCurve* parent);
 
-  /// @brief Method get_curve, addr 0x6c20170, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_curve, addr 0x6c21250, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_curve();
 
-  /// @brief Method get_midSegmentA, addr 0x6c2020c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_midSegmentA, addr 0x6c212ec, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_midSegmentA();
 
-  /// @brief Method get_midSegmentB, addr 0x6c2024c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_midSegmentB, addr 0x6c2132c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_midSegmentB();
 
-  /// @brief Method get_shoSegmentA, addr 0x6c20290, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_shoSegmentA, addr 0x6c21370, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_shoSegmentA();
 
-  /// @brief Method get_shoSegmentB, addr 0x6c202d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_shoSegmentB, addr 0x6c213b0, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_shoSegmentB();
 
-  /// @brief Method get_toeSegmentA, addr 0x6c20190, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_toeSegmentA, addr 0x6c21270, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_toeSegmentA();
 
-  /// @brief Method get_toeSegmentB, addr 0x6c201cc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_toeSegmentB, addr 0x6c212ac, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_toeSegmentB();
 
 protected:
@@ -356,24 +356,24 @@ public:
 
   __declspec(property(get = get_x1, put = set_x1)) float_t x1;
 
-  /// @brief Method AsSlopeIntercept, addr 0x6c200b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AsSlopeIntercept, addr 0x6c21198, size 0x2c, virtual false, abstract: false, final false
   inline void AsSlopeIntercept(::by_ref<float_t> m, ::by_ref<float_t> b, float_t x0, float_t x1, float_t y0, float_t y1);
 
-  /// @brief Method Eval, addr 0x6c1fbb0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Eval, addr 0x6c20c90, size 0xb0, virtual false, abstract: false, final false
   inline float_t Eval(float_t x);
 
-  /// @brief Method EvalDerivativeLinearGamma, addr 0x6c200e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EvalDerivativeLinearGamma, addr 0x6c211c4, size 0x3c, virtual false, abstract: false, final false
   inline float_t EvalDerivativeLinearGamma(float_t m, float_t b, float_t g, float_t x);
 
-  /// @brief Method Init, addr 0x6c1fcc0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6c20da0, size 0x13c, virtual false, abstract: false, final false
   inline void Init(float_t toeStrength, float_t toeLength, float_t shoulderStrength, float_t shoulderLength, float_t shoulderAngle, float_t gamma);
 
-  /// @brief Method InitSegments, addr 0x6c1fdfc, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method InitSegments, addr 0x6c20edc, size 0x2bc, virtual false, abstract: false, final false
   inline void InitSegments(::UnityEngine::Rendering::HableCurve_DirectParams srcParams);
 
   static inline ::UnityEngine::Rendering::HableCurve* New_ctor();
 
-  /// @brief Method SolveAB, addr 0x6c20120, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SolveAB, addr 0x6c21200, size 0x50, virtual false, abstract: false, final false
   inline void SolveAB(::by_ref<float_t> lnA, ::by_ref<float_t> B, float_t x0, float_t y0, float_t m);
 
   constexpr float_t const& __cordl_internal_get__inverseWhitePoint_k__BackingField() const;
@@ -412,39 +412,39 @@ public:
 
   constexpr void __cordl_internal_set_uniforms(::UnityEngine::Rendering::HableCurve_Uniforms* value);
 
-  /// @brief Method .ctor, addr 0x6c1fa90, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c20b70, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_inverseWhitePoint, addr 0x6c1fa60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inverseWhitePoint, addr 0x6c20b40, size 0x8, virtual false, abstract: false, final false
   inline float_t get_inverseWhitePoint();
 
   /// [CompilerGenerated]
-  /// @brief Method get_whitePoint, addr 0x6c1fa50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_whitePoint, addr 0x6c20b30, size 0x8, virtual false, abstract: false, final false
   inline float_t get_whitePoint();
 
   /// [CompilerGenerated]
-  /// @brief Method get_x0, addr 0x6c1fa70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x0, addr 0x6c20b50, size 0x8, virtual false, abstract: false, final false
   inline float_t get_x0();
 
   /// [CompilerGenerated]
-  /// @brief Method get_x1, addr 0x6c1fa80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x1, addr 0x6c20b60, size 0x8, virtual false, abstract: false, final false
   inline float_t get_x1();
 
   /// [CompilerGenerated]
-  /// @brief Method set_inverseWhitePoint, addr 0x6c1fa68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_inverseWhitePoint, addr 0x6c20b48, size 0x8, virtual false, abstract: false, final false
   inline void set_inverseWhitePoint(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_whitePoint, addr 0x6c1fa58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_whitePoint, addr 0x6c20b38, size 0x8, virtual false, abstract: false, final false
   inline void set_whitePoint(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_x0, addr 0x6c1fa78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x0, addr 0x6c20b58, size 0x8, virtual false, abstract: false, final false
   inline void set_x0(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_x1, addr 0x6c1fa88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x1, addr 0x6c20b68, size 0x8, virtual false, abstract: false, final false
   inline void set_x1(float_t value);
 
 protected:

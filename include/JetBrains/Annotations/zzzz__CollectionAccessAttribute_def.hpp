@@ -38,15 +38,15 @@ public:
 
   constexpr void __cordl_internal_set__CollectionAccessType_k__BackingField(::JetBrains::Annotations::CollectionAccessType value);
 
-  /// @brief Method .ctor, addr 0x7316d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7319044, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType);
 
   /// [CompilerGenerated]
-  /// @brief Method get_CollectionAccessType, addr 0x7316d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollectionAccessType, addr 0x731904c, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::CollectionAccessType get_CollectionAccessType();
 
   /// [CompilerGenerated]
-  /// @brief Method set_CollectionAccessType, addr 0x7316d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CollectionAccessType, addr 0x7319054, size 0x8, virtual false, abstract: false, final false
   inline void set_CollectionAccessType(::JetBrains::Annotations::CollectionAccessType value);
 
 protected:
@@ -64,7 +64,7 @@ public:
   CollectionAccessAttribute(CollectionAccessAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23490 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23531 };
 
   /// [CompilerGenerated]
   /// @brief Field <CollectionAccessType>k__BackingField, offset: 0x10, size: 0x4, def value: None

@@ -126,11 +126,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39a89a4, size 0x2b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39ace3c, size 0x2b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39a8c5c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39ad0f4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -203,11 +203,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39a8cdc, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39ad174, size 0x284, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39a8f60, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39ad3f8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -280,11 +280,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39a8fe0, size 0x2bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39ad478, size 0x2bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39a929c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39ad734, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -357,11 +357,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39a931c, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39ad7b4, size 0x254, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39a9570, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39ada08, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -427,11 +427,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39a95f0, size 0x2f0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39ada88, size 0x2f0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39a98e0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39add78, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -504,11 +504,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39a9960, size 0x2a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39addf8, size 0x2a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39a9c04, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39ae09c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -581,11 +581,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39a9c84, size 0x2f0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39ae11c, size 0x2f0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39a9f74, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39ae40c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -690,61 +690,61 @@ public:
   /// @brief Field randomMillisecondsResponseTime, offset 0x3c, size 0x8
   __declspec(property(get = __cordl_internal_get_randomMillisecondsResponseTime, put = __cordl_internal_set_randomMillisecondsResponseTime)) ::UnityEngine::RangeInt randomMillisecondsResponseTime;
 
-  /// @brief Method BuyGameDlc, addr 0x39a85a4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method BuyGameDlc, addr 0x39aca3c, size 0x100, virtual false, abstract: false, final false
   inline void BuyGameDlc(::StringW gameDlcId);
 
-  /// @brief Method BuyLevel, addr 0x39a86b0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method BuyLevel, addr 0x39acb48, size 0x100, virtual false, abstract: false, final false
   inline void BuyLevel(::StringW levelId);
 
-  /// @brief Method Dispose, addr 0x39a7ea4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x39ac33c, size 0x4, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetExcludedLevelIdsInternalAsync, addr 0x39a84c0, size 0xe4, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GetExcludedLevelIdsInternalAsync(::System::Threading::CancellationToken token);
+  /// @brief Method GetDiscontinuedLevelIdsInternalAsync, addr 0x39ac958, size 0xe4, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GetDiscontinuedLevelIdsInternalAsync(::System::Threading::CancellationToken token);
 
   /// [AsyncStateMachine(typeof(MockPlatformAdditionalContentModel::<GetGameDlcEntitlementStatusInternalAsync>d__12))]
-  /// @brief Method GetGameDlcEntitlementStatusInternalAsync, addr 0x39a808c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetGameDlcEntitlementStatusInternalAsync, addr 0x39ac524, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetGameDlcEntitlementStatusInternalAsync(::StringW gameDlcId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method GetLevelDataVersionInternalAsync, addr 0x39a817c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetLevelDataVersionInternalAsync, addr 0x39ac614, size 0x70, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* GetLevelDataVersionInternalAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
   /// [AsyncStateMachine(typeof(MockPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__10))]
-  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x39a7eac, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x39ac344, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
   /// [AsyncStateMachine(typeof(MockPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__11))]
-  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x39a7f9c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x39ac434, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method Initialize, addr 0x39a7ea0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x39ac338, size 0x4, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InvalidateDataInternal, addr 0x39a7ea8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InvalidateDataInternal, addr 0x39ac340, size 0x4, virtual true, abstract: false, final false
   inline void InvalidateDataInternal();
 
   /// [AsyncStateMachine(typeof(MockPlatformAdditionalContentModel::<IsPackBetterBuyThanLevelAsync>d__14))]
-  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x39a81ec, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x39ac684, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
   static inline ::GlobalNamespace::MockPlatformAdditionalContentModel* New_ctor(/* [InjectOptional] */ ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* initialData);
 
   /// [AsyncStateMachine(typeof(MockPlatformAdditionalContentModel::<OpenGameDlcProductStoreAsync>d__16))]
-  /// @brief Method OpenGameDlcProductStoreAsync, addr 0x39a83cc, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method OpenGameDlcProductStoreAsync, addr 0x39ac864, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenGameDlcProductStoreAsync(::StringW gameDlcId, ::System::Threading::CancellationToken token);
 
   /// [AsyncStateMachine(typeof(MockPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__21))]
-  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x39a87b0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x39acc48, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
   /// [AsyncStateMachine(typeof(MockPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__15))]
-  /// @brief Method OpenLevelProductStoreAsync, addr 0x39a82dc, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method OpenLevelProductStoreAsync, addr 0x39ac774, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelProductStoreAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method OpenStore, addr 0x39a84bc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OpenStore, addr 0x39ac954, size 0x4, virtual true, abstract: false, final false
   inline void OpenStore(::StringW uri);
 
-  /// @brief Method Wait, addr 0x39a88a0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x39acd38, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* Wait(::System::Threading::CancellationToken token);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* const& __cordl_internal_get__gameDlcEntitlements() const;
@@ -783,7 +783,7 @@ public:
 
   constexpr void __cordl_internal_set_randomMillisecondsResponseTime(::UnityEngine::RangeInt value);
 
-  /// @brief Method .ctor, addr 0x39a755c, size 0x938, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ab9f4, size 0x938, virtual false, abstract: false, final false
   inline void _ctor(/* [InjectOptional] */ ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* initialData);
 
 protected:

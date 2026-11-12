@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(&::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand::get_Type)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69f4ca0;
+  constexpr static std::size_t addrs = 0x69f5d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand::*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69f4cac;
+  constexpr static std::size_t addrs = 0x69f5d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities (::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand::*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand::get_capabilities)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x69f49d8;
+  constexpr static std::size_t addrs = 0x69f5ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand (*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::GetHapticCapabilitiesCommand::Create)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69f49bc;
+  constexpr static std::size_t addrs = 0x69f5a9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

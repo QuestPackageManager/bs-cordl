@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ParticleControlPlayable*> (*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::ParticleSystem*, uint32_t)>(&::UnityEngine::Timeline::ParticleControlPlayable::Create)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6e2de70;
+  constexpr static std::size_t addrs = 0x6e2ef50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::ParticleSystem> (::UnityEngine::Timeline::ParticleControlPlayable::*)()>(
     &::UnityEngine::Timeline::ParticleControlPlayable::get_particleSystem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e2e03c;
+  constexpr static std::size_t addrs = 0x6e2f11c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::ParticleControlPlayable*>(), { "get_particleSystem", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::ParticleControlPlayable::*)(::UnityEngine::ParticleSystem*)>(
     &::UnityEngine::Timeline::ParticleControlPlayable::set_particleSystem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e2e044;
+  constexpr static std::size_t addrs = 0x6e2f124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::ParticleControlPlayable::*)(::UnityEngine::ParticleSystem*, uint32_t)>(
     &::UnityEngine::Timeline::ParticleControlPlayable::Initialize)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6e2dfc4;
+  constexpr static std::size_t addrs = 0x6e2f0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::ParticleControlPlayable*>(),
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ParticleSystem*, uint32_t)>(&::UnityEngine::Timeline::ParticleControlPlayable::SetRandomSeed)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6e2e04c;
+  constexpr static std::size_t addrs = 0x6e2f12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::ParticleControlPlayable*>(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::ParticleControlPlayable::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(
     &::UnityEngine::Timeline::ParticleControlPlayable::PrepareFrame)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x6e2e178;
+  constexpr static std::size_t addrs = 0x6e2f258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::ParticleControlPlayable::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(
     &::UnityEngine::Timeline::ParticleControlPlayable::OnBehaviourPlay)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e2e418;
+  constexpr static std::size_t addrs = 0x6e2f4f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::ParticleControlPlayable::*)(::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(
     &::UnityEngine::Timeline::ParticleControlPlayable::OnBehaviourPause)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e2e424;
+  constexpr static std::size_t addrs = 0x6e2f504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::ParticleControlPlayable::*)(float_t, bool)>(&::UnityEngine::Timeline::ParticleControlPlayable::Simulate)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6e2e338;
+  constexpr static std::size_t addrs = 0x6e2f418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::ParticleControlPlayable::*)()>(&::UnityEngine::Timeline::ParticleControlPlayable::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e2e430;
+  constexpr static std::size_t addrs = 0x6e2f510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::ParticleControlPlayable*>(), { ".ctor", {}, {} })));

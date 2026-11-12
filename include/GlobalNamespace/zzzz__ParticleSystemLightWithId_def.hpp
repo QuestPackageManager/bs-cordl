@@ -52,10 +52,10 @@ public:
   /// @brief Field setOnlyOnce, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get_setOnlyOnce, put = __cordl_internal_set_setOnlyOnce)) bool setOnlyOnce;
 
-  /// @brief Method Awake, addr 0x5cbea2c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5cbd2fc, size 0x94, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ColorWasSet, addr 0x5cbeac0, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x5cbd390, size 0x180, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::ParticleSystemLightWithId* New_ctor();
@@ -102,10 +102,10 @@ public:
 
   constexpr void __cordl_internal_set_setOnlyOnce(bool value);
 
-  /// @brief Method .ctor, addr 0x5cbec40, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cbd510, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x5cbea00, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x5cbd2d0, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -123,7 +123,7 @@ public:
   ParticleSystemLightWithId(ParticleSystemLightWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20026 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19946 };
 
   /// [SerializeField]
   /// @brief Field _particleSystem, offset: 0x40, size: 0x8, def value: None

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::IBaseCommandBuffer*, bool)>(&::GlobalNamespace::MainEffectCore::UpdateKeyword)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x639b35c;
+  constexpr static std::size_t addrs = 0x639b9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::IBaseCommandBuffer*, float_t, float_t)>(&::GlobalNamespace::MainEffectCore::SetGlobalShaderValues)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x639b488;
+  constexpr static std::size_t addrs = 0x639bad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MainEffectCore::*)()>(&::GlobalNamespace::MainEffectCore::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x639b5f0;
+  constexpr static std::size_t addrs = 0x639bc40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MainEffectCore*>(), { ".ctor", {}, {} })));

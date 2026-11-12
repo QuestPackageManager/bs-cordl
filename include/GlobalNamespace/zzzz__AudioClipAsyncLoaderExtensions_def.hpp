@@ -36,21 +36,21 @@ class CORDL_TYPE AudioClipAsyncLoaderExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method LoadPreview, addr 0x39ce254, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method LoadPreview, addr 0x39d2750, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadPreview(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader,
                                                                                                     ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   /// [Extension]
-  /// @brief Method LoadSong, addr 0x39ce3ac, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method LoadSong, addr 0x39d28a8, size 0x21c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadSong(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader,
                                                                                                  ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
   /// [Extension]
-  /// @brief Method UnloadPreview, addr 0x39ce300, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method UnloadPreview, addr 0x39d27fc, size 0xac, virtual false, abstract: false, final false
   static inline void UnloadPreview(::GlobalNamespace::AudioClipAsyncLoader* _, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   /// [Extension]
-  /// @brief Method UnloadSong, addr 0x39ccb34, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method UnloadSong, addr 0x39d1030, size 0x1d4, virtual false, abstract: false, final false
   static inline void UnloadSong(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
 protected:
@@ -68,7 +68,7 @@ public:
   AudioClipAsyncLoaderExtensions(AudioClipAsyncLoaderExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14412 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

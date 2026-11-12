@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorInitializePass::*)(
     ::UnityEngine::Rendering::Universal::RenderPassEvent, ::GlobalNamespace::MirrorRendererSO*)>(&::GlobalNamespace::PlanarMirrorInitializePass::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x63a10cc;
+  constexpr static std::size_t addrs = 0x63a171c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorInitializePass::*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(
     &::GlobalNamespace::PlanarMirrorInitializePass::SetReflectedMatricesLeft)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x63a0958;
+  constexpr static std::size_t addrs = 0x63a0fa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorInitializePass::*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(
     &::GlobalNamespace::PlanarMirrorInitializePass::SetReflectedMatricesRight)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x63a0c10;
+  constexpr static std::size_t addrs = 0x63a1260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorInitializePass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::GlobalNamespace::PlanarMirrorInitializePass::RecordRenderGraph)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x63a112c;
+  constexpr static std::size_t addrs = 0x63a177c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

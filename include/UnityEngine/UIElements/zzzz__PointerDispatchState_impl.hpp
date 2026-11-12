@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDispatchState::*)()>(&::UnityEngine::UIElements::PointerDispatchState::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x72ae4e0;
+  constexpr static std::size_t addrs = 0x72af5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerDispatchState*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDispatchState::*)()>(&::UnityEngine::UIElements::PointerDispatchState::Reset)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x72ae5bc;
+  constexpr static std::size_t addrs = 0x72af69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PointerDispatchState*>(), { "Reset", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::IEventHandler* (::UnityEngine::UIElements::PointerDispatchState::*)(int32_t)>(
     &::UnityEngine::UIElements::PointerDispatchState::GetCapturingElement)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x72ad70c;
+  constexpr static std::size_t addrs = 0x72ae7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PointerDispatchState::*)(::UnityEngine::UIElements::IEventHandler*, int32_t)>(
     &::UnityEngine::UIElements::PointerDispatchState::HasPointerCapture)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x72ad398;
+  constexpr static std::size_t addrs = 0x72ae478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDispatchState::*)(::UnityEngine::UIElements::IEventHandler*, int32_t)>(
     &::UnityEngine::UIElements::PointerDispatchState::CapturePointer)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x72ad3d0;
+  constexpr static std::size_t addrs = 0x72ae4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDispatchState::*)(int32_t)>(&::UnityEngine::UIElements::PointerDispatchState::ReleasePointer)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x72ad810;
+  constexpr static std::size_t addrs = 0x72ae8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDispatchState::*)(::UnityEngine::UIElements::IEventHandler*, int32_t)>(
     &::UnityEngine::UIElements::PointerDispatchState::ReleasePointer)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x72ad5f0;
+  constexpr static std::size_t addrs = 0x72ae6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDispatchState::*)(int32_t)>(&::UnityEngine::UIElements::PointerDispatchState::ProcessPointerCapture)> {
   constexpr static std::size_t size = 0x7b4;
-  constexpr static std::size_t addrs = 0x72add2c;
+  constexpr static std::size_t addrs = 0x72aee0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDispatchState::*)(int32_t)>(
     &::UnityEngine::UIElements::PointerDispatchState::ActivateCompatibilityMouseEvents)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x72ad9a0;
+  constexpr static std::size_t addrs = 0x72aea80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PointerDispatchState::*)(int32_t)>(
     &::UnityEngine::UIElements::PointerDispatchState::PreventCompatibilityMouseEvents)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x72adaa8;
+  constexpr static std::size_t addrs = 0x72aeb88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PointerDispatchState::*)(::UnityEngine::UIElements::IPointerEvent*)>(
     &::UnityEngine::UIElements::PointerDispatchState::ShouldSendCompatibilityMouseEvents)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x72adbec;
+  constexpr static std::size_t addrs = 0x72aeccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

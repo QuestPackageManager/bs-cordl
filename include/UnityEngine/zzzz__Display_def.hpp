@@ -40,12 +40,12 @@ namespace UnityEngine {
 class CORDL_TYPE Display_DisplaysUpdatedDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6f14888, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6f15968, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::Display_DisplaysUpdatedDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6f14820, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f15900, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -108,15 +108,15 @@ public:
   __declspec(property(get = get_systemWidth)) int32_t systemWidth;
 
   /// [RequiredByNativeCode]
-  /// @brief Method FireDisplaysUpdated, addr 0x6f146a0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FireDisplaysUpdated, addr 0x6f15780, size 0x98, virtual false, abstract: false, final false
   static inline void FireDisplaysUpdated();
 
   /// [FreeFunction("UnityDisplayManager_DisplayRenderingResolution")]
-  /// @brief Method GetRenderingExtImpl, addr 0x6f14088, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetRenderingExtImpl, addr 0x6f15168, size 0x54, virtual false, abstract: false, final false
   static inline void GetRenderingExtImpl(::System::IntPtr nativeDisplay, ::by_ref<int32_t> w, ::by_ref<int32_t> h);
 
   /// [FreeFunction("UnityDisplayManager_DisplaySystemResolution")]
-  /// @brief Method GetSystemExtImpl, addr 0x6f1420c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSystemExtImpl, addr 0x6f152ec, size 0x54, virtual false, abstract: false, final false
   static inline void GetSystemExtImpl(::System::IntPtr nativeDisplay, ::by_ref<int32_t> w, ::by_ref<int32_t> h);
 
   static inline ::UnityEngine::Display* New_ctor();
@@ -124,18 +124,18 @@ public:
   static inline ::UnityEngine::Display* New_ctor(::System::IntPtr nativeDisplay);
 
   /// [RequiredByNativeCode]
-  /// @brief Method RecreateDisplayList, addr 0x6f1452c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method RecreateDisplayList, addr 0x6f1560c, size 0x174, virtual false, abstract: false, final false
   static inline void RecreateDisplayList(::ArrayW<::System::IntPtr> nativeDisplay);
 
-  /// @brief Method RelativeMouseAt, addr 0x6f143b0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RelativeMouseAt, addr 0x6f15490, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RelativeMouseAt(::UnityEngine::Vector3 inputMouseCoordinates);
 
   /// [FreeFunction("UnityDisplayManager_RelativeMouseAt")]
-  /// @brief Method RelativeMouseAtImpl, addr 0x6f14474, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method RelativeMouseAtImpl, addr 0x6f15554, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t RelativeMouseAtImpl(int32_t x, int32_t y, ::by_ref<int32_t> rx, ::by_ref<int32_t> ry);
 
   /// [FreeFunction("UnityDisplayManager_RequiresSRGBBlitToBackbuffer")]
-  /// @brief Method RequiresSrgbBlitToBackbufferImpl, addr 0x6f14374, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RequiresSrgbBlitToBackbufferImpl, addr 0x6f15454, size 0x3c, virtual false, abstract: false, final false
   static inline bool RequiresSrgbBlitToBackbufferImpl(::System::IntPtr nativeDisplay);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_nativeDisplay() const;
@@ -144,10 +144,10 @@ public:
 
   constexpr void __cordl_internal_set_nativeDisplay(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6f13fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f150c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6f13fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f150c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr nativeDisplay);
 
   static inline ::UnityEngine::Display* getStaticF__mainDisplay();
@@ -158,22 +158,22 @@ public:
 
   static inline ::UnityEngine::Display_DisplaysUpdatedDelegate* getStaticF_onDisplaysUpdated();
 
-  /// @brief Method get_main, addr 0x6f144d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_main, addr 0x6f155b0, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Display* get_main();
 
-  /// @brief Method get_renderingHeight, addr 0x6f140dc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_renderingHeight, addr 0x6f151bc, size 0x98, virtual false, abstract: false, final false
   inline int32_t get_renderingHeight();
 
-  /// @brief Method get_renderingWidth, addr 0x6f13ff0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_renderingWidth, addr 0x6f150d0, size 0x98, virtual false, abstract: false, final false
   inline int32_t get_renderingWidth();
 
-  /// @brief Method get_requiresSrgbBlitToBackbuffer, addr 0x6f142f8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_requiresSrgbBlitToBackbuffer, addr 0x6f153d8, size 0x7c, virtual false, abstract: false, final false
   inline bool get_requiresSrgbBlitToBackbuffer();
 
-  /// @brief Method get_systemHeight, addr 0x6f14260, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_systemHeight, addr 0x6f15340, size 0x98, virtual false, abstract: false, final false
   inline int32_t get_systemHeight();
 
-  /// @brief Method get_systemWidth, addr 0x6f14174, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_systemWidth, addr 0x6f15254, size 0x98, virtual false, abstract: false, final false
   inline int32_t get_systemWidth();
 
   static inline void setStaticF__mainDisplay(::UnityEngine::Display* value);

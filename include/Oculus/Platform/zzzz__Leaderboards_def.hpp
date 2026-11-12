@@ -37,33 +37,33 @@ namespace Oculus::Platform {
 class CORDL_TYPE Leaderboards : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x6235cb8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x6235f40, size 0x168, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardList*>* Get(::StringW leaderboardName);
 
-  /// @brief Method GetEntries, addr 0x6235e20, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetEntries, addr 0x62360a8, size 0x188, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* GetEntries(::StringW leaderboardName, int32_t limit, ::Oculus::Platform::LeaderboardFilterType filter,
                                                                                                              ::Oculus::Platform::LeaderboardStartAt startAt);
 
-  /// @brief Method GetEntriesAfterRank, addr 0x6235fa8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetEntriesAfterRank, addr 0x6236230, size 0x180, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* GetEntriesAfterRank(::StringW leaderboardName, int32_t limit, uint64_t afterRank);
 
-  /// @brief Method GetEntriesByIds, addr 0x6236128, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetEntriesByIds, addr 0x62363b0, size 0x19c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* GetEntriesByIds(::StringW leaderboardName, int32_t limit,
                                                                                                                   ::Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t> userIDs);
 
-  /// @brief Method GetNextEntries, addr 0x6235998, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetNextEntries, addr 0x6235c20, size 0x190, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* GetNextEntries(::Oculus::Platform::Models::LeaderboardEntryList* list);
 
-  /// @brief Method GetNextLeaderboardListPage, addr 0x623660c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method GetNextLeaderboardListPage, addr 0x6236894, size 0x1f0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardList*>* GetNextLeaderboardListPage(::Oculus::Platform::Models::LeaderboardList* list);
 
-  /// @brief Method GetPreviousEntries, addr 0x6235b28, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetPreviousEntries, addr 0x6235db0, size 0x190, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* GetPreviousEntries(::Oculus::Platform::Models::LeaderboardEntryList* list);
 
-  /// @brief Method WriteEntry, addr 0x62362c4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method WriteEntry, addr 0x623654c, size 0x19c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<bool>* WriteEntry(::StringW leaderboardName, int64_t score, ::ArrayW<uint8_t> extraData, bool forceUpdate);
 
-  /// @brief Method WriteEntryWithSupplementaryMetric, addr 0x6236460, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method WriteEntryWithSupplementaryMetric, addr 0x62366e8, size 0x1ac, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<bool>* WriteEntryWithSupplementaryMetric(::StringW leaderboardName, int64_t score, int64_t supplementaryMetric, ::ArrayW<uint8_t> extraData,
                                                                                        bool forceUpdate);
 
@@ -82,7 +82,7 @@ public:
   Leaderboards(Leaderboards const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18513 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18521 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -33,48 +33,48 @@ public:
 
   __declspec(property(get = get_volume, put = set_volume)) float_t volume;
 
-  /// @brief Method Internal_Create, addr 0x6ee4cc8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x6ee5da8, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Create(/* [Writable] */ ::UnityEngine::Audio::AudioContainerElement* self);
 
   static inline ::UnityEngine::Audio::AudioContainerElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6ee4c50, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee5d30, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioClip, addr 0x6ee4d04, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_audioClip, addr 0x6ee5de4, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_audioClip();
 
-  /// @brief Method get_audioClip_Injected, addr 0x6ee4e54, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioClip_Injected, addr 0x6ee5f34, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_audioClip_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_enabled, addr 0x6ee512c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x6ee620c, size 0x80, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method get_enabled_Injected, addr 0x6ee51ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled_Injected, addr 0x6ee628c, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_enabled_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_volume, addr 0x6ee4f94, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_volume, addr 0x6ee6074, size 0x80, virtual false, abstract: false, final false
   inline float_t get_volume();
 
-  /// @brief Method get_volume_Injected, addr 0x6ee5014, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_volume_Injected, addr 0x6ee60f4, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_volume_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_audioClip, addr 0x6ee4e90, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_audioClip, addr 0x6ee5f70, size 0xc0, virtual false, abstract: false, final false
   inline void set_audioClip(::UnityEngine::AudioClip* value);
 
-  /// @brief Method set_audioClip_Injected, addr 0x6ee4f50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_audioClip_Injected, addr 0x6ee6030, size 0x44, virtual false, abstract: false, final false
   static inline void set_audioClip_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
-  /// @brief Method set_enabled, addr 0x6ee51e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x6ee62c8, size 0x90, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
-  /// @brief Method set_enabled_Injected, addr 0x6ee5278, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enabled_Injected, addr 0x6ee6358, size 0x44, virtual false, abstract: false, final false
   static inline void set_enabled_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_volume, addr 0x6ee5050, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_volume, addr 0x6ee6130, size 0x90, virtual false, abstract: false, final false
   inline void set_volume(float_t value);
 
-  /// @brief Method set_volume_Injected, addr 0x6ee50e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_volume_Injected, addr 0x6ee61c0, size 0x4c, virtual false, abstract: false, final false
   static inline void set_volume_Injected(::System::IntPtr _unity_self, float_t value);
 
 protected:
@@ -92,7 +92,7 @@ public:
   AudioContainerElement(AudioContainerElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20378 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20392 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

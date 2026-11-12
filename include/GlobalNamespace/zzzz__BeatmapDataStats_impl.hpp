@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Span_1<int32_t> (*)(::ArrayW<::GlobalNamespace::BeatmapDataItem*>)>(&::GlobalNamespace::BeatmapDataStats::CountItems)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x5d3f86c;
+  constexpr static std::size_t addrs = 0x5d3f4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<::GlobalNamespace::BeatmapDataItem*>, ::System::Span_1<int32_t>, ::System::Span_1<int32_t>)>(
     &::GlobalNamespace::BeatmapDataStats::CountItems)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x5d3fa44;
+  constexpr static std::size_t addrs = 0x5d3f6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Span_1<int32_t>)>(&::GlobalNamespace::BeatmapDataStats::SumCounts)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5d3fe34;
+  constexpr static std::size_t addrs = 0x5d3fa94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Span_1<int32_t>)>(&::GlobalNamespace::BeatmapDataStats::GenerateReport)> {
   constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x5d3fea8;
+  constexpr static std::size_t addrs = 0x5d3fb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

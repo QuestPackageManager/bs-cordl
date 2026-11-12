@@ -115,13 +115,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x643368c, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6433cdc, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x6435814, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6435e64, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x6435818, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6435e68, size 0x54, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// @brief Method FinishHandshake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -141,7 +141,7 @@ public:
   /// @brief Method Renegotiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Renegotiate();
 
-  /// @brief Method SelectClientCertificate, addr 0x642d934, size 0x5b4, virtual false, abstract: false, final false
+  /// @brief Method SelectClientCertificate, addr 0x642df84, size 0x5b4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* SelectClientCertificate(::ArrayW<::StringW> acceptableIssuers);
 
   /// @brief Method Shutdown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -150,7 +150,7 @@ public:
   /// @brief Method StartHandshake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StartHandshake();
 
-  /// @brief Method ValidateCertificate, addr 0x642c97c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x642cfcc, size 0x50, virtual false, abstract: false, final false
   inline bool ValidateCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* leaf, ::System::Security::Cryptography::X509Certificates::X509Chain* chain);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -216,54 +216,54 @@ public:
 
   constexpr void __cordl_internal_set_certificateValidator(::Mono::Net::Security::ChainValidationHelper* value);
 
-  /// @brief Method .ctor, addr 0x642bd4c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642c39c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, ::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 
   /// [CompilerGenerated]
-  /// @brief Method get_AskForClientCertificate, addr 0x64357f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AskForClientCertificate, addr 0x6435e44, size 0x8, virtual false, abstract: false, final false
   inline bool get_AskForClientCertificate();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ClientCertificates, addr 0x64357fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClientCertificates, addr 0x6435e4c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
   /// @brief Method get_IsAuthenticated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsAuthenticated();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IsServer, addr 0x64357dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsServer, addr 0x6435e2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsServer();
 
   /// @brief Method get_LocalClientCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalClientCertificate();
 
   /// [CompilerGenerated]
-  /// @brief Method get_LocalServerCertificate, addr 0x6435804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalServerCertificate, addr 0x6435e54, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalServerCertificate();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Parent, addr 0x64357d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x6435e24, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* get_Parent();
 
   /// @brief Method get_RemoteCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_RemoteCertificate();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ServerName, addr 0x64357ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServerName, addr 0x6435e3c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ServerName();
 
-  /// @brief Method get_Settings, addr 0x642c620, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Settings, addr 0x642cc70, size 0x18, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::MonoTlsSettings* get_Settings();
 
   /// [CompilerGenerated]
-  /// @brief Method get_TargetHost, addr 0x64357e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetHost, addr 0x6435e34, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TargetHost();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_LocalServerCertificate, addr 0x643580c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocalServerCertificate, addr 0x6435e5c, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
 
 protected:

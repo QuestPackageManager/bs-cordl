@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::*)(int32_t)>(
     &::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39d9dd0;
+  constexpr static std::size_t addrs = 0x39dea8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::*)()>(
     &::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39d9eb4;
+  constexpr static std::size_t addrs = 0x39deb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::*)()>(
     &::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::MoveNext)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x39d9ed0;
+  constexpr static std::size_t addrs = 0x39deb8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::*)()>(
     &::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x39da184;
+  constexpr static std::size_t addrs = 0x39dee40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapLevel* (::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::*)()>(
     &::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::System_Collections_Generic_IEnumerator_BeatmapLevel__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39da238;
+  constexpr static std::size_t addrs = 0x39deef4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1*>(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::*)()>(
     &::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39da240;
+  constexpr static std::size_t addrs = 0x39deefc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::*)()>(
     &::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39da278;
+  constexpr static std::size_t addrs = 0x39def34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapLevel*>* (::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::*)()>(
         &::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::System_Collections_Generic_IEnumerable_BeatmapLevel__GetEnumerator)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x39da280;
+  constexpr static std::size_t addrs = 0x39def3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1*>(),
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::*)()>(
     &::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39da320;
+  constexpr static std::size_t addrs = 0x39defdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayTypeFilterExtensions__LevelsWithGameplayType_d__1*>(),
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::*)(int32_t)>(
     &::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39d9d34;
+  constexpr static std::size_t addrs = 0x39de9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::*)()>(
     &::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39da324;
+  constexpr static std::size_t addrs = 0x39defe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -375,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::*)()>(
     &::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::MoveNext)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x39da340;
+  constexpr static std::size_t addrs = 0x39deffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::*)()>(
     &::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x39da5e0;
+  constexpr static std::size_t addrs = 0x39df29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapLevelPack* (::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::*)()>(
     &::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::System_Collections_Generic_IEnumerator_BeatmapLevelPack__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39da694;
+  constexpr static std::size_t addrs = 0x39df350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0*>(),
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::*)()>(
     &::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39da69c;
+  constexpr static std::size_t addrs = 0x39df358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::*)()>(
     &::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39da6d4;
+  constexpr static std::size_t addrs = 0x39df390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -447,7 +447,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapLevelPack*>* (::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::*)()>(
         &::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::System_Collections_Generic_IEnumerable_BeatmapLevelPack__GetEnumerator)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x39da6dc;
+  constexpr static std::size_t addrs = 0x39df398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0*>(),
@@ -461,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::*)()>(
     &::GlobalNamespace::GameplayTypeFilterExtensions__PacksWithGameplayType_d__0::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39da77c;
+  constexpr static std::size_t addrs = 0x39df438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -678,7 +678,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::GlobalNamespace::BeatmapLevelPack*>* (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevelPack*>*, ::GlobalNamespace::GameplayType)>(
     &::GlobalNamespace::GameplayTypeFilterExtensions::PacksWithGameplayType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39d9cb8;
+  constexpr static std::size_t addrs = 0x39de974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -697,7 +697,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>* (*)(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevel*>*,
                                                                                          ::GlobalNamespace::GameplayType)>(&::GlobalNamespace::GameplayTypeFilterExtensions::LevelsWithGameplayType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39d9d54;
+  constexpr static std::size_t addrs = 0x39dea10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -715,7 +715,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::GameplayType)>(
     &::GlobalNamespace::GameplayTypeFilterExtensions::ContainsGameplayType)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x39d9df0;
+  constexpr static std::size_t addrs = 0x39deaac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

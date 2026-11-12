@@ -152,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilDeferredPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6ce07c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce18a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

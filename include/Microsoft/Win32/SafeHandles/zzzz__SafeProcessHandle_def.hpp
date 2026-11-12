@@ -29,13 +29,13 @@ public:
 
   static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* New_ctor(::System::IntPtr handle);
 
-  /// @brief Method ReleaseHandle, addr 0x643d170, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x643d7c0, size 0x9c, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method .ctor, addr 0x643cf20, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x643d570, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr existingHandle, bool ownsHandle);
 
-  /// @brief Method .ctor, addr 0x643d110, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x643d760, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr handle);
 
   static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* getStaticF_InvalidHandle();

@@ -10,6 +10,7 @@ CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InitialDestinationResolver)
@@ -113,7 +114,7 @@ namespace GlobalNamespace {
 struct InitialDestinationResolver__InitializeScenesAsync_d__26;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__PresentHealthWarningAsync_d__41;
+struct InitialDestinationResolver__PresentHealthWarningAsync_d__42;
 }
 namespace GlobalNamespace {
 struct InitialDestinationResolver__PresentShaderWarmUpAsync_d__40;
@@ -219,7 +220,7 @@ namespace GlobalNamespace {
 struct InitialDestinationResolver__InitializeScenesAsync_d__26;
 }
 namespace GlobalNamespace {
-struct InitialDestinationResolver__PresentHealthWarningAsync_d__41;
+struct InitialDestinationResolver__PresentHealthWarningAsync_d__42;
 }
 namespace GlobalNamespace {
 struct InitialDestinationResolver__PresentShaderWarmUpAsync_d__40;
@@ -235,7 +236,7 @@ MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToStartupErrorAsync_
 MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__28);
 MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__34);
 MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26);
-MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41);
+MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42);
 MARK_VAL_T(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver*, "", "InitialDestinationResolver");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToCreditsAsync_d__36, "", "InitialDestinationResolver/<GoToCreditsAsync>d__36");
@@ -247,7 +248,7 @@ DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToStartupEr
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__28, "", "InitialDestinationResolver/<GoToTargetDestinationAsync>d__28");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__GoToTutorialAsync_d__34, "", "InitialDestinationResolver/<GoToTutorialAsync>d__34");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26, "", "InitialDestinationResolver/<InitializeScenesAsync>d__26");
-DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41, "", "InitialDestinationResolver/<PresentHealthWarningAsync>d__41");
+DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42, "", "InitialDestinationResolver/<PresentHealthWarningAsync>d__42");
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, "", "InitialDestinationResolver/<PresentShaderWarmUpAsync>d__40");
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
@@ -260,11 +261,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a25574, size 0x51c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a2aab4, size 0x524, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3a25a90, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a2afd8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -286,7 +287,7 @@ public:
                                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21832 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -352,11 +353,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a25afc, size 0x320, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a2b044, size 0x330, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3a25e1c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a2b374, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -368,14 +369,15 @@ public:
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::InitialDestinationResolver*",
-  // modifiers: "", def_value: None, comment: None }, CppParam { name: "shouldReplace", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*>", modifiers: "", def_value: None, comment: None }]
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "shouldReplace", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "shouldReclaimMemory", ty: "bool",
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*>", modifiers: "", def_value: None,
+  // comment: None }]
   constexpr InitialDestinationResolver__GoToMainMenuAsync_d__39(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                                ::GlobalNamespace::InitialDestinationResolver* __4__this, bool shouldReplace,
+                                                                ::GlobalNamespace::InitialDestinationResolver* __4__this, bool shouldReplace, bool shouldReclaimMemory,
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21833 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -393,6 +395,9 @@ public:
   /// @brief Field shouldReplace, offset: 0x28, size: 0x1, def value: None
   bool shouldReplace;
 
+  /// @brief Field shouldReclaimMemory, offset: 0x29, size: 0x1, def value: None
+  bool shouldReclaimMemory;
+
   /// [Nullable(0)]
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__1;
@@ -407,6 +412,8 @@ static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMainMe
 static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__39, __4__this) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__39, shouldReplace) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__39, shouldReclaimMemory) == 0x29, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToMainMenuAsync_d__39, __u__1) == 0x30, "Offset mismatch!");
 
@@ -424,11 +431,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a25e88, size 0x764, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a2b3e0, size 0x77c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3a265ec, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a2bb5c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -451,7 +458,7 @@ public:
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21834 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -518,11 +525,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a26658, size 0xa30, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a2bbc8, size 0xa48, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3a27088, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a2c610, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -556,7 +563,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21835 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };
@@ -668,11 +675,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a270f4, size 0x4a0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a2c67c, size 0x4a8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3a27594, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a2cb24, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -695,7 +702,7 @@ public:
                                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21836 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -761,11 +768,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a27600, size 0x350, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a2cb90, size 0x354, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3a27950, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a2cee4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -784,7 +791,7 @@ public:
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21837 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -834,11 +841,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a279bc, size 0x6bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a2cf50, size 0x6c0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3a28078, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a2d610, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -851,14 +858,14 @@ public:
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "targetDestination", ty:
   // "::BeatSaber::Destinations::Destination*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::InitialDestinationResolver*", modifiers: "",
-  // def_value: None, comment: None }, CppParam { name: "shouldReplace", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
+  // def_value: None, comment: None }, CppParam { name: "shouldReplace", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "shouldReclaimMemory", ty: "bool", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr InitialDestinationResolver__GoToTargetDestinationAsync_d__28(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                          ::BeatSaber::Destinations::Destination* targetDestination, ::GlobalNamespace::InitialDestinationResolver* __4__this,
-                                                                         bool shouldReplace, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+                                                                         bool shouldReplace, bool shouldReclaimMemory, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21823 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21838 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -880,6 +887,9 @@ public:
   /// @brief Field shouldReplace, offset: 0x30, size: 0x1, def value: None
   bool shouldReplace;
 
+  /// @brief Field shouldReclaimMemory, offset: 0x31, size: 0x1, def value: None
+  bool shouldReclaimMemory;
+
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
@@ -895,6 +905,8 @@ static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTarget
 static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__28, __4__this) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__28, shouldReplace) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__28, shouldReclaimMemory) == 0x31, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__GoToTargetDestinationAsync_d__28, __u__1) == 0x38, "Offset mismatch!");
 
@@ -912,11 +924,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a280e4, size 0x5c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a2d67c, size 0x5e0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3a286ac, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a2dc5c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -938,7 +950,7 @@ public:
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21824 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21839 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -1004,11 +1016,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a28718, size 0x588, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a2dcc8, size 0x680, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3a28ca0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a2e348, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1021,16 +1033,17 @@ public:
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::InitialDestinationResolver*",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "_targetDestination_5__2", ty: "::BeatSaber::Destinations::Destination*", modifiers: "", def_value: None, comment: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
+  // CppParam { name: "_shouldReplace_5__3", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_shouldReclaimMemory_5__4", ty: "bool", modifiers: "", def_value: None,
+  // comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
   constexpr InitialDestinationResolver__InitializeScenesAsync_d__26(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                     ::GlobalNamespace::InitialDestinationResolver* __4__this, ::BeatSaber::Destinations::Destination* _targetDestination_5__2,
-                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+                                                                    bool _shouldReplace_5__3, bool _shouldReclaimMemory_5__4, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21840 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -1046,7 +1059,13 @@ public:
   /// @brief Field <targetDestination>5__2, offset: 0x28, size: 0x8, def value: None
   ::BeatSaber::Destinations::Destination* _targetDestination_5__2;
 
-  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field <shouldReplace>5__3, offset: 0x30, size: 0x1, def value: None
+  bool _shouldReplace_5__3;
+
+  /// @brief Field <shouldReclaimMemory>5__4, offset: 0x31, size: 0x1, def value: None
+  bool _shouldReclaimMemory_5__4;
+
+  /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -1060,27 +1079,31 @@ static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__Initialize
 
 static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26, _targetDestination_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26, _shouldReplace_5__3) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26) == 0x38, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26, _shouldReclaimMemory_5__4) == 0x31, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26, __u__1) == 0x38, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26) == 0x40, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: InitialDestinationResolver/<PresentHealthWarningAsync>d__41
-struct CORDL_TYPE InitialDestinationResolver__PresentHealthWarningAsync_d__41 {
+// CS Name: InitialDestinationResolver/<PresentHealthWarningAsync>d__42
+struct CORDL_TYPE InitialDestinationResolver__PresentHealthWarningAsync_d__42 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a28d0c, size 0x3d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a2e3b4, size 0x41c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3a290e0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a2e7d0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1088,23 +1111,25 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr InitialDestinationResolver__PresentHealthWarningAsync_d__41();
+  constexpr InitialDestinationResolver__PresentHealthWarningAsync_d__42();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::InitialDestinationResolver*",
-  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_sceneSetupData_5__2", ty: "::GlobalNamespace::HealthWarningSceneSetupData*", modifiers: "", def_value: None, comment: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "shouldPreloadMainMenu", ty: "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_sceneSetupData_5__2",
+  // ty: "::GlobalNamespace::HealthWarningSceneSetupData*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
-  constexpr InitialDestinationResolver__PresentHealthWarningAsync_d__41(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                                        ::GlobalNamespace::InitialDestinationResolver* __4__this, ::GlobalNamespace::HealthWarningSceneSetupData* _sceneSetupData_5__2,
+  constexpr InitialDestinationResolver__PresentHealthWarningAsync_d__42(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                        ::GlobalNamespace::InitialDestinationResolver* __4__this, bool shouldPreloadMainMenu,
+                                                                        ::GlobalNamespace::HealthWarningSceneSetupData* _sceneSetupData_5__2,
                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__1,
                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21841 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -1116,34 +1141,39 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::InitialDestinationResolver* __4__this;
 
+  /// @brief Field shouldPreloadMainMenu, offset: 0x28, size: 0x1, def value: None
+  bool shouldPreloadMainMenu;
+
   /// [Nullable(0)]
-  /// @brief Field <sceneSetupData>5__2, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field <sceneSetupData>5__2, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::HealthWarningSceneSetupData* _sceneSetupData_5__2;
 
   /// [Nullable(0)]
-  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__1;
 
   /// [Nullable(0)]
-  /// @brief Field <>u__2, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field <>u__2, offset: 0x40, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41, _sceneSetupData_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42, shouldPreloadMainMenu) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42, _sceneSetupData_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41, __u__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41) == 0x40, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42, __u__2) == 0x40, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [CompilerGenerated]
@@ -1157,11 +1187,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3a2914c, size 0x3d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a2e83c, size 0x3d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x3a29520, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3a2ec10, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1173,19 +1203,21 @@ public:
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::InitialDestinationResolver*",
-  // modifiers: "", def_value: None, comment: None }, CppParam { name: "_sceneSetupData_5__2", ty: "::GlobalNamespace::ShaderWarmupSceneSetupData*", modifiers: "", def_value: None, comment: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
+  // modifiers: "", def_value: None, comment: None }, CppParam { name: "minDurationSeconds", ty: "float_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "shouldReclaimMemory", ty:
+  // "bool", modifiers: "", def_value: None, comment: None }, CppParam { name: "_sceneSetupData_5__2", ty: "::GlobalNamespace::ShaderWarmupSceneSetupData*", modifiers: "", def_value: None, comment:
+  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2",
+  // ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
   constexpr InitialDestinationResolver__PresentShaderWarmUpAsync_d__40(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                                       ::GlobalNamespace::InitialDestinationResolver* __4__this, ::GlobalNamespace::ShaderWarmupSceneSetupData* _sceneSetupData_5__2,
+                                                                       ::GlobalNamespace::InitialDestinationResolver* __4__this, float_t minDurationSeconds, bool shouldReclaimMemory,
+                                                                       ::GlobalNamespace::ShaderWarmupSceneSetupData* _sceneSetupData_5__2,
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__1,
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21842 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -1197,16 +1229,22 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::InitialDestinationResolver* __4__this;
 
+  /// @brief Field minDurationSeconds, offset: 0x28, size: 0x4, def value: None
+  float_t minDurationSeconds;
+
+  /// @brief Field shouldReclaimMemory, offset: 0x2c, size: 0x1, def value: None
+  bool shouldReclaimMemory;
+
   /// [Nullable(0)]
-  /// @brief Field <sceneSetupData>5__2, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field <sceneSetupData>5__2, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ShaderWarmupSceneSetupData* _sceneSetupData_5__2;
 
   /// [Nullable(0)]
-  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::Zenject::DiContainer*> __u__1;
 
   /// [Nullable(0)]
-  /// @brief Field <>u__2, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field <>u__2, offset: 0x40, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -1218,13 +1256,17 @@ static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentSha
 
 static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, _sceneSetupData_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, minDurationSeconds) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, shouldReclaimMemory) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, __u__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, _sceneSetupData_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40) == 0x40, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, __u__1) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40, __u__2) == 0x40, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // [NullableContext(1)]
@@ -1254,7 +1296,7 @@ public:
 
   using _InitializeScenesAsync_d__26 = ::GlobalNamespace::InitialDestinationResolver__InitializeScenesAsync_d__26;
 
-  using _PresentHealthWarningAsync_d__41 = ::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__41;
+  using _PresentHealthWarningAsync_d__42 = ::GlobalNamespace::InitialDestinationResolver__PresentHealthWarningAsync_d__42;
 
   using _PresentShaderWarmUpAsync_d__40 = ::GlobalNamespace::InitialDestinationResolver__PresentShaderWarmUpAsync_d__40;
 
@@ -1352,98 +1394,101 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method ClearPreviousState, addr 0x3a24198, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ClearPreviousState, addr 0x3a2959c, size 0x1bc, virtual false, abstract: false, final false
   inline void ClearPreviousState();
 
-  /// @brief Method DelaySmallAmountOfTime, addr 0x3a24420, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method DelaySmallAmountOfTime, addr 0x3a29838, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* DelaySmallAmountOfTime();
 
-  /// @brief Method GameModeForLevelStart, addr 0x3a25278, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GameModeForLevelStart, addr 0x3a2a7b4, size 0x100, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameMode GameModeForLevelStart(::BeatSaber::Destinations::LevelStartSource levelStartSource);
 
+  /// @brief Method GetTransitionLengthForCurrentFade, addr 0x3a2a1e4, size 0xc8, virtual false, abstract: false, final false
+  inline float_t GetTransitionLengthForCurrentFade();
+
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToCreditsAsync>d__36))]
-  /// @brief Method GoToCreditsAsync, addr 0x3a249c8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GoToCreditsAsync, addr 0x3a29de0, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToCreditsAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToMainMenuAsync>d__39))]
-  /// @brief Method GoToMainMenuAsync, addr 0x3a24c20, size 0xc8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* GoToMainMenuAsync(bool shouldReplace);
+  /// @brief Method GoToMainMenuAsync, addr 0x3a2a038, size 0xd4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* GoToMainMenuAsync(bool shouldReplace, bool shouldReclaimMemory);
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToMissionLevelAsync>d__31))]
-  /// @brief Method GoToMissionLevelAsync, addr 0x3a24548, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GoToMissionLevelAsync, addr 0x3a29960, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToMissionLevelAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToMultiplayerLevelAsync>d__38))]
-  /// @brief Method GoToMultiplayerLevelAsync, addr 0x3a24b50, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GoToMultiplayerLevelAsync, addr 0x3a29f68, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToMultiplayerLevelAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToStandardLevelAsync>d__30))]
-  /// @brief Method GoToStandardLevelAsync, addr 0x3a24478, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GoToStandardLevelAsync, addr 0x3a29890, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToStandardLevelAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToStartupErrorAsync>d__33))]
-  /// @brief Method GoToStartupErrorAsync, addr 0x3a246d0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GoToStartupErrorAsync, addr 0x3a29ae8, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToStartupErrorAsync(::BeatSaber::Destinations::Destination* targetDestination);
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToTargetDestinationAsync>d__28))]
-  /// @brief Method GoToTargetDestinationAsync, addr 0x3a24354, size 0xcc, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* GoToTargetDestinationAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
+  /// @brief Method GoToTargetDestinationAsync, addr 0x3a29758, size 0xe0, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* GoToTargetDestinationAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace, bool shouldReclaimMemory);
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<GoToTutorialAsync>d__34))]
-  /// @brief Method GoToTutorialAsync, addr 0x3a24794, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GoToTutorialAsync, addr 0x3a29bac, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GoToTutorialAsync(::BeatSaber::Destinations::Destination* targetDestination, bool shouldReplace);
 
-  /// @brief Method HandleCreditsSceneDidFinish, addr 0x3a24a98, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleCreditsSceneDidFinish, addr 0x3a29eb0, size 0xb8, virtual false, abstract: false, final false
   inline void HandleCreditsSceneDidFinish(::GlobalNamespace::CreditsScenesTransitionSetupData* setupData);
 
-  /// @brief Method HandleMissionSceneDidFinish, addr 0x3a24618, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionSceneDidFinish, addr 0x3a29a30, size 0xb8, virtual false, abstract: false, final false
   inline void HandleMissionSceneDidFinish(::GlobalNamespace::MissionLevelScenesTransitionSetupData* setupData, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method HandleStandardLevelSetupDataFinishEvent, addr 0x3a25378, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method HandleStandardLevelSetupDataFinishEvent, addr 0x3a2a8b4, size 0x168, virtual false, abstract: false, final false
   inline void HandleStandardLevelSetupDataFinishEvent(::GlobalNamespace::StandardLevelScenesTransitionSetupData* standardLevelScenesTransitionSetupData,
                                                       ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandleTutorialSceneDidFinish, addr 0x3a24864, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method HandleTutorialSceneDidFinish, addr 0x3a29c7c, size 0x164, virtual false, abstract: false, final false
   inline void HandleTutorialSceneDidFinish(::GlobalNamespace::TutorialScenesTransitionSetupData* setupData,
                                            ::GlobalNamespace::TutorialScenesTransitionSetupData_TutorialEndStateType tutorialEndStateType);
 
-  /// @brief Method Initialize, addr 0x3a240c8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x3a294d0, size 0x1c, virtual true, abstract: false, final true
   inline void Initialize();
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<InitializeScenesAsync>d__26))]
-  /// @brief Method InitializeScenesAsync, addr 0x3a240e4, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method InitializeScenesAsync, addr 0x3a294ec, size 0xb0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* InitializeScenesAsync();
 
-  /// @brief Method InitializeStandardLevelSetupData, addr 0x3a24e48, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method InitializeStandardLevelSetupData, addr 0x3a2a374, size 0x1c4, virtual false, abstract: false, final false
   inline void InitializeStandardLevelSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupData* setupData, ::BeatSaber::Destinations::Destination* targetDestination);
 
   static inline ::GlobalNamespace::InitialDestinationResolver* New_ctor();
 
-  /// @brief Method PrepareParametersForLevelSetupData, addr 0x3a24ffc, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method PrepareParametersForLevelSetupData, addr 0x3a2a538, size 0x27c, virtual false, abstract: false, final false
   inline void PrepareParametersForLevelSetupData(::BeatSaber::Destinations::LevelStartDestinationParameters* parameters, ::by_ref<::GlobalNamespace::BeatmapKey> beatmapLevelKey,
                                                  ::by_ref<::GlobalNamespace::BeatmapLevel*> beatmapLevel, ::by_ref<::GlobalNamespace::PlayerSpecificSettings*> playerSpecificSettings,
                                                  /* [Nullable(2)] */ ::by_ref<::GlobalNamespace::OverrideEnvironmentSettings*> overrideEnvironmentSettings,
                                                  /* [Nullable(2)] */ ::by_ref<::GlobalNamespace::ColorScheme*> playerOverrideColorScheme,
                                                  ::by_ref<::BeatSaber::Destinations::GameplayEnvironmentOverride*> environmentOverride);
 
-  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<PresentHealthWarningAsync>d__41))]
-  /// @brief Method PresentHealthWarningAsync, addr 0x3a24d98, size 0xb0, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* PresentHealthWarningAsync();
+  /// [AsyncStateMachine(typeof(InitialDestinationResolver::<PresentHealthWarningAsync>d__42))]
+  /// @brief Method PresentHealthWarningAsync, addr 0x3a2a2ac, size 0xc8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* PresentHealthWarningAsync(bool shouldPreloadMainMenu);
 
   /// [AsyncStateMachine(typeof(InitialDestinationResolver::<PresentShaderWarmUpAsync>d__40))]
-  /// @brief Method PresentShaderWarmUpAsync, addr 0x3a24ce8, size 0xb0, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* PresentShaderWarmUpAsync();
+  /// @brief Method PresentShaderWarmUpAsync, addr 0x3a2a10c, size 0xd8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* PresentShaderWarmUpAsync(float_t minDurationSeconds, bool shouldReclaimMemory);
 
-  /// @brief Method ShouldGoDirectlyToMenu, addr 0x3a254dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ShouldGoDirectlyToMenu, addr 0x3a2aa1c, size 0x20, virtual false, abstract: false, final false
   inline bool ShouldGoDirectlyToMenu();
 
   /// [NullableContext(0)]
   /// [CompilerGenerated]
-  /// @brief Method <GoToMissionLevelAsync>b__31_0, addr 0x3a25550, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <GoToMissionLevelAsync>b__31_0, addr 0x3a2aa90, size 0x20, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjective* _GoToMissionLevelAsync_b__31_0(::BeatSaber::Destinations::SimpleMissionObjective* objective);
 
   /// [CompilerGenerated]
-  /// @brief Method <GoToMultiplayerLevelAsync>g__InitializeMultiplayerMocks|38_0, addr 0x3a25570, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <GoToMultiplayerLevelAsync>g__InitializeMultiplayerMocks|38_0, addr 0x3a2aab0, size 0x4, virtual false, abstract: false, final false
   static inline void _GoToMultiplayerLevelAsync_g__InitializeMultiplayerMocks_38_0(::Zenject::DiContainer* container);
 
   constexpr ::GlobalNamespace::AppInitScenesTransitionSetupData_AppInitSceneSetupData* const& __cordl_internal_get__appInitSceneSetupData() const;
@@ -1596,7 +1641,7 @@ public:
 
   constexpr void __cordl_internal_set__tutorialScenesTransitionSetupData(::GlobalNamespace::TutorialScenesTransitionSetupData* value);
 
-  /// @brief Method .ctor, addr 0x3a254fc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a2aa3c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BeatSaber::Destinations::IInitialDestinationResolver"
@@ -1620,7 +1665,7 @@ public:
   InitialDestinationResolver(InitialDestinationResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21828 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21843 };
 
   /// [Inject]
   /// @brief Field _beatmapLevelsModel, offset: 0x10, size: 0x8, def value: None

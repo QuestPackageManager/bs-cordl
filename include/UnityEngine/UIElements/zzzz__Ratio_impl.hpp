@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Ratio::*)(float_t)>(&::UnityEngine::UIElements::Ratio::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7143b18;
+  constexpr static std::size_t addrs = 0x7144bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Ratio>(), { ".ctor", {}, { ::i2c::type_of<float_t>() } })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Ratio::*)()>(&::UnityEngine::UIElements::Ratio::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7143b20;
+  constexpr static std::size_t addrs = 0x7144c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Ratio>(), { "get_value", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Ratio::*)()>(&::UnityEngine::UIElements::Ratio::IsAuto)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x7143b28;
+  constexpr static std::size_t addrs = 0x7144c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Ratio>(), { "IsAuto", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Ratio (*)(float_t)>(&::UnityEngine::UIElements::Ratio::op_Implicit___UnityEngine__UIElements__Ratio)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7142294;
+  constexpr static std::size_t addrs = 0x7143374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Ratio>(), { "op_Implicit", {}, { ::i2c::type_of<float_t>() } })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::UIElements::Ratio)>(&::UnityEngine::UIElements::Ratio::op_Implicit_float_t)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7143b40;
+  constexpr static std::size_t addrs = 0x7144c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio)>(&::UnityEngine::UIElements::Ratio::op_Equality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x7143b44;
+  constexpr static std::size_t addrs = 0x7144c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio)>(&::UnityEngine::UIElements::Ratio::op_Inequality)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x7143b78;
+  constexpr static std::size_t addrs = 0x7144c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Ratio::*)(::UnityEngine::UIElements::Ratio)>(&::UnityEngine::UIElements::Ratio::Equals)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x7143bb0;
+  constexpr static std::size_t addrs = 0x7144c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::Ratio::*)(::System::Object*)>(&::UnityEngine::UIElements::Ratio::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x7143be8;
+  constexpr static std::size_t addrs = 0x7144cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::Ratio::*)()>(&::UnityEngine::UIElements::Ratio::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x7143c90;
+  constexpr static std::size_t addrs = 0x7144d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::Ratio::*)()>(&::UnityEngine::UIElements::Ratio::ToString)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x7143cb0;
+  constexpr static std::size_t addrs = 0x7144d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_Ratio_ValueProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Ratio_ValueProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7143f3c;
+  constexpr static std::size_t addrs = 0x714501c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Ratio_ValueProperty*>(),
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_Ratio_ValueProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Ratio_ValueProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7143f44;
+  constexpr static std::size_t addrs = 0x7145024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Ratio_ValueProperty*>(),
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::PropertyBag_Ratio_ValueProperty::*)(::by_ref<::UnityEngine::UIElements::Ratio>)>(
     &::UnityEngine::UIElements::PropertyBag_Ratio_ValueProperty::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7143f4c;
+  constexpr static std::size_t addrs = 0x714502c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Ratio_ValueProperty*>(),
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Ratio_ValueProperty::*)(::by_ref<::UnityEngine::UIElements::Ratio>, float_t)>(
     &::UnityEngine::UIElements::PropertyBag_Ratio_ValueProperty::SetValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x7143f54;
+  constexpr static std::size_t addrs = 0x7145034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Ratio_ValueProperty*>(),
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Ratio_ValueProperty::*)()>(&::UnityEngine::UIElements::PropertyBag_Ratio_ValueProperty::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x7143e70;
+  constexpr static std::size_t addrs = 0x7144f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Ratio_ValueProperty*>(), { ".ctor", {}, {} })));
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_Ratio_AutoProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Ratio_AutoProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7143f8c;
+  constexpr static std::size_t addrs = 0x714506c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Ratio_AutoProperty*>(),
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_Ratio_AutoProperty::*)()>(
     &::UnityEngine::UIElements::PropertyBag_Ratio_AutoProperty::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7143f94;
+  constexpr static std::size_t addrs = 0x7145074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Ratio_AutoProperty*>(),
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_Ratio_AutoProperty::*)(::by_ref<::UnityEngine::UIElements::Ratio>)>(
     &::UnityEngine::UIElements::PropertyBag_Ratio_AutoProperty::GetValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x7143f9c;
+  constexpr static std::size_t addrs = 0x714507c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Ratio_AutoProperty*>(),
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Ratio_AutoProperty::*)(::by_ref<::UnityEngine::UIElements::Ratio>, bool)>(
     &::UnityEngine::UIElements::PropertyBag_Ratio_AutoProperty::SetValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x7143fb4;
+  constexpr static std::size_t addrs = 0x7145094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Ratio_AutoProperty*>(),
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Ratio_AutoProperty::*)()>(&::UnityEngine::UIElements::PropertyBag_Ratio_AutoProperty::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x7143ed4;
+  constexpr static std::size_t addrs = 0x7144fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropertyBag_Ratio_AutoProperty*>(), { ".ctor", {}, {} })));
@@ -458,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Ratio_PropertyBag::*)()>(&::UnityEngine::UIElements::Ratio_PropertyBag::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x7143d58;
+  constexpr static std::size_t addrs = 0x7144e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Ratio_PropertyBag*>(), { ".ctor", {}, {} })));

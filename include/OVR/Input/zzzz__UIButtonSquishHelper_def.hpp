@@ -65,19 +65,19 @@ public:
 
   static inline ::OVR::Input::UIButtonSquishHelper* New_ctor();
 
-  /// @brief Method OnPointerDown, addr 0x62a026c, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerDown, addr 0x62a04f4, size 0xc4, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerEnter, addr 0x62a01a8, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x62a0430, size 0xc4, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x62a0330, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x62a05b8, size 0xa4, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerUp, addr 0x62a03d4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerUp, addr 0x62a065c, size 0xa4, virtual true, abstract: false, final true
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method Start, addr 0x62a0130, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x62a03b8, size 0x78, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__originalScale(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x62a0478, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62a0700, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"

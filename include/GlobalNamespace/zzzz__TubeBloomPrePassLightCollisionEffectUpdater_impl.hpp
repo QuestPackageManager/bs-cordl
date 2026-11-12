@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_ExtractScaleJob::*)(int32_t, ::UnityEngine::Jobs::TransformAccess)>(
     &::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_ExtractScaleJob::Execute)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5dfb994;
+  constexpr static std::size_t addrs = 0x5dfbd98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_ExtractScaleJob>(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_InitialiseRaycastsJob::*)(int32_t, ::UnityEngine::Jobs::TransformAccess)>(
     &::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_InitialiseRaycastsJob::Execute)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x5dfba54;
+  constexpr static std::size_t addrs = 0x5dfbe58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_InitialiseRaycastsJob>(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_UpdateHitPointsJob::*)(int32_t, ::UnityEngine::Jobs::TransformAccess)>(
     &::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_UpdateHitPointsJob::Execute)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x5dfbb74;
+  constexpr static std::size_t addrs = 0x5dfbf78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater_UpdateHitPointsJob>(),
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater::Awake)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5dfb240;
+  constexpr static std::size_t addrs = 0x5dfb644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater*>(), { "Awake", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater::*)(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect*)>(
     &::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater::Add)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x5dfabc8;
+  constexpr static std::size_t addrs = 0x5dfafcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater*>(),
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater::*)(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect*)>(
     &::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater::Remove)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5dfaf9c;
+  constexpr static std::size_t addrs = 0x5dfb3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater*>(),
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater::*)(int32_t)>(
     &::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater::ExpandCapacity)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x5dfb2b4;
+  constexpr static std::size_t addrs = 0x5dfb6b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater::Update)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x5dfb4b8;
+  constexpr static std::size_t addrs = 0x5dfb8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater*>(), { "Update", {}, {} })));
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater::LateUpdate)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5dfb720;
+  constexpr static std::size_t addrs = 0x5dfbb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater::OnDestroy)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5dfb850;
+  constexpr static std::size_t addrs = 0x5dfbc54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dfb990;
+  constexpr static std::size_t addrs = 0x5dfbd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TubeBloomPrePassLightCollisionEffectUpdater*>(), { ".ctor", {}, {} })));

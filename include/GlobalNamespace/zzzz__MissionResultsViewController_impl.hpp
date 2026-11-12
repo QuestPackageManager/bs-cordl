@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::*)()>(
     &::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5db4ba4;
+  constexpr static std::size_t addrs = 0x5db4c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::*)(int32_t, ::GlobalNamespace::ResultObjectiveListItem*)>(
     &::GlobalNamespace::MissionResultsViewController___c__DisplayClass31_0::_SetDataToUI_b__0)> {
-  constexpr static std::size_t size = 0x4cc;
-  constexpr static std::size_t addrs = 0x5db4bec;
+  constexpr static std::size_t size = 0x4e4;
+  constexpr static std::size_t addrs = 0x5db4c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::*)(int32_t)>(
     &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5db4b9c;
+  constexpr static std::size_t addrs = 0x5db4c2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::*)()>(
     &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5db51d0;
+  constexpr static std::size_t addrs = 0x5db5160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::*)()>(
     &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::MoveNext)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5db51d4;
+  constexpr static std::size_t addrs = 0x5db5164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::*)()>(
     &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5db5288;
+  constexpr static std::size_t addrs = 0x5db5218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(),
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::*)()>(
     &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5db5290;
+  constexpr static std::size_t addrs = 0x5db5220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::*)()>(
     &::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5db52c8;
+  constexpr static std::size_t addrs = 0x5db5258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController__StartFireworksAfterDelay_d__30*>(),
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*)>(
     &::GlobalNamespace::MissionResultsViewController::add_continueButtonPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5db4370;
+  constexpr static std::size_t addrs = 0x5db4400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*)>(
     &::GlobalNamespace::MissionResultsViewController::remove_continueButtonPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5db4430;
+  constexpr static std::size_t addrs = 0x5db44c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*)>(
     &::GlobalNamespace::MissionResultsViewController::add_retryButtonPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5db44f0;
+  constexpr static std::size_t addrs = 0x5db4580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*)>(
     &::GlobalNamespace::MissionResultsViewController::remove_retryButtonPressedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5db45b0;
+  constexpr static std::size_t addrs = 0x5db4640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(::GlobalNamespace::MissionNode*, ::GlobalNamespace::MissionCompletionResults*)>(
     &::GlobalNamespace::MissionResultsViewController::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5db4670;
+  constexpr static std::size_t addrs = 0x5db4700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -393,7 +393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(bool, bool, bool)>(&::GlobalNamespace::MissionResultsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x5db4678;
+  constexpr static std::size_t addrs = 0x5db4708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -406,7 +406,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)(bool, bool)>(&::GlobalNamespace::MissionResultsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5db4b60;
+  constexpr static std::size_t addrs = 0x5db4bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -420,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MissionResultsViewController::*)(float_t)>(
     &::GlobalNamespace::MissionResultsViewController::StartFireworksAfterDelay)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5db4afc;
+  constexpr static std::size_t addrs = 0x5db4b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)()>(&::GlobalNamespace::MissionResultsViewController::SetDataToUI)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x5db4848;
+  constexpr static std::size_t addrs = 0x5db48d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController*>(), { "SetDataToUI", {}, {} })));
@@ -445,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)()>(&::GlobalNamespace::MissionResultsViewController::ContinueButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5db4ba8;
+  constexpr static std::size_t addrs = 0x5db4c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController*>(), { "ContinueButtonPressed", {}, {} })));
@@ -457,7 +457,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)()>(&::GlobalNamespace::MissionResultsViewController::RetryButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5db4bc8;
+  constexpr static std::size_t addrs = 0x5db4c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController*>(), { "RetryButtonPressed", {}, {} })));
@@ -469,7 +469,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionResultsViewController::*)()>(&::GlobalNamespace::MissionResultsViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5db4be8;
+  constexpr static std::size_t addrs = 0x5db4c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionResultsViewController*>(), { ".ctor", {}, {} })));

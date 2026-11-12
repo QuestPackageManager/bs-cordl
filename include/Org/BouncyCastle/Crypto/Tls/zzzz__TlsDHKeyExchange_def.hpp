@@ -85,16 +85,16 @@ public:
   /// @brief Field mTlsSigner, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_mTlsSigner, put = __cordl_internal_set_mTlsSigner)) ::Org::BouncyCastle::Crypto::Tls::TlsSigner* mTlsSigner;
 
-  /// @brief Method GenerateClientKeyExchange, addr 0x3729ea8, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GenerateClientKeyExchange, addr 0x372e340, size 0x108, virtual true, abstract: false, final false
   inline void GenerateClientKeyExchange(::System::IO::Stream* output);
 
-  /// @brief Method GeneratePremasterSecret, addr 0x372a1e4, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method GeneratePremasterSecret, addr 0x372e67c, size 0x128, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GeneratePremasterSecret();
 
-  /// @brief Method GenerateServerKeyExchange, addr 0x3729738, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method GenerateServerKeyExchange, addr 0x372dbd0, size 0x168, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t> GenerateServerKeyExchange();
 
-  /// @brief Method Init, addr 0x372925c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x372d6f4, size 0xd0, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
   /// @brief [Obsolete("Use constructor that takes a TlsDHVerifier")]
@@ -105,25 +105,25 @@ public:
                                                                              ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
                                                                              ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
-  /// @brief Method ProcessClientCertificate, addr 0x372a0d8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientCertificate, addr 0x372e570, size 0x4c, virtual true, abstract: false, final false
   inline void ProcessClientCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* clientCertificate);
 
-  /// @brief Method ProcessClientCredentials, addr 0x3729d9c, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientCredentials, addr 0x372e234, size 0x10c, virtual true, abstract: false, final false
   inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* clientCredentials);
 
-  /// @brief Method ProcessClientKeyExchange, addr 0x372a124, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientKeyExchange, addr 0x372e5bc, size 0xc0, virtual true, abstract: false, final false
   inline void ProcessClientKeyExchange(::System::IO::Stream* input);
 
-  /// @brief Method ProcessServerCertificate, addr 0x3729378, size 0x3a4, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerCertificate, addr 0x372d810, size 0x3a4, virtual true, abstract: false, final false
   inline void ProcessServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
 
-  /// @brief Method ProcessServerKeyExchange, addr 0x37299f0, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerKeyExchange, addr 0x372de88, size 0x11c, virtual true, abstract: false, final false
   inline void ProcessServerKeyExchange(::System::IO::Stream* input);
 
-  /// @brief Method SkipServerCredentials, addr 0x372932c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method SkipServerCredentials, addr 0x372d7c4, size 0x4c, virtual true, abstract: false, final false
   inline void SkipServerCredentials();
 
-  /// @brief Method ValidateCertificateRequest, addr 0x3729cd4, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method ValidateCertificateRequest, addr 0x372e16c, size 0xc8, virtual true, abstract: false, final false
   inline void ValidateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials* const& __cordl_internal_get_mAgreementCredentials() const;
@@ -169,14 +169,14 @@ public:
   constexpr void __cordl_internal_set_mTlsSigner(::Org::BouncyCastle::Crypto::Tls::TlsSigner* value);
 
   /// [Obsolete("Use constructor that takes a TlsDHVerifier")]
-  /// @brief Method .ctor, addr 0x37290b0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372d548, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
-  /// @brief Method .ctor, addr 0x3729138, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x372d5d0, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
                     ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
-  /// @brief Method get_RequiresServerKeyExchange, addr 0x372971c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_RequiresServerKeyExchange, addr 0x372dbb4, size 0x1c, virtual true, abstract: false, final false
   inline bool get_RequiresServerKeyExchange();
 
 protected:

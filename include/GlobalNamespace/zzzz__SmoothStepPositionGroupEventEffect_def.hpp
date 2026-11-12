@@ -94,24 +94,24 @@ public:
   /// @brief Field _tweeningManager, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Awake, addr 0x5dfa294, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5dfa698, size 0x15c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetPositionForValue, addr 0x5dfa684, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetPositionForValue, addr 0x5dfaa88, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPositionForValue(int32_t value);
 
-  /// @brief Method HandleBeatmapEvent, addr 0x5dfa5b8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x5dfa9bc, size 0xcc, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::SmoothStepPositionGroupEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5dfa518, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dfa91c, size 0xa0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetPosition, addr 0x5dfa6d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetPosition, addr 0x5dfaad4, size 0x80, virtual false, abstract: false, final false
   inline void SetPosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method Start, addr 0x5dfa3f0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5dfa7f4, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__baseOffset() const;
@@ -204,7 +204,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x5dfa750, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dfab54, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -222,7 +222,7 @@ public:
   SmoothStepPositionGroupEventEffect(SmoothStepPositionGroupEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6068 };
 
   /// [SerializeField]
   /// @brief Field _event, offset: 0x20, size: 0x4, def value: None

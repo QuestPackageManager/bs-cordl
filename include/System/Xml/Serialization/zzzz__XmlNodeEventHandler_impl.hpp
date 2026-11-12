@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlNodeEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Xml::Serialization::XmlNodeEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x67502c0;
+  constexpr static std::size_t addrs = 0x6750910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlNodeEventHandler*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlNodeEventHandler::*)(::System::Object*, ::System::Xml::Serialization::XmlNodeEventArgs*)>(
     &::System::Xml::Serialization::XmlNodeEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6750408;
+  constexpr static std::size_t addrs = 0x6750a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -75,41 +75,41 @@ public:
   /// @brief Field _type, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::System::Data::AggregateType _type;
 
-  /// @brief Method Bind, addr 0x648f2c0, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x648f910, size 0x1dc, virtual false, abstract: false, final false
   static inline void Bind(::System::Data::DataRelation* relation, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method Bind, addr 0x648ef40, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x648f590, size 0x274, virtual true, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method DependsOn, addr 0x648f8dc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x648ff2c, size 0x48, virtual true, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Eval, addr 0x648f49c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x648faec, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Eval();
 
-  /// @brief Method Eval, addr 0x648f7ec, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x648fe3c, size 0x74, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::ArrayW<int32_t> records);
 
-  /// @brief Method Eval, addr 0x648f4b0, size 0x2f8, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x648fb00, size 0x2f8, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method HasLocalAggregate, addr 0x648f8c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x648ff14, size 0x8, virtual true, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x648f8cc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x648ff1c, size 0x10, virtual true, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method IsConstant, addr 0x648f8b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsConstant, addr 0x648ff04, size 0x8, virtual true, abstract: false, final false
   inline bool IsConstant();
 
-  /// @brief Method IsTableConstant, addr 0x648f8bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsTableConstant, addr 0x648ff0c, size 0x8, virtual true, abstract: false, final false
   inline bool IsTableConstant();
 
   static inline ::System::Data::AggregateNode* New_ctor(::System::Data::DataTable* table, ::System::Data::FunctionId aggregateType, ::StringW columnName);
 
   static inline ::System::Data::AggregateNode* New_ctor(::System::Data::DataTable* table, ::System::Data::FunctionId aggregateType, ::StringW columnName, bool local, ::StringW relationName);
 
-  /// @brief Method Optimize, addr 0x648f940, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Optimize, addr 0x648ff90, size 0x4, virtual true, abstract: false, final false
   inline ::System::Data::ExpressionNode* Optimize();
 
   constexpr ::System::Data::Aggregate const& __cordl_internal_get__aggregate() const;
@@ -160,10 +160,10 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Data::AggregateType value);
 
-  /// @brief Method .ctor, addr 0x648ee34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x648f484, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::System::Data::FunctionId aggregateType, ::StringW columnName);
 
-  /// @brief Method .ctor, addr 0x648ee40, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x648f490, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::System::Data::FunctionId aggregateType, ::StringW columnName, bool local, ::StringW relationName);
 
 protected:

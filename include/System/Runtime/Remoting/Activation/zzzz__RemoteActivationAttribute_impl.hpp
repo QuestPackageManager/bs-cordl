@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Activation::RemoteActivationAttribute::*)(::System::Collections::IList*)>(
     &::System::Runtime::Remoting::Activation::RemoteActivationAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f921d0;
+  constexpr static std::size_t addrs = 0x5f92458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::Activation::RemoteActivationAttribute*>(),
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Runtime::
     ::System::Runtime::Remoting::Contexts::Context*, ::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(
     &::System::Runtime::Remoting::Activation::RemoteActivationAttribute::IsContextOK)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f921d8;
+  constexpr static std::size_t addrs = 0x5f92460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Activation::RemoteActivationAttribute::*)(
     ::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&::System::Runtime::Remoting::Activation::RemoteActivationAttribute::GetPropertiesForNewContext)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x5f921e0;
+  constexpr static std::size_t addrs = 0x5f92468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

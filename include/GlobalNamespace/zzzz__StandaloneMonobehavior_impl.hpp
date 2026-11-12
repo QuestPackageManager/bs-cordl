@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25::*)(int32_t)>(
     &::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35ed170;
+  constexpr static std::size_t addrs = 0x35f1608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25::*)()>(
     &::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ed21c;
+  constexpr static std::size_t addrs = 0x35f16b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25::*)()>(
     &::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25::MoveNext)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x35ed220;
+  constexpr static std::size_t addrs = 0x35f16b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25::*)()>(
     &::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35ed3e0;
+  constexpr static std::size_t addrs = 0x35f1878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25*>(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25::*)()>(
     &::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x35ed3e8;
+  constexpr static std::size_t addrs = 0x35f1880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25::*)()>(
     &::GlobalNamespace::StandaloneMonobehavior__RunAsyncCoroutine_d__25::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35ed420;
+  constexpr static std::size_t addrs = 0x35f18b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneMonobehavior__WhenReady_d__20::*)()>(&::GlobalNamespace::StandaloneMonobehavior__WhenReady_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x35ed428;
+  constexpr static std::size_t addrs = 0x35f18c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneMonobehavior__WhenReady_d__20>(), { "MoveNext", {}, {} })));
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneMonobehavior__WhenReady_d__20::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::StandaloneMonobehavior__WhenReady_d__20::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35ed640;
+  constexpr static std::size_t addrs = 0x35f1ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneMonobehavior__WhenReady_d__20>(),
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneMonobehavior__WhenReadyAsync_d__21::*)()>(
     &::GlobalNamespace::StandaloneMonobehavior__WhenReadyAsync_d__21::MoveNext)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x35ed648;
+  constexpr static std::size_t addrs = 0x35f1ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneMonobehavior__WhenReadyAsync_d__21::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::StandaloneMonobehavior__WhenReadyAsync_d__21::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35ed960;
+  constexpr static std::size_t addrs = 0x35f1df8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneMonobehavior__WhenReadyAsync_d__21>(),
@@ -353,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandaloneMonobehavior::*)()>(&::GlobalNamespace::StandaloneMonobehavior::get_objectLifeTime)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x35ecc3c;
+  constexpr static std::size_t addrs = 0x35f10d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneMonobehavior*>(), { "get_objectLifeTime", {}, {} })));
@@ -365,7 +365,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandaloneMonobehavior::*)()>(&::GlobalNamespace::StandaloneMonobehavior::get_deltaTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x35ecc80;
+  constexpr static std::size_t addrs = 0x35f1118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneMonobehavior*>(), { "get_deltaTime", {}, {} })));
@@ -377,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandaloneMonobehavior::*)()>(&::GlobalNamespace::StandaloneMonobehavior::get_lastFrameTime)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ecca8;
+  constexpr static std::size_t addrs = 0x35f1140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneMonobehavior*>(), { "get_lastFrameTime", {}, {} })));
@@ -389,7 +389,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::StandaloneMonobehavior::*)()>(&::GlobalNamespace::StandaloneMonobehavior::get_frameCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x35ecd60;
+  constexpr static std::size_t addrs = 0x35f11f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneMonobehavior*>(), { "get_frameCount", {}, {} })));
@@ -401,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::StandaloneMonobehavior::*)()>(&::GlobalNamespace::StandaloneMonobehavior::get_isReady)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x35ecd88;
+  constexpr static std::size_t addrs = 0x35f1220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneMonobehavior*>(), { "get_isReady", {}, {} })));
@@ -413,7 +413,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneMonobehavior::*)()>(&::GlobalNamespace::StandaloneMonobehavior::Awake)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x35ecde0;
+  constexpr static std::size_t addrs = 0x35f1278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneMonobehavior*>(), { "Awake", {}, {} })));
@@ -425,7 +425,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneMonobehavior::*)()>(&::GlobalNamespace::StandaloneMonobehavior::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ece20;
+  constexpr static std::size_t addrs = 0x35f12b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -438,7 +438,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneMonobehavior::*)()>(&::GlobalNamespace::StandaloneMonobehavior::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ece24;
+  constexpr static std::size_t addrs = 0x35f12bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -451,7 +451,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneMonobehavior::*)()>(&::GlobalNamespace::StandaloneMonobehavior::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ece28;
+  constexpr static std::size_t addrs = 0x35f12c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -464,7 +464,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneMonobehavior::*)(bool)>(&::GlobalNamespace::StandaloneMonobehavior::OnApplicationPause)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ece2c;
+  constexpr static std::size_t addrs = 0x35f12c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -477,7 +477,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneMonobehavior::*)(::System::Action*)>(&::GlobalNamespace::StandaloneMonobehavior::WhenReady)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x35ece30;
+  constexpr static std::size_t addrs = 0x35f12c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -491,7 +491,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::StandaloneMonobehavior::*)(::System::Func_1<::System::Threading::Tasks::Task*>*)>(
     &::GlobalNamespace::StandaloneMonobehavior::WhenReadyAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35ecedc;
+  constexpr static std::size_t addrs = 0x35f1374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneMonobehavior*>(),
@@ -505,7 +505,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::StandaloneMonobehavior::*)(::GlobalNamespace::IStandaloneThreadRunner*, ::System::Threading::CancellationToken)>(&::GlobalNamespace::StandaloneMonobehavior::RunAsync)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x35ecf9c;
+  constexpr static std::size_t addrs = 0x35f1434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -519,7 +519,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneMonobehavior::*)()>(&::GlobalNamespace::StandaloneMonobehavior::Stop)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35ed168;
+  constexpr static std::size_t addrs = 0x35f1600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneMonobehavior*>(), { "Stop", {}, {} })));
@@ -533,7 +533,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::StandaloneMonobehavior::*)(::System::Threading::Tasks::TaskCompletionSource_1<bool>*, ::System::Threading::CancellationToken)>(
         &::GlobalNamespace::StandaloneMonobehavior::RunAsyncCoroutine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x35ed100;
+  constexpr static std::size_t addrs = 0x35f1598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -548,7 +548,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::StandaloneMonobehavior::*)()>(&::GlobalNamespace::StandaloneMonobehavior::GetLastFrameTime)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x35eccac;
+  constexpr static std::size_t addrs = 0x35f1144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneMonobehavior*>(), { "GetLastFrameTime", {}, {} })));
@@ -560,7 +560,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandaloneMonobehavior::*)()>(&::GlobalNamespace::StandaloneMonobehavior::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x35ed178;
+  constexpr static std::size_t addrs = 0x35f1610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandaloneMonobehavior*>(), { ".ctor", {}, {} })));

@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::get_useScriptableObjectColors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35a3f98;
+  constexpr static std::size_t addrs = 0x35a7158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::CurvedTextMeshPro*>(), { "get_useScriptableObjectColors", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::CurvedTextMeshPro::*)(bool)>(&::HMUI::CurvedTextMeshPro::set_useScriptableObjectColors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35a3fa0;
+  constexpr static std::size_t addrs = 0x35a7160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::get_color)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x35a3fa8;
+  constexpr static std::size_t addrs = 0x35a7168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::CurvedTextMeshPro*>(), { ::i2c::class_of<::HMUI::CurvedTextMeshPro*>(), 22 }));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::CurvedTextMeshPro::*)(::UnityEngine::Color)>(&::HMUI::CurvedTextMeshPro::set_color)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35a4040;
+  constexpr static std::size_t addrs = 0x35a7200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::CurvedTextMeshPro*>(), { ::i2c::class_of<::HMUI::CurvedTextMeshPro*>(), 23 }));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::OnEnable)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x35a4048;
+  constexpr static std::size_t addrs = 0x35a7208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::CurvedTextMeshPro*>(), { ::i2c::class_of<::HMUI::CurvedTextMeshPro*>(), 5 }));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::GenerateTextMesh)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x35a407c;
+  constexpr static std::size_t addrs = 0x35a723c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::CurvedTextMeshPro*>(), { ::i2c::class_of<::HMUI::CurvedTextMeshPro*>(), 142 }));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::__Refresh)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x35a4414;
+  constexpr static std::size_t addrs = 0x35a75d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::CurvedTextMeshPro*>(), { "__Refresh", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::CurvedTextMeshPro::*)(::UnityEngine::Mesh*, int32_t, ::UnityEngine::Vector2, ::UnityEngine::Color32)>(
     &::HMUI::CurvedTextMeshPro::UpdateMesh)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x35a4364;
+  constexpr static std::size_t addrs = 0x35a7524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector2> (::HMUI::CurvedTextMeshPro::*)(int32_t, int32_t, ::UnityEngine::Vector2)>(
     &::HMUI::CurvedTextMeshPro::FillUV3s)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x35a4424;
+  constexpr static std::size_t addrs = 0x35a75e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Color32> (::HMUI::CurvedTextMeshPro::*)(int32_t, ::UnityEngine::Color32)>(&::HMUI::CurvedTextMeshPro::FillColors)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x35a44fc;
+  constexpr static std::size_t addrs = 0x35a76bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x35a4570;
+  constexpr static std::size_t addrs = 0x35a7730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::CurvedTextMeshPro*>(), { ".ctor", {}, {} })));

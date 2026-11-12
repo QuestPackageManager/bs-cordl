@@ -25,7 +25,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE DelegateUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Cast, addr 0x6c1c008, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Cast, addr 0x6c1d0e8, size 0x198, virtual false, abstract: false, final false
   static inline ::System::Delegate* Cast(::System::Delegate* source, ::System::Type* type);
 
 protected:

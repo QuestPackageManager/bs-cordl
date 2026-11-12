@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilDitherMaskSeedMaterials(::ArrayW<::UnityW<::UnityEngine::Material>> value);
 
-  /// @brief Method .ctor, addr 0x6d1b778, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1c858, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -144,10 +144,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass___c* New_ctor();
 
-  /// @brief Method <Render>b__8_0, addr 0x6d1b7d4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__8_0, addr 0x6d1c8b4, size 0x88, virtual false, abstract: false, final false
   inline void _Render_b__8_0(::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6d1b7d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1c8b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass___c* getStaticF___9();
@@ -211,16 +211,16 @@ public:
   __declspec(property(get = __cordl_internal_get_m_StencilDitherMaskSeedMaterials, put = __cordl_internal_set_m_StencilDitherMaskSeedMaterials)) ::ArrayW<::UnityW<::UnityEngine::Material>>
       m_StencilDitherMaskSeedMaterials;
 
-  /// @brief Method Dispose, addr 0x6d1b1a4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6d1c284, size 0xb8, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method ExecutePass, addr 0x6d1b5f0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6d1c6d0, size 0x188, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* depthTarget,
                                  ::ArrayW<::UnityEngine::Material*> stencilDitherMaskSeedMaterials);
 
   static inline ::UnityEngine::Rendering::Universal::StencilCrossFadeRenderPass* New_ctor(::UnityEngine::Shader* shader);
 
-  /// @brief Method Render, addr 0x6d1b25c, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d1c33c, size 0x394, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ScriptableRenderContext context,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthTarget);
 
@@ -254,7 +254,7 @@ public:
 
   constexpr void __cordl_internal_set_m_StencilDitherMaskSeedMaterials(::ArrayW<::UnityW<::UnityEngine::Material>> value);
 
-  /// @brief Method .ctor, addr 0x6d1aed0, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1bfb0, size 0x2d4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Shader* shader);
 
 protected:

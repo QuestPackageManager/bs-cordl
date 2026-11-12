@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Name* (*)(::Org::BouncyCastle::X509::X509Certificate*)>(
     &::Org::BouncyCastle::X509::PrincipalUtilities::GetIssuerX509Principal)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x38f0c64;
+  constexpr static std::size_t addrs = 0x38f50fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::PrincipalUtilities*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Name* (*)(::Org::BouncyCastle::X509::X509Certificate*)>(
     &::Org::BouncyCastle::X509::PrincipalUtilities::GetSubjectX509Principal)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x38f0d7c;
+  constexpr static std::size_t addrs = 0x38f5214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::PrincipalUtilities*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Name* (*)(::Org::BouncyCastle::X509::X509Crl*)>(
     &::Org::BouncyCastle::X509::PrincipalUtilities::GetIssuerX509Principal)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x38f0e94;
+  constexpr static std::size_t addrs = 0x38f532c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::PrincipalUtilities*>(),
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::X509::PrincipalUtilities::*)()>(&::Org::BouncyCastle::X509::PrincipalUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x38f0fac;
+  constexpr static std::size_t addrs = 0x38f5444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::X509::PrincipalUtilities*>(), { ".ctor", {}, {} })));

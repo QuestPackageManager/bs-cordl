@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::Vector2Control::*)()>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::get_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6962ff4;
+  constexpr static std::size_t addrs = 0x69640d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::Vector2Control*>(), { "get_x", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::Vector2Control::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::set_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6962ffc;
+  constexpr static std::size_t addrs = 0x69640dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::Vector2Control*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::Vector2Control::*)()>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::get_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6963004;
+  constexpr static std::size_t addrs = 0x69640e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::Vector2Control*>(), { "get_y", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::Vector2Control::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::set_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x696300c;
+  constexpr static std::size_t addrs = 0x69640ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::Vector2Control*>(),
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::Vector2Control::*)()>(&::UnityEngine::InputSystem::Controls::Vector2Control::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6960a70;
+  constexpr static std::size_t addrs = 0x6961b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::Vector2Control*>(), { ".ctor", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::Vector2Control::*)()>(&::UnityEngine::InputSystem::Controls::Vector2Control::FinishSetup)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x69609ac;
+  constexpr static std::size_t addrs = 0x6961a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::Vector2Control*>(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::Controls::Vector2Control::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6963014;
+  constexpr static std::size_t addrs = 0x69640f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::Vector2Control*>(),
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Controls::Vector2Control::*)(::UnityEngine::Vector2, void*)>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::WriteValueIntoState)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x69630f0;
+  constexpr static std::size_t addrs = 0x69641d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::Vector2Control*>(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::InputSystem::Controls::Vector2Control::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x69631d4;
+  constexpr static std::size_t addrs = 0x69642b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::Vector2Control*>(),
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::Controls::Vector2Control::*)()>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::CalculateOptimizedControlDataType)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6963290;
+  constexpr static std::size_t addrs = 0x6964370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Controls::Vector2Control*>(),

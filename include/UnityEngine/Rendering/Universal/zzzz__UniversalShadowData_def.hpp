@@ -104,7 +104,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalShadowData* New_ctor();
 
-  /// @brief Method Reset, addr 0x6cf3cb4, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6cf4d94, size 0x100, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get_additionalLightShadowsEnabled() const;
@@ -239,7 +239,7 @@ public:
 
   constexpr void __cordl_internal_set_visibleLightsShadowCullingInfos(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::Universal::URPLightShadowCullingInfos> value);
 
-  /// @brief Method .ctor, addr 0x6cf3db4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf4e94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

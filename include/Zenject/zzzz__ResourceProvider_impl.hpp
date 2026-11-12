@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ResourceProvider::*)(::StringW, ::System::Type*, bool)>(&::Zenject::ResourceProvider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x73620b4;
+  constexpr static std::size_t addrs = 0x7364394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::ResourceProvider::*)()>(&::Zenject::ResourceProvider::get_IsCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x73620c0;
+  constexpr static std::size_t addrs = 0x73643a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ResourceProvider*>(), { "get_IsCached", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::ResourceProvider::*)()>(&::Zenject::ResourceProvider::get_TypeVariesBasedOnMemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x73620c8;
+  constexpr static std::size_t addrs = 0x73643a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ResourceProvider*>(), { "get_TypeVariesBasedOnMemberType", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Zenject::ResourceProvider::*)(::Zenject::InjectContext*)>(&::Zenject::ResourceProvider::GetInstanceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x73620d0;
+  constexpr static std::size_t addrs = 0x73643b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Resource
                                                                                              ::by_ref<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::Zenject::ResourceProvider::GetAllInstancesWithInjectSplit)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x73620d8;
+  constexpr static std::size_t addrs = 0x73643b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

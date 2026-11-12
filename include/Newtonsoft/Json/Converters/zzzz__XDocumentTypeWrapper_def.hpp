@@ -61,23 +61,23 @@ public:
   constexpr void __cordl_internal_set__documentType(::System::Xml::Linq::XDocumentType* value);
 
   /// [NullableContext(1)]
-  /// @brief Method .ctor, addr 0x61f6994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f6c1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDocumentType* documentType);
 
-  /// @brief Method get_InternalSubset, addr 0x61f69e4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_InternalSubset, addr 0x61f6c6c, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_LocalName, addr 0x61f69fc, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x61f6c84, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
   /// [NullableContext(1)]
-  /// @brief Method get_Name, addr 0x61f699c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Name, addr 0x61f6c24, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
-  /// @brief Method get_Public, addr 0x61f69cc, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_Public, addr 0x61f6c54, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_Public();
 
-  /// @brief Method get_System, addr 0x61f69b4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_System, addr 0x61f6c3c, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_System();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocumentType"

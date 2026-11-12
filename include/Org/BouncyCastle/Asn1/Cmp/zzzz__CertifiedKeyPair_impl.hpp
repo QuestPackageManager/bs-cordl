@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x35f3160;
+  constexpr static std::size_t addrs = 0x35f75f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x35f33f0;
+  constexpr static std::size_t addrs = 0x35f7888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::*)(::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x35f3574;
+  constexpr static std::size_t addrs = 0x35f7a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert*, ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*, ::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x35f3580;
+  constexpr static std::size_t addrs = 0x35f7a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* (::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::get_CertOrEncCert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35f35dc;
+  constexpr static std::size_t addrs = 0x35f7a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* (::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::get_PrivateKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35f35e4;
+  constexpr static std::size_t addrs = 0x35f7a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Crmf::PkiPublicationInfo* (::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::get_PublicationInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35f35ec;
+  constexpr static std::size_t addrs = 0x35f7a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair::ToAsn1Object)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x35f35f4;
+  constexpr static std::size_t addrs = 0x35f7a8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

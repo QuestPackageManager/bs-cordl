@@ -32,7 +32,7 @@ namespace UnityEngine {
 class CORDL_TYPE Coroutine_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6f75704, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6f767e4, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::Coroutine* coroutine);
 
 protected:
@@ -72,13 +72,13 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method Finalize, addr 0x6f75654, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6f76734, size 0x74, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityEngine::Coroutine* New_ctor();
 
   /// [FreeFunction("Coroutine::CleanupCoroutineGC", true)]
-  /// @brief Method ReleaseCoroutine, addr 0x6f756c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseCoroutine, addr 0x6f767a8, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseCoroutine(::System::IntPtr ptr);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x6f75650, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f76730, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

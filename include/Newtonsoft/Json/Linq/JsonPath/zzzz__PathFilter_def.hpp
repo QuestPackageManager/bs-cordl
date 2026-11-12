@@ -37,16 +37,16 @@ public:
                                                                                                          ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
                                                                                                          /* [Nullable(2)] */ ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
-  /// @brief Method GetNextScanValue, addr 0x61e9358, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetNextScanValue, addr 0x61e95e0, size 0x98, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JToken* GetNextScanValue(/* [Nullable(1)] */ ::Newtonsoft::Json::Linq::JToken* originalParent, ::Newtonsoft::Json::Linq::JToken* container,
                                                                    ::Newtonsoft::Json::Linq::JToken* value);
 
-  /// @brief Method GetTokenIndex, addr 0x61e3814, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method GetTokenIndex, addr 0x61e3a9c, size 0x2d0, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JToken* GetTokenIndex(/* [Nullable(1)] */ ::Newtonsoft::Json::Linq::JToken* t, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings, int32_t index);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x61e3164, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61e33ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

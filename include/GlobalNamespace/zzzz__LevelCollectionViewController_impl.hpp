@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::*)()>(
     &::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5da6b58;
+  constexpr static std::size_t addrs = 0x5da6cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::*)()>(
     &::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::_SongPlayerCrossfadeToLevelAsync_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5da6b5c;
+  constexpr static std::size_t addrs = 0x5da6cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24::*)()>(
     &::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24::MoveNext)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x5da6b80;
+  constexpr static std::size_t addrs = 0x5da6d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24::SetStateMachine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5da6e44;
+  constexpr static std::size_t addrs = 0x5da6fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24>(),
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25::*)()>(
     &::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25::MoveNext)> {
   constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x5da6e4c;
+  constexpr static std::size_t addrs = 0x5da6fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5da7284;
+  constexpr static std::size_t addrs = 0x5da7418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25>(),
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>*)>(&::GlobalNamespace::LevelCollectionViewController::add_didSelectLevelEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5da4490;
+  constexpr static std::size_t addrs = 0x5da460c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>*)>(
         &::GlobalNamespace::LevelCollectionViewController::remove_didSelectLevelEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5da4dd0;
+  constexpr static std::size_t addrs = 0x5da4f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>*)>(
     &::GlobalNamespace::LevelCollectionViewController::add_didSelectHeaderEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5da4550;
+  constexpr static std::size_t addrs = 0x5da46cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>*)>(
     &::GlobalNamespace::LevelCollectionViewController::remove_didSelectHeaderEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5da4e90;
+  constexpr static std::size_t addrs = 0x5da500c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(
     ::ArrayW<::GlobalNamespace::BeatmapLevel*>, ::StringW, ::UnityEngine::Sprite*, bool, bool, ::UnityEngine::GameObject*)>(&::GlobalNamespace::LevelCollectionViewController::SetData)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x5da53d0;
+  constexpr static std::size_t addrs = 0x5da554c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::LevelCollectionViewController::SelectLevel)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5da3d30;
+  constexpr static std::size_t addrs = 0x5da3eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -325,7 +325,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)()>(&::GlobalNamespace::LevelCollectionViewController::RefreshFavorites)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5da6384;
+  constexpr static std::size_t addrs = 0x5da6518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelCollectionViewController*>(), { "RefreshFavorites", {}, {} })));
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(bool, bool, bool)>(&::GlobalNamespace::LevelCollectionViewController::DidActivate)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x5da64a8;
+  constexpr static std::size_t addrs = 0x5da663c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(bool, bool)>(&::GlobalNamespace::LevelCollectionViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x5da6704;
+  constexpr static std::size_t addrs = 0x5da6898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::GlobalNamespace::LevelCollectionTableView*, ::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::LevelCollectionViewController::HandleLevelCollectionTableViewDidSelectLevel)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5da692c;
+  constexpr static std::size_t addrs = 0x5da6ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -381,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::LevelCollectionViewController::SongPlayerCrossfadeToLevel)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5da697c;
+  constexpr static std::size_t addrs = 0x5da6b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelCollectionViewController*>(),
@@ -396,7 +396,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LevelCollectionViewController::*)(::GlobalNamespace::BeatmapLevel*, ::System::Threading::CancellationToken)>(
         &::GlobalNamespace::LevelCollectionViewController::SongPlayerCrossfadeToLevelAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5da6a28;
+  constexpr static std::size_t addrs = 0x5da6bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -412,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::GlobalNamespace::LevelCollectionTableView*)>(
     &::GlobalNamespace::LevelCollectionViewController::HandleLevelCollectionTableViewDidSelectPack)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5da6af0;
+  constexpr static std::size_t addrs = 0x5da6c84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -427,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)()>(
     &::GlobalNamespace::LevelCollectionViewController::HandleAdditionalContentModelDidInvalidateData)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5da6b34;
+  constexpr static std::size_t addrs = 0x5da6cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -440,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)()>(&::GlobalNamespace::LevelCollectionViewController::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5da6b4c;
+  constexpr static std::size_t addrs = 0x5da6ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelCollectionViewController*>(), { ".ctor", {}, {} })));

@@ -24,12 +24,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE Texture2DParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityW<::UnityEngine::Texture>> {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x6c28760, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c29840, size 0x104, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::Texture2DParameter* New_ctor(::UnityEngine::Texture* value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6c286fc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c297dc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Texture* value, bool overrideState);
 
 protected:

@@ -37,25 +37,25 @@ public:
   /// @brief Field _keyboardManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__keyboardManager, put = __cordl_internal_set__keyboardManager)) ::UnityW<::GlobalNamespace::UIKeyboardManager> _keyboardManager;
 
-  /// @brief Method HasInputFocus, addr 0x5d350a0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method HasInputFocus, addr 0x5d34d00, size 0x104, virtual false, abstract: false, final false
   static inline bool HasInputFocus(::UnityEngine::EventSystems::EventSystem* eventSystem, ::GlobalNamespace::UIKeyboardManager* keyboardManager);
 
   /// [Inject]
-  /// @brief Method InstallDependencies, addr 0x5d34d38, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method InstallDependencies, addr 0x5d34998, size 0x90, virtual false, abstract: false, final false
   inline void InstallDependencies(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult);
 
   static inline ::GlobalNamespace::InputActions* New_ctor();
 
-  /// @brief Method ResolveGameplayCoreSceneContext, addr 0x5d3535c, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method ResolveGameplayCoreSceneContext, addr 0x5d34fbc, size 0x3a4, virtual false, abstract: false, final false
   static inline ::UnityW<::Zenject::SceneContext> ResolveGameplayCoreSceneContext();
 
-  /// @brief Method ToggleAutoplay, addr 0x5d351a4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ToggleAutoplay, addr 0x5d34e04, size 0x1b4, virtual false, abstract: false, final false
   static inline void ToggleAutoplay();
 
-  /// @brief Method ToggleLevelFreeze, addr 0x5d35358, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToggleLevelFreeze, addr 0x5d34fb8, size 0x4, virtual false, abstract: false, final false
   static inline void ToggleLevelFreeze();
 
-  /// @brief Method Update, addr 0x5d34dc8, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5d34a28, size 0x2d8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__autoplayKeyEnabled() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__keyboardManager(::UnityW<::GlobalNamespace::UIKeyboardManager> value);
 
-  /// @brief Method .ctor, addr 0x5d35700, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d35360, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,7 +88,7 @@ public:
   InputActions(InputActions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6648 };
 
   /// @brief Field _keyboardManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::UIKeyboardManager> ____keyboardManager;

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Threading::Tasks::AsyncCausalityTracer::get_LoggingOn)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x611b9d4;
+  constexpr static std::size_t addrs = 0x611bc5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::AsyncCausalityTracer*>(), { "get_LoggingOn", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::Tasks::CausalityTraceLevel, int32_t, ::StringW, uint64_t)>(
     &::System::Threading::Tasks::AsyncCausalityTracer::TraceOperationCreation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x611f10c;
+  constexpr static std::size_t addrs = 0x611f394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::Tasks::CausalityTraceLevel, int32_t, ::System::Threading::Tasks::AsyncCausalityStatus)>(
     &::System::Threading::Tasks::AsyncCausalityTracer::TraceOperationCompletion)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x611f110;
+  constexpr static std::size_t addrs = 0x611f398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::Tasks::CausalityTraceLevel, int32_t, ::System::Threading::Tasks::CausalitySynchronousWork)>(
     &::System::Threading::Tasks::AsyncCausalityTracer::TraceSynchronousWorkStart)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x611f114;
+  constexpr static std::size_t addrs = 0x611f39c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::AsyncCausalityTracer*>(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::Tasks::CausalityTraceLevel, ::System::Threading::Tasks::CausalitySynchronousWork)>(
     &::System::Threading::Tasks::AsyncCausalityTracer::TraceSynchronousWorkCompletion)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x611b9dc;
+  constexpr static std::size_t addrs = 0x611bc64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

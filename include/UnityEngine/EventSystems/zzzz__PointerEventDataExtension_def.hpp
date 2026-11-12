@@ -30,19 +30,19 @@ class CORDL_TYPE PointerEventDataExtension : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method GetRay, addr 0x62a5b7c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetRay, addr 0x62a5e04, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Ray GetRay(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
   /// [Extension]
-  /// @brief Method GetSwipeStart, addr 0x62a5c10, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetSwipeStart, addr 0x62a5e98, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 GetSwipeStart(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
   /// [Extension]
-  /// @brief Method IsVRPointer, addr 0x62a5b00, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsVRPointer, addr 0x62a5d88, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsVRPointer(::UnityEngine::EventSystems::PointerEventData* pointerEventData);
 
   /// [Extension]
-  /// @brief Method SetSwipeStart, addr 0x62a5c90, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetSwipeStart, addr 0x62a5f18, size 0x90, virtual false, abstract: false, final false
   static inline void SetSwipeStart(::UnityEngine::EventSystems::PointerEventData* pointerEventData, ::UnityEngine::Vector2 start);
 
 protected:

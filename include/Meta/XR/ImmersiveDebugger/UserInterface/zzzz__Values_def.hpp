@@ -51,10 +51,10 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Values* New_ctor();
 
-  /// @brief Method Setup, addr 0x5ea9074, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5ea92f4, size 0x3d8, virtual false, abstract: false, final false
   inline void Setup(::Meta::XR::ImmersiveDebugger::Manager::Watch* watch);
 
-  /// @brief Method Update, addr 0x5eabebc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5eac13c, size 0x17c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::Meta::XR::ImmersiveDebugger::Manager::Watch* const& __cordl_internal_get__Watch_k__BackingField() const;
@@ -69,24 +69,24 @@ public:
 
   constexpr void __cordl_internal_set__values(::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Value>>* value);
 
-  /// @brief Method .ctor, addr 0x5eac038, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5eac2b8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_GetValues, addr 0x5eabc70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GetValues, addr 0x5eabef0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Value>>* get_GetValues();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Watch, addr 0x5eabc78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Watch, addr 0x5eabef8, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::ImmersiveDebugger::Manager::Watch* get_Watch();
 
-  /// @brief Method set_BackgroundStyle, addr 0x5eabc88, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method set_BackgroundStyle, addr 0x5eabf08, size 0x114, virtual false, abstract: false, final false
   inline void set_BackgroundStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ImageStyle* value);
 
-  /// @brief Method set_TextStyle, addr 0x5eabd9c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method set_TextStyle, addr 0x5eac01c, size 0x120, virtual false, abstract: false, final false
   inline void set_TextStyle(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::TextStyle* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Watch, addr 0x5eabc80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Watch, addr 0x5eabf00, size 0x8, virtual false, abstract: false, final false
   inline void set_Watch(::Meta::XR::ImmersiveDebugger::Manager::Watch* value);
 
 protected:
@@ -104,7 +104,7 @@ public:
   Values(Values const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18962 };
 
   /// @brief Field _values, offset: 0x70, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Value>>* ____values;

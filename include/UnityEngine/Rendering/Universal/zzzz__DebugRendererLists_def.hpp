@@ -78,29 +78,29 @@ public:
   /// @brief Field m_FilteringSettings, offset 0x18, size 0x20
   __declspec(property(get = __cordl_internal_get_m_FilteringSettings, put = __cordl_internal_set_m_FilteringSettings)) ::UnityEngine::Rendering::FilteringSettings m_FilteringSettings;
 
-  /// @brief Method CreateDebugRenderSetups, addr 0x6cc61b4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method CreateDebugRenderSetups, addr 0x6cc7294, size 0x148, virtual false, abstract: false, final false
   inline void CreateDebugRenderSetups(::UnityEngine::Rendering::FilteringSettings filteringSettings);
 
-  /// @brief Method CreateRendererListsWithDebugRenderState, addr 0x6cc64a0, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method CreateRendererListsWithDebugRenderState, addr 0x6cc7580, size 0x3a4, virtual false, abstract: false, final false
   inline void CreateRendererListsWithDebugRenderState(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                                       ::by_ref<::UnityEngine::Rendering::DrawingSettings> drawingSettings, ::by_ref<::UnityEngine::Rendering::FilteringSettings> filteringSettings,
                                                       ::by_ref<::UnityEngine::Rendering::RenderStateBlock> renderStateBlock);
 
-  /// @brief Method CreateRendererListsWithDebugRenderState, addr 0x6cc6be4, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method CreateRendererListsWithDebugRenderState, addr 0x6cc7cc4, size 0x38c, virtual false, abstract: false, final false
   inline void CreateRendererListsWithDebugRenderState(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                                       ::by_ref<::UnityEngine::Rendering::DrawingSettings> drawingSettings, ::by_ref<::UnityEngine::Rendering::FilteringSettings> filteringSettings,
                                                       ::by_ref<::UnityEngine::Rendering::RenderStateBlock> renderStateBlock);
 
-  /// @brief Method DisposeDebugRenderLists, addr 0x6cc6314, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method DisposeDebugRenderLists, addr 0x6cc73f4, size 0x188, virtual false, abstract: false, final false
   inline void DisposeDebugRenderLists();
 
-  /// @brief Method DrawWithRendererList, addr 0x6cc710c, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method DrawWithRendererList, addr 0x6cc81ec, size 0x238, virtual false, abstract: false, final false
   inline void DrawWithRendererList(::UnityEngine::Rendering::RasterCommandBuffer* cmd);
 
   static inline ::UnityEngine::Rendering::Universal::DebugRendererLists* New_ctor(::UnityEngine::Rendering::Universal::DebugHandler* debugHandler,
                                                                                   ::UnityEngine::Rendering::FilteringSettings filteringSettings);
 
-  /// @brief Method PrepareRendererListForRasterPass, addr 0x6cc6f70, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method PrepareRendererListForRasterPass, addr 0x6cc8050, size 0x19c, virtual false, abstract: false, final false
   inline void PrepareRendererListForRasterPass(::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder* builder);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RendererList>* const& __cordl_internal_get_m_ActiveDebugRendererList() const;
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set_m_FilteringSettings(::UnityEngine::Rendering::FilteringSettings value);
 
-  /// @brief Method .ctor, addr 0x6cc6084, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cc7164, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DebugHandler* debugHandler, ::UnityEngine::Rendering::FilteringSettings filteringSettings);
 
 protected:

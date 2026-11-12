@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_ColorsConfigTracker::*)(
     ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender*)>(&::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_ColorsConfigTracker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350ac2c;
+  constexpr static std::size_t addrs = 0x350d06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_ColorsConfigTracker::*)(::GlobalNamespace::ColorSchemesSettings*)>(
     &::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_ColorsConfigTracker::TakeSnapshot)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x350ac3c;
+  constexpr static std::size_t addrs = 0x350d07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_ColorsConfigTracker*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_ColorsConfigTracker::*)(::GlobalNamespace::ColorSchemesSettings*)>(
     &::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_ColorsConfigTracker::DiffAndSend)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x350acd8;
+  constexpr static std::size_t addrs = 0x350d118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_ColorsConfigTracker*>(),
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_EnvironmentsConfigTracker::*)(
     ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender*)>(&::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_EnvironmentsConfigTracker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350ac34;
+  constexpr static std::size_t addrs = 0x350d074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_EnvironmentsConfigTracker::*)(::GlobalNamespace::OverrideEnvironmentSettings*)>(
     &::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_EnvironmentsConfigTracker::TakeSnapshot)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x350adc4;
+  constexpr static std::size_t addrs = 0x350d204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_EnvironmentsConfigTracker*>(),
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_EnvironmentsConfigTracker::*)(::GlobalNamespace::OverrideEnvironmentSettings*)>(
     &::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_EnvironmentsConfigTracker::DiffAndSend)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x350ae60;
+  constexpr static std::size_t addrs = 0x350d2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_EnvironmentsConfigTracker*>(),
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_LiveSettingsEventSender::*)(
     ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher*)>(&::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_LiveSettingsEventSender::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350ac24;
+  constexpr static std::size_t addrs = 0x350d064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_LiveSettingsEventSender*>(),
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_LiveSettingsEventSender::*)(
     ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>*)>(&::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_LiveSettingsEventSender::SendSnapshot)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x350af4c;
+  constexpr static std::size_t addrs = 0x350d38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_LiveSettingsEventSender::*)(
     ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>*)>(&::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_LiveSettingsEventSender::SendChange)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x350b07c;
+  constexpr static std::size_t addrs = 0x350d4bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_LiveSettingsEventSender::*)(::StringW)>(
     &::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_LiveSettingsEventSender::SendColorsOverride)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x350b1b0;
+  constexpr static std::size_t addrs = 0x350d5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_LiveSettingsEventSender*>(),
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_LiveSettingsEventSender::*)(::StringW)>(
     &::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_LiveSettingsEventSender::SendEnvironmentOverride)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x350b2e4;
+  constexpr static std::size_t addrs = 0x350d724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_LiveSettingsEventSender*>(),
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Settings::AudioSettingsTracker* (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::*)()>(
     &::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::get_Audio)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350aad4;
+  constexpr static std::size_t addrs = 0x350cf14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsChangeAnalytics*>(), { "get_Audio", {}, {} })));
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Settings::ColorsSettingsTracker* (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::*)()>(
     &::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::get_Colors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350aadc;
+  constexpr static std::size_t addrs = 0x350cf1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsChangeAnalytics*>(), { "get_Colors", {}, {} })));
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Settings::ControllerSettingsTracker* (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::*)()>(
     &::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::get_Controller)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350aae4;
+  constexpr static std::size_t addrs = 0x350cf24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -396,7 +396,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker* (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::*)()>(
     &::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::get_Environments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350aaec;
+  constexpr static std::size_t addrs = 0x350cf2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Settings::GraphicsSettingsTracker* (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::*)()>(
     &::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::get_Graphics)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350aaf4;
+  constexpr static std::size_t addrs = 0x350cf34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsChangeAnalytics*>(), { "get_Graphics", {}, {} })));
@@ -423,7 +423,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Settings::MiscSettingsTracker* (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::*)()>(
     &::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::get_Misc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350aafc;
+  constexpr static std::size_t addrs = 0x350cf3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsChangeAnalytics*>(), { "get_Misc", {}, {} })));
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Settings::PlayerSettingsTracker* (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::*)()>(
     &::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::get_Player)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350ab04;
+  constexpr static std::size_t addrs = 0x350cf44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsChangeAnalytics*>(), { "get_Player", {}, {} })));
@@ -449,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_ColorsConfigTracker* (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::*)()>(
     &::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::get_ColorsConfig)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350ab0c;
+  constexpr static std::size_t addrs = 0x350cf4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -463,7 +463,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_EnvironmentsConfigTracker* (
     ::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::*)()>(&::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::get_EnvironmentsConfig)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350ab14;
+  constexpr static std::size_t addrs = 0x350cf54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -477,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::*)(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher*)>(
     &::BeatSaber::Analytics::Settings::SettingsChangeAnalytics::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x350ab1c;
+  constexpr static std::size_t addrs = 0x350cf5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsChangeAnalytics*>(),

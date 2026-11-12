@@ -48,31 +48,31 @@ namespace BeatSaber::Analytics::Settings {
 class CORDL_TYPE SettingsAnalyticsGenerated : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendAudioSnapshot, addr 0x3504704, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AppendAudioSnapshot, addr 0x3506b44, size 0x154, virtual false, abstract: false, final false
   static inline void AppendAudioSnapshot(::BeatSaber::Settings::AudioSettings s,
                                          /* [TupleElementNames(new[] { "metricName", "value" })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>* results);
 
-  /// @brief Method AppendColorsSnapshot, addr 0x3504858, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method AppendColorsSnapshot, addr 0x3506c98, size 0x1c0, virtual false, abstract: false, final false
   static inline void AppendColorsSnapshot(::GlobalNamespace::ColorSchemesSettings* s,
                                           /* [TupleElementNames(new[] { "metricName", "value" })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>* results);
 
-  /// @brief Method AppendControllerSnapshot, addr 0x3504a18, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AppendControllerSnapshot, addr 0x3506e58, size 0xf0, virtual false, abstract: false, final false
   static inline void AppendControllerSnapshot(::BeatSaber::Settings::ControllerSettings s,
                                               /* [TupleElementNames(new[] { "metricName", "value" })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>* results);
 
-  /// @brief Method AppendEnvironmentsSnapshot, addr 0x3504b08, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AppendEnvironmentsSnapshot, addr 0x3506f48, size 0xf4, virtual false, abstract: false, final false
   static inline void AppendEnvironmentsSnapshot(::GlobalNamespace::OverrideEnvironmentSettings* s,
                                                 /* [TupleElementNames(new[] { "metricName", "value" })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>* results);
 
-  /// @brief Method AppendGraphicsSnapshot, addr 0x3504bfc, size 0x938, virtual false, abstract: false, final false
+  /// @brief Method AppendGraphicsSnapshot, addr 0x350703c, size 0x938, virtual false, abstract: false, final false
   static inline void AppendGraphicsSnapshot(::BeatSaber::Settings::QualitySettings s,
                                             /* [TupleElementNames(new[] { "metricName", "value" })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>* results);
 
-  /// @brief Method AppendMiscSnapshot, addr 0x3505534, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method AppendMiscSnapshot, addr 0x3507974, size 0x140, virtual false, abstract: false, final false
   static inline void AppendMiscSnapshot(::BeatSaber::Settings::MiscSettings s,
                                         /* [TupleElementNames(new[] { "metricName", "value" })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>* results);
 
-  /// @brief Method AppendPlayerSnapshot, addr 0x3505674, size 0xab4, virtual false, abstract: false, final false
+  /// @brief Method AppendPlayerSnapshot, addr 0x3507ab4, size 0xab4, virtual false, abstract: false, final false
   static inline void AppendPlayerSnapshot(::GlobalNamespace::PlayerSpecificSettings* s,
                                           /* [TupleElementNames(new[] { "metricName", "value" })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>* results);
 
@@ -91,7 +91,7 @@ public:
   SettingsAnalyticsGenerated(SettingsAnalyticsGenerated const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22776 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

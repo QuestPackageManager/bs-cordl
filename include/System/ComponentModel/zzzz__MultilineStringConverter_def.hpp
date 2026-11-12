@@ -38,20 +38,20 @@ namespace System::ComponentModel {
 class CORDL_TYPE MultilineStringConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method ConvertTo, addr 0x682848c, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x6828adc, size 0x13c, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetProperties, addr 0x68285c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x6828c18, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value,
                                                                                ::ArrayW<::System::Attribute*> attributes);
 
-  /// @brief Method GetPropertiesSupported, addr 0x68285d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x6828c20, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::ComponentModel::MultilineStringConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x68285d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6828c28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

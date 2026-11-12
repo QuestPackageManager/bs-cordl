@@ -169,99 +169,99 @@ public:
   /// @brief Field s_MaxMipLevelPadding, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_MaxMipLevelPadding, put = setStaticF_s_MaxMipLevelPadding)) int32_t s_MaxMipLevelPadding;
 
-  /// @brief Method AddTexture, addr 0x6c0c0fc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method AddTexture, addr 0x6c0d1dc, size 0xa0, virtual true, abstract: false, final false
   inline bool AddTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Vector4> scaleOffset, ::UnityEngine::Texture* texture);
 
-  /// @brief Method AllocateTexture, addr 0x6c034dc, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method AllocateTexture, addr 0x6c045bc, size 0x1f0, virtual true, abstract: false, final false
   inline bool AllocateTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Vector4> scaleOffset, ::UnityEngine::Texture* texture, int32_t width, int32_t height,
                               int32_t overrideInstanceID);
 
-  /// @brief Method AllocateTextureWithoutBlit, addr 0x6c0b6ac, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method AllocateTextureWithoutBlit, addr 0x6c0c78c, size 0x188, virtual true, abstract: false, final false
   inline bool AllocateTextureWithoutBlit(int32_t instanceId, int32_t width, int32_t height, ::by_ref<::UnityEngine::Vector4> scaleOffset);
 
-  /// @brief Method AllocateTextureWithoutBlit, addr 0x6c0b650, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AllocateTextureWithoutBlit, addr 0x6c0c730, size 0x5c, virtual false, abstract: false, final false
   inline bool AllocateTextureWithoutBlit(::UnityEngine::Texture* texture, int32_t width, int32_t height, ::by_ref<::UnityEngine::Vector4> scaleOffset);
 
-  /// @brief Method Blit2DTexture, addr 0x6c0a860, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method Blit2DTexture, addr 0x6c0b940, size 0x288, virtual false, abstract: false, final false
   inline void Blit2DTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector4 scaleOffset, ::UnityEngine::Texture* texture, ::UnityEngine::Vector4 sourceScaleOffset, bool blitMips,
                             ::UnityEngine::Rendering::Texture2DAtlas_BlitType blitType);
 
-  /// @brief Method BlitCubeTexture2D, addr 0x6c0b4b8, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method BlitCubeTexture2D, addr 0x6c0c598, size 0x198, virtual true, abstract: false, final false
   inline void BlitCubeTexture2D(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector4 scaleOffset, ::UnityEngine::Texture* texture, bool blitMips, int32_t overrideInstanceID);
 
-  /// @brief Method BlitOctahedralTexture, addr 0x6c0b4ac, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method BlitOctahedralTexture, addr 0x6c0c58c, size 0xc, virtual true, abstract: false, final false
   inline void BlitOctahedralTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector4 scaleOffset, ::UnityEngine::Texture* texture, ::UnityEngine::Vector4 sourceScaleOffset,
                                     bool blitMips, int32_t overrideInstanceID);
 
-  /// @brief Method BlitTexture, addr 0x6c0b2f8, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method BlitTexture, addr 0x6c0c3d8, size 0x1b4, virtual true, abstract: false, final false
   inline void BlitTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector4 scaleOffset, ::UnityEngine::Texture* texture, ::UnityEngine::Vector4 sourceScaleOffset, bool blitMips,
                           int32_t overrideInstanceID);
 
-  /// @brief Method ClearTarget, addr 0x6c0a110, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method ClearTarget, addr 0x6c0b1f0, size 0x1c0, virtual false, abstract: false, final false
   inline void ClearTarget(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method EnsureTextureSlot, addr 0x6c0c3d0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method EnsureTextureSlot, addr 0x6c0d4b0, size 0x164, virtual false, abstract: false, final false
   inline bool EnsureTextureSlot(::by_ref<bool> isUploadNeeded, ::by_ref<::UnityEngine::Vector4> scaleBias, int32_t key, int32_t width, int32_t height);
 
-  /// @brief Method GetCachedTextureSize, addr 0x6c039ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetCachedTextureSize, addr 0x6c04a8c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int GetCachedTextureSize(int32_t id);
 
-  /// @brief Method GetTextureHash, addr 0x6c0b834, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetTextureHash, addr 0x6c0c914, size 0x84, virtual false, abstract: false, final false
   inline int32_t GetTextureHash(::UnityEngine::Texture* textureA, ::UnityEngine::Texture* textureB);
 
-  /// @brief Method GetTextureID, addr 0x6c037d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetTextureID, addr 0x6c048b4, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetTextureID(::UnityEngine::Texture* texture);
 
-  /// @brief Method GetTextureID, addr 0x6c03964, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetTextureID, addr 0x6c04a44, size 0x48, virtual false, abstract: false, final false
   inline int32_t GetTextureID(::UnityEngine::Texture* textureA, ::UnityEngine::Texture* textureB);
 
-  /// @brief Method GetTextureMipmapCount, addr 0x6c022e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetTextureMipmapCount, addr 0x6c033c0, size 0x90, virtual false, abstract: false, final false
   inline int32_t GetTextureMipmapCount(int32_t width, int32_t height);
 
-  /// @brief Method Is2D, addr 0x6c02e48, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Is2D, addr 0x6c03f28, size 0xd0, virtual false, abstract: false, final false
   inline bool Is2D(::UnityEngine::Texture* texture);
 
-  /// @brief Method IsCached, addr 0x6c03a28, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsCached, addr 0x6c04b08, size 0x8c, virtual false, abstract: false, final false
   inline bool IsCached(::by_ref<::UnityEngine::Vector4> scaleOffset, int32_t id);
 
-  /// @brief Method IsCached, addr 0x6c0b8ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsCached, addr 0x6c0c9cc, size 0x3c, virtual false, abstract: false, final false
   inline bool IsCached(::by_ref<::UnityEngine::Vector4> scaleOffset, ::UnityEngine::Texture* texture);
 
-  /// @brief Method IsCached, addr 0x6c0b8b8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsCached, addr 0x6c0c998, size 0x34, virtual false, abstract: false, final false
   inline bool IsCached(::by_ref<::UnityEngine::Vector4> scaleOffset, ::UnityEngine::Texture* textureA, ::UnityEngine::Texture* textureB);
 
-  /// @brief Method IsSingleChannelBlit, addr 0x6c0a4c8, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method IsSingleChannelBlit, addr 0x6c0b5a8, size 0x398, virtual false, abstract: false, final false
   inline bool IsSingleChannelBlit(::UnityEngine::Texture* source, ::UnityEngine::Texture* destination);
 
-  /// @brief Method MarkGPUTextureInvalid, addr 0x6c0b280, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method MarkGPUTextureInvalid, addr 0x6c0c360, size 0x78, virtual false, abstract: false, final false
   inline void MarkGPUTextureInvalid(int32_t instanceId);
 
-  /// @brief Method MarkGPUTextureValid, addr 0x6c02f18, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method MarkGPUTextureValid, addr 0x6c03ff8, size 0x84, virtual false, abstract: false, final false
   inline void MarkGPUTextureValid(int32_t instanceId, bool mipAreValid);
 
-  /// @brief Method NeedsUpdate, addr 0x6c0bbcc, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method NeedsUpdate, addr 0x6c0ccac, size 0xdc, virtual true, abstract: false, final false
   inline bool NeedsUpdate(int32_t id, int32_t updateCount, bool needMips);
 
-  /// @brief Method NeedsUpdate, addr 0x6c0b928, size 0x2a4, virtual true, abstract: false, final false
+  /// @brief Method NeedsUpdate, addr 0x6c0ca08, size 0x2a4, virtual true, abstract: false, final false
   inline bool NeedsUpdate(::UnityEngine::Texture* texture, bool needMips);
 
-  /// @brief Method NeedsUpdate, addr 0x6c0bca8, size 0x454, virtual true, abstract: false, final false
+  /// @brief Method NeedsUpdate, addr 0x6c0cd88, size 0x454, virtual true, abstract: false, final false
   inline bool NeedsUpdate(::UnityEngine::Texture* textureA, ::UnityEngine::Texture* textureB, bool needMips);
 
   static inline ::UnityEngine::Rendering::Texture2DAtlas* New_ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::FilterMode filterMode,
                                                                    bool powerOfTwoPadding, ::StringW name, bool useMipMap);
 
-  /// @brief Method Release, addr 0x6c0a098, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x6c0b178, size 0x78, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method ResetAllocator, addr 0x6c03ecc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ResetAllocator, addr 0x6c04fac, size 0x88, virtual false, abstract: false, final false
   inline void ResetAllocator();
 
-  /// @brief Method UpdateTexture, addr 0x6c0c19c, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method UpdateTexture, addr 0x6c0d27c, size 0x17c, virtual true, abstract: false, final false
   inline bool UpdateTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Texture* oldTexture, ::UnityEngine::Texture* newTexture, ::by_ref<::UnityEngine::Vector4> scaleOffset,
                             ::UnityEngine::Vector4 sourceScaleOffset, bool updateIfNeeded, bool blitMips);
 
-  /// @brief Method UpdateTexture, addr 0x6c0c318, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method UpdateTexture, addr 0x6c0d3f8, size 0xb8, virtual true, abstract: false, final false
   inline bool UpdateTexture(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Texture* texture, ::by_ref<::UnityEngine::Vector4> scaleOffset, bool updateIfNeeded, bool blitMips);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::ValueTuple_2<::UnityEngine::Vector4, ::UnityEngine::Vector2Int>>* const& __cordl_internal_get_m_AllocationCache() const;
@@ -324,7 +324,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6c01ab4, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c02b94, size 0x2f4, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::FilterMode filterMode, bool powerOfTwoPadding, ::StringW name,
                     bool useMipMap);
 
@@ -332,10 +332,10 @@ public:
 
   static inline int32_t getStaticF_s_MaxMipLevelPadding();
 
-  /// @brief Method get_AtlasTexture, addr 0x6c0a090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AtlasTexture, addr 0x6c0b170, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* get_AtlasTexture();
 
-  /// @brief Method get_maxMipLevelPadding, addr 0x6c0a034, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_maxMipLevelPadding, addr 0x6c0b114, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_maxMipLevelPadding();
 
   static inline void setStaticF_fullScaleOffset(::UnityEngine::Vector4 value);

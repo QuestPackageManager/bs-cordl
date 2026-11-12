@@ -91,18 +91,18 @@ public:
   /// @brief Field rpnTokens, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_rpnTokens, put = __cordl_internal_set_rpnTokens)) ::ArrayW<::StringW> rpnTokens;
 
-  /// @brief Method Equals, addr 0x6f0d88c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f0e96c, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   /// @brief Method Evaluate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool Evaluate(::by_ref<T> value, int32_t index, int32_t count);
 
-  /// @brief Method GetHashCode, addr 0x6f0d944, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f0ea24, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::ExpressionEvaluator_Expression* New_ctor(::StringW expression);
 
-  /// @brief Method ToString, addr 0x6f0d960, size 0x684, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f0ea40, size 0x684, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_hasVariables() const;
@@ -117,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set_rpnTokens(::ArrayW<::StringW> value);
 
-  /// @brief Method .ctor, addr 0x6f0d810, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f0e8f0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW expression);
 
 protected:
@@ -160,19 +160,19 @@ namespace UnityEngine {
 struct CORDL_TYPE ExpressionEvaluator_PcgRandom {
 public:
   // Declarations
-  /// @brief Method GetUInt, addr 0x6f0e02c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetUInt, addr 0x6f0f10c, size 0x38, virtual false, abstract: false, final false
   inline uint32_t GetUInt();
 
-  /// @brief Method RotateRight, addr 0x6f0e07c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RotateRight, addr 0x6f0f15c, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t RotateRight(uint32_t v, int32_t rot);
 
-  /// @brief Method Step, addr 0x6f0e00c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Step, addr 0x6f0f0ec, size 0x20, virtual false, abstract: false, final false
   inline void Step();
 
-  /// @brief Method XshRr, addr 0x6f0e064, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method XshRr, addr 0x6f0f144, size 0x18, virtual false, abstract: false, final false
   static inline uint32_t XshRr(uint64_t s);
 
-  /// @brief Method .ctor, addr 0x6f0dfe4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f0f0c4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(uint64_t state, uint64_t sequence);
 
   // Ctor Parameters []
@@ -417,7 +417,7 @@ public:
 
   constexpr void __cordl_internal_set_precedence(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6f0e084, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f0f164, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ExpressionEvaluator_Op op, int32_t precedence, int32_t inputs, ::UnityEngine::ExpressionEvaluator_Associativity associativity);
 
 protected:
@@ -479,10 +479,10 @@ public:
 
   static inline ::UnityEngine::ExpressionEvaluator___c* New_ctor();
 
-  /// @brief Method <ExpressionToTokens>b__14_0, addr 0x6f0e0e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <ExpressionToTokens>b__14_0, addr 0x6f0f1c8, size 0x8c, virtual false, abstract: false, final false
   inline bool _ExpressionToTokens_b__14_0(::StringW f);
 
-  /// @brief Method .ctor, addr 0x6f0e0e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f0f1c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ExpressionEvaluator___c* getStaticF___9();
@@ -545,43 +545,43 @@ public:
   /// @brief Method Evaluate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool Evaluate(::StringW expression, ::by_ref<T> value, ::by_ref<::UnityEngine::ExpressionEvaluator_Expression*> delayed);
 
-  /// @brief Method EvaluateDouble, addr 0x6f0ba48, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method EvaluateDouble, addr 0x6f0cb28, size 0x530, virtual false, abstract: false, final false
   static inline bool EvaluateDouble(::ArrayW<::StringW> tokens, ::by_ref<double_t> value, int32_t index, int32_t count);
 
-  /// @brief Method EvaluateOp, addr 0x6f0c15c, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method EvaluateOp, addr 0x6f0d23c, size 0x338, virtual false, abstract: false, final false
   static inline double_t EvaluateOp(::ArrayW<double_t> values, ::UnityEngine::ExpressionEvaluator_Op op, int32_t index, int32_t count);
 
   /// @brief Method EvaluateTokens, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool EvaluateTokens(::ArrayW<::StringW> tokens, ::by_ref<T> value, int32_t index, int32_t count);
 
-  /// @brief Method ExpressionToTokens, addr 0x6f0ca88, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method ExpressionToTokens, addr 0x6f0db68, size 0x44c, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> ExpressionToTokens(::StringW expression, ::by_ref<bool> hasVariables);
 
-  /// @brief Method FixUnaryOperators, addr 0x6f0d09c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method FixUnaryOperators, addr 0x6f0e17c, size 0x16c, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> FixUnaryOperators(::ArrayW<::StringW> tokens);
 
-  /// @brief Method InfixToRPN, addr 0x6f0c4e0, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method InfixToRPN, addr 0x6f0d5c0, size 0x434, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW> InfixToRPN(::ArrayW<::StringW> tokens);
 
-  /// @brief Method IsCommand, addr 0x6f0c0c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method IsCommand, addr 0x6f0d1a0, size 0x9c, virtual false, abstract: false, final false
   static inline bool IsCommand(::StringW token);
 
-  /// @brief Method IsDelayedFunction, addr 0x6f0c914, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsDelayedFunction, addr 0x6f0d9f4, size 0x70, virtual false, abstract: false, final false
   static inline bool IsDelayedFunction(::StringW token);
 
-  /// @brief Method IsOperator, addr 0x6f0bf78, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsOperator, addr 0x6f0d058, size 0xa0, virtual false, abstract: false, final false
   static inline bool IsOperator(::StringW token);
 
-  /// @brief Method IsVariable, addr 0x6f0c494, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsVariable, addr 0x6f0d574, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsVariable(::StringW token);
 
-  /// @brief Method NeedToPop, addr 0x6f0c984, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method NeedToPop, addr 0x6f0da64, size 0x104, virtual false, abstract: false, final false
   static inline bool NeedToPop(::System::Collections::Generic::Stack_1<::StringW>* operatorStack, ::UnityEngine::ExpressionEvaluator_Operator* newOperator);
 
-  /// @brief Method PreFormatExpression, addr 0x6f0ced4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method PreFormatExpression, addr 0x6f0dfb4, size 0x1c8, virtual false, abstract: false, final false
   static inline ::StringW PreFormatExpression(::StringW expression);
 
-  /// @brief Method TokenToOperator, addr 0x6f0c018, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method TokenToOperator, addr 0x6f0d0f8, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ExpressionEvaluator_Operator* TokenToOperator(::StringW token);
 
   /// @brief Method TryParse, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

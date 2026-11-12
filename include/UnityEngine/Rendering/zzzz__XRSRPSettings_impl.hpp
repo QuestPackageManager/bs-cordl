@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::XRSRPSettings::get_enabled)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c2e1b0;
+  constexpr static std::size_t addrs = 0x6c2f290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::XRSRPSettings*>(), { "get_enabled", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::XRSRPSettings::get_isDeviceActive)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6c2e1d8;
+  constexpr static std::size_t addrs = 0x6c2f2b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::XRSRPSettings*>(), { "get_isDeviceActive", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::UnityEngine::Rendering::XRSRPSettings::get_loadedDeviceName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6c2e230;
+  constexpr static std::size_t addrs = 0x6c2f310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::XRSRPSettings*>(), { "get_loadedDeviceName", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)()>(&::UnityEngine::Rendering::XRSRPSettings::get_supportedDevices)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6c2e2a8;
+  constexpr static std::size_t addrs = 0x6c2f388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::XRSRPSettings*>(), { "get_supportedDevices", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::RenderTextureDescriptor (*)()>(&::UnityEngine::Rendering::XRSRPSettings::get_eyeTextureDesc)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6c2e33c;
+  constexpr static std::size_t addrs = 0x6c2f41c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::XRSRPSettings*>(), { "get_eyeTextureDesc", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::XRSRPSettings::get_eyeTextureWidth)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6c2e410;
+  constexpr static std::size_t addrs = 0x6c2f4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::XRSRPSettings*>(), { "get_eyeTextureWidth", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::XRSRPSettings::get_eyeTextureHeight)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6c2e468;
+  constexpr static std::size_t addrs = 0x6c2f548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::XRSRPSettings*>(), { "get_eyeTextureHeight", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::Rendering::XRSRPSettings::get_occlusionMeshScale)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c2e4c0;
+  constexpr static std::size_t addrs = 0x6c2f5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::XRSRPSettings*>(), { "get_occlusionMeshScale", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t)>(&::UnityEngine::Rendering::XRSRPSettings::set_occlusionMeshScale)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6c2e57c;
+  constexpr static std::size_t addrs = 0x6c2f65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::XRSRPSettings::get_useVisibilityMesh)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6c2e640;
+  constexpr static std::size_t addrs = 0x6c2f720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::XRSRPSettings*>(), { "get_useVisibilityMesh", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::Rendering::XRSRPSettings::set_useVisibilityMesh)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6c2e708;
+  constexpr static std::size_t addrs = 0x6c2f7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::Rendering::XRSRPSettings::get_mirrorViewMode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6c2e7d0;
+  constexpr static std::size_t addrs = 0x6c2f8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::XRSRPSettings*>(), { "get_mirrorViewMode", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::Rendering::XRSRPSettings::set_mirrorViewMode)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6c2e858;
+  constexpr static std::size_t addrs = 0x6c2f938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::XRSRPSettings::*)()>(&::UnityEngine::Rendering::XRSRPSettings::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c2e8e4;
+  constexpr static std::size_t addrs = 0x6c2f9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::XRSRPSettings*>(), { ".ctor", {}, {} })));

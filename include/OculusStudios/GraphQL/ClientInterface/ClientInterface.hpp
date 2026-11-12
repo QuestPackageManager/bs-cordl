@@ -17,6 +17,7 @@ module;
 #include "OculusStudios/GraphQL/ClientInterface/IGraphQLInputSupportsClientMutationId.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/IGraphQLModel.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/IGraphQLOperation.hpp"
+#include "OculusStudios/GraphQL/ClientInterface/IGraphQLOperationSupportsClientMutationId.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/IMutationRequest.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/IQueryRequest.hpp"
 #include "OculusStudios/GraphQL/ClientInterface/IRequestWithResultConversion_2.hpp"

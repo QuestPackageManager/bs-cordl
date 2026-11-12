@@ -38,30 +38,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IXRSystemState"
   constexpr operator ::GlobalNamespace::IXRSystemState*() noexcept;
 
-  /// @brief Method AddListener, addr 0x5e53504, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method AddListener, addr 0x5e53968, size 0x4, virtual true, abstract: false, final true
   inline void AddListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener, /* [ParamArray] */ ::ArrayW<::GlobalNamespace::XRSystemEventType> initialStateChecks);
 
-  /// @brief Method IsAppFocusCurrentlyLost, addr 0x5e534fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsAppFocusCurrentlyLost, addr 0x5e53960, size 0x8, virtual true, abstract: false, final true
   inline bool IsAppFocusCurrentlyLost();
 
   static inline ::GlobalNamespace::MockXRSystemState* New_ctor();
 
-  /// @brief Method RefreshControllersReference, addr 0x5e5350c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method RefreshControllersReference, addr 0x5e53970, size 0x4, virtual true, abstract: false, final true
   inline void RefreshControllersReference();
 
-  /// @brief Method RemoveListener, addr 0x5e53508, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method RemoveListener, addr 0x5e5396c, size 0x4, virtual true, abstract: false, final true
   inline void RemoveListener(::System::Action_1<::GlobalNamespace::XRSystemEventType>* listener);
 
-  /// @brief Method .ctor, addr 0x5e53510, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e53974, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasHmdMounted, addr 0x5e534f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasHmdMounted, addr 0x5e53958, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasHmdMounted();
 
-  /// @brief Method get_hasInputFocus, addr 0x5e534e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasInputFocus, addr 0x5e53948, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasInputFocus();
 
-  /// @brief Method get_hasVrFocus, addr 0x5e534ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasVrFocus, addr 0x5e53950, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasVrFocus();
 
   /// @brief Convert to "::GlobalNamespace::IXRSystemState"
@@ -82,7 +82,7 @@ public:
   MockXRSystemState(MockXRSystemState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6422 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

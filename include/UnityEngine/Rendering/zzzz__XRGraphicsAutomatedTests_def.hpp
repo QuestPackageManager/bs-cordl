@@ -31,18 +31,18 @@ public:
   /// @brief Field running, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_running, put = setStaticF_running)) bool running;
 
-  /// @brief Method OverrideLayout, addr 0x6c2dbac, size 0x5b8, virtual false, abstract: false, final false
+  /// @brief Method OverrideLayout, addr 0x6c2ec8c, size 0x5b8, virtual false, abstract: false, final false
   static inline void OverrideLayout(::UnityEngine::Experimental::Rendering::XRLayout* layout, ::UnityEngine::Camera* camera);
 
   static inline bool getStaticF__enabled_k__BackingField();
 
   static inline bool getStaticF_running();
 
-  /// @brief Method get_activatedFromCommandLine, addr 0x6c2dae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activatedFromCommandLine, addr 0x6c2ebc4, size 0x8, virtual false, abstract: false, final false
   static inline bool get_activatedFromCommandLine();
 
   /// [CompilerGenerated]
-  /// @brief Method get_enabled, addr 0x6c2daec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x6c2ebcc, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_enabled();
 
   static inline void setStaticF__enabled_k__BackingField(bool value);
@@ -50,7 +50,7 @@ public:
   static inline void setStaticF_running(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_enabled, addr 0x6c2db48, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x6c2ec28, size 0x64, virtual false, abstract: false, final false
   static inline void set_enabled(bool value);
 
 protected:

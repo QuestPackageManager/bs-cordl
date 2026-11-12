@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::GlobalNamespace::AsyncComputeOperation::*)()>(&::GlobalNamespace::AsyncComputeOperation::get_elapsedTime)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x35d86e0;
+  constexpr static std::size_t addrs = 0x35dcb38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AsyncComputeOperation*>(), { "get_elapsedTime", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::AsyncComputeOperation::*)()>(&::GlobalNamespace::AsyncComputeOperation::get_hasTimedOut)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x35d8768;
+  constexpr static std::size_t addrs = 0x35dcbc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AsyncComputeOperation*>(), { "get_hasTimedOut", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AsyncComputeOperation::*)(int32_t)>(&::GlobalNamespace::AsyncComputeOperation::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35d8798;
+  constexpr static std::size_t addrs = 0x35dcbf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

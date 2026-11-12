@@ -52,10 +52,10 @@ public:
   /// @brief Field s_knownMethodInfo, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_knownMethodInfo, put = setStaticF_s_knownMethodInfo)) ::ArrayW<::System::Net::FtpMethodInfo*> s_knownMethodInfo;
 
-  /// @brief Method GetMethodInfo, addr 0x6868a24, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetMethodInfo, addr 0x6869074, size 0x158, virtual false, abstract: false, final false
   static inline ::System::Net::FtpMethodInfo* GetMethodInfo(::StringW method);
 
-  /// @brief Method HasFlag, addr 0x68689e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasFlag, addr 0x6869030, size 0x10, virtual false, abstract: false, final false
   inline bool HasFlag(::System::Net::FtpMethodFlags flags);
 
   static inline ::System::Net::FtpMethodInfo* New_ctor(::StringW method, ::System::Net::FtpOperation operation, ::System::Net::FtpMethodFlags flags, ::StringW httpCommand);
@@ -84,21 +84,21 @@ public:
 
   constexpr void __cordl_internal_set_Operation(::System::Net::FtpOperation value);
 
-  /// @brief Method .ctor, addr 0x68689d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6869020, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW method, ::System::Net::FtpOperation operation, ::System::Net::FtpMethodFlags flags, ::StringW httpCommand);
 
   static inline ::ArrayW<::System::Net::FtpMethodInfo*> getStaticF_s_knownMethodInfo();
 
-  /// @brief Method get_IsCommandOnly, addr 0x68689f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCommandOnly, addr 0x6869040, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCommandOnly();
 
-  /// @brief Method get_IsDownload, addr 0x6868a0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsDownload, addr 0x686905c, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsDownload();
 
-  /// @brief Method get_IsUpload, addr 0x6868a00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsUpload, addr 0x6869050, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsUpload();
 
-  /// @brief Method get_ShouldParseForResponseUri, addr 0x6868a18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldParseForResponseUri, addr 0x6869068, size 0xc, virtual false, abstract: false, final false
   inline bool get_ShouldParseForResponseUri();
 
   static inline void setStaticF_s_knownMethodInfo(::ArrayW<::System::Net::FtpMethodInfo*> value);

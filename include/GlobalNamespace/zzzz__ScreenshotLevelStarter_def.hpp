@@ -227,7 +227,7 @@ public:
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_Settings(int32_t framerate, float_t screenshotPeriod, bool overwriteExistingFolder) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6883 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
@@ -260,10 +260,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey {
 public:
   // Declarations
-  /// @brief Method ToBeatmapKey, addr 0x5d68368, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method ToBeatmapKey, addr 0x5d67fa8, size 0x41c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey ToBeatmapKey(::GlobalNamespace::BeatmapLevelsModel* beatmapLevels);
 
-  /// @brief Method .ctor, addr 0x5d6742c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d6705c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelId, ::StringW characteristic, ::StringW difficulty);
 
   // Ctor Parameters []
@@ -275,7 +275,7 @@ public:
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_SerializedBeatmapKey(::StringW levelId, ::StringW characteristic, ::StringW difficulty) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6885 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -321,7 +321,7 @@ public:
                                                                   ::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Settings settings, float_t differenceThreshold) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6884 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -378,7 +378,7 @@ public:
                                                                          ::GlobalNamespace::GameplayModifiers* gameplayModifiers) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6887 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6886 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x138 };
@@ -426,7 +426,7 @@ public:
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_DeviceMetadata(::StringW deviceUID, ::StringW deviceName, ::StringW deviceType, ::StringW devicePlatform, ::StringW deviceModel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6887 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -477,7 +477,7 @@ public:
   constexpr RunScreenshotLevelData_ScreenshotLevelStarter_BuildSpecificMetadata(::StringW gameVersion) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6888 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -522,7 +522,7 @@ public:
                                                           ::ArrayW<::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command> screenshotLevels) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6889 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -572,16 +572,16 @@ public:
 
   static inline ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_0* New_ctor();
 
-  /// @brief Method <RunScreenshotLevel>b__0, addr 0x5d68788, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RunScreenshotLevel>b__0, addr 0x5d683c8, size 0x20, virtual false, abstract: false, final false
   inline bool _RunScreenshotLevel_b__0();
 
-  /// @brief Method <RunScreenshotLevel>b__1, addr 0x5d687a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <RunScreenshotLevel>b__1, addr 0x5d683e8, size 0x20, virtual false, abstract: false, final false
   inline bool _RunScreenshotLevel_b__1();
 
-  /// @brief Method <RunScreenshotLevel>g__GetNextScreenshotTime|3, addr 0x5d688bc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <RunScreenshotLevel>g__GetNextScreenshotTime|3, addr 0x5d684f8, size 0x94, virtual false, abstract: false, final false
   inline float_t _RunScreenshotLevel_g__GetNextScreenshotTime_3();
 
-  /// @brief Method <RunScreenshotLevel>g__HandleLevelEnded|2, addr 0x5d687c8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method <RunScreenshotLevel>g__HandleLevelEnded|2, addr 0x5d68408, size 0xf0, virtual false, abstract: false, final false
   inline void _RunScreenshotLevel_g__HandleLevelEnded_2();
 
   constexpr ::GlobalNamespace::ScreenshotLevelStarter* const& __cordl_internal_get___4__this() const;
@@ -620,7 +620,7 @@ public:
 
   constexpr void __cordl_internal_set_pauseController(::UnityW<::GlobalNamespace::PauseController> value);
 
-  /// @brief Method .ctor, addr 0x5d68784, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d683c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -638,7 +638,7 @@ public:
   ScreenshotLevelStarter___c__DisplayClass53_0(ScreenshotLevelStarter___c__DisplayClass53_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6890 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ScreenshotLevelStarter* _____4__this;
@@ -689,7 +689,7 @@ public:
 
   static inline ::GlobalNamespace::ScreenshotLevelStarter___c__DisplayClass53_1* New_ctor();
 
-  /// @brief Method <RunScreenshotLevel>b__4, addr 0x5d68954, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <RunScreenshotLevel>b__4, addr 0x5d68590, size 0x18, virtual false, abstract: false, final false
   inline bool _RunScreenshotLevel_b__4();
 
   constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* const& __cordl_internal_get_versionTask() const;
@@ -698,7 +698,7 @@ public:
 
   constexpr void __cordl_internal_set_versionTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* value);
 
-  /// @brief Method .ctor, addr 0x5d68950, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d6858c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -716,7 +716,7 @@ public:
   ScreenshotLevelStarter___c__DisplayClass53_1(ScreenshotLevelStarter___c__DisplayClass53_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6891 };
 
   /// @brief Field versionTask, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* ___versionTask;
@@ -759,26 +759,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d689b8, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d685ec, size 0x190, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::ScreenshotLevelStarter__PopWhenTransitionSettles_d__49* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d68b6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d6879c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d68b74, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d687a4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d68bac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d687dc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d68974, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d685a8, size 0x44, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -799,11 +799,11 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::ScreenshotLevelStarter* value);
 
-  /// @brief Method <>m__Finally1, addr 0x5d68b4c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x5d6877c, size 0x20, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5d6896c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d675a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -830,7 +830,7 @@ public:
   ScreenshotLevelStarter__PopWhenTransitionSettles_d__49(ScreenshotLevelStarter__PopWhenTransitionSettles_d__49 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6892 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -917,26 +917,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d68bd8, size 0x20b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d68800, size 0x20a0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevel_d__53* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d6ad44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d6a954, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d6ad4c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d6a95c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d6ad84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d6a994, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d68bbc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d687e4, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1023,11 +1023,11 @@ public:
 
   constexpr void __cordl_internal_set_command(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command value);
 
-  /// @brief Method <>m__Finally1, addr 0x5d6ac90, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x5d6a8a0, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5d68bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d67628, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -1054,7 +1054,7 @@ public:
   ScreenshotLevelStarter__RunScreenshotLevel_d__53(ScreenshotLevelStarter__RunScreenshotLevel_d__53 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6893 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1162,26 +1162,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d6ad98, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d6a9a8, size 0x288, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d6b020, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d6ac30, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d6b028, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d6ac38, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d6b060, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d6ac70, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d6ad94, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d6a9a4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1203,7 +1203,7 @@ public:
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::ScreenshotLevelStarter* value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5d6ad8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d6a99c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -1230,7 +1230,7 @@ public:
   ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52(ScreenshotLevelStarter__RunScreenshotLevelQueue_d__52 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6894 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1327,58 +1327,58 @@ public:
   /// @brief Field kWaitForEndOfFrame, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kWaitForEndOfFrame, put = setStaticF_kWaitForEndOfFrame)) ::UnityEngine::WaitForEndOfFrame* kWaitForEndOfFrame;
 
-  /// @brief Method DestroyScreenshotTexture, addr 0x5d677c0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method DestroyScreenshotTexture, addr 0x5d673f0, size 0x90, virtual false, abstract: false, final false
   inline void DestroyScreenshotTexture();
 
-  /// @brief Method EnqueueScreenshotLevel, addr 0x5d67438, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method EnqueueScreenshotLevel, addr 0x5d67068, size 0x11c, virtual false, abstract: false, final false
   inline void EnqueueScreenshotLevel(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command command);
 
-  /// @brief Method EnqueueScreenshotLevel, addr 0x5d673fc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method EnqueueScreenshotLevel, addr 0x5d6702c, size 0x30, virtual false, abstract: false, final false
   inline void EnqueueScreenshotLevel(::StringW levelID, ::StringW characteristic, ::StringW difficulty, float_t screenshotPeriod, ::System::Collections::Generic::List_1<float_t>* screenshotTimes,
                                      int32_t captureFramerate);
 
-  /// @brief Method HandlePauseControllerCanPause, addr 0x5d6826c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerCanPause, addr 0x5d67eac, size 0x1c, virtual false, abstract: false, final false
   inline void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
 
   static inline ::GlobalNamespace::ScreenshotLevelStarter* New_ctor();
 
   /// [IteratorStateMachine(typeof(ScreenshotLevelStarter::<PopWhenTransitionSettles>d__49))]
-  /// @brief Method PopWhenTransitionSettles, addr 0x5d67920, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method PopWhenTransitionSettles, addr 0x5d67550, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PopWhenTransitionSettles();
 
-  /// @brief Method RestoreCaptureState, addr 0x5d6771c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RestoreCaptureState, addr 0x5d6734c, size 0xa4, virtual false, abstract: false, final false
   inline void RestoreCaptureState();
 
   /// [IteratorStateMachine(typeof(ScreenshotLevelStarter::<RunScreenshotLevel>d__53))]
-  /// @brief Method RunScreenshotLevel, addr 0x5d67974, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RunScreenshotLevel, addr 0x5d675ac, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RunScreenshotLevel(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command command);
 
   /// [IteratorStateMachine(typeof(ScreenshotLevelStarter::<RunScreenshotLevelQueue>d__52))]
-  /// @brief Method RunScreenshotLevelQueue, addr 0x5d67554, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RunScreenshotLevelQueue, addr 0x5d67184, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RunScreenshotLevelQueue();
 
-  /// @brief Method SaveBuildSpecificMetadata, addr 0x5d67f7c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SaveBuildSpecificMetadata, addr 0x5d67bbc, size 0xf0, virtual false, abstract: false, final false
   static inline void SaveBuildSpecificMetadata(::StringW metadataFolderPath, /* [IsReadOnly] */ ::by_ref<::StringW const> gameVersion);
 
-  /// @brief Method SaveDeviceMetadata, addr 0x5d67d74, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method SaveDeviceMetadata, addr 0x5d679b4, size 0x208, virtual false, abstract: false, final false
   static inline void SaveDeviceMetadata(::StringW metadataFolderPath);
 
-  /// @brief Method SaveMetadata, addr 0x5d679f0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SaveMetadata, addr 0x5d67630, size 0x158, virtual false, abstract: false, final false
   static inline void SaveMetadata(::GlobalNamespace::RunScreenshotLevelData_ScreenshotLevelStarter_Command command, ::StringW metadataFolderPath,
                                   /* [IsReadOnly] */ ::by_ref<::BeatSaber::Settings::Settings const> settings,
                                   /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::PlayerSpecificSettings* const> playerSpecificSettings,
                                   /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::GameplayModifiers* const> gameplayModifiers);
 
-  /// @brief Method SaveMetadataObject, addr 0x5d67b48, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method SaveMetadataObject, addr 0x5d67788, size 0x22c, virtual false, abstract: false, final false
   static inline void SaveMetadataObject(::System::Object* obj, ::StringW path);
 
-  /// @brief Method StartPopWhenTransitionSettles, addr 0x5d67850, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method StartPopWhenTransitionSettles, addr 0x5d67480, size 0xd0, virtual false, abstract: false, final false
   inline void StartPopWhenTransitionSettles();
 
-  /// @brief Method StopScreenshotting, addr 0x5d675a8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method StopScreenshotting, addr 0x5d671d8, size 0x174, virtual false, abstract: false, final false
   inline void StopScreenshotting();
 
-  /// @brief Method TakeScreenshotFromCamera, addr 0x5d6806c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method TakeScreenshotFromCamera, addr 0x5d67cac, size 0x200, virtual false, abstract: false, final false
   static inline void TakeScreenshotFromCamera(::UnityEngine::Camera* camera, ::UnityEngine::Texture2D* screenshotTexture);
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel* const& __cordl_internal_get__beatmapLevels() const;
@@ -1477,12 +1477,12 @@ public:
 
   constexpr void __cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value);
 
-  /// @brief Method .ctor, addr 0x5d68288, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d67ec8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::WaitForEndOfFrame* getStaticF_kWaitForEndOfFrame();
 
-  /// @brief Method get_isScreenshotting, addr 0x5d673dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_isScreenshotting, addr 0x5d6700c, size 0x20, virtual false, abstract: false, final false
   inline bool get_isScreenshotting();
 
   static inline void setStaticF_kWaitForEndOfFrame(::UnityEngine::WaitForEndOfFrame* value);
@@ -1502,7 +1502,7 @@ public:
   ScreenshotLevelStarter(ScreenshotLevelStarter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6895 };
 
   /// @brief Field kCameraFieldOfView offset 0xffffffff size 0x4
   static constexpr float_t kCameraFieldOfView{ static_cast<float_t>(70.0f) };

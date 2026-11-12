@@ -140,11 +140,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e6ac74, size 0x4d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e6ab8c, size 0x4d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e6b14c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e6b064, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -264,22 +264,22 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method ClearLoading, addr 0x5e6a9b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ClearLoading, addr 0x5e6a8d0, size 0x48, virtual false, abstract: false, final false
   inline void ClearLoading();
 
   /// [AsyncStateMachine(typeof(MultiplayerLevelLoader::<LoadBeatmapLevelDataAsync>d__21))]
-  /// @brief Method LoadBeatmapLevelDataAsync, addr 0x5e6a8c4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataAsync, addr 0x5e6a7dc, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>* LoadBeatmapLevelDataAsync(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData);
 
-  /// @brief Method LoadLevel, addr 0x5e6a828, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method LoadLevel, addr 0x5e6a740, size 0x9c, virtual false, abstract: false, final false
   inline void LoadLevel(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, int64_t initialStartTime);
 
   static inline ::GlobalNamespace::MultiplayerLevelLoader* New_ctor();
 
-  /// @brief Method SetNewStartTime, addr 0x5e6a9b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetNewStartTime, addr 0x5e6a8c8, size 0x8, virtual false, abstract: false, final false
   inline void SetNewStartTime(int64_t newStartTime);
 
-  /// @brief Method Tick, addr 0x5e6aa00, size 0x270, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x5e6a918, size 0x270, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::GlobalNamespace::IBeatmapLevelData* const& __cordl_internal_get__beatmapLevelData() const;
@@ -354,26 +354,26 @@ public:
 
   constexpr void __cordl_internal_set_stillDownloadingSongEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x5e6ac70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e6ab88, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_countdownFinishedEvent, addr 0x5e6a6a8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_countdownFinishedEvent, addr 0x5e6a5c0, size 0xc0, virtual false, abstract: false, final false
   inline void add_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_stillDownloadingSongEvent, addr 0x5e6a550, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_stillDownloadingSongEvent, addr 0x5e6a468, size 0xac, virtual false, abstract: false, final false
   inline void add_stillDownloadingSongEvent(::System::Action* value);
 
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_countdownFinishedEvent, addr 0x5e6a768, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_countdownFinishedEvent, addr 0x5e6a680, size 0xc0, virtual false, abstract: false, final false
   inline void remove_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_stillDownloadingSongEvent, addr 0x5e6a5fc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_stillDownloadingSongEvent, addr 0x5e6a514, size 0xac, virtual false, abstract: false, final false
   inline void remove_stillDownloadingSongEvent(::System::Action* value);
 
 protected:

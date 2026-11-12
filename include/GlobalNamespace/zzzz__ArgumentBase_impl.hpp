@@ -2,13 +2,39 @@
 // IWYU pragma private; include "GlobalNamespace/ArgumentBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ArgumentBase_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::ArgumentBase.get_autocompleteValues
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (::GlobalNamespace::ArgumentBase::*)()>(&::GlobalNamespace::ArgumentBase::get_autocompleteValues)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x3577514;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArgumentBase*>(), { "get_autocompleteValues", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ArgumentBase.set_autocompleteValues
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArgumentBase::*)(::ArrayW<::StringW>)>(&::GlobalNamespace::ArgumentBase::set_autocompleteValues)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3577ddc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArgumentBase*>(), { "set_autocompleteValues", {}, { ::i2c::type_of<::ArrayW<::StringW>>() } })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::ArgumentBase.get_supportsAutocomplete
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ArgumentBase::*)()>(&::GlobalNamespace::ArgumentBase::get_supportsAutocomplete)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x357440c;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x35774cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArgumentBase*>(), { "get_supportsAutocomplete", {}, {} })));
@@ -25,6 +51,21 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArgumentBase*>(), { ::i2c::class_of<::GlobalNamespace::ArgumentBase*>(), 4 }));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ArgumentBase.SetAutocompleteValuesProvider
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArgumentBase::*)(::System::Func_1<::ArrayW<::StringW>>*)>(
+    &::GlobalNamespace::ArgumentBase::SetAutocompleteValuesProvider)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3577de4;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{},
+                     (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArgumentBase*>(), { "SetAutocompleteValuesProvider", {}, { ::i2c::type_of<::System::Func_1<::ArrayW<::StringW>>*>() } })));
     return ___internal_method;
   }
 };
@@ -59,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ArgumentBase::*)()>(&::GlobalNamespace::ArgumentBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3574cc0;
+  constexpr static std::size_t addrs = 0x3577dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArgumentBase*>(), { ".ctor", {}, {} })));
@@ -102,17 +143,38 @@ constexpr void GlobalNamespace::ArgumentBase::__cordl_internal_set_valueType(::S
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___valueType = value;
 }
-constexpr ::ArrayW<::StringW>& GlobalNamespace::ArgumentBase::__cordl_internal_get_autocompleteValues() {
+constexpr ::ArrayW<::StringW>& GlobalNamespace::ArgumentBase::__cordl_internal_get__autocompleteValues() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___autocompleteValues;
+  return this->____autocompleteValues;
 }
-constexpr ::ArrayW<::StringW> const& GlobalNamespace::ArgumentBase::__cordl_internal_get_autocompleteValues() const {
+constexpr ::ArrayW<::StringW> const& GlobalNamespace::ArgumentBase::__cordl_internal_get__autocompleteValues() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___autocompleteValues;
+  return this->____autocompleteValues;
 }
-constexpr void GlobalNamespace::ArgumentBase::__cordl_internal_set_autocompleteValues(::ArrayW<::StringW> value) {
+constexpr void GlobalNamespace::ArgumentBase::__cordl_internal_set__autocompleteValues(::ArrayW<::StringW> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___autocompleteValues = value;
+  this->____autocompleteValues = value;
+}
+constexpr ::System::Func_1<::ArrayW<::StringW>>*& GlobalNamespace::ArgumentBase::__cordl_internal_get__autocompleteValuesProvider() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____autocompleteValuesProvider;
+}
+constexpr ::System::Func_1<::ArrayW<::StringW>>* const& GlobalNamespace::ArgumentBase::__cordl_internal_get__autocompleteValuesProvider() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____autocompleteValuesProvider;
+}
+constexpr void GlobalNamespace::ArgumentBase::__cordl_internal_set__autocompleteValuesProvider(::System::Func_1<::ArrayW<::StringW>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____autocompleteValuesProvider = value;
+}
+inline ::ArrayW<::StringW> GlobalNamespace::ArgumentBase::get_autocompleteValues() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArgumentBase*>(), { "get_autocompleteValues", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW>>(this, ___internal_method);
+}
+inline void GlobalNamespace::ArgumentBase::set_autocompleteValues(::ArrayW<::StringW> value) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArgumentBase*>(), { "set_autocompleteValues", {}, { ::i2c::type_of<::ArrayW<::StringW>>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, value);
 }
 inline bool GlobalNamespace::ArgumentBase::get_supportsAutocomplete() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArgumentBase*>(), { "get_supportsAutocomplete", {}, {} })));
@@ -121,6 +183,12 @@ inline bool GlobalNamespace::ArgumentBase::get_supportsAutocomplete() {
 inline bool GlobalNamespace::ArgumentBase::get_isOptional() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ArgumentBase*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
+}
+inline void GlobalNamespace::ArgumentBase::SetAutocompleteValuesProvider(::System::Func_1<::ArrayW<::StringW>>* autocompleteValuesProvider) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{},
+                   (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ArgumentBase*>(), { "SetAutocompleteValuesProvider", {}, { ::i2c::type_of<::System::Func_1<::ArrayW<::StringW>>*>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, autocompleteValuesProvider);
 }
 inline bool GlobalNamespace::ArgumentBase::TryParseWithValue(::StringW inValue, ::by_ref<::StringW> outError) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ArgumentBase*>(), 5 })));

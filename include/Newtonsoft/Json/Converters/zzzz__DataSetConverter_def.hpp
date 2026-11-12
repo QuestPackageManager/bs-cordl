@@ -36,19 +36,19 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE DataSetConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x61edf04, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x61ee18c, size 0x80, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* valueType);
 
   static inline ::Newtonsoft::Json::Converters::DataSetConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x61edc30, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x61edeb8, size 0x2d4, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue,
                                     ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x61ed7bc, size 0x470, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x61eda44, size 0x470, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x61edf84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61ee20c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -92,12 +92,12 @@ public:
   /// @brief Field _sfxVolume, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get__sfxVolume, put = __cordl_internal_set__sfxVolume)) float_t _sfxVolume;
 
-  /// @brief Method DiffAndSend, addr 0x3509148, size 0x198c, virtual false, abstract: false, final false
+  /// @brief Method DiffAndSend, addr 0x350b588, size 0x198c, virtual false, abstract: false, final false
   inline void DiffAndSend(::GlobalNamespace::PlayerSpecificSettings* s);
 
   static inline ::BeatSaber::Analytics::Settings::PlayerSettingsTracker* New_ctor(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
-  /// @brief Method TakeSnapshot, addr 0x3508f6c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method TakeSnapshot, addr 0x350b3ac, size 0x1dc, virtual false, abstract: false, final false
   inline void TakeSnapshot(::GlobalNamespace::PlayerSpecificSettings* s);
 
   constexpr bool const& __cordl_internal_get__adaptiveSfx() const;
@@ -226,7 +226,7 @@ public:
 
   constexpr void __cordl_internal_set__sfxVolume(float_t value);
 
-  /// @brief Method .ctor, addr 0x3506388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35087c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
 protected:
@@ -244,7 +244,7 @@ public:
   PlayerSettingsTracker(PlayerSettingsTracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22784 };
 
   /// @brief Field _sender, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* ____sender;

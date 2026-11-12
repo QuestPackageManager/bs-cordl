@@ -57,11 +57,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x6cf9ad4, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cfabb4, size 0x154, virtual true, abstract: false, final true
   inline bool IsActive();
 
   /// [Obsolete("Unused. #from(2023.1)")]
-  /// @brief Method IsTileCompatible, addr 0x6cf9c28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x6cfad08, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::ChannelMixer* New_ctor();
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set_redOutRedIn(::UnityEngine::Rendering::ClampedFloatParameter* value);
 
-  /// @brief Method .ctor, addr 0x6cf9c30, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfad10, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"

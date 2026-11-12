@@ -30,13 +30,13 @@ public:
 
   static inline ::System::Runtime::InteropServices::COMException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x5fc0a44, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5fc0ccc, size 0x1f4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x5fc0a38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc0cc0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x5fc0a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc0cc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:

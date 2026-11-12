@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::StringW>* (::GlobalNamespace::EnvironmentKeywords::*)()>(
     &::GlobalNamespace::EnvironmentKeywords::get_environmentKeywords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39b5f50;
+  constexpr static std::size_t addrs = 0x39ba51c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentKeywords*>(), { "get_environmentKeywords", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentKeywords::*)(::System::Collections::Generic::IReadOnlyList_1<::StringW>*)>(
     &::GlobalNamespace::EnvironmentKeywords::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x39b5f58;
+  constexpr static std::size_t addrs = 0x39ba524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentKeywords*>(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EnvironmentKeywords::*)(::StringW)>(&::GlobalNamespace::EnvironmentKeywords::HasKeyword)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x39b6088;
+  constexpr static std::size_t addrs = 0x39ba654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

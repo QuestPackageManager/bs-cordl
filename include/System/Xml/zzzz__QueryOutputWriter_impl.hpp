@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::System::Xml::XmlRawWriter*, ::System::Xml::XmlWriterSettings*)>(
     &::System::Xml::QueryOutputWriter::_ctor)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x6616234;
+  constexpr static std::size_t addrs = 0x6616884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::QueryOutputWriter::set_NamespaceResolver)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6616504;
+  constexpr static std::size_t addrs = 0x6616b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::System::Xml::XmlStandalone)>(&::System::Xml::QueryOutputWriter::WriteXmlDeclaration)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x661652c;
+  constexpr static std::size_t addrs = 0x6616b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW)>(&::System::Xml::QueryOutputWriter::WriteXmlDeclaration)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x661654c;
+  constexpr static std::size_t addrs = 0x6616b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW, ::StringW, ::StringW, ::StringW)>(&::System::Xml::QueryOutputWriter::WriteDocType)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x661656c;
+  constexpr static std::size_t addrs = 0x6616bbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW, ::StringW, ::StringW)>(&::System::Xml::QueryOutputWriter::WriteStartElement)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x661659c;
+  constexpr static std::size_t addrs = 0x6616bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW, ::StringW, ::StringW)>(&::System::Xml::QueryOutputWriter::WriteEndElement)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6616778;
+  constexpr static std::size_t addrs = 0x6616dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW, ::StringW, ::StringW)>(&::System::Xml::QueryOutputWriter::WriteFullEndElement)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x66167e8;
+  constexpr static std::size_t addrs = 0x6616e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)()>(&::System::Xml::QueryOutputWriter::StartElementContent)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6616858;
+  constexpr static std::size_t addrs = 0x6616ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW, ::StringW, ::StringW)>(&::System::Xml::QueryOutputWriter::WriteStartAttribute)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6616878;
+  constexpr static std::size_t addrs = 0x6616ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)()>(&::System::Xml::QueryOutputWriter::WriteEndAttribute)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x66168a0;
+  constexpr static std::size_t addrs = 0x6616ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW, ::StringW)>(&::System::Xml::QueryOutputWriter::WriteNamespaceDeclaration)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x66168c8;
+  constexpr static std::size_t addrs = 0x6616f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::QueryOutputWriter::*)()>(&::System::Xml::QueryOutputWriter::get_SupportsNamespaceDeclarationInChunks)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x66168e8;
+  constexpr static std::size_t addrs = 0x6616f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW)>(&::System::Xml::QueryOutputWriter::WriteStartNamespaceDeclaration)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6616908;
+  constexpr static std::size_t addrs = 0x6616f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)()>(&::System::Xml::QueryOutputWriter::WriteEndNamespaceDeclaration)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6616928;
+  constexpr static std::size_t addrs = 0x6616f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW)>(&::System::Xml::QueryOutputWriter::WriteCData)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6616948;
+  constexpr static std::size_t addrs = 0x6616f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW)>(&::System::Xml::QueryOutputWriter::WriteComment)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6616968;
+  constexpr static std::size_t addrs = 0x6616fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW, ::StringW)>(&::System::Xml::QueryOutputWriter::WriteProcessingInstruction)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6616990;
+  constexpr static std::size_t addrs = 0x6616fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW)>(&::System::Xml::QueryOutputWriter::WriteWhitespace)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x66169b8;
+  constexpr static std::size_t addrs = 0x6617008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW)>(&::System::Xml::QueryOutputWriter::WriteString)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6616a60;
+  constexpr static std::size_t addrs = 0x66170b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::QueryOutputWriter::WriteChars)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6616ad0;
+  constexpr static std::size_t addrs = 0x6617120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW)>(&::System::Xml::QueryOutputWriter::WriteEntityRef)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6616b5c;
+  constexpr static std::size_t addrs = 0x66171ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(char16_t)>(&::System::Xml::QueryOutputWriter::WriteCharEntity)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6616b84;
+  constexpr static std::size_t addrs = 0x66171d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(char16_t, char16_t)>(&::System::Xml::QueryOutputWriter::WriteSurrogateCharEntity)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6616bac;
+  constexpr static std::size_t addrs = 0x66171fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::ArrayW<char16_t>, int32_t, int32_t)>(&::System::Xml::QueryOutputWriter::WriteRaw)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6616bd4;
+  constexpr static std::size_t addrs = 0x6617224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)(::StringW)>(&::System::Xml::QueryOutputWriter::WriteRaw)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6616c60;
+  constexpr static std::size_t addrs = 0x66172b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)()>(&::System::Xml::QueryOutputWriter::Close)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6616cd0;
+  constexpr static std::size_t addrs = 0x6617320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)()>(&::System::Xml::QueryOutputWriter::Flush)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6616d70;
+  constexpr static std::size_t addrs = 0x66173c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::QueryOutputWriter::*)()>(&::System::Xml::QueryOutputWriter::StartCDataSection)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6616a28;
+  constexpr static std::size_t addrs = 0x6617078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::QueryOutputWriter*>(), { "StartCDataSection", {}, {} })));
@@ -392,7 +392,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::QueryOutputWriter::*)()>(&::System::Xml::QueryOutputWriter::EndCDataSection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6616770;
+  constexpr static std::size_t addrs = 0x6616dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::QueryOutputWriter*>(), { "EndCDataSection", {}, {} })));

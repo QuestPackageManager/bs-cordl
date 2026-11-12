@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrPosef (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT::get_origin)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e7f3d0;
+  constexpr static std::size_t addrs = 0x6e804b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT>(), { "get_origin", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT::get_vertexBuffer)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e7f3e4;
+  constexpr static std::size_t addrs = 0x6e804c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT::get_indexBuffer)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e7f3f0;
+  constexpr static std::size_t addrs = 0x6e804d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::
     ::UnityEngine::XR::OpenXR::NativeTypes::XrPosef, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6e7f3fc;
+  constexpr static std::size_t addrs = 0x6e804dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT::*)(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT::Equals)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6e7f420;
+  constexpr static std::size_t addrs = 0x6e80500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT>(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT::*)(::System::Object*)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6e7f4e4;
+  constexpr static std::size_t addrs = 0x6e805c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT>(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT::GetHashCode)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e7f578;
+  constexpr static std::size_t addrs = 0x6e80658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMeshDataEXT>(),

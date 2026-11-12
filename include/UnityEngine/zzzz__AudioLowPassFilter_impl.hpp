@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AnimationCurve* (::UnityEngine::AudioLowPassFilter::*)()>(&::UnityEngine::AudioLowPassFilter::GetCustomLowpassLevelCurveCopy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6ee0d2c;
+  constexpr static std::size_t addrs = 0x6ee1e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioLowPassFilter*>(), { "GetCustomLowpassLevelCurveCopy", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::AudioLowPassFilter*, ::UnityEngine::AnimationCurve*)>(
     &::UnityEngine::AudioLowPassFilter::SetCustomLowpassLevelCurveHelper)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6ee0e00;
+  constexpr static std::size_t addrs = 0x6ee1ee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AnimationCurve* (::UnityEngine::AudioLowPassFilter::*)()>(&::UnityEngine::AudioLowPassFilter::get_customCutoffCurve)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ee0f00;
+  constexpr static std::size_t addrs = 0x6ee1fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioLowPassFilter*>(), { "get_customCutoffCurve", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AudioLowPassFilter::*)(::UnityEngine::AnimationCurve*)>(&::UnityEngine::AudioLowPassFilter::set_customCutoffCurve)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ee0f04;
+  constexpr static std::size_t addrs = 0x6ee1fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::AudioLowPassFilter::*)()>(&::UnityEngine::AudioLowPassFilter::get_cutoffFrequency)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ee0f08;
+  constexpr static std::size_t addrs = 0x6ee1fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioLowPassFilter*>(), { "get_cutoffFrequency", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AudioLowPassFilter::*)(float_t)>(&::UnityEngine::AudioLowPassFilter::set_cutoffFrequency)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6ee0fc4;
+  constexpr static std::size_t addrs = 0x6ee20a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::AudioLowPassFilter::*)()>(&::UnityEngine::AudioLowPassFilter::get_lowpassResonanceQ)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ee10a0;
+  constexpr static std::size_t addrs = 0x6ee2180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioLowPassFilter*>(), { "get_lowpassResonanceQ", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AudioLowPassFilter::*)(float_t)>(&::UnityEngine::AudioLowPassFilter::set_lowpassResonanceQ)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6ee115c;
+  constexpr static std::size_t addrs = 0x6ee223c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::AudioLowPassFilter::*)()>(&::UnityEngine::AudioLowPassFilter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ee1238;
+  constexpr static std::size_t addrs = 0x6ee2318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioLowPassFilter*>(), { ".ctor", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AudioLowPassFilter::GetCustomLowpassLevelCurveCopy_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ee0dc4;
+  constexpr static std::size_t addrs = 0x6ee1ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::UnityEngine::AudioLowPassFilter::SetCustomLowpassLevelCurveHelper_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ee0ebc;
+  constexpr static std::size_t addrs = 0x6ee1f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::AudioLowPassFilter::get_cutoffFrequency_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ee0f88;
+  constexpr static std::size_t addrs = 0x6ee2068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::AudioLowPassFilter::set_cutoffFrequency_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6ee1054;
+  constexpr static std::size_t addrs = 0x6ee2134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::AudioLowPassFilter*>(),
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::AudioLowPassFilter::get_lowpassResonanceQ_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6ee1120;
+  constexpr static std::size_t addrs = 0x6ee2200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::AudioLowPassFilter::set_lowpassResonanceQ_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6ee11ec;
+  constexpr static std::size_t addrs = 0x6ee22cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

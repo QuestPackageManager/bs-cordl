@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(
     ::UnityEngine::Rendering::Universal::DebugHandler*, ::UnityEngine::Rendering::FilteringSettings)>(&::UnityEngine::Rendering::Universal::DebugRendererLists::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6cc6084;
+  constexpr static std::size_t addrs = 0x6cc7164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(::UnityEngine::Rendering::FilteringSettings)>(
     &::UnityEngine::Rendering::Universal::DebugRendererLists::CreateDebugRenderSetups)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6cc61b4;
+  constexpr static std::size_t addrs = 0x6cc7294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)()>(
     &::UnityEngine::Rendering::Universal::DebugRendererLists::DisposeDebugRenderLists)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x6cc6314;
+  constexpr static std::size_t addrs = 0x6cc73f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::FilteringSettings>, ::by_ref<::UnityEngine::Rendering::RenderStateBlock>)>(
     &::UnityEngine::Rendering::Universal::DebugRendererLists::CreateRendererListsWithDebugRenderState)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x6cc64a0;
+  constexpr static std::size_t addrs = 0x6cc7580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::FilteringSettings>, ::by_ref<::UnityEngine::Rendering::RenderStateBlock>)>(
     &::UnityEngine::Rendering::Universal::DebugRendererLists::CreateRendererListsWithDebugRenderState)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x6cc6be4;
+  constexpr static std::size_t addrs = 0x6cc7cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(::UnityEngine::Rendering::RenderGraphModule::IRasterRenderGraphBuilder*)>(
     &::UnityEngine::Rendering::Universal::DebugRendererLists::PrepareRendererListForRasterPass)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6cc6f70;
+  constexpr static std::size_t addrs = 0x6cc8050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DebugRendererLists::*)(::UnityEngine::Rendering::RasterCommandBuffer*)>(
     &::UnityEngine::Rendering::Universal::DebugRendererLists::DrawWithRendererList)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x6cc710c;
+  constexpr static std::size_t addrs = 0x6cc81ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DebugRendererLists*>(),

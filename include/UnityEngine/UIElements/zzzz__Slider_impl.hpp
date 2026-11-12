@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Slider_UxmlFactory::*)()>(&::UnityEngine::UIElements::Slider_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x723fa54;
+  constexpr static std::size_t addrs = 0x7240b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Slider_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Slider_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::Slider_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x723fabc;
+  constexpr static std::size_t addrs = 0x7240b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Slider_UxmlTraits::*)()>(&::UnityEngine::UIElements::Slider_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x723fd88;
+  constexpr static std::size_t addrs = 0x7240e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Slider_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Slider::*)()>(&::UnityEngine::UIElements::Slider::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x723f11c;
+  constexpr static std::size_t addrs = 0x72401fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Slider*>(), { ".ctor", {}, {} })));
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Slider::*)(float_t, float_t, ::UnityEngine::UIElements::SliderDirection, float_t)>(
     &::UnityEngine::UIElements::Slider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x723eba0;
+  constexpr static std::size_t addrs = 0x723fc80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Slider::*)(::StringW, float_t, float_t, ::UnityEngine::UIElements::SliderDirection, float_t)>(
     &::UnityEngine::UIElements::Slider::_ctor)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x723f134;
+  constexpr static std::size_t addrs = 0x7240214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Slider::*)(::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, float_t)>(
     &::UnityEngine::UIElements::Slider::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x723f28c;
+  constexpr static std::size_t addrs = 0x724036c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Slider::*)(float_t, float_t, float_t)>(&::UnityEngine::UIElements::Slider::SliderLerpUnclamped)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x723f39c;
+  constexpr static std::size_t addrs = 0x724047c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Slider::*)(float_t, float_t, float_t)>(&::UnityEngine::UIElements::Slider::SliderNormalizeValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x723ebd4;
+  constexpr static std::size_t addrs = 0x723fcb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Slider::*)()>(&::UnityEngine::UIElements::Slider::SliderRange)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x723f654;
+  constexpr static std::size_t addrs = 0x7240734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Slider::*)(::StringW, ::StringW)>(&::UnityEngine::UIElements::Slider::ParseStringToValue)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x723f6e4;
+  constexpr static std::size_t addrs = 0x72407c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Slider::*)(::UnityEngine::UIElements::BaseSlider_1_SliderKey<float_t>, bool)>(
     &::UnityEngine::UIElements::Slider::ComputeValueFromKey)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x723f7a0;
+  constexpr static std::size_t addrs = 0x7240880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

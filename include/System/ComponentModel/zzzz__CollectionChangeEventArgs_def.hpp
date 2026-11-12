@@ -50,15 +50,15 @@ public:
 
   constexpr void __cordl_internal_set__Element_k__BackingField(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x681c298, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681c8e8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::CollectionChangeAction action, ::System::Object* element);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Action, addr 0x681c304, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Action, addr 0x681c954, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::CollectionChangeAction get_Action();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Element, addr 0x681c30c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Element, addr 0x681c95c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Element();
 
 protected:

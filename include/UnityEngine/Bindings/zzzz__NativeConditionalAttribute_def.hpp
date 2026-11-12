@@ -59,22 +59,22 @@ public:
 
   constexpr void __cordl_internal_set__StubReturnStatement_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x70519e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7052ac0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW condition);
 
-  /// @brief Method .ctor, addr 0x70519f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7052ad0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW condition, ::StringW stubReturnStatement);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Condition, addr 0x70519c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Condition, addr 0x7052aa8, size 0x8, virtual false, abstract: false, final false
   inline void set_Condition(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Enabled, addr 0x70519d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Enabled, addr 0x7052ab8, size 0x8, virtual false, abstract: false, final false
   inline void set_Enabled(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_StubReturnStatement, addr 0x70519d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StubReturnStatement, addr 0x7052ab0, size 0x8, virtual false, abstract: false, final false
   inline void set_StubReturnStatement(::StringW value);
 
 protected:
@@ -92,7 +92,7 @@ public:
   NativeConditionalAttribute(NativeConditionalAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23646 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23663 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]

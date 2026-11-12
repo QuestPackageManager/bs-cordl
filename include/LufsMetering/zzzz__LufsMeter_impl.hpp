@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LufsMetering::LufsMeter___c::*)()>(&::LufsMetering::LufsMeter___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x350f968;
+  constexpr static std::size_t addrs = 0x3511da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LufsMetering::LufsMeter___c*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::LufsMetering::LufsMeter___c::*)(float_t, float_t)>(&::LufsMetering::LufsMeter___c::_IntegratedLoudness_b__5_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350f96c;
+  constexpr static std::size_t addrs = 0x3511dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LufsMetering::LoudnessData (::LufsMetering::LufsMeter::*)(::UnityEngine::AudioClip*)>(&::LufsMetering::LufsMeter::AnalyzeClipLoudness)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x350e998;
+  constexpr static std::size_t addrs = 0x3510dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LufsMetering::LoudnessData (::LufsMetering::LufsMeter::*)(::ArrayW<float_t>, int32_t, int32_t)>(
     &::LufsMetering::LufsMeter::IntegratedLoudness)> {
   constexpr static std::size_t size = 0xe10;
-  constexpr static std::size_t addrs = 0x350ea5c;
+  constexpr static std::size_t addrs = 0x3510e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::LufsMetering::LufsMeter::*)(::ArrayW<float_t>, int32_t, int32_t)>(&::LufsMetering::LufsMeter::MomentaryLoudness)> {
   constexpr static std::size_t size = 0x780;
-  constexpr static std::size_t addrs = 0x350c67c;
+  constexpr static std::size_t addrs = 0x350eabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LufsMetering::LufsMeter::*)()>(&::LufsMetering::LufsMeter::SwapData)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x350f86c;
+  constexpr static std::size_t addrs = 0x3511cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LufsMetering::LufsMeter*>(), { "SwapData", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::LufsMetering::LufsMeter::*)()>(&::LufsMetering::LufsMeter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x350cfbc;
+  constexpr static std::size_t addrs = 0x350f3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::LufsMetering::LufsMeter*>(), { ".ctor", {}, {} })));

@@ -26,13 +26,13 @@ namespace System::Net {
 class CORDL_TYPE NetRes : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetWebStatusCodeString, addr 0x687ca9c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusCodeString, addr 0x687d0ec, size 0x1e0, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusCodeString(::System::Net::FtpStatusCode statusCode, ::StringW statusDescription);
 
-  /// @brief Method GetWebStatusString, addr 0x6873270, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusString, addr 0x68738c0, size 0xdc, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusString(::StringW Res, ::System::Net::WebExceptionStatus Status);
 
-  /// @brief Method GetWebStatusString, addr 0x687ca44, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusString, addr 0x687d094, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusString(::System::Net::WebExceptionStatus Status);
 
 protected:

@@ -67,10 +67,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputState_StateChangeMonitorDelegate* New_ctor();
 
-  /// @brief Method NotifyControlStateChanged, addr 0x6a20e30, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method NotifyControlStateChanged, addr 0x6a21f10, size 0x20, virtual true, abstract: false, final true
   inline void NotifyControlStateChanged(::UnityEngine::InputSystem::InputControl* control, double_t time, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, int64_t monitorIndex);
 
-  /// @brief Method NotifyTimerExpired, addr 0x6a20e50, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method NotifyTimerExpired, addr 0x6a21f30, size 0x1c, virtual true, abstract: false, final true
   inline void NotifyTimerExpired(::UnityEngine::InputSystem::InputControl* control, double_t time, int64_t monitorIndex, int32_t timerIndex);
 
   constexpr ::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, int64_t, int32_t>* const& __cordl_internal_get_timerExpiredCallback() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_valueChangeCallback(::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, int64_t>* value);
 
-  /// @brief Method .ctor, addr 0x6a20b6c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a21c4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor"
@@ -135,17 +135,17 @@ public:
   // Declarations
   using StateChangeMonitorDelegate = ::UnityEngine::InputSystem::LowLevel::InputState_StateChangeMonitorDelegate;
 
-  /// @brief Method AddChangeMonitor, addr 0x6a20a90, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method AddChangeMonitor, addr 0x6a21b70, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*
   AddChangeMonitor(::UnityEngine::InputSystem::InputControl* control,
                    ::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, int64_t>* valueChangeCallback, int32_t monitorIndex,
                    ::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, int64_t, int32_t>* timerExpiredCallback);
 
-  /// @brief Method AddChangeMonitor, addr 0x6a20920, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method AddChangeMonitor, addr 0x6a21a00, size 0x170, virtual false, abstract: false, final false
   static inline void AddChangeMonitor(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex,
                                       uint32_t groupIndex);
 
-  /// @brief Method AddChangeMonitorTimeout, addr 0x6a20c68, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AddChangeMonitorTimeout, addr 0x6a21d48, size 0xf4, virtual false, abstract: false, final false
   static inline void AddChangeMonitorTimeout(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, double_t time,
                                              int64_t monitorIndex, int32_t timerIndex);
 
@@ -161,33 +161,33 @@ public:
   static inline void Change(::UnityEngine::InputSystem::InputControl* control, TState state, ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType,
                             ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method Change, addr 0x6a20538, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method Change, addr 0x6a21618, size 0x278, virtual false, abstract: false, final false
   static inline void Change(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr,
                             ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
   /// [Extension]
-  /// @brief Method IsIntegerFormat, addr 0x6a207b0, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method IsIntegerFormat, addr 0x6a21890, size 0x170, virtual false, abstract: false, final false
   static inline bool IsIntegerFormat(::UnityEngine::InputSystem::Utilities::FourCC format);
 
-  /// @brief Method RemoveChangeMonitor, addr 0x6a20b70, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method RemoveChangeMonitor, addr 0x6a21c50, size 0xf8, virtual false, abstract: false, final false
   static inline void RemoveChangeMonitor(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex);
 
-  /// @brief Method RemoveChangeMonitorTimeout, addr 0x6a20d5c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method RemoveChangeMonitorTimeout, addr 0x6a21e3c, size 0xd4, virtual false, abstract: false, final false
   static inline void RemoveChangeMonitorTimeout(::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* monitor, int64_t monitorIndex, int32_t timerIndex);
 
-  /// @brief Method add_onChange, addr 0x6a20458, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method add_onChange, addr 0x6a21538, size 0x70, virtual false, abstract: false, final false
   static inline void add_onChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  /// @brief Method get_currentTime, addr 0x6a20380, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_currentTime, addr 0x6a21460, size 0xd8, virtual false, abstract: false, final false
   static inline double_t get_currentTime();
 
-  /// @brief Method get_currentUpdateType, addr 0x6a202e8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_currentUpdateType, addr 0x6a213c8, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType get_currentUpdateType();
 
-  /// @brief Method get_updateCount, addr 0x6a20334, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_updateCount, addr 0x6a21414, size 0x4c, virtual false, abstract: false, final false
   static inline uint32_t get_updateCount();
 
-  /// @brief Method remove_onChange, addr 0x6a204c8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method remove_onChange, addr 0x6a215a8, size 0x70, virtual false, abstract: false, final false
   static inline void remove_onChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
 protected:

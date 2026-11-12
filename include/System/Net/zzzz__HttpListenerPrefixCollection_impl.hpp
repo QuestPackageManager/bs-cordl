@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerPrefixCollection::*)(::System::Net::HttpListener*)>(&::System::Net::HttpListenerPrefixCollection::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6898f28;
+  constexpr static std::size_t addrs = 0x6899578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::HttpListenerPrefixCollection::*)()>(&::System::Net::HttpListenerPrefixCollection::get_Count)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x689a3a8;
+  constexpr static std::size_t addrs = 0x689a9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerPrefixCollection*>(), { "get_Count", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::HttpListenerPrefixCollection::*)()>(&::System::Net::HttpListenerPrefixCollection::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x689a860;
+  constexpr static std::size_t addrs = 0x689aeb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerPrefixCollection*>(), { "get_IsReadOnly", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerPrefixCollection::*)(::StringW)>(&::System::Net::HttpListenerPrefixCollection::Add)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x689a868;
+  constexpr static std::size_t addrs = 0x689aeb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerPrefixCollection::*)()>(&::System::Net::HttpListenerPrefixCollection::Clear)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x689a9ac;
+  constexpr static std::size_t addrs = 0x689affc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerPrefixCollection*>(), { "Clear", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::HttpListenerPrefixCollection::*)(::StringW)>(&::System::Net::HttpListenerPrefixCollection::Contains)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x689aa70;
+  constexpr static std::size_t addrs = 0x689b0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::HttpListenerPrefixCollection::*)(::ArrayW<::StringW>, int32_t)>(&::System::Net::HttpListenerPrefixCollection::CopyTo)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x689aae0;
+  constexpr static std::size_t addrs = 0x689b130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (::System::Net::HttpListenerPrefixCollection::*)()>(
     &::System::Net::HttpListenerPrefixCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6894fd4;
+  constexpr static std::size_t addrs = 0x6895624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::HttpListenerPrefixCollection*>(), { "GetEnumerator", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Net::HttpListenerPrefixCollection::*)()>(
     &::System::Net::HttpListenerPrefixCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x689ab60;
+  constexpr static std::size_t addrs = 0x689b1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::HttpListenerPrefixCollection::*)(::StringW)>(&::System::Net::HttpListenerPrefixCollection::Remove)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x689abe8;
+  constexpr static std::size_t addrs = 0x689b238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

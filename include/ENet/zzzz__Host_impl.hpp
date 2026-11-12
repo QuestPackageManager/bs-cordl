@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (::ENet::Host::*)()>(&::ENet::Host::get_NativeData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ce2c1c;
+  constexpr static std::size_t addrs = 0x5ce241c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "get_NativeData", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)(::System::IntPtr)>(&::ENet::Host::set_NativeData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ce2c24;
+  constexpr static std::size_t addrs = 0x5ce2424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "set_NativeData", {}, { ::i2c::type_of<::System::IntPtr>() } })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)()>(&::ENet::Host::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5ce2c2c;
+  constexpr static std::size_t addrs = 0x5ce242c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "Dispose", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)(bool)>(&::ENet::Host::Dispose)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5ce2c9c;
+  constexpr static std::size_t addrs = 0x5ce249c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { ::i2c::class_of<::ENet::Host*>(), 5 }));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)()>(&::ENet::Host::Finalize)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5ce2d38;
+  constexpr static std::size_t addrs = 0x5ce2538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { ::i2c::class_of<::ENet::Host*>(), 1 }));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::ENet::Host::*)()>(&::ENet::Host::get_IsSet)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5ce2d88;
+  constexpr static std::size_t addrs = 0x5ce2588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "get_IsSet", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::ENet::Host::*)()>(&::ENet::Host::get_PeersCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ce2d98;
+  constexpr static std::size_t addrs = 0x5ce2598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "get_PeersCount", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::ENet::Host::*)()>(&::ENet::Host::get_PacketsSent)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ce2e84;
+  constexpr static std::size_t addrs = 0x5ce2684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "get_PacketsSent", {}, {} })));
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::ENet::Host::*)()>(&::ENet::Host::get_PacketsReceived)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ce2f18;
+  constexpr static std::size_t addrs = 0x5ce2718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "get_PacketsReceived", {}, {} })));
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::ENet::Host::*)()>(&::ENet::Host::get_BytesSent)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ce2fac;
+  constexpr static std::size_t addrs = 0x5ce27ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "get_BytesSent", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::ENet::Host::*)()>(&::ENet::Host::get_BytesReceived)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ce3040;
+  constexpr static std::size_t addrs = 0x5ce2840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "get_BytesReceived", {}, {} })));
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)()>(&::ENet::Host::ThrowIfNotCreated)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5ce2db0;
+  constexpr static std::size_t addrs = 0x5ce25b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "ThrowIfNotCreated", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::ENet::Host::ThrowIfChannelsExceeded)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5ce30d4;
+  constexpr static std::size_t addrs = 0x5ce28d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "ThrowIfChannelsExceeded", {}, { ::i2c::type_of<int32_t>() } })));
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)(::System::Nullable_1<::ENet::Address>, int32_t, int32_t, uint32_t, uint32_t, int32_t, ::ENet::SslConfiguration)>(
     &::ENet::Host::Create)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x5ce312c;
+  constexpr static std::size_t addrs = 0x5ce292c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)(bool)>(&::ENet::Host::PreventConnections)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5ce358c;
+  constexpr static std::size_t addrs = 0x5ce2d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "PreventConnections", {}, { ::i2c::type_of<bool>() } })));
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)(uint8_t, ::by_ref<::ENet::Packet>)>(&::ENet::Host::Broadcast)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5ce3638;
+  constexpr static std::size_t addrs = 0x5ce2e38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)(uint8_t, ::by_ref<::ENet::Packet>, ::ENet::Peer)>(&::ENet::Host::Broadcast)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5ce370c;
+  constexpr static std::size_t addrs = 0x5ce2f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)(uint8_t, ::by_ref<::ENet::Packet>, ::ArrayW<::ENet::Peer>)>(&::ENet::Host::Broadcast)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5ce37f8;
+  constexpr static std::size_t addrs = 0x5ce2ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::ENet::Host::*)(::by_ref<::ENet::Event>)>(&::ENet::Host::CheckEvents)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5ce39c4;
+  constexpr static std::size_t addrs = 0x5ce31c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "CheckEvents", {}, { ::i2c::type_of<::by_ref<::ENet::Event>>() } })));
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ENet::Peer (::ENet::Host::*)(::ENet::Address)>(&::ENet::Host::Connect)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5ce3aa0;
+  constexpr static std::size_t addrs = 0x5ce32a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "Connect", {}, { ::i2c::type_of<::ENet::Address>() } })));
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ENet::Peer (::ENet::Host::*)(::ENet::Address, int32_t)>(&::ENet::Host::Connect)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x5ce3be4;
+  constexpr static std::size_t addrs = 0x5ce33e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ENet::Peer (::ENet::Host::*)(::ENet::Address, int32_t, uint32_t)>(&::ENet::Host::Connect)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5ce3af4;
+  constexpr static std::size_t addrs = 0x5ce32f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::ENet::Host::*)(int32_t, ::by_ref<::ENet::Event>)>(&::ENet::Host::Service)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5ce3cd0;
+  constexpr static std::size_t addrs = 0x5ce34d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)(uint32_t, uint32_t)>(&::ENet::Host::SetBandwidthLimit)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5ce3e10;
+  constexpr static std::size_t addrs = 0x5ce3610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -321,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)(int32_t)>(&::ENet::Host::SetChannelLimit)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5ce3ed4;
+  constexpr static std::size_t addrs = 0x5ce36d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "SetChannelLimit", {}, { ::i2c::type_of<int32_t>() } })));
@@ -333,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)(uint16_t)>(&::ENet::Host::SetMaxDuplicatePeers)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5ce3f88;
+  constexpr static std::size_t addrs = 0x5ce3788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "SetMaxDuplicatePeers", {}, { ::i2c::type_of<uint16_t>() } })));
@@ -345,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)(::System::IntPtr)>(&::ENet::Host::SetInterceptCallback)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5ce4034;
+  constexpr static std::size_t addrs = 0x5ce3834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "SetInterceptCallback", {}, { ::i2c::type_of<::System::IntPtr>() } })));
@@ -357,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)(::ENet::InterceptCallback*)>(&::ENet::Host::SetInterceptCallback)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5ce40e0;
+  constexpr static std::size_t addrs = 0x5ce38e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -370,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)(::System::IntPtr)>(&::ENet::Host::SetChecksumCallback)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5ce4178;
+  constexpr static std::size_t addrs = 0x5ce3978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "SetChecksumCallback", {}, { ::i2c::type_of<::System::IntPtr>() } })));
@@ -382,7 +382,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)(::ENet::ChecksumCallback*)>(&::ENet::Host::SetChecksumCallback)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5ce4224;
+  constexpr static std::size_t addrs = 0x5ce3a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -395,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)()>(&::ENet::Host::Flush)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ce42bc;
+  constexpr static std::size_t addrs = 0x5ce3abc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { "Flush", {}, {} })));
@@ -407,7 +407,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::ENet::Host::*)()>(&::ENet::Host::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ce4350;
+  constexpr static std::size_t addrs = 0x5ce3b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::ENet::Host*>(), { ".ctor", {}, {} })));

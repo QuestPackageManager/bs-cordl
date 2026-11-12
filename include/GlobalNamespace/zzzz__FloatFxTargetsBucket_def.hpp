@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__targets(::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>> value);
 
-  /// @brief Method .ctor, addr 0x5deb35c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5deb474, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_targets, addr 0x5deb354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targets, addr 0x5deb46c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>> get_targets();
 
 protected:

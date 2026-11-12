@@ -32,18 +32,18 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6f75930, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6f76a10, size 0xc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::CustomYieldInstruction* New_ctor();
 
-  /// @brief Method Reset, addr 0x6f7593c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6f76a1c, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method .ctor, addr 0x6f75940, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f76a20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Current, addr 0x6f75928, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x6f76a08, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Method get_keepWaiting, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::System::Action*)>(
     &::UnityEngine::UIElements::CollectionViewController::add_itemsSourceChanged)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x70d9130;
+  constexpr static std::size_t addrs = 0x70da210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::System::Action*)>(
     &::UnityEngine::UIElements::CollectionViewController::remove_itemsSourceChanged)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x70d91dc;
+  constexpr static std::size_t addrs = 0x70da2bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::System::Action_2<int32_t, int32_t>*)>(
     &::UnityEngine::UIElements::CollectionViewController::add_itemIndexChanged)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x70d9288;
+  constexpr static std::size_t addrs = 0x70da368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::System::Action_2<int32_t, int32_t>*)>(
     &::UnityEngine::UIElements::CollectionViewController::remove_itemIndexChanged)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x70d9348;
+  constexpr static std::size_t addrs = 0x70da428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IList* (::UnityEngine::UIElements::CollectionViewController::*)()>(
     &::UnityEngine::UIElements::CollectionViewController::get_itemsSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70d9408;
+  constexpr static std::size_t addrs = 0x70da4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::System::Collections::IList*)>(
     &::UnityEngine::UIElements::CollectionViewController::set_itemsSource)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x70d9410;
+  constexpr static std::size_t addrs = 0x70da4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::Unity::Hierarchy::HierarchyViewModel*)>(
     &::UnityEngine::UIElements::CollectionViewController::SetHierarchyViewModelWithoutNotify)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x70d971c;
+  constexpr static std::size_t addrs = 0x70da7fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BaseVerticalCollectionView* (::UnityEngine::UIElements::CollectionViewController::*)()>(
     &::UnityEngine::UIElements::CollectionViewController::get_view)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70d977c;
+  constexpr static std::size_t addrs = 0x70da85c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(), { "get_view", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::UnityEngine::UIElements::BaseVerticalCollectionView*)>(
     &::UnityEngine::UIElements::CollectionViewController::SetView)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x70d9784;
+  constexpr static std::size_t addrs = 0x70da864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)()>(&::UnityEngine::UIElements::CollectionViewController::PrepareView)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x70d9838;
+  constexpr static std::size_t addrs = 0x70da918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)()>(&::UnityEngine::UIElements::CollectionViewController::Dispose)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x70d983c;
+  constexpr static std::size_t addrs = 0x70da91c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::CollectionViewController::*)()>(&::UnityEngine::UIElements::CollectionViewController::GetItemsCount)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x70d9848;
+  constexpr static std::size_t addrs = 0x70da928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::CollectionViewController::*)()>(&::UnityEngine::UIElements::CollectionViewController::GetItemsMinCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x70d98fc;
+  constexpr static std::size_t addrs = 0x70da9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::CollectionViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::CollectionViewController::GetIndexForId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70d9908;
+  constexpr static std::size_t addrs = 0x70da9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::CollectionViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::CollectionViewController::GetIdForIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70d9910;
+  constexpr static std::size_t addrs = 0x70da9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::CollectionViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::CollectionViewController::GetItemForIndex)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x70d9918;
+  constexpr static std::size_t addrs = 0x70da9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::UnityEngine::UIElements::ReusableCollectionItem*)>(
     &::UnityEngine::UIElements::CollectionViewController::InvokeMakeItem)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x70d9a68;
+  constexpr static std::size_t addrs = 0x70dab48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::UnityEngine::UIElements::ReusableCollectionItem*, int32_t)>(
     &::UnityEngine::UIElements::CollectionViewController::SetBindingContext)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x70d9aa4;
+  constexpr static std::size_t addrs = 0x70dab84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::UnityEngine::UIElements::ReusableCollectionItem*, int32_t)>(
     &::UnityEngine::UIElements::CollectionViewController::InvokeBindItem)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x70d9aa8;
+  constexpr static std::size_t addrs = 0x70dab88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::UnityEngine::UIElements::ReusableCollectionItem*, int32_t)>(
     &::UnityEngine::UIElements::CollectionViewController::InvokeUnbindItem)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x70d9bb0;
+  constexpr static std::size_t addrs = 0x70dac90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::UnityEngine::UIElements::ReusableCollectionItem*)>(
     &::UnityEngine::UIElements::CollectionViewController::InvokeDestroyItem)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x70d9be4;
+  constexpr static std::size_t addrs = 0x70dacc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)()>(&::UnityEngine::UIElements::CollectionViewController::PreRefresh)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x70d9c04;
+  constexpr static std::size_t addrs = 0x70dace4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)()>(
     &::UnityEngine::UIElements::CollectionViewController::RaiseItemsSourceChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x70d9700;
+  constexpr static std::size_t addrs = 0x70da7e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::CollectionViewController::RaiseItemIndexChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x70d9c08;
+  constexpr static std::size_t addrs = 0x70dace8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(),
@@ -404,7 +404,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)()>(&::UnityEngine::UIElements::CollectionViewController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x70d9c24;
+  constexpr static std::size_t addrs = 0x70dad04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::CollectionViewController*>(), { ".ctor", {}, {} })));

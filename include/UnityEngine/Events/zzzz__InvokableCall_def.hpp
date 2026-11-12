@@ -32,13 +32,13 @@ public:
   /// @brief Field Delegate, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Delegate, put = __cordl_internal_set_Delegate)) ::UnityEngine::Events::UnityAction* Delegate;
 
-  /// @brief Method Find, addr 0x6f94fcc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Find, addr 0x6f960ac, size 0x50, virtual true, abstract: false, final false
   inline bool Find(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Invoke, addr 0x6f94f90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6f96070, size 0x3c, virtual false, abstract: false, final false
   inline void Invoke();
 
-  /// @brief Method Invoke, addr 0x6f94f54, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6f96034, size 0x3c, virtual true, abstract: false, final false
   inline void Invoke(::ArrayW<::System::Object*> args);
 
   static inline ::UnityEngine::Events::InvokableCall* New_ctor(::UnityEngine::Events::UnityAction* action);
@@ -51,18 +51,18 @@ public:
 
   constexpr void __cordl_internal_set_Delegate(::UnityEngine::Events::UnityAction* value);
 
-  /// @brief Method .ctor, addr 0x6f94f50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f96030, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method .ctor, addr 0x6f94e78, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f95f58, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
   /// [CompilerGenerated]
-  /// @brief Method add_Delegate, addr 0x6f94d20, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_Delegate, addr 0x6f95e00, size 0xac, virtual false, abstract: false, final false
   inline void add_Delegate(::UnityEngine::Events::UnityAction* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_Delegate, addr 0x6f94dcc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_Delegate, addr 0x6f95eac, size 0xac, virtual false, abstract: false, final false
   inline void remove_Delegate(::UnityEngine::Events::UnityAction* value);
 
 protected:

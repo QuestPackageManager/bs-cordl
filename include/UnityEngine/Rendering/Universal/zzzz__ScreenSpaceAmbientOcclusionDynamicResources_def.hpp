@@ -67,16 +67,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6d25f04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d26fe4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BlueNoise256Textures, addr 0x6d25e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlueNoise256Textures, addr 0x6d26f5c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Texture2D>> get_BlueNoise256Textures();
 
-  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6d25ef4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6d26fd4, size 0x8, virtual true, abstract: false, final true
   inline bool get_isAvailableInPlayerBuild();
 
-  /// @brief Method get_version, addr 0x6d25efc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6d26fdc, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -85,7 +85,7 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_BlueNoise256Textures, addr 0x6d25e84, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_BlueNoise256Textures, addr 0x6d26f64, size 0x70, virtual false, abstract: false, final false
   inline void set_BlueNoise256Textures(::ArrayW<::UnityEngine::Texture2D*> value);
 
 protected:

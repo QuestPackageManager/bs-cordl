@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatmapObjectData::*)()>(&::GlobalNamespace::BeatmapObjectData::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fa1a8;
+  constexpr static std::size_t addrs = 0x34fc5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectData*>(), { "get_beat", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapObjectData::*)()>(&::GlobalNamespace::BeatmapObjectData::get_rotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fa1b0;
+  constexpr static std::size_t addrs = 0x34fc5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectData*>(), { "get_rotation", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectData::*)(int32_t)>(&::GlobalNamespace::BeatmapObjectData::set_rotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fa1b8;
+  constexpr static std::size_t addrs = 0x34fc5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectData::*)(float_t, float_t, int32_t, int32_t)>(&::GlobalNamespace::BeatmapObjectData::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x34fa1c0;
+  constexpr static std::size_t addrs = 0x34fc600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectData*>(), { ::i2c::class_of<::GlobalNamespace::BeatmapObjectData*>(), 7 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectData*>(), { ::i2c::class_of<::GlobalNamespace::BeatmapObjectData*>(), 8 }));
     return ___internal_method;
   }
 };
@@ -110,7 +110,7 @@ inline void GlobalNamespace::BeatmapObjectData::_ctor(float_t time, float_t beat
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, time, beat, rotation, subtypeIdentifier);
 }
 inline void GlobalNamespace::BeatmapObjectData::Mirror(int32_t lineCount) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BeatmapObjectData*>(), 7 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BeatmapObjectData*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, lineCount);
 }
 inline ::GlobalNamespace::BeatmapObjectData* GlobalNamespace::BeatmapObjectData::New_ctor(float_t time, float_t beat, int32_t rotation, int32_t subtypeIdentifier) {

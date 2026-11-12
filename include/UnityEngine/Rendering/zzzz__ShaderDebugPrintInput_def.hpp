@@ -32,43 +32,43 @@ public:
 
   __declspec(property(get = get_rightDown, put = set_rightDown)) bool rightDown;
 
-  /// @brief Method String, addr 0x6bdaff4, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method String, addr 0x6bdc0d4, size 0x1e4, virtual false, abstract: false, final false
   inline ::StringW String();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_leftDown, addr 0x6bdafc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftDown, addr 0x6bdc0a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_leftDown();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_middleDown, addr 0x6bdafe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_middleDown, addr 0x6bdc0c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_middleDown();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_pos, addr 0x6bdafb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pos, addr 0x6bdc094, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_pos();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_rightDown, addr 0x6bdafd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightDown, addr 0x6bdc0b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_rightDown();
 
   /// [CompilerGenerated]
-  /// @brief Method set_leftDown, addr 0x6bdafcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftDown, addr 0x6bdc0ac, size 0x8, virtual false, abstract: false, final false
   inline void set_leftDown(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_middleDown, addr 0x6bdafec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_middleDown, addr 0x6bdc0cc, size 0x8, virtual false, abstract: false, final false
   inline void set_middleDown(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pos, addr 0x6bdafbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pos, addr 0x6bdc09c, size 0x8, virtual false, abstract: false, final false
   inline void set_pos(::UnityEngine::Vector2 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_rightDown, addr 0x6bdafdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightDown, addr 0x6bdc0bc, size 0x8, virtual false, abstract: false, final false
   inline void set_rightDown(bool value);
 
   // Ctor Parameters []

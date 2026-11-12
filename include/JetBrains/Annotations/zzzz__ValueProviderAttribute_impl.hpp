@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::ValueProviderAttribute::*)(::StringW)>(&::JetBrains::Annotations::ValueProviderAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316a34;
+  constexpr static std::size_t addrs = 0x7318d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::JetBrains::Annotations::ValueProviderAttribute::*)()>(&::JetBrains::Annotations::ValueProviderAttribute::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316a3c;
+  constexpr static std::size_t addrs = 0x7318d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::JetBrains::Annotations::ValueProviderAttribute*>(), { "get_Name", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::JetBrains::Annotations::ValueProviderAttribute::*)(::StringW)>(&::JetBrains::Annotations::ValueProviderAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7316a44;
+  constexpr static std::size_t addrs = 0x7318d24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

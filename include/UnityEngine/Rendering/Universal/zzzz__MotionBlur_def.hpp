@@ -48,11 +48,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x6cfb1c0, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cfc2a0, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
   /// [Obsolete("Unused. #from(2023.1)")]
-  /// @brief Method IsTileCompatible, addr 0x6cfb1f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x6cfc2d0, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::MotionBlur* New_ctor();
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_quality(::UnityEngine::Rendering::Universal::MotionBlurQualityParameter* value);
 
-  /// @brief Method .ctor, addr 0x6cfb1f8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfc2d8, size 0x110, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"

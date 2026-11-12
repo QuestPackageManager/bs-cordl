@@ -45,56 +45,56 @@ public:
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_angularVelocity, addr 0x6e790a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_angularVelocity, addr 0x6e7a180, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_angularVelocity();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_isTracked, addr 0x6e79038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTracked, addr 0x6e7a118, size 0x8, virtual false, abstract: false, final false
   inline bool get_isTracked();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_position, addr 0x6e79058, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x6e7a138, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_rotation, addr 0x6e79070, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x6e7a150, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_trackingState, addr 0x6e79048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingState, addr 0x6e7a128, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::InputTrackingState get_trackingState();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_velocity, addr 0x6e79088, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_velocity, addr 0x6e7a168, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_velocity();
 
   /// [CompilerGenerated]
-  /// @brief Method set_angularVelocity, addr 0x6e790ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_angularVelocity, addr 0x6e7a18c, size 0xc, virtual false, abstract: false, final false
   inline void set_angularVelocity(::UnityEngine::Vector3 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isTracked, addr 0x6e79040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isTracked, addr 0x6e7a120, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_position, addr 0x6e79064, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x6e7a144, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_rotation, addr 0x6e7907c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x6e7a15c, size 0xc, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_trackingState, addr 0x6e79050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingState, addr 0x6e7a130, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::XR::InputTrackingState value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_velocity, addr 0x6e79094, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_velocity, addr 0x6e7a174, size 0xc, virtual false, abstract: false, final false
   inline void set_velocity(::UnityEngine::Vector3 value);
 
   // Ctor Parameters []
@@ -110,7 +110,7 @@ public:
                  ::UnityEngine::Quaternion _rotation_k__BackingField, ::UnityEngine::Vector3 _velocity_k__BackingField, ::UnityEngine::Vector3 _angularVelocity_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17529 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17537 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };

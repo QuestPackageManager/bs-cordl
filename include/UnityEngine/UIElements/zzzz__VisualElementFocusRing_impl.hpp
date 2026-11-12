@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusRing_FocusRingRecord::*)()>(
     &::UnityEngine::UIElements::VisualElementFocusRing_FocusRingRecord::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7193b9c;
+  constexpr static std::size_t addrs = 0x7194c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusRing::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElementFocusRing_DefaultFocusOrder)>(&::UnityEngine::UIElements::VisualElementFocusRing::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x719310c;
+  constexpr static std::size_t addrs = 0x71941ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FocusController* (::UnityEngine::UIElements::VisualElementFocusRing::*)()>(
     &::UnityEngine::UIElements::VisualElementFocusRing::get_focusController)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x7193198;
+  constexpr static std::size_t addrs = 0x7194278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFocusRing*>(), { "get_focusController", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElementFocusRing_DefaultFocusOrder (::UnityEngine::UIElements::VisualElementFocusRing::*)()>(
     &::UnityEngine::UIElements::VisualElementFocusRing::get_defaultFocusOrder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71931b8;
+  constexpr static std::size_t addrs = 0x7194298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusRing::*)(::UnityEngine::UIElements::VisualElementFocusRing_DefaultFocusOrder)>(
     &::UnityEngine::UIElements::VisualElementFocusRing::set_defaultFocusOrder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71931c0;
+  constexpr static std::size_t addrs = 0x71942a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::U
                                                                                                                       ::UnityEngine::UIElements::VisualElementFocusRing_FocusRingRecord*)>(
     &::UnityEngine::UIElements::VisualElementFocusRing::FocusRingAutoIndexSort)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x71931c8;
+  constexpr static std::size_t addrs = 0x71942a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFocusRing*>(),
@@ -176,7 +176,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::U
                                                                                                                       ::UnityEngine::UIElements::VisualElementFocusRing_FocusRingRecord*)>(
     &::UnityEngine::UIElements::VisualElementFocusRing::FocusRingSort)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x7193490;
+  constexpr static std::size_t addrs = 0x7194570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFocusRing*>(),
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusRing::*)()>(&::UnityEngine::UIElements::VisualElementFocusRing::DoUpdate)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x7193584;
+  constexpr static std::size_t addrs = 0x7194664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFocusRing*>(), { "DoUpdate", {}, {} })));
@@ -206,7 +206,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::by_ref<int32_t>, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementFocusRing_FocusRingRecord*>*)>(
     &::UnityEngine::UIElements::VisualElementFocusRing::BuildRingForScopeRecursive)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x7193678;
+  constexpr static std::size_t addrs = 0x7194758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusRing::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementFocusRing_FocusRingRecord*>*)>(&::UnityEngine::UIElements::VisualElementFocusRing::SortAndFlattenScopeLists)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x7193934;
+  constexpr static std::size_t addrs = 0x7194a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::VisualElementFocusRing::*)(::UnityEngine::UIElements::Focusable*)>(
     &::UnityEngine::UIElements::VisualElementFocusRing::GetFocusableInternalIndex)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x7193ba0;
+  constexpr static std::size_t addrs = 0x7194c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFocusRing*>(),
@@ -255,7 +255,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::UIElements::FocusChangeDirection* (::UnityEngine::UIElements::VisualElementFocusRing::*)(::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::EventBase*)>(
         &::UnityEngine::UIElements::VisualElementFocusRing::GetFocusChangeDirection)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x7193c54;
+  constexpr static std::size_t addrs = 0x7194d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::UIElements::Focusable* (::UnityEngine::UIElements::VisualElementFocusRing::*)(::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::FocusChangeDirection*)>(
         &::UnityEngine::UIElements::VisualElementFocusRing::GetNextFocusable)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x7193fcc;
+  constexpr static std::size_t addrs = 0x71950ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -289,7 +289,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::UIElements::Focusable* (::UnityEngine::UIElements::VisualElementFocusRing::*)(::UnityEngine::UIElements::Focusable*, ::UnityEngine::UIElements::FocusChangeDirection*)>(
         &::UnityEngine::UIElements::VisualElementFocusRing::GetNextFocusableInSequence)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x719414c;
+  constexpr static std::size_t addrs = 0x719522c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElementFocusRing::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElementFocusRing::GetNextFocusableInTree)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7194500;
+  constexpr static std::size_t addrs = 0x71955e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFocusRing*>(),
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElementFocusRing::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElementFocusRing::GetPreviousFocusableInTree)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7194580;
+  constexpr static std::size_t addrs = 0x7195660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFocusRing*>(),
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElementFocusRing::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElementFocusRing::GetNextElementDepthFirst)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7194600;
+  constexpr static std::size_t addrs = 0x71956e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFocusRing*>(),
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::VisualElementFocusRing::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElementFocusRing::GetPreviousElementDepthFirst)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x7194658;
+  constexpr static std::size_t addrs = 0x7195738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementFocusRing*>(),

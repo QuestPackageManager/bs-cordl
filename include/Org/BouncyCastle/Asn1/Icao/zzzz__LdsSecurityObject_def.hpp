@@ -65,13 +65,13 @@ public:
   /// @brief Field versionInfo, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_versionInfo, put = __cordl_internal_set_versionInfo)) ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* versionInfo;
 
-  /// @brief Method CheckDatagroupHashSeqSize, addr 0x36fb904, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckDatagroupHashSeqSize, addr 0x36ffd9c, size 0xa0, virtual false, abstract: false, final false
   inline void CheckDatagroupHashSeqSize(int32_t size);
 
-  /// @brief Method GetDatagroupHash, addr 0x36fbb08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDatagroupHash, addr 0x36fffa0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*> GetDatagroupHash();
 
-  /// @brief Method GetInstance, addr 0x36fb1b8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x36ff650, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier,
@@ -83,7 +83,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x36fbb18, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x36fffb0, size 0x1c8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*> const& __cordl_internal_get_datagroupHash() const;
@@ -110,23 +110,23 @@ public:
 
   constexpr void __cordl_internal_set_versionInfo(::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* value);
 
-  /// @brief Method .ctor, addr 0x36fb9a4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36ffe3c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier, ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*> datagroupHash);
 
-  /// @brief Method .ctor, addr 0x36fba40, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36ffed8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier, ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*> datagroupHash,
                     ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* versionInfo);
 
-  /// @brief Method .ctor, addr 0x36fb258, size 0x56c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36ff6f0, size 0x56c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_DigestAlgorithmIdentifier, addr 0x36fbb00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestAlgorithmIdentifier, addr 0x36fff98, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestAlgorithmIdentifier();
 
-  /// @brief Method get_Version, addr 0x36fbae8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x36fff80, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Version();
 
-  /// @brief Method get_VersionInfo, addr 0x36fbb10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VersionInfo, addr 0x36fffa8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* get_VersionInfo();
 
 protected:

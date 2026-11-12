@@ -41,7 +41,7 @@ public:
   constexpr OcclusionCullingDebugShaderVariables___OccluderMipBounds_e__FixedBuffer(uint32_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18363 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -86,7 +86,7 @@ public:
                                                  uint32_t _OccluderMipLayoutSizeY, uint32_t _OcclusionCullingDebugPad0, uint32_t _OcclusionCullingDebugPad1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18364 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa0 };

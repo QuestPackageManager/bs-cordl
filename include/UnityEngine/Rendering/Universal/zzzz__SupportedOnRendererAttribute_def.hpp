@@ -40,14 +40,14 @@ public:
 
   constexpr void __cordl_internal_set__rendererTypes_k__BackingField(::ArrayW<::System::Type*> value);
 
-  /// @brief Method .ctor, addr 0x6d32d8c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d33e6c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* renderer);
 
-  /// @brief Method .ctor, addr 0x6d32e30, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d33f10, size 0x18c, virtual false, abstract: false, final false
   inline void _ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> renderers);
 
   /// [CompilerGenerated]
-  /// @brief Method get_rendererTypes, addr 0x6d32d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rendererTypes, addr 0x6d33e64, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> get_rendererTypes();
 
 protected:

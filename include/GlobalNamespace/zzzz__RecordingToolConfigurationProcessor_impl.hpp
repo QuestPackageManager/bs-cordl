@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolConfigurationProcessor_ColorSaveData::*)()>(
     &::GlobalNamespace::RecordingToolConfigurationProcessor_ColorSaveData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d51e54;
+  constexpr static std::size_t addrs = 0x5d51a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolConfigurationProcessor_PlaybackScreenshot::*)()>(
     &::GlobalNamespace::RecordingToolConfigurationProcessor_PlaybackScreenshot::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d51e58;
+  constexpr static std::size_t addrs = 0x5d51a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolConfigurationProcessor_RecordingConfiguration::*)()>(
     &::GlobalNamespace::RecordingToolConfigurationProcessor_RecordingConfiguration::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5d51e5c;
+  constexpr static std::size_t addrs = 0x5d51a30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -472,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::RecordingToolConfigurationProcessor_RecordingToolConfiguration::*)()>(
     &::GlobalNamespace::RecordingToolConfigurationProcessor_RecordingToolConfiguration::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d5067c;
+  constexpr static std::size_t addrs = 0x5d501bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -512,7 +512,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult, ::GlobalNamespace::IBeatSaberLogger*, ::GlobalNamespace::IPosesSerializer*, ::GlobalNamespace::EnvironmentsListModel*,
     ::GlobalNamespace::BeatmapLevelsModel*)>(&::GlobalNamespace::RecordingToolConfigurationProcessor::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d501b0;
+  constexpr static std::size_t addrs = 0x5d4fcf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -531,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::RecordingToolConfigurationProcessor::*)()>(
     &::GlobalNamespace::RecordingToolConfigurationProcessor::IsRecordingToolEnabled)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5d501cc;
+  constexpr static std::size_t addrs = 0x5d4fd0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::RecordingToolConfigurationProcessor::*)()>(
     &::GlobalNamespace::RecordingToolConfigurationProcessor::GetConfigFilePath)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5d50218;
+  constexpr static std::size_t addrs = 0x5d4fd58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -559,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::RecordingToolConfigurationProcessor::*)(::StringW)>(
     &::GlobalNamespace::RecordingToolConfigurationProcessor::LoadConfigurationFile)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5d50264;
+  constexpr static std::size_t addrs = 0x5d4fda4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -573,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::RecordingToolConfigurationProcessor_RecordingToolConfiguration* (
     ::GlobalNamespace::RecordingToolConfigurationProcessor::*)(::StringW)>(&::GlobalNamespace::RecordingToolConfigurationProcessor::DeserializeConfigurationFile)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x5d50444;
+  constexpr static std::size_t addrs = 0x5d4ff84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -587,7 +587,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::RecordingToolConfigurationProcessor_RecordingToolConfiguration* (
     ::GlobalNamespace::RecordingToolConfigurationProcessor::*)(::StringW)>(&::GlobalNamespace::RecordingToolConfigurationProcessor::LoadConfiguration)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d50680;
+  constexpr static std::size_t addrs = 0x5d501c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -600,7 +600,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (*)()>(&::GlobalNamespace::RecordingToolConfigurationProcessor::GetDefaultMrcLayersMask)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d5069c;
+  constexpr static std::size_t addrs = 0x5d501dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -614,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (::GlobalNamespace::RecordingToolConfigurationProcessor::*)(::StringW)>(
     &::GlobalNamespace::RecordingToolConfigurationProcessor::GetLayerMask)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5d506a8;
+  constexpr static std::size_t addrs = 0x5d501e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -628,7 +628,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LayerMask (::GlobalNamespace::RecordingToolConfigurationProcessor::*)(::ArrayW<::StringW>)>(
     &::GlobalNamespace::RecordingToolConfigurationProcessor::GetLayersMask)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5d50888;
+  constexpr static std::size_t addrs = 0x5d503c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -642,7 +642,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevel*> (*)(
     ::StringW, ::StringW, ::GlobalNamespace::BeatmapLevelsModel*)>(&::GlobalNamespace::RecordingToolConfigurationProcessor::GetLevelPackAndLevelPreviewForLevelId)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5d50904;
+  constexpr static std::size_t addrs = 0x5d50444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -659,7 +659,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::Record
     ::GlobalNamespace::RecordingToolConfigurationProcessor::*)(::GlobalNamespace::RecordingToolConfigurationProcessor_RecordingToolConfiguration*)>(
     &::GlobalNamespace::RecordingToolConfigurationProcessor::CreateRecordingToolSettingsFromConfiguration)> {
   constexpr static std::size_t size = 0x10cc;
-  constexpr static std::size_t addrs = 0x5d50994;
+  constexpr static std::size_t addrs = 0x5d504d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -676,7 +676,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::GlobalNamespace::ObjectsMovementRecorder_InitData* (::GlobalNamespace::RecordingToolConfigurationProcessor::*)(::GlobalNamespace::RecordingSettings*)>(
         &::GlobalNamespace::RecordingToolConfigurationProcessor::CreateObjectsMovementRecorderInitDataFromConfiguration)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5d51a60;
+  constexpr static std::size_t addrs = 0x5d51634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -691,7 +691,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MenuDestination* (::GlobalNamespace::RecordingToolConfigurationProcessor::*)(::GlobalNamespace::RecordingSettings*, bool)>(
     &::GlobalNamespace::RecordingToolConfigurationProcessor::CreateMenuDestinationFromConfiguration)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x5d51b40;
+  constexpr static std::size_t addrs = 0x5d51714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

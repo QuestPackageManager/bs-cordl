@@ -25,12 +25,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlValueGetter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x66a16e0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x66a1d30, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke();
 
   static inline ::System::Xml::Schema::XmlValueGetter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x66a1678, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66a1cc8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

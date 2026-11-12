@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_ResourceCreateCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_ResourceCreateCallback::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6c4b320;
+  constexpr static std::size_t addrs = 0x6c4c400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*, ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource*)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_ResourceCreateCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c4ff78;
+  constexpr static std::size_t addrs = 0x6c51058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                         ::System::Object*)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_ResourceCreateCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c4ff8c;
+  constexpr static std::size_t addrs = 0x6c5106c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_ResourceCreateCallback::*)(::System::IAsyncResult*)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_ResourceCreateCallback::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c4ffb4;
+  constexpr static std::size_t addrs = 0x6c51094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_ResourceCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_ResourceCallback::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6c4b468;
+  constexpr static std::size_t addrs = 0x6c4c548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*, ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource*)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_ResourceCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6c4ffd8;
+  constexpr static std::size_t addrs = 0x6c510b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                   ::System::Object*)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_ResourceCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c4ffec;
+  constexpr static std::size_t addrs = 0x6c510cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_ResourceCallback::*)(::System::IAsyncResult*)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_ResourceCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c50014;
+  constexpr static std::size_t addrs = 0x6c510f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_RenderGraphResourcesData::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_RenderGraphResourcesData::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6c4b264;
+  constexpr static std::size_t addrs = 0x6c4c344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_RenderGraphResourcesData::*)(bool, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_RenderGraphResourcesData::Clear)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6c4fc18;
+  constexpr static std::size_t addrs = 0x6c50cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_RenderGraphResourcesData::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_RenderGraphResourcesData::Cleanup)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6c4fde8;
+  constexpr static std::size_t addrs = 0x6c50ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_RenderGraphResourcesData::*)(int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry_RenderGraphResourcesData::PurgeUnusedGraphicsResources)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c4fd34;
+  constexpr static std::size_t addrs = 0x6c50e14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -414,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* (*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::get_current)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c4a340;
+  constexpr static std::size_t addrs = 0x6c4b420;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -428,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::set_current)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6c4a39c;
+  constexpr static std::size_t addrs = 0x6c4b47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -443,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::UnityEngine::Rendering::RenderGraphModule::TextureResource*)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CheckTextureResource)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c4a3fc;
+  constexpr static std::size_t addrs = 0x6c4b4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -459,7 +459,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetTexture)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6c4a4ac;
+  constexpr static std::size_t addrs = 0x6c4b58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RTHandle* (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetTexture)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c4a5e0;
+  constexpr static std::size_t addrs = 0x6c4b6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -488,7 +488,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::TextureNeedsFallback)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6c4a6dc;
+  constexpr static std::size_t addrs = 0x6c4b7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -503,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RendererList (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetRendererList)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6c4a820;
+  constexpr static std::size_t addrs = 0x6c4b900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -518,7 +518,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::UnityEngine::Rendering::RenderGraphModule::BufferResource*)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CheckBufferResource)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6c4a980;
+  constexpr static std::size_t addrs = 0x6c4ba60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -534,7 +534,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GraphicsBu
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferHandle const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetBuffer)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6c49d00;
+  constexpr static std::size_t addrs = 0x6c4ade0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -549,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GraphicsBuffer* (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetBuffer)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6c4ab38;
+  constexpr static std::size_t addrs = 0x6c4bc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -564,7 +564,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RayTracingAccelerationStructureHandle const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetRayTracingAccelerationStructure)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6c499a4;
+  constexpr static std::size_t addrs = 0x6c4aa84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -580,7 +580,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetSharedResourceCount)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c4ad48;
+  constexpr static std::size_t addrs = 0x6c4be28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -595,7 +595,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::_ctor)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6c4ad80;
+  constexpr static std::size_t addrs = 0x6c4be60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -610,7 +610,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams*, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger*)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::_ctor)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x6c4aeec;
+  constexpr static std::size_t addrs = 0x6c4bfcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*>(),
@@ -627,7 +627,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::BeginRenderGraph)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c4b624;
+  constexpr static std::size_t addrs = 0x6c4c704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -642,7 +642,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::BeginExecute)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6c4b7a8;
+  constexpr static std::size_t addrs = 0x6c4c888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -656,7 +656,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::EndExecute)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6c4b9b8;
+  constexpr static std::size_t addrs = 0x6c4ca98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -670,7 +670,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::EnableIntraFrameMemoryAliasing)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6c4ba4c;
+  constexpr static std::size_t addrs = 0x6c4cb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*>(),
@@ -684,7 +684,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CheckHandleValidity)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6c4baa4;
+  constexpr static std::size_t addrs = 0x6c4cb84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -699,7 +699,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CheckHandleValidity)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6c4baa8;
+  constexpr static std::size_t addrs = 0x6c4cb88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -714,7 +714,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::IncrementWriteCount)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6c4bc7c;
+  constexpr static std::size_t addrs = 0x6c4cd5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -729,7 +729,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::IncrementReadCount)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6c4be28;
+  constexpr static std::size_t addrs = 0x6c4cf08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -744,7 +744,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetLatestVersionHandle)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6c4bf34;
+  constexpr static std::size_t addrs = 0x6c4d014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -759,7 +759,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetZeroVersionHandle)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6c4c060;
+  constexpr static std::size_t addrs = 0x6c4d140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -775,7 +775,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetResourceLowLevel)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6c4c090;
+  constexpr static std::size_t addrs = 0x6c4d170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -790,7 +790,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetRenderGraphResourceName)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6c4c190;
+  constexpr static std::size_t addrs = 0x6c4d270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -805,7 +805,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetRenderGraphResourceName)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6c4c29c;
+  constexpr static std::size_t addrs = 0x6c4d37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -821,7 +821,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::IsRenderGraphResourceImported)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6c485d0;
+  constexpr static std::size_t addrs = 0x6c496b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -836,7 +836,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::IsRenderGraphResourceShared)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6c4c344;
+  constexpr static std::size_t addrs = 0x6c4d424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -852,7 +852,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::IsRenderGraphResourceShared)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6c4c384;
+  constexpr static std::size_t addrs = 0x6c4d464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -867,7 +867,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::IsGraphicsResourceCreated)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6c4c3f0;
+  constexpr static std::size_t addrs = 0x6c4d4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -882,7 +882,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::IsRendererListCreated)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6c4c4fc;
+  constexpr static std::size_t addrs = 0x6c4d5dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -897,7 +897,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::IsRenderGraphResourceImported)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6c4c668;
+  constexpr static std::size_t addrs = 0x6c4d748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -913,7 +913,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetRenderGraphResourceTransientIndex)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6c4c70c;
+  constexpr static std::size_t addrs = 0x6c4d7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -928,7 +928,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureHandle (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RTHandle* const>, bool)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ImportTexture)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6c4c814;
+  constexpr static std::size_t addrs = 0x6c4d8f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -944,7 +944,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::by_ref<::UnityEngine::Rendering::RTHandle* const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ImportResourceParams const>, bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ImportTexture)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x6c4c840;
+  constexpr static std::size_t addrs = 0x6c4d920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -963,7 +963,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::by_ref<::UnityEngine::Rendering::RTHandle* const>, ::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo,
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ImportResourceParams const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ImportTexture)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6c4cbbc;
+  constexpr static std::size_t addrs = 0x6c4dc9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -982,7 +982,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureHandle (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>, bool)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CreateSharedTexture)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6c4cdb0;
+  constexpr static std::size_t addrs = 0x6c4de90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -999,7 +999,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::RefreshSharedTextureDesc)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6c4cf6c;
+  constexpr static std::size_t addrs = 0x6c4e04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*>(),
@@ -1016,7 +1016,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ReleaseSharedTexture)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6c4cfb0;
+  constexpr static std::size_t addrs = 0x6c4e090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1032,7 +1032,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::RenderTargetIdentifier, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo const>,
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ImportResourceParams const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ImportBackbuffer)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x6c4d07c;
+  constexpr static std::size_t addrs = 0x6c4e15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1051,7 +1051,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ValidateRenderTarget)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6c4d254;
+  constexpr static std::size_t addrs = 0x6c4e334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1067,7 +1067,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetRenderTargetInfo)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x6c4d31c;
+  constexpr static std::size_t addrs = 0x6c4e3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*>(),
@@ -1085,7 +1085,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experiment
     ::UnityEngine::Experimental::Rendering::GraphicsFormat, ::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetFormat)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c4d70c;
+  constexpr static std::size_t addrs = 0x6c4e7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1103,7 +1103,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                                           ::UnityEngine::Experimental::Rendering::GraphicsFormat)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ValidateFormat)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6c4d814;
+  constexpr static std::size_t addrs = 0x6c4e8f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1120,7 +1120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureHandle (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CreateTexture)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6c4d914;
+  constexpr static std::size_t addrs = 0x6c4e9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1135,7 +1135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::SetTextureAsMemoryLess)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6c4da00;
+  constexpr static std::size_t addrs = 0x6c4eae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1150,7 +1150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetResourceCount)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6c4dac8;
+  constexpr static std::size_t addrs = 0x6c4eba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1165,7 +1165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetTextureResourceCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c4db48;
+  constexpr static std::size_t addrs = 0x6c4ec28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1180,7 +1180,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetTextureResource)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6c486d8;
+  constexpr static std::size_t addrs = 0x6c497b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1195,7 +1195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::TextureResource* (
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetTextureResource)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6c4a5fc;
+  constexpr static std::size_t addrs = 0x6c4b6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1210,7 +1210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc> (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>, bool)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetTextureResourceDesc)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6c487e4;
+  constexpr static std::size_t addrs = 0x6c498c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1226,7 +1226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CreateRendererList)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6c4db50;
+  constexpr static std::size_t addrs = 0x6c4ec30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1241,7 +1241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RendererListParams const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CreateRendererList)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6c4dc98;
+  constexpr static std::size_t addrs = 0x6c4ed78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1257,7 +1257,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::ShadowDrawingSettings>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CreateShadowRendererList)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6c4dd64;
+  constexpr static std::size_t addrs = 0x6c4ee44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1275,7 +1275,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Camera* const>, ::by_ref<::UnityEngine::Rendering::GizmoSubset const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CreateGizmoRendererList)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6c4de24;
+  constexpr static std::size_t addrs = 0x6c4ef04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1294,7 +1294,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Camera* const>, ::by_ref<::UnityEngine::Rendering::UISubset const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CreateUIOverlayRendererList)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6c4def8;
+  constexpr static std::size_t addrs = 0x6c4efd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1313,7 +1313,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Camera* const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CreateWireOverlayRendererList)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6c4dfcc;
+  constexpr static std::size_t addrs = 0x6c4f0ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1330,7 +1330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Camera* const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CreateSkyboxRendererList)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6c4e090;
+  constexpr static std::size_t addrs = 0x6c4f170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1347,7 +1347,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Camera* const>, ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CreateSkyboxRendererList)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6c4e154;
+  constexpr static std::size_t addrs = 0x6c4f234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1366,7 +1366,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Camera* const>, ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CreateSkyboxRendererList)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x6c4e250;
+  constexpr static std::size_t addrs = 0x6c4f330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1385,7 +1385,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::BufferHandle (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::UnityEngine::GraphicsBuffer*)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ImportBuffer)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6c4e388;
+  constexpr static std::size_t addrs = 0x6c4f468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*>(),
@@ -1399,7 +1399,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::BufferHandle (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc const>, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CreateBuffer)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6c4e454;
+  constexpr static std::size_t addrs = 0x6c4f534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1414,7 +1414,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc> (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>, bool)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetBufferResourceDesc)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6c4e530;
+  constexpr static std::size_t addrs = 0x6c4f610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1430,7 +1430,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetBufferResourceCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c4e6a8;
+  constexpr static std::size_t addrs = 0x6c4f788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1445,7 +1445,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetBufferResource)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6c4aa28;
+  constexpr static std::size_t addrs = 0x6c4bb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1460,7 +1460,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::RenderGraphModule::BufferResource* (
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetBufferResource)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6c4ab54;
+  constexpr static std::size_t addrs = 0x6c4bc34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1476,7 +1476,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetRayTracingAccelerationStructureResource)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x6c4ac38;
+  constexpr static std::size_t addrs = 0x6c4bd18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1492,7 +1492,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::GetRayTracingAccelerationStructureResourceCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c4e6b0;
+  constexpr static std::size_t addrs = 0x6c4f790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1508,7 +1508,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(::by_ref<::UnityEngine::Rendering::RayTracingAccelerationStructure* const>, ::StringW)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ImportRayTracingAccelerationStructure)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6c4e6b8;
+  constexpr static std::size_t addrs = 0x6c4f798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1525,7 +1525,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(int32_t, int32_t)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::UpdateSharedResourceLastFrameIndex)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6c4e78c;
+  constexpr static std::size_t addrs = 0x6c4f86c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*>(),
@@ -1539,7 +1539,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::UpdateSharedResourceLastFrameIndex)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6c4e834;
+  constexpr static std::size_t addrs = 0x6c4f914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1554,7 +1554,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ManageSharedRenderGraphResources)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6c4b858;
+  constexpr static std::size_t addrs = 0x6c4c938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1568,7 +1568,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*, int32_t, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CreatePooledResource)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6c4e8a0;
+  constexpr static std::size_t addrs = 0x6c4f980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1586,7 +1586,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CreatePooledResource)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6c4ea18;
+  constexpr static std::size_t addrs = 0x6c4faf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*>(),
@@ -1604,7 +1604,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*, ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource*)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CreateTextureCallback)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6c4eacc;
+  constexpr static std::size_t addrs = 0x6c4fbac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*>(),
@@ -1621,7 +1621,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*, int32_t, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ClearResource)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6c4ed2c;
+  constexpr static std::size_t addrs = 0x6c4fe0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1639,7 +1639,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*, ::UnityEngine::Rendering::RenderGraphModule::TextureResource*)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ClearTexture)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6c4ebbc;
+  constexpr static std::size_t addrs = 0x6c4fc9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*>(),
@@ -1656,7 +1656,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*, int32_t, int32_t)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ReleasePooledResource)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6c4ee34;
+  constexpr static std::size_t addrs = 0x6c4ff14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1674,7 +1674,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const>)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ReleasePooledResource)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6c4ef60;
+  constexpr static std::size_t addrs = 0x6c50040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*>(),
@@ -1692,7 +1692,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*, ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource*)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ReleaseTextureCallback)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x6c4f014;
+  constexpr static std::size_t addrs = 0x6c500f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry*>(),
@@ -1709,7 +1709,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ValidateTextureDesc)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x6c4f188;
+  constexpr static std::size_t addrs = 0x6c50268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1724,7 +1724,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RendererUtils::RendererListDesc const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ValidateRendererListDesc)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x6c4f39c;
+  constexpr static std::size_t addrs = 0x6c5047c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1739,7 +1739,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::BufferDesc const>)>(&::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::ValidateBufferDesc)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6c4f55c;
+  constexpr static std::size_t addrs = 0x6c5063c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1755,7 +1755,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle>*, ::UnityEngine::Rendering::ScriptableRenderContext, bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::CreateRendererLists)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x6c4f67c;
+  constexpr static std::size_t addrs = 0x6c5075c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1773,7 +1773,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)(bool)>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::Clear)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6c4f960;
+  constexpr static std::size_t addrs = 0x6c50a40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1787,7 +1787,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::PurgeUnusedGraphicsResources)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6c4fccc;
+  constexpr static std::size_t addrs = 0x6c50dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1801,7 +1801,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::Cleanup)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6c4fd4c;
+  constexpr static std::size_t addrs = 0x6c50e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1815,7 +1815,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::LogResources)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x6c4fa4c;
+  constexpr static std::size_t addrs = 0x6c50b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1829,7 +1829,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::*)()>(
     &::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry::FlushLogs)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6c4feb0;
+  constexpr static std::size_t addrs = 0x6c50f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

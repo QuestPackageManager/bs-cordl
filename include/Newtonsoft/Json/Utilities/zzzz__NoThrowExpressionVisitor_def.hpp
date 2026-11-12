@@ -35,10 +35,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor* New_ctor();
 
-  /// @brief Method VisitConditional, addr 0x617c82c, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method VisitConditional, addr 0x617cab4, size 0x104, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitConditional(::System::Linq::Expressions::ConditionalExpression* node);
 
-  /// @brief Method .ctor, addr 0x617c6ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x617c934, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_ErrorResult();

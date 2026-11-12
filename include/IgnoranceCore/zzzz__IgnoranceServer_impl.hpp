@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::get_IsAlive)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ce73b0;
+  constexpr static std::size_t addrs = 0x5ce6bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::IgnoranceCore::IgnoranceServer*>(), { "get_IsAlive", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::Start)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x5ce73c4;
+  constexpr static std::size_t addrs = 0x5ce6bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::IgnoranceCore::IgnoranceServer*>(), { "Start", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::Stop)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5ce7a0c;
+  constexpr static std::size_t addrs = 0x5ce720c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::IgnoranceCore::IgnoranceServer*>(), { "Stop", {}, {} })));
@@ -79,8 +79,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::IgnoranceCore::Ig
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)(::System::Object*)>(&::IgnoranceCore::IgnoranceServer::ThreadWorker)> {
-  constexpr static std::size_t size = 0x1494;
-  constexpr static std::size_t addrs = 0x5ce7ab0;
+  constexpr static std::size_t size = 0x149c;
+  constexpr static std::size_t addrs = 0x5ce72b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::SetupRingBuffersIfNull)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x5ce77b4;
+  constexpr static std::size_t addrs = 0x5ce6fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::IgnoranceCore::IgnoranceServer*>(), { "SetupRingBuffersIfNull", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5ce8f44;
+  constexpr static std::size_t addrs = 0x5ce874c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::IgnoranceCore::IgnoranceServer*>(), { ".ctor", {}, {} })));

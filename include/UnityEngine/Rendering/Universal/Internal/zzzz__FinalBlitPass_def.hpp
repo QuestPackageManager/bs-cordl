@@ -341,7 +341,7 @@ public:
 
   constexpr void __cordl_internal_set_useFullScreenViewport(bool value);
 
-  /// @brief Method .ctor, addr 0x6d68dd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d69eb8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -430,10 +430,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c* New_ctor();
 
-  /// @brief Method <Render>b__15_0, addr 0x6d68e34, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__15_0, addr 0x6d69f14, size 0x430, virtual false, abstract: false, final false
   inline void _Render_b__15_0(::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6d68e30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d69f10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass___c* getStaticF___9();
@@ -495,19 +495,19 @@ public:
   /// @brief Field s_CameraDepthTextureID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_CameraDepthTextureID, put = setStaticF_s_CameraDepthTextureID)) int32_t s_CameraDepthTextureID;
 
-  /// @brief Method Dispose, addr 0x6d67d54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6d68e34, size 0x4, virtual false, abstract: false, final false
   inline void Dispose();
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method Execute, addr 0x6d67b98, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6d68c78, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x6d67ee4, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6d68fc4, size 0x31c, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData* data,
                                  ::UnityEngine::Rendering::RTHandle* source, ::UnityEngine::Rendering::RTHandle* destination, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                  ::UnityEngine::Vector4 scaleBias);
 
-  /// @brief Method InitPassData, addr 0x6d68200, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6d692e0, size 0xa4, virtual false, abstract: false, final false
   inline void InitPassData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_PassData*> passData,
                            ::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitType blitType, bool enableAlphaOutput, bool useFullScreenViewport);
 
@@ -515,23 +515,23 @@ public:
                                                                                        ::UnityEngine::Material* blitHDRMaterial);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method OnCameraSetup, addr 0x6d67b94, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCameraSetup, addr 0x6d68c74, size 0x4, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Render, addr 0x6d682a4, size 0xac4, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d69384, size 0xac4, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> src,
                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> dest, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle overlayUITexture,
                      bool useFullScreenViewport);
 
-  /// @brief Method Setup, addr 0x6d67da4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d68e84, size 0x4, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::RenderTextureDescriptor baseDescriptor, ::UnityEngine::Rendering::RTHandle* colorHandle);
 
   /// [Obsolete("Use RTHandles for colorHandle. #from(2022.1) #breakingFrom(2023.1)", true)]
-  /// @brief Method Setup, addr 0x6d67d58, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d68e38, size 0x4c, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::RenderTextureDescriptor baseDescriptor, ::UnityEngine::Rendering::Universal::RenderTargetHandle colorHandle);
 
-  /// @brief Method SetupHDROutput, addr 0x6d67da8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetupHDROutput, addr 0x6d68e88, size 0x13c, virtual false, abstract: false, final false
   static inline void SetupHDROutput(::UnityEngine::ColorGamut hdrDisplayColorGamut, ::UnityEngine::Material* material, ::UnityEngine::Rendering::HDROutputUtils_Operation hdrOperation,
                                     ::UnityEngine::Vector4 hdrOutputParameters, bool rendersOverlayUI);
 
@@ -541,7 +541,7 @@ public:
 
   constexpr void __cordl_internal_set_m_BlitMaterialData(::ArrayW<::UnityEngine::Rendering::Universal::Internal::FinalBlitPass_BlitMaterialData> value);
 
-  /// @brief Method .ctor, addr 0x6d67b9c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d68c7c, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Material* blitMaterial, ::UnityEngine::Material* blitHDRMaterial);
 
   static inline int32_t getStaticF_s_CameraDepthTextureID();

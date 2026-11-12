@@ -149,10 +149,10 @@ public:
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams___c* New_ctor();
 
-  /// @brief Method <GetWidgetList>b__14_8, addr 0x6c3d954, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__14_8, addr 0x6c3ea34, size 0x5c, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__14_8();
 
-  /// @brief Method .ctor, addr 0x6c3d950, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c3ea30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams___c* getStaticF___9();
@@ -231,76 +231,76 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
   constexpr operator ::UnityEngine::Rendering::IDebugDisplaySettingsQuery*() noexcept;
 
-  /// @brief Method GetWidgetList, addr 0x6c31154, size 0x824, virtual false, abstract: false, final false
+  /// @brief Method GetWidgetList, addr 0x6c32234, size 0x824, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>* GetWidgetList(::StringW name);
 
-  /// @brief Method IsImmediateModeSupported, addr 0x6c3d554, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method IsImmediateModeSupported, addr 0x6c3e634, size 0xe0, virtual false, abstract: false, final false
   inline bool IsImmediateModeSupported();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams* New_ctor();
 
-  /// @brief Method RegisterDebug, addr 0x6c319f4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method RegisterDebug, addr 0x6c32ad4, size 0x180, virtual false, abstract: false, final false
   inline void RegisterDebug(::StringW name, ::UnityEngine::Rendering::DebugUI_Panel* debugPanel);
 
-  /// @brief Method Reset, addr 0x6c3d548, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6c3e628, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ResetLogging, addr 0x6c31f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ResetLogging, addr 0x6c33054, size 0x8, virtual false, abstract: false, final false
   inline void ResetLogging();
 
-  /// @brief Method UnRegisterDebug, addr 0x6c31b88, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UnRegisterDebug, addr 0x6c32c68, size 0x68, virtual false, abstract: false, final false
   inline void UnRegisterDebug(::StringW name);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__14_0, addr 0x6c3d634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__14_0, addr 0x6c3e714, size 0x8, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__14_0();
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__14_1, addr 0x6c3d63c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__14_1, addr 0x6c3e71c, size 0x8, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__14_1(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__14_10, addr 0x6c3d67c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__14_10, addr 0x6c3e75c, size 0x8, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__14_10(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__14_11, addr 0x6c3d684, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__14_11, addr 0x6c3e764, size 0x18, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__14_11();
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__14_12, addr 0x6c3d69c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__14_12, addr 0x6c3e77c, size 0xc, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__14_12();
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__14_13, addr 0x6c3d6a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__14_13, addr 0x6c3e788, size 0xc, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__14_13();
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__14_2, addr 0x6c3d644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__14_2, addr 0x6c3e724, size 0x8, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__14_2();
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__14_3, addr 0x6c3d64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__14_3, addr 0x6c3e72c, size 0x8, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__14_3(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__14_4, addr 0x6c3d654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__14_4, addr 0x6c3e734, size 0x8, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__14_4();
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__14_5, addr 0x6c3d65c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__14_5, addr 0x6c3e73c, size 0x8, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__14_5(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__14_6, addr 0x6c3d664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__14_6, addr 0x6c3e744, size 0x8, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__14_6();
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__14_7, addr 0x6c3d66c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__14_7, addr 0x6c3e74c, size 0x8, virtual false, abstract: false, final false
   inline void _GetWidgetList_b__14_7(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method <GetWidgetList>b__14_9, addr 0x6c3d674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetWidgetList>b__14_9, addr 0x6c3e754, size 0x8, virtual false, abstract: false, final false
   inline bool _GetWidgetList_b__14_9();
 
   constexpr bool const& __cordl_internal_get_clearRenderTargetsAtCreation() const;
@@ -357,13 +357,13 @@ public:
 
   constexpr void __cordl_internal_set_m_DebugPanel(::UnityEngine::Rendering::DebugUI_Panel* value);
 
-  /// @brief Method .ctor, addr 0x6c30c78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c31d58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AreAnySettingsActive, addr 0x6c3198c, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method get_AreAnySettingsActive, addr 0x6c32a6c, size 0x48, virtual true, abstract: false, final true
   inline bool get_AreAnySettingsActive();
 
-  /// @brief Method get_enableLogging, addr 0x6c333e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_enableLogging, addr 0x6c344c8, size 0x20, virtual false, abstract: false, final false
   inline bool get_enableLogging();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"

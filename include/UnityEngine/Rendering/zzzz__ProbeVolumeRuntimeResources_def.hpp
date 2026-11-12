@@ -78,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set_probeVolumeUploadDataL2CS(::UnityW<::UnityEngine::ComputeShader> value);
 
-  /// @brief Method .ctor, addr 0x6bee694, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bef774, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_version, addr 0x6bee68c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6bef76c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"

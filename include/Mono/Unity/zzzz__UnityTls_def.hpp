@@ -1055,13 +1055,13 @@ namespace Mono::Unity {
 class CORDL_TYPE UnityTls_unitytls_x509verify_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6429d70, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642a3c0, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_x509verify_result Invoke(void* userData, ::Mono::Unity::UnityTls_unitytls_x509_ref cert, ::Mono::Unity::UnityTls_unitytls_x509verify_result result,
                                                                    ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::UnityTls_unitytls_x509verify_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6429cf0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642a340, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1302,12 +1302,12 @@ namespace Mono::Unity {
 class CORDL_TYPE UnityTls_unitytls_tlsctx_write_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6429e04, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642a454, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(void* userData, uint8_t* data, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6429d84, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642a3d4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1341,12 +1341,12 @@ namespace Mono::Unity {
 class CORDL_TYPE UnityTls_unitytls_tlsctx_read_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6429e98, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642a4e8, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(void* userData, uint8_t* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6429e18, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642a468, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1380,12 +1380,12 @@ namespace Mono::Unity {
 class CORDL_TYPE UnityTls_unitytls_tlsctx_trace_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6429f2c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642a57c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(void* userData, ::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, uint8_t* traceMessage, ::System::IntPtr traceMessageLen);
 
   static inline ::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6429eac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642a4fc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1419,13 +1419,13 @@ namespace Mono::Unity {
 class CORDL_TYPE UnityTls_unitytls_tlsctx_certificate_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6429fc0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642a610, size 0x20, virtual true, abstract: false, final false
   inline void Invoke(void* userData, ::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, uint8_t* cn, ::System::IntPtr cnLen, ::Mono::Unity::UnityTls_unitytls_x509name* caList, ::System::IntPtr caListLen,
                      ::Mono::Unity::UnityTls_unitytls_x509list_ref* chain, ::Mono::Unity::UnityTls_unitytls_key_ref* key, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6429f40, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642a590, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1459,12 +1459,12 @@ namespace Mono::Unity {
 class CORDL_TYPE UnityTls_unitytls_tlsctx_x509verify_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a060, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642a6b0, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_x509verify_result Invoke(void* userData, ::Mono::Unity::UnityTls_unitytls_x509list_ref chain, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6429fe0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642a630, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1540,12 +1540,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a0e0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642a730, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_errorstate Invoke();
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_create_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a078, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642a6c8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1579,12 +1579,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a174, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642a7c4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Mono::Unity::UnityTls_unitytls_errorstate* errorState, ::Mono::Unity::UnityTls_unitytls_error_code errorCode);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_errorstate_raise_error_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a0f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642a744, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1618,12 +1618,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a208, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642a858, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_key_ref Invoke(::Mono::Unity::UnityTls_unitytls_key* key, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_get_ref_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a188, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642a7d8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1657,13 +1657,13 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a29c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642a8ec, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_key* Invoke(uint8_t* buffer, ::System::IntPtr bufferLen, uint8_t* password, ::System::IntPtr passwordLen,
                                                       ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_der_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a21c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642a86c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1697,13 +1697,13 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a330, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642a980, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_key* Invoke(uint8_t* buffer, ::System::IntPtr bufferLen, uint8_t* password, ::System::IntPtr passwordLen,
                                                       ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_parse_pem_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a2b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642a900, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1737,12 +1737,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_key_free_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a3c0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642aa10, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Mono::Unity::UnityTls_unitytls_key* key);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_key_free_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a344, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642a994, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1776,12 +1776,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a440, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642aa90, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::Mono::Unity::UnityTls_unitytls_x509_ref cert, uint8_t* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509_export_der_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a3d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642aa24, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1815,12 +1815,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a4d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642ab24, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_x509list_ref Invoke(::Mono::Unity::UnityTls_unitytls_x509list* list, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_ref_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a454, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642aaa4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1854,12 +1854,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a554, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642aba4, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_x509_ref Invoke(::Mono::Unity::UnityTls_unitytls_x509list_ref list, ::System::IntPtr index, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_get_x509_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a4e8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642ab38, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1893,12 +1893,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_x509list_create_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a5e4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642ac34, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_x509list* Invoke(::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_create_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a568, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642abb8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1932,12 +1932,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_x509list_append_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a678, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642acc8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Mono::Unity::UnityTls_unitytls_x509list* list, ::Mono::Unity::UnityTls_unitytls_x509_ref cert, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a5f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642ac48, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1971,12 +1971,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a70c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642ad5c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Mono::Unity::UnityTls_unitytls_x509list* list, uint8_t* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_append_der_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a68c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642acdc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2010,12 +2010,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_x509list_free_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a79c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642adec, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Mono::Unity::UnityTls_unitytls_x509list* list);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509list_free_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a720, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642ad70, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2049,13 +2049,13 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a81c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642ae6c, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_x509verify_result Invoke(::Mono::Unity::UnityTls_unitytls_x509list_ref chain, uint8_t* cn, ::System::IntPtr cnLen,
                                                                    ::Mono::Unity::UnityTls_unitytls_x509verify_callback* cb, void* userData, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_default_ca_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a7b0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642ae00, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2089,14 +2089,14 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a89c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642aeec, size 0x18, virtual true, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_x509verify_result Invoke(::Mono::Unity::UnityTls_unitytls_x509list_ref chain, ::Mono::Unity::UnityTls_unitytls_x509list_ref trustCA, uint8_t* cn,
                                                                    ::System::IntPtr cnLen, ::Mono::Unity::UnityTls_unitytls_x509verify_callback* cb, void* userData,
                                                                    ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_explicit_ca_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a830, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642ae80, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2130,13 +2130,13 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a920, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642af70, size 0x3c, virtual true, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_tlsctx* Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange supportedProtocols, ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks callbacks,
                                                          uint64_t certChain, uint64_t leafCertificateKey, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_server_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a8b4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642af04, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2170,13 +2170,13 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642a9c8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642b018, size 0x3c, virtual true, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_tlsctx* Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx_protocolrange supportedProtocols, ::Mono::Unity::UnityTls_unitytls_tlsctx_callbacks callbacks,
                                                          uint8_t* cn, ::System::IntPtr cnLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_create_client_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642a95c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642afac, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2210,12 +2210,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642aa84, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642b0d4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, ::Mono::Unity::UnityTls_unitytls_x509list_ref clientAuthCAList, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_server_require_client_authentication_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642aa04, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642b054, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2249,13 +2249,13 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642ab18, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642b168, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, ::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback* cb, void* userData,
                      ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_certificate_callback_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642aa98, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642b0e8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2289,12 +2289,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642abac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642b1fc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, ::Mono::Unity::UnityTls_unitytls_tlsctx_trace_callback* cb, void* userData, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_callback_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642ab2c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642b17c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2328,13 +2328,13 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642ac40, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642b290, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, ::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback* cb, void* userData,
                      ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_x509verify_callback_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642abc0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642b210, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2368,13 +2368,13 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642acd4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642b324, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, ::Mono::Unity::UnityTls_unitytls_ciphersuite* supportedCiphersuites, ::System::IntPtr supportedCiphersuitesLen,
                      ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_supported_ciphersuites_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642ac54, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642b2a4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2408,12 +2408,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642ad68, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642b3b8, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_ciphersuite Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_ciphersuite_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642ace8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642b338, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2447,12 +2447,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642adfc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642b44c, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_protocol Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_get_protocol_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642ad7c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642b3cc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2486,12 +2486,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642ae90, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642b4e0, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::UnityTls_unitytls_x509verify_result Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_process_handshake_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642ae10, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642b460, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2525,12 +2525,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642af24, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642b574, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, uint8_t* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_read_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642aea4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642b4f4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2564,12 +2564,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642afb8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642b608, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, uint8_t* data, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_write_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642af38, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642b588, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2603,12 +2603,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642b04c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642b69c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_notify_close_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642afcc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642b61c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2642,12 +2642,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642b0dc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642b72c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_free_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642b060, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642b6b0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2681,12 +2681,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642b170, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642b7c0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(uint8_t* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_random_generate_bytes_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642b0f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642b740, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2720,12 +2720,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642b1f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642b840, size 0x14, virtual true, abstract: false, final false
   inline char16_t* Invoke(::Mono::Unity::UnityTls_unitytls_x509verify_result v);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642b184, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642b7d4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2759,12 +2759,12 @@ namespace Mono::Unity {
 class CORDL_TYPE unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x642b284, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x642b8d4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, ::Mono::Unity::UnityTls_unitytls_log_level level);
 
   static inline ::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_tlsctx_set_trace_level_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x642b204, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642b854, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -3222,7 +3222,7 @@ public:
 
   constexpr void __cordl_internal_set_unitytls_x509verify_result_to_string(::Mono::Unity::unitytls_interface_struct_UnityTls_unitytls_x509verify_result_to_string_t* value);
 
-  /// @brief Method .ctor, addr 0x642a074, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642a6c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3477,15 +3477,15 @@ public:
   /// @brief Field marshalledInterface, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_marshalledInterface, put = setStaticF_marshalledInterface)) ::Mono::Unity::UnityTls_unitytls_interface_struct* marshalledInterface;
 
-  /// @brief Method GetUnityTlsInterface, addr 0x6429ccc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetUnityTlsInterface, addr 0x642a31c, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetUnityTlsInterface();
 
   static inline ::Mono::Unity::UnityTls_unitytls_interface_struct* getStaticF_marshalledInterface();
 
-  /// @brief Method get_IsSupported, addr 0x6429cd8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsSupported, addr 0x642a328, size 0x18, virtual false, abstract: false, final false
   static inline bool get_IsSupported();
 
-  /// @brief Method get_NativeInterface, addr 0x6429a48, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_NativeInterface, addr 0x642a098, size 0xc8, virtual false, abstract: false, final false
   static inline ::Mono::Unity::UnityTls_unitytls_interface_struct* get_NativeInterface();
 
   static inline void setStaticF_marshalledInterface(::Mono::Unity::UnityTls_unitytls_interface_struct* value);

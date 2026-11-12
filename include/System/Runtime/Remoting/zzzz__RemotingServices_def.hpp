@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set_d(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x5f81dd4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f8205c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -198,131 +198,131 @@ public:
   __declspec(property(get = getStaticF_uri_hash, put = setStaticF_uri_hash)) ::System::Collections::Hashtable* uri_hash;
 
   /// [ComVisible(true)]
-  /// @brief Method Connect, addr 0x5f7e508, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x5f7e790, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Object* Connect(::System::Type* classToProxy, ::StringW url);
 
   /// [ComVisible(true)]
-  /// @brief Method Connect, addr 0x5f7e620, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x5f7e8a8, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Object* Connect(::System::Type* classToProxy, ::StringW url, ::System::Object* data);
 
-  /// @brief Method CreateClientActivatedServerIdentity, addr 0x5f7fc48, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateClientActivatedServerIdentity, addr 0x5f7fed0, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::ClientActivatedIdentity* CreateClientActivatedServerIdentity(::System::MarshalByRefObject* realObject, ::System::Type* objectType, ::StringW objectUri);
 
-  /// @brief Method CreateClientProxy, addr 0x5f80458, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CreateClientProxy, addr 0x5f806e0, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Object* CreateClientProxy(::System::Runtime::Remoting::ActivatedClientTypeEntry* entry, ::ArrayW<::System::Object*> activationAttributes);
 
-  /// @brief Method CreateClientProxy, addr 0x5f807dc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateClientProxy, addr 0x5f80a64, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Object* CreateClientProxy(::System::Runtime::Remoting::WellKnownClientTypeEntry* entry);
 
-  /// @brief Method CreateClientProxy, addr 0x5f80560, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method CreateClientProxy, addr 0x5f807e8, size 0x150, virtual false, abstract: false, final false
   static inline ::System::Object* CreateClientProxy(::System::Type* objectType, ::StringW url, ::ArrayW<::System::Object*> activationAttributes);
 
-  /// @brief Method CreateClientProxyForContextBound, addr 0x5f80848, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method CreateClientProxyForContextBound, addr 0x5f80ad0, size 0x198, virtual false, abstract: false, final false
   static inline ::System::Object* CreateClientProxyForContextBound(::System::Type* type, ::ArrayW<::System::Object*> activationAttributes);
 
-  /// @brief Method CreateContextBoundObjectIdentity, addr 0x5f81a50, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CreateContextBoundObjectIdentity, addr 0x5f81cd8, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::ClientActivatedIdentity* CreateContextBoundObjectIdentity(::System::Type* objectType);
 
-  /// @brief Method CreateWellKnownServerIdentity, addr 0x5f7dd30, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CreateWellKnownServerIdentity, addr 0x5f7dfb8, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::ServerIdentity* CreateWellKnownServerIdentity(::System::Type* objectType, ::StringW objectUri, ::System::Runtime::Remoting::WellKnownObjectMode mode);
 
-  /// @brief Method DeserializeCallData, addr 0x5f81e44, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method DeserializeCallData, addr 0x5f820cc, size 0x24c, virtual false, abstract: false, final false
   static inline ::System::Object* DeserializeCallData(::ArrayW<uint8_t> array);
 
-  /// @brief Method DisposeIdentity, addr 0x5f81040, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method DisposeIdentity, addr 0x5f812c8, size 0x208, virtual false, abstract: false, final false
   static inline void DisposeIdentity(::System::Runtime::Remoting::Identity* ident);
 
-  /// @brief Method FindInterfaceMethod, addr 0x5f801b0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method FindInterfaceMethod, addr 0x5f80438, size 0x140, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodBase* FindInterfaceMethod(::System::Type* type, ::StringW methodName, ::ArrayW<::System::Type*> signature);
 
-  /// @brief Method GetClientChannelSinkChain, addr 0x5f806b0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetClientChannelSinkChain, addr 0x5f80938, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::IMessageSink* GetClientChannelSinkChain(::StringW url, ::System::Object* channelData, ::by_ref<::StringW> objectUri);
 
-  /// @brief Method GetIdentityForUri, addr 0x5f7e774, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method GetIdentityForUri, addr 0x5f7e9fc, size 0x258, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Identity* GetIdentityForUri(::StringW uri);
 
-  /// @brief Method GetMessageTargetIdentity, addr 0x5f825b4, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method GetMessageTargetIdentity, addr 0x5f8283c, size 0x354, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Identity* GetMessageTargetIdentity(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method GetMethodBaseFromMethodMessage, addr 0x5f7fd0c, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method GetMethodBaseFromMethodMessage, addr 0x5f7ff94, size 0x2d8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodBase* GetMethodBaseFromMethodMessage(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
-  /// @brief Method GetMethodBaseFromName, addr 0x5f7ffe4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetMethodBaseFromName, addr 0x5f8026c, size 0x1cc, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodBase* GetMethodBaseFromName(::System::Type* type, ::StringW methodName, ::ArrayW<::System::Type*> signature);
 
-  /// @brief Method GetNormalizedUri, addr 0x5f809e0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetNormalizedUri, addr 0x5f80c68, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW GetNormalizedUri(::StringW uri);
 
-  /// @brief Method GetObjectData, addr 0x5f802f0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x5f80578, size 0xe4, virtual false, abstract: false, final false
   static inline void GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetOrCreateClientIdentity, addr 0x5f80b74, size 0x4cc, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateClientIdentity, addr 0x5f80dfc, size 0x4cc, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::ClientIdentity* GetOrCreateClientIdentity(::System::Runtime::Remoting::ObjRef* objRef, ::System::Type* proxyType, ::by_ref<::System::Object*> clientProxy);
 
-  /// @brief Method GetProxyForRemoteObject, addr 0x5f7efac, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetProxyForRemoteObject, addr 0x5f7f234, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Object* GetProxyForRemoteObject(::System::Runtime::Remoting::ObjRef* objref, ::System::Type* classToProxy);
 
   /// [ReliabilityContract((System.Runtime.ConstrainedExecution.Consistency)3, (System.Runtime.ConstrainedExecution.Cer)2)]
-  /// @brief Method GetRealProxy, addr 0x5f7f180, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetRealProxy, addr 0x5f7f408, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Proxies::RealProxy* GetRealProxy(::System::Object* proxy);
 
-  /// @brief Method GetRemoteObject, addr 0x5f7e5a8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetRemoteObject, addr 0x5f7e830, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Object* GetRemoteObject(::System::Runtime::Remoting::ObjRef* objRef, ::System::Type* proxyType);
 
-  /// @brief Method GetServerTypeForUri, addr 0x5f7e6c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetServerTypeForUri, addr 0x5f7e94c, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Type* GetServerTypeForUri(::StringW URI);
 
-  /// @brief Method GetVirtualMethod, addr 0x5f7de40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetVirtualMethod, addr 0x5f7e0c8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodBase* GetVirtualMethod(::System::Type* type, ::System::Reflection::MethodBase* method);
 
-  /// @brief Method InternalExecute, addr 0x5f7de38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InternalExecute, addr 0x5f7e0c0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* InternalExecute(::System::Reflection::MethodBase* method, ::System::Object* obj, ::ArrayW<::System::Object*> parameters,
                                                   ::by_ref<::ArrayW<::System::Object*>> out_args);
 
-  /// @brief Method InternalExecuteMessage, addr 0x5f7de80, size 0x644, virtual false, abstract: false, final false
+  /// @brief Method InternalExecuteMessage, addr 0x5f7e108, size 0x644, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::IMethodReturnMessage* InternalExecuteMessage(::System::MarshalByRefObject* target,
                                                                                                      ::System::Runtime::Remoting::Messaging::IMethodCallMessage* reqMsg);
 
-  /// @brief Method IsOneWay, addr 0x5f803d4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsOneWay, addr 0x5f8065c, size 0x84, virtual false, abstract: false, final false
   static inline bool IsOneWay(::System::Reflection::MethodBase* method);
 
-  /// @brief Method IsTransparentProxy, addr 0x5f7de48, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method IsTransparentProxy, addr 0x5f7e0d0, size 0x38, virtual false, abstract: false, final false
   static inline bool IsTransparentProxy(::System::Object* proxy);
 
-  /// @brief Method Marshal, addr 0x5f7f0a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Marshal, addr 0x5f7f330, size 0x48, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::ObjRef* Marshal(::System::MarshalByRefObject* Obj);
 
-  /// @brief Method Marshal, addr 0x5f7f0f0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Marshal, addr 0x5f7f378, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::ObjRef* Marshal(::System::MarshalByRefObject* Obj, ::StringW ObjURI, ::System::Type* RequestedType);
 
-  /// @brief Method NewUri, addr 0x5f7f26c, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method NewUri, addr 0x5f7f4f4, size 0x300, virtual false, abstract: false, final false
   static inline ::StringW NewUri();
 
-  /// @brief Method RegisterInternalChannels, addr 0x5f7dce0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method RegisterInternalChannels, addr 0x5f7df68, size 0x50, virtual false, abstract: false, final false
   static inline void RegisterInternalChannels();
 
-  /// @brief Method RegisterServerIdentity, addr 0x5f7f56c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method RegisterServerIdentity, addr 0x5f7f7f4, size 0x214, virtual false, abstract: false, final false
   static inline void RegisterServerIdentity(::System::Runtime::Remoting::ServerIdentity* identity);
 
-  /// @brief Method RemoveAppNameFromUri, addr 0x5f80a60, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method RemoveAppNameFromUri, addr 0x5f80ce8, size 0x114, virtual false, abstract: false, final false
   static inline ::StringW RemoveAppNameFromUri(::StringW uri);
 
-  /// @brief Method SerializeCallData, addr 0x5f81bdc, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method SerializeCallData, addr 0x5f81e64, size 0x1e8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> SerializeCallData(::System::Object* obj);
 
-  /// @brief Method SerializeExceptionData, addr 0x5f82318, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method SerializeExceptionData, addr 0x5f825a0, size 0x16c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t> SerializeExceptionData(::System::Exception* ex);
 
-  /// @brief Method SetMessageTargetIdentity, addr 0x5f82908, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SetMessageTargetIdentity, addr 0x5f82b90, size 0x118, virtual false, abstract: false, final false
   static inline void SetMessageTargetIdentity(::System::Runtime::Remoting::Messaging::IMessage* msg, ::System::Runtime::Remoting::Identity* ident);
 
-  /// @brief Method Unmarshal, addr 0x5f7e9cc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Unmarshal, addr 0x5f7ec54, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* Unmarshal(::System::Runtime::Remoting::ObjRef* objectRef);
 
-  /// @brief Method Unmarshal, addr 0x5f7ea28, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Unmarshal, addr 0x5f7ecb0, size 0x268, virtual false, abstract: false, final false
   static inline ::System::Object* Unmarshal(::System::Runtime::Remoting::ObjRef* objectRef, bool fRefine);
 
-  /// @brief Method UpdateOutArgObject, addr 0x5f82a20, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method UpdateOutArgObject, addr 0x5f82ca8, size 0xf4, virtual false, abstract: false, final false
   static inline bool UpdateOutArgObject(::System::Reflection::ParameterInfo* pi, ::System::Object* local, ::System::Object* remote);
 
   static inline ::System::Reflection::MethodInfo* getStaticF_FieldGetterMethod();

@@ -27,7 +27,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE BindingTarget {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x70c332c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70c440c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element, /* [IsReadOnly] */ ::by_ref<::UnityEngine::UIElements::BindingId const> bindingId);
 
   // Ctor Parameters []

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::LODGroup::*)()>(&::UnityEngine::LODGroup::get_localReferencePoint)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6f3941c;
+  constexpr static std::size_t addrs = 0x6f3a4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LODGroup*>(), { "get_localReferencePoint", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::LODGroup::*)()>(&::UnityEngine::LODGroup::get_size)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6f39500;
+  constexpr static std::size_t addrs = 0x6f3a5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LODGroup*>(), { "get_size", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::LOD> (::UnityEngine::LODGroup::*)()>(&::UnityEngine::LODGroup::GetLODs)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6f395bc;
+  constexpr static std::size_t addrs = 0x6f3a69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LODGroup*>(), { "GetLODs", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::LODGroup::get_localReferencePoint_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f394bc;
+  constexpr static std::size_t addrs = 0x6f3a59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::LODGroup::get_size_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f39580;
+  constexpr static std::size_t addrs = 0x6f3a660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::LOD> (*)(::System::IntPtr)>(&::UnityEngine::LODGroup::GetLODs_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f3963c;
+  constexpr static std::size_t addrs = 0x6f3a71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

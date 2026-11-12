@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackLevelListHeaderTableCell::*)(::StringW)>(&::GlobalNamespace::PackLevelListHeaderTableCell::set_text)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d77df0;
+  constexpr static std::size_t addrs = 0x5d77ad8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PackLevelListHeaderTableCell::*)()>(&::GlobalNamespace::PackLevelListHeaderTableCell::get_text)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d77e10;
+  constexpr static std::size_t addrs = 0x5d77af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackLevelListHeaderTableCell*>(), { "get_text", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackLevelListHeaderTableCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::PackLevelListHeaderTableCell::SelectionDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d77e30;
+  constexpr static std::size_t addrs = 0x5d77b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackLevelListHeaderTableCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::PackLevelListHeaderTableCell::HighlightDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d77ebc;
+  constexpr static std::size_t addrs = 0x5d77ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackLevelListHeaderTableCell::*)()>(&::GlobalNamespace::PackLevelListHeaderTableCell::RefreshVisuals)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x5d77e34;
+  constexpr static std::size_t addrs = 0x5d77b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackLevelListHeaderTableCell*>(), { "RefreshVisuals", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PackLevelListHeaderTableCell::*)()>(&::GlobalNamespace::PackLevelListHeaderTableCell::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d77ec0;
+  constexpr static std::size_t addrs = 0x5d77ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PackLevelListHeaderTableCell*>(), { ".ctor", {}, {} })));

@@ -30,7 +30,7 @@ public:
   /// @brief Method SetItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetItems(::System::Xml::Schema::XmlSchemaObjectCollection* newItems);
 
-  /// @brief Method .ctor, addr 0x6690624, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6690c74, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Items, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

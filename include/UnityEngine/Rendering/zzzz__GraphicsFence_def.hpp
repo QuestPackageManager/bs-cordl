@@ -27,21 +27,21 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE GraphicsFence {
 public:
   // Declarations
-  /// @brief Method GetPlatformNotSupportedVersion, addr 0x6fa2290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformNotSupportedVersion, addr 0x6fa3370, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetPlatformNotSupportedVersion();
 
   /// [NativeThrows]
   /// [FreeFunction("GPUFenceInternals::GetVersionNumber")]
-  /// @brief Method GetVersionNumber, addr 0x6fa2298, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetVersionNumber, addr 0x6fa3378, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetVersionNumber(::System::IntPtr fencePtr);
 
-  /// @brief Method InitPostAllocation, addr 0x6fa21d0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method InitPostAllocation, addr 0x6fa32b0, size 0xc0, virtual false, abstract: false, final false
   inline void InitPostAllocation();
 
-  /// @brief Method IsFencePending, addr 0x6fa22d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsFencePending, addr 0x6fa33b4, size 0x58, virtual false, abstract: false, final false
   inline bool IsFencePending();
 
-  /// @brief Method Validate, addr 0x6fa232c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x6fa340c, size 0x98, virtual false, abstract: false, final false
   inline void Validate();
 
   // Ctor Parameters []

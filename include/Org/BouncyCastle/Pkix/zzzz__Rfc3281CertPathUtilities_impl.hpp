@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Org::BouncyCas
                                                                 ::Org::BouncyCastle::Pkix::PkixCertPath*, ::Org::BouncyCastle::Pkix::PkixParameters*)>(
     &::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities::ProcessAttrCert7)> {
   constexpr static std::size_t size = 0x6d4;
-  constexpr static std::size_t addrs = 0x389754c;
+  constexpr static std::size_t addrs = 0x389b9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Org::BouncyCas
                                                                 ::Org::BouncyCastle::X509::X509Certificate*, ::System::DateTime, ::System::Collections::IList*)>(
     &::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities::CheckCrls)> {
   constexpr static std::size_t size = 0xc84;
-  constexpr static std::size_t addrs = 0x3897c20;
+  constexpr static std::size_t addrs = 0x389c0b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Org::BouncyCastle::X509::IX509AttributeCertificate*, ::Org::BouncyCastle::Pkix::PkixParameters*)>(
     &::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities::AdditionalChecks)> {
   constexpr static std::size_t size = 0x75c;
-  constexpr static std::size_t addrs = 0x38990d4;
+  constexpr static std::size_t addrs = 0x389d56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Org::BouncyCastle::X509::IX509AttributeCertificate*, ::Org::BouncyCastle::Pkix::PkixParameters*)>(
     &::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities::ProcessAttrCert5)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3899830;
+  constexpr static std::size_t addrs = 0x389dcc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Org::BouncyCastle::X509::X509Certificate*, ::Org::BouncyCastle::Pkix::PkixParameters*)>(
     &::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities::ProcessAttrCert4)> {
   constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x3899a08;
+  constexpr static std::size_t addrs = 0x389dea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Org::BouncyCastle::X509::X509Certificate*, ::Org::BouncyCastle::Pkix::PkixParameters*)>(
     &::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities::ProcessAttrCert3)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3899e5c;
+  constexpr static std::size_t addrs = 0x389e2f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* (*)(::Org::BouncyCastle::Pkix::PkixCertPath*, ::Org::BouncyCastle::Pkix::PkixParameters*)>(
         &::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities::ProcessAttrCert2)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3899f64;
+  constexpr static std::size_t addrs = 0x389e3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Pkix::PkixCertPath* (*)(::Org::BouncyCastle::X509::IX509AttributeCertificate*, ::Org::BouncyCastle::Pkix::PkixParameters*)>(
     &::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities::ProcessAttrCert1)> {
   constexpr static std::size_t size = 0xc2c;
-  constexpr static std::size_t addrs = 0x389a09c;
+  constexpr static std::size_t addrs = 0x389e534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::Org::BouncyCastle::X509::X509Certificate*, ::Org::BouncyCastle::Pkix::CertStatus*, ::Org::BouncyCastle::Pkix::ReasonsMask*, ::System::Collections::IList*)>(
         &::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities::CheckCrl)> {
   constexpr static std::size_t size = 0x830;
-  constexpr static std::size_t addrs = 0x38988a4;
+  constexpr static std::size_t addrs = 0x389cd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities::*)()>(&::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x389acc8;
+  constexpr static std::size_t addrs = 0x389f160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities*>(), { ".ctor", {}, {} })));

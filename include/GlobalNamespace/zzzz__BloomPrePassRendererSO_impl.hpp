@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::GlobalNamespace::BloomPrePassRendererSO_InputData::GetSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cb3d24;
+  constexpr static std::size_t addrs = 0x5cb255c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO_InputData>(), { "GetSize", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO_PreallocationData::*)()>(&::GlobalNamespace::BloomPrePassRendererSO_PreallocationData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cb3d2c;
+  constexpr static std::size_t addrs = 0x5cb2564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO_PreallocationData*>(), { ".ctor", {}, {} })));
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::*)(int32_t)>(
     &::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::Prepare)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x5cb3668;
+  constexpr static std::size_t addrs = 0x5cb1ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::*)()>(
     &::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::Dispose)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cb2564;
+  constexpr static std::size_t addrs = 0x5cb0d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData*>(), { "Dispose", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::*)()>(
     &::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cb21e4;
+  constexpr static std::size_t addrs = 0x5cb0a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData*>(), { ".ctor", {}, {} })));
@@ -292,8 +292,8 @@ constexpr ::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::BloomPr
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(&::GlobalNamespace::BloomPrePassRendererSO::OnEnable)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5cb1f0c;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x5cb058c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(&::GlobalNamespace::BloomPrePassRendererSO::OnDisable)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5cb1fd8;
+  constexpr static std::size_t addrs = 0x5cb06a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO*>(), { "OnDisable", {}, {} })));
@@ -317,11 +317,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(&::GlobalNamespace::BloomPrePassRendererSO::Init)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x5cad03c;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x5cab7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO*>(), { "Init", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererSO.PreallocateLightsRenderingData
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(&::GlobalNamespace::BloomPrePassRendererSO::PreallocateLightsRenderingData)> {
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x5cb08b0;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO*>(), { "PreallocateLightsRenderingData", {}, {} })));
     return ___internal_method;
   }
 };
@@ -330,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(&::GlobalNamespace::BloomPrePassRendererSO::Cleanup)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5cb2088;
+  constexpr static std::size_t addrs = 0x5cb0754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO*>(), { "Cleanup", {}, {} })));
@@ -345,7 +358,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::ArrayW<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle,
     ::by_ref<::UnityEngine::Vector2>, ::by_ref<::GlobalNamespace::ToneMapping>)>(&::GlobalNamespace::BloomPrePassRendererSO::RenderAndSetData)> {
   constexpr static std::size_t size = 0x8a8;
-  constexpr static std::size_t addrs = 0x5cb14e4;
+  constexpr static std::size_t addrs = 0x5cafb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Vector4, ::UnityEngine::Vector2, ::GlobalNamespace::ToneMapping)>(
     &::GlobalNamespace::BloomPrePassRendererSO::SetDataToShaders)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x5cb1d8c;
+  constexpr static std::size_t addrs = 0x5cb040c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO*>(),
@@ -384,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::GlobalNamespace::BloomPrePassRendererSO::*)(
     ::UnityEngine::RenderTexture*, ::GlobalNamespace::IBloomPrePassParams*)>(&::GlobalNamespace::BloomPrePassRendererSO::CreateBloomPrePassRenderTextureIfNeeded)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x5cb2e14;
+  constexpr static std::size_t addrs = 0x5cb164c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -399,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(&::GlobalNamespace::BloomPrePassRendererSO::EnableBloomFog)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5cb262c;
+  constexpr static std::size_t addrs = 0x5cb0e4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO*>(), { "EnableBloomFog", {}, {} })));
@@ -411,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(&::GlobalNamespace::BloomPrePassRendererSO::DisableBloomFog)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5cb3120;
+  constexpr static std::size_t addrs = 0x5cb1958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO*>(), { "DisableBloomFog", {}, {} })));
@@ -423,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(&::GlobalNamespace::BloomPrePassRendererSO::UpdateBloomFogParams)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5cb3138;
+  constexpr static std::size_t addrs = 0x5cb1970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO*>(), { "UpdateBloomFogParams", {}, {} })));
@@ -436,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::Universal::UniversalCameraData*, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>,
                                                                 ::by_ref<::UnityEngine::Vector4>)>(&::GlobalNamespace::BloomPrePassRendererSO::GetCameraParams)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5cb1320;
+  constexpr static std::size_t addrs = 0x5caf9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -454,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Camera*, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Matrix4x4>, ::by_ref<::UnityEngine::Vector4>)>(
     &::GlobalNamespace::BloomPrePassRendererSO::GetCameraParams)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x5cb34c8;
+  constexpr static std::size_t addrs = 0x5cb1d00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -472,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(
     &::GlobalNamespace::BloomPrePassRendererSO::ComputeStereoCameraEyeOffsets)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5cb3400;
+  constexpr static std::size_t addrs = 0x5cb1c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -488,8 +501,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4,
                                                                                                            float_t)>(&::GlobalNamespace::BloomPrePassRendererSO::RenderAllLights)> {
-  constexpr static std::size_t size = 0x70c;
-  constexpr static std::size_t addrs = 0x5cb265c;
+  constexpr static std::size_t size = 0x724;
+  constexpr static std::size_t addrs = 0x5cb0e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO*>(),
@@ -506,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)(
     ::GlobalNamespace::BloomPrePassLightTypeSO*, ::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData*, int32_t)>(&::GlobalNamespace::BloomPrePassRendererSO::PrepareLightsMeshRendering)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x5cb21e8;
+  constexpr static std::size_t addrs = 0x5cb0a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -524,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4, float_t)>(
     &::GlobalNamespace::BloomPrePassRendererSO::MatrixLerp)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x5cb314c;
+  constexpr static std::size_t addrs = 0x5cb1984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -538,7 +551,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(&::GlobalNamespace::BloomPrePassRendererSO::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x5cb3a40;
+  constexpr static std::size_t addrs = 0x5cb2278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO*>(), { ".ctor", {}, {} })));
@@ -607,6 +620,18 @@ constexpr bool const& GlobalNamespace::BloomPrePassRendererSO::__cordl_internal_
 constexpr void GlobalNamespace::BloomPrePassRendererSO::__cordl_internal_set__initialized(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialized = value;
+}
+constexpr bool& GlobalNamespace::BloomPrePassRendererSO::__cordl_internal_get__isPreallocationPending() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isPreallocationPending;
+}
+constexpr bool const& GlobalNamespace::BloomPrePassRendererSO::__cordl_internal_get__isPreallocationPending() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isPreallocationPending;
+}
+constexpr void GlobalNamespace::BloomPrePassRendererSO::__cordl_internal_set__isPreallocationPending(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____isPreallocationPending = value;
 }
 constexpr ::UnityW<::UnityEngine::Texture2D>& GlobalNamespace::BloomPrePassRendererSO::__cordl_internal_get__blackTexture() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -696,6 +721,10 @@ inline void GlobalNamespace::BloomPrePassRendererSO::OnDisable() {
 }
 inline void GlobalNamespace::BloomPrePassRendererSO::Init() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO*>(), { "Init", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::BloomPrePassRendererSO::PreallocateLightsRenderingData() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassRendererSO*>(), { "PreallocateLightsRenderingData", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::BloomPrePassRendererSO::Cleanup() {

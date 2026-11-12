@@ -43,10 +43,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerMoveEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x726fe2c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x7270f0c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerMoveEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x726fe28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7270f08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerMoveEvent___c* getStaticF___9();
@@ -95,24 +95,24 @@ public:
 
   __declspec(property(get = get_isPointerUp)) bool isPointerUp;
 
-  /// @brief Method Dispatch, addr 0x726fd68, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x7270e48, size 0x6c, virtual true, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method GetPooledCompatibilityMouseEvent, addr 0x726fb00, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method GetPooledCompatibilityMouseEvent, addr 0x7270be0, size 0x104, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::IMouseEvent* GetPooledCompatibilityMouseEvent();
 
-  /// @brief Method Init, addr 0x726f994, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x7270a74, size 0x8c, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x726fa20, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x7270b00, size 0x54, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerMoveEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x726fc60, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x7270d40, size 0x108, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method PreDispatch, addr 0x726fc04, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x7270ce4, size 0x5c, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
   constexpr bool const& __cordl_internal_get__isHandledByDraggable_k__BackingField() const;
@@ -121,21 +121,21 @@ public:
 
   constexpr void __cordl_internal_set__isHandledByDraggable_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x726fa74, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7270b54, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isHandledByDraggable, addr 0x726f8a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isHandledByDraggable, addr 0x7270980, size 0x8, virtual false, abstract: false, final false
   inline bool get_isHandledByDraggable();
 
-  /// @brief Method get_isPointerDown, addr 0x726f8b0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_isPointerDown, addr 0x7270990, size 0x70, virtual false, abstract: false, final false
   inline bool get_isPointerDown();
 
-  /// @brief Method get_isPointerUp, addr 0x726f920, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_isPointerUp, addr 0x7270a00, size 0x74, virtual false, abstract: false, final false
   inline bool get_isPointerUp();
 
   /// [CompilerGenerated]
-  /// @brief Method set_isHandledByDraggable, addr 0x726f8a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isHandledByDraggable, addr 0x7270988, size 0x8, virtual false, abstract: false, final false
   inline void set_isHandledByDraggable(bool value);
 
 protected:

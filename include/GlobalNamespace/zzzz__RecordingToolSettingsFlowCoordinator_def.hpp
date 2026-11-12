@@ -50,18 +50,18 @@ public:
                       put = __cordl_internal_set__recordingToolSettingsViewController)) ::UnityW<::GlobalNamespace::RecordingToolSettingsViewController>
       _recordingToolSettingsViewController;
 
-  /// @brief Method DidActivate, addr 0x5e665c0, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5e664d0, size 0x124, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5e66790, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5e666a0, size 0xac, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleRecordingToolSettingsViewControllerDidFinish, addr 0x5e6693c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HandleRecordingToolSettingsViewControllerDidFinish, addr 0x5e6684c, size 0x60, virtual false, abstract: false, final false
   inline void HandleRecordingToolSettingsViewControllerDidFinish();
 
   static inline ::GlobalNamespace::RecordingToolSettingsFlowCoordinator* New_ctor();
 
-  /// @brief Method Update, addr 0x5e668e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5e667f8, size 0x54, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::RecordingToolConfigViewController> const& __cordl_internal_get__recordingToolConfigViewController() const;
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set__recordingToolSettingsViewController(::UnityW<::GlobalNamespace::RecordingToolSettingsViewController> value);
 
-  /// @brief Method .ctor, addr 0x5e6699c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e668ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

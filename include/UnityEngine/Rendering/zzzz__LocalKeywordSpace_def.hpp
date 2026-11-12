@@ -40,33 +40,33 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>*();
 
-  /// @brief Method Equals, addr 0x6fc8294, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fc9374, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x6fc8310, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fc93f0, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LocalKeywordSpace rhs);
 
-  /// @brief Method GetHashCode, addr 0x6fc819c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fc927c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [FreeFunction("keywords::GetKeywordCount", HasExplicitThis = true)]
-  /// @brief Method GetKeywordCount, addr 0x6fc81e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetKeywordCount, addr 0x6fc92c0, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t GetKeywordCount();
 
   /// [FreeFunction("keywords::GetKeywords", HasExplicitThis = true)]
-  /// @brief Method GetKeywords, addr 0x6fc81a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetKeywords, addr 0x6fc9284, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::LocalKeyword> GetKeywords();
 
-  /// @brief Method get_keywordCount, addr 0x6fc8258, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_keywordCount, addr 0x6fc9338, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_keywordCount();
 
-  /// @brief Method get_keywords, addr 0x6fc821c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_keywords, addr 0x6fc92fc, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::LocalKeyword> get_keywords();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>* i___System__IEquatable_1___UnityEngine__Rendering__LocalKeywordSpace_();
 
-  /// @brief Method op_Equality, addr 0x6fc8180, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6fc9260, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::LocalKeywordSpace lhs, ::UnityEngine::Rendering::LocalKeywordSpace rhs);
 
   // Ctor Parameters []

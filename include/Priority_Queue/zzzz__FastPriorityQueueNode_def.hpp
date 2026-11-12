@@ -45,23 +45,23 @@ public:
 
   constexpr void __cordl_internal_set__QueueIndex_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x35ba488, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bde04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Priority, addr 0x35ba468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Priority, addr 0x35bdde4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Priority();
 
   /// [CompilerGenerated]
-  /// @brief Method get_QueueIndex, addr 0x35ba478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QueueIndex, addr 0x35bddf4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_QueueIndex();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Priority, addr 0x35ba470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Priority, addr 0x35bddec, size 0x8, virtual false, abstract: false, final false
   inline void set_Priority(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_QueueIndex, addr 0x35ba480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QueueIndex, addr 0x35bddfc, size 0x8, virtual false, abstract: false, final false
   inline void set_QueueIndex(int32_t value);
 
 protected:
@@ -79,7 +79,7 @@ public:
   FastPriorityQueueNode(FastPriorityQueueNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21289 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21303 };
 
   /// [CompilerGenerated]
   /// @brief Field <Priority>k__BackingField, offset: 0x10, size: 0x4, def value: None

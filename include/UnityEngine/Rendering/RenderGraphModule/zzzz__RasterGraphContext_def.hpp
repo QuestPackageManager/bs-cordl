@@ -51,23 +51,23 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"
   constexpr operator ::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext*();
 
-  /// @brief Method FromInternalContext, addr 0x6c3fb78, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method FromInternalContext, addr 0x6c40c58, size 0xa4, virtual true, abstract: false, final true
   inline void FromInternalContext(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* context);
 
   /// [IsReadOnly]
-  /// @brief Method GetTextureUVOrigin, addr 0x6c3fc1c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetTextureUVOrigin, addr 0x6c40cfc, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> textureHandle);
 
-  /// @brief Method UnityEngine.Rendering.RenderGraphModule.IDerivedRendergraphContext.GetTextureUVOrigin, addr 0x6c3fcfc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.RenderGraphModule.IDerivedRendergraphContext.GetTextureUVOrigin, addr 0x6c40ddc, size 0x68, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureUVOrigin
   UnityEngine_Rendering_RenderGraphModule_IDerivedRendergraphContext_GetTextureUVOrigin(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> textureHandle);
 
   static inline ::UnityEngine::Rendering::RasterCommandBuffer* getStaticF_rastercmd();
 
-  /// @brief Method get_defaultResources, addr 0x6c3fb48, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_defaultResources, addr 0x6c40c28, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDefaultResources* get_defaultResources();
 
-  /// @brief Method get_renderGraphPool, addr 0x6c3fb60, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_renderGraphPool, addr 0x6c40c40, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* get_renderGraphPool();
 
   /// @brief Convert to "::UnityEngine::Rendering::RenderGraphModule::IDerivedRendergraphContext"

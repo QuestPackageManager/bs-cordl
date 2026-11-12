@@ -78,10 +78,10 @@ public:
 
   static inline ::GlobalNamespace::OVRSceneModelLoader___c__DisplayClass9_0* New_ctor();
 
-  /// @brief Method <RequestScenePermissionAsync>b__1, addr 0x632271c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <RequestScenePermissionAsync>b__1, addr 0x63229a4, size 0x50, virtual false, abstract: false, final false
   inline void _RequestScenePermissionAsync_b__1(::StringW _);
 
-  /// @brief Method <RequestScenePermissionAsync>b__2, addr 0x632276c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <RequestScenePermissionAsync>b__2, addr 0x63229f4, size 0x50, virtual false, abstract: false, final false
   inline void _RequestScenePermissionAsync_b__2(::StringW _);
 
   constexpr ::System::Guid const& __cordl_internal_get_taskId() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_taskId(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x6322718, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63229a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -154,26 +154,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x63227c0, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6322a48, size 0xb8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6322878, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6322b00, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6322880, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6322b08, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x63228b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6322b40, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x63227bc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6322a44, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -201,7 +201,7 @@ public:
   constexpr void __cordl_internal_set__timeSinceReminder_5__2(float_t value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x6321ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x632214c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -267,11 +267,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x63228c0, size 0x3dc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6322b48, size 0x3dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x6322c9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x6322f24, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -348,44 +348,44 @@ public:
   __declspec(property(get = __cordl_internal_get__sceneCaptureRequested, put = __cordl_internal_set__sceneCaptureRequested)) bool _sceneCaptureRequested;
 
   /// [IteratorStateMachine(typeof(OVRSceneModelLoader::<AttemptToLoadSceneModel>d__7))]
-  /// @brief Method AttemptToLoadSceneModel, addr 0x6321e70, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AttemptToLoadSceneModel, addr 0x63220f8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AttemptToLoadSceneModel();
 
-  /// @brief Method LoadSceneModel, addr 0x6321ed0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneModel, addr 0x6322158, size 0x140, virtual false, abstract: false, final false
   inline void LoadSceneModel();
 
   static inline ::GlobalNamespace::OVRSceneModelLoader* New_ctor();
 
   /// [AsyncStateMachine(typeof(OVRSceneModelLoader::<OnLoadSceneModelFailedPermissionNotGranted>d__10))]
-  /// @brief Method OnLoadSceneModelFailedPermissionNotGranted, addr 0x63221ac, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method OnLoadSceneModelFailedPermissionNotGranted, addr 0x6322434, size 0xa0, virtual true, abstract: false, final false
   inline void OnLoadSceneModelFailedPermissionNotGranted();
 
-  /// @brief Method OnNewSceneModelAvailable, addr 0x6322484, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method OnNewSceneModelAvailable, addr 0x632270c, size 0xe0, virtual true, abstract: false, final false
   inline void OnNewSceneModelAvailable();
 
-  /// @brief Method OnNoSceneModelToLoad, addr 0x6322324, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method OnNoSceneModelToLoad, addr 0x63225ac, size 0x160, virtual true, abstract: false, final false
   inline void OnNoSceneModelToLoad();
 
-  /// @brief Method OnSceneCaptureReturnedWithoutError, addr 0x6322564, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method OnSceneCaptureReturnedWithoutError, addr 0x63227ec, size 0xd8, virtual true, abstract: false, final false
   inline void OnSceneCaptureReturnedWithoutError();
 
-  /// @brief Method OnSceneModelLoadedSuccessfully, addr 0x632224c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method OnSceneModelLoadedSuccessfully, addr 0x63224d4, size 0xd8, virtual true, abstract: false, final false
   inline void OnSceneModelLoadedSuccessfully();
 
-  /// @brief Method OnStart, addr 0x6321ecc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnStart, addr 0x6322154, size 0x4, virtual true, abstract: false, final false
   inline void OnStart();
 
-  /// @brief Method OnUnexpectedErrorWithSceneCapture, addr 0x632263c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method OnUnexpectedErrorWithSceneCapture, addr 0x63228c4, size 0xd8, virtual true, abstract: false, final false
   inline void OnUnexpectedErrorWithSceneCapture();
 
-  /// @brief Method RequestScenePermissionAsync, addr 0x6322010, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RequestScenePermissionAsync, addr 0x6322298, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> RequestScenePermissionAsync();
 
-  /// @brief Method Start, addr 0x6321a4c, size 0x424, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x6321cd4, size 0x424, virtual true, abstract: false, final false
   inline void Start();
 
   /// [CompilerGenerated]
-  /// @brief Method <RequestScenePermissionAsync>g__RequestPermissionOnAndroid|9_0, addr 0x6322014, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method <RequestScenePermissionAsync>g__RequestPermissionOnAndroid|9_0, addr 0x632229c, size 0x198, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTask_1<bool> _RequestScenePermissionAsync_g__RequestPermissionOnAndroid_9_0();
 
   constexpr ::UnityW<::GlobalNamespace::OVRSceneManager> const& __cordl_internal_get__SceneManager_k__BackingField() const;
@@ -400,15 +400,15 @@ public:
 
   constexpr void __cordl_internal_set__sceneCaptureRequested(bool value);
 
-  /// @brief Method .ctor, addr 0x6322714, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x632299c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_SceneManager, addr 0x6321a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SceneManager, addr 0x6321cc4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRSceneManager> get_SceneManager();
 
   /// [CompilerGenerated]
-  /// @brief Method set_SceneManager, addr 0x6321a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SceneManager, addr 0x6321ccc, size 0x8, virtual false, abstract: false, final false
   inline void set_SceneManager(::GlobalNamespace::OVRSceneManager* value);
 
 protected:

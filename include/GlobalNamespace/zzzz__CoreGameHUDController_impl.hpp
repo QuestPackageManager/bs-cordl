@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CoreGameHUDController_InitData::*)(bool, bool, bool)>(&::GlobalNamespace::CoreGameHUDController_InitData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5e021c8;
+  constexpr static std::size_t addrs = 0x5e025cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoreGameHUDController_InitData*>(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CoreGameHUDController::*)()>(
     &::GlobalNamespace::CoreGameHUDController::get_songProgressPanelGO)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e020fc;
+  constexpr static std::size_t addrs = 0x5e02500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoreGameHUDController*>(), { "get_songProgressPanelGO", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CoreGameHUDController::*)()>(
     &::GlobalNamespace::CoreGameHUDController::get_relativeScoreGo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e02104;
+  constexpr static std::size_t addrs = 0x5e02508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoreGameHUDController*>(), { "get_relativeScoreGo", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CoreGameHUDController::*)()>(
     &::GlobalNamespace::CoreGameHUDController::get_immediateRankGo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0210c;
+  constexpr static std::size_t addrs = 0x5e02510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoreGameHUDController*>(), { "get_immediateRankGo", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::CoreGameHUDController::*)()>(
     &::GlobalNamespace::CoreGameHUDController::get_energyPanelGo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e02114;
+  constexpr static std::size_t addrs = 0x5e02518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoreGameHUDController*>(), { "get_energyPanelGo", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CoreGameHUDController::*)(float_t)>(&::GlobalNamespace::CoreGameHUDController::set_alpha)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e0211c;
+  constexpr static std::size_t addrs = 0x5e02520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CoreGameHUDController::*)(::GlobalNamespace::CoreGameHUDController_InitData*)>(
     &::GlobalNamespace::CoreGameHUDController::Initialize)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5e02134;
+  constexpr static std::size_t addrs = 0x5e02538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoreGameHUDController*>(),
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CoreGameHUDController::*)()>(&::GlobalNamespace::CoreGameHUDController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e021c4;
+  constexpr static std::size_t addrs = 0x5e025c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CoreGameHUDController*>(), { ".ctor", {}, {} })));

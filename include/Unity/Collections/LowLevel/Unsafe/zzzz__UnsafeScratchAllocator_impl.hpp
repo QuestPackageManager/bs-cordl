@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator::*)(void*, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6934a6c;
+  constexpr static std::size_t addrs = 0x6935b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator::*)(uint64_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator::CheckAllocationDoesNotExceedCapacity)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6934a78;
+  constexpr static std::size_t addrs = 0x6935b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator>(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator::*)(int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator::Allocate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6934b44;
+  constexpr static std::size_t addrs = 0x6935c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::LowLevel::Unsafe::UnsafeScratchAllocator>(),

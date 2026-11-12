@@ -267,7 +267,7 @@ public:
   /// @brief Field _SURFACE_TYPE_TRANSPARENT, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__SURFACE_TYPE_TRANSPARENT, put = setStaticF__SURFACE_TYPE_TRANSPARENT)) ::UnityEngine::Rendering::GlobalKeyword _SURFACE_TYPE_TRANSPARENT;
 
-  /// @brief Method InitializeShaderGlobalKeywords, addr 0x6d4bc20, size 0x1608, virtual false, abstract: false, final false
+  /// @brief Method InitializeShaderGlobalKeywords, addr 0x6d4cd00, size 0x1608, virtual false, abstract: false, final false
   static inline void InitializeShaderGlobalKeywords();
 
   static inline ::UnityEngine::Rendering::GlobalKeyword getStaticF_AdditionalLightShadows();

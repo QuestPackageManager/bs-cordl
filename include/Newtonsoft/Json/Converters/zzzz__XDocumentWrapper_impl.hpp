@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Linq::XDocument* (::Newtonsoft::Json::Converters::XDocumentWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::get_Document)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x61f6a40;
+  constexpr static std::size_t addrs = 0x61f6cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XDocumentWrapper*>(), { "get_Document", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Converters::XDocumentWrapper::*)(::System::Xml::Linq::XDocument*)>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61f6abc;
+  constexpr static std::size_t addrs = 0x61f6d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* (::Newtonsoft::Json::Converters::XDocumentWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::get_ChildNodes)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x61f6acc;
+  constexpr static std::size_t addrs = 0x61f6d54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Converters::XDocumentWrapper::*)()>(&::Newtonsoft::Json::Converters::XDocumentWrapper::get_HasChildNodes)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61f702c;
+  constexpr static std::size_t addrs = 0x61f72b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (::Newtonsoft::Json::Converters::XDocumentWrapper::*)(::StringW)>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::CreateComment)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x61f7090;
+  constexpr static std::size_t addrs = 0x61f7318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (::Newtonsoft::Json::Converters::XDocumentWrapper::*)(::StringW)>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::CreateTextNode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x61f7110;
+  constexpr static std::size_t addrs = 0x61f7398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (::Newtonsoft::Json::Converters::XDocumentWrapper::*)(::StringW)>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::CreateCDataSection)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x61f7190;
+  constexpr static std::size_t addrs = 0x61f7418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (::Newtonsoft::Json::Converters::XDocumentWrapper::*)(::StringW)>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::CreateWhitespace)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x61f720c;
+  constexpr static std::size_t addrs = 0x61f7494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (::Newtonsoft::Json::Converters::XDocumentWrapper::*)(::StringW)>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::CreateSignificantWhitespace)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x61f728c;
+  constexpr static std::size_t addrs = 0x61f7514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (::Newtonsoft::Json::Converters::XDocumentWrapper::*)(::StringW, ::StringW, ::StringW)>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::CreateXmlDeclaration)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x61f730c;
+  constexpr static std::size_t addrs = 0x61f7594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (::Newtonsoft::Json::Converters::XDocumentWrapper::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::CreateXmlDocumentType)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x61f7398;
+  constexpr static std::size_t addrs = 0x61f7620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (::Newtonsoft::Json::Converters::XDocumentWrapper::*)(::StringW, ::StringW)>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::CreateProcessingInstruction)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x61f7440;
+  constexpr static std::size_t addrs = 0x61f76c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XDocumentWrapper*>(),
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Converters::IXmlElement* (::Newtonsoft::Json::Converters::XDocumentWrapper::*)(::StringW)>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::CreateElement)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x61f74d8;
+  constexpr static std::size_t addrs = 0x61f7760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Converters::IXmlElement* (::Newtonsoft::Json::Converters::XDocumentWrapper::*)(::StringW, ::StringW)>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::CreateElement)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x61f7570;
+  constexpr static std::size_t addrs = 0x61f77f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (::Newtonsoft::Json::Converters::XDocumentWrapper::*)(::StringW, ::StringW)>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::CreateAttribute)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x61f7630;
+  constexpr static std::size_t addrs = 0x61f78b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XDocumentWrapper*>(),
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (::Newtonsoft::Json::Converters::XDocumentWrapper::*)(::StringW, ::StringW, ::StringW)>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::CreateAttribute)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x61f76d8;
+  constexpr static std::size_t addrs = 0x61f7960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Converters::IXmlElement* (::Newtonsoft::Json::Converters::XDocumentWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::get_DocumentElement)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x61f77a0;
+  constexpr static std::size_t addrs = 0x61f7a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Converters::XDocumentWrapper*>(), { "get_DocumentElement", {}, {} })));
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (::Newtonsoft::Json::Converters::XDocumentWrapper::*)(::Newtonsoft::Json::Converters::IXmlNode*)>(
     &::Newtonsoft::Json::Converters::XDocumentWrapper::AppendChild)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x61f7828;
+  constexpr static std::size_t addrs = 0x61f7ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

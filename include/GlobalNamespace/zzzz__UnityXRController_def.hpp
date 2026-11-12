@@ -5,6 +5,7 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__VRControllerManufacturer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/XR/zzzz__InputDevice_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 CORDL_MODULE_EXPORT(UnityXRController)
 namespace BeatSaber::Haptics {
@@ -32,13 +33,16 @@ class UnityXRController;
 // Write type traits
 MARK_REF_T(::GlobalNamespace::UnityXRController*);
 DEFINE_IL2CPP_CLASS(::GlobalNamespace::UnityXRController*, "", "UnityXRController");
-// Dependencies System.Object, UnityEngine.XR.XRNode, VRControllerManufacturer
+// Dependencies System.Object, UnityEngine.XR.InputDevice, UnityEngine.XR.XRNode, VRControllerManufacturer
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: UnityXRController
 class CORDL_TYPE UnityXRController : public ::System::Object {
 public:
   // Declarations
+  /// @brief Field _device, offset 0x48, size 0x10
+  __declspec(property(get = __cordl_internal_get__device, put = __cordl_internal_set__device)) ::UnityEngine::XR::InputDevice _device;
+
   /// @brief Field <hapticsHandler>k__BackingField, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__hapticsHandler_k__BackingField,
                       put = __cordl_internal_set__hapticsHandler_k__BackingField)) ::BeatSaber::Haptics::IHapticImpulseTransmitter* _hapticsHandler_k__BackingField;
@@ -48,6 +52,8 @@ public:
                       put = __cordl_internal_set__manufacturer_k__BackingField)) ::GlobalNamespace::VRControllerManufacturer _manufacturer_k__BackingField;
 
   __declspec(property(get = get_hapticsHandler, put = set_hapticsHandler)) ::BeatSaber::Haptics::IHapticImpulseTransmitter* hapticsHandler;
+
+  __declspec(property(get = get_isTracked)) bool isTracked;
 
   __declspec(property(get = get_manufacturer, put = set_manufacturer)) ::GlobalNamespace::VRControllerManufacturer manufacturer;
 
@@ -70,17 +76,21 @@ public:
                                                                ::UnityEngine::InputSystem::InputAction* rotationAction, ::UnityEngine::InputSystem::InputAction* thumbstickAction,
                                                                ::UnityEngine::InputSystem::InputAction* triggerAction);
 
-  /// @brief Method ResetManufacturerName, addr 0x5d72448, size 0x8, virtual false, abstract: false, final false
-  inline void ResetManufacturerName();
+  /// @brief Method ResetController, addr 0x5d72110, size 0xc, virtual false, abstract: false, final false
+  inline void ResetController();
 
-  /// @brief Method SetupController, addr 0x5d7210c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetupController, addr 0x5d71dd0, size 0x38, virtual false, abstract: false, final false
   inline bool SetupController(::UnityEngine::XR::InputDevice device, ::UnityEngine::MonoBehaviour* coroutineRunner);
 
-  /// @brief Method TryToUpdateManufacturerName, addr 0x5d72140, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method TryToUpdateManufacturerName, addr 0x5d71e08, size 0x188, virtual false, abstract: false, final false
   inline bool TryToUpdateManufacturerName(::UnityEngine::XR::InputDevice device);
 
-  /// @brief Method UpdateHapticsHandler, addr 0x5d722c8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method UpdateHapticsHandler, addr 0x5d71f90, size 0x180, virtual false, abstract: false, final false
   inline void UpdateHapticsHandler(::UnityEngine::MonoBehaviour* coroutineRunner);
+
+  constexpr ::UnityEngine::XR::InputDevice const& __cordl_internal_get__device() const;
+
+  constexpr ::UnityEngine::XR::InputDevice& __cordl_internal_get__device();
 
   constexpr ::BeatSaber::Haptics::IHapticImpulseTransmitter* const& __cordl_internal_get__hapticsHandler_k__BackingField() const;
 
@@ -110,6 +120,8 @@ public:
 
   constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_triggerAction();
 
+  constexpr void __cordl_internal_set__device(::UnityEngine::XR::InputDevice value);
+
   constexpr void __cordl_internal_set__hapticsHandler_k__BackingField(::BeatSaber::Haptics::IHapticImpulseTransmitter* value);
 
   constexpr void __cordl_internal_set__manufacturer_k__BackingField(::GlobalNamespace::VRControllerManufacturer value);
@@ -124,24 +136,27 @@ public:
 
   constexpr void __cordl_internal_set_triggerAction(::UnityEngine::InputSystem::InputAction* value);
 
-  /// @brief Method .ctor, addr 0x5d71414, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d71034, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::InputSystem::InputAction* positionAction, ::UnityEngine::InputSystem::InputAction* rotationAction,
                     ::UnityEngine::InputSystem::InputAction* thumbstickAction, ::UnityEngine::InputSystem::InputAction* triggerAction);
 
   /// [CompilerGenerated]
-  /// @brief Method get_hapticsHandler, addr 0x5d720ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hapticsHandler, addr 0x5d71d0c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Haptics::IHapticImpulseTransmitter* get_hapticsHandler();
 
+  /// @brief Method get_isTracked, addr 0x5d71d2c, size 0xa4, virtual false, abstract: false, final false
+  inline bool get_isTracked();
+
   /// [CompilerGenerated]
-  /// @brief Method get_manufacturer, addr 0x5d720fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_manufacturer, addr 0x5d71d1c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::VRControllerManufacturer get_manufacturer();
 
   /// [CompilerGenerated]
-  /// @brief Method set_hapticsHandler, addr 0x5d720f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hapticsHandler, addr 0x5d71d14, size 0x8, virtual false, abstract: false, final false
   inline void set_hapticsHandler(::BeatSaber::Haptics::IHapticImpulseTransmitter* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_manufacturer, addr 0x5d72104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_manufacturer, addr 0x5d71d24, size 0x8, virtual false, abstract: false, final false
   inline void set_manufacturer(::GlobalNamespace::VRControllerManufacturer value);
 
 protected:
@@ -159,7 +174,7 @@ public:
   UnityXRController(UnityXRController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6930 };
 
   /// @brief Field positionAction, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputAction* ___positionAction;
@@ -184,6 +199,9 @@ public:
   /// @brief Field <manufacturer>k__BackingField, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::VRControllerManufacturer ____manufacturer_k__BackingField;
 
+  /// @brief Field _device, offset: 0x48, size: 0x10, def value: None
+  ::UnityEngine::XR::InputDevice ____device;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -201,6 +219,8 @@ static_assert(offsetof(::GlobalNamespace::UnityXRController, ____hapticsHandler_
 
 static_assert(offsetof(::GlobalNamespace::UnityXRController, ____manufacturer_k__BackingField) == 0x40, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::UnityXRController) == 0x48, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::UnityXRController, ____device) == 0x48, "Offset mismatch!");
+
+static_assert(sizeof(::GlobalNamespace::UnityXRController) == 0x58, "Size mismatch!");
 
 } // namespace GlobalNamespace

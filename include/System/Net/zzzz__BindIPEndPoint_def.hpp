@@ -32,12 +32,12 @@ namespace System::Net {
 class CORDL_TYPE BindIPEndPoint : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x688d4e0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x688db30, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::IPEndPoint* Invoke(::System::Net::ServicePoint* servicePoint, ::System::Net::IPEndPoint* remoteEndPoint, int32_t retryCount);
 
   static inline ::System::Net::BindIPEndPoint* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x688d398, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x688d9e8, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

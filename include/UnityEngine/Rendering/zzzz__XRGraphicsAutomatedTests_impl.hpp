@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::XRGraphicsAutomatedTests::get_activatedFromCommandLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c2dae4;
+  constexpr static std::size_t addrs = 0x6c2ebc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::XRGraphicsAutomatedTests::get_enabled)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6c2daec;
+  constexpr static std::size_t addrs = 0x6c2ebcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::XRGraphicsAutomatedTests*>(), { "get_enabled", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::Rendering::XRGraphicsAutomatedTests::set_enabled)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c2db48;
+  constexpr static std::size_t addrs = 0x6c2ec28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Experimental::Rendering::XRLayout*, ::UnityEngine::Camera*)>(
     &::UnityEngine::Rendering::XRGraphicsAutomatedTests::OverrideLayout)> {
   constexpr static std::size_t size = 0x5b8;
-  constexpr static std::size_t addrs = 0x6c2dbac;
+  constexpr static std::size_t addrs = 0x6c2ec8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

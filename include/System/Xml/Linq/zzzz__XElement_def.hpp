@@ -124,34 +124,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x660e470, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x660eac0, size 0xa8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::System::Xml::Linq::XElement__GetAttributes_d__116* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Xml.Linq.XAttribute>.GetEnumerator, addr 0x660e560, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Xml.Linq.XAttribute>.GetEnumerator, addr 0x660ebb0, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Xml::Linq::XAttribute*>* System_Collections_Generic_IEnumerable_System_Xml_Linq_XAttribute__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Xml.Linq.XAttribute>.get_Current, addr 0x660e518, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Xml.Linq.XAttribute>.get_Current, addr 0x660eb68, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Linq::XAttribute* System_Collections_Generic_IEnumerator_System_Xml_Linq_XAttribute__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x660e600, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x660ec50, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x660e520, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x660eb70, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x660e558, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x660eba8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x660e46c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x660eabc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -197,7 +197,7 @@ public:
   constexpr void __cordl_internal_set_name(::System::Xml::Linq::XName* value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x660dba4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x660e1f4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>"
@@ -230,7 +230,7 @@ public:
   XElement__GetAttributes_d__116(XElement__GetAttributes_d__116 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22812 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -303,35 +303,35 @@ public:
   /// @brief Convert operator to "::System::Xml::Serialization::IXmlSerializable"
   constexpr operator ::System::Xml::Serialization::IXmlSerializable*() noexcept;
 
-  /// @brief Method AddAttribute, addr 0x660d820, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x660de70, size 0xf0, virtual true, abstract: false, final false
   inline void AddAttribute(::System::Xml::Linq::XAttribute* a);
 
-  /// @brief Method AddAttributeSkipNotify, addr 0x660da3c, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method AddAttributeSkipNotify, addr 0x660e08c, size 0x10c, virtual true, abstract: false, final false
   inline void AddAttributeSkipNotify(::System::Xml::Linq::XAttribute* a);
 
-  /// @brief Method AppendAttribute, addr 0x660d910, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method AppendAttribute, addr 0x660df60, size 0x12c, virtual false, abstract: false, final false
   inline void AppendAttribute(::System::Xml::Linq::XAttribute* a);
 
-  /// @brief Method AppendAttributeSkipNotify, addr 0x660c008, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method AppendAttributeSkipNotify, addr 0x660c658, size 0x34, virtual false, abstract: false, final false
   inline void AppendAttributeSkipNotify(::System::Xml::Linq::XAttribute* a);
 
-  /// @brief Method Attribute, addr 0x660d230, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Attribute, addr 0x660d880, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XAttribute* Attribute(::System::Xml::Linq::XName* name);
 
-  /// @brief Method Attributes, addr 0x660d26c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Attributes, addr 0x660d8bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>* Attributes();
 
-  /// @brief Method CloneNode, addr 0x660db48, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x660e198, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
   /// [IteratorStateMachine(typeof(System.Xml.Linq.XElement::<GetAttributes>d__116))]
-  /// @brief Method GetAttributes, addr 0x660d274, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x660d8c4, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Xml::Linq::XAttribute*>* GetAttributes(::System::Xml::Linq::XName* name);
 
-  /// @brief Method GetNamespaceOfPrefixInScope, addr 0x660d2fc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetNamespaceOfPrefixInScope, addr 0x660d94c, size 0xf4, virtual false, abstract: false, final false
   inline ::StringW GetNamespaceOfPrefixInScope(::StringW prefix, ::System::Xml::Linq::XElement* outOfScope);
 
-  /// @brief Method GetPrefixOfNamespace, addr 0x66087b8, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetPrefixOfNamespace, addr 0x6608e08, size 0x21c, virtual false, abstract: false, final false
   inline ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns);
 
   static inline ::System::Xml::Linq::XElement* New_ctor(::System::Xml::Linq::XName* name);
@@ -340,28 +340,28 @@ public:
 
   static inline ::System::Xml::Linq::XElement* New_ctor(::System::Xml::Linq::XStreamingElement* other);
 
-  /// @brief Method ReadElementFrom, addr 0x660d79c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadElementFrom, addr 0x660ddec, size 0x78, virtual false, abstract: false, final false
   inline void ReadElementFrom(::System::Xml::XmlReader* r, ::System::Xml::Linq::LoadOptions o);
 
-  /// @brief Method ReadElementFromImpl, addr 0x660dbc4, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method ReadElementFromImpl, addr 0x660e214, size 0x4e4, virtual false, abstract: false, final false
   inline void ReadElementFromImpl(::System::Xml::XmlReader* r, ::System::Xml::Linq::LoadOptions o);
 
-  /// @brief Method SetEndElementLineInfo, addr 0x660c208, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetEndElementLineInfo, addr 0x660c858, size 0x68, virtual false, abstract: false, final false
   inline void SetEndElementLineInfo(int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x660d608, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x660dc58, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x660d610, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x660dc60, size 0x18c, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader* reader);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x660d814, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x660de64, size 0xc, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method ValidateNode, addr 0x660e328, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ValidateNode, addr 0x660e978, size 0x144, virtual true, abstract: false, final false
   inline void ValidateNode(::System::Xml::Linq::XNode* node, ::System::Xml::Linq::XNode* previous);
 
-  /// @brief Method WriteTo, addr 0x660d3f0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x660da40, size 0x78, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
   constexpr ::System::Xml::Linq::XAttribute* const& __cordl_internal_get_lastAttr() const;
@@ -376,34 +376,34 @@ public:
 
   constexpr void __cordl_internal_set_name(::System::Xml::Linq::XName* value);
 
-  /// @brief Method .ctor, addr 0x660bfb0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x660c600, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XName* name);
 
-  /// @brief Method .ctor, addr 0x660d060, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x660d6b0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XElement* other);
 
-  /// @brief Method .ctor, addr 0x6609dd0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x660a420, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XStreamingElement* other);
 
-  /// @brief Method get_HasAttributes, addr 0x660d120, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasAttributes, addr 0x660d770, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasAttributes();
 
-  /// @brief Method get_IsEmpty, addr 0x660d130, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x660d780, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_Name, addr 0x660d140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x660d790, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XName* get_Name();
 
-  /// @brief Method get_NodeType, addr 0x660d148, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x660d798, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Value, addr 0x660d150, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x660d7a0, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   /// @brief Convert to "::System::Xml::Serialization::IXmlSerializable"
   constexpr ::System::Xml::Serialization::IXmlSerializable* i___System__Xml__Serialization__IXmlSerializable() noexcept;
 
-  /// @brief Method set_Value, addr 0x660d1bc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x660d80c, size 0x74, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -421,7 +421,7 @@ public:
   XElement(XElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22813 };
 
   /// @brief Field name, offset: 0x30, size: 0x8, def value: None
   ::System::Xml::Linq::XName* ___name;

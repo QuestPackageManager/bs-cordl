@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::*)(float_t, float_t, float_t, float_t)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e7ac6c;
+  constexpr static std::size_t addrs = 0x6e7bd4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::*)(::UnityEngine::Quaternion)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e7a870;
+  constexpr static std::size_t addrs = 0x6e7b950;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf (*)(float_t, float_t, float_t, float_t)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::FromSessionSpaceCoordinates)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e7ac80;
+  constexpr static std::size_t addrs = 0x6e7bd60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf (*)(::UnityEngine::Quaternion)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::FromSessionSpaceCoordinates)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e7a8c4;
+  constexpr static std::size_t addrs = 0x6e7b9a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::AsQuaternion)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e7ac84;
+  constexpr static std::size_t addrs = 0x6e7bd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf>(), { "AsQuaternion", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Quaternion (::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::ToSessionSpaceQuaternion)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6e7a918;
+  constexpr static std::size_t addrs = 0x6e7b9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::*)(::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::Equals)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6e7a96c;
+  constexpr static std::size_t addrs = 0x6e7ba4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf>(),
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::*)(::System::Object*)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::Equals)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6e7ac98;
+  constexpr static std::size_t addrs = 0x6e7bd78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf>(),
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::*)()>(&::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf::GetHashCode)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6e7ad1c;
+  constexpr static std::size_t addrs = 0x6e7bdfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrQuaternionf>(),

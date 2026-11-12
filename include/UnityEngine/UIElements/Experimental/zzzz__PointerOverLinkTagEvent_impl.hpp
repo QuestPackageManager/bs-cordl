@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent___c::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x720d478;
+  constexpr static std::size_t addrs = 0x720e558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent* (::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent___c::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x720d47c;
+  constexpr static std::size_t addrs = 0x720e55c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent::*)(::StringW)>(
     &::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent::set_linkID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x720d2e4;
+  constexpr static std::size_t addrs = 0x720e3c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent::*)(::StringW)>(
     &::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent::set_linkText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x720d2ec;
+  constexpr static std::size_t addrs = 0x720e3cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent::Init)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x720d2f4;
+  constexpr static std::size_t addrs = 0x720e3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent*>(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent::LocalInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x720d34c;
+  constexpr static std::size_t addrs = 0x720e42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent* (*)(::UnityEngine::UIElements::IPointerEvent*, ::StringW, ::StringW)>(
     &::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent::GetPooled)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x720d358;
+  constexpr static std::size_t addrs = 0x720e438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x720d3c4;
+  constexpr static std::size_t addrs = 0x720e4a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent*>(), { ".ctor", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent::Dispatch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x720d41c;
+  constexpr static std::size_t addrs = 0x720e4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Experimental::PointerOverLinkTagEvent*>(),

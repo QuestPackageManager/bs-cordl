@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::PropertyPath::*)()>(&::Unity::Properties::PropertyPath::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70477cc;
+  constexpr static std::size_t addrs = 0x70488ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { "get_Length", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PropertyPath::*)()>(&::Unity::Properties::PropertyPath::get_IsEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x70477d4;
+  constexpr static std::size_t addrs = 0x70488b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { "get_IsEmpty", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPathPart (::Unity::Properties::PropertyPath::*)(int32_t)>(&::Unity::Properties::PropertyPath::get_Item)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x70477e4;
+  constexpr static std::size_t addrs = 0x70488c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { "get_Item", {}, { ::i2c::type_of<int32_t>() } })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PropertyPath::*)(::StringW)>(&::Unity::Properties::PropertyPath::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x70478d0;
+  constexpr static std::size_t addrs = 0x70489b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PropertyPath::*)(::by_ref<::Unity::Properties::PropertyPathPart const>)>(&::Unity::Properties::PropertyPath::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x7048a38;
+  constexpr static std::size_t addrs = 0x7049b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PropertyPath::*)(::by_ref<::Unity::Properties::PropertyPathPart const>,
                                                                                                    ::by_ref<::Unity::Properties::PropertyPathPart const>)>(&::Unity::Properties::PropertyPath::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x7048a60;
+  constexpr static std::size_t addrs = 0x7049b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties
     ::by_ref<::Unity::Properties::PropertyPathPart const>, ::by_ref<::Unity::Properties::PropertyPathPart const>, ::by_ref<::Unity::Properties::PropertyPathPart const>)>(
     &::Unity::Properties::PropertyPath::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x7048a8c;
+  constexpr static std::size_t addrs = 0x7049b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties
     ::by_ref<::Unity::Properties::PropertyPathPart const>, ::by_ref<::Unity::Properties::PropertyPathPart const>, ::by_ref<::Unity::Properties::PropertyPathPart const>,
     ::by_ref<::Unity::Properties::PropertyPathPart const>)>(&::Unity::Properties::PropertyPath::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x7048abc;
+  constexpr static std::size_t addrs = 0x7049b9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PropertyPath::*)(::System::Collections::Generic::List_1<::Unity::Properties::PropertyPathPart>*)>(
     &::Unity::Properties::PropertyPath::_ctor)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x7048aec;
+  constexpr static std::size_t addrs = 0x7049bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(int32_t)>(&::Unity::Properties::PropertyPath::FromIndex)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x7048ce4;
+  constexpr static std::size_t addrs = 0x7049dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(), { "FromIndex", {}, { ::i2c::type_of<int32_t>() } })));
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath const>, ::by_ref<::Unity::Properties::PropertyPath const>)>(
     &::Unity::Properties::PropertyPath::Combine)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x7048d38;
+  constexpr static std::size_t addrs = 0x7049e18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath const>, ::by_ref<::Unity::Properties::PropertyPathPart const>)>(
     &::Unity::Properties::PropertyPath::AppendPart)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x70491b8;
+  constexpr static std::size_t addrs = 0x704a298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath const>, int32_t)>(
     &::Unity::Properties::PropertyPath::AppendIndex)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x7049534;
+  constexpr static std::size_t addrs = 0x704a614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath const>, ::Unity::Properties::IProperty*)>(
     &::Unity::Properties::PropertyPath::AppendProperty)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x7049590;
+  constexpr static std::size_t addrs = 0x704a670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath const>)>(&::Unity::Properties::PropertyPath::Pop)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x704984c;
+  constexpr static std::size_t addrs = 0x704a92c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::by_ref<::Unity::Properties::PropertyPath const>, int32_t, int32_t)>(
     &::Unity::Properties::PropertyPath::SubPath)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x7049888;
+  constexpr static std::size_t addrs = 0x704a968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Unity::Properties::PropertyPath::*)()>(&::Unity::Properties::PropertyPath::ToString)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x7049d4c;
+  constexpr static std::size_t addrs = 0x704ae2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Properties::PropertyPathPart const>, ::System::Text::StringBuilder*)>(
     &::Unity::Properties::PropertyPath::AppendToBuilder)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x7049edc;
+  constexpr static std::size_t addrs = 0x704afbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Properties::PropertyPath const>, ::System::Collections::Generic::List_1<::Unity::Properties::PropertyPathPart>*)>(
     &::Unity::Properties::PropertyPath::GetParts)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x70490cc;
+  constexpr static std::size_t addrs = 0x704a1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PropertyPath>(),
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (*)(::StringW)>(&::Unity::Properties::PropertyPath::ConstructFromPath)> {
   constexpr static std::size_t size = 0x10fc;
-  constexpr static std::size_t addrs = 0x704793c;
+  constexpr static std::size_t addrs = 0x7048a1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Properties::PropertyPath, ::Unity::Properties::PropertyPath)>(&::Unity::Properties::PropertyPath::op_Equality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x704a130;
+  constexpr static std::size_t addrs = 0x704b210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Unity::Properties::PropertyPath, ::Unity::Properties::PropertyPath)>(&::Unity::Properties::PropertyPath::op_Inequality)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x704a200;
+  constexpr static std::size_t addrs = 0x704b2e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -345,7 +345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PropertyPath::*)(::Unity::Properties::PropertyPath)>(&::Unity::Properties::PropertyPath::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x704a164;
+  constexpr static std::size_t addrs = 0x704b244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PropertyPath::*)(::System::Object*)>(&::Unity::Properties::PropertyPath::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x704a254;
+  constexpr static std::size_t addrs = 0x704b334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Properties::PropertyPath::*)()>(&::Unity::Properties::PropertyPath::GetHashCode)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x704a2e8;
+  constexpr static std::size_t addrs = 0x704b3c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Properties::PropertyPath___c__DisplayClass36_0>)>(
     &::Unity::Properties::PropertyPath::_ConstructFromPath_g__TrimStart_36_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x7049f8c;
+  constexpr static std::size_t addrs = 0x704b06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -400,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Properties::PropertyPath___c__DisplayClass36_0>)>(
     &::Unity::Properties::PropertyPath::_ConstructFromPath_g__ReadNext_36_1)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x7049fe8;
+  constexpr static std::size_t addrs = 0x704b0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

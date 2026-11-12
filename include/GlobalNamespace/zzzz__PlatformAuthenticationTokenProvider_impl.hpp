@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__13::*)()>(
     &::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__13::MoveNext)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x6398b38;
+  constexpr static std::size_t addrs = 0x63991a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__13::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__13::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6398ea0;
+  constexpr static std::size_t addrs = 0x639950c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__13>(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)()>(
     &::GlobalNamespace::PlatformAuthenticationTokenProvider::get_hashedUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63989cc;
+  constexpr static std::size_t addrs = 0x6399038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)()>(
     &::GlobalNamespace::PlatformAuthenticationTokenProvider::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63989d4;
+  constexpr static std::size_t addrs = 0x6399040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformAuthenticationTokenProvider*>(), { "get_userName", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::AuthenticationToken_PlatformType (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)()>(
     &::GlobalNamespace::PlatformAuthenticationTokenProvider::get_platformType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63989dc;
+  constexpr static std::size_t addrs = 0x6399048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)(::OculusStudios::Platform::Core::IPlatform*, ::GlobalNamespace::UserInfo*)>(
     &::GlobalNamespace::PlatformAuthenticationTokenProvider::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x63989e4;
+  constexpr static std::size_t addrs = 0x6399050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::AuthenticationToken_PlatformType (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)(
     ::GlobalNamespace::PlatformEnvironment)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider::GetTokenPlatform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6398a3c;
+  constexpr static std::size_t addrs = 0x63990a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlatformAuthenticationTokenProvider*>(),
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* (
     ::GlobalNamespace::PlatformAuthenticationTokenProvider::*)(::System::Threading::CancellationToken, bool)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider::GetXPlatformAccessToken)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6398a44;
+  constexpr static std::size_t addrs = 0x63990b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

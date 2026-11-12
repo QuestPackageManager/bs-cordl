@@ -26,7 +26,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::ResourcePathsAttribute* New_ctor(::ArrayW<::StringW> paths, ::UnityEngine::Rendering::SearchType location);
 
-  /// @brief Method .ctor, addr 0x6fa3a24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa4b04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW> paths, ::UnityEngine::Rendering::SearchType location);
 
 protected:

@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_m_List(::System::Collections::Generic::List_1<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>* value);
 
-  /// @brief Method .ctor, addr 0x6fa477c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa585c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_settingsList, addr 0x6fa4774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_settingsList, addr 0x6fa5854, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>* get_settingsList();
 
 protected:

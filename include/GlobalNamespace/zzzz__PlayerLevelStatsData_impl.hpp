@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PlayerLevelStatsData::*)()>(&::GlobalNamespace::PlayerLevelStatsData::get_levelID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a00cf4;
+  constexpr static std::size_t addrs = 0x3a05a48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerLevelStatsData*>(), { "get_levelID", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDifficulty (::GlobalNamespace::PlayerLevelStatsData::*)()>(&::GlobalNamespace::PlayerLevelStatsData::get_difficulty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a00cfc;
+  constexpr static std::size_t addrs = 0x3a05a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerLevelStatsData*>(), { "get_difficulty", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapCharacteristic (::GlobalNamespace::PlayerLevelStatsData::*)()>(
     &::GlobalNamespace::PlayerLevelStatsData::get_beatmapCharacteristic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a00d04;
+  constexpr static std::size_t addrs = 0x3a05a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerLevelStatsData*>(), { "get_beatmapCharacteristic", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayType (::GlobalNamespace::PlayerLevelStatsData::*)()>(&::GlobalNamespace::PlayerLevelStatsData::get_gameplayType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a00d0c;
+  constexpr static std::size_t addrs = 0x3a05a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerLevelStatsData*>(), { "get_gameplayType", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::PlayerLevelStatsData::*)()>(&::GlobalNamespace::PlayerLevelStatsData::get_highScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a00d14;
+  constexpr static std::size_t addrs = 0x3a05a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerLevelStatsData*>(), { "get_highScore", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::PlayerLevelStatsData::*)()>(&::GlobalNamespace::PlayerLevelStatsData::get_maxCombo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a00d1c;
+  constexpr static std::size_t addrs = 0x3a05a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerLevelStatsData*>(), { "get_maxCombo", {}, {} })));
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerLevelStatsData::*)()>(&::GlobalNamespace::PlayerLevelStatsData::get_fullCombo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a00d24;
+  constexpr static std::size_t addrs = 0x3a05a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerLevelStatsData*>(), { "get_fullCombo", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::RankModel_Rank (::GlobalNamespace::PlayerLevelStatsData::*)()>(&::GlobalNamespace::PlayerLevelStatsData::get_maxRank)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a00d2c;
+  constexpr static std::size_t addrs = 0x3a05a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerLevelStatsData*>(), { "get_maxRank", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PlayerLevelStatsData::*)()>(&::GlobalNamespace::PlayerLevelStatsData::get_validScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a00d34;
+  constexpr static std::size_t addrs = 0x3a05a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerLevelStatsData*>(), { "get_validScore", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::PlayerLevelStatsData::*)()>(&::GlobalNamespace::PlayerLevelStatsData::get_playCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a00d3c;
+  constexpr static std::size_t addrs = 0x3a05a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerLevelStatsData*>(), { "get_playCount", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerLevelStatsData::*)(::by_ref<::GlobalNamespace::BeatmapKey const>)>(
     &::GlobalNamespace::PlayerLevelStatsData::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39faeb0;
+  constexpr static std::size_t addrs = 0x39ffc04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerLevelStatsData::*)(::StringW, ::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristic)>(
     &::GlobalNamespace::PlayerLevelStatsData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a00d44;
+  constexpr static std::size_t addrs = 0x3a05a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                          int32_t, int32_t, bool, ::GlobalNamespace::RankModel_Rank, bool, int32_t)>(
     &::GlobalNamespace::PlayerLevelStatsData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39fee2c;
+  constexpr static std::size_t addrs = 0x3a03b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerLevelStatsData::*)(int32_t, int32_t, bool, ::GlobalNamespace::RankModel_Rank)>(
     &::GlobalNamespace::PlayerLevelStatsData::UpdateScoreData)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x39faa98;
+  constexpr static std::size_t addrs = 0x39ff7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlayerLevelStatsData::*)()>(&::GlobalNamespace::PlayerLevelStatsData::IncreaseNumberOfGameplays)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39fb2c8;
+  constexpr static std::size_t addrs = 0x3a0001c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerLevelStatsData*>(), { "IncreaseNumberOfGameplays", {}, {} })));
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::PlayerLevelStatsData::*)()>(&::GlobalNamespace::PlayerLevelStatsData::GetBeatmapKey)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39faa80;
+  constexpr static std::size_t addrs = 0x39ff7d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlayerLevelStatsData*>(), { "GetBeatmapKey", {}, {} })));

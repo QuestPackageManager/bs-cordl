@@ -113,29 +113,29 @@ public:
 
   static inline ::Zenject::SceneContext___c* New_ctor();
 
-  /// @brief Method <GetParentContainers>b__50_0, addr 0x734d614, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <GetParentContainers>b__50_0, addr 0x734f8f4, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* _GetParentContainers_b__50_0(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method <GetParentContainers>b__50_1, addr 0x734d630, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <GetParentContainers>b__50_1, addr 0x734f910, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* _GetParentContainers_b__50_1(::UnityEngine::GameObject* root);
 
-  /// @brief Method <GetParentContainers>b__50_3, addr 0x734d684, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <GetParentContainers>b__50_3, addr 0x734f964, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* _GetParentContainers_b__50_3(::Zenject::SceneContext* x);
 
-  /// @brief Method <LookupDecoratorContexts>b__51_0, addr 0x734d6a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <LookupDecoratorContexts>b__51_0, addr 0x734f984, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* _LookupDecoratorContexts_b__51_0(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method <LookupDecoratorContexts>b__51_1, addr 0x734d6c0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <LookupDecoratorContexts>b__51_1, addr 0x734f9a0, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneDecoratorContext>>* _LookupDecoratorContexts_b__51_1(::UnityEngine::GameObject* root);
 
-  /// @brief Method __zenCreate, addr 0x734d714, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x734f9f4, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
   /// [Preserve]
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x734d758, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x734fa38, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x734d610, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x734f8f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::SceneContext___c* getStaticF___9();
@@ -177,7 +177,7 @@ public:
   SceneContext___c(SceneContext___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15500 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -201,10 +201,10 @@ public:
 
   static inline ::Zenject::SceneContext___c__DisplayClass50_0* New_ctor();
 
-  /// @brief Method <GetParentContainers>b__2, addr 0x734d8ec, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method <GetParentContainers>b__2, addr 0x734fbcc, size 0xe0, virtual false, abstract: false, final false
   inline bool _GetParentContainers_b__2(::Zenject::SceneContext* sceneContext);
 
-  /// @brief Method <GetParentContainers>b__4, addr 0x734d9cc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <GetParentContainers>b__4, addr 0x734fcac, size 0x5c, virtual false, abstract: false, final false
   inline bool _GetParentContainers_b__4(::StringW x);
 
   constexpr ::System::Func_2<::StringW, bool>* const& __cordl_internal_get___9__4() const;
@@ -219,14 +219,14 @@ public:
 
   constexpr void __cordl_internal_set_parentContractNames(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  /// @brief Method __zenCreate, addr 0x734da28, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x734fd08, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
   /// [Preserve]
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x734da6c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x734fd4c, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x734c5fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x734e8dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -244,7 +244,7 @@ public:
   SceneContext___c__DisplayClass50_0(SceneContext___c__DisplayClass50_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15501 };
 
   /// @brief Field parentContractNames, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::StringW>* ___parentContractNames;
@@ -275,7 +275,7 @@ public:
 
   static inline ::Zenject::SceneContext___c__DisplayClass52_0* New_ctor();
 
-  /// @brief Method <Install>b__0, addr 0x734dc00, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <Install>b__0, addr 0x734fee0, size 0x84, virtual false, abstract: false, final false
   inline bool _Install_b__0(::Zenject::DiContainer* x);
 
   constexpr ::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* const& __cordl_internal_get_parents() const;
@@ -284,14 +284,14 @@ public:
 
   constexpr void __cordl_internal_set_parents(::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method __zenCreate, addr 0x734dc84, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x734ff64, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*> P_0);
 
   /// [Preserve]
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x734dcc8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x734ffa8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x734c93c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x734ec1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -309,7 +309,7 @@ public:
   SceneContext___c__DisplayClass52_0(SceneContext___c__DisplayClass52_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15494 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15502 };
 
   /// @brief Field parents, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* ___parents;
@@ -410,47 +410,47 @@ public:
   /// @brief Field _parentNewObjectsUnderSceneContext, offset 0x90, size 0x1
   __declspec(property(get = __cordl_internal_get__parentNewObjectsUnderSceneContext, put = __cordl_internal_set__parentNewObjectsUnderSceneContext)) bool _parentNewObjectsUnderSceneContext;
 
-  /// @brief Method Awake, addr 0x734b92c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x734dc0c, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Create, addr 0x734d244, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x734f524, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityW<::Zenject::SceneContext> Create();
 
-  /// @brief Method GetInjectableMonoBehaviours, addr 0x734d1f8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehaviours, addr 0x734f4d8, size 0x4c, virtual true, abstract: false, final false
   inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
 
-  /// @brief Method GetParentContainers, addr 0x734bff8, size 0x604, virtual false, abstract: false, final false
+  /// @brief Method GetParentContainers, addr 0x734e2d8, size 0x604, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* GetParentContainers();
 
-  /// @brief Method GetRootGameObjects, addr 0x734bfcc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x734e2ac, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects();
 
-  /// @brief Method Install, addr 0x734b95c, size 0x5ac, virtual false, abstract: false, final false
+  /// @brief Method Install, addr 0x734dc3c, size 0x5ac, virtual false, abstract: false, final false
   inline void Install();
 
-  /// @brief Method InstallBindings, addr 0x734cab0, size 0x5f0, virtual false, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x734ed90, size 0x5f0, virtual false, abstract: false, final false
   inline void InstallBindings(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableMonoBehaviours);
 
-  /// @brief Method LookupDecoratorContexts, addr 0x734c600, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method LookupDecoratorContexts, addr 0x734e8e0, size 0x33c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::Zenject::SceneDecoratorContext>>* LookupDecoratorContexts();
 
   static inline ::Zenject::SceneContext* New_ctor();
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method NoDomainReloadInit, addr 0x734b6a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method NoDomainReloadInit, addr 0x734d980, size 0x60, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
-  /// @brief Method Resolve, addr 0x734bf08, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Resolve, addr 0x734e1e8, size 0x9c, virtual false, abstract: false, final false
   inline void Resolve();
 
-  /// @brief Method RunInternal, addr 0x734bfa4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method RunInternal, addr 0x734e284, size 0x28, virtual true, abstract: false, final false
   inline void RunInternal();
 
-  /// @brief Method Validate, addr 0x734b930, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x734dc10, size 0x2c, virtual false, abstract: false, final false
   inline void Validate();
 
   /// [CompilerGenerated]
-  /// @brief Method <LookupDecoratorContexts>b__51_2, addr 0x734d40c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method <LookupDecoratorContexts>b__51_2, addr 0x734f6ec, size 0x68, virtual false, abstract: false, final false
   inline bool _LookupDecoratorContexts_b__51_2(::Zenject::SceneDecoratorContext* decoratorContext);
 
   constexpr ::UnityEngine::Events::UnityEvent* const& __cordl_internal_get_OnPostInstall() const;
@@ -544,26 +544,26 @@ public:
   constexpr void __cordl_internal_set__parentNewObjectsUnderSceneContext(bool value);
 
   /// [Preserve]
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x734d474, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x734f754, size 0x148, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x734d2fc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x734f5dc, size 0x110, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_PostInstall, addr 0x734b298, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_PostInstall, addr 0x734d578, size 0xac, virtual false, abstract: false, final false
   inline void add_PostInstall(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_PostResolve, addr 0x734b548, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_PostResolve, addr 0x734d828, size 0xac, virtual false, abstract: false, final false
   inline void add_PostResolve(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_PreInstall, addr 0x734b140, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_PreInstall, addr 0x734d420, size 0xac, virtual false, abstract: false, final false
   inline void add_PreInstall(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_PreResolve, addr 0x734b3f0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_PreResolve, addr 0x734d6d0, size 0xac, virtual false, abstract: false, final false
   inline void add_PreResolve(::System::Action* value);
 
   static inline ::System::Action_1<::Zenject::DiContainer*>* getStaticF_ExtraBindingsEarlyInstallMethod();
@@ -576,41 +576,41 @@ public:
 
   static inline ::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* getStaticF_ParentContainers();
 
-  /// @brief Method get_Container, addr 0x734b700, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Container, addr 0x734d9e0, size 0x8, virtual true, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_ContractNames, addr 0x734b744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContractNames, addr 0x734da24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_ContractNames();
 
-  /// @brief Method get_HasInstalled, addr 0x734b710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasInstalled, addr 0x734d9f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasInstalled();
 
-  /// @brief Method get_HasResolved, addr 0x734b708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasResolved, addr 0x734d9e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasResolved();
 
-  /// @brief Method get_IsValidating, addr 0x734b718, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_IsValidating, addr 0x734d9f8, size 0x2c, virtual false, abstract: false, final false
   inline bool get_IsValidating();
 
-  /// @brief Method get_ParentContractNames, addr 0x734b808, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_ParentContractNames, addr 0x734dae8, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_ParentContractNames();
 
-  /// @brief Method get_ParentNewObjectsUnderSceneContext, addr 0x734b91c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentNewObjectsUnderSceneContext, addr 0x734dbfc, size 0x8, virtual false, abstract: false, final false
   inline bool get_ParentNewObjectsUnderSceneContext();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_PostInstall, addr 0x734b344, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_PostInstall, addr 0x734d624, size 0xac, virtual false, abstract: false, final false
   inline void remove_PostInstall(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_PostResolve, addr 0x734b5f4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_PostResolve, addr 0x734d8d4, size 0xac, virtual false, abstract: false, final false
   inline void remove_PostResolve(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_PreInstall, addr 0x734b1ec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_PreInstall, addr 0x734d4cc, size 0xac, virtual false, abstract: false, final false
   inline void remove_PreInstall(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_PreResolve, addr 0x734b49c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_PreResolve, addr 0x734d77c, size 0xac, virtual false, abstract: false, final false
   inline void remove_PreResolve(::System::Action* value);
 
   static inline void setStaticF_ExtraBindingsEarlyInstallMethod(::System::Action_1<::Zenject::DiContainer*>* value);
@@ -623,13 +623,13 @@ public:
 
   static inline void setStaticF_ParentContainers(::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* value);
 
-  /// @brief Method set_ContractNames, addr 0x734b74c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_ContractNames, addr 0x734da2c, size 0xbc, virtual false, abstract: false, final false
   inline void set_ContractNames(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  /// @brief Method set_ParentContractNames, addr 0x734b8bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_ParentContractNames, addr 0x734db9c, size 0x60, virtual false, abstract: false, final false
   inline void set_ParentContractNames(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  /// @brief Method set_ParentNewObjectsUnderSceneContext, addr 0x734b924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParentNewObjectsUnderSceneContext, addr 0x734dc04, size 0x8, virtual false, abstract: false, final false
   inline void set_ParentNewObjectsUnderSceneContext(bool value);
 
 protected:
@@ -647,7 +647,7 @@ public:
   SceneContext(SceneContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15503 };
 
   /// [CompilerGenerated]
   /// @brief Field PreInstall, offset: 0x50, size: 0x8, def value: None

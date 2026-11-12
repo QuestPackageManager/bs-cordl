@@ -51,7 +51,7 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline ::GlobalNamespace::OVRNativeList_1<T> AllocateEmpty(::Unity::Collections::Allocator allocator);
 
-  /// @brief Method .ctor, addr 0x635bd04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x635bf8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<int32_t> count);
 
   // Ctor Parameters []

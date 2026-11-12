@@ -138,7 +138,7 @@ public:
 
   constexpr void __cordl_internal_set_worldOffset(::UnityEngine::Rendering::Vector3Parameter* value);
 
-  /// @brief Method .ctor, addr 0x6bf1198, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bf2278, size 0x27c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

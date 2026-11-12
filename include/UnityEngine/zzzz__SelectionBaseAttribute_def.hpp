@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::UnityEngine::SelectionBaseAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6f7d70c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f7e7ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

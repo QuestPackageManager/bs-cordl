@@ -42,7 +42,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::ShaderUtils___c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <GetEnumFromPath>b__0, addr 0x6d2ee88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <GetEnumFromPath>b__0, addr 0x6d2ff68, size 0x10, virtual false, abstract: false, final false
   inline bool _GetEnumFromPath_b__0(::StringW m);
 
   constexpr ::StringW const& __cordl_internal_get_path() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_path(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6d2eb44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d2fc24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,18 +94,18 @@ public:
   /// @brief Field s_ShaderPaths, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ShaderPaths, put = setStaticF_s_ShaderPaths)) ::ArrayW<::StringW> s_ShaderPaths;
 
-  /// @brief Method GetEnumFromPath, addr 0x6d2ea44, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetEnumFromPath, addr 0x6d2fb24, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::ShaderPathID GetEnumFromPath(::StringW path);
 
-  /// @brief Method GetShaderPath, addr 0x6d2e818, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetShaderPath, addr 0x6d2f8f8, size 0x22c, virtual false, abstract: false, final false
   static inline ::StringW GetShaderPath(::UnityEngine::Rendering::Universal::ShaderPathID id);
 
-  /// @brief Method IsLWShader, addr 0x6d2eb48, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsLWShader, addr 0x6d2fc28, size 0x94, virtual false, abstract: false, final false
   static inline bool IsLWShader(::UnityEngine::Shader* shader);
 
   static inline ::ArrayW<::StringW> getStaticF_s_ShaderPaths();
 
-  /// @brief Method get_PersistentDeltaTime, addr 0x6d2ebdc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_PersistentDeltaTime, addr 0x6d2fcbc, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_PersistentDeltaTime();
 
   static inline void setStaticF_s_ShaderPaths(::ArrayW<::StringW> value);

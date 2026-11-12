@@ -4,13 +4,15 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayAdditionalInformation_def.hpp"
 #include "GlobalNamespace/zzzz__PlaymodeOptions_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingPlaybackSettings_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameplayAdditionalInformation._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayAdditionalInformation::*)(::StringW, bool, bool, ::GlobalNamespace::PlaymodeOptions, ::StringW, bool, ::StringW,
-                                                                                                                  bool)>(&::GlobalNamespace::GameplayAdditionalInformation::_ctor)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x39ba35c;
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayAdditionalInformation::*)(::StringW, bool, bool, ::GlobalNamespace::PlaymodeOptions, ::StringW,
+                                                                                                                  ::GlobalNamespace::RecordingPlaybackSettings*, bool, ::StringW, bool, bool)>(
+    &::GlobalNamespace::GameplayAdditionalInformation::_ctor)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x39be928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -18,7 +20,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                              { ".ctor",
                                                                {},
                                                                { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::PlaymodeOptions>(),
-                                                                 ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
+                                                                 ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::RecordingPlaybackSettings*>(), ::i2c::type_of<bool>(),
+                                                                 ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -82,6 +85,18 @@ constexpr void GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___recordingRelativePath = value;
 }
+constexpr ::GlobalNamespace::RecordingPlaybackSettings*& GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_get_recordingPlaybackSettings() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___recordingPlaybackSettings;
+}
+constexpr ::GlobalNamespace::RecordingPlaybackSettings* const& GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_get_recordingPlaybackSettings() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___recordingPlaybackSettings;
+}
+constexpr void GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_set_recordingPlaybackSettings(::GlobalNamespace::RecordingPlaybackSettings* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___recordingPlaybackSettings = value;
+}
 constexpr bool& GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_get_profileSong() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___profileSong;
@@ -118,23 +133,40 @@ constexpr void GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fpfcEnabled = value;
 }
+constexpr bool& GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_get_shouldPauseOnXrStateLoss() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___shouldPauseOnXrStateLoss;
+}
+constexpr bool const& GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_get_shouldPauseOnXrStateLoss() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___shouldPauseOnXrStateLoss;
+}
+constexpr void GlobalNamespace::GameplayAdditionalInformation::__cordl_internal_set_shouldPauseOnXrStateLoss(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___shouldPauseOnXrStateLoss = value;
+}
 inline void GlobalNamespace::GameplayAdditionalInformation::_ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused, ::GlobalNamespace::PlaymodeOptions playmodeOptions,
-                                                                  ::StringW recordingRelativePath, bool profileSong, /* [Nullable(1)] */ ::StringW reportDescriptor, bool fpfcEnabled) {
+                                                                  ::StringW recordingRelativePath, ::GlobalNamespace::RecordingPlaybackSettings* recordingPlaybackSettings, bool profileSong,
+                                                                  /* [Nullable(1)] */ ::StringW reportDescriptor, bool fpfcEnabled, bool shouldPauseOnXrStateLoss) {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayAdditionalInformation*>(),
                                                            { ".ctor",
                                                              {},
                                                              { ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>(), ::i2c::type_of<::GlobalNamespace::PlaymodeOptions>(),
-                                                               ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>() } })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, backButtonText, useTestNoteCutSoundEffects, startPaused, playmodeOptions, recordingRelativePath, profileSong,
-                                                   reportDescriptor, fpfcEnabled);
+                                                               ::i2c::type_of<::StringW>(), ::i2c::type_of<::GlobalNamespace::RecordingPlaybackSettings*>(), ::i2c::type_of<bool>(),
+                                                               ::i2c::type_of<::StringW>(), ::i2c::type_of<bool>(), ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, backButtonText, useTestNoteCutSoundEffects, startPaused, playmodeOptions, recordingRelativePath, recordingPlaybackSettings,
+                                                   profileSong, reportDescriptor, fpfcEnabled, shouldPauseOnXrStateLoss);
 }
 /// @brief [NullableContext(2)]
 inline ::GlobalNamespace::GameplayAdditionalInformation* GlobalNamespace::GameplayAdditionalInformation::New_ctor(::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused,
                                                                                                                   ::GlobalNamespace::PlaymodeOptions playmodeOptions, ::StringW recordingRelativePath,
-                                                                                                                  bool profileSong, /* [Nullable(1)] */ ::StringW reportDescriptor, bool fpfcEnabled) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::GlobalNamespace::GameplayAdditionalInformation*>(backButtonText, useTestNoteCutSoundEffects, startPaused, playmodeOptions,
-                                                                                                             recordingRelativePath, profileSong, reportDescriptor, fpfcEnabled));
+                                                                                                                  ::GlobalNamespace::RecordingPlaybackSettings* recordingPlaybackSettings,
+                                                                                                                  bool profileSong, /* [Nullable(1)] */ ::StringW reportDescriptor, bool fpfcEnabled,
+                                                                                                                  bool shouldPauseOnXrStateLoss) {
+  return THROW_UNLESS(::i2c::no_logger{},
+                      ::i2c::new_ctor<::GlobalNamespace::GameplayAdditionalInformation*>(backButtonText, useTestNoteCutSoundEffects, startPaused, playmodeOptions, recordingRelativePath,
+                                                                                         recordingPlaybackSettings, profileSong, reportDescriptor, fpfcEnabled, shouldPauseOnXrStateLoss));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameplayAdditionalInformation::GameplayAdditionalInformation() {}

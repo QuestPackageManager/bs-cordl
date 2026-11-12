@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::RegionInfo* (*)()>(&::System::Globalization::RegionInfo::get_CurrentRegion)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6034ebc;
+  constexpr static std::size_t addrs = 0x6035144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::RegionInfo*>(), { "get_CurrentRegion", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::RegionInfo::*)(int32_t)>(&::System::Globalization::RegionInfo::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6035138;
+  constexpr static std::size_t addrs = 0x60353c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::RegionInfo*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::RegionInfo::*)(::StringW)>(&::System::Globalization::RegionInfo::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x60352dc;
+  constexpr static std::size_t addrs = 0x6035564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::RegionInfo*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::RegionInfo::*)(::System::Globalization::CultureInfo*)>(&::System::Globalization::RegionInfo::_ctor)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6034f90;
+  constexpr static std::size_t addrs = 0x6035218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::RegionInfo::*)(::System::Globalization::CultureInfo*)>(&::System::Globalization::RegionInfo::GetByTerritory)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6035234;
+  constexpr static std::size_t addrs = 0x60354bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::RegionInfo::*)(::StringW)>(&::System::Globalization::RegionInfo::construct_internal_region_from_name)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6035414;
+  constexpr static std::size_t addrs = 0x603569c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_CurrencyEnglishName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6035418;
+  constexpr static std::size_t addrs = 0x60356a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_CurrencySymbol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6035420;
+  constexpr static std::size_t addrs = 0x60356a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_DisplayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6035428;
+  constexpr static std::size_t addrs = 0x60356b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_EnglishName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6035430;
+  constexpr static std::size_t addrs = 0x60356b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_GeoId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6035438;
+  constexpr static std::size_t addrs = 0x60356c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_IsMetric)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6035440;
+  constexpr static std::size_t addrs = 0x60356c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_ISOCurrencySymbol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60354cc;
+  constexpr static std::size_t addrs = 0x6035754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_NativeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60354d4;
+  constexpr static std::size_t addrs = 0x603575c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_CurrencyNativeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60354dc;
+  constexpr static std::size_t addrs = 0x6035764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60354e4;
+  constexpr static std::size_t addrs = 0x603576c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_ThreeLetterISORegionName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60354ec;
+  constexpr static std::size_t addrs = 0x6035774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_ThreeLetterWindowsRegionName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60354f4;
+  constexpr static std::size_t addrs = 0x603577c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::get_TwoLetterISORegionName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60354fc;
+  constexpr static std::size_t addrs = 0x6035784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::RegionInfo::*)(::System::Object*)>(&::System::Globalization::RegionInfo::Equals)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6035504;
+  constexpr static std::size_t addrs = 0x603578c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::GetHashCode)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x60355cc;
+  constexpr static std::size_t addrs = 0x6035854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::RegionInfo::*)()>(&::System::Globalization::RegionInfo::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60355f8;
+  constexpr static std::size_t addrs = 0x6035880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Globalization::RegionInfo::ClearCachedData)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6035608;
+  constexpr static std::size_t addrs = 0x6035890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::RegionInfo*>(), { "ClearCachedData", {}, {} })));

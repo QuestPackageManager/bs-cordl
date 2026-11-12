@@ -104,7 +104,7 @@ public:
   /// @brief [InputControl]
   __declspec(property(get = get_volumeUp, put = set_volumeUp)) ::UnityEngine::InputSystem::Controls::ButtonControl* volumeUp;
 
-  /// @brief Method FinishSetup, addr 0x6937fa0, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6939080, size 0x264, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::GoogleVr::DaydreamController* New_ctor();
@@ -175,95 +175,95 @@ public:
 
   constexpr void __cordl_internal_set__volumeUp_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method .ctor, addr 0x6938204, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69392e4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_app, addr 0x6937f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_app, addr 0x6939020, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_app();
 
   /// [CompilerGenerated]
-  /// @brief Method get_deviceAcceleration, addr 0x6937f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceAcceleration, addr 0x6939070, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAcceleration();
 
   /// [CompilerGenerated]
-  /// @brief Method get_deviceVelocity, addr 0x6937f80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceVelocity, addr 0x6939060, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
 
   /// [CompilerGenerated]
-  /// @brief Method get_home, addr 0x6937f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_home, addr 0x6939030, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_home();
 
   /// [CompilerGenerated]
-  /// @brief Method get_recentered, addr 0x6937f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_recentered, addr 0x6938ff0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_recentered();
 
   /// [CompilerGenerated]
-  /// @brief Method get_recentering, addr 0x6937f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_recentering, addr 0x6939010, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_recentering();
 
   /// [CompilerGenerated]
-  /// @brief Method get_touchpad, addr 0x6937ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchpad, addr 0x6938fd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();
 
   /// [CompilerGenerated]
-  /// @brief Method get_touchpadClicked, addr 0x6937f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchpadClicked, addr 0x6939040, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_touchpadClicked();
 
   /// [CompilerGenerated]
-  /// @brief Method get_touchpadTouched, addr 0x6937f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchpadTouched, addr 0x6939050, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_touchpadTouched();
 
   /// [CompilerGenerated]
-  /// @brief Method get_volumeDown, addr 0x6937f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeDown, addr 0x6939000, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_volumeDown();
 
   /// [CompilerGenerated]
-  /// @brief Method get_volumeUp, addr 0x6937f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeUp, addr 0x6938fe0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_volumeUp();
 
   /// [CompilerGenerated]
-  /// @brief Method set_app, addr 0x6937f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_app, addr 0x6939028, size 0x8, virtual false, abstract: false, final false
   inline void set_app(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_deviceAcceleration, addr 0x6937f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceAcceleration, addr 0x6939078, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAcceleration(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_deviceVelocity, addr 0x6937f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceVelocity, addr 0x6939068, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_home, addr 0x6937f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_home, addr 0x6939038, size 0x8, virtual false, abstract: false, final false
   inline void set_home(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_recentered, addr 0x6937f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_recentered, addr 0x6938ff8, size 0x8, virtual false, abstract: false, final false
   inline void set_recentered(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_recentering, addr 0x6937f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_recentering, addr 0x6939018, size 0x8, virtual false, abstract: false, final false
   inline void set_recentering(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_touchpad, addr 0x6937ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touchpad, addr 0x6938fd8, size 0x8, virtual false, abstract: false, final false
   inline void set_touchpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_touchpadClicked, addr 0x6937f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touchpadClicked, addr 0x6939048, size 0x8, virtual false, abstract: false, final false
   inline void set_touchpadClicked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_touchpadTouched, addr 0x6937f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touchpadTouched, addr 0x6939058, size 0x8, virtual false, abstract: false, final false
   inline void set_touchpadTouched(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_volumeDown, addr 0x6937f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_volumeDown, addr 0x6939008, size 0x8, virtual false, abstract: false, final false
   inline void set_volumeDown(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_volumeUp, addr 0x6937f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_volumeUp, addr 0x6938fe8, size 0x8, virtual false, abstract: false, final false
   inline void set_volumeUp(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:

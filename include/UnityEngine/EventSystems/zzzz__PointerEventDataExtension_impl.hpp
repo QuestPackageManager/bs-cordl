@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::EventSystems::PointerEventDataExtension::IsVRPointer)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x62a5b00;
+  constexpr static std::size_t addrs = 0x62a5d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::PointerEventDataExtension*>(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Ray (*)(::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::EventSystems::PointerEventDataExtension::GetRay)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x62a5b7c;
+  constexpr static std::size_t addrs = 0x62a5e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::PointerEventDataExtension*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::PointerEventDataExtension::GetSwipeStart)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x62a5c10;
+  constexpr static std::size_t addrs = 0x62a5e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::EventSystems::PointerEventDataExtension*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::Vector2)>(
     &::UnityEngine::EventSystems::PointerEventDataExtension::SetSwipeStart)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x62a5c90;
+  constexpr static std::size_t addrs = 0x62a5f18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

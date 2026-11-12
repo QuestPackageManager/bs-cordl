@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalCopyBinder::*)()>(&::Zenject::SignalCopyBinder::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x731edc4;
+  constexpr static std::size_t addrs = 0x73210a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalCopyBinder*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalCopyBinder::*)(::Zenject::BindInfo*)>(&::Zenject::SignalCopyBinder::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x731ee38;
+  constexpr static std::size_t addrs = 0x7321118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalCopyBinder::*)(::Zenject::BindInfo*)>(&::Zenject::SignalCopyBinder::AddCopyBindInfo)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x731ef2c;
+  constexpr static std::size_t addrs = 0x732120c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalCopyBinder::*)()>(&::Zenject::SignalCopyBinder::CopyIntoAllSubContainers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x731efe0;
+  constexpr static std::size_t addrs = 0x73212c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalCopyBinder*>(), { "CopyIntoAllSubContainers", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalCopyBinder::*)()>(&::Zenject::SignalCopyBinder::CopyIntoDirectSubContainers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x731f08c;
+  constexpr static std::size_t addrs = 0x732136c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalCopyBinder*>(), { "CopyIntoDirectSubContainers", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalCopyBinder::*)()>(&::Zenject::SignalCopyBinder::MoveIntoAllSubContainers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x731f094;
+  constexpr static std::size_t addrs = 0x7321374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalCopyBinder*>(), { "MoveIntoAllSubContainers", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalCopyBinder::*)()>(&::Zenject::SignalCopyBinder::MoveIntoDirectSubContainers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x731f09c;
+  constexpr static std::size_t addrs = 0x732137c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SignalCopyBinder*>(), { "MoveIntoDirectSubContainers", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SignalCopyBinder::*)(::Zenject::BindingInheritanceMethods)>(&::Zenject::SignalCopyBinder::SetInheritanceMethod)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x731efe8;
+  constexpr static std::size_t addrs = 0x73212c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

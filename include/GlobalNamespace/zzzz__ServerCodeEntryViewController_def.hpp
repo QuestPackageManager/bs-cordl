@@ -53,24 +53,24 @@ public:
   /// @brief Field didFinishEvent, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<bool, ::StringW>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x5db98d0, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5db9874, size 0x1ec, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5db9abc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5db9a60, size 0x28, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleCancelButtonPressed, addr 0x5db9b78, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleCancelButtonPressed, addr 0x5db9b1c, size 0x24, virtual false, abstract: false, final false
   inline void HandleCancelButtonPressed();
 
-  /// @brief Method HandleInputFieldChanged, addr 0x5db9ae4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFieldChanged, addr 0x5db9a88, size 0x38, virtual false, abstract: false, final false
   inline void HandleInputFieldChanged(::HMUI::InputFieldView* obj);
 
-  /// @brief Method HandleJoinButtonPressed, addr 0x5db9b44, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleJoinButtonPressed, addr 0x5db9ae8, size 0x34, virtual false, abstract: false, final false
   inline void HandleJoinButtonPressed();
 
   static inline ::GlobalNamespace::ServerCodeEntryViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5db9b1c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5db9ac0, size 0x28, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelButton() const;
@@ -109,15 +109,15 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<bool, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x5db9b9c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db9b40, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didFinishEvent, addr 0x5db9750, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5db96f4, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<bool, ::StringW>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didFinishEvent, addr 0x5db9810, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5db97b4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<bool, ::StringW>* value);
 
 protected:

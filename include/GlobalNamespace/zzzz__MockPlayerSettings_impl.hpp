@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MockPlayerSettings::*)()>(&::GlobalNamespace::MockPlayerSettings::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27cf0;
+  constexpr static std::size_t addrs = 0x5e28120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_userName", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(::StringW)>(&::GlobalNamespace::MockPlayerSettings::set_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27cf8;
+  constexpr static std::size_t addrs = 0x5e28128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MockPlayerSettings::*)()>(&::GlobalNamespace::MockPlayerSettings::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d00;
+  constexpr static std::size_t addrs = 0x5e28130;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_userId", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(::StringW)>(&::GlobalNamespace::MockPlayerSettings::set_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d08;
+  constexpr static std::size_t addrs = 0x5e28138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MockPlayerSettings::*)()>(&::GlobalNamespace::MockPlayerSettings::get_sortIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d10;
+  constexpr static std::size_t addrs = 0x5e28140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_sortIndex", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(int32_t)>(&::GlobalNamespace::MockPlayerSettings::set_sortIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d18;
+  constexpr static std::size_t addrs = 0x5e28148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::GlobalNamespace::MockPlayerSettings::*)()>(&::GlobalNamespace::MockPlayerSettings::get_latency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d20;
+  constexpr static std::size_t addrs = 0x5e28150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_latency", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(int64_t)>(&::GlobalNamespace::MockPlayerSettings::set_latency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d28;
+  constexpr static std::size_t addrs = 0x5e28158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayerSettings::*)()>(&::GlobalNamespace::MockPlayerSettings::get_autoConnect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d30;
+  constexpr static std::size_t addrs = 0x5e28160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_autoConnect", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(bool)>(&::GlobalNamespace::MockPlayerSettings::set_autoConnect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d38;
+  constexpr static std::size_t addrs = 0x5e28168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayerSettings::*)()>(&::GlobalNamespace::MockPlayerSettings::get_inactiveByDefault)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d40;
+  constexpr static std::size_t addrs = 0x5e28170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_inactiveByDefault", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(bool)>(&::GlobalNamespace::MockPlayerSettings::set_inactiveByDefault)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d48;
+  constexpr static std::size_t addrs = 0x5e28178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MockPlayerMovementType (::GlobalNamespace::MockPlayerSettings::*)()>(
     &::GlobalNamespace::MockPlayerSettings::get_movementType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d50;
+  constexpr static std::size_t addrs = 0x5e28180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_movementType", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(::GlobalNamespace::MockPlayerMovementType)>(
     &::GlobalNamespace::MockPlayerSettings::set_movementType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d58;
+  constexpr static std::size_t addrs = 0x5e28188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MockPlayerAvatarType (::GlobalNamespace::MockPlayerSettings::*)()>(&::GlobalNamespace::MockPlayerSettings::get_avatarType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d60;
+  constexpr static std::size_t addrs = 0x5e28190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_avatarType", {}, {} })));
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(::GlobalNamespace::MockPlayerAvatarType)>(
     &::GlobalNamespace::MockPlayerSettings::set_avatarType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d68;
+  constexpr static std::size_t addrs = 0x5e28198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::GlobalNamespace::MockPlayerSettings::*)()>(&::GlobalNamespace::MockPlayerSettings::get_platformUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d70;
+  constexpr static std::size_t addrs = 0x5e281a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_platformUserId", {}, {} })));
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(uint64_t)>(&::GlobalNamespace::MockPlayerSettings::set_platformUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d78;
+  constexpr static std::size_t addrs = 0x5e281a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MockPlayerSettings::*)()>(&::GlobalNamespace::MockPlayerSettings::get_recodingFile)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d80;
+  constexpr static std::size_t addrs = 0x5e281b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_recodingFile", {}, {} })));
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(::StringW)>(&::GlobalNamespace::MockPlayerSettings::set_recodingFile)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d88;
+  constexpr static std::size_t addrs = 0x5e281b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::MockPlayerSettings::*)()>(&::GlobalNamespace::MockPlayerSettings::get_aiCubeHitChance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d90;
+  constexpr static std::size_t addrs = 0x5e281c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_aiCubeHitChance", {}, {} })));
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(float_t)>(&::GlobalNamespace::MockPlayerSettings::set_aiCubeHitChance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27d98;
+  constexpr static std::size_t addrs = 0x5e281c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MockPlayerDlcOwnership (::GlobalNamespace::MockPlayerSettings::*)()>(
     &::GlobalNamespace::MockPlayerSettings::get_dlcOwnership)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27da0;
+  constexpr static std::size_t addrs = 0x5e281d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_dlcOwnership", {}, {} })));
@@ -311,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(::GlobalNamespace::MockPlayerDlcOwnership)>(
     &::GlobalNamespace::MockPlayerSettings::set_dlcOwnership)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27da8;
+  constexpr static std::size_t addrs = 0x5e281d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -325,7 +325,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayerSettings::*)()>(&::GlobalNamespace::MockPlayerSettings::get_leftHanded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27db0;
+  constexpr static std::size_t addrs = 0x5e281e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_leftHanded", {}, {} })));
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(bool)>(&::GlobalNamespace::MockPlayerSettings::set_leftHanded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27db8;
+  constexpr static std::size_t addrs = 0x5e281e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::MockPlayerSettings::*)()>(&::GlobalNamespace::MockPlayerSettings::get_saberAColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e27dc0;
+  constexpr static std::size_t addrs = 0x5e281f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_saberAColor", {}, {} })));
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(::UnityEngine::Color)>(&::GlobalNamespace::MockPlayerSettings::set_saberAColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e27dcc;
+  constexpr static std::size_t addrs = 0x5e281fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -375,7 +375,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::MockPlayerSettings::*)()>(&::GlobalNamespace::MockPlayerSettings::get_saberBColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e27dd8;
+  constexpr static std::size_t addrs = 0x5e28208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_saberBColor", {}, {} })));
@@ -387,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(::UnityEngine::Color)>(&::GlobalNamespace::MockPlayerSettings::set_saberBColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e27de4;
+  constexpr static std::size_t addrs = 0x5e28214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -400,7 +400,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::MockPlayerSettings::*)()>(&::GlobalNamespace::MockPlayerSettings::get_obstaclesColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e27df0;
+  constexpr static std::size_t addrs = 0x5e28220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_obstaclesColor", {}, {} })));
@@ -412,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(::UnityEngine::Color)>(&::GlobalNamespace::MockPlayerSettings::set_obstaclesColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e27dfc;
+  constexpr static std::size_t addrs = 0x5e2822c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -426,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDifficulty (::GlobalNamespace::MockPlayerSettings::*)()>(
     &::GlobalNamespace::MockPlayerSettings::get_beatmapDifficulty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27e08;
+  constexpr static std::size_t addrs = 0x5e28238;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_beatmapDifficulty", {}, {} })));
@@ -439,7 +439,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::MockPlayerSettings::set_beatmapDifficulty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27e10;
+  constexpr static std::size_t addrs = 0x5e28240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -453,7 +453,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MockPlayerSettings::*)()>(&::GlobalNamespace::MockPlayerSettings::get_beatmapLevelId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27e18;
+  constexpr static std::size_t addrs = 0x5e28248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_beatmapLevelId", {}, {} })));
@@ -465,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(::StringW)>(&::GlobalNamespace::MockPlayerSettings::set_beatmapLevelId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27e20;
+  constexpr static std::size_t addrs = 0x5e28250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -479,7 +479,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::MockPlayerSettings::*)()>(
     &::GlobalNamespace::MockPlayerSettings::get_gameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27e28;
+  constexpr static std::size_t addrs = 0x5e28258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { "get_gameplayModifiers", {}, {} })));
@@ -492,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::MockPlayerSettings::set_gameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e27e30;
+  constexpr static std::size_t addrs = 0x5e28260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -506,7 +506,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerSettings::*)()>(&::GlobalNamespace::MockPlayerSettings::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e27e38;
+  constexpr static std::size_t addrs = 0x5e28268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerSettings*>(), { ".ctor", {}, {} })));

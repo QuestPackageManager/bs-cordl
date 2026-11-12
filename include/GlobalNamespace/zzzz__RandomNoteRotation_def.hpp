@@ -38,15 +38,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
   constexpr operator ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
 
-  /// @brief Method Awake, addr 0x5d28ac8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5d28ca4, size 0xbc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x5d28c8c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x5d28e68, size 0x28, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
   static inline ::GlobalNamespace::RandomNoteRotation* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5d28b84, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5d28d60, size 0x108, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::NoteControllerBase> const& __cordl_internal_get__noteController() const;
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x5d28cb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d28e90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"

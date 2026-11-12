@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::X509CertificateUtility_PasswordFinder::*)(::ArrayW<uint8_t>)>(
     &::GlobalNamespace::X509CertificateUtility_PasswordFinder::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x35ee450;
+  constexpr static std::size_t addrs = 0x35f28e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::X509CertificateUtility_PasswordFinder::*)(::StringW)>(
     &::GlobalNamespace::X509CertificateUtility_PasswordFinder::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x35ee024;
+  constexpr static std::size_t addrs = 0x35f24bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<char16_t> (::GlobalNamespace::X509CertificateUtility_PasswordFinder::*)()>(
     &::GlobalNamespace::X509CertificateUtility_PasswordFinder::GetPassword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35ee500;
+  constexpr static std::size_t addrs = 0x35f2998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::X509CertificateUtility_PasswordFinder*>(), { "GetPassword", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::*)(
     ::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters*)>(&::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x35ee240;
+  constexpr static std::size_t addrs = 0x35f26d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::*)()>(
     &::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ee508;
+  constexpr static std::size_t addrs = 0x35f29a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider::SignData)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x35ee50c;
+  constexpr static std::size_t addrs = 0x35f29a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)(int32_t)>(
     &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x35ee3c8;
+  constexpr static std::size_t addrs = 0x35f2860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(
     &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x35ee6a4;
+  constexpr static std::size_t addrs = 0x35f2b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(
     &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::MoveNext)> {
   constexpr static std::size_t size = 0x4f0;
-  constexpr static std::size_t addrs = 0x35ee6c0;
+  constexpr static std::size_t addrs = 0x35f2b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(
     &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::__m__Finally1)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35eebb0;
+  constexpr static std::size_t addrs = 0x35f3048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2* (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(
     &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_Generic_IEnumerator_System_Security_Cryptography_X509Certificates_X509Certificate2__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35eec70;
+  constexpr static std::size_t addrs = 0x35f3108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(
     &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x35eec78;
+  constexpr static std::size_t addrs = 0x35f3110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(
     &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35eecb0;
+  constexpr static std::size_t addrs = 0x35f3148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -300,7 +300,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(
     &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_Generic_IEnumerable_System_Security_Cryptography_X509Certificates_X509Certificate2__GetEnumerator)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x35eecb8;
+  constexpr static std::size_t addrs = 0x35f3150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::*)()>(
     &::GlobalNamespace::X509CertificateUtility__GetCertificateList_d__5::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35eed58;
+  constexpr static std::size_t addrs = 0x35f31f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -536,7 +536,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ICertificateEncryptionProvider* (*)(::StringW, ::StringW)>(
     &::GlobalNamespace::X509CertificateUtility::GetCertificateEncryptionProvider)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x35edf74;
+  constexpr static std::size_t addrs = 0x35f240c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::X509CertificateUtility*>(),
@@ -551,7 +551,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::GlobalNamespace::X509CertificateUtility_RSACertificateEncryptionProvider* (*)(::StringW, ::GlobalNamespace::X509CertificateUtility_PasswordFinder*)>(
         &::GlobalNamespace::X509CertificateUtility::GetRSACertificateEncryptionProvider)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x35ee04c;
+  constexpr static std::size_t addrs = 0x35f24e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -567,7 +567,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Certificate2*>* (*)(::StringW, ::StringW)>(
     &::GlobalNamespace::X509CertificateUtility::GetCertificateList)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x35ee34c;
+  constexpr static std::size_t addrs = 0x35f27e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

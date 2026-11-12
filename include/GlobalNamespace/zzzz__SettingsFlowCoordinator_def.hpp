@@ -175,11 +175,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e67cb0, size 0x5f4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e67bc0, size 0x5f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e682a4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e681b4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -239,11 +239,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e68310, size 0x3bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e68220, size 0x3c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e686cc, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e685e4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -303,11 +303,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e68738, size 0x434, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e68650, size 0x434, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e68b6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e68a84, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -379,16 +379,16 @@ public:
 
   using _HandleSettingsNavigationControllerDidFinishAsync_d__27 = ::GlobalNamespace::SettingsFlowCoordinator__HandleSettingsNavigationControllerDidFinishAsync_d__27;
 
-  /// @brief Field _controllerProfilesModel, offset 0xf0, size 0x8
+  /// @brief Field _controllerProfilesModel, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__controllerProfilesModel,
                       put = __cordl_internal_set__controllerProfilesModel)) ::BeatSaber::GameSettings::ControllerProfilesModel* _controllerProfilesModel;
 
-  /// @brief Field _controllerProfilesViewController, offset 0xe0, size 0x8
+  /// @brief Field _controllerProfilesViewController, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__controllerProfilesViewController,
                       put = __cordl_internal_set__controllerProfilesViewController)) ::UnityW<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController>
       _controllerProfilesViewController;
 
-  /// @brief Field _dropdownDialogPromptViewController, offset 0xe8, size 0x8
+  /// @brief Field _dropdownDialogPromptViewController, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__dropdownDialogPromptViewController,
                       put = __cordl_internal_set__dropdownDialogPromptViewController)) ::UnityW<::GlobalNamespace::DropdownDialogPromptViewController>
       _dropdownDialogPromptViewController;
@@ -398,20 +398,20 @@ public:
                       put = __cordl_internal_set__mainSettingsMenuViewController)) ::UnityW<::GlobalNamespace::MainSettingsMenuViewController>
       _mainSettingsMenuViewController;
 
-  /// @brief Field _playerDataModel, offset 0xd0, size 0x8
+  /// @brief Field _playerDataModel, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _selectedSettingsSubMenuInfoIdx, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__selectedSettingsSubMenuInfoIdx, put = setStaticF__selectedSettingsSubMenuInfoIdx)) int32_t _selectedSettingsSubMenuInfoIdx;
 
-  /// @brief Field _settingsApplicator, offset 0xd8, size 0x8
+  /// @brief Field _settingsApplicator, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsApplicator, put = __cordl_internal_set__settingsApplicator)) ::UnityW<::GlobalNamespace::SettingsApplicatorSO> _settingsApplicator;
 
   /// @brief Field _settingsChangeAnalytics, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsChangeAnalytics,
                       put = __cordl_internal_set__settingsChangeAnalytics)) ::BeatSaber::Analytics::Settings::SettingsChangeAnalytics* _settingsChangeAnalytics;
 
-  /// @brief Field _settingsManager, offset 0xc8, size 0x8
+  /// @brief Field _settingsManager, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
   /// @brief Field _settingsNavigationController, offset 0xb8, size 0x8
@@ -426,43 +426,43 @@ public:
       get = __cordl_internal_get_didFinishEvent,
       put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* didFinishEvent;
 
-  /// @brief Field fileStorage, offset 0xc0, size 0x8
+  /// @brief Field fileStorage, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_fileStorage, put = __cordl_internal_set_fileStorage)) ::GlobalNamespace::IFileStorage* fileStorage;
 
   /// [AsyncStateMachine(typeof(SettingsFlowCoordinator::<ApplySettingsAsync>d__28))]
-  /// @brief Method ApplySettingsAsync, addr 0x5e67aa4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ApplySettingsAsync, addr 0x5e679b4, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ApplySettingsAsync();
 
   /// [AsyncStateMachine(typeof(SettingsFlowCoordinator::<CancelSettingsAsync>d__29))]
-  /// @brief Method CancelSettingsAsync, addr 0x5e67b54, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CancelSettingsAsync, addr 0x5e67a64, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CancelSettingsAsync();
 
-  /// @brief Method DidActivate, addr 0x5e66b24, size 0x42c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5e66a34, size 0x42c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x5e67120, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5e67030, size 0x1b0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleDidSelectSettingsSubMenu, addr 0x5e674f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectSettingsSubMenu, addr 0x5e67400, size 0x70, virtual false, abstract: false, final false
   inline void HandleDidSelectSettingsSubMenu(::GlobalNamespace::SettingsSubMenuInfo* settingsSubMenuInfo, int32_t idx);
 
-  /// @brief Method HandleRequestToSelectProfileToCopyFrom, addr 0x5e67560, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method HandleRequestToSelectProfileToCopyFrom, addr 0x5e67470, size 0x218, virtual false, abstract: false, final false
   inline void HandleRequestToSelectProfileToCopyFrom(/* [TupleElementNames(new[] { "text", "index" })] */ ::ArrayW<::System::ValueTuple_2<::StringW, int32_t>> profilesToCopyFrom);
 
   /// [AsyncStateMachine(typeof(SettingsFlowCoordinator::<HandleSettingsNavigationControllerDidFinishAsync>d__27))]
-  /// @brief Method HandleSettingsNavigationControllerDidFinishAsync, addr 0x5e679f4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method HandleSettingsNavigationControllerDidFinishAsync, addr 0x5e67904, size 0xb0, virtual false, abstract: false, final false
   inline void HandleSettingsNavigationControllerDidFinishAsync(::GlobalNamespace::SettingsNavigationController_FinishAction finishAction);
 
   static inline ::GlobalNamespace::SettingsFlowCoordinator* New_ctor();
 
-  /// @brief Method ReplaceViewController, addr 0x5e67450, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ReplaceViewController, addr 0x5e67360, size 0x9c, virtual false, abstract: false, final false
   inline void ReplaceViewController(::HMUI::ViewController* viewController);
 
-  /// @brief Method ShowSecretViewController, addr 0x5e674ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ShowSecretViewController, addr 0x5e673fc, size 0x4, virtual false, abstract: false, final false
   inline void ShowSecretViewController(::HMUI::ViewController* viewController);
 
   /// [CompilerGenerated]
-  /// @brief Method <HandleRequestToSelectProfileToCopyFrom>b__26_0, addr 0x5e67c0c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <HandleRequestToSelectProfileToCopyFrom>b__26_0, addr 0x5e67b1c, size 0xa4, virtual false, abstract: false, final false
   inline void _HandleRequestToSelectProfileToCopyFrom_b__26_0(/* [TupleElementNames(new[] { "selectedButtonIndex", "selectedDropdownIndex" })] */ ::System::ValueTuple_2<int32_t, int32_t> arguments);
 
   constexpr ::BeatSaber::GameSettings::ControllerProfilesModel* const& __cordl_internal_get__controllerProfilesModel() const;
@@ -537,17 +537,17 @@ public:
 
   constexpr void __cordl_internal_set_fileStorage(::GlobalNamespace::IFileStorage* value);
 
-  /// @brief Method .ctor, addr 0x5e67c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e67b14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didFinishEvent, addr 0x5e669a4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5e668b4, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* value);
 
   static inline int32_t getStaticF__selectedSettingsSubMenuInfoIdx();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didFinishEvent, addr 0x5e66a64, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5e66974, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SettingsFlowCoordinator>, ::GlobalNamespace::SettingsFlowCoordinator_FinishAction>* value);
 
   static inline void setStaticF__selectedSettingsSubMenuInfoIdx(int32_t value);
@@ -597,32 +597,32 @@ public:
   ::UnityW<::GlobalNamespace::SettingsNavigationController> ____settingsNavigationController;
 
   /// [Inject]
-  /// @brief Field fileStorage, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field _controllerProfilesModel, offset: 0xc0, size: 0x8, def value: None
+  ::BeatSaber::GameSettings::ControllerProfilesModel* ____controllerProfilesModel;
+
+  /// [Inject]
+  /// @brief Field fileStorage, offset: 0xc8, size: 0x8, def value: None
   ::GlobalNamespace::IFileStorage* ___fileStorage;
 
   /// [Inject]
-  /// @brief Field _settingsManager, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _settingsManager, offset: 0xd0, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
   /// [Inject]
-  /// @brief Field _playerDataModel, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _playerDataModel, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// [Inject]
-  /// @brief Field _settingsApplicator, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field _settingsApplicator, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SettingsApplicatorSO> ____settingsApplicator;
 
   /// [Inject]
-  /// @brief Field _controllerProfilesViewController, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field _controllerProfilesViewController, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController> ____controllerProfilesViewController;
 
   /// [Inject]
-  /// @brief Field _dropdownDialogPromptViewController, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field _dropdownDialogPromptViewController, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DropdownDialogPromptViewController> ____dropdownDialogPromptViewController;
-
-  /// [Inject]
-  /// @brief Field _controllerProfilesModel, offset: 0xf0, size: 0x8, def value: None
-  ::BeatSaber::GameSettings::ControllerProfilesModel* ____controllerProfilesModel;
 
   /// [Inject]
   /// @brief Field _settingsChangeAnalytics, offset: 0xf8, size: 0x8, def value: None
@@ -640,19 +640,19 @@ static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____mainSetti
 
 static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____settingsNavigationController) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ___fileStorage) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____controllerProfilesModel) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____settingsManager) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ___fileStorage) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____playerDataModel) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____settingsManager) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____settingsApplicator) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____playerDataModel) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____controllerProfilesViewController) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____settingsApplicator) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____dropdownDialogPromptViewController) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____controllerProfilesViewController) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____controllerProfilesModel) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____dropdownDialogPromptViewController) == 0xf0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SettingsFlowCoordinator, ____settingsChangeAnalytics) == 0xf8, "Offset mismatch!");
 

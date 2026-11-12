@@ -30,7 +30,7 @@ public:
   /// @brief Method CreatePanel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* CreatePanel();
 
-  /// @brief Method Reset, addr 0x6bc2554, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6bc3634, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"

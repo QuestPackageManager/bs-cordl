@@ -91,45 +91,45 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver*() noexcept;
 
-  /// @brief Method FinishSetup, addr 0x69cfd58, size 0x37c, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x69d0e38, size 0x37c, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x69cfb80, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x69d0c60, size 0xd8, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
-  /// @brief Method MergeForward, addr 0x69d1394, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method MergeForward, addr 0x69d2474, size 0xa0, virtual false, abstract: false, final false
   static inline bool MergeForward(::UnityEngine::InputSystem::LowLevel::InputEventPtr currentEventPtr, ::UnityEngine::InputSystem::LowLevel::InputEventPtr nextEventPtr);
 
   static inline ::UnityEngine::InputSystem::Touchscreen* New_ctor();
 
-  /// @brief Method OnNextUpdate, addr 0x69d00d4, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method OnNextUpdate, addr 0x69d11b4, size 0x38c, virtual false, abstract: false, final false
   inline void OnNextUpdate();
 
-  /// @brief Method OnRemoved, addr 0x69cfc58, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x69d0d38, size 0x100, virtual true, abstract: false, final false
   inline void OnRemoved();
 
-  /// @brief Method OnStateEvent, addr 0x69d0460, size 0x758, virtual false, abstract: false, final false
+  /// @brief Method OnStateEvent, addr 0x69d1540, size 0x758, virtual false, abstract: false, final false
   inline void OnStateEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method TriggerTap, addr 0x69d0bb8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TriggerTap, addr 0x69d1c98, size 0xb0, virtual false, abstract: false, final false
   static inline void TriggerTap(::UnityEngine::InputSystem::Controls::TouchControl* control, ::by_ref<::UnityEngine::InputSystem::LowLevel::TouchState> state,
                                 ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method UnityEngine.InputSystem.LowLevel.ICustomDeviceReset.Reset, addr 0x69d0f10, size 0x484, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.InputSystem.LowLevel.ICustomDeviceReset.Reset, addr 0x69d1ff0, size 0x484, virtual true, abstract: false, final true
   inline void UnityEngine_InputSystem_LowLevel_ICustomDeviceReset_Reset();
 
-  /// @brief Method UnityEngine.InputSystem.LowLevel.IEventMerger.MergeForward, addr 0x69d1434, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.InputSystem.LowLevel.IEventMerger.MergeForward, addr 0x69d2514, size 0x68, virtual true, abstract: false, final true
   inline bool UnityEngine_InputSystem_LowLevel_IEventMerger_MergeForward(::UnityEngine::InputSystem::LowLevel::InputEventPtr currentEventPtr,
                                                                          ::UnityEngine::InputSystem::LowLevel::InputEventPtr nextEventPtr);
 
-  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.GetStateOffsetForEvent, addr 0x69d0c70, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.GetStateOffsetForEvent, addr 0x69d1d50, size 0x28c, virtual true, abstract: false, final true
   inline bool UnityEngine_InputSystem_LowLevel_IInputStateCallbackReceiver_GetStateOffsetForEvent(::UnityEngine::InputSystem::InputControl* control,
                                                                                                   ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::by_ref<uint32_t> offset);
 
-  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnNextUpdate, addr 0x69d0c68, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnNextUpdate, addr 0x69d1d48, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_InputSystem_LowLevel_IInputStateCallbackReceiver_OnNextUpdate();
 
-  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnStateEvent, addr 0x69d0c6c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateCallbackReceiver.OnStateEvent, addr 0x69d1d4c, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_InputSystem_LowLevel_IInputStateCallbackReceiver_OnStateEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
   constexpr ::UnityEngine::InputSystem::Controls::TouchControl* const& __cordl_internal_get__primaryTouch_k__BackingField() const;
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set__touches_k__BackingField(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::TouchControl*> value);
 
-  /// @brief Method .ctor, addr 0x69d149c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69d257c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Touchscreen* getStaticF__current_k__BackingField();
@@ -160,18 +160,18 @@ public:
   static inline float_t getStaticF_s_TapTime();
 
   /// [CompilerGenerated]
-  /// @brief Method get_current, addr 0x69cfac4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x69d0ba4, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Touchscreen* get_current();
 
   /// [CompilerGenerated]
-  /// @brief Method get_primaryTouch, addr 0x69cfa34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_primaryTouch, addr 0x69d0b14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::TouchControl* get_primaryTouch();
 
-  /// @brief Method get_touchControlArray, addr 0x69cfa58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchControlArray, addr 0x69d0b38, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::InputSystem::Controls::TouchControl*> get_touchControlArray();
 
   /// [CompilerGenerated]
-  /// @brief Method get_touches, addr 0x69cfa44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_touches, addr 0x69d0b24, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::TouchControl*> get_touches();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::ICustomDeviceReset"
@@ -196,18 +196,18 @@ public:
   static inline void setStaticF_s_TapTime(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_current, addr 0x69cfb20, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x69d0c00, size 0x60, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Touchscreen* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_primaryTouch, addr 0x69cfa3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_primaryTouch, addr 0x69d0b1c, size 0x8, virtual false, abstract: false, final false
   inline void set_primaryTouch(::UnityEngine::InputSystem::Controls::TouchControl* value);
 
-  /// @brief Method set_touchControlArray, addr 0x69cfa60, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_touchControlArray, addr 0x69d0b40, size 0x64, virtual false, abstract: false, final false
   inline void set_touchControlArray(::ArrayW<::UnityEngine::InputSystem::Controls::TouchControl*> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_touches, addr 0x69cfa50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touches, addr 0x69d0b30, size 0x8, virtual false, abstract: false, final false
   inline void set_touches(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::TouchControl*> value);
 
 protected:

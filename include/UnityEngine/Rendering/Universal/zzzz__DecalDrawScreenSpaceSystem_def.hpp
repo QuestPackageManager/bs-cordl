@@ -26,12 +26,12 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE DecalDrawScreenSpaceSystem : public ::UnityEngine::Rendering::Universal::DecalDrawSystem {
 public:
   // Declarations
-  /// @brief Method GetPassIndex, addr 0x6cd63e0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetPassIndex, addr 0x6cd74c0, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetPassIndex(::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk);
 
   static inline ::UnityEngine::Rendering::Universal::DecalDrawScreenSpaceSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
-  /// @brief Method .ctor, addr 0x6cd635c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cd743c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
 protected:

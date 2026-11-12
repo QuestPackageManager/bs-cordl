@@ -39,24 +39,24 @@ public:
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>*();
 
   /// [ExcludeFromDocs]
-  /// @brief Method Equals, addr 0x705cdbc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x705de9c, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   /// [ExcludeFromDocs]
-  /// @brief Method Equals, addr 0x705ce34, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x705df14, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord other);
 
   /// [ExcludeFromDocs]
-  /// @brief Method GetHashCode, addr 0x705cd50, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x705de30, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x705cd40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x705de20, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t glyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphValueRecord glyphValueRecord);
 
-  /// @brief Method get_glyphIndex, addr 0x705cd2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphIndex, addr 0x705de0c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_glyphIndex();
 
-  /// @brief Method get_glyphValueRecord, addr 0x705cd34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_glyphValueRecord, addr 0x705de14, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphValueRecord get_glyphValueRecord();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>"
@@ -71,7 +71,7 @@ public:
   constexpr GlyphAdjustmentRecord(uint32_t m_GlyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphValueRecord m_GlyphValueRecord) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23062 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

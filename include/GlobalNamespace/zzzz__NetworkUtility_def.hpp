@@ -28,19 +28,19 @@ public:
   /// @brief Field _nameEncryptionKey, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__nameEncryptionKey, put = setStaticF__nameEncryptionKey)) ::ArrayW<uint8_t> _nameEncryptionKey;
 
-  /// @brief Method DecryptName, addr 0x35e7770, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method DecryptName, addr 0x35ebc08, size 0x38c, virtual false, abstract: false, final false
   static inline ::StringW DecryptName(::StringW text);
 
-  /// @brief Method EncryptName, addr 0x35e73ec, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method EncryptName, addr 0x35eb884, size 0x384, virtual false, abstract: false, final false
   static inline ::StringW EncryptName(::StringW text);
 
-  /// @brief Method GenerateId, addr 0x35e7afc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GenerateId, addr 0x35ebf94, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW GenerateId();
 
-  /// @brief Method GetHashBase64, addr 0x35e7b98, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetHashBase64, addr 0x35ec030, size 0x1c4, virtual false, abstract: false, final false
   static inline ::StringW GetHashBase64(::StringW input);
 
-  /// @brief Method Init, addr 0x35e7304, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x35eb79c, size 0xe8, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::ArrayW<uint8_t> getStaticF__nameEncryptionIv();
@@ -66,7 +66,7 @@ public:
   NetworkUtility(NetworkUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18813 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

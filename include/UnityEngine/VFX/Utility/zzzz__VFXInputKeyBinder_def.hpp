@@ -52,18 +52,18 @@ public:
   /// @brief Field m_KeySmoothProperty, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_KeySmoothProperty, put = __cordl_internal_set_m_KeySmoothProperty)) ::UnityEngine::VFX::Utility::ExposedProperty* m_KeySmoothProperty;
 
-  /// @brief Method IsValid, addr 0x6e5e114, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6e5f1f4, size 0x74, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::VFXInputKeyBinder* New_ctor();
 
-  /// @brief Method Start, addr 0x6e5e188, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x6e5f268, size 0x60, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToString, addr 0x6e5e2f8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6e5f3d8, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x6e5e1e8, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x6e5f2c8, size 0x110, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
   constexpr ::UnityEngine::KeyCode const& __cordl_internal_get_Key() const;
@@ -102,19 +102,19 @@ public:
 
   constexpr void __cordl_internal_set_m_KeySmoothProperty(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x6e5e3b8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e5f498, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_KeyProperty, addr 0x6e5e0ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_KeyProperty, addr 0x6e5f18c, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_KeyProperty();
 
-  /// @brief Method get_KeySmoothProperty, addr 0x6e5e0e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_KeySmoothProperty, addr 0x6e5f1c0, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_KeySmoothProperty();
 
-  /// @brief Method set_KeyProperty, addr 0x6e5e0c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_KeyProperty, addr 0x6e5f1a4, size 0x1c, virtual false, abstract: false, final false
   inline void set_KeyProperty(::StringW value);
 
-  /// @brief Method set_KeySmoothProperty, addr 0x6e5e0f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_KeySmoothProperty, addr 0x6e5f1d8, size 0x1c, virtual false, abstract: false, final false
   inline void set_KeySmoothProperty(::StringW value);
 
 protected:
@@ -132,7 +132,7 @@ public:
   VFXInputKeyBinder(VFXInputKeyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20306 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20320 };
 
   /// [VFXPropertyBinding(new[] { "System.Boolean" })]
   /// [SerializeField]

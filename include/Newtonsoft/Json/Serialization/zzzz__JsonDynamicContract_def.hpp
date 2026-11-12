@@ -74,20 +74,20 @@ public:
       ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*>*
       _callSiteSetters;
 
-  /// @brief Method CreateCallSiteGetter, addr 0x6199464, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CreateCallSiteGetter, addr 0x61996ec, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSite_1<::System::Func_3<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*>*>*
   CreateCallSiteGetter(::StringW name);
 
-  /// @brief Method CreateCallSiteSetter, addr 0x6199588, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CreateCallSiteSetter, addr 0x6199810, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*
   CreateCallSiteSetter(::StringW name);
 
   static inline ::Newtonsoft::Json::Serialization::JsonDynamicContract* New_ctor(::System::Type* underlyingType);
 
-  /// @brief Method TryGetMember, addr 0x61996ac, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method TryGetMember, addr 0x6199934, size 0x10c, virtual false, abstract: false, final false
   inline bool TryGetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, /* [Nullable(2)] */ ::by_ref<::System::Object*> value);
 
-  /// @brief Method TrySetMember, addr 0x61997b8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method TrySetMember, addr 0x6199a40, size 0x108, virtual false, abstract: false, final false
   inline bool TrySetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, /* [Nullable(2)] */ ::System::Object* value);
 
   constexpr ::Newtonsoft::Json::Serialization::JsonPropertyCollection* const& __cordl_internal_get__Properties_k__BackingField() const;
@@ -127,19 +127,19 @@ public:
           ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*>*
           value);
 
-  /// @brief Method .ctor, addr 0x6193bac, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6193e34, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Properties, addr 0x619944c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x61996d4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_Properties();
 
   /// [CompilerGenerated]
-  /// @brief Method get_PropertyNameResolver, addr 0x6199454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNameResolver, addr 0x61996dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::StringW, ::StringW>* get_PropertyNameResolver();
 
   /// [CompilerGenerated]
-  /// @brief Method set_PropertyNameResolver, addr 0x619945c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PropertyNameResolver, addr 0x61996e4, size 0x8, virtual false, abstract: false, final false
   inline void set_PropertyNameResolver(/* [Nullable(new[] { 2, 1, 1 })] */ ::System::Func_2<::StringW, ::StringW>* value);
 
 protected:

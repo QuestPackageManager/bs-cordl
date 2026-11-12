@@ -23,7 +23,7 @@ template <typename T>
 class CORDL_TYPE OptionalArgument_1 : public ::GlobalNamespace::RequiredArgument_1<T> {
 public:
   // Declarations
-  /// @brief Field _defaultValue, offset 0x40, size 0x8
+  /// @brief Field _defaultValue, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultValue, put = __cordl_internal_set__defaultValue)) T _defaultValue;
 
   __declspec(property(get = get_isOptional)) bool isOptional;
@@ -60,9 +60,9 @@ public:
   OptionalArgument_1(OptionalArgument_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19756 };
 
-  /// @brief Field _defaultValue, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _defaultValue, offset: 0x48, size: 0x8, def value: None
   T ____defaultValue;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

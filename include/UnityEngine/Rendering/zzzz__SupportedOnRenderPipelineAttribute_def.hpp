@@ -118,13 +118,13 @@ public:
 
   static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c* New_ctor();
 
-  /// @brief Method <.cctor>b__12_0, addr 0x6fb7c10, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__12_0, addr 0x6fb8cf0, size 0xd4, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> __cctor_b__12_0();
 
-  /// @brief Method <.ctor>b__6_0, addr 0x6fb7bf0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__6_0, addr 0x6fb8cd0, size 0x20, virtual false, abstract: false, final false
   inline ::StringW __ctor_b__6_0(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x6fb7bec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fb8ccc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute___c* getStaticF___9();
@@ -179,13 +179,13 @@ public:
 
   __declspec(property(get = get_renderPipelineTypes)) ::ArrayW<::System::Type*> renderPipelineTypes;
 
-  /// @brief Method GetSupportedMode, addr 0x6fb78bc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetSupportedMode, addr 0x6fb899c, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode GetSupportedMode(::System::Type* renderPipelineAssetType);
 
-  /// @brief Method GetSupportedMode, addr 0x6fb7928, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetSupportedMode, addr 0x6fb8a08, size 0x148, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute_SupportedMode GetSupportedMode(::ArrayW<::System::Type*> renderPipelineTypes, ::System::Type* renderPipelineAssetType);
 
-  /// @brief Method IsTypeSupportedOnRenderPipeline, addr 0x6fa2c3c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsTypeSupportedOnRenderPipeline, addr 0x6fa3d1c, size 0x78, virtual false, abstract: false, final false
   static inline bool IsTypeSupportedOnRenderPipeline(::System::Type* type, ::System::Type* renderPipelineAssetType);
 
   static inline ::UnityEngine::Rendering::SupportedOnRenderPipelineAttribute* New_ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> renderPipeline);
@@ -198,16 +198,16 @@ public:
 
   constexpr void __cordl_internal_set__renderPipelineTypes_k__BackingField(::ArrayW<::System::Type*> value);
 
-  /// @brief Method .ctor, addr 0x6fb75b0, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fb8690, size 0x30c, virtual false, abstract: false, final false
   inline void _ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> renderPipeline);
 
-  /// @brief Method .ctor, addr 0x6fb750c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fb85ec, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* renderPipeline);
 
   static inline ::System::Lazy_1<::ArrayW<::System::Type*>>* getStaticF_k_DefaultRenderPipelineAsset();
 
   /// [CompilerGenerated]
-  /// @brief Method get_renderPipelineTypes, addr 0x6fb7504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderPipelineTypes, addr 0x6fb85e4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*> get_renderPipelineTypes();
 
   static inline void setStaticF_k_DefaultRenderPipelineAsset(::System::Lazy_1<::ArrayW<::System::Type*>>* value);

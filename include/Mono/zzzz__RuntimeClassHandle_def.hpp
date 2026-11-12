@@ -34,25 +34,25 @@ public:
   // Declarations
   __declspec(property(get = get_Value)) ::Mono::RuntimeStructs_MonoClass* Value;
 
-  /// @brief Method Equals, addr 0x5f0210c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5f02394, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x5f021f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5f0247c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTypeFromClass, addr 0x5f021fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTypeFromClass, addr 0x5f02484, size 0x8, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetTypeFromClass(::Mono::RuntimeStructs_MonoClass* klass);
 
-  /// @brief Method GetTypeHandle, addr 0x5f02204, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetTypeHandle, addr 0x5f0248c, size 0xc, virtual false, abstract: false, final false
   inline ::System::RuntimeTypeHandle GetTypeHandle();
 
-  /// @brief Method .ctor, addr 0x5f020fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f02384, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method .ctor, addr 0x5f020f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f0237c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Mono::RuntimeStructs_MonoClass* value);
 
-  /// @brief Method get_Value, addr 0x5f02104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5f0238c, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::RuntimeStructs_MonoClass* get_Value();
 
   // Ctor Parameters []

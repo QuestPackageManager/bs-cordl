@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GUIStyle* (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::get_style)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fe9528;
+  constexpr static std::size_t addrs = 0x6fea608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), { "get_style", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUILayoutEntry::*)(::UnityEngine::GUIStyle*)>(&::UnityEngine::GUILayoutEntry::set_style)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6fe06b4;
+  constexpr static std::size_t addrs = 0x6fe1794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::get_marginLeft)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6fe9530;
+  constexpr static std::size_t addrs = 0x6fea610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), { ::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), 4 }));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::get_marginRight)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6fe9554;
+  constexpr static std::size_t addrs = 0x6fea634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), { ::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), 5 }));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::get_marginTop)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6fe9578;
+  constexpr static std::size_t addrs = 0x6fea658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), { ::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), 6 }));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::get_marginBottom)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6fe959c;
+  constexpr static std::size_t addrs = 0x6fea67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), { ::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), 7 }));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::get_marginHorizontal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6fe95c0;
+  constexpr static std::size_t addrs = 0x6fea6a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), { "get_marginHorizontal", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::get_marginVertical)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6fe95fc;
+  constexpr static std::size_t addrs = 0x6fea6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), { "get_marginVertical", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUILayoutEntry::*)(float_t, float_t, float_t, float_t, ::UnityEngine::GUIStyle*)>(&::UnityEngine::GUILayoutEntry::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6fe9638;
+  constexpr static std::size_t addrs = 0x6fea718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUILayoutEntry::*)(float_t, float_t, float_t, float_t, ::UnityEngine::GUIStyle*,
                                                                                                ::ArrayW<::UnityEngine::GUILayoutOption*>)>(&::UnityEngine::GUILayoutEntry::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6fe1834;
+  constexpr static std::size_t addrs = 0x6fe2914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::CalcWidth)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6fe9704;
+  constexpr static std::size_t addrs = 0x6fea7e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), { ::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), 8 }));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::CalcHeight)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6fe9708;
+  constexpr static std::size_t addrs = 0x6fea7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), { ::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), 9 }));
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUILayoutEntry::*)(float_t, float_t)>(&::UnityEngine::GUILayoutEntry::SetHorizontal)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6fe970c;
+  constexpr static std::size_t addrs = 0x6fea7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUILayoutEntry::*)(float_t, float_t)>(&::UnityEngine::GUILayoutEntry::SetVertical)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6fe9778;
+  constexpr static std::size_t addrs = 0x6fea858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUILayoutEntry::*)(::UnityEngine::GUIStyle*)>(&::UnityEngine::GUILayoutEntry::ApplyStyleSettings)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6fe97e4;
+  constexpr static std::size_t addrs = 0x6fea8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUILayoutEntry::*)(::ArrayW<::UnityEngine::GUILayoutOption*>)>(&::UnityEngine::GUILayoutEntry::ApplyOptions)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x6fe9860;
+  constexpr static std::size_t addrs = 0x6fea940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::GUILayoutEntry::*)()>(&::UnityEngine::GUILayoutEntry::ToString)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x6fe9ad8;
+  constexpr static std::size_t addrs = 0x6feabb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), { ::i2c::class_of<::UnityEngine::GUILayoutEntry*>(), 3 }));

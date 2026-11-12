@@ -35,10 +35,10 @@ public:
   /// @brief Field <Bindable>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__Bindable_k__BackingField, put = __cordl_internal_set__Bindable_k__BackingField)) bool _Bindable_k__BackingField;
 
-  /// @brief Method Equals, addr 0x682d81c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x682de6c, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x682d8b4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x682df04, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::ComponentModel::SettingsBindableAttribute* New_ctor(bool bindable);
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__Bindable_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x682d80c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x682de5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool bindable);
 
   static inline ::System::ComponentModel::SettingsBindableAttribute* getStaticF_No();
@@ -57,7 +57,7 @@ public:
   static inline ::System::ComponentModel::SettingsBindableAttribute* getStaticF_Yes();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Bindable, addr 0x682d814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Bindable, addr 0x682de64, size 0x8, virtual false, abstract: false, final false
   inline bool get_Bindable();
 
   static inline void setStaticF_No(::System::ComponentModel::SettingsBindableAttribute* value);

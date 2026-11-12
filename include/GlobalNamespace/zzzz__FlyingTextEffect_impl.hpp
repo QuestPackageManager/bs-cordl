@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingTextEffect_Pool::*)()>(&::GlobalNamespace::FlyingTextEffect_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5ddfe98;
+  constexpr static std::size_t addrs = 0x5ddffb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingTextEffect_Pool*>(), { ".ctor", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingTextEffect::*)(::StringW, float_t, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Color,
                                                                                                      float_t, bool)>(&::GlobalNamespace::FlyingTextEffect::InitAndPresent)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5ddfd80;
+  constexpr static std::size_t addrs = 0x5ddfe9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingTextEffect::*)(float_t)>(&::GlobalNamespace::FlyingTextEffect::ManualUpdate)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5ddfdfc;
+  constexpr static std::size_t addrs = 0x5ddff18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FlyingTextEffect::*)()>(&::GlobalNamespace::FlyingTextEffect::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5ddfe60;
+  constexpr static std::size_t addrs = 0x5ddff7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FlyingTextEffect*>(), { ".ctor", {}, {} })));

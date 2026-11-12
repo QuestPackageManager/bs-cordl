@@ -81,22 +81,22 @@ public:
 
   constexpr void __cordl_internal_set_StatusDescription(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6862e58, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68634a8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_InvalidStatusCode, addr 0x6862e44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_InvalidStatusCode, addr 0x6863494, size 0x14, virtual false, abstract: false, final false
   inline bool get_InvalidStatusCode();
 
-  /// @brief Method get_PermanentFailure, addr 0x6862e30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_PermanentFailure, addr 0x6863480, size 0x14, virtual false, abstract: false, final false
   inline bool get_PermanentFailure();
 
-  /// @brief Method get_PositiveCompletion, addr 0x6862e08, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_PositiveCompletion, addr 0x6863458, size 0x14, virtual false, abstract: false, final false
   inline bool get_PositiveCompletion();
 
-  /// @brief Method get_PositiveIntermediate, addr 0x6862df4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_PositiveIntermediate, addr 0x6863444, size 0x14, virtual false, abstract: false, final false
   inline bool get_PositiveIntermediate();
 
-  /// @brief Method get_TransientFailure, addr 0x6862e1c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_TransientFailure, addr 0x686346c, size 0x14, virtual false, abstract: false, final false
   inline bool get_TransientFailure();
 
 protected:

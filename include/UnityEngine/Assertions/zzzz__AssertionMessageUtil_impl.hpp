@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::Assertions::AssertionMessageUtil::GetMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6f9fa88;
+  constexpr static std::size_t addrs = 0x6fa0b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngine::Assertions::AssertionMessageUtil::GetMessage)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6f9fb24;
+  constexpr static std::size_t addrs = 0x6fa0c04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Object*, ::System::Object*, bool)>(&::UnityEngine::Assertions::AssertionMessageUtil::GetEqualityMessage)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6f9f46c;
+  constexpr static std::size_t addrs = 0x6fa054c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Object*, bool)>(&::UnityEngine::Assertions::AssertionMessageUtil::NullFailureMessage)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6f9f6ac;
+  constexpr static std::size_t addrs = 0x6fa078c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Assertions::AssertionMessageUtil*>(),
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(bool)>(&::UnityEngine::Assertions::AssertionMessageUtil::BooleanFailureMessage)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6f9f200;
+  constexpr static std::size_t addrs = 0x6fa02e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

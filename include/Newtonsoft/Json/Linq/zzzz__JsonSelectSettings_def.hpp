@@ -52,23 +52,23 @@ public:
 
   constexpr void __cordl_internal_set__RegexMatchTimeout_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
 
-  /// @brief Method .ctor, addr 0x61d1650, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61d18d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ErrorWhenNoMatch, addr 0x61d1640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorWhenNoMatch, addr 0x61d18c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ErrorWhenNoMatch();
 
   /// [CompilerGenerated]
-  /// @brief Method get_RegexMatchTimeout, addr 0x61d162c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_RegexMatchTimeout, addr 0x61d18b4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> get_RegexMatchTimeout();
 
   /// [CompilerGenerated]
-  /// @brief Method set_ErrorWhenNoMatch, addr 0x61d1648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorWhenNoMatch, addr 0x61d18d0, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorWhenNoMatch(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_RegexMatchTimeout, addr 0x61d1638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RegexMatchTimeout, addr 0x61d18c0, size 0x8, virtual false, abstract: false, final false
   inline void set_RegexMatchTimeout(::System::Nullable_1<::System::TimeSpan> value);
 
 protected:

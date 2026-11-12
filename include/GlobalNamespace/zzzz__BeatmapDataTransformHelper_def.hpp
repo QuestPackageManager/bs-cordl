@@ -85,7 +85,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapDataTransformHelper___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <CreateTransformedBeatmapDataAsync>b__0, addr 0x39b4ed4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <CreateTransformedBeatmapDataAsync>b__0, addr 0x39b9514, size 0x40, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* _CreateTransformedBeatmapDataAsync_b__0();
 
   constexpr ::GlobalNamespace::IReadonlyBeatmapData* const& __cordl_internal_get_beatmapData() const;
@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_screenDisplacementEffects(bool value);
 
-  /// @brief Method .ctor, addr 0x39b4974, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39b8fb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -148,7 +148,7 @@ public:
   BeatmapDataTransformHelper___c__DisplayClass0_0(BeatmapDataTransformHelper___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14260 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14261 };
 
   /// @brief Field beatmapData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* ___beatmapData;
@@ -200,30 +200,30 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::BeatmapDataTransformHelper___c__DisplayClass0_0;
 
-  /// @brief Method AddTestBurstSlider, addr 0x39b4c04, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AddTestBurstSlider, addr 0x39b9244, size 0x134, virtual false, abstract: false, final false
   static inline void AddTestBurstSlider(float_t time, float_t beat, float_t duration, int32_t headRotation, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headNoteLineLayer,
                                         ::GlobalNamespace::NoteCutDirection headCutDirection, int32_t tailRotation, int32_t tailLineIndex, ::GlobalNamespace::NoteLineLayer tailNoteLineLayer,
                                         ::GlobalNamespace::NoteCutDirection tailCutDirection, int32_t sliceCount, float_t squishAmount, ::GlobalNamespace::BeatmapData* beatmapData);
 
-  /// @brief Method AddTestSlider, addr 0x39b4d38, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method AddTestSlider, addr 0x39b9378, size 0x19c, virtual false, abstract: false, final false
   static inline void AddTestSlider(float_t time, float_t beat, float_t duration, int32_t headRotation, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headNoteLineLayer,
                                    ::GlobalNamespace::NoteCutDirection headCutDirection, float_t headControlPointLength, int32_t tailRotation, int32_t tailLineIndex,
                                    ::GlobalNamespace::NoteLineLayer tailNoteLineLayer, ::GlobalNamespace::NoteCutDirection tailCutDirection, float_t tailControlPointLength, bool hasHeadNote,
                                    bool hasTailNote, ::GlobalNamespace::BeatmapData* beatmapData);
 
-  /// @brief Method CreateTransformedBeatmapData, addr 0x39b4978, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedBeatmapData, addr 0x39b8fb8, size 0x18c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::BeatmapKey beatmapKey,
                                                                                       ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                                                                       ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                                                                                       ::GlobalNamespace::EnvironmentInfoSO* originalEnvironmentInfo, bool screenDisplacementEffects);
 
-  /// @brief Method CreateTransformedBeatmapDataAsync, addr 0x39b47fc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedBeatmapDataAsync, addr 0x39b8e3c, size 0x178, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*
   CreateTransformedBeatmapDataAsync(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                                     ::GlobalNamespace::EnvironmentInfoSO* originalEnvironmentInfo, bool screenDisplacementEffects);
 
-  /// @brief Method IsObstaclesMergingNeeded, addr 0x39b4bf8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsObstaclesMergingNeeded, addr 0x39b9238, size 0xc, virtual false, abstract: false, final false
   static inline bool IsObstaclesMergingNeeded(::StringW beatmapLevelId, bool screenDisplacementEffectsEnabled);
 
 protected:
@@ -241,7 +241,7 @@ public:
   BeatmapDataTransformHelper(BeatmapDataTransformHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14262 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

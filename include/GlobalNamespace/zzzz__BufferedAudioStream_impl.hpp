@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BufferedAudioStream::*)(::UnityEngine::AudioSource*)>(&::GlobalNamespace::BufferedAudioStream::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6209ac4;
+  constexpr static std::size_t addrs = 0x6209d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BufferedAudioStream::*)()>(&::GlobalNamespace::BufferedAudioStream::Update)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x6209bc8;
+  constexpr static std::size_t addrs = 0x6209e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BufferedAudioStream*>(), { "Update", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BufferedAudioStream::*)()>(&::GlobalNamespace::BufferedAudioStream::Stop)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6209b84;
+  constexpr static std::size_t addrs = 0x6209e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BufferedAudioStream*>(), { "Stop", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BufferedAudioStream::*)(::ArrayW<float_t>)>(&::GlobalNamespace::BufferedAudioStream::AddData)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6209dec;
+  constexpr static std::size_t addrs = 0x620a074;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

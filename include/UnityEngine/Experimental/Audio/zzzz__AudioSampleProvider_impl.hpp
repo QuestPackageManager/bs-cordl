@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6ee128c;
+  constexpr static std::size_t addrs = 0x6ee236c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler::*)(
     ::UnityEngine::Experimental::Audio::AudioSampleProvider*, uint32_t)>(&::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ee13d4;
+  constexpr static std::size_t addrs = 0x6ee24b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler*>(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Audio::AudioSampleProvider::*)(int32_t)>(
     &::UnityEngine::Experimental::Audio::AudioSampleProvider::InvokeSampleFramesAvailable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6ee123c;
+  constexpr static std::size_t addrs = 0x6ee231c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::Audio::AudioSampleProvider::*)(int32_t)>(
     &::UnityEngine::Experimental::Audio::AudioSampleProvider::InvokeSampleFramesOverflow)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6ee1264;
+  constexpr static std::size_t addrs = 0x6ee2344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

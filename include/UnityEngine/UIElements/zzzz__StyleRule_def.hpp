@@ -56,15 +56,15 @@ public:
 
   __declspec(property(get = get_styleSheet, put = set_styleSheet)) ::UnityW<::UnityEngine::UIElements::StyleSheet> styleSheet;
 
-  /// @brief Method AddProperty, addr 0x71527c8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AddProperty, addr 0x71538a8, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleProperty* AddProperty(::StringW propertyName);
 
-  /// @brief Method AddSelector, addr 0x715275c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AddSelector, addr 0x715383c, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleComplexSelector* AddSelector(::StringW selectorStr);
 
   static inline ::UnityEngine::UIElements::StyleRule* New_ctor(::UnityEngine::UIElements::StyleSheet* styleSheet);
 
-  /// @brief Method TryAddSelector, addr 0x715260c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method TryAddSelector, addr 0x71536ec, size 0x10c, virtual false, abstract: false, final false
   inline bool TryAddSelector(::StringW selectorStr, ::by_ref<::UnityEngine::UIElements::StyleComplexSelector*> selector, ::by_ref<::StringW> error);
 
   constexpr ::UnityW<::UnityEngine::UIElements::StyleSheet> const& __cordl_internal_get__styleSheet_k__BackingField() const;
@@ -97,21 +97,21 @@ public:
 
   constexpr void __cordl_internal_set_m_Properties(::ArrayW<::UnityEngine::UIElements::StyleProperty*> value);
 
-  /// @brief Method .ctor, addr 0x71524d8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71535b8, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheet* styleSheet);
 
-  /// @brief Method get_complexSelectors, addr 0x71525fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_complexSelectors, addr 0x71536dc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*> get_complexSelectors();
 
-  /// @brief Method get_properties, addr 0x7152604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_properties, addr 0x71536e4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleProperty*> get_properties();
 
   /// [CompilerGenerated]
-  /// @brief Method get_styleSheet, addr 0x71524c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleSheet, addr 0x71535a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::StyleSheet> get_styleSheet();
 
   /// [CompilerGenerated]
-  /// @brief Method set_styleSheet, addr 0x71524d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_styleSheet, addr 0x71535b0, size 0x8, virtual false, abstract: false, final false
   inline void set_styleSheet(::UnityEngine::UIElements::StyleSheet* value);
 
 protected:

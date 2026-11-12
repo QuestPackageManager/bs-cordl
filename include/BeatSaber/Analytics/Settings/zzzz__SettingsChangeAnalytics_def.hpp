@@ -93,12 +93,12 @@ public:
   /// @brief Field _sender, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__sender, put = __cordl_internal_set__sender)) ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* _sender;
 
-  /// @brief Method DiffAndSend, addr 0x350acd8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method DiffAndSend, addr 0x350d118, size 0xec, virtual false, abstract: false, final false
   inline void DiffAndSend(::GlobalNamespace::ColorSchemesSettings* colors);
 
   static inline ::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_ColorsConfigTracker* New_ctor(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
-  /// @brief Method TakeSnapshot, addr 0x350ac3c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method TakeSnapshot, addr 0x350d07c, size 0x24, virtual false, abstract: false, final false
   inline void TakeSnapshot(::GlobalNamespace::ColorSchemesSettings* colors);
 
   constexpr ::StringW const& __cordl_internal_get__baseline() const;
@@ -119,7 +119,7 @@ public:
 
   constexpr void __cordl_internal_set__sender(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* value);
 
-  /// @brief Method .ctor, addr 0x350ac2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350d06c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
 protected:
@@ -137,7 +137,7 @@ public:
   SettingsChangeAnalytics_ColorsConfigTracker(SettingsChangeAnalytics_ColorsConfigTracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22785 };
 
   /// @brief Field _sender, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* ____sender;
@@ -176,12 +176,12 @@ public:
   /// @brief Field _sender, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__sender, put = __cordl_internal_set__sender)) ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* _sender;
 
-  /// @brief Method DiffAndSend, addr 0x350ae60, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method DiffAndSend, addr 0x350d2a0, size 0xec, virtual false, abstract: false, final false
   inline void DiffAndSend(::GlobalNamespace::OverrideEnvironmentSettings* environments);
 
   static inline ::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_EnvironmentsConfigTracker* New_ctor(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
-  /// @brief Method TakeSnapshot, addr 0x350adc4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method TakeSnapshot, addr 0x350d204, size 0x24, virtual false, abstract: false, final false
   inline void TakeSnapshot(::GlobalNamespace::OverrideEnvironmentSettings* environments);
 
   constexpr ::StringW const& __cordl_internal_get__baseline() const;
@@ -202,7 +202,7 @@ public:
 
   constexpr void __cordl_internal_set__sender(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* value);
 
-  /// @brief Method .ctor, addr 0x350ac34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350d074, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* sender);
 
 protected:
@@ -220,7 +220,7 @@ public:
   SettingsChangeAnalytics_EnvironmentsConfigTracker(SettingsChangeAnalytics_EnvironmentsConfigTracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22773 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22786 };
 
   /// @brief Field _sender, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender* ____sender;
@@ -258,16 +258,16 @@ public:
 
   static inline ::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_LiveSettingsEventSender* New_ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* dispatcher);
 
-  /// @brief Method SendChange, addr 0x350b07c, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method SendChange, addr 0x350d4bc, size 0x134, virtual true, abstract: false, final true
   inline void SendChange(/* [TupleElementNames(new[] { "metricName", "value" })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>* metrics);
 
-  /// @brief Method SendColorsOverride, addr 0x350b1b0, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method SendColorsOverride, addr 0x350d5f0, size 0x134, virtual true, abstract: false, final true
   inline void SendColorsOverride(::StringW configPayload);
 
-  /// @brief Method SendEnvironmentOverride, addr 0x350b2e4, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method SendEnvironmentOverride, addr 0x350d724, size 0x134, virtual true, abstract: false, final true
   inline void SendEnvironmentOverride(::StringW configPayload);
 
-  /// @brief Method SendSnapshot, addr 0x350af4c, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method SendSnapshot, addr 0x350d38c, size 0x130, virtual true, abstract: false, final true
   inline bool SendSnapshot(/* [TupleElementNames(new[] { "metricName", "value" })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>* metrics);
 
   constexpr ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* const& __cordl_internal_get__dispatcher() const;
@@ -276,7 +276,7 @@ public:
 
   constexpr void __cordl_internal_set__dispatcher(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* value);
 
-  /// @brief Method .ctor, addr 0x350ac24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350d064, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* dispatcher);
 
   /// @brief Convert to "::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender"
@@ -297,7 +297,7 @@ public:
   SettingsChangeAnalytics_LiveSettingsEventSender(SettingsChangeAnalytics_LiveSettingsEventSender const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22787 };
 
   /// @brief Field _dispatcher, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* ____dispatcher;
@@ -433,43 +433,43 @@ public:
 
   constexpr void __cordl_internal_set__Player_k__BackingField(::BeatSaber::Analytics::Settings::PlayerSettingsTracker* value);
 
-  /// @brief Method .ctor, addr 0x350ab1c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350cf5c, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* dispatcher);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Audio, addr 0x350aad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Audio, addr 0x350cf14, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Settings::AudioSettingsTracker* get_Audio();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Colors, addr 0x350aadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Colors, addr 0x350cf1c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Settings::ColorsSettingsTracker* get_Colors();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ColorsConfig, addr 0x350ab0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ColorsConfig, addr 0x350cf4c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_ColorsConfigTracker* get_ColorsConfig();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Controller, addr 0x350aae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Controller, addr 0x350cf24, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Settings::ControllerSettingsTracker* get_Controller();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Environments, addr 0x350aaec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Environments, addr 0x350cf2c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Settings::EnvironmentsSettingsTracker* get_Environments();
 
   /// [CompilerGenerated]
-  /// @brief Method get_EnvironmentsConfig, addr 0x350ab14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnvironmentsConfig, addr 0x350cf54, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Settings::SettingsChangeAnalytics_EnvironmentsConfigTracker* get_EnvironmentsConfig();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Graphics, addr 0x350aaf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Graphics, addr 0x350cf34, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Settings::GraphicsSettingsTracker* get_Graphics();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Misc, addr 0x350aafc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Misc, addr 0x350cf3c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Settings::MiscSettingsTracker* get_Misc();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Player, addr 0x350ab04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Player, addr 0x350cf44, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::Analytics::Settings::PlayerSettingsTracker* get_Player();
 
 protected:
@@ -487,7 +487,7 @@ public:
   SettingsChangeAnalytics(SettingsChangeAnalytics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22775 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22788 };
 
   /// [CompilerGenerated]
   /// @brief Field <Audio>k__BackingField, offset: 0x10, size: 0x8, def value: None

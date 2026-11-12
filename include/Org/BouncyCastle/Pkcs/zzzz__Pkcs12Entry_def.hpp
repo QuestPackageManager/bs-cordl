@@ -46,15 +46,15 @@ public:
   __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes)) ::System::Collections::IDictionary* attributes;
 
   /// [Obsolete("Use \'object[index]\' syntax instead")]
-  /// @brief Method GetBagAttribute, addr 0x3856df8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetBagAttribute, addr 0x385b290, size 0x10c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBagAttribute(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   /// [Obsolete("Use \'object[index]\' syntax instead")]
-  /// @brief Method GetBagAttribute, addr 0x3856f04, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetBagAttribute, addr 0x385b39c, size 0x104, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBagAttribute(::StringW oid);
 
   /// [Obsolete("Use \'BagAttributeKeys\' property")]
-  /// @brief Method GetBagAttributeKeys, addr 0x3857008, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetBagAttributeKeys, addr 0x385b4a0, size 0x120, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetBagAttributeKeys();
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs12Entry* New_ctor(::System::Collections::IDictionary* attributes);
@@ -65,16 +65,16 @@ public:
 
   constexpr void __cordl_internal_set_attributes(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x38568e8, size 0x510, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x385ad80, size 0x510, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* attributes);
 
-  /// @brief Method get_BagAttributeKeys, addr 0x3857338, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method get_BagAttributeKeys, addr 0x385b7d0, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_BagAttributeKeys();
 
-  /// @brief Method get_Item, addr 0x3857128, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x385b5c0, size 0x10c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method get_Item, addr 0x3857234, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x385b6cc, size 0x104, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(::StringW oid);
 
 protected:

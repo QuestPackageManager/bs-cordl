@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphGlobalSettings::*)()>(
     &::UnityEngine::Rendering::RenderGraphGlobalSettings::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bfa58c;
+  constexpr static std::size_t addrs = 0x6bfb66c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphGlobalSettings*>(),
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::RenderGraphGlobalSettings::*)()>(
     &::UnityEngine::Rendering::RenderGraphGlobalSettings::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bfa594;
+  constexpr static std::size_t addrs = 0x6bfb674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphGlobalSettings::*)()>(
     &::UnityEngine::Rendering::RenderGraphGlobalSettings::get_enableCompilationCaching)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bfa59c;
+  constexpr static std::size_t addrs = 0x6bfb67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphGlobalSettings::*)(bool)>(
     &::UnityEngine::Rendering::RenderGraphGlobalSettings::set_enableCompilationCaching)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6bfa5a4;
+  constexpr static std::size_t addrs = 0x6bfb684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RenderGraphGlobalSettings::*)()>(
     &::UnityEngine::Rendering::RenderGraphGlobalSettings::get_enableValidityChecks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bfa614;
+  constexpr static std::size_t addrs = 0x6bfb6f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphGlobalSettings::*)(bool)>(
     &::UnityEngine::Rendering::RenderGraphGlobalSettings::set_enableValidityChecks)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6bfa61c;
+  constexpr static std::size_t addrs = 0x6bfb6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RenderGraphGlobalSettings::*)()>(&::UnityEngine::Rendering::RenderGraphGlobalSettings::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6bfa68c;
+  constexpr static std::size_t addrs = 0x6bfb76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RenderGraphGlobalSettings*>(), { ".ctor", {}, {} })));

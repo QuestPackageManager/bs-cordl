@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::GameDlcProductAsyncInstaller::*)()>(&::GlobalNamespace::GameDlcProductAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x39ef324;
+  constexpr static std::size_t addrs = 0x39f43cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::GameDlcProductSO>>*, ::BGLib::AppFlow::Initialization::IInstallerRegistry*)>(
     &::GlobalNamespace::GameDlcProductAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x39ef368;
+  constexpr static std::size_t addrs = 0x39f4410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameDlcProductAsyncInstaller::*)()>(&::GlobalNamespace::GameDlcProductAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x39ef424;
+  constexpr static std::size_t addrs = 0x39f44cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameDlcProductAsyncInstaller::*)()>(&::GlobalNamespace::GameDlcProductAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x39ef5a4;
+  constexpr static std::size_t addrs = 0x39f464c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameDlcProductAsyncInstaller*>(), { ".ctor", {}, {} })));

@@ -340,7 +340,7 @@ public:
 
   constexpr void __cordl_internal_set_viewMatrix(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method .ctor, addr 0x6d5b168, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d5c248, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -448,10 +448,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass___c* New_ctor();
 
-  /// @brief Method <Render>b__59_0, addr 0x6d5b240, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__59_0, addr 0x6d5c320, size 0xdc, virtual false, abstract: false, final false
   inline void _Render_b__59_0(::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6d5b23c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d5c31c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass___c* getStaticF___9();
@@ -613,82 +613,82 @@ public:
   /// @brief Field s_EmptyAdditionalShadowFadeParams, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_s_EmptyAdditionalShadowFadeParams, put = setStaticF_s_EmptyAdditionalShadowFadeParams)) ::UnityEngine::Vector4 s_EmptyAdditionalShadowFadeParams;
 
-  /// @brief Method AnyAdditionalLightHasMixedShadows, addr 0x6d58b1c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AnyAdditionalLightHasMixedShadows, addr 0x6d59bfc, size 0xf0, virtual false, abstract: false, final false
   inline bool AnyAdditionalLightHasMixedShadows(::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
 
-  /// @brief Method CalcGuardAngle, addr 0x6d56a24, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CalcGuardAngle, addr 0x6d57b04, size 0x70, virtual false, abstract: false, final false
   static inline float_t CalcGuardAngle(float_t frustumAngleInDegrees, float_t guardBandSizeInTexels, float_t sliceResolutionInTexels);
 
-  /// @brief Method Clear, addr 0x6d591c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6d5a2a0, size 0x80, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ComputeShadowRequestHash, addr 0x6d56da0, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method ComputeShadowRequestHash, addr 0x6d57e80, size 0x2f8, virtual false, abstract: false, final false
   inline uint64_t ComputeShadowRequestHash(::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method Configure, addr 0x6d56608, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Configure, addr 0x6d576e8, size 0x4, virtual true, abstract: false, final false
   inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
 
-  /// @brief Method Dispose, addr 0x6d56a10, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6d57af0, size 0x14, virtual false, abstract: false, final false
   inline void Dispose();
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method Execute, addr 0x6d5660c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6d576ec, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method GetLightTypeIdentifierForShadowParams, addr 0x6d57098, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetLightTypeIdentifierForShadowParams, addr 0x6d58178, size 0x20, virtual false, abstract: false, final false
   inline float_t GetLightTypeIdentifierForShadowParams(::UnityEngine::LightType lightType);
 
-  /// @brief Method GetPointLightShadowFrustumFovBiasInDegrees, addr 0x6d56a94, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method GetPointLightShadowFrustumFovBiasInDegrees, addr 0x6d57b74, size 0x2c0, virtual false, abstract: false, final false
   static inline float_t GetPointLightShadowFrustumFovBiasInDegrees(int32_t shadowSliceResolution, bool shadowFiltering);
 
-  /// @brief Method GetShadowLightIndexFromLightIndex, addr 0x6d5485c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetShadowLightIndexFromLightIndex, addr 0x6d5593c, size 0x60, virtual false, abstract: false, final false
   inline int32_t GetShadowLightIndexFromLightIndex(int32_t visibleLightIndex);
 
-  /// @brief Method InitPassData, addr 0x6d5a2b0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6d5b390, size 0xb8, virtual false, abstract: false, final false
   inline void InitPassData(::by_ref<::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData*> passData,
                            ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
                            ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
-  /// @brief Method InitRendererLists, addr 0x6d5a368, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method InitRendererLists, addr 0x6d5b448, size 0x278, virtual false, abstract: false, final false
   inline void InitRendererLists(::by_ref<::UnityEngine::Rendering::CullingResults> cullResults,
                                 ::by_ref<::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData*> passData, ::UnityEngine::Rendering::ScriptableRenderContext context,
                                 ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, bool useRenderGraph);
 
   static inline ::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method Render, addr 0x6d5a5e0, size 0x924, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d5b6c0, size 0x924, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method RenderAdditionalShadowmapAtlas, addr 0x6d59490, size 0xabc, virtual false, abstract: false, final false
+  /// @brief Method RenderAdditionalShadowmapAtlas, addr 0x6d5a570, size 0xabc, virtual false, abstract: false, final false
   inline void RenderAdditionalShadowmapAtlas(::UnityEngine::Rendering::RasterCommandBuffer* cmd,
                                              ::by_ref<::UnityEngine::Rendering::Universal::Internal::AdditionalLightsShadowCasterPass_PassData*> data, bool useRenderGraph);
 
-  /// @brief Method ResolutionLog2ForHash, addr 0x6d56d54, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ResolutionLog2ForHash, addr 0x6d57e34, size 0x4c, virtual false, abstract: false, final false
   inline uint64_t ResolutionLog2ForHash(int32_t resolution);
 
-  /// @brief Method SetShadowParamsForEmptyShadowmap, addr 0x6d592ec, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method SetShadowParamsForEmptyShadowmap, addr 0x6d5a3cc, size 0x1a4, virtual false, abstract: false, final false
   static inline void SetShadowParamsForEmptyShadowmap(::UnityEngine::Rendering::RasterCommandBuffer* rasterCommandBuffer);
 
-  /// @brief Method Setup, addr 0x6d571e4, size 0x1938, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d582c4, size 0x1938, virtual false, abstract: false, final false
   inline bool Setup(::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                     ::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
-  /// @brief Method Setup, addr 0x6d570f0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d581d0, size 0xf4, virtual false, abstract: false, final false
   inline bool Setup(::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method SetupAdditionalLightsShadowReceiverConstants, addr 0x6d59f4c, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method SetupAdditionalLightsShadowReceiverConstants, addr 0x6d5b02c, size 0x364, virtual false, abstract: false, final false
   inline void SetupAdditionalLightsShadowReceiverConstants(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Vector2Int allocatedShadowAtlasSize, bool useStructuredBuffer,
                                                            bool softShadows);
 
-  /// @brief Method SetupForEmptyRendering, addr 0x6d58c0c, size 0x5b4, virtual false, abstract: false, final false
+  /// @brief Method SetupForEmptyRendering, addr 0x6d59cec, size 0x5b4, virtual false, abstract: false, final false
   inline bool SetupForEmptyRendering(bool stripShadowsOffVariants, bool shadowsEnabled, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData,
                                      ::UnityEngine::Rendering::Universal::UniversalShadowData* shadowData);
 
-  /// @brief Method UpdateTextureDescriptorIfNeeded, addr 0x6d59240, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method UpdateTextureDescriptorIfNeeded, addr 0x6d5a320, size 0xac, virtual false, abstract: false, final false
   inline void UpdateTextureDescriptorIfNeeded();
 
-  /// @brief Method UsesBakedShadows, addr 0x6d570b8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UsesBakedShadows, addr 0x6d58198, size 0x38, virtual false, abstract: false, final false
   inline bool UsesBakedShadows(::UnityEngine::Light* light);
 
   constexpr ::ArrayW<::UnityEngine::Vector4> const& __cordl_internal_get_m_AdditionalLightIndexToShadowParams() const;
@@ -829,7 +829,7 @@ public:
 
   constexpr void __cordl_internal_set_renderTargetWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6d56610, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d576f0, size 0x400, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
   static inline ::UnityEngine::Vector4 getStaticF_c_DefaultShadowParams();

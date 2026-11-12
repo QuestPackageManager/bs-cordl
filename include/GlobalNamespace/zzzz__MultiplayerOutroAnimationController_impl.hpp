@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)()>(&::GlobalNamespace::MultiplayerOutroAnimationController::Start)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5e39124;
+  constexpr static std::size_t addrs = 0x5e39554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerOutroAnimationController*>(), { "Start", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)()>(&::GlobalNamespace::MultiplayerOutroAnimationController::OnDestroy)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5e392d0;
+  constexpr static std::size_t addrs = 0x5e39700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerOutroAnimationController*>(), { "OnDestroy", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)(::GlobalNamespace::MultiplayerResultsData*, ::System::Action*)>(
     &::GlobalNamespace::MultiplayerOutroAnimationController::AnimateOutro)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x5e2d5b8;
+  constexpr static std::size_t addrs = 0x5e2d9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)()>(
     &::GlobalNamespace::MultiplayerOutroAnimationController::BindOutroTimeline)> {
   constexpr static std::size_t size = 0x67c;
-  constexpr static std::size_t addrs = 0x5e39488;
+  constexpr static std::size_t addrs = 0x5e398b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)(::ArrayW<::UnityEngine::GameObject*>, bool, bool, ::UnityEngine::GameObject*)>(
     &::GlobalNamespace::MultiplayerOutroAnimationController::BindRingsAndAudio)> {
   constexpr static std::size_t size = 0x6f0;
-  constexpr static std::size_t addrs = 0x5e39b04;
+  constexpr static std::size_t addrs = 0x5e39f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)()>(&::GlobalNamespace::MultiplayerOutroAnimationController::Completed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e3a1f4;
+  constexpr static std::size_t addrs = 0x5e3a624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerOutroAnimationController*>(), { "Completed", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)()>(
     &::GlobalNamespace::MultiplayerOutroAnimationController::HandlePlayerSpawningDidFinish)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5e391fc;
+  constexpr static std::size_t addrs = 0x5e3962c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)()>(&::GlobalNamespace::MultiplayerOutroAnimationController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e3a214;
+  constexpr static std::size_t addrs = 0x5e3a644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerOutroAnimationController*>(), { ".ctor", {}, {} })));

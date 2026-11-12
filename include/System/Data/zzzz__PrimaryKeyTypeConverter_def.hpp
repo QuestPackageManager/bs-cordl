@@ -31,19 +31,19 @@ namespace System::Data {
 class CORDL_TYPE PrimaryKeyTypeConverter : public ::System::ComponentModel::ReferenceConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertTo, addr 0x64a3ec0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x64a4510, size 0x80, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertTo, addr 0x64a3f40, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x64a4590, size 0x198, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetPropertiesSupported, addr 0x64a3eb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x64a4508, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::Data::PrimaryKeyTypeConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x64a3e1c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a446c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

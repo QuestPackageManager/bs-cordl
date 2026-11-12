@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Dynamic::GetMemberBinder::*)(::StringW, bool)>(&::System::Dynamic::GetMemberBinder::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x642137c;
+  constexpr static std::size_t addrs = 0x64219cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Dynamic::GetMemberBinder::*)()>(&::System::Dynamic::GetMemberBinder::get_ReturnType)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x64213f4;
+  constexpr static std::size_t addrs = 0x6421a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::GetMemberBinder*>(), { "get_ReturnType", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Dynamic::GetMemberBinder::*)()>(&::System::Dynamic::GetMemberBinder::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6421424;
+  constexpr static std::size_t addrs = 0x6421a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::GetMemberBinder*>(), { "get_Name", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::GetMemberBinder::*)()>(&::System::Dynamic::GetMemberBinder::get_IgnoreCase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x642142c;
+  constexpr static std::size_t addrs = 0x6421a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::GetMemberBinder*>(), { "get_IgnoreCase", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::GetMemberBinder::*)(::System::Dynamic::DynamicMetaObject*)>(
     &::System::Dynamic::GetMemberBinder::FallbackGetMember)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x64200e4;
+  constexpr static std::size_t addrs = 0x6420734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Dynamic::DynamicMetaObject* (
     ::System::Dynamic::GetMemberBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*>)>(&::System::Dynamic::GetMemberBinder::Bind)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6421434;
+  constexpr static std::size_t addrs = 0x6421a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Dynamic::GetMemberBinder::*)()>(&::System::Dynamic::GetMemberBinder::get_IsStandardBinder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6421518;
+  constexpr static std::size_t addrs = 0x6421b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Dynamic::GetMemberBinder*>(), { "get_IsStandardBinder", {}, {} })));

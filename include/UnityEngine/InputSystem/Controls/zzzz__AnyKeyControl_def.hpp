@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Controls::AnyKeyControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x695f8b8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x6960998, size 0x28, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(void* statePtr);
 
-  /// @brief Method .ctor, addr 0x695f7b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6960890, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -35,15 +35,15 @@ public:
   /// @brief Field enableButton, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_enableButton, put = __cordl_internal_set_enableButton)) ::UnityW<::UnityEngine::UI::Button> enableButton;
 
-  /// @brief Method DisableSimultaneousHandsAndControllers, addr 0x63285b4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DisableSimultaneousHandsAndControllers, addr 0x632883c, size 0x84, virtual false, abstract: false, final false
   inline void DisableSimultaneousHandsAndControllers();
 
-  /// @brief Method EnableSimultaneousHandsAndControllers, addr 0x6328530, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method EnableSimultaneousHandsAndControllers, addr 0x63287b8, size 0x84, virtual false, abstract: false, final false
   inline void EnableSimultaneousHandsAndControllers();
 
   static inline ::GlobalNamespace::OVRSimultaneousHandsAndControllersSample* New_ctor();
 
-  /// @brief Method Update, addr 0x6328430, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x63286b8, size 0x100, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_disableButton() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_enableButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method .ctor, addr 0x6328638, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63288c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

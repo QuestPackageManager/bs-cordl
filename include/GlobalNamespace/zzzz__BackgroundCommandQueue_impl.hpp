@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BackgroundCommandQueue__RunInternal_d__4::*)()>(
     &::GlobalNamespace::BackgroundCommandQueue__RunInternal_d__4::MoveNext)> {
   constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x35cdcd0;
+  constexpr static std::size_t addrs = 0x35d2128;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BackgroundCommandQueue__RunInternal_d__4>(), { "MoveNext", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BackgroundCommandQueue__RunInternal_d__4::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::BackgroundCommandQueue__RunInternal_d__4::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35ce124;
+  constexpr static std::size_t addrs = 0x35d257c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BackgroundCommandQueue__RunInternal_d__4>(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BackgroundCommandQueue::*)(::GlobalNamespace::IBackgroundCommand*)>(
     &::GlobalNamespace::BackgroundCommandQueue::Enqueue)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x35cd9b0;
+  constexpr static std::size_t addrs = 0x35d1e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::BackgroundCommandQueue::*)()>(&::GlobalNamespace::BackgroundCommandQueue::RunInternal)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x35cdb84;
+  constexpr static std::size_t addrs = 0x35d1fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BackgroundCommandQueue*>(), { "RunInternal", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BackgroundCommandQueue::*)()>(&::GlobalNamespace::BackgroundCommandQueue::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x35cdc34;
+  constexpr static std::size_t addrs = 0x35d208c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BackgroundCommandQueue*>(), { ".ctor", {}, {} })));

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteTrailParticleSystem::*)()>(&::GlobalNamespace::NoteTrailParticleSystem::Awake)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5de2380;
+  constexpr static std::size_t addrs = 0x5de2490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteTrailParticleSystem*>(), { "Awake", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteTrailParticleSystem::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, int32_t)>(
     &::GlobalNamespace::NoteTrailParticleSystem::Emit)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5de2390;
+  constexpr static std::size_t addrs = 0x5de24a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteTrailParticleSystem::*)()>(&::GlobalNamespace::NoteTrailParticleSystem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5de2494;
+  constexpr static std::size_t addrs = 0x5de25a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteTrailParticleSystem*>(), { ".ctor", {}, {} })));

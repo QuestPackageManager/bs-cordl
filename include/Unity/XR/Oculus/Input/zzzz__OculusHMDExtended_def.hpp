@@ -39,7 +39,7 @@ public:
   /// @brief [InputControl]
   __declspec(property(get = get_touchpad, put = set_touchpad)) ::UnityEngine::InputSystem::Controls::Vector2Control* touchpad;
 
-  /// @brief Method FinishSetup, addr 0x6937b20, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6938c00, size 0xbc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::Oculus::Input::OculusHMDExtended* New_ctor();
@@ -56,23 +56,23 @@ public:
 
   constexpr void __cordl_internal_set__touchpad_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method .ctor, addr 0x6937bdc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6938cbc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_back, addr 0x6937b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_back, addr 0x6938be0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_back();
 
   /// [CompilerGenerated]
-  /// @brief Method get_touchpad, addr 0x6937b10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchpad, addr 0x6938bf0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();
 
   /// [CompilerGenerated]
-  /// @brief Method set_back, addr 0x6937b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_back, addr 0x6938be8, size 0x8, virtual false, abstract: false, final false
   inline void set_back(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_touchpad, addr 0x6937b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touchpad, addr 0x6938bf8, size 0x8, virtual false, abstract: false, final false
   inline void set_touchpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
 protected:

@@ -24,7 +24,7 @@ public:
   // Declarations
   __declspec(property(get = get_Writer)) ::System::Xml::Serialization::XmlSerializationWriter* Writer;
 
-  /// @brief Method get_Writer, addr 0x6776b94, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Writer, addr 0x67771e4, size 0x38, virtual true, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializationWriter* get_Writer();
 
 protected:

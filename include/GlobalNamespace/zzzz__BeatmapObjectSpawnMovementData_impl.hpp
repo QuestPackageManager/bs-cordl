@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnMovementData::get_startHalfJumpDurationInBeats)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d1cf60;
+  constexpr static std::size_t addrs = 0x5d1d1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&::GlobalNamespace::BeatmapObjectSpawnMovementData::get_maxHalfJumpDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d1cf68;
+  constexpr static std::size_t addrs = 0x5d1d1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&::GlobalNamespace::BeatmapObjectSpawnMovementData::get_noteLinesDistance)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d19cf0;
+  constexpr static std::size_t addrs = 0x5d19cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnMovementData::get_verticalLayersDistance)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d19d18;
+  constexpr static std::size_t addrs = 0x5d19cd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&::GlobalNamespace::BeatmapObjectSpawnMovementData::get_noteLinesCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d1cf70;
+  constexpr static std::size_t addrs = 0x5d1d1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectSpawnMovementData*>(), { "get_noteLinesCount", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnMovementData::get_centerPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d1cf78;
+  constexpr static std::size_t addrs = 0x5d1d1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectSpawnMovementData*>(), { "get_centerPos", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)(int32_t, ::GlobalNamespace::IJumpOffsetYProvider*, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::BeatmapObjectSpawnMovementData::Init)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d1a660;
+  constexpr static std::size_t addrs = 0x5d1a340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteSpawnData (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::BeatmapObjectSpawnMovementData::GetJumpingNoteSpawnData)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5d1a7b4;
+  constexpr static std::size_t addrs = 0x5d1a96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectSpawnMovementData*>(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ObstacleSpawnData (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)(::GlobalNamespace::ObstacleData*)>(
     &::GlobalNamespace::BeatmapObjectSpawnMovementData::GetObstacleSpawnData)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5d1a99c;
+  constexpr static std::size_t addrs = 0x5d1ab54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectSpawnMovementData*>(),
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::SliderSpawnData (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)(::GlobalNamespace::SliderData*)>(
     &::GlobalNamespace::BeatmapObjectSpawnMovementData::GetSliderSpawnData)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5d1ac18;
+  constexpr static std::size_t addrs = 0x5d1add0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)(int32_t, ::GlobalNamespace::NoteLineLayer)>(
     &::GlobalNamespace::BeatmapObjectSpawnMovementData::GetNoteOffset)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5d1cf84;
+  constexpr static std::size_t addrs = 0x5d1d1e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)(int32_t, ::GlobalNamespace::NoteLineLayer)>(
     &::GlobalNamespace::BeatmapObjectSpawnMovementData::Get2DNoteOffset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d1d0a4;
+  constexpr static std::size_t addrs = 0x5d1d300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)(int32_t, ::GlobalNamespace::NoteLineLayer)>(
     &::GlobalNamespace::BeatmapObjectSpawnMovementData::GetObstacleOffset)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d1d014;
+  constexpr static std::size_t addrs = 0x5d1d270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)(::GlobalNamespace::NoteLineLayer)>(
     &::GlobalNamespace::BeatmapObjectSpawnMovementData::HighestJumpPosYForLineLayerWithoutJumpOffset)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d1d0dc;
+  constexpr static std::size_t addrs = 0x5d1d338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)(::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::NoteLineLayer)>(
     &::GlobalNamespace::BeatmapObjectSpawnMovementData::GetGravityBase)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5d1cfe4;
+  constexpr static std::size_t addrs = 0x5d1d240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)(::GlobalNamespace::NoteLineLayer)>(
     &::GlobalNamespace::BeatmapObjectSpawnMovementData::HighestJumpPosYForLineLayer)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5d1d100;
+  constexpr static std::size_t addrs = 0x5d1d35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectSpawnMovementData*>(),
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&::GlobalNamespace::BeatmapObjectSpawnMovementData::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5d1addc;
+  constexpr static std::size_t addrs = 0x5d1af94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapObjectSpawnMovementData*>(), { ".ctor", {}, {} })));

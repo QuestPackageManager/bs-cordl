@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::ArrayW<::GlobalNamespace::MissionObjective*>, bool, ::by_ref<::GlobalNamespace::BeatmapKey const>, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*, ::StringW)>(
     &::GlobalNamespace::MissionGameplaySceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5dc8440;
+  constexpr static std::size_t addrs = 0x5dc855c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::PskTlsServer::*)(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager*)>(
     &::Org::BouncyCastle::Crypto::Tls::PskTlsServer::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3718dd4;
+  constexpr static std::size_t addrs = 0x371d26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::PskTlsServer*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::PskTlsServer::*)(
     ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*, ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager*)>(&::Org::BouncyCastle::Crypto::Tls::PskTlsServer::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3718e34;
+  constexpr static std::size_t addrs = 0x371d2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* (::Org::BouncyCastle::Crypto::Tls::PskTlsServer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::PskTlsServer::GetRsaEncryptionCredentials)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3718e40;
+  constexpr static std::size_t addrs = 0x371d2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::DHParameters* (::Org::BouncyCastle::Crypto::Tls::PskTlsServer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::PskTlsServer::GetDHParameters)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3718e7c;
+  constexpr static std::size_t addrs = 0x371d314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::Org::BouncyCastle::Crypto::Tls::PskTlsServer::*)()>(&::Org::BouncyCastle::Crypto::Tls::PskTlsServer::GetCipherSuites)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3718ed8;
+  constexpr static std::size_t addrs = 0x371d370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsCredentials* (::Org::BouncyCastle::Crypto::Tls::PskTlsServer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::PskTlsServer::GetCredentials)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3718f50;
+  constexpr static std::size_t addrs = 0x371d3e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* (::Org::BouncyCastle::Crypto::Tls::PskTlsServer::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::PskTlsServer::GetKeyExchange)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3719028;
+  constexpr static std::size_t addrs = 0x371d4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* (::Org::BouncyCastle::Crypto::Tls::PskTlsServer::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::PskTlsServer::CreatePskKeyExchange)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x37190ec;
+  constexpr static std::size_t addrs = 0x371d584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

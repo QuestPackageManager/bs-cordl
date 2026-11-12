@@ -24,7 +24,7 @@ namespace UnityEngine::SceneManagement {
 struct CORDL_TYPE LoadSceneParameters {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6f9908c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f9a16c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::SceneManagement::LoadSceneMode mode);
 
   // Ctor Parameters []

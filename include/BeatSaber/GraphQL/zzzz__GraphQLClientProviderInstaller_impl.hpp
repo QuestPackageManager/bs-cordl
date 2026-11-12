@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProviderInstaller::*)(::BeatSaber::GraphQL::GraphQLClientProvider_Settings*)>(
     &::BeatSaber::GraphQL::GraphQLClientProviderInstaller::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x353e474;
+  constexpr static std::size_t addrs = 0x3541368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProviderInstaller*>(),
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::GraphQL::GraphQLClientProviderInstaller::*)()>(&::BeatSaber::GraphQL::GraphQLClientProviderInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x353e4c4;
+  constexpr static std::size_t addrs = 0x35413b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatSaber::GraphQL::GraphQLClientProviderInstaller*>(),

@@ -92,16 +92,16 @@ public:
   /// @brief Field unity_StereoWorldSpaceCameraPos, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_unity_StereoWorldSpaceCameraPos, put = setStaticF_unity_StereoWorldSpaceCameraPos)) int32_t unity_StereoWorldSpaceCameraPos;
 
-  /// @brief Method SetBuiltinShaderConstants, addr 0x6b96bf8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method SetBuiltinShaderConstants, addr 0x6b97cd8, size 0x154, virtual false, abstract: false, final false
   static inline void SetBuiltinShaderConstants(::UnityEngine::Rendering::CommandBuffer* cmd);
 
-  /// @brief Method SetBuiltinShaderConstants, addr 0x6b96d4c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetBuiltinShaderConstants, addr 0x6b97e2c, size 0x64, virtual false, abstract: false, final false
   static inline void SetBuiltinShaderConstants(::UnityEngine::Rendering::RasterCommandBuffer* cmd);
 
-  /// @brief Method Update, addr 0x6b96db0, size 0x6f4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6b97e90, size 0x6f4, virtual false, abstract: false, final false
   static inline void Update(::UnityEngine::Experimental::Rendering::XRPass* xrPass, ::UnityEngine::Rendering::CommandBuffer* cmd, bool renderIntoTexture);
 
-  /// @brief Method UpdateBuiltinShaderConstants, addr 0x6b96800, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method UpdateBuiltinShaderConstants, addr 0x6b978e0, size 0x3f8, virtual false, abstract: false, final false
   static inline void UpdateBuiltinShaderConstants(::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projMatrix, bool renderIntoTexture, int32_t viewIndex);
 
   static inline ::ArrayW<::UnityEngine::Matrix4x4> getStaticF_s_cameraProjMatrix();

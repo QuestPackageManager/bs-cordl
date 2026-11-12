@@ -47,17 +47,17 @@ public:
   /// @brief Field contentType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType;
 
-  /// @brief Method GetInstance, addr 0x36044e8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3608980, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x3600c34, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x36050cc, size 0x170, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x3604514, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x36089ac, size 0x14c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_content() const;
@@ -72,16 +72,16 @@ public:
 
   constexpr void __cordl_internal_set_contentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x36044fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3608994, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method .ctor, addr 0x360424c, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36086e4, size 0x29c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Content, addr 0x360450c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x36089a4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Content();
 
-  /// @brief Method get_ContentType, addr 0x3604504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x360899c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
 protected:

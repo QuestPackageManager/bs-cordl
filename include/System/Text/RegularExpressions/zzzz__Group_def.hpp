@@ -70,15 +70,15 @@ public:
 
   constexpr void __cordl_internal_set__caps(::ArrayW<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x67e2054, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e26a4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x67e1ef0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e2540, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::ArrayW<int32_t> caps, int32_t capcount, ::StringW name);
 
   static inline ::System::Text::RegularExpressions::Group* getStaticF_s_emptyGroup();
 
-  /// @brief Method get_Success, addr 0x67e1f4c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Success, addr 0x67e259c, size 0x10, virtual false, abstract: false, final false
   inline bool get_Success();
 
   static inline void setStaticF_s_emptyGroup(::System::Text::RegularExpressions::Group* value);

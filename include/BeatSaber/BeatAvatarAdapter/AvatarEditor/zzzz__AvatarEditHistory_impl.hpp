@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::get_undoAvailable)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x351c974;
+  constexpr static std::size_t addrs = 0x351edb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::get_redoAvailable)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x351c984;
+  constexpr static std::size_t addrs = 0x351edc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::get_currentSnapShot)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x351c9e4;
+  constexpr static std::size_t addrs = 0x351ee28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::BeatAvatarSDK::AvatarPart (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::get_lastEditedPart)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x351ca3c;
+  constexpr static std::size_t addrs = 0x351ee80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::Clear)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x351ca4c;
+  constexpr static std::size_t addrs = 0x351ee90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory*>(), { "Clear", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::Undo)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x351cac0;
+  constexpr static std::size_t addrs = 0x351ef04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory*>(), { "Undo", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::Redo)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x351cadc;
+  constexpr static std::size_t addrs = 0x351ef20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory*>(), { "Redo", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::*)(
     ::BeatSaber::BeatAvatarSDK::AvatarData*, ::BeatSaber::BeatAvatarSDK::AvatarPart)>(&::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::UpdateEditHistory)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x351cb4c;
+  constexpr static std::size_t addrs = 0x351ef90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x351cd2c;
+  constexpr static std::size_t addrs = 0x351f170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory*>(), { ".ctor", {}, {} })));

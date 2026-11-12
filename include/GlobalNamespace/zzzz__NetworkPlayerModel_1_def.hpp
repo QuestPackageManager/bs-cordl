@@ -327,7 +327,7 @@ public:
   NetworkPlayerModel_1_NetworkPlayer(NetworkPlayerModel_1_NetworkPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22373 };
 
   /// @brief Field _playerModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<T> ____playerModel;
@@ -392,7 +392,7 @@ public:
   NetworkPlayerModel_1_JoinMatchmakingPartyConfig(NetworkPlayerModel_1_JoinMatchmakingPartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22374 };
 
   /// @brief Field secret, offset: 0x58, size: 0x8, def value: None
   ::StringW ___secret;
@@ -439,7 +439,7 @@ public:
   NetworkPlayerModel_1_StartClientPartyConfig(NetworkPlayerModel_1_StartClientPartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22375 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -667,7 +667,7 @@ public:
   NetworkPlayerModel_1_NetworkServer(NetworkPlayerModel_1_NetworkServer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22376 };
 
   /// @brief Field _playerModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<T> ____playerModel;
@@ -738,7 +738,7 @@ public:
   NetworkPlayerModel_1___c(NetworkPlayerModel_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22377 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -816,7 +816,7 @@ public:
   NetworkPlayerModel_1___c__DisplayClass62_0(NetworkPlayerModel_1___c__DisplayClass62_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22378 };
 
   /// @brief Field clearCurrentList, offset: 0x10, size: 0x1, def value: None
   bool ___clearCurrentList;
@@ -977,7 +977,7 @@ public:
   NetworkPlayerModel_1__GetOtherPlayers_d__61(NetworkPlayerModel_1__GetOtherPlayers_d__61 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22379 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1136,7 +1136,7 @@ public:
   NetworkPlayerModel_1__GetPartyPlayers_d__60(NetworkPlayerModel_1__GetPartyPlayers_d__60 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22380 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1520,7 +1520,7 @@ public:
   NetworkPlayerModel_1(NetworkPlayerModel_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22381 };
 
   /// @brief Field kMockedPlatformKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kMockedPlatformKey{ u"mock" };

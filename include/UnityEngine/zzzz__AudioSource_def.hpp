@@ -158,570 +158,570 @@ public:
 
   __declspec(property(get = get_volume, put = set_volume)) float_t volume;
 
-  /// @brief Method GetAmbisonicDecoderFloat, addr 0x6edefa8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetAmbisonicDecoderFloat, addr 0x6ee0088, size 0x98, virtual false, abstract: false, final false
   inline bool GetAmbisonicDecoderFloat(int32_t index, ::by_ref<float_t> value);
 
-  /// @brief Method GetAmbisonicDecoderFloat_Injected, addr 0x6edf040, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetAmbisonicDecoderFloat_Injected, addr 0x6ee0120, size 0x54, virtual false, abstract: false, final false
   static inline bool GetAmbisonicDecoderFloat_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<float_t> value);
 
-  /// @brief Method GetAudioRandomContainerRuntimeMeterValue, addr 0x6edf188, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetAudioRandomContainerRuntimeMeterValue, addr 0x6ee0268, size 0x80, virtual false, abstract: false, final false
   inline float_t GetAudioRandomContainerRuntimeMeterValue();
 
-  /// @brief Method GetAudioRandomContainerRuntimeMeterValue_Injected, addr 0x6edf208, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAudioRandomContainerRuntimeMeterValue_Injected, addr 0x6ee02e8, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetAudioRandomContainerRuntimeMeterValue_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method GetCustomCurve, addr 0x6edd8ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetCustomCurve, addr 0x6ede98c, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationCurve* GetCustomCurve(::UnityEngine::AudioSourceCurveType type);
 
-  /// @brief Method GetCustomCurveHelper, addr 0x6edae90, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetCustomCurveHelper, addr 0x6edbf70, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimationCurve* GetCustomCurveHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, ::UnityEngine::AudioSourceCurveType type);
 
-  /// @brief Method GetCustomCurveHelper_Injected, addr 0x6edaf60, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetCustomCurveHelper_Injected, addr 0x6edc040, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetCustomCurveHelper_Injected(::System::IntPtr source, ::UnityEngine::AudioSourceCurveType type);
 
   /// [Obsolete("GetOutputData returning a float[] is deprecated, use GetOutputData and pass a pre allocated array instead.")]
-  /// @brief Method GetOutputData, addr 0x6edea08, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetOutputData, addr 0x6edfae8, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> GetOutputData(int32_t numSamples, int32_t channel);
 
-  /// @brief Method GetOutputData, addr 0x6edea80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetOutputData, addr 0x6edfb60, size 0x4, virtual false, abstract: false, final false
   inline void GetOutputData(::ArrayW<float_t> samples, int32_t channel);
 
-  /// @brief Method GetOutputDataHelper, addr 0x6edafa4, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetOutputDataHelper, addr 0x6edc084, size 0x190, virtual false, abstract: false, final false
   static inline void GetOutputDataHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, ::ArrayW<float_t> samples, int32_t channel);
 
-  /// @brief Method GetOutputDataHelper_Injected, addr 0x6edb134, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetOutputDataHelper_Injected, addr 0x6edc214, size 0x54, virtual false, abstract: false, final false
   static inline void GetOutputDataHelper_Injected(::System::IntPtr source, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> samples, int32_t channel);
 
-  /// @brief Method GetPitch, addr 0x6eda77c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetPitch, addr 0x6edb85c, size 0xa4, virtual false, abstract: false, final false
   static inline float_t GetPitch(/* [NotNull] */ ::UnityEngine::AudioSource* source);
 
-  /// @brief Method GetPitch_Injected, addr 0x6eda820, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetPitch_Injected, addr 0x6edb900, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetPitch_Injected(::System::IntPtr source);
 
-  /// @brief Method GetSpatializerFloat, addr 0x6edeebc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetSpatializerFloat, addr 0x6edff9c, size 0x98, virtual false, abstract: false, final false
   inline bool GetSpatializerFloat(int32_t index, ::by_ref<float_t> value);
 
-  /// @brief Method GetSpatializerFloat_Injected, addr 0x6edef54, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSpatializerFloat_Injected, addr 0x6ee0034, size 0x54, virtual false, abstract: false, final false
   static inline bool GetSpatializerFloat_Injected(::System::IntPtr _unity_self, int32_t index, ::by_ref<float_t> value);
 
   /// [Obsolete("GetSpectrumData returning a float[] is deprecated, use GetSpectrumData and pass a pre allocated array instead.")]
-  /// @brief Method GetSpectrumData, addr 0x6edea84, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetSpectrumData, addr 0x6edfb64, size 0x88, virtual false, abstract: false, final false
   inline ::ArrayW<float_t> GetSpectrumData(int32_t numSamples, int32_t channel, ::UnityEngine::FFTWindow window);
 
-  /// @brief Method GetSpectrumData, addr 0x6edeb0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetSpectrumData, addr 0x6edfbec, size 0x4, virtual false, abstract: false, final false
   inline void GetSpectrumData(::ArrayW<float_t> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
   /// [NativeThrows]
-  /// @brief Method GetSpectrumDataHelper, addr 0x6edb188, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method GetSpectrumDataHelper, addr 0x6edc268, size 0x1a0, virtual false, abstract: false, final false
   static inline void GetSpectrumDataHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, ::ArrayW<float_t> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
-  /// @brief Method GetSpectrumDataHelper_Injected, addr 0x6edb328, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetSpectrumDataHelper_Injected, addr 0x6edc408, size 0x5c, virtual false, abstract: false, final false
   static inline void GetSpectrumDataHelper_Injected(::System::IntPtr source, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
   static inline ::UnityEngine::AudioSource* New_ctor();
 
-  /// @brief Method Pause, addr 0x6edc358, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x6edd438, size 0x80, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Pause_Injected, addr 0x6edc3d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Pause_Injected, addr 0x6edd4b8, size 0x3c, virtual false, abstract: false, final false
   static inline void Pause_Injected(::System::IntPtr _unity_self);
 
   /// [ExcludeFromDocs]
-  /// @brief Method Play, addr 0x6edc05c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x6edd13c, size 0x8, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method Play, addr 0x6edaa54, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x6edbb34, size 0x90, virtual false, abstract: false, final false
   inline void Play(double_t delay);
 
-  /// @brief Method Play, addr 0x6edc064, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x6edd144, size 0x4, virtual false, abstract: false, final false
   inline void Play(/* [DefaultValue("0")] */ uint64_t delay);
 
   /// [ExcludeFromDocs]
-  /// @brief Method PlayClipAtPoint, addr 0x6edc87c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PlayClipAtPoint, addr 0x6edd95c, size 0x8, virtual false, abstract: false, final false
   static inline void PlayClipAtPoint(::UnityEngine::AudioClip* clip, ::UnityEngine::Vector3 position);
 
-  /// @brief Method PlayClipAtPoint, addr 0x6edc884, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method PlayClipAtPoint, addr 0x6edd964, size 0x204, virtual false, abstract: false, final false
   static inline void PlayClipAtPoint(::UnityEngine::AudioClip* clip, ::UnityEngine::Vector3 position, /* [DefaultValue("1.0F")] */ float_t volume);
 
-  /// @brief Method PlayDelayed, addr 0x6edc068, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method PlayDelayed, addr 0x6edd148, size 0x24, virtual false, abstract: false, final false
   inline void PlayDelayed(float_t delay);
 
-  /// @brief Method PlayHelper, addr 0x6eda95c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method PlayHelper, addr 0x6edba3c, size 0xb4, virtual false, abstract: false, final false
   static inline void PlayHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, uint64_t delay);
 
-  /// @brief Method PlayHelper_Injected, addr 0x6edaa10, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PlayHelper_Injected, addr 0x6edbaf0, size 0x44, virtual false, abstract: false, final false
   static inline void PlayHelper_Injected(::System::IntPtr source, uint64_t delay);
 
   /// [ExcludeFromDocs]
-  /// @brief Method PlayOneShot, addr 0x6edc0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method PlayOneShot, addr 0x6edd188, size 0x8, virtual false, abstract: false, final false
   inline void PlayOneShot(::UnityEngine::AudioClip* clip);
 
-  /// @brief Method PlayOneShot, addr 0x6edc0b0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method PlayOneShot, addr 0x6edd190, size 0xe8, virtual false, abstract: false, final false
   inline void PlayOneShot(::UnityEngine::AudioClip* clip, /* [DefaultValue("1.0F")] */ float_t volumeScale);
 
-  /// @brief Method PlayOneShotHelper, addr 0x6edab30, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method PlayOneShotHelper, addr 0x6edbc10, size 0x120, virtual false, abstract: false, final false
   static inline void PlayOneShotHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, /* [NotNull] */ ::UnityEngine::AudioClip* clip, float_t volumeScale);
 
-  /// @brief Method PlayOneShotHelper_Injected, addr 0x6edac50, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method PlayOneShotHelper_Injected, addr 0x6edbd30, size 0x54, virtual false, abstract: false, final false
   static inline void PlayOneShotHelper_Injected(::System::IntPtr source, ::System::IntPtr clip, float_t volumeScale);
 
-  /// @brief Method PlayScheduled, addr 0x6edc08c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method PlayScheduled, addr 0x6edd16c, size 0x1c, virtual false, abstract: false, final false
   inline void PlayScheduled(double_t time);
 
-  /// @brief Method Play_Injected, addr 0x6edaae4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Play_Injected, addr 0x6edbbc4, size 0x4c, virtual false, abstract: false, final false
   static inline void Play_Injected(::System::IntPtr _unity_self, double_t delay);
 
-  /// @brief Method SetAmbisonicDecoderFloat, addr 0x6edf094, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetAmbisonicDecoderFloat, addr 0x6ee0174, size 0xa0, virtual false, abstract: false, final false
   inline bool SetAmbisonicDecoderFloat(int32_t index, float_t value);
 
-  /// @brief Method SetAmbisonicDecoderFloat_Injected, addr 0x6edf134, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetAmbisonicDecoderFloat_Injected, addr 0x6ee0214, size 0x54, virtual false, abstract: false, final false
   static inline bool SetAmbisonicDecoderFloat_Injected(::System::IntPtr _unity_self, int32_t index, float_t value);
 
-  /// @brief Method SetCustomCurve, addr 0x6edd8a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetCustomCurve, addr 0x6ede988, size 0x4, virtual false, abstract: false, final false
   inline void SetCustomCurve(::UnityEngine::AudioSourceCurveType type, ::UnityEngine::AnimationCurve* curve);
 
   /// [NativeThrows]
-  /// @brief Method SetCustomCurveHelper, addr 0x6edad78, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetCustomCurveHelper, addr 0x6edbe58, size 0xc4, virtual false, abstract: false, final false
   static inline void SetCustomCurveHelper(/* [NotNull] */ ::UnityEngine::AudioSource* source, ::UnityEngine::AudioSourceCurveType type, ::UnityEngine::AnimationCurve* curve);
 
-  /// @brief Method SetCustomCurveHelper_Injected, addr 0x6edae3c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetCustomCurveHelper_Injected, addr 0x6edbf1c, size 0x54, virtual false, abstract: false, final false
   static inline void SetCustomCurveHelper_Injected(::System::IntPtr source, ::UnityEngine::AudioSourceCurveType type, ::System::IntPtr curve);
 
-  /// @brief Method SetPitch, addr 0x6eda85c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetPitch, addr 0x6edb93c, size 0xb4, virtual false, abstract: false, final false
   static inline void SetPitch(/* [NotNull] */ ::UnityEngine::AudioSource* source, float_t pitch);
 
-  /// @brief Method SetPitch_Injected, addr 0x6eda910, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetPitch_Injected, addr 0x6edb9f0, size 0x4c, virtual false, abstract: false, final false
   static inline void SetPitch_Injected(::System::IntPtr source, float_t pitch);
 
-  /// @brief Method SetScheduledEndTime, addr 0x6edc274, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetScheduledEndTime, addr 0x6edd354, size 0x90, virtual false, abstract: false, final false
   inline void SetScheduledEndTime(double_t time);
 
-  /// @brief Method SetScheduledEndTime_Injected, addr 0x6edc304, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetScheduledEndTime_Injected, addr 0x6edd3e4, size 0x4c, virtual false, abstract: false, final false
   static inline void SetScheduledEndTime_Injected(::System::IntPtr _unity_self, double_t time);
 
-  /// @brief Method SetScheduledStartTime, addr 0x6edc198, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetScheduledStartTime, addr 0x6edd278, size 0x90, virtual false, abstract: false, final false
   inline void SetScheduledStartTime(double_t time);
 
-  /// @brief Method SetScheduledStartTime_Injected, addr 0x6edc228, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetScheduledStartTime_Injected, addr 0x6edd308, size 0x4c, virtual false, abstract: false, final false
   static inline void SetScheduledStartTime_Injected(::System::IntPtr _unity_self, double_t time);
 
-  /// @brief Method SetSpatializerFloat, addr 0x6ededc8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetSpatializerFloat, addr 0x6edfea8, size 0xa0, virtual false, abstract: false, final false
   inline bool SetSpatializerFloat(int32_t index, float_t value);
 
-  /// @brief Method SetSpatializerFloat_Injected, addr 0x6edee68, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetSpatializerFloat_Injected, addr 0x6edff48, size 0x54, virtual false, abstract: false, final false
   static inline bool SetSpatializerFloat_Injected(::System::IntPtr _unity_self, int32_t index, float_t value);
 
-  /// @brief Method SkipToNextElementIfHasContainer, addr 0x6edc4d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SkipToNextElementIfHasContainer, addr 0x6edd5b0, size 0x80, virtual false, abstract: false, final false
   inline void SkipToNextElementIfHasContainer();
 
-  /// @brief Method SkipToNextElementIfHasContainer_Injected, addr 0x6edc550, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SkipToNextElementIfHasContainer_Injected, addr 0x6edd630, size 0x3c, virtual false, abstract: false, final false
   static inline void SkipToNextElementIfHasContainer_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method Stop, addr 0x6edc350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x6edd430, size 0x8, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Stop, addr 0x6edaca4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x6edbd84, size 0x90, virtual false, abstract: false, final false
   inline void Stop(bool stopOneShots);
 
-  /// @brief Method Stop_Injected, addr 0x6edad34, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Stop_Injected, addr 0x6edbe14, size 0x44, virtual false, abstract: false, final false
   static inline void Stop_Injected(::System::IntPtr _unity_self, bool stopOneShots);
 
-  /// @brief Method UnPause, addr 0x6edc414, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UnPause, addr 0x6edd4f4, size 0x80, virtual false, abstract: false, final false
   inline void UnPause();
 
-  /// @brief Method UnPause_Injected, addr 0x6edc494, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UnPause_Injected, addr 0x6edd574, size 0x3c, virtual false, abstract: false, final false
   static inline void UnPause_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method .ctor, addr 0x6edf2ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ee03cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bypassEffects, addr 0x6edda48, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_bypassEffects, addr 0x6edeb28, size 0x80, virtual false, abstract: false, final false
   inline bool get_bypassEffects();
 
-  /// @brief Method get_bypassEffects_Injected, addr 0x6eddac8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bypassEffects_Injected, addr 0x6edeba8, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_bypassEffects_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_bypassListenerEffects, addr 0x6eddbd8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_bypassListenerEffects, addr 0x6edecb8, size 0x80, virtual false, abstract: false, final false
   inline bool get_bypassListenerEffects();
 
-  /// @brief Method get_bypassListenerEffects_Injected, addr 0x6eddc58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bypassListenerEffects_Injected, addr 0x6eded38, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_bypassListenerEffects_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_bypassReverbZones, addr 0x6eddd68, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_bypassReverbZones, addr 0x6edee48, size 0x80, virtual false, abstract: false, final false
   inline bool get_bypassReverbZones();
 
-  /// @brief Method get_bypassReverbZones_Injected, addr 0x6eddde8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bypassReverbZones_Injected, addr 0x6edeec8, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_bypassReverbZones_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_clip, addr 0x6edb84c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x6edc92c, size 0x60, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_clip();
 
-  /// @brief Method get_containerActivePlayables, addr 0x6edc704, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_containerActivePlayables, addr 0x6edd7e4, size 0x80, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::ActivePlayable> get_containerActivePlayables();
 
-  /// @brief Method get_containerActivePlayables_Injected, addr 0x6edc784, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_containerActivePlayables_Injected, addr 0x6edd864, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ActivePlayable> get_containerActivePlayables_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_dopplerLevel, addr 0x6eddef8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_dopplerLevel, addr 0x6edefd8, size 0x80, virtual false, abstract: false, final false
   inline float_t get_dopplerLevel();
 
-  /// @brief Method get_dopplerLevel_Injected, addr 0x6eddf78, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_dopplerLevel_Injected, addr 0x6edf058, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_dopplerLevel_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_generator, addr 0x6edbb48, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_generator, addr 0x6edcc28, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::IAudioGenerator* get_generator();
 
-  /// @brief Method get_generatorDefinition, addr 0x6edf244, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_generatorDefinition, addr 0x6ee0324, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::IAudioGenerator* get_generatorDefinition();
 
-  /// @brief Method get_generatorHandle, addr 0x6edf2b4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_generatorHandle, addr 0x6ee0394, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::ProcessorInstance get_generatorHandle();
 
-  /// @brief Method get_generatorHeader, addr 0x6edbc74, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_generatorHeader, addr 0x6edcd54, size 0x80, virtual false, abstract: false, final false
   inline void* get_generatorHeader();
 
-  /// @brief Method get_generatorHeader_Injected, addr 0x6edbd10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_generatorHeader_Injected, addr 0x6edcdf0, size 0x3c, virtual false, abstract: false, final false
   static inline void* get_generatorHeader_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_generatorInstance, addr 0x6edbc48, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_generatorInstance, addr 0x6edcd28, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Audio::ProcessorInstance get_generatorInstance();
 
-  /// @brief Method get_generatorObject, addr 0x6edb8ac, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_generatorObject, addr 0x6edc98c, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_generatorObject();
 
-  /// @brief Method get_generatorObject_Injected, addr 0x6edbd4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_generatorObject_Injected, addr 0x6edce2c, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_generatorObject_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_ignoreListenerPause, addr 0x6edcfc8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreListenerPause, addr 0x6ede0a8, size 0x80, virtual false, abstract: false, final false
   inline bool get_ignoreListenerPause();
 
-  /// @brief Method get_ignoreListenerPause_Injected, addr 0x6edd048, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreListenerPause_Injected, addr 0x6ede128, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_ignoreListenerPause_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_ignoreListenerVolume, addr 0x6edcca8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreListenerVolume, addr 0x6eddd88, size 0x80, virtual false, abstract: false, final false
   inline bool get_ignoreListenerVolume();
 
-  /// @brief Method get_ignoreListenerVolume_Injected, addr 0x6edcd28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreListenerVolume_Injected, addr 0x6edde08, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_ignoreListenerVolume_Injected(::System::IntPtr _unity_self);
 
   /// [NativeName("IsContainerPlaying")]
-  /// @brief Method get_isContainerPlaying, addr 0x6edc648, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_isContainerPlaying, addr 0x6edd728, size 0x80, virtual false, abstract: false, final false
   inline bool get_isContainerPlaying();
 
-  /// @brief Method get_isContainerPlaying_Injected, addr 0x6edc6c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isContainerPlaying_Injected, addr 0x6edd7a8, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isContainerPlaying_Injected(::System::IntPtr _unity_self);
 
   /// [NativeName("IsPlayingScripting")]
-  /// @brief Method get_isPlaying, addr 0x6edc58c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_isPlaying, addr 0x6edd66c, size 0x80, virtual false, abstract: false, final false
   inline bool get_isPlaying();
 
-  /// @brief Method get_isPlaying_Injected, addr 0x6edc60c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isPlaying_Injected, addr 0x6edd6ec, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isPlaying_Injected(::System::IntPtr _unity_self);
 
   /// [NativeName("GetLastVirtualState")]
-  /// @brief Method get_isVirtual, addr 0x6edc7c0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_isVirtual, addr 0x6edd8a0, size 0x80, virtual false, abstract: false, final false
   inline bool get_isVirtual();
 
-  /// @brief Method get_isVirtual_Injected, addr 0x6edc840, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isVirtual_Injected, addr 0x6edd920, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_isVirtual_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_loop, addr 0x6edcb18, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_loop, addr 0x6eddbf8, size 0x80, virtual false, abstract: false, final false
   inline bool get_loop();
 
-  /// @brief Method get_loop_Injected, addr 0x6edcb98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_loop_Injected, addr 0x6eddc78, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_loop_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_maxDistance, addr 0x6ede6e0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_maxDistance, addr 0x6edf7c0, size 0x80, virtual false, abstract: false, final false
   inline float_t get_maxDistance();
 
-  /// @brief Method get_maxDistance_Injected, addr 0x6ede760, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_maxDistance_Injected, addr 0x6edf840, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_maxDistance_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_maxVolume, addr 0x6edebf8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_maxVolume, addr 0x6edfcd8, size 0x78, virtual false, abstract: false, final false
   inline float_t get_maxVolume();
 
-  /// @brief Method get_minDistance, addr 0x6ede548, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_minDistance, addr 0x6edf628, size 0x80, virtual false, abstract: false, final false
   inline float_t get_minDistance();
 
-  /// @brief Method get_minDistance_Injected, addr 0x6ede5c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_minDistance_Injected, addr 0x6edf6a8, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_minDistance_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_minVolume, addr 0x6edeb10, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_minVolume, addr 0x6edfbf0, size 0x78, virtual false, abstract: false, final false
   inline float_t get_minVolume();
 
-  /// @brief Method get_mute, addr 0x6ede3b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_mute, addr 0x6edf498, size 0x80, virtual false, abstract: false, final false
   inline bool get_mute();
 
-  /// @brief Method get_mute_Injected, addr 0x6ede438, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_mute_Injected, addr 0x6edf518, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_mute_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_outputAudioMixerGroup, addr 0x6edbdcc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method get_outputAudioMixerGroup, addr 0x6edceac, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixerGroup> get_outputAudioMixerGroup();
 
-  /// @brief Method get_outputAudioMixerGroup_Injected, addr 0x6edbf1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_outputAudioMixerGroup_Injected, addr 0x6edcffc, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr get_outputAudioMixerGroup_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_panStereo, addr 0x6edd2e8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_panStereo, addr 0x6ede3c8, size 0x80, virtual false, abstract: false, final false
   inline float_t get_panStereo();
 
-  /// @brief Method get_panStereo_Injected, addr 0x6edd368, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_panStereo_Injected, addr 0x6ede448, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_panStereo_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_pitch, addr 0x6edb51c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_pitch, addr 0x6edc5fc, size 0x4, virtual false, abstract: false, final false
   inline float_t get_pitch();
 
-  /// @brief Method get_playOnAwake, addr 0x6edce38, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_playOnAwake, addr 0x6eddf18, size 0x80, virtual false, abstract: false, final false
   inline bool get_playOnAwake();
 
-  /// @brief Method get_playOnAwake_Injected, addr 0x6edceb8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_playOnAwake_Injected, addr 0x6eddf98, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_playOnAwake_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_priority, addr 0x6ede228, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_priority, addr 0x6edf308, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_priority();
 
-  /// @brief Method get_priority_Injected, addr 0x6ede2a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_priority_Injected, addr 0x6edf388, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_priority_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_resource, addr 0x6edbac0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_resource, addr 0x6edcba0, size 0x84, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioResource> get_resource();
 
-  /// @brief Method get_reverbZoneMix, addr 0x6edd8b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_reverbZoneMix, addr 0x6ede990, size 0x80, virtual false, abstract: false, final false
   inline float_t get_reverbZoneMix();
 
-  /// @brief Method get_reverbZoneMix_Injected, addr 0x6edd930, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_reverbZoneMix_Injected, addr 0x6edea10, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_reverbZoneMix_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_rolloffFactor, addr 0x6edece0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_rolloffFactor, addr 0x6edfdc0, size 0x78, virtual false, abstract: false, final false
   inline float_t get_rolloffFactor();
 
-  /// @brief Method get_rolloffMode, addr 0x6ede878, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_rolloffMode, addr 0x6edf958, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioRolloffMode get_rolloffMode();
 
-  /// @brief Method get_rolloffMode_Injected, addr 0x6ede8f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rolloffMode_Injected, addr 0x6edf9d8, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AudioRolloffMode get_rolloffMode_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_spatialBlend, addr 0x6edd480, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_spatialBlend, addr 0x6ede560, size 0x80, virtual false, abstract: false, final false
   inline float_t get_spatialBlend();
 
-  /// @brief Method get_spatialBlend_Injected, addr 0x6edd500, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spatialBlend_Injected, addr 0x6ede5e0, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_spatialBlend_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_spatialize, addr 0x6edd588, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_spatialize, addr 0x6ede668, size 0x80, virtual false, abstract: false, final false
   inline bool get_spatialize();
 
-  /// @brief Method get_spatializePostEffects, addr 0x6edd718, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_spatializePostEffects, addr 0x6ede7f8, size 0x80, virtual false, abstract: false, final false
   inline bool get_spatializePostEffects();
 
-  /// @brief Method get_spatializePostEffects_Injected, addr 0x6edd798, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spatializePostEffects_Injected, addr 0x6ede878, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_spatializePostEffects_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_spatialize_Injected, addr 0x6edd608, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spatialize_Injected, addr 0x6ede6e8, size 0x3c, virtual false, abstract: false, final false
   static inline bool get_spatialize_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_spread, addr 0x6ede090, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_spread, addr 0x6edf170, size 0x80, virtual false, abstract: false, final false
   inline float_t get_spread();
 
-  /// @brief Method get_spread_Injected, addr 0x6ede110, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spread_Injected, addr 0x6edf1f0, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_spread_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_time, addr 0x6edb524, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x6edc604, size 0x80, virtual false, abstract: false, final false
   inline float_t get_time();
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method get_timeSamples, addr 0x6edb6bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_timeSamples, addr 0x6edc79c, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_timeSamples();
 
-  /// @brief Method get_timeSamples_Injected, addr 0x6edb73c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_timeSamples_Injected, addr 0x6edc81c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_timeSamples_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_time_Injected, addr 0x6edb5a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_time_Injected, addr 0x6edc684, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_time_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_velocityUpdateMode, addr 0x6edd158, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_velocityUpdateMode, addr 0x6ede238, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioVelocityUpdateMode get_velocityUpdateMode();
 
-  /// @brief Method get_velocityUpdateMode_Injected, addr 0x6edd1d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_velocityUpdateMode_Injected, addr 0x6ede2b8, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AudioVelocityUpdateMode get_velocityUpdateMode_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method get_volume, addr 0x6edb384, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_volume, addr 0x6edc464, size 0x80, virtual false, abstract: false, final false
   inline float_t get_volume();
 
-  /// @brief Method get_volume_Injected, addr 0x6edb404, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_volume_Injected, addr 0x6edc4e4, size 0x3c, virtual false, abstract: false, final false
   static inline float_t get_volume_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method set_bypassEffects, addr 0x6eddb04, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_bypassEffects, addr 0x6edebe4, size 0x90, virtual false, abstract: false, final false
   inline void set_bypassEffects(bool value);
 
-  /// @brief Method set_bypassEffects_Injected, addr 0x6eddb94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bypassEffects_Injected, addr 0x6edec74, size 0x44, virtual false, abstract: false, final false
   static inline void set_bypassEffects_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_bypassListenerEffects, addr 0x6eddc94, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_bypassListenerEffects, addr 0x6eded74, size 0x90, virtual false, abstract: false, final false
   inline void set_bypassListenerEffects(bool value);
 
-  /// @brief Method set_bypassListenerEffects_Injected, addr 0x6eddd24, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bypassListenerEffects_Injected, addr 0x6edee04, size 0x44, virtual false, abstract: false, final false
   static inline void set_bypassListenerEffects_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_bypassReverbZones, addr 0x6edde24, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_bypassReverbZones, addr 0x6edef04, size 0x90, virtual false, abstract: false, final false
   inline void set_bypassReverbZones(bool value);
 
-  /// @brief Method set_bypassReverbZones_Injected, addr 0x6eddeb4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bypassReverbZones_Injected, addr 0x6edef94, size 0x44, virtual false, abstract: false, final false
   static inline void set_bypassReverbZones_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_clip, addr 0x6edb9fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_clip, addr 0x6edcadc, size 0x4, virtual false, abstract: false, final false
   inline void set_clip(::UnityEngine::AudioClip* value);
 
-  /// @brief Method set_dopplerLevel, addr 0x6eddfb4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_dopplerLevel, addr 0x6edf094, size 0x90, virtual false, abstract: false, final false
   inline void set_dopplerLevel(float_t value);
 
-  /// @brief Method set_dopplerLevel_Injected, addr 0x6ede044, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_dopplerLevel_Injected, addr 0x6edf124, size 0x4c, virtual false, abstract: false, final false
   static inline void set_dopplerLevel_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_generator, addr 0x6edbbb8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_generator, addr 0x6edcc98, size 0x90, virtual false, abstract: false, final false
   inline void set_generator(::UnityEngine::Audio::IAudioGenerator* value);
 
-  /// @brief Method set_generatorDefinition, addr 0x6edf27c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_generatorDefinition, addr 0x6ee035c, size 0x38, virtual false, abstract: false, final false
   inline void set_generatorDefinition(::UnityEngine::Audio::IAudioGenerator* value);
 
-  /// @brief Method set_generatorObject, addr 0x6edba00, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_generatorObject, addr 0x6edcae0, size 0xc0, virtual false, abstract: false, final false
   inline void set_generatorObject(::UnityEngine::Object* value);
 
-  /// @brief Method set_generatorObject_Injected, addr 0x6edbd88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_generatorObject_Injected, addr 0x6edce68, size 0x44, virtual false, abstract: false, final false
   static inline void set_generatorObject_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
-  /// @brief Method set_ignoreListenerPause, addr 0x6edd084, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreListenerPause, addr 0x6ede164, size 0x90, virtual false, abstract: false, final false
   inline void set_ignoreListenerPause(bool value);
 
-  /// @brief Method set_ignoreListenerPause_Injected, addr 0x6edd114, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreListenerPause_Injected, addr 0x6ede1f4, size 0x44, virtual false, abstract: false, final false
   static inline void set_ignoreListenerPause_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_ignoreListenerVolume, addr 0x6edcd64, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreListenerVolume, addr 0x6edde44, size 0x90, virtual false, abstract: false, final false
   inline void set_ignoreListenerVolume(bool value);
 
-  /// @brief Method set_ignoreListenerVolume_Injected, addr 0x6edcdf4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreListenerVolume_Injected, addr 0x6edded4, size 0x44, virtual false, abstract: false, final false
   static inline void set_ignoreListenerVolume_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_loop, addr 0x6edcbd4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_loop, addr 0x6eddcb4, size 0x90, virtual false, abstract: false, final false
   inline void set_loop(bool value);
 
-  /// @brief Method set_loop_Injected, addr 0x6edcc64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_loop_Injected, addr 0x6eddd44, size 0x44, virtual false, abstract: false, final false
   static inline void set_loop_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_maxDistance, addr 0x6ede79c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_maxDistance, addr 0x6edf87c, size 0x90, virtual false, abstract: false, final false
   inline void set_maxDistance(float_t value);
 
-  /// @brief Method set_maxDistance_Injected, addr 0x6ede82c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_maxDistance_Injected, addr 0x6edf90c, size 0x4c, virtual false, abstract: false, final false
   static inline void set_maxDistance_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_maxVolume, addr 0x6edec70, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_maxVolume, addr 0x6edfd50, size 0x70, virtual false, abstract: false, final false
   inline void set_maxVolume(float_t value);
 
-  /// @brief Method set_minDistance, addr 0x6ede604, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_minDistance, addr 0x6edf6e4, size 0x90, virtual false, abstract: false, final false
   inline void set_minDistance(float_t value);
 
-  /// @brief Method set_minDistance_Injected, addr 0x6ede694, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_minDistance_Injected, addr 0x6edf774, size 0x4c, virtual false, abstract: false, final false
   static inline void set_minDistance_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_minVolume, addr 0x6edeb88, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_minVolume, addr 0x6edfc68, size 0x70, virtual false, abstract: false, final false
   inline void set_minVolume(float_t value);
 
-  /// @brief Method set_mute, addr 0x6ede474, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_mute, addr 0x6edf554, size 0x90, virtual false, abstract: false, final false
   inline void set_mute(bool value);
 
-  /// @brief Method set_mute_Injected, addr 0x6ede504, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_mute_Injected, addr 0x6edf5e4, size 0x44, virtual false, abstract: false, final false
   static inline void set_mute_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_outputAudioMixerGroup, addr 0x6edbf58, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_outputAudioMixerGroup, addr 0x6edd038, size 0xc0, virtual false, abstract: false, final false
   inline void set_outputAudioMixerGroup(::UnityEngine::Audio::AudioMixerGroup* value);
 
-  /// @brief Method set_outputAudioMixerGroup_Injected, addr 0x6edc018, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_outputAudioMixerGroup_Injected, addr 0x6edd0f8, size 0x44, virtual false, abstract: false, final false
   static inline void set_outputAudioMixerGroup_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
-  /// @brief Method set_panStereo, addr 0x6edd3a4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_panStereo, addr 0x6ede484, size 0x90, virtual false, abstract: false, final false
   inline void set_panStereo(float_t value);
 
-  /// @brief Method set_panStereo_Injected, addr 0x6edd434, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_panStereo_Injected, addr 0x6ede514, size 0x4c, virtual false, abstract: false, final false
   static inline void set_panStereo_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_pitch, addr 0x6edb520, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_pitch, addr 0x6edc600, size 0x4, virtual false, abstract: false, final false
   inline void set_pitch(float_t value);
 
-  /// @brief Method set_playOnAwake, addr 0x6edcef4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_playOnAwake, addr 0x6eddfd4, size 0x90, virtual false, abstract: false, final false
   inline void set_playOnAwake(bool value);
 
-  /// @brief Method set_playOnAwake_Injected, addr 0x6edcf84, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_playOnAwake_Injected, addr 0x6ede064, size 0x44, virtual false, abstract: false, final false
   static inline void set_playOnAwake_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_priority, addr 0x6ede2e4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_priority, addr 0x6edf3c4, size 0x90, virtual false, abstract: false, final false
   inline void set_priority(int32_t value);
 
-  /// @brief Method set_priority_Injected, addr 0x6ede374, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_priority_Injected, addr 0x6edf454, size 0x44, virtual false, abstract: false, final false
   static inline void set_priority_Injected(::System::IntPtr _unity_self, int32_t value);
 
-  /// @brief Method set_resource, addr 0x6edbb44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_resource, addr 0x6edcc24, size 0x4, virtual false, abstract: false, final false
   inline void set_resource(::UnityEngine::Audio::AudioResource* value);
 
-  /// @brief Method set_reverbZoneMix, addr 0x6edd96c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_reverbZoneMix, addr 0x6edea4c, size 0x90, virtual false, abstract: false, final false
   inline void set_reverbZoneMix(float_t value);
 
-  /// @brief Method set_reverbZoneMix_Injected, addr 0x6edd9fc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_reverbZoneMix_Injected, addr 0x6edeadc, size 0x4c, virtual false, abstract: false, final false
   static inline void set_reverbZoneMix_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_rolloffFactor, addr 0x6eded58, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_rolloffFactor, addr 0x6edfe38, size 0x70, virtual false, abstract: false, final false
   inline void set_rolloffFactor(float_t value);
 
-  /// @brief Method set_rolloffMode, addr 0x6ede934, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_rolloffMode, addr 0x6edfa14, size 0x90, virtual false, abstract: false, final false
   inline void set_rolloffMode(::UnityEngine::AudioRolloffMode value);
 
-  /// @brief Method set_rolloffMode_Injected, addr 0x6ede9c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_rolloffMode_Injected, addr 0x6edfaa4, size 0x44, virtual false, abstract: false, final false
   static inline void set_rolloffMode_Injected(::System::IntPtr _unity_self, ::UnityEngine::AudioRolloffMode value);
 
-  /// @brief Method set_spatialBlend, addr 0x6edca88, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_spatialBlend, addr 0x6eddb68, size 0x90, virtual false, abstract: false, final false
   inline void set_spatialBlend(float_t value);
 
-  /// @brief Method set_spatialBlend_Injected, addr 0x6edd53c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_spatialBlend_Injected, addr 0x6ede61c, size 0x4c, virtual false, abstract: false, final false
   static inline void set_spatialBlend_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_spatialize, addr 0x6edd644, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_spatialize, addr 0x6ede724, size 0x90, virtual false, abstract: false, final false
   inline void set_spatialize(bool value);
 
-  /// @brief Method set_spatializePostEffects, addr 0x6edd7d4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_spatializePostEffects, addr 0x6ede8b4, size 0x90, virtual false, abstract: false, final false
   inline void set_spatializePostEffects(bool value);
 
-  /// @brief Method set_spatializePostEffects_Injected, addr 0x6edd864, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_spatializePostEffects_Injected, addr 0x6ede944, size 0x44, virtual false, abstract: false, final false
   static inline void set_spatializePostEffects_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_spatialize_Injected, addr 0x6edd6d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_spatialize_Injected, addr 0x6ede7b4, size 0x44, virtual false, abstract: false, final false
   static inline void set_spatialize_Injected(::System::IntPtr _unity_self, bool value);
 
-  /// @brief Method set_spread, addr 0x6ede14c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_spread, addr 0x6edf22c, size 0x90, virtual false, abstract: false, final false
   inline void set_spread(float_t value);
 
-  /// @brief Method set_spread_Injected, addr 0x6ede1dc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_spread_Injected, addr 0x6edf2bc, size 0x4c, virtual false, abstract: false, final false
   static inline void set_spread_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_time, addr 0x6edb5e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x6edc6c0, size 0x90, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method set_timeSamples, addr 0x6edb778, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_timeSamples, addr 0x6edc858, size 0x90, virtual false, abstract: false, final false
   inline void set_timeSamples(int32_t value);
 
-  /// @brief Method set_timeSamples_Injected, addr 0x6edb808, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_timeSamples_Injected, addr 0x6edc8e8, size 0x44, virtual false, abstract: false, final false
   static inline void set_timeSamples_Injected(::System::IntPtr _unity_self, int32_t value);
 
-  /// @brief Method set_time_Injected, addr 0x6edb670, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_time_Injected, addr 0x6edc750, size 0x4c, virtual false, abstract: false, final false
   static inline void set_time_Injected(::System::IntPtr _unity_self, float_t value);
 
-  /// @brief Method set_velocityUpdateMode, addr 0x6edd214, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_velocityUpdateMode, addr 0x6ede2f4, size 0x90, virtual false, abstract: false, final false
   inline void set_velocityUpdateMode(::UnityEngine::AudioVelocityUpdateMode value);
 
-  /// @brief Method set_velocityUpdateMode_Injected, addr 0x6edd2a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_velocityUpdateMode_Injected, addr 0x6ede384, size 0x44, virtual false, abstract: false, final false
   static inline void set_velocityUpdateMode_Injected(::System::IntPtr _unity_self, ::UnityEngine::AudioVelocityUpdateMode value);
 
-  /// @brief Method set_volume, addr 0x6edb440, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_volume, addr 0x6edc520, size 0x90, virtual false, abstract: false, final false
   inline void set_volume(float_t value);
 
-  /// @brief Method set_volume_Injected, addr 0x6edb4d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_volume_Injected, addr 0x6edc5b0, size 0x4c, virtual false, abstract: false, final false
   static inline void set_volume_Injected(::System::IntPtr _unity_self, float_t value);
 
 protected:
@@ -739,7 +739,7 @@ public:
   AudioSource(AudioSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20372 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

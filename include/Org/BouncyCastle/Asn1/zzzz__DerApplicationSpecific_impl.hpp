@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(bool, int32_t, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Asn1::DerApplicationSpecific::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x392dfd4;
+  constexpr static std::size_t addrs = 0x393246c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(int32_t, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Asn1::DerApplicationSpecific::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x393454c;
+  constexpr static std::size_t addrs = 0x39389e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(int32_t, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(
     &::Org::BouncyCastle::Asn1::DerApplicationSpecific::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x393455c;
+  constexpr static std::size_t addrs = 0x39389f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(bool, int32_t, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(
     &::Org::BouncyCastle::Asn1::DerApplicationSpecific::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x393456c;
+  constexpr static std::size_t addrs = 0x3938a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(int32_t, ::Org::BouncyCastle::Asn1::Asn1EncodableVector*)>(
     &::Org::BouncyCastle::Asn1::DerApplicationSpecific::_ctor)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x393471c;
+  constexpr static std::size_t addrs = 0x3938bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Asn1::DerApplicationSpecific::GetLengthOfHeader)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3934660;
+  constexpr static std::size_t addrs = 0x3938af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::DerApplicationSpecific::*)()>(&::Org::BouncyCastle::Asn1::DerApplicationSpecific::IsConstructed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39348ec;
+  constexpr static std::size_t addrs = 0x3938d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerApplicationSpecific*>(), { "IsConstructed", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::DerApplicationSpecific::*)()>(&::Org::BouncyCastle::Asn1::DerApplicationSpecific::GetContents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39348f4;
+  constexpr static std::size_t addrs = 0x3938d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerApplicationSpecific*>(), { "GetContents", {}, {} })));
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DerApplicationSpecific::*)()>(&::Org::BouncyCastle::Asn1::DerApplicationSpecific::get_ApplicationTag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39348fc;
+  constexpr static std::size_t addrs = 0x3938d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerApplicationSpecific*>(), { "get_ApplicationTag", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::DerApplicationSpecific::*)()>(
     &::Org::BouncyCastle::Asn1::DerApplicationSpecific::GetObject)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3934904;
+  constexpr static std::size_t addrs = 0x3938d9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerApplicationSpecific*>(), { "GetObject", {}, {} })));
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::DerApplicationSpecific::GetObject)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3934910;
+  constexpr static std::size_t addrs = 0x3938da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(
     &::Org::BouncyCastle::Asn1::DerApplicationSpecific::Encode)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3934b0c;
+  constexpr static std::size_t addrs = 0x3938fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(::Org::BouncyCastle::Asn1::Asn1Object*)>(
     &::Org::BouncyCastle::Asn1::DerApplicationSpecific::Asn1Equals)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3934b40;
+  constexpr static std::size_t addrs = 0x3938fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DerApplicationSpecific::*)()>(&::Org::BouncyCastle::Asn1::DerApplicationSpecific::Asn1GetHashCode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3934c30;
+  constexpr static std::size_t addrs = 0x39390c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(int32_t, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Asn1::DerApplicationSpecific::ReplaceTagNumber)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x39349c4;
+  constexpr static std::size_t addrs = 0x3938e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::DerApplicationSpecific*>(),

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Interface::ValidationResult::*)(
     bool, bool, int32_t, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors>)>(&::Mono::Security::Interface::ValidationResult::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5ef2684;
+  constexpr static std::size_t addrs = 0x5ef290c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Interface::ValidationResult::*)()>(&::Mono::Security::Interface::ValidationResult::get_Trusted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ef2698;
+  constexpr static std::size_t addrs = 0x5ef2920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::ValidationResult*>(), { "get_Trusted", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Mono::Security::Interface::ValidationResult::*)()>(&::Mono::Security::Interface::ValidationResult::get_UserDenied)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ef26a0;
+  constexpr static std::size_t addrs = 0x5ef2928;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Interface::ValidationResult*>(), { "get_UserDenied", {}, {} })));

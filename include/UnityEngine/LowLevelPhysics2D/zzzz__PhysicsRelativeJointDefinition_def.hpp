@@ -23,13 +23,13 @@ namespace UnityEngine::LowLevelPhysics2D {
 struct CORDL_TYPE PhysicsRelativeJointDefinition {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x7010e78, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7011f58, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x700ea00, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700fae0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(bool useSettings);
 
-  /// @brief Method get_defaultDefinition, addr 0x7010ea8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_defaultDefinition, addr 0x7011f88, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsRelativeJointDefinition get_defaultDefinition();
 
   // Ctor Parameters []
@@ -56,7 +56,7 @@ public:
                                            bool m_CollideConnected) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21561 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21575 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x74 };

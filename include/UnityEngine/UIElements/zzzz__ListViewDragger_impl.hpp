@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ListViewDragger_DragPosition::*)(::UnityEngine::UIElements::ListViewDragger_DragPosition)>(
     &::UnityEngine::UIElements::ListViewDragger_DragPosition::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x725892c;
+  constexpr static std::size_t addrs = 0x7259a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewDragger_DragPosition>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ListViewDragger_DragPosition::*)(::System::Object*)>(
     &::UnityEngine::UIElements::ListViewDragger_DragPosition::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x725aa0c;
+  constexpr static std::size_t addrs = 0x725baec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewDragger_DragPosition>(),
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ListViewDragger_DragPosition::*)()>(&::UnityEngine::UIElements::ListViewDragger_DragPosition::GetHashCode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x725aa98;
+  constexpr static std::size_t addrs = 0x725bb78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewDragger_DragPosition>(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BaseVerticalCollectionView* (::UnityEngine::UIElements::ListViewDragger::*)()>(
     &::UnityEngine::UIElements::ListViewDragger::get_targetView)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x72564d8;
+  constexpr static std::size_t addrs = 0x72575b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewDragger*>(), { "get_targetView", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ScrollView* (::UnityEngine::UIElements::ListViewDragger::*)()>(
     &::UnityEngine::UIElements::ListViewDragger::get_targetScrollView)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x7256558;
+  constexpr static std::size_t addrs = 0x7257638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewDragger*>(), { "get_targetScrollView", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ICollectionDragAndDropController* (::UnityEngine::UIElements::ListViewDragger::*)()>(
     &::UnityEngine::UIElements::ListViewDragger::get_dragAndDropController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7256574;
+  constexpr static std::size_t addrs = 0x7257654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewDragger*>(), { "get_dragAndDropController", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDragger::*)(::UnityEngine::UIElements::ICollectionDragAndDropController*)>(
     &::UnityEngine::UIElements::ListViewDragger::set_dragAndDropController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x725657c;
+  constexpr static std::size_t addrs = 0x725765c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ListViewDragger::*)()>(&::UnityEngine::UIElements::ListViewDragger::get_enabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7256584;
+  constexpr static std::size_t addrs = 0x7257664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewDragger*>(), { "get_enabled", {}, {} })));
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDragger::*)(bool)>(&::UnityEngine::UIElements::ListViewDragger::set_enabled)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x725658c;
+  constexpr static std::size_t addrs = 0x725766c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDragger::*)(::UnityEngine::UIElements::BaseVerticalCollectionView*)>(
     &::UnityEngine::UIElements::ListViewDragger::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7256924;
+  constexpr static std::size_t addrs = 0x7257a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewDragger*>(),
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ListViewDragger::*)(::UnityEngine::Vector3, ::UnityEngine::EventModifiers)>(
     &::UnityEngine::UIElements::ListViewDragger::CanStartDrag)> {
   constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x7256938;
+  constexpr static std::size_t addrs = 0x7257a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StartDragArgs (::UnityEngine::UIElements::ListViewDragger::*)(::UnityEngine::Vector3, ::UnityEngine::EventModifiers)>(
     &::UnityEngine::UIElements::ListViewDragger::StartDrag)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x72570f4;
+  constexpr static std::size_t addrs = 0x72581d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDragger::*)(::UnityEngine::Vector3, ::UnityEngine::EventModifiers)>(
     &::UnityEngine::UIElements::ListViewDragger::UpdateDrag)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x7257468;
+  constexpr static std::size_t addrs = 0x7258548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DragVisualMode (::UnityEngine::UIElements::ListViewDragger::*)(
     ::UnityEngine::Vector3, ::UnityEngine::EventModifiers, ::by_ref<::UnityEngine::UIElements::ListViewDragger_DragPosition>)>(&::UnityEngine::UIElements::ListViewDragger::GetVisualMode)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x7257644;
+  constexpr static std::size_t addrs = 0x7258724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDragger::*)(::UnityEngine::Vector3, ::UnityEngine::EventModifiers)>(
     &::UnityEngine::UIElements::ListViewDragger::OnDrop)> {
   constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x7258484;
+  constexpr static std::size_t addrs = 0x7259564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDragger::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::ListViewDragger::HandleDragAndScroll)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x725780c;
+  constexpr static std::size_t addrs = 0x72588ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDragger::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::ListViewDragger::HandleAutoExpansion)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x7257a64;
+  constexpr static std::size_t addrs = 0x7258b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDragger::*)(::UnityEngine::UIElements::ListViewDragger_DragPosition)>(
     &::UnityEngine::UIElements::ListViewDragger::ApplyDragAndDropUI)> {
   constexpr static std::size_t size = 0x7fc;
-  constexpr static std::size_t addrs = 0x7257b54;
+  constexpr static std::size_t addrs = 0x7258c34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ListViewDragger::*)(::UnityEngine::Vector2, ::by_ref<::UnityEngine::UIElements::ListViewDragger_DragPosition>)>(
     &::UnityEngine::UIElements::ListViewDragger::TryGetDragPosition)> {
   constexpr static std::size_t size = 0x488;
-  constexpr static std::size_t addrs = 0x7259384;
+  constexpr static std::size_t addrs = 0x725a464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDragger::*)(::UnityEngine::Vector2, ::by_ref<::UnityEngine::UIElements::ListViewDragger_DragPosition>)>(
     &::UnityEngine::UIElements::ListViewDragger::HandleTreePosition)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x725980c;
+  constexpr static std::size_t addrs = 0x725a8ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDragger::*)(::by_ref<::UnityEngine::UIElements::ListViewDragger_DragPosition>, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::ListViewDragger::HandleSiblingInsertionAtAvailableDepthsAndChangeTargetIfNeeded)> {
   constexpr static std::size_t size = 0x634;
-  constexpr static std::size_t addrs = 0x7259928;
+  constexpr static std::size_t addrs = 0x725aa08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDragger::*)(int32_t, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::UnityEngine::UIElements::ListViewDragger::GetPreviousAndNextItemsIgnoringDraggedItems)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x7259f5c;
+  constexpr static std::size_t addrs = 0x725b03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DragAndDropArgs (::UnityEngine::UIElements::ListViewDragger::*)(
     ::UnityEngine::UIElements::ListViewDragger_DragPosition, ::UnityEngine::EventModifiers)>(&::UnityEngine::UIElements::ListViewDragger::MakeDragAndDropArgs)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x7258350;
+  constexpr static std::size_t addrs = 0x7259430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::ListViewDragger::*)(::UnityEngine::UIElements::ReusableCollectionItem*)>(
     &::UnityEngine::UIElements::ListViewDragger::GetHoverBarTopPosition)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x725a1e0;
+  constexpr static std::size_t addrs = 0x725b2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -408,7 +408,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDragger::*)(::UnityEngine::UIElements::ReusableCollectionItem*)>(
     &::UnityEngine::UIElements::ListViewDragger::PlaceHoverBarAtElement)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x7259368;
+  constexpr static std::size_t addrs = 0x725a448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -422,7 +422,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDragger::*)(float_t, float_t, float_t)>(&::UnityEngine::UIElements::ListViewDragger::PlaceHoverBarAt)> {
   constexpr static std::size_t size = 0x6a4;
-  constexpr static std::size_t addrs = 0x72589c8;
+  constexpr static std::size_t addrs = 0x7259aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -436,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDragger::*)(bool)>(&::UnityEngine::UIElements::ListViewDragger::ClearDragAndDropUI)> {
   constexpr static std::size_t size = 0x62c;
-  constexpr static std::size_t addrs = 0x725a2c0;
+  constexpr static std::size_t addrs = 0x725b3a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -450,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ReusableCollectionItem* (::UnityEngine::UIElements::ListViewDragger::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::UIElements::ListViewDragger::GetRecycledItem)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x7256cf4;
+  constexpr static std::size_t addrs = 0x7257dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -463,7 +463,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ListViewDragger::*)()>(&::UnityEngine::UIElements::ListViewDragger::IsDraggingDisabled)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x7258840;
+  constexpr static std::size_t addrs = 0x7259920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ListViewDragger*>(), { "IsDraggingDisabled", {}, {} })));
@@ -476,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ListViewDragger::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::ListViewDragger::_ApplyDragAndDropUI_g__GeometryChangedCallback_31_0)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x725a8ec;
+  constexpr static std::size_t addrs = 0x725b9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::*)(int32_t)>(&::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e1041c;
+  constexpr static std::size_t addrs = 0x6e114fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e10424;
+  constexpr static std::size_t addrs = 0x6e11504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::*)()>(&::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::MoveNext)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6e10428;
+  constexpr static std::size_t addrs = 0x6e11508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18*>(), { "MoveNext", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e104e0;
+  constexpr static std::size_t addrs = 0x6e115c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6e104e8;
+  constexpr static std::size_t addrs = 0x6e115c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e10520;
+  constexpr static std::size_t addrs = 0x6e11600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::*)(int32_t)>(&::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e10528;
+  constexpr static std::size_t addrs = 0x6e11608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e10530;
+  constexpr static std::size_t addrs = 0x6e11610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::*)()>(&::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::MoveNext)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e10534;
+  constexpr static std::size_t addrs = 0x6e11614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19*>(), { "MoveNext", {}, {} })));
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e105f4;
+  constexpr static std::size_t addrs = 0x6e116d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6e105fc;
+  constexpr static std::size_t addrs = 0x6e116dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::*)()>(
     &::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e10634;
+  constexpr static std::size_t addrs = 0x6e11714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -395,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::get_materialForRendering)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e083f4;
+  constexpr static std::size_t addrs = 0x6e094d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 34 }));
@@ -407,7 +407,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::get_autoSizeTextContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e08458;
+  constexpr static std::size_t addrs = 0x6e09538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 75 }));
@@ -419,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(bool)>(&::TMPro::TextMeshProUGUI::set_autoSizeTextContainer)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6e08460;
+  constexpr static std::size_t addrs = 0x6e09540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 76 }));
@@ -431,7 +431,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::get_mesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e08504;
+  constexpr static std::size_t addrs = 0x6e095e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 77 }));
@@ -443,7 +443,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::CanvasRenderer> (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::get_canvasRenderer)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6e0850c;
+  constexpr static std::size_t addrs = 0x6e095ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "get_canvasRenderer", {}, {} })));
@@ -455,7 +455,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::CalculateLayoutInputHorizontal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e085a8;
+  constexpr static std::size_t addrs = 0x6e09688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "CalculateLayoutInputHorizontal", {}, {} })));
@@ -467,7 +467,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::CalculateLayoutInputVertical)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e085ac;
+  constexpr static std::size_t addrs = 0x6e0968c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "CalculateLayoutInputVertical", {}, {} })));
@@ -479,7 +479,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::SetVerticesDirty)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6e085b0;
+  constexpr static std::size_t addrs = 0x6e09690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 28 }));
@@ -491,7 +491,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::SetLayoutDirty)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6e086a8;
+  constexpr static std::size_t addrs = 0x6e09788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 27 }));
@@ -503,7 +503,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::SetMaterialDirty)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6e087a0;
+  constexpr static std::size_t addrs = 0x6e09880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 29 }));
@@ -515,7 +515,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::SetAllDirty)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e08894;
+  constexpr static std::size_t addrs = 0x6e09974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 26 }));
@@ -527,7 +527,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::DelayedGraphicRebuild)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e088d8;
+  constexpr static std::size_t addrs = 0x6e099b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "DelayedGraphicRebuild", {}, {} })));
@@ -539,7 +539,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::DelayedMaterialRebuild)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e0892c;
+  constexpr static std::size_t addrs = 0x6e09a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "DelayedMaterialRebuild", {}, {} })));
@@ -551,7 +551,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::UnityEngine::UI::CanvasUpdate)>(&::TMPro::TextMeshProUGUI::Rebuild)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6e08980;
+  constexpr static std::size_t addrs = 0x6e09a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 37 }));
@@ -563,7 +563,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::UpdateSubObjectPivot)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6e08cf0;
+  constexpr static std::size_t addrs = 0x6e09dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "UpdateSubObjectPivot", {}, {} })));
@@ -575,7 +575,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Material*)>(&::TMPro::TextMeshProUGUI::GetModifiedMaterial)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6e08dd4;
+  constexpr static std::size_t addrs = 0x6e09eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 58 }));
@@ -587,7 +587,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::UpdateMaterial)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6e08ee0;
+  constexpr static std::size_t addrs = 0x6e09fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 40 }));
@@ -599,7 +599,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::get_maskOffset)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e08fd0;
+  constexpr static std::size_t addrs = 0x6e0a0b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "get_maskOffset", {}, {} })));
@@ -611,7 +611,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Vector4)>(&::TMPro::TextMeshProUGUI::set_maskOffset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6e08fe4;
+  constexpr static std::size_t addrs = 0x6e0a0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -624,7 +624,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::RecalculateClipping)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e09350;
+  constexpr static std::size_t addrs = 0x6e0a430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 63 }));
@@ -636,7 +636,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Rect, bool)>(&::TMPro::TextMeshProUGUI::Cull)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x6e09354;
+  constexpr static std::size_t addrs = 0x6e0a434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 59 }));
@@ -648,7 +648,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::UpdateCulling)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x6e09588;
+  constexpr static std::size_t addrs = 0x6e0a668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 102 }));
@@ -660,7 +660,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::UpdateMeshPadding)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6e09784;
+  constexpr static std::size_t addrs = 0x6e0a864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 111 }));
@@ -672,7 +672,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Color, float_t, bool, bool)>(&::TMPro::TextMeshProUGUI::InternalCrossFadeColor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6e09888;
+  constexpr static std::size_t addrs = 0x6e0a968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 112 }));
@@ -684,7 +684,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(float_t, float_t, bool)>(&::TMPro::TextMeshProUGUI::InternalCrossFadeAlpha)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6e0995c;
+  constexpr static std::size_t addrs = 0x6e0aa3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 113 }));
@@ -696,7 +696,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(bool, bool)>(&::TMPro::TextMeshProUGUI::ForceMeshUpdate)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6e09a00;
+  constexpr static std::size_t addrs = 0x6e0aae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 106 }));
@@ -708,7 +708,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_TextInfo* (::TMPro::TextMeshProUGUI::*)(::StringW)>(&::TMPro::TextMeshProUGUI::GetTextInfo)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6e09ab0;
+  constexpr static std::size_t addrs = 0x6e0ab90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 118 }));
@@ -720,7 +720,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::ClearMesh)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6e09b9c;
+  constexpr static std::size_t addrs = 0x6e0ac7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 129 }));
@@ -732,7 +732,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::System::Action_1<::TMPro::TMP_TextInfo*>*)>(&::TMPro::TextMeshProUGUI::add_OnPreRenderText)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e09c9c;
+  constexpr static std::size_t addrs = 0x6e0ad7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 78 }));
@@ -744,7 +744,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::System::Action_1<::TMPro::TMP_TextInfo*>*)>(&::TMPro::TextMeshProUGUI::remove_OnPreRenderText)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6e09d5c;
+  constexpr static std::size_t addrs = 0x6e0ae3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 79 }));
@@ -756,7 +756,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Mesh*, int32_t)>(&::TMPro::TextMeshProUGUI::UpdateGeometry)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6e09e1c;
+  constexpr static std::size_t addrs = 0x6e0aefc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 107 }));
@@ -768,7 +768,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::TMPro::TMP_VertexDataUpdateFlags)>(&::TMPro::TextMeshProUGUI::UpdateVertexData)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6e09e94;
+  constexpr static std::size_t addrs = 0x6e0af74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 108 }));
@@ -780,7 +780,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::UpdateVertexData)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x6e0a07c;
+  constexpr static std::size_t addrs = 0x6e0b15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 109 }));
@@ -792,7 +792,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::UpdateFontAsset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e0a298;
+  constexpr static std::size_t addrs = 0x6e0b378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "UpdateFontAsset", {}, {} })));
@@ -804,7 +804,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::Awake)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x6e0a2a8;
+  constexpr static std::size_t addrs = 0x6e0b388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 4 }));
@@ -816,7 +816,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::OnEnable)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6e0a554;
+  constexpr static std::size_t addrs = 0x6e0b634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 5 }));
@@ -828,7 +828,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::OnDisable)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6e0a808;
+  constexpr static std::size_t addrs = 0x6e0b8e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 7 }));
@@ -840,7 +840,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::OnDestroy)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x6e0a9b0;
+  constexpr static std::size_t addrs = 0x6e0ba90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 8 }));
@@ -852,7 +852,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::LoadFontAsset)> {
   constexpr static std::size_t size = 0x570;
-  constexpr static std::size_t addrs = 0x6e0ab10;
+  constexpr static std::size_t addrs = 0x6e0bbf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 89 }));
@@ -864,7 +864,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Canvas> (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::GetCanvas)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x6e0a688;
+  constexpr static std::size_t addrs = 0x6e0b768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "GetCanvas", {}, {} })));
@@ -876,7 +876,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::ValidateEnvMapProperty)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6e0b080;
+  constexpr static std::size_t addrs = 0x6e0c160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "ValidateEnvMapProperty", {}, {} })));
@@ -888,7 +888,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::UpdateEnvMapMatrix)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x6e0b1b0;
+  constexpr static std::size_t addrs = 0x6e0c290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "UpdateEnvMapMatrix", {}, {} })));
@@ -900,7 +900,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::EnableMasking)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6e0b420;
+  constexpr static std::size_t addrs = 0x6e0c500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "EnableMasking", {}, {} })));
@@ -912,7 +912,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::DisableMasking)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e0b5c8;
+  constexpr static std::size_t addrs = 0x6e0c6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "DisableMasking", {}, {} })));
@@ -924,7 +924,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::UpdateMask)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x6e09010;
+  constexpr static std::size_t addrs = 0x6e0a0f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "UpdateMask", {}, {} })));
@@ -936,7 +936,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Material*)>(&::TMPro::TextMeshProUGUI::GetMaterial)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6e0b5cc;
+  constexpr static std::size_t addrs = 0x6e0c6ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 91 }));
@@ -949,7 +949,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Material>> (::TMPro::TextMeshProUGUI::*)(::ArrayW<::UnityEngine::Material*>)>(
     &::TMPro::TextMeshProUGUI::GetMaterials)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x6e0b718;
+  constexpr static std::size_t addrs = 0x6e0c7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 95 }));
@@ -961,7 +961,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Material*)>(&::TMPro::TextMeshProUGUI::SetSharedMaterial)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e0b8d0;
+  constexpr static std::size_t addrs = 0x6e0c9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 90 }));
@@ -973,7 +973,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Material>> (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::GetSharedMaterials)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x6e0b90c;
+  constexpr static std::size_t addrs = 0x6e0c9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 93 }));
@@ -985,7 +985,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::ArrayW<::UnityEngine::Material*>)>(&::TMPro::TextMeshProUGUI::SetSharedMaterials)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x6e0ba98;
+  constexpr static std::size_t addrs = 0x6e0cb78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 94 }));
@@ -997,7 +997,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(float_t)>(&::TMPro::TextMeshProUGUI::SetOutlineThickness)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x6e0beac;
+  constexpr static std::size_t addrs = 0x6e0cf8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 99 }));
@@ -1009,7 +1009,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Color32)>(&::TMPro::TextMeshProUGUI::SetFaceColor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6e0c070;
+  constexpr static std::size_t addrs = 0x6e0d150;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 97 }));
@@ -1021,7 +1021,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(::UnityEngine::Color32)>(&::TMPro::TextMeshProUGUI::SetOutlineColor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6e0c1a4;
+  constexpr static std::size_t addrs = 0x6e0d284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 98 }));
@@ -1033,7 +1033,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::SetShaderDepth)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6e0c2d8;
+  constexpr static std::size_t addrs = 0x6e0d3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 100 }));
@@ -1045,7 +1045,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::SetCulling)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x6e0c388;
+  constexpr static std::size_t addrs = 0x6e0d468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 101 }));
@@ -1057,7 +1057,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::SetPerspectiveCorrection)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6e0c6a0;
+  constexpr static std::size_t addrs = 0x6e0d780;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "SetPerspectiveCorrection", {}, {} })));
@@ -1069,7 +1069,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(int32_t)>(&::TMPro::TextMeshProUGUI::SetMeshArrays)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6e0c72c;
+  constexpr static std::size_t addrs = 0x6e0d80c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "SetMeshArrays", {}, { ::i2c::type_of<int32_t>() } })));
@@ -1081,7 +1081,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TextMeshProUGUI::*)(::ArrayW<::TMPro::TMP_Text_TextProcessingElement>)>(&::TMPro::TextMeshProUGUI::SetArraySizes)> {
   constexpr static std::size_t size = 0x2498;
-  constexpr static std::size_t addrs = 0x6e0c7e4;
+  constexpr static std::size_t addrs = 0x6e0d8c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 114 }));
@@ -1093,7 +1093,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::ComputeMarginSize)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6e0ec7c;
+  constexpr static std::size_t addrs = 0x6e0fd5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 119 }));
@@ -1105,7 +1105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::OnDidApplyAnimationProperties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6e0ed98;
+  constexpr static std::size_t addrs = 0x6e0fe78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 13 }));
@@ -1117,7 +1117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::OnCanvasHierarchyChanged)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6e0edd0;
+  constexpr static std::size_t addrs = 0x6e0feb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 15 }));
@@ -1129,7 +1129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::OnTransformParentChanged)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6e0eeec;
+  constexpr static std::size_t addrs = 0x6e0ffcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 12 }));
@@ -1141,7 +1141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::OnRectTransformDimensionsChange)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x6e0ef30;
+  constexpr static std::size_t addrs = 0x6e10010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 10 }));
@@ -1153,7 +1153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::InternalUpdate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6e0f1bc;
+  constexpr static std::size_t addrs = 0x6e1029c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 132 }));
@@ -1165,7 +1165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::OnPreRenderCanvas)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x6e08a6c;
+  constexpr static std::size_t addrs = 0x6e09b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "OnPreRenderCanvas", {}, {} })));
@@ -1177,7 +1177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::GenerateTextMesh)> {
   constexpr static std::size_t size = 0x7550;
-  constexpr static std::size_t addrs = 0x6df1dec;
+  constexpr static std::size_t addrs = 0x6df2ecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 142 }));
@@ -1189,7 +1189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Vector3> (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::GetTextContainerLocalCorners)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6e0f45c;
+  constexpr static std::size_t addrs = 0x6e1053c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 105 }));
@@ -1201,7 +1201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(bool)>(&::TMPro::TextMeshProUGUI::SetActiveSubMeshes)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6e0f4f8;
+  constexpr static std::size_t addrs = 0x6e105d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 127 }));
@@ -1213,7 +1213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::DestroySubMeshObjects)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6e0f618;
+  constexpr static std::size_t addrs = 0x6e106f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 128 }));
@@ -1225,7 +1225,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::GetCompoundBounds)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x6e0f6f8;
+  constexpr static std::size_t addrs = 0x6e107d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 116 }));
@@ -1237,7 +1237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::GetCanvasSpaceClippingRect)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x6e0f88c;
+  constexpr static std::size_t addrs = 0x6e1096c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ::i2c::class_of<::TMPro::TextMeshProUGUI*>(), 117 }));
@@ -1249,7 +1249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)(float_t)>(&::TMPro::TextMeshProUGUI::UpdateSDFScale)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x6e0f264;
+  constexpr static std::size_t addrs = 0x6e10344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { "UpdateSDFScale", {}, { ::i2c::type_of<float_t>() } })));
@@ -1261,7 +1261,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TextMeshProUGUI::*)()>(&::TMPro::TextMeshProUGUI::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6e0fab8;
+  constexpr static std::size_t addrs = 0x6e10b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TextMeshProUGUI*>(), { ".ctor", {}, {} })));

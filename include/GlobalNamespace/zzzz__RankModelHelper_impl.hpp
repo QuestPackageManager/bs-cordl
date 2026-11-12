@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::RankModel_Rank (*)(::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::GameplayModifiersModelSO*, float_t)>(
     &::GlobalNamespace::RankModelHelper::MaxRankForGameplayModifiers)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a063a0;
+  constexpr static std::size_t addrs = 0x3a0b404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

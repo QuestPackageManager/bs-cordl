@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::Mono::Security::X509::X509StoreManager::get_CurrentUserPath)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5eedb20;
+  constexpr static std::size_t addrs = 0x5eedda8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::X509::X509StoreManager*>(), { "get_CurrentUserPath", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::Mono::Security::X509::X509StoreManager::get_LocalMachinePath)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5eedc24;
+  constexpr static std::size_t addrs = 0x5eedeac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::X509::X509StoreManager*>(), { "get_LocalMachinePath", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::X509::X509Stores* (*)()>(&::Mono::Security::X509::X509StoreManager::get_CurrentUser)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5eedd10;
+  constexpr static std::size_t addrs = 0x5eedf98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::X509::X509StoreManager*>(), { "get_CurrentUser", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::X509::X509Stores* (*)()>(&::Mono::Security::X509::X509StoreManager::get_LocalMachine)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5eeddac;
+  constexpr static std::size_t addrs = 0x5eee034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::X509::X509StoreManager*>(), { "get_LocalMachine", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::Security::X509::X509CertificateCollection* (*)()>(&::Mono::Security::X509::X509StoreManager::get_TrustedRootCertificates)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5eebdcc;
+  constexpr static std::size_t addrs = 0x5eec054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::X509::X509StoreManager*>(), { "get_TrustedRootCertificates", {}, {} })));

@@ -191,31 +191,31 @@ public:
 
   __declspec(property(get = get_timeLooped)) bool timeLooped;
 
-  /// @brief Method HasFlags, addr 0x6f9be20, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasFlags, addr 0x6f9cf00, size 0x10, virtual false, abstract: false, final false
   inline bool HasFlags(::UnityEngine::Playables::FrameData_Flags flag);
 
-  /// @brief Method get_deltaTime, addr 0x6f9be30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_deltaTime, addr 0x6f9cf10, size 0xc, virtual false, abstract: false, final false
   inline float_t get_deltaTime();
 
-  /// @brief Method get_effectivePlayState, addr 0x6f9be84, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_effectivePlayState, addr 0x6f9cf64, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayState get_effectivePlayState();
 
-  /// @brief Method get_effectiveSpeed, addr 0x6f9be3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_effectiveSpeed, addr 0x6f9cf1c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_effectiveSpeed();
 
-  /// @brief Method get_evaluationType, addr 0x6f9be44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_evaluationType, addr 0x6f9cf24, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::FrameData_EvaluationType get_evaluationType();
 
-  /// @brief Method get_output, addr 0x6f9be78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_output, addr 0x6f9cf58, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableOutput get_output();
 
-  /// @brief Method get_seekOccurred, addr 0x6f9be54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_seekOccurred, addr 0x6f9cf34, size 0xc, virtual false, abstract: false, final false
   inline bool get_seekOccurred();
 
-  /// @brief Method get_timeHeld, addr 0x6f9be6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_timeHeld, addr 0x6f9cf4c, size 0xc, virtual false, abstract: false, final false
   inline bool get_timeHeld();
 
-  /// @brief Method get_timeLooped, addr 0x6f9be60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_timeLooped, addr 0x6f9cf40, size 0xc, virtual false, abstract: false, final false
   inline bool get_timeLooped();
 
   // Ctor Parameters []

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventDataBoxGroupLists::*)(
     ::GlobalNamespace::BeatmapData*, ::GlobalNamespace::IBeatToTimeConverter*, bool, ::GlobalNamespace::IBeatmapLightEventConverter*)>(&::GlobalNamespace::BeatmapEventDataBoxGroupLists::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x39c5cd4;
+  constexpr static std::size_t addrs = 0x39ca1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* (
     ::GlobalNamespace::BeatmapEventDataBoxGroupLists::*)(int32_t, ::GlobalNamespace::BeatmapEventDataBoxGroup*)>(&::GlobalNamespace::BeatmapEventDataBoxGroupLists::Insert)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x39c5d9c;
+  constexpr static std::size_t addrs = 0x39ca274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventDataBoxGroupLists::*)(
     int32_t, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*)>(&::GlobalNamespace::BeatmapEventDataBoxGroupLists::Remove)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x39c5ec4;
+  constexpr static std::size_t addrs = 0x39ca39c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventDataBoxGroupLists::*)(bool)>(
     &::GlobalNamespace::BeatmapEventDataBoxGroupLists::ToggleUpdateBeatmapDataOnInsert)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x39c5f84;
+  constexpr static std::size_t addrs = 0x39ca45c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapEventDataBoxGroupLists::*)()>(&::GlobalNamespace::BeatmapEventDataBoxGroupLists::SyncWithBeatmapData)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x39c60e0;
+  constexpr static std::size_t addrs = 0x39ca5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapEventDataBoxGroupLists*>(), { "SyncWithBeatmapData", {}, {} })));

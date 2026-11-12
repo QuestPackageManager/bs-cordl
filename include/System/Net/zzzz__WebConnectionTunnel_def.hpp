@@ -150,11 +150,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x67aaa70, size 0xd90, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x67ab0c0, size 0xd90, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x67ab800, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x67abe50, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -240,11 +240,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x67ab86c, size 0x870, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x67abebc, size 0x870, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x67ac0dc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x67ac72c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -398,17 +398,17 @@ public:
   /// @brief Field ntlmAuthState, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_ntlmAuthState, put = __cordl_internal_set_ntlmAuthState)) ::System::Net::WebConnectionTunnel_NtlmAuthState ntlmAuthState;
 
-  /// @brief Method FlushContents, addr 0x67aa9d4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FlushContents, addr 0x67ab024, size 0x9c, virtual false, abstract: false, final false
   inline void FlushContents(::System::IO::Stream* stream, int32_t contentLength);
 
   /// [AsyncStateMachine(typeof(System.Net.WebConnectionTunnel::<Initialize>d__42))]
-  /// @brief Method Initialize, addr 0x67aa80c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x67aae5c, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* Initialize(::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::System::Net::WebConnectionTunnel* New_ctor(::System::Net::HttpWebRequest* request, ::System::Uri* connectUri);
 
   /// [AsyncStateMachine(typeof(System.Net.WebConnectionTunnel::<ReadHeaders>d__43))]
-  /// @brief Method ReadHeaders, addr 0x67aa8d8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ReadHeaders, addr 0x67aaf28, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection*, ::ArrayW<uint8_t>, int32_t>>*
   ReadHeaders(::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken);
 
@@ -484,75 +484,75 @@ public:
 
   constexpr void __cordl_internal_set_ntlmAuthState(::System::Net::WebConnectionTunnel_NtlmAuthState value);
 
-  /// @brief Method .ctor, addr 0x67aa78c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67aaddc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpWebRequest* request, ::System::Uri* connectUri);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Challenge, addr 0x67aa7cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Challenge, addr 0x67aae1c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> get_Challenge();
 
   /// [CompilerGenerated]
-  /// @brief Method get_CloseConnection, addr 0x67aa7a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CloseConnection, addr 0x67aadf4, size 0x8, virtual false, abstract: false, final false
   inline bool get_CloseConnection();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ConnectUri, addr 0x67aa784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConnectUri, addr 0x67aadd4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_ConnectUri();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Data, addr 0x67aa7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x67aae4c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t> get_Data();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Headers, addr 0x67aa7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x67aae2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ProxyVersion, addr 0x67aa7ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProxyVersion, addr 0x67aae3c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Version* get_ProxyVersion();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Request, addr 0x67aa77c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Request, addr 0x67aadcc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpWebRequest* get_Request();
 
   /// [CompilerGenerated]
-  /// @brief Method get_StatusCode, addr 0x67aa7b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusCode, addr 0x67aae04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StatusCode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Success, addr 0x67aa794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Success, addr 0x67aade4, size 0x8, virtual false, abstract: false, final false
   inline bool get_Success();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Challenge, addr 0x67aa7d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Challenge, addr 0x67aae24, size 0x8, virtual false, abstract: false, final false
   inline void set_Challenge(::ArrayW<::StringW> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_CloseConnection, addr 0x67aa7ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CloseConnection, addr 0x67aadfc, size 0x8, virtual false, abstract: false, final false
   inline void set_CloseConnection(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Data, addr 0x67aa804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x67aae54, size 0x8, virtual false, abstract: false, final false
   inline void set_Data(::ArrayW<uint8_t> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Headers, addr 0x67aa7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Headers, addr 0x67aae34, size 0x8, virtual false, abstract: false, final false
   inline void set_Headers(::System::Net::WebHeaderCollection* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ProxyVersion, addr 0x67aa7f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProxyVersion, addr 0x67aae44, size 0x8, virtual false, abstract: false, final false
   inline void set_ProxyVersion(::System::Version* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_StatusCode, addr 0x67aa7bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusCode, addr 0x67aae0c, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusCode(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_StatusDescription, addr 0x67aa7c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusDescription, addr 0x67aae14, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusDescription(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Success, addr 0x67aa79c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Success, addr 0x67aadec, size 0x8, virtual false, abstract: false, final false
   inline void set_Success(bool value);
 
 protected:

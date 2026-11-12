@@ -51,7 +51,7 @@ public:
   static inline ::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException* New_ctor(::System::Runtime::Serialization::SerializationInfo* message,
                                                                                                           ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x6d76454, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6d77534, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* const& __cordl_internal_get__Location_k__BackingField() const;
@@ -60,30 +60,30 @@ public:
 
   constexpr void __cordl_internal_set__Location_k__BackingField(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  /// @brief Method .ctor, addr 0x6d762b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d77398, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6d71c2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d72d0c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method .ctor, addr 0x6d762bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d7739c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x6d762c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d773a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x6d762c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d773a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* message, ::System::Runtime::Serialization::StreamingContext context);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Location, addr 0x6d762a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x6d77388, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
-  /// @brief Method get_Message, addr 0x6d762c8, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x6d773a8, size 0x18c, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Location, addr 0x6d762b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Location, addr 0x6d77390, size 0x8, virtual false, abstract: false, final false
   inline void set_Location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
 protected:
@@ -101,7 +101,7 @@ public:
   UnknownResourceProviderException(UnknownResourceProviderException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19173 };
 
   /// [CompilerGenerated]
   /// @brief Field <Location>k__BackingField, offset: 0x90, size: 0x8, def value: None

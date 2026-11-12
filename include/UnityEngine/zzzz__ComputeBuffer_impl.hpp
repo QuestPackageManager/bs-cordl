@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::UnityEngine::ComputeBuffer*)>(&::UnityEngine::ComputeBuffer_BindingsMarshaller::ConvertToNative)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6f848f8;
+  constexpr static std::size_t addrs = 0x6f859d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ComputeBuffer::*)()>(&::UnityEngine::ComputeBuffer::Finalize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6f83f5c;
+  constexpr static std::size_t addrs = 0x6f8503c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeBuffer*>(), { ::i2c::class_of<::UnityEngine::ComputeBuffer*>(), 1 }));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ComputeBuffer::*)()>(&::UnityEngine::ComputeBuffer::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6f84074;
+  constexpr static std::size_t addrs = 0x6f85154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeBuffer*>(), { "Dispose", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ComputeBuffer::*)(bool)>(&::UnityEngine::ComputeBuffer::Dispose)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6f83fa4;
+  constexpr static std::size_t addrs = 0x6f85084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeBuffer*>(), { "Dispose", {}, { ::i2c::type_of<bool>() } })));
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(int32_t, int32_t, ::UnityEngine::ComputeBufferType, ::UnityEngine::ComputeBufferMode)>(
     &::UnityEngine::ComputeBuffer::InitBuffer)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6f84124;
+  constexpr static std::size_t addrs = 0x6f85204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::ComputeBuffer*)>(&::UnityEngine::ComputeBuffer::DestroyBuffer)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6f840dc;
+  constexpr static std::size_t addrs = 0x6f851bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ComputeBuffer::*)(int32_t, int32_t)>(&::UnityEngine::ComputeBuffer::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6f841bc;
+  constexpr static std::size_t addrs = 0x6f8529c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ComputeBuffer::*)(int32_t, int32_t, ::UnityEngine::ComputeBufferType)>(&::UnityEngine::ComputeBuffer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f84394;
+  constexpr static std::size_t addrs = 0x6f85474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ComputeBuffer::*)(int32_t, int32_t, ::UnityEngine::ComputeBufferType, ::UnityEngine::ComputeBufferMode, int32_t)>(
     &::UnityEngine::ComputeBuffer::_ctor)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x6f841c8;
+  constexpr static std::size_t addrs = 0x6f852a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ComputeBuffer::*)()>(&::UnityEngine::ComputeBuffer::Release)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f843c4;
+  constexpr static std::size_t addrs = 0x6f854a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeBuffer*>(), { "Release", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::ComputeBuffer*)>(&::UnityEngine::ComputeBuffer::IsValidBuffer)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6f843c8;
+  constexpr static std::size_t addrs = 0x6f854a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ComputeBuffer::*)()>(&::UnityEngine::ComputeBuffer::IsValid)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6f8444c;
+  constexpr static std::size_t addrs = 0x6f8552c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeBuffer*>(), { "IsValid", {}, {} })));
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ComputeBuffer::*)()>(&::UnityEngine::ComputeBuffer::get_count)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6f8449c;
+  constexpr static std::size_t addrs = 0x6f8557c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeBuffer*>(), { "get_count", {}, {} })));
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::ComputeBuffer::*)()>(&::UnityEngine::ComputeBuffer::get_stride)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6f84524;
+  constexpr static std::size_t addrs = 0x6f85604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ComputeBuffer*>(), { "get_stride", {}, {} })));
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ComputeBuffer::*)(::System::Array*)>(&::UnityEngine::ComputeBuffer::SetData)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6f845ac;
+  constexpr static std::size_t addrs = 0x6f8568c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ComputeBuffer::*)(::System::IntPtr, int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::ComputeBuffer::InternalSetNativeData)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6f8478c;
+  constexpr static std::size_t addrs = 0x6f8586c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ComputeBuffer::*)(::System::Array*, int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::ComputeBuffer::InternalSetData)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6f84708;
+  constexpr static std::size_t addrs = 0x6f857e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::ComputeBuffer::DestroyBuffer_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f84180;
+  constexpr static std::size_t addrs = 0x6f85260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::ComputeBuffer::IsValidBuffer_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f84410;
+  constexpr static std::size_t addrs = 0x6f854f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::ComputeBuffer::get_count_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f844e8;
+  constexpr static std::size_t addrs = 0x6f855c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::ComputeBuffer::get_stride_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f84570;
+  constexpr static std::size_t addrs = 0x6f85650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::ComputeBuffer::InternalSetNativeData_Injected)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6f84810;
+  constexpr static std::size_t addrs = 0x6f858f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::Array*, int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::ComputeBuffer::InternalSetData_Injected)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6f84884;
+  constexpr static std::size_t addrs = 0x6f85964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

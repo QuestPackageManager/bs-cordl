@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::ServicePointManager_SPKey::*)(::System::Uri*, ::System::Uri*, bool)>(&::System::Net::ServicePointManager_SPKey::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x67a2d84;
+  constexpr static std::size_t addrs = 0x67a33d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ServicePointManager_SPKey::*)()>(&::System::Net::ServicePointManager_SPKey::get_UsesProxy)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x67a3204;
+  constexpr static std::size_t addrs = 0x67a3854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager_SPKey*>(), { "get_UsesProxy", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::ServicePointManager_SPKey::*)()>(&::System::Net::ServicePointManager_SPKey::GetHashCode)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x67a3264;
+  constexpr static std::size_t addrs = 0x67a38b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::ServicePointManager_SPKey::*)(::System::Object*)>(&::System::Net::ServicePointManager_SPKey::Equals)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x67a3324;
+  constexpr static std::size_t addrs = 0x67a3974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::ICertificatePolicy* (*)()>(&::System::Net::ServicePointManager::GetLegacyCertificatePolicy)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67a2910;
+  constexpr static std::size_t addrs = 0x67a2f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "GetLegacyCertificatePolicy", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Net::ServicePointManager::get_CheckCertificateRevocationList)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67a296c;
+  constexpr static std::size_t addrs = 0x67a2fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "get_CheckCertificateRevocationList", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::System::Net::ServicePointManager::set_DefaultConnectionLimit)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x67a29c8;
+  constexpr static std::size_t addrs = 0x67a3018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::System::Net::ServicePointManager::get_DnsRefreshTimeout)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67a2a78;
+  constexpr static std::size_t addrs = 0x67a30c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "get_DnsRefreshTimeout", {}, {} })));
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::SecurityProtocolType (*)()>(&::System::Net::ServicePointManager::get_SecurityProtocol)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67a2ad4;
+  constexpr static std::size_t addrs = 0x67a3124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "get_SecurityProtocol", {}, {} })));
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::ServerCertValidationCallback* (*)()>(&::System::Net::ServicePointManager::get_ServerCertValidationCallback)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67a2b30;
+  constexpr static std::size_t addrs = 0x67a3180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::ServicePointManager*>(), { "get_ServerCertValidationCallback", {}, {} })));
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Security::RemoteCertificateValidationCallback* (*)()>(
     &::System::Net::ServicePointManager::get_ServerCertificateValidationCallback)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x67a2b8c;
+  constexpr static std::size_t addrs = 0x67a31dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Net::Security::RemoteCertificateValidationCallback*)>(
     &::System::Net::ServicePointManager::set_ServerCertificateValidationCallback)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x67a2c18;
+  constexpr static std::size_t addrs = 0x67a3268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::System::Net::ServicePointManager::set_Expect100Continue)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x67a2cc4;
+  constexpr static std::size_t addrs = 0x67a3314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::ServicePoint* (*)(::System::Uri*)>(&::System::Net::ServicePointManager::FindServicePoint)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x67a2d28;
+  constexpr static std::size_t addrs = 0x67a3378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::ServicePoint* (*)(::System::Uri*, ::System::Net::IWebProxy*)>(&::System::Net::ServicePointManager::FindServicePoint)> {
   constexpr static std::size_t size = 0x678;
-  constexpr static std::size_t addrs = 0x67966e4;
+  constexpr static std::size_t addrs = 0x6796d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::System::Net::ServicePointManager::CloseConnectionGroup)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x67a2d90;
+  constexpr static std::size_t addrs = 0x67a33e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Net::ServicePoint*)>(&::System::Net::ServicePointManager::RemoveServicePoint)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x67a3168;
+  constexpr static std::size_t addrs = 0x67a37b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

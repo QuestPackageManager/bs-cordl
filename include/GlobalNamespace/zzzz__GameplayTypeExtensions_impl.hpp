@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::GameplayType)>(&::GlobalNamespace::GameplayTypeExtensions::CompoundIdPartName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x39d9c74;
+  constexpr static std::size_t addrs = 0x39de930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

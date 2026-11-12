@@ -35,13 +35,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::BatchID>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::BatchID>*();
 
-  /// @brief Method Equals, addr 0x6fc4828, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fc5908, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6fc48d8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fc59b8, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::BatchID other);
 
-  /// @brief Method GetHashCode, addr 0x6fc4820, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fc5900, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::BatchID getStaticF_Null();

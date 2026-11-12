@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x5de9730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de9840, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Tweening::SongTimeTweeningManager* tweeningManager, ::System::Action_1<float_t>* setValue);
 
 protected:
@@ -114,10 +114,10 @@ public:
   /// @brief Field _tweeningManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Cleanup, addr 0x5de7704, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5de7814, size 0x8c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method HandleFloatFxEvent, addr 0x5dea410, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleFloatFxEvent, addr 0x5dea520, size 0xb8, virtual false, abstract: false, final false
   inline void HandleFloatFxEvent(::GlobalNamespace::FloatFxBeatmapEventData* currentEventData);
 
   static inline ::GlobalNamespace::FloatFxEventHandler* New_ctor(::GlobalNamespace::FloatFxEventHandler_InitData* initData);
@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x5de9738, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de9848, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::FloatFxEventHandler_InitData* initData);
 
 protected:

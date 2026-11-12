@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundTextureGradient::get_tintColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5caf310;
+  constexpr static std::size_t addrs = 0x5cad990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundTextureGradient*>(), { "get_tintColor", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::BloomPrePassBackgroundTextureGradient::set_tintColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5caf31c;
+  constexpr static std::size_t addrs = 0x5cad99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(&::GlobalNamespace::BloomPrePassBackgroundTextureGradient::InitIfNeeded)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x5caf328;
+  constexpr static std::size_t addrs = 0x5cad9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundTextureGradient*>(), { "InitIfNeeded", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(&::GlobalNamespace::BloomPrePassBackgroundTextureGradient::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5caf564;
+  constexpr static std::size_t addrs = 0x5cadbe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundTextureGradient*>(), { "Start", {}, {} })));
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(&::GlobalNamespace::BloomPrePassBackgroundTextureGradient::OnDestroy)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5caf5fc;
+  constexpr static std::size_t addrs = 0x5cadc7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundTextureGradient*>(), { "OnDestroy", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(&::GlobalNamespace::BloomPrePassBackgroundTextureGradient::OnValidate)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5caf620;
+  constexpr static std::size_t addrs = 0x5cadca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundTextureGradient*>(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundTextureGradient::UpdateGradientTexture)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5caf568;
+  constexpr static std::size_t addrs = 0x5cadbe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                           ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(
     &::GlobalNamespace::BloomPrePassBackgroundTextureGradient::Render)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x5caf6f8;
+  constexpr static std::size_t addrs = 0x5cadd78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundTextureGradient*>(),
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(&::GlobalNamespace::BloomPrePassBackgroundTextureGradient::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5cad8ac;
+  constexpr static std::size_t addrs = 0x5cabf2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BloomPrePassBackgroundTextureGradient*>(), { ".ctor", {}, {} })));

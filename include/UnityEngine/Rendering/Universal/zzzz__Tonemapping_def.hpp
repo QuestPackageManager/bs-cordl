@@ -70,11 +70,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x6cfbd00, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cfcde0, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
   /// [Obsolete("Unused. #from(2023.1)")]
-  /// @brief Method IsTileCompatible, addr 0x6cfbd30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x6cfce10, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::Tonemapping* New_ctor();
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set_paperWhite(::UnityEngine::Rendering::ClampedFloatParameter* value);
 
-  /// @brief Method .ctor, addr 0x6cfbd38, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfce18, size 0x1fc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"

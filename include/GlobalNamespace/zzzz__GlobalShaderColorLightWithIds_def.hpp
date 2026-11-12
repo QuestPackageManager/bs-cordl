@@ -36,7 +36,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE GlobalShaderColorLightWithIds_LightIntensitiesWithId : public ::GlobalNamespace::LightWithIds_LightWithId {
 public:
   // Declarations
-  /// @brief Field _intensity, offset 0x30, size 0x4
+  /// @brief Field _intensity, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__intensity, put = __cordl_internal_set__intensity)) float_t _intensity;
 
   __declspec(property(get = get_intensity, put = set_intensity)) float_t intensity;
@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__intensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x5cbb550, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb9d98, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t lightIntensity);
 
-  /// @brief Method get_intensity, addr 0x5cbb540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x5cb9d88, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x5cbb548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x5cb9d90, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
 protected:
@@ -73,18 +73,18 @@ public:
   GlobalShaderColorLightWithIds_LightIntensitiesWithId(GlobalShaderColorLightWithIds_LightIntensitiesWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20003 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19923 };
 
   /// [SerializeField]
-  /// @brief Field _intensity, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _intensity, offset: 0x40, size: 0x4, def value: None
   float_t ____intensity;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::GlobalShaderColorLightWithIds_LightIntensitiesWithId, ____intensity) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GlobalShaderColorLightWithIds_LightIntensitiesWithId, ____intensity) == 0x40, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::GlobalShaderColorLightWithIds_LightIntensitiesWithId) == 0x38, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::GlobalShaderColorLightWithIds_LightIntensitiesWithId) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies GlobalShaderColorLightWithIds::LightIntensitiesWithId, LightWithIds
@@ -110,12 +110,12 @@ public:
   /// @brief Field _saturation, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__saturation, put = __cordl_internal_set__saturation)) float_t _saturation;
 
-  /// @brief Method GetLightWithIds, addr 0x5cbb4bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x5cb9d04, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* GetLightWithIds();
 
   static inline ::GlobalNamespace::GlobalShaderColorLightWithIds* New_ctor();
 
-  /// @brief Method ProcessNewColorData, addr 0x5cbb390, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x5cb9bd8, size 0x12c, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
   constexpr ::ArrayW<::GlobalNamespace::GlobalShaderColorLightWithIds_LightIntensitiesWithId*> const& __cordl_internal_get__lightIntensityData() const;
@@ -136,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set__saturation(float_t value);
 
-  /// @brief Method .ctor, addr 0x5cbb4c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb9d0c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__globalLightTintColorPropertyId();
@@ -158,7 +158,7 @@ public:
   GlobalShaderColorLightWithIds(GlobalShaderColorLightWithIds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20004 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19924 };
 
   /// [SerializeField]
   /// @brief Field _lightIntensityData, offset: 0x38, size: 0x8, def value: None

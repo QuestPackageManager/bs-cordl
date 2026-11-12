@@ -69,16 +69,16 @@ public:
   __declspec(property(get = __cordl_internal_get_backToMenuPressedEvent,
                       put = __cordl_internal_set_backToMenuPressedEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* backToMenuPressedEvent;
 
-  /// @brief Method BackToLobbyPressed, addr 0x5db9634, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BackToLobbyPressed, addr 0x5db95d8, size 0x20, virtual false, abstract: false, final false
   inline void BackToLobbyPressed();
 
-  /// @brief Method BackToMenuPressed, addr 0x5db9654, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BackToMenuPressed, addr 0x5db95f8, size 0x20, virtual false, abstract: false, final false
   inline void BackToMenuPressed();
 
-  /// @brief Method DidActivate, addr 0x5db94f4, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5db9498, size 0x140, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method Init, addr 0x5db933c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5db92e0, size 0x188, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, ::GlobalNamespace::BeatmapKey beatmapKey, bool showBackToLobbyButton, bool showBackToMenuButton);
 
   static inline ::GlobalNamespace::MultiplayerResultsViewController* New_ctor();
@@ -137,23 +137,23 @@ public:
 
   constexpr void __cordl_internal_set_backToMenuPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x5db9674, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db9618, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_backToLobbyPressedEvent, addr 0x5db903c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_backToLobbyPressedEvent, addr 0x5db8fe0, size 0xc0, virtual false, abstract: false, final false
   inline void add_backToLobbyPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_backToMenuPressedEvent, addr 0x5db91bc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_backToMenuPressedEvent, addr 0x5db9160, size 0xc0, virtual false, abstract: false, final false
   inline void add_backToMenuPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_backToLobbyPressedEvent, addr 0x5db90fc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_backToLobbyPressedEvent, addr 0x5db90a0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_backToLobbyPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_backToMenuPressedEvent, addr 0x5db927c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_backToMenuPressedEvent, addr 0x5db9220, size 0xc0, virtual false, abstract: false, final false
   inline void remove_backToMenuPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerResultsViewController>>* value);
 
 protected:

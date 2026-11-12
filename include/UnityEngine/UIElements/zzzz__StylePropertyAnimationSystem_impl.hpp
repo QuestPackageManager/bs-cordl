@@ -172,7 +172,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair, ::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair)>(
     &::UnityEngine::UIElements::ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x714b1e4;
+  constexpr static std::size_t addrs = 0x714c2c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer::*)(
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair)>(&::UnityEngine::UIElements::ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x714b1f4;
+  constexpr static std::size_t addrs = 0x714c2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer::*)()>(
     &::UnityEngine::UIElements::ElementPropertyPair_StylePropertyAnimationSystem_EqualityComparer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x714b1e0;
+  constexpr static std::size_t addrs = 0x714c2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ElementPropertyPair::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x714b168;
+  constexpr static std::size_t addrs = 0x714c248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -429,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_Values::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_Values::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x714b22c;
+  constexpr static std::size_t addrs = 0x714c30c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_Values*>(), { ".ctor", {}, {} })));
@@ -959,7 +959,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<float_t, float_t, bool>* (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x714b230;
+  constexpr static std::size_t addrs = 0x714c310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat*>(),
@@ -972,7 +972,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t, float_t)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::IsSame)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x714b238;
+  constexpr static std::size_t addrs = 0x714c318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat*>(),
@@ -985,7 +985,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t, ::by_ref<float_t>, float_t)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::Lerp)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x714b2cc;
+  constexpr static std::size_t addrs = 0x714c3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1000,7 +1000,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::UpdateValues)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x714b2e0;
+  constexpr static std::size_t addrs = 0x714c3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1014,7 +1014,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x714b360;
+  constexpr static std::size_t addrs = 0x714c440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1028,7 +1028,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x714b40c;
+  constexpr static std::size_t addrs = 0x714c4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1043,7 +1043,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFloat::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714b488;
+  constexpr static std::size_t addrs = 0x714c568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1110,7 +1110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<int32_t, int32_t, bool>* (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x714b524;
+  constexpr static std::size_t addrs = 0x714c604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt*>(),
@@ -1123,7 +1123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, int32_t)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::IsSame)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x714b52c;
+  constexpr static std::size_t addrs = 0x714c60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt*>(),
@@ -1136,7 +1136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t, float_t)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::Lerp)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x714b538;
+  constexpr static std::size_t addrs = 0x714c618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt*>(),
@@ -1150,7 +1150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::UpdateValues)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714b628;
+  constexpr static std::size_t addrs = 0x714c708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1164,7 +1164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x714b6c4;
+  constexpr static std::size_t addrs = 0x714c7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1178,7 +1178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x714b770;
+  constexpr static std::size_t addrs = 0x714c850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1192,7 +1192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesInt::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714b7ec;
+  constexpr static std::size_t addrs = 0x714c8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1257,7 +1257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* (
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x714b888;
+  constexpr static std::size_t addrs = 0x714c968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength*>(),
@@ -1271,7 +1271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::IsSame)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x714b890;
+  constexpr static std::size_t addrs = 0x714c970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1287,7 +1287,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::by_ref<::UnityEngine::UIElements::Length>, ::by_ref<::UnityEngine::UIElements::Length>)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::ConvertUnits)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x714b938;
+  constexpr static std::size_t addrs = 0x714ca18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1305,7 +1305,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Length (*)(::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::Lerp)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x714b960;
+  constexpr static std::size_t addrs = 0x714ca40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1321,7 +1321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::UpdateValues)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x714b99c;
+  constexpr static std::size_t addrs = 0x714ca7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1335,7 +1335,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x714ba50;
+  constexpr static std::size_t addrs = 0x714cb30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1349,7 +1349,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x714bafc;
+  constexpr static std::size_t addrs = 0x714cbdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1364,7 +1364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesLength::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714bb78;
+  constexpr static std::size_t addrs = 0x714cc58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1447,7 +1447,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x714bc14;
+  constexpr static std::size_t addrs = 0x714ccf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor*>(),
@@ -1460,7 +1460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Color, ::UnityEngine::Color)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::IsSame)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x714bc1c;
+  constexpr static std::size_t addrs = 0x714ccfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor*>(),
@@ -1474,7 +1474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, ::UnityEngine::Color, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::Lerp)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x714bd60;
+  constexpr static std::size_t addrs = 0x714ce40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1489,7 +1489,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::UpdateValues)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x714bd98;
+  constexpr static std::size_t addrs = 0x714ce78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1503,7 +1503,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x714be20;
+  constexpr static std::size_t addrs = 0x714cf00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1517,7 +1517,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x714bed8;
+  constexpr static std::size_t addrs = 0x714cfb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1532,7 +1532,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesColor::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714bf58;
+  constexpr static std::size_t addrs = 0x714d038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1643,7 +1643,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x714bff4;
+  constexpr static std::size_t addrs = 0x714d0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1657,7 +1657,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x714c0a0;
+  constexpr static std::size_t addrs = 0x714d180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1671,7 +1671,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesEnum::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x714c11c;
+  constexpr static std::size_t addrs = 0x714d1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1704,7 +1704,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackground::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackground::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x714c168;
+  constexpr static std::size_t addrs = 0x714d248;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1718,7 +1718,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackground::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackground::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x714c228;
+  constexpr static std::size_t addrs = 0x714d308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1733,7 +1733,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackground::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackground::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x714c2b8;
+  constexpr static std::size_t addrs = 0x714d398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1768,7 +1768,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFontDefinition::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFontDefinition::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x714c304;
+  constexpr static std::size_t addrs = 0x714d3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1782,7 +1782,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFontDefinition::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFontDefinition::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x714c3b4;
+  constexpr static std::size_t addrs = 0x714d494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFontDefinition*>(),
@@ -1796,7 +1796,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFontDefinition::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFontDefinition::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x714c430;
+  constexpr static std::size_t addrs = 0x714d510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1830,7 +1830,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFont::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFont::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x714c47c;
+  constexpr static std::size_t addrs = 0x714d55c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1844,7 +1844,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFont::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFont::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x714c528;
+  constexpr static std::size_t addrs = 0x714d608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1858,7 +1858,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFont::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesFont::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x714c5a4;
+  constexpr static std::size_t addrs = 0x714d684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1891,7 +1891,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* (
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x714c5f0;
+  constexpr static std::size_t addrs = 0x714d6d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow*>(),
@@ -1905,7 +1905,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::IsSame)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x714c5f8;
+  constexpr static std::size_t addrs = 0x714d6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1920,7 +1920,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextShadow (*)(::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::Lerp)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x714c63c;
+  constexpr static std::size_t addrs = 0x714d71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1936,7 +1936,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::UpdateValues)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x714c68c;
+  constexpr static std::size_t addrs = 0x714d76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1950,7 +1950,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x714c750;
+  constexpr static std::size_t addrs = 0x714d830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1964,7 +1964,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714c818;
+  constexpr static std::size_t addrs = 0x714d8f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1979,7 +1979,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTextShadow::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714c8b4;
+  constexpr static std::size_t addrs = 0x714d994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2053,7 +2053,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* (
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x714c950;
+  constexpr static std::size_t addrs = 0x714da30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale*>(),
@@ -2067,7 +2067,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::IsSame)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x714c958;
+  constexpr static std::size_t addrs = 0x714da38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2082,7 +2082,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x714c9ac;
+  constexpr static std::size_t addrs = 0x714da8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2096,7 +2096,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x714ca5c;
+  constexpr static std::size_t addrs = 0x714db3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2111,7 +2111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Scale (*)(::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::Lerp)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x714cad8;
+  constexpr static std::size_t addrs = 0x714dbb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2127,7 +2127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::UpdateValues)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x714cb30;
+  constexpr static std::size_t addrs = 0x714dc10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2141,7 +2141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesScale::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714cbec;
+  constexpr static std::size_t addrs = 0x714dccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2212,7 +2212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* (
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x714cc88;
+  constexpr static std::size_t addrs = 0x714dd68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate*>(),
@@ -2226,7 +2226,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::IsSame)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x714cc90;
+  constexpr static std::size_t addrs = 0x714dd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2241,7 +2241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x714ccd4;
+  constexpr static std::size_t addrs = 0x714ddb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2255,7 +2255,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714cd9c;
+  constexpr static std::size_t addrs = 0x714de7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2270,7 +2270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Rotate (*)(::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::Lerp)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x714ce38;
+  constexpr static std::size_t addrs = 0x714df18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2286,7 +2286,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::UpdateValues)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x714cfd4;
+  constexpr static std::size_t addrs = 0x714e0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2300,7 +2300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRotate::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714d0b0;
+  constexpr static std::size_t addrs = 0x714e190;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2372,7 +2372,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio, bool>* (
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x714d14c;
+  constexpr static std::size_t addrs = 0x714e22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio*>(),
@@ -2386,7 +2386,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::IsSame)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x714d154;
+  constexpr static std::size_t addrs = 0x714e234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2402,7 +2402,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::by_ref<::UnityEngine::UIElements::Ratio>, ::by_ref<::UnityEngine::UIElements::Ratio>)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::ConvertUnits)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x714d188;
+  constexpr static std::size_t addrs = 0x714e268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2420,7 +2420,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x714d414;
+  constexpr static std::size_t addrs = 0x714e4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2434,7 +2434,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x714d4c0;
+  constexpr static std::size_t addrs = 0x714e5a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2449,7 +2449,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Ratio (*)(::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::Lerp)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x714d53c;
+  constexpr static std::size_t addrs = 0x714e61c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2465,7 +2465,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::UpdateValues)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x714d54c;
+  constexpr static std::size_t addrs = 0x714e62c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2479,7 +2479,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesRatio::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714d5d4;
+  constexpr static std::size_t addrs = 0x714e6b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2561,7 +2561,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* (
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x714d670;
+  constexpr static std::size_t addrs = 0x714e750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate*>(),
@@ -2575,7 +2575,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::IsSame)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x714d678;
+  constexpr static std::size_t addrs = 0x714e758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2591,7 +2591,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::by_ref<::UnityEngine::UIElements::Translate>,
     ::by_ref<::UnityEngine::UIElements::Translate>)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::ConvertUnits)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x714d6f8;
+  constexpr static std::size_t addrs = 0x714e7d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2609,7 +2609,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x714d718;
+  constexpr static std::size_t addrs = 0x714e7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2623,7 +2623,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714d7e0;
+  constexpr static std::size_t addrs = 0x714e8c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2638,7 +2638,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::Translate (*)(::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::Lerp)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x714d87c;
+  constexpr static std::size_t addrs = 0x714e95c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2654,7 +2654,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::UpdateValues)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x714d8fc;
+  constexpr static std::size_t addrs = 0x714e9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2668,7 +2668,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTranslate::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714d9f0;
+  constexpr static std::size_t addrs = 0x714ead0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2753,7 +2753,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* (
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x714da8c;
+  constexpr static std::size_t addrs = 0x714eb6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin*>(),
@@ -2767,7 +2767,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::IsSame)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x714da94;
+  constexpr static std::size_t addrs = 0x714eb74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2783,7 +2783,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::by_ref<::UnityEngine::UIElements::TransformOrigin>,
     ::by_ref<::UnityEngine::UIElements::TransformOrigin>)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::ConvertUnits)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x714dafc;
+  constexpr static std::size_t addrs = 0x714ebdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2802,7 +2802,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x714db1c;
+  constexpr static std::size_t addrs = 0x714ebfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2816,7 +2816,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714dbe4;
+  constexpr static std::size_t addrs = 0x714ecc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin*>(),
@@ -2830,7 +2830,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TransformOrigin (*)(::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::Lerp)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x714dc80;
+  constexpr static std::size_t addrs = 0x714ed60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2847,7 +2847,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::UpdateValues)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x714dcfc;
+  constexpr static std::size_t addrs = 0x714eddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2861,7 +2861,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesTransformOrigin::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714ddec;
+  constexpr static std::size_t addrs = 0x714eecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2948,7 +2948,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundPosition::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundPosition::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x714de88;
+  constexpr static std::size_t addrs = 0x714ef68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2962,7 +2962,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundPosition::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundPosition::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x714df48;
+  constexpr static std::size_t addrs = 0x714f028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundPosition*>(),
@@ -2976,7 +2976,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundPosition::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundPosition::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x714dfcc;
+  constexpr static std::size_t addrs = 0x714f0ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3010,7 +3010,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundRepeat::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundRepeat::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x714e018;
+  constexpr static std::size_t addrs = 0x714f0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3024,7 +3024,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundRepeat::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundRepeat::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x714e0c4;
+  constexpr static std::size_t addrs = 0x714f1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundRepeat*>(),
@@ -3038,7 +3038,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundRepeat::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundRepeat::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x714e140;
+  constexpr static std::size_t addrs = 0x714f220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3072,7 +3072,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, bool>* (
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x714e18c;
+  constexpr static std::size_t addrs = 0x714f26c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize*>(),
@@ -3086,7 +3086,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::IsSame)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x714e194;
+  constexpr static std::size_t addrs = 0x714f274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3102,7 +3102,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::by_ref<::UnityEngine::UIElements::BackgroundSize>,
     ::by_ref<::UnityEngine::UIElements::BackgroundSize>)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::ConvertUnits)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x714e1f8;
+  constexpr static std::size_t addrs = 0x714f2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3120,7 +3120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x714e218;
+  constexpr static std::size_t addrs = 0x714f2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3134,7 +3134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714e2e0;
+  constexpr static std::size_t addrs = 0x714f3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize*>(),
@@ -3148,7 +3148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BackgroundSize (*)(::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::Lerp)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x714e37c;
+  constexpr static std::size_t addrs = 0x714f45c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3164,7 +3164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::UpdateValues)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x714e3cc;
+  constexpr static std::size_t addrs = 0x714f4ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3178,7 +3178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesBackgroundSize::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714e490;
+  constexpr static std::size_t addrs = 0x714f570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3265,7 +3265,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::Copy)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x714e52c;
+  constexpr static std::size_t addrs = 0x714f60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3281,7 +3281,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::System::Func_3<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, bool>* (
         ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x714e5a4;
+  constexpr static std::size_t addrs = 0x714f684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3297,7 +3297,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<bool (*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*)>(
         &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::IsSame)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x714e5ac;
+  constexpr static std::size_t addrs = 0x714f68c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3316,7 +3316,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>,
     ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::ConvertUnits)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x714e6bc;
+  constexpr static std::size_t addrs = 0x714f79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3335,7 +3335,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::FilterFunctionDefinition*, ::UnityEngine::UIElements::FilterFunctionDefinition*)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::AreFilterDefinitionsCompatible)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x714e854;
+  constexpr static std::size_t addrs = 0x714f934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3353,7 +3353,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x714e900;
+  constexpr static std::size_t addrs = 0x714f9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3367,7 +3367,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x714e9ac;
+  constexpr static std::size_t addrs = 0x714fa8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction*>(),
@@ -3381,7 +3381,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::FilterParameter (*)(::UnityEngine::UIElements::FilterParameter, ::UnityEngine::UIElements::FilterParameter, float_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::LerpFilterParameters)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x714ea28;
+  constexpr static std::size_t addrs = 0x714fb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3400,7 +3400,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*,
     ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>, float_t)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::Lerp)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x714eaf4;
+  constexpr static std::size_t addrs = 0x714fbd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3420,7 +3420,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*>,
     int32_t)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::GetFunctionOrDefault)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x714ee24;
+  constexpr static std::size_t addrs = 0x714ff04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3438,7 +3438,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::UpdateValues)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x714efd0;
+  constexpr static std::size_t addrs = 0x71500b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3452,7 +3452,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesListFilterFunction::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714f064;
+  constexpr static std::size_t addrs = 0x7150144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3590,7 +3590,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::MaterialDefinition (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::*)(
     ::UnityEngine::UIElements::MaterialDefinition)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::Copy)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x714f100;
+  constexpr static std::size_t addrs = 0x71501e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3605,7 +3605,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Func_3<::UnityEngine::UIElements::MaterialDefinition, ::UnityEngine::UIElements::MaterialDefinition, bool>* (
     ::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::*)()>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::get_SameFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x714f124;
+  constexpr static std::size_t addrs = 0x7150204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3620,7 +3620,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::MaterialDefinition, ::UnityEngine::UIElements::MaterialDefinition)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::IsSame)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x714f12c;
+  constexpr static std::size_t addrs = 0x715020c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3637,7 +3637,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::by_ref<::UnityEngine::UIElements::MaterialDefinition>,
     ::by_ref<::UnityEngine::UIElements::MaterialDefinition>)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::ConvertUnits)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x714f304;
+  constexpr static std::size_t addrs = 0x71503e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3656,7 +3656,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x714f558;
+  constexpr static std::size_t addrs = 0x7150638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3670,7 +3670,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::*)(int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::UpdateComputedStyle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x714f608;
+  constexpr static std::size_t addrs = 0x71506e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(),
@@ -3685,7 +3685,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::UIElements::MaterialPropertyValue (*)(::UnityEngine::UIElements::MaterialPropertyValue, ::UnityEngine::UIElements::MaterialPropertyValue, float_t)>(
         &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::LerpPropertyValues)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x714f684;
+  constexpr static std::size_t addrs = 0x7150764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition*>(),
@@ -3703,7 +3703,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::MaterialPropertyValue>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::MaterialPropertyValue>*, int32_t)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::GetValueOrDefault)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x714f77c;
+  constexpr static std::size_t addrs = 0x715085c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3722,7 +3722,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::UnityEngine::UIElements::MaterialDefinition, ::UnityEngine::UIElements::MaterialDefinition, ::by_ref<::UnityEngine::UIElements::MaterialDefinition>, float_t)>(
         &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::Lerp)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x714f8f0;
+  constexpr static std::size_t addrs = 0x71509d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3740,7 +3740,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::UpdateValues)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x714fc0c;
+  constexpr static std::size_t addrs = 0x7150cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3754,7 +3754,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem_ValuesMaterialDefinition::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x714fca4;
+  constexpr static std::size_t addrs = 0x7150d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3873,7 +3873,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x71497fc;
+  constexpr static std::size_t addrs = 0x714a8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
@@ -3888,7 +3888,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, float_t, float_t, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x7149904;
+  constexpr static std::size_t addrs = 0x714a9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3908,7 +3908,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, int32_t, int32_t, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x71499d4;
+  constexpr static std::size_t addrs = 0x714aab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3928,7 +3928,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x7149ab8;
+  constexpr static std::size_t addrs = 0x714ab98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3948,7 +3948,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::Color, ::UnityEngine::Color, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x7149b9c;
+  constexpr static std::size_t addrs = 0x714ac7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3968,7 +3968,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, int32_t, int32_t, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransitionEnum)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x7149cb4;
+  constexpr static std::size_t addrs = 0x714ad94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3988,7 +3988,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Background, ::UnityEngine::UIElements::Background, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x7149d98;
+  constexpr static std::size_t addrs = 0x714ae78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4008,7 +4008,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::FontDefinition, ::UnityEngine::UIElements::FontDefinition, int32_t,
     int32_t, ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x7149e8c;
+  constexpr static std::size_t addrs = 0x714af6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4028,7 +4028,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::Font*, ::UnityEngine::Font*, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x7149f7c;
+  constexpr static std::size_t addrs = 0x714b05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4048,7 +4048,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x714a060;
+  constexpr static std::size_t addrs = 0x714b140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4068,7 +4068,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x714a164;
+  constexpr static std::size_t addrs = 0x714b244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4088,7 +4088,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x714a254;
+  constexpr static std::size_t addrs = 0x714b334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4108,7 +4108,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x714a358;
+  constexpr static std::size_t addrs = 0x714b438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4128,7 +4128,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::Ratio, ::UnityEngine::UIElements::Ratio, int32_t, int32_t,
     ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x714a45c;
+  constexpr static std::size_t addrs = 0x714b53c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4148,7 +4148,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, int32_t,
     int32_t, ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x714a52c;
+  constexpr static std::size_t addrs = 0x714b60c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4168,7 +4168,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundPosition, ::UnityEngine::UIElements::BackgroundPosition,
     int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x714a630;
+  constexpr static std::size_t addrs = 0x714b710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4188,7 +4188,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundRepeat, ::UnityEngine::UIElements::BackgroundRepeat,
     int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x714a720;
+  constexpr static std::size_t addrs = 0x714b800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4208,7 +4208,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::BackgroundSize, int32_t,
     int32_t, ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x714a804;
+  constexpr static std::size_t addrs = 0x714b8e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4229,7 +4229,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FilterFunction>*, int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x714a908;
+  constexpr static std::size_t addrs = 0x714b9e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4250,7 +4250,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::MaterialDefinition, ::UnityEngine::UIElements::MaterialDefinition,
     int32_t, int32_t, ::System::Func_2<float_t, float_t>*)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::StartTransition)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x714a9ec;
+  constexpr static std::size_t addrs = 0x714bacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4269,7 +4269,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem::CancelAllAnimations)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x714aadc;
+  constexpr static std::size_t addrs = 0x714bbbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4283,7 +4283,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem::CancelAllAnimations)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x714abe8;
+  constexpr static std::size_t addrs = 0x714bcc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StylePropertyAnimationSystem*>(),
@@ -4297,7 +4297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::CancelAnimation)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x714ae24;
+  constexpr static std::size_t addrs = 0x714bf04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4313,7 +4313,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::UpdateAnimation)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x714aed0;
+  constexpr static std::size_t addrs = 0x714bfb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4330,7 +4330,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*)>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem::GetAllAnimations)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x714af7c;
+  constexpr static std::size_t addrs = 0x714c05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4348,7 +4348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)()>(
     &::UnityEngine::UIElements::StylePropertyAnimationSystem::CurrentTimeSeconds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x714b0a0;
+  constexpr static std::size_t addrs = 0x714c180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -4361,7 +4361,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StylePropertyAnimationSystem::*)(double_t)>(&::UnityEngine::UIElements::StylePropertyAnimationSystem::Update)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x714b0a8;
+  constexpr static std::size_t addrs = 0x714c188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::*)(int32_t)>(
     &::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f6e1dc;
+  constexpr static std::size_t addrs = 0x5f6e464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::*)()>(
     &::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f6f26c;
+  constexpr static std::size_t addrs = 0x5f6f4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::*)()>(
     &::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::MoveNext)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x5f6f288;
+  constexpr static std::size_t addrs = 0x5f6f510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Claims::ClaimsIdentity__get_Claims_d__51*>(), { "MoveNext", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::*)()>(
     &::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f6f67c;
+  constexpr static std::size_t addrs = 0x5f6f904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Claims::Claim* (::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::*)()>(
     &::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::System_Collections_Generic_IEnumerator_System_Security_Claims_Claim__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f6f730;
+  constexpr static std::size_t addrs = 0x5f6f9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Claims::ClaimsIdentity__get_Claims_d__51*>(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::*)()>(
     &::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5f6f738;
+  constexpr static std::size_t addrs = 0x5f6f9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::*)()>(
     &::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f6f770;
+  constexpr static std::size_t addrs = 0x5f6f9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>* (::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::*)()>(
         &::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::System_Collections_Generic_IEnumerable_System_Security_Claims_Claim__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5f6f778;
+  constexpr static std::size_t addrs = 0x5f6fa00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Claims::ClaimsIdentity__get_Claims_d__51*>(),
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::*)()>(
     &::System::Security::Claims::ClaimsIdentity__get_Claims_d__51::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f6f810;
+  constexpr static std::size_t addrs = 0x5f6fa98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity::*)()>(&::System::Security::Claims::ClaimsIdentity::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f677f8;
+  constexpr static std::size_t addrs = 0x5f67a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Claims::ClaimsIdentity*>(), { ".ctor", {}, {} })));
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity::*)(::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>*)>(
     &::System::Security::Claims::ClaimsIdentity::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f6cc90;
+  constexpr static std::size_t addrs = 0x5f6cf18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -341,7 +341,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security:
     ::System::Security::Principal::IIdentity*, ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>*, ::StringW, ::StringW, ::StringW)>(
     &::System::Security::Claims::ClaimsIdentity::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f6ccac;
+  constexpr static std::size_t addrs = 0x5f6cf34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Claims::ClaimsIdentity*>(),
@@ -360,7 +360,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security:
     ::System::Security::Principal::IIdentity*, ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>*, ::StringW, ::StringW, ::StringW, bool)>(
     &::System::Security::Claims::ClaimsIdentity::_ctor)> {
   constexpr static std::size_t size = 0x674;
-  constexpr static std::size_t addrs = 0x5f6ccb4;
+  constexpr static std::size_t addrs = 0x5f6cf3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity::*)(::System::Security::Claims::ClaimsIdentity*)>(
     &::System::Security::Claims::ClaimsIdentity::_ctor)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x5f6793c;
+  constexpr static std::size_t addrs = 0x5f67bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Security::Claims::ClaimsIdentity::_ctor)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5f6d844;
+  constexpr static std::size_t addrs = 0x5f6dacc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -408,7 +408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Claims::ClaimsIdentity::*)()>(&::System::Security::Claims::ClaimsIdentity::get_AuthenticationType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f6e14c;
+  constexpr static std::size_t addrs = 0x5f6e3d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Claims::ClaimsIdentity* (::System::Security::Claims::ClaimsIdentity::*)()>(
     &::System::Security::Claims::ClaimsIdentity::get_Actor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f6e154;
+  constexpr static std::size_t addrs = 0x5f6e3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Claims::ClaimsIdentity*>(), { "get_Actor", {}, {} })));
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity::*)(::System::Security::Claims::ClaimsIdentity*)>(
     &::System::Security::Claims::ClaimsIdentity::set_Actor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f6e15c;
+  constexpr static std::size_t addrs = 0x5f6e3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -450,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* (::System::Security::Claims::ClaimsIdentity::*)()>(
     &::System::Security::Claims::ClaimsIdentity::get_Claims)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f67b80;
+  constexpr static std::size_t addrs = 0x5f67e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -463,7 +463,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Claims::ClaimsIdentity::*)()>(&::System::Security::Claims::ClaimsIdentity::get_Name)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5f6e1fc;
+  constexpr static std::size_t addrs = 0x5f6e484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -476,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Claims::ClaimsIdentity::*)()>(&::System::Security::Claims::ClaimsIdentity::get_NameClaimType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f6e220;
+  constexpr static std::size_t addrs = 0x5f6e4a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Claims::ClaimsIdentity*>(), { "get_NameClaimType", {}, {} })));
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Claims::ClaimsIdentity* (::System::Security::Claims::ClaimsIdentity::*)()>(
     &::System::Security::Claims::ClaimsIdentity::Clone)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5f6c280;
+  constexpr static std::size_t addrs = 0x5f6c508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -503,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity::*)(::System::Security::Claims::Claim*)>(
     &::System::Security::Claims::ClaimsIdentity::AddClaim)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5f67c20;
+  constexpr static std::size_t addrs = 0x5f67ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -517,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity::*)(::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>*)>(
     &::System::Security::Claims::ClaimsIdentity::SafeAddClaims)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x5f6d368;
+  constexpr static std::size_t addrs = 0x5f6d5f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -532,7 +532,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity::*)(::System::Security::Claims::Claim*)>(
     &::System::Security::Claims::ClaimsIdentity::SafeAddClaim)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x5f6d714;
+  constexpr static std::size_t addrs = 0x5f6d99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -546,7 +546,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Claims::Claim* (::System::Security::Claims::ClaimsIdentity::*)(::StringW)>(
     &::System::Security::Claims::ClaimsIdentity::FindFirst)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x5f6e228;
+  constexpr static std::size_t addrs = 0x5f6e4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -560,7 +560,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Security::Claims::ClaimsIdentity::OnSerializingMethod)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5f6e560;
+  constexpr static std::size_t addrs = 0x5f6e7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Claims::ClaimsIdentity*>(),
@@ -574,7 +574,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Security::Claims::ClaimsIdentity::OnDeserializedMethod)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5f6e7f8;
+  constexpr static std::size_t addrs = 0x5f6ea80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Claims::ClaimsIdentity*>(),
@@ -588,7 +588,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Security::Claims::ClaimsIdentity::OnDeserializingMethod)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5f6ebe4;
+  constexpr static std::size_t addrs = 0x5f6ee6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Claims::ClaimsIdentity*>(),
@@ -602,7 +602,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Security::Claims::ClaimsIdentity::GetObjectData)> {
   constexpr static std::size_t size = 0x5a4;
-  constexpr static std::size_t addrs = 0x5f6ecc8;
+  constexpr static std::size_t addrs = 0x5f6ef50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -615,7 +615,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity::*)(::StringW)>(&::System::Security::Claims::ClaimsIdentity::DeserializeClaims)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x5f6e8c8;
+  constexpr static std::size_t addrs = 0x5f6eb50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -628,7 +628,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Claims::ClaimsIdentity::*)()>(&::System::Security::Claims::ClaimsIdentity::SerializeClaims)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x5f6e5c8;
+  constexpr static std::size_t addrs = 0x5f6e850;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Claims::ClaimsIdentity*>(), { "SerializeClaims", {}, {} })));
@@ -641,7 +641,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Claims::ClaimsIdentity::*)(::System::Security::Claims::ClaimsIdentity*)>(
     &::System::Security::Claims::ClaimsIdentity::IsCircular)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5f6d328;
+  constexpr static std::size_t addrs = 0x5f6d5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -656,7 +656,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Claims::ClaimsIdentity::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext, bool)>(&::System::Security::Claims::ClaimsIdentity::Deserialize)> {
   constexpr static std::size_t size = 0x778;
-  constexpr static std::size_t addrs = 0x5f6d9d4;
+  constexpr static std::size_t addrs = 0x5f6dc5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Claims::ClaimsIdentity*>(),

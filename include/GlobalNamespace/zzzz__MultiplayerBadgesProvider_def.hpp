@@ -57,13 +57,13 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerBadgesProvider___c* New_ctor();
 
-  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_0, addr 0x39e6248, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_0, addr 0x39eb2f0, size 0x28, virtual false, abstract: false, final false
   inline bool _SelectBadgesAndPutThemIntoResults_b__7_0(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
-  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_1, addr 0x39e6270, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_1, addr 0x39eb318, size 0x28, virtual false, abstract: false, final false
   inline int32_t _SelectBadgesAndPutThemIntoResults_b__7_1(::GlobalNamespace::MultiplayerPlayerResultsData* p);
 
-  /// @brief Method .ctor, addr 0x39e6244, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39eb2ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MultiplayerBadgesProvider___c* getStaticF___9();
@@ -93,7 +93,7 @@ public:
   MultiplayerBadgesProvider___c(MultiplayerBadgesProvider___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14552 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -122,7 +122,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerBadgesProvider* New_ctor();
 
-  /// @brief Method SelectBadgesAndPutThemIntoResults, addr 0x39e4f30, size 0x12bc, virtual false, abstract: false, final false
+  /// @brief Method SelectBadgesAndPutThemIntoResults, addr 0x39e9fd8, size 0x12bc, virtual false, abstract: false, final false
   inline void SelectBadgesAndPutThemIntoResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* playerResults);
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey() const;
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x39e61ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39eb294, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -161,7 +161,7 @@ public:
   MultiplayerBadgesProvider(MultiplayerBadgesProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14550 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14553 };
 
   /// @brief Field kMaxRandomMultiplierAmount offset 0xffffffff size 0x4
   static constexpr float_t kMaxRandomMultiplierAmount{ static_cast<float_t>(1.2f) };

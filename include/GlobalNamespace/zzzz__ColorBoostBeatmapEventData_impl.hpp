@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorBoostBeatmapEventData* (::GlobalNamespace::ColorBoostBeatmapEventData::*)()>(
     &::GlobalNamespace::ColorBoostBeatmapEventData::get_previousSameTypeEventData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x34f7950;
+  constexpr static std::size_t addrs = 0x34f9d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorBoostBeatmapEventData* (::GlobalNamespace::ColorBoostBeatmapEventData::*)()>(
     &::GlobalNamespace::ColorBoostBeatmapEventData::get_nextSameTypeEventData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x34f79cc;
+  constexpr static std::size_t addrs = 0x34f9dc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorBoostBeatmapEventData::*)(float_t, bool)>(&::GlobalNamespace::ColorBoostBeatmapEventData::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x34f7a48;
+  constexpr static std::size_t addrs = 0x34f9e40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::ColorBoostBeatmapEventData::*)()>(
     &::GlobalNamespace::ColorBoostBeatmapEventData::GetCopy)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x34f7a74;
+  constexpr static std::size_t addrs = 0x34f9e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,11 +65,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::ColorBoostBeatmapEventData::*)()>(
     &::GlobalNamespace::ColorBoostBeatmapEventData::GetDefault)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x34f7aec;
+  constexpr static std::size_t addrs = 0x34f9ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
-        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorBoostBeatmapEventData*>(), { ::i2c::class_of<::GlobalNamespace::ColorBoostBeatmapEventData*>(), 7 }));
+        ::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorBoostBeatmapEventData*>(), { ::i2c::class_of<::GlobalNamespace::ColorBoostBeatmapEventData*>(), 8 }));
     return ___internal_method;
   }
 };
@@ -113,7 +113,7 @@ inline ::GlobalNamespace::BeatmapDataItem* GlobalNamespace::ColorBoostBeatmapEve
 }
 inline ::GlobalNamespace::BeatmapEventData* GlobalNamespace::ColorBoostBeatmapEventData::GetDefault() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorBoostBeatmapEventData*>(), 7 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::ColorBoostBeatmapEventData*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapEventData*>(this, ___internal_method);
 }
 inline ::GlobalNamespace::ColorBoostBeatmapEventData* GlobalNamespace::ColorBoostBeatmapEventData::New_ctor(float_t time, bool boostColorsAreOn) {

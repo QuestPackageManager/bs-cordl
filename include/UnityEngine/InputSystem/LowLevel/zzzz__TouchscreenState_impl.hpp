@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(&::UnityEngine::InputSystem::LowLevel::TouchscreenState::get_Format)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a174c4;
+  constexpr static std::size_t addrs = 0x6a185a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::TouchscreenState>(), { "get_Format", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::LowLevel::TouchState* (::UnityEngine::InputSystem::LowLevel::TouchscreenState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchscreenState::get_primaryTouch)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6a174d0;
+  constexpr static std::size_t addrs = 0x6a185b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::TouchscreenState>(), { "get_primaryTouch", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::LowLevel::TouchState* (::UnityEngine::InputSystem::LowLevel::TouchscreenState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchscreenState::get_touches)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6a174d4;
+  constexpr static std::size_t addrs = 0x6a185b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::TouchscreenState>(), { "get_touches", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::TouchscreenState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchscreenState::get_format)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6a174dc;
+  constexpr static std::size_t addrs = 0x6a185bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::LowLevel::TouchscreenState>(), { "get_format", {}, {} })));

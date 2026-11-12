@@ -179,34 +179,34 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__0, addr 0x6bae4fc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__0, addr 0x6baf5dc, size 0x38, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__0();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__1, addr 0x6bae534, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__1, addr 0x6baf614, size 0x38, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__1();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__2, addr 0x6bae56c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__2, addr 0x6baf64c, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__2();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__3, addr 0x6bae62c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__3, addr 0x6baf70c, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__3();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__4, addr 0x6bae6ec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__4, addr 0x6baf7cc, size 0xac, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__4();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__5, addr 0x6bae798, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__5, addr 0x6baf878, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__5();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__6, addr 0x6bae840, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__6, addr 0x6baf920, size 0xac, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__6();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__7, addr 0x6bae8ec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__7, addr 0x6baf9cc, size 0xac, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__7();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__8, addr 0x6bae998, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__8, addr 0x6bafa78, size 0xac, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__8();
 
-  /// @brief Method <CreateHDROuputDisplayTable>b__9, addr 0x6baea44, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <CreateHDROuputDisplayTable>b__9, addr 0x6bafb24, size 0xac, virtual false, abstract: false, final false
   inline ::System::Object* _CreateHDROuputDisplayTable_b__9();
 
   constexpr ::UnityEngine::HDROutputSettings* const& __cordl_internal_get_d() const;
@@ -215,7 +215,7 @@ public:
 
   constexpr void __cordl_internal_set_d(::UnityEngine::HDROutputSettings* value);
 
-  /// @brief Method .ctor, addr 0x6bae2a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6baf384, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -257,12 +257,12 @@ public:
 
   using __c__DisplayClass1_0 = ::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0;
 
-  /// @brief Method CreateHDROuputDisplayTable, addr 0x6bad588, size 0xc74, virtual false, abstract: false, final false
+  /// @brief Method CreateHDROuputDisplayTable, addr 0x6bae668, size 0xc74, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::DebugUI_Table* CreateHDROuputDisplayTable();
 
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsHDROutput* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6bae300, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6baf3e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

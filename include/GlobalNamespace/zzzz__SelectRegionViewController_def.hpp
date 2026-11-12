@@ -57,10 +57,10 @@ public:
 
   static inline ::GlobalNamespace::SelectRegionViewController___c* New_ctor();
 
-  /// @brief Method <DidActivate>b__3_1, addr 0x5dbd88c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__3_1, addr 0x5dbd830, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _DidActivate_b__3_1(::GlobalNamespace::RegionToLocalizationKeyPair p);
 
-  /// @brief Method .ctor, addr 0x5dbd888, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dbd82c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::SelectRegionViewController___c* getStaticF___9();
@@ -113,19 +113,19 @@ public:
   /// @brief Field _regionSelectionDropdown, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__regionSelectionDropdown, put = __cordl_internal_set__regionSelectionDropdown)) ::UnityW<::HMUI::SimpleTextDropdown> _regionSelectionDropdown;
 
-  /// @brief Method DidActivate, addr 0x5dbd400, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5dbd3a4, size 0x248, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleRegionSelectionDropdownDidSelectCell, addr 0x5dbd730, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleRegionSelectionDropdownDidSelectCell, addr 0x5dbd6d4, size 0x44, virtual false, abstract: false, final false
   inline void HandleRegionSelectionDropdownDidSelectCell(::HMUI::DropdownWithTableView* dropdown, int32_t idx);
 
   static inline ::GlobalNamespace::SelectRegionViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5dbd648, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dbd5ec, size 0xe8, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   /// [CompilerGenerated]
-  /// @brief Method <DidActivate>b__3_0, addr 0x5dbd7b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__3_0, addr 0x5dbd75c, size 0x7c, virtual false, abstract: false, final false
   inline void _DidActivate_b__3_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
@@ -146,7 +146,7 @@ public:
 
   constexpr void __cordl_internal_set__regionSelectionDropdown(::UnityW<::HMUI::SimpleTextDropdown> value);
 
-  /// @brief Method .ctor, addr 0x5dbd774, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dbd718, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

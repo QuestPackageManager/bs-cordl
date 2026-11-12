@@ -24,10 +24,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE Locale : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetText, addr 0x5edd334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetText, addr 0x5edd5bc, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetText(::StringW fmt, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
-  /// @brief Method GetText, addr 0x5edd330, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetText, addr 0x5edd5b8, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetText(::StringW msg);
 
 protected:
@@ -45,7 +45,7 @@ public:
   Locale(Locale const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20003 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

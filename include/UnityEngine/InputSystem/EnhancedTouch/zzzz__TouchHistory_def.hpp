@@ -84,23 +84,23 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
-  /// @brief Method CheckValid, addr 0x6a12628, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CheckValid, addr 0x6a13708, size 0x94, virtual false, abstract: false, final false
   inline void CheckValid();
 
-  /// @brief Method GetEnumerator, addr 0x6a12464, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x6a13544, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6a124e4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6a135c4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method .ctor, addr 0x6a0f544, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a10624, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::EnhancedTouch::Finger* finger, ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>* history,
                     int32_t startIndex, int32_t count);
 
-  /// @brief Method get_Count, addr 0x6a124e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x6a135c8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x6a124f0, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x6a135d0, size 0x138, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::EnhancedTouch::Touch get_Item(int32_t index);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
@@ -192,18 +192,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x6a127a0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6a13880, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x6a126bc, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6a1379c, size 0x28, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory_Enumerator* New_ctor(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory owner);
 
-  /// @brief Method Reset, addr 0x6a126e4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x6a137c4, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6a12730, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6a13810, size 0x70, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr int32_t const& __cordl_internal_get_m_Index() const;
@@ -218,10 +218,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Owner(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory value);
 
-  /// @brief Method .ctor, addr 0x6a124d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a135b0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory owner);
 
-  /// @brief Method get_Current, addr 0x6a126f0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x6a137d0, size 0x40, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::EnhancedTouch::Touch get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"

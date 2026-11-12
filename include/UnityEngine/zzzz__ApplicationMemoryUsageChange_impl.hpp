@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ApplicationMemoryUsageChange::*)(::UnityEngine::ApplicationMemoryUsage)>(
     &::UnityEngine::ApplicationMemoryUsageChange::set_memoryUsage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ef8630;
+  constexpr static std::size_t addrs = 0x6ef9710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ApplicationMemoryUsageChange::*)(::UnityEngine::ApplicationMemoryUsage)>(
     &::UnityEngine::ApplicationMemoryUsageChange::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ef7140;
+  constexpr static std::size_t addrs = 0x6ef8220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

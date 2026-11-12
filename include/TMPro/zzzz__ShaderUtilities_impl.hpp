@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::TMPro::ShaderUtilities::get_ShaderRef_MobileSDF)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6de1c90;
+  constexpr static std::size_t addrs = 0x6de2d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::ShaderUtilities*>(), { "get_ShaderRef_MobileSDF", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::TMPro::ShaderUtilities::get_ShaderRef_MobileBitmap)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6de1d98;
+  constexpr static std::size_t addrs = 0x6de2e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::ShaderUtilities*>(), { "get_ShaderRef_MobileBitmap", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::TMPro::ShaderUtilities::GetShaderPropertyIDs)> {
   constexpr static std::size_t size = 0xdc4;
-  constexpr static std::size_t addrs = 0x6dd90f8;
+  constexpr static std::size_t addrs = 0x6dda1d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::ShaderUtilities*>(), { "GetShaderPropertyIDs", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Material*)>(&::TMPro::ShaderUtilities::UpdateShaderRatios)> {
   constexpr static std::size_t size = 0x42c;
-  constexpr static std::size_t addrs = 0x6de2020;
+  constexpr static std::size_t addrs = 0x6de3100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Material*)>(&::TMPro::ShaderUtilities::GetFontExtent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6de244c;
+  constexpr static std::size_t addrs = 0x6de352c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Material*)>(&::TMPro::ShaderUtilities::IsMaskingEnabled)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6de249c;
+  constexpr static std::size_t addrs = 0x6de357c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Material*, bool, bool)>(&::TMPro::ShaderUtilities::GetPadding)> {
   constexpr static std::size_t size = 0x79c;
-  constexpr static std::size_t addrs = 0x6de2638;
+  constexpr static std::size_t addrs = 0x6de3718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Material*)>(&::TMPro::ShaderUtilities::ComputePaddingForProperties)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x6de2dd4;
+  constexpr static std::size_t addrs = 0x6de3eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::ArrayW<::UnityEngine::Material*>, bool, bool)>(&::TMPro::ShaderUtilities::GetPadding)> {
   constexpr static std::size_t size = 0x838;
-  constexpr static std::size_t addrs = 0x6de30c8;
+  constexpr static std::size_t addrs = 0x6de41a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

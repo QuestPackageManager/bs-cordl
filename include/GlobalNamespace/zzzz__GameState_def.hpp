@@ -39,13 +39,16 @@ public:
 
   static inline ::GlobalNamespace::GameState* New_ctor(::GlobalNamespace::GameplayServerFiniteStateMachine* fsm);
 
+  /// @brief Method OnExit, addr 0x355cb74, size 0x4, virtual true, abstract: false, final false
+  inline void OnExit();
+
   constexpr ::GlobalNamespace::GameplayServerFiniteStateMachine* const& __cordl_internal_get_fsm() const;
 
   constexpr ::GlobalNamespace::GameplayServerFiniteStateMachine*& __cordl_internal_get_fsm();
 
   constexpr void __cordl_internal_set_fsm(::GlobalNamespace::GameplayServerFiniteStateMachine* value);
 
-  /// @brief Method .ctor, addr 0x3559af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355cb6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayServerFiniteStateMachine* fsm);
 
   /// @brief Convert to "::System::IDisposable"
@@ -66,7 +69,7 @@ public:
   GameState(GameState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19485 };
 
   /// @brief Field fsm, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::GameplayServerFiniteStateMachine* ___fsm;

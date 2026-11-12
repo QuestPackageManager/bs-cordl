@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Runtime::Remoting::RemotingConfiguration::get_ApplicationName)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f76e1c;
+  constexpr static std::size_t addrs = 0x5f770a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::RemotingConfiguration*>(), { "get_ApplicationName", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::System::Runtime::Remoting::RemotingConfiguration::set_ApplicationName)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5f76e78;
+  constexpr static std::size_t addrs = 0x5f77100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Runtime::Remoting::RemotingConfiguration::get_ProcessId)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5f76ed8;
+  constexpr static std::size_t addrs = 0x5f77160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::RemotingConfiguration*>(), { "get_ProcessId", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Runtime::Remoting::RemotingConfiguration::LoadDefaultDelayedChannels)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x5f76f84;
+  constexpr static std::size_t addrs = 0x5f7720c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*)>(&::System::Runtime::Remoting::RemotingConfiguration::IsActivationAllowed)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5f77344;
+  constexpr static std::size_t addrs = 0x5f775cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::ActivatedClientTypeEntry* (*)(::System::Type*)>(
     &::System::Runtime::Remoting::RemotingConfiguration::IsRemotelyActivatedClientType)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5f77484;
+  constexpr static std::size_t addrs = 0x5f7770c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::WellKnownClientTypeEntry* (*)(::System::Type*)>(
     &::System::Runtime::Remoting::RemotingConfiguration::IsWellKnownClientType)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5f77618;
+  constexpr static std::size_t addrs = 0x5f778a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Remoting::ActivatedClientTypeEntry*)>(
     &::System::Runtime::Remoting::RemotingConfiguration::RegisterActivatedClientType)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x5f777ac;
+  constexpr static std::size_t addrs = 0x5f77a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Remoting::ActivatedServiceTypeEntry*)>(
     &::System::Runtime::Remoting::RemotingConfiguration::RegisterActivatedServiceType)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5f77a28;
+  constexpr static std::size_t addrs = 0x5f77cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Remoting::WellKnownClientTypeEntry*)>(
     &::System::Runtime::Remoting::RemotingConfiguration::RegisterWellKnownClientType)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x5f77b68;
+  constexpr static std::size_t addrs = 0x5f77df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Remoting::WellKnownServiceTypeEntry*)>(
     &::System::Runtime::Remoting::RemotingConfiguration::RegisterWellKnownServiceType)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5f77de4;
+  constexpr static std::size_t addrs = 0x5f7806c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Remoting::ChannelData*)>(&::System::Runtime::Remoting::RemotingConfiguration::RegisterChannelTemplate)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f77f70;
+  constexpr static std::size_t addrs = 0x5f781f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::RemotingConfiguration*>(),
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Remoting::ProviderData*)>(&::System::Runtime::Remoting::RemotingConfiguration::RegisterClientProviderTemplate)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f77ff0;
+  constexpr static std::size_t addrs = 0x5f78278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Remoting::ProviderData*)>(&::System::Runtime::Remoting::RemotingConfiguration::RegisterServerProviderTemplate)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f78070;
+  constexpr static std::size_t addrs = 0x5f782f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::ArrayList*, bool)>(&::System::Runtime::Remoting::RemotingConfiguration::RegisterChannels)> {
   constexpr static std::size_t size = 0xc10;
-  constexpr static std::size_t addrs = 0x5f780f0;
+  constexpr static std::size_t addrs = 0x5f78378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Collections::ArrayList*)>(&::System::Runtime::Remoting::RemotingConfiguration::RegisterTypes)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x5f78d00;
+  constexpr static std::size_t addrs = 0x5f78f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(bool)>(&::System::Runtime::Remoting::RemotingConfiguration::CustomErrorsEnabled)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5f7920c;
+  constexpr static std::size_t addrs = 0x5f79494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::System::Runtime::Remoting::RemotingConfiguration::SetCustomErrorsMode)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x5f792a8;
+  constexpr static std::size_t addrs = 0x5f79530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

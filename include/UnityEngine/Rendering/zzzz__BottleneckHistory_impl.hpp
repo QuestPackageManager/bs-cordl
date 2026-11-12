@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BottleneckHistory::*)(int32_t)>(&::UnityEngine::Rendering::BottleneckHistory::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6bb4bdc;
+  constexpr static std::size_t addrs = 0x6bb5cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BottleneckHistory::*)(int32_t)>(&::UnityEngine::Rendering::BottleneckHistory::DiscardOldSamples)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6bb525c;
+  constexpr static std::size_t addrs = 0x6bb633c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BottleneckHistory::*)(::UnityEngine::Rendering::FrameTimeSample)>(
     &::UnityEngine::Rendering::BottleneckHistory::AddBottleneckFromAveragedSample)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6bb530c;
+  constexpr static std::size_t addrs = 0x6bb63ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BottleneckHistory::*)()>(&::UnityEngine::Rendering::BottleneckHistory::ComputeHistogram)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6bb53e8;
+  constexpr static std::size_t addrs = 0x6bb64c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BottleneckHistory*>(), { "ComputeHistogram", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::PerformanceBottleneck (*)(::UnityEngine::Rendering::FrameTimeSample)>(
     &::UnityEngine::Rendering::BottleneckHistory::DetermineBottleneck)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6bc20ac;
+  constexpr static std::size_t addrs = 0x6bc318c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BottleneckHistory*>(),
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::BottleneckHistory::*)()>(&::UnityEngine::Rendering::BottleneckHistory::Clear)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6bb6b00;
+  constexpr static std::size_t addrs = 0x6bb7be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::BottleneckHistory*>(), { "Clear", {}, {} })));

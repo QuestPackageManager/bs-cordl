@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (::UnityEngine::UIElements::RepaintData::*)()>(&::UnityEngine::UIElements::RepaintData::get_currentOffset)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x72a7a20;
+  constexpr static std::size_t addrs = 0x72a8b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RepaintData*>(), { "get_currentOffset", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::RepaintData::*)()>(&::UnityEngine::UIElements::RepaintData::get_currentWorldClip)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72a7a34;
+  constexpr static std::size_t addrs = 0x72a8b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RepaintData*>(), { "get_currentWorldClip", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Event* (::UnityEngine::UIElements::RepaintData::*)()>(&::UnityEngine::UIElements::RepaintData::get_repaintEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72a7a40;
+  constexpr static std::size_t addrs = 0x72a8b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RepaintData*>(), { "get_repaintEvent", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RepaintData::*)(::UnityEngine::Event*)>(&::UnityEngine::UIElements::RepaintData::set_repaintEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72a7a48;
+  constexpr static std::size_t addrs = 0x72a8b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::RepaintData::*)()>(&::UnityEngine::UIElements::RepaintData::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x72a7a50;
+  constexpr static std::size_t addrs = 0x72a8b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::RepaintData*>(), { ".ctor", {}, {} })));

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::_ctor)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6cf8bb8;
+  constexpr static std::size_t addrs = 0x6cf9c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::MotionVectorsPersistentData*>(), { ".ctor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_lastFrameIndex)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6cf8fdc;
+  constexpr static std::size_t addrs = 0x6cfa0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_viewProjection)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6cf9004;
+  constexpr static std::size_t addrs = 0x6cfa0e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_previousViewProjection)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6cf9038;
+  constexpr static std::size_t addrs = 0x6cfa118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Matrix4x4> (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_viewProjectionStereo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf906c;
+  constexpr static std::size_t addrs = 0x6cfa14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Matrix4x4> (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_previousViewProjectionStereo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf9074;
+  constexpr static std::size_t addrs = 0x6cfa154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Matrix4x4> (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_stagingMatrixStereo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf907c;
+  constexpr static std::size_t addrs = 0x6cfa15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Matrix4x4> (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_projectionStereo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf9084;
+  constexpr static std::size_t addrs = 0x6cfa164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Matrix4x4> (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_previousProjectionStereo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf908c;
+  constexpr static std::size_t addrs = 0x6cfa16c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Matrix4x4> (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_previousPreviousProjectionStereo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf9094;
+  constexpr static std::size_t addrs = 0x6cfa174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Matrix4x4> (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_viewStereo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf909c;
+  constexpr static std::size_t addrs = 0x6cfa17c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Matrix4x4> (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_previousViewStereo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf90a4;
+  constexpr static std::size_t addrs = 0x6cfa184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Matrix4x4> (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_previousPreviousViewStereo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf90ac;
+  constexpr static std::size_t addrs = 0x6cfa18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_deltaTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf90b4;
+  constexpr static std::size_t addrs = 0x6cfa194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_lastDeltaTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cf90bc;
+  constexpr static std::size_t addrs = 0x6cfa19c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_worldSpaceCameraPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6cf90c4;
+  constexpr static std::size_t addrs = 0x6cfa1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_previousWorldSpaceCameraPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6cf90d0;
+  constexpr static std::size_t addrs = 0x6cfa1b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::get_previousPreviousWorldSpaceCameraPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6cf90dc;
+  constexpr static std::size_t addrs = 0x6cfa1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)()>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::Reset)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x6cf8d0c;
+  constexpr static std::size_t addrs = 0x6cf9dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::MotionVectorsPersistentData*>(), { "Reset", {}, {} })));
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Experimental::Rendering::XRPass*)>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::GetXRMultiPassId)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6cf90e8;
+  constexpr static std::size_t addrs = 0x6cfa1c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::MotionVectorsPersistentData*>(),
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)(::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
     &::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::Update)> {
   constexpr static std::size_t size = 0x60c;
-  constexpr static std::size_t addrs = 0x6cf9118;
+  constexpr static std::size_t addrs = 0x6cfa1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::MotionVectorsPersistentData*>(),
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::*)(
     ::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Experimental::Rendering::XRPass*)>(&::UnityEngine::Rendering::Universal::MotionVectorsPersistentData::SetGlobalMotionMatrices)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x6cf9724;
+  constexpr static std::size_t addrs = 0x6cfa804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

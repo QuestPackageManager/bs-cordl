@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cff56c;
+  constexpr static std::size_t addrs = 0x6d0064c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData::*)()>(
     &::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cff570;
+  constexpr static std::size_t addrs = 0x6d00650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c::*)()>(
     &::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6cff5c8;
+  constexpr static std::size_t addrs = 0x6d006a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c*>(), { ".ctor", {}, {} })));
@@ -125,7 +125,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c::_RenderOffscreen_b__13_0)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6cff5cc;
+  constexpr static std::size_t addrs = 0x6d006ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c*>(),
@@ -143,7 +143,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
     &::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c::_RenderOffscreen_b__13_1)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6cff644;
+  constexpr static std::size_t addrs = 0x6d00724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c*>(),
@@ -161,7 +161,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c::_RenderOverlay_b__14_0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6cff73c;
+  constexpr static std::size_t addrs = 0x6d0081c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c*>(),
@@ -179,7 +179,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*)>(
     &::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c::_RenderOverlay_b__14_1)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6cff794;
+  constexpr static std::size_t addrs = 0x6d00874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c*>(),
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass::*)(::UnityEngine::Rendering::Universal::RenderPassEvent, bool)>(
     &::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6cfdd58;
+  constexpr static std::size_t addrs = 0x6cfee38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::RenderTextureDescriptor>, int32_t, int32_t)>(
     &::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass::ConfigureColorDescriptor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6cfddd0;
+  constexpr static std::size_t addrs = 0x6cfeeb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureDesc>)>(
     &::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass::ConfigureOffscreenUITextureDesc)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6cfde04;
+  constexpr static std::size_t addrs = 0x6cfeee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::RenderTextureDescriptor>, ::UnityEngine::Experimental::Rendering::GraphicsFormat, int32_t, int32_t)>(
     &::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass::ConfigureDepthDescriptor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x6cfde7c;
+  constexpr static std::size_t addrs = 0x6cfef5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*,
                                                                 ::UnityEngine::Rendering::RendererList)>(&::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass::ExecutePass)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6cfdebc;
+  constexpr static std::size_t addrs = 0x6cfef9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::UnsafeCommandBuffer*, ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*,
                                                                 ::UnityEngine::Rendering::RendererList)>(&::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass::ExecutePass)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6cfdef4;
+  constexpr static std::size_t addrs = 0x6cfefd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass*>(),
@@ -412,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass::*)()>(&::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass::Dispose)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6cfdf2c;
+  constexpr static std::size_t addrs = 0x6cff00c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass*>(), { "Dispose", {}, {} })));
@@ -425,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass::*)(
     ::UnityEngine::Rendering::Universal::UniversalCameraData*, ::UnityEngine::Experimental::Rendering::GraphicsFormat)>(&::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass::Setup)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6cfdf60;
+  constexpr static std::size_t addrs = 0x6cff040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -443,7 +443,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*, ::UnityEngine::Experimental::Rendering::GraphicsFormat,
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle)>(&::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass::RenderOffscreen)> {
   constexpr static std::size_t size = 0xb78;
-  constexpr static std::size_t addrs = 0x6cfe0c8;
+  constexpr static std::size_t addrs = 0x6cff1a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -463,7 +463,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*, ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>,
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const>)>(&::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass::RenderOverlay)> {
   constexpr static std::size_t size = 0x92c;
-  constexpr static std::size_t addrs = 0x6cfec40;
+  constexpr static std::size_t addrs = 0x6cffd20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

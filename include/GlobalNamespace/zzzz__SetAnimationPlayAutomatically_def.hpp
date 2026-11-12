@@ -32,18 +32,18 @@ public:
   __declspec(property(get = __cordl_internal_get__determinismConfig, put = __cordl_internal_set__determinismConfig)) ::GlobalNamespace::DeterminismConfig* _determinismConfig;
 
   /// [Inject]
-  /// @brief Method Init, addr 0x5de48a8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5de49b8, size 0x18c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::DeterminismConfig* determinismConfig);
 
   static inline ::GlobalNamespace::SetAnimationPlayAutomatically* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5de4a34, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5de4b44, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDeterminismSet, addr 0x5de4b04, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDeterminismSet, addr 0x5de4c14, size 0x20, virtual false, abstract: false, final false
   inline void OnDeterminismSet(bool isDeterministic);
 
-  /// @brief Method OnValidate, addr 0x5de4b24, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5de4c34, size 0x94, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animationToPlay() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__determinismConfig(::GlobalNamespace::DeterminismConfig* value);
 
-  /// @brief Method .ctor, addr 0x5de4bb8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de4cc8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

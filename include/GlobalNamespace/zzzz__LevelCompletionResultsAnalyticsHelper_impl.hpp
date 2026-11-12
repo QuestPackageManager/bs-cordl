@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::LevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(
     &::GlobalNamespace::LevelCompletionResultsAnalyticsHelper::FillEventData)> {
   constexpr static std::size_t size = 0xa2c;
-  constexpr static std::size_t addrs = 0x5cffac0;
+  constexpr static std::size_t addrs = 0x5cff2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapPracticeSettings* (*)(::GlobalNamespace::PracticeSettings*)>(
     &::GlobalNamespace::LevelCompletionResultsAnalyticsHelper::GetAnalyticsPracticeSettings)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5d004ec;
+  constexpr static std::size_t addrs = 0x5cffcf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelCompletionResultsAnalyticsHelper*>(),
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsGameplayModifiers* (*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::LevelCompletionResultsAnalyticsHelper::GetAnalyticsGameplayModifiers)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5d0055c;
+  constexpr static std::size_t addrs = 0x5cffd64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LevelCompletionResultsAnalyticsHelper*>(),
@@ -63,7 +63,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                                                           ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData*)>(
         &::GlobalNamespace::LevelCompletionResultsAnalyticsHelper::GetStandardBeatmapAttemptFinishGameplayEventData)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x5d00698;
+  constexpr static std::size_t addrs = 0x5cffea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
                                                                                               ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData*, bool, uint8_t)>(
     &::GlobalNamespace::LevelCompletionResultsAnalyticsHelper::GetBeatmapAttemptFinishGameplayEventDataForCampaign)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d00854;
+  constexpr static std::size_t addrs = 0x5d0005c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                                                           ::BeatSaber::Analytics::Gameplay::EventSenders::GameAnalyticsBeatmapLevelData*, ::StringW)>(
         &::GlobalNamespace::LevelCompletionResultsAnalyticsHelper::GetBeatmapAttemptFinishGameplayEventDataForMultiplayer)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d0088c;
+  constexpr static std::size_t addrs = 0x5d00094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

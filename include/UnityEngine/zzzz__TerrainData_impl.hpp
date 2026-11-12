@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::TerrainData_BoundaryValueType)>(&::UnityEngine::TerrainData::GetBoundaryValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x705578c;
+  constexpr static std::size_t addrs = 0x705686c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::TerrainData::*)()>(&::UnityEngine::TerrainData::get_heightmapTexture)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x70557c8;
+  constexpr static std::size_t addrs = 0x70568a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainData*>(), { "get_heightmapTexture", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TerrainData::*)()>(&::UnityEngine::TerrainData::get_heightmapResolution)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x705597c;
+  constexpr static std::size_t addrs = 0x7056a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainData*>(), { "get_heightmapResolution", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TerrainData::*)()>(&::UnityEngine::TerrainData::get_internalHeightmapResolution)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x7055980;
+  constexpr static std::size_t addrs = 0x7056a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainData*>(), { "get_internalHeightmapResolution", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::TerrainData::*)()>(&::UnityEngine::TerrainData::get_heightmapScale)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x7055a64;
+  constexpr static std::size_t addrs = 0x7056b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainData*>(), { "get_heightmapScale", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TerrainData::*)()>(&::UnityEngine::TerrainData::get_holesResolution)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7055b70;
+  constexpr static std::size_t addrs = 0x7056c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainData*>(), { "get_holesResolution", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::TerrainData::*)()>(&::UnityEngine::TerrainData::get_size)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x7055b84;
+  constexpr static std::size_t addrs = 0x7056c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainData*>(), { "get_size", {}, {} })));
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::UnityEngine::TerrainData::*)()>(&::UnityEngine::TerrainData::get_bounds)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x7055c90;
+  constexpr static std::size_t addrs = 0x7056d70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainData*>(), { "get_bounds", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::TerrainData::*)(int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::TerrainData::GetHeights)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x7055dac;
+  constexpr static std::size_t addrs = 0x7056e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::TerrainData::*)(int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::TerrainData::Internal_GetHeights)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x7055e74;
+  constexpr static std::size_t addrs = 0x7056f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::TerrainData::*)(int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::TerrainData::GetHoles)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x7055fb8;
+  constexpr static std::size_t addrs = 0x7057098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::TerrainData::*)(int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::TerrainData::Internal_GetHoles)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x7056088;
+  constexpr static std::size_t addrs = 0x7057168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::TreeInstance> (::UnityEngine::TerrainData::*)()>(&::UnityEngine::TerrainData::get_treeInstances)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x70561cc;
+  constexpr static std::size_t addrs = 0x70572ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainData*>(), { "get_treeInstances", {}, {} })));
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::TreeInstance> (::UnityEngine::TerrainData::*)()>(&::UnityEngine::TerrainData::Internal_GetTreeInstances)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x70561d0;
+  constexpr static std::size_t addrs = 0x70572b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainData*>(), { "Internal_GetTreeInstances", {}, {} })));
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::TreePrototype*> (::UnityEngine::TerrainData::*)()>(&::UnityEngine::TerrainData::get_treePrototypes)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x705639c;
+  constexpr static std::size_t addrs = 0x705747c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainData*>(), { "get_treePrototypes", {}, {} })));
@@ -221,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::TerrainData::*)()>(&::UnityEngine::TerrainData::GetAlphamapResolutionInternal)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x7056480;
+  constexpr static std::size_t addrs = 0x7057560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainData*>(), { "GetAlphamapResolutionInternal", {}, {} })));
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Terrain>> (::UnityEngine::TerrainData::*)()>(&::UnityEngine::TerrainData::get_users)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x70554c0;
+  constexpr static std::size_t addrs = 0x70565a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TerrainData*>(), { "get_users", {}, {} })));
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::TerrainData::get_heightmapTexture_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7055940;
+  constexpr static std::size_t addrs = 0x7056a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::TerrainData::get_internalHeightmapResolution_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7055a28;
+  constexpr static std::size_t addrs = 0x7056b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::TerrainData::get_heightmapScale_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7055b2c;
+  constexpr static std::size_t addrs = 0x7056c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::TerrainData::get_size_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7055c4c;
+  constexpr static std::size_t addrs = 0x7056d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bounds>)>(&::UnityEngine::TerrainData::get_bounds_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7055d68;
+  constexpr static std::size_t addrs = 0x7056e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::IntPtr, int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::TerrainData::Internal_GetHeights_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x7055f4c;
+  constexpr static std::size_t addrs = 0x705702c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::System::IntPtr, int32_t, int32_t, int32_t, int32_t)>(&::UnityEngine::TerrainData::Internal_GetHoles_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x7056160;
+  constexpr static std::size_t addrs = 0x7057240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(
     &::UnityEngine::TerrainData::Internal_GetTreeInstances_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7056358;
+  constexpr static std::size_t addrs = 0x7057438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -361,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::TreePrototype*> (*)(::System::IntPtr)>(&::UnityEngine::TerrainData::get_treePrototypes_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7056444;
+  constexpr static std::size_t addrs = 0x7057524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::TerrainData::GetAlphamapResolutionInternal_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7056528;
+  constexpr static std::size_t addrs = 0x7057608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -387,7 +387,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::Terrain>> (*)(::System::IntPtr)>(&::UnityEngine::TerrainData::get_users_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7056564;
+  constexpr static std::size_t addrs = 0x7057644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

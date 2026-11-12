@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Exp
     ::System::Linq::Expressions::Interpreter::LocalVariable*, int32_t, ::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*)>(
     &::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x640ca00;
+  constexpr static std::size_t addrs = 0x640d050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::LocalVariables_VariableScope*>(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Interpreter::LocalDefinition (::System::Linq::Expressions::Interpreter::LocalVariables::*)(
     ::System::Linq::Expressions::ParameterExpression*, int32_t)>(&::System::Linq::Expressions::Interpreter::LocalVariables::DefineLocal)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x640c7b4;
+  constexpr static std::size_t addrs = 0x640ce04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::LocalVariables::*)(::System::Linq::Expressions::Interpreter::LocalDefinition, int32_t)>(
     &::System::Linq::Expressions::Interpreter::LocalVariables::UndefineLocal)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x64074e8;
+  constexpr static std::size_t addrs = 0x6407b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::LocalVariables::*)(
     ::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::InstructionList*)>(&::System::Linq::Expressions::Interpreter::LocalVariables::Box)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x640ca10;
+  constexpr static std::size_t addrs = 0x640d060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LocalVariables::*)()>(
     &::System::Linq::Expressions::Interpreter::LocalVariables::get_LocalCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x640cb6c;
+  constexpr static std::size_t addrs = 0x640d1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Linq::Exp
                                                                                                                           ::by_ref<::System::Linq::Expressions::Interpreter::LocalVariable*>)>(
     &::System::Linq::Expressions::Interpreter::LocalVariables::TryGetLocalOrClosure)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x640cb74;
+  constexpr static std::size_t addrs = 0x640d1c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* (
         ::System::Linq::Expressions::Interpreter::LocalVariables::*)()>(&::System::Linq::Expressions::Interpreter::LocalVariables::get_ClosureVariables)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x640cc50;
+  constexpr static std::size_t addrs = 0x640d2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Interpreter::LocalVariable* (
     ::System::Linq::Expressions::Interpreter::LocalVariables::*)(::System::Linq::Expressions::ParameterExpression*)>(&::System::Linq::Expressions::Interpreter::LocalVariables::AddClosureVariable)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x640cc58;
+  constexpr static std::size_t addrs = 0x640d2a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::LocalVariables*>(),
@@ -220,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::LocalVariables::*)()>(&::System::Linq::Expressions::Interpreter::LocalVariables::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x640cda4;
+  constexpr static std::size_t addrs = 0x640d3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::LocalVariables*>(), { ".ctor", {}, {} })));

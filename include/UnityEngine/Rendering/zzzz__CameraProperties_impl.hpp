@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Plane (::UnityEngine::Rendering::CameraProperties::*)(int32_t)>(
     &::UnityEngine::Rendering::CameraProperties::GetShadowCullingPlane)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6fb9608;
+  constexpr static std::size_t addrs = 0x6fba6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Plane (::UnityEngine::Rendering::CameraProperties::*)(int32_t)>(
     &::UnityEngine::Rendering::CameraProperties::GetCameraCullingPlane)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6fb96d4;
+  constexpr static std::size_t addrs = 0x6fba7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::CameraProperties::*)(::UnityEngine::Rendering::CameraProperties)>(
     &::UnityEngine::Rendering::CameraProperties::Equals)> {
   constexpr static std::size_t size = 0x7a4;
-  constexpr static std::size_t addrs = 0x6fb97a0;
+  constexpr static std::size_t addrs = 0x6fba880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::CameraProperties::*)(::System::Object*)>(&::UnityEngine::Rendering::CameraProperties::Equals)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6fb9f44;
+  constexpr static std::size_t addrs = 0x6fbb024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::CameraProperties::*)()>(&::UnityEngine::Rendering::CameraProperties::GetHashCode)> {
   constexpr static std::size_t size = 0x618;
-  constexpr static std::size_t addrs = 0x6fba000;
+  constexpr static std::size_t addrs = 0x6fbb0e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

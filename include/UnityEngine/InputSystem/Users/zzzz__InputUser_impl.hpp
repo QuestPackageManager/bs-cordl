@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Users::InputUser_ControlSchemeChangeSyntax (
     ::UnityEngine::InputSystem::Users::InputUser_ControlSchemeChangeSyntax::*)()>(&::UnityEngine::InputSystem::Users::InputUser_ControlSchemeChangeSyntax::AndPairRemainingDevices)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69fa478;
+  constexpr static std::size_t addrs = 0x69fb558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::Users::InputUser_CompareDevicesByUserAccount::*)(
     ::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::Users::InputUser_CompareDevicesByUserAccount::Compare)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x69fa4e4;
+  constexpr static std::size_t addrs = 0x69fb5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle> (*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::Users::InputUser_CompareDevicesByUserAccount::GetUserAccountHandleForDevice)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69fa538;
+  constexpr static std::size_t addrs = 0x69fb618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser_CompareDevicesByUserAccount>(),
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUser::*)()>(&::UnityEngine::InputSystem::Users::InputUser::get_valid)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x69e664c;
+  constexpr static std::size_t addrs = 0x69e772c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "get_valid", {}, {} })));
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::Users::InputUser::*)()>(&::UnityEngine::InputSystem::Users::InputUser::get_index)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x69f4e7c;
+  constexpr static std::size_t addrs = 0x69f5f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "get_index", {}, {} })));
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::InputSystem::Users::InputUser::*)()>(&::UnityEngine::InputSystem::Users::InputUser::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f5064;
+  constexpr static std::size_t addrs = 0x69f6144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "get_id", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle> (::UnityEngine::InputSystem::Users::InputUser::*)()>(
     &::UnityEngine::InputSystem::Users::InputUser::get_platformUserAccountHandle)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x69f506c;
+  constexpr static std::size_t addrs = 0x69f614c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Users::InputUser::*)()>(&::UnityEngine::InputSystem::Users::InputUser::get_platformUserAccountName)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x69f5110;
+  constexpr static std::size_t addrs = 0x69f61f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Users::InputUser::*)()>(&::UnityEngine::InputSystem::Users::InputUser::get_platformUserAccountId)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x69f519c;
+  constexpr static std::size_t addrs = 0x69f627c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "get_platformUserAccountId", {}, {} })));
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*> (
     ::UnityEngine::InputSystem::Users::InputUser::*)()>(&::UnityEngine::InputSystem::Users::InputUser::get_pairedDevices)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x69e74b0;
+  constexpr static std::size_t addrs = 0x69e8590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "get_pairedDevices", {}, {} })));
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*> (
     ::UnityEngine::InputSystem::Users::InputUser::*)()>(&::UnityEngine::InputSystem::Users::InputUser::get_lostDevices)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x69f5228;
+  constexpr static std::size_t addrs = 0x69f6308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "get_lostDevices", {}, {} })));
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::IInputActionCollection* (::UnityEngine::InputSystem::Users::InputUser::*)()>(
     &::UnityEngine::InputSystem::Users::InputUser::get_actions)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x69f52d4;
+  constexpr static std::size_t addrs = 0x69f63b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "get_actions", {}, {} })));
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::InputControlScheme> (::UnityEngine::InputSystem::Users::InputUser::*)()>(
     &::UnityEngine::InputSystem::Users::InputUser::get_controlScheme)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x69e6720;
+  constexpr static std::size_t addrs = 0x69e7800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "get_controlScheme", {}, {} })));
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputControlScheme_MatchResult (::UnityEngine::InputSystem::Users::InputUser::*)()>(
     &::UnityEngine::InputSystem::Users::InputUser::get_controlSchemeMatch)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x69f5360;
+  constexpr static std::size_t addrs = 0x69f6440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "get_controlSchemeMatch", {}, {} })));
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUser::*)()>(&::UnityEngine::InputSystem::Users::InputUser::get_hasMissingRequiredDevices)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x69e75f8;
+  constexpr static std::size_t addrs = 0x69e86d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Users::InputUser> (*)()>(
     &::UnityEngine::InputSystem::Users::InputUser::get_all)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x69f5400;
+  constexpr static std::size_t addrs = 0x69f64e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "get_all", {}, {} })));
@@ -331,7 +331,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::System::Action_3<::UnityEngine::InputSystem::Users::InputUser, ::UnityEngine::InputSystem::Users::InputUserChange, ::UnityEngine::InputSystem::InputDevice*>*)>(
         &::UnityEngine::InputSystem::Users::InputUser::add_onChange)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x69eb0e0;
+  constexpr static std::size_t addrs = 0x69ec1c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (*)(::System::Action_3<::UnityEngine::InputSystem::Users::InputUser, ::UnityEngine::InputSystem::Users::InputUserChange, ::UnityEngine::InputSystem::InputDevice*>*)>(
         &::UnityEngine::InputSystem::Users::InputUser::remove_onChange)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x69ebd70;
+  constexpr static std::size_t addrs = 0x69ece50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*)>(
     &::UnityEngine::InputSystem::Users::InputUser::add_onUnpairedDeviceUsed)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x69eb500;
+  constexpr static std::size_t addrs = 0x69ec5e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*)>(
     &::UnityEngine::InputSystem::Users::InputUser::remove_onUnpairedDeviceUsed)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x69eb840;
+  constexpr static std::size_t addrs = 0x69ec920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Func_3<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>*)>(
     &::UnityEngine::InputSystem::Users::InputUser::add_onPrefilterUnpairedDeviceActivity)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x69eb5fc;
+  constexpr static std::size_t addrs = 0x69ec6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -419,7 +419,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Func_3<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>*)>(
     &::UnityEngine::InputSystem::Users::InputUser::remove_onPrefilterUnpairedDeviceActivity)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x69eb94c;
+  constexpr static std::size_t addrs = 0x69eca2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -435,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::InputSystem::Users::InputUser::get_listenForUnpairedDeviceActivity)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69eb6c8;
+  constexpr static std::size_t addrs = 0x69ec7a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -448,7 +448,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::InputSystem::Users::InputUser::set_listenForUnpairedDeviceActivity)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x69eb724;
+  constexpr static std::size_t addrs = 0x69ec804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -461,7 +461,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputSystem::Users::InputUser::*)()>(&::UnityEngine::InputSystem::Users::InputUser::ToString)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x69f567c;
+  constexpr static std::size_t addrs = 0x69f675c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -475,7 +475,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUser::*)(::UnityEngine::InputSystem::IInputActionCollection*)>(
     &::UnityEngine::InputSystem::Users::InputUser::AssociateActionsWithUser)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x69ea1fc;
+  constexpr static std::size_t addrs = 0x69eb2dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -490,7 +490,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Users::InputUser_ControlSchemeChangeSyntax (::UnityEngine::InputSystem::Users::InputUser::*)(::StringW)>(
     &::UnityEngine::InputSystem::Users::InputUser::ActivateControlScheme)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x69ea96c;
+  constexpr static std::size_t addrs = 0x69eba4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -504,7 +504,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUser::*)(::StringW, ::by_ref<::UnityEngine::InputSystem::InputControlScheme>)>(
     &::UnityEngine::InputSystem::Users::InputUser::TryFindControlScheme)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x69f5ed4;
+  constexpr static std::size_t addrs = 0x69f6fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -519,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUser::*)(::StringW, ::by_ref<::UnityEngine::InputSystem::InputControlScheme>)>(
     &::UnityEngine::InputSystem::Users::InputUser::FindControlScheme)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x69e89d0;
+  constexpr static std::size_t addrs = 0x69e9ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -534,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Users::InputUser_ControlSchemeChangeSyntax (::UnityEngine::InputSystem::Users::InputUser::*)(
     ::UnityEngine::InputSystem::InputControlScheme)>(&::UnityEngine::InputSystem::Users::InputUser::ActivateControlScheme)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x69ea764;
+  constexpr static std::size_t addrs = 0x69eb844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(),
@@ -548,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUser::*)(int32_t, ::UnityEngine::InputSystem::InputControlScheme)>(
     &::UnityEngine::InputSystem::Users::InputUser::ActivateControlSchemeInternal)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x69f5a98;
+  constexpr static std::size_t addrs = 0x69f6b78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -563,7 +563,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUser::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::Users::InputUser::UnpairDevice)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x69ecd9c;
+  constexpr static std::size_t addrs = 0x69ede7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -577,7 +577,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUser::*)()>(&::UnityEngine::InputSystem::Users::InputUser::UnpairDevices)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x69e98ec;
+  constexpr static std::size_t addrs = 0x69ea9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "UnpairDevices", {}, {} })));
@@ -589,7 +589,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::InputSystem::Users::InputUser::RemoveLostDevicesForUser)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x69f6d74;
+  constexpr static std::size_t addrs = 0x69f7e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -602,7 +602,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUser::*)()>(&::UnityEngine::InputSystem::Users::InputUser::UnpairDevicesAndRemoveUser)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x69ea678;
+  constexpr static std::size_t addrs = 0x69eb758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "UnpairDevicesAndRemoveUser", {}, {} })));
@@ -615,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputDevice*> (*)()>(
     &::UnityEngine::InputSystem::Users::InputUser::GetUnpairedInputDevices)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x69ea058;
+  constexpr static std::size_t addrs = 0x69eb138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "GetUnpairedInputDevices", {}, {} })));
@@ -628,7 +628,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::by_ref<::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputDevice*>>)>(
     &::UnityEngine::InputSystem::Users::InputUser::GetUnpairedInputDevices)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x69f7898;
+  constexpr static std::size_t addrs = 0x69f8978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -644,7 +644,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUser> (*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::Users::InputUser::FindUserPairedToDevice)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x69f7ab4;
+  constexpr static std::size_t addrs = 0x69f8b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(),
@@ -658,7 +658,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUser> (*)(::UnityEngine::InputSystem::Users::InputUserAccountHandle)>(
     &::UnityEngine::InputSystem::Users::InputUser::FindUserByAccount)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x69f7d20;
+  constexpr static std::size_t addrs = 0x69f8e00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -672,7 +672,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Users::InputUser (*)()>(&::UnityEngine::InputSystem::Users::InputUser::CreateUserWithoutPairedDevices)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x69ea6e4;
+  constexpr static std::size_t addrs = 0x69eb7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -687,7 +687,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSyste
                                                                                                         ::UnityEngine::InputSystem::Users::InputUserPairingOptions)>(
     &::UnityEngine::InputSystem::Users::InputUser::PerformPairingWithDevice)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x69e9b88;
+  constexpr static std::size_t addrs = 0x69eac68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -705,7 +705,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, ::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::Users::InputUserPairingOptions)>(
     &::UnityEngine::InputSystem::Users::InputUser::InitiateUserAccountSelection)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x69f8094;
+  constexpr static std::size_t addrs = 0x69f9174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -723,7 +723,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUser::*)(::UnityEngine::InputSystem::Users::InputUser)>(
     &::UnityEngine::InputSystem::Users::InputUser::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x69f8eb0;
+  constexpr static std::size_t addrs = 0x69f9f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -737,7 +737,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputSystem::Users::InputUser::*)(::System::Object*)>(&::UnityEngine::InputSystem::Users::InputUser::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x69f8ec0;
+  constexpr static std::size_t addrs = 0x69f9fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -750,7 +750,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::InputSystem::Users::InputUser::*)()>(&::UnityEngine::InputSystem::Users::InputUser::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69f8f70;
+  constexpr static std::size_t addrs = 0x69fa050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -764,7 +764,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::InputSystem::Users::InputUser, ::UnityEngine::InputSystem::Users::InputUser)>(
     &::UnityEngine::InputSystem::Users::InputUser::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69ec438;
+  constexpr static std::size_t addrs = 0x69ed518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -780,7 +780,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::InputSystem::Users::InputUser, ::UnityEngine::InputSystem::Users::InputUser)>(
     &::UnityEngine::InputSystem::Users::InputUser::op_Inequality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69f8088;
+  constexpr static std::size_t addrs = 0x69f9168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -795,7 +795,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngine::InputSystem::Users::InputUser::AddUser)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x69f7f90;
+  constexpr static std::size_t addrs = 0x69f9070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "AddUser", {}, {} })));
@@ -807,7 +807,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::UnityEngine::InputSystem::Users::InputUser::RemoveUser)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x69f7510;
+  constexpr static std::size_t addrs = 0x69f85f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -821,7 +821,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::UnityEngine::InputSystem::Users::InputUserChange, ::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::Users::InputUser::Notify)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x69f617c;
+  constexpr static std::size_t addrs = 0x69f725c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -837,7 +837,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(uint32_t)>(&::UnityEngine::InputSystem::Users::InputUser::TryFindUserIndex)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x69f4fa8;
+  constexpr static std::size_t addrs = 0x69f6088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -850,7 +850,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::InputSystem::Users::InputUserAccountHandle)>(&::UnityEngine::InputSystem::Users::InputUser::TryFindUserIndex)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x69f7e74;
+  constexpr static std::size_t addrs = 0x69f8f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -864,7 +864,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::Users::InputUser::TryFindUserIndex)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x69f7bc8;
+  constexpr static std::size_t addrs = 0x69f8ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -878,7 +878,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::UnityEngine::InputSystem::InputDevice*, bool, bool)>(&::UnityEngine::InputSystem::Users::InputUser::AddDeviceToUser)> {
   constexpr static std::size_t size = 0x630;
-  constexpr static std::size_t addrs = 0x69f81e4;
+  constexpr static std::size_t addrs = 0x69f92c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -893,7 +893,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::UnityEngine::InputSystem::InputDevice*, bool)>(&::UnityEngine::InputSystem::Users::InputUser::RemoveDeviceFromUser)> {
   constexpr static std::size_t size = 0x5dc;
-  constexpr static std::size_t addrs = 0x69f6f34;
+  constexpr static std::size_t addrs = 0x69f8014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -907,7 +907,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, bool)>(&::UnityEngine::InputSystem::Users::InputUser::UpdateControlSchemeMatch)> {
   constexpr static std::size_t size = 0x8e8;
-  constexpr static std::size_t addrs = 0x69f648c;
+  constexpr static std::size_t addrs = 0x69f756c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -921,7 +921,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int32_t, ::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::Users::InputUser::UpdatePlatformUserAccount)> {
   constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x69f8814;
+  constexpr static std::size_t addrs = 0x69f98f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -936,7 +936,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(::UnityEngine::InputSystem::InputDevice*, ::by_ref<::System::Nullable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>>,
                                                                    ::by_ref<::StringW>, ::by_ref<::StringW>)>(&::UnityEngine::InputSystem::Users::InputUser::QueryPairedPlatformUserAccount)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x69f912c;
+  constexpr static std::size_t addrs = 0x69fa20c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -955,7 +955,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::Users::InputUser::InitiateUserAccountSelectionAtPlatformLevel)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x69f8ca4;
+  constexpr static std::size_t addrs = 0x69f9d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -969,7 +969,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, ::UnityEngine::InputSystem::InputActionChange)>(&::UnityEngine::InputSystem::Users::InputUser::OnActionChange)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x69f92cc;
+  constexpr static std::size_t addrs = 0x69fa3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -984,7 +984,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange)>(
     &::UnityEngine::InputSystem::Users::InputUser::OnDeviceChange)> {
   constexpr static std::size_t size = 0x65c;
-  constexpr static std::size_t addrs = 0x69f93bc;
+  constexpr static std::size_t addrs = 0x69fa49c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -999,7 +999,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::InputSystem::InputDevice*, int32_t)>(&::UnityEngine::InputSystem::Users::InputUser::FindLostDevice)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x69f9a18;
+  constexpr static std::size_t addrs = 0x69faaf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1014,7 +1014,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::Users::InputUser::OnEvent)> {
   constexpr static std::size_t size = 0x564;
-  constexpr static std::size_t addrs = 0x69f9af4;
+  constexpr static std::size_t addrs = 0x69fabd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1029,7 +1029,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Utilities::ISavedState* (*)()>(&::UnityEngine::InputSystem::Users::InputUser::SaveAndResetState)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x69fa058;
+  constexpr static std::size_t addrs = 0x69fb138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "SaveAndResetState", {}, {} })));
@@ -1041,7 +1041,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::Users::InputUser::HookIntoActionChange)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x69f5940;
+  constexpr static std::size_t addrs = 0x69f6a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "HookIntoActionChange", {}, {} })));
@@ -1053,7 +1053,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::Users::InputUser::UnhookFromActionChange)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x69f9030;
+  constexpr static std::size_t addrs = 0x69fa110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "UnhookFromActionChange", {}, {} })));
@@ -1065,7 +1065,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::Users::InputUser::HookIntoDeviceChange)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x69f8d70;
+  constexpr static std::size_t addrs = 0x69f9e50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "HookIntoDeviceChange", {}, {} })));
@@ -1077,7 +1077,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::Users::InputUser::UnhookFromDeviceChange)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x69f8f78;
+  constexpr static std::size_t addrs = 0x69fa058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "UnhookFromDeviceChange", {}, {} })));
@@ -1089,7 +1089,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::Users::InputUser::HookIntoEvents)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x69f5478;
+  constexpr static std::size_t addrs = 0x69f6558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "HookIntoEvents", {}, {} })));
@@ -1101,7 +1101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::Users::InputUser::UnhookFromDeviceStateChange)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x69f55bc;
+  constexpr static std::size_t addrs = 0x69f669c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1114,7 +1114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::Users::InputUser::DisposeAndResetGlobalState)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x69fa26c;
+  constexpr static std::size_t addrs = 0x69fb34c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "DisposeAndResetGlobalState", {}, {} })));
@@ -1126,7 +1126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::InputSystem::Users::InputUser::ResetGlobals)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69fa360;
+  constexpr static std::size_t addrs = 0x69fb440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser>(), { "ResetGlobals", {}, {} })));
@@ -1629,7 +1629,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUser___c::*)()>(&::UnityEngine::InputSystem::Users::InputUser___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69fa5c4;
+  constexpr static std::size_t addrs = 0x69fb6a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::Users::InputUser___c*>(), { ".ctor", {}, {} })));
@@ -1642,7 +1642,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUser___c::*)(::by_ref<::UnityEngine::InputSystem::Users::InputUser_GlobalState>)>(
     &::UnityEngine::InputSystem::Users::InputUser___c::_SaveAndResetState_b__88_0)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x69fa5c8;
+  constexpr static std::size_t addrs = 0x69fb6a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1656,7 +1656,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::Users::InputUser___c::*)()>(&::UnityEngine::InputSystem::Users::InputUser___c::_SaveAndResetState_b__88_1)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x69fa654;
+  constexpr static std::size_t addrs = 0x69fb734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

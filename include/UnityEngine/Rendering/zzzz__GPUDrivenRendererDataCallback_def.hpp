@@ -37,13 +37,13 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE GPUDrivenRendererDataCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x6fc5cec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6fc6dcc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupData const> rendererData,
                      ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Mesh>>* meshes, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
 
   static inline ::UnityEngine::Rendering::GPUDrivenRendererDataCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x6fc5c6c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fc6d4c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

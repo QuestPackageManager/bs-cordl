@@ -56,36 +56,36 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Container, put = __cordl_internal_set_m_Container)) ::System::Collections::Generic::Dictionary_2<
       ::StringW, ::System::Collections::Generic::Dictionary_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_DebugData*>*>* m_Container;
 
-  /// @brief Method AddExecution, addr 0x6c3df3c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method AddExecution, addr 0x6c3f01c, size 0x140, virtual false, abstract: false, final false
   inline bool AddExecution(::StringW graphName, ::UnityEngine::EntityId executionId, ::StringW executionName);
 
-  /// @brief Method AddGraph, addr 0x6c3dc48, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method AddGraph, addr 0x6c3ed28, size 0x12c, virtual false, abstract: false, final false
   inline bool AddGraph(::StringW graphName);
 
-  /// @brief Method Clear, addr 0x6c3e1b4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6c3f294, size 0x54, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method DeleteExecutionIds, addr 0x6c3f150, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method DeleteExecutionIds, addr 0x6c40230, size 0x16c, virtual false, abstract: false, final false
   inline void DeleteExecutionIds(::StringW renderGraph, ::System::Collections::Generic::List_1<::UnityEngine::EntityId>* executionIds);
 
-  /// @brief Method GetDebugData, addr 0x6c3efa0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetDebugData, addr 0x6c40080, size 0xdc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_DebugData* GetDebugData(::StringW renderGraph, ::UnityEngine::EntityId executionId);
 
-  /// @brief Method GetExecutions, addr 0x6c3ec74, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method GetExecutions, addr 0x6c3fd54, size 0x32c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_DebugExecutionItem*>* GetExecutions(::StringW graphName);
 
-  /// @brief Method GetRenderGraphs, addr 0x6c3eaec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetRenderGraphs, addr 0x6c3fbcc, size 0xac, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* GetRenderGraphs();
 
-  /// @brief Method Invalidate, addr 0x6c3e21c, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method Invalidate, addr 0x6c3f2fc, size 0x31c, virtual false, abstract: false, final false
   inline void Invalidate();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugSession_DebugDataContainer* New_ctor();
 
-  /// @brief Method RemoveGraph, addr 0x6c3de18, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RemoveGraph, addr 0x6c3eef8, size 0x64, virtual false, abstract: false, final false
   inline bool RemoveGraph(::StringW graphName);
 
-  /// @brief Method SetDebugData, addr 0x6c3f07c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetDebugData, addr 0x6c4015c, size 0xd4, virtual false, abstract: false, final false
   inline void SetDebugData(::StringW renderGraph, ::UnityEngine::EntityId executionId, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_DebugData* data);
 
   constexpr ::System::Collections::Generic::Dictionary_2<
@@ -100,7 +100,7 @@ public:
       ::System::Collections::Generic::Dictionary_2<::StringW,
                                                    ::System::Collections::Generic::Dictionary_2<::UnityEngine::EntityId, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_DebugData*>*>* value);
 
-  /// @brief Method .ctor, addr 0x6c3db0c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c3ebec, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -174,42 +174,42 @@ public:
     requires(::cordl_internals::default_constructor_constraint<TSession>)
   static inline void Create();
 
-  /// @brief Method DeleteExecutionIds, addr 0x6c3a9a0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method DeleteExecutionIds, addr 0x6c3ba80, size 0xb4, virtual false, abstract: false, final false
   static inline void DeleteExecutionIds(::StringW renderGraph, ::System::Collections::Generic::List_1<::UnityEngine::EntityId>* executionIds);
 
-  /// @brief Method Dispose, addr 0x6c3e07c, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c3f15c, size 0x138, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method EndSession, addr 0x6c3e97c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method EndSession, addr 0x6c3fa5c, size 0x9c, virtual false, abstract: false, final false
   static inline void EndSession();
 
-  /// @brief Method GetDebugData, addr 0x6c3aa54, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetDebugData, addr 0x6c3bb34, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_DebugData* GetDebugData(::StringW renderGraph, ::UnityEngine::EntityId executionId);
 
-  /// @brief Method GetExecutions, addr 0x6c3eb98, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetExecutions, addr 0x6c3fc78, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_DebugExecutionItem*>* GetExecutions(::StringW graphName);
 
-  /// @brief Method GetRegisteredGraphs, addr 0x6c3ea18, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetRegisteredGraphs, addr 0x6c3faf8, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetRegisteredGraphs();
 
-  /// @brief Method InvalidateData, addr 0x6c3e208, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method InvalidateData, addr 0x6c3f2e8, size 0x14, virtual false, abstract: false, final false
   inline void InvalidateData();
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugSession* New_ctor();
 
-  /// @brief Method RegisterAllLocallyKnownGraphsAndExecutions, addr 0x6c3f2bc, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method RegisterAllLocallyKnownGraphsAndExecutions, addr 0x6c4039c, size 0x368, virtual false, abstract: false, final false
   inline void RegisterAllLocallyKnownGraphsAndExecutions();
 
-  /// @brief Method RegisterExecution, addr 0x6c3de7c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RegisterExecution, addr 0x6c3ef5c, size 0xc0, virtual false, abstract: false, final false
   inline void RegisterExecution(::StringW graphName, ::UnityEngine::EntityId executionId, ::StringW executionName);
 
-  /// @brief Method RegisterGraph, addr 0x6c3dba4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RegisterGraph, addr 0x6c3ec84, size 0xa4, virtual false, abstract: false, final false
   inline void RegisterGraph(::StringW graphName);
 
-  /// @brief Method SetDebugData, addr 0x6c3bbbc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetDebugData, addr 0x6c3cc9c, size 0xc4, virtual false, abstract: false, final false
   static inline void SetDebugData(::StringW renderGraph, ::UnityEngine::EntityId executionId, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph_DebugData* data);
 
-  /// @brief Method UnregisterGraph, addr 0x6c3dd74, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UnregisterGraph, addr 0x6c3ee54, size 0xa4, virtual false, abstract: false, final false
   inline void UnregisterGraph(::StringW graphName);
 
   constexpr ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugSession_DebugDataContainer* const& __cordl_internal_get__debugDataContainer_k__BackingField() const;
@@ -218,15 +218,15 @@ public:
 
   constexpr void __cordl_internal_set__debugDataContainer_k__BackingField(::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugSession_DebugDataContainer* value);
 
-  /// @brief Method .ctor, addr 0x6c3d9b8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c3ea98, size 0x154, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_onDebugDataUpdated, addr 0x6c3e710, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method add_onDebugDataUpdated, addr 0x6c3f7f0, size 0x108, virtual false, abstract: false, final false
   static inline void add_onDebugDataUpdated(::System::Action_2<::StringW, ::UnityEngine::EntityId>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_onRegisteredGraphsChanged, addr 0x6c3e538, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method add_onRegisteredGraphsChanged, addr 0x6c3f618, size 0xec, virtual false, abstract: false, final false
   static inline void add_onRegisteredGraphsChanged(::System::Action* value);
 
   static inline ::System::Action_2<::StringW, ::UnityEngine::EntityId>* getStaticF_onDebugDataUpdated();
@@ -239,14 +239,14 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::StringW>* getStaticF_s_EmptyRegisteredGraphs();
 
-  /// @brief Method get_currentDebugSession, addr 0x6c3e920, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_currentDebugSession, addr 0x6c3fa00, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugSession* get_currentDebugSession();
 
   /// [CompilerGenerated]
-  /// @brief Method get_debugDataContainer, addr 0x6c3d9b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_debugDataContainer, addr 0x6c3ea90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugSession_DebugDataContainer* get_debugDataContainer();
 
-  /// @brief Method get_hasActiveDebugSession, addr 0x6c30490, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_hasActiveDebugSession, addr 0x6c31570, size 0x74, virtual false, abstract: false, final false
   static inline bool get_hasActiveDebugSession();
 
   /// @brief Method get_isActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -256,11 +256,11 @@ public:
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onDebugDataUpdated, addr 0x6c3e818, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method remove_onDebugDataUpdated, addr 0x6c3f8f8, size 0x108, virtual false, abstract: false, final false
   static inline void remove_onDebugDataUpdated(::System::Action_2<::StringW, ::UnityEngine::EntityId>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_onRegisteredGraphsChanged, addr 0x6c3e624, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method remove_onRegisteredGraphsChanged, addr 0x6c3f704, size 0xec, virtual false, abstract: false, final false
   static inline void remove_onRegisteredGraphsChanged(::System::Action* value);
 
   static inline void setStaticF_onDebugDataUpdated(::System::Action_2<::StringW, ::UnityEngine::EntityId>* value);

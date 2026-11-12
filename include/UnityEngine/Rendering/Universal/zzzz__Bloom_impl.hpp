@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Bloom::*)()>(&::UnityEngine::Rendering::Universal::Bloom::IsActive)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6cded94;
+  constexpr static std::size_t addrs = 0x6cdfe74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Bloom*>(), { "IsActive", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::Bloom::*)()>(&::UnityEngine::Rendering::Universal::Bloom::IsTileCompatible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cdedc4;
+  constexpr static std::size_t addrs = 0x6cdfea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Bloom*>(), { "IsTileCompatible", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::Bloom::*)()>(&::UnityEngine::Rendering::Universal::Bloom::_ctor)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x6cdedcc;
+  constexpr static std::size_t addrs = 0x6cdfeac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::Bloom*>(), { ".ctor", {}, {} })));

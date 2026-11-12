@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::Tweening::TimeTweeningManager> (::GlobalNamespace::BaseStateTransition::*)()>(
     &::GlobalNamespace::BaseStateTransition::get_tweeningManager)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x68a74ec;
+  constexpr static std::size_t addrs = 0x68a7b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { "get_tweeningManager", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::SelectableStateController_ViewState)>(
     &::GlobalNamespace::BaseStateTransition::SetState)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x68a7504;
+  constexpr static std::size_t addrs = 0x68a7b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(),
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::OnEnable)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x68a758c;
+  constexpr static std::size_t addrs = 0x68a7bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { "OnEnable", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::OnDisable)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x68a76ec;
+  constexpr static std::size_t addrs = 0x68a7d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { "OnDisable", {}, {} })));
@@ -77,10 +77,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::OnDestroy)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x68a7838;
+  constexpr static std::size_t addrs = 0x68a7e88;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { "OnDestroy", {}, {} })));
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 5 }));
     return ___internal_method;
   }
 };
@@ -90,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::SelectableStateController_ViewState, bool)>(
     &::GlobalNamespace::BaseStateTransition::HandleSelectableStateControllerStateDidChange)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x68a78d4;
+  constexpr static std::size_t addrs = 0x68a7f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,11 +107,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::BaseStateTransition::TransitionToNormalState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a79a0;
+  constexpr static std::size_t addrs = 0x68a7ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 5 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 6 }));
     return ___internal_method;
   }
 };
@@ -120,11 +121,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::BaseStateTransition::TransitionToHighlightedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a79a4;
+  constexpr static std::size_t addrs = 0x68a7ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 6 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 7 }));
     return ___internal_method;
   }
 };
@@ -134,11 +135,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::BaseStateTransition::TransitionToPressedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a79a8;
+  constexpr static std::size_t addrs = 0x68a7ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 7 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 8 }));
     return ___internal_method;
   }
 };
@@ -148,11 +149,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::BaseStateTransition::TransitionToDisabledState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a79ac;
+  constexpr static std::size_t addrs = 0x68a7ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 8 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 9 }));
     return ___internal_method;
   }
 };
@@ -162,11 +163,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::BaseStateTransition::TransitionToSelectedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a79b0;
+  constexpr static std::size_t addrs = 0x68a8000;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 9 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 10 }));
     return ___internal_method;
   }
 };
@@ -176,11 +177,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::BaseStateTransition::TransitionToSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a79b4;
+  constexpr static std::size_t addrs = 0x68a8004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 10 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 11 }));
     return ___internal_method;
   }
 };
@@ -189,11 +190,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::StopCurrentTransitionAnimation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a79b8;
+  constexpr static std::size_t addrs = 0x68a8008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 11 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 12 }));
     return ___internal_method;
   }
 };
@@ -202,11 +203,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetNormalState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a79bc;
+  constexpr static std::size_t addrs = 0x68a800c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 12 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 13 }));
     return ___internal_method;
   }
 };
@@ -215,11 +216,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetHighlightedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a79c0;
+  constexpr static std::size_t addrs = 0x68a8010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 13 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 14 }));
     return ___internal_method;
   }
 };
@@ -228,11 +229,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetPressedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a79c4;
+  constexpr static std::size_t addrs = 0x68a8014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 14 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 15 }));
     return ___internal_method;
   }
 };
@@ -241,11 +242,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetDisabledState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a79c8;
+  constexpr static std::size_t addrs = 0x68a8018;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 15 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 16 }));
     return ___internal_method;
   }
 };
@@ -254,11 +255,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetSelectedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a79cc;
+  constexpr static std::size_t addrs = 0x68a801c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 16 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 17 }));
     return ___internal_method;
   }
 };
@@ -267,11 +268,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a79d0;
+  constexpr static std::size_t addrs = 0x68a8020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 17 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 18 }));
     return ___internal_method;
   }
 };
@@ -280,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x68a79d4;
+  constexpr static std::size_t addrs = 0x68a8024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { ".ctor", {}, {} })));
@@ -334,7 +335,7 @@ inline void GlobalNamespace::BaseStateTransition::OnDisable() {
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::BaseStateTransition::OnDestroy() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), { "OnDestroy", {}, {} })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 5 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::BaseStateTransition::HandleSelectableStateControllerStateDidChange(::GlobalNamespace::SelectableStateController_ViewState state, bool animated) {
@@ -345,55 +346,55 @@ inline void GlobalNamespace::BaseStateTransition::HandleSelectableStateControlle
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, state, animated);
 }
 inline void GlobalNamespace::BaseStateTransition::TransitionToNormalState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 5 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
-}
-inline void GlobalNamespace::BaseStateTransition::TransitionToHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 6 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
-inline void GlobalNamespace::BaseStateTransition::TransitionToPressedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
+inline void GlobalNamespace::BaseStateTransition::TransitionToHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 7 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
-inline void GlobalNamespace::BaseStateTransition::TransitionToDisabledState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
+inline void GlobalNamespace::BaseStateTransition::TransitionToPressedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
-inline void GlobalNamespace::BaseStateTransition::TransitionToSelectedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
+inline void GlobalNamespace::BaseStateTransition::TransitionToDisabledState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 9 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
-inline void GlobalNamespace::BaseStateTransition::TransitionToSelectedAndHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
+inline void GlobalNamespace::BaseStateTransition::TransitionToSelectedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 10 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
-inline void GlobalNamespace::BaseStateTransition::StopCurrentTransitionAnimation() {
+inline void GlobalNamespace::BaseStateTransition::TransitionToSelectedAndHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming) {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 11 })));
-  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, transitionTiming);
 }
-inline void GlobalNamespace::BaseStateTransition::SetNormalState() {
+inline void GlobalNamespace::BaseStateTransition::StopCurrentTransitionAnimation() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 12 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::BaseStateTransition::SetHighlightedState() {
+inline void GlobalNamespace::BaseStateTransition::SetNormalState() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 13 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::BaseStateTransition::SetPressedState() {
+inline void GlobalNamespace::BaseStateTransition::SetHighlightedState() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 14 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::BaseStateTransition::SetDisabledState() {
+inline void GlobalNamespace::BaseStateTransition::SetPressedState() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 15 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::BaseStateTransition::SetSelectedState() {
+inline void GlobalNamespace::BaseStateTransition::SetDisabledState() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 16 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline void GlobalNamespace::BaseStateTransition::SetSelectedAndHighlightedState() {
+inline void GlobalNamespace::BaseStateTransition::SetSelectedState() {
   auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 17 })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::BaseStateTransition::SetSelectedAndHighlightedState() {
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::BaseStateTransition*>(), 18 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::BaseStateTransition::_ctor() {

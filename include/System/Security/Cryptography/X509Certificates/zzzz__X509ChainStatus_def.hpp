@@ -28,19 +28,19 @@ public:
 
   __declspec(property(put = set_StatusInformation)) ::StringW StatusInformation;
 
-  /// @brief Method GetInformation, addr 0x681470c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInformation, addr 0x6814d5c, size 0x17c, virtual false, abstract: false, final false
   static inline ::StringW GetInformation(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
 
-  /// @brief Method .ctor, addr 0x68146ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6814d3c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
 
-  /// @brief Method get_Status, addr 0x6814888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x6814ed8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_Status();
 
-  /// @brief Method set_Status, addr 0x6814890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Status, addr 0x6814ee0, size 0x8, virtual false, abstract: false, final false
   inline void set_Status(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
 
-  /// @brief Method set_StatusInformation, addr 0x6814898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusInformation, addr 0x6814ee8, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusInformation(::StringW value);
 
   // Ctor Parameters []

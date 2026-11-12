@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData::*)(::UnityEngine::UIElements::PseudoStates, bool)>(
     &::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x7150cb0;
+  constexpr static std::size_t addrs = 0x7151d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector_PseudoStateData>(),
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector___c::*)()>(&::UnityEngine::UIElements::StyleComplexSelector___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x71514e0;
+  constexpr static std::size_t addrs = 0x71525c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector___c*>(), { ".ctor", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StyleComplexSelector___c::*)(::UnityEngine::UIElements::StyleSelector*)>(
     &::UnityEngine::UIElements::StyleComplexSelector___c::_ToString_b__23_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x71514e4;
+  constexpr static std::size_t addrs = 0x71525c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector___c*>(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleComplexSelector___c::*)(::UnityEngine::UIElements::StyleSelectorPart)>(
     &::UnityEngine::UIElements::StyleComplexSelector___c::_CalculateHashes_b__26_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x7151504;
+  constexpr static std::size_t addrs = 0x71525e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector___c*>(),
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::StyleComplexSelector::*)()>(&::UnityEngine::UIElements::StyleComplexSelector::get_specificity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71505ac;
+  constexpr static std::size_t addrs = 0x715168c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "get_specificity", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)(int32_t)>(&::UnityEngine::UIElements::StyleComplexSelector::set_specificity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71505b4;
+  constexpr static std::size_t addrs = 0x7151694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::StyleRule* (::UnityEngine::UIElements::StyleComplexSelector::*)()>(
     &::UnityEngine::UIElements::StyleComplexSelector::get_rule)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71505bc;
+  constexpr static std::size_t addrs = 0x715169c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "get_rule", {}, {} })));
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)(::UnityEngine::UIElements::StyleRule*)>(
     &::UnityEngine::UIElements::StyleComplexSelector::set_rule)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71505c4;
+  constexpr static std::size_t addrs = 0x71516a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::StyleComplexSelector::*)()>(&::UnityEngine::UIElements::StyleComplexSelector::get_isSimple)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x71505cc;
+  constexpr static std::size_t addrs = 0x71516ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "get_isSimple", {}, {} })));
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::UIElements::StyleSelector*> (::UnityEngine::UIElements::StyleComplexSelector::*)()>(
     &::UnityEngine::UIElements::StyleComplexSelector::get_selectors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71505ec;
+  constexpr static std::size_t addrs = 0x71516cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "get_selectors", {}, {} })));
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)(::ArrayW<::UnityEngine::UIElements::StyleSelector*>)>(
     &::UnityEngine::UIElements::StyleComplexSelector::set_selectors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71505f4;
+  constexpr static std::size_t addrs = 0x71516d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(),
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)()>(&::UnityEngine::UIElements::StyleComplexSelector::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x71505fc;
+  constexpr static std::size_t addrs = 0x71516dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { ".ctor", {}, {} })));
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)(::UnityEngine::UIElements::StyleSheet*)>(
     &::UnityEngine::UIElements::StyleComplexSelector::CachePseudoStateMasks)> {
   constexpr static std::size_t size = 0x614;
-  constexpr static std::size_t addrs = 0x715069c;
+  constexpr static std::size_t addrs = 0x715177c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(),
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::UIElements::StyleComplexSelector::*)()>(&::UnityEngine::UIElements::StyleComplexSelector::ToString)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x7150ccc;
+  constexpr static std::size_t addrs = 0x7151dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::UIElements::StyleSelectorPart, ::UnityEngine::UIElements::StyleSelectorPart)>(
     &::UnityEngine::UIElements::StyleComplexSelector::StyleSelectorPartCompare)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7150e7c;
+  constexpr static std::size_t addrs = 0x7151f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::StyleComplexSelector::*)()>(&::UnityEngine::UIElements::StyleComplexSelector::CalculateHashes)> {
   constexpr static std::size_t size = 0x53c;
-  constexpr static std::size_t addrs = 0x7150ec0;
+  constexpr static std::size_t addrs = 0x7151fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::StyleComplexSelector*>(), { "CalculateHashes", {}, {} })));

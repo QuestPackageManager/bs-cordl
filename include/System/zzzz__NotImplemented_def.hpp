@@ -23,7 +23,7 @@ namespace System {
 class CORDL_TYPE NotImplemented : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ByDesignWithMessage, addr 0x67d8480, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ByDesignWithMessage, addr 0x67d8ad0, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Exception* ByDesignWithMessage(::StringW message);
 
 protected:

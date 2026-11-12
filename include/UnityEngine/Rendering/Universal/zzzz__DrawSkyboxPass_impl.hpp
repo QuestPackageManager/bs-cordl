@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData::*)()>(
     &::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ce657c;
+  constexpr static std::size_t addrs = 0x6ce765c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*>(), { ".ctor", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DrawSkyboxPass___c::*)()>(&::UnityEngine::Rendering::Universal::DrawSkyboxPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ce65d4;
+  constexpr static std::size_t addrs = 0x6ce76b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DrawSkyboxPass___c*>(), { ".ctor", {}, {} })));
@@ -96,7 +96,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::UnityEngine::Rendering::Universal::DrawSkyboxPass___c::_Render_b__6_0)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6ce65d8;
+  constexpr static std::size_t addrs = 0x6ce76b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DrawSkyboxPass___c*>(),
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DrawSkyboxPass::*)(
     ::UnityEngine::Rendering::ScriptableRenderContext, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::UnityEngine::Rendering::Universal::DrawSkyboxPass::Execute)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ce5b1c;
+  constexpr static std::size_t addrs = 0x6ce6bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DrawSkyboxPass*>(),
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::DrawSkyboxPass::*)(::UnityEngine::Rendering::Universal::RenderPassEvent)>(
     &::UnityEngine::Rendering::Universal::DrawSkyboxPass::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6ce5b20;
+  constexpr static std::size_t addrs = 0x6ce6c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DrawSkyboxPass*>(),
@@ -183,7 +183,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering:
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::Universal::UniversalCameraData*)>(
     &::UnityEngine::Rendering::Universal::DrawSkyboxPass::CreateSkyBoxRendererList)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x6ce5b8c;
+  constexpr static std::size_t addrs = 0x6ce6c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Rendering::RasterCommandBuffer*, ::UnityEngine::Experimental::Rendering::XRPass*,
                                                                 ::UnityEngine::Rendering::RendererList)>(&::UnityEngine::Rendering::Universal::DrawSkyboxPass::ExecutePass)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6ce5cfc;
+  constexpr static std::size_t addrs = 0x6ce6ddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::by_ref<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*>, ::by_ref<::UnityEngine::Experimental::Rendering::XRPass* const>,
     ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const>)>(&::UnityEngine::Rendering::Universal::DrawSkyboxPass::InitPassData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6ce5e1c;
+  constexpr static std::size_t addrs = 0x6ce6efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::DrawSkyboxPass*>(),
@@ -240,7 +240,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle, ::UnityEngine::Material*)>(
     &::UnityEngine::Rendering::Universal::DrawSkyboxPass::Render)> {
   constexpr static std::size_t size = 0x728;
-  constexpr static std::size_t addrs = 0x6ce5e54;
+  constexpr static std::size_t addrs = 0x6ce6f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

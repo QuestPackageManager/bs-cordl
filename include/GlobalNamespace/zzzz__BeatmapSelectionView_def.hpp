@@ -36,7 +36,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapSelectionView* New_ctor();
 
-  /// @brief Method SetBeatmap, addr 0x5dc1104, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method SetBeatmap, addr 0x5dc10a8, size 0xfc, virtual true, abstract: false, final false
   inline void SetBeatmap(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey);
 
   constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__noLevelText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x5dc1200, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc11a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

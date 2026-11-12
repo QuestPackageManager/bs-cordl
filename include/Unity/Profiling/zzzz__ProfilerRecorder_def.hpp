@@ -208,114 +208,114 @@ public:
   constexpr operator ::System::IDisposable*();
 
   /// [BurstDiscard]
-  /// @brief Method CheckInitializedAndThrow, addr 0x6eebfa4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckInitializedAndThrow, addr 0x6eed084, size 0x58, virtual false, abstract: false, final false
   inline void CheckInitializedAndThrow();
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method Control, addr 0x6eec08c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Control, addr 0x6eed16c, size 0x48, virtual false, abstract: false, final false
   static inline void Control(::Unity::Profiling::ProfilerRecorder handle, ::Unity::Profiling::ProfilerRecorder_ControlOptions options);
 
-  /// @brief Method Control_Injected, addr 0x6eec4d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Control_Injected, addr 0x6eed5b4, size 0x44, virtual false, abstract: false, final false
   static inline void Control_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle, ::Unity::Profiling::ProfilerRecorder_ControlOptions options);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method Create, addr 0x6eebe00, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6eecee0, size 0x60, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerRecorder Create(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle statHandle, int32_t maxSampleCount,
                                                             ::Unity::Profiling::ProfilerRecorderOptions options);
 
-  /// @brief Method Create_Injected, addr 0x6eec478, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create_Injected, addr 0x6eed558, size 0x5c, virtual false, abstract: false, final false
   static inline void Create_Injected(::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle const> statHandle, int32_t maxSampleCount,
                                      ::Unity::Profiling::ProfilerRecorderOptions options, ::by_ref<::Unity::Profiling::ProfilerRecorder> ret);
 
-  /// @brief Method Dispose, addr 0x6eec6dc, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6eed7bc, size 0x54, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method GetCount, addr 0x6eec200, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetCount, addr 0x6eed2e0, size 0x48, virtual false, abstract: false, final false
   static inline int32_t GetCount(::Unity::Profiling::ProfilerRecorder handle, ::Unity::Profiling::ProfilerRecorder_CountOptions countOptions);
 
-  /// @brief Method GetCount_Injected, addr 0x6eec590, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetCount_Injected, addr 0x6eed670, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetCount_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle, ::Unity::Profiling::ProfilerRecorder_CountOptions countOptions);
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method GetLastValue, addr 0x6eec170, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetLastValue, addr 0x6eed250, size 0x40, virtual false, abstract: false, final false
   static inline int64_t GetLastValue(::Unity::Profiling::ProfilerRecorder handle);
 
-  /// @brief Method GetLastValue_Injected, addr 0x6eec554, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLastValue_Injected, addr 0x6eed634, size 0x3c, virtual false, abstract: false, final false
   static inline int64_t GetLastValue_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle);
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method GetRunning, addr 0x6eec2e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetRunning, addr 0x6eed3c8, size 0x44, virtual false, abstract: false, final false
   static inline bool GetRunning(::Unity::Profiling::ProfilerRecorder handle);
 
-  /// @brief Method GetRunning_Injected, addr 0x6eec64c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetRunning_Injected, addr 0x6eed72c, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetRunning_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle);
 
-  /// @brief Method GetSample, addr 0x6eec3c0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetSample, addr 0x6eed4a0, size 0x4c, virtual false, abstract: false, final false
   inline ::Unity::Profiling::ProfilerRecorderSample GetSample(int32_t index);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method GetSampleInternal, addr 0x6eec40c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetSampleInternal, addr 0x6eed4ec, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerRecorderSample GetSampleInternal(::Unity::Profiling::ProfilerRecorder handle, int32_t index);
 
-  /// @brief Method GetSampleInternal_Injected, addr 0x6eec688, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSampleInternal_Injected, addr 0x6eed768, size 0x54, virtual false, abstract: false, final false
   static inline void GetSampleInternal_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle, int32_t index, ::by_ref<::Unity::Profiling::ProfilerRecorderSample> ret);
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method GetValid, addr 0x6eebf14, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetValid, addr 0x6eecff4, size 0x44, virtual false, abstract: false, final false
   static inline bool GetValid(::Unity::Profiling::ProfilerRecorder handle);
 
-  /// @brief Method GetValid_Injected, addr 0x6eec5d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetValid_Injected, addr 0x6eed6b4, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetValid_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle);
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method GetValueUnitType, addr 0x6eebffc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetValueUnitType, addr 0x6eed0dc, size 0x40, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerMarkerDataUnit GetValueUnitType(::Unity::Profiling::ProfilerRecorder handle);
 
-  /// @brief Method GetValueUnitType_Injected, addr 0x6eec518, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetValueUnitType_Injected, addr 0x6eed5f8, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerMarkerDataUnit GetValueUnitType_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle);
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method GetWrapped, addr 0x6eec37c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetWrapped, addr 0x6eed45c, size 0x44, virtual false, abstract: false, final false
   static inline bool GetWrapped(::Unity::Profiling::ProfilerRecorder handle);
 
-  /// @brief Method GetWrapped_Injected, addr 0x6eec610, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetWrapped_Injected, addr 0x6eed6f0, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetWrapped_Injected(::by_ref<::Unity::Profiling::ProfilerRecorder const> handle);
 
-  /// @brief Method Start, addr 0x6eec03c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x6eed11c, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartNew, addr 0x6eebe84, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method StartNew, addr 0x6eecf64, size 0x3c, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerRecorder StartNew(::Unity::Profiling::ProfilerCategory category, ::StringW statName, int32_t capacity, ::Unity::Profiling::ProfilerRecorderOptions options);
 
-  /// @brief Method Stop, addr 0x6eec0d4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x6eed1b4, size 0x50, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method .ctor, addr 0x6eebdc0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eecea0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Profiling::ProfilerCategory category, char16_t* statName, int32_t statNameLen, int32_t capacity, ::Unity::Profiling::ProfilerRecorderOptions options);
 
-  /// @brief Method .ctor, addr 0x6eebe60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eecf40, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderHandle statHandle, int32_t capacity, ::Unity::Profiling::ProfilerRecorderOptions options);
 
-  /// @brief Method get_Capacity, addr 0x6eec1b0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Capacity, addr 0x6eed290, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
-  /// @brief Method get_Count, addr 0x6eec248, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x6eed328, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsRunning, addr 0x6eec298, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_IsRunning, addr 0x6eed378, size 0x50, virtual false, abstract: false, final false
   inline bool get_IsRunning();
 
-  /// @brief Method get_LastValue, addr 0x6eec124, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_LastValue, addr 0x6eed204, size 0x4c, virtual false, abstract: false, final false
   inline int64_t get_LastValue();
 
-  /// @brief Method get_UnitType, addr 0x6eebf58, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_UnitType, addr 0x6eed038, size 0x4c, virtual false, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarkerDataUnit get_UnitType();
 
-  /// @brief Method get_Valid, addr 0x6eebec0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Valid, addr 0x6eecfa0, size 0x54, virtual false, abstract: false, final false
   inline bool get_Valid();
 
-  /// @brief Method get_WrappedAround, addr 0x6eec32c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_WrappedAround, addr 0x6eed40c, size 0x50, virtual false, abstract: false, final false
   inline bool get_WrappedAround();
 
   /// @brief Convert to "::System::IDisposable"

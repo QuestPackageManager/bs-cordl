@@ -37,19 +37,19 @@ public:
   __declspec(property(put = set_Width)) int32_t Width;
 
   /// [CompilerGenerated]
-  /// @brief Method set_Height, addr 0x6eec748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Height, addr 0x6eed828, size 0x8, virtual false, abstract: false, final false
   inline void set_Height(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_ImageFormat, addr 0x6eec738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ImageFormat, addr 0x6eed818, size 0x8, virtual false, abstract: false, final false
   inline void set_ImageFormat(::UnityEngine::TextureFormat value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_RawImageDataReference, addr 0x6eec730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RawImageDataReference, addr 0x6eed810, size 0x8, virtual false, abstract: false, final false
   inline void set_RawImageDataReference(::Unity::Collections::NativeArray_1<uint8_t> value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Width, addr 0x6eec740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Width, addr 0x6eed820, size 0x8, virtual false, abstract: false, final false
   inline void set_Width(int32_t value);
 
   // Ctor Parameters []

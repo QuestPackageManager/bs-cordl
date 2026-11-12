@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScreenFade__Fade_d__25::*)(int32_t)>(&::GlobalNamespace::OVRScreenFade__Fade_d__25::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6364ea4;
+  constexpr static std::size_t addrs = 0x636512c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScreenFade__Fade_d__25::*)()>(&::GlobalNamespace::OVRScreenFade__Fade_d__25::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6364ed4;
+  constexpr static std::size_t addrs = 0x636515c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRScreenFade__Fade_d__25::*)()>(&::GlobalNamespace::OVRScreenFade__Fade_d__25::MoveNext)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6364ed8;
+  constexpr static std::size_t addrs = 0x6365160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScreenFade__Fade_d__25*>(), { "MoveNext", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRScreenFade__Fade_d__25::*)()>(
     &::GlobalNamespace::OVRScreenFade__Fade_d__25::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6365004;
+  constexpr static std::size_t addrs = 0x636528c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScreenFade__Fade_d__25::*)()>(&::GlobalNamespace::OVRScreenFade__Fade_d__25::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x636500c;
+  constexpr static std::size_t addrs = 0x6365294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::OVRScreenFade__Fade_d__25::*)()>(
     &::GlobalNamespace::OVRScreenFade__Fade_d__25::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6365044;
+  constexpr static std::size_t addrs = 0x63652cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OVRScreenFade> (*)()>(&::GlobalNamespace::OVRScreenFade::get_instance)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x63644a8;
+  constexpr static std::size_t addrs = 0x6364730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScreenFade*>(), { "get_instance", {}, {} })));
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OVRScreenFade*)>(&::GlobalNamespace::OVRScreenFade::set_instance)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x63644f4;
+  constexpr static std::size_t addrs = 0x636477c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::get_currentAlpha)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6364544;
+  constexpr static std::size_t addrs = 0x63647cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScreenFade*>(), { "get_currentAlpha", {}, {} })));
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::Start)> {
   constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x63645f4;
+  constexpr static std::size_t addrs = 0x636487c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScreenFade*>(), { "Start", {}, {} })));
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::FadeIn)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6364abc;
+  constexpr static std::size_t addrs = 0x6364d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScreenFade*>(), { "FadeIn", {}, {} })));
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::FadeOut)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6364b4c;
+  constexpr static std::size_t addrs = 0x6364dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScreenFade*>(), { "FadeOut", {}, {} })));
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)(int32_t)>(&::GlobalNamespace::OVRScreenFade::OnLevelFinishedLoading)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6364b74;
+  constexpr static std::size_t addrs = 0x6364dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::OnEnable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6364b9c;
+  constexpr static std::size_t addrs = 0x6364e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScreenFade*>(), { "OnEnable", {}, {} })));
@@ -324,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::OnDestroy)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x6364bb4;
+  constexpr static std::size_t addrs = 0x6364e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScreenFade*>(), { "OnDestroy", {}, {} })));
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)(float_t)>(&::GlobalNamespace::OVRScreenFade::SetUIFade)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6364d74;
+  constexpr static std::size_t addrs = 0x6364ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScreenFade*>(), { "SetUIFade", {}, { ::i2c::type_of<float_t>() } })));
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)(float_t)>(&::GlobalNamespace::OVRScreenFade::SetExplicitFade)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6364e9c;
+  constexpr static std::size_t addrs = 0x6365124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -361,7 +361,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRScreenFade::*)(float_t, float_t)>(&::GlobalNamespace::OVRScreenFade::Fade)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6364ae4;
+  constexpr static std::size_t addrs = 0x6364d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::SetMaterialAlpha)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6364d94;
+  constexpr static std::size_t addrs = 0x636501c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScreenFade*>(), { "SetMaterialAlpha", {}, {} })));
@@ -386,7 +386,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6364eac;
+  constexpr static std::size_t addrs = 0x6365134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRScreenFade*>(), { ".ctor", {}, {} })));

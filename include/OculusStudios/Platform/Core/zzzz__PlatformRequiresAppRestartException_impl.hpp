@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::*)()>(
     &::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x63869e0;
+  constexpr static std::size_t addrs = 0x6386e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::*)(::StringW)>(
     &::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6386a38;
+  constexpr static std::size_t addrs = 0x6386e80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::*)(::StringW, ::System::Exception*)>(
     &::OculusStudios::Platform::Core::PlatformRequiresAppRestartException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6386aa4;
+  constexpr static std::size_t addrs = 0x6386eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OculusStudios::Platform::Core::PlatformRequiresAppRestartException*>(),

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::GetInstance)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x37055e4;
+  constexpr static std::size_t addrs = 0x3709a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x37055f8;
+  constexpr static std::size_t addrs = 0x3709a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle
     ::Org::BouncyCastle::Asn1::Ocsp::ResponseData*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::DerBitString*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3705940;
+  constexpr static std::size_t addrs = 0x3709dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::_ctor)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x370577c;
+  constexpr static std::size_t addrs = 0x3709c14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::ResponseData* (::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::GetTbsResponseData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3705ad0;
+  constexpr static std::size_t addrs = 0x3709f68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>(), { "GetTbsResponseData", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::ResponseData* (::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::get_TbsResponseData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3705ad8;
+  constexpr static std::size_t addrs = 0x3709f70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>(), { "get_TbsResponseData", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::GetSignatureAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3705ae0;
+  constexpr static std::size_t addrs = 0x3709f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::get_SignatureAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3705ae8;
+  constexpr static std::size_t addrs = 0x3709f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerBitString* (::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::GetSignature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3705af0;
+  constexpr static std::size_t addrs = 0x3709f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>(), { "GetSignature", {}, {} })));
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::DerBitString* (::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::get_Signature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3705af8;
+  constexpr static std::size_t addrs = 0x3709f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>(), { "get_Signature", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::GetSignatureOctets)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3705b00;
+  constexpr static std::size_t addrs = 0x3709f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>(), { "GetSignatureOctets", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::GetCerts)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3705b1c;
+  constexpr static std::size_t addrs = 0x3709fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>(), { "GetCerts", {}, {} })));
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::get_Certs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3705b24;
+  constexpr static std::size_t addrs = 0x3709fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>(), { "get_Certs", {}, {} })));
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::*)()>(
     &::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse::ToAsn1Object)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3705b2c;
+  constexpr static std::size_t addrs = 0x3709fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

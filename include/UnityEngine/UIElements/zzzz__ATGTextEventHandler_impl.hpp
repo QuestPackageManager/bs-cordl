@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)(::UnityEngine::UIElements::TextElement*)>(
     &::UnityEngine::UIElements::ATGTextEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x7159344;
+  constexpr static std::size_t addrs = 0x715a424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)()>(&::UnityEngine::UIElements::ATGTextEventHandler::OnDestroy)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x71593e0;
+  constexpr static std::size_t addrs = 0x715a4c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextEventHandler*>(), { "OnDestroy", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ATGTextEventHandler::*)()>(&::UnityEngine::UIElements::ATGTextEventHandler::HasAllocatedLinkCallbacks)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7159684;
+  constexpr static std::size_t addrs = 0x715a764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)()>(&::UnityEngine::UIElements::ATGTextEventHandler::AllocateLinkCallbacks)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x7159694;
+  constexpr static std::size_t addrs = 0x715a774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextEventHandler*>(), { "AllocateLinkCallbacks", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::ATGTextEventHandler::*)()>(&::UnityEngine::UIElements::ATGTextEventHandler::HasAllocatedHyperlinkCallbacks)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7159808;
+  constexpr static std::size_t addrs = 0x715a8e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)()>(&::UnityEngine::UIElements::ATGTextEventHandler::AllocateHyperlinkCallbacks)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x7159818;
+  constexpr static std::size_t addrs = 0x715a8f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)()>(&::UnityEngine::UIElements::ATGTextEventHandler::EnsureTextGenerationInfoIsValid)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x715998c;
+  constexpr static std::size_t addrs = 0x715aa6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::ATGTextEventHandler::HyperlinkOnPointerUp)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x71599dc;
+  constexpr static std::size_t addrs = 0x715aabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextEventHandler*>(),
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>)>(
     &::UnityEngine::UIElements::ATGTextEventHandler::IsComplexHyperLink)> {
   constexpr static std::size_t size = 0x4b0;
-  constexpr static std::size_t addrs = 0x7159d80;
+  constexpr static std::size_t addrs = 0x715ae60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)(::UnityEngine::UIElements::PointerOverEvent*)>(
     &::UnityEngine::UIElements::ATGTextEventHandler::HyperlinkOnPointerOver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x715a230;
+  constexpr static std::size_t addrs = 0x715b310;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextEventHandler*>(),
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
     &::UnityEngine::UIElements::ATGTextEventHandler::HyperlinkOnPointerMove)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x715a238;
+  constexpr static std::size_t addrs = 0x715b318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextEventHandler*>(),
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)(::UnityEngine::UIElements::PointerOutEvent*)>(
     &::UnityEngine::UIElements::ATGTextEventHandler::HyperlinkOnPointerOut)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x715a4d8;
+  constexpr static std::size_t addrs = 0x715b5b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextEventHandler*>(),
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)(::UnityEngine::UIElements::PointerDownEvent*)>(
     &::UnityEngine::UIElements::ATGTextEventHandler::LinkTagOnPointerDown)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x715a4e0;
+  constexpr static std::size_t addrs = 0x715b5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextEventHandler*>(),
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::ATGTextEventHandler::LinkTagOnPointerUp)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x715a72c;
+  constexpr static std::size_t addrs = 0x715b80c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextEventHandler*>(),
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
     &::UnityEngine::UIElements::ATGTextEventHandler::LinkTagOnPointerMove)> {
   constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x715a978;
+  constexpr static std::size_t addrs = 0x715ba58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextEventHandler*>(),
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)(::UnityEngine::UIElements::PointerOutEvent*)>(
     &::UnityEngine::UIElements::ATGTextEventHandler::LinkTagOnPointerOut)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x715ae10;
+  constexpr static std::size_t addrs = 0x715bef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextEventHandler*>(),
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)()>(&::UnityEngine::UIElements::ATGTextEventHandler::RegisterLinkTagCallbacks)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x715afc4;
+  constexpr static std::size_t addrs = 0x715c0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)()>(&::UnityEngine::UIElements::ATGTextEventHandler::UnRegisterLinkTagCallbacks)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x71593f8;
+  constexpr static std::size_t addrs = 0x715a4d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)()>(&::UnityEngine::UIElements::ATGTextEventHandler::RegisterHyperlinkCallbacks)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x715b0d4;
+  constexpr static std::size_t addrs = 0x715c1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextEventHandler::*)()>(&::UnityEngine::UIElements::ATGTextEventHandler::UnRegisterHyperlinkCallbacks)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x71594f4;
+  constexpr static std::size_t addrs = 0x715a5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

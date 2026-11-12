@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d22a5c;
+  constexpr static std::size_t addrs = 0x6d23b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d22a64;
+  constexpr static std::size_t addrs = 0x6d23b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::get_xrOcclusionMeshPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d22a6c;
+  constexpr static std::size_t addrs = 0x6d23b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::set_xrOcclusionMeshPS)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6d22a74;
+  constexpr static std::size_t addrs = 0x6d23b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::get_xrMirrorViewPS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d22ae4;
+  constexpr static std::size_t addrs = 0x6d23bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::set_xrMirrorViewPS)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6d22aec;
+  constexpr static std::size_t addrs = 0x6d23bcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::get_xrMotionVector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6d22b5c;
+  constexpr static std::size_t addrs = 0x6d23c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)(::UnityEngine::Shader*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::set_xrMotionVector)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6d22b64;
+  constexpr static std::size_t addrs = 0x6d23c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources*>(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::get_valid)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6d22bd4;
+  constexpr static std::size_t addrs = 0x6d23cb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineRuntimeXRResources::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6d22c9c;
+  constexpr static std::size_t addrs = 0x6d23d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

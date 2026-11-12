@@ -48,13 +48,13 @@ class CORDL_TYPE GPUDrivenCallbacks : public ::System::Object {
 public:
   // Declarations
   /// [RequiredByNativeCode(GenerateProxy = true)]
-  /// @brief Method InvokeGPUDrivenLODGroupDataNativeCallback, addr 0x6fc5d94, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InvokeGPUDrivenLODGroupDataNativeCallback, addr 0x6fc6e74, size 0x20, virtual false, abstract: false, final false
   static inline void InvokeGPUDrivenLODGroupDataNativeCallback(::UnityEngine::Rendering::GPUDrivenLODGroupDataNativeCallback* callback,
                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenLODGroupDataNative const> lodGroupDataNative,
                                                                ::UnityEngine::Rendering::GPUDrivenLODGroupDataCallback* target);
 
   /// [RequiredByNativeCode(GenerateProxy = true)]
-  /// @brief Method InvokeGPUDrivenRendererDataNativeCallback, addr 0x6fc5db4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InvokeGPUDrivenRendererDataNativeCallback, addr 0x6fc6e94, size 0x20, virtual false, abstract: false, final false
   static inline void InvokeGPUDrivenRendererDataNativeCallback(::UnityEngine::Rendering::GPUDrivenRendererDataNativeCallback* callback,
                                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUDrivenRendererGroupDataNative const> rendererDataNative,
                                                                ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,

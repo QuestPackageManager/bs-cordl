@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*)>(&::UnityEngine::Bindings::BindingsAllocator::Free)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f96ebc;
+  constexpr static std::size_t addrs = 0x6f97f9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*)>(&::UnityEngine::Bindings::BindingsAllocator::FreeNativeOwnedMemory)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f96ef8;
+  constexpr static std::size_t addrs = 0x6f97fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(void*)>(&::UnityEngine::Bindings::BindingsAllocator::GetNativeOwnedDataPointer)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6f96f34;
+  constexpr static std::size_t addrs = 0x6f98014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

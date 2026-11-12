@@ -76,75 +76,75 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::CullingResults>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::CullingResults>*();
 
-  /// @brief Method ComputeDirectionalShadowMatricesAndCullingPrimitives, addr 0x6fbbc88, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ComputeDirectionalShadowMatricesAndCullingPrimitives, addr 0x6fbcd68, size 0xb8, virtual false, abstract: false, final false
   inline bool ComputeDirectionalShadowMatricesAndCullingPrimitives(int32_t activeLightIndex, int32_t splitIndex, int32_t splitCount, ::UnityEngine::Vector3 splitRatio, int32_t shadowResolution,
                                                                    float_t shadowNearPlaneOffset, ::by_ref<::UnityEngine::Matrix4x4> viewMatrix, ::by_ref<::UnityEngine::Matrix4x4> projMatrix,
                                                                    ::by_ref<::UnityEngine::Rendering::ShadowSplitData> shadowSplitData);
 
   /// [FreeFunction("ScriptableRenderPipeline_Bindings::ComputeDirectionalShadowMatricesAndCullingPrimitives")]
-  /// @brief Method ComputeDirectionalShadowMatricesAndCullingPrimitives, addr 0x6fbb6c0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ComputeDirectionalShadowMatricesAndCullingPrimitives, addr 0x6fbc7a0, size 0xb8, virtual false, abstract: false, final false
   static inline bool ComputeDirectionalShadowMatricesAndCullingPrimitives(::System::IntPtr cullingResultsPtr, int32_t activeLightIndex, int32_t splitIndex, int32_t splitCount,
                                                                           ::UnityEngine::Vector3 splitRatio, int32_t shadowResolution, float_t shadowNearPlaneOffset,
                                                                           ::by_ref<::UnityEngine::Matrix4x4> viewMatrix, ::by_ref<::UnityEngine::Matrix4x4> projMatrix,
                                                                           ::by_ref<::UnityEngine::Rendering::ShadowSplitData> shadowSplitData);
 
-  /// @brief Method ComputeDirectionalShadowMatricesAndCullingPrimitives_Injected, addr 0x6fbb778, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ComputeDirectionalShadowMatricesAndCullingPrimitives_Injected, addr 0x6fbc858, size 0xac, virtual false, abstract: false, final false
   static inline bool ComputeDirectionalShadowMatricesAndCullingPrimitives_Injected(::System::IntPtr cullingResultsPtr, int32_t activeLightIndex, int32_t splitIndex, int32_t splitCount,
                                                                                    ::by_ref<::UnityEngine::Vector3 const> splitRatio, int32_t shadowResolution, float_t shadowNearPlaneOffset,
                                                                                    ::by_ref<::UnityEngine::Matrix4x4> viewMatrix, ::by_ref<::UnityEngine::Matrix4x4> projMatrix,
                                                                                    ::by_ref<::UnityEngine::Rendering::ShadowSplitData> shadowSplitData);
 
-  /// @brief Method ComputePointShadowMatricesAndCullingPrimitives, addr 0x6fbbc04, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ComputePointShadowMatricesAndCullingPrimitives, addr 0x6fbcce4, size 0x84, virtual false, abstract: false, final false
   inline bool ComputePointShadowMatricesAndCullingPrimitives(int32_t activeLightIndex, ::UnityEngine::CubemapFace cubemapFace, float_t fovBias, ::by_ref<::UnityEngine::Matrix4x4> viewMatrix,
                                                              ::by_ref<::UnityEngine::Matrix4x4> projMatrix, ::by_ref<::UnityEngine::Rendering::ShadowSplitData> shadowSplitData);
 
   /// [FreeFunction("ScriptableRenderPipeline_Bindings::ComputePointShadowMatricesAndCullingPrimitives")]
-  /// @brief Method ComputePointShadowMatricesAndCullingPrimitives, addr 0x6fbb63c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ComputePointShadowMatricesAndCullingPrimitives, addr 0x6fbc71c, size 0x84, virtual false, abstract: false, final false
   static inline bool ComputePointShadowMatricesAndCullingPrimitives(::System::IntPtr cullingResultsPtr, int32_t activeLightIndex, ::UnityEngine::CubemapFace cubemapFace, float_t fovBias,
                                                                     ::by_ref<::UnityEngine::Matrix4x4> viewMatrix, ::by_ref<::UnityEngine::Matrix4x4> projMatrix,
                                                                     ::by_ref<::UnityEngine::Rendering::ShadowSplitData> shadowSplitData);
 
-  /// @brief Method ComputeSpotShadowMatricesAndCullingPrimitives, addr 0x6fbbb98, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ComputeSpotShadowMatricesAndCullingPrimitives, addr 0x6fbcc78, size 0x6c, virtual false, abstract: false, final false
   inline bool ComputeSpotShadowMatricesAndCullingPrimitives(int32_t activeLightIndex, ::by_ref<::UnityEngine::Matrix4x4> viewMatrix, ::by_ref<::UnityEngine::Matrix4x4> projMatrix,
                                                             ::by_ref<::UnityEngine::Rendering::ShadowSplitData> shadowSplitData);
 
   /// [FreeFunction("ScriptableRenderPipeline_Bindings::ComputeSpotShadowMatricesAndCullingPrimitives")]
-  /// @brief Method ComputeSpotShadowMatricesAndCullingPrimitives, addr 0x6fbb5d0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ComputeSpotShadowMatricesAndCullingPrimitives, addr 0x6fbc6b0, size 0x6c, virtual false, abstract: false, final false
   static inline bool ComputeSpotShadowMatricesAndCullingPrimitives(::System::IntPtr cullingResultsPtr, int32_t activeLightIndex, ::by_ref<::UnityEngine::Matrix4x4> viewMatrix,
                                                                    ::by_ref<::UnityEngine::Matrix4x4> projMatrix, ::by_ref<::UnityEngine::Rendering::ShadowSplitData> shadowSplitData);
 
-  /// @brief Method Equals, addr 0x6fbbdb0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fbce90, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6fbbd40, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fbce20, size 0x70, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::CullingResults other);
 
-  /// @brief Method FillLightAndReflectionProbeIndices, addr 0x6fbb97c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method FillLightAndReflectionProbeIndices, addr 0x6fbca5c, size 0x50, virtual false, abstract: false, final false
   inline void FillLightAndReflectionProbeIndices(::UnityEngine::ComputeBuffer* computeBuffer);
 
   /// [FreeFunction("FillLightAndReflectionProbeIndices")]
-  /// @brief Method FillLightAndReflectionProbeIndices, addr 0x6fbb404, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method FillLightAndReflectionProbeIndices, addr 0x6fbc4e4, size 0x50, virtual false, abstract: false, final false
   static inline void FillLightAndReflectionProbeIndices(::System::IntPtr cullingResultsPtr, ::UnityEngine::ComputeBuffer* computeBuffer);
 
-  /// @brief Method FillLightAndReflectionProbeIndices_Injected, addr 0x6fbb454, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FillLightAndReflectionProbeIndices_Injected, addr 0x6fbc534, size 0x44, virtual false, abstract: false, final false
   static inline void FillLightAndReflectionProbeIndices_Injected(::System::IntPtr cullingResultsPtr, ::System::IntPtr computeBuffer);
 
   /// [FreeFunction("FillLightIndexMapScriptable")]
-  /// @brief Method FillLightIndexMap, addr 0x6fbb4d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FillLightIndexMap, addr 0x6fbc5b4, size 0x54, virtual false, abstract: false, final false
   static inline void FillLightIndexMap(::System::IntPtr cullingResultsPtr, ::System::IntPtr indexMapPtr, int32_t indexMapSize);
 
-  /// @brief Method GetHashCode, addr 0x6fbbe30, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fbcf10, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [FreeFunction("ScriptableRenderPipeline_Bindings::GetLightIndexCount")]
-  /// @brief Method GetLightIndexCount, addr 0x6fbb38c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLightIndexCount, addr 0x6fbc46c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetLightIndexCount(::System::IntPtr cullingResultsPtr);
 
-  /// @brief Method GetLightIndexMap, addr 0x6fbb9cc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetLightIndexMap, addr 0x6fbcaac, size 0xf8, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<int32_t> GetLightIndexMap(::Unity::Collections::Allocator allocator);
 
   /// [FreeFunction("GetLightIndexMapSize")]
-  /// @brief Method GetLightIndexMapSize, addr 0x6fbb498, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLightIndexMapSize, addr 0x6fbc578, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetLightIndexMapSize(::System::IntPtr cullingResultsPtr);
 
   /// @brief Method GetNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -153,36 +153,36 @@ public:
   inline ::Unity::Collections::NativeArray_1<T> GetNativeArray(void* dataPointer, int32_t length);
 
   /// [FreeFunction("ScriptableRenderPipeline_Bindings::GetReflectionProbeIndexCount")]
-  /// @brief Method GetReflectionProbeIndexCount, addr 0x6fbb3c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetReflectionProbeIndexCount, addr 0x6fbc4a8, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetReflectionProbeIndexCount(::System::IntPtr cullingResultsPtr);
 
   /// [FreeFunction("ScriptableRenderPipeline_Bindings::GetShadowCasterBounds")]
-  /// @brief Method GetShadowCasterBounds, addr 0x6fbb57c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetShadowCasterBounds, addr 0x6fbc65c, size 0x54, virtual false, abstract: false, final false
   static inline bool GetShadowCasterBounds(::System::IntPtr cullingResultsPtr, int32_t lightIndex, ::by_ref<::UnityEngine::Bounds> bounds);
 
-  /// @brief Method GetShadowCasterBounds, addr 0x6fbbb44, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetShadowCasterBounds, addr 0x6fbcc24, size 0x54, virtual false, abstract: false, final false
   inline bool GetShadowCasterBounds(int32_t lightIndex, ::by_ref<::UnityEngine::Bounds> outBounds);
 
   /// [FreeFunction("SetLightIndexMapScriptable")]
-  /// @brief Method SetLightIndexMap, addr 0x6fbb528, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetLightIndexMap, addr 0x6fbc608, size 0x54, virtual false, abstract: false, final false
   static inline void SetLightIndexMap(::System::IntPtr cullingResultsPtr, ::System::IntPtr indexMapPtr, int32_t indexMapSize);
 
-  /// @brief Method SetLightIndexMap, addr 0x6fbbac4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetLightIndexMap, addr 0x6fbcba4, size 0x80, virtual false, abstract: false, final false
   inline void SetLightIndexMap(::Unity::Collections::NativeArray_1<int32_t> lightIndexMap);
 
-  /// @brief Method get_lightAndReflectionProbeIndexCount, addr 0x6fbb904, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_lightAndReflectionProbeIndexCount, addr 0x6fbc9e4, size 0x78, virtual false, abstract: false, final false
   inline int32_t get_lightAndReflectionProbeIndexCount();
 
-  /// @brief Method get_visibleLights, addr 0x6fbb824, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_visibleLights, addr 0x6fbc904, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleLight> get_visibleLights();
 
-  /// @brief Method get_visibleReflectionProbes, addr 0x6fbb894, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_visibleReflectionProbes, addr 0x6fbc974, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::VisibleReflectionProbe> get_visibleReflectionProbes();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::CullingResults>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::CullingResults>* i___System__IEquatable_1___UnityEngine__Rendering__CullingResults_();
 
-  /// @brief Method op_Equality, addr 0x6fbbe48, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6fbcf28, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::CullingResults left, ::UnityEngine::Rendering::CullingResults right);
 
   // Ctor Parameters []

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3DMixerBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::GlobalNamespace::TextureProcessor3DMixerBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0xa54;
-  constexpr static std::size_t addrs = 0x5d5e3f8;
+  constexpr static std::size_t addrs = 0x5d5d96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3DMixerBehaviour*>(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::TextureProcessor3DMixerBehaviour::*)()>(&::GlobalNamespace::TextureProcessor3DMixerBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d5ee4c;
+  constexpr static std::size_t addrs = 0x5d5e3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::TextureProcessor3DMixerBehaviour*>(), { ".ctor", {}, {} })));

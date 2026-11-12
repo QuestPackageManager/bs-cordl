@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::TextureGradientParameter* New_ctor(::UnityEngine::Rendering::TextureGradient* value, bool overrideState);
 
-  /// @brief Method Release, addr 0x6c2405c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x6c2513c, size 0x14, virtual true, abstract: false, final false
   inline void Release();
 
-  /// @brief Method .ctor, addr 0x6c23ff8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c250d8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::TextureGradient* value, bool overrideState);
 
 protected:

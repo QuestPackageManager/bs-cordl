@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::Universal::HDRACESPresetParameter* New_ctor(::UnityEngine::Rendering::Universal::HDRACESPreset value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6cfbffc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfd0dc, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::HDRACESPreset value, bool overrideState);
 
 protected:

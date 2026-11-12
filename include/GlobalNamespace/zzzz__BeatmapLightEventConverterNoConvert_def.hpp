@@ -162,34 +162,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39dffe4, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39e508c, size 0xe0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::BeatmapLightEventConverterNoConvert__ConvertBasicBeatmapEvent_d__12* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x39e010c, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x39e51b4, size 0xb8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapEventData*>* System_Collections_Generic_IEnumerable_BeatmapEventData__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x39e00c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x39e516c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapEventData* System_Collections_Generic_IEnumerator_BeatmapEventData__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39e01c4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39e526c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39e00cc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39e5174, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39e0104, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39e51ac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x39dffe0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39e5088, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -265,7 +265,7 @@ public:
   constexpr void __cordl_internal_set_value(int32_t value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x39dfcc0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e4d68, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>"
@@ -298,7 +298,7 @@ public:
   BeatmapLightEventConverterNoConvert__ConvertBasicBeatmapEvent_d__12(BeatmapLightEventConverterNoConvert__ConvertBasicBeatmapEvent_d__12 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14506 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -466,34 +466,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39e01cc, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39e5274, size 0x128, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::BeatmapLightEventConverterNoConvert__ConvertLightColorBeatmapEvent_d__13* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x39e033c, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x39e53e4, size 0xe8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapEventData*>* System_Collections_Generic_IEnumerable_BeatmapEventData__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x39e02f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x39e539c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapEventData* System_Collections_Generic_IEnumerator_BeatmapEventData__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39e0424, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39e54cc, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39e02fc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39e53a4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39e0334, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39e53dc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x39e01c8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39e5270, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -641,7 +641,7 @@ public:
   constexpr void __cordl_internal_set_usePreviousValue(bool value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x39dfdd4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e4e7c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>"
@@ -674,7 +674,7 @@ public:
   BeatmapLightEventConverterNoConvert__ConvertLightColorBeatmapEvent_d__13(BeatmapLightEventConverterNoConvert__ConvertLightColorBeatmapEvent_d__13 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14507 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -896,34 +896,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39e042c, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39e54d4, size 0x128, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::BeatmapLightEventConverterNoConvert__ConvertLightRotationBeatmapEvent_d__14* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x39e059c, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x39e5644, size 0xe0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapEventData*>* System_Collections_Generic_IEnumerable_BeatmapEventData__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x39e0554, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x39e55fc, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapEventData* System_Collections_Generic_IEnumerator_BeatmapEventData__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39e067c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39e5724, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39e055c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39e5604, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39e0594, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39e563c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x39e0428, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39e54d0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1059,7 +1059,7 @@ public:
   constexpr void __cordl_internal_set_usePreviousEventValue(bool value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x39dfed4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e4f7c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>"
@@ -1092,7 +1092,7 @@ public:
   BeatmapLightEventConverterNoConvert__ConvertLightRotationBeatmapEvent_d__14(BeatmapLightEventConverterNoConvert__ConvertLightRotationBeatmapEvent_d__14 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14508 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1295,34 +1295,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39e0684, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39e572c, size 0xf4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::BeatmapLightEventConverterNoConvert__ConvertLightTranslationBeatmapEvent_d__15* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x39e07c0, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<BeatmapEventData>.GetEnumerator, addr 0x39e5868, size 0xd0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::BeatmapEventData*>* System_Collections_Generic_IEnumerable_BeatmapEventData__GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x39e0778, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<BeatmapEventData>.get_Current, addr 0x39e5820, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapEventData* System_Collections_Generic_IEnumerator_BeatmapEventData__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39e0890, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x39e5938, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39e0780, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39e5828, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39e07b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39e5860, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x39e0680, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39e5728, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1440,7 +1440,7 @@ public:
   constexpr void __cordl_internal_set_usePreviousEventValue(bool value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x39dffbc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e5064, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>"
@@ -1473,7 +1473,7 @@ public:
   BeatmapLightEventConverterNoConvert__ConvertLightTranslationBeatmapEvent_d__15(BeatmapLightEventConverterNoConvert__ConvertLightTranslationBeatmapEvent_d__15 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14509 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1612,12 +1612,12 @@ public:
   constexpr operator ::GlobalNamespace::IBeatmapLightEventConverter*() noexcept;
 
   /// [IteratorStateMachine(typeof(BeatmapLightEventConverterNoConvert::<ConvertBasicBeatmapEvent>d__12))]
-  /// @brief Method ConvertBasicBeatmapEvent, addr 0x39dfc24, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method ConvertBasicBeatmapEvent, addr 0x39e4ccc, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>*
   ConvertBasicBeatmapEvent(int32_t subtypeIdentifier, float_t time, ::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType, int32_t value, float_t floatValue);
 
   /// [IteratorStateMachine(typeof(BeatmapLightEventConverterNoConvert::<ConvertLightColorBeatmapEvent>d__13))]
-  /// @brief Method ConvertLightColorBeatmapEvent, addr 0x39dfce0, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method ConvertLightColorBeatmapEvent, addr 0x39e4d88, size 0xf4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* ConvertLightColorBeatmapEvent(int32_t subtypeIdentifier, float_t time, int32_t groupId, int32_t elementId,
                                                                                                                             bool usePreviousValue, ::GlobalNamespace::EaseType easeType,
                                                                                                                             ::GlobalNamespace::EnvironmentColorType colorType, float_t brightness,
@@ -1625,18 +1625,18 @@ public:
                                                                                                                             ::System::Nullable_1<float_t> nextEventBrightness);
 
   /// [IteratorStateMachine(typeof(BeatmapLightEventConverterNoConvert::<ConvertLightRotationBeatmapEvent>d__14))]
-  /// @brief Method ConvertLightRotationBeatmapEvent, addr 0x39dfdf4, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method ConvertLightRotationBeatmapEvent, addr 0x39e4e9c, size 0xe0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>*
   ConvertLightRotationBeatmapEvent(int32_t subtypeIdentifier, float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, ::GlobalNamespace::EaseType easeType,
                                    ::GlobalNamespace::LightAxis axis, float_t rotation, int32_t loopCount, ::GlobalNamespace::LightRotationDirection rotationDirection);
 
   /// [IteratorStateMachine(typeof(BeatmapLightEventConverterNoConvert::<ConvertLightTranslationBeatmapEvent>d__15))]
-  /// @brief Method ConvertLightTranslationBeatmapEvent, addr 0x39dfef4, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method ConvertLightTranslationBeatmapEvent, addr 0x39e4f9c, size 0xc8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>*
   ConvertLightTranslationBeatmapEvent(int32_t subtypeIdentifier, float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, ::GlobalNamespace::EaseType easeType,
                                       ::GlobalNamespace::LightAxis axis, float_t translation, float_t distribution);
 
-  /// @brief Method InsertActivateOnStartEvents, addr 0x39dffdc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method InsertActivateOnStartEvents, addr 0x39e5084, size 0x4, virtual true, abstract: false, final true
   inline void InsertActivateOnStartEvents(::GlobalNamespace::BeatmapData* beatmapData);
 
   static inline ::GlobalNamespace::BeatmapLightEventConverterNoConvert* New_ctor(bool ignoreColorEvents, bool ignoreRotationLoopCount, bool useRotationDirection);
@@ -1659,19 +1659,19 @@ public:
 
   constexpr void __cordl_internal_set__useRotationDirection(bool value);
 
-  /// @brief Method .ctor, addr 0x39dfc14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e4cbc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool ignoreColorEvents, bool ignoreRotationLoopCount, bool useRotationDirection);
 
-  /// @brief Method get_convertBoxGroups, addr 0x39dfc04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_convertBoxGroups, addr 0x39e4cac, size 0x8, virtual true, abstract: false, final true
   inline bool get_convertBoxGroups();
 
-  /// @brief Method get_convertBoxGroupsEvents, addr 0x39dfbfc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_convertBoxGroupsEvents, addr 0x39e4ca4, size 0x8, virtual true, abstract: false, final true
   inline bool get_convertBoxGroupsEvents();
 
-  /// @brief Method get_hasConversions, addr 0x39dfbf4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasConversions, addr 0x39e4c9c, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasConversions();
 
-  /// @brief Method get_useRotationDirection, addr 0x39dfc0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_useRotationDirection, addr 0x39e4cb4, size 0x8, virtual true, abstract: false, final true
   inline bool get_useRotationDirection();
 
   /// @brief Convert to "::GlobalNamespace::IBeatmapLightEventConverter"
@@ -1692,7 +1692,7 @@ public:
   BeatmapLightEventConverterNoConvert(BeatmapLightEventConverterNoConvert const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14507 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14510 };
 
   /// @brief Field _ignoreColorEvents, offset: 0x10, size: 0x1, def value: None
   bool ____ignoreColorEvents;

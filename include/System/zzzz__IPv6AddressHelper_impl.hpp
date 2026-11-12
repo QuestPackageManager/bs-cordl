@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ValueTuple_2<int32_t, int32_t> (*)(::System::ReadOnlySpan_1<uint16_t>)>(&::System::IPv6AddressHelper::FindCompressionRange)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x67d70f8;
+  constexpr static std::size_t addrs = 0x67d7748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<uint16_t>)>(&::System::IPv6AddressHelper::ShouldHaveIpv4Embedded)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x67d71c4;
+  constexpr static std::size_t addrs = 0x67d7814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t*, int32_t, ::by_ref<int32_t>)>(&::System::IPv6AddressHelper::IsValidStrict)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x67d7294;
+  constexpr static std::size_t addrs = 0x67d78e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::ReadOnlySpan_1<char16_t>, uint16_t*, int32_t, ::by_ref<::StringW>)>(&::System::IPv6AddressHelper::Parse)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x67d7620;
+  constexpr static std::size_t addrs = 0x67d7c70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, int32_t, ::by_ref<bool>, ::by_ref<::StringW>)>(&::System::IPv6AddressHelper::ParseCanonicalName)> {
   constexpr static std::size_t size = 0x5b4;
-  constexpr static std::size_t addrs = 0x67d7ae4;
+  constexpr static std::size_t addrs = 0x67d8134;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<uint16_t>)>(&::System::IPv6AddressHelper::IsLoopback)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x67d8098;
+  constexpr static std::size_t addrs = 0x67d86e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t*, int32_t, ::by_ref<int32_t>, bool)>(&::System::IPv6AddressHelper::InternalIsValid)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x67d8174;
+  constexpr static std::size_t addrs = 0x67d87c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(char16_t*, int32_t, ::by_ref<int32_t>)>(&::System::IPv6AddressHelper::IsValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67d8478;
+  constexpr static std::size_t addrs = 0x67d8ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

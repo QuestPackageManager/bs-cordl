@@ -28,15 +28,15 @@ class CORDL_TYPE StringReferenceExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method EndsWith, addr 0x6189ff0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x618a278, size 0xa4, virtual false, abstract: false, final false
   static inline bool EndsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
   /// [Extension]
-  /// @brief Method IndexOf, addr 0x6189ec8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x618a150, size 0x88, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::Newtonsoft::Json::Utilities::StringReference s, char16_t c, int32_t startIndex, int32_t length);
 
   /// [Extension]
-  /// @brief Method StartsWith, addr 0x6189f50, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x618a1d8, size 0xa0, virtual false, abstract: false, final false
   static inline bool StartsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
 protected:

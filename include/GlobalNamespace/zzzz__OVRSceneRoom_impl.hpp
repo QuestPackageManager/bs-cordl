@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneRoom__LoadRoom_d__19::*)()>(&::GlobalNamespace::OVRSceneRoom__LoadRoom_d__19::MoveNext)> {
   constexpr static std::size_t size = 0x11a4;
-  constexpr static std::size_t addrs = 0x6325afc;
+  constexpr static std::size_t addrs = 0x6325d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneRoom__LoadRoom_d__19>(), { "MoveNext", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneRoom__LoadRoom_d__19::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::OVRSceneRoom__LoadRoom_d__19::SetStateMachine)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6326ca0;
+  constexpr static std::size_t addrs = 0x6326f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneRoom__LoadRoom_d__19>(),
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OVRScenePlane> (::GlobalNamespace::OVRSceneRoom::*)()>(&::GlobalNamespace::OVRSceneRoom::get_Floor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6325298;
+  constexpr static std::size_t addrs = 0x6325520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneRoom*>(), { "get_Floor", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneRoom::*)(::GlobalNamespace::OVRScenePlane*)>(&::GlobalNamespace::OVRSceneRoom::set_Floor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63252a0;
+  constexpr static std::size_t addrs = 0x6325528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OVRScenePlane> (::GlobalNamespace::OVRSceneRoom::*)()>(&::GlobalNamespace::OVRSceneRoom::get_Ceiling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63252a8;
+  constexpr static std::size_t addrs = 0x6325530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneRoom*>(), { "get_Ceiling", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneRoom::*)(::GlobalNamespace::OVRScenePlane*)>(&::GlobalNamespace::OVRSceneRoom::set_Ceiling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63252b0;
+  constexpr static std::size_t addrs = 0x6325538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::OVRScenePlane>> (::GlobalNamespace::OVRSceneRoom::*)()>(&::GlobalNamespace::OVRSceneRoom::get_Walls)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63252b8;
+  constexpr static std::size_t addrs = 0x6325540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneRoom*>(), { "get_Walls", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneRoom::*)(::ArrayW<::GlobalNamespace::OVRScenePlane*>)>(&::GlobalNamespace::OVRSceneRoom::set_Walls)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63252c0;
+  constexpr static std::size_t addrs = 0x6325548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneRoom::*)()>(&::GlobalNamespace::OVRSceneRoom::Awake)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x63252c8;
+  constexpr static std::size_t addrs = 0x6325550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneRoom*>(), { "Awake", {}, {} })));
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneRoom::*)()>(&::GlobalNamespace::OVRSceneRoom::IOVRSceneComponent_Initialize)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x6325400;
+  constexpr static std::size_t addrs = 0x6325688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneRoom*>(), { "IOVRSceneComponent.Initialize", {}, {} })));
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OVRTask_1<bool> (::GlobalNamespace::OVRSceneRoom::*)(::System::Guid, ::System::Guid, ::ArrayW<::System::Guid>)>(
     &::GlobalNamespace::OVRSceneRoom::LoadRoom)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6321300;
+  constexpr static std::size_t addrs = 0x6321588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneRoom::*)()>(&::GlobalNamespace::OVRSceneRoom::OnDestroy)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x632551c;
+  constexpr static std::size_t addrs = 0x63257a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneRoom*>(), { "OnDestroy", {}, {} })));
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneRoom::*)(::StringW)>(&::GlobalNamespace::OVRSceneRoom::Log)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x63255d8;
+  constexpr static std::size_t addrs = 0x6325860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneRoom*>(), { "Log", {}, { ::i2c::type_of<::StringW>() } })));
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneRoom::*)(::StringW)>(&::GlobalNamespace::OVRSceneRoom::LogWarning)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6325684;
+  constexpr static std::size_t addrs = 0x632590c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneRoom::*)(::StringW)>(&::GlobalNamespace::OVRSceneRoom::LogError)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6325730;
+  constexpr static std::size_t addrs = 0x63259b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneRoom*>(), { "LogError", {}, { ::i2c::type_of<::StringW>() } })));
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSceneRoom::*)()>(&::GlobalNamespace::OVRSceneRoom::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x63257dc;
+  constexpr static std::size_t addrs = 0x6325a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSceneRoom*>(), { ".ctor", {}, {} })));
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Guid, ::by_ref<::GlobalNamespace::OVRScenePlane*>)>(&::GlobalNamespace::OVRSceneRoom::_LoadRoom_g__TryGetPlane_19_0)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6325984;
+  constexpr static std::size_t addrs = 0x6325c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OVRScenePlane> (*)(::System::Guid)>(&::GlobalNamespace::OVRSceneRoom::_LoadRoom_g__GetPlane_19_1)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6325a7c;
+  constexpr static std::size_t addrs = 0x6325d04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

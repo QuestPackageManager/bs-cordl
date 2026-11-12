@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::ShadingRateInfo::get_supportsPerImageTile)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6fb71e8;
+  constexpr static std::size_t addrs = 0x6fb82c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShadingRateInfo*>(), { "get_supportsPerImageTile", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::ShadingRateInfo::get_supportsPerDrawCall)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6fb7238;
+  constexpr static std::size_t addrs = 0x6fb8318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShadingRateInfo*>(), { "get_supportsPerDrawCall", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int (*)()>(&::UnityEngine::Rendering::ShadingRateInfo::get_imageTileSize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6fb7288;
+  constexpr static std::size_t addrs = 0x6fb8368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShadingRateInfo*>(), { "get_imageTileSize", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::ShadingRateFragmentSize> (*)()>(&::UnityEngine::Rendering::ShadingRateInfo::get_availableFragmentSizes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6fb7310;
+  constexpr static std::size_t addrs = 0x6fb83f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShadingRateInfo*>(), { "get_availableFragmentSizes", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(::UnityEngine::Rendering::ShadingRateFragmentSize)>(&::UnityEngine::Rendering::ShadingRateInfo::QueryNativeValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6fb7428;
+  constexpr static std::size_t addrs = 0x6fb8508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShadingRateInfo*>(),
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::ShadingRateInfo::SupportsPerImageTile)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6fb7210;
+  constexpr static std::size_t addrs = 0x6fb82f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShadingRateInfo*>(), { "SupportsPerImageTile", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::Rendering::ShadingRateInfo::SupportsPerDrawCall)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6fb7260;
+  constexpr static std::size_t addrs = 0x6fb8340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShadingRateInfo*>(), { "SupportsPerDrawCall", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2Int (*)()>(&::UnityEngine::Rendering::ShadingRateInfo::GetImageTileSize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6fb72cc;
+  constexpr static std::size_t addrs = 0x6fb83ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShadingRateInfo*>(), { "GetImageTileSize", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::Rendering::ShadingRateFragmentSize> (*)()>(&::UnityEngine::Rendering::ShadingRateInfo::GetAvailableFragmentSizes)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6fb7314;
+  constexpr static std::size_t addrs = 0x6fb83f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShadingRateInfo*>(), { "GetAvailableFragmentSizes", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Vector2Int>)>(&::UnityEngine::Rendering::ShadingRateInfo::GetImageTileSize_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6fb7464;
+  constexpr static std::size_t addrs = 0x6fb8544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ShadingRateInfo*>(),
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::UnityEngine::Bindings::BlittableArrayWrapper>)>(
     &::UnityEngine::Rendering::ShadingRateInfo::GetAvailableFragmentSizes_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6fb74a0;
+  constexpr static std::size_t addrs = 0x6fb8580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

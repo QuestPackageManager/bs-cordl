@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::
                                                                                                                                  ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::GameplayModifiers*)>(
     &::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x354d5e0;
+  constexpr static std::size_t addrs = 0x3550580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                                                            ::GlobalNamespace::GameplayModifiers*)>(
         &::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation::ConvertInputData)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x354dadc;
+  constexpr static std::size_t addrs = 0x3550a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

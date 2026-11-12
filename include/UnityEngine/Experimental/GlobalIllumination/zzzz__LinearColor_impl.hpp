@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)()>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::get_red)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fc959c;
+  constexpr static std::size_t addrs = 0x6fca67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::GlobalIllumination::LinearColor>(), { "get_red", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)(float_t)>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::set_red)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6fc95a4;
+  constexpr static std::size_t addrs = 0x6fca684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)()>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::get_green)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fc9650;
+  constexpr static std::size_t addrs = 0x6fca730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::GlobalIllumination::LinearColor>(), { "get_green", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)(float_t)>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::set_green)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6fc9658;
+  constexpr static std::size_t addrs = 0x6fca738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)()>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::get_blue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6fc9704;
+  constexpr static std::size_t addrs = 0x6fca7e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::GlobalIllumination::LinearColor>(), { "get_blue", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)(float_t)>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::set_blue)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6fc970c;
+  constexpr static std::size_t addrs = 0x6fca7ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::GlobalIllumination::LinearColor (*)(::UnityEngine::Color, float_t)>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::Convert)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x6fc97b8;
+  constexpr static std::size_t addrs = 0x6fca898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::GlobalIllumination::LinearColor>(),
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Experimental::GlobalIllumination::LinearColor (*)()>(&::UnityEngine::Experimental::GlobalIllumination::LinearColor::Black)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6fc9af0;
+  constexpr static std::size_t addrs = 0x6fcabd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Experimental::GlobalIllumination::LinearColor>(), { "Black", {}, {} })));

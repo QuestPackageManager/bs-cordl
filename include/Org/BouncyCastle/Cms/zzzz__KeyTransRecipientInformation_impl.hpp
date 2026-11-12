@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Cms::KeyTransRecipientInformation::*)(
     ::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo*, ::Org::BouncyCastle::Cms::CmsSecureReadable*)>(&::Org::BouncyCastle::Cms::KeyTransRecipientInformation::_ctor)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x395a7fc;
+  constexpr static std::size_t addrs = 0x395ec94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Cms::KeyTransRecipientInformation::*)(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
     &::Org::BouncyCastle::Cms::KeyTransRecipientInformation::GetExchangeEncryptionAlgorithmName)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x397bc7c;
+  constexpr static std::size_t addrs = 0x3980114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::KeyParameter* (
     ::Org::BouncyCastle::Cms::KeyTransRecipientInformation::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Cms::KeyTransRecipientInformation::UnwrapKey)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x397be58;
+  constexpr static std::size_t addrs = 0x39802f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::KeyTransRecipientInformation*>(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Cms::CmsTypedStream* (
     ::Org::BouncyCastle::Cms::KeyTransRecipientInformation::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Cms::KeyTransRecipientInformation::GetContentStream)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x397c1ec;
+  constexpr static std::size_t addrs = 0x3980684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Cms::KeyTransRecipientInformation*>(),

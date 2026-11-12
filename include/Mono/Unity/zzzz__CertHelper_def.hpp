@@ -31,11 +31,11 @@ namespace Mono::Unity {
 class CORDL_TYPE CertHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddCertificateToNativeChain, addr 0x64298a4, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method AddCertificateToNativeChain, addr 0x6429ef4, size 0x1a4, virtual false, abstract: false, final false
   static inline void AddCertificateToNativeChain(::Mono::Unity::UnityTls_unitytls_x509list* nativeCertificateChain, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate,
                                                  ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method AddCertificatesToNativeChain, addr 0x6429704, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method AddCertificatesToNativeChain, addr 0x6429d54, size 0x1a0, virtual false, abstract: false, final false
   static inline void AddCertificatesToNativeChain(::Mono::Unity::UnityTls_unitytls_x509list* nativeCertificateChain,
                                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 

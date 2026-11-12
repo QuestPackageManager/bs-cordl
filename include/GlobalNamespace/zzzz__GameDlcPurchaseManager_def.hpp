@@ -92,11 +92,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39f02cc, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39f5374, size 0x288, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39f0554, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39f55fc, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -117,7 +117,7 @@ public:
                                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14597 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -170,11 +170,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39f05d4, size 0x4a0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39f567c, size 0x4a0, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39f0a74, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39f5b1c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -196,7 +196,7 @@ public:
                                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14595 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14598 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -253,11 +253,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39f0af4, size 0x504, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39f5b9c, size 0x504, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39f0ff8, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39f60a0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -277,7 +277,7 @@ public:
                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14599 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -355,33 +355,33 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x39efa20, size 0x124, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x39f4ac8, size 0x124, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// [AsyncStateMachine(typeof(GameDlcPurchaseManager::<GetGameDlcEntitlementStatusAsync>d__11))]
-  /// @brief Method GetGameDlcEntitlementStatusAsync, addr 0x39efb44, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetGameDlcEntitlementStatusAsync, addr 0x39f4bec, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetGameDlcEntitlementStatusAsync(::StringW gameDlcId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method GetOrStartEntitlementRequestAsync, addr 0x39efd28, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetOrStartEntitlementRequestAsync, addr 0x39f4dd0, size 0x134, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetOrStartEntitlementRequestAsync(::StringW gameDlcId);
 
-  /// @brief Method HandleAdditionalContentDidInvalidateData, addr 0x39f0128, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentDidInvalidateData, addr 0x39f51d0, size 0x1a4, virtual false, abstract: false, final false
   inline void HandleAdditionalContentDidInvalidateData();
 
   static inline ::GlobalNamespace::GameDlcPurchaseManager* New_ctor(::GlobalNamespace::IEntitlementModel* entitlementModel, ::GlobalNamespace::IAdditionalContentModel* additionalContentModel);
 
   /// [AsyncStateMachine(typeof(GameDlcPurchaseManager::<PurchaseGameDlcAsync>d__12))]
-  /// @brief Method PurchaseGameDlcAsync, addr 0x39efc34, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method PurchaseGameDlcAsync, addr 0x39f4cdc, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GameDlcPurchaseResult>* PurchaseGameDlcAsync(::StringW gameDlcId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method RefreshEntitlementStatusAsync, addr 0x39efe5c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RefreshEntitlementStatusAsync, addr 0x39f4f04, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* RefreshEntitlementStatusAsync(::StringW gameDlcId);
 
   /// [AsyncStateMachine(typeof(GameDlcPurchaseManager::<RequestEntitlementStatusAsync>d__15))]
-  /// @brief Method RequestEntitlementStatusAsync, addr 0x39eff3c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method RequestEntitlementStatusAsync, addr 0x39f4fe4, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* RequestEntitlementStatusAsync(::StringW gameDlcId);
 
-  /// @brief Method SetEntitlementStatus, addr 0x39f002c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetEntitlementStatus, addr 0x39f50d4, size 0xfc, virtual false, abstract: false, final false
   inline void SetEntitlementStatus(::StringW gameDlcId, ::GlobalNamespace::EntitlementStatus status);
 
   constexpr ::GlobalNamespace::IAdditionalContentModel* const& __cordl_internal_get__additionalContentModel() const;
@@ -426,18 +426,18 @@ public:
 
   constexpr void __cordl_internal_set_gameDlcEntitlementDidChangeEvent(::System::Action_2<::StringW, ::GlobalNamespace::EntitlementStatus>* value);
 
-  /// @brief Method .ctor, addr 0x39ef7c0, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f4868, size 0x260, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IEntitlementModel* entitlementModel, ::GlobalNamespace::IAdditionalContentModel* additionalContentModel);
 
   /// [CompilerGenerated]
-  /// @brief Method add_gameDlcEntitlementDidChangeEvent, addr 0x39ef640, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_gameDlcEntitlementDidChangeEvent, addr 0x39f46e8, size 0xc0, virtual false, abstract: false, final false
   inline void add_gameDlcEntitlementDidChangeEvent(::System::Action_2<::StringW, ::GlobalNamespace::EntitlementStatus>* value);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_gameDlcEntitlementDidChangeEvent, addr 0x39ef700, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_gameDlcEntitlementDidChangeEvent, addr 0x39f47a8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_gameDlcEntitlementDidChangeEvent(::System::Action_2<::StringW, ::GlobalNamespace::EntitlementStatus>* value);
 
 protected:
@@ -455,7 +455,7 @@ public:
   GameDlcPurchaseManager(GameDlcPurchaseManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14600 };
 
   /// @brief Field _entitlementModel, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IEntitlementModel* ____entitlementModel;

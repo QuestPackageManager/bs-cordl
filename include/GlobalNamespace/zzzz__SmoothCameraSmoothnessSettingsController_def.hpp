@@ -32,15 +32,15 @@ public:
   /// @brief Field kSmoothnesses, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_kSmoothnesses, put = setStaticF_kSmoothnesses)) ::ArrayW<float_t> kSmoothnesses;
 
-  /// @brief Method ApplyValue, addr 0x5e6fda8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x5e6fcc0, size 0xa4, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x5e6fc94, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x5e6fbac, size 0x114, virtual true, abstract: false, final false
   inline bool GetInitValues(::by_ref<int32_t> idx, ::by_ref<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::SmoothCameraSmoothnessSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x5e6fe4c, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x5e6fd64, size 0x10c, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x5e6ff58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e6fe70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<float_t> getStaticF_kSmoothnesses();

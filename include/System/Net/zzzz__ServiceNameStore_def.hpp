@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_serviceNames(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x687cc7c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x687d2cc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

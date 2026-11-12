@@ -100,10 +100,10 @@ public:
 
   constexpr void __cordl_internal_set_displayType(::UnityEngine::Rendering::BoolParameter_DisplayType value);
 
-  /// @brief Method .ctor, addr 0x6c273c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c284a4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(bool value, ::UnityEngine::Rendering::BoolParameter_DisplayType displayType, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6c2735c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2843c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(bool value, bool overrideState);
 
 protected:

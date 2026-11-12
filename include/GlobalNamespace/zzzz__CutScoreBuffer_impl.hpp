@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_executionOrder)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5e4c14c;
+  constexpr static std::size_t addrs = 0x5e4c57c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "get_executionOrder", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_maxPossibleCutScore)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5e4c178;
+  constexpr static std::size_t addrs = 0x5e4c5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "get_maxPossibleCutScore", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_isFinished)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4c1a4;
+  constexpr static std::size_t addrs = 0x5e4c5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "get_isFinished", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_cutScore)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5e4c1ac;
+  constexpr static std::size_t addrs = 0x5e4c5dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "get_cutScore", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_beforeCutScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4c1d8;
+  constexpr static std::size_t addrs = 0x5e4c608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "get_beforeCutScore", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_centerDistanceCutScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4c1e0;
+  constexpr static std::size_t addrs = 0x5e4c610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "get_centerDistanceCutScore", {}, {} })));
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_afterCutScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4c1e8;
+  constexpr static std::size_t addrs = 0x5e4c618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "get_afterCutScore", {}, {} })));
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ScoreModel_NoteScoreDefinition* (::GlobalNamespace::CutScoreBuffer::*)()>(
     &::GlobalNamespace::CutScoreBuffer::get_noteScoreDefinition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4c1f0;
+  constexpr static std::size_t addrs = 0x5e4c620;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "get_noteScoreDefinition", {}, {} })));
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteCutInfo (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_noteCutInfo)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5e4c1f8;
+  constexpr static std::size_t addrs = 0x5e4c628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "get_noteCutInfo", {}, {} })));
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_beforeCutSwingRating)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e4c208;
+  constexpr static std::size_t addrs = 0x5e4c638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "get_beforeCutSwingRating", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_afterCutSwingRating)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e4c220;
+  constexpr static std::size_t addrs = 0x5e4c650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "get_afterCutSwingRating", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutScoreBuffer::*)(::GlobalNamespace::ICutScoreBufferDidChangeReceiver*)>(
     &::GlobalNamespace::CutScoreBuffer::RegisterDidChangeReceiver)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5e4c238;
+  constexpr static std::size_t addrs = 0x5e4c668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutScoreBuffer::*)(::GlobalNamespace::ICutScoreBufferDidFinishReceiver*)>(
     &::GlobalNamespace::CutScoreBuffer::RegisterDidFinishReceiver)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5e4c29c;
+  constexpr static std::size_t addrs = 0x5e4c6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutScoreBuffer::*)(::GlobalNamespace::ICutScoreBufferDidChangeReceiver*)>(
     &::GlobalNamespace::CutScoreBuffer::UnregisterDidChangeReceiver)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5e4c300;
+  constexpr static std::size_t addrs = 0x5e4c730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutScoreBuffer::*)(::GlobalNamespace::ICutScoreBufferDidFinishReceiver*)>(
     &::GlobalNamespace::CutScoreBuffer::UnregisterDidFinishReceiver)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5e4c364;
+  constexpr static std::size_t addrs = 0x5e4c794;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CutScoreBuffer::*)(::by_ref<::GlobalNamespace::NoteCutInfo const>)>(&::GlobalNamespace::CutScoreBuffer::Init)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x5e4c3c8;
+  constexpr static std::size_t addrs = 0x5e4c7f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::RefreshScores)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x5e4c634;
+  constexpr static std::size_t addrs = 0x5e4ca64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { "RefreshScores", {}, {} })));
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutScoreBuffer::*)(::GlobalNamespace::ISaberSwingRatingCounter*, float_t)>(
     &::GlobalNamespace::CutScoreBuffer::HandleSaberSwingRatingCounterDidChange)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x5e4c838;
+  constexpr static std::size_t addrs = 0x5e4cc68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutScoreBuffer::*)(::GlobalNamespace::ISaberSwingRatingCounter*)>(
     &::GlobalNamespace::CutScoreBuffer::HandleSaberSwingRatingCounterDidFinish)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x5e4c9e0;
+  constexpr static std::size_t addrs = 0x5e4ce10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5e4cc70;
+  constexpr static std::size_t addrs = 0x5e4d0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CutScoreBuffer*>(), { ".ctor", {}, {} })));

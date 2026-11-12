@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::RectTransform*, ::UnityEngine::RectTransform*)>(&::GlobalNamespace::UIExtensionMethods::CopySizeAndPositionFrom)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5ca5fe0;
+  constexpr static std::size_t addrs = 0x5ca4790;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::RectTransform*)>(&::GlobalNamespace::UIExtensionMethods::GetWorldRect)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5ca60ac;
+  constexpr static std::size_t addrs = 0x5ca485c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::BrowsingMenusRichPresenceData::*)()>(&::GlobalNamespace::BrowsingMenusRichPresenceData::get_apiName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5d5440c;
+  constexpr static std::size_t addrs = 0x5d53980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BrowsingMenusRichPresenceData*>(), { "get_apiName", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::BrowsingMenusRichPresenceData::*)()>(
     &::GlobalNamespace::BrowsingMenusRichPresenceData::get_localizedDescription)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5d54450;
+  constexpr static std::size_t addrs = 0x5d539c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BrowsingMenusRichPresenceData::*)()>(&::GlobalNamespace::BrowsingMenusRichPresenceData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d544ac;
+  constexpr static std::size_t addrs = 0x5d53a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BrowsingMenusRichPresenceData*>(), { ".ctor", {}, {} })));

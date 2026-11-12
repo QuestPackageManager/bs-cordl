@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type2Message::*)(::ArrayW<uint8_t>)>(&::Mono::Security::Protocol::Ntlm::Type2Message::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5ef1588;
+  constexpr static std::size_t addrs = 0x5ef1810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type2Message::*)()>(&::Mono::Security::Protocol::Ntlm::Type2Message::Finalize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5ef162c;
+  constexpr static std::size_t addrs = 0x5ef18b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Protocol::Ntlm::Type2Message::*)()>(&::Mono::Security::Protocol::Ntlm::Type2Message::get_Nonce)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5ef068c;
+  constexpr static std::size_t addrs = 0x5ef0914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Protocol::Ntlm::Type2Message*>(), { "get_Nonce", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Mono::Security::Protocol::Ntlm::Type2Message::*)()>(&::Mono::Security::Protocol::Ntlm::Type2Message::get_TargetName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ef1684;
+  constexpr static std::size_t addrs = 0x5ef190c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Protocol::Ntlm::Type2Message*>(), { "get_TargetName", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Protocol::Ntlm::Type2Message::*)()>(&::Mono::Security::Protocol::Ntlm::Type2Message::get_TargetInfo)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5ef0614;
+  constexpr static std::size_t addrs = 0x5ef089c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Mono::Security::Protocol::Ntlm::Type2Message*>(), { "get_TargetInfo", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type2Message::*)(::ArrayW<uint8_t>)>(&::Mono::Security::Protocol::Ntlm::Type2Message::Decode)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5ef168c;
+  constexpr static std::size_t addrs = 0x5ef1914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Mono::Security::Protocol::Ntlm::Type2Message::*)()>(&::Mono::Security::Protocol::Ntlm::Type2Message::GetBytes)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5ef1810;
+  constexpr static std::size_t addrs = 0x5ef1a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

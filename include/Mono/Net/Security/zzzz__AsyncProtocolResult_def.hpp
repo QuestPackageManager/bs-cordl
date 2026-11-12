@@ -50,18 +50,18 @@ public:
 
   constexpr void __cordl_internal_set__UserResult_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x642f4e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642fb38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error);
 
-  /// @brief Method .ctor, addr 0x642f4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x642fb30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t result);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Error, addr 0x642f4d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x642fb28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
 
   /// [CompilerGenerated]
-  /// @brief Method get_UserResult, addr 0x642f4d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserResult, addr 0x642fb20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_UserResult();
 
 protected:

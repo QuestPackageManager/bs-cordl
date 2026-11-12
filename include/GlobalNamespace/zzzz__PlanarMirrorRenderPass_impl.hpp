@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorRenderPass_PassData::*)()>(&::GlobalNamespace::PlanarMirrorRenderPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63a31cc;
+  constexpr static std::size_t addrs = 0x63a381c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlanarMirrorRenderPass_PassData*>(), { ".ctor", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorRenderPass___c::*)()>(&::GlobalNamespace::PlanarMirrorRenderPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63a3224;
+  constexpr static std::size_t addrs = 0x63a3874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PlanarMirrorRenderPass___c*>(), { ".ctor", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorRenderPass___c::*)(
     ::GlobalNamespace::PlanarMirrorRenderPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(&::GlobalNamespace::PlanarMirrorRenderPass___c::_RecordRenderGraph_b__9_0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x63a3228;
+  constexpr static std::size_t addrs = 0x63a3878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorRenderPass::*)(::UnityEngine::Rendering::CullingResults)>(
     &::GlobalNamespace::PlanarMirrorRenderPass::set_cullResults)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x63a1eb0;
+  constexpr static std::size_t addrs = 0x63a2500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorRenderPass::*)(::UnityEngine::Rendering::Universal::RenderPassEvent, ::GlobalNamespace::MirrorRendererSO*)>(
     &::GlobalNamespace::PlanarMirrorRenderPass::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x63a10fc;
+  constexpr static std::size_t addrs = 0x63a174c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PlanarMirrorRenderPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::GlobalNamespace::PlanarMirrorRenderPass::RecordRenderGraph)> {
   constexpr static std::size_t size = 0xf0c;
-  constexpr static std::size_t addrs = 0x63a1eb8;
+  constexpr static std::size_t addrs = 0x63a2508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::PlanarMirrorRenderPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::GlobalNamespace::PlanarMirrorRenderPass::Render)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x63a2dc4;
+  constexpr static std::size_t addrs = 0x63a3414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

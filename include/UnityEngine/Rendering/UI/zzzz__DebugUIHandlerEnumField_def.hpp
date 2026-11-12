@@ -24,16 +24,16 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerEnumField* New_ctor();
 
-  /// @brief Method OnDecrement, addr 0x6c6df3c, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method OnDecrement, addr 0x6c6f01c, size 0x1d8, virtual true, abstract: false, final false
   inline void OnDecrement(bool fast);
 
-  /// @brief Method OnIncrement, addr 0x6c6dda0, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method OnIncrement, addr 0x6c6ee80, size 0x19c, virtual true, abstract: false, final false
   inline void OnIncrement(bool fast);
 
-  /// @brief Method UpdateValueLabel, addr 0x6c6e114, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method UpdateValueLabel, addr 0x6c6f1f4, size 0xa4, virtual true, abstract: false, final false
   inline void UpdateValueLabel();
 
-  /// @brief Method .ctor, addr 0x6c6e1b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c6f298, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

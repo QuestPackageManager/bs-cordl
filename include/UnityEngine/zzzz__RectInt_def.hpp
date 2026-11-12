@@ -60,71 +60,71 @@ public:
   constexpr operator ::System::IFormattable*();
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6f123bc, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f1349c, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6f1246c, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f1354c, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::RectInt other);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6f124b0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f13590, size 0x4c, virtual false, abstract: false, final false
   inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::RectInt const> other);
 
   /// [IsReadOnly]
-  /// @brief Method GetHashCode, addr 0x6f12398, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f13478, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [IsReadOnly]
-  /// @brief Method Overlaps, addr 0x6f11f00, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Overlaps, addr 0x6f12fe0, size 0x13c, virtual false, abstract: false, final false
   inline bool Overlaps(::UnityEngine::RectInt other);
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x6f1203c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f1311c, size 0x64, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x6f120a0, size 0x23c, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x6f13180, size 0x23c, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x6f11e98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f12f78, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t xMin, int32_t yMin, int32_t width, int32_t height);
 
   static inline ::UnityEngine::RectInt getStaticF_kZero();
 
   /// [IsReadOnly]
-  /// @brief Method get_height, addr 0x6f11e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x6f12f08, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
   /// [IsReadOnly]
-  /// @brief Method get_width, addr 0x6f11e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x6f12ef8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
   /// [IsReadOnly]
-  /// @brief Method get_x, addr 0x6f11df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x6f12ed8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_x();
 
   /// [IsReadOnly]
-  /// @brief Method get_xMax, addr 0x6f11e68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_xMax, addr 0x6f12f48, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_xMax();
 
   /// [IsReadOnly]
-  /// @brief Method get_xMin, addr 0x6f11e38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_xMin, addr 0x6f12f18, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_xMin();
 
   /// [IsReadOnly]
-  /// @brief Method get_y, addr 0x6f11e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x6f12ee8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_y();
 
   /// [IsReadOnly]
-  /// @brief Method get_yMax, addr 0x6f11e80, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_yMax, addr 0x6f12f60, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_yMax();
 
   /// [IsReadOnly]
-  /// @brief Method get_yMin, addr 0x6f11e50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_yMin, addr 0x6f12f30, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_yMin();
 
-  /// @brief Method get_zero, addr 0x6f11ea4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x6f12f84, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::RectInt get_zero();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::RectInt>"
@@ -133,24 +133,24 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Equality, addr 0x6f12370, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6f13450, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::RectInt lhs, ::UnityEngine::RectInt rhs);
 
-  /// @brief Method op_Inequality, addr 0x6f122dc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6f133bc, size 0x94, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::RectInt lhs, ::UnityEngine::RectInt rhs);
 
   static inline void setStaticF_kZero(::UnityEngine::RectInt value);
 
-  /// @brief Method set_height, addr 0x6f11e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x6f12f10, size 0x8, virtual false, abstract: false, final false
   inline void set_height(int32_t value);
 
-  /// @brief Method set_width, addr 0x6f11e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x6f12f00, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
-  /// @brief Method set_x, addr 0x6f11e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_x, addr 0x6f12ee0, size 0x8, virtual false, abstract: false, final false
   inline void set_x(int32_t value);
 
-  /// @brief Method set_y, addr 0x6f11e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_y, addr 0x6f12ef0, size 0x8, virtual false, abstract: false, final false
   inline void set_y(int32_t value);
 
   // Ctor Parameters []

@@ -83,7 +83,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6183be8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6183e70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

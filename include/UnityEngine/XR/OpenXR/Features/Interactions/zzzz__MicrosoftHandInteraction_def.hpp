@@ -145,7 +145,7 @@ public:
   /// @brief [InputControl(offset = 136)]
   __declspec(property(get = get_trackingState, put = set_trackingState)) ::UnityEngine::InputSystem::Controls::IntegerControl* trackingState;
 
-  /// @brief Method FinishSetup, addr 0x6e9fb2c, size 0x2d8, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6ea0c0c, size 0x2d8, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction_HoloLensHand* New_ctor();
@@ -222,103 +222,103 @@ public:
 
   constexpr void __cordl_internal_set__trackingState_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method .ctor, addr 0x6e9fe04, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ea0ee4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_devicePose, addr 0x6e9faac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_devicePose, addr 0x6ea0b8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_devicePose();
 
   /// [CompilerGenerated]
-  /// @brief Method get_devicePosition, addr 0x6e9faec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_devicePosition, addr 0x6ea0bcc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_devicePosition();
 
   /// [CompilerGenerated]
-  /// @brief Method get_deviceRotation, addr 0x6e9fafc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceRotation, addr 0x6ea0bdc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_deviceRotation();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isTracked, addr 0x6e9facc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTracked, addr 0x6ea0bac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointer, addr 0x6e9fabc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointer, addr 0x6ea0b9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::Input::PoseControl* get_pointer();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointerPosition, addr 0x6e9fb0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerPosition, addr 0x6ea0bec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_pointerPosition();
 
   /// [CompilerGenerated]
-  /// @brief Method get_pointerRotation, addr 0x6e9fb1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerRotation, addr 0x6ea0bfc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_pointerRotation();
 
   /// [CompilerGenerated]
-  /// @brief Method get_select, addr 0x6e9fa6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_select, addr 0x6ea0b4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_select();
 
   /// [CompilerGenerated]
-  /// @brief Method get_selectPressed, addr 0x6e9fa7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectPressed, addr 0x6ea0b5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_selectPressed();
 
   /// [CompilerGenerated]
-  /// @brief Method get_squeeze, addr 0x6e9fa8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_squeeze, addr 0x6ea0b6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_squeeze();
 
   /// [CompilerGenerated]
-  /// @brief Method get_squeezePressed, addr 0x6e9fa9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_squeezePressed, addr 0x6ea0b7c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_squeezePressed();
 
   /// [CompilerGenerated]
-  /// @brief Method get_trackingState, addr 0x6e9fadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingState, addr 0x6ea0bbc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState();
 
   /// [CompilerGenerated]
-  /// @brief Method set_devicePose, addr 0x6e9fab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_devicePose, addr 0x6ea0b94, size 0x8, virtual false, abstract: false, final false
   inline void set_devicePose(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_devicePosition, addr 0x6e9faf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_devicePosition, addr 0x6ea0bd4, size 0x8, virtual false, abstract: false, final false
   inline void set_devicePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_deviceRotation, addr 0x6e9fb04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceRotation, addr 0x6ea0be4, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isTracked, addr 0x6e9fad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isTracked, addr 0x6ea0bb4, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointer, addr 0x6e9fac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointer, addr 0x6ea0ba4, size 0x8, virtual false, abstract: false, final false
   inline void set_pointer(::UnityEngine::XR::OpenXR::Input::PoseControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointerPosition, addr 0x6e9fb14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerPosition, addr 0x6ea0bf4, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerPosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_pointerRotation, addr 0x6e9fb24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerRotation, addr 0x6ea0c04, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_select, addr 0x6e9fa74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_select, addr 0x6ea0b54, size 0x8, virtual false, abstract: false, final false
   inline void set_select(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_selectPressed, addr 0x6e9fa84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectPressed, addr 0x6ea0b64, size 0x8, virtual false, abstract: false, final false
   inline void set_selectPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_squeeze, addr 0x6e9fa94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_squeeze, addr 0x6ea0b74, size 0x8, virtual false, abstract: false, final false
   inline void set_squeeze(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_squeezePressed, addr 0x6e9faa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_squeezePressed, addr 0x6ea0b84, size 0x8, virtual false, abstract: false, final false
   inline void set_squeezePressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_trackingState, addr 0x6e9fae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingState, addr 0x6ea0bc4, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
 protected:
@@ -336,7 +336,7 @@ public:
   MicrosoftHandInteraction_HoloLensHand(MicrosoftHandInteraction_HoloLensHand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17680 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17688 };
 
   /// [CompilerGenerated]
   /// @brief Field <select>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
@@ -429,24 +429,24 @@ public:
   /// @brief Field wasHoloLensEnabled, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_wasHoloLensEnabled, put = setStaticF_wasHoloLensEnabled)) bool wasHoloLensEnabled;
 
-  /// @brief Method GetDeviceLayoutName, addr 0x6e9eaf8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetDeviceLayoutName, addr 0x6e9fbd8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetDeviceLayoutName();
 
   static inline ::UnityEngine::XR::OpenXR::Features::Interactions::MicrosoftHandInteraction* New_ctor();
 
-  /// @brief Method OnEnabledChange, addr 0x6e9e870, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method OnEnabledChange, addr 0x6e9f950, size 0xd0, virtual true, abstract: false, final false
   inline void OnEnabledChange();
 
-  /// @brief Method RegisterActionMapsWithRuntime, addr 0x6e9eb3c, size 0xed4, virtual true, abstract: false, final false
+  /// @brief Method RegisterActionMapsWithRuntime, addr 0x6e9fc1c, size 0xed4, virtual true, abstract: false, final false
   inline void RegisterActionMapsWithRuntime();
 
-  /// @brief Method RegisterDeviceLayout, addr 0x6e9e940, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method RegisterDeviceLayout, addr 0x6e9fa20, size 0x148, virtual true, abstract: false, final false
   inline void RegisterDeviceLayout();
 
-  /// @brief Method UnregisterDeviceLayout, addr 0x6e9ea88, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method UnregisterDeviceLayout, addr 0x6e9fb68, size 0x70, virtual true, abstract: false, final false
   inline void UnregisterDeviceLayout();
 
-  /// @brief Method .ctor, addr 0x6e9fa10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ea0af0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF_wasHoloLensEnabled();
@@ -468,7 +468,7 @@ public:
   MicrosoftHandInteraction(MicrosoftHandInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17681 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17689 };
 
   /// @brief Field aim offset 0xffffffff size 0x8
   static constexpr ::ConstString aim{ u"/input/aim/pose" };

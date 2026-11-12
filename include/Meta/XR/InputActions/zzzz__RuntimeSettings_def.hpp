@@ -57,14 +57,14 @@ public:
 
   constexpr void __cordl_internal_set_InputActionSets(::System::Collections::Generic::List_1<::UnityW<::Meta::XR::InputActions::InputActionSet>>* value);
 
-  /// @brief Method .ctor, addr 0x62a76bc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62a7944, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_InstanceAssetName();
 
   static inline ::UnityW<::Meta::XR::InputActions::RuntimeSettings> getStaticF__instance();
 
-  /// @brief Method get_Instance, addr 0x62a75ac, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x62a7834, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityW<::Meta::XR::InputActions::RuntimeSettings> get_Instance();
 
   static inline void setStaticF_InstanceAssetName(::StringW value);

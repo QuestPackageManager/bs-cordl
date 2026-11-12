@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusGameDlcProductCollectionModel::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusGameDlcProductSO>>*)>(&::GlobalNamespace::OculusGameDlcProductCollectionModel::_ctor)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x39f5bb8;
+  constexpr static std::size_t addrs = 0x39fae08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::OculusGameDlcProductSO> (::GlobalNamespace::OculusGameDlcProductCollectionModel::*)(::StringW)>(
     &::GlobalNamespace::OculusGameDlcProductCollectionModel::GetGameDlcProductData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39f5f1c;
+  constexpr static std::size_t addrs = 0x39fb16c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

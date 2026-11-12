@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::BeatSaber::Destinations::SceneNames::ShouldDisableRootObjects)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3528e18;
+  constexpr static std::size_t addrs = 0x352b458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

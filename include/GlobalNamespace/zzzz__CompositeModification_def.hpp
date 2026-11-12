@@ -36,13 +36,13 @@ public:
 
   constexpr void __cordl_internal_set__flags(::GlobalNamespace::CompositeModificationFlags value);
 
-  /// @brief Method .ctor, addr 0x5deb458, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5deb570, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_flags, addr 0x5deb46c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flags, addr 0x5deb584, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CompositeModificationFlags get_flags();
 
-  /// @brief Method set_flags, addr 0x5deb474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_flags, addr 0x5deb58c, size 0x8, virtual false, abstract: false, final false
   inline void set_flags(::GlobalNamespace::CompositeModificationFlags value);
 
 protected:

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x68175f4;
+  constexpr static std::size_t addrs = 0x6817c44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)(
     ::System::Security::Cryptography::AsnEncodedData*, bool)>(&::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6817680;
+  constexpr static std::size_t addrs = 0x6817cd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)(::ArrayW<uint8_t>, bool)>(
     &::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x681789c;
+  constexpr static std::size_t addrs = 0x6817eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension*>(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)(::StringW, bool)>(
     &::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6817aa0;
+  constexpr static std::size_t addrs = 0x68180f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension*>(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)(
     ::System::Security::Cryptography::X509Certificates::PublicKey*, bool)>(&::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6817ce4;
+  constexpr static std::size_t addrs = 0x6818334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security:
     ::System::Security::Cryptography::X509Certificates::PublicKey*, ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierHashAlgorithm, bool)>(
     &::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::_ctor)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x6817cf0;
+  constexpr static std::size_t addrs = 0x6818340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::get_SubjectKeyIdentifier)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6818088;
+  constexpr static std::size_t addrs = 0x68186d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)(
     ::System::Security::Cryptography::AsnEncodedData*)>(&::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::CopyFrom)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x681810c;
+  constexpr static std::size_t addrs = 0x681875c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(char16_t)>(&::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::FromHexChar)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x68182d0;
+  constexpr static std::size_t addrs = 0x6818920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension*>(),
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(char16_t, char16_t)>(&::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::FromHexChars)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x681830c;
+  constexpr static std::size_t addrs = 0x681895c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension*>(),
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(::StringW)>(&::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::FromHex)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6817bf0;
+  constexpr static std::size_t addrs = 0x6818240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension*>(),
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::AsnDecodeStatus (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)(
     ::ArrayW<uint8_t>)>(&::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::Decode)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6817740;
+  constexpr static std::size_t addrs = 0x6817d90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension*>(),
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::Encode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6817a3c;
+  constexpr static std::size_t addrs = 0x681808c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)(bool)>(
     &::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::ToString)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x68183a8;
+  constexpr static std::size_t addrs = 0x68189f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

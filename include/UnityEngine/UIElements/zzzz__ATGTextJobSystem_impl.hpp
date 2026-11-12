@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextJobSystem_ManagedJobData::*)()>(&::UnityEngine::UIElements::ATGTextJobSystem_ManagedJobData::Clear)> {
   constexpr static std::size_t size = 0x408;
-  constexpr static std::size_t addrs = 0x7161b1c;
+  constexpr static std::size_t addrs = 0x7162bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextJobSystem_ManagedJobData*>(), { "Clear", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextJobSystem_ManagedJobData::*)()>(&::UnityEngine::UIElements::ATGTextJobSystem_ManagedJobData::_ctor)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x7161f24;
+  constexpr static std::size_t addrs = 0x7163004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextJobSystem_ManagedJobData*>(), { ".ctor", {}, {} })));
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextJobSystem_PrepareShapingJob::*)(int32_t)>(
     &::UnityEngine::UIElements::ATGTextJobSystem_PrepareShapingJob::Execute)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x71621b4;
+  constexpr static std::size_t addrs = 0x7163294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextJobSystem_GenerateTextJobData::*)(int32_t)>(
     &::UnityEngine::UIElements::ATGTextJobSystem_GenerateTextJobData::Execute)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x715f62c;
+  constexpr static std::size_t addrs = 0x716070c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextJobSystem_ConvertToUIRVertexJobData::*)(int32_t)>(
     &::UnityEngine::UIElements::ATGTextJobSystem_ConvertToUIRVertexJobData::Execute)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x71622cc;
+  constexpr static std::size_t addrs = 0x71633ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextJobSystem___c::*)()>(&::UnityEngine::UIElements::ATGTextJobSystem___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x716250c;
+  constexpr static std::size_t addrs = 0x71635ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextJobSystem___c*>(), { ".ctor", {}, {} })));
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::ATGTextJobSystem_ManagedJobData* (::UnityEngine::UIElements::ATGTextJobSystem___c::*)()>(
     &::UnityEngine::UIElements::ATGTextJobSystem___c::__cctor_b__26_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x7162510;
+  constexpr static std::size_t addrs = 0x71635f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextJobSystem___c*>(), { "<.cctor>b__26_0", {}, {} })));
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextJobSystem___c::*)(::UnityEngine::UIElements::ATGTextJobSystem_ManagedJobData*)>(
     &::UnityEngine::UIElements::ATGTextJobSystem___c::__cctor_b__26_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x7162564;
+  constexpr static std::size_t addrs = 0x7163644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::HashSet_1<uint32_t>*>* (
     ::UnityEngine::UIElements::ATGTextJobSystem___c::*)()>(&::UnityEngine::UIElements::ATGTextJobSystem___c::__cctor_b__26_2)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x7162578;
+  constexpr static std::size_t addrs = 0x7163658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextJobSystem___c*>(), { "<.cctor>b__26_2", {}, {} })));
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextJobSystem___c::*)(
     ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::HashSet_1<uint32_t>*>*)>(&::UnityEngine::UIElements::ATGTextJobSystem___c::__cctor_b__26_3)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x716260c;
+  constexpr static std::size_t addrs = 0x71636ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -443,7 +443,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextJobSystem::*)()>(&::UnityEngine::UIElements::ATGTextJobSystem::_ctor)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x715e9d4;
+  constexpr static std::size_t addrs = 0x715fab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextJobSystem*>(), { ".ctor", {}, {} })));
@@ -455,7 +455,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::TextElement*)>(&::UnityEngine::UIElements::ATGTextJobSystem::PrepareTextElementForJobsOnMainThread)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x715eb50;
+  constexpr static std::size_t addrs = 0x715fc30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextJobSystem::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::ATGTextJobSystem::PrepareShapingBeforeLayout)> {
   constexpr static std::size_t size = 0x538;
-  constexpr static std::size_t addrs = 0x715ec88;
+  constexpr static std::size_t addrs = 0x715fd68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -485,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextJobSystem::*)(Il2CppObject*, ::UnityEngine::UIElements::TextElement*)>(
     &::UnityEngine::UIElements::ATGTextJobSystem::GenerateText)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x715f234;
+  constexpr static std::size_t addrs = 0x7160314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextJobSystem::*)(Il2CppObject*, ::System::Object*)>(
     &::UnityEngine::UIElements::ATGTextJobSystem::GenerateTextJobified)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x715f3ec;
+  constexpr static std::size_t addrs = 0x71604cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextJobSystem*>(),
@@ -514,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextJobSystem::*)(Il2CppObject*, ::System::Object*)>(
     &::UnityEngine::UIElements::ATGTextJobSystem::PopulateGlyphs)> {
   constexpr static std::size_t size = 0x8a0;
-  constexpr static std::size_t addrs = 0x715f8e8;
+  constexpr static std::size_t addrs = 0x71609c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextJobSystem*>(),
@@ -528,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::ATGTextJobSystem::*)(Il2CppObject*, ::System::Object*)>(
     &::UnityEngine::UIElements::ATGTextJobSystem::AddDrawEntries)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x7160188;
+  constexpr static std::size_t addrs = 0x7161268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::ATGTextJobSystem*>(),
@@ -548,7 +548,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphRenderMode>*>, ::by_ref<::System::Collections::Generic::List_1<float_t>*>)>(
         &::UnityEngine::UIElements::ATGTextJobSystem::ConvertMeshInfoToUIRVertex)> {
   constexpr static std::size_t size = 0xe48;
-  constexpr static std::size_t addrs = 0x7160904;
+  constexpr static std::size_t addrs = 0x71619e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

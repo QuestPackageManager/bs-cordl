@@ -132,7 +132,7 @@ public:
   /// @brief Field minOccurs, offset 0x50, size 0x10
   __declspec(property(get = __cordl_internal_get_minOccurs, put = __cordl_internal_set_minOccurs)) ::System::Decimal minOccurs;
 
-  /// @brief Method GetQualifiedName, addr 0x66987e8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetQualifiedName, addr 0x6698e38, size 0x188, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* GetQualifiedName();
 
   static inline ::System::Xml::Schema::XmlSchemaParticle* New_ctor();
@@ -155,41 +155,41 @@ public:
 
   constexpr void __cordl_internal_set_minOccurs(::System::Decimal value);
 
-  /// @brief Method .ctor, addr 0x6698970, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6698fc0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::XmlSchemaParticle* getStaticF_Empty();
 
-  /// @brief Method get_IsEmpty, addr 0x6698764, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x6698db4, size 0x70, virtual true, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_MaxOccurs, addr 0x66985f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MaxOccurs, addr 0x6698c44, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_MaxOccurs();
 
-  /// @brief Method get_MaxOccursString, addr 0x6698204, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_MaxOccursString, addr 0x6698854, size 0xe4, virtual false, abstract: false, final false
   inline ::StringW get_MaxOccursString();
 
-  /// @brief Method get_MinOccurs, addr 0x66984bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MinOccurs, addr 0x6698b0c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_MinOccurs();
 
-  /// @brief Method get_MinOccursString, addr 0x669802c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_MinOccursString, addr 0x669867c, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW get_MinOccursString();
 
-  /// @brief Method get_NameString, addr 0x66987d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_NameString, addr 0x6698e24, size 0x14, virtual true, abstract: false, final false
   inline ::StringW get_NameString();
 
   static inline void setStaticF_Empty(::System::Xml::Schema::XmlSchemaParticle* value);
 
-  /// @brief Method set_MaxOccurs, addr 0x6698600, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method set_MaxOccurs, addr 0x6698c50, size 0x164, virtual false, abstract: false, final false
   inline void set_MaxOccurs(::System::Decimal value);
 
-  /// @brief Method set_MaxOccursString, addr 0x66982e8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method set_MaxOccursString, addr 0x6698938, size 0x1d4, virtual false, abstract: false, final false
   inline void set_MaxOccursString(::StringW value);
 
-  /// @brief Method set_MinOccurs, addr 0x66984c8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method set_MinOccurs, addr 0x6698b18, size 0x12c, virtual false, abstract: false, final false
   inline void set_MinOccurs(::System::Decimal value);
 
-  /// @brief Method set_MinOccursString, addr 0x66980a8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method set_MinOccursString, addr 0x66986f8, size 0x15c, virtual false, abstract: false, final false
   inline void set_MinOccursString(::StringW value);
 
 protected:

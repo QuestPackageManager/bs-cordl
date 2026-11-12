@@ -54,7 +54,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x682c88c, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x682cedc, size 0xb8, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* item1, ::System::Object* item2);
 
   static inline ::System::ComponentModel::ReferenceConverter_ReferenceComparer* New_ctor(::System::ComponentModel::ReferenceConverter* converter);
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__converter(::System::ComponentModel::ReferenceConverter* value);
 
-  /// @brief Method .ctor, addr 0x682c804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x682ce54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ReferenceConverter* converter);
 
   /// @brief Convert to "::System::Collections::IComparer"
@@ -114,26 +114,26 @@ public:
   /// @brief Field s_none, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_none, put = setStaticF_s_none)) ::StringW s_none;
 
-  /// @brief Method CanConvertFrom, addr 0x682b86c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x682bebc, size 0x84, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method ConvertFrom, addr 0x682b8f0, size 0x340, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x682bf40, size 0x340, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x682bc30, size 0x414, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x682c280, size 0x414, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetStandardValues, addr 0x682c044, size 0x7c0, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValues, addr 0x682c694, size 0x7c0, virtual true, abstract: false, final false
   inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x682c80c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesExclusive, addr 0x682ce5c, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesSupported, addr 0x682c814, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesSupported, addr 0x682ce64, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method IsValueAllowed, addr 0x682c81c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsValueAllowed, addr 0x682ce6c, size 0x8, virtual true, abstract: false, final false
   inline bool IsValueAllowed(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value);
 
   static inline ::System::ComponentModel::ReferenceConverter* New_ctor(::System::Type* type);
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x682b864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x682beb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
   static inline ::StringW getStaticF_s_none();

@@ -55,10 +55,10 @@ public:
   /// @brief Field reusableVerts, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_reusableVerts, put = __cordl_internal_set_reusableVerts)) ::ArrayW<::UnityEngine::Vector3> reusableVerts;
 
-  /// @brief Method CreateMeshIfNonExisting, addr 0x5dd36a4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshIfNonExisting, addr 0x5dd37c0, size 0xbc, virtual false, abstract: false, final false
   inline void CreateMeshIfNonExisting();
 
-  /// @brief Method CreateSliderMesh, addr 0x5dd3760, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method CreateSliderMesh, addr 0x5dd387c, size 0x1dc, virtual false, abstract: false, final false
   inline void CreateSliderMesh(::GlobalNamespace::VertexPath* path, float_t zDistanceBetweenNotes);
 
   /// @brief Method CreateSliderMeshInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -72,7 +72,7 @@ public:
 
   static inline ::GlobalNamespace::SliderMeshConstructor* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5dd3698, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5dd37b4, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
@@ -111,10 +111,10 @@ public:
 
   constexpr void __cordl_internal_set_reusableVerts(::ArrayW<::UnityEngine::Vector3> value);
 
-  /// @brief Method .ctor, addr 0x5dd393c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dd3a58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x5dd3690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x5dd37ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
 protected:

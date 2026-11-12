@@ -221,13 +221,13 @@ public:
 
   constexpr void __cordl_internal_set_uberPostPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6cb2908, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb39e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6cb2900, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6cb39e0, size 0x8, virtual true, abstract: false, final true
   inline bool get_isAvailableInPlayerBuild();
 
-  /// @brief Method get_version, addr 0x6cb28f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6cb39d8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -430,13 +430,13 @@ public:
 
   constexpr void __cordl_internal_set_smaaSearchTex(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x6cb291c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb39fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6cb2914, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6cb39f4, size 0x8, virtual true, abstract: false, final true
   inline bool get_isAvailableInPlayerBuild();
 
-  /// @brief Method get_version, addr 0x6cb290c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6cb39ec, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -532,7 +532,7 @@ public:
 
   constexpr void __cordl_internal_set_textures(::UnityEngine::Rendering::Universal::PostProcessData_TextureResources* value);
 
-  /// @brief Method .ctor, addr 0x6cb28f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb39d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

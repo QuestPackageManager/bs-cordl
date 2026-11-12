@@ -23,7 +23,7 @@ public:
   // Declarations
   __declspec(property(get = get_rchRenderModelComponentName)) ::StringW rchRenderModelComponentName;
 
-  /// @brief Method get_rchRenderModelComponentName, addr 0x629e9f8, size 0x870, virtual false, abstract: false, final false
+  /// @brief Method get_rchRenderModelComponentName, addr 0x629ec80, size 0x870, virtual false, abstract: false, final false
   inline ::StringW get_rchRenderModelComponentName();
 
   // Ctor Parameters []

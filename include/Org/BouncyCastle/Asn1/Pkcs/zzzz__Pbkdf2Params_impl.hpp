@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::GetInstance)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x370fa2c;
+  constexpr static std::size_t addrs = 0x3713ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x370fcb0;
+  constexpr static std::size_t addrs = 0x3714148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)(::ArrayW<uint8_t>, int32_t)>(&::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x370ffe8;
+  constexpr static std::size_t addrs = 0x3714480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3710088;
+  constexpr static std::size_t addrs = 0x3714520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)(
     ::ArrayW<uint8_t>, int32_t, int32_t, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3710114;
+  constexpr static std::size_t addrs = 0x37145ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)(::ArrayW<uint8_t>, int32_t, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3710138;
+  constexpr static std::size_t addrs = 0x37145d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(&::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::GetSalt)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x371015c;
+  constexpr static std::size_t addrs = 0x37145f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>(), { "GetSalt", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::get_IterationCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3710178;
+  constexpr static std::size_t addrs = 0x3714610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>(), { "get_IterationCount", {}, {} })));
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::get_KeyLength)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3710190;
+  constexpr static std::size_t addrs = 0x3714628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>(), { "get_KeyLength", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(&::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::get_IsDefaultPrf)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x37101a4;
+  constexpr static std::size_t addrs = 0x371463c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>(), { "get_IsDefaultPrf", {}, {} })));
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::get_Prf)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3710224;
+  constexpr static std::size_t addrs = 0x37146bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*>(), { "get_Prf", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::ToAsn1Object)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x371028c;
+  constexpr static std::size_t addrs = 0x3714724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::XmlAnyConverter::*)(::System::Xml::Schema::XmlTypeCode)>(&::System::Xml::Schema::XmlAnyConverter::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x66c1d2c;
+  constexpr static std::size_t addrs = 0x66c237c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::XmlAnyConverter::*)(::System::Object*)>(&::System::Xml::Schema::XmlAnyConverter::ToBoolean)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x66c1d98;
+  constexpr static std::size_t addrs = 0x66c23e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTime (::System::Xml::Schema::XmlAnyConverter::*)(::System::Object*)>(&::System::Xml::Schema::XmlAnyConverter::ToDateTime)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x66c204c;
+  constexpr static std::size_t addrs = 0x66c269c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::DateTimeOffset (::System::Xml::Schema::XmlAnyConverter::*)(::System::Object*)>(
     &::System::Xml::Schema::XmlAnyConverter::ToDateTimeOffset)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x66c21ec;
+  constexpr static std::size_t addrs = 0x66c283c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Xml::Schema::XmlAnyConverter::*)(::System::Object*)>(&::System::Xml::Schema::XmlAnyConverter::ToDecimal)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x66c23a4;
+  constexpr static std::size_t addrs = 0x66c29f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::System::Xml::Schema::XmlAnyConverter::*)(::System::Object*)>(&::System::Xml::Schema::XmlAnyConverter::ToDouble)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x66c255c;
+  constexpr static std::size_t addrs = 0x66c2bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::XmlAnyConverter::*)(::System::Object*)>(&::System::Xml::Schema::XmlAnyConverter::ToInt32)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x66c26e8;
+  constexpr static std::size_t addrs = 0x66c2d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::Xml::Schema::XmlAnyConverter::*)(::System::Object*)>(&::System::Xml::Schema::XmlAnyConverter::ToInt64)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x66c2874;
+  constexpr static std::size_t addrs = 0x66c2ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::System::Xml::Schema::XmlAnyConverter::*)(::System::Object*)>(&::System::Xml::Schema::XmlAnyConverter::ToSingle)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x66c2a00;
+  constexpr static std::size_t addrs = 0x66c3050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlAnyConverter::*)(bool, ::System::Type*)>(&::System::Xml::Schema::XmlAnyConverter::ChangeType)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x66c2ba4;
+  constexpr static std::size_t addrs = 0x66c31f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlAnyConverter::*)(::System::DateTime, ::System::Type*)>(
     &::System::Xml::Schema::XmlAnyConverter::ChangeType)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x66c2eac;
+  constexpr static std::size_t addrs = 0x66c34fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlAnyConverter::*)(::System::Decimal, ::System::Type*)>(
     &::System::Xml::Schema::XmlAnyConverter::ChangeType)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x66c3074;
+  constexpr static std::size_t addrs = 0x66c36c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlAnyConverter::*)(double_t, ::System::Type*)>(&::System::Xml::Schema::XmlAnyConverter::ChangeType)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x66c32b0;
+  constexpr static std::size_t addrs = 0x66c3900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlAnyConverter::*)(int32_t, ::System::Type*)>(&::System::Xml::Schema::XmlAnyConverter::ChangeType)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x66c3464;
+  constexpr static std::size_t addrs = 0x66c3ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlAnyConverter::*)(int64_t, ::System::Type*)>(&::System::Xml::Schema::XmlAnyConverter::ChangeType)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x66c3618;
+  constexpr static std::size_t addrs = 0x66c3c68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlAnyConverter::*)(::StringW, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlAnyConverter::ChangeType)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x66c37cc;
+  constexpr static std::size_t addrs = 0x66c3e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlAnyConverter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlAnyConverter::ChangeType)> {
   constexpr static std::size_t size = 0x1284;
-  constexpr static std::size_t addrs = 0x66c3994;
+  constexpr static std::size_t addrs = 0x66c3fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlAnyConverter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlAnyConverter::ChangeTypeWildcardDestination)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x66c1f24;
+  constexpr static std::size_t addrs = 0x66c2574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::XmlAnyConverter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlAnyConverter::ChangeTypeWildcardSource)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x66c2d5c;
+  constexpr static std::size_t addrs = 0x66c33ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XPath::XPathNavigator* (::System::Xml::Schema::XmlAnyConverter::*)(::System::Xml::XPath::XPathNavigator*)>(
     &::System::Xml::Schema::XmlAnyConverter::ToNavigator)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x66c4c18;
+  constexpr static std::size_t addrs = 0x66c5268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -39,19 +39,19 @@ public:
 
   static inline ::System::Threading::BarrierPostPhaseException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x67e006c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e06bc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x67e0124, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e0774, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x67e0080, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e06d0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x67e0078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e06c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x67e008c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67e06dc, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

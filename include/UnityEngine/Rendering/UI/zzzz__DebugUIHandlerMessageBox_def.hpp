@@ -52,13 +52,13 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerMessageBox* New_ctor();
 
-  /// @brief Method OnSelection, addr 0x6c6fe84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x6c70f64, size 0x8, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x6c6fca8, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6c70d88, size 0x188, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method Update, addr 0x6c6fe30, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6c70f10, size 0x54, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Rendering::DebugUI_MessageBox* const& __cordl_internal_get_m_Field() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_nameLabel(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x6c6fe8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c70f6c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Color32 getStaticF_k_ErrorBackgroundColor();

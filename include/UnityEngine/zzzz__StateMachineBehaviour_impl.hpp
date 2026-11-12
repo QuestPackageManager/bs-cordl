@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t)>(
     &::UnityEngine::StateMachineBehaviour::OnStateEnter)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ec1548;
+  constexpr static std::size_t addrs = 0x6ec2628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t)>(
     &::UnityEngine::StateMachineBehaviour::OnStateUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ec154c;
+  constexpr static std::size_t addrs = 0x6ec262c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t)>(
     &::UnityEngine::StateMachineBehaviour::OnStateExit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ec1550;
+  constexpr static std::size_t addrs = 0x6ec2630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t)>(
     &::UnityEngine::StateMachineBehaviour::OnStateMove)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ec1554;
+  constexpr static std::size_t addrs = 0x6ec2634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t)>(
     &::UnityEngine::StateMachineBehaviour::OnStateIK)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ec1558;
+  constexpr static std::size_t addrs = 0x6ec2638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(::UnityEngine::Animator*, int32_t)>(&::UnityEngine::StateMachineBehaviour::OnStateMachineEnter)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ec155c;
+  constexpr static std::size_t addrs = 0x6ec263c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(::UnityEngine::Animator*, int32_t)>(&::UnityEngine::StateMachineBehaviour::OnStateMachineExit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ec1560;
+  constexpr static std::size_t addrs = 0x6ec2640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(
     ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t, ::UnityEngine::Animations::AnimatorControllerPlayable)>(&::UnityEngine::StateMachineBehaviour::OnStateEnter)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ec1564;
+  constexpr static std::size_t addrs = 0x6ec2644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(
     ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t, ::UnityEngine::Animations::AnimatorControllerPlayable)>(&::UnityEngine::StateMachineBehaviour::OnStateUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ec1568;
+  constexpr static std::size_t addrs = 0x6ec2648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(
     ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t, ::UnityEngine::Animations::AnimatorControllerPlayable)>(&::UnityEngine::StateMachineBehaviour::OnStateExit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ec156c;
+  constexpr static std::size_t addrs = 0x6ec264c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(
     ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t, ::UnityEngine::Animations::AnimatorControllerPlayable)>(&::UnityEngine::StateMachineBehaviour::OnStateMove)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ec1570;
+  constexpr static std::size_t addrs = 0x6ec2650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(
     ::UnityEngine::Animator*, ::UnityEngine::AnimatorStateInfo, int32_t, ::UnityEngine::Animations::AnimatorControllerPlayable)>(&::UnityEngine::StateMachineBehaviour::OnStateIK)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ec1574;
+  constexpr static std::size_t addrs = 0x6ec2654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(::UnityEngine::Animator*, int32_t, ::UnityEngine::Animations::AnimatorControllerPlayable)>(
     &::UnityEngine::StateMachineBehaviour::OnStateMachineEnter)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ec1578;
+  constexpr static std::size_t addrs = 0x6ec2658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)(::UnityEngine::Animator*, int32_t, ::UnityEngine::Animations::AnimatorControllerPlayable)>(
     &::UnityEngine::StateMachineBehaviour::OnStateMachineExit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ec157c;
+  constexpr static std::size_t addrs = 0x6ec265c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::StateMachineBehaviour::*)()>(&::UnityEngine::StateMachineBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ec1580;
+  constexpr static std::size_t addrs = 0x6ec2660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::StateMachineBehaviour*>(), { ".ctor", {}, {} })));

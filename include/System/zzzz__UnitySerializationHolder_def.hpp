@@ -80,30 +80,30 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method AddElementTypes, addr 0x60e1288, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method AddElementTypes, addr 0x60e1510, size 0x3f8, virtual false, abstract: false, final false
   static inline ::System::RuntimeType* AddElementTypes(::System::Runtime::Serialization::SerializationInfo* info, ::System::RuntimeType* type);
 
-  /// @brief Method GetObjectData, addr 0x60e2290, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x60e2518, size 0x50, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetRealObject, addr 0x60e22e0, size 0x544, virtual true, abstract: false, final false
+  /// @brief Method GetRealObject, addr 0x60e2568, size 0x544, virtual true, abstract: false, final false
   inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetUnitySerializationInfo, addr 0x60e189c, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method GetUnitySerializationInfo, addr 0x60e1b24, size 0x384, virtual false, abstract: false, final false
   static inline void GetUnitySerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::System::RuntimeType* type);
 
-  /// @brief Method GetUnitySerializationInfo, addr 0x60e1770, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetUnitySerializationInfo, addr 0x60e19f8, size 0x12c, virtual false, abstract: false, final false
   static inline void GetUnitySerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, int32_t unityType);
 
-  /// @brief Method GetUnitySerializationInfo, addr 0x60e1c20, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetUnitySerializationInfo, addr 0x60e1ea8, size 0x16c, virtual false, abstract: false, final false
   static inline void GetUnitySerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, int32_t unityType, ::StringW data, ::System::Reflection::RuntimeAssembly* assembly);
 
-  /// @brief Method MakeElementTypes, addr 0x60e1680, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method MakeElementTypes, addr 0x60e1908, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Type* MakeElementTypes(::System::Type* type);
 
   static inline ::System::UnitySerializationHolder* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ThrowInsufficientInformation, addr 0x60e2188, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ThrowInsufficientInformation, addr 0x60e2410, size 0x94, virtual false, abstract: false, final false
   inline void ThrowInsufficientInformation(::StringW field);
 
   constexpr ::StringW const& __cordl_internal_get_m_assemblyName() const;
@@ -154,7 +154,7 @@ public:
 
   constexpr void __cordl_internal_set_m_unityType(int32_t value);
 
-  /// @brief Method .ctor, addr 0x60e1d8c, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60e2014, size 0x3fc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"

@@ -99,41 +99,41 @@ public:
 
   constexpr void __cordl_internal_set__Traced_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6197464, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61976ec, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(/* [Nullable(2)] */ ::System::Object* originalObject, /* [Nullable(2)] */ ::System::Object* member, ::StringW path, ::System::Exception* error);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Error, addr 0x6197480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x6197708, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_Error();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Handled, addr 0x61974a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handled, addr 0x6197728, size 0x8, virtual false, abstract: false, final false
   inline bool get_Handled();
 
   /// [NullableContext(2)]
   /// [CompilerGenerated]
-  /// @brief Method get_Member, addr 0x6197490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Member, addr 0x6197718, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Member();
 
   /// [NullableContext(2)]
   /// [CompilerGenerated]
-  /// @brief Method get_OriginalObject, addr 0x6197488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OriginalObject, addr 0x6197710, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_OriginalObject();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Path, addr 0x6197498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x6197720, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Traced, addr 0x6197470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Traced, addr 0x61976f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Traced();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Handled, addr 0x61974a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Handled, addr 0x6197730, size 0x8, virtual false, abstract: false, final false
   inline void set_Handled(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Traced, addr 0x6197478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Traced, addr 0x6197700, size 0x8, virtual false, abstract: false, final false
   inline void set_Traced(bool value);
 
 protected:

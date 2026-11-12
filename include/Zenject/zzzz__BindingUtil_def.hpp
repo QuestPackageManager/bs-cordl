@@ -41,99 +41,99 @@ namespace Zenject {
 class CORDL_TYPE BindingUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AssertConcreteTypeListIsNotEmpty, addr 0x733b338, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method AssertConcreteTypeListIsNotEmpty, addr 0x733d618, size 0x78, virtual false, abstract: false, final false
   static inline void AssertConcreteTypeListIsNotEmpty(::System::Collections::Generic::IEnumerable_1<::System::Type*>* concreteTypes);
 
   /// @brief Method AssertDerivesFromUnityObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AssertDerivesFromUnityObject();
 
-  /// @brief Method AssertDerivesFromUnityObject, addr 0x7339e4c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method AssertDerivesFromUnityObject, addr 0x733c12c, size 0xa0, virtual false, abstract: false, final false
   static inline void AssertDerivesFromUnityObject(::System::Type* type);
 
-  /// @brief Method AssertDerivesFromUnityObject, addr 0x7339bb8, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method AssertDerivesFromUnityObject, addr 0x733be98, size 0x294, virtual false, abstract: false, final false
   static inline void AssertDerivesFromUnityObject(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
 
-  /// @brief Method AssertInstanceDerivesFromOrEqual, addr 0x733bc7c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AssertInstanceDerivesFromOrEqual, addr 0x733df5c, size 0xec, virtual false, abstract: false, final false
   static inline void AssertInstanceDerivesFromOrEqual(::System::Object* instance, ::System::Type* baseType);
 
-  /// @brief Method AssertInstanceDerivesFromOrEqual, addr 0x733b9b4, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method AssertInstanceDerivesFromOrEqual, addr 0x733dc94, size 0x2c8, virtual false, abstract: false, final false
   static inline void AssertInstanceDerivesFromOrEqual(::System::Object* instance, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* parentTypes);
 
   /// @brief Method AssertIsComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AssertIsComponent();
 
-  /// @brief Method AssertIsComponent, addr 0x733ab3c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AssertIsComponent, addr 0x733ce1c, size 0xd0, virtual false, abstract: false, final false
   static inline void AssertIsComponent(::System::Type* type);
 
-  /// @brief Method AssertIsComponent, addr 0x733a8a8, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method AssertIsComponent, addr 0x733cb88, size 0x294, virtual false, abstract: false, final false
   static inline void AssertIsComponent(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
 
-  /// @brief Method AssertIsDerivedFromType, addr 0x733b1d0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method AssertIsDerivedFromType, addr 0x733d4b0, size 0x168, virtual false, abstract: false, final false
   static inline void AssertIsDerivedFromType(::System::Type* concreteType, ::System::Type* parentType);
 
-  /// @brief Method AssertIsDerivedFromTypes, addr 0x733b708, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method AssertIsDerivedFromTypes, addr 0x733d9e8, size 0x2ac, virtual false, abstract: false, final false
   static inline void AssertIsDerivedFromTypes(::System::Type* concreteType, ::System::Collections::Generic::IEnumerable_1<::System::Type*>* parentTypes);
 
-  /// @brief Method AssertIsDerivedFromTypes, addr 0x733b460, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method AssertIsDerivedFromTypes, addr 0x733d740, size 0x2a8, virtual false, abstract: false, final false
   static inline void AssertIsDerivedFromTypes(::System::Collections::Generic::IEnumerable_1<::System::Type*>* concreteTypes,
                                               ::System::Collections::Generic::IEnumerable_1<::System::Type*>* parentTypes);
 
-  /// @brief Method AssertIsDerivedFromTypes, addr 0x733b3b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method AssertIsDerivedFromTypes, addr 0x733d690, size 0xb0, virtual false, abstract: false, final false
   static inline void AssertIsDerivedFromTypes(::System::Collections::Generic::IEnumerable_1<::System::Type*>* concreteTypes,
                                               ::System::Collections::Generic::IEnumerable_1<::System::Type*>* parentTypes, ::Zenject::InvalidBindResponses invalidBindResponse);
 
   /// @brief Method AssertIsInterfaceOrComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AssertIsInterfaceOrComponent();
 
-  /// @brief Method AssertIsInterfaceOrComponent, addr 0x733a7a8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method AssertIsInterfaceOrComponent, addr 0x733ca88, size 0x100, virtual false, abstract: false, final false
   static inline void AssertIsInterfaceOrComponent(::System::Type* type);
 
-  /// @brief Method AssertIsInterfaceOrComponent, addr 0x733a514, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method AssertIsInterfaceOrComponent, addr 0x733c7f4, size 0x294, virtual false, abstract: false, final false
   static inline void AssertIsInterfaceOrComponent(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
 
   /// @brief Method AssertIsInterfaceOrScriptableObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AssertIsInterfaceOrScriptableObject();
 
-  /// @brief Method AssertIsInterfaceOrScriptableObject, addr 0x733a414, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method AssertIsInterfaceOrScriptableObject, addr 0x733c6f4, size 0x100, virtual false, abstract: false, final false
   static inline void AssertIsInterfaceOrScriptableObject(::System::Type* type);
 
-  /// @brief Method AssertIsInterfaceOrScriptableObject, addr 0x733a180, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method AssertIsInterfaceOrScriptableObject, addr 0x733c460, size 0x294, virtual false, abstract: false, final false
   static inline void AssertIsInterfaceOrScriptableObject(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
 
   /// @brief Method AssertIsNotAbstract, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AssertIsNotAbstract();
 
-  /// @brief Method AssertIsNotAbstract, addr 0x733aea0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method AssertIsNotAbstract, addr 0x733d180, size 0x9c, virtual false, abstract: false, final false
   static inline void AssertIsNotAbstract(::System::Type* type);
 
-  /// @brief Method AssertIsNotAbstract, addr 0x733af3c, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method AssertIsNotAbstract, addr 0x733d21c, size 0x294, virtual false, abstract: false, final false
   static inline void AssertIsNotAbstract(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
 
   /// @brief Method AssertIsNotComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AssertIsNotComponent();
 
-  /// @brief Method AssertIsNotComponent, addr 0x7339ae4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AssertIsNotComponent, addr 0x733bdc4, size 0xd4, virtual false, abstract: false, final false
   static inline void AssertIsNotComponent(::System::Type* type);
 
-  /// @brief Method AssertIsNotComponent, addr 0x7339850, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method AssertIsNotComponent, addr 0x733bb30, size 0x294, virtual false, abstract: false, final false
   static inline void AssertIsNotComponent(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
 
-  /// @brief Method AssertIsValidGameObject, addr 0x73397dc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method AssertIsValidGameObject, addr 0x733babc, size 0x74, virtual false, abstract: false, final false
   static inline void AssertIsValidGameObject(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method AssertIsValidPrefab, addr 0x7336ffc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method AssertIsValidPrefab, addr 0x73392dc, size 0x74, virtual false, abstract: false, final false
   static inline void AssertIsValidPrefab(::UnityEngine::Object* prefab);
 
-  /// @brief Method AssertIsValidResourcePath, addr 0x7337598, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method AssertIsValidResourcePath, addr 0x7339878, size 0x64, virtual false, abstract: false, final false
   static inline void AssertIsValidResourcePath(::StringW resourcePath);
 
-  /// @brief Method AssertTypesAreNotAbstract, addr 0x733ac0c, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method AssertTypesAreNotAbstract, addr 0x733ceec, size 0x294, virtual false, abstract: false, final false
   static inline void AssertTypesAreNotAbstract(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
 
-  /// @brief Method AssertTypesAreNotComponents, addr 0x7339eec, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method AssertTypesAreNotComponents, addr 0x733c1cc, size 0x294, virtual false, abstract: false, final false
   static inline void AssertTypesAreNotComponents(::System::Collections::Generic::IEnumerable_1<::System::Type*>* types);
 
-  /// @brief Method CreateCachedProvider, addr 0x733bd68, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CreateCachedProvider, addr 0x733e048, size 0x108, virtual false, abstract: false, final false
   static inline ::Zenject::IProvider* CreateCachedProvider(::Zenject::IProvider* creator);
 
 protected:
@@ -151,7 +151,7 @@ public:
   BindingUtil(BindingUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15321 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15329 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

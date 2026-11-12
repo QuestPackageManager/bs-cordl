@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::*)()>(&::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::Start)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x5df21a8;
+  constexpr static std::size_t addrs = 0x5df2464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager*>(), { "Start", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::*)()>(&::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::OnDestroy)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x5df2418;
+  constexpr static std::size_t addrs = 0x5df26d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager*>(), { "OnDestroy", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::*)()>(&::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5df251c;
+  constexpr static std::size_t addrs = 0x5df27d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager*>(), { ".ctor", {}, {} })));

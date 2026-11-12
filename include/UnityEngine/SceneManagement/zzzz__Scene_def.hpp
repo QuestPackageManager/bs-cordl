@@ -51,89 +51,89 @@ public:
 
   __declspec(property(get = get_rootCount)) int32_t rootCount;
 
-  /// @brief Method Equals, addr 0x6f97d0c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f98dec, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
   /// [StaticAccessor("SceneBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
-  /// @brief Method GetGUIDInternal, addr 0x6f9750c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetGUIDInternal, addr 0x6f985ec, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW GetGUIDInternal(::UnityEngine::SceneManagement::SceneHandle sceneHandle);
 
-  /// @brief Method GetGUIDInternal_Injected, addr 0x6f975d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetGUIDInternal_Injected, addr 0x6f986b4, size 0x44, virtual false, abstract: false, final false
   static inline void GetGUIDInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle const> sceneHandle, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-  /// @brief Method GetHashCode, addr 0x6f97c3c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f98d1c, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// [StaticAccessor("SceneBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
-  /// @brief Method GetIsLoadedInternal, addr 0x6f97618, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetIsLoadedInternal, addr 0x6f986f8, size 0x44, virtual false, abstract: false, final false
   static inline bool GetIsLoadedInternal(::UnityEngine::SceneManagement::SceneHandle sceneHandle);
 
-  /// @brief Method GetIsLoadedInternal_Injected, addr 0x6f9765c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetIsLoadedInternal_Injected, addr 0x6f9873c, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetIsLoadedInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle const> sceneHandle);
 
   /// [StaticAccessor("SceneBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
-  /// @brief Method GetNameInternal, addr 0x6f97400, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetNameInternal, addr 0x6f984e0, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW GetNameInternal(::UnityEngine::SceneManagement::SceneHandle sceneHandle);
 
-  /// @brief Method GetNameInternal_Injected, addr 0x6f974c8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetNameInternal_Injected, addr 0x6f985a8, size 0x44, virtual false, abstract: false, final false
   static inline void GetNameInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle const> sceneHandle, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
   /// [StaticAccessor("SceneBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
-  /// @brief Method GetPathInternal, addr 0x6f972f4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetPathInternal, addr 0x6f983d4, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW GetPathInternal(::UnityEngine::SceneManagement::SceneHandle sceneHandle);
 
-  /// @brief Method GetPathInternal_Injected, addr 0x6f973bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetPathInternal_Injected, addr 0x6f9849c, size 0x44, virtual false, abstract: false, final false
   static inline void GetPathInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle const> sceneHandle, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
   /// [StaticAccessor("SceneBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
-  /// @brief Method GetRootCountInternal, addr 0x6f97698, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetRootCountInternal, addr 0x6f98778, size 0x40, virtual false, abstract: false, final false
   static inline int32_t GetRootCountInternal(::UnityEngine::SceneManagement::SceneHandle sceneHandle);
 
-  /// @brief Method GetRootCountInternal_Injected, addr 0x6f976d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetRootCountInternal_Injected, addr 0x6f987b8, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetRootCountInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle const> sceneHandle);
 
-  /// @brief Method GetRootGameObjects, addr 0x6f97894, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x6f98974, size 0xec, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>> GetRootGameObjects();
 
-  /// @brief Method GetRootGameObjects, addr 0x6f97980, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x6f98a60, size 0x2a4, virtual false, abstract: false, final false
   inline void GetRootGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* rootGameObjects);
 
   /// [StaticAccessor("SceneBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
-  /// @brief Method GetRootGameObjectsInternal, addr 0x6f97714, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetRootGameObjectsInternal, addr 0x6f987f4, size 0x48, virtual false, abstract: false, final false
   static inline void GetRootGameObjectsInternal(::UnityEngine::SceneManagement::SceneHandle sceneHandle, ::System::Object* resultRootList);
 
-  /// @brief Method GetRootGameObjectsInternal_Injected, addr 0x6f9775c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetRootGameObjectsInternal_Injected, addr 0x6f9883c, size 0x44, virtual false, abstract: false, final false
   static inline void GetRootGameObjectsInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle const> sceneHandle, ::System::Object* resultRootList);
 
-  /// @brief Method IsValid, addr 0x6f977b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6f98890, size 0x48, virtual false, abstract: false, final false
   inline bool IsValid();
 
   /// [StaticAccessor("SceneBindings", (UnityEngine.Bindings.StaticAccessorType)2)]
-  /// @brief Method IsValidInternal, addr 0x6f97274, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsValidInternal, addr 0x6f98354, size 0x44, virtual false, abstract: false, final false
   static inline bool IsValidInternal(::UnityEngine::SceneManagement::SceneHandle sceneHandle);
 
-  /// @brief Method IsValidInternal_Injected, addr 0x6f972b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValidInternal_Injected, addr 0x6f98398, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsValidInternal_Injected(::by_ref<::UnityEngine::SceneManagement::SceneHandle const> sceneHandle);
 
-  /// @brief Method get_guid, addr 0x6f977a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_guid, addr 0x6f98888, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_guid();
 
-  /// @brief Method get_handle, addr 0x6f977a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handle, addr 0x6f98880, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::SceneManagement::SceneHandle get_handle();
 
-  /// @brief Method get_isLoaded, addr 0x6f97808, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_isLoaded, addr 0x6f988e8, size 0x48, virtual false, abstract: false, final false
   inline bool get_isLoaded();
 
-  /// @brief Method get_name, addr 0x6f97800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x6f988e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_path, addr 0x6f977f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_path, addr 0x6f988d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_path();
 
-  /// @brief Method get_rootCount, addr 0x6f97850, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_rootCount, addr 0x6f98930, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_rootCount();
 
-  /// @brief Method op_Equality, addr 0x6f97c24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6f98d04, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::SceneManagement::Scene lhs, ::UnityEngine::SceneManagement::Scene rhs);
 
   // Ctor Parameters []

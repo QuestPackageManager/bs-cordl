@@ -41,22 +41,22 @@ public:
   /// @brief Field _enabled, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__enabled, put = __cordl_internal_set__enabled)) bool _enabled;
 
-  /// @brief Method AddBinding, addr 0x5cc4f94, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x5cc46ec, size 0xe4, virtual false, abstract: false, final false
   inline void AddBinding(::HMUI::InputFieldView* inputField, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>* action);
 
-  /// @brief Method AddBindings, addr 0x5cc4e58, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method AddBindings, addr 0x5cc45b0, size 0x13c, virtual false, abstract: false, final false
   inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>* bindings);
 
-  /// @brief Method ClearBindings, addr 0x5cc5078, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x5cc47d0, size 0x214, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Disable, addr 0x5cc528c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x5cc49e4, size 0x1c0, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Enable, addr 0x5cc544c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x5cc4ba4, size 0x1c4, virtual false, abstract: false, final false
   inline void Enable();
 
-  /// @brief Method Init, addr 0x5cc4de4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5cc453c, size 0x74, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::HMUI::InputFieldViewChangeBinder* New_ctor();
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set__enabled(bool value);
 
-  /// @brief Method .ctor, addr 0x5cc4dd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc4530, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +94,7 @@ public:
   InputFieldViewChangeBinder(InputFieldViewChangeBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19623 };
 
   /// @brief Field _bindings, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::UnityEngine::Events::UnityAction_1<::UnityW<::HMUI::InputFieldView>>*>*>* ____bindings;

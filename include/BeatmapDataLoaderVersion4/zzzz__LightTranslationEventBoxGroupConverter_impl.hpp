@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatmapDataLoader
     ::BeatmapSaveDataVersion4::LightshowSaveData*, ::GlobalNamespace::IEnvironmentLightGroups*, ::GlobalNamespace::IBeatmapBoxConverter*)>(
     &::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a16dd0;
+  constexpr static std::size_t addrs = 0x3a1bf04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::*)(
     ::GlobalNamespace::ILightGroup*, ::BeatmapSaveDataVersion4::EventBox)>(&::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::GetGroupSize)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3a17ee8;
+  constexpr static std::size_t addrs = 0x3a1d01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter*>(),
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::GlobalNamespace::BeatmapEventDataBox* (::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::*)(::BeatmapSaveDataVersion4::EventBox, ::GlobalNamespace::IndexFilter*)>(
         &::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::ConvertEvents)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x3a17fdc;
+  constexpr static std::size_t addrs = 0x3a1d110;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter*>(),

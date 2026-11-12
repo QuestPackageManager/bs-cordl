@@ -144,7 +144,7 @@ public:
   /// @brief Field m_ShowFoldoutHeader, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ShowFoldoutHeader, put = __cordl_internal_set_m_ShowFoldoutHeader)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowFoldoutHeader;
 
-  /// @brief Method Init, addr 0x70e4598, size 0x2ac, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x70e5678, size 0x2ac, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::BaseListView_UxmlTraits* New_ctor();
@@ -197,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShowFoldoutHeader(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x70e4ac0, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70e5ba0, size 0x35c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -279,7 +279,7 @@ public:
 
   static inline ::UnityEngine::UIElements::BaseListView___c__DisplayClass82_0* New_ctor();
 
-  /// @brief Method <OnAddClicked>b__0, addr 0x70e51e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <OnAddClicked>b__0, addr 0x70e62c0, size 0x1c, virtual false, abstract: false, final false
   inline void _OnAddClicked_b__0();
 
   constexpr ::UnityEngine::UIElements::BaseListView* const& __cordl_internal_get___4__this() const;
@@ -294,7 +294,7 @@ public:
 
   constexpr void __cordl_internal_set_itemsCountPreCallback(int32_t value);
 
-  /// @brief Method .ctor, addr 0x70e1d54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70e2e34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -613,71 +613,71 @@ public:
 
   __declspec(property(get = get_viewController)) ::UnityEngine::UIElements::BaseListViewController* viewController;
 
-  /// @brief Method AddFoldout, addr 0x70e012c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method AddFoldout, addr 0x70e120c, size 0x150, virtual false, abstract: false, final false
   inline void AddFoldout();
 
-  /// @brief Method AddItems, addr 0x70e168c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddItems, addr 0x70e276c, size 0xd4, virtual false, abstract: false, final false
   inline void AddItems(int32_t itemCount);
 
-  /// @brief Method CreateDragAndDropController, addr 0x70e2d98, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CreateDragAndDropController, addr 0x70e3e78, size 0x60, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ICollectionDragAndDropController* CreateDragAndDropController();
 
-  /// @brief Method CreateDragger, addr 0x70e2cf8, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method CreateDragger, addr 0x70e3dd8, size 0xa0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ListViewDragger* CreateDragger();
 
-  /// @brief Method CreateVirtualizationController, addr 0x70e235c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method CreateVirtualizationController, addr 0x70e343c, size 0x4c, virtual true, abstract: false, final false
   inline void CreateVirtualizationController();
 
-  /// @brief Method EnableFooter, addr 0x70e05f0, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method EnableFooter, addr 0x70e16d0, size 0x3dc, virtual false, abstract: false, final false
   inline void EnableFooter(bool enabled);
 
-  /// @brief Method HandleItemNavigation, addr 0x70e30b0, size 0x618, virtual true, abstract: false, final false
+  /// @brief Method HandleItemNavigation, addr 0x70e4190, size 0x618, virtual true, abstract: false, final false
   inline bool HandleItemNavigation(bool moveIn, bool altPressed);
 
   static inline ::UnityEngine::UIElements::BaseListView* New_ctor();
 
   static inline ::UnityEngine::UIElements::BaseListView* New_ctor(::System::Collections::IList* itemsSource, float_t itemHeight);
 
-  /// @brief Method OnAddClicked, addr 0x70e1a08, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method OnAddClicked, addr 0x70e2ae8, size 0x34c, virtual false, abstract: false, final false
   inline void OnAddClicked();
 
-  /// @brief Method OnAfterAddClicked, addr 0x70e1d58, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method OnAfterAddClicked, addr 0x70e2e38, size 0x190, virtual false, abstract: false, final false
   inline void OnAfterAddClicked(int32_t itemsCountPreCallback);
 
-  /// @brief Method OnArraySizeFieldChanged, addr 0x70e17a8, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method OnArraySizeFieldChanged, addr 0x70e2888, size 0x1e0, virtual false, abstract: false, final false
   inline void OnArraySizeFieldChanged(::UnityEngine::UIElements::ChangeEvent_1<::StringW>* evt);
 
-  /// @brief Method OnItemAdded, addr 0x70e265c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnItemAdded, addr 0x70e373c, size 0x1c, virtual false, abstract: false, final false
   inline void OnItemAdded(::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
 
-  /// @brief Method OnItemsRemoved, addr 0x70e2678, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnItemsRemoved, addr 0x70e3758, size 0x1c, virtual false, abstract: false, final false
   inline void OnItemsRemoved(::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
 
-  /// @brief Method OnItemsSourceSizeChanged, addr 0x70e1ee8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnItemsSourceSizeChanged, addr 0x70e2fc8, size 0x88, virtual false, abstract: false, final false
   inline void OnItemsSourceSizeChanged();
 
-  /// @brief Method OnRemoveClicked, addr 0x70e20a8, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method OnRemoveClicked, addr 0x70e3188, size 0x260, virtual false, abstract: false, final false
   inline void OnRemoveClicked();
 
-  /// @brief Method PostRefresh, addr 0x70e2fb0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method PostRefresh, addr 0x70e4090, size 0x28, virtual true, abstract: false, final false
   inline void PostRefresh();
 
-  /// @brief Method RemoveFoldout, addr 0x70e027c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RemoveFoldout, addr 0x70e135c, size 0x44, virtual false, abstract: false, final false
   inline void RemoveFoldout();
 
-  /// @brief Method SetViewController, addr 0x70e23a8, size 0x224, virtual true, abstract: false, final false
+  /// @brief Method SetViewController, addr 0x70e3488, size 0x224, virtual true, abstract: false, final false
   inline void SetViewController(::UnityEngine::UIElements::CollectionViewController* controller);
 
-  /// @brief Method SetupArraySizeField, addr 0x70dfb78, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method SetupArraySizeField, addr 0x70e0c58, size 0x32c, virtual false, abstract: false, final false
   inline void SetupArraySizeField();
 
-  /// @brief Method UpdateArraySizeField, addr 0x70e09cc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UpdateArraySizeField, addr 0x70e1aac, size 0xd8, virtual false, abstract: false, final false
   inline void UpdateArraySizeField();
 
-  /// @brief Method UpdateListViewLabel, addr 0x70e02c0, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method UpdateListViewLabel, addr 0x70e13a0, size 0x320, virtual false, abstract: false, final false
   inline void UpdateListViewLabel();
 
-  /// @brief Method UpdateRemoveButton, addr 0x70e1030, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method UpdateRemoveButton, addr 0x70e2110, size 0x4c, virtual false, abstract: false, final false
   inline void UpdateRemoveButton();
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_drawnFooter() const;
@@ -890,22 +890,22 @@ public:
 
   constexpr void __cordl_internal_set_reorderModeChanged(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x70e2df8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70e3ed8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x70e2e04, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70e3ee4, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* itemsSource, float_t itemHeight);
 
   /// [CompilerGenerated]
-  /// @brief Method <get_trackCount>b__65_0, addr 0x70e4474, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method <get_trackCount>b__65_0, addr 0x70e5554, size 0x114, virtual false, abstract: false, final false
   inline void _get_trackCount_b__65_0();
 
   /// [CompilerGenerated]
-  /// @brief Method <get_untilManualBindingSourceSelectionMode>b__68_0, addr 0x70e4588, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <get_untilManualBindingSourceSelectionMode>b__68_0, addr 0x70e5668, size 0x10, virtual false, abstract: false, final false
   inline bool _get_untilManualBindingSourceSelectionMode_b__68_0();
 
   /// [CompilerGenerated]
-  /// @brief Method add_reorderModeChanged, addr 0x70dab08, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_reorderModeChanged, addr 0x70dbbe8, size 0xac, virtual false, abstract: false, final false
   inline void add_reorderModeChanged(::System::Action* value);
 
   static inline ::UnityEngine::UIElements::BindingId getStaticF_allowAddProperty();
@@ -978,68 +978,68 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_allowAdd, addr 0x70e2964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowAdd, addr 0x70e3a44, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowAdd();
 
-  /// @brief Method get_allowRemove, addr 0x70e2b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowRemove, addr 0x70e3c74, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowRemove();
 
-  /// @brief Method get_autoAssignSource, addr 0x70d9fe8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_autoAssignSource, addr 0x70db0c8, size 0x10, virtual false, abstract: false, final false
   inline bool get_autoAssignSource();
 
-  /// @brief Method get_bindingSourceSelectionMode, addr 0x70e1338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bindingSourceSelectionMode, addr 0x70e2418, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingSourceSelectionMode get_bindingSourceSelectionMode();
 
-  /// @brief Method get_footer, addr 0x70e2354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_footer, addr 0x70e3434, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_footer();
 
-  /// @brief Method get_headerTitle, addr 0x70e0aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headerTitle, addr 0x70e1b84, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_headerTitle();
 
-  /// @brief Method get_makeFooter, addr 0x70e0d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_makeFooter, addr 0x70e1e4c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* get_makeFooter();
 
-  /// @brief Method get_makeHeader, addr 0x70e0b64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_makeHeader, addr 0x70e1c44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* get_makeHeader();
 
-  /// @brief Method get_makeNoneElement, addr 0x70e2890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_makeNoneElement, addr 0x70e3970, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* get_makeNoneElement();
 
-  /// @brief Method get_onAdd, addr 0x70e2ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onAdd, addr 0x70e3bb4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::BaseListView*>* get_onAdd();
 
-  /// @brief Method get_onRemove, addr 0x70e2c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onRemove, addr 0x70e3d18, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::UIElements::BaseListView*>* get_onRemove();
 
-  /// @brief Method get_overridingAddButtonBehavior, addr 0x70e2a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overridingAddButtonBehavior, addr 0x70e3af4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::UnityEngine::UIElements::BaseListView*, ::UnityEngine::UIElements::Button*>* get_overridingAddButtonBehavior();
 
-  /// @brief Method get_reorderMode, addr 0x70e2694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reorderMode, addr 0x70e3774, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ListViewReorderMode get_reorderMode();
 
-  /// @brief Method get_showAddRemoveFooter, addr 0x70e05e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_showAddRemoveFooter, addr 0x70e16c0, size 0x10, virtual false, abstract: false, final false
   inline bool get_showAddRemoveFooter();
 
-  /// @brief Method get_showBoundCollectionSize, addr 0x70dfad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showBoundCollectionSize, addr 0x70e0bb4, size 0x8, virtual false, abstract: false, final false
   inline bool get_showBoundCollectionSize();
 
-  /// @brief Method get_showFoldoutHeader, addr 0x70dfea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showFoldoutHeader, addr 0x70e0f84, size 0x8, virtual false, abstract: false, final false
   inline bool get_showFoldoutHeader();
 
-  /// @brief Method get_trackCount, addr 0x70e11c8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_trackCount, addr 0x70e22a8, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Action* get_trackCount();
 
-  /// @brief Method get_trackItemCount, addr 0x70e107c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method get_trackItemCount, addr 0x70e215c, size 0x14c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IVisualElementScheduledItem* get_trackItemCount();
 
-  /// @brief Method get_untilManualBindingSourceSelectionMode, addr 0x70e1280, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_untilManualBindingSourceSelectionMode, addr 0x70e2360, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Func_1<bool>* get_untilManualBindingSourceSelectionMode();
 
-  /// @brief Method get_viewController, addr 0x70e1988, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_viewController, addr 0x70e2a68, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseListViewController* get_viewController();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_reorderModeChanged, addr 0x70dac70, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_reorderModeChanged, addr 0x70dbd50, size 0xac, virtual false, abstract: false, final false
   inline void remove_reorderModeChanged(::System::Action* value);
 
   static inline void setStaticF_allowAddProperty(::UnityEngine::UIElements::BindingId value);
@@ -1112,46 +1112,46 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_allowAdd, addr 0x70e296c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method set_allowAdd, addr 0x70e3a4c, size 0xa8, virtual false, abstract: false, final false
   inline void set_allowAdd(bool value);
 
-  /// @brief Method set_allowRemove, addr 0x70e2b9c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_allowRemove, addr 0x70e3c7c, size 0x9c, virtual false, abstract: false, final false
   inline void set_allowRemove(bool value);
 
-  /// @brief Method set_bindingSourceSelectionMode, addr 0x70e1340, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method set_bindingSourceSelectionMode, addr 0x70e2420, size 0x130, virtual false, abstract: false, final false
   inline void set_bindingSourceSelectionMode(::UnityEngine::UIElements::BindingSourceSelectionMode value);
 
-  /// @brief Method set_headerTitle, addr 0x70e0aac, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_headerTitle, addr 0x70e1b8c, size 0xb8, virtual false, abstract: false, final false
   inline void set_headerTitle(::StringW value);
 
-  /// @brief Method set_makeFooter, addr 0x70e0d74, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method set_makeFooter, addr 0x70e1e54, size 0x1bc, virtual false, abstract: false, final false
   inline void set_makeFooter(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_makeHeader, addr 0x70e0b6c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method set_makeHeader, addr 0x70e1c4c, size 0x200, virtual false, abstract: false, final false
   inline void set_makeHeader(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_makeNoneElement, addr 0x70e2898, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_makeNoneElement, addr 0x70e3978, size 0xcc, virtual false, abstract: false, final false
   inline void set_makeNoneElement(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method set_onAdd, addr 0x70e2adc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_onAdd, addr 0x70e3bbc, size 0xb8, virtual false, abstract: false, final false
   inline void set_onAdd(::System::Action_1<::UnityEngine::UIElements::BaseListView*>* value);
 
-  /// @brief Method set_onRemove, addr 0x70e2c40, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_onRemove, addr 0x70e3d20, size 0xb8, virtual false, abstract: false, final false
   inline void set_onRemove(::System::Action_1<::UnityEngine::UIElements::BaseListView*>* value);
 
-  /// @brief Method set_overridingAddButtonBehavior, addr 0x70e2a1c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_overridingAddButtonBehavior, addr 0x70e3afc, size 0xb8, virtual false, abstract: false, final false
   inline void set_overridingAddButtonBehavior(::System::Action_2<::UnityEngine::UIElements::BaseListView*, ::UnityEngine::UIElements::Button*>* value);
 
-  /// @brief Method set_reorderMode, addr 0x70e269c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method set_reorderMode, addr 0x70e377c, size 0xc8, virtual false, abstract: false, final false
   inline void set_reorderMode(::UnityEngine::UIElements::ListViewReorderMode value);
 
-  /// @brief Method set_showAddRemoveFooter, addr 0x70e0f30, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_showAddRemoveFooter, addr 0x70e2010, size 0x100, virtual false, abstract: false, final false
   inline void set_showAddRemoveFooter(bool value);
 
-  /// @brief Method set_showBoundCollectionSize, addr 0x70dfadc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_showBoundCollectionSize, addr 0x70e0bbc, size 0x9c, virtual false, abstract: false, final false
   inline void set_showBoundCollectionSize(bool value);
 
-  /// @brief Method set_showFoldoutHeader, addr 0x70dfeac, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method set_showFoldoutHeader, addr 0x70e0f8c, size 0x280, virtual false, abstract: false, final false
   inline void set_showFoldoutHeader(bool value);
 
 protected:

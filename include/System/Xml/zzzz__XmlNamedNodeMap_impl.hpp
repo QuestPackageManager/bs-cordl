@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator::*)(::System::Object*)>(
     &::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x672bda8;
+  constexpr static std::size_t addrs = 0x672c3f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator::*)()>(
     &::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x672bdb8;
+  constexpr static std::size_t addrs = 0x672c408;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator::*)()>(
     &::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x672be00;
+  constexpr static std::size_t addrs = 0x672c450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator::*)()>(
     &::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x672be1c;
+  constexpr static std::size_t addrs = 0x672c46c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::*)()>(&::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::get_Count)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x671d408;
+  constexpr static std::size_t addrs = 0x671da58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlNamedNodeMap_SmallXmlNodeList>(), { "get_Count", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::*)(int32_t)>(&::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::get_Item)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x671d20c;
+  constexpr static std::size_t addrs = 0x671d85c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::*)(::System::Object*)>(&::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::Add)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x672b9e4;
+  constexpr static std::size_t addrs = 0x672c034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::*)(int32_t)>(&::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::RemoveAt)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x672bb14;
+  constexpr static std::size_t addrs = 0x672c164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::*)(int32_t, ::System::Object*)>(
     &::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::Insert)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x672bc04;
+  constexpr static std::size_t addrs = 0x672c254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::*)()>(
     &::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::GetEnumerator)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x672b8f0;
+  constexpr static std::size_t addrs = 0x672bf40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::XmlNamedNodeMap_SmallXmlNodeList>(), { "GetEnumerator", {}, {} })));
@@ -240,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::XmlNamedNodeMap::*)(::System::Xml::XmlNode*)>(&::System::Xml::XmlNamedNodeMap::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x671d204;
+  constexpr static std::size_t addrs = 0x671d854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNamedNodeMap::*)(::StringW)>(&::System::Xml::XmlNamedNodeMap::GetNamedItem)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x672b654;
+  constexpr static std::size_t addrs = 0x672bca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNamedNodeMap::*)(::System::Xml::XmlNode*)>(&::System::Xml::XmlNamedNodeMap::SetNamedItem)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x672b7d8;
+  constexpr static std::size_t addrs = 0x672be28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlNamedNodeMap::*)()>(&::System::Xml::XmlNamedNodeMap::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x671e138;
+  constexpr static std::size_t addrs = 0x671e788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::System::Xml::XmlNamedNodeMap::*)()>(&::System::Xml::XmlNamedNodeMap::GetEnumerator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x672b8e8;
+  constexpr static std::size_t addrs = 0x672bf38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlNamedNodeMap::*)(::StringW)>(&::System::Xml::XmlNamedNodeMap::FindNodeOffset)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x672b6f8;
+  constexpr static std::size_t addrs = 0x672bd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::XmlNamedNodeMap::*)(::StringW, ::StringW)>(&::System::Xml::XmlNamedNodeMap::FindNodeOffset)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x671d8c8;
+  constexpr static std::size_t addrs = 0x671df18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNamedNodeMap::*)(::System::Xml::XmlNode*)>(&::System::Xml::XmlNamedNodeMap::AddNode)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x671e324;
+  constexpr static std::size_t addrs = 0x671e974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNamedNodeMap::*)(::System::Xml::XmlNode*, ::System::Xml::XmlDocument*)>(
     &::System::Xml::XmlNamedNodeMap::AddNodeForLoad)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x671dd38;
+  constexpr static std::size_t addrs = 0x671e388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNamedNodeMap::*)(int32_t)>(&::System::Xml::XmlNamedNodeMap::RemoveNodeAt)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x671da84;
+  constexpr static std::size_t addrs = 0x671e0d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -371,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNamedNodeMap::*)(int32_t, ::System::Xml::XmlNode*)>(&::System::Xml::XmlNamedNodeMap::ReplaceNodeAt)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x672b894;
+  constexpr static std::size_t addrs = 0x672bee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNamedNodeMap::*)(int32_t, ::System::Xml::XmlNode*)>(&::System::Xml::XmlNamedNodeMap::InsertNodeAt)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x671e56c;
+  constexpr static std::size_t addrs = 0x671ebbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

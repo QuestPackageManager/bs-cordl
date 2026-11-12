@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutter_CuttableBySaberSortParams::*)()>(&::GlobalNamespace::NoteCutter_CuttableBySaberSortParams::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4810c;
+  constexpr static std::size_t addrs = 0x5e4853c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutter_CuttableBySaberSortParams*>(), { ".ctor", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::NoteCutter_CuttableBySaberSortParamsComparer::*)(::System::Object*, ::System::Object*)>(
     &::GlobalNamespace::NoteCutter_CuttableBySaberSortParamsComparer::Compare)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5e48110;
+  constexpr static std::size_t addrs = 0x5e48540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutter_CuttableBySaberSortParamsComparer*>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutter_CuttableBySaberSortParamsComparer::*)()>(
     &::GlobalNamespace::NoteCutter_CuttableBySaberSortParamsComparer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e48108;
+  constexpr static std::size_t addrs = 0x5e48538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutter_CuttableBySaberSortParamsComparer*>(), { ".ctor", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutter::*)()>(&::GlobalNamespace::NoteCutter::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5e47fdc;
+  constexpr static std::size_t addrs = 0x5e4840c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoteCutter*>(), { ".ctor", {}, {} })));
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoteCutter::*)(::GlobalNamespace::Saber*)>(&::GlobalNamespace::NoteCutter::Cut)> {
   constexpr static std::size_t size = 0x584;
-  constexpr static std::size_t addrs = 0x5e4795c;
+  constexpr static std::size_t addrs = 0x5e47d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -34,13 +34,13 @@ public:
 
   constexpr void __cordl_internal_set_max(float_t value);
 
-  /// @brief Method .ctor, addr 0x6c27a80, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c28b60, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(float_t value, float_t max, bool overrideState);
 
-  /// @brief Method get_value, addr 0x6c27a64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x6c28b44, size 0x8, virtual true, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method set_value, addr 0x6c27a6c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x6c28b4c, size 0x14, virtual true, abstract: false, final false
   inline void set_value(float_t value);
 
 protected:

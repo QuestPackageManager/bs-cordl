@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ConstantForce::*)()>(&::UnityEngine::ConstantForce::get_force)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x702bb38;
+  constexpr static std::size_t addrs = 0x702cc18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ConstantForce*>(), { "get_force", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ConstantForce::*)(::UnityEngine::Vector3)>(&::UnityEngine::ConstantForce::set_force)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x702bc1c;
+  constexpr static std::size_t addrs = 0x702ccfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ConstantForce::*)()>(&::UnityEngine::ConstantForce::get_torque)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x702bcf8;
+  constexpr static std::size_t addrs = 0x702cdd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ConstantForce*>(), { "get_torque", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ConstantForce::*)(::UnityEngine::Vector3)>(&::UnityEngine::ConstantForce::set_torque)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x702bddc;
+  constexpr static std::size_t addrs = 0x702cebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ConstantForce::*)()>(&::UnityEngine::ConstantForce::get_relativeForce)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x702beb8;
+  constexpr static std::size_t addrs = 0x702cf98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ConstantForce*>(), { "get_relativeForce", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ConstantForce::*)(::UnityEngine::Vector3)>(&::UnityEngine::ConstantForce::set_relativeForce)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x702bf9c;
+  constexpr static std::size_t addrs = 0x702d07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ConstantForce::*)()>(&::UnityEngine::ConstantForce::get_relativeTorque)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x702c078;
+  constexpr static std::size_t addrs = 0x702d158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ConstantForce*>(), { "get_relativeTorque", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ConstantForce::*)(::UnityEngine::Vector3)>(&::UnityEngine::ConstantForce::set_relativeTorque)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x702c15c;
+  constexpr static std::size_t addrs = 0x702d23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ConstantForce::*)()>(&::UnityEngine::ConstantForce::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x702c238;
+  constexpr static std::size_t addrs = 0x702d318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ConstantForce*>(), { ".ctor", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::ConstantForce::get_force_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x702bbd8;
+  constexpr static std::size_t addrs = 0x702ccb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::ConstantForce::set_force_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x702bcb4;
+  constexpr static std::size_t addrs = 0x702cd94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::ConstantForce::get_torque_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x702bd98;
+  constexpr static std::size_t addrs = 0x702ce78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::ConstantForce::set_torque_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x702be74;
+  constexpr static std::size_t addrs = 0x702cf54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::ConstantForce::get_relativeForce_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x702bf58;
+  constexpr static std::size_t addrs = 0x702d038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::ConstantForce::set_relativeForce_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x702c034;
+  constexpr static std::size_t addrs = 0x702d114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::ConstantForce::get_relativeTorque_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x702c118;
+  constexpr static std::size_t addrs = 0x702d1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::ConstantForce::set_relativeTorque_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x702c1f4;
+  constexpr static std::size_t addrs = 0x702d2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

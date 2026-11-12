@@ -22,7 +22,7 @@ public:
   // Declarations
   __declspec(property(get = get_count)) int32_t count;
 
-  /// @brief Method get_count, addr 0x6cce1a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x6ccf288, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_count();
 
   // Ctor Parameters []

@@ -55,7 +55,7 @@ public:
   __declspec(property(get = __cordl_internal_get__NamingStrategy_k__BackingField,
                       put = __cordl_internal_set__NamingStrategy_k__BackingField)) ::Newtonsoft::Json::Serialization::NamingStrategy* _NamingStrategy_k__BackingField;
 
-  /// @brief Method CanConvert, addr 0x61f4790, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x61f4a18, size 0x8c, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::StringEnumConverter* New_ctor();
@@ -71,11 +71,11 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::StringEnumConverter* New_ctor(::System::Type* namingStrategyType, ::ArrayW<::System::Object*> namingStrategyParameters, bool allowIntegerValues);
 
-  /// @brief Method ReadJson, addr 0x61f42e0, size 0x4b0, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x61f4568, size 0x4b0, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, /* [Nullable(2)] */ ::System::Object* existingValue,
                                     ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x61f40f8, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x61f4380, size 0x1e8, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, /* [Nullable(2)] */ ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
   constexpr bool const& __cordl_internal_get__AllowIntegerValues_k__BackingField() const;
@@ -90,47 +90,47 @@ public:
 
   constexpr void __cordl_internal_set__NamingStrategy_k__BackingField(::Newtonsoft::Json::Serialization::NamingStrategy* value);
 
-  /// @brief Method .ctor, addr 0x61f3e70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f40f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [Obsolete("StringEnumConverter(bool) is obsolete. Create a converter with StringEnumConverter(NamingStrategy, bool) instead.")]
-  /// @brief Method .ctor, addr 0x61f3e7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f4104, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(bool camelCaseText);
 
-  /// @brief Method .ctor, addr 0x61f3ee4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f416c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Serialization::NamingStrategy* namingStrategy, bool allowIntegerValues);
 
-  /// @brief Method .ctor, addr 0x61f3ef0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f4178, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* namingStrategyType);
 
-  /// @brief Method .ctor, addr 0x61f3f94, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f421c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* namingStrategyType, ::ArrayW<::System::Object*> namingStrategyParameters);
 
-  /// @brief Method .ctor, addr 0x61f403c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f42c4, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* namingStrategyType, ::ArrayW<::System::Object*> namingStrategyParameters, bool allowIntegerValues);
 
   /// [CompilerGenerated]
-  /// @brief Method get_AllowIntegerValues, addr 0x61f3e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowIntegerValues, addr 0x61f40e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowIntegerValues();
 
-  /// @brief Method get_CamelCaseText, addr 0x61f3d08, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_CamelCaseText, addr 0x61f3f90, size 0x80, virtual false, abstract: false, final false
   inline bool get_CamelCaseText();
 
   /// [NullableContext(2)]
   /// [CompilerGenerated]
-  /// @brief Method get_NamingStrategy, addr 0x61f3e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NamingStrategy, addr 0x61f40d8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::NamingStrategy* get_NamingStrategy();
 
   /// [CompilerGenerated]
-  /// @brief Method set_AllowIntegerValues, addr 0x61f3e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AllowIntegerValues, addr 0x61f40f0, size 0x8, virtual false, abstract: false, final false
   inline void set_AllowIntegerValues(bool value);
 
-  /// @brief Method set_CamelCaseText, addr 0x61f3d88, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method set_CamelCaseText, addr 0x61f4010, size 0xc8, virtual false, abstract: false, final false
   inline void set_CamelCaseText(bool value);
 
   /// [NullableContext(2)]
   /// [CompilerGenerated]
-  /// @brief Method set_NamingStrategy, addr 0x61f3e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NamingStrategy, addr 0x61f40e0, size 0x8, virtual false, abstract: false, final false
   inline void set_NamingStrategy(::Newtonsoft::Json::Serialization::NamingStrategy* value);
 
 protected:

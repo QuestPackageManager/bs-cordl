@@ -29,15 +29,15 @@ public:
 
   __declspec(property(get = get_status)) ::UnityEngine::UIElements::BindingStatus status;
 
-  /// @brief Method .ctor, addr 0x70c3320, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70c4400, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BindingStatus status, ::StringW message);
 
   /// [CompilerGenerated]
-  /// @brief Method get_message, addr 0x70c3318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_message, addr 0x70c43f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_message();
 
   /// [CompilerGenerated]
-  /// @brief Method get_status, addr 0x70c3310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x70c43f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BindingStatus get_status();
 
   // Ctor Parameters []

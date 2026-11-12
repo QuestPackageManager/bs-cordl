@@ -24,16 +24,16 @@ class CORDL_TYPE OperationResultExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method IsError, addr 0x63350a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsError, addr 0x633532c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsError(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
   /// [Extension]
-  /// @brief Method IsSuccess, addr 0x6335098, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsSuccess, addr 0x6335320, size 0xc, virtual false, abstract: false, final false
   static inline bool IsSuccess(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
   /// [Extension]
   /// [Obsolete("There are no OperationResults that are considered warnings so this method will always return False.")]
-  /// @brief Method IsWarning, addr 0x63350ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsWarning, addr 0x6335334, size 0xc, virtual false, abstract: false, final false
   static inline bool IsWarning(::GlobalNamespace::OVRSpatialAnchor_OperationResult res);
 
 protected:

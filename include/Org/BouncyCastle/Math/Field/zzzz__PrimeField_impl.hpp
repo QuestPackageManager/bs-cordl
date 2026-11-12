@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::Field::PrimeField::*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::Field::PrimeField::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37de7e0;
+  constexpr static std::size_t addrs = 0x37e2c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::Field::PrimeField::*)()>(
     &::Org::BouncyCastle::Math::Field::PrimeField::get_Characteristic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37dee3c;
+  constexpr static std::size_t addrs = 0x37e32d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::PrimeField::*)()>(&::Org::BouncyCastle::Math::Field::PrimeField::get_Dimension)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x37dee44;
+  constexpr static std::size_t addrs = 0x37e32dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::Field::PrimeField::*)(::System::Object*)>(&::Org::BouncyCastle::Math::Field::PrimeField::Equals)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x37dee4c;
+  constexpr static std::size_t addrs = 0x37e32e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::PrimeField::*)()>(&::Org::BouncyCastle::Math::Field::PrimeField::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x37def08;
+  constexpr static std::size_t addrs = 0x37e33a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

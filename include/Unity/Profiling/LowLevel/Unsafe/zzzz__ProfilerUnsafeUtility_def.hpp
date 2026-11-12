@@ -43,59 +43,59 @@ class CORDL_TYPE ProfilerUnsafeUtility : public ::System::Object {
 public:
   // Declarations
   /// [ThreadSafe]
-  /// @brief Method BeginSample, addr 0x6eebcec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeginSample, addr 0x6eecdcc, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginSample(::System::IntPtr markerPtr);
 
   /// [ThreadSafe]
-  /// @brief Method CreateCategory__Unmanaged, addr 0x6eecca8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateCategory__Unmanaged, addr 0x6eedd88, size 0x54, virtual false, abstract: false, final false
   static inline uint16_t CreateCategory__Unmanaged(uint8_t* name, int32_t nameLen, ::Unity::Profiling::ProfilerCategoryColor colorIndex);
 
   /// [ThreadSafe]
-  /// @brief Method CreateCounterValue__Unmanaged, addr 0x6eece7c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CreateCounterValue__Unmanaged, addr 0x6eedf5c, size 0x9c, virtual false, abstract: false, final false
   static inline void* CreateCounterValue__Unmanaged(::by_ref<::System::IntPtr> counterPtr, uint8_t* name, int32_t nameLen, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags,
                                                     uint8_t dataType, uint8_t dataUnit, int32_t dataSize, ::Unity::Profiling::ProfilerCounterOptions counterOptions);
 
   /// [ThreadSafe]
-  /// @brief Method CreateMarker, addr 0x6eebae4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker, addr 0x6eecbc4, size 0x154, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateMarker(::StringW name, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags, int32_t metadataCount);
 
-  /// @brief Method CreateMarker_Injected, addr 0x6eecd40, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker_Injected, addr 0x6eede20, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateMarker_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags,
                                                        int32_t metadataCount);
 
   /// [ThreadSafe]
-  /// @brief Method CreateMarker__Unmanaged, addr 0x6eecd9c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker__Unmanaged, addr 0x6eede7c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateMarker__Unmanaged(uint8_t* name, int32_t nameLen, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags, int32_t metadataCount);
 
   /// [ThreadSafe]
-  /// @brief Method EndSample, addr 0x6eebd74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EndSample, addr 0x6eece54, size 0x3c, virtual false, abstract: false, final false
   static inline void EndSample(::System::IntPtr markerPtr);
 
   /// [ThreadSafe]
-  /// @brief Method GetCategoryDescription, addr 0x6eeb920, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetCategoryDescription, addr 0x6eeca00, size 0x90, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription GetCategoryDescription(uint16_t categoryId);
 
-  /// @brief Method GetCategoryDescription_Injected, addr 0x6eeccfc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetCategoryDescription_Injected, addr 0x6eedddc, size 0x44, virtual false, abstract: false, final false
   static inline void GetCategoryDescription_Injected(uint16_t categoryId, ::by_ref<::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription> ret);
 
   /// [NativeConditional("ENABLE_MEM_PROFILER")]
   /// [ThreadSafe(ThrowsException = false)]
-  /// @brief Method GetOrCreateMemLabel, addr 0x6eecf18, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateMemLabel, addr 0x6eedff8, size 0x1b4, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetOrCreateMemLabel(::StringW areaName, ::StringW objectName);
 
-  /// @brief Method GetOrCreateMemLabel_Injected, addr 0x6eed0cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateMemLabel_Injected, addr 0x6eee1ac, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetOrCreateMemLabel_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> areaName, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> objectName);
 
   /// [ThreadSafe(ThrowsException = false)]
   /// [NativeConditional("ENABLE_MEM_PROFILER")]
-  /// @brief Method GetOrCreateMemLabel__Unmanaged, addr 0x6eed110, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateMemLabel__Unmanaged, addr 0x6eee1f0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetOrCreateMemLabel__Unmanaged(uint8_t* areaName, int32_t areaNameLen, uint8_t* objectName, int32_t objectNameLen);
 
   /// [ThreadSafe]
-  /// @brief Method SetMarkerMetadata__Unmanaged, addr 0x6eece08, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetMarkerMetadata__Unmanaged, addr 0x6eedee8, size 0x74, virtual false, abstract: false, final false
   static inline void SetMarkerMetadata__Unmanaged(::System::IntPtr markerPtr, int32_t index, uint8_t* name, int32_t nameLen, uint8_t type, uint8_t unit);
 
-  /// @brief Method Utf8ToString, addr 0x6eeb9b0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Utf8ToString, addr 0x6eeca90, size 0xe4, virtual false, abstract: false, final false
   static inline ::StringW Utf8ToString(uint8_t* chars, int32_t charsLen);
 
 protected:

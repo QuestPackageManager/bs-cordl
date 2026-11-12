@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Threading::Tasks::DebuggerSupport::get_LoggingOn)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6112d48;
+  constexpr static std::size_t addrs = 0x6112fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::DebuggerSupport*>(), { "get_LoggingOn", {}, {} })));
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::Tasks::CausalityTraceLevel, ::System::Threading::Tasks::Task*, ::StringW, uint64_t)>(
     &::System::Threading::Tasks::DebuggerSupport::TraceOperationCreation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6112d50;
+  constexpr static std::size_t addrs = 0x6112fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::Tasks::CausalityTraceLevel, ::System::Threading::Tasks::Task*, ::Internal::Runtime::Augments::AsyncStatus)>(
     &::System::Threading::Tasks::DebuggerSupport::TraceOperationCompletion)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6112d54;
+  constexpr static std::size_t addrs = 0x6112fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::Tasks::CausalityTraceLevel, ::System::Threading::Tasks::Task*, ::System::Threading::Tasks::CausalityRelation)>(
     &::System::Threading::Tasks::DebuggerSupport::TraceOperationRelation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6112d58;
+  constexpr static std::size_t addrs = 0x6112fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::Tasks::CausalityTraceLevel, ::System::Threading::Tasks::Task*,
                                                                 ::System::Threading::Tasks::CausalitySynchronousWork)>(&::System::Threading::Tasks::DebuggerSupport::TraceSynchronousWorkStart)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6112d5c;
+  constexpr static std::size_t addrs = 0x6112fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::Tasks::CausalityTraceLevel, ::System::Threading::Tasks::CausalitySynchronousWork)>(
     &::System::Threading::Tasks::DebuggerSupport::TraceSynchronousWorkCompletion)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6112d60;
+  constexpr static std::size_t addrs = 0x6112fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::Tasks::Task*)>(&::System::Threading::Tasks::DebuggerSupport::AddToActiveTasks)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6112d64;
+  constexpr static std::size_t addrs = 0x6112fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::Tasks::Task*)>(&::System::Threading::Tasks::DebuggerSupport::AddToActiveTasksNonInlined)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6112e00;
+  constexpr static std::size_t addrs = 0x6113088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::DebuggerSupport*>(),
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::Tasks::Task*)>(&::System::Threading::Tasks::DebuggerSupport::RemoveFromActiveTasks)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6112ff4;
+  constexpr static std::size_t addrs = 0x611327c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Threading::Tasks::Task*)>(&::System::Threading::Tasks::DebuggerSupport::RemoveFromActiveTasksNonInlined)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6113090;
+  constexpr static std::size_t addrs = 0x6113318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Threading::Tasks::DebuggerSupport*>(),

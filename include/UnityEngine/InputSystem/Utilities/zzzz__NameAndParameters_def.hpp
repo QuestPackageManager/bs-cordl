@@ -62,13 +62,13 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters___c* New_ctor();
 
-  /// @brief Method <ToSerializableString>b__9_0, addr 0x696b794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToSerializableString>b__9_0, addr 0x696c874, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _ToSerializableString_b__9_0(::UnityEngine::InputSystem::Utilities::NameAndParameters x);
 
-  /// @brief Method <ToString>b__8_0, addr 0x696b6d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__8_0, addr 0x696c7b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__8_0(::UnityEngine::InputSystem::Utilities::NamedValue x);
 
-  /// @brief Method .ctor, addr 0x696b6d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x696c7b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters___c* getStaticF___9();
@@ -119,46 +119,46 @@ public:
 
   __declspec(property(get = get_parameters, put = set_parameters)) ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> parameters;
 
-  /// @brief Method Create, addr 0x696ad7c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x696be5c, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters Create(::StringW name, ::System::Collections::Generic::IList_1<::UnityEngine::InputSystem::Utilities::NamedValue>* parameters);
 
-  /// @brief Method Parse, addr 0x696b468, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x696c548, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters Parse(::StringW text);
 
-  /// @brief Method ParseMultiple, addr 0x696ae0c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ParseMultiple, addr 0x696beec, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>* ParseMultiple(::StringW text);
 
-  /// @brief Method ParseMultiple, addr 0x696aec8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ParseMultiple, addr 0x696bfa8, size 0x1c8, virtual false, abstract: false, final false
   static inline bool ParseMultiple(::StringW text, ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>*> list);
 
-  /// @brief Method ParseName, addr 0x696b3f0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ParseName, addr 0x696c4d0, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW ParseName(::StringW text);
 
-  /// @brief Method ParseNameAndParameters, addr 0x696b090, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method ParseNameAndParameters, addr 0x696c170, size 0x360, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::NameAndParameters ParseNameAndParameters(::StringW text, ::by_ref<int32_t> index, bool nameOnly);
 
-  /// @brief Method ToSerializableString, addr 0x696ac0c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ToSerializableString, addr 0x696bcec, size 0x170, virtual false, abstract: false, final false
   static inline ::StringW ToSerializableString(::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>* list);
 
-  /// @brief Method ToString, addr 0x696a9f0, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x696bad0, size 0x21c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_name, addr 0x696a9cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x696baac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_parameters, addr 0x696a9dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_parameters, addr 0x696babc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> get_parameters();
 
   /// [CompilerGenerated]
-  /// @brief Method set_name, addr 0x696a9d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x696bab4, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_parameters, addr 0x696a9e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parameters, addr 0x696bac8, size 0x8, virtual false, abstract: false, final false
   inline void set_parameters(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> value);
 
   // Ctor Parameters []

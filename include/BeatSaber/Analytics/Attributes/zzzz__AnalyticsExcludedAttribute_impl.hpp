@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::Analytics::Attributes::AnalyticsExcludedAttribute::*)()>(
     &::BeatSaber::Analytics::Attributes::AnalyticsExcludedAttribute::get_Reason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34ff4a8;
+  constexpr static std::size_t addrs = 0x35018e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Attributes::AnalyticsExcludedAttribute::*)(::StringW)>(
     &::BeatSaber::Analytics::Attributes::AnalyticsExcludedAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34ff4b0;
+  constexpr static std::size_t addrs = 0x35018f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

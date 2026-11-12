@@ -27,7 +27,7 @@ namespace UnityEngine::Bindings {
 struct CORDL_TYPE OutStringMarshaller {
 public:
   // Declarations
-  /// @brief Method GetStringAndDispose, addr 0x6f97010, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetStringAndDispose, addr 0x6f980f0, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW GetStringAndDispose(::UnityEngine::Bindings::ManagedSpanWrapper managedSpan);
 
   // Ctor Parameters []

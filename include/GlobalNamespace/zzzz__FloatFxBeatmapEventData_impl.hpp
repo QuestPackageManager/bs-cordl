@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::FloatFxBeatmapEventData* (::GlobalNamespace::FloatFxBeatmapEventData::*)()>(
     &::GlobalNamespace::FloatFxBeatmapEventData::get_previousSameTypeEventData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x34f7bb4;
+  constexpr static std::size_t addrs = 0x34f9fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::FloatFxBeatmapEventData* (::GlobalNamespace::FloatFxBeatmapEventData::*)()>(
     &::GlobalNamespace::FloatFxBeatmapEventData::get_nextSameTypeEventData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x34f7c30;
+  constexpr static std::size_t addrs = 0x34fa028;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxBeatmapEventData*>(), { "get_nextSameTypeEventData", {}, {} })));
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::FloatFxBeatmapEventData::*)()>(&::GlobalNamespace::FloatFxBeatmapEventData::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34f7cac;
+  constexpr static std::size_t addrs = 0x34fa0a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxBeatmapEventData*>(), { "get_value", {}, {} })));
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatFxBeatmapEventData::*)(float_t)>(&::GlobalNamespace::FloatFxBeatmapEventData::set_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34f7cb4;
+  constexpr static std::size_t addrs = 0x34fa0ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EaseType (::GlobalNamespace::FloatFxBeatmapEventData::*)()>(&::GlobalNamespace::FloatFxBeatmapEventData::get_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34f7cbc;
+  constexpr static std::size_t addrs = 0x34fa0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxBeatmapEventData*>(), { "get_easeType", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatFxBeatmapEventData::*)(::GlobalNamespace::EaseType)>(&::GlobalNamespace::FloatFxBeatmapEventData::set_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34f7cc4;
+  constexpr static std::size_t addrs = 0x34fa0bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatFxBeatmapEventData::*)(float_t, int32_t, int32_t, bool, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::FloatFxBeatmapEventData::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x34f7ccc;
+  constexpr static std::size_t addrs = 0x34fa0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxBeatmapEventData*>(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::FloatFxBeatmapEventData::*)(::GlobalNamespace::FloatFxBeatmapEventData*)>(
     &::GlobalNamespace::FloatFxBeatmapEventData::UpdateBy)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x34f7d88;
+  constexpr static std::size_t addrs = 0x34fa180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,8 +120,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::FloatFxBeatmapEventData::*)()>(&::GlobalNamespace::FloatFxBeatmapEventData::GetCopy)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x34f7da8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x34fa1a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t, int32_t)>(&::GlobalNamespace::FloatFxBeatmapEventData::SubtypeIdentifier)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x34f7d7c;
+  constexpr static std::size_t addrs = 0x34fa174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,11 +149,11 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::FloatFxBeatmapEventData::*)()>(
     &::GlobalNamespace::FloatFxBeatmapEventData::GetDefault)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x34f7e3c;
+  constexpr static std::size_t addrs = 0x34fa24c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxBeatmapEventData*>(), { ::i2c::class_of<::GlobalNamespace::FloatFxBeatmapEventData*>(), 7 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::FloatFxBeatmapEventData*>(), { ::i2c::class_of<::GlobalNamespace::FloatFxBeatmapEventData*>(), 8 }));
     return ___internal_method;
   }
 };
@@ -276,7 +276,7 @@ inline int32_t GlobalNamespace::FloatFxBeatmapEventData::SubtypeIdentifier(int32
 }
 inline ::GlobalNamespace::BeatmapEventData* GlobalNamespace::FloatFxBeatmapEventData::GetDefault() {
   auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::FloatFxBeatmapEventData*>(), 7 })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::FloatFxBeatmapEventData*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapEventData*>(this, ___internal_method);
 }
 inline ::GlobalNamespace::FloatFxBeatmapEventData* GlobalNamespace::FloatFxBeatmapEventData::New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, float_t value,

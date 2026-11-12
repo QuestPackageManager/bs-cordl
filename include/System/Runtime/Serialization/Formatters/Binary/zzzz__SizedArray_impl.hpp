@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::SizedArray::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::SizedArray::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5fbbd68;
+  constexpr static std::size_t addrs = 0x5fbbff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::SizedArray*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::SizedArray::*)(int32_t)>(
     &::System::Runtime::Serialization::Formatters::Binary::SizedArray::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5fbbe38;
+  constexpr static std::size_t addrs = 0x5fbc0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::SizedArray::*)(::System::Runtime::Serialization::Formatters::Binary::SizedArray*)>(
     &::System::Runtime::Serialization::Formatters::Binary::SizedArray::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5fbf44c;
+  constexpr static std::size_t addrs = 0x5fbf6d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::SizedArray*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::Formatters::Binary::SizedArray::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::SizedArray::Clone)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5fbf500;
+  constexpr static std::size_t addrs = 0x5fbf788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::SizedArray*>(), { "Clone", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Runtime::Serialization::Formatters::Binary::SizedArray::*)(int32_t)>(
     &::System::Runtime::Serialization::Formatters::Binary::SizedArray::get_Item)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5fbe360;
+  constexpr static std::size_t addrs = 0x5fbe5e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::SizedArray::*)(int32_t, ::System::Object*)>(
     &::System::Runtime::Serialization::Formatters::Binary::SizedArray::set_Item)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x5fbe260;
+  constexpr static std::size_t addrs = 0x5fbe4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Formatters::Binary::SizedArray*>(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::SizedArray::*)(int32_t)>(
     &::System::Runtime::Serialization::Formatters::Binary::SizedArray::IncreaseCapacity)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x5fbf55c;
+  constexpr static std::size_t addrs = 0x5fbf7e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

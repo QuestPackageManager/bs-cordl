@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RC2Transform::*)(::System::Security::Cryptography::RC2*, bool, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::System::Security::Cryptography::RC2Transform::_ctor)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x5f62ca0;
+  constexpr static std::size_t addrs = 0x5f62f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Cryptography::RC2Transform::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(
     &::System::Security::Cryptography::RC2Transform::ECB)> {
   constexpr static std::size_t size = 0x86c;
-  constexpr static std::size_t addrs = 0x5f631cc;
+  constexpr static std::size_t addrs = 0x5f63454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

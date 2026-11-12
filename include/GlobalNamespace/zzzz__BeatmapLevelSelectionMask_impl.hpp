@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelSelectionMask::*)(::GlobalNamespace::BeatmapDifficultyMask, ::GlobalNamespace::GameplayModifierMask,
                                                                                                               ::GlobalNamespace::SongPackMask)>(&::GlobalNamespace::BeatmapLevelSelectionMask::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3550a44;
+  constexpr static std::size_t addrs = 0x35539f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevelSelectionMask::*)(::System::Object*)>(&::GlobalNamespace::BeatmapLevelSelectionMask::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3550a5c;
+  constexpr static std::size_t addrs = 0x3553a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BeatmapLevelSelectionMask::*)(::GlobalNamespace::BeatmapLevelSelectionMask)>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::Equals)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3550af0;
+  constexpr static std::size_t addrs = 0x3553aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BeatmapLevelSelectionMask::*)()>(&::GlobalNamespace::BeatmapLevelSelectionMask::GetHashCode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3550c1c;
+  constexpr static std::size_t addrs = 0x3553bd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapLevelSelectionMask::*)(::LiteNetLib::Utils::NetDataWriter*, uint32_t)>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::Serialize)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3550c58;
+  constexpr static std::size_t addrs = 0x3553c0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapLevelSelectionMask (*)(::LiteNetLib::Utils::NetDataReader*, uint32_t)>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::Deserialize)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3550ca4;
+  constexpr static std::size_t addrs = 0x3553c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::BeatmapLevelSelectionMask)>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::op_Equality)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3550d28;
+  constexpr static std::size_t addrs = 0x3553cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::BeatmapLevelSelectionMask)>(
     &::GlobalNamespace::BeatmapLevelSelectionMask::op_Inequality)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3550d9c;
+  constexpr static std::size_t addrs = 0x3553d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -315,163 +315,163 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddDelayedLastUseToPass, addr 0x6c5f108, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method AddDelayedLastUseToPass, addr 0x6c601e8, size 0x198, virtual false, abstract: false, final false
   inline void AddDelayedLastUseToPass(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> releaseResource, int32_t passId);
 
-  /// @brief Method AddLastUseFromDelayedList, addr 0x6c5f2a0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method AddLastUseFromDelayedList, addr 0x6c60380, size 0x18c, virtual false, abstract: false, final false
   inline void AddLastUseFromDelayedList(::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> passData);
 
-  /// @brief Method BuildGraph, addr 0x6c5b65c, size 0x908, virtual false, abstract: false, final false
+  /// @brief Method BuildGraph, addr 0x6c5c73c, size 0x908, virtual false, abstract: false, final false
   inline void BuildGraph();
 
-  /// @brief Method Cleanup, addr 0x6c5aea4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6c5bf84, size 0x8c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Clear, addr 0x6c5b038, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6c5c118, size 0x208, virtual false, abstract: false, final false
   inline void Clear(bool clearContextData);
 
-  /// @brief Method ClearDelayedLastUseListAtPass, addr 0x6c5f06c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ClearDelayedLastUseListAtPass, addr 0x6c6014c, size 0x9c, virtual false, abstract: false, final false
   inline void ClearDelayedLastUseListAtPass(int32_t passId);
 
-  /// @brief Method Compile, addr 0x6c5b560, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Compile, addr 0x6c5c640, size 0x64, virtual false, abstract: false, final false
   inline void Compile(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources);
 
-  /// @brief Method CullRenderGraphPassesWritingOnlyUnusedResources, addr 0x6c5e898, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method CullRenderGraphPassesWritingOnlyUnusedResources, addr 0x6c5f978, size 0x55c, virtual false, abstract: false, final false
   inline void CullRenderGraphPassesWritingOnlyUnusedResources();
 
-  /// @brief Method CullUnusedRenderGraphPasses, addr 0x6c5bf64, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method CullUnusedRenderGraphPasses, addr 0x6c5d044, size 0x33c, virtual false, abstract: false, final false
   inline void CullUnusedRenderGraphPasses();
 
-  /// @brief Method DetectMemoryLessResources, addr 0x6c5cf88, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method DetectMemoryLessResources, addr 0x6c5e068, size 0x4b0, virtual false, abstract: false, final false
   inline void DetectMemoryLessResources();
 
-  /// @brief Method DetermineLoadStoreActions, addr 0x6c5f42c, size 0x590, virtual false, abstract: false, final false
+  /// @brief Method DetermineLoadStoreActions, addr 0x6c6050c, size 0x590, virtual false, abstract: false, final false
   inline void DetermineLoadStoreActions(::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass);
 
-  /// @brief Method Dispose, addr 0x6c5af30, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6c5c010, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method EndRenderGraphPass, addr 0x6c6219c, size 0x19e4, virtual false, abstract: false, final false
+  /// @brief Method EndRenderGraphPass, addr 0x6c6327c, size 0x19e4, virtual false, abstract: false, final false
   inline void EndRenderGraphPass(::by_ref<::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*> rgContext,
                                  ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> passData, ::by_ref<bool> inRenderPass,
                                  ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources, bool nrpBegan);
 
-  /// @brief Method ExecuteBeginRenderPass, addr 0x6c6057c, size 0x838, virtual false, abstract: false, final false
+  /// @brief Method ExecuteBeginRenderPass, addr 0x6c6165c, size 0x838, virtual false, abstract: false, final false
   inline void ExecuteBeginRenderPass(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext,
                                      ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources,
                                      ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> nativePass);
 
-  /// @brief Method ExecuteDestroyResource, addr 0x6c60db4, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method ExecuteDestroyResource, addr 0x6c61e94, size 0x474, virtual false, abstract: false, final false
   inline void ExecuteDestroyResource(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext,
                                      ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources,
                                      ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> pass);
 
-  /// @brief Method ExecuteGraph, addr 0x6c61c7c, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method ExecuteGraph, addr 0x6c62d5c, size 0x520, virtual false, abstract: false, final false
   inline void ExecuteGraph(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources,
                            /* [IsReadOnly] */ ::by_ref<::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>* const> passes);
 
-  /// @brief Method ExecuteInitializeResource, addr 0x6c5fc8c, size 0x5cc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteInitializeResource, addr 0x6c60d6c, size 0x5cc, virtual false, abstract: false, final false
   inline bool ExecuteInitializeResource(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext,
                                         ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources,
                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData const> pass);
 
-  /// @brief Method ExecuteRenderGraphPass, addr 0x6c619e8, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method ExecuteRenderGraphPass, addr 0x6c62ac8, size 0x294, virtual false, abstract: false, final false
   inline void ExecuteRenderGraphPass(::by_ref<::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext*> rgContext,
                                      ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* pass);
 
-  /// @brief Method ExecuteSetRandomWriteTarget, addr 0x6c61790, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ExecuteSetRandomWriteTarget, addr 0x6c62870, size 0x258, virtual false, abstract: false, final false
   inline void ExecuteSetRandomWriteTarget(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::CommandBuffer* const> cmd,
                                           ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources, int32_t index,
                                           /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> resource, bool preserveCounterValue);
 
-  /// @brief Method ExecuteSetRenderTargets, addr 0x6c61228, size 0x568, virtual false, abstract: false, final false
+  /// @brief Method ExecuteSetRenderTargets, addr 0x6c62308, size 0x568, virtual false, abstract: false, final false
   inline void ExecuteSetRenderTargets(::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* pass, ::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* rgContext);
 
-  /// @brief Method Finalize, addr 0x6c5ae60, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x6c5bf40, size 0x44, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method FindFirstNonCulledPassIdGoingBackward, addr 0x6c5ef4c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method FindFirstNonCulledPassIdGoingBackward, addr 0x6c6002c, size 0x120, virtual false, abstract: false, final false
   inline int32_t FindFirstNonCulledPassIdGoingBackward(int32_t startPassId, bool startPassIsIncluded);
 
-  /// @brief Method FindFirstPassIdOnGraphicsQueueAwaitingFenceGoingForward, addr 0x6c5edf4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method FindFirstPassIdOnGraphicsQueueAwaitingFenceGoingForward, addr 0x6c5fed4, size 0x158, virtual false, abstract: false, final false
   inline bool FindFirstPassIdOnGraphicsQueueAwaitingFenceGoingForward(::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> startAsyncPass,
                                                                       ::by_ref<int32_t> firstPassIdAwaiting);
 
-  /// @brief Method FindResourceUsageRangeAndSynchronization, addr 0x6c5c5d4, size 0x9b4, virtual false, abstract: false, final false
+  /// @brief Method FindResourceUsageRangeAndSynchronization, addr 0x6c5d6b4, size 0x9b4, virtual false, abstract: false, final false
   inline void FindResourceUsageRangeAndSynchronization();
 
-  /// @brief Method GenerateNativeCompilerDebugData, addr 0x6c588b0, size 0x219c, virtual false, abstract: false, final false
+  /// @brief Method GenerateNativeCompilerDebugData, addr 0x6c59990, size 0x219c, virtual false, abstract: false, final false
   inline void GenerateNativeCompilerDebugData(::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraph_DebugData*> debugData);
 
-  /// @brief Method HandleExtendedFeatureFlags, addr 0x6c5b240, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method HandleExtendedFeatureFlags, addr 0x6c5c320, size 0x320, virtual false, abstract: false, final false
   inline void HandleExtendedFeatureFlags();
 
-  /// @brief Method Initialize, addr 0x6c5af94, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6c5c074, size 0xa4, virtual false, abstract: false, final false
   inline bool Initialize(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources,
                          ::System::Collections::Generic::List_1<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*>* renderPasses,
                          ::UnityEngine::Rendering::RenderGraphModule::RenderGraphDebugParams* debugParams, ::StringW debugName, bool useCompilationCaching, int32_t graphHash, int32_t frameIndex,
                          ::UnityEngine::Rendering::RenderGraphModule::RenderTextureUVOriginStrategy renderTextureUVOriginStrategy);
 
-  /// @brief Method InjectSpaces, addr 0x6c5873c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method InjectSpaces, addr 0x6c5981c, size 0x174, virtual false, abstract: false, final false
   static inline ::StringW InjectSpaces(::StringW camelCaseString);
 
-  /// @brief Method IsGlobalTextureInPass, addr 0x6c5f9bc, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method IsGlobalTextureInPass, addr 0x6c60a9c, size 0x154, virtual false, abstract: false, final false
   static inline bool IsGlobalTextureInPass(::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* pass,
                                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> handle);
 
-  /// @brief Method IsSameNativeSubPass, addr 0x6c5fb10, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method IsSameNativeSubPass, addr 0x6c60bf0, size 0x17c, virtual false, abstract: false, final false
   static inline bool IsSameNativeSubPass(::by_ref<::UnityEngine::Rendering::SubPassDescriptor> a, ::by_ref<::UnityEngine::Rendering::SubPassDescriptor> b);
 
-  /// @brief Method MakeAttachmentInfo, addr 0x6c57868, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method MakeAttachmentInfo, addr 0x6c58948, size 0x498, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassInfo_NRPInfo_PassData_DebugData_RenderGraph_AttachmentInfo*
   MakeAttachmentInfo(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData const> nativePass, int32_t attachmentIndex);
 
-  /// @brief Method MakePassBreakInfoMessage, addr 0x6c57d00, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method MakePassBreakInfoMessage, addr 0x6c58de0, size 0x140, virtual false, abstract: false, final false
   static inline ::StringW MakePassBreakInfoMessage(Il2CppObject* ctx,
                                                    /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData const> nativePass);
 
-  /// @brief Method MakePassMergeMessage, addr 0x6c57e40, size 0x8fc, virtual false, abstract: false, final false
+  /// @brief Method MakePassMergeMessage, addr 0x6c58f20, size 0x8fc, virtual false, abstract: false, final false
   static inline ::StringW MakePassMergeMessage(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData const> pass,
                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData const> prevPass,
                                                /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassBreakAudit const> mergeResult);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassCompiler* New_ctor(::GlobalNamespace::RenderGraphCompilationCache* cache);
 
-  /// @brief Method PrepareNativeRenderPasses, addr 0x6c5d438, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method PrepareNativeRenderPasses, addr 0x6c5e518, size 0xf0, virtual false, abstract: false, final false
   inline void PrepareNativeRenderPasses();
 
-  /// @brief Method PropagateTextureUVOrigin, addr 0x6c5d528, size 0x624, virtual false, abstract: false, final false
+  /// @brief Method PropagateTextureUVOrigin, addr 0x6c5e608, size 0x624, virtual false, abstract: false, final false
   inline void PropagateTextureUVOrigin();
 
-  /// @brief Method SetPassStatesForNativePass, addr 0x6c5db4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetPassStatesForNativePass, addr 0x6c5ec2c, size 0xc, virtual false, abstract: false, final false
   inline void SetPassStatesForNativePass(int32_t nativePassId);
 
-  /// @brief Method SetupContextData, addr 0x6c5b5c4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SetupContextData, addr 0x6c5c6a4, size 0x98, virtual false, abstract: false, final false
   inline void SetupContextData(::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources);
 
-  /// @brief Method TryMergeNativePasses, addr 0x6c5c2a0, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method TryMergeNativePasses, addr 0x6c5d380, size 0x334, virtual false, abstract: false, final false
   inline void TryMergeNativePasses();
 
-  /// @brief Method TrySetupRasterFragmentList, addr 0x6c5ddf0, size 0xaa8, virtual false, abstract: false, final false
+  /// @brief Method TrySetupRasterFragmentList, addr 0x6c5eed0, size 0xaa8, virtual false, abstract: false, final false
   inline bool TrySetupRasterFragmentList(::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> ctxPass,
                                          ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass*> inputPass, ::by_ref<::StringW> errorMessage);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method ValidateAttachment, addr 0x6c603e8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ValidateAttachment, addr 0x6c614c8, size 0x194, virtual false, abstract: false, final false
   inline void ValidateAttachment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderTargetInfo const> attRenderTargetInfo,
                                  ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceRegistry* resources, int32_t nativePassWidth, int32_t nativePassHeight, int32_t nativePassMSAASamples,
                                  bool isVrs, bool isShaderResolve);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method ValidateNativePass, addr 0x6c60258, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ValidateNativePass, addr 0x6c61338, size 0x190, virtual false, abstract: false, final false
   inline void ValidateNativePass(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData const> nativePass, int32_t width, int32_t height,
                                  int32_t depth, int32_t samples, int32_t attachmentCount);
 
   /// [Conditional("DEVELOPMENT_BUILD")]
   /// [Conditional("UNITY_EDITOR")]
-  /// @brief Method ValidatePasses, addr 0x6c5db58, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method ValidatePasses, addr 0x6c5ec38, size 0x298, virtual false, abstract: false, final false
   inline void ValidatePasses();
 
   constexpr Il2CppObject* const& __cordl_internal_get_contextData() const;
@@ -546,7 +546,7 @@ public:
 
   constexpr void __cordl_internal_set_previousCommandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
 
-  /// @brief Method .ctor, addr 0x6c5aa4c, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5bb2c, size 0x414, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::RenderGraphCompilationCache* cache);
 
   static inline bool getStaticF_s_ForceGenerateAuditsForTests();

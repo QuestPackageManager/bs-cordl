@@ -96,22 +96,22 @@ public:
 
   __declspec(property(get = get_bounds)) ::UnityEngine::Bounds bounds;
 
-  /// @brief Method CalculateObstacleTransformProperties, addr 0x5dcdc24, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CalculateObstacleTransformProperties, addr 0x5dcdd40, size 0x40, virtual false, abstract: false, final false
   inline void CalculateObstacleTransformProperties(float_t width, float_t height, float_t length, ::by_ref<::UnityEngine::Vector3> localPosition, ::by_ref<::UnityEngine::Vector3> size,
                                                    ::by_ref<::UnityEngine::Vector3> scale);
 
   static inline ::GlobalNamespace::StretchableObstacle* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x5dcdfe8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5dce104, size 0x88, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetAllProperties, addr 0x5dcd84c, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method SetAllProperties, addr 0x5dcd968, size 0x3d8, virtual false, abstract: false, final false
   inline void SetAllProperties(float_t width, float_t height, float_t length, ::UnityEngine::Color color, float_t manualUvOffset);
 
-  /// @brief Method SetObstacleCoreTransformProperties, addr 0x5dcdc64, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetObstacleCoreTransformProperties, addr 0x5dcdd80, size 0x130, virtual false, abstract: false, final false
   inline void SetObstacleCoreTransformProperties(::UnityEngine::Vector3 localPosition, ::UnityEngine::Vector3 size, ::UnityEngine::Vector3 scale);
 
-  /// @brief Method SetSizeAndOffset, addr 0x5dcdd94, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method SetSizeAndOffset, addr 0x5dcdeb0, size 0x254, virtual false, abstract: false, final false
   inline void SetSizeAndOffset(float_t width, float_t height, float_t length, float_t offset);
 
   constexpr float_t const& __cordl_internal_get__addColorMultiplier() const;
@@ -180,7 +180,7 @@ public:
 
   constexpr void __cordl_internal_set__obstacleFrame(::UnityW<::GlobalNamespace::ParametricBoxFrameController> value);
 
-  /// @brief Method .ctor, addr 0x5dce070, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dce18c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__addColorID();
@@ -193,7 +193,7 @@ public:
 
   static inline int32_t getStaticF__uvScaleID();
 
-  /// @brief Method get_bounds, addr 0x5dcd838, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x5dcd954, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
   static inline void setStaticF__addColorID(int32_t value);

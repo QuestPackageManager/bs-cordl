@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::LightGroupSO> (::GlobalNamespace::DirectionalLightWithIdsGroupEntry_GroupLightData::*)()>(
     &::GlobalNamespace::DirectionalLightWithIdsGroupEntry_GroupLightData::get_lightGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cbb2c8;
+  constexpr static std::size_t addrs = 0x5cb9b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::DirectionalLightWithIdsGroupEntry_GroupLightData::*)()>(
     &::GlobalNamespace::DirectionalLightWithIdsGroupEntry_GroupLightData::get_groupIntensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cbb2d0;
+  constexpr static std::size_t addrs = 0x5cb9b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DirectionalLightWithIdsGroupEntry_GroupLightData::*)(::GlobalNamespace::LightGroupSO*)>(
     &::GlobalNamespace::DirectionalLightWithIdsGroupEntry_GroupLightData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cbb2d8;
+  constexpr static std::size_t addrs = 0x5cb9b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_GroupLightData*>(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId::*)()>(
     &::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId::get_lightId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cbb2e8;
+  constexpr static std::size_t addrs = 0x5cb9b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId::*)()>(
     &::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId::get_intensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cbb2f0;
+  constexpr static std::size_t addrs = 0x5cb9b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId::*)(int32_t, float_t)>(
     &::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cbb2f8;
+  constexpr static std::size_t addrs = 0x5cb9b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId*>(),
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_GroupLightData*>* (
     ::GlobalNamespace::DirectionalLightWithIdsGroupEntry::*)()>(&::GlobalNamespace::DirectionalLightWithIdsGroupEntry::get_groupLightData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cbb2ac;
+  constexpr static std::size_t addrs = 0x5cb9af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_LightIntensitiesWithId*>* (
     ::GlobalNamespace::DirectionalLightWithIdsGroupEntry::*)()>(&::GlobalNamespace::DirectionalLightWithIdsGroupEntry::get_individualLightData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cbb2b4;
+  constexpr static std::size_t addrs = 0x5cb9afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ColorMixAndWeightingApproach (::GlobalNamespace::DirectionalLightWithIdsGroupEntry::*)()>(
     &::GlobalNamespace::DirectionalLightWithIdsGroupEntry::get_groupLightsWeighting)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cbb2bc;
+  constexpr static std::size_t addrs = 0x5cb9b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DirectionalLightWithIdsGroupEntry::*)()>(&::GlobalNamespace::DirectionalLightWithIdsGroupEntry::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cbb2c4;
+  constexpr static std::size_t addrs = 0x5cb9b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DirectionalLightWithIdsGroupEntry*>(), { ".ctor", {}, {} })));
@@ -301,6 +301,18 @@ constexpr ::GlobalNamespace::ColorMixAndWeightingApproach const& GlobalNamespace
 constexpr void GlobalNamespace::DirectionalLightWithIdsGroupEntry::__cordl_internal_set__groupLightsWeighting(::GlobalNamespace::ColorMixAndWeightingApproach value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____groupLightsWeighting = value;
+}
+constexpr bool& GlobalNamespace::DirectionalLightWithIdsGroupEntry::__cordl_internal_get__usesCompositeAddressing() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____usesCompositeAddressing;
+}
+constexpr bool const& GlobalNamespace::DirectionalLightWithIdsGroupEntry::__cordl_internal_get__usesCompositeAddressing() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____usesCompositeAddressing;
+}
+constexpr void GlobalNamespace::DirectionalLightWithIdsGroupEntry::__cordl_internal_set__usesCompositeAddressing(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____usesCompositeAddressing = value;
 }
 inline ::System::Collections::Generic::List_1<::GlobalNamespace::DirectionalLightWithIdsGroupEntry_GroupLightData*>* GlobalNamespace::DirectionalLightWithIdsGroupEntry::get_groupLightData() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DirectionalLightWithIdsGroupEntry*>(), { "get_groupLightData", {}, {} })));

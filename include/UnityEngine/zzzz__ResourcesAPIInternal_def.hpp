@@ -40,38 +40,38 @@ public:
   // Declarations
   /// [FreeFunction("Resources_Bindings::FindObjectsOfTypeAll")]
   /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)2)]
-  /// @brief Method FindObjectsOfTypeAll, addr 0x6f6fae4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FindObjectsOfTypeAll, addr 0x6f70bc4, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> FindObjectsOfTypeAll(::System::Type* type);
 
   /// [FreeFunction("GetShaderNameRegistry().FindShader")]
-  /// @brief Method FindShaderByName, addr 0x6f6fb20, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method FindShaderByName, addr 0x6f70c00, size 0x274, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> FindShaderByName(::StringW name);
 
-  /// @brief Method FindShaderByName_Injected, addr 0x6f6fd94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FindShaderByName_Injected, addr 0x6f70e74, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr FindShaderByName_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> name);
 
   /// [NativeThrows]
   /// [FreeFunction("Resources_Bindings::Load")]
   /// [TypeInferenceRule((UnityEngineInternal.TypeInferenceRules)1)]
-  /// @brief Method Load, addr 0x6f6fdd0, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x6f70eb0, size 0x28c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path, /* [NotNull] */ ::System::Type* systemTypeInstance);
 
   /// [FreeFunction("Resources_Bindings::LoadAll")]
   /// [NativeThrows]
-  /// @brief Method LoadAll, addr 0x6f700a0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x6f71180, size 0x188, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> LoadAll(/* [NotNull] */ ::StringW path, /* [NotNull] */ ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAll_Injected, addr 0x6f70228, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LoadAll_Injected, addr 0x6f71308, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> LoadAll_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method Load_Injected, addr 0x6f7005c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Load_Injected, addr 0x6f7113c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::IntPtr Load_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> path, ::System::Type* systemTypeInstance);
 
   /// [FreeFunction("Scripting::UnloadAssetFromScripting")]
-  /// @brief Method UnloadAsset, addr 0x6f7026c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UnloadAsset, addr 0x6f7134c, size 0x80, virtual false, abstract: false, final false
   static inline void UnloadAsset(::UnityEngine::Object* assetToUnload);
 
-  /// @brief Method UnloadAsset_Injected, addr 0x6f702ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UnloadAsset_Injected, addr 0x6f713cc, size 0x3c, virtual false, abstract: false, final false
   static inline void UnloadAsset_Injected(::System::IntPtr assetToUnload);
 
 protected:

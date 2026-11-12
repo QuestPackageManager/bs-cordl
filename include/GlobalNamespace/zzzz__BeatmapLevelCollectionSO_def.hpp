@@ -34,15 +34,15 @@ public:
 
   __declspec(property(get = get_beatmapLevels)) ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* beatmapLevels;
 
-  /// @brief Method AddBeatmapLevel, addr 0x39d0924, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddBeatmapLevel, addr 0x39d4e20, size 0xb4, virtual false, abstract: false, final false
   inline void AddBeatmapLevel(::GlobalNamespace::BeatmapLevelSO* beatmapLevel);
 
-  /// @brief Method Create, addr 0x39d0880, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x39d4d7c, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> Create();
 
   static inline ::GlobalNamespace::BeatmapLevelCollectionSO* New_ctor();
 
-  /// @brief Method SortLevels, addr 0x39d09d8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SortLevels, addr 0x39d4ed4, size 0xa8, virtual false, abstract: false, final false
   inline void SortLevels();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* const& __cordl_internal_get__beatmapLevels() const;
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__beatmapLevels(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* value);
 
-  /// @brief Method .ctor, addr 0x39d0a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d4f7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatmapLevels, addr 0x39d0878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevels, addr 0x39d4d74, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* get_beatmapLevels();
 
 protected:
@@ -72,7 +72,7 @@ public:
   BeatmapLevelCollectionSO(BeatmapLevelCollectionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14426 };
 
   /// [SerializeField]
   /// @brief Field _beatmapLevels, offset: 0x18, size: 0x8, def value: None

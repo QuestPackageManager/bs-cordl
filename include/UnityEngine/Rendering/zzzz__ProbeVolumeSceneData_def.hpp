@@ -44,7 +44,7 @@ public:
   static inline ::UnityEngine::Rendering::ProbeVolumeSceneData* New_ctor(::UnityEngine::Object* parentAsset);
 
   /// [Obsolete("#from(2023.3)")]
-  /// @brief Method SetParentObject, addr 0x6befc44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetParentObject, addr 0x6bf0d24, size 0x8, virtual false, abstract: false, final false
   inline void SetParentObject(::UnityEngine::Object* parent);
 
   constexpr ::UnityEngine::Rendering::SerializedDictionary_2<::StringW, bool>* const& __cordl_internal_get_obsoleteHasProbeVolumes() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_parentAsset(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method .ctor, addr 0x6befc3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bf0d1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Object* parentAsset);
 
 protected:

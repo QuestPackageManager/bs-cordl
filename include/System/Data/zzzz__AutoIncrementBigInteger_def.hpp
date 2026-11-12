@@ -50,18 +50,18 @@ public:
   /// @brief Field _step, offset 0x30, size 0x10
   __declspec(property(get = __cordl_internal_get__step, put = __cordl_internal_set__step)) ::System::Numerics::BigInteger _step;
 
-  /// @brief Method BoundaryCheck, addr 0x645dac4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method BoundaryCheck, addr 0x645e114, size 0x12c, virtual false, abstract: false, final false
   inline bool BoundaryCheck(::System::Numerics::BigInteger value);
 
-  /// @brief Method MoveAfter, addr 0x645ddd0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method MoveAfter, addr 0x645e420, size 0x80, virtual true, abstract: false, final false
   inline void MoveAfter();
 
   static inline ::System::Data::AutoIncrementBigInteger* New_ctor();
 
-  /// @brief Method SetCurrent, addr 0x645de50, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetCurrent, addr 0x645e4a0, size 0x24, virtual true, abstract: false, final false
   inline void SetCurrent(::System::Object* value, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method SetCurrentAndIncrement, addr 0x645de74, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetCurrentAndIncrement, addr 0x645e4c4, size 0xc0, virtual true, abstract: false, final false
   inline void SetCurrentAndIncrement(::System::Object* value);
 
   constexpr ::System::Numerics::BigInteger const& __cordl_internal_get__current() const;
@@ -82,28 +82,28 @@ public:
 
   constexpr void __cordl_internal_set__step(::System::Numerics::BigInteger value);
 
-  /// @brief Method .ctor, addr 0x6458760, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6458db0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Current, addr 0x645d890, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x645dee0, size 0x60, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_DataType, addr 0x645d970, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x645dfc0, size 0x60, virtual true, abstract: false, final false
   inline ::System::Type* get_DataType();
 
-  /// @brief Method get_Seed, addr 0x645d9d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Seed, addr 0x645e020, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_Seed();
 
-  /// @brief Method get_Step, addr 0x645dbf0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method get_Step, addr 0x645e240, size 0x64, virtual true, abstract: false, final false
   inline int64_t get_Step();
 
-  /// @brief Method set_Current, addr 0x645d8f0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method set_Current, addr 0x645df40, size 0x80, virtual true, abstract: false, final false
   inline void set_Current(::System::Object* value);
 
-  /// @brief Method set_Seed, addr 0x645d9d8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method set_Seed, addr 0x645e028, size 0xec, virtual true, abstract: false, final false
   inline void set_Seed(int64_t value);
 
-  /// @brief Method set_Step, addr 0x645dc54, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method set_Step, addr 0x645e2a4, size 0x17c, virtual true, abstract: false, final false
   inline void set_Step(int64_t value);
 
 protected:

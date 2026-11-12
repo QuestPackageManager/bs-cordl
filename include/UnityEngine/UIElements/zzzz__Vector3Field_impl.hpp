@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Vector3Field_UxmlFactory::*)()>(&::UnityEngine::UIElements::Vector3Field_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x71ec06c;
+  constexpr static std::size_t addrs = 0x71ed14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Vector3Field_UxmlFactory*>(), { ".ctor", {}, {} })));
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Vector3Field_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::Vector3Field_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x71ec0d4;
+  constexpr static std::size_t addrs = 0x71ed1b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Vector3Field_UxmlTraits::*)()>(&::UnityEngine::UIElements::Vector3Field_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x71ec27c;
+  constexpr static std::size_t addrs = 0x71ed35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Vector3Field_UxmlTraits*>(), { ".ctor", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Vector3Field___c::*)()>(&::UnityEngine::UIElements::Vector3Field___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x71ec3ec;
+  constexpr static std::size_t addrs = 0x71ed4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Vector3Field___c*>(), { ".ctor", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Vector3Field___c::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::UIElements::Vector3Field___c::_DescribeFields_b__0_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x71ec3f0;
+  constexpr static std::size_t addrs = 0x71ed4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Vector3Field___c::*)(::by_ref<::UnityEngine::Vector3>, float_t)>(
     &::UnityEngine::UIElements::Vector3Field___c::_DescribeFields_b__0_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71ec3f4;
+  constexpr static std::size_t addrs = 0x71ed4d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Vector3Field___c::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::UIElements::Vector3Field___c::_DescribeFields_b__0_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71ec3fc;
+  constexpr static std::size_t addrs = 0x71ed4dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Vector3Field___c::*)(::by_ref<::UnityEngine::Vector3>, float_t)>(
     &::UnityEngine::UIElements::Vector3Field___c::_DescribeFields_b__0_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71ec404;
+  constexpr static std::size_t addrs = 0x71ed4e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::Vector3Field___c::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::UIElements::Vector3Field___c::_DescribeFields_b__0_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71ec40c;
+  constexpr static std::size_t addrs = 0x71ed4ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Vector3Field___c::*)(::by_ref<::UnityEngine::Vector3>, float_t)>(
     &::UnityEngine::UIElements::Vector3Field___c::_DescribeFields_b__0_5)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71ec414;
+  constexpr static std::size_t addrs = 0x71ed4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<
     ::ArrayW<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<::UnityEngine::Vector3, ::UnityEngine::UIElements::FloatField*, float_t>> (::UnityEngine::UIElements::Vector3Field::*)()>(
     &::UnityEngine::UIElements::Vector3Field::DescribeFields)> {
   constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x71ebaf8;
+  constexpr static std::size_t addrs = 0x71ecbd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Vector3Field::*)()>(&::UnityEngine::UIElements::Vector3Field::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71ebf88;
+  constexpr static std::size_t addrs = 0x71ed068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::Vector3Field*>(), { ".ctor", {}, {} })));
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::Vector3Field::*)(::StringW)>(&::UnityEngine::UIElements::Vector3Field::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x71e6684;
+  constexpr static std::size_t addrs = 0x71e7764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

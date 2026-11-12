@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatSaber::Analytics::Attributes::AnalyticsTransformAttribute::*)()>(
     &::BeatSaber::Analytics::Attributes::AnalyticsTransformAttribute::get_MethodName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34ff4d8;
+  constexpr static std::size_t addrs = 0x3501918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Attributes::AnalyticsTransformAttribute::*)(::StringW)>(
     &::BeatSaber::Analytics::Attributes::AnalyticsTransformAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34ff4e0;
+  constexpr static std::size_t addrs = 0x3501920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

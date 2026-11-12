@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Text::RegularExpressions::Regex* (*)()>(&::System::Xml::Schema::StringFacetsChecker::get_LanguagePattern)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x66382dc;
+  constexpr static std::size_t addrs = 0x663892c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::StringFacetsChecker*>(), { "get_LanguagePattern", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Schema::StringFacetsChecker::*)(::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::StringFacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x663839c;
+  constexpr static std::size_t addrs = 0x66389ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Schema::StringFacetsChecker::*)(::StringW, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::StringFacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x66383f4;
+  constexpr static std::size_t addrs = 0x6638a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Schema::StringFacetsChecker::*)(::StringW, ::System::Xml::Schema::XmlSchemaDatatype*, bool)>(
     &::System::Xml::Schema::StringFacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x662bc60;
+  constexpr static std::size_t addrs = 0x662c2b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::StringFacetsChecker::*)(
     ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::StringFacetsChecker::MatchEnumeration)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x66388a0;
+  constexpr static std::size_t addrs = 0x6638ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::StringFacetsChecker::*)(::StringW, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::StringFacetsChecker::MatchEnumeration)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x66386ac;
+  constexpr static std::size_t addrs = 0x6638cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (::System::Xml::Schema::StringFacetsChecker::*)(::StringW, ::System::Xml::Schema::XmlTypeCode, bool)>(
     &::System::Xml::Schema::StringFacetsChecker::CheckBuiltInFacets)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x66383fc;
+  constexpr static std::size_t addrs = 0x6638a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::StringFacetsChecker::*)()>(&::System::Xml::Schema::StringFacetsChecker::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x662404c;
+  constexpr static std::size_t addrs = 0x662469c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::StringFacetsChecker*>(), { ".ctor", {}, {} })));

@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>*)>(&::GlobalNamespace::ColorNoteVisuals::add_didInitEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d20ed0;
+  constexpr static std::size_t addrs = 0x5d210ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>*)>(&::GlobalNamespace::ColorNoteVisuals::remove_didInitEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d20f90;
+  constexpr static std::size_t addrs = 0x5d2116c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)(bool)>(&::GlobalNamespace::ColorNoteVisuals::set_showArrow)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5d21050;
+  constexpr static std::size_t addrs = 0x5d2122c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)(bool)>(&::GlobalNamespace::ColorNoteVisuals::set_showCircle)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5d210b4;
+  constexpr static std::size_t addrs = 0x5d21290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)()>(&::GlobalNamespace::ColorNoteVisuals::Awake)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x5d21118;
+  constexpr static std::size_t addrs = 0x5d212f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorNoteVisuals*>(), { "Awake", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)()>(&::GlobalNamespace::ColorNoteVisuals::OnDestroy)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x5d212f4;
+  constexpr static std::size_t addrs = 0x5d214d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorNoteVisuals*>(), { "OnDestroy", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)(::GlobalNamespace::NoteControllerBase*)>(
     &::GlobalNamespace::ColorNoteVisuals::HandleNoteControllerDidInit)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x5d21524;
+  constexpr static std::size_t addrs = 0x5d21700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorNoteVisuals*>(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)(::GlobalNamespace::NoteControllerBase*)>(
     &::GlobalNamespace::ColorNoteVisuals::HandleNoteControllerNoteDidPassJumpThreeQuarters)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d2169c;
+  constexpr static std::size_t addrs = 0x5d21878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)(::GlobalNamespace::NoteControllerBase*, float_t)>(
     &::GlobalNamespace::ColorNoteVisuals::HandleNoteControllerNoteDidStartDissolving)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d216bc;
+  constexpr static std::size_t addrs = 0x5d21898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)()>(&::GlobalNamespace::ColorNoteVisuals::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d216dc;
+  constexpr static std::size_t addrs = 0x5d218b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorNoteVisuals*>(), { ".ctor", {}, {} })));

@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::HMUI::NoTransitionsButton_SelectionState (::HMUI::NoTransitionsButton::*)()>(&::HMUI::NoTransitionsButton::get_selectionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd1668;
+  constexpr static std::size_t addrs = 0x5cd0e3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::NoTransitionsButton*>(), { "get_selectionState", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionsButton::*)(::System::Action_1<::HMUI::NoTransitionsButton_SelectionState>*)>(
     &::HMUI::NoTransitionsButton::add_selectionStateDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5cd0948;
+  constexpr static std::size_t addrs = 0x5cd011c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionsButton::*)(::System::Action_1<::HMUI::NoTransitionsButton_SelectionState>*)>(
     &::HMUI::NoTransitionsButton::remove_selectionStateDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5cd0b70;
+  constexpr static std::size_t addrs = 0x5cd0344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionsButton::*)(bool)>(&::HMUI::NoTransitionsButton::SetForcedHighlight)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5cd1670;
+  constexpr static std::size_t addrs = 0x5cd0e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::NoTransitionsButton*>(), { "SetForcedHighlight", {}, { ::i2c::type_of<bool>() } })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionsButton::*)(::UnityEngine::UI::Selectable_SelectionState, bool)>(&::HMUI::NoTransitionsButton::DoStateTransition)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5cd16ec;
+  constexpr static std::size_t addrs = 0x5cd0ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::NoTransitionsButton*>(), { ::i2c::class_of<::HMUI::NoTransitionsButton*>(), 26 }));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::NoTransitionsButton::*)()>(&::HMUI::NoTransitionsButton::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cd1748;
+  constexpr static std::size_t addrs = 0x5cd0f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::NoTransitionsButton*>(), { ".ctor", {}, {} })));

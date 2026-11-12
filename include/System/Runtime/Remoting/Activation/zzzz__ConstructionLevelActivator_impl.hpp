@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoting::Activation::IActivator* (::System::Runtime::Remoting::Activation::ConstructionLevelActivator::*)()>(
     &::System::Runtime::Remoting::Activation::ConstructionLevelActivator::get_NextActivator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f91ed0;
+  constexpr static std::size_t addrs = 0x5f92158;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::Remoti
     ::System::Runtime::Remoting::Activation::ConstructionLevelActivator::*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(
     &::System::Runtime::Remoting::Activation::ConstructionLevelActivator::Activate)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x5f91ed8;
+  constexpr static std::size_t addrs = 0x5f92160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::Activation::ConstructionLevelActivator::*)()>(
     &::System::Runtime::Remoting::Activation::ConstructionLevelActivator::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f914e0;
+  constexpr static std::size_t addrs = 0x5f91768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

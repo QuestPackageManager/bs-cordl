@@ -61,7 +61,7 @@ public:
   constexpr PropertyBagStore_TypedStore_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20906 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -93,10 +93,10 @@ public:
   /// @brief Method AddPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer> static inline void AddPropertyBag(::Unity::Properties::IPropertyBag_1<TContainer>* propertyBag);
 
-  /// @brief Method CreatePropertyBagProvider, addr 0x704d364, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CreatePropertyBagProvider, addr 0x704e444, size 0x84, virtual false, abstract: false, final false
   static inline void CreatePropertyBagProvider();
 
-  /// @brief Method GetPropertyBag, addr 0x704a6bc, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyBag, addr 0x704b79c, size 0x270, virtual false, abstract: false, final false
   static inline ::Unity::Properties::IPropertyBag* GetPropertyBag(::System::Type* type);
 
   /// @brief Method GetPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -111,7 +111,7 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::System::Type*>* getStaticF_s_RegisteredTypes();
 
-  /// @brief Method get_ReflectedPropertyBagProvider, addr 0x705043c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_ReflectedPropertyBagProvider, addr 0x705151c, size 0xa8, virtual false, abstract: false, final false
   static inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider* get_ReflectedPropertyBagProvider();
 
   static inline void setStaticF_s_PropertyBagProvider(::Unity::Properties::Internal::ReflectedPropertyBagProvider* value);
@@ -135,7 +135,7 @@ public:
   PropertyBagStore(PropertyBagStore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20907 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

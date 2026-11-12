@@ -49,22 +49,22 @@ public:
 
   constexpr void __cordl_internal_set__cancellationToken(::System::Threading::CancellationToken value);
 
-  /// @brief Method .ctor, addr 0x60ad8d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60adb58, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x60ad9f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60adc7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x60ad9a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60adc2c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x60ad9c4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60adc4c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Threading::CancellationToken token);
 
-  /// @brief Method get_CancellationToken, addr 0x60ad8c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CancellationToken, addr 0x60adb48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationToken get_CancellationToken();
 
-  /// @brief Method set_CancellationToken, addr 0x60ad8c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CancellationToken, addr 0x60adb50, size 0x8, virtual false, abstract: false, final false
   inline void set_CancellationToken(::System::Threading::CancellationToken value);
 
 protected:

@@ -29,7 +29,7 @@ class CORDL_TYPE AsyncInstantiateOperationHelper : public ::System::Object {
 public:
   // Declarations
   /// [RequiredByNativeCode]
-  /// @brief Method CreateAsyncInstantiateOperationResultArray, addr 0x6f70f10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateAsyncInstantiateOperationResultArray, addr 0x6f71ff0, size 0x18, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>> CreateAsyncInstantiateOperationResultArray(::UnityEngine::AsyncInstantiateOperation* op, int32_t size);
 
 protected:

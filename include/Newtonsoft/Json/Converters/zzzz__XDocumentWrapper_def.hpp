@@ -52,62 +52,62 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Method AppendChild, addr 0x61f7828, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method AppendChild, addr 0x61f7ab0, size 0xac, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);
 
-  /// @brief Method CreateAttribute, addr 0x61f7630, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method CreateAttribute, addr 0x61f78b8, size 0xa0, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Converters::IXmlNode* CreateAttribute(::StringW name, ::StringW value);
 
-  /// @brief Method CreateAttribute, addr 0x61f76d8, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method CreateAttribute, addr 0x61f7960, size 0xc8, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Converters::IXmlNode* CreateAttribute(::StringW qualifiedName, ::StringW namespaceUri, ::StringW value);
 
-  /// @brief Method CreateCDataSection, addr 0x61f7190, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method CreateCDataSection, addr 0x61f7418, size 0x7c, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Converters::IXmlNode* CreateCDataSection(/* [Nullable(2)] */ ::StringW data);
 
-  /// @brief Method CreateComment, addr 0x61f7090, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method CreateComment, addr 0x61f7318, size 0x80, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Converters::IXmlNode* CreateComment(/* [Nullable(2)] */ ::StringW text);
 
-  /// @brief Method CreateElement, addr 0x61f74d8, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method CreateElement, addr 0x61f7760, size 0x90, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW elementName);
 
-  /// @brief Method CreateElement, addr 0x61f7570, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method CreateElement, addr 0x61f77f8, size 0xc0, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Converters::IXmlElement* CreateElement(::StringW qualifiedName, ::StringW namespaceUri);
 
-  /// @brief Method CreateProcessingInstruction, addr 0x61f7440, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method CreateProcessingInstruction, addr 0x61f76c8, size 0x90, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Converters::IXmlNode* CreateProcessingInstruction(::StringW target, ::StringW data);
 
-  /// @brief Method CreateSignificantWhitespace, addr 0x61f728c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method CreateSignificantWhitespace, addr 0x61f7514, size 0x80, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Converters::IXmlNode* CreateSignificantWhitespace(/* [Nullable(2)] */ ::StringW text);
 
-  /// @brief Method CreateTextNode, addr 0x61f7110, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method CreateTextNode, addr 0x61f7398, size 0x80, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Converters::IXmlNode* CreateTextNode(/* [Nullable(2)] */ ::StringW text);
 
-  /// @brief Method CreateWhitespace, addr 0x61f720c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method CreateWhitespace, addr 0x61f7494, size 0x80, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Converters::IXmlNode* CreateWhitespace(/* [Nullable(2)] */ ::StringW text);
 
-  /// @brief Method CreateXmlDeclaration, addr 0x61f730c, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method CreateXmlDeclaration, addr 0x61f7594, size 0x8c, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Converters::IXmlNode* CreateXmlDeclaration(::StringW version, /* [Nullable(2)] */ ::StringW encoding, /* [Nullable(2)] */ ::StringW standalone);
 
   /// [NullableContext(2)]
-  /// @brief Method CreateXmlDocumentType, addr 0x61f7398, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method CreateXmlDocumentType, addr 0x61f7620, size 0xa8, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Converters::IXmlNode* CreateXmlDocumentType(/* [Nullable(1)] */ ::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset);
 
   static inline ::Newtonsoft::Json::Converters::XDocumentWrapper* New_ctor(::System::Xml::Linq::XDocument* document);
 
-  /// @brief Method .ctor, addr 0x61f6abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f6d44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDocument* document);
 
-  /// @brief Method get_ChildNodes, addr 0x61f6acc, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method get_ChildNodes, addr 0x61f6d54, size 0x17c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_ChildNodes();
 
-  /// @brief Method get_Document, addr 0x61f6a40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Document, addr 0x61f6cc8, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XDocument* get_Document();
 
   /// [NullableContext(2)]
-  /// @brief Method get_DocumentElement, addr 0x61f77a0, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_DocumentElement, addr 0x61f7a28, size 0x88, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Converters::IXmlElement* get_DocumentElement();
 
-  /// @brief Method get_HasChildNodes, addr 0x61f702c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_HasChildNodes, addr 0x61f72b4, size 0x3c, virtual true, abstract: false, final false
   inline bool get_HasChildNodes();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocument"

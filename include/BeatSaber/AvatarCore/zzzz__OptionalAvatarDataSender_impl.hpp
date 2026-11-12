@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::OptionalAvatarDataSender::*)(
     ::BeatSaber::AvatarCore::AvatarSystemCollection*, ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler*)>(&::BeatSaber::AvatarCore::OptionalAvatarDataSender::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35180b0;
+  constexpr static std::size_t addrs = 0x351a4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::OptionalAvatarDataSender::*)(::StringW)>(
     &::BeatSaber::AvatarCore::OptionalAvatarDataSender::SetSelectedAvatarTypeId)> {
   constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x35180b8;
+  constexpr static std::size_t addrs = 0x351a4f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::OptionalAvatarDataSender::*)(::BeatSaber::AvatarCore::AvatarDisplayContext)>(
     &::BeatSaber::AvatarCore::OptionalAvatarDataSender::SetCurrentLocalAvatarDisplayContext)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3518504;
+  constexpr static std::size_t addrs = 0x351a944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::OptionalAvatarDataSender::*)()>(&::BeatSaber::AvatarCore::OptionalAvatarDataSender::Dispose)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x35185d8;
+  constexpr static std::size_t addrs = 0x351aa18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AvatarCore::OptionalAvatarDataSender*>(), { "Dispose", {}, {} })));
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AvatarCore::OptionalAvatarDataSender::*)(::BeatSaber::AvatarCore::OptionalAvatarData)>(
     &::BeatSaber::AvatarCore::OptionalAvatarDataSender::HandleOptionalAvatarDataProviderDataDidChange)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x35184f0;
+  constexpr static std::size_t addrs = 0x351a930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

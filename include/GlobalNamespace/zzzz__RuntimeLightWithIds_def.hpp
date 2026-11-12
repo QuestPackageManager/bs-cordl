@@ -43,10 +43,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE RuntimeLightWithIds_LightIntensitiesWithId : public ::GlobalNamespace::LightWithIds_LightWithId {
 public:
   // Declarations
-  /// @brief Field _intensity, offset 0x30, size 0x4
+  /// @brief Field _intensity, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__intensity, put = __cordl_internal_set__intensity)) float_t _intensity;
 
   __declspec(property(get = get_intensity, put = set_intensity)) float_t intensity;
+
+  static inline ::GlobalNamespace::RuntimeLightWithIds_LightIntensitiesWithId* New_ctor(int32_t lightId, int32_t groupId, int32_t elementId, float_t lightIntensity);
 
   static inline ::GlobalNamespace::RuntimeLightWithIds_LightIntensitiesWithId* New_ctor(int32_t lightId, float_t lightIntensity);
 
@@ -56,13 +58,16 @@ public:
 
   constexpr void __cordl_internal_set__intensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x5cbf06c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cbd950, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(int32_t lightId, int32_t groupId, int32_t elementId, float_t lightIntensity);
+
+  /// @brief Method .ctor, addr 0x5cbd93c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t lightIntensity);
 
-  /// @brief Method get_intensity, addr 0x5cbf05c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x5cbd92c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method set_intensity, addr 0x5cbf064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x5cbd934, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
 protected:
@@ -80,18 +85,18 @@ public:
   RuntimeLightWithIds_LightIntensitiesWithId(RuntimeLightWithIds_LightIntensitiesWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20029 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19949 };
 
   /// [SerializeField]
-  /// @brief Field _intensity, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _intensity, offset: 0x40, size: 0x4, def value: None
   float_t ____intensity;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::RuntimeLightWithIds_LightIntensitiesWithId, ____intensity) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RuntimeLightWithIds_LightIntensitiesWithId, ____intensity) == 0x40, "Offset mismatch!");
 
-static_assert(sizeof(::GlobalNamespace::RuntimeLightWithIds_LightIntensitiesWithId) == 0x38, "Size mismatch!");
+static_assert(sizeof(::GlobalNamespace::RuntimeLightWithIds_LightIntensitiesWithId) == 0x48, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies ColorMixAndWeightingApproach, LightWithIds, RuntimeLightWithIds::LightIntensitiesWithId
@@ -124,15 +129,15 @@ public:
   /// @brief Method ColorWasSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method GetLightWithIds, addr 0x5cbf054, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x5cbd924, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* GetLightWithIds();
 
   static inline ::GlobalNamespace::RuntimeLightWithIds* New_ctor();
 
-  /// @brief Method ProcessColor, addr 0x5cbf014, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ProcessColor, addr 0x5cbd8e4, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ProcessColor(::UnityEngine::Color color, float_t intensity);
 
-  /// @brief Method ProcessNewColorData, addr 0x5cbeec4, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x5cbd794, size 0x150, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
   constexpr float_t const& __cordl_internal_get__intensity() const;
@@ -165,10 +170,10 @@ public:
 
   constexpr void __cordl_internal_set__multiplyColorByAlpha(bool value);
 
-  /// @brief Method .ctor, addr 0x5cbe8bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cbd18c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mixType, addr 0x5cbeebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mixType, addr 0x5cbd78c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorMixAndWeightingApproach get_mixType();
 
 protected:
@@ -186,7 +191,7 @@ public:
   RuntimeLightWithIds(RuntimeLightWithIds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20030 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19950 };
 
   /// [SerializeField]
   /// @brief Field _lightIntensityData, offset: 0x38, size: 0x8, def value: None

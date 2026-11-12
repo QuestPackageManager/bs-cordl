@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(FeatureFlagsEnabledQuery)
 namespace Main::GraphQL::Queries {
 class FeatureFlagsEnabled;
 }
+namespace OculusStudios::GraphQL::ClientInterface {
+struct FailureHandlingMethod;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -26,12 +29,15 @@ namespace BeatSaber::FeatureFlags {
 class CORDL_TYPE FeatureFlagsEnabledQuery : public ::OculusStudios::GraphQL::Client::QueryRequest {
 public:
   // Declarations
-  /// @brief Method CreateQuery, addr 0x3534ebc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateQuery, addr 0x3537508, size 0x6c, virtual false, abstract: false, final false
   static inline ::Main::GraphQL::Queries::FeatureFlagsEnabled* CreateQuery(::System::Collections::Generic::List_1<::StringW>* features);
+
+  /// @brief Method GetFailureHandlingMethod, addr 0x3537574, size 0x8, virtual true, abstract: false, final false
+  inline ::OculusStudios::GraphQL::ClientInterface::FailureHandlingMethod GetFailureHandlingMethod();
 
   static inline ::BeatSaber::FeatureFlags::FeatureFlagsEnabledQuery* New_ctor(::System::Collections::Generic::List_1<::StringW>* features);
 
-  /// @brief Method .ctor, addr 0x3534764, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3536db0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::StringW>* features);
 
 protected:
@@ -49,7 +55,7 @@ public:
   FeatureFlagsEnabledQuery(FeatureFlagsEnabledQuery const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23829 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

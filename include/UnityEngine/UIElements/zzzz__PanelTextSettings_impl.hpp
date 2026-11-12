@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UIElements::PanelTextSettings> (*)()>(&::UnityEngine::UIElements::PanelTextSettings::get_defaultPanelTextSettings)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x7162758;
+  constexpr static std::size_t addrs = 0x7163838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::PanelTextSettings::InitializeDefaultPanelTextSettingsIfNull)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x71627a8;
+  constexpr static std::size_t addrs = 0x7163888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PanelTextSettings::*)()>(&::UnityEngine::UIElements::PanelTextSettings::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x716285c;
+  constexpr static std::size_t addrs = 0x716393c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PanelTextSettings*>(), { ".ctor", {}, {} })));

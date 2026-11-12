@@ -39,38 +39,38 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderQueueRange>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderQueueRange>*();
 
-  /// @brief Method Equals, addr 0x6fbf1bc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fc029c, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6fbcb9c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fbdc7c, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RenderQueueRange other);
 
-  /// @brief Method GetHashCode, addr 0x6fbcce8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fbddc8, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline int32_t getStaticF_maximumBound();
 
   static inline int32_t getStaticF_minimumBound();
 
-  /// @brief Method get_all, addr 0x6fbca8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_all, addr 0x6fbdb6c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderQueueRange get_all();
 
-  /// @brief Method get_lowerBound, addr 0x6fbf1ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lowerBound, addr 0x6fc028c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lowerBound();
 
-  /// @brief Method get_opaque, addr 0x6fbf198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_opaque, addr 0x6fc0278, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderQueueRange get_opaque();
 
-  /// @brief Method get_transparent, addr 0x6fbf1a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_transparent, addr 0x6fc0280, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderQueueRange get_transparent();
 
-  /// @brief Method get_upperBound, addr 0x6fbf1b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_upperBound, addr 0x6fc0294, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_upperBound();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderQueueRange>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderQueueRange>* i___System__IEquatable_1___UnityEngine__Rendering__RenderQueueRange_();
 
-  /// @brief Method op_Equality, addr 0x6fbf27c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6fc035c, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::RenderQueueRange left, ::UnityEngine::Rendering::RenderQueueRange right);
 
   static inline void setStaticF_maximumBound(int32_t value);

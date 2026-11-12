@@ -34,7 +34,7 @@ public:
   __declspec(property(get = __cordl_internal_get_maxMeshCount, put = __cordl_internal_set_maxMeshCount)) int32_t maxMeshCount;
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreateBatchRenderGroupUsageAnalytic, addr 0x6f9fd14, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateBatchRenderGroupUsageAnalytic, addr 0x6fa0df4, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Analytics::BatchRenderGroupUsageAnalytic* CreateBatchRenderGroupUsageAnalytic();
 
   static inline ::UnityEngine::Analytics::BatchRenderGroupUsageAnalytic* New_ctor();
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_maxMeshCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6f9fc9c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa0d7c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6eee7ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eef8cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

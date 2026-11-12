@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::HMUI::TableCell::*)()>(&::HMUI::TableCell::get_reuseIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cddd58;
+  constexpr static std::size_t addrs = 0x5cdd558;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TableCell*>(), { "get_reuseIdentifier", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TableCell::*)(::StringW)>(&::HMUI::TableCell::set_reuseIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cddd60;
+  constexpr static std::size_t addrs = 0x5cdd560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TableCell*>(), { "set_reuseIdentifier", {}, { ::i2c::type_of<::StringW>() } })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::HMUI::TableCell::*)()>(&::HMUI::TableCell::get_idx)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cddd68;
+  constexpr static std::size_t addrs = 0x5cdd568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TableCell*>(), { "get_idx", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TableCell::*)(int32_t)>(&::HMUI::TableCell::set_idx)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cddd70;
+  constexpr static std::size_t addrs = 0x5cdd570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TableCell*>(), { "set_idx", {}, { ::i2c::type_of<int32_t>() } })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::HMUI::ITableCellOwner* (::HMUI::TableCell::*)()>(&::HMUI::TableCell::get_tableCellOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cddd78;
+  constexpr static std::size_t addrs = 0x5cdd578;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TableCell*>(), { "get_tableCellOwner", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TableCell::*)(::HMUI::ITableCellOwner*, int32_t)>(&::HMUI::TableCell::TableViewSetup)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cddd80;
+  constexpr static std::size_t addrs = 0x5cdd580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::TableCell*>(), { ::i2c::class_of<::HMUI::TableCell*>(), 28 }));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TableCell::*)(int32_t)>(&::HMUI::TableCell::MoveIdx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cddd8c;
+  constexpr static std::size_t addrs = 0x5cdd58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TableCell*>(), { "MoveIdx", {}, { ::i2c::type_of<int32_t>() } })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TableCell::*)()>(&::HMUI::TableCell::InternalToggle)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x5cddd9c;
+  constexpr static std::size_t addrs = 0x5cdd59c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::TableCell*>(), { ::i2c::class_of<::HMUI::TableCell*>(), 21 }));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TableCell::*)()>(&::HMUI::TableCell::__WasPreparedForReuse)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5cde004;
+  constexpr static std::size_t addrs = 0x5cdd804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TableCell*>(), { "__WasPreparedForReuse", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TableCell::*)()>(&::HMUI::TableCell::WasPreparedForReuse)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cde014;
+  constexpr static std::size_t addrs = 0x5cdd814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::TableCell*>(), { ::i2c::class_of<::HMUI::TableCell*>(), 29 }));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::TableCell::*)()>(&::HMUI::TableCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cde018;
+  constexpr static std::size_t addrs = 0x5cdd818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::TableCell*>(), { ".ctor", {}, {} })));

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* (*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::parseBytes)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x38663fc;
+  constexpr static std::size_t addrs = 0x386a894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::*)(::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*)>(
     &::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3866540;
+  constexpr static std::size_t addrs = 0x386a9d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::*)(::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3866548;
+  constexpr static std::size_t addrs = 0x386a9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* (::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::*)()>(
     &::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::ToAsn1Structure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3866564;
+  constexpr static std::size_t addrs = 0x386a9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::*)()>(
     &::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::GetEncryptedData)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x386656c;
+  constexpr static std::size_t addrs = 0x386aa04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::*)()>(
     &::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::GetEncoded)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3866594;
+  constexpr static std::size_t addrs = 0x386aa2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo*>(), { "GetEncoded", {}, {} })));
@@ -95,7 +95,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* (::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::*)(::Org::BouncyCastle::Crypto::IDecryptorBuilderProvider*)>(
         &::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo::DecryptPrivateKeyInfo)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x38665ac;
+  constexpr static std::size_t addrs = 0x386aa44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

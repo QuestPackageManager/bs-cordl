@@ -122,16 +122,16 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IDebugData"
   constexpr operator ::UnityEngine::Rendering::IDebugData*() noexcept;
 
-  /// @brief Method GetReset, addr 0x6be93dc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method GetReset, addr 0x6bea4bc, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Action* GetReset();
 
-  /// @brief Method Init, addr 0x6be9370, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6bea450, size 0x6c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::UnityEngine::Rendering::ProbeVolumeDebug* New_ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method <GetReset>b__32_0, addr 0x6be9458, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <GetReset>b__32_0, addr 0x6bea538, size 0x6c, virtual false, abstract: false, final false
   inline void _GetReset_b__32_0();
 
   constexpr bool const& __cordl_internal_get_autoDrawProbes() const;
@@ -302,7 +302,7 @@ public:
 
   constexpr void __cordl_internal_set_visibleLayers(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x6be9304, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bea3e4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Vector3 getStaticF_currentOffset();

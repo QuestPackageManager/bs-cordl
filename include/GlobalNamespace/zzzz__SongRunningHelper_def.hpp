@@ -214,7 +214,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE SongRunningHelper_QueuedSongParams {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x5d0c988, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d0c938, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::BeatmapCharacteristic characteristic,
                     ::GlobalNamespace::BeatmapDifficulty difficulty, bool advancedHud, ::GlobalNamespace::GameplayModifiers_SongSpeed songSpeed, ::GlobalNamespace::PlaymodeOptions playmodeOptions,
                     ::StringW recordingRelativePath, bool profileSong, ::StringW reportDescriptor, bool zenMode, bool disablePause,
@@ -367,26 +367,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d0d404, size 0x378, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d0d3b4, size 0x378, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::__c__DisplayClass14_0_SongRunningHelper___StartLevel_g__WatchPlayDuration_3_d* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d0d7a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d0d758, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d0d7b0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d0d760, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d0d7e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d0d798, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d0d3e8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d0d398, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -413,11 +413,11 @@ public:
 
   constexpr void __cordl_internal_set__targetSongTime_5__2(float_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x5d0d77c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x5d0d72c, size 0x2c, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5d0d3e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d0d390, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -509,18 +509,18 @@ public:
 
   static inline ::GlobalNamespace::SongRunningHelper___c__DisplayClass14_0* New_ctor();
 
-  /// @brief Method <StartLevel>g__HandleLevelDidFinishCallback|0, addr 0x5d0c9e4, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method <StartLevel>g__HandleLevelDidFinishCallback|0, addr 0x5d0c994, size 0x440, virtual false, abstract: false, final false
   inline void _StartLevel_g__HandleLevelDidFinishCallback_0(::GlobalNamespace::StandardLevelScenesTransitionSetupData* standardLevelScenesTransition,
                                                             ::GlobalNamespace::LevelCompletionResults* results);
 
-  /// @brief Method <StartLevel>g__HandleLevelEnded|2, addr 0x5d0d054, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method <StartLevel>g__HandleLevelEnded|2, addr 0x5d0d004, size 0x338, virtual false, abstract: false, final false
   inline void _StartLevel_g__HandleLevelEnded_2();
 
-  /// @brief Method <StartLevel>g__HandleStateChanged|1, addr 0x5d0ce24, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method <StartLevel>g__HandleStateChanged|1, addr 0x5d0cdd4, size 0x230, virtual false, abstract: false, final false
   inline void _StartLevel_g__HandleStateChanged_1();
 
   /// [IteratorStateMachine(typeof(SongRunningHelper::<>c__DisplayClass14_0::<<StartLevel>g__WatchPlayDuration|3>d))]
-  /// @brief Method <StartLevel>g__WatchPlayDuration|3, addr 0x5d0d38c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <StartLevel>g__WatchPlayDuration|3, addr 0x5d0d33c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* _StartLevel_g__WatchPlayDuration_3();
 
   constexpr ::GlobalNamespace::SongRunningHelper* const& __cordl_internal_get___4__this() const;
@@ -571,7 +571,7 @@ public:
 
   constexpr void __cordl_internal_set_queuedSongParams(::GlobalNamespace::SongRunningHelper_QueuedSongParams value);
 
-  /// @brief Method .ctor, addr 0x5d0c9e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d0c990, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -680,26 +680,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d0d7f4, size 0xa98, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d0d7a4, size 0xaa4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::SongRunningHelper__StartLevel_d__14* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d0e28c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d0e248, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d0e294, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d0e250, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d0e2cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d0e288, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d0d7f0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d0d7a0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -745,7 +745,7 @@ public:
   constexpr void __cordl_internal_set_queuedSongParams(::GlobalNamespace::SongRunningHelper_QueuedSongParams value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5d0c6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d0c6a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -845,26 +845,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5d0e308, size 0x238, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d0e2c4, size 0x238, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::SongRunningHelper__StopWhenTransitionSettles_d__18* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d0e560, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5d0e51c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d0e568, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d0e524, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d0e5a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d0e55c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5d0e2d4, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d0e290, size 0x34, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -885,11 +885,11 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::SongRunningHelper* value);
 
-  /// @brief Method <>m__Finally1, addr 0x5d0e540, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x5d0e4fc, size 0x20, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5d0c90c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d0c8bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -984,29 +984,29 @@ public:
 
   __declspec(property(get = get_areSongsRunning)) bool areSongsRunning;
 
-  /// @brief Method EnqueueLevel, addr 0x5d0c44c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method EnqueueLevel, addr 0x5d0c3fc, size 0x230, virtual false, abstract: false, final false
   inline bool EnqueueLevel(::GlobalNamespace::SongRunningHelper_QueuedSongParams queuedSongParams);
 
-  /// @brief Method FindBeatmapLevelPackBeatmaps, addr 0x5d0c230, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method FindBeatmapLevelPackBeatmaps, addr 0x5d0c1e0, size 0x21c, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BeatmapLevel*> FindBeatmapLevelPackBeatmaps(::StringW packId, bool ignoreCase);
 
-  /// @brief Method HandlePauseControllerCanPause, addr 0x5d0c6fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseControllerCanPause, addr 0x5d0c6ac, size 0x1c, virtual false, abstract: false, final false
   inline void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
 
   static inline ::GlobalNamespace::SongRunningHelper* New_ctor();
 
   /// [IteratorStateMachine(typeof(SongRunningHelper::<StartLevel>d__14))]
-  /// @brief Method StartLevel, addr 0x5d0c67c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StartLevel, addr 0x5d0c62c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartLevel(::GlobalNamespace::SongRunningHelper_QueuedSongParams queuedSongParams);
 
-  /// @brief Method StopAllLevels, addr 0x5d0c718, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method StopAllLevels, addr 0x5d0c6c8, size 0x128, virtual false, abstract: false, final false
   inline void StopAllLevels();
 
   /// [IteratorStateMachine(typeof(SongRunningHelper::<StopWhenTransitionSettles>d__18))]
-  /// @brief Method StopWhenTransitionSettles, addr 0x5d0c840, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method StopWhenTransitionSettles, addr 0x5d0c7f0, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StopWhenTransitionSettles();
 
-  /// @brief Method TrySkipCurrentLevel, addr 0x5d0c894, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TrySkipCurrentLevel, addr 0x5d0c844, size 0x78, virtual false, abstract: false, final false
   inline bool TrySkipCurrentLevel();
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel* const& __cordl_internal_get__beatmapLevels() const;
@@ -1057,10 +1057,10 @@ public:
 
   constexpr void __cordl_internal_set__playQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::SongRunningHelper_QueuedSongParams>* value);
 
-  /// @brief Method .ctor, addr 0x5d0c914, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d0c8c4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_areSongsRunning, addr 0x5d0c1ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_areSongsRunning, addr 0x5d0c19c, size 0x44, virtual false, abstract: false, final false
   inline bool get_areSongsRunning();
 
 protected:

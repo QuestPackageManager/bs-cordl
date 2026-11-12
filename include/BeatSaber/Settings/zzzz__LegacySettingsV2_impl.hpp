@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2_MainSettings::*)()>(&::BeatSaber::Settings::LegacySettingsV2_MainSettings::_ctor)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3572f64;
+  constexpr static std::size_t addrs = 0x3575fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::LegacySettingsV2_MainSettings*>(), { ".ctor", {}, {} })));
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2_AudioSettings::*)()>(&::BeatSaber::Settings::LegacySettingsV2_AudioSettings::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x35731a0;
+  constexpr static std::size_t addrs = 0x3576220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::LegacySettingsV2_AudioSettings*>(), { ".ctor", {}, {} })));
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings::*)()>(
     &::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x35731b0;
+  constexpr static std::size_t addrs = 0x3576230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings*>(), { ".ctor", {}, {} })));
@@ -339,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2_ControllerSettings::*)()>(&::BeatSaber::Settings::LegacySettingsV2_ControllerSettings::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3573234;
+  constexpr static std::size_t addrs = 0x35762b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::LegacySettingsV2_ControllerSettings*>(), { ".ctor", {}, {} })));
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings::*)()>(
     &::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x35732a4;
+  constexpr static std::size_t addrs = 0x3576324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings*>(), { ".ctor", {}, {} })));
@@ -430,7 +430,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2_DebugSettings::*)()>(&::BeatSaber::Settings::LegacySettingsV2_DebugSettings::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35732bc;
+  constexpr static std::size_t addrs = 0x357633c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::LegacySettingsV2_DebugSettings*>(), { ".ctor", {}, {} })));
@@ -495,7 +495,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2_GraphicSettings::*)()>(&::BeatSaber::Settings::LegacySettingsV2_GraphicSettings::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3573128;
+  constexpr static std::size_t addrs = 0x35761a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::LegacySettingsV2_GraphicSettings*>(), { ".ctor", {}, {} })));
@@ -624,7 +624,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2_PerformancePreset::*)()>(&::BeatSaber::Settings::LegacySettingsV2_PerformancePreset::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x35732c0;
+  constexpr static std::size_t addrs = 0x3576340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::LegacySettingsV2_PerformancePreset*>(), { ".ctor", {}, {} })));
@@ -863,7 +863,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2::*)(::by_ref<::BeatSaber::Settings::Settings>)>(
     &::BeatSaber::Settings::LegacySettingsV2::ApplyTo)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x3572ba4;
+  constexpr static std::size_t addrs = 0x3575c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -876,7 +876,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Settings::LegacySettingsV2::*)()>(&::BeatSaber::Settings::LegacySettingsV2::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3572ee0;
+  constexpr static std::size_t addrs = 0x3575f60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Settings::LegacySettingsV2*>(), { ".ctor", {}, {} })));

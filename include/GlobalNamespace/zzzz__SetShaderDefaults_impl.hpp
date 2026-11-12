@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetShaderDefaults::*)()>(&::GlobalNamespace::SetShaderDefaults::Create)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x63a7490;
+  constexpr static std::size_t addrs = 0x63a7ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetShaderDefaults::*)(
     ::UnityEngine::Rendering::Universal::ScriptableRenderer*, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData>)>(&::GlobalNamespace::SetShaderDefaults::AddRenderPasses)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x63a7518;
+  constexpr static std::size_t addrs = 0x63a7b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetShaderDefaults::*)()>(&::GlobalNamespace::SetShaderDefaults::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x63a7538;
+  constexpr static std::size_t addrs = 0x63a7b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetShaderDefaults*>(), { ".ctor", {}, {} })));

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StaticOverridableSpriteColor::*)()>(&::GlobalNamespace::StaticOverridableSpriteColor::Start)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5d5b2c4;
+  constexpr static std::size_t addrs = 0x5d5a838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StaticOverridableSpriteColor*>(), { "Start", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StaticOverridableSpriteColor::*)(::UnityEngine::Color)>(&::GlobalNamespace::StaticOverridableSpriteColor::SetColor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d5b2f0;
+  constexpr static std::size_t addrs = 0x5d5a864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StaticOverridableSpriteColor::*)()>(&::GlobalNamespace::StaticOverridableSpriteColor::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d5b328;
+  constexpr static std::size_t addrs = 0x5d5a89c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StaticOverridableSpriteColor*>(), { ".ctor", {}, {} })));

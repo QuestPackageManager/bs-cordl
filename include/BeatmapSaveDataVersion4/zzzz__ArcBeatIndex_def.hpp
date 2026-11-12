@@ -100,10 +100,10 @@ public:
 
   constexpr void __cordl_internal_set_tr(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a10778, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a15800, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beat, addr 0x3a10770, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beat, addr 0x3a157f8, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beat();
 
   /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
@@ -127,7 +127,7 @@ public:
   ArcBeatIndex(ArcBeatIndex const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14797 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14805 };
 
   /// @brief Field hb, offset: 0x10, size: 0x4, def value: None
   float_t ___hb;

@@ -35,16 +35,16 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::CompensateRotationProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x6a272c0, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x6a283a0, size 0x220, virtual true, abstract: false, final false
   inline ::UnityEngine::Quaternion Process(::UnityEngine::Quaternion value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x6a274e0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6a285c0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6a2752c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a2860c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cachingPolicy, addr 0x6a27524, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_cachingPolicy, addr 0x6a28604, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputProcessor_CachingPolicy get_cachingPolicy();
 
 protected:

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::get_quads)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b85788;
+  constexpr static std::size_t addrs = 0x6b86868;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)(bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::set_quads)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b85790;
+  constexpr static std::size_t addrs = 0x6b86870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::get_smoothing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b85798;
+  constexpr static std::size_t addrs = 0x6b86878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)(bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::set_smoothing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b857a0;
+  constexpr static std::size_t addrs = 0x6b86880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::get_smoothingAngle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b857a8;
+  constexpr static std::size_t addrs = 0x6b86888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)(float_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::set_smoothingAngle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b857b0;
+  constexpr static std::size_t addrs = 0x6b86890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::ToString)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6b857b8;
+  constexpr static std::size_t addrs = 0x6b86898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*>(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b85894;
+  constexpr static std::size_t addrs = 0x6b86974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*>(), { ".ctor", {}, {} })));

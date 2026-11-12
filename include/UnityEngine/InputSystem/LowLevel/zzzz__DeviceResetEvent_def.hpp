@@ -40,7 +40,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Method Create, addr 0x6a17f7c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6a1905c, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::DeviceResetEvent Create(int32_t deviceId, bool hardReset, double_t time);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_hardReset(bool value);
 
-  /// @brief Method get_typeStatic, addr 0x6a17f70, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x6a19050, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"

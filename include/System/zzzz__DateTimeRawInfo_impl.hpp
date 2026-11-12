@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeRawInfo::*)(int32_t*)>(&::System::DateTimeRawInfo::Init)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6095d10;
+  constexpr static std::size_t addrs = 0x6095f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeRawInfo>(), { "Init", {}, { ::i2c::type_of<int32_t*>() } })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::DateTimeRawInfo::*)(int32_t)>(&::System::DateTimeRawInfo::AddNumber)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6095d30;
+  constexpr static std::size_t addrs = 0x6095fb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeRawInfo>(), { "AddNumber", {}, { ::i2c::type_of<int32_t>() } })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::DateTimeRawInfo::*)(int32_t)>(&::System::DateTimeRawInfo::GetNumber)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6095d48;
+  constexpr static std::size_t addrs = 0x6095fd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::DateTimeRawInfo>(), { "GetNumber", {}, { ::i2c::type_of<int32_t>() } })));

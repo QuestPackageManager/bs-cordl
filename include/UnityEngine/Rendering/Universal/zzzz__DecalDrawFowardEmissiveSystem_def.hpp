@@ -26,12 +26,12 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE DecalDrawFowardEmissiveSystem : public ::UnityEngine::Rendering::Universal::DecalDrawSystem {
 public:
   // Declarations
-  /// @brief Method GetPassIndex, addr 0x6ccb378, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetPassIndex, addr 0x6ccc458, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetPassIndex(::UnityEngine::Rendering::Universal::DecalCachedChunk* decalCachedChunk);
 
   static inline ::UnityEngine::Rendering::Universal::DecalDrawFowardEmissiveSystem* New_ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
-  /// @brief Method .ctor, addr 0x6ccb2f4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ccc3d4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::DecalEntityManager* entityManager);
 
 protected:

@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)()>(&::System::IO::MemoryStream::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x604be64;
+  constexpr static std::size_t addrs = 0x604c0ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ".ctor", {}, {} })));
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)(int32_t)>(&::System::IO::MemoryStream::_ctor)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x604be6c;
+  constexpr static std::size_t addrs = 0x604c0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)(::ArrayW<uint8_t>)>(&::System::IO::MemoryStream::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x604bfe0;
+  constexpr static std::size_t addrs = 0x604c268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ".ctor", {}, { ::i2c::type_of<::ArrayW<uint8_t>>() } })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)(::ArrayW<uint8_t>, bool)>(&::System::IO::MemoryStream::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x604bfe8;
+  constexpr static std::size_t addrs = 0x604c270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::IO::MemoryStream::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x604c0cc;
+  constexpr static std::size_t addrs = 0x604c354;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, bool)>(&::System::IO::MemoryStream::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x604c298;
+  constexpr static std::size_t addrs = 0x604c520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, bool, bool)>(&::System::IO::MemoryStream::_ctor)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x604c0d8;
+  constexpr static std::size_t addrs = 0x604c360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::MemoryStream::*)()>(&::System::IO::MemoryStream::get_CanRead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x604c2a0;
+  constexpr static std::size_t addrs = 0x604c528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 8 }));
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::MemoryStream::*)()>(&::System::IO::MemoryStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x604c2a8;
+  constexpr static std::size_t addrs = 0x604c530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 9 }));
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::MemoryStream::*)()>(&::System::IO::MemoryStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x604c2b0;
+  constexpr static std::size_t addrs = 0x604c538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 11 }));
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)()>(&::System::IO::MemoryStream::EnsureNotClosed)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x604c2b8;
+  constexpr static std::size_t addrs = 0x604c540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { "EnsureNotClosed", {}, {} })));
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)()>(&::System::IO::MemoryStream::EnsureWriteable)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x604c2e8;
+  constexpr static std::size_t addrs = 0x604c570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { "EnsureWriteable", {}, {} })));
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)(bool)>(&::System::IO::MemoryStream::Dispose)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x604c324;
+  constexpr static std::size_t addrs = 0x604c5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 22 }));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::IO::MemoryStream::*)(int32_t)>(&::System::IO::MemoryStream::EnsureCapacity)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x604c338;
+  constexpr static std::size_t addrs = 0x604c5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { "EnsureCapacity", {}, { ::i2c::type_of<int32_t>() } })));
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)()>(&::System::IO::MemoryStream::Flush)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x604c3ec;
+  constexpr static std::size_t addrs = 0x604c674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 23 }));
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::IO::MemoryStream::*)(::System::Threading::CancellationToken)>(
     &::System::IO::MemoryStream::FlushAsync)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x604c3f0;
+  constexpr static std::size_t addrs = 0x604c678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 24 }));
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::IO::MemoryStream::*)()>(&::System::IO::MemoryStream::GetBuffer)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x604c5c4;
+  constexpr static std::size_t addrs = 0x604c84c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 42 }));
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::IO::MemoryStream::*)()>(&::System::IO::MemoryStream::InternalGetBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x604c620;
+  constexpr static std::size_t addrs = 0x604c8a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { "InternalGetBuffer", {}, {} })));
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::MemoryStream::*)()>(&::System::IO::MemoryStream::InternalGetPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x604c628;
+  constexpr static std::size_t addrs = 0x604c8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { "InternalGetPosition", {}, {} })));
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::MemoryStream::*)()>(&::System::IO::MemoryStream::InternalReadInt32)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x604c630;
+  constexpr static std::size_t addrs = 0x604c8b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { "InternalReadInt32", {}, {} })));
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::MemoryStream::*)(int32_t)>(&::System::IO::MemoryStream::InternalEmulateRead)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x604c6e8;
+  constexpr static std::size_t addrs = 0x604c970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::MemoryStream::*)()>(&::System::IO::MemoryStream::get_Capacity)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x604c724;
+  constexpr static std::size_t addrs = 0x604c9ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 43 }));
@@ -292,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)(int32_t)>(&::System::IO::MemoryStream::set_Capacity)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x604c744;
+  constexpr static std::size_t addrs = 0x604c9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 44 }));
@@ -304,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::IO::MemoryStream::*)()>(&::System::IO::MemoryStream::get_Length)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x604c8c8;
+  constexpr static std::size_t addrs = 0x604cb50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 12 }));
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::IO::MemoryStream::*)()>(&::System::IO::MemoryStream::get_Position)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x604c8ec;
+  constexpr static std::size_t addrs = 0x604cb74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 13 }));
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)(int64_t)>(&::System::IO::MemoryStream::set_Position)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x604c90c;
+  constexpr static std::size_t addrs = 0x604cb94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 14 }));
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::MemoryStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::IO::MemoryStream::Read)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x604c9d0;
+  constexpr static std::size_t addrs = 0x604cc58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 35 }));
@@ -352,7 +352,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::MemoryStream::*)(::System::Span_1<uint8_t>)>(&::System::IO::MemoryStream::Read)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x604cbe8;
+  constexpr static std::size_t addrs = 0x604ce70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 36 }));
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::System::IO::MemoryStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::IO::MemoryStream::ReadAsync)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x604cd94;
+  constexpr static std::size_t addrs = 0x604d01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 27 }));
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ValueTask_1<int32_t> (::System::IO::MemoryStream::*)(
     ::System::Memory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::System::IO::MemoryStream::ReadAsync)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x604d188;
+  constexpr static std::size_t addrs = 0x604d410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 28 }));
@@ -390,7 +390,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::IO::MemoryStream::*)()>(&::System::IO::MemoryStream::ReadByte)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x604d514;
+  constexpr static std::size_t addrs = 0x604d79c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 37 }));
@@ -402,7 +402,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)(::System::IO::Stream*, int32_t)>(&::System::IO::MemoryStream::CopyTo)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x604d56c;
+  constexpr static std::size_t addrs = 0x604d7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 20 }));
@@ -415,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::IO::MemoryStream::*)(::System::IO::Stream*, int32_t, ::System::Threading::CancellationToken)>(
     &::System::IO::MemoryStream::CopyToAsync)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x604d8b4;
+  constexpr static std::size_t addrs = 0x604db3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 19 }));
@@ -427,7 +427,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::System::IO::MemoryStream::*)(int64_t, ::System::IO::SeekOrigin)>(&::System::IO::MemoryStream::Seek)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x604dc3c;
+  constexpr static std::size_t addrs = 0x604dec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 33 }));
@@ -439,7 +439,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)(int64_t)>(&::System::IO::MemoryStream::SetLength)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x604dd88;
+  constexpr static std::size_t addrs = 0x604e010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 34 }));
@@ -451,7 +451,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::System::IO::MemoryStream::*)()>(&::System::IO::MemoryStream::ToArray)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x604de60;
+  constexpr static std::size_t addrs = 0x604e0e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 45 }));
@@ -463,7 +463,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(&::System::IO::MemoryStream::Write)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x604df5c;
+  constexpr static std::size_t addrs = 0x604e1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 38 }));
@@ -475,7 +475,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)(::System::ReadOnlySpan_1<uint8_t>)>(&::System::IO::MemoryStream::Write)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x604e1f4;
+  constexpr static std::size_t addrs = 0x604e47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 39 }));
@@ -488,7 +488,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::System::IO::MemoryStream::*)(::ArrayW<uint8_t>, int32_t, int32_t, ::System::Threading::CancellationToken)>(
     &::System::IO::MemoryStream::WriteAsync)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x604e408;
+  constexpr static std::size_t addrs = 0x604e690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 31 }));
@@ -501,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ValueTask (::System::IO::MemoryStream::*)(
     ::System::ReadOnlyMemory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::System::IO::MemoryStream::WriteAsync)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x604e788;
+  constexpr static std::size_t addrs = 0x604ea10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 32 }));
@@ -513,7 +513,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)(uint8_t)>(&::System::IO::MemoryStream::WriteByte)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x604ea8c;
+  constexpr static std::size_t addrs = 0x604ed14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 40 }));
@@ -525,7 +525,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::IO::MemoryStream::*)(::System::IO::Stream*)>(&::System::IO::MemoryStream::WriteTo)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x604eb58;
+  constexpr static std::size_t addrs = 0x604ede0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::IO::MemoryStream*>(), { ::i2c::class_of<::System::IO::MemoryStream*>(), 46 }));

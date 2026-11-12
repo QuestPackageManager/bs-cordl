@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_BindingRequest::*)(
     ::by_ref<::UnityEngine::UIElements::BindingId const>, ::UnityEngine::UIElements::Binding*, bool)>(&::UnityEngine::UIElements::DataBindingManager_BindingRequest::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x70c8550;
+  constexpr static std::size_t addrs = 0x70c9630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DataBindingManager_BindingRequest (::UnityEngine::UIElements::DataBindingManager_BindingRequest::*)()>(
     &::UnityEngine::UIElements::DataBindingManager_BindingRequest::CancelRequest)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x70c8520;
+  constexpr static std::size_t addrs = 0x70c9600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DataBindingManager_BindingDataCollection (*)()>(
     &::UnityEngine::UIElements::DataBindingManager_BindingDataCollection::Create)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x70c98c0;
+  constexpr static std::size_t addrs = 0x70ca9a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_BindingDataCollection::*)(::UnityEngine::UIElements::DataBindingManager_BindingData*)>(
     &::UnityEngine::UIElements::DataBindingManager_BindingDataCollection::AddBindingData)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x70c9988;
+  constexpr static std::size_t addrs = 0x70caa68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::by_ref<::UnityEngine::UIElements::BindingId const>, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>)>(
     &::UnityEngine::UIElements::DataBindingManager_BindingDataCollection::TryGetBindingData)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x70c67cc;
+  constexpr static std::size_t addrs = 0x70c78ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DataBindingManager_BindingDataCollection::*)(::UnityEngine::UIElements::DataBindingManager_BindingData*)>(
     &::UnityEngine::UIElements::DataBindingManager_BindingDataCollection::RemoveBindingData)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x70c9b10;
+  constexpr static std::size_t addrs = 0x70cabf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_BindingData*>* (
     ::UnityEngine::UIElements::DataBindingManager_BindingDataCollection::*)()>(&::UnityEngine::UIElements::DataBindingManager_BindingDataCollection::GetBindings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70c674c;
+  constexpr static std::size_t addrs = 0x70c782c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::DataBindingManager_BindingDataCollection::*)()>(
     &::UnityEngine::UIElements::DataBindingManager_BindingDataCollection::GetBindingCount)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x70c9c3c;
+  constexpr static std::size_t addrs = 0x70cad1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_BindingDataCollection::*)()>(
     &::UnityEngine::UIElements::DataBindingManager_BindingDataCollection::Dispose)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x70c9c8c;
+  constexpr static std::size_t addrs = 0x70cad6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::UIElements::DataBindingManager_BindingData::*)()>(
     &::UnityEngine::UIElements::DataBindingManager_BindingData::get_localDataSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70c9d68;
+  constexpr static std::size_t addrs = 0x70cae48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_BindingData::*)(::System::Object*)>(
     &::UnityEngine::UIElements::DataBindingManager_BindingData::set_localDataSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70c9d70;
+  constexpr static std::size_t addrs = 0x70cae50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -284,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_BindingData::*)()>(&::UnityEngine::UIElements::DataBindingManager_BindingData::Reset)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x70c9714;
+  constexpr static std::size_t addrs = 0x70ca7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_BindingData*>(), { "Reset", {}, {} })));
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_BindingData::*)(::UnityEngine::UIElements::DataSourceContext)>(
     &::UnityEngine::UIElements::DataBindingManager_BindingData::set_context)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x70c9d78;
+  constexpr static std::size_t addrs = 0x70cae58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_BindingData*>(),
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_BindingData::*)()>(&::UnityEngine::UIElements::DataBindingManager_BindingData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x70c9710;
+  constexpr static std::size_t addrs = 0x70ca7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_BindingData*>(), { ".ctor", {}, {} })));
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_ChangesFromUI::*)(::UnityEngine::UIElements::DataBindingManager_BindingData*)>(
     &::UnityEngine::UIElements::DataBindingManager_ChangesFromUI::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x70c9e7c;
+  constexpr static std::size_t addrs = 0x70caf5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_ChangesFromUI>(),
@@ -449,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DataBindingManager_ChangesFromUI::*)()>(
     &::UnityEngine::UIElements::DataBindingManager_ChangesFromUI::get_IsValid)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x70c9e9c;
+  constexpr static std::size_t addrs = 0x70caf7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_ChangesFromUI>(), { "get_IsValid", {}, {} })));
@@ -482,7 +482,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityEngine::UIElements::HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter::*)()>(
     &::UnityEngine::UIElements::HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter::get_boundElements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70ca2d8;
+  constexpr static std::size_t addrs = 0x70cb3b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -498,7 +498,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter::set_boundElements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70ca2e0;
+  constexpr static std::size_t addrs = 0x70cb3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -514,7 +514,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::UnityEngine::UIElements::HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter::*)()>(
     &::UnityEngine::UIElements::HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter::get_results)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70ca2e8;
+  constexpr static std::size_t addrs = 0x70cb3c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -529,7 +529,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter::set_results)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70ca2f0;
+  constexpr static std::size_t addrs = 0x70cb3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -544,7 +544,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t)>(&::UnityEngine::UIElements::HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter::TraverseRecursive)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x70ca2f8;
+  constexpr static std::size_t addrs = 0x70cb3d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -559,7 +559,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter::*)()>(
     &::UnityEngine::UIElements::HierarchyBindingTracker_DataBindingManager_HierarchicalBindingsSorter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x70c9f78;
+  constexpr static std::size_t addrs = 0x70cb058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -646,7 +646,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::*)()>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::GetTrackedElementsCount)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x70c6308;
+  constexpr static std::size_t addrs = 0x70c73e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -660,7 +660,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* (
     ::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::*)()>(&::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::GetBoundElements)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x70c636c;
+  constexpr static std::size_t addrs = 0x70c744c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -674,7 +674,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::_ctor)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x70c58dc;
+  constexpr static std::size_t addrs = 0x70c69bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker*>(),
@@ -688,7 +688,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::*)()>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::SetDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x70c8fd4;
+  constexpr static std::size_t addrs = 0x70ca0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -703,7 +703,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingDataCollection>)>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::TryGetBindingCollection)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x70c66e0;
+  constexpr static std::size_t addrs = 0x70c77c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -721,7 +721,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::IsTrackingElement)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x70c7aa0;
+  constexpr static std::size_t addrs = 0x70c8b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker*>(),
@@ -736,7 +736,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::DataBindingManager_BindingData*)>(
         &::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::StartTrackingBinding)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x70c71f4;
+  constexpr static std::size_t addrs = 0x70c82d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -755,7 +755,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::DataBindingManager_BindingDataCollection>*)>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::OnPropertyChanged)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x70c9f7c;
+  constexpr static std::size_t addrs = 0x70cb05c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -776,7 +776,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::DataBindingManager_BindingData*)>(
         &::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::StopTrackingBinding)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x70c76e0;
+  constexpr static std::size_t addrs = 0x70c87c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -793,7 +793,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::StopTrackingElement)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x70c7e4c;
+  constexpr static std::size_t addrs = 0x70c8f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker*>(),
@@ -807,7 +807,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::*)()>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::Dispose)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x70c8248;
+  constexpr static std::size_t addrs = 0x70c9328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -821,7 +821,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker::OrderBindings)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x70c9ed8;
+  constexpr static std::size_t addrs = 0x70cafb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_HierarchyBindingTracker*>(),
@@ -1035,7 +1035,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo::*)()>(
     &::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo::get_lastVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70cad9c;
+  constexpr static std::size_t addrs = 0x70cbe7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1049,7 +1049,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo::*)(int64_t)>(
     &::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo::set_lastVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70cada4;
+  constexpr static std::size_t addrs = 0x70cbe84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo*>(),
@@ -1063,7 +1063,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo::*)()>(
     &::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo::get_refCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70cadac;
+  constexpr static std::size_t addrs = 0x70cbe8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1077,7 +1077,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo::*)(int32_t)>(
     &::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo::set_refCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70cadb4;
+  constexpr static std::size_t addrs = 0x70cbe94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo*>(),
@@ -1092,7 +1092,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::HashSet_1<::Unity::Properties::PropertyPath>* (::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo::*)()>(
         &::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo::get_detectedChanges)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x70cacb8;
+  constexpr static std::size_t addrs = 0x70cbd98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1107,7 +1107,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::HashSet_1<::Unity::Properties::PropertyPath>* (::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo::*)()>(
         &::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo::get_detectedChangesNoAlloc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70cadbc;
+  constexpr static std::size_t addrs = 0x70cbe9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1121,7 +1121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo::*)()>(
     &::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x70ca514;
+  constexpr static std::size_t addrs = 0x70cb5f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1214,7 +1214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal::*)(
     ::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker*)>(&::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x70ca608;
+  constexpr static std::size_t addrs = 0x70cb6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1230,7 +1230,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*, ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal::Invalidate)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x70ca810;
+  constexpr static std::size_t addrs = 0x70cb8f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1248,7 +1248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t)>(&::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_InvalidateDataSourcesTraversal::TraverseRecursive)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x70cadc4;
+  constexpr static std::size_t addrs = 0x70cbea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1324,7 +1324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_ObjectComparer::*)(::System::Object*, ::System::Object*)>(
     &::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_ObjectComparer::System_Collections_Generic_IEqualityComparer_System_Object__Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x70caeb0;
+  constexpr static std::size_t addrs = 0x70cbf90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1340,7 +1340,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_ObjectComparer::*)(::System::Object*)>(
     &::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_ObjectComparer::System_Collections_Generic_IEqualityComparer_System_Object__GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x70caf3c;
+  constexpr static std::size_t addrs = 0x70cc01c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1355,7 +1355,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_ObjectComparer::*)()>(
     &::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_ObjectComparer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x70ca604;
+  constexpr static std::size_t addrs = 0x70cb6e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1402,7 +1402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo* (
     ::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)()>(&::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::GetPooledSourceInfo)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x70ca438;
+  constexpr static std::size_t addrs = 0x70cb518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1416,7 +1416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)(
     ::UnityEngine::UIElements::HierarchyDataSourceTracker_DataBindingManager_SourceInfo*)>(&::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::ReleasePooledSourceInfo)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x70ca518;
+  constexpr static std::size_t addrs = 0x70cb5f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1431,7 +1431,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)(::UnityEngine::UIElements::DataBindingManager*)>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::_ctor)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x70c55ac;
+  constexpr static std::size_t addrs = 0x70c668c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker*>(),
@@ -1445,7 +1445,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)(
     ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>)>(&::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::IncreaseBindingRefCount)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x70c701c;
+  constexpr static std::size_t addrs = 0x70c80fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1460,7 +1460,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)(
     ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>)>(&::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::DecreaseBindingRefCount)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x70c6d3c;
+  constexpr static std::size_t addrs = 0x70c7e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1475,7 +1475,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)(::System::Object*)>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::IncreaseRefCount)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x70c924c;
+  constexpr static std::size_t addrs = 0x70ca32c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker*>(),
@@ -1490,7 +1490,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)(::UnityEngine::UIElements::PropertyChangedEvent*, ::UnityEngine::UIElements::VisualElement*)>(
         &::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::OnVisualElementPropertyChanged)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x70ca68c;
+  constexpr static std::size_t addrs = 0x70cb76c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1507,7 +1507,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)(::System::Object*)>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::DecreaseRefCount)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x70c9018;
+  constexpr static std::size_t addrs = 0x70ca0f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker*>(),
@@ -1521,7 +1521,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)()>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::GetTrackedDataSourcesCount)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x70c5aa8;
+  constexpr static std::size_t addrs = 0x70c6b88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1535,7 +1535,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::HashSet_1<::Unity::Properties::PropertyPath>* (
     ::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)(::System::Object*)>(&::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::GetChangesFromSource)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x70c64dc;
+  constexpr static std::size_t addrs = 0x70c75bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker*>(),
@@ -1549,7 +1549,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)(::System::Object*)>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::ClearChangesFromSource)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x70c6578;
+  constexpr static std::size_t addrs = 0x70c7658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker*>(),
@@ -1564,7 +1564,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*, ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::InvalidateCachedDataSource)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x70c7f44;
+  constexpr static std::size_t addrs = 0x70c9024;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1583,7 +1583,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::DataBindingManager_BindingData*)>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::GetResolvedDataSourceContext)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x70c5ef4;
+  constexpr static std::size_t addrs = 0x70c6fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1600,7 +1600,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)(
     ::System::Object*, ::UnityEngine::UIElements::BindablePropertyChangedEventArgs)>(&::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::TrackPropertyChanges)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x70cac14;
+  constexpr static std::size_t addrs = 0x70cbcf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1616,7 +1616,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)(::System::Object*, ::Unity::Properties::PropertyPath)>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::TrackPropertyChanges)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x70ca738;
+  constexpr static std::size_t addrs = 0x70cb818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1631,7 +1631,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)(::System::Object*, ::by_ref<int64_t>)>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::TryGetLastVersion)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x70c5b14;
+  constexpr static std::size_t addrs = 0x70c6bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker*>(),
@@ -1645,7 +1645,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)(::System::Object*, int64_t)>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::UpdateVersion)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x70c5bcc;
+  constexpr static std::size_t addrs = 0x70c6cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker*>(),
@@ -1659,7 +1659,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DataSourceContext (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)(
     ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::GetHierarchicalDataSourceContext)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x70ca9fc;
+  constexpr static std::size_t addrs = 0x70cbadc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1674,7 +1674,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::RemoveHierarchyDataSourceContextFromElement)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x70cad38;
+  constexpr static std::size_t addrs = 0x70cbe18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1689,7 +1689,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)()>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::Dispose)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x70c8414;
+  constexpr static std::size_t addrs = 0x70c94f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1703,7 +1703,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::*)()>(
     &::UnityEngine::UIElements::DataBindingManager_HierarchyDataSourceTracker::ClearSourceCache)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x70c9480;
+  constexpr static std::size_t addrs = 0x70ca560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1989,7 +1989,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::Binding*, ::UnityEngine::UIElements::BindingId)>(
     &::UnityEngine::UIElements::DataBindingManager_IgnoreUIChangesData::ShouldIgnoreChange)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x70ca210;
+  constexpr static std::size_t addrs = 0x70cb2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2030,7 +2030,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::DataBindingManager*, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::BindingId, ::UnityEngine::UIElements::Binding*)>(
     &::UnityEngine::UIElements::DataBindingManager_IgnoreUIChangesScope::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x70c6450;
+  constexpr static std::size_t addrs = 0x70c7530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2048,7 +2048,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager_IgnoreUIChangesScope::*)()>(
     &::UnityEngine::UIElements::DataBindingManager_IgnoreUIChangesScope::Dispose)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x70caf50;
+  constexpr static std::size_t addrs = 0x70cc030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2094,7 +2094,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::BindingLogLevel (::UnityEngine::UIElements::DataBindingManager::*)()>(
     &::UnityEngine::UIElements::DataBindingManager::get_logLevel)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x70c3114;
+  constexpr static std::size_t addrs = 0x70c41f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(), { "get_logLevel", {}, {} })));
@@ -2107,7 +2107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)(::UnityEngine::UIElements::BindingLogLevel)>(
     &::UnityEngine::UIElements::DataBindingManager::set_logLevel)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x70c3020;
+  constexpr static std::size_t addrs = 0x70c4100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2121,7 +2121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)()>(&::UnityEngine::UIElements::DataBindingManager::ResetLogLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70c3240;
+  constexpr static std::size_t addrs = 0x70c4320;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(), { "ResetLogLevel", {}, {} })));
@@ -2134,7 +2134,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::DataBindingManager::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x70c547c;
+  constexpr static std::size_t addrs = 0x70c655c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
@@ -2147,7 +2147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::DataBindingManager::*)()>(&::UnityEngine::UIElements::DataBindingManager::GetTrackedDataSourcesCount)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x70c5a94;
+  constexpr static std::size_t addrs = 0x70c6b74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2161,7 +2161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DataBindingManager::*)(::System::Object*, ::by_ref<int64_t>)>(
     &::UnityEngine::UIElements::DataBindingManager::TryGetLastVersion)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x70c5b00;
+  constexpr static std::size_t addrs = 0x70c6be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
@@ -2175,7 +2175,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)(::System::Object*, int64_t)>(
     &::UnityEngine::UIElements::DataBindingManager::UpdateVersion)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x70c5bb8;
+  constexpr static std::size_t addrs = 0x70c6c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
@@ -2189,7 +2189,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)(
     ::UnityEngine::UIElements::DataBindingManager_BindingData*, ::UnityEngine::UIElements::BindingResult)>(&::UnityEngine::UIElements::DataBindingManager::CacheUIBindingResult)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x70c5c7c;
+  constexpr static std::size_t addrs = 0x70c6d5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2206,7 +2206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DataBindingManager::*)(
     ::UnityEngine::UIElements::DataBindingManager_BindingData*, ::by_ref<::UnityEngine::UIElements::BindingResult>)>(&::UnityEngine::UIElements::DataBindingManager::TryGetLastUIBindingResult)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x70c5cec;
+  constexpr static std::size_t addrs = 0x70c6dcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2224,7 +2224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)(
     ::UnityEngine::UIElements::DataBindingManager_BindingData*, ::UnityEngine::UIElements::BindingResult)>(&::UnityEngine::UIElements::DataBindingManager::CacheSourceBindingResult)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x70c5d78;
+  constexpr static std::size_t addrs = 0x70c6e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2241,7 +2241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DataBindingManager::*)(
     ::UnityEngine::UIElements::DataBindingManager_BindingData*, ::by_ref<::UnityEngine::UIElements::BindingResult>)>(&::UnityEngine::UIElements::DataBindingManager::TryGetLastSourceBindingResult)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x70c5de8;
+  constexpr static std::size_t addrs = 0x70c6ec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2259,7 +2259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DataSourceContext (::UnityEngine::UIElements::DataBindingManager::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::DataBindingManager_BindingData*)>(&::UnityEngine::UIElements::DataBindingManager::GetResolvedDataSourceContext)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x70c5e70;
+  constexpr static std::size_t addrs = 0x70c6f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2275,7 +2275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::DataBindingManager::*)()>(&::UnityEngine::UIElements::DataBindingManager::GetBoundElementsCount)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x70c62f4;
+  constexpr static std::size_t addrs = 0x70c73d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(), { "GetBoundElementsCount", {}, {} })));
@@ -2288,7 +2288,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualElement*>* (::UnityEngine::UIElements::DataBindingManager::*)()>(
     &::UnityEngine::UIElements::DataBindingManager::GetBoundElements)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x70c6358;
+  constexpr static std::size_t addrs = 0x70c7438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(), { "GetBoundElements", {}, {} })));
@@ -2301,7 +2301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DataBindingManager_IgnoreUIChangesScope (::UnityEngine::UIElements::DataBindingManager::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::BindingId, ::UnityEngine::UIElements::Binding*)>(&::UnityEngine::UIElements::DataBindingManager::IgnoreChangesScope)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x70c63b0;
+  constexpr static std::size_t addrs = 0x70c7490;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2319,7 +2319,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_ChangesFromUI>* (
     ::UnityEngine::UIElements::DataBindingManager::*)()>(&::UnityEngine::UIElements::DataBindingManager::GetChangedDetectedFromUI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70c64c0;
+  constexpr static std::size_t addrs = 0x70c75a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(), { "GetChangedDetectedFromUI", {}, {} })));
@@ -2332,7 +2332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::HashSet_1<::Unity::Properties::PropertyPath>* (
     ::UnityEngine::UIElements::DataBindingManager::*)(::System::Object*)>(&::UnityEngine::UIElements::DataBindingManager::GetChangedDetectedFromSource)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x70c64c8;
+  constexpr static std::size_t addrs = 0x70c75a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2346,7 +2346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)(::System::Object*)>(
     &::UnityEngine::UIElements::DataBindingManager::ClearChangesFromSource)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x70c6564;
+  constexpr static std::size_t addrs = 0x70c7644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2360,7 +2360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::DataBindingManager_BindingData*>* (
     ::UnityEngine::UIElements::DataBindingManager::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::DataBindingManager::GetBindingData)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x70c6628;
+  constexpr static std::size_t addrs = 0x70c7708;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
@@ -2375,7 +2375,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId const>, ::by_ref<::UnityEngine::UIElements::DataBindingManager_BindingData*>)>(
     &::UnityEngine::UIElements::DataBindingManager::TryGetBindingData)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x70c6754;
+  constexpr static std::size_t addrs = 0x70c7834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2394,7 +2394,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId const>, ::UnityEngine::UIElements::Binding*)>(
     &::UnityEngine::UIElements::DataBindingManager::RegisterBinding)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x70c685c;
+  constexpr static std::size_t addrs = 0x70c793c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2412,7 +2412,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)(
     ::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId const>)>(&::UnityEngine::UIElements::DataBindingManager::UnregisterBinding)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x70c73e0;
+  constexpr static std::size_t addrs = 0x70c84c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2428,7 +2428,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::DataBindingManager::TransferBindingRequests)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x70c794c;
+  constexpr static std::size_t addrs = 0x70c8a2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
@@ -2443,7 +2443,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
                                                                                                                ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::DataBindingManager::InvalidateCachedDataSource)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x70c7f30;
+  constexpr static std::size_t addrs = 0x70c9010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2460,7 +2460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)()>(&::UnityEngine::UIElements::DataBindingManager::Dispose)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x70c81b8;
+  constexpr static std::size_t addrs = 0x70c9298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(), { "Dispose", {}, {} })));
@@ -2473,7 +2473,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId const>, ::UnityEngine::UIElements::Binding*,
                                                                 bool)>(&::UnityEngine::UIElements::DataBindingManager::CreateBindingRequest)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x70c7b04;
+  constexpr static std::size_t addrs = 0x70c8be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2491,7 +2491,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::DataBindingManager::ProcessBindingRequests)> {
   constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x70c8580;
+  constexpr static std::size_t addrs = 0x70c9660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
@@ -2505,7 +2505,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::DataBindingManager::ClearAllBindings)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x70c8ad8;
+  constexpr static std::size_t addrs = 0x70c9bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
@@ -2518,7 +2518,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::DataBindingManager::AnyPendingBindingRequests)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x70c8d2c;
+  constexpr static std::size_t addrs = 0x70c9e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
@@ -2532,7 +2532,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*, ::by_ref<::UnityEngine::UIElements::BindingId const>,
                                                                 ::by_ref<::UnityEngine::UIElements::Binding*>)>(&::UnityEngine::UIElements::DataBindingManager::TryGetBindingRequest)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x70c8e0c;
+  constexpr static std::size_t addrs = 0x70c9eec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2549,7 +2549,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)()>(&::UnityEngine::UIElements::DataBindingManager::DirtyBindingOrder)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x70c8fb8;
+  constexpr static std::size_t addrs = 0x70ca098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(), { "DirtyBindingOrder", {}, {} })));
@@ -2562,7 +2562,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)(::System::Object*, ::System::Object*)>(
     &::UnityEngine::UIElements::DataBindingManager::TrackDataSource)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x70c8fe0;
+  constexpr static std::size_t addrs = 0x70ca0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(),
@@ -2575,7 +2575,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)()>(&::UnityEngine::UIElements::DataBindingManager::ClearSourceCache)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x70c946c;
+  constexpr static std::size_t addrs = 0x70ca54c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DataBindingManager*>(), { "ClearSourceCache", {}, {} })));
@@ -2589,7 +2589,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements
     ::UnityEngine::UIElements::DataBindingManager::*)(::UnityEngine::UIElements::BindingTarget, ::UnityEngine::UIElements::Binding*)>(
     &::UnityEngine::UIElements::DataBindingManager::GetPooledBindingData)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x70c6f18;
+  constexpr static std::size_t addrs = 0x70c7ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2605,7 +2605,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DataBindingManager::*)(::UnityEngine::UIElements::DataBindingManager_BindingData*)>(
     &::UnityEngine::UIElements::DataBindingManager::ReleasePoolBindingData)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x70c7878;
+  constexpr static std::size_t addrs = 0x70c8958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

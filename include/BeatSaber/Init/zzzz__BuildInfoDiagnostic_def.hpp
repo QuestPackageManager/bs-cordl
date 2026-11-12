@@ -23,10 +23,10 @@ namespace BeatSaber::Init {
 class CORDL_TYPE BuildInfoDiagnostic : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CollectAndFormat, addr 0x3540dac, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method CollectAndFormat, addr 0x3543d4c, size 0x2e8, virtual false, abstract: false, final false
   static inline ::StringW CollectAndFormat();
 
-  /// @brief Method Format, addr 0x354144c, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x35443ec, size 0x2f4, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW gameVersion, ::StringW contentVersion, uint64_t buildId, ::StringW platform, ::StringW platformVersion, ::StringW prerelease, ::StringW buildLabel,
                                  ::StringW unityVersion, ::StringW buildGuid);
 
@@ -45,7 +45,7 @@ public:
   BuildInfoDiagnostic(BuildInfoDiagnostic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23382 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

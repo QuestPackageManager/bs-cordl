@@ -108,21 +108,21 @@ public:
   /// @brief Field didFinishEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::OptionsViewController_OptionsButton>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x5dbb5d0, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5dbb574, size 0x1c0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::OptionsViewController* New_ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method <DidActivate>b__7_0, addr 0x5dbb794, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_0, addr 0x5dbb738, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_0();
 
   /// [CompilerGenerated]
-  /// @brief Method <DidActivate>b__7_1, addr 0x5dbb7b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_1, addr 0x5dbb758, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_1();
 
   /// [CompilerGenerated]
-  /// @brief Method <DidActivate>b__7_2, addr 0x5dbb7d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_2, addr 0x5dbb778, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_2();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__editAvatarButton() const;
@@ -149,15 +149,15 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::OptionsViewController_OptionsButton>* value);
 
-  /// @brief Method .ctor, addr 0x5dbb790, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dbb734, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didFinishEvent, addr 0x5dbb450, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5dbb3f4, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::OptionsViewController_OptionsButton>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didFinishEvent, addr 0x5dbb510, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5dbb4b4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::OptionsViewController_OptionsButton>* value);
 
 protected:

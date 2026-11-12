@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIWordWrapSizer::*)(::UnityEngine::GUIStyle*, ::UnityEngine::GUIContent*, ::ArrayW<::UnityEngine::GUILayoutOption*>)>(
     &::UnityEngine::GUIWordWrapSizer::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6fe1718;
+  constexpr static std::size_t addrs = 0x6fe27f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIWordWrapSizer::*)()>(&::UnityEngine::GUIWordWrapSizer::CalcWidth)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6fe9ffc;
+  constexpr static std::size_t addrs = 0x6feb0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::GUIWordWrapSizer::*)()>(&::UnityEngine::GUIWordWrapSizer::CalcHeight)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6fea064;
+  constexpr static std::size_t addrs = 0x6feb144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

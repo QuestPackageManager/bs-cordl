@@ -126,13 +126,13 @@ public:
 
   constexpr void __cordl_internal_set__wrapper(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x5d0fb44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d0fb00, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_menuEnvironmentType, addr 0x5d0fb34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menuEnvironmentType, addr 0x5d0faf0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentType get_menuEnvironmentType();
 
-  /// @brief Method get_wrapper, addr 0x5d0fb3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wrapper, addr 0x5d0faf8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_wrapper();
 
 protected:
@@ -190,10 +190,10 @@ public:
 
   static inline ::GlobalNamespace::MenuEnvironmentManager* New_ctor();
 
-  /// @brief Method ShowEnvironmentType, addr 0x5d0f9a4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ShowEnvironmentType, addr 0x5d0f960, size 0x18c, virtual false, abstract: false, final false
   inline void ShowEnvironmentType(::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentType menuEnvironmentType);
 
-  /// @brief Method Start, addr 0x5d0f99c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d0f958, size 0x8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentObjects*> const& __cordl_internal_get__data() const;
@@ -208,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set__prevMenuEnvironmentType(::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentType value);
 
-  /// @brief Method .ctor, addr 0x5d0fb30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d0faec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -37,20 +37,20 @@ public:
 
   static inline ::System::Data::SqlTypes::SqlNullValueException* New_ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method SqlNullValueExceptionSerialization, addr 0x64f47c4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SqlNullValueExceptionSerialization, addr 0x64f4e14, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::SerializationInfo* SqlNullValueExceptionSerialization(::System::Runtime::Serialization::SerializationInfo* si,
                                                                                                         ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method .ctor, addr 0x64dea44, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64df094, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x64f473c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64f4d8c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x64f4718, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64f4d68, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x64f4764, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64f4db4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
 protected:

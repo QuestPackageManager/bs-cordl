@@ -36,27 +36,27 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::BatchRendererGroupGlobals>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::BatchRendererGroupGlobals>*();
 
-  /// @brief Method Equals, addr 0x6c0e2ac, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c0f38c, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6c0e18c, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c0f26c, size 0x120, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::BatchRendererGroupGlobals other);
 
-  /// @brief Method GetHashCode, addr 0x6c0e350, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c0f430, size 0x118, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline int32_t getStaticF_kGlobalsPropertyId();
 
-  /// @brief Method get_Default, addr 0x6c0e02c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x6c0f10c, size 0x160, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::BatchRendererGroupGlobals get_Default();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::BatchRendererGroupGlobals>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::BatchRendererGroupGlobals>* i___System__IEquatable_1___UnityEngine__Rendering__BatchRendererGroupGlobals_();
 
-  /// @brief Method op_Equality, addr 0x6c0e468, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c0f548, size 0x88, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::BatchRendererGroupGlobals left, ::UnityEngine::Rendering::BatchRendererGroupGlobals right);
 
-  /// @brief Method op_Inequality, addr 0x6c0e4f0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6c0f5d0, size 0x8c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::BatchRendererGroupGlobals left, ::UnityEngine::Rendering::BatchRendererGroupGlobals right);
 
   static inline void setStaticF_kGlobalsPropertyId(int32_t value);

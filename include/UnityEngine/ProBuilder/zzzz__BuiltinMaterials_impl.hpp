@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::Init)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x6afe59c;
+  constexpr static std::size_t addrs = 0x6aff67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "Init", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_geometryShadersSupported)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6afea54;
+  constexpr static std::size_t addrs = 0x6affb34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_defaultMaterial)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6afeab4;
+  constexpr static std::size_t addrs = 0x6affb94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "get_defaultMaterial", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_selectionPickerShader)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6afed4c;
+  constexpr static std::size_t addrs = 0x6affe2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "get_selectionPickerShader", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_facePickerMaterial)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6afedac;
+  constexpr static std::size_t addrs = 0x6affe8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "get_facePickerMaterial", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_vertexPickerMaterial)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6afee0c;
+  constexpr static std::size_t addrs = 0x6affeec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "get_vertexPickerMaterial", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_edgePickerMaterial)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6afee6c;
+  constexpr static std::size_t addrs = 0x6afff4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "get_edgePickerMaterial", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_triggerMaterial)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6afeecc;
+  constexpr static std::size_t addrs = 0x6afffac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "get_triggerMaterial", {}, {} })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_colliderMaterial)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6afefd4;
+  constexpr static std::size_t addrs = 0x6b000b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "get_colliderMaterial", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::GetLegacyDiffuse)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x6aff0dc;
+  constexpr static std::size_t addrs = 0x6b001bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "GetLegacyDiffuse", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::GetDefaultMaterial)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6afeb90;
+  constexpr static std::size_t addrs = 0x6affc70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "GetDefaultMaterial", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::GetPreviewMaterial)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x6aff37c;
+  constexpr static std::size_t addrs = 0x6b0045c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "GetPreviewMaterial", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_ShapePreviewMaterial)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6aff5ac;
+  constexpr static std::size_t addrs = 0x6b0068c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::BuiltinMaterials*>(), { "get_ShapePreviewMaterial", {}, {} })));

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Object*, bool)>(&::UnityEngine::JsonUtility::ToJsonInternal)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x7000e44;
+  constexpr static std::size_t addrs = 0x7001f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::StringW, ::System::Object*, ::System::Type*)>(&::UnityEngine::JsonUtility::FromJsonInternal)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x7000fcc;
+  constexpr static std::size_t addrs = 0x70020ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Object*)>(&::UnityEngine::JsonUtility::ToJson)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7001164;
+  constexpr static std::size_t addrs = 0x7002244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::JsonUtility*>(), { "ToJson", {}, { ::i2c::type_of<::System::Object*>() } })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Object*, bool)>(&::UnityEngine::JsonUtility::ToJson)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x700116c;
+  constexpr static std::size_t addrs = 0x700224c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::StringW, ::System::Type*)>(&::UnityEngine::JsonUtility::FromJson)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x70012d8;
+  constexpr static std::size_t addrs = 0x70023b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::System::Object*)>(&::UnityEngine::JsonUtility::FromJsonOverwrite)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x7001488;
+  constexpr static std::size_t addrs = 0x7002568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Object*, bool, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::UnityEngine::JsonUtility::ToJsonInternal_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x7000f78;
+  constexpr static std::size_t addrs = 0x7002058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::System::Object*, ::System::Type*)>(
     &::UnityEngine::JsonUtility::FromJsonInternal_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x7001110;
+  constexpr static std::size_t addrs = 0x70021f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

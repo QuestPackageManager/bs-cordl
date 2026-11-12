@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Url(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6f71e30, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f72f10, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW url);
 
-  /// @brief Method get_URL, addr 0x6f71e90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_URL, addr 0x6f72f70, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_URL();
 
 protected:

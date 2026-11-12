@@ -63,7 +63,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugShaders* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6d21dcc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6d22eac, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_DebugReplacementPS() const;
@@ -84,19 +84,19 @@ public:
 
   constexpr void __cordl_internal_set_m_ProbeVolumeSamplingDebugComputeShader(::UnityW<::UnityEngine::ComputeShader> value);
 
-  /// @brief Method .ctor, addr 0x6d21f3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d2301c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_debugReplacementPS, addr 0x6d21dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_debugReplacementPS, addr 0x6d22eb4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_debugReplacementPS();
 
-  /// @brief Method get_hdrDebugViewPS, addr 0x6d21e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hdrDebugViewPS, addr 0x6d22f2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_hdrDebugViewPS();
 
-  /// @brief Method get_probeVolumeSamplingDebugComputeShader, addr 0x6d21ec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_probeVolumeSamplingDebugComputeShader, addr 0x6d22fa4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_probeVolumeSamplingDebugComputeShader();
 
-  /// @brief Method get_version, addr 0x6d21dc4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6d22ea4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -105,13 +105,13 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_debugReplacementPS, addr 0x6d21ddc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_debugReplacementPS, addr 0x6d22ebc, size 0x70, virtual false, abstract: false, final false
   inline void set_debugReplacementPS(::UnityEngine::Shader* value);
 
-  /// @brief Method set_hdrDebugViewPS, addr 0x6d21e54, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_hdrDebugViewPS, addr 0x6d22f34, size 0x70, virtual false, abstract: false, final false
   inline void set_hdrDebugViewPS(::UnityEngine::Shader* value);
 
-  /// @brief Method set_probeVolumeSamplingDebugComputeShader, addr 0x6d21ecc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_probeVolumeSamplingDebugComputeShader, addr 0x6d22fac, size 0x70, virtual false, abstract: false, final false
   inline void set_probeVolumeSamplingDebugComputeShader(::UnityEngine::ComputeShader* value);
 
 protected:

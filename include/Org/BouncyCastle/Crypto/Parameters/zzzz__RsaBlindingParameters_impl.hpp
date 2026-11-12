@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::*)(
     ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x36c1138;
+  constexpr static std::size_t addrs = 0x36c55d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* (::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::get_PublicKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36c11a0;
+  constexpr static std::size_t addrs = 0x36c5638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::get_BlindingFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x36c11a8;
+  constexpr static std::size_t addrs = 0x36c5640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

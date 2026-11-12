@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*,
                                                                 bool)>(&::UnityEngine::UIElements::EventDispatchUtilities::PropagateEvent)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x7264178;
+  constexpr static std::size_t addrs = 0x7265258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::SendEventDirectlyToTarget)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x72656cc;
+  constexpr static std::size_t addrs = 0x72667ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::HandleEventAtTargetAndDefaultPhase)> {
   constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x726571c;
+  constexpr static std::size_t addrs = 0x72667fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*,
                                                                 bool)>(&::UnityEngine::UIElements::EventDispatchUtilities::HandleEventAcrossPropagationPath)> {
   constexpr static std::size_t size = 0x7c4;
-  constexpr static std::size_t addrs = 0x7264f08;
+  constexpr static std::size_t addrs = 0x7265fe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::U
                                                                 ::UnityEngine::UIElements::VisualElement*, bool)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::HandleEventAcrossPropagationPathWithCompatibilityEvent)> {
   constexpr static std::size_t size = 0xc34;
-  constexpr static std::size_t addrs = 0x72642d4;
+  constexpr static std::size_t addrs = 0x72653b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*,
                                                                 bool)>(&::UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_DefaultActionAtTarget)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x7265ea8;
+  constexpr static std::size_t addrs = 0x7266f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*,
                                                                 bool)>(&::UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_DefaultAction)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x7265f3c;
+  constexpr static std::size_t addrs = 0x726701c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_TrickleDownCallbacks)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x7265fd0;
+  constexpr static std::size_t addrs = 0x72670b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_BubbleUpCallbacks)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x7265ffc;
+  constexpr static std::size_t addrs = 0x72670dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*,
                                                                 bool)>(&::UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_TrickleDownHandleEvent)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7266028;
+  constexpr static std::size_t addrs = 0x7267108;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*,
                                                                 bool)>(&::UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_BubbleUpHandleEvent)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7266080;
+  constexpr static std::size_t addrs = 0x7267160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, ::UnityEngine::UIElements::VisualElement*,
                                                                 bool, bool)>(&::UnityEngine::UIElements::EventDispatchUtilities::HandleEvent_BubbleUpAllDefaultActions)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x72660d8;
+  constexpr static std::size_t addrs = 0x72671b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::Disabled)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x7265bac;
+  constexpr static std::size_t addrs = 0x7266c8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::DispatchToFocusedElementOrPanelRoot)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x7266290;
+  constexpr static std::size_t addrs = 0x7267370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, int32_t, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::DispatchToElementUnderPointerOrPanelRoot)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x72665e0;
+  constexpr static std::size_t addrs = 0x72676c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::DispatchToAssignedTarget)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x72666c0;
+  constexpr static std::size_t addrs = 0x72677a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::DefaultDispatch)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x7262b48;
+  constexpr static std::size_t addrs = 0x7263c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, int32_t, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::DispatchToCapturingElementOrElementUnderPointer)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x726674c;
+  constexpr static std::size_t addrs = 0x726782c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*, int32_t)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::DispatchToCapturingElement)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x7266790;
+  constexpr static std::size_t addrs = 0x7267870;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::BaseVisualElementPanel*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::DispatchToPanelRoot)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x726697c;
+  constexpr static std::size_t addrs = 0x7267a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::PropagateToRemainingIMGUIContainers)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x7266578;
+  constexpr static std::size_t addrs = 0x7267658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::PropagateToRemainingIMGUIContainerRecursive)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x72669d0;
+  constexpr static std::size_t addrs = 0x7267ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

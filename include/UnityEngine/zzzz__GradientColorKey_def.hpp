@@ -25,7 +25,7 @@ namespace UnityEngine {
 struct CORDL_TYPE GradientColorKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6f625d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f636b8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color col, float_t time);
 
   // Ctor Parameters []

@@ -69,7 +69,7 @@ public:
 
   static inline ::UnityEngine::Rendering::VrsRenderPipelineRuntimeResources* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6c2d050, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_isAvailableInPlayerBuild, addr 0x6c2e130, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild();
 
   constexpr ::UnityEngine::Rendering::VrsLut* const& __cordl_internal_get_m_ConversionLookupTable() const;
@@ -96,22 +96,22 @@ public:
 
   constexpr void __cordl_internal_set_m_VisualizationShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6c2d238, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2e318, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_conversionLookupTable, addr 0x6c2d1c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_conversionLookupTable, addr 0x6c2e2a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::VrsLut* get_conversionLookupTable();
 
-  /// @brief Method get_textureComputeShader, addr 0x6c2d058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textureComputeShader, addr 0x6c2e138, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_textureComputeShader();
 
-  /// @brief Method get_version, addr 0x6c2d048, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6c2e128, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
-  /// @brief Method get_visualizationLookupTable, addr 0x6c2d148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visualizationLookupTable, addr 0x6c2e228, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::VrsLut* get_visualizationLookupTable();
 
-  /// @brief Method get_visualizationShader, addr 0x6c2d0d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visualizationShader, addr 0x6c2e1b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_visualizationShader();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -120,16 +120,16 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_conversionLookupTable, addr 0x6c2d1c8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_conversionLookupTable, addr 0x6c2e2a8, size 0x70, virtual false, abstract: false, final false
   inline void set_conversionLookupTable(::UnityEngine::Rendering::VrsLut* value);
 
-  /// @brief Method set_textureComputeShader, addr 0x6c2d060, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_textureComputeShader, addr 0x6c2e140, size 0x70, virtual false, abstract: false, final false
   inline void set_textureComputeShader(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_visualizationLookupTable, addr 0x6c2d150, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_visualizationLookupTable, addr 0x6c2e230, size 0x70, virtual false, abstract: false, final false
   inline void set_visualizationLookupTable(::UnityEngine::Rendering::VrsLut* value);
 
-  /// @brief Method set_visualizationShader, addr 0x6c2d0d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_visualizationShader, addr 0x6c2e1b8, size 0x70, virtual false, abstract: false, final false
   inline void set_visualizationShader(::UnityEngine::Shader* value);
 
 protected:

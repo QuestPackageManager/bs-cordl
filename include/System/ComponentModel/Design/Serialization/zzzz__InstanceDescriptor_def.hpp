@@ -41,7 +41,7 @@ public:
   /// @brief Field <MemberInfo>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__MemberInfo_k__BackingField, put = __cordl_internal_set__MemberInfo_k__BackingField)) ::System::Reflection::MemberInfo* _MemberInfo_k__BackingField;
 
-  /// @brief Method Invoke, addr 0x68517e4, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6851e34, size 0x398, virtual false, abstract: false, final false
   inline ::System::Object* Invoke();
 
   static inline ::System::ComponentModel::Design::Serialization::InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments);
@@ -66,18 +66,18 @@ public:
 
   constexpr void __cordl_internal_set__MemberInfo_k__BackingField(::System::Reflection::MemberInfo* value);
 
-  /// @brief Method .ctor, addr 0x6851298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68518e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments);
 
-  /// @brief Method .ctor, addr 0x68512a0, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68518f0, size 0x534, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments, bool isComplete);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Arguments, addr 0x68517d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Arguments, addr 0x6851e24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Arguments();
 
   /// [CompilerGenerated]
-  /// @brief Method get_MemberInfo, addr 0x68517dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberInfo, addr 0x6851e2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_MemberInfo();
 
 protected:

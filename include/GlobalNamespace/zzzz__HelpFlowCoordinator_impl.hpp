@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>*)>(
     &::GlobalNamespace::HelpFlowCoordinator::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e65e18;
+  constexpr static std::size_t addrs = 0x5e65d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>*)>(
     &::GlobalNamespace::HelpFlowCoordinator::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e65ed8;
+  constexpr static std::size_t addrs = 0x5e65de8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(bool, bool, bool)>(&::GlobalNamespace::HelpFlowCoordinator::DidActivate)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5e65f98;
+  constexpr static std::size_t addrs = 0x5e65ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(bool, bool)>(&::GlobalNamespace::HelpFlowCoordinator::DidDeactivate)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5e66258;
+  constexpr static std::size_t addrs = 0x5e66168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::HelpFlowCoordinator::HandleDidSelectHelpSubMenu)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e66428;
+  constexpr static std::size_t addrs = 0x5e66338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(::HMUI::ViewController*)>(&::GlobalNamespace::HelpFlowCoordinator::ReplaceViewController)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5e6642c;
+  constexpr static std::size_t addrs = 0x5e6633c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(::HMUI::ViewController*)>(&::GlobalNamespace::HelpFlowCoordinator::BackButtonWasPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e66538;
+  constexpr static std::size_t addrs = 0x5e66448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(::GlobalNamespace::HowToPlayViewController_HowToPlayOptions)>(
     &::GlobalNamespace::HelpFlowCoordinator::HandleHowToPlayViewControllerDidFinish)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5e66558;
+  constexpr static std::size_t addrs = 0x5e66468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)()>(&::GlobalNamespace::HelpFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e665b8;
+  constexpr static std::size_t addrs = 0x5e664c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::HelpFlowCoordinator*>(), { ".ctor", {}, {} })));

@@ -28,7 +28,7 @@ public:
   __declspec(property(get = __cordl_internal_get_serializableType, put = __cordl_internal_set_serializableType)) ::System::Type* serializableType;
 
   /// [RequiredByNativeCode]
-  /// @brief Method GetSerializableType, addr 0x6f83f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSerializableType, addr 0x6f85028, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* GetSerializableType();
 
   constexpr ::System::Type* const& __cordl_internal_get_serializableType() const;

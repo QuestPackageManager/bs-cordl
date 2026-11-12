@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType (::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7e1e8;
+  constexpr static std::size_t addrs = 0x6e7f2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT>(), { "get_type", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT::get_next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7e1f0;
+  constexpr static std::size_t addrs = 0x6e7f2d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT>(), { "get_next", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT::get_future)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7e1f8;
+  constexpr static std::size_t addrs = 0x6e7f2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT::*)(void*, uint64_t)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e7e200;
+  constexpr static std::size_t addrs = 0x6e7f2e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrFutureCancelInfoEXT::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e7b7a4;
+  constexpr static std::size_t addrs = 0x6e7c884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

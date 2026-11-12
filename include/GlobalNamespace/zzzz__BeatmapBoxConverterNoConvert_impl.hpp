@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapBoxConverterNoConvert::*)(
     ::System::Collections::Generic::List_1<::System::ValueTuple_2<int32_t, int32_t>>*, int32_t, int32_t)>(&::GlobalNamespace::BeatmapBoxConverterNoConvert::ConvertBoxEventGroupId)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x39dfa8c;
+  constexpr static std::size_t addrs = 0x39e4b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LightR
     ::GlobalNamespace::BeatmapBoxConverterNoConvert::*)(float_t, ::BeatmapSaveDataVersion4::LightRotationEvent, ::BeatmapSaveDataVersion4::LightRotationEventBox)>(
     &::GlobalNamespace::BeatmapBoxConverterNoConvert::ConvertRotationEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39dfb54;
+  constexpr static std::size_t addrs = 0x39e4bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BeatmapBoxConverterNoConvert::*)()>(&::GlobalNamespace::BeatmapBoxConverterNoConvert::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39dfbf0;
+  constexpr static std::size_t addrs = 0x39e4c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapBoxConverterNoConvert*>(), { ".ctor", {}, {} })));

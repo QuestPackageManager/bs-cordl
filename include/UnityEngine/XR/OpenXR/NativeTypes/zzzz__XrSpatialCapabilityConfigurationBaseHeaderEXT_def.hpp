@@ -45,40 +45,40 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e7f9d4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80ab4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityEXT capability, uint32_t enabledComponentCount,
                     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* enabledComponents);
 
-  /// @brief Method .ctor, addr 0x6e7fa64, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80b44, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityEXT capability,
                     ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT> enabledComponents);
 
-  /// @brief Method .ctor, addr 0x6e7f9c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80aa0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type, void* next, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityEXT capability, uint32_t enabledComponentCount,
                     ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* enabledComponents);
 
-  /// @brief Method .ctor, addr 0x6e7f9e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80ac8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type, void* next, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityEXT capability,
                     ::Unity::Collections::NativeArray_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT> enabledComponents);
 
   /// [CompilerGenerated]
-  /// @brief Method get_capability, addr 0x6e7f9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_capability, addr 0x6e80a88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityEXT get_capability();
 
   /// [CompilerGenerated]
-  /// @brief Method get_enabledComponentCount, addr 0x6e7f9b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enabledComponentCount, addr 0x6e80a90, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_enabledComponentCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_enabledComponents, addr 0x6e7f9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enabledComponents, addr 0x6e80a98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* get_enabledComponents();
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e7f9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e80a80, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e7f998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e80a78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -95,7 +95,7 @@ public:
                                                           ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialComponentTypeEXT* _enabledComponents_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17598 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

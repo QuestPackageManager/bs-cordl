@@ -65,101 +65,101 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugFrameTiming* New_ctor();
 
-  /// @brief Method RegisterDebugUI, addr 0x6bb5500, size 0x14e4, virtual false, abstract: false, final false
+  /// @brief Method RegisterDebugUI, addr 0x6bb65e0, size 0x14e4, virtual false, abstract: false, final false
   inline void RegisterDebugUI(::System::Collections::Generic::List_1<::UnityEngine::Rendering::DebugUI_Widget*>* list);
 
-  /// @brief Method Reset, addr 0x6bb6ad8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6bb7bb8, size 0x28, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method UpdateFrameTiming, addr 0x6bb4c88, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method UpdateFrameTiming, addr 0x6bb5d68, size 0x1e4, virtual false, abstract: false, final false
   inline void UpdateFrameTiming();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_0, addr 0x6bb6bb4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_0, addr 0x6bb7c94, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_0();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_1, addr 0x6bb6be4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_1, addr 0x6bb7cc4, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_1();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_10, addr 0x6bb6d94, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_10, addr 0x6bb7e74, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_10();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_11, addr 0x6bb6dc4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_11, addr 0x6bb7ea4, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_11();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_12, addr 0x6bb6df4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_12, addr 0x6bb7ed4, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_12();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_13, addr 0x6bb6e24, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_13, addr 0x6bb7f04, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_13();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_14, addr 0x6bb6e54, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_14, addr 0x6bb7f34, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_14();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_15, addr 0x6bb6e84, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_15, addr 0x6bb7f64, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_15();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_16, addr 0x6bb6eb4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_16, addr 0x6bb7f94, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_16();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_17, addr 0x6bb6ee4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_17, addr 0x6bb7fc4, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_17();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_18, addr 0x6bb6f14, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_18, addr 0x6bb7ff4, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_18();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_19, addr 0x6bb6f44, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_19, addr 0x6bb8024, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_19();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_2, addr 0x6bb6c14, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_2, addr 0x6bb7cf4, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_2();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_20, addr 0x6bb6f74, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_20, addr 0x6bb8054, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_20();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_21, addr 0x6bb6fa4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_21, addr 0x6bb8084, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_21();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_3, addr 0x6bb6c44, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_3, addr 0x6bb7d24, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_3();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_4, addr 0x6bb6c74, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_4, addr 0x6bb7d54, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_4();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_5, addr 0x6bb6ca4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_5, addr 0x6bb7d84, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_5();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_6, addr 0x6bb6cd4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_6, addr 0x6bb7db4, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_6();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_7, addr 0x6bb6d04, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_7, addr 0x6bb7de4, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_7();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_8, addr 0x6bb6d34, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_8, addr 0x6bb7e14, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_8();
 
   /// [CompilerGenerated]
-  /// @brief Method <RegisterDebugUI>b__17_9, addr 0x6bb6d64, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <RegisterDebugUI>b__17_9, addr 0x6bb7e44, size 0x30, virtual false, abstract: false, final false
   inline ::System::Object* _RegisterDebugUI_b__17_9();
 
   constexpr int32_t const& __cordl_internal_get__bottleneckHistorySize_k__BackingField() const;
@@ -198,23 +198,23 @@ public:
 
   constexpr void __cordl_internal_set_m_Timing(::ArrayW<::UnityEngine::FrameTiming> value);
 
-  /// @brief Method .ctor, addr 0x6bb4a64, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb5b44, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_bottleneckHistorySize, addr 0x6bb4a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bottleneckHistorySize, addr 0x6bb5b24, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bottleneckHistorySize();
 
   /// [CompilerGenerated]
-  /// @brief Method get_sampleHistorySize, addr 0x6bb4a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sampleHistorySize, addr 0x6bb5b34, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sampleHistorySize();
 
   /// [CompilerGenerated]
-  /// @brief Method set_bottleneckHistorySize, addr 0x6bb4a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bottleneckHistorySize, addr 0x6bb5b2c, size 0x8, virtual false, abstract: false, final false
   inline void set_bottleneckHistorySize(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_sampleHistorySize, addr 0x6bb4a5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sampleHistorySize, addr 0x6bb5b3c, size 0x8, virtual false, abstract: false, final false
   inline void set_sampleHistorySize(int32_t value);
 
 protected:

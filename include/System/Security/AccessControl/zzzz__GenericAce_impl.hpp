@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::GenericAce::*)(
     ::System::Security::AccessControl::AceType, ::System::Security::AccessControl::AceFlags)>(&::System::Security::AccessControl::GenericAce::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5f73f20;
+  constexpr static std::size_t addrs = 0x5f741a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::AccessControl::GenericAce::*)(::ArrayW<uint8_t>, int32_t)>(&::System::Security::AccessControl::GenericAce::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x5f73f84;
+  constexpr static std::size_t addrs = 0x5f7420c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::AceFlags (::System::Security::AccessControl::GenericAce::*)()>(
     &::System::Security::AccessControl::GenericAce::get_AceFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f740a8;
+  constexpr static std::size_t addrs = 0x5f74330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::GenericAce*>(), { "get_AceFlags", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::AceType (::System::Security::AccessControl::GenericAce::*)()>(
     &::System::Security::AccessControl::GenericAce::get_AceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f740b0;
+  constexpr static std::size_t addrs = 0x5f74338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::GenericAce*>(), { "get_AceType", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::AuditFlags (::System::Security::AccessControl::GenericAce::*)()>(
     &::System::Security::AccessControl::GenericAce::get_AuditFlags)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5f73e38;
+  constexpr static std::size_t addrs = 0x5f740c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::GenericAce*>(), { "get_AuditFlags", {}, {} })));
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::InheritanceFlags (::System::Security::AccessControl::GenericAce::*)()>(
     &::System::Security::AccessControl::GenericAce::get_InheritanceFlags)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5f740b8;
+  constexpr static std::size_t addrs = 0x5f74340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::GenericAce*>(), { "get_InheritanceFlags", {}, {} })));
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::AccessControl::GenericAce::*)()>(&::System::Security::AccessControl::GenericAce::get_IsInherited)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f72528;
+  constexpr static std::size_t addrs = 0x5f727b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::GenericAce*>(), { "get_IsInherited", {}, {} })));
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::PropagationFlags (::System::Security::AccessControl::GenericAce::*)()>(
     &::System::Security::AccessControl::GenericAce::get_PropagationFlags)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f740c8;
+  constexpr static std::size_t addrs = 0x5f74350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::GenericAce*>(), { "get_PropagationFlags", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::GenericAce* (*)(::ArrayW<uint8_t>, int32_t)>(
     &::System::Security::AccessControl::GenericAce::CreateFromBinaryForm)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x5f73374;
+  constexpr static std::size_t addrs = 0x5f735fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::GenericAce*>(),
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::AccessControl::GenericAce::*)(::System::Object*)>(&::System::Security::AccessControl::GenericAce::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5f74354;
+  constexpr static std::size_t addrs = 0x5f745dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::AccessControl::GenericAce::*)()>(&::System::Security::AccessControl::GenericAce::GetHashCode)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5f743e0;
+  constexpr static std::size_t addrs = 0x5f74668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::AccessControl::GenericAce*>(), { "GetHashCode", {}, {} })));
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::AccessControl::GenericAce*, ::System::Security::AccessControl::GenericAce*)>(
     &::System::Security::AccessControl::GenericAce::op_Equality)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5f72734;
+  constexpr static std::size_t addrs = 0x5f729bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::AccessControl::GenericAce*, ::System::Security::AccessControl::GenericAce*)>(
     &::System::Security::AccessControl::GenericAce::op_Inequality)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5f72370;
+  constexpr static std::size_t addrs = 0x5f725f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::AccessControl::AceType)>(&::System::Security::AccessControl::GenericAce::IsObjectType)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5f740d4;
+  constexpr static std::size_t addrs = 0x5f7435c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -233,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (*)(::ArrayW<uint8_t>, int32_t)>(&::System::Security::AccessControl::GenericAce::ReadUShort)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5f71748;
+  constexpr static std::size_t addrs = 0x5f719d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t)>(&::System::Security::AccessControl::GenericAce::ReadInt)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5f71788;
+  constexpr static std::size_t addrs = 0x5f71a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -261,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::ArrayW<uint8_t>, int32_t)>(&::System::Security::AccessControl::GenericAce::WriteInt)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5f71a10;
+  constexpr static std::size_t addrs = 0x5f71c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint16_t, ::ArrayW<uint8_t>, int32_t)>(&::System::Security::AccessControl::GenericAce::WriteUShort)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5f719c8;
+  constexpr static std::size_t addrs = 0x5f71c50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

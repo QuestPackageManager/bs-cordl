@@ -79,16 +79,16 @@ public:
 
   static inline ::UnityEngine::Rendering::FreeCamera* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x6b9fdd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6ba0eb8, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RegisterInputs, addr 0x6b9fddc, size 0x7f8, virtual false, abstract: false, final false
+  /// @brief Method RegisterInputs, addr 0x6ba0ebc, size 0x7f8, virtual false, abstract: false, final false
   inline void RegisterInputs();
 
-  /// @brief Method Update, addr 0x6ba07e8, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6ba18c8, size 0x368, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateInputs, addr 0x6ba05d4, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method UpdateInputs, addr 0x6ba16b4, size 0x214, virtual false, abstract: false, final false
   inline void UpdateInputs();
 
   constexpr bool const& __cordl_internal_get_fire1() const;
@@ -199,7 +199,7 @@ public:
 
   constexpr void __cordl_internal_set_yMoveAction(::UnityEngine::InputSystem::InputAction* value);
 
-  /// @brief Method .ctor, addr 0x6ba0b50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba1c30, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

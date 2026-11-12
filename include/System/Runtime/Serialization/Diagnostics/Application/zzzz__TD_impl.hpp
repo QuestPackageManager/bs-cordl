@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::ReaderQuotaExceededIsEnabled)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65e873c;
+  constexpr static std::size_t addrs = 0x65e8d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::System::Runtime::Serialization::Diagnostics::Application::TD::ReaderQuotaExceeded)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x65e8884;
+  constexpr static std::size_t addrs = 0x65e8ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCSerializeWithSurrogateStartIsEnabled)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65e8a58;
+  constexpr static std::size_t addrs = 0x65e90a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCSerializeWithSurrogateStart)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x65e8af0;
+  constexpr static std::size_t addrs = 0x65e9140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Diagnostics::Application::TD*>(),
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCSerializeWithSurrogateStopIsEnabled)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65e8bd8;
+  constexpr static std::size_t addrs = 0x65e9228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCSerializeWithSurrogateStop)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x65e8c70;
+  constexpr static std::size_t addrs = 0x65e92c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCDeserializeWithSurrogateStartIsEnabled)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65e8e2c;
+  constexpr static std::size_t addrs = 0x65e947c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCDeserializeWithSurrogateStart)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x65e8ec4;
+  constexpr static std::size_t addrs = 0x65e9514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Diagnostics::Application::TD*>(),
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCDeserializeWithSurrogateStopIsEnabled)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65e8fac;
+  constexpr static std::size_t addrs = 0x65e95fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCDeserializeWithSurrogateStop)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x65e9044;
+  constexpr static std::size_t addrs = 0x65e9694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::ImportKnownTypesStartIsEnabled)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65e9124;
+  constexpr static std::size_t addrs = 0x65e9774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::ImportKnownTypesStart)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x65e91bc;
+  constexpr static std::size_t addrs = 0x65e980c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::ImportKnownTypesStopIsEnabled)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65e929c;
+  constexpr static std::size_t addrs = 0x65e98ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::ImportKnownTypesStop)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x65e9334;
+  constexpr static std::size_t addrs = 0x65e9984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCResolverResolveIsEnabled)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65e9414;
+  constexpr static std::size_t addrs = 0x65e9a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCResolverResolve)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x65e94ac;
+  constexpr static std::size_t addrs = 0x65e9afc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCGenWriterStartIsEnabled)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65e9594;
+  constexpr static std::size_t addrs = 0x65e9be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW)>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCGenWriterStart)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x65e962c;
+  constexpr static std::size_t addrs = 0x65e9c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Diagnostics::Application::TD*>(),
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCGenWriterStopIsEnabled)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65e981c;
+  constexpr static std::size_t addrs = 0x65e9e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCGenWriterStop)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x65e98b4;
+  constexpr static std::size_t addrs = 0x65e9f04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCGenReaderStartIsEnabled)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65e9994;
+  constexpr static std::size_t addrs = 0x65e9fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW)>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCGenReaderStart)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x65e9a2c;
+  constexpr static std::size_t addrs = 0x65ea07c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Diagnostics::Application::TD*>(),
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCGenReaderStopIsEnabled)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x65e9b28;
+  constexpr static std::size_t addrs = 0x65ea178;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::DCGenReaderStop)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x65e9bc0;
+  constexpr static std::size_t addrs = 0x65ea210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::CreateEventDescriptors)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x65e9ca0;
+  constexpr static std::size_t addrs = 0x65ea2f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -335,7 +335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::System::Runtime::Serialization::Diagnostics::Application::TD::EnsureEventDescriptors)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x65e9ee4;
+  constexpr static std::size_t addrs = 0x65ea534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t)>(&::System::Runtime::Serialization::Diagnostics::Application::TD::IsEtwEventEnabled)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x65e87d4;
+  constexpr static std::size_t addrs = 0x65e8e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -362,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, ::System::Runtime::Diagnostics::EventTraceActivity*, ::StringW, ::StringW)>(
     &::System::Runtime::Serialization::Diagnostics::Application::TD::WriteEtwEvent)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x65e896c;
+  constexpr static std::size_t addrs = 0x65e8fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -379,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, ::System::Runtime::Diagnostics::EventTraceActivity*, ::StringW)>(
     &::System::Runtime::Serialization::Diagnostics::Application::TD::WriteEtwEvent)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x65e8d50;
+  constexpr static std::size_t addrs = 0x65e93a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(int32_t, ::System::Runtime::Diagnostics::EventTraceActivity*, ::StringW, ::StringW, ::StringW)>(
     &::System::Runtime::Serialization::Diagnostics::Application::TD::WriteEtwEvent)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x65e9728;
+  constexpr static std::size_t addrs = 0x65e9d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Serialization::Diagnostics::Application::TD*>(),

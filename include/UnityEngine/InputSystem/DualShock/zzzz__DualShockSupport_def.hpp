@@ -19,7 +19,7 @@ namespace UnityEngine::InputSystem::DualShock {
 class CORDL_TYPE DualShockSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x6a144bc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6a1559c, size 0x78, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:

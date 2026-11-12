@@ -53,24 +53,24 @@ public:
   static inline ::BeatSaber::Analytics::Gameplay::EventSenders::SettingsEventSender* New_ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager,
                                                                                               ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* eventsBuilderFactory);
 
-  /// @brief Method SendChange, addr 0x35043dc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SendChange, addr 0x350681c, size 0x4, virtual true, abstract: false, final true
   inline void
   SendChange(/* [TupleElementNames(new[] { "metricName", "value" })] [Nullable(new[] { 1, 0, 1 })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>* metrics);
 
-  /// @brief Method SendColorsOverride, addr 0x35043e0, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method SendColorsOverride, addr 0x3506820, size 0x74, virtual true, abstract: false, final true
   inline void SendColorsOverride(::StringW configPayload);
 
-  /// @brief Method SendCustomEvent, addr 0x3504454, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method SendCustomEvent, addr 0x3506894, size 0x178, virtual false, abstract: false, final false
   inline void SendCustomEvent(::StringW payload, ::BeatSaber::Analytics::Gameplay::Events::SpaceshipEventType* eventType);
 
-  /// @brief Method SendEnvironmentOverride, addr 0x35045cc, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method SendEnvironmentOverride, addr 0x3506a0c, size 0x74, virtual true, abstract: false, final true
   inline void SendEnvironmentOverride(::StringW configPayload);
 
-  /// @brief Method SendMetrics, addr 0x3504140, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method SendMetrics, addr 0x3506580, size 0x29c, virtual false, abstract: false, final false
   inline bool
   SendMetrics(/* [TupleElementNames(new[] { "metricName", "value" })] [Nullable(new[] { 2, 0, 1 })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>* metrics);
 
-  /// @brief Method SendSnapshot, addr 0x350413c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SendSnapshot, addr 0x350657c, size 0x4, virtual true, abstract: false, final true
   inline bool
   SendSnapshot(/* [TupleElementNames(new[] { "metricName", "value" })] [Nullable(new[] { 1, 0, 1 })] */ ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>* metrics);
 
@@ -80,10 +80,10 @@ public:
 
   constexpr void __cordl_internal_set__eventsBuilderFactory(::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* value);
 
-  /// @brief Method .ctor, addr 0x350192c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3503d6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::OSCE::Analytics::AnalyticsManager* analyticsManager, ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* eventsBuilderFactory);
 
-  /// @brief Method get_SegmentName, addr 0x350412c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_SegmentName, addr 0x350656c, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_SegmentName();
 
   /// @brief Convert to "::BeatSaber::Analytics::Gameplay::EventSenders::ISettingsEventSender"
@@ -104,7 +104,7 @@ public:
   SettingsEventSender(SettingsEventSender const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22928 };
 
   /// @brief Field _eventsBuilderFactory, offset: 0x18, size: 0x8, def value: None
   ::BeatSaber::Analytics::Gameplay::EventsBuilderFactory* ____eventsBuilderFactory;

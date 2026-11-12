@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGridCube::*)()>(&::GlobalNamespace::OVRGridCube::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6354788;
+  constexpr static std::size_t addrs = 0x6354a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGridCube*>(), { "Update", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGridCube::*)(::by_ref<::GlobalNamespace::OVRCameraRig*>)>(&::GlobalNamespace::OVRGridCube::SetOVRCameraController)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x63549ec;
+  constexpr static std::size_t addrs = 0x6354c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGridCube::*)()>(&::GlobalNamespace::OVRGridCube::UpdateCubeGrid)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x635478c;
+  constexpr static std::size_t addrs = 0x6354a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGridCube*>(), { "UpdateCubeGrid", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGridCube::*)()>(&::GlobalNamespace::OVRGridCube::CreateCubeGrid)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x63549f8;
+  constexpr static std::size_t addrs = 0x6354c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGridCube*>(), { "CreateCubeGrid", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGridCube::*)(bool)>(&::GlobalNamespace::OVRGridCube::CubeGridSwitchColor)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6354d98;
+  constexpr static std::size_t addrs = 0x6355020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRGridCube::*)()>(&::GlobalNamespace::OVRGridCube::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6354f14;
+  constexpr static std::size_t addrs = 0x635519c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRGridCube*>(), { ".ctor", {}, {} })));

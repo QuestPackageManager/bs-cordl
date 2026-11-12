@@ -65,11 +65,11 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::IAdditionalContentEntitlementModel.GetExcludedLevelIdsAsync
+//  Writing Method size for method: ::GlobalNamespace::IAdditionalContentEntitlementModel.GetDiscontinuedLevelIdsAsync
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* (
-    ::GlobalNamespace::IAdditionalContentEntitlementModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::IAdditionalContentEntitlementModel::GetExcludedLevelIdsAsync)> {
+    ::GlobalNamespace::IAdditionalContentEntitlementModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::IAdditionalContentEntitlementModel::GetDiscontinuedLevelIdsAsync)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -103,7 +103,7 @@ GlobalNamespace::IAdditionalContentEntitlementModel::GetLevelDataVersionAsync(::
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IAdditionalContentEntitlementModel*>(), 3 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>*>(this, ___internal_method, levelId, token);
 }
-inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GlobalNamespace::IAdditionalContentEntitlementModel::GetExcludedLevelIdsAsync(::System::Threading::CancellationToken token) {
+inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GlobalNamespace::IAdditionalContentEntitlementModel::GetDiscontinuedLevelIdsAsync(::System::Threading::CancellationToken token) {
   auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::IAdditionalContentEntitlementModel*>(), 4 })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>*>(this, ___internal_method, token);

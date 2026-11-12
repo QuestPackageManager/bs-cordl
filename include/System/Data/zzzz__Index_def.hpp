@@ -106,10 +106,10 @@ public:
   /// @brief Field _index, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) ::System::Data::Index* _index;
 
-  /// @brief Method CompareNode, addr 0x64a9388, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method CompareNode, addr 0x64a99d8, size 0x14, virtual true, abstract: false, final false
   inline int32_t CompareNode(int32_t record1, int32_t record2);
 
-  /// @brief Method CompareSateliteTreeNode, addr 0x64a939c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method CompareSateliteTreeNode, addr 0x64a99ec, size 0x14, virtual true, abstract: false, final false
   inline int32_t CompareSateliteTreeNode(int32_t record1, int32_t record2);
 
   static inline ::System::Data::Index_IndexTree* New_ctor(::System::Data::Index* index);
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set__index(::System::Data::Index* value);
 
-  /// @brief Method .ctor, addr 0x64a8a50, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a90a0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::Index* index);
 
 protected:
@@ -172,13 +172,13 @@ public:
 
   static inline ::System::Data::Index___c* New_ctor();
 
-  /// @brief Method <OnListChanged>b__85_0, addr 0x64a9414, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <OnListChanged>b__85_0, addr 0x64a9a64, size 0x1c, virtual false, abstract: false, final false
   inline void _OnListChanged_b__85_0(::System::Data::DataViewListener* listener, ::System::ComponentModel::ListChangedEventArgs* args, bool arg2, bool arg3);
 
-  /// @brief Method <.ctor>b__22_0, addr 0x64a9408, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__22_0, addr 0x64a9a58, size 0xc, virtual false, abstract: false, final false
   inline bool __ctor_b__22_0(::System::Data::DataViewListener* listener);
 
-  /// @brief Method .ctor, addr 0x64a9404, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a9a54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Data::Index___c* getStaticF___9();
@@ -231,7 +231,7 @@ public:
 
   static inline ::System::Data::Index___c__DisplayClass86_0* New_ctor();
 
-  /// @brief Method <MaintainDataView>b__0, addr 0x64a9430, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <MaintainDataView>b__0, addr 0x64a9a80, size 0x28, virtual false, abstract: false, final false
   inline void _MaintainDataView_b__0(::System::Data::DataViewListener* listener, ::System::ComponentModel::ListChangedType type, ::System::Data::DataRow* row, bool track);
 
   constexpr ::System::ComponentModel::ListChangedType const& __cordl_internal_get_changedType() const;
@@ -240,7 +240,7 @@ public:
 
   constexpr void __cordl_internal_set_changedType(::System::ComponentModel::ListChangedType value);
 
-  /// @brief Method .ctor, addr 0x64a8bec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a923c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -344,100 +344,100 @@ public:
   /// @brief Field s_objectTypeCount, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_objectTypeCount, put = setStaticF_s_objectTypeCount)) int32_t s_objectTypeCount;
 
-  /// @brief Method AcceptRecord, addr 0x64a6aec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AcceptRecord, addr 0x64a713c, size 0x2c, virtual false, abstract: false, final false
   inline bool AcceptRecord(int32_t record);
 
-  /// @brief Method AcceptRecord, addr 0x64a6b18, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method AcceptRecord, addr 0x64a7168, size 0x1a4, virtual false, abstract: false, final false
   inline bool AcceptRecord(int32_t record, ::System::Data::IFilter* filter);
 
-  /// @brief Method AddRef, addr 0x64a6d8c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method AddRef, addr 0x64a73dc, size 0x1f4, virtual false, abstract: false, final false
   inline void AddRef();
 
-  /// @brief Method ApplyChangeAction, addr 0x64a7140, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ApplyChangeAction, addr 0x64a7790, size 0xa4, virtual false, abstract: false, final false
   inline void ApplyChangeAction(int32_t record, int32_t action, int32_t changeRecord);
 
-  /// @brief Method CheckUnique, addr 0x64a75d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CheckUnique, addr 0x64a7c28, size 0x18, virtual false, abstract: false, final false
   inline bool CheckUnique();
 
-  /// @brief Method CompareDataRows, addr 0x64a7744, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CompareDataRows, addr 0x64a7d94, size 0x6c, virtual false, abstract: false, final false
   inline int32_t CompareDataRows(int32_t record1, int32_t record2);
 
-  /// @brief Method CompareDuplicateRecords, addr 0x64a77b0, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method CompareDuplicateRecords, addr 0x64a7e00, size 0x1d8, virtual false, abstract: false, final false
   inline int32_t CompareDuplicateRecords(int32_t record1, int32_t record2);
 
-  /// @brief Method CompareRecordToKey, addr 0x64a7988, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CompareRecordToKey, addr 0x64a7fd8, size 0xd0, virtual false, abstract: false, final false
   inline int32_t CompareRecordToKey(int32_t record1, ::ArrayW<::System::Object*> vals);
 
-  /// @brief Method CompareRecords, addr 0x64a75f0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CompareRecords, addr 0x64a7c40, size 0x154, virtual false, abstract: false, final false
   inline int32_t CompareRecords(int32_t record1, int32_t record2);
 
-  /// @brief Method DeleteRecord, addr 0x64a756c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DeleteRecord, addr 0x64a7bbc, size 0x8, virtual false, abstract: false, final false
   inline void DeleteRecord(int32_t recordIndex);
 
-  /// @brief Method DeleteRecord, addr 0x64a7a60, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method DeleteRecord, addr 0x64a80b0, size 0x138, virtual false, abstract: false, final false
   inline void DeleteRecord(int32_t recordIndex, bool fireEvent);
 
-  /// @brief Method DeleteRecordFromIndex, addr 0x64a7a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DeleteRecordFromIndex, addr 0x64a80a8, size 0x8, virtual false, abstract: false, final false
   inline void DeleteRecordFromIndex(int32_t recordIndex);
 
-  /// @brief Method Equal, addr 0x64a68dc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Equal, addr 0x64a6f2c, size 0x9c, virtual false, abstract: false, final false
   inline bool Equal(::ArrayW<::System::Data::IndexField> indexDesc, ::System::Data::DataViewRowState recordStates, ::System::Data::IFilter* rowFilter);
 
-  /// @brief Method FindNodeByKey, addr 0x64a7ff8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method FindNodeByKey, addr 0x64a8648, size 0x22c, virtual false, abstract: false, final false
   inline int32_t FindNodeByKey(::System::Object* originalKey);
 
-  /// @brief Method FindNodeByKeyRecord, addr 0x64a8478, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method FindNodeByKeyRecord, addr 0x64a8ac8, size 0x104, virtual false, abstract: false, final false
   inline int32_t FindNodeByKeyRecord(int32_t record);
 
-  /// @brief Method FindNodeByKeys, addr 0x64a8224, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method FindNodeByKeys, addr 0x64a8874, size 0x254, virtual false, abstract: false, final false
   inline int32_t FindNodeByKeys(::ArrayW<::System::Object*> originalKey);
 
-  /// @brief Method FindRecords, addr 0x649e6fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method FindRecords, addr 0x649ed4c, size 0x24, virtual false, abstract: false, final false
   inline ::System::Data::Range FindRecords(::ArrayW<::System::Object*> key);
 
-  /// @brief Method FindRecords, addr 0x64a86b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method FindRecords, addr 0x64a8d00, size 0x24, virtual false, abstract: false, final false
   inline ::System::Data::Range FindRecords(::System::Object* key);
 
-  /// @brief Method FireResetEvent, addr 0x64a86d4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method FireResetEvent, addr 0x64a8d24, size 0xf8, virtual false, abstract: false, final false
   inline void FireResetEvent();
 
-  /// @brief Method GetAllFields, addr 0x64a6458, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetAllFields, addr 0x64a6aa8, size 0xcc, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Data::IndexField> GetAllFields(::System::Data::DataColumnCollection* columns);
 
-  /// @brief Method GetChangeAction, addr 0x64a89e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetChangeAction, addr 0x64a9034, size 0x1c, virtual false, abstract: false, final false
   inline int32_t GetChangeAction(::System::Data::DataViewRowState oldState, ::System::Data::DataViewRowState newState);
 
-  /// @brief Method GetEnumerator, addr 0x64a7d50, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x64a83a0, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Data::RBTree_1_RBTreeEnumerator<int32_t> GetEnumerator(int32_t startIndex);
 
-  /// @brief Method GetIndex, addr 0x64a7574, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetIndex, addr 0x64a7bc4, size 0x64, virtual false, abstract: false, final false
   inline int32_t GetIndex(int32_t record);
 
-  /// @brief Method GetIndex, addr 0x64a73ec, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetIndex, addr 0x64a7a3c, size 0x180, virtual false, abstract: false, final false
   inline int32_t GetIndex(int32_t record, int32_t changeRecord);
 
-  /// @brief Method GetRangeFromNode, addr 0x64a857c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetRangeFromNode, addr 0x64a8bcc, size 0x134, virtual false, abstract: false, final false
   inline ::System::Data::Range GetRangeFromNode(int32_t nodeId);
 
-  /// @brief Method GetRecord, addr 0x64a6a0c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetRecord, addr 0x64a705c, size 0x80, virtual false, abstract: false, final false
   inline int32_t GetRecord(int32_t recordIndex);
 
-  /// @brief Method GetReplaceAction, addr 0x64a8a00, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetReplaceAction, addr 0x64a9050, size 0x20, virtual false, abstract: false, final false
   static inline int32_t GetReplaceAction(::System::Data::DataViewRowState oldState);
 
-  /// @brief Method GetRow, addr 0x649f018, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetRow, addr 0x649f668, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Data::DataRow* GetRow(int32_t i);
 
-  /// @brief Method GetRows, addr 0x649e720, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetRows, addr 0x649ed70, size 0x15c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataRow*> GetRows(::System::Data::Range range);
 
-  /// @brief Method GetRows, addr 0x64a8a20, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetRows, addr 0x64a9070, size 0x30, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataRow*> GetRows(::ArrayW<::System::Object*> values);
 
-  /// @brief Method GetUniqueKeyValues, addr 0x649e5a8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetUniqueKeyValues, addr 0x649ebf8, size 0x13c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetUniqueKeyValues();
 
-  /// @brief Method GetUniqueKeyValues, addr 0x64a7dbc, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method GetUniqueKeyValues, addr 0x64a840c, size 0x23c, virtual false, abstract: false, final false
   inline void GetUniqueKeyValues(::System::Collections::Generic::List_1<::ArrayW<::System::Object*>>* list, int32_t curNodeId);
 
   /// @brief Method IndexOfReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -445,31 +445,31 @@ public:
     requires(::cordl_internals::reference_type_constraint<T>)
   static inline int32_t IndexOfReference(::System::Collections::Generic::List_1<T>* list, T item);
 
-  /// @brief Method InitRecords, addr 0x64a6524, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method InitRecords, addr 0x64a6b74, size 0x3b8, virtual false, abstract: false, final false
   inline void InitRecords(::System::Data::IFilter* filter);
 
-  /// @brief Method InsertRecord, addr 0x64a71e4, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method InsertRecord, addr 0x64a7834, size 0x208, virtual false, abstract: false, final false
   inline int32_t InsertRecord(int32_t record, bool fireEvent);
 
-  /// @brief Method InsertRecordToIndex, addr 0x64a8ac4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method InsertRecordToIndex, addr 0x64a9114, size 0x50, virtual false, abstract: false, final false
   inline int32_t InsertRecordToIndex(int32_t record);
 
-  /// @brief Method IsKeyInIndex, addr 0x649e6e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsKeyInIndex, addr 0x649ed34, size 0x18, virtual false, abstract: false, final false
   inline bool IsKeyInIndex(::ArrayW<::System::Object*> key);
 
-  /// @brief Method IsKeyInIndex, addr 0x64a8b14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsKeyInIndex, addr 0x64a9164, size 0x18, virtual false, abstract: false, final false
   inline bool IsKeyInIndex(::System::Object* key);
 
-  /// @brief Method IsKeyRecordInIndex, addr 0x64a8b2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsKeyRecordInIndex, addr 0x64a917c, size 0x18, virtual false, abstract: false, final false
   inline bool IsKeyRecordInIndex(int32_t record);
 
-  /// @brief Method ListChangedAdd, addr 0x64a6cbc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ListChangedAdd, addr 0x64a730c, size 0x64, virtual false, abstract: false, final false
   inline void ListChangedAdd(::System::Data::DataViewListener* listener);
 
-  /// @brief Method ListChangedRemove, addr 0x64a6d20, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ListChangedRemove, addr 0x64a7370, size 0x64, virtual false, abstract: false, final false
   inline void ListChangedRemove(::System::Data::DataViewListener* listener);
 
-  /// @brief Method MaintainDataView, addr 0x64a7b98, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method MaintainDataView, addr 0x64a81e8, size 0x124, virtual false, abstract: false, final false
   inline void MaintainDataView(::System::ComponentModel::ListChangedType changedType, int32_t record, bool trackAddRemove);
 
   static inline ::System::Data::Index* New_ctor(::System::Data::DataTable* table, ::System::Comparison_1<::System::Data::DataRow*>* comparison, ::System::Data::DataViewRowState recordStates,
@@ -481,32 +481,32 @@ public:
   static inline ::System::Data::Index* New_ctor(::System::Data::DataTable* table, ::ArrayW<::System::Data::IndexField> indexFields, ::System::Data::DataViewRowState recordStates,
                                                 ::System::Data::IFilter* rowFilter);
 
-  /// @brief Method OnListChanged, addr 0x64a7cbc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnListChanged, addr 0x64a830c, size 0x94, virtual false, abstract: false, final false
   inline void OnListChanged(::System::ComponentModel::ListChangedType changedType, int32_t index);
 
-  /// @brief Method OnListChanged, addr 0x64a8b44, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnListChanged, addr 0x64a9194, size 0xa8, virtual false, abstract: false, final false
   inline void OnListChanged(::System::ComponentModel::ListChangedType changedType, int32_t newIndex, int32_t oldIndex);
 
-  /// @brief Method OnListChanged, addr 0x64a8850, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method OnListChanged, addr 0x64a8ea0, size 0x194, virtual false, abstract: false, final false
   inline void OnListChanged(::System::ComponentModel::ListChangedEventArgs* e);
 
-  /// @brief Method RecordChanged, addr 0x64a8db4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method RecordChanged, addr 0x64a9404, size 0x138, virtual false, abstract: false, final false
   inline void RecordChanged(int32_t oldIndex, int32_t newIndex);
 
-  /// @brief Method RecordChanged, addr 0x64a8cc4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method RecordChanged, addr 0x64a9314, size 0xf0, virtual false, abstract: false, final false
   inline void RecordChanged(int32_t record);
 
-  /// @brief Method RecordStateChanged, addr 0x64a8ff8, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method RecordStateChanged, addr 0x64a9648, size 0x388, virtual false, abstract: false, final false
   inline void RecordStateChanged(int32_t oldRecord, ::System::Data::DataViewRowState oldOldState, ::System::Data::DataViewRowState oldNewState, int32_t newRecord,
                                  ::System::Data::DataViewRowState newOldState, ::System::Data::DataViewRowState newNewState);
 
-  /// @brief Method RecordStateChanged, addr 0x64a8eec, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method RecordStateChanged, addr 0x64a953c, size 0x10c, virtual false, abstract: false, final false
   inline void RecordStateChanged(int32_t record, ::System::Data::DataViewRowState oldState, ::System::Data::DataViewRowState newState);
 
-  /// @brief Method RemoveRef, addr 0x64a6f80, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method RemoveRef, addr 0x64a75d0, size 0x1c0, virtual false, abstract: false, final false
   inline int32_t RemoveRef();
 
-  /// @brief Method Reset, addr 0x64a8bf0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x64a9240, size 0xd4, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Comparison_1<::System::Data::DataRow*>* const& __cordl_internal_get__comparison() const;
@@ -587,43 +587,43 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x64a6400, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a6a50, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::System::Comparison_1<::System::Data::DataRow*>* comparison, ::System::Data::DataViewRowState recordStates, ::System::Data::IFilter* rowFilter);
 
-  /// @brief Method .ctor, addr 0x64a60fc, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a674c, size 0x304, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::ArrayW<::System::Data::IndexField> indexFields, ::System::Comparison_1<::System::Data::DataRow*>* comparison,
                     ::System::Data::DataViewRowState recordStates, ::System::Data::IFilter* rowFilter);
 
-  /// @brief Method .ctor, addr 0x64a60ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a673c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::ArrayW<::System::Data::IndexField> indexFields, ::System::Data::DataViewRowState recordStates, ::System::Data::IFilter* rowFilter);
 
   static inline int32_t getStaticF_s_objectTypeCount();
 
-  /// @brief Method get_DoListChanged, addr 0x64a87cc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_DoListChanged, addr 0x64a8e1c, size 0x84, virtual false, abstract: false, final false
   inline bool get_DoListChanged();
 
-  /// @brief Method get_HasDuplicates, addr 0x64a6a8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_HasDuplicates, addr 0x64a70dc, size 0x58, virtual false, abstract: false, final false
   inline bool get_HasDuplicates();
 
-  /// @brief Method get_HasRemoteAggregate, addr 0x64a6978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasRemoteAggregate, addr 0x64a6fc8, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasRemoteAggregate();
 
-  /// @brief Method get_ObjectID, addr 0x64a6980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectID, addr 0x64a6fd0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ObjectID();
 
-  /// @brief Method get_RecordCount, addr 0x64a6ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RecordCount, addr 0x64a7134, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RecordCount();
 
-  /// @brief Method get_RecordStates, addr 0x64a6988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RecordStates, addr 0x64a6fd8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataViewRowState get_RecordStates();
 
-  /// @brief Method get_RefCount, addr 0x64a6d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RefCount, addr 0x64a73d4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RefCount();
 
-  /// @brief Method get_RowFilter, addr 0x64a6990, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_RowFilter, addr 0x64a6fe0, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Data::IFilter* get_RowFilter();
 
-  /// @brief Method get_Table, addr 0x64a9380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Table, addr 0x64a99d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* get_Table();
 
   static inline void setStaticF_s_objectTypeCount(int32_t value);

@@ -115,30 +115,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver"
   constexpr operator ::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*() noexcept;
 
-  /// @brief Method HandleSaberSwingRatingCounterDidChange, addr 0x5e4c838, size 0x1a8, virtual true, abstract: false, final true
+  /// @brief Method HandleSaberSwingRatingCounterDidChange, addr 0x5e4cc68, size 0x1a8, virtual true, abstract: false, final true
   inline void HandleSaberSwingRatingCounterDidChange(::GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter, float_t rating);
 
-  /// @brief Method HandleSaberSwingRatingCounterDidFinish, addr 0x5e4c9e0, size 0x290, virtual true, abstract: false, final true
+  /// @brief Method HandleSaberSwingRatingCounterDidFinish, addr 0x5e4ce10, size 0x290, virtual true, abstract: false, final true
   inline void HandleSaberSwingRatingCounterDidFinish(::GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
 
-  /// @brief Method Init, addr 0x5e4c3c8, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5e4c7f8, size 0x26c, virtual false, abstract: false, final false
   inline bool Init(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::NoteCutInfo const> noteCutInfo);
 
   static inline ::GlobalNamespace::CutScoreBuffer* New_ctor();
 
-  /// @brief Method RefreshScores, addr 0x5e4c634, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method RefreshScores, addr 0x5e4ca64, size 0x204, virtual false, abstract: false, final false
   inline void RefreshScores();
 
-  /// @brief Method RegisterDidChangeReceiver, addr 0x5e4c238, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method RegisterDidChangeReceiver, addr 0x5e4c668, size 0x64, virtual true, abstract: false, final true
   inline void RegisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver* receiver);
 
-  /// @brief Method RegisterDidFinishReceiver, addr 0x5e4c29c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method RegisterDidFinishReceiver, addr 0x5e4c6cc, size 0x64, virtual true, abstract: false, final true
   inline void RegisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver* receiver);
 
-  /// @brief Method UnregisterDidChangeReceiver, addr 0x5e4c300, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDidChangeReceiver, addr 0x5e4c730, size 0x64, virtual true, abstract: false, final true
   inline void UnregisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver* receiver);
 
-  /// @brief Method UnregisterDidFinishReceiver, addr 0x5e4c364, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDidFinishReceiver, addr 0x5e4c794, size 0x64, virtual true, abstract: false, final true
   inline void UnregisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver* receiver);
 
   constexpr int32_t const& __cordl_internal_get__afterCutScore() const;
@@ -201,40 +201,40 @@ public:
 
   constexpr void __cordl_internal_set__saberSwingRatingCounter(::GlobalNamespace::SaberSwingRatingCounter* value);
 
-  /// @brief Method .ctor, addr 0x5e4cc70, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4d0a0, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_afterCutScore, addr 0x5e4c1e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_afterCutScore, addr 0x5e4c618, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_afterCutScore();
 
-  /// @brief Method get_afterCutSwingRating, addr 0x5e4c220, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_afterCutSwingRating, addr 0x5e4c650, size 0x18, virtual true, abstract: false, final true
   inline float_t get_afterCutSwingRating();
 
-  /// @brief Method get_beforeCutScore, addr 0x5e4c1d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beforeCutScore, addr 0x5e4c608, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_beforeCutScore();
 
-  /// @brief Method get_beforeCutSwingRating, addr 0x5e4c208, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method get_beforeCutSwingRating, addr 0x5e4c638, size 0x18, virtual true, abstract: false, final true
   inline float_t get_beforeCutSwingRating();
 
-  /// @brief Method get_centerDistanceCutScore, addr 0x5e4c1e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_centerDistanceCutScore, addr 0x5e4c610, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_centerDistanceCutScore();
 
-  /// @brief Method get_cutScore, addr 0x5e4c1ac, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method get_cutScore, addr 0x5e4c5dc, size 0x2c, virtual true, abstract: false, final true
   inline int32_t get_cutScore();
 
-  /// @brief Method get_executionOrder, addr 0x5e4c14c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_executionOrder, addr 0x5e4c57c, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method get_isFinished, addr 0x5e4c1a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isFinished, addr 0x5e4c5d4, size 0x8, virtual true, abstract: false, final true
   inline bool get_isFinished();
 
-  /// @brief Method get_maxPossibleCutScore, addr 0x5e4c178, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method get_maxPossibleCutScore, addr 0x5e4c5a8, size 0x2c, virtual true, abstract: false, final true
   inline int32_t get_maxPossibleCutScore();
 
-  /// @brief Method get_noteCutInfo, addr 0x5e4c1f8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_noteCutInfo, addr 0x5e4c628, size 0x10, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteCutInfo get_noteCutInfo();
 
-  /// @brief Method get_noteScoreDefinition, addr 0x5e4c1f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_noteScoreDefinition, addr 0x5e4c620, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ScoreModel_NoteScoreDefinition* get_noteScoreDefinition();
 
   /// @brief Convert to "::GlobalNamespace::IReadonlyCutScoreBuffer"
@@ -261,7 +261,7 @@ public:
   CutScoreBuffer(CutScoreBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6381 };
 
   /// @brief Field _saberSwingRatingCounter, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::SaberSwingRatingCounter* ____saberSwingRatingCounter;

@@ -34,7 +34,7 @@ public:
   /// @brief Method get_shaderVariantLogLevel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Rendering::ShaderVariantLogLevel get_shaderVariantLogLevel();
 
-  /// @brief Method get_stripDebugVariants, addr 0x6bdb354, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_stripDebugVariants, addr 0x6bdc434, size 0x8, virtual true, abstract: false, final false
   inline bool get_stripDebugVariants();
 
   /// @brief Method set_exportShaderVariants, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -43,7 +43,7 @@ public:
   /// @brief Method set_shaderVariantLogLevel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_shaderVariantLogLevel(::UnityEngine::Rendering::ShaderVariantLogLevel value);
 
-  /// @brief Method set_stripDebugVariants, addr 0x6bdb35c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_stripDebugVariants, addr 0x6bdc43c, size 0x4, virtual true, abstract: false, final false
   inline void set_stripDebugVariants(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IShaderVariantSettings", modifiers: "const&", def_value: None, comment: None }]

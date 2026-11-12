@@ -235,7 +235,7 @@ public:
 
   constexpr void __cordl_internal_set_shouldTransparentsReceiveShadows(bool value);
 
-  /// @brief Method .ctor, addr 0x6d63e54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d64f34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -344,10 +344,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass___c* New_ctor();
 
-  /// @brief Method <Render>b__19_0, addr 0x6d63eb0, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__19_0, addr 0x6d64f90, size 0x34c, virtual false, abstract: false, final false
   inline void _Render_b__19_0(::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6d63eac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d64f8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass___c* getStaticF___9();
@@ -417,30 +417,30 @@ public:
   /// @brief Field s_DrawObjectPassDataPropID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_DrawObjectPassDataPropID, put = setStaticF_s_DrawObjectPassDataPropID)) int32_t s_DrawObjectPassDataPropID;
 
-  /// @brief Method CanDisableZWrite, addr 0x6d62cdc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CanDisableZWrite, addr 0x6d63dbc, size 0x4c, virtual false, abstract: false, final false
   static inline bool CanDisableZWrite(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, bool isOpaque);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method Configure, addr 0x6d62084, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Configure, addr 0x6d63164, size 0x4, virtual true, abstract: false, final false
   inline void Configure(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::RenderTextureDescriptor cameraTextureDescriptor);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method Execute, addr 0x6d62088, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6d63168, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x6d625b4, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6d63694, size 0x3d0, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData* data,
                                  ::UnityEngine::Rendering::RendererList rendererList, ::UnityEngine::Rendering::RendererList objectsWithErrorRendererList, bool yFlip);
 
-  /// @brief Method Init, addr 0x6d621b8, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6d63298, size 0x2ac, virtual false, abstract: false, final false
   inline void Init(bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask,
                    ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference, ::ArrayW<::UnityEngine::Rendering::ShaderTagId> shaderTagIds);
 
-  /// @brief Method InitPassData, addr 0x6d62984, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6d63a64, size 0x38, virtual false, abstract: false, final false
   inline void InitPassData(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::by_ref<::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData*> passData,
                            uint32_t batchLayerMask, bool isActiveTargetBackBuffer);
 
-  /// @brief Method InitRendererLists, addr 0x6d629bc, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method InitRendererLists, addr 0x6d63a9c, size 0x320, virtual false, abstract: false, final false
   inline void InitRendererLists(::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                 ::UnityEngine::Rendering::Universal::UniversalLightData* lightData, ::by_ref<::UnityEngine::Rendering::Universal::Internal::DrawObjectsPass_PassData*> passData,
                                 ::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, bool useRenderGraph, bool zWriteOff);
@@ -459,14 +459,14 @@ public:
                                                                                          ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask,
                                                                                          ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 
-  /// @brief Method Render, addr 0x6d62d28, size 0x10bc, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d63e08, size 0x10bc, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorTarget, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthTarget,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle mainShadowsTexture, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle additionalShadowsTexture,
                      uint32_t batchLayerMask, bool isMainOpaquePass);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method Setup, addr 0x6d62080, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d63160, size 0x4, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RTHandle* colorAttachment, ::UnityEngine::Rendering::RTHandle* renderingLayersTexture, ::UnityEngine::Rendering::RTHandle* depthAttachment);
 
   constexpr ::UnityEngine::Rendering::FilteringSettings const& __cordl_internal_get_m_FilteringSettings() const;
@@ -505,15 +505,15 @@ public:
 
   constexpr void __cordl_internal_set_m_ShouldTransparentsReceiveShadows(bool value);
 
-  /// @brief Method .ctor, addr 0x6d624a8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d63588, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::URPProfileId profileId, bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                     ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask, ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 
-  /// @brief Method .ctor, addr 0x6d62464, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d63544, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW profilerTag, bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::RenderQueueRange renderQueueRange,
                     ::UnityEngine::LayerMask layerMask, ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 
-  /// @brief Method .ctor, addr 0x6d6208c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d6316c, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::StringW profilerTag, ::ArrayW<::UnityEngine::Rendering::ShaderTagId> shaderTagIds, bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                     ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask, ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 

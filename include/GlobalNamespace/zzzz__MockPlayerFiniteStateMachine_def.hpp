@@ -71,7 +71,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5ed738c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5ed760c, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::MockPlayerFiniteStateMachine*
@@ -79,61 +79,61 @@ public:
            ::GlobalNamespace::IMenuRpcManager* menuRpcManager, ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider, ::GlobalNamespace::MockPlayerLobbyPoseGenerator* lobbyPoseGenerator,
            ::GlobalNamespace::MockPlayerGamePoseGenerator* gamePoseGenerator, ::GlobalNamespace::IMockPlayerEntitlementResolver* entitlementResolver);
 
-  /// @brief Method RecommendBeatmap, addr 0x5ed7394, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RecommendBeatmap, addr 0x5ed7614, size 0x4, virtual false, abstract: false, final false
   inline void RecommendBeatmap(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::StringW beatmapLevelId);
 
-  /// @brief Method RecommendGameplayModifiers, addr 0x5ed7398, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RecommendGameplayModifiers, addr 0x5ed7618, size 0x4, virtual false, abstract: false, final false
   inline void RecommendGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method ResendLevelEntitlement, addr 0x5ed739c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ResendLevelEntitlement, addr 0x5ed761c, size 0x4, virtual false, abstract: false, final false
   inline void ResendLevelEntitlement();
 
-  /// @brief Method SetIsReady, addr 0x5ed7390, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetIsReady, addr 0x5ed7610, size 0x4, virtual false, abstract: false, final false
   inline void SetIsReady(bool isReady);
 
-  /// @brief Method Tick, addr 0x5ed7388, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Tick, addr 0x5ed7608, size 0x4, virtual false, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method .ctor, addr 0x5ed731c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ed759c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager,
                     ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, ::GlobalNamespace::IMenuRpcManager* menuRpcManager, ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider,
                     ::GlobalNamespace::MockPlayerLobbyPoseGenerator* lobbyPoseGenerator, ::GlobalNamespace::MockPlayerGamePoseGenerator* gamePoseGenerator,
                     ::GlobalNamespace::IMockPlayerEntitlementResolver* entitlementResolver);
 
-  /// @brief Method get_gamePoseGenerator, addr 0x5ed7380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gamePoseGenerator, addr 0x5ed7600, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockPlayerGamePoseGenerator* get_gamePoseGenerator();
 
-  /// @brief Method get_inactiveByDefault, addr 0x5ed7374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inactiveByDefault, addr 0x5ed75f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_inactiveByDefault();
 
-  /// @brief Method get_leftHanded, addr 0x5ed7368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftHanded, addr 0x5ed75e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_leftHanded();
 
-  /// @brief Method get_obstaclesColor, addr 0x5ed7350, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_obstaclesColor, addr 0x5ed75d0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_obstaclesColor();
 
-  /// @brief Method get_saberAColor, addr 0x5ed7320, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_saberAColor, addr 0x5ed75a0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_saberAColor();
 
-  /// @brief Method get_saberBColor, addr 0x5ed7338, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_saberBColor, addr 0x5ed75b8, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_saberBColor();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_inactiveByDefault, addr 0x5ed737c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_inactiveByDefault, addr 0x5ed75fc, size 0x4, virtual false, abstract: false, final false
   inline void set_inactiveByDefault(bool value);
 
-  /// @brief Method set_leftHanded, addr 0x5ed7370, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_leftHanded, addr 0x5ed75f0, size 0x4, virtual false, abstract: false, final false
   inline void set_leftHanded(bool value);
 
-  /// @brief Method set_obstaclesColor, addr 0x5ed7364, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_obstaclesColor, addr 0x5ed75e4, size 0x4, virtual false, abstract: false, final false
   inline void set_obstaclesColor(::UnityEngine::Color value);
 
-  /// @brief Method set_saberAColor, addr 0x5ed7334, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_saberAColor, addr 0x5ed75b4, size 0x4, virtual false, abstract: false, final false
   inline void set_saberAColor(::UnityEngine::Color value);
 
-  /// @brief Method set_saberBColor, addr 0x5ed734c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_saberBColor, addr 0x5ed75cc, size 0x4, virtual false, abstract: false, final false
   inline void set_saberBColor(::UnityEngine::Color value);
 
 protected:
@@ -151,7 +151,7 @@ public:
   MockPlayerFiniteStateMachine(MockPlayerFiniteStateMachine const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23101 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::Tayx::Graphy::Utils::NumString::G_FloatString::get_MinValue)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x68a303c;
+  constexpr static std::size_t addrs = 0x68a368c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Utils::NumString::G_FloatString*>(), { "get_MinValue", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::Tayx::Graphy::Utils::NumString::G_FloatString::get_MaxValue)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x68a3118;
+  constexpr static std::size_t addrs = 0x68a3768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Utils::NumString::G_FloatString*>(), { "get_MaxValue", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t, float_t)>(&::Tayx::Graphy::Utils::NumString::G_FloatString::Init)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x68a3184;
+  constexpr static std::size_t addrs = 0x68a37d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Tayx::Graphy::Utils::NumString::G_FloatString::Dispose)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x689f720;
+  constexpr static std::size_t addrs = 0x689fd70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tayx::Graphy::Utils::NumString::G_FloatString*>(), { "Dispose", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(float_t)>(&::Tayx::Graphy::Utils::NumString::G_FloatString::ToStringNonAlloc)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x68a348c;
+  constexpr static std::size_t addrs = 0x68a3adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(float_t, ::StringW)>(&::Tayx::Graphy::Utils::NumString::G_FloatString::ToStringNonAlloc)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x68a35d0;
+  constexpr static std::size_t addrs = 0x68a3c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(float_t)>(&::Tayx::Graphy::Utils::NumString::G_FloatString::ToInt)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x68a3714;
+  constexpr static std::size_t addrs = 0x68a3d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(int32_t)>(&::Tayx::Graphy::Utils::NumString::G_FloatString::ToFloat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68a3730;
+  constexpr static std::size_t addrs = 0x68a3d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(float_t)>(&::Tayx::Graphy::Utils::NumString::G_FloatString::ToIndex)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x68a33c4;
+  constexpr static std::size_t addrs = 0x68a3a14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(int32_t)>(&::Tayx::Graphy::Utils::NumString::G_FloatString::FromIndex)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x68a30b0;
+  constexpr static std::size_t addrs = 0x68a3700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

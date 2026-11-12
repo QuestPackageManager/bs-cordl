@@ -22,7 +22,7 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE ResourceReaderData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c6835c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c6943c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t _passId, int32_t _inputSlot);
 
   // Ctor Parameters []

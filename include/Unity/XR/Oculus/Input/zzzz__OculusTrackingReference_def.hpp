@@ -39,7 +39,7 @@ public:
   /// @brief [InputControl(aliases = new[] { "trackingReferenceTrackingState" })]
   __declspec(property(get = get_trackingState, put = set_trackingState)) ::UnityEngine::InputSystem::Controls::IntegerControl* trackingState;
 
-  /// @brief Method FinishSetup, addr 0x69378f0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x69389d0, size 0xc0, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::Oculus::Input::OculusTrackingReference* New_ctor();
@@ -56,23 +56,23 @@ public:
 
   constexpr void __cordl_internal_set__trackingState_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method .ctor, addr 0x69379b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6938a90, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isTracked, addr 0x69378e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTracked, addr 0x69389c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();
 
   /// [CompilerGenerated]
-  /// @brief Method get_trackingState, addr 0x69378d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingState, addr 0x69389b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState();
 
   /// [CompilerGenerated]
-  /// @brief Method set_isTracked, addr 0x69378e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isTracked, addr 0x69389c8, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_trackingState, addr 0x69378d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingState, addr 0x69389b8, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
 protected:

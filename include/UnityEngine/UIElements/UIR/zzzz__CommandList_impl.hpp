@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)(::System::IntPtr, ::System::IntPtr)>(
     &::UnityEngine::UIElements::UIR::CommandList::_ctor)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x719e1a4;
+  constexpr static std::size_t addrs = 0x719f284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandList*>(),
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)()>(&::UnityEngine::UIElements::UIR::CommandList::Reset)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x719e378;
+  constexpr static std::size_t addrs = 0x719f458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandList*>(), { "Reset", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Material*, ::UnityEngine::UIElements::UIR::CommandFlags)>(&::UnityEngine::UIElements::UIR::CommandList::Init)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x719e41c;
+  constexpr static std::size_t addrs = 0x719f4fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandList*>(),
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)()>(&::UnityEngine::UIElements::UIR::CommandList::Execute)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x719e580;
+  constexpr static std::size_t addrs = 0x719f660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandList*>(), { "Execute", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)(int32_t, ::UnityEngine::Texture*, int32_t, ::UnityEngine::Vector4,
                                                                                                              ::UnityEngine::Vector4)>(&::UnityEngine::UIElements::UIR::CommandList::SetTexture)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x719eb50;
+  constexpr static std::size_t addrs = 0x719fc30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandList*>(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)(::UnityEngine::MaterialPropertyBlock*)>(
     &::UnityEngine::UIElements::UIR::CommandList::ApplyUserProps)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x719ece8;
+  constexpr static std::size_t addrs = 0x719fdc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)()>(&::UnityEngine::UIElements::UIR::CommandList::ApplyBatchProps)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x719edec;
+  constexpr static std::size_t addrs = 0x719fecc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandList*>(), { "ApplyBatchProps", {}, {} })));
@@ -129,7 +129,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<uint16_t>*, ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<::UnityEngine::UIElements::Vertex>*,
     ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::DrawBufferRange>)>(&::UnityEngine::UIElements::UIR::CommandList::DrawRanges)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x719eedc;
+  constexpr static std::size_t addrs = 0x719ffbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::CommandList::*)()>(&::UnityEngine::UIElements::UIR::CommandList::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x719f074;
+  constexpr static std::size_t addrs = 0x71a0154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandList*>(), { "get_disposed", {}, {} })));
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)(bool)>(&::UnityEngine::UIElements::UIR::CommandList::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x719f07c;
+  constexpr static std::size_t addrs = 0x71a015c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)()>(&::UnityEngine::UIElements::UIR::CommandList::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x719f084;
+  constexpr static std::size_t addrs = 0x71a0164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::CommandList*>(), { "Dispose", {}, {} })));
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::CommandList::*)(bool)>(&::UnityEngine::UIElements::UIR::CommandList::Dispose)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x719f08c;
+  constexpr static std::size_t addrs = 0x71a016c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

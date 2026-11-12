@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::Token::*)(::System::Net::Http::Headers::Token_Type, int32_t, int32_t)>(
     &::System::Net::Http::Headers::Token::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x653bc2c;
+  constexpr static std::size_t addrs = 0x653c27c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Http::Headers::Token::*)()>(&::System::Net::Http::Headers::Token::get_StartPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6543d88;
+  constexpr static std::size_t addrs = 0x65443d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Token>(), { "get_StartPosition", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::Token::*)(int32_t)>(&::System::Net::Http::Headers::Token::set_StartPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6543d90;
+  constexpr static std::size_t addrs = 0x65443e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Net::Http::Headers::Token::*)()>(&::System::Net::Http::Headers::Token::get_EndPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6543d98;
+  constexpr static std::size_t addrs = 0x65443e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Token>(), { "get_EndPosition", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::Token::*)(int32_t)>(&::System::Net::Http::Headers::Token::set_EndPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6543da0;
+  constexpr static std::size_t addrs = 0x65443f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::Headers::Token_Type (::System::Net::Http::Headers::Token::*)()>(&::System::Net::Http::Headers::Token::get_Kind)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6543da8;
+  constexpr static std::size_t addrs = 0x65443f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::Token>(), { "get_Kind", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::Http::Headers::Token_Type (*)(::System::Net::Http::Headers::Token)>(
     &::System::Net::Http::Headers::Token::op_Implicit___System__Net__Http__Headers__Token_Type)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6543db0;
+  constexpr static std::size_t addrs = 0x6544400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Net::Http::Headers::Token::*)()>(&::System::Net::Http::Headers::Token::ToString)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6543db4;
+  constexpr static std::size_t addrs = 0x6544404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

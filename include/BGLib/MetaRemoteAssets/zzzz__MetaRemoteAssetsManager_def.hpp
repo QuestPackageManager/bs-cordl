@@ -9,7 +9,9 @@ CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "beatsaber-hook/shared/stringw.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -24,19 +26,25 @@ namespace BGLib::MetaRemoteAssets {
 class MetaRemoteAssetsManager_AddResourceLocatorInput;
 }
 namespace BGLib::MetaRemoteAssets {
-struct MetaRemoteAssetsManager__InitializeInternalAsync_d__26;
+struct MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38;
 }
 namespace BGLib::MetaRemoteAssets {
-struct MetaRemoteAssetsManager__Initialize_d__24;
+struct MetaRemoteAssetsManager__InitializeInternalAsync_d__27;
 }
 namespace BGLib::MetaRemoteAssets {
-struct MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28;
+struct MetaRemoteAssetsManager__Initialize_d__25;
 }
 namespace BGLib::MetaRemoteAssets {
-struct MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29;
+struct MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37;
 }
 namespace BGLib::MetaRemoteAssets {
-struct MetaRemoteAssetsManager__WaitInitAsync_d__25;
+struct MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29;
+}
+namespace BGLib::MetaRemoteAssets {
+struct MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30;
+}
+namespace BGLib::MetaRemoteAssets {
+struct MetaRemoteAssetsManager__WaitInitAsync_d__26;
 }
 namespace BGLib::MetaRemoteAssets {
 class MetaRemoteAssetsManager___c;
@@ -106,37 +114,48 @@ namespace BGLib::MetaRemoteAssets {
 class MetaRemoteAssetsManager___c;
 }
 namespace BGLib::MetaRemoteAssets {
-struct MetaRemoteAssetsManager__InitializeInternalAsync_d__26;
+struct MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38;
 }
 namespace BGLib::MetaRemoteAssets {
-struct MetaRemoteAssetsManager__Initialize_d__24;
+struct MetaRemoteAssetsManager__InitializeInternalAsync_d__27;
 }
 namespace BGLib::MetaRemoteAssets {
-struct MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28;
+struct MetaRemoteAssetsManager__Initialize_d__25;
 }
 namespace BGLib::MetaRemoteAssets {
-struct MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29;
+struct MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37;
 }
 namespace BGLib::MetaRemoteAssets {
-struct MetaRemoteAssetsManager__WaitInitAsync_d__25;
+struct MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29;
+}
+namespace BGLib::MetaRemoteAssets {
+struct MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30;
+}
+namespace BGLib::MetaRemoteAssets {
+struct MetaRemoteAssetsManager__WaitInitAsync_d__26;
 }
 // Write type traits
 MARK_REF_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*);
 MARK_REF_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager_AddResourceLocatorInput*);
 MARK_REF_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*);
-MARK_VAL_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26);
-MARK_VAL_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24);
-MARK_VAL_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28);
-MARK_VAL_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29);
-MARK_VAL_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25);
+MARK_VAL_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38);
+MARK_VAL_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27);
+MARK_VAL_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25);
+MARK_VAL_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37);
+MARK_VAL_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29);
+MARK_VAL_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30);
+MARK_VAL_T(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26);
 DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsManager");
 DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager_AddResourceLocatorInput*, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsManager/AddResourceLocatorInput");
 DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsManager/<>c");
-DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsManager/<InitializeInternalAsync>d__26");
-DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsManager/<Initialize>d__24");
-DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsManager/<UpdateCatalogsAsync>d__28");
-DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsManager/<UpdateCatalogsInternalAsync>d__29");
-DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsManager/<WaitInitAsync>d__25");
+DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsManager/<DownloadRemoteCatalogAsync>d__38");
+DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsManager/<InitializeInternalAsync>d__27");
+DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsManager/<Initialize>d__25");
+DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37, "BGLib.MetaRemoteAssets",
+                    "MetaRemoteAssetsManager/<TryLoadCachedRemoteCatalogAsync>d__37");
+DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsManager/<UpdateCatalogsAsync>d__29");
+DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsManager/<UpdateCatalogsInternalAsync>d__30");
+DEFINE_IL2CPP_CLASS(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26, "BGLib.MetaRemoteAssets", "MetaRemoteAssetsManager/<WaitInitAsync>d__26");
 // [Nullable(0)]
 // Dependencies System.Object
 namespace BGLib::MetaRemoteAssets {
@@ -176,7 +195,7 @@ public:
 
   constexpr void __cordl_internal_set_ResourceLocator(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value);
 
-  /// @brief Method .ctor, addr 0x35c446c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35c7dec, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* resourceLocator, ::StringW localHash,
                     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* catalogLocation);
 
@@ -195,7 +214,7 @@ public:
   MetaRemoteAssetsManager_AddResourceLocatorInput(MetaRemoteAssetsManager_AddResourceLocatorInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23316 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23246 };
 
   /// @brief Field ResourceLocator, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* ___ResourceLocator;
@@ -229,46 +248,46 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c* __9;
 
-  /// @brief Field <>9__23_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__23_0, put = setStaticF___9__23_0)) ::System::Action* __9__23_0;
+  /// @brief Field <>9__24_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__24_0, put = setStaticF___9__24_0)) ::System::Action* __9__24_0;
 
-  /// @brief Field <>9__29_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__29_0, put = setStaticF___9__29_0)) ::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>* __9__29_0;
+  /// @brief Field <>9__30_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__30_0, put = setStaticF___9__30_0)) ::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>* __9__30_0;
 
-  /// @brief Field <>9__29_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__29_1, put = setStaticF___9__29_1)) ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>* __9__29_1;
+  /// @brief Field <>9__30_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__30_1, put = setStaticF___9__30_1)) ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>* __9__30_1;
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c* New_ctor();
 
   /// [NullableContext(0)]
-  /// @brief Method <UpdateCatalogsInternalAsync>b__29_0, addr 0x35c4a0c, size 0x14, virtual false, abstract: false, final false
-  inline ::StringW _UpdateCatalogsInternalAsync_b__29_0(::AddressablesInternalBridge::Runtime::CatalogLocationData* catalogData);
+  /// @brief Method <UpdateCatalogsInternalAsync>b__30_0, addr 0x35c8574, size 0x14, virtual false, abstract: false, final false
+  inline ::StringW _UpdateCatalogsInternalAsync_b__30_0(::AddressablesInternalBridge::Runtime::CatalogLocationData* catalogData);
 
   /// [NullableContext(0)]
-  /// @brief Method <UpdateCatalogsInternalAsync>b__29_1, addr 0x35c4a20, size 0xa4, virtual false, abstract: false, final false
-  inline bool _UpdateCatalogsInternalAsync_b__29_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> entry);
+  /// @brief Method <UpdateCatalogsInternalAsync>b__30_1, addr 0x35c8588, size 0xa4, virtual false, abstract: false, final false
+  inline bool _UpdateCatalogsInternalAsync_b__30_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> entry);
 
-  /// @brief Method <.ctor>b__23_0, addr 0x35c4a08, size 0x4, virtual false, abstract: false, final false
-  inline void __ctor_b__23_0();
+  /// @brief Method <.ctor>b__24_0, addr 0x35c8570, size 0x4, virtual false, abstract: false, final false
+  inline void __ctor_b__24_0();
 
-  /// @brief Method .ctor, addr 0x35c4a04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35c856c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c* getStaticF___9();
 
-  static inline ::System::Action* getStaticF___9__23_0();
+  static inline ::System::Action* getStaticF___9__24_0();
 
-  static inline ::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>* getStaticF___9__29_0();
+  static inline ::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>* getStaticF___9__30_0();
 
-  static inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>* getStaticF___9__29_1();
+  static inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>* getStaticF___9__30_1();
 
   static inline void setStaticF___9(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c* value);
 
-  static inline void setStaticF___9__23_0(::System::Action* value);
+  static inline void setStaticF___9__24_0(::System::Action* value);
 
-  static inline void setStaticF___9__29_0(::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>* value);
+  static inline void setStaticF___9__30_0(::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>* value);
 
-  static inline void setStaticF___9__29_1(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>* value);
+  static inline void setStaticF___9__30_1(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>* value);
 
 protected:
   // Ctor Parameters []
@@ -285,7 +304,7 @@ public:
   MetaRemoteAssetsManager___c(MetaRemoteAssetsManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23317 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23247 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -294,21 +313,21 @@ static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c) == 
 
 } // namespace BGLib::MetaRemoteAssets
 // [CompilerGenerated]
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BGLib::MetaRemoteAssets {
 // Is value type: true
-// CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsManager/<Initialize>d__24
-struct CORDL_TYPE MetaRemoteAssetsManager__Initialize_d__24 {
+// CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsManager/<DownloadRemoteCatalogAsync>d__38
+struct CORDL_TYPE MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x35c4ac4, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35c862c, size 0x40c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x35c4d4c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35c8a38, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -316,17 +335,78 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr MetaRemoteAssetsManager__Initialize_d__24();
+  constexpr MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38();
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>", modifiers: "", def_value: None, comment: None }]
+  constexpr MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38(
+      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23248 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// [Nullable(0)]
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
+
+  /// [Nullable(0)]
+  /// @brief Field <>u__1, offset: 0x20, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38, __u__1) == 0x20, "Offset mismatch!");
+
+static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38) == 0x28, "Size mismatch!");
+
+} // namespace BGLib::MetaRemoteAssets
+// [CompilerGenerated]
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+namespace BGLib::MetaRemoteAssets {
+// Is value type: true
+// CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsManager/<Initialize>d__25
+struct CORDL_TYPE MetaRemoteAssetsManager__Initialize_d__25 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Method MoveNext, addr 0x35c8ab8, size 0x288, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// [DebuggerHidden]
+  /// @brief Method SetStateMachine, addr 0x35c8d40, size 0x8, virtual true, abstract: false, final true
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MetaRemoteAssetsManager__Initialize_d__25();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>",
   // modifiers: "", def_value: None, comment: None }]
-  constexpr MetaRemoteAssetsManager__Initialize_d__24(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+  constexpr MetaRemoteAssetsManager__Initialize_d__25(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                       ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23318 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23249 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -348,33 +428,33 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24) == 0x38, "Size mismatch!");
+static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25) == 0x38, "Size mismatch!");
 
 } // namespace BGLib::MetaRemoteAssets
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace BGLib::MetaRemoteAssets {
 // Is value type: true
-// CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsManager/<InitializeInternalAsync>d__26
-struct CORDL_TYPE MetaRemoteAssetsManager__InitializeInternalAsync_d__26 {
+// CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsManager/<InitializeInternalAsync>d__27
+struct CORDL_TYPE MetaRemoteAssetsManager__InitializeInternalAsync_d__27 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x35c4d54, size 0x438, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35c8d48, size 0x438, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x35c518c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35c9180, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -382,18 +462,18 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr MetaRemoteAssetsManager__InitializeInternalAsync_d__26();
+  constexpr MetaRemoteAssetsManager__InitializeInternalAsync_d__27();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None, comment: None }]
-  constexpr MetaRemoteAssetsManager__InitializeInternalAsync_d__26(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
+  constexpr MetaRemoteAssetsManager__InitializeInternalAsync_d__27(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
                                                                    ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23319 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23250 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -419,35 +499,36 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26) == 0x38, "Size mismatch!");
+static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27) == 0x38, "Size mismatch!");
 
 } // namespace BGLib::MetaRemoteAssets
 // [CompilerGenerated]
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
+// Dependencies System.Nullable`1<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
+// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
 namespace BGLib::MetaRemoteAssets {
 // Is value type: true
-// CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsManager/<UpdateCatalogsAsync>d__28
-struct CORDL_TYPE MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28 {
+// CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsManager/<TryLoadCachedRemoteCatalogAsync>d__37
+struct CORDL_TYPE MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x35c520c, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35c9200, size 0x414, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x35c53f8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35c9614, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -455,18 +536,88 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28();
+  constexpr MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37();
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "_handle_5__2", ty:
+  // "::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>>", modifiers: "",
+  // def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>",
+  // modifiers: "", def_value: None, comment: None }]
+  constexpr MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37(
+      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
+      ::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>> _handle_5__2,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23251 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// [Nullable(0)]
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
+
+  /// [Nullable(0)]
+  /// @brief Field <handle>5__2, offset: 0x20, size: 0x20, def value: None
+  ::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>> _handle_5__2;
+
+  /// [Nullable(0)]
+  /// @brief Field <>u__1, offset: 0x40, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37, _handle_5__2) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37, __u__1) == 0x40, "Offset mismatch!");
+
+static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37) == 0x48, "Size mismatch!");
+
+} // namespace BGLib::MetaRemoteAssets
+// [CompilerGenerated]
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
+namespace BGLib::MetaRemoteAssets {
+// Is value type: true
+// CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsManager/<UpdateCatalogsAsync>d__29
+struct CORDL_TYPE MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Method MoveNext, addr 0x35c9694, size 0x1ec, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// [DebuggerHidden]
+  /// @brief Method SetStateMachine, addr 0x35c9880, size 0x6c, virtual true, abstract: false, final true
+  inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
   // "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*", modifiers: "", def_value: None, comment: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
   // modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None, comment: None }]
-  constexpr MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this, ::System::Threading::CancellationToken cancellationToken,
                                                                ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23320 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23252 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -490,35 +641,35 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28) == 0x38, "Size mismatch!");
+static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29) == 0x38, "Size mismatch!");
 
 } // namespace BGLib::MetaRemoteAssets
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace BGLib::MetaRemoteAssets {
 // Is value type: true
-// CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsManager/<UpdateCatalogsInternalAsync>d__29
-struct CORDL_TYPE MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29 {
+// CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsManager/<UpdateCatalogsInternalAsync>d__30
+struct CORDL_TYPE MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x35c5464, size 0xc18, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35c98ec, size 0xc18, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x35c607c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35ca504, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -526,7 +677,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29();
+  constexpr MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
@@ -535,14 +686,14 @@ public:
   // None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__2",
   // ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*>", modifiers: "", def_value:
   // None, comment: None }]
-  constexpr MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29(
+  constexpr MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this,
       ::System::Threading::CancellationToken cancellationToken, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _hashesBeforeUpdate_5__2,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23321 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23253 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -575,39 +726,39 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29, _hashesBeforeUpdate_5__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30, _hashesBeforeUpdate_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29, __u__2) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30, __u__2) == 0x40, "Offset mismatch!");
 
-static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29) == 0x48, "Size mismatch!");
+static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30) == 0x48, "Size mismatch!");
 
 } // namespace BGLib::MetaRemoteAssets
 // [CompilerGenerated]
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BGLib::MetaRemoteAssets {
 // Is value type: true
-// CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsManager/<WaitInitAsync>d__25
-struct CORDL_TYPE MetaRemoteAssetsManager__WaitInitAsync_d__25 {
+// CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsManager/<WaitInitAsync>d__26
+struct CORDL_TYPE MetaRemoteAssetsManager__WaitInitAsync_d__26 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x35c60e8, size 0x298, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35ca570, size 0x2dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x35c6380, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35ca84c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -615,20 +766,22 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr MetaRemoteAssetsManager__WaitInitAsync_d__25();
+  constexpr MetaRemoteAssetsManager__WaitInitAsync_d__26();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None, comment: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None, comment: None }, CppParam { name: "__4__this", ty:
-  // "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>",
-  // modifiers: "", def_value: None, comment: None }]
-  constexpr MetaRemoteAssetsManager__WaitInitAsync_d__25(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
-                                                         ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
+  // "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*", modifiers: "", def_value: None, comment: None }, CppParam { name: "_initializationTask_5__2", ty:
+  // "::System::Threading::Tasks::Task_1<bool>*", modifiers: "", def_value: None, comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers:
+  // "", def_value: None, comment: None }]
+  constexpr MetaRemoteAssetsManager__WaitInitAsync_d__26(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
+                                                         ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this, ::System::Threading::Tasks::Task_1<bool>* _initializationTask_5__2,
+                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23254 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -642,21 +795,27 @@ public:
   ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this;
 
   /// [Nullable(0)]
-  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field <initializationTask>5__2, offset: 0x28, size: 0x8, def value: None
+  ::System::Threading::Tasks::Task_1<bool>* _initializationTask_5__2;
+
+  /// [Nullable(0)]
+  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25, __u__1) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26, _initializationTask_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25) == 0x30, "Size mismatch!");
+static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26, __u__1) == 0x30, "Offset mismatch!");
+
+static_assert(sizeof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26) == 0x38, "Size mismatch!");
 
 } // namespace BGLib::MetaRemoteAssets
 // [NullableContext(1)]
@@ -670,15 +829,19 @@ public:
   // Declarations
   using AddResourceLocatorInput = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager_AddResourceLocatorInput;
 
-  using _InitializeInternalAsync_d__26 = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__26;
+  using _DownloadRemoteCatalogAsync_d__38 = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__DownloadRemoteCatalogAsync_d__38;
 
-  using _Initialize_d__24 = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__24;
+  using _InitializeInternalAsync_d__27 = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__27;
 
-  using _UpdateCatalogsAsync_d__28 = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__28;
+  using _Initialize_d__25 = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__25;
 
-  using _UpdateCatalogsInternalAsync_d__29 = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__29;
+  using _TryLoadCachedRemoteCatalogAsync_d__37 = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__TryLoadCachedRemoteCatalogAsync_d__37;
 
-  using _WaitInitAsync_d__25 = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__25;
+  using _UpdateCatalogsAsync_d__29 = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__29;
+
+  using _UpdateCatalogsInternalAsync_d__30 = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__30;
+
+  using _WaitInitAsync_d__26 = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__26;
 
   using __c = ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c;
 
@@ -732,34 +895,38 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method CreateAddResourceLocatorInput, addr 0x35c4344, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method CreateAddResourceLocatorInput, addr 0x35c7cc4, size 0x128, virtual false, abstract: false, final false
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager_AddResourceLocatorInput*
   CreateAddResourceLocatorInput(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* resourceLocator, bool isRemote);
 
-  /// @brief Method Dispose, addr 0x35c3f6c, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x35c78ec, size 0xc0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetSecondLevelDomain, addr 0x35c34a0, size 0xe0, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(BGLib.MetaRemoteAssets.MetaRemoteAssetsManager::<DownloadRemoteCatalogAsync>d__38))]
+  /// @brief Method DownloadRemoteCatalogAsync, addr 0x35c83c8, size 0xd8, virtual false, abstract: false, final false
+  static inline ::System::Threading::Tasks::Task_1<bool>* DownloadRemoteCatalogAsync();
+
+  /// @brief Method GetSecondLevelDomain, addr 0x35c6e20, size 0xe0, virtual false, abstract: false, final false
   static inline ::StringW GetSecondLevelDomain(::StringW url);
 
-  /// [AsyncStateMachine(typeof(BGLib.MetaRemoteAssets.MetaRemoteAssetsManager::<Initialize>d__24))]
-  /// @brief Method Initialize, addr 0x35c3b5c, size 0xa4, virtual true, abstract: false, final true
+  /// [AsyncStateMachine(typeof(BGLib.MetaRemoteAssets.MetaRemoteAssetsManager::<Initialize>d__25))]
+  /// @brief Method Initialize, addr 0x35c74dc, size 0xa4, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// [AsyncStateMachine(typeof(BGLib.MetaRemoteAssets.MetaRemoteAssetsManager::<InitializeInternalAsync>d__26))]
-  /// @brief Method InitializeInternalAsync, addr 0x35c3c00, size 0xf0, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(BGLib.MetaRemoteAssets.MetaRemoteAssetsManager::<InitializeInternalAsync>d__27))]
+  /// @brief Method InitializeInternalAsync, addr 0x35c7580, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeInternalAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method InternalIdTransformFunc, addr 0x35c3cf0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method InternalIdTransformFunc, addr 0x35c7670, size 0x134, virtual false, abstract: false, final false
   static inline ::StringW InternalIdTransformFunc(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* resourceLocation);
 
-  /// @brief Method IsMetaAddressableRequest, addr 0x35c42d4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsMetaAddressableRequest, addr 0x35c7c54, size 0x70, virtual false, abstract: false, final false
   static inline bool IsMetaAddressableRequest(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method IsMetaAddressableUrl, addr 0x35c3e24, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsMetaAddressableUrl, addr 0x35c77a4, size 0x84, virtual false, abstract: false, final false
   static inline bool IsMetaAddressableUrl(::StringW url);
 
-  /// @brief Method MakeRemoteCatalogTopPriority, addr 0x35c4478, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method MakeRemoteCatalogTopPriority, addr 0x35c7df8, size 0x4e8, virtual false, abstract: false, final false
   static inline void MakeRemoteCatalogTopPriority();
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* New_ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::OculusStudios::Platform::Core::IPlatform* platform,
@@ -769,25 +936,32 @@ public:
                                                                              /* [Inject(Id = "InBuildGameVersion")] */ ::StringW inBuildGameVersion);
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method ResetServerHostForNoDomainReload, addr 0x35c3580, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ResetServerHostForNoDomainReload, addr 0x35c6f00, size 0x6c, virtual false, abstract: false, final false
   static inline void ResetServerHostForNoDomainReload();
 
-  /// @brief Method SetServerHost, addr 0x35c342c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetCatalogRequestsTimeout, addr 0x35c82e0, size 0xc, virtual false, abstract: false, final false
+  static inline void SetCatalogRequestsTimeout();
+
+  /// @brief Method SetServerHost, addr 0x35c6dac, size 0x74, virtual false, abstract: false, final false
   static inline void SetServerHost(::StringW remoteAssetsBaseUrl);
 
-  /// [AsyncStateMachine(typeof(BGLib.MetaRemoteAssets.MetaRemoteAssetsManager::<UpdateCatalogsAsync>d__28))]
-  /// @brief Method UpdateCatalogsAsync, addr 0x35c3280, size 0xc4, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(BGLib.MetaRemoteAssets.MetaRemoteAssetsManager::<TryLoadCachedRemoteCatalogAsync>d__37))]
+  /// @brief Method TryLoadCachedRemoteCatalogAsync, addr 0x35c82ec, size 0xdc, virtual false, abstract: false, final false
+  static inline ::System::Threading::Tasks::Task_1<bool>* TryLoadCachedRemoteCatalogAsync();
+
+  /// [AsyncStateMachine(typeof(BGLib.MetaRemoteAssets.MetaRemoteAssetsManager::<UpdateCatalogsAsync>d__29))]
+  /// @brief Method UpdateCatalogsAsync, addr 0x35c6c00, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdateCatalogsAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// [AsyncStateMachine(typeof(BGLib.MetaRemoteAssets.MetaRemoteAssetsManager::<UpdateCatalogsInternalAsync>d__29))]
-  /// @brief Method UpdateCatalogsInternalAsync, addr 0x35c3ea8, size 0xc4, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(BGLib.MetaRemoteAssets.MetaRemoteAssetsManager::<UpdateCatalogsInternalAsync>d__30))]
+  /// @brief Method UpdateCatalogsInternalAsync, addr 0x35c7828, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* UpdateCatalogsInternalAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// [AsyncStateMachine(typeof(BGLib.MetaRemoteAssets.MetaRemoteAssetsManager::<WaitInitAsync>d__25))]
-  /// @brief Method WaitInitAsync, addr 0x35c31a4, size 0xdc, virtual false, abstract: false, final false
+  /// [AsyncStateMachine(typeof(BGLib.MetaRemoteAssets.MetaRemoteAssetsManager::<WaitInitAsync>d__26))]
+  /// @brief Method WaitInitAsync, addr 0x35c6b20, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* WaitInitAsync();
 
-  /// @brief Method WebRequestOverride, addr 0x35c402c, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method WebRequestOverride, addr 0x35c79ac, size 0x2a8, virtual false, abstract: false, final false
   inline void WebRequestOverride(::UnityEngine::Networking::UnityWebRequest* request);
 
   constexpr ::StringW const& __cordl_internal_get__appAccessToken() const;
@@ -862,20 +1036,20 @@ public:
 
   constexpr void __cordl_internal_set_didCatalogLoadOrUpdateEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x35c3744, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35c70c4, size 0x418, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::OculusStudios::Platform::Core::IPlatform* platform, ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader* remoteCatalogLoader,
                     ::OculusStudios::MetaNetworking::Utils::IMetaApiUserAgentProvider* metaApiUserAgentProvider, /* [Inject(Id = "MetaRemoteAssetsManager_platform_injectId")] */ ::StringW platformStr,
                     /* [Inject(Id = "InBuildGameVersion")] */ ::StringW inBuildGameVersion);
 
   /// [CompilerGenerated]
-  /// @brief Method add_didCatalogLoadOrUpdateEvent, addr 0x35c35ec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_didCatalogLoadOrUpdateEvent, addr 0x35c6f6c, size 0xac, virtual false, abstract: false, final false
   inline void add_didCatalogLoadOrUpdateEvent(::System::Action* value);
 
   static inline ::StringW getStaticF_MetaServerHost();
 
   static inline ::StringW getStaticF__metaServerSecondLevelDomain();
 
-  /// @brief Method get_RemoteCatalogPath, addr 0x35c33b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_RemoteCatalogPath, addr 0x35c6d30, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW get_RemoteCatalogPath();
 
   /// @brief Convert to "::System::IDisposable"
@@ -885,7 +1059,7 @@ public:
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didCatalogLoadOrUpdateEvent, addr 0x35c3698, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_didCatalogLoadOrUpdateEvent, addr 0x35c7018, size 0xac, virtual false, abstract: false, final false
   inline void remove_didCatalogLoadOrUpdateEvent(::System::Action* value);
 
   static inline void setStaticF_MetaServerHost(::StringW value);
@@ -907,7 +1081,10 @@ public:
   MetaRemoteAssetsManager(MetaRemoteAssetsManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23255 };
+
+  /// @brief Field kCatalogRequestsTimeoutInSeconds offset 0xffffffff size 0x4
+  static constexpr int32_t kCatalogRequestsTimeoutInSeconds{ static_cast<int32_t>(0xa) };
 
   /// @brief Field kMetaServerCatalogPath offset 0xffffffff size 0x8
   static constexpr ::ConstString kMetaServerCatalogPath{ u"beat-saber/remote-assets/download/catalog.json" };

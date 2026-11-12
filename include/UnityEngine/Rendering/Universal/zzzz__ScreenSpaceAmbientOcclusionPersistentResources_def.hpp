@@ -65,16 +65,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6d25e78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d26f58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Shader, addr 0x6d25df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Shader, addr 0x6d26ed0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_Shader();
 
-  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6d25e68, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6d26f48, size 0x8, virtual true, abstract: false, final true
   inline bool get_isAvailableInPlayerBuild();
 
-  /// @brief Method get_version, addr 0x6d25e70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6d26f50, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -83,7 +83,7 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_Shader, addr 0x6d25df8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_Shader, addr 0x6d26ed8, size 0x70, virtual false, abstract: false, final false
   inline void set_Shader(::UnityEngine::Shader* value);
 
 protected:

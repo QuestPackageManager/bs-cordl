@@ -28,7 +28,7 @@ class CORDL_TYPE UniversalCameraDataExtension : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method GetGPUProjectionMatrixRenderGraph, addr 0x6cb2784, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetGPUProjectionMatrixRenderGraph, addr 0x6cb3864, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 GetGPUProjectionMatrixRenderGraph(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, int32_t viewIndex);
 
 protected:

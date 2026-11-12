@@ -35,11 +35,11 @@ public:
 
   constexpr void __cordl_internal_set__Reason_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x34ff4b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35018f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW reason);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Reason, addr 0x34ff4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reason, addr 0x35018e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Reason();
 
 protected:
@@ -57,7 +57,7 @@ public:
   AnalyticsExcludedAttribute(AnalyticsExcludedAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24489 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24507 };
 
   /// [CompilerGenerated]
   /// @brief Field <Reason>k__BackingField, offset: 0x10, size: 0x8, def value: None

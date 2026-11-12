@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_maskSize(::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize value);
 
-  /// @brief Method .ctor, addr 0x6d6d748, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d6e828, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -148,11 +148,11 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass___c* New_ctor();
 
-  /// @brief Method <Render>b__2_0, addr 0x6d6d7f0, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__2_0, addr 0x6d6e8d0, size 0x2a4, virtual false, abstract: false, final false
   inline void _Render_b__2_0(::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass_RenderingLayersPassData* data,
                              ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6d6d7ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d6e8cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DrawObjectsWithRenderingLayersPass___c* getStaticF___9();
@@ -205,14 +205,14 @@ public:
   New_ctor(::UnityEngine::Rendering::Universal::URPProfileId profilerTag, bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt,
            ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask, ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 
-  /// @brief Method Render, addr 0x6d6c910, size 0xe38, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d6d9f0, size 0xe38, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorTarget, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle renderingLayersTexture,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthTarget, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle mainShadowsTexture,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle additionalShadowsTexture, ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize maskSize,
                      uint32_t batchLayerMask);
 
-  /// @brief Method .ctor, addr 0x6d6c860, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d6d940, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::URPProfileId profilerTag, bool opaque, ::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                     ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask, ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference);
 

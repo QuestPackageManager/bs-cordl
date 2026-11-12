@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Analytics::Settings::SettingsConfigPayload_ColorsPayload::*)()>(
     &::BeatSaber::Analytics::Settings::SettingsConfigPayload_ColorsPayload::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x350b7fc;
+  constexpr static std::size_t addrs = 0x350dc3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::ColorSchemesSettings*)>(&::BeatSaber::Analytics::Settings::SettingsConfigPayload::BuildColors)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x350ac60;
+  constexpr static std::size_t addrs = 0x350d0a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsConfigPayload*>(),
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::OverrideEnvironmentSettings*)>(&::BeatSaber::Analytics::Settings::SettingsConfigPayload::BuildEnvironments)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x350ade8;
+  constexpr static std::size_t addrs = 0x350d228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsConfigPayload*>(),
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatSaber::Analytics::Settings::SettingsConfigPayload_ColorsPayload* (*)(::GlobalNamespace::ColorSchemesSettings*)>(
     &::BeatSaber::Analytics::Settings::SettingsConfigPayload::BuildColorsPayload)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x350b418;
+  constexpr static std::size_t addrs = 0x350d858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsConfigPayload*>(),
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (*)(::GlobalNamespace::OverrideEnvironmentSettings*)>(
     &::BeatSaber::Analytics::Settings::SettingsConfigPayload::BuildEnvironmentsPayload)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x350b5ac;
+  constexpr static std::size_t addrs = 0x350d9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Settings::SettingsConfigPayload*>(),
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::Color)>(&::BeatSaber::Analytics::Settings::SettingsConfigPayload::Hex)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x350b800;
+  constexpr static std::size_t addrs = 0x350dc40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

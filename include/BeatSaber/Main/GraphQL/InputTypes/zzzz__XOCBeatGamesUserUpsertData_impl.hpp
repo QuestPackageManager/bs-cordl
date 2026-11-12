@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::*)(::StringW)>(
     &::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::set_ClientMutationId)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3549914;
+  constexpr static std::size_t addrs = 0x354c8b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::*)(
     ::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::ISOCountryCode>)>(&::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::set_CountryCode)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3549994;
+  constexpr static std::size_t addrs = 0x354c934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::*)(::StringW)>(
     &::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::set_Locale)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3549a40;
+  constexpr static std::size_t addrs = 0x354c9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::*)(
     ::System::Nullable_1<::BeatSaber::Main::GraphQL::Enums::TimezoneIDEnum>)>(&::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::set_TimezoneId)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3549ac0;
+  constexpr static std::size_t addrs = 0x354ca60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>* (
     ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::*)()>(&::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::GetParams)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3549b6c;
+  constexpr static std::size_t addrs = 0x354cb0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::*)()>(
     &::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesUserUpsertData::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3549b78;
+  constexpr static std::size_t addrs = 0x354cb18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

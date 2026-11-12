@@ -63,30 +63,30 @@ public:
   constexpr operator ::System::IFormattable*();
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6f61034, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f62114, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6f610b0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f62190, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Color32 other);
 
   /// [IsReadOnly]
-  /// @brief Method Equals, addr 0x6f610c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f621a0, size 0x14, virtual false, abstract: false, final false
   inline bool Equals(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Color32 const> other);
 
   /// [IsReadOnly]
-  /// @brief Method GetHashCode, addr 0x6f6102c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f6210c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Lerp, addr 0x6f60e74, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x6f61f54, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 Lerp(::UnityEngine::Color32 a, ::UnityEngine::Color32 b, float_t t);
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x6f610d4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f621b4, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// [IsReadOnly]
-  /// @brief Method ToString, addr 0x6f610e4, size 0x1e8, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x6f621c4, size 0x1e8, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
   constexpr uint8_t const& __cordl_internal_get_a() const;
@@ -119,11 +119,11 @@ public:
 
   constexpr void __cordl_internal_set_rgba(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6f60b34, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f61c14, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint8_t r, uint8_t g, uint8_t b, uint8_t a);
 
   /// [IsReadOnly]
-  /// @brief Method get_Item, addr 0x6f60f5c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6f6203c, size 0xd0, virtual false, abstract: false, final false
   inline uint8_t get_Item(int32_t index);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Color32>"
@@ -132,10 +132,10 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Implicit, addr 0x6f60e38, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6f61f18, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Implicit___UnityEngine__Color(::UnityEngine::Color32 c);
 
-  /// @brief Method op_Implicit, addr 0x6f60b48, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6f61c28, size 0x2f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 op_Implicit___UnityEngine__Color32(::UnityEngine::Color c);
 
   // Ctor Parameters []

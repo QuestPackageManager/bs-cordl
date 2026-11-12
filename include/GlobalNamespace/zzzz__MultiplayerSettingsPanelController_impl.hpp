@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::add_playerActiveStateChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d9c5b4;
+  constexpr static std::size_t addrs = 0x5d9c730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSettingsPanelController*>(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::remove_playerActiveStateChangedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d9c674;
+  constexpr static std::size_t addrs = 0x5d9c7f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSettingsPanelController*>(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)(::GlobalNamespace::ILobbyPlayerData*)>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::SetLobbyPlayerDataModel)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d9c734;
+  constexpr static std::size_t addrs = 0x5d9c8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSettingsPanelController*>(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::HideConnectionSettings)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d9c850;
+  constexpr static std::size_t addrs = 0x5d9c9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::HideSpectateSettings)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d9c870;
+  constexpr static std::size_t addrs = 0x5d9c9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)(::StringW)>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::SetLobbyCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d9c890;
+  constexpr static std::size_t addrs = 0x5d9ca0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)()>(&::GlobalNamespace::MultiplayerSettingsPanelController::Awake)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x5d9c8b0;
+  constexpr static std::size_t addrs = 0x5d9ca2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSettingsPanelController*>(), { "Awake", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)()>(&::GlobalNamespace::MultiplayerSettingsPanelController::OnDestroy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d9c978;
+  constexpr static std::size_t addrs = 0x5d9caf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSettingsPanelController*>(), { "OnDestroy", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::UpdateLocalPlayerIsActiveState)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d9c98c;
+  constexpr static std::size_t addrs = 0x5d9cb08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)()>(&::GlobalNamespace::MultiplayerSettingsPanelController::Refresh)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5d9c740;
+  constexpr static std::size_t addrs = 0x5d9c8bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSettingsPanelController*>(), { "Refresh", {}, {} })));
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)()>(&::GlobalNamespace::MultiplayerSettingsPanelController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d9c9b0;
+  constexpr static std::size_t addrs = 0x5d9cb2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerSettingsPanelController*>(), { ".ctor", {}, {} })));
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)(bool)>(&::GlobalNamespace::MultiplayerSettingsPanelController::_Awake_b__14_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d9c9b4;
+  constexpr static std::size_t addrs = 0x5d9cb30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -26,7 +26,7 @@ public:
   static inline ::Newtonsoft::Json::Serialization::JsonLinqContract* New_ctor(::System::Type* underlyingType);
 
   /// [NullableContext(1)]
-  /// @brief Method .ctor, addr 0x6193734, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61939bc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
 protected:

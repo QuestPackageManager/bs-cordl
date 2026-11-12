@@ -81,16 +81,16 @@ public:
   /// @brief Field xmlTypeNamespace, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_xmlTypeNamespace, put = __cordl_internal_set_xmlTypeNamespace)) ::StringW xmlTypeNamespace;
 
-  /// @brief Method GetRealElementMap, addr 0x67780e0, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method GetRealElementMap, addr 0x6778730, size 0x344, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* GetRealElementMap(::StringW name, ::StringW ens);
 
-  /// @brief Method GetRealTypeMap, addr 0x677018c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetRealTypeMap, addr 0x67707dc, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* GetRealTypeMap(::System::Type* objectType);
 
   static inline ::System::Xml::Serialization::XmlTypeMapping* New_ctor(::StringW elementName, ::StringW ns, ::System::Xml::Serialization::TypeData* typeData, ::StringW xmlType,
                                                                        ::StringW xmlTypeNamespace);
 
-  /// @brief Method UpdateRoot, addr 0x6778424, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method UpdateRoot, addr 0x6778a74, size 0x84, virtual false, abstract: false, final false
   inline void UpdateRoot(::System::Xml::XmlQualifiedName* qname);
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__derivedTypes() const;
@@ -147,55 +147,55 @@ public:
 
   constexpr void __cordl_internal_set_xmlTypeNamespace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6777fcc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x677861c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW elementName, ::StringW ns, ::System::Xml::Serialization::TypeData* typeData, ::StringW xmlType, ::StringW xmlTypeNamespace);
 
-  /// @brief Method get_BaseMap, addr 0x67780a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseMap, addr 0x67786f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* get_BaseMap();
 
-  /// @brief Method get_DerivedTypes, addr 0x6778098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DerivedTypes, addr 0x67786e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_DerivedTypes();
 
-  /// @brief Method get_HasXmlTypeNamespace, addr 0x6778088, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasXmlTypeNamespace, addr 0x67786d8, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasXmlTypeNamespace();
 
-  /// @brief Method get_IsAny, addr 0x67780d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAny, addr 0x6778720, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAny();
 
-  /// @brief Method get_IsNullable, addr 0x67780c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x6778710, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_MultiReferenceType, addr 0x67780a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MultiReferenceType, addr 0x67786f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_MultiReferenceType();
 
-  /// @brief Method get_TypeData, addr 0x6778068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeData, addr 0x67786b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::TypeData* get_TypeData();
 
-  /// @brief Method get_TypeFullName, addr 0x67753e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_TypeFullName, addr 0x6775a34, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_TypeFullName();
 
-  /// @brief Method get_XmlType, addr 0x6778070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x67786c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlType();
 
-  /// @brief Method get_XmlTypeNamespace, addr 0x67702d8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_XmlTypeNamespace, addr 0x6770928, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_XmlTypeNamespace();
 
-  /// @brief Method set_BaseMap, addr 0x67780b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseMap, addr 0x6778700, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseMap(::System::Xml::Serialization::XmlTypeMapping* value);
 
-  /// @brief Method set_IncludeInSchema, addr 0x67780b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IncludeInSchema, addr 0x6778708, size 0x8, virtual false, abstract: false, final false
   inline void set_IncludeInSchema(bool value);
 
-  /// @brief Method set_IsAny, addr 0x67780d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsAny, addr 0x6778728, size 0x8, virtual false, abstract: false, final false
   inline void set_IsAny(bool value);
 
-  /// @brief Method set_IsNullable, addr 0x67780c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IsNullable, addr 0x6778718, size 0x8, virtual false, abstract: false, final false
   inline void set_IsNullable(bool value);
 
-  /// @brief Method set_XmlType, addr 0x6778078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlType, addr 0x67786c8, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlType(::StringW value);
 
-  /// @brief Method set_XmlTypeNamespace, addr 0x6778080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlTypeNamespace, addr 0x67786d0, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlTypeNamespace(::StringW value);
 
 protected:

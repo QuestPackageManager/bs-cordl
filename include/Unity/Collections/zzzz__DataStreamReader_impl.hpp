@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamReader::*)(::Unity::Collections::NativeArray_1<uint8_t>)>(
     &::Unity::Collections::DataStreamReader::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x691202c;
+  constexpr static std::size_t addrs = 0x691310c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Collections::DataStreamReader>, ::Unity::Collections::NativeArray_1<uint8_t>)>(
     &::Unity::Collections::DataStreamReader::Initialize)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6912088;
+  constexpr static std::size_t addrs = 0x6913168;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Unity::Collections::DataStreamReader::get_IsLittleEndian)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69120e4;
+  constexpr static std::size_t addrs = 0x69131c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "get_IsLittleEndian", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (*)(int16_t)>(&::Unity::Collections::DataStreamReader::ByteSwap)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69120f4;
+  constexpr static std::size_t addrs = 0x69131d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::Unity::Collections::DataStreamReader::ByteSwap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6912100;
+  constexpr static std::size_t addrs = 0x69131e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::get_HasFailedReads)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6912108;
+  constexpr static std::size_t addrs = 0x69131e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "get_HasFailedReads", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6912118;
+  constexpr static std::size_t addrs = 0x69131f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "get_Length", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::get_IsCreated)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6912120;
+  constexpr static std::size_t addrs = 0x6913200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "get_IsCreated", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamReader::*)(uint8_t*, int32_t)>(&::Unity::Collections::DataStreamReader::ReadBytesInternal)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6912130;
+  constexpr static std::size_t addrs = 0x6913210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamReader::*)(::Unity::Collections::NativeArray_1<uint8_t>)>(
     &::Unity::Collections::DataStreamReader::ReadBytes)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x691223c;
+  constexpr static std::size_t addrs = 0x691331c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamReader::*)(::System::Span_1<uint8_t>)>(&::Unity::Collections::DataStreamReader::ReadBytes)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6912298;
+  constexpr static std::size_t addrs = 0x6913378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::GetBytesRead)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x691221c;
+  constexpr static std::size_t addrs = 0x69132fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "GetBytesRead", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::GetBitsRead)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x691230c;
+  constexpr static std::size_t addrs = 0x69133ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "GetBitsRead", {}, {} })));
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamReader::*)(int32_t)>(&::Unity::Collections::DataStreamReader::SeekSet)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x691231c;
+  constexpr static std::size_t addrs = 0x69133fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::ReadByte)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6912344;
+  constexpr static std::size_t addrs = 0x6913424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadByte", {}, {} })));
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::ReadShort)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6912364;
+  constexpr static std::size_t addrs = 0x6913444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadShort", {}, {} })));
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::ReadUShort)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6912384;
+  constexpr static std::size_t addrs = 0x6913464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadUShort", {}, {} })));
@@ -243,7 +243,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::ReadInt)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69123a4;
+  constexpr static std::size_t addrs = 0x6913484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadInt", {}, {} })));
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::ReadUInt)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69123c4;
+  constexpr static std::size_t addrs = 0x69134a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadUInt", {}, {} })));
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::ReadLong)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69123e4;
+  constexpr static std::size_t addrs = 0x69134c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadLong", {}, {} })));
@@ -279,7 +279,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::ReadULong)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6912400;
+  constexpr static std::size_t addrs = 0x69134e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadULong", {}, {} })));
@@ -291,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::Flush)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6912228;
+  constexpr static std::size_t addrs = 0x6913308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "Flush", {}, {} })));
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int16_t (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::ReadShortNetworkByteOrder)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x691241c;
+  constexpr static std::size_t addrs = 0x69134fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadShortNetworkByteOrder", {}, {} })));
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::ReadUShortNetworkByteOrder)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6912444;
+  constexpr static std::size_t addrs = 0x6913524;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadUShortNetworkByteOrder", {}, {} })));
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::ReadIntNetworkByteOrder)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x691246c;
+  constexpr static std::size_t addrs = 0x691354c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadIntNetworkByteOrder", {}, {} })));
@@ -339,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::ReadUIntNetworkByteOrder)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6912490;
+  constexpr static std::size_t addrs = 0x6913570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadUIntNetworkByteOrder", {}, {} })));
@@ -351,7 +351,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::ReadFloat)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69124b4;
+  constexpr static std::size_t addrs = 0x6913594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadFloat", {}, {} })));
@@ -363,7 +363,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::ReadDouble)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x69124d4;
+  constexpr static std::size_t addrs = 0x69135b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadDouble", {}, {} })));
@@ -376,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedUInt)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69124f0;
+  constexpr static std::size_t addrs = 0x69135d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Collections::DataStreamReader::*)(int32_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedUIntInternal)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x69124fc;
+  constexpr static std::size_t addrs = 0x69135dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -405,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::FillBitBuffer)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x69125b8;
+  constexpr static std::size_t addrs = 0x6913698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "FillBitBuffer", {}, {} })));
@@ -417,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Collections::DataStreamReader::*)(int32_t)>(&::Unity::Collections::DataStreamReader::ReadRawBitsInternal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6912620;
+  constexpr static std::size_t addrs = 0x6913700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -430,7 +430,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Collections::DataStreamReader::*)(int32_t)>(&::Unity::Collections::DataStreamReader::ReadRawBits)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6912664;
+  constexpr static std::size_t addrs = 0x6913744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedULong)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69126c0;
+  constexpr static std::size_t addrs = 0x69137a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -459,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedInt)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6912704;
+  constexpr static std::size_t addrs = 0x69137e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedLong)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6912728;
+  constexpr static std::size_t addrs = 0x6913808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedFloat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6912778;
+  constexpr static std::size_t addrs = 0x6913858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -504,7 +504,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Collections::DataStreamReader::*)(::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedDouble)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6912800;
+  constexpr static std::size_t addrs = 0x69138e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -519,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Collections::DataStreamReader::*)(int32_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedIntDelta)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x69128e8;
+  constexpr static std::size_t addrs = 0x69139c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -534,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::Unity::Collections::DataStreamReader::*)(uint32_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedUIntDelta)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6912910;
+  constexpr static std::size_t addrs = 0x69139f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -549,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Unity::Collections::DataStreamReader::*)(int64_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedLongDelta)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6912938;
+  constexpr static std::size_t addrs = 0x6913a18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -564,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::Unity::Collections::DataStreamReader::*)(uint64_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedULongDelta)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6912954;
+  constexpr static std::size_t addrs = 0x6913a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -579,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Unity::Collections::DataStreamReader::*)(float_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedFloatDelta)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6912780;
+  constexpr static std::size_t addrs = 0x6913860;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -594,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (::Unity::Collections::DataStreamReader::*)(double_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedDoubleDelta)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6912808;
+  constexpr static std::size_t addrs = 0x69138e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -609,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString32Bytes (::Unity::Collections::DataStreamReader::*)()>(
     &::Unity::Collections::DataStreamReader::ReadFixedString32)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6912970;
+  constexpr static std::size_t addrs = 0x6913a50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadFixedString32", {}, {} })));
@@ -622,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString64Bytes (::Unity::Collections::DataStreamReader::*)()>(
     &::Unity::Collections::DataStreamReader::ReadFixedString64)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6912a30;
+  constexpr static std::size_t addrs = 0x6913b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadFixedString64", {}, {} })));
@@ -635,7 +635,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString128Bytes (::Unity::Collections::DataStreamReader::*)()>(
     &::Unity::Collections::DataStreamReader::ReadFixedString128)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6912aa0;
+  constexpr static std::size_t addrs = 0x6913b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadFixedString128", {}, {} })));
@@ -648,7 +648,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString512Bytes (::Unity::Collections::DataStreamReader::*)()>(
     &::Unity::Collections::DataStreamReader::ReadFixedString512)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6912b18;
+  constexpr static std::size_t addrs = 0x6913bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadFixedString512", {}, {} })));
@@ -661,7 +661,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString4096Bytes (::Unity::Collections::DataStreamReader::*)()>(
     &::Unity::Collections::DataStreamReader::ReadFixedString4096)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6912b9c;
+  constexpr static std::size_t addrs = 0x6913c7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "ReadFixedString4096", {}, {} })));
@@ -674,7 +674,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Collections::DataStreamReader::*)(::Unity::Collections::NativeArray_1<uint8_t>)>(
     &::Unity::Collections::DataStreamReader::ReadFixedString)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6912c28;
+  constexpr static std::size_t addrs = 0x6913d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -688,7 +688,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Collections::DataStreamReader::*)(uint8_t*, int32_t)>(&::Unity::Collections::DataStreamReader::ReadFixedStringInternal)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x69129d4;
+  constexpr static std::size_t addrs = 0x6913ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -703,7 +703,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString32Bytes (::Unity::Collections::DataStreamReader::*)(
     ::Unity::Collections::FixedString32Bytes, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedString32Delta)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6912c84;
+  constexpr static std::size_t addrs = 0x6913d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -720,7 +720,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString64Bytes (::Unity::Collections::DataStreamReader::*)(
     ::Unity::Collections::FixedString64Bytes, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedString64Delta)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6912e3c;
+  constexpr static std::size_t addrs = 0x6913f1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -737,7 +737,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString128Bytes (::Unity::Collections::DataStreamReader::*)(
     ::Unity::Collections::FixedString128Bytes, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedString128Delta)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6912eb8;
+  constexpr static std::size_t addrs = 0x6913f98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -754,7 +754,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString512Bytes (::Unity::Collections::DataStreamReader::*)(
     ::Unity::Collections::FixedString512Bytes, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedString512Delta)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6912f3c;
+  constexpr static std::size_t addrs = 0x691401c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -771,7 +771,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::FixedString4096Bytes (::Unity::Collections::DataStreamReader::*)(
     ::Unity::Collections::FixedString4096Bytes, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedString4096Delta)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6912fdc;
+  constexpr static std::size_t addrs = 0x69140bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -789,7 +789,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Collec
                                                                                                             ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(
     &::Unity::Collections::DataStreamReader::ReadPackedFixedStringDelta)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6913084;
+  constexpr static std::size_t addrs = 0x6914164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -807,7 +807,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint16_t (::Unity::Collections::DataStreamReader::*)(
     uint8_t*, int32_t, uint8_t*, uint16_t, ::by_ref<::Unity::Collections::StreamCompressionModel const>)>(&::Unity::Collections::DataStreamReader::ReadPackedFixedStringDeltaInternal)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6912cf4;
+  constexpr static std::size_t addrs = 0x6913dd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -824,7 +824,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Collections::DataStreamReader::*)()>(&::Unity::Collections::DataStreamReader::CheckRead)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6913108;
+  constexpr static std::size_t addrs = 0x69141e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Collections::DataStreamReader>(), { "CheckRead", {}, {} })));
@@ -836,7 +836,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t)>(&::Unity::Collections::DataStreamReader::CheckBits)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x691310c;
+  constexpr static std::size_t addrs = 0x69141ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -33,11 +33,11 @@ public:
 
   constexpr void __cordl_internal_set__ReturnValue_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6129070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61292f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool returnValue);
 
   /// [CompilerGenerated]
-  /// @brief Method get_ReturnValue, addr 0x6129078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReturnValue, addr 0x6129300, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReturnValue();
 
 protected:

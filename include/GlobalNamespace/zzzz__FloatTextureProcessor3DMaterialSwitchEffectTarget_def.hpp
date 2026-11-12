@@ -41,24 +41,24 @@ public:
   /// @brief Field _valueBounds, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__valueBounds, put = __cordl_internal_set__valueBounds)) ::UnityEngine::Vector2 _valueBounds;
 
-  /// @brief Method LateUpdate, addr 0x5deedf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5deef28, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::FloatTextureProcessor3DMaterialSwitchEffectTarget* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x5deed4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5deee7c, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetFloat, addr 0x5deec24, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x5deed54, size 0x124, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetMaterialsIfNeeded, addr 0x5deed50, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetMaterialsIfNeeded, addr 0x5deee80, size 0xa8, virtual false, abstract: false, final false
   inline void SetMaterialsIfNeeded();
 
-  /// @brief Method SetValue, addr 0x5deec20, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x5deed50, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x5deed48, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x5deee78, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::GridElementController>> const& __cordl_internal_get__gridElementControllers() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x5deedfc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5deef2c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

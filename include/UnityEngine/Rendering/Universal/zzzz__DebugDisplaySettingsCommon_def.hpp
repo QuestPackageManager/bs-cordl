@@ -65,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set_foldout(::UnityEngine::Rendering::DebugUI_Foldout* value);
 
-  /// @brief Method <.ctor>b__0, addr 0x6cb5568, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0, addr 0x6cb6648, size 0xf8, virtual false, abstract: false, final false
   inline void __ctor_b__0();
 
-  /// @brief Method .ctor, addr 0x6cb5564, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb6644, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,10 +113,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsCommon_SettingsPanel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6cb5240, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb6320, size 0x318, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Flags, addr 0x6cb555c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x6cb663c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::DebugUI_Flags get_Flags();
 
 protected:
@@ -162,15 +162,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IDebugDisplaySettingsQuery"
   constexpr operator ::UnityEngine::Rendering::IDebugDisplaySettingsQuery*() noexcept;
 
-  /// @brief Method CreatePanel, addr 0x6cb51ec, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method CreatePanel, addr 0x6cb62cc, size 0x54, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* CreatePanel();
 
   static inline ::UnityEngine::Rendering::Universal::DebugDisplaySettingsCommon* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6cb5558, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb6638, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AreAnySettingsActive, addr 0x6cb51e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AreAnySettingsActive, addr 0x6cb62c4, size 0x8, virtual true, abstract: false, final true
   inline bool get_AreAnySettingsActive();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsData"

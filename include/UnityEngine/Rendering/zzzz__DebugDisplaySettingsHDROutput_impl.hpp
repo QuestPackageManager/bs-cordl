@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bae2a4;
+  constexpr static std::size_t addrs = 0x6baf384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__0)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6bae4fc;
+  constexpr static std::size_t addrs = 0x6baf5dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__1)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6bae534;
+  constexpr static std::size_t addrs = 0x6baf614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__2)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6bae56c;
+  constexpr static std::size_t addrs = 0x6baf64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__3)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6bae62c;
+  constexpr static std::size_t addrs = 0x6baf70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__4)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6bae6ec;
+  constexpr static std::size_t addrs = 0x6baf7cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__5)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6bae798;
+  constexpr static std::size_t addrs = 0x6baf878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__6)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6bae840;
+  constexpr static std::size_t addrs = 0x6baf920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__7)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6bae8ec;
+  constexpr static std::size_t addrs = 0x6baf9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__8)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6bae998;
+  constexpr static std::size_t addrs = 0x6bafa78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::*)()>(
     &::UnityEngine::Rendering::DebugDisplaySettingsHDROutput___c__DisplayClass1_0::_CreateHDROuputDisplayTable_b__9)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6baea44;
+  constexpr static std::size_t addrs = 0x6bafb24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DebugUI_Table* (*)()>(&::UnityEngine::Rendering::DebugDisplaySettingsHDROutput::CreateHDROuputDisplayTable)> {
   constexpr static std::size_t size = 0xc74;
-  constexpr static std::size_t addrs = 0x6bad588;
+  constexpr static std::size_t addrs = 0x6bae668;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::DebugDisplaySettingsHDROutput::*)()>(&::UnityEngine::Rendering::DebugDisplaySettingsHDROutput::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6bae300;
+  constexpr static std::size_t addrs = 0x6baf3e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::DebugDisplaySettingsHDROutput*>(), { ".ctor", {}, {} })));

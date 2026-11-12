@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__durationText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x5dc093c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc08e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_bpm, addr 0x5dc08f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bpm, addr 0x5dc089c, size 0x44, virtual false, abstract: false, final false
   inline void set_bpm(float_t value);
 
-  /// @brief Method set_duration, addr 0x5dc08c4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x5dc0868, size 0x34, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
 protected:

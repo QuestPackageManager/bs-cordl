@@ -37,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::CenterStageLobbyViewController* New_ctor();
 
-  /// @brief Method SetLevelGameplaySetupData, addr 0x5db6330, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SetLevelGameplaySetupData, addr 0x5db62d4, size 0x160, virtual false, abstract: false, final false
   inline void SetLevelGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView> const& __cordl_internal_get__beatmapSelectionView() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__modifiersSelectionView(::UnityW<::GlobalNamespace::ModifiersSelectionView> value);
 
-  /// @brief Method .ctor, addr 0x5db6490, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db6434, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

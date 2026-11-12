@@ -72,7 +72,7 @@ namespace Unity::Hierarchy {
 class CORDL_TYPE HierarchyNodeTypeHandlerBase_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToUnmanaged, addr 0x6fd23c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToUnmanaged, addr 0x6fd34a0, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToUnmanaged(::Unity::Hierarchy::HierarchyNodeTypeHandlerBase* handler);
 
 protected:
@@ -90,7 +90,7 @@ public:
   HierarchyNodeTypeHandlerBase_BindingsMarshaller(HierarchyNodeTypeHandlerBase_BindingsMarshaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22631 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22682 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -118,10 +118,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x6fd2550, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6fd3630, size 0x134, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x6fd1418, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fd24f8, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr nativePtr, ::Unity::Hierarchy::Hierarchy* hierarchy, ::Unity::Hierarchy::HierarchyCommandList* cmdList);
 
   static inline ::Unity::Hierarchy::HierarchyCommandList* getStaticF_m_CommandList();
@@ -139,13 +139,13 @@ public:
 
   static inline void setStaticF_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method set_CommandList, addr 0x6fd24cc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_CommandList, addr 0x6fd35ac, size 0x84, virtual false, abstract: false, final false
   static inline void set_CommandList(::Unity::Hierarchy::HierarchyCommandList* value);
 
-  /// @brief Method set_Hierarchy, addr 0x6fd2448, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_Hierarchy, addr 0x6fd3528, size 0x84, virtual false, abstract: false, final false
   static inline void set_Hierarchy(::Unity::Hierarchy::Hierarchy* value);
 
-  /// @brief Method set_Ptr, addr 0x6fd23d4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_Ptr, addr 0x6fd34b4, size 0x74, virtual false, abstract: false, final false
   static inline void set_Ptr(::System::IntPtr value);
 
   // Ctor Parameters []
@@ -153,7 +153,7 @@ public:
   constexpr HierarchyNodeTypeHandlerBase_ConstructorScope();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22632 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22683 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -193,114 +193,114 @@ public:
 
   /// [FreeFunction("HierarchyNodeTypeHandlerBaseBindings::ChangesPending", HasExplicitThis = true, IsThreadSafe = true)]
   /// [Obsolete("ChangesPending is obsolete, it is replaced by adding commands into the hierarchy node type handler\'s CommandList.", false)]
-  /// @brief Method ChangesPending, addr 0x6fd214c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ChangesPending, addr 0x6fd322c, size 0x94, virtual true, abstract: false, final false
   inline bool ChangesPending();
 
-  /// @brief Method ChangesPending_Injected, addr 0x6fd21e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ChangesPending_Injected, addr 0x6fd32c0, size 0x3c, virtual false, abstract: false, final false
   static inline bool ChangesPending_Injected(::System::IntPtr _unity_self);
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreateNodeTypeHandlerFromType, addr 0x6fd1170, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method CreateNodeTypeHandlerFromType, addr 0x6fd2250, size 0x2a8, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateNodeTypeHandlerFromType(::System::IntPtr nativePtr, ::System::Type* handlerType, ::System::IntPtr hierarchyPtr, ::System::IntPtr cmdListPtr);
 
-  /// @brief Method Dispose, addr 0x6fd0d34, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6fd1e14, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.HierarchyModule" })]
-  /// @brief Method FromIntPtr, addr 0x6fd10c0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method FromIntPtr, addr 0x6fd21a0, size 0xa4, virtual false, abstract: false, final false
   static inline ::Unity::Hierarchy::HierarchyNodeTypeHandlerBase* FromIntPtr(::System::IntPtr handlePtr);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method GetDefaultNodeFlags, addr 0x6fd0fac, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method GetDefaultNodeFlags, addr 0x6fd208c, size 0xac, virtual true, abstract: false, final false
   inline ::Unity::Hierarchy::HierarchyNodeFlags GetDefaultNodeFlags(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node, ::Unity::Hierarchy::HierarchyNodeFlags defaultFlags);
 
-  /// @brief Method GetDefaultNodeFlags_Injected, addr 0x6fd1058, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultNodeFlags_Injected, addr 0x6fd2138, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Hierarchy::HierarchyNodeFlags GetDefaultNodeFlags_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                                                                                     ::Unity::Hierarchy::HierarchyNodeFlags defaultFlags);
 
   /// [NativeMethod(IsThreadSafe = true, ThrowsException = true)]
-  /// @brief Method GetNodeHashCode, addr 0x6fd0ec4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetNodeHashCode, addr 0x6fd1fa4, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetNodeHashCode(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
-  /// @brief Method GetNodeHashCode_Injected, addr 0x6fd0f68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetNodeHashCode_Injected, addr 0x6fd2048, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetNodeHashCode_Injected(::System::IntPtr _unity_self, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [NativeMethod(IsThreadSafe = true)]
-  /// @brief Method GetNodeTypeName, addr 0x6fd0d38, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method GetNodeTypeName, addr 0x6fd1e18, size 0x148, virtual true, abstract: false, final false
   inline ::StringW GetNodeTypeName();
 
-  /// @brief Method GetNodeTypeName_Injected, addr 0x6fd0e80, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetNodeTypeName_Injected, addr 0x6fd1f60, size 0x44, virtual false, abstract: false, final false
   static inline void GetNodeTypeName_Injected(::System::IntPtr _unity_self, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-  /// @brief Method Initialize, addr 0x6fd0d30, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6fd1e10, size 0x4, virtual true, abstract: false, final false
   inline void Initialize();
 
   /// [Obsolete("IntegrateChanges is obsolete, it is replaced by adding commands into the hierarchy node type handler\'s CommandList.", false)]
   /// [FreeFunction("HierarchyNodeTypeHandlerBaseBindings::IntegrateChanges", HasExplicitThis = true, IsThreadSafe = true)]
-  /// @brief Method IntegrateChanges, addr 0x6fd221c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method IntegrateChanges, addr 0x6fd32fc, size 0xac, virtual true, abstract: false, final false
   inline bool IntegrateChanges(::Unity::Hierarchy::HierarchyCommandList* cmdList);
 
-  /// @brief Method IntegrateChanges_Injected, addr 0x6fd22c8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IntegrateChanges_Injected, addr 0x6fd33a8, size 0x44, virtual false, abstract: false, final false
   static inline bool IntegrateChanges_Injected(::System::IntPtr _unity_self, ::System::IntPtr cmdList);
 
-  /// @brief Method Internal_SearchBegin, addr 0x6fd1164, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Internal_SearchBegin, addr 0x6fd2244, size 0xc, virtual false, abstract: false, final false
   inline void Internal_SearchBegin(::Unity::Hierarchy::HierarchySearchQueryDescriptor* query);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeChangesPending, addr 0x6fd1bac, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method InvokeChangesPending, addr 0x6fd2c8c, size 0xe4, virtual false, abstract: false, final false
   static inline bool InvokeChangesPending(::System::IntPtr handlePtr);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeDispose, addr 0x6fd17c8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method InvokeDispose, addr 0x6fd28a8, size 0x124, virtual false, abstract: false, final false
   static inline void InvokeDispose(::System::IntPtr handlePtr);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeGetDefaultNodeFlags, addr 0x6fd1ab4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetDefaultNodeFlags, addr 0x6fd2b94, size 0xf8, virtual false, abstract: false, final false
   static inline ::Unity::Hierarchy::HierarchyNodeFlags InvokeGetDefaultNodeFlags(::System::IntPtr handlePtr, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node,
                                                                                  ::Unity::Hierarchy::HierarchyNodeFlags defaultFlags);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeGetNodeHashCode, addr 0x6fd19cc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetNodeHashCode, addr 0x6fd2aac, size 0xe8, virtual false, abstract: false, final false
   static inline int32_t InvokeGetNodeHashCode(::System::IntPtr handlePtr, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeGetNodeTypeName, addr 0x6fd18ec, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method InvokeGetNodeTypeName, addr 0x6fd29cc, size 0xe0, virtual false, abstract: false, final false
   static inline ::StringW InvokeGetNodeTypeName(::System::IntPtr handlePtr);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeInitialize, addr 0x6fd16e8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method InvokeInitialize, addr 0x6fd27c8, size 0xe0, virtual false, abstract: false, final false
   static inline void InvokeInitialize(::System::IntPtr handlePtr);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeIntegrateChanges, addr 0x6fd1c90, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method InvokeIntegrateChanges, addr 0x6fd2d70, size 0x17c, virtual false, abstract: false, final false
   static inline bool InvokeIntegrateChanges(::System::IntPtr handlePtr, ::System::IntPtr cmdListPtr);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeSearchEnd, addr 0x6fd1ef4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method InvokeSearchEnd, addr 0x6fd2fd4, size 0xe0, virtual false, abstract: false, final false
   static inline void InvokeSearchEnd(::System::IntPtr handlePtr);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeSearchMatch, addr 0x6fd1e0c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InvokeSearchMatch, addr 0x6fd2eec, size 0xe8, virtual false, abstract: false, final false
   static inline bool InvokeSearchMatch(::System::IntPtr handlePtr, /* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [RequiredByNativeCode]
-  /// @brief Method InvokeViewModelPostUpdate, addr 0x6fd1fd4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method InvokeViewModelPostUpdate, addr 0x6fd30b4, size 0x178, virtual false, abstract: false, final false
   static inline void InvokeViewModelPostUpdate(::System::IntPtr handlePtr, ::System::IntPtr viewModelPtr);
 
-  /// @brief Method SearchBegin, addr 0x6fd10ac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SearchBegin, addr 0x6fd218c, size 0x4, virtual true, abstract: false, final false
   inline void SearchBegin(::Unity::Hierarchy::HierarchySearchQueryDescriptor* query);
 
-  /// @brief Method SearchEnd, addr 0x6fd10b8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SearchEnd, addr 0x6fd2198, size 0x4, virtual true, abstract: false, final false
   inline void SearchEnd();
 
-  /// @brief Method SearchMatch, addr 0x6fd10b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SearchMatch, addr 0x6fd2190, size 0x8, virtual true, abstract: false, final false
   inline bool SearchMatch(/* [IsReadOnly] */ ::by_ref<::Unity::Hierarchy::HierarchyNode const> node);
 
   /// [RequiredByNativeCode]
-  /// @brief Method TryGetStaticNodeType, addr 0x6fd1560, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method TryGetStaticNodeType, addr 0x6fd2640, size 0x188, virtual false, abstract: false, final false
   static inline bool TryGetStaticNodeType(::System::Type* handlerType, ::by_ref<int32_t> nodeType);
 
-  /// @brief Method ViewModelPostUpdate, addr 0x6fd10bc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ViewModelPostUpdate, addr 0x6fd219c, size 0x4, virtual true, abstract: false, final false
   inline void ViewModelPostUpdate(::Unity::Hierarchy::HierarchyViewModel* viewModel);
 
   constexpr ::Unity::Hierarchy::HierarchyCommandList* const& __cordl_internal_get_m_CommandList() const;
@@ -340,7 +340,7 @@ public:
   HierarchyNodeTypeHandlerBase(HierarchyNodeTypeHandlerBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22684 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

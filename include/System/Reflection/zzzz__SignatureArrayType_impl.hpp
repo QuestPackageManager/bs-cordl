@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Reflection::SignatureArrayType::*)(::System::Reflection::SignatureType*, int32_t, bool)>(
     &::System::Reflection::SignatureArrayType::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5fd5d70;
+  constexpr static std::size_t addrs = 0x5fd5ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::SignatureArrayType::*)()>(&::System::Reflection::SignatureArrayType::IsArrayImpl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fd5dfc;
+  constexpr static std::size_t addrs = 0x5fd6084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureArrayType*>(), { "IsArrayImpl", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::SignatureArrayType::*)()>(&::System::Reflection::SignatureArrayType::IsByRefImpl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fd5e04;
+  constexpr static std::size_t addrs = 0x5fd608c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureArrayType*>(), { "IsByRefImpl", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::SignatureArrayType::*)()>(&::System::Reflection::SignatureArrayType::IsPointerImpl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fd5e0c;
+  constexpr static std::size_t addrs = 0x5fd6094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureArrayType*>(), { "IsPointerImpl", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::SignatureArrayType::*)()>(&::System::Reflection::SignatureArrayType::get_IsSZArray)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5fd5e14;
+  constexpr static std::size_t addrs = 0x5fd609c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureArrayType*>(), { "get_IsSZArray", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Reflection::SignatureArrayType::*)()>(&::System::Reflection::SignatureArrayType::get_IsVariableBoundArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fd5e24;
+  constexpr static std::size_t addrs = 0x5fd60ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureArrayType*>(), { "get_IsVariableBoundArray", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Reflection::SignatureArrayType::*)()>(&::System::Reflection::SignatureArrayType::GetArrayRank)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fd5e2c;
+  constexpr static std::size_t addrs = 0x5fd60b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureArrayType*>(), { "GetArrayRank", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Reflection::SignatureArrayType::*)()>(&::System::Reflection::SignatureArrayType::get_Suffix)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5fd5e34;
+  constexpr static std::size_t addrs = 0x5fd60bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Reflection::SignatureArrayType*>(), { "get_Suffix", {}, {} })));

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatSaberPlayerIdentityPacketData (::GlobalNamespace::ConnectedPlayerExtension::*)(
     ::GlobalNamespace::MultiplayerAvatarsData, ::GlobalNamespace::MultiplayerActiveHand)>(&::GlobalNamespace::ConnectedPlayerExtension::BuildIdentityData)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x354eaac;
+  constexpr static std::size_t addrs = 0x3551a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConnectedPlayerExtension::*)(
     ::GlobalNamespace::BeatSaberPlayerIdentityPacketData, ::GlobalNamespace::IBeatSaberConnectedPlayer*)>(&::GlobalNamespace::ConnectedPlayerExtension::ApplyIdentityData)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x354ebb0;
+  constexpr static std::size_t addrs = 0x3551b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ConnectedPlayerExtension::*)()>(&::GlobalNamespace::ConnectedPlayerExtension::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x354ea80;
+  constexpr static std::size_t addrs = 0x3551a20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ConnectedPlayerExtension*>(), { ".ctor", {}, {} })));

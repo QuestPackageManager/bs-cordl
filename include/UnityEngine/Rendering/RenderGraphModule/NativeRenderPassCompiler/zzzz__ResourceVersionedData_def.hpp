@@ -24,13 +24,13 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE ResourceVersionedData {
 public:
   // Declarations
-  /// @brief Method RegisterReadingPass, addr 0x6c684b0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method RegisterReadingPass, addr 0x6c69590, size 0x150, virtual false, abstract: false, final false
   inline void RegisterReadingPass(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h, int32_t passId, int32_t index);
 
-  /// @brief Method RemoveReadingPass, addr 0x6c68600, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method RemoveReadingPass, addr 0x6c696e0, size 0x278, virtual false, abstract: false, final false
   inline void RemoveReadingPass(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h, int32_t passId);
 
-  /// @brief Method SetWritingPass, addr 0x6c684a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetWritingPass, addr 0x6c69580, size 0x10, virtual false, abstract: false, final false
   inline void SetWritingPass(Il2CppObject* ctx, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h, int32_t passId);
 
   // Ctor Parameters []

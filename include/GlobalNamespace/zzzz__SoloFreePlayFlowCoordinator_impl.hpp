@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass18_0::*)()>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass18_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d8ed68;
+  constexpr static std::size_t addrs = 0x5d8e9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass18_0::*)()>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass18_0::_ProcessLevelCompletionResultsAfterLevelDidFinish_b__0)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x5d8f030;
+  constexpr static std::size_t addrs = 0x5d8ee24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass18_0*>(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass21_0::*)()>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass21_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d8eee4;
+  constexpr static std::size_t addrs = 0x5d8eb6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass21_0::*)()>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass21_0::_HandleStandardLevelWasRestarted_b__0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x5d8f07c;
+  constexpr static std::size_t addrs = 0x5d8ee70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass23_0::*)()>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass23_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d8f024;
+  constexpr static std::size_t addrs = 0x5d8ecac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass23_0::*)()>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass23_0::_HandleResultsViewControllerRestartButtonPressed_b__0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5d8f0d4;
+  constexpr static std::size_t addrs = 0x5d8eec8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SoloFreePlayFlowCoordinator___c__DisplayClass23_0*>(),
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::GameMode (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)()>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::get_gameMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d8e71c;
+  constexpr static std::size_t addrs = 0x5d8e3a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::LeaderboardViewController> (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)()>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::get_leaderboardViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d8e724;
+  constexpr static std::size_t addrs = 0x5d8e3ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -294,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)()>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::get_showBackButtonForMainViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d8e72c;
+  constexpr static std::size_t addrs = 0x5d8e3b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)()>(&::GlobalNamespace::SoloFreePlayFlowCoordinator::get_mainTitle)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5d8e734;
+  constexpr static std::size_t addrs = 0x5d8e3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x5d8e77c;
+  constexpr static std::size_t addrs = 0x5d8e404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)(bool)>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5d8e950;
+  constexpr static std::size_t addrs = 0x5d8e5d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -350,7 +350,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*,
     bool)>(&::GlobalNamespace::SoloFreePlayFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x5d8ea8c;
+  constexpr static std::size_t addrs = 0x5d8e714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)(::GlobalNamespace::PlayerLevelStatsData*, ::GlobalNamespace::LevelCompletionResults*)>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::IsNewHighScore)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5d8ed6c;
+  constexpr static std::size_t addrs = 0x5d8e9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -379,7 +379,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)()>(&::GlobalNamespace::SoloFreePlayFlowCoordinator::Refresh)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5d8ed94;
+  constexpr static std::size_t addrs = 0x5d8ea1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)(
     ::GlobalNamespace::StandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::SoloFreePlayFlowCoordinator::HandleStandardLevelWasRestarted)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5d8edd4;
+  constexpr static std::size_t addrs = 0x5d8ea5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)(::GlobalNamespace::ResultsViewController*)>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::HandleResultsViewControllerContinueButtonPressed)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5d8eee8;
+  constexpr static std::size_t addrs = 0x5d8eb70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)(::GlobalNamespace::ResultsViewController*)>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::HandleResultsViewControllerRestartButtonPressed)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5d8ef28;
+  constexpr static std::size_t addrs = 0x5d8ebb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)(::GlobalNamespace::RunLevelMenuDestination*)>(
     &::GlobalNamespace::SoloFreePlayFlowCoordinator::__SetupFromDestination)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x5d7e558;
+  constexpr static std::size_t addrs = 0x5d8ecb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SoloFreePlayFlowCoordinator*>(),
@@ -450,7 +450,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SoloFreePlayFlowCoordinator::*)()>(&::GlobalNamespace::SoloFreePlayFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d8f028;
+  constexpr static std::size_t addrs = 0x5d8ee1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SoloFreePlayFlowCoordinator*>(), { ".ctor", {}, {} })));

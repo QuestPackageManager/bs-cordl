@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::VolumeComponentDeprecated* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6c26270, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c27350, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_p8(uint8_t* value);
 
-  /// @brief Method .ctor, addr 0x6f5e3c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f5f4a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint16_t* p8);
 
   // Ctor Parameters []
@@ -159,31 +159,31 @@ public:
   // Declarations
   using U = ::UnityEngine::SpookyHash_U;
 
-  /// @brief Method End, addr 0x6f5e778, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method End, addr 0x6f5f858, size 0x1b8, virtual false, abstract: false, final false
   static inline void End(uint64_t* data, ::by_ref<uint64_t> h0, ::by_ref<uint64_t> h1, ::by_ref<uint64_t> h2, ::by_ref<uint64_t> h3, ::by_ref<uint64_t> h4, ::by_ref<uint64_t> h5,
                          ::by_ref<uint64_t> h6, ::by_ref<uint64_t> h7, ::by_ref<uint64_t> h8, ::by_ref<uint64_t> h9, ::by_ref<uint64_t> h10, ::by_ref<uint64_t> h11);
 
-  /// @brief Method EndPartial, addr 0x6f5e930, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method EndPartial, addr 0x6f5fa10, size 0x1f4, virtual false, abstract: false, final false
   static inline void EndPartial(::by_ref<uint64_t> h0, ::by_ref<uint64_t> h1, ::by_ref<uint64_t> h2, ::by_ref<uint64_t> h3, ::by_ref<uint64_t> h4, ::by_ref<uint64_t> h5, ::by_ref<uint64_t> h6,
                                 ::by_ref<uint64_t> h7, ::by_ref<uint64_t> h8, ::by_ref<uint64_t> h9, ::by_ref<uint64_t> h10, ::by_ref<uint64_t> h11);
 
-  /// @brief Method Hash, addr 0x6f5de40, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Hash, addr 0x6f5ef20, size 0x2e4, virtual false, abstract: false, final false
   static inline void Hash(void* message, uint64_t length, uint64_t* hash1, uint64_t* hash2);
 
-  /// @brief Method Mix, addr 0x6f5e3d0, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method Mix, addr 0x6f5f4b0, size 0x3a8, virtual false, abstract: false, final false
   static inline void Mix(uint64_t* data, ::by_ref<uint64_t> s0, ::by_ref<uint64_t> s1, ::by_ref<uint64_t> s2, ::by_ref<uint64_t> s3, ::by_ref<uint64_t> s4, ::by_ref<uint64_t> s5,
                          ::by_ref<uint64_t> s6, ::by_ref<uint64_t> s7, ::by_ref<uint64_t> s8, ::by_ref<uint64_t> s9, ::by_ref<uint64_t> s10, ::by_ref<uint64_t> s11);
 
-  /// @brief Method Rot64, addr 0x6f5eb24, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Rot64, addr 0x6f5fc04, size 0x14, virtual false, abstract: false, final false
   static inline void Rot64(::by_ref<uint64_t> x, int32_t k);
 
-  /// @brief Method Short, addr 0x6f5e124, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method Short, addr 0x6f5f204, size 0x2a4, virtual false, abstract: false, final false
   static inline void Short(void* message, uint64_t length, uint64_t* hash1, uint64_t* hash2);
 
-  /// @brief Method ShortEnd, addr 0x6f5ecec, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ShortEnd, addr 0x6f5fdcc, size 0x194, virtual false, abstract: false, final false
   static inline void ShortEnd(::by_ref<uint64_t> h0, ::by_ref<uint64_t> h1, ::by_ref<uint64_t> h2, ::by_ref<uint64_t> h3);
 
-  /// @brief Method ShortMix, addr 0x6f5eb38, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ShortMix, addr 0x6f5fc18, size 0x1b4, virtual false, abstract: false, final false
   static inline void ShortMix(::by_ref<uint64_t> h0, ::by_ref<uint64_t> h1, ::by_ref<uint64_t> h2, ::by_ref<uint64_t> h3);
 
 protected:

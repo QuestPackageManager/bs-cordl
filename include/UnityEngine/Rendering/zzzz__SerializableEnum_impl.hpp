@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Enum* (::UnityEngine::Rendering::SerializableEnum::*)()>(&::UnityEngine::Rendering::SerializableEnum::get_value)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6bad3ac;
+  constexpr static std::size_t addrs = 0x6bae48c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::SerializableEnum*>(), { "get_value", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SerializableEnum::*)(::System::Enum*)>(&::UnityEngine::Rendering::SerializableEnum::set_value)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6bad4c4;
+  constexpr static std::size_t addrs = 0x6bae5a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::SerializableEnum::*)(::System::Type*)>(&::UnityEngine::Rendering::SerializableEnum::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6bad4f4;
+  constexpr static std::size_t addrs = 0x6bae5d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

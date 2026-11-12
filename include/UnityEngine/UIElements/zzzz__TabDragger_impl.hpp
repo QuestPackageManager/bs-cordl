@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TabLayout* (::UnityEngine::UIElements::TabDragger::*)()>(&::UnityEngine::UIElements::TabDragger::get_tabLayout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7243b00;
+  constexpr static std::size_t addrs = 0x7244be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabDragger*>(), { "get_tabLayout", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(::UnityEngine::UIElements::TabLayout*)>(&::UnityEngine::UIElements::TabDragger::set_tabLayout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7243b08;
+  constexpr static std::size_t addrs = 0x7244be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TabDragger::*)()>(&::UnityEngine::UIElements::TabDragger::get_active)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7243b10;
+  constexpr static std::size_t addrs = 0x7244bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabDragger*>(), { "get_active", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(bool)>(&::UnityEngine::UIElements::TabDragger::set_active)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7243b18;
+  constexpr static std::size_t addrs = 0x7244bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TabDragger::*)()>(&::UnityEngine::UIElements::TabDragger::get_isVertical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7243b20;
+  constexpr static std::size_t addrs = 0x7244c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabDragger*>(), { "get_isVertical", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(bool)>(&::UnityEngine::UIElements::TabDragger::set_isVertical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7243b28;
+  constexpr static std::size_t addrs = 0x7244c08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TabDragger::*)()>(&::UnityEngine::UIElements::TabDragger::get_moving)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7243b30;
+  constexpr static std::size_t addrs = 0x7244c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabDragger*>(), { "get_moving", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(bool)>(&::UnityEngine::UIElements::TabDragger::set_moving)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x7243b38;
+  constexpr static std::size_t addrs = 0x7244c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)()>(&::UnityEngine::UIElements::TabDragger::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x72425f4;
+  constexpr static std::size_t addrs = 0x72436d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabDragger*>(), { ".ctor", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)()>(&::UnityEngine::UIElements::TabDragger::RegisterCallbacksOnTarget)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x7243bec;
+  constexpr static std::size_t addrs = 0x7244ccc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)()>(&::UnityEngine::UIElements::TabDragger::UnregisterCallbacksFromTarget)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x7243f18;
+  constexpr static std::size_t addrs = 0x7244ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(::UnityEngine::UIElements::PointerDownEvent*)>(
     &::UnityEngine::UIElements::TabDragger::OnPointerDown)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x7244244;
+  constexpr static std::size_t addrs = 0x7245324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
     &::UnityEngine::UIElements::TabDragger::OnPointerMove)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x724454c;
+  constexpr static std::size_t addrs = 0x724562c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::TabDragger::OnPointerUp)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x72446e4;
+  constexpr static std::size_t addrs = 0x72457c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(::UnityEngine::UIElements::PointerCancelEvent*)>(
     &::UnityEngine::UIElements::TabDragger::OnPointerCancel)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x7244834;
+  constexpr static std::size_t addrs = 0x7245914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(::UnityEngine::UIElements::PointerCaptureOutEvent*)>(
     &::UnityEngine::UIElements::TabDragger::OnPointerCaptureOut)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x7244974;
+  constexpr static std::size_t addrs = 0x7245a54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabDragger*>(),
@@ -231,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(::UnityEngine::UIElements::EventBase*, int32_t)>(
     &::UnityEngine::UIElements::TabDragger::ProcessCancelEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x72448c0;
+  constexpr static std::size_t addrs = 0x72459a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(::UnityEngine::UIElements::KeyDownEvent*)>(&::UnityEngine::UIElements::TabDragger::OnKeyDown)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x7244b30;
+  constexpr static std::size_t addrs = 0x7245c10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::Vector2, int32_t)>(
     &::UnityEngine::UIElements::TabDragger::ProcessDownEvent)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x72442f8;
+  constexpr static std::size_t addrs = 0x72453d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::TabDragger::ProcessMoveEvent)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x72445c4;
+  constexpr static std::size_t addrs = 0x72456a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::Vector2, int32_t)>(
     &::UnityEngine::UIElements::TabDragger::ProcessUpEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x7244784;
+  constexpr static std::size_t addrs = 0x7245864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -305,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(float_t)>(&::UnityEngine::UIElements::TabDragger::BeginDragMove)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x7244c04;
+  constexpr static std::size_t addrs = 0x7245ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(float_t)>(&::UnityEngine::UIElements::TabDragger::DragMove)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7244f88;
+  constexpr static std::size_t addrs = 0x7246068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -331,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)()>(&::UnityEngine::UIElements::TabDragger::UpdatePreviewPosition)> {
   constexpr static std::size_t size = 0x580;
-  constexpr static std::size_t addrs = 0x724527c;
+  constexpr static std::size_t addrs = 0x724635c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabDragger*>(), { "UpdatePreviewPosition", {}, {} })));
@@ -343,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)()>(&::UnityEngine::UIElements::TabDragger::UpdateMoveLocation)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x7245124;
+  constexpr static std::size_t addrs = 0x7246204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TabDragger*>(), { "UpdateMoveLocation", {}, {} })));
@@ -355,7 +355,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TabDragger::*)(bool)>(&::UnityEngine::UIElements::TabDragger::EndDragMove)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x72449ec;
+  constexpr static std::size_t addrs = 0x7245acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -33,22 +33,22 @@ public:
 
   static inline ::GlobalNamespace::VRCenterAdjust* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5d5b878, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5d5adec, size 0x10c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5d5b76c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5d5ace0, size 0x10c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetRoom, addr 0x5d5b5a4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ResetRoom, addr 0x5d5ab18, size 0xcc, virtual false, abstract: false, final false
   inline void ResetRoom();
 
-  /// @brief Method SetRoomTransformOffset, addr 0x5d5b670, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetRoomTransformOffset, addr 0x5d5abe4, size 0xa8, virtual false, abstract: false, final false
   inline void SetRoomTransformOffset();
 
-  /// @brief Method Start, addr 0x5d5b544, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d5aab8, size 0x60, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x5d5b718, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5d5ac8c, size 0x54, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::SettingsApplicatorSO> const& __cordl_internal_get__settingsApplicator() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x5d5b984, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d5aef8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   VRCenterAdjust(VRCenterAdjust const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6805 };
 
   /// [Inject]
   /// @brief Field _settingsManager, offset: 0x20, size: 0x8, def value: None

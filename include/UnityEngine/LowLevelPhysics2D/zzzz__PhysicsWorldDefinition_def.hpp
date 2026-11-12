@@ -25,13 +25,13 @@ namespace UnityEngine::LowLevelPhysics2D {
 struct CORDL_TYPE PhysicsWorldDefinition {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x7015080, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7016160, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x700e65c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x700f73c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(bool useSettings);
 
-  /// @brief Method get_defaultDefinition, addr 0x70150b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_defaultDefinition, addr 0x7016198, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::LowLevelPhysics2D::PhysicsWorldDefinition get_defaultDefinition();
 
   // Ctor Parameters []
@@ -69,7 +69,7 @@ public:
                                    ::UnityEngine::LowLevelPhysics2D::PhysicsWorld_DrawColors m_DrawColors) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21634 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x338 };

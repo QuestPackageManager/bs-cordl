@@ -22,27 +22,27 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::Integers* New_ctor();
 
-  /// @brief Method NumberOfLeadingZeros, addr 0x38e9904, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method NumberOfLeadingZeros, addr 0x38edd9c, size 0x78, virtual false, abstract: false, final false
   static inline int32_t NumberOfLeadingZeros(int32_t i);
 
-  /// @brief Method NumberOfTrailingZeros, addr 0x38e997c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method NumberOfTrailingZeros, addr 0x38ede14, size 0x34, virtual false, abstract: false, final false
   static inline int32_t NumberOfTrailingZeros(int32_t i);
 
-  /// @brief Method RotateLeft, addr 0x38e99b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RotateLeft, addr 0x38ede48, size 0x14, virtual false, abstract: false, final false
   static inline int32_t RotateLeft(int32_t i, int32_t distance);
 
   /// [CLSCompliant(false)]
-  /// @brief Method RotateLeft, addr 0x38e99c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RotateLeft, addr 0x38ede5c, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t RotateLeft(uint32_t i, int32_t distance);
 
-  /// @brief Method RotateRight, addr 0x38e99d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RotateRight, addr 0x38ede70, size 0x14, virtual false, abstract: false, final false
   static inline int32_t RotateRight(int32_t i, int32_t distance);
 
   /// [CLSCompliant(false)]
-  /// @brief Method RotateRight, addr 0x38e99ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RotateRight, addr 0x38ede84, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t RotateRight(uint32_t i, int32_t distance);
 
-  /// @brief Method .ctor, addr 0x38e9a00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x38ede98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -27,16 +27,16 @@ public:
 
   static inline ::System::Diagnostics::SourceSwitch* New_ctor(::StringW displayName, ::StringW defaultSwitchValue);
 
-  /// @brief Method OnValueChanged, addr 0x67fc3d8, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method OnValueChanged, addr 0x67fca28, size 0xd4, virtual true, abstract: false, final false
   inline void OnValueChanged();
 
-  /// @brief Method .ctor, addr 0x67fc0dc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67fc72c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW defaultSwitchValue);
 
-  /// @brief Method get_Level, addr 0x67fc394, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Level, addr 0x67fc9e4, size 0x4, virtual false, abstract: false, final false
   inline ::System::Diagnostics::SourceLevels get_Level();
 
-  /// @brief Method set_Level, addr 0x67fc3d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_Level, addr 0x67fca24, size 0x4, virtual false, abstract: false, final false
   inline void set_Level(::System::Diagnostics::SourceLevels value);
 
 protected:

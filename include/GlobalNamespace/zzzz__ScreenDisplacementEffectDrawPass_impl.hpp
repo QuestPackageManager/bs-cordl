@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectDrawPass_PassData::*)()>(
     &::GlobalNamespace::ScreenDisplacementEffectDrawPass_PassData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63a69c4;
+  constexpr static std::size_t addrs = 0x63a7014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectDrawPass_PassData*>(), { ".ctor", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectDrawPass___c::*)()>(&::GlobalNamespace::ScreenDisplacementEffectDrawPass___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63a6a1c;
+  constexpr static std::size_t addrs = 0x63a706c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectDrawPass___c*>(), { ".ctor", {}, {} })));
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
                                                                                                                          ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::GlobalNamespace::ScreenDisplacementEffectDrawPass___c::_RecordRenderGraph_b__5_0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x63a6a20;
+  constexpr static std::size_t addrs = 0x63a7070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectDrawPass___c*>(),
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectDrawPass::*)(::UnityEngine::LayerMask)>(
     &::GlobalNamespace::ScreenDisplacementEffectDrawPass::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x63a4f34;
+  constexpr static std::size_t addrs = 0x63a5584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectDrawPass::*)()>(&::GlobalNamespace::ScreenDisplacementEffectDrawPass::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63a50c8;
+  constexpr static std::size_t addrs = 0x63a5718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectDrawPass*>(), { "Dispose", {}, {} })));
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ScreenDisplacementEffectDrawPass::*)(
     ::UnityEngine::Rendering::RenderGraphModule::RenderGraph*, ::UnityEngine::Rendering::ContextContainer*)>(&::GlobalNamespace::ScreenDisplacementEffectDrawPass::RecordRenderGraph)> {
   constexpr static std::size_t size = 0x9ac;
-  constexpr static std::size_t addrs = 0x63a5cb4;
+  constexpr static std::size_t addrs = 0x63a6304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ScreenDisplacementEffectDrawPass*>(),
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::ScreenDisplacementEffectDrawPass_PassData*, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext)>(
     &::GlobalNamespace::ScreenDisplacementEffectDrawPass::Render)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x63a6660;
+  constexpr static std::size_t addrs = 0x63a6cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

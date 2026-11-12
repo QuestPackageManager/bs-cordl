@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(float_t)>(&::UnityEngine::Rendering::ReceiverPlanes::IsSignBitSet)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c7c85c;
+  constexpr static std::size_t addrs = 0x6c7d93c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<::UnityEngine::Plane> (::UnityEngine::Rendering::ReceiverPlanes::*)()>(
     &::UnityEngine::Rendering::ReceiverPlanes::LightFacingFrustumPlaneSubArray)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6c7c868;
+  constexpr static std::size_t addrs = 0x6c7d948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Collections::NativeArray_1<::UnityEngine::Plane> (::UnityEngine::Rendering::ReceiverPlanes::*)()>(
     &::UnityEngine::Rendering::ReceiverPlanes::SilhouettePlaneSubArray)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6c7c8f0;
+  constexpr static std::size_t addrs = 0x6c7d9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ReceiverPlanes>(), { "SilhouettePlaneSubArray", {}, {} })));
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ReceiverPlanes (*)(::Unity::Collections::Allocator)>(
     &::UnityEngine::Rendering::ReceiverPlanes::CreateEmptyForTesting)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6c7c9bc;
+  constexpr static std::size_t addrs = 0x6c7da9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ReceiverPlanes::*)(::Unity::Jobs::JobHandle)>(&::UnityEngine::Rendering::ReceiverPlanes::Dispose)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c7ca24;
+  constexpr static std::size_t addrs = 0x6c7db04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::ReceiverPlanes (*)(::by_ref<::UnityEngine::Rendering::BatchCullingContext const>, ::Unity::Collections::Allocator)>(
     &::UnityEngine::Rendering::ReceiverPlanes::Create)> {
   constexpr static std::size_t size = 0x7cc;
-  constexpr static std::size_t addrs = 0x6c7ca88;
+  constexpr static std::size_t addrs = 0x6c7db68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -139,8 +139,8 @@ public:
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Dispose();
 
-  /// @brief Method GetExcludedLevelIdsInternalAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GetExcludedLevelIdsInternalAsync(::System::Threading::CancellationToken token);
+  /// @brief Method GetDiscontinuedLevelIdsInternalAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* GetDiscontinuedLevelIdsInternalAsync(::System::Threading::CancellationToken token);
 
   /// @brief Method GetGameDlcEntitlementStatusInternalAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetGameDlcEntitlementStatusInternalAsync(::StringW gameDlcId, ::System::Threading::CancellationToken token);
@@ -154,29 +154,29 @@ public:
   /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetExcludedLevelIdsAsync, addr 0x39a7548, size 0x10, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* IAdditionalContentEntitlementModel_GetExcludedLevelIdsAsync(::System::Threading::CancellationToken token);
+  /// @brief Method IAdditionalContentEntitlementModel.GetDiscontinuedLevelIdsAsync, addr 0x39ab9e0, size 0x10, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW>>* IAdditionalContentEntitlementModel_GetDiscontinuedLevelIdsAsync(::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetGameDlcEntitlementStatusAsync, addr 0x39a7528, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IAdditionalContentEntitlementModel.GetGameDlcEntitlementStatusAsync, addr 0x39ab9c0, size 0x10, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* IAdditionalContentEntitlementModel_GetGameDlcEntitlementStatusAsync(::StringW gameDlcId,
                                                                                                                                                        ::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetLevelDataVersionAsync, addr 0x39a7538, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IAdditionalContentEntitlementModel.GetLevelDataVersionAsync, addr 0x39ab9d0, size 0x10, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* IAdditionalContentEntitlementModel_GetLevelDataVersionAsync(::StringW levelId,
                                                                                                                                                      ::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetLevelEntitlementStatusAsync, addr 0x39a7508, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IAdditionalContentEntitlementModel.GetLevelEntitlementStatusAsync, addr 0x39ab9a0, size 0x10, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* IAdditionalContentEntitlementModel_GetLevelEntitlementStatusAsync(::StringW levelId,
                                                                                                                                                      ::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetPackEntitlementStatusAsync, addr 0x39a7518, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IAdditionalContentEntitlementModel.GetPackEntitlementStatusAsync, addr 0x39ab9b0, size 0x10, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* IAdditionalContentEntitlementModel_GetPackEntitlementStatusAsync(::StringW levelPackId,
                                                                                                                                                     ::System::Threading::CancellationToken token);
 
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Initialize();
 
-  /// @brief Method InvalidateData, addr 0x39a74b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InvalidateData, addr 0x39ab948, size 0x3c, virtual false, abstract: false, final false
   inline void InvalidateData();
 
   /// @brief Method InvalidateDataInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -187,7 +187,7 @@ public:
 
   static inline ::GlobalNamespace::AdditionalContentModel* New_ctor();
 
-  /// @brief Method NotifyDataChanged, addr 0x39a74ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method NotifyDataChanged, addr 0x39ab984, size 0x1c, virtual false, abstract: false, final false
   inline void NotifyDataChanged();
 
   /// @brief Method OpenGameDlcProductStoreAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -208,11 +208,11 @@ public:
 
   constexpr void __cordl_internal_set_didInvalidateDataEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x39a7558, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ab9f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didInvalidateDataEvent, addr 0x39a7358, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method add_didInvalidateDataEvent, addr 0x39ab7f0, size 0xac, virtual true, abstract: false, final true
   inline void add_didInvalidateDataEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::IAdditionalContentEntitlementModel"
@@ -228,7 +228,7 @@ public:
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didInvalidateDataEvent, addr 0x39a7404, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method remove_didInvalidateDataEvent, addr 0x39ab89c, size 0xac, virtual true, abstract: false, final true
   inline void remove_didInvalidateDataEvent(::System::Action* value);
 
 protected:

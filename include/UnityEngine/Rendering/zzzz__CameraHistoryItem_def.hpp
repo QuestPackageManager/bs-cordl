@@ -41,28 +41,28 @@ public:
 
   __declspec(property(get = get_storage)) ::UnityEngine::Rendering::BufferedRTHandleSystem* storage;
 
-  /// @brief Method AllocHistoryFrameRT, addr 0x6b9f334, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AllocHistoryFrameRT, addr 0x6ba0414, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* AllocHistoryFrameRT(int32_t id, int32_t count, ::by_ref<::UnityEngine::RenderTextureDescriptor> desc, ::UnityEngine::FilterMode filterMode,
                                                                  ::StringW name);
 
-  /// @brief Method AllocHistoryFrameRT, addr 0x6b9f328, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AllocHistoryFrameRT, addr 0x6ba0408, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* AllocHistoryFrameRT(int32_t id, int32_t count, ::by_ref<::UnityEngine::RenderTextureDescriptor> desc, ::StringW name);
 
-  /// @brief Method GetCurrentFrameRT, addr 0x6b9f37c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentFrameRT, addr 0x6ba045c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetCurrentFrameRT(int32_t id);
 
-  /// @brief Method GetPreviousFrameRT, addr 0x6b9f3b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetPreviousFrameRT, addr 0x6ba0490, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RTHandle* GetPreviousFrameRT(int32_t id);
 
-  /// @brief Method MakeId, addr 0x6b9f318, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method MakeId, addr 0x6ba03f8, size 0x10, virtual false, abstract: false, final false
   inline int32_t MakeId(uint32_t index);
 
   static inline ::UnityEngine::Rendering::CameraHistoryItem* New_ctor();
 
-  /// @brief Method OnCreate, addr 0x6b9f304, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method OnCreate, addr 0x6ba03e4, size 0xc, virtual true, abstract: false, final false
   inline void OnCreate(::UnityEngine::Rendering::BufferedRTHandleSystem* owner, uint32_t typeId);
 
-  /// @brief Method ReleaseHistoryFrameRT, addr 0x6b9f398, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ReleaseHistoryFrameRT, addr 0x6ba0478, size 0x18, virtual false, abstract: false, final false
   inline void ReleaseHistoryFrameRT(int32_t id);
 
   constexpr uint32_t const& __cordl_internal_get_m_TypeId() const;
@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set_m_owner(::UnityEngine::Rendering::BufferedRTHandleSystem* value);
 
-  /// @brief Method .ctor, addr 0x6b9f3cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba04ac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_storage, addr 0x6b9f310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_storage, addr 0x6ba03f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::BufferedRTHandleSystem* get_storage();
 
 protected:

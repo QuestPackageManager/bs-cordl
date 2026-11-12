@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::Start)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x5de3838;
+  constexpr static std::size_t addrs = 0x5de3948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkSparkles*>(), { "Start", {}, {} })));
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::OnDestroy)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x5de3c58;
+  constexpr static std::size_t addrs = 0x5de3d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkSparkles*>(), { "OnDestroy", {}, {} })));
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::OnEnable)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5de3d50;
+  constexpr static std::size_t addrs = 0x5de3e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkSparkles*>(), { "OnEnable", {}, {} })));
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::OnDisable)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x5de3f30;
+  constexpr static std::size_t addrs = 0x5de4040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkSparkles*>(), { "OnDisable", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SaberBurnMarkSparkles::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::by_ref<::UnityEngine::Vector3>)>(
     &::GlobalNamespace::SaberBurnMarkSparkles::GetBurnMarkPos)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x5de4014;
+  constexpr static std::size_t addrs = 0x5de4124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::LateUpdate)> {
   constexpr static std::size_t size = 0x450;
-  constexpr static std::size_t addrs = 0x5de4444;
+  constexpr static std::size_t addrs = 0x5de4554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkSparkles*>(), { "LateUpdate", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5de4894;
+  constexpr static std::size_t addrs = 0x5de49a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SaberBurnMarkSparkles*>(), { ".ctor", {}, {} })));

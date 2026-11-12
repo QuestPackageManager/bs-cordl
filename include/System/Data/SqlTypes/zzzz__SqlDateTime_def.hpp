@@ -157,58 +157,58 @@ public:
   /// @brief Convert operator to "::System::Xml::Serialization::IXmlSerializable"
   constexpr operator ::System::Xml::Serialization::IXmlSerializable*();
 
-  /// @brief Method CompareTo, addr 0x64e1f28, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method CompareTo, addr 0x64e2578, size 0x180, virtual false, abstract: false, final false
   inline int32_t CompareTo(::System::Data::SqlTypes::SqlDateTime value);
 
-  /// @brief Method CompareTo, addr 0x64e1e20, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x64e2470, size 0x108, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* value);
 
-  /// @brief Method Equals, addr 0x64e20a8, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x64e26f8, size 0x144, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method FromDateTime, addr 0x64e1284, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method FromDateTime, addr 0x64e18d4, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlDateTime FromDateTime(::System::DateTime value);
 
-  /// @brief Method FromTimeSpan, addr 0x64e1618, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method FromTimeSpan, addr 0x64e1c68, size 0x1f4, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlDateTime FromTimeSpan(::System::TimeSpan value);
 
-  /// @brief Method GetHashCode, addr 0x64e21ec, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x64e283c, size 0xc0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetXsdType, addr 0x64e2668, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetXsdType, addr 0x64e2cb8, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetXsdType(::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
-  /// @brief Method GreaterThan, addr 0x64e1da0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GreaterThan, addr 0x64e23f0, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean GreaterThan(::System::Data::SqlTypes::SqlDateTime x, ::System::Data::SqlTypes::SqlDateTime y);
 
-  /// @brief Method LessThan, addr 0x64e1d20, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method LessThan, addr 0x64e2370, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean LessThan(::System::Data::SqlTypes::SqlDateTime x, ::System::Data::SqlTypes::SqlDateTime y);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x64e22ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x64e28fc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x64e22b4, size 0x210, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x64e2904, size 0x210, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader* reader);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x64e24c4, size 0x1a4, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x64e2b14, size 0x1a4, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method ToDateTime, addr 0x64e1568, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x64e1bb8, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::DateTime ToDateTime(::System::Data::SqlTypes::SqlDateTime value);
 
-  /// @brief Method ToString, addr 0x64e1960, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x64e1fb0, size 0x100, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToTimeSpan, addr 0x64e14bc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ToTimeSpan, addr 0x64e1b0c, size 0xac, virtual false, abstract: false, final false
   static inline ::System::TimeSpan ToTimeSpan(::System::Data::SqlTypes::SqlDateTime value);
 
-  /// @brief Method .ctor, addr 0x64e1380, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64e19d0, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(int32_t dayTicks, int32_t timeTicks);
 
-  /// @brief Method .ctor, addr 0x64e1208, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64e1858, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool fNull);
 
-  /// @brief Method .ctor, addr 0x64e1214, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64e1864, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime value);
 
   static inline ::System::Data::SqlTypes::SqlDateTime getStaticF_MaxValue();
@@ -263,16 +263,16 @@ public:
 
   static inline int64_t getStaticF_s_ticksPerSecond();
 
-  /// @brief Method get_DayTicks, addr 0x64e18a8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_DayTicks, addr 0x64e1ef8, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_DayTicks();
 
-  /// @brief Method get_IsNull, addr 0x64e14ac, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x64e1afc, size 0x10, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_TimeTicks, addr 0x64e18ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_TimeTicks, addr 0x64e1f3c, size 0x44, virtual false, abstract: false, final false
   inline int32_t get_TimeTicks();
 
-  /// @brief Method get_Value, addr 0x64e180c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x64e1e5c, size 0x9c, virtual false, abstract: false, final false
   inline ::System::DateTime get_Value();
 
   /// @brief Convert to "::System::Data::SqlTypes::INullable"
@@ -284,16 +284,16 @@ public:
   /// @brief Convert to "::System::Xml::Serialization::IXmlSerializable"
   constexpr ::System::Xml::Serialization::IXmlSerializable* i___System__Xml__Serialization__IXmlSerializable();
 
-  /// @brief Method op_Equality, addr 0x64e1a60, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x64e20b0, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_Equality(::System::Data::SqlTypes::SqlDateTime x, ::System::Data::SqlTypes::SqlDateTime y);
 
-  /// @brief Method op_GreaterThan, addr 0x64e1c30, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x64e2280, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_GreaterThan(::System::Data::SqlTypes::SqlDateTime x, ::System::Data::SqlTypes::SqlDateTime y);
 
-  /// @brief Method op_Implicit, addr 0x64e1930, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x64e1f80, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlDateTime op_Implicit___System__Data__SqlTypes__SqlDateTime(::System::DateTime value);
 
-  /// @brief Method op_LessThan, addr 0x64e1b40, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x64e2190, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_LessThan(::System::Data::SqlTypes::SqlDateTime x, ::System::Data::SqlTypes::SqlDateTime y);
 
   static inline void setStaticF_MaxValue(::System::Data::SqlTypes::SqlDateTime value);

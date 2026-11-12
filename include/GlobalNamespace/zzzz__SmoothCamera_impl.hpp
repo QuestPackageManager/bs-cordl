@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCamera::*)(float_t, float_t, float_t, bool, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::SmoothCamera::Init)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x5e4f5d4;
+  constexpr static std::size_t addrs = 0x5e4fa04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCamera*>(),
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCamera::*)()>(&::GlobalNamespace::SmoothCamera::OnEnable)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5e4f7b8;
+  constexpr static std::size_t addrs = 0x5e4fbe8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCamera*>(), { "OnEnable", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCamera::*)()>(&::GlobalNamespace::SmoothCamera::OnDisable)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5e4f818;
+  constexpr static std::size_t addrs = 0x5e4fc48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCamera*>(), { "OnDisable", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCamera::*)()>(&::GlobalNamespace::SmoothCamera::LateUpdate)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x5e4f860;
+  constexpr static std::size_t addrs = 0x5e4fc90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCamera*>(), { "LateUpdate", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCamera::*)()>(&::GlobalNamespace::SmoothCamera::ApplyMainCameraParameters)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x5e4f6ac;
+  constexpr static std::size_t addrs = 0x5e4fadc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCamera*>(), { "ApplyMainCameraParameters", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCamera::*)()>(&::GlobalNamespace::SmoothCamera::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4faa0;
+  constexpr static std::size_t addrs = 0x5e4fed0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCamera*>(), { ".ctor", {}, {} })));

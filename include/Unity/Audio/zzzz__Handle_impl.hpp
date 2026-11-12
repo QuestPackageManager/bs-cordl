@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Audio::Handle_Node* (::Unity::Audio::Handle::*)()>(&::Unity::Audio::Handle::get_AtomicNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ee9ba8;
+  constexpr static std::size_t addrs = 0x6eeac88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Audio::Handle>(), { "get_AtomicNode", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Audio::Handle::*)(::Unity::Audio::Handle)>(&::Unity::Audio::Handle::Equals)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ee7c84;
+  constexpr static std::size_t addrs = 0x6ee8d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Audio::Handle>(), { "Equals", {}, { ::i2c::type_of<::Unity::Audio::Handle>() } })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Audio::Handle::*)(::System::Object*)>(&::Unity::Audio::Handle::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6ee9bb0;
+  constexpr static std::size_t addrs = 0x6eeac90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Audio::Handle>(), { ::i2c::class_of<::Unity::Audio::Handle>(), 0 }));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Unity::Audio::Handle::*)()>(&::Unity::Audio::Handle::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ee8554;
+  constexpr static std::size_t addrs = 0x6ee9634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Audio::Handle>(), { ::i2c::class_of<::Unity::Audio::Handle>(), 2 }));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Audio::Handle::*)()>(&::Unity::Audio::Handle::CheckValidOrThrow)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6ee743c;
+  constexpr static std::size_t addrs = 0x6ee851c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Audio::Handle>(), { "CheckValidOrThrow", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Audio::Handle::*)()>(&::Unity::Audio::Handle::get_ValidAndNotDisposed)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x6ee9c3c;
+  constexpr static std::size_t addrs = 0x6eead1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Audio::Handle>(), { "get_ValidAndNotDisposed", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Audio::Handle::*)()>(&::Unity::Audio::Handle::get_Valid)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ee7b18;
+  constexpr static std::size_t addrs = 0x6ee8bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Audio::Handle>(), { "get_Valid", {}, {} })));

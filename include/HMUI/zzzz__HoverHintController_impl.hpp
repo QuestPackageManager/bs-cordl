@@ -12,406 +12,406 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-//  Writing Method size for method: ::HMUI::HoverHintController__HideHintAfterDelay_d__14._ctor
+//  Writing Method size for method: ::HMUI::HoverHintController__HideHintAfterDelay_d__15._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__HideHintAfterDelay_d__14::*)(int32_t)>(&::HMUI::HoverHintController__HideHintAfterDelay_d__14::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__HideHintAfterDelay_d__15::*)(int32_t)>(&::HMUI::HoverHintController__HideHintAfterDelay_d__15::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc9374;
+  constexpr static std::size_t addrs = 0x5cc8b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__14*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__15*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::HoverHintController__HideHintAfterDelay_d__14.System_IDisposable_Dispose
+//  Writing Method size for method: ::HMUI::HoverHintController__HideHintAfterDelay_d__15.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__HideHintAfterDelay_d__14::*)()>(
-    &::HMUI::HoverHintController__HideHintAfterDelay_d__14::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__HideHintAfterDelay_d__15::*)()>(
+    &::HMUI::HoverHintController__HideHintAfterDelay_d__15::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cc97d0;
+  constexpr static std::size_t addrs = 0x5cc8fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__14*>(), { "System.IDisposable.Dispose", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__15*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::HoverHintController__HideHintAfterDelay_d__14.MoveNext
+//  Writing Method size for method: ::HMUI::HoverHintController__HideHintAfterDelay_d__15.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::HoverHintController__HideHintAfterDelay_d__14::*)()>(&::HMUI::HoverHintController__HideHintAfterDelay_d__14::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::HoverHintController__HideHintAfterDelay_d__15::*)()>(&::HMUI::HoverHintController__HideHintAfterDelay_d__15::MoveNext)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5cc97d4;
+  constexpr static std::size_t addrs = 0x5cc8fa8;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__14*>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__15*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::HoverHintController__HideHintAfterDelay_d__14.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::HMUI::HoverHintController__HideHintAfterDelay_d__15.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::HoverHintController__HideHintAfterDelay_d__14::*)()>(
-    &::HMUI::HoverHintController__HideHintAfterDelay_d__14::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::HoverHintController__HideHintAfterDelay_d__15::*)()>(
+    &::HMUI::HoverHintController__HideHintAfterDelay_d__15::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc9894;
+  constexpr static std::size_t addrs = 0x5cc9068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__14*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+                     (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__15*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::HoverHintController__HideHintAfterDelay_d__14.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::HMUI::HoverHintController__HideHintAfterDelay_d__15.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__HideHintAfterDelay_d__14::*)()>(
-    &::HMUI::HoverHintController__HideHintAfterDelay_d__14::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__HideHintAfterDelay_d__15::*)()>(
+    &::HMUI::HoverHintController__HideHintAfterDelay_d__15::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5cc989c;
+  constexpr static std::size_t addrs = 0x5cc9070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__14*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__15*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::HoverHintController__HideHintAfterDelay_d__14.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::HMUI::HoverHintController__HideHintAfterDelay_d__15.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::HoverHintController__HideHintAfterDelay_d__14::*)()>(
-    &::HMUI::HoverHintController__HideHintAfterDelay_d__14::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::HoverHintController__HideHintAfterDelay_d__15::*)()>(
+    &::HMUI::HoverHintController__HideHintAfterDelay_d__15::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc98d4;
+  constexpr static std::size_t addrs = 0x5cc90a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__14*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__15*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& HMUI::HoverHintController__HideHintAfterDelay_d__14::__cordl_internal_get___1__state() {
+constexpr int32_t& HMUI::HoverHintController__HideHintAfterDelay_d__15::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& HMUI::HoverHintController__HideHintAfterDelay_d__14::__cordl_internal_get___1__state() const {
+constexpr int32_t const& HMUI::HoverHintController__HideHintAfterDelay_d__15::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void HMUI::HoverHintController__HideHintAfterDelay_d__14::__cordl_internal_set___1__state(int32_t value) {
+constexpr void HMUI::HoverHintController__HideHintAfterDelay_d__15::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& HMUI::HoverHintController__HideHintAfterDelay_d__14::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& HMUI::HoverHintController__HideHintAfterDelay_d__15::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& HMUI::HoverHintController__HideHintAfterDelay_d__14::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& HMUI::HoverHintController__HideHintAfterDelay_d__15::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void HMUI::HoverHintController__HideHintAfterDelay_d__14::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void HMUI::HoverHintController__HideHintAfterDelay_d__15::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr ::UnityW<::HMUI::HoverHintController>& HMUI::HoverHintController__HideHintAfterDelay_d__14::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::HMUI::HoverHintController>& HMUI::HoverHintController__HideHintAfterDelay_d__15::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::HMUI::HoverHintController> const& HMUI::HoverHintController__HideHintAfterDelay_d__14::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::HMUI::HoverHintController> const& HMUI::HoverHintController__HideHintAfterDelay_d__15::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void HMUI::HoverHintController__HideHintAfterDelay_d__14::__cordl_internal_set___4__this(::UnityW<::HMUI::HoverHintController> value) {
+constexpr void HMUI::HoverHintController__HideHintAfterDelay_d__15::__cordl_internal_set___4__this(::UnityW<::HMUI::HoverHintController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-constexpr float_t& HMUI::HoverHintController__HideHintAfterDelay_d__14::__cordl_internal_get_delay() {
+constexpr float_t& HMUI::HoverHintController__HideHintAfterDelay_d__15::__cordl_internal_get_delay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
-constexpr float_t const& HMUI::HoverHintController__HideHintAfterDelay_d__14::__cordl_internal_get_delay() const {
+constexpr float_t const& HMUI::HoverHintController__HideHintAfterDelay_d__15::__cordl_internal_get_delay() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
-constexpr void HMUI::HoverHintController__HideHintAfterDelay_d__14::__cordl_internal_set_delay(float_t value) {
+constexpr void HMUI::HoverHintController__HideHintAfterDelay_d__15::__cordl_internal_set_delay(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___delay = value;
 }
-inline void HMUI::HoverHintController__HideHintAfterDelay_d__14::_ctor(int32_t __1__state) {
+inline void HMUI::HoverHintController__HideHintAfterDelay_d__15::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__14*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__15*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void HMUI::HoverHintController__HideHintAfterDelay_d__14::System_IDisposable_Dispose() {
+inline void HMUI::HoverHintController__HideHintAfterDelay_d__15::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__14*>(), { "System.IDisposable.Dispose", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__15*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool HMUI::HoverHintController__HideHintAfterDelay_d__14::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__14*>(), { "MoveNext", {}, {} })));
+inline bool HMUI::HoverHintController__HideHintAfterDelay_d__15::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__15*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* HMUI::HoverHintController__HideHintAfterDelay_d__14::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* HMUI::HoverHintController__HideHintAfterDelay_d__15::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__14*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+                   (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__15*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void HMUI::HoverHintController__HideHintAfterDelay_d__14::System_Collections_IEnumerator_Reset() {
+inline void HMUI::HoverHintController__HideHintAfterDelay_d__15::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__14*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__15*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* HMUI::HoverHintController__HideHintAfterDelay_d__14::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* HMUI::HoverHintController__HideHintAfterDelay_d__15::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__14*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__HideHintAfterDelay_d__15*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
 /// @brief [DebuggerHidden]
-inline ::HMUI::HoverHintController__HideHintAfterDelay_d__14* HMUI::HoverHintController__HideHintAfterDelay_d__14::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::HoverHintController__HideHintAfterDelay_d__14*>(__1__state));
+inline ::HMUI::HoverHintController__HideHintAfterDelay_d__15* HMUI::HoverHintController__HideHintAfterDelay_d__15::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::HoverHintController__HideHintAfterDelay_d__15*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr HMUI::HoverHintController__HideHintAfterDelay_d__14::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr HMUI::HoverHintController__HideHintAfterDelay_d__15::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-HMUI::HoverHintController__HideHintAfterDelay_d__14::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+HMUI::HoverHintController__HideHintAfterDelay_d__15::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr HMUI::HoverHintController__HideHintAfterDelay_d__14::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr HMUI::HoverHintController__HideHintAfterDelay_d__15::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* HMUI::HoverHintController__HideHintAfterDelay_d__14::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* HMUI::HoverHintController__HideHintAfterDelay_d__15::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr HMUI::HoverHintController__HideHintAfterDelay_d__14::operator ::System::IDisposable*() noexcept {
+constexpr HMUI::HoverHintController__HideHintAfterDelay_d__15::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* HMUI::HoverHintController__HideHintAfterDelay_d__14::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* HMUI::HoverHintController__HideHintAfterDelay_d__15::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::HMUI::HoverHintController__HideHintAfterDelay_d__14::HoverHintController__HideHintAfterDelay_d__14() {}
-//  Writing Method size for method: ::HMUI::HoverHintController__ShowHintAfterDelay_d__13._ctor
+constexpr ::HMUI::HoverHintController__HideHintAfterDelay_d__15::HoverHintController__HideHintAfterDelay_d__15() {}
+//  Writing Method size for method: ::HMUI::HoverHintController__ShowHintAfterDelay_d__14._ctor
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__ShowHintAfterDelay_d__13::*)(int32_t)>(&::HMUI::HoverHintController__ShowHintAfterDelay_d__13::_ctor)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__ShowHintAfterDelay_d__14::*)(int32_t)>(&::HMUI::HoverHintController__ShowHintAfterDelay_d__14::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc936c;
+  constexpr static std::size_t addrs = 0x5cc8b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__13*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__14*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::HoverHintController__ShowHintAfterDelay_d__13.System_IDisposable_Dispose
+//  Writing Method size for method: ::HMUI::HoverHintController__ShowHintAfterDelay_d__14.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__ShowHintAfterDelay_d__13::*)()>(
-    &::HMUI::HoverHintController__ShowHintAfterDelay_d__13::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__ShowHintAfterDelay_d__14::*)()>(
+    &::HMUI::HoverHintController__ShowHintAfterDelay_d__14::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cc98dc;
+  constexpr static std::size_t addrs = 0x5cc90b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__13*>(), { "System.IDisposable.Dispose", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__14*>(), { "System.IDisposable.Dispose", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::HoverHintController__ShowHintAfterDelay_d__13.MoveNext
+//  Writing Method size for method: ::HMUI::HoverHintController__ShowHintAfterDelay_d__14.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::HoverHintController__ShowHintAfterDelay_d__13::*)()>(&::HMUI::HoverHintController__ShowHintAfterDelay_d__13::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::HMUI::HoverHintController__ShowHintAfterDelay_d__14::*)()>(&::HMUI::HoverHintController__ShowHintAfterDelay_d__14::MoveNext)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5cc98e0;
+  constexpr static std::size_t addrs = 0x5cc90b4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__13*>(), { "MoveNext", {}, {} })));
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__14*>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::HoverHintController__ShowHintAfterDelay_d__13.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::HMUI::HoverHintController__ShowHintAfterDelay_d__14.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::HoverHintController__ShowHintAfterDelay_d__13::*)()>(
-    &::HMUI::HoverHintController__ShowHintAfterDelay_d__13::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::HoverHintController__ShowHintAfterDelay_d__14::*)()>(
+    &::HMUI::HoverHintController__ShowHintAfterDelay_d__14::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc99d0;
+  constexpr static std::size_t addrs = 0x5cc91a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{},
-                     (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__13*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+                     (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__14*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::HoverHintController__ShowHintAfterDelay_d__13.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::HMUI::HoverHintController__ShowHintAfterDelay_d__14.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__ShowHintAfterDelay_d__13::*)()>(
-    &::HMUI::HoverHintController__ShowHintAfterDelay_d__13::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController__ShowHintAfterDelay_d__14::*)()>(
+    &::HMUI::HoverHintController__ShowHintAfterDelay_d__14::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5cc99d8;
+  constexpr static std::size_t addrs = 0x5cc91ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__13*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__14*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::HoverHintController__ShowHintAfterDelay_d__13.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::HMUI::HoverHintController__ShowHintAfterDelay_d__14.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::HoverHintController__ShowHintAfterDelay_d__13::*)()>(
-    &::HMUI::HoverHintController__ShowHintAfterDelay_d__13::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::HMUI::HoverHintController__ShowHintAfterDelay_d__14::*)()>(
+    &::HMUI::HoverHintController__ShowHintAfterDelay_d__14::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cc9a10;
+  constexpr static std::size_t addrs = 0x5cc91e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__13*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__14*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
     return ___internal_method;
   }
 };
-constexpr int32_t& HMUI::HoverHintController__ShowHintAfterDelay_d__13::__cordl_internal_get___1__state() {
+constexpr int32_t& HMUI::HoverHintController__ShowHintAfterDelay_d__14::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& HMUI::HoverHintController__ShowHintAfterDelay_d__13::__cordl_internal_get___1__state() const {
+constexpr int32_t const& HMUI::HoverHintController__ShowHintAfterDelay_d__14::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void HMUI::HoverHintController__ShowHintAfterDelay_d__13::__cordl_internal_set___1__state(int32_t value) {
+constexpr void HMUI::HoverHintController__ShowHintAfterDelay_d__14::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& HMUI::HoverHintController__ShowHintAfterDelay_d__13::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& HMUI::HoverHintController__ShowHintAfterDelay_d__14::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& HMUI::HoverHintController__ShowHintAfterDelay_d__13::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& HMUI::HoverHintController__ShowHintAfterDelay_d__14::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void HMUI::HoverHintController__ShowHintAfterDelay_d__13::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void HMUI::HoverHintController__ShowHintAfterDelay_d__14::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr float_t& HMUI::HoverHintController__ShowHintAfterDelay_d__13::__cordl_internal_get_delay() {
+constexpr float_t& HMUI::HoverHintController__ShowHintAfterDelay_d__14::__cordl_internal_get_delay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
-constexpr float_t const& HMUI::HoverHintController__ShowHintAfterDelay_d__13::__cordl_internal_get_delay() const {
+constexpr float_t const& HMUI::HoverHintController__ShowHintAfterDelay_d__14::__cordl_internal_get_delay() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
-constexpr void HMUI::HoverHintController__ShowHintAfterDelay_d__13::__cordl_internal_set_delay(float_t value) {
+constexpr void HMUI::HoverHintController__ShowHintAfterDelay_d__14::__cordl_internal_set_delay(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___delay = value;
 }
-constexpr ::UnityW<::HMUI::HoverHint>& HMUI::HoverHintController__ShowHintAfterDelay_d__13::__cordl_internal_get_hoverHint() {
+constexpr ::UnityW<::HMUI::HoverHint>& HMUI::HoverHintController__ShowHintAfterDelay_d__14::__cordl_internal_get_hoverHint() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hoverHint;
 }
-constexpr ::UnityW<::HMUI::HoverHint> const& HMUI::HoverHintController__ShowHintAfterDelay_d__13::__cordl_internal_get_hoverHint() const {
+constexpr ::UnityW<::HMUI::HoverHint> const& HMUI::HoverHintController__ShowHintAfterDelay_d__14::__cordl_internal_get_hoverHint() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hoverHint;
 }
-constexpr void HMUI::HoverHintController__ShowHintAfterDelay_d__13::__cordl_internal_set_hoverHint(::UnityW<::HMUI::HoverHint> value) {
+constexpr void HMUI::HoverHintController__ShowHintAfterDelay_d__14::__cordl_internal_set_hoverHint(::UnityW<::HMUI::HoverHint> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hoverHint = value;
 }
-constexpr ::UnityW<::HMUI::HoverHintController>& HMUI::HoverHintController__ShowHintAfterDelay_d__13::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::HMUI::HoverHintController>& HMUI::HoverHintController__ShowHintAfterDelay_d__14::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::HMUI::HoverHintController> const& HMUI::HoverHintController__ShowHintAfterDelay_d__13::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::HMUI::HoverHintController> const& HMUI::HoverHintController__ShowHintAfterDelay_d__14::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void HMUI::HoverHintController__ShowHintAfterDelay_d__13::__cordl_internal_set___4__this(::UnityW<::HMUI::HoverHintController> value) {
+constexpr void HMUI::HoverHintController__ShowHintAfterDelay_d__14::__cordl_internal_set___4__this(::UnityW<::HMUI::HoverHintController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____4__this = value;
 }
-inline void HMUI::HoverHintController__ShowHintAfterDelay_d__13::_ctor(int32_t __1__state) {
+inline void HMUI::HoverHintController__ShowHintAfterDelay_d__14::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__13*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__14*>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, __1__state);
 }
-inline void HMUI::HoverHintController__ShowHintAfterDelay_d__13::System_IDisposable_Dispose() {
+inline void HMUI::HoverHintController__ShowHintAfterDelay_d__14::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__13*>(), { "System.IDisposable.Dispose", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__14*>(), { "System.IDisposable.Dispose", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline bool HMUI::HoverHintController__ShowHintAfterDelay_d__13::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__13*>(), { "MoveNext", {}, {} })));
+inline bool HMUI::HoverHintController__ShowHintAfterDelay_d__14::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__14*>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method);
 }
-inline ::System::Object* HMUI::HoverHintController__ShowHintAfterDelay_d__13::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* HMUI::HoverHintController__ShowHintAfterDelay_d__14::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{},
-                   (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__13*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
+                   (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__14*>(), { "System.Collections.Generic.IEnumerator<System.Object>.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
-inline void HMUI::HoverHintController__ShowHintAfterDelay_d__13::System_Collections_IEnumerator_Reset() {
+inline void HMUI::HoverHintController__ShowHintAfterDelay_d__14::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__13*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__14*>(), { "System.Collections.IEnumerator.Reset", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-inline ::System::Object* HMUI::HoverHintController__ShowHintAfterDelay_d__13::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* HMUI::HoverHintController__ShowHintAfterDelay_d__14::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__13*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController__ShowHintAfterDelay_d__14*>(), { "System.Collections.IEnumerator.get_Current", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*>(this, ___internal_method);
 }
 /// @brief [DebuggerHidden]
-inline ::HMUI::HoverHintController__ShowHintAfterDelay_d__13* HMUI::HoverHintController__ShowHintAfterDelay_d__13::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::HoverHintController__ShowHintAfterDelay_d__13*>(__1__state));
+inline ::HMUI::HoverHintController__ShowHintAfterDelay_d__14* HMUI::HoverHintController__ShowHintAfterDelay_d__14::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::i2c::no_logger{}, ::i2c::new_ctor<::HMUI::HoverHintController__ShowHintAfterDelay_d__14*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr HMUI::HoverHintController__ShowHintAfterDelay_d__13::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr HMUI::HoverHintController__ShowHintAfterDelay_d__14::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-HMUI::HoverHintController__ShowHintAfterDelay_d__13::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+HMUI::HoverHintController__ShowHintAfterDelay_d__14::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr HMUI::HoverHintController__ShowHintAfterDelay_d__13::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr HMUI::HoverHintController__ShowHintAfterDelay_d__14::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* HMUI::HoverHintController__ShowHintAfterDelay_d__13::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* HMUI::HoverHintController__ShowHintAfterDelay_d__14::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr HMUI::HoverHintController__ShowHintAfterDelay_d__13::operator ::System::IDisposable*() noexcept {
+constexpr HMUI::HoverHintController__ShowHintAfterDelay_d__14::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* HMUI::HoverHintController__ShowHintAfterDelay_d__13::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* HMUI::HoverHintController__ShowHintAfterDelay_d__14::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::HMUI::HoverHintController__ShowHintAfterDelay_d__13::HoverHintController__ShowHintAfterDelay_d__13() {}
+constexpr ::HMUI::HoverHintController__ShowHintAfterDelay_d__14::HoverHintController__ShowHintAfterDelay_d__14() {}
 //  Writing Method size for method: ::HMUI::HoverHintController.Awake
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)()>(&::HMUI::HoverHintController::Awake)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x5cc8a54;
+  constexpr static std::size_t addrs = 0x5cc81ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController*>(), { "Awake", {}, {} })));
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)()>(&::HMUI::HoverHintController::OnDestroy)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5cc8d1c;
+  constexpr static std::size_t addrs = 0x5cc8474;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController*>(), { "OnDestroy", {}, {} })));
@@ -435,10 +435,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)(bool)>(&::HMUI::HoverHintController::OnApplicationFocus)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5cc9000;
+  constexpr static std::size_t addrs = 0x5cc8758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController*>(), { "OnApplicationFocus", {}, { ::i2c::type_of<bool>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::HoverHintController.SetHintPanelHoverable
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)(bool)>(&::HMUI::HoverHintController::SetHintPanelHoverable)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5cc877c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController*>(), { "SetHintPanelHoverable", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -447,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)(::HMUI::HoverHint*)>(&::HMUI::HoverHintController::ShowHint)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5cc8650;
+  constexpr static std::size_t addrs = 0x5cc7da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -460,7 +473,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)(::HMUI::HoverHint*)>(&::HMUI::HoverHintController::ShowHintInternal)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5cc9024;
+  constexpr static std::size_t addrs = 0x5cc87f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -473,7 +486,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)(::HMUI::HoverHint*)>(&::HMUI::HoverHintController::HideHint)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5cc88ec;
+  constexpr static std::size_t addrs = 0x5cc8044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -486,7 +499,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)()>(&::HMUI::HoverHintController::RetargetPanelOrHideAfterDelay)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5cc9238;
+  constexpr static std::size_t addrs = 0x5cc8a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController*>(), { "RetargetPanelOrHideAfterDelay", {}, {} })));
@@ -498,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)(::HMUI::HoverHint*)>(&::HMUI::HoverHintController::HideHintInstant)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x5cc87f8;
+  constexpr static std::size_t addrs = 0x5cc7f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -512,7 +525,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::HMUI::HoverHintController::*)(::HMUI::HoverHint*, float_t)>(
     &::HMUI::HoverHintController::ShowHintAfterDelay)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5cc91c8;
+  constexpr static std::size_t addrs = 0x5cc899c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -525,7 +538,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::HMUI::HoverHintController::*)(float_t)>(&::HMUI::HoverHintController::HideHintAfterDelay)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5cc9308;
+  constexpr static std::size_t addrs = 0x5cc8adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -538,7 +551,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)(::HMUI::HoverHint*)>(&::HMUI::HoverHintController::SetupAndShowHintPanel)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x5cc9090;
+  constexpr static std::size_t addrs = 0x5cc8864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -551,7 +564,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::HMUI::HoverHint*)>(&::HMUI::HoverHintController::GetScreenTransformForHoverHint)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x5cc937c;
+  constexpr static std::size_t addrs = 0x5cc8b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -564,7 +577,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)()>(&::HMUI::HoverHintController::HandleHoverHintPanelPointerDidEnter)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cc9738;
+  constexpr static std::size_t addrs = 0x5cc8f0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController*>(), { "HandleHoverHintPanelPointerDidEnter", {}, {} })));
@@ -576,7 +589,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)()>(&::HMUI::HoverHintController::HandleHoverHintPanelPointerDidExit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cc9754;
+  constexpr static std::size_t addrs = 0x5cc8f28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController*>(), { "HandleHoverHintPanelPointerDidExit", {}, {} })));
@@ -588,7 +601,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::HoverHintController::*)()>(&::HMUI::HoverHintController::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5cc9758;
+  constexpr static std::size_t addrs = 0x5cc8f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController*>(), { ".ctor", {}, {} })));
@@ -642,6 +655,11 @@ inline void HMUI::HoverHintController::OnDestroy() {
 inline void HMUI::HoverHintController::OnApplicationFocus(bool hasFocus) {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController*>(), { "OnApplicationFocus", {}, { ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, hasFocus);
+}
+inline void HMUI::HoverHintController::SetHintPanelHoverable(bool isHoverable) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::HoverHintController*>(), { "SetHintPanelHoverable", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, isHoverable);
 }
 inline void HMUI::HoverHintController::ShowHint(::HMUI::HoverHint* hoverHint) {
   static auto* ___internal_method =

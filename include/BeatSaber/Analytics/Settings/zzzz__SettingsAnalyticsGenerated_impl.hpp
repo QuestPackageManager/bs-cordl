@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::BeatSaber::Settings::AudioSettings, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>*)>(
     &::BeatSaber::Analytics::Settings::SettingsAnalyticsGenerated::AppendAudioSnapshot)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3504704;
+  constexpr static std::size_t addrs = 0x3506b44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::ColorSchemesSettings*, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>*)>(
     &::BeatSaber::Analytics::Settings::SettingsAnalyticsGenerated::AppendColorsSnapshot)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3504858;
+  constexpr static std::size_t addrs = 0x3506c98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::BeatSaber::Settings::ControllerSettings, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>*)>(
     &::BeatSaber::Analytics::Settings::SettingsAnalyticsGenerated::AppendControllerSnapshot)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3504a18;
+  constexpr static std::size_t addrs = 0x3506e58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::OverrideEnvironmentSettings*, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>*)>(
     &::BeatSaber::Analytics::Settings::SettingsAnalyticsGenerated::AppendEnvironmentsSnapshot)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3504b08;
+  constexpr static std::size_t addrs = 0x3506f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::BeatSaber::Settings::QualitySettings, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>*)>(
     &::BeatSaber::Analytics::Settings::SettingsAnalyticsGenerated::AppendGraphicsSnapshot)> {
   constexpr static std::size_t size = 0x938;
-  constexpr static std::size_t addrs = 0x3504bfc;
+  constexpr static std::size_t addrs = 0x350703c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::BeatSaber::Settings::MiscSettings, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>*)>(
     &::BeatSaber::Analytics::Settings::SettingsAnalyticsGenerated::AppendMiscSnapshot)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3505534;
+  constexpr static std::size_t addrs = 0x3507974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::GlobalNamespace::PlayerSpecificSettings*, ::System::Collections::Generic::List_1<::System::ValueTuple_2<::StringW, float_t>>*)>(
     &::BeatSaber::Analytics::Settings::SettingsAnalyticsGenerated::AppendPlayerSnapshot)> {
   constexpr static std::size_t size = 0xab4;
-  constexpr static std::size_t addrs = 0x3505674;
+  constexpr static std::size_t addrs = 0x3507ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

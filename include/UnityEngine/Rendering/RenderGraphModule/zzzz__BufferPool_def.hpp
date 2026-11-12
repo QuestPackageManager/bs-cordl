@@ -24,24 +24,24 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 class CORDL_TYPE BufferPool : public ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<::UnityEngine::GraphicsBuffer*> {
 public:
   // Declarations
-  /// @brief Method GetResourceName, addr 0x6c4a1c4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetResourceName, addr 0x6c4b2a4, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetResourceName(/* [IsReadOnly] */ ::by_ref<::UnityEngine::GraphicsBuffer* const> res);
 
-  /// @brief Method GetResourceSize, addr 0x6c4a208, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetResourceSize, addr 0x6c4b2e8, size 0x44, virtual true, abstract: false, final false
   inline int64_t GetResourceSize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::GraphicsBuffer* const> res);
 
-  /// @brief Method GetResourceTypeName, addr 0x6c4a24c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetResourceTypeName, addr 0x6c4b32c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetResourceTypeName();
 
-  /// @brief Method GetSortIndex, addr 0x6c4a290, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetSortIndex, addr 0x6c4b370, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetSortIndex(::UnityEngine::GraphicsBuffer* res);
 
   static inline ::UnityEngine::Rendering::RenderGraphModule::BufferPool* New_ctor();
 
-  /// @brief Method ReleaseInternalResource, addr 0x6c4a1b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ReleaseInternalResource, addr 0x6c4b290, size 0x14, virtual true, abstract: false, final false
   inline void ReleaseInternalResource(::UnityEngine::GraphicsBuffer* res);
 
-  /// @brief Method .ctor, addr 0x6c4a2b0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4b390, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

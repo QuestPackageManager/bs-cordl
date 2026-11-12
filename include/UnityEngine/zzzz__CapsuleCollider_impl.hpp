@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::UnityEngine::CapsuleCollider::*)()>(&::UnityEngine::CapsuleCollider::get_center)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x7024164;
+  constexpr static std::size_t addrs = 0x7025244;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CapsuleCollider*>(), { "get_center", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CapsuleCollider::*)(::UnityEngine::Vector3)>(&::UnityEngine::CapsuleCollider::set_center)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x7024248;
+  constexpr static std::size_t addrs = 0x7025328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::CapsuleCollider::*)()>(&::UnityEngine::CapsuleCollider::get_radius)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7024324;
+  constexpr static std::size_t addrs = 0x7025404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CapsuleCollider*>(), { "get_radius", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CapsuleCollider::*)(float_t)>(&::UnityEngine::CapsuleCollider::set_radius)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x70243e0;
+  constexpr static std::size_t addrs = 0x70254c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CapsuleCollider*>(), { "set_radius", {}, { ::i2c::type_of<float_t>() } })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::CapsuleCollider::*)()>(&::UnityEngine::CapsuleCollider::get_height)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x70244bc;
+  constexpr static std::size_t addrs = 0x702559c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CapsuleCollider*>(), { "get_height", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CapsuleCollider::*)(float_t)>(&::UnityEngine::CapsuleCollider::set_height)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x7024578;
+  constexpr static std::size_t addrs = 0x7025658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CapsuleCollider*>(), { "set_height", {}, { ::i2c::type_of<float_t>() } })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::CapsuleCollider::*)()>(&::UnityEngine::CapsuleCollider::get_direction)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x7024654;
+  constexpr static std::size_t addrs = 0x7025734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CapsuleCollider*>(), { "get_direction", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CapsuleCollider::*)(int32_t)>(&::UnityEngine::CapsuleCollider::set_direction)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x7024710;
+  constexpr static std::size_t addrs = 0x70257f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::CapsuleCollider::*)()>(&::UnityEngine::CapsuleCollider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x70247e4;
+  constexpr static std::size_t addrs = 0x70258c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::CapsuleCollider*>(), { ".ctor", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3>)>(&::UnityEngine::CapsuleCollider::get_center_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7024204;
+  constexpr static std::size_t addrs = 0x70252e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::CapsuleCollider::set_center_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x70242e0;
+  constexpr static std::size_t addrs = 0x70253c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::CapsuleCollider::get_radius_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x70243a4;
+  constexpr static std::size_t addrs = 0x7025484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::CapsuleCollider::set_radius_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x7024470;
+  constexpr static std::size_t addrs = 0x7025550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::CapsuleCollider::get_height_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x702453c;
+  constexpr static std::size_t addrs = 0x702561c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::CapsuleCollider::set_height_Injected)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x7024608;
+  constexpr static std::size_t addrs = 0x70256e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::CapsuleCollider::get_direction_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x70246d4;
+  constexpr static std::size_t addrs = 0x70257b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, int32_t)>(&::UnityEngine::CapsuleCollider::set_direction_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x70247a0;
+  constexpr static std::size_t addrs = 0x7025880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

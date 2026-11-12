@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AncestorFilter::*)()>(&::UnityEngine::UIElements::AncestorFilter::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x7252aa4;
+  constexpr static std::size_t addrs = 0x7253b84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AncestorFilter*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AncestorFilter::*)(int32_t)>(&::UnityEngine::UIElements::AncestorFilter::AddHash)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x7252b1c;
+  constexpr static std::size_t addrs = 0x7253bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::AncestorFilter::*)(::UnityEngine::UIElements::StyleComplexSelector*)>(
     &::UnityEngine::UIElements::AncestorFilter::IsCandidate)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7252bbc;
+  constexpr static std::size_t addrs = 0x7253c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AncestorFilter*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AncestorFilter::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::AncestorFilter::PushElement)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x7252c14;
+  constexpr static std::size_t addrs = 0x7253cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::AncestorFilter::*)()>(&::UnityEngine::UIElements::AncestorFilter::PopElement)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x7252d80;
+  constexpr static std::size_t addrs = 0x7253e60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::AncestorFilter*>(), { "PopElement", {}, {} })));

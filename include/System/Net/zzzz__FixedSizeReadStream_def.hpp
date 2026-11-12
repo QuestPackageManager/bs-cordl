@@ -53,11 +53,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x6895dec, size 0x360, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x689643c, size 0x360, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x689614c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x689679c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -149,7 +149,7 @@ public:
   static inline ::System::Net::FixedSizeReadStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
 
   /// [AsyncStateMachine(typeof(System.Net.FixedSizeReadStream::<ProcessReadAsync>d__5))]
-  /// @brief Method ProcessReadAsync, addr 0x6895cd8, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ProcessReadAsync, addr 0x6896328, size 0x114, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken);
 
   constexpr int64_t const& __cordl_internal_get__ContentLength_k__BackingField() const;
@@ -164,11 +164,11 @@ public:
 
   constexpr void __cordl_internal_set_position(int64_t value);
 
-  /// @brief Method .ctor, addr 0x6895cb0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6896300, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
 
   /// [CompilerGenerated]
-  /// @brief Method get_ContentLength, addr 0x6895ca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentLength, addr 0x68962f8, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ContentLength();
 
 protected:

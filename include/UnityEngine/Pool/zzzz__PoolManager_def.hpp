@@ -32,7 +32,7 @@ public:
   __declspec(property(get = getStaticF_s_WeakPoolReferences,
                       put = setStaticF_s_WeakPoolReferences)) ::System::Collections::Generic::List_1<::System::WeakReference_1<::UnityEngine::Pool::IPool*>*>* s_WeakPoolReferences;
 
-  /// @brief Method Register, addr 0x6f99da4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x6f9ae84, size 0x128, virtual false, abstract: false, final false
   static inline void Register(::UnityEngine::Pool::IPool* pool);
 
   static inline ::System::Collections::Generic::List_1<::System::WeakReference_1<::UnityEngine::Pool::IPool*>*>* getStaticF_s_WeakPoolReferences();

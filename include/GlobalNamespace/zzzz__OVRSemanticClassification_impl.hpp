@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::StringW>* (::GlobalNamespace::OVRSemanticClassification::*)()>(
     &::GlobalNamespace::OVRSemanticClassification::get_Labels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6327c18;
+  constexpr static std::size_t addrs = 0x6327ea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSemanticClassification*>(), { "get_Labels", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::OVRSemanticClassification::*)(::StringW)>(&::GlobalNamespace::OVRSemanticClassification::Contains)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6327c20;
+  constexpr static std::size_t addrs = 0x6327ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSemanticClassification::*)()>(&::GlobalNamespace::OVRSemanticClassification::Awake)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6327d38;
+  constexpr static std::size_t addrs = 0x6327fc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSemanticClassification*>(), { "Awake", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSemanticClassification::*)()>(&::GlobalNamespace::OVRSemanticClassification::IOVRSceneComponent_Initialize)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6327e10;
+  constexpr static std::size_t addrs = 0x6328098;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::OVRSemanticClassification::ValidateAndUpgradeLabels)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x6327f60;
+  constexpr static std::size_t addrs = 0x63281e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OVRSemanticClassification::*)()>(&::GlobalNamespace::OVRSemanticClassification::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x63283b8;
+  constexpr static std::size_t addrs = 0x6328640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OVRSemanticClassification*>(), { ".ctor", {}, {} })));

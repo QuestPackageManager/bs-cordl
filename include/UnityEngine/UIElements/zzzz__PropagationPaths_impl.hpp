@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropagationPaths___c::*)()>(&::UnityEngine::UIElements::PropagationPaths___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7271b10;
+  constexpr static std::size_t addrs = 0x7272bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropagationPaths___c*>(), { ".ctor", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PropagationPaths* (::UnityEngine::UIElements::PropagationPaths___c::*)()>(
     &::UnityEngine::UIElements::PropagationPaths___c::__cctor_b__8_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x7271b14;
+  constexpr static std::size_t addrs = 0x7272bf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropagationPaths___c*>(), { "<.cctor>b__8_0", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropagationPaths::*)()>(&::UnityEngine::UIElements::PropagationPaths::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x7271814;
+  constexpr static std::size_t addrs = 0x72728f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropagationPaths*>(), { ".ctor", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::PropagationPaths* (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::EventBase*, int32_t)>(
     &::UnityEngine::UIElements::PropagationPaths::Build)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x7265bdc;
+  constexpr static std::size_t addrs = 0x7266cbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::PropagationPaths::*)()>(&::UnityEngine::UIElements::PropagationPaths::Dispose)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x72718b0;
+  constexpr static std::size_t addrs = 0x7272990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::PropagationPaths*>(), { "Dispose", {}, {} })));

@@ -42,10 +42,10 @@ public:
 
   static inline ::UnityEngine::Rendering::RenderPipelineGraphicsSettingsContainer* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x6bfa6b4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x6bfb794, size 0x4, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x6bfa6b0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x6bfb790, size 0x4, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
   constexpr ::UnityEngine::Rendering::RenderPipelineGraphicsSettingsCollection* const& __cordl_internal_get_m_RuntimeSettings() const;
@@ -54,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set_m_RuntimeSettings(::UnityEngine::Rendering::RenderPipelineGraphicsSettingsCollection* value);
 
-  /// @brief Method .ctor, addr 0x6bfa6b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bfb798, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_settingsList, addr 0x6bfa698, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_settingsList, addr 0x6bfb778, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::IRenderPipelineGraphicsSettings*>* get_settingsList();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"

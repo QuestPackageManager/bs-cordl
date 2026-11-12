@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IO::DirectoryInfo* (*)(::StringW)>(&::System::IO::Directory::CreateDirectory)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x605b618;
+  constexpr static std::size_t addrs = 0x605b8a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Directory*>(), { "CreateDirectory", {}, { ::i2c::type_of<::StringW>() } })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::System::IO::Directory::Exists)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x604947c;
+  constexpr static std::size_t addrs = 0x6049704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Directory*>(), { "Exists", {}, { ::i2c::type_of<::StringW>() } })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::StringW)>(&::System::IO::Directory::GetFiles)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x605b7b0;
+  constexpr static std::size_t addrs = 0x605ba38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Directory*>(), { "GetFiles", {}, { ::i2c::type_of<::StringW>() } })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::StringW, ::StringW)>(&::System::IO::Directory::GetFiles)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x605b8dc;
+  constexpr static std::size_t addrs = 0x605bb64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)(::StringW, ::StringW, ::System::IO::EnumerationOptions*)>(&::System::IO::Directory::GetFiles)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x605b870;
+  constexpr static std::size_t addrs = 0x605baf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::StringW, ::StringW, ::System::IO::SearchTarget, ::System::IO::EnumerationOptions*)>(
         &::System::IO::Directory::InternalEnumeratePaths)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x605b988;
+  constexpr static std::size_t addrs = 0x605bc10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::StringW, ::StringW, ::System::IO::SearchOption)>(
     &::System::IO::Directory::EnumerateDirectories)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x605bb60;
+  constexpr static std::size_t addrs = 0x605bde8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::StringW, ::StringW, ::System::IO::EnumerationOptions*)>(
     &::System::IO::Directory::EnumerateDirectories)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x605bd38;
+  constexpr static std::size_t addrs = 0x605bfc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::StringW)>(&::System::IO::Directory::EnumerateFileSystemEntries)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x604aca0;
+  constexpr static std::size_t addrs = 0x604af28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (*)(::StringW, ::StringW, ::System::IO::EnumerationOptions*)>(
     &::System::IO::Directory::EnumerateFileSystemEntries)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x605bd44;
+  constexpr static std::size_t addrs = 0x605bfcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::IO::Directory::InternalGetDirectoryRoot)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x604a390;
+  constexpr static std::size_t addrs = 0x604a618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::IO::Directory::GetCurrentDirectory)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x605bd50;
+  constexpr static std::size_t addrs = 0x605bfd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Directory*>(), { "GetCurrentDirectory", {}, {} })));
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, bool)>(&::System::IO::Directory::Delete)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x605bd54;
+  constexpr static std::size_t addrs = 0x605bfdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::StringW> (*)()>(&::System::IO::Directory::GetLogicalDrives)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x605bdc4;
+  constexpr static std::size_t addrs = 0x605c04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Directory*>(), { "GetLogicalDrives", {}, {} })));
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::DirectorySecurity* (*)(::StringW, ::System::Security::AccessControl::AccessControlSections)>(
     &::System::IO::Directory::GetAccessControl)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x605bdc8;
+  constexpr static std::size_t addrs = 0x605c050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::AccessControl::DirectorySecurity* (*)(::StringW)>(&::System::IO::Directory::GetAccessControl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x605be40;
+  constexpr static std::size_t addrs = 0x605c0c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Directory*>(), { "GetAccessControl", {}, { ::i2c::type_of<::StringW>() } })));
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::IO::Directory::InsecureGetCurrentDirectory)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x605be48;
+  constexpr static std::size_t addrs = 0x605c0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::IO::Directory*>(), { "InsecureGetCurrentDirectory", {}, {} })));

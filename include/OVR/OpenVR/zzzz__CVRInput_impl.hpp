@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::OVR::OpenVR::CVRInput::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRInput::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x629dd0c;
+  constexpr static std::size_t addrs = 0x629df94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::OVR::OpenVR::CVRInput*>(), { ".ctor", {}, { ::i2c::type_of<::System::IntPtr>() } })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(::StringW)>(&::OVR::OpenVR::CVRInput::SetActionManifestPath)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x629de0c;
+  constexpr static std::size_t addrs = 0x629e094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(::StringW, ::by_ref<uint64_t>)>(&::OVR::OpenVR::CVRInput::GetActionSetHandle)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x629de2c;
+  constexpr static std::size_t addrs = 0x629e0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(::StringW, ::by_ref<uint64_t>)>(&::OVR::OpenVR::CVRInput::GetActionHandle)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x629de50;
+  constexpr static std::size_t addrs = 0x629e0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(::StringW, ::by_ref<uint64_t>)>(&::OVR::OpenVR::CVRInput::GetInputSourceHandle)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x629de74;
+  constexpr static std::size_t addrs = 0x629e0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(::ArrayW<::OVR::OpenVR::VRActiveActionSet_t>, uint32_t)>(
     &::OVR::OpenVR::CVRInput::UpdateActionState)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x629de98;
+  constexpr static std::size_t addrs = 0x629e120;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(uint64_t, ::by_ref<::OVR::OpenVR::InputDigitalActionData_t>, uint32_t, uint64_t)>(
     &::OVR::OpenVR::CVRInput::GetDigitalActionData)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x629dec4;
+  constexpr static std::size_t addrs = 0x629e14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(uint64_t, ::by_ref<::OVR::OpenVR::InputAnalogActionData_t>, uint32_t, uint64_t)>(
     &::OVR::OpenVR::CVRInput::GetAnalogActionData)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x629dee4;
+  constexpr static std::size_t addrs = 0x629e16c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(
     uint64_t, ::OVR::OpenVR::ETrackingUniverseOrigin, float_t, ::by_ref<::OVR::OpenVR::InputPoseActionData_t>, uint32_t, uint64_t)>(&::OVR::OpenVR::CVRInput::GetPoseActionData)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x629df04;
+  constexpr static std::size_t addrs = 0x629e18c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(uint64_t, ::by_ref<::OVR::OpenVR::InputSkeletalActionData_t>, uint32_t, uint64_t)>(
     &::OVR::OpenVR::CVRInput::GetSkeletalActionData)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x629df24;
+  constexpr static std::size_t addrs = 0x629e1ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(
     uint64_t, ::OVR::OpenVR::EVRSkeletalTransformSpace, ::OVR::OpenVR::EVRSkeletalMotionRange, ::ArrayW<::OVR::OpenVR::VRBoneTransform_t>, uint64_t)>(&::OVR::OpenVR::CVRInput::GetSkeletalBoneData)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x629df44;
+  constexpr static std::size_t addrs = 0x629e1cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputEr
     uint64_t, ::OVR::OpenVR::EVRSkeletalTransformSpace, ::OVR::OpenVR::EVRSkeletalMotionRange, ::System::IntPtr, uint32_t, ::by_ref<uint32_t>, uint64_t)>(
     &::OVR::OpenVR::CVRInput::GetSkeletalBoneDataCompressed)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x629df74;
+  constexpr static std::size_t addrs = 0x629e1fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(
     ::System::IntPtr, uint32_t, ::by_ref<::OVR::OpenVR::EVRSkeletalTransformSpace>, ::ArrayW<::OVR::OpenVR::VRBoneTransform_t>)>(&::OVR::OpenVR::CVRInput::DecompressSkeletalBoneData)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x629dfa0;
+  constexpr static std::size_t addrs = 0x629e228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(uint64_t, float_t, float_t, float_t, float_t, uint64_t)>(
     &::OVR::OpenVR::CVRInput::TriggerHapticVibrationAction)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x629dfcc;
+  constexpr static std::size_t addrs = 0x629e254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(uint64_t, uint64_t, ::ArrayW<uint64_t>)>(&::OVR::OpenVR::CVRInput::GetActionOrigins)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x629dfec;
+  constexpr static std::size_t addrs = 0x629e274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(uint64_t, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRInput::GetOriginLocalizedName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x629e018;
+  constexpr static std::size_t addrs = 0x629e2a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(uint64_t, ::by_ref<::OVR::OpenVR::InputOriginInfo_t>, uint32_t)>(
     &::OVR::OpenVR::CVRInput::GetOriginTrackedDeviceInfo)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x629e038;
+  constexpr static std::size_t addrs = 0x629e2c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(uint64_t, uint64_t)>(&::OVR::OpenVR::CVRInput::ShowActionOrigins)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x629e058;
+  constexpr static std::size_t addrs = 0x629e2e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::OVR::OpenVR::EVRInputError (::OVR::OpenVR::CVRInput::*)(::ArrayW<::OVR::OpenVR::VRActiveActionSet_t>, uint32_t, uint64_t)>(
     &::OVR::OpenVR::CVRInput::ShowBindingsForActionSet)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x629e078;
+  constexpr static std::size_t addrs = 0x629e300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

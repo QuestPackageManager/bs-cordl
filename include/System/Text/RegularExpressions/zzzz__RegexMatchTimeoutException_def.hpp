@@ -58,7 +58,7 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexMatchTimeoutException* New_ctor(::StringW regexInput, ::StringW regexPattern, ::System::TimeSpan matchTimeout);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x67f28d0, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x67f2f20, size 0x114, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   constexpr ::StringW const& __cordl_internal_get__Input_k__BackingField() const;
@@ -79,25 +79,25 @@ public:
 
   constexpr void __cordl_internal_set__Pattern_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x67f272c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67f2d7c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x67f27a4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67f2df4, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x67f2668, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67f2cb8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW regexInput, ::StringW regexPattern, ::System::TimeSpan matchTimeout);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Input, addr 0x67f29e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Input, addr 0x67f3034, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Input();
 
   /// [CompilerGenerated]
-  /// @brief Method get_MatchTimeout, addr 0x67f29f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MatchTimeout, addr 0x67f3044, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_MatchTimeout();
 
   /// [CompilerGenerated]
-  /// @brief Method get_Pattern, addr 0x67f29ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pattern, addr 0x67f303c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Pattern();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

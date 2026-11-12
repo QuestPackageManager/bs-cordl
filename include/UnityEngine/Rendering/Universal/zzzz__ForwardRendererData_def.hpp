@@ -165,7 +165,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilDeferredPS(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x6cf2688, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf3768, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -327,7 +327,7 @@ public:
   /// @brief Field xrSystemData, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_xrSystemData, put = __cordl_internal_set_xrSystemData)) ::UnityW<::UnityEngine::Rendering::Universal::XRSystemData> xrSystemData;
 
-  /// @brief Method Create, addr 0x6cf2234, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x6cf3314, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::ScriptableRenderer* Create();
 
   static inline ::UnityEngine::Rendering::Universal::ForwardRendererData* New_ctor();
@@ -404,43 +404,43 @@ public:
 
   constexpr void __cordl_internal_set_xrSystemData(::UnityW<::UnityEngine::Rendering::Universal::XRSystemData> value);
 
-  /// @brief Method .ctor, addr 0x6cf2680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf3760, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_accurateGbufferNormals, addr 0x6cf25e8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_accurateGbufferNormals, addr 0x6cf36c8, size 0x4c, virtual false, abstract: false, final false
   inline bool get_accurateGbufferNormals();
 
-  /// @brief Method get_defaultStencilState, addr 0x6cf2420, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_defaultStencilState, addr 0x6cf3500, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::StencilStateData* get_defaultStencilState();
 
-  /// @brief Method get_opaqueLayerMask, addr 0x6cf22f0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_opaqueLayerMask, addr 0x6cf33d0, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_opaqueLayerMask();
 
-  /// @brief Method get_renderingMode, addr 0x6cf2550, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_renderingMode, addr 0x6cf3630, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::RenderingMode get_renderingMode();
 
-  /// @brief Method get_shadowTransparentReceive, addr 0x6cf24b8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_shadowTransparentReceive, addr 0x6cf3598, size 0x4c, virtual false, abstract: false, final false
   inline bool get_shadowTransparentReceive();
 
-  /// @brief Method get_transparentLayerMask, addr 0x6cf2388, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_transparentLayerMask, addr 0x6cf3468, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_transparentLayerMask();
 
-  /// @brief Method set_accurateGbufferNormals, addr 0x6cf2634, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_accurateGbufferNormals, addr 0x6cf3714, size 0x4c, virtual false, abstract: false, final false
   inline void set_accurateGbufferNormals(bool value);
 
-  /// @brief Method set_defaultStencilState, addr 0x6cf246c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_defaultStencilState, addr 0x6cf354c, size 0x4c, virtual false, abstract: false, final false
   inline void set_defaultStencilState(::UnityEngine::Rendering::Universal::StencilStateData* value);
 
-  /// @brief Method set_opaqueLayerMask, addr 0x6cf233c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_opaqueLayerMask, addr 0x6cf341c, size 0x4c, virtual false, abstract: false, final false
   inline void set_opaqueLayerMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_renderingMode, addr 0x6cf259c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_renderingMode, addr 0x6cf367c, size 0x4c, virtual false, abstract: false, final false
   inline void set_renderingMode(::UnityEngine::Rendering::Universal::RenderingMode value);
 
-  /// @brief Method set_shadowTransparentReceive, addr 0x6cf2504, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_shadowTransparentReceive, addr 0x6cf35e4, size 0x4c, virtual false, abstract: false, final false
   inline void set_shadowTransparentReceive(bool value);
 
-  /// @brief Method set_transparentLayerMask, addr 0x6cf23d4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_transparentLayerMask, addr 0x6cf34b4, size 0x4c, virtual false, abstract: false, final false
   inline void set_transparentLayerMask(::UnityEngine::LayerMask value);
 
 protected:

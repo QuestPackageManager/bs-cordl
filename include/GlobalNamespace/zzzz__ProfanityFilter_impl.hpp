@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProfanityFilter_TrieNode::*)(::StringW, int32_t)>(&::GlobalNamespace::ProfanityFilter_TrieNode::AddWord)> {
   constexpr static std::size_t size = 0x4b8;
-  constexpr static std::size_t addrs = 0x35eba00;
+  constexpr static std::size_t addrs = 0x35efe98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ProfanityFilter_TrieNode::*)(::StringW, int32_t)>(&::GlobalNamespace::ProfanityFilter_TrieNode::IsMatch)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x35ebf20;
+  constexpr static std::size_t addrs = 0x35f03b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProfanityFilter_TrieNode::*)()>(&::GlobalNamespace::ProfanityFilter_TrieNode::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x35eb9f4;
+  constexpr static std::size_t addrs = 0x35efe8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProfanityFilter_TrieNode*>(), { ".ctor", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::*)(int32_t)>(
     &::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x35ec0ac;
+  constexpr static std::size_t addrs = 0x35f0544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::*)()>(
     &::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ec0f0;
+  constexpr static std::size_t addrs = 0x35f0588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::*)()>(
     &::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::MoveNext)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x35ec0f4;
+  constexpr static std::size_t addrs = 0x35f058c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4*>(), { "MoveNext", {}, {} })));
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::*)()>(
     &::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::System_Collections_Generic_IEnumerator_System_Char__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35ec18c;
+  constexpr static std::size_t addrs = 0x35f0624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4*>(),
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::*)()>(
     &::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x35ec194;
+  constexpr static std::size_t addrs = 0x35f062c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::*)()>(
     &::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35ec1cc;
+  constexpr static std::size_t addrs = 0x35f0664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerator_1<char16_t>* (::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::*)()>(
     &::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::System_Collections_Generic_IEnumerable_System_Char__GetEnumerator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x35ec1f0;
+  constexpr static std::size_t addrs = 0x35f0688;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4*>(),
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::*)()>(
     &::GlobalNamespace::ProfanityFilter__GetLookalikeLetters_d__4::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ec288;
+  constexpr static std::size_t addrs = 0x35f0720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProfanityFilter::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::GlobalNamespace::ProfanityFilter::_ctor)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x35eb6f8;
+  constexpr static std::size_t addrs = 0x35efb90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -368,7 +368,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ProfanityFilter::*)(::StringW)>(&::GlobalNamespace::ProfanityFilter::IsProfane)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x35ebeb8;
+  constexpr static std::size_t addrs = 0x35f0350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -381,7 +381,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<char16_t>* (*)(char16_t)>(&::GlobalNamespace::ProfanityFilter::GetLookalikeLetters)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x35ec03c;
+  constexpr static std::size_t addrs = 0x35f04d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -394,7 +394,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(char16_t)>(&::GlobalNamespace::ProfanityFilter::GetLeetEquivalent)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35ec0cc;
+  constexpr static std::size_t addrs = 0x35f0564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -27,24 +27,24 @@ public:
   // Declarations
   __declspec(property(get = get_JobHandle)) ::Unity::Jobs::JobHandle JobHandle;
 
-  /// @brief Method Close, addr 0x6eed7a8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x6eee888, size 0xa8, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle Close(::Unity::Jobs::JobHandle dependency);
 
   /// [FreeFunction("AsyncReadManagerManaged::GetJobFenceFromManagedHandle")]
-  /// @brief Method GetJobHandle_Internal, addr 0x6eed718, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetJobHandle_Internal, addr 0x6eee7f8, size 0x54, virtual false, abstract: false, final false
   static inline ::Unity::Jobs::JobHandle GetJobHandle_Internal(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const> handle);
 
-  /// @brief Method GetJobHandle_Internal_Injected, addr 0x6eed8ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetJobHandle_Internal_Injected, addr 0x6eee98c, size 0x44, virtual false, abstract: false, final false
   static inline void GetJobHandle_Internal_Injected(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const> handle, ::by_ref<::Unity::Jobs::JobHandle> ret);
 
   /// [FreeFunction("AsyncReadManagerManaged::IsFileHandleValid")]
-  /// @brief Method IsFileHandleValid, addr 0x6eed6dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsFileHandleValid, addr 0x6eee7bc, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsFileHandleValid(/* [IsReadOnly] */ ::by_ref<::Unity::IO::LowLevel::Unsafe::FileHandle const> handle);
 
-  /// @brief Method IsValid, addr 0x6eed76c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6eee84c, size 0x3c, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method get_JobHandle, addr 0x6eed64c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_JobHandle, addr 0x6eee72c, size 0x90, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle get_JobHandle();
 
   // Ctor Parameters []

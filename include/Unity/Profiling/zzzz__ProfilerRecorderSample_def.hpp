@@ -26,10 +26,10 @@ public:
 
   __declspec(property(get = get_Value)) int64_t Value;
 
-  /// @brief Method get_Count, addr 0x6eebdb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x6eece98, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Count();
 
-  /// @brief Method get_Value, addr 0x6eebdb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x6eece90, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Value();
 
   // Ctor Parameters []

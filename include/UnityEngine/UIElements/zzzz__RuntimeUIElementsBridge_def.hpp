@@ -22,10 +22,10 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::RuntimeUIElementsBridge* New_ctor();
 
-  /// @brief Method SetWantsMouseJumping, addr 0x7173204, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetWantsMouseJumping, addr 0x71742e4, size 0x4, virtual true, abstract: false, final false
   inline void SetWantsMouseJumping(int32_t value);
 
-  /// @brief Method .ctor, addr 0x7173208, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x71742e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

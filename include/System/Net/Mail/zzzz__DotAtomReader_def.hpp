@@ -21,7 +21,7 @@ namespace System::Net::Mail {
 class CORDL_TYPE DotAtomReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadReverse, addr 0x67d35f8, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ReadReverse, addr 0x67d3c48, size 0x230, virtual false, abstract: false, final false
   static inline int32_t ReadReverse(::StringW data, int32_t index);
 
 protected:

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::SphereCuttableBySaber::*)()>(&::GlobalNamespace::SphereCuttableBySaber::get_radius)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5e4a0a0;
+  constexpr static std::size_t addrs = 0x5e4a4d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SphereCuttableBySaber::*)(bool)>(&::GlobalNamespace::SphereCuttableBySaber::set_canBeCut)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e4a0b8;
+  constexpr static std::size_t addrs = 0x5e4a4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::SphereCuttableBySaber::*)()>(&::GlobalNamespace::SphereCuttableBySaber::get_canBeCut)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4a0f0;
+  constexpr static std::size_t addrs = 0x5e4a520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SphereCuttableBySaber::*)()>(&::GlobalNamespace::SphereCuttableBySaber::Awake)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5e4a0f8;
+  constexpr static std::size_t addrs = 0x5e4a528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SphereCuttableBySaber*>(), { "Awake", {}, {} })));
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SphereCuttableBySaber::*)(::GlobalNamespace::Saber*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion,
                                                                                                           ::UnityEngine::Vector3)>(&::GlobalNamespace::SphereCuttableBySaber::Cut)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5e4a124;
+  constexpr static std::size_t addrs = 0x5e4a554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SphereCuttableBySaber::*)()>(&::GlobalNamespace::SphereCuttableBySaber::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4a158;
+  constexpr static std::size_t addrs = 0x5e4a588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SphereCuttableBySaber*>(), { ".ctor", {}, {} })));

@@ -39,16 +39,16 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TransformHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TransformHandle>*();
 
-  /// @brief Method CompareTo, addr 0x6f92e18, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x6f93ef8, size 0x14, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::TransformHandle other);
 
-  /// @brief Method Equals, addr 0x6f92d8c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6f93e6c, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6f92e08, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6f93ee8, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TransformHandle other);
 
-  /// @brief Method GetHashCode, addr 0x6f92e2c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6f93f0c, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IComparable_1<::UnityEngine::TransformHandle>"

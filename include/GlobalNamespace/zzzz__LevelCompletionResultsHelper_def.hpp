@@ -55,7 +55,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE LevelCompletionResultsHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x39bbd48, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x39c0324, size 0x4ec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelCompletionResults*
   Create(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::ArrayW<::GlobalNamespace::BeatmapObjectExecutionRating*> beatmapObjectExecutionRatings,
          ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, int32_t multipliedScore, int32_t modifiedScore, int32_t maxCombo,
@@ -63,7 +63,7 @@ public:
          float_t rightHandMovementDistance, ::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType levelEndStateType,
          ::GlobalNamespace::LevelCompletionResultsBase_LevelEndAction levelEndAction, float_t energy, float_t startSongTime, float_t songTime, bool invalidated);
 
-  /// @brief Method ProcessScore, addr 0x39bc234, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ProcessScore, addr 0x39c0810, size 0x144, virtual false, abstract: false, final false
   static inline void ProcessScore(/* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::PlayerData* playerData,
                                   ::GlobalNamespace::PlayerLevelStatsData* playerLevelStats, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
                                   ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData, ::GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel);
@@ -83,7 +83,7 @@ public:
   LevelCompletionResultsHelper(LevelCompletionResultsHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14331 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

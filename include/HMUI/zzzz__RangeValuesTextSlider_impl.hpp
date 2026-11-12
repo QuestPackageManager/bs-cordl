@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RangeValuesTextSlider::*)(bool)>(&::HMUI::RangeValuesTextSlider::set_interactable)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5ccd398;
+  constexpr static std::size_t addrs = 0x5cccb6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RangeValuesTextSlider*>(), { "set_interactable", {}, { ::i2c::type_of<bool>() } })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::get_minValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ccd404;
+  constexpr static std::size_t addrs = 0x5cccbd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RangeValuesTextSlider*>(), { "get_minValue", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RangeValuesTextSlider::*)(float_t)>(&::HMUI::RangeValuesTextSlider::set_minValue)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5ccd40c;
+  constexpr static std::size_t addrs = 0x5cccbe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RangeValuesTextSlider*>(), { "set_minValue", {}, { ::i2c::type_of<float_t>() } })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::get_maxValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5ccd490;
+  constexpr static std::size_t addrs = 0x5cccc64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RangeValuesTextSlider*>(), { "get_maxValue", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RangeValuesTextSlider::*)(float_t)>(&::HMUI::RangeValuesTextSlider::set_maxValue)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5ccd498;
+  constexpr static std::size_t addrs = 0x5cccc6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RangeValuesTextSlider*>(), { "set_maxValue", {}, { ::i2c::type_of<float_t>() } })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::get_value)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5ccd51c;
+  constexpr static std::size_t addrs = 0x5ccccf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RangeValuesTextSlider*>(), { "get_value", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RangeValuesTextSlider::*)(float_t)>(&::HMUI::RangeValuesTextSlider::set_value)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5ccd55c;
+  constexpr static std::size_t addrs = 0x5cccd30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RangeValuesTextSlider*>(), { "set_value", {}, { ::i2c::type_of<float_t>() } })));
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RangeValuesTextSlider::*)(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>*)>(
     &::HMUI::RangeValuesTextSlider::add_valueDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5ccd598;
+  constexpr static std::size_t addrs = 0x5cccd6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RangeValuesTextSlider::*)(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>*)>(
     &::HMUI::RangeValuesTextSlider::remove_valueDidChangeEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5ccd658;
+  constexpr static std::size_t addrs = 0x5ccce2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::Awake)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x5ccd718;
+  constexpr static std::size_t addrs = 0x5ccceec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::RangeValuesTextSlider*>(), { ::i2c::class_of<::HMUI::RangeValuesTextSlider*>(), 4 }));
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::OnDestroy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5ccd968;
+  constexpr static std::size_t addrs = 0x5ccd13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::HMUI::RangeValuesTextSlider*>(), { ::i2c::class_of<::HMUI::RangeValuesTextSlider*>(), 8 }));
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RangeValuesTextSlider::*)(::HMUI::TextSlider*, float_t)>(&::HMUI::RangeValuesTextSlider::HandleNormalizedValueDidChange)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5ccda00;
+  constexpr static std::size_t addrs = 0x5ccd1d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::RangeValuesTextSlider::*)(float_t)>(&::HMUI::RangeValuesTextSlider::ConvertFromNormalizedValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ccd544;
+  constexpr static std::size_t addrs = 0x5cccd18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::HMUI::RangeValuesTextSlider::*)(float_t)>(&::HMUI::RangeValuesTextSlider::NormalizeValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5ccd578;
+  constexpr static std::size_t addrs = 0x5cccd4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::HMUI::RangeValuesTextSlider::*)(float_t)>(&::HMUI::RangeValuesTextSlider::TextForNormalizedValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5ccda34;
+  constexpr static std::size_t addrs = 0x5ccd208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::HMUI::RangeValuesTextSlider::*)(float_t)>(&::HMUI::RangeValuesTextSlider::TextForValue)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5ccda58;
+  constexpr static std::size_t addrs = 0x5ccd22c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5ccd2d8;
+  constexpr static std::size_t addrs = 0x5cccaac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RangeValuesTextSlider*>(), { ".ctor", {}, {} })));
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::_Awake_b__19_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5ccdac4;
+  constexpr static std::size_t addrs = 0x5ccd298;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RangeValuesTextSlider*>(), { "<Awake>b__19_0", {}, {} })));
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::_Awake_b__19_1)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5ccdb10;
+  constexpr static std::size_t addrs = 0x5ccd2e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::HMUI::RangeValuesTextSlider*>(), { "<Awake>b__19_1", {}, {} })));

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Oculus::Platform::MessageWithApplicationVersion::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithApplicationVersion::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x622d6dc;
+  constexpr static std::size_t addrs = 0x622d964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::ApplicationVersion* (::Oculus::Platform::MessageWithApplicationVersion::*)()>(
     &::Oculus::Platform::MessageWithApplicationVersion::GetApplicationVersion)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6230358;
+  constexpr static std::size_t addrs = 0x62305e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Models::ApplicationVersion* (::Oculus::Platform::MessageWithApplicationVersion::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithApplicationVersion::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x623039c;
+  constexpr static std::size_t addrs = 0x6230624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

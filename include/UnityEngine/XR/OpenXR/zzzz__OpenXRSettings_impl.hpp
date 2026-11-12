@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeList::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeList::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6e6bbf4;
+  constexpr static std::size_t addrs = 0x6e6ccd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings___c::*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e6bc9c;
+  constexpr static std::size_t addrs = 0x6e6cd7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings___c*>(), { ".ctor", {}, {} })));
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup (::UnityEngine::XR::OpenXR::OpenXRSettings___c::*)(int32_t)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings___c::_get_colorSubmissionModes_b__47_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e6bca0;
+  constexpr static std::size_t addrs = 0x6e6cd80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::OpenXR::OpenXRSettings___c::*)(::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings___c::_set_colorSubmissionModes_b__48_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e6bca8;
+  constexpr static std::size_t addrs = 0x6e6cd88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::OpenXR::OpenXRSettings___c::*)(::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings___c::_ApplyRenderSettings_b__64_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e6bcb0;
+  constexpr static std::size_t addrs = 0x6e6cd90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::get_featureCount)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e688e0;
+  constexpr static std::size_t addrs = 0x6e699c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "get_featureCount", {}, {} })));
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature> (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(::System::Type*)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::GetFeature)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6e688f8;
+  constexpr static std::size_t addrs = 0x6e699d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature>> (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(::System::Type*)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::GetFeatures)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6e68984;
+  constexpr static std::size_t addrs = 0x6e69a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(
     ::System::Type*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature>>*)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::GetFeatures)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6e68b00;
+  constexpr static std::size_t addrs = 0x6e69be0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature>> (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::GetFeatures)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e68c68;
+  constexpr static std::size_t addrs = 0x6e69d48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "GetFeatures", {}, {} })));
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(
     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::OpenXR::Features::OpenXRFeature>>*)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::GetFeatures)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6e68cf8;
+  constexpr static std::size_t addrs = 0x6e69dd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, float_t)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::SetAllowRecentering)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e68dc8;
+  constexpr static std::size_t addrs = 0x6e69ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::RefreshRecenterSpace)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e68e58;
+  constexpr static std::size_t addrs = 0x6e69f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "RefreshRecenterSpace", {}, {} })));
@@ -348,7 +348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::get_AllowRecentering)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e68ec0;
+  constexpr static std::size_t addrs = 0x6e69fa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "get_AllowRecentering", {}, {} })));
@@ -360,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::get_FloorOffset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e68f30;
+  constexpr static std::size_t addrs = 0x6e6a010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "get_FloorOffset", {}, {} })));
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, float_t)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_SetAllowRecentering)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6e68dcc;
+  constexpr static std::size_t addrs = 0x6e69eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(),
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_RegenerateTrackingOrigin)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e68e5c;
+  constexpr static std::size_t addrs = 0x6e69f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -398,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_GetAllowRecentering)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e68ec4;
+  constexpr static std::size_t addrs = 0x6e69fa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "Internal_GetAllowRecentering", {}, {} })));
@@ -410,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_GetFloorOffset)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e68f34;
+  constexpr static std::size_t addrs = 0x6e6a014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "Internal_GetFloorOffset", {}, {} })));
@@ -422,7 +422,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::PermissionGrantedCallback)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6e68f98;
+  constexpr static std::size_t addrs = 0x6e6a078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -435,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::IsPermissionGranted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e69120;
+  constexpr static std::size_t addrs = 0x6e6a200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -448,7 +448,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::ApplyPermissionSettings)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x6e69128;
+  constexpr static std::size_t addrs = 0x6e6a208;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "ApplyPermissionSettings", {}, {} })));
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_SetHasEyeTrackingPermissions)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e690a4;
+  constexpr static std::size_t addrs = 0x6e6a184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::get_renderMode)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6e694a8;
+  constexpr static std::size_t addrs = 0x6e6a588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "get_renderMode", {}, {} })));
@@ -487,7 +487,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(::UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::set_renderMode)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6e69600;
+  constexpr static std::size_t addrs = 0x6e6a6e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(),
@@ -501,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::OpenXRSettings_LatencyOptimization (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::get_latencyOptimization)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6e69778;
+  constexpr static std::size_t addrs = 0x6e6a858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "get_latencyOptimization", {}, {} })));
@@ -514,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(::UnityEngine::XR::OpenXR::OpenXRSettings_LatencyOptimization)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::set_latencyOptimization)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e698d0;
+  constexpr static std::size_t addrs = 0x6e6a9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -528,7 +528,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::get_autoColorSubmissionMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e698d8;
+  constexpr static std::size_t addrs = 0x6e6a9b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "get_autoColorSubmissionMode", {}, {} })));
@@ -540,7 +540,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(bool)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::set_autoColorSubmissionMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e698e0;
+  constexpr static std::size_t addrs = 0x6e6a9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -554,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup> (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::get_colorSubmissionModes)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x6e698e8;
+  constexpr static std::size_t addrs = 0x6e6a9c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "get_colorSubmissionModes", {}, {} })));
@@ -567,7 +567,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(::ArrayW<::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup>)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::set_colorSubmissionModes)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x6e69c64;
+  constexpr static std::size_t addrs = 0x6e6ad44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -582,7 +582,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::get_depthSubmissionMode)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6e69eec;
+  constexpr static std::size_t addrs = 0x6e6afcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "get_depthSubmissionMode", {}, {} })));
@@ -595,7 +595,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(::UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::set_depthSubmissionMode)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6e6a044;
+  constexpr static std::size_t addrs = 0x6e6b124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -610,7 +610,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::OpenXRSettings_SpaceWarpMotionVectorTextureFormat (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::get_spacewarpMotionVectorTextureFormat)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6e6a1bc;
+  constexpr static std::size_t addrs = 0x6e6b29c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -624,7 +624,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(::UnityEngine::XR::OpenXR::OpenXRSettings_SpaceWarpMotionVectorTextureFormat)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::set_spacewarpMotionVectorTextureFormat)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6e6a314;
+  constexpr static std::size_t addrs = 0x6e6b3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -638,7 +638,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::get_optimizeBufferDiscards)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e6a48c;
+  constexpr static std::size_t addrs = 0x6e6b56c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "get_optimizeBufferDiscards", {}, {} })));
@@ -650,7 +650,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(bool)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::set_optimizeBufferDiscards)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6e6a494;
+  constexpr static std::size_t addrs = 0x6e6b574;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -663,7 +663,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::ApplyRenderSettings)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6e6a610;
+  constexpr static std::size_t addrs = 0x6e6b6f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "ApplyRenderSettings", {}, {} })));
@@ -675,7 +675,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(uint64_t)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::LogRendererSettings)> {
   constexpr static std::size_t size = 0x570;
-  constexpr static std::size_t addrs = 0x6e6aa0c;
+  constexpr static std::size_t addrs = 0x6e6baec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -688,7 +688,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e6b038;
+  constexpr static std::size_t addrs = 0x6e6c118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "OnBeforeSerialize", {}, {} })));
@@ -700,7 +700,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6e6b04c;
+  constexpr static std::size_t addrs = 0x6e6c12c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "OnAfterDeserialize", {}, {} })));
@@ -712,7 +712,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::get_symmetricProjection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e6b06c;
+  constexpr static std::size_t addrs = 0x6e6c14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "get_symmetricProjection", {}, {} })));
@@ -724,7 +724,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(bool)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::set_symmetricProjection)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6e6b074;
+  constexpr static std::size_t addrs = 0x6e6c154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -737,7 +737,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::get_optimizeMultiviewRenderRegions)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e6b174;
+  constexpr static std::size_t addrs = 0x6e6c254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -750,7 +750,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(bool)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::set_optimizeMultiviewRenderRegions)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6e6b188;
+  constexpr static std::size_t addrs = 0x6e6c268;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -764,7 +764,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::OpenXRSettings_MultiviewRenderRegionsOptimizationMode (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::get_multiviewRenderRegionsOptimizationMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e6b28c;
+  constexpr static std::size_t addrs = 0x6e6c36c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -778,7 +778,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(::UnityEngine::XR::OpenXR::OpenXRSettings_MultiviewRenderRegionsOptimizationMode)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::set_multiviewRenderRegionsOptimizationMode)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6e6b294;
+  constexpr static std::size_t addrs = 0x6e6c374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -794,7 +794,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::get_foveatedRenderingApi)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6e6b390;
+  constexpr static std::size_t addrs = 0x6e6c470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "get_foveatedRenderingApi", {}, {} })));
@@ -807,7 +807,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(::UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::set_foveatedRenderingApi)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6e6b4e8;
+  constexpr static std::size_t addrs = 0x6e6c5c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -821,7 +821,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::get_useOpenXRPredictedTime)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x6e6b5e4;
+  constexpr static std::size_t addrs = 0x6e6c6c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "get_useOpenXRPredictedTime", {}, {} })));
@@ -833,7 +833,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(bool)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::set_useOpenXRPredictedTime)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6e6b744;
+  constexpr static std::size_t addrs = 0x6e6c824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -846,7 +846,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_SetRenderMode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e696fc;
+  constexpr static std::size_t addrs = 0x6e6a7dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -860,7 +860,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::OpenXRSettings_RenderMode (*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_GetRenderMode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e6959c;
+  constexpr static std::size_t addrs = 0x6e6a67c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "Internal_GetRenderMode", {}, {} })));
@@ -873,7 +873,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::OpenXRSettings_LatencyOptimization)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_SetLatencyOptimization)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e6a990;
+  constexpr static std::size_t addrs = 0x6e6ba70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -888,7 +888,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::OpenXRSettings_LatencyOptimization (*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_GetLatencyOptimization)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e6986c;
+  constexpr static std::size_t addrs = 0x6e6a94c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -902,7 +902,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_SetDepthSubmissionMode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e6a140;
+  constexpr static std::size_t addrs = 0x6e6b220;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -917,7 +917,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::OpenXRSettings_DepthSubmissionMode (*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_GetDepthSubmissionMode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e69fe0;
+  constexpr static std::size_t addrs = 0x6e6b0c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -931,7 +931,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::OpenXRSettings_SpaceWarpMotionVectorTextureFormat)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_SetSpaceWarpMotionVectorTextureFormat)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e6a410;
+  constexpr static std::size_t addrs = 0x6e6b4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -947,7 +947,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::OpenXRSettings_SpaceWarpMotionVectorTextureFormat (*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_GetSpaceWarpMotionVectorTextureFormat)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e6a2b0;
+  constexpr static std::size_t addrs = 0x6e6b390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -960,7 +960,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_SetSymmetricProjection)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e6a7a0;
+  constexpr static std::size_t addrs = 0x6e6b880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -974,7 +974,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::OpenXRSettings_MultiviewRenderRegionsOptimizationMode)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_SetMultiviewRenderRegionsOptimizationMode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e6a81c;
+  constexpr static std::size_t addrs = 0x6e6b8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -989,7 +989,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_SetOptimizeBufferDiscards)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e6a594;
+  constexpr static std::size_t addrs = 0x6e6b674;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1003,7 +1003,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_SetUsedFoveatedRenderingApi)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e6a914;
+  constexpr static std::size_t addrs = 0x6e6b9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1018,7 +1018,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::OpenXRSettings_BackendFovationApi (*)()>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_GetUsedFoveatedRenderingApi)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e6b484;
+  constexpr static std::size_t addrs = 0x6e6c564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1032,7 +1032,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<::UnityEngine::XR::OpenXR::OpenXRSettings_ColorSubmissionModeGroup>)>(
     &::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_SetColorSubmissionMode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6e6b844;
+  constexpr static std::size_t addrs = 0x6e6c924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1046,7 +1046,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<int32_t>, int32_t)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_SetColorSubmissionModes)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6e69e60;
+  constexpr static std::size_t addrs = 0x6e6af40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1060,7 +1060,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<int32_t>, int32_t)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_GetColorSubmissionModes)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6e69b7c;
+  constexpr static std::size_t addrs = 0x6e6ac5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1074,7 +1074,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_GetIsUsingLegacyXRDisplay)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e6b8c8;
+  constexpr static std::size_t addrs = 0x6e6c9a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1087,7 +1087,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_GetUseOpenXRPredictedTime)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e6b6d8;
+  constexpr static std::size_t addrs = 0x6e6c7b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1100,7 +1100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Internal_SetUseOpenXRPredictedTime)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e6a898;
+  constexpr static std::size_t addrs = 0x6e6b978;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1113,7 +1113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::Awake)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6e6b934;
+  constexpr static std::size_t addrs = 0x6e6ca14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "Awake", {}, {} })));
@@ -1125,7 +1125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)(bool)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::ApplySettings)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e6b984;
+  constexpr static std::size_t addrs = 0x6e6ca64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1138,7 +1138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::XR::OpenXR::OpenXRSettings> (*)(bool)>(&::UnityEngine::XR::OpenXR::OpenXRSettings::GetInstance)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6e68ff0;
+  constexpr static std::size_t addrs = 0x6e6a0d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1151,7 +1151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::XR::OpenXR::OpenXRSettings> (*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::get_ActiveBuildTargetInstance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e67c6c;
+  constexpr static std::size_t addrs = 0x6e68d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1164,7 +1164,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::XR::OpenXR::OpenXRSettings> (*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::get_Instance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e6bb04;
+  constexpr static std::size_t addrs = 0x6e6cbe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { "get_Instance", {}, {} })));
@@ -1176,7 +1176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::OpenXRSettings::*)()>(&::UnityEngine::XR::OpenXR::OpenXRSettings::_ctor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6e6bb0c;
+  constexpr static std::size_t addrs = 0x6e6cbec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::OpenXRSettings*>(), { ".ctor", {}, {} })));

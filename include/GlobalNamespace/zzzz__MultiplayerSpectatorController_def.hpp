@@ -96,26 +96,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5e432a0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e436d0, size 0x68, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e43308, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e43738, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e43310, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e43740, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e43348, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e43778, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5e4329c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5e436cc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -137,7 +137,7 @@ public:
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerSpectatorController> value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5e43264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e43694, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -164,7 +164,7 @@ public:
   MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18(MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6323 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -220,26 +220,26 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5e43354, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e43784, size 0xec, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   /// @brief [DebuggerHidden]
   static inline ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17* New_ctor(int32_t __1__state);
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e43440, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5e43870, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e43448, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5e43878, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   /// [DebuggerHidden]
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e43480, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5e438b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// [DebuggerHidden]
-  /// @brief Method System.IDisposable.Dispose, addr 0x5e43350, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5e43780, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -267,7 +267,7 @@ public:
   constexpr void __cordl_internal_set__defaultSpot_5__2(::GlobalNamespace::IMultiplayerSpectatingSpot* value);
 
   /// [DebuggerHidden]
-  /// @brief Method .ctor, addr 0x5e4325c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e4368c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -294,7 +294,7 @@ public:
   MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17(MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6324 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -359,38 +359,38 @@ public:
   __declspec(property(get = __cordl_internal_get_spectatingSpotDidChangeEvent,
                       put = __cordl_internal_set_spectatingSpotDidChangeEvent)) ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* spectatingSpotDidChangeEvent;
 
-  /// @brief Method Awake, addr 0x5e42d14, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e43144, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleStateChanged, addr 0x5e4326c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x5e4369c, size 0x2c, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
   static inline ::GlobalNamespace::MultiplayerSpectatorController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5e42dc0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5e431f0, size 0x114, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x5e42d30, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e43160, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method SwitchToDefaultSpot, addr 0x5e42ed4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SwitchToDefaultSpot, addr 0x5e43304, size 0x20, virtual false, abstract: false, final false
   inline void SwitchToDefaultSpot();
 
   /// [IteratorStateMachine(typeof(MultiplayerSpectatorController::<SwitchToDefaultSpotCoroutine>d__18))]
-  /// @brief Method SwitchToDefaultSpotCoroutine, addr 0x5e42ef4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SwitchToDefaultSpotCoroutine, addr 0x5e43324, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SwitchToDefaultSpotCoroutine();
 
   /// [IteratorStateMachine(typeof(MultiplayerSpectatorController::<SwitchToDefaultSpotWithFadeCoroutine>d__17))]
-  /// @brief Method SwitchToDefaultSpotWithFadeCoroutine, addr 0x5e43208, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SwitchToDefaultSpotWithFadeCoroutine, addr 0x5e43638, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SwitchToDefaultSpotWithFadeCoroutine();
 
-  /// @brief Method SwitchToNext, addr 0x5e431cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SwitchToNext, addr 0x5e435fc, size 0x3c, virtual false, abstract: false, final false
   inline void SwitchToNext();
 
-  /// @brief Method SwitchToPrev, addr 0x5e42f48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SwitchToPrev, addr 0x5e43378, size 0x3c, virtual false, abstract: false, final false
   inline void SwitchToPrev();
 
-  /// @brief Method SwitchToSpectatingSpot, addr 0x5e42f84, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method SwitchToSpectatingSpot, addr 0x5e433b4, size 0x248, virtual false, abstract: false, final false
   inline void SwitchToSpectatingSpot(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
 
   constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot* const& __cordl_internal_get__currentSpot() const;
@@ -435,18 +435,18 @@ public:
 
   constexpr void __cordl_internal_set_spectatingSpotDidChangeEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  /// @brief Method .ctor, addr 0x5e43298, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e436c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_spectatingSpotDidChangeEvent, addr 0x5e42b8c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_spectatingSpotDidChangeEvent, addr 0x5e42fbc, size 0xc0, virtual false, abstract: false, final false
   inline void add_spectatingSpotDidChangeEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  /// @brief Method get_currentSpot, addr 0x5e42d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentSpot, addr 0x5e4313c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IMultiplayerSpectatingSpot* get_currentSpot();
 
   /// [CompilerGenerated]
-  /// @brief Method remove_spectatingSpotDidChangeEvent, addr 0x5e42c4c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_spectatingSpotDidChangeEvent, addr 0x5e4307c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_spectatingSpotDidChangeEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
 protected:
@@ -464,7 +464,7 @@ public:
   MultiplayerSpectatorController(MultiplayerSpectatorController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6324 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6325 };
 
   /// [Inject]
   /// @brief Field _spotManager, offset: 0x20, size: 0x8, def value: None

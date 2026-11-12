@@ -44,14 +44,14 @@ public:
   inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle SetRandomAccessAttachment(::UnityEngine::Rendering::RenderGraphModule::TextureHandle tex, int32_t index,
                                                                                               ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
 
-  /// @brief Method SetRenderAttachment, addr 0x6c3f85c, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method SetRenderAttachment, addr 0x6c4093c, size 0xd4, virtual true, abstract: false, final false
   inline void SetRenderAttachment(::UnityEngine::Rendering::RenderGraphModule::TextureHandle tex, int32_t index, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
 
   /// @brief Method SetRenderAttachment, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetRenderAttachment(::UnityEngine::Rendering::RenderGraphModule::TextureHandle tex, int32_t index, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags, int32_t mipLevel,
                                   int32_t depthSlice);
 
-  /// @brief Method SetRenderAttachmentDepth, addr 0x6c3f930, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method SetRenderAttachmentDepth, addr 0x6c40a10, size 0xcc, virtual true, abstract: false, final false
   inline void SetRenderAttachmentDepth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle tex, ::UnityEngine::Rendering::RenderGraphModule::AccessFlags flags);
 
   /// @brief Method SetRenderAttachmentDepth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

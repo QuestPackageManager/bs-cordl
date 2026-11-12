@@ -41,13 +41,13 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr operator ::Newtonsoft::Json::Serialization::ITraceWriter*() noexcept;
 
-  /// @brief Method GetTraceEventType, addr 0x6196f98, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetTraceEventType, addr 0x6197220, size 0x68, virtual false, abstract: false, final false
   inline ::System::Diagnostics::TraceEventType GetTraceEventType(::System::Diagnostics::TraceLevel level);
 
   static inline ::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter* New_ctor();
 
   /// [NullableContext(1)]
-  /// @brief Method Trace, addr 0x6197000, size 0x460, virtual true, abstract: false, final true
+  /// @brief Method Trace, addr 0x6197288, size 0x460, virtual true, abstract: false, final true
   inline void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, /* [Nullable(2)] */ ::System::Exception* ex);
 
   constexpr ::System::Diagnostics::TraceLevel const& __cordl_internal_get__LevelFilter_k__BackingField() const;
@@ -56,18 +56,18 @@ public:
 
   constexpr void __cordl_internal_set__LevelFilter_k__BackingField(::System::Diagnostics::TraceLevel value);
 
-  /// @brief Method .ctor, addr 0x6197460, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61976e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_LevelFilter, addr 0x6196f88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_LevelFilter, addr 0x6197210, size 0x8, virtual true, abstract: false, final true
   inline ::System::Diagnostics::TraceLevel get_LevelFilter();
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr ::Newtonsoft::Json::Serialization::ITraceWriter* i___Newtonsoft__Json__Serialization__ITraceWriter() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_LevelFilter, addr 0x6196f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LevelFilter, addr 0x6197218, size 0x8, virtual false, abstract: false, final false
   inline void set_LevelFilter(::System::Diagnostics::TraceLevel value);
 
 protected:

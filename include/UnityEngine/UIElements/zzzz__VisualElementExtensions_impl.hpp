@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::VisualElementExtensions::StretchToParentSize)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x71902c8;
+  constexpr static std::size_t addrs = 0x71913a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementExtensions*>(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IManipulator*)>(
     &::UnityEngine::UIElements::VisualElementExtensions::AddManipulator)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x7190584;
+  constexpr static std::size_t addrs = 0x7191664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IManipulator*)>(
     &::UnityEngine::UIElements::VisualElementExtensions::RemoveManipulator)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x7190640;
+  constexpr static std::size_t addrs = 0x7191720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::VisualElementExtensions::WorldToLocal)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x71906ec;
+  constexpr static std::size_t addrs = 0x71917cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector3)>(
     &::UnityEngine::UIElements::VisualElementExtensions::WorldToLocal3D)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x71907d0;
+  constexpr static std::size_t addrs = 0x71918b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::VisualElementExtensions::LocalToWorld)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x71908ac;
+  constexpr static std::size_t addrs = 0x719198c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::VisualElementExtensions::WorldToLocal)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x719098c;
+  constexpr static std::size_t addrs = 0x7191a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Ray (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Ray)>(
     &::UnityEngine::UIElements::VisualElementExtensions::LocalToWorld)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x7190a78;
+  constexpr static std::size_t addrs = 0x7191b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Ray (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Ray)>(
     &::UnityEngine::UIElements::VisualElementExtensions::WorldToLocal)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x7190c60;
+  constexpr static std::size_t addrs = 0x7191d40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::VisualElementExtensions::ChangeCoordinatesTo)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x7190e4c;
+  constexpr static std::size_t addrs = 0x7191f2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::VisualElementExtensions::ChangeCoordinatesTo_2D)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x7190ee8;
+  constexpr static std::size_t addrs = 0x7191fc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::VisualElementExtensions::ChangeCoordinatesTo_3D)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x7190ff0;
+  constexpr static std::size_t addrs = 0x71920d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::VisualElementExtensions::ChangeCoordinatesTo)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x7191148;
+  constexpr static std::size_t addrs = 0x7192228;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Ray (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Ray)>(
     &::UnityEngine::UIElements::VisualElementExtensions::ChangeCoordinatesTo)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x7191480;
+  constexpr static std::size_t addrs = 0x7192560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Ray, ::by_ref<float_t>, ::by_ref<::UnityEngine::Vector3>)>(
     &::UnityEngine::UIElements::VisualElementExtensions::IntersectWorldRay)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x71914dc;
+  constexpr static std::size_t addrs = 0x71925bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::VisualElementExtensions*>(),
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Ray, ::by_ref<::UnityEngine::Vector3>)>(
     &::UnityEngine::UIElements::VisualElementExtensions::IntersectLocalRay)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x71917a8;
+  constexpr static std::size_t addrs = 0x7192888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Ray (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Ray)>(&::UnityEngine::UIElements::VisualElementExtensions::TransformRay)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x719196c;
+  constexpr static std::size_t addrs = 0x7192a4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

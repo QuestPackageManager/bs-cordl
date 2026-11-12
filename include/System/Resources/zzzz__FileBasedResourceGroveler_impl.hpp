@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Resources::FileBasedResourceGroveler::*)(::System::Resources::ResourceManager_ResourceManagerMediator*)>(
     &::System::Resources::FileBasedResourceGroveler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5fc9a84;
+  constexpr static std::size_t addrs = 0x5fc9d0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Resources::FileBasedResourceGroveler*>(),
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Resources::Reso
     ::System::Resources::FileBasedResourceGroveler::*)(::System::Globalization::CultureInfo*, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>*, bool, bool,
                                                        ::by_ref<::System::Threading::StackCrawlMark>)>(&::System::Resources::FileBasedResourceGroveler::GrovelForResourceSet)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x5fc9a8c;
+  constexpr static std::size_t addrs = 0x5fc9d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Resources::FileBasedResourceGroveler::*)(::System::Globalization::CultureInfo*, ::StringW)>(
     &::System::Resources::FileBasedResourceGroveler::FindResourceFile)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5fc9cec;
+  constexpr static std::size_t addrs = 0x5fc9f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Resources::ResourceSet* (::System::Resources::FileBasedResourceGroveler::*)(::StringW)>(
     &::System::Resources::FileBasedResourceGroveler::CreateResourceSet)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x5fc9dd0;
+  constexpr static std::size_t addrs = 0x5fca058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

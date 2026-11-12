@@ -48,11 +48,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x6cfae78, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cfbf58, size 0x84, virtual true, abstract: false, final true
   inline bool IsActive();
 
   /// [Obsolete("Unused. #from(2023.1)")]
-  /// @brief Method IsTileCompatible, addr 0x6cfaefc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x6cfbfdc, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::LensDistortion* New_ctor();
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_yMultiplier(::UnityEngine::Rendering::ClampedFloatParameter* value);
 
-  /// @brief Method .ctor, addr 0x6cfaf04, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfbfe4, size 0x130, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"

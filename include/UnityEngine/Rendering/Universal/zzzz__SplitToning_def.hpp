@@ -42,11 +42,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x6cfbb14, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cfcbf4, size 0xb0, virtual true, abstract: false, final true
   inline bool IsActive();
 
   /// [Obsolete("Unused. #from(2023.1)")]
-  /// @brief Method IsTileCompatible, addr 0x6cfbbc4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x6cfcca4, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::SplitToning* New_ctor();
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_shadows(::UnityEngine::Rendering::ColorParameter* value);
 
-  /// @brief Method .ctor, addr 0x6cfbbcc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfccac, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"

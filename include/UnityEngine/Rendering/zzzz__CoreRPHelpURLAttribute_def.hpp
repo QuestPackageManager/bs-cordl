@@ -26,10 +26,10 @@ public:
 
   static inline ::UnityEngine::Rendering::CoreRPHelpURLAttribute* New_ctor(::StringW pageName, ::StringW pageHash, ::StringW packageName);
 
-  /// @brief Method .ctor, addr 0x6bdf1a8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be0288, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW pageName, ::StringW packageName);
 
-  /// @brief Method .ctor, addr 0x6bdf400, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6be04e0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW pageName, ::StringW pageHash, ::StringW packageName);
 
 protected:

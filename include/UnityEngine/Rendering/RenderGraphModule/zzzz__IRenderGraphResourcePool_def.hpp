@@ -49,15 +49,15 @@ public:
 
   constexpr void __cordl_internal_set__IntraFrameMemoryAliasing_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x6c4a334, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4b414, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_IntraFrameMemoryAliasing, addr 0x6c4a324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IntraFrameMemoryAliasing, addr 0x6c4b404, size 0x8, virtual false, abstract: false, final false
   inline bool get_IntraFrameMemoryAliasing();
 
   /// [CompilerGenerated]
-  /// @brief Method set_IntraFrameMemoryAliasing, addr 0x6c4a32c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_IntraFrameMemoryAliasing, addr 0x6c4b40c, size 0x8, virtual false, abstract: false, final false
   inline void set_IntraFrameMemoryAliasing(bool value);
 
 protected:

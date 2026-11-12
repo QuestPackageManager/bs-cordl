@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Runtime::Remoting::SoapServices_TypeInfo::*)()>(&::System::Runtime::Remoting::SoapServices_TypeInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f852e4;
+  constexpr static std::size_t addrs = 0x5f8556c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices_TypeInfo*>(), { ".ctor", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithAssembly)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5f84290;
+  constexpr static std::size_t addrs = 0x5f84518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithNs)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5f842d4;
+  constexpr static std::size_t addrs = 0x5f8455c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(), { "get_XmlNsForClrTypeWithNs", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::System::Runtime::Remoting::SoapServices::get_XmlNsForClrTypeWithNsAndAssembly)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5f84318;
+  constexpr static std::size_t addrs = 0x5f845a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Runtime::Remoting::SoapServices::CodeXmlNamespaceForClrTypeNamespace)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x5f8435c;
+  constexpr static std::size_t addrs = 0x5f845e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Runtime::Remoting::SoapServices::GetNameKey)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5f845f0;
+  constexpr static std::size_t addrs = 0x5f84878;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Reflection::MethodBase*)>(&::System::Runtime::Remoting::SoapServices::GetAssemblyName)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x5f84668;
+  constexpr static std::size_t addrs = 0x5f848f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::by_ref<::StringW>, ::by_ref<::StringW>)>(&::System::Runtime::Remoting::SoapServices::GetXmlElementForInteropType)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x5f84754;
+  constexpr static std::size_t addrs = 0x5f849dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Reflection::MethodBase*)>(&::System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodCall)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5f84830;
+  constexpr static std::size_t addrs = 0x5f84ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(),
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Reflection::MethodBase*)>(&::System::Runtime::Remoting::SoapServices::GetXmlNamespaceForMethodResponse)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5f848c8;
+  constexpr static std::size_t addrs = 0x5f84b50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Runtime::Remoting::SoapServices*>(),
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Type*, ::by_ref<::StringW>, ::by_ref<::StringW>)>(&::System::Runtime::Remoting::SoapServices::GetXmlTypeForInteropType)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5f84960;
+  constexpr static std::size_t addrs = 0x5f84be8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Reflection::Assembly*)>(&::System::Runtime::Remoting::SoapServices::PreLoad)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5f84a30;
+  constexpr static std::size_t addrs = 0x5f84cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*)>(&::System::Runtime::Remoting::SoapServices::PreLoad)> {
   constexpr static std::size_t size = 0x4d4;
-  constexpr static std::size_t addrs = 0x5f84af0;
+  constexpr static std::size_t addrs = 0x5f84d78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW, ::System::Type*)>(&::System::Runtime::Remoting::SoapServices::RegisterInteropXmlElement)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5f85154;
+  constexpr static std::size_t addrs = 0x5f853dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW, ::System::Type*)>(&::System::Runtime::Remoting::SoapServices::RegisterInteropXmlType)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x5f84fc4;
+  constexpr static std::size_t addrs = 0x5f8524c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW)>(&::System::Runtime::Remoting::SoapServices::EncodeNs)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x5f844f4;
+  constexpr static std::size_t addrs = 0x5f8477c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

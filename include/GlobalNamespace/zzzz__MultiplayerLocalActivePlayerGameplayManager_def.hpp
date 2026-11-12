@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_continueGameplayWith0Energy(bool value);
 
-  /// @brief Method .ctor, addr 0x5e1fbb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e1ffe8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool continueGameplayWith0Energy);
 
 protected:
@@ -87,7 +87,7 @@ public:
   MultiplayerLocalActivePlayerGameplayManager_InitData(MultiplayerLocalActivePlayerGameplayManager_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6212 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6213 };
 
   /// @brief Field continueGameplayWith0Energy, offset: 0x10, size: 0x1, def value: None
   bool ___continueGameplayWith0Energy;
@@ -147,36 +147,36 @@ public:
   /// @brief Field _xrSystemState, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__xrSystemState, put = __cordl_internal_set__xrSystemState)) ::GlobalNamespace::IXRSystemState* _xrSystemState;
 
-  /// @brief Method HandleGameEnergyDidReach0, addr 0x5e1f8c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEnergyDidReach0, addr 0x5e1fcf0, size 0x20, virtual false, abstract: false, final false
   inline void HandleGameEnergyDidReach0();
 
-  /// @brief Method HandleInGameMenuControllerDidGiveUp, addr 0x5e1f8e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuControllerDidGiveUp, addr 0x5e1fd10, size 0x4, virtual false, abstract: false, final false
   inline void HandleInGameMenuControllerDidGiveUp();
 
-  /// @brief Method HandleInGameMenuControllerRequestsDisconnect, addr 0x5e1f8e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleInGameMenuControllerRequestsDisconnect, addr 0x5e1fd14, size 0x44, virtual false, abstract: false, final false
   inline void HandleInGameMenuControllerRequestsDisconnect();
 
-  /// @brief Method HandleSongDidFinish, addr 0x5e1f928, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method HandleSongDidFinish, addr 0x5e1fd58, size 0x240, virtual false, abstract: false, final false
   inline void HandleSongDidFinish();
 
-  /// @brief Method HandleSystemStateChange, addr 0x5e1efcc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleSystemStateChange, addr 0x5e1f3fc, size 0x74, virtual false, abstract: false, final false
   inline void HandleSystemStateChange(::GlobalNamespace::XRSystemEventType eventType);
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x5e1fb68, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x5e1ff98, size 0x4c, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method OnDisable, addr 0x5e1f288, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5e1f6b8, size 0x3ec, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method PerformPlayerFail, addr 0x5e1f040, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method PerformPlayerFail, addr 0x5e1f470, size 0x248, virtual false, abstract: false, final false
   inline void PerformPlayerFail();
 
-  /// @brief Method PerformPlayerGivenUp, addr 0x5e1f674, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method PerformPlayerGivenUp, addr 0x5e1faa4, size 0x24c, virtual false, abstract: false, final false
   inline void PerformPlayerGivenUp();
 
-  /// @brief Method Start, addr 0x5e1ec9c, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5e1f0cc, size 0x330, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* const& __cordl_internal_get__disconnectHelper() const;
@@ -245,7 +245,7 @@ public:
 
   constexpr void __cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value);
 
-  /// @brief Method .ctor, addr 0x5e1fbb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e1ffe4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -263,7 +263,7 @@ public:
   MultiplayerLocalActivePlayerGameplayManager(MultiplayerLocalActivePlayerGameplayManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6213 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6214 };
 
   /// [Inject]
   /// @brief Field _gameSongController, offset: 0x20, size: 0x8, def value: None

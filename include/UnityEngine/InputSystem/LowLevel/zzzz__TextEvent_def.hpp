@@ -43,13 +43,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Method Create, addr 0x6a1ebb0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6a1fc90, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, char16_t character, double_t time);
 
-  /// @brief Method Create, addr 0x6a1ec28, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6a1fd08, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, int32_t character, double_t time);
 
-  /// @brief Method From, addr 0x6a1ea80, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x6a1fb60, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::TextEvent* From(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_character(int32_t value);
 
-  /// @brief Method get_typeStatic, addr 0x6a1ea74, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x6a1fb54, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"

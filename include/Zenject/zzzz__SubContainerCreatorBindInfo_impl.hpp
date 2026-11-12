@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Zenject::SubContainerCreatorBindInfo::*)()>(&::Zenject::SubContainerCreatorBindInfo::get_DefaultParentName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7363050;
+  constexpr static std::size_t addrs = 0x7365330;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SubContainerCreatorBindInfo*>(), { "get_DefaultParentName", {}, {} })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SubContainerCreatorBindInfo::*)(::StringW)>(&::Zenject::SubContainerCreatorBindInfo::set_DefaultParentName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7363058;
+  constexpr static std::size_t addrs = 0x7365338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Zenject::SubContainerCreatorBindInfo::*)()>(&::Zenject::SubContainerCreatorBindInfo::get_CreateKernel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7363060;
+  constexpr static std::size_t addrs = 0x7365340;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SubContainerCreatorBindInfo*>(), { "get_CreateKernel", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SubContainerCreatorBindInfo::*)(bool)>(&::Zenject::SubContainerCreatorBindInfo::set_CreateKernel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7363068;
+  constexpr static std::size_t addrs = 0x7365348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::Zenject::SubContainerCreatorBindInfo::*)()>(&::Zenject::SubContainerCreatorBindInfo::get_KernelType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7363070;
+  constexpr static std::size_t addrs = 0x7365350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SubContainerCreatorBindInfo*>(), { "get_KernelType", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SubContainerCreatorBindInfo::*)(::System::Type*)>(&::Zenject::SubContainerCreatorBindInfo::set_KernelType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7363078;
+  constexpr static std::size_t addrs = 0x7365358;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::SubContainerCreatorBindInfo::*)()>(&::Zenject::SubContainerCreatorBindInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7363080;
+  constexpr static std::size_t addrs = 0x7365360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::SubContainerCreatorBindInfo*>(), { ".ctor", {}, {} })));

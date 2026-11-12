@@ -29,7 +29,7 @@ public:
 
   static inline ::GlobalNamespace::OVRMonoscopic* New_ctor();
 
-  /// @brief Method Update, addr 0x635bbec, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x635be74, size 0x10c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_monoscopic() const;
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_toggleButton(::GlobalNamespace::OVRInput_RawButton value);
 
-  /// @brief Method .ctor, addr 0x635bcf8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x635bf80, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

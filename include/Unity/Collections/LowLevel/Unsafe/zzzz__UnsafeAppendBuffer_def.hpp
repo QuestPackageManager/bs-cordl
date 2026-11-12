@@ -49,7 +49,7 @@ public:
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckBounds, addr 0x69334e4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CheckBounds, addr 0x69345c4, size 0xac, virtual false, abstract: false, final false
   inline void CheckBounds(int32_t structSize);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
@@ -70,7 +70,7 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void ReadNext(::by_ref<T> value);
 
-  /// @brief Method ReadNext, addr 0x69334c8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadNext, addr 0x69345a8, size 0x1c, virtual false, abstract: false, final false
   inline void* ReadNext(int32_t structSize);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
@@ -79,13 +79,13 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void* ReadNextArray(::by_ref<int32_t> length);
 
-  /// @brief Method .ctor, addr 0x693340c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69344ec, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::by_ref<::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer> buffer);
 
-  /// @brief Method .ctor, addr 0x69334ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x693458c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(void* ptr, int32_t length);
 
-  /// @brief Method get_EndOfBuffer, addr 0x69334b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_EndOfBuffer, addr 0x6934598, size 0x10, virtual false, abstract: false, final false
   inline bool get_EndOfBuffer();
 
   // Ctor Parameters []
@@ -97,7 +97,7 @@ public:
   constexpr UnsafeAppendBuffer_Reader(uint8_t* Ptr, int32_t Size, int32_t Offset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16036 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -143,7 +143,7 @@ public:
   /// @brief Convert operator to "::Unity::Collections::INativeDisposable"
   constexpr operator ::Unity::Collections::INativeDisposable*();
 
-  /// @brief Method Add, addr 0x6933304, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x69343e4, size 0x80, virtual false, abstract: false, final false
   inline void Add(void* ptr, int32_t structSize);
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
@@ -164,18 +164,18 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void AddArray(void* ptr, int32_t length);
 
-  /// @brief Method AsReader, addr 0x69333fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AsReader, addr 0x69344dc, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Collections::LowLevel::Unsafe::UnsafeAppendBuffer_Reader AsReader();
 
   /// [Conditional("ENABLE_UNITY_COLLECTIONS_CHECKS")]
   /// [Conditional("UNITY_DOTS_DEBUG")]
-  /// @brief Method CheckAlignment, addr 0x6933420, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CheckAlignment, addr 0x6934500, size 0x8c, virtual false, abstract: false, final false
   static inline void CheckAlignment(int32_t alignment);
 
-  /// @brief Method Dispose, addr 0x693320c, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x69342ec, size 0xcc, virtual true, abstract: false, final true
   inline ::Unity::Jobs::JobHandle Dispose(::Unity::Jobs::JobHandle inputDeps);
 
-  /// @brief Method Dispose, addr 0x6933170, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6934250, size 0x9c, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// [GenerateTestsForBurstCompatibility(GenericTypeArguments = new[] { typeof(System.Int32) })]
@@ -184,30 +184,30 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline T Pop();
 
-  /// @brief Method Pop, addr 0x6933384, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x6934464, size 0x78, virtual false, abstract: false, final false
   inline void Pop(void* ptr, int32_t structSize);
 
-  /// @brief Method Reset, addr 0x69332d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x69343b8, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ResizeUninitialized, addr 0x69332e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ResizeUninitialized, addr 0x69343c0, size 0x24, virtual false, abstract: false, final false
   inline void ResizeUninitialized(int32_t length);
 
-  /// @brief Method SetCapacity, addr 0x6932fd4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x69340b4, size 0xfc, virtual false, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x6932fc0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69340a0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity, int32_t alignment, ::Unity::Collections::AllocatorManager_AllocatorHandle allocator);
 
-  /// @brief Method .ctor, addr 0x69330d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69341b0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(void* ptr, int32_t length);
 
   /// [IsReadOnly]
-  /// @brief Method get_IsCreated, addr 0x6933160, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCreated, addr 0x6934240, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
   /// [IsReadOnly]
-  /// @brief Method get_IsEmpty, addr 0x6933150, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x6934230, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
   /// @brief Convert to "::System::IDisposable"
@@ -226,7 +226,7 @@ public:
   constexpr UnsafeAppendBuffer(uint8_t* Ptr, int32_t Length, int32_t Capacity, ::Unity::Collections::AllocatorManager_AllocatorHandle Allocator, int32_t Alignment) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16029 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16037 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

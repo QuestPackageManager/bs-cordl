@@ -42,62 +42,62 @@ public:
 
   __declspec(property(get = get_rtid, put = set_rtid)) ::UnityEngine::Rendering::RenderTargetIdentifier rtid;
 
-  /// @brief Method Equals, addr 0x6d23704, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6d247e4, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6d235f0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6d246d0, size 0x114, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::Rendering::Universal::RenderTargetHandle other);
 
-  /// @brief Method GetCameraTarget, addr 0x6d2328c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetCameraTarget, addr 0x6d2436c, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::Universal::RenderTargetHandle GetCameraTarget(::by_ref<::UnityEngine::Rendering::Universal::CameraData> cameraData);
 
-  /// @brief Method GetHashCode, addr 0x6d237cc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6d248ac, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method HasInternalRenderTargetId, addr 0x6d23590, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HasInternalRenderTargetId, addr 0x6d24670, size 0x60, virtual false, abstract: false, final false
   inline bool HasInternalRenderTargetId();
 
-  /// @brief Method Identifier, addr 0x6d2345c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Identifier, addr 0x6d2453c, size 0x134, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier Identifier();
 
-  /// @brief Method Init, addr 0x6d233e0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6d244c0, size 0x7c, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Rendering::RenderTargetIdentifier renderTargetIdentifier);
 
-  /// @brief Method Init, addr 0x6d23368, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6d24448, size 0x78, virtual false, abstract: false, final false
   inline void Init(::StringW shaderProperty);
 
-  /// @brief Method .ctor, addr 0x6d22fc4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d240a4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderTargetIdentifier renderTargetIdentifier);
 
-  /// @brief Method .ctor, addr 0x6d23040, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d24120, size 0x24c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RTHandle* rtHandle);
 
   static inline ::UnityEngine::Rendering::Universal::RenderTargetHandle getStaticF_CameraTarget();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_id, addr 0x6d22f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x6d2406c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_rtid, addr 0x6d22fac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_rtid, addr 0x6d2408c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderTargetIdentifier get_rtid();
 
-  /// @brief Method op_Equality, addr 0x6d23824, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6d24904, size 0x88, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::Universal::RenderTargetHandle c1, ::UnityEngine::Rendering::Universal::RenderTargetHandle c2);
 
-  /// @brief Method op_Inequality, addr 0x6d238ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6d2498c, size 0x8c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::Universal::RenderTargetHandle c1, ::UnityEngine::Rendering::Universal::RenderTargetHandle c2);
 
   static inline void setStaticF_CameraTarget(::UnityEngine::Rendering::Universal::RenderTargetHandle value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_id, addr 0x6d22f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x6d24064, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_rtid, addr 0x6d22f94, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_rtid, addr 0x6d24074, size 0x18, virtual false, abstract: false, final false
   inline void set_rtid(::UnityEngine::Rendering::RenderTargetIdentifier value);
 
   // Ctor Parameters []

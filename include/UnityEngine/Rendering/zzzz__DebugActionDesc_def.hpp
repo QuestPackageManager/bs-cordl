@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_repeatMode(::UnityEngine::Rendering::DebugActionRepeatMode value);
 
-  /// @brief Method .ctor, addr 0x6bb73c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb84a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

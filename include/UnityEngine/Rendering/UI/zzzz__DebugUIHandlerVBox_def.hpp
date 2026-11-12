@@ -33,13 +33,13 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerVBox* New_ctor();
 
-  /// @brief Method Next, addr 0x6c7329c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Next, addr 0x6c7437c, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> Next();
 
-  /// @brief Method OnSelection, addr 0x6c731dc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x6c742bc, size 0xc0, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x6c73178, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6c74258, size 0x64, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
   constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> const& __cordl_internal_get_m_Container() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Container(::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> value);
 
-  /// @brief Method .ctor, addr 0x6c73358, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c74438, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

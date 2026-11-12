@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (*)(::Org::BouncyCastle::Math::BigInteger*, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::GetInstance)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x374b978;
+  constexpr static std::size_t addrs = 0x374fe10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::BigInteger*, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x374ba04;
+  constexpr static std::size_t addrs = 0x374fe9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x374ba60;
+  constexpr static std::size_t addrs = 0x374fef8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::CheckScale)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x374ba80;
+  constexpr static std::size_t addrs = 0x374ff18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::AdjustScale)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x374baec;
+  constexpr static std::size_t addrs = 0x374ff84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Add)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x374bbcc;
+  constexpr static std::size_t addrs = 0x3750064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Add)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x374bc6c;
+  constexpr static std::size_t addrs = 0x3750104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Negate)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x374bd14;
+  constexpr static std::size_t addrs = 0x37501ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(), { "Negate", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Subtract)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x374bd94;
+  constexpr static std::size_t addrs = 0x375022c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Subtract)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x374bdbc;
+  constexpr static std::size_t addrs = 0x3750254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Multiply)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x374be64;
+  constexpr static std::size_t addrs = 0x37502fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(),
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Multiply)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x374bf04;
+  constexpr static std::size_t addrs = 0x375039c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Divide)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x374bf94;
+  constexpr static std::size_t addrs = 0x375042c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(),
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (
     ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Divide)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x374c044;
+  constexpr static std::size_t addrs = 0x37504dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::ShiftLeft)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x374c0d4;
+  constexpr static std::size_t addrs = 0x375056c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*)>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::CompareTo)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x374c164;
+  constexpr static std::size_t addrs = 0x37505fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(),
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::CompareTo)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x374c19c;
+  constexpr static std::size_t addrs = 0x3750634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Floor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x374c1d8;
+  constexpr static std::size_t addrs = 0x3750670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(), { "Floor", {}, {} })));
@@ -266,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Round)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x374c1f8;
+  constexpr static std::size_t addrs = 0x3750690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(), { "Round", {}, {} })));
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::get_IntValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x374c2a0;
+  constexpr static std::size_t addrs = 0x3750738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(), { "get_IntValue", {}, {} })));
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::get_LongValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x374c2bc;
+  constexpr static std::size_t addrs = 0x3750754;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(), { "get_LongValue", {}, {} })));
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::get_Scale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x374c2d8;
+  constexpr static std::size_t addrs = 0x3750770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(), { "get_Scale", {}, {} })));
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::ToString)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x374c2e0;
+  constexpr static std::size_t addrs = 0x3750778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(),
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)(::System::Object*)>(
     &::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::Equals)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x374c5d8;
+  constexpr static std::size_t addrs = 0x3750a70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(),
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::*)()>(&::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal::GetHashCode)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x374c6a0;
+  constexpr static std::size_t addrs = 0x3750b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*>(),

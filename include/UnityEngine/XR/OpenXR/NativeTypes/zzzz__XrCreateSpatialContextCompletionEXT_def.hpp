@@ -36,45 +36,45 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e7f638, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80718, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrResult futureResult, uint64_t spatialContext);
 
-  /// @brief Method .ctor, addr 0x6e7f68c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e8076c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::UnityEngine::XR::OpenXR::NativeTypes::XrResult futureResult, uint64_t spatialContext);
 
-  /// @brief Method get_defaultValue, addr 0x6e7c448, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_defaultValue, addr 0x6e7d528, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrCreateSpatialContextCompletionEXT get_defaultValue();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_futureResult, addr 0x6e7f66c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_futureResult, addr 0x6e8074c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrResult get_futureResult();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e7f65c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e8073c, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_spatialContext, addr 0x6e7f67c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spatialContext, addr 0x6e8075c, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_spatialContext();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e7f654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e80734, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   /// [CompilerGenerated]
-  /// @brief Method set_futureResult, addr 0x6e7f674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_futureResult, addr 0x6e80754, size 0x8, virtual false, abstract: false, final false
   inline void set_futureResult(::UnityEngine::XR::OpenXR::NativeTypes::XrResult value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_next, addr 0x6e7f664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_next, addr 0x6e80744, size 0x8, virtual false, abstract: false, final false
   inline void set_next(void* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_spatialContext, addr 0x6e7f684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_spatialContext, addr 0x6e80764, size 0x8, virtual false, abstract: false, final false
   inline void set_spatialContext(uint64_t value);
 
   // Ctor Parameters []
@@ -88,7 +88,7 @@ public:
                                                 ::UnityEngine::XR::OpenXR::NativeTypes::XrResult _futureResult_k__BackingField, uint64_t _spatialContext_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17591 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

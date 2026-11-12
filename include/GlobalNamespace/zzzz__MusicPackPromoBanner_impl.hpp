@@ -3,6 +3,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MusicPackPromoBanner_def.hpp"
 #include "GlobalNamespace/zzzz__DlcPromoPanelModel_def.hpp"
+#include "GlobalNamespace/zzzz__FloatCvar_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DlcPromoPanelModel_PromoInfo* (::GlobalNamespace::MusicPackPromoBanner::*)()>(
     &::GlobalNamespace::MusicPackPromoBanner::get_promoInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d2bc94;
+  constexpr static std::size_t addrs = 0x5d2b64c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MusicPackPromoBanner*>(), { "get_promoInfo", {}, {} })));
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MusicPackPromoBanner::*)(::GlobalNamespace::DlcPromoPanelModel_PromoInfo*)>(
     &::GlobalNamespace::MusicPackPromoBanner::set_promoInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d2bc9c;
+  constexpr static std::size_t addrs = 0x5d2b654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MusicPackPromoBanner*>(),
@@ -39,10 +40,34 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MusicPackPromoBanner::*)()>(&::GlobalNamespace::MusicPackPromoBanner::get_promoButtonText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d2bca4;
+  constexpr static std::size_t addrs = 0x5d2b65c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MusicPackPromoBanner*>(), { "get_promoButtonText", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MusicPackPromoBanner.OnEnable
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MusicPackPromoBanner::*)()>(&::GlobalNamespace::MusicPackPromoBanner::OnEnable)> {
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x5d2b664;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MusicPackPromoBanner*>(), { "OnEnable", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MusicPackPromoBanner.OnDisable
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MusicPackPromoBanner::*)()>(&::GlobalNamespace::MusicPackPromoBanner::OnDisable)> {
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x5d2b73c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MusicPackPromoBanner*>(), { "OnDisable", {}, {} })));
     return ___internal_method;
   }
 };
@@ -51,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MusicPackPromoBanner::*)()>(&::GlobalNamespace::MusicPackPromoBanner::StartLoading)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d2bcac;
+  constexpr static std::size_t addrs = 0x5d2b814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MusicPackPromoBanner*>(), { "StartLoading", {}, {} })));
@@ -64,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MusicPackPromoBanner::*)(::GlobalNamespace::DlcPromoPanelModel_PromoInfo*, bool)>(
     &::GlobalNamespace::MusicPackPromoBanner::Setup)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5d2bd18;
+  constexpr static std::size_t addrs = 0x5d2b880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,12 +98,24 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::MusicPackPromoBanner.HandleMipmapBiasChanged
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MusicPackPromoBanner::*)()>(&::GlobalNamespace::MusicPackPromoBanner::HandleMipmapBiasChanged)> {
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5d2b9bc;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MusicPackPromoBanner*>(), { "HandleMipmapBiasChanged", {}, {} })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::MusicPackPromoBanner._ctor
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MusicPackPromoBanner::*)()>(&::GlobalNamespace::MusicPackPromoBanner::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d2be54;
+  constexpr static std::size_t addrs = 0x5d2baa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MusicPackPromoBanner*>(), { ".ctor", {}, {} })));
@@ -169,6 +206,18 @@ constexpr void GlobalNamespace::MusicPackPromoBanner::__cordl_internal_set__text
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____text = value;
 }
+inline void GlobalNamespace::MusicPackPromoBanner::setStaticF__mipmapBias(::GlobalNamespace::FloatCvar* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::FloatCvar*, "_mipmapBias", ::GlobalNamespace::MusicPackPromoBanner*>(std::forward<::GlobalNamespace::FloatCvar*>(value));
+}
+inline ::GlobalNamespace::FloatCvar* GlobalNamespace::MusicPackPromoBanner::getStaticF__mipmapBias() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::FloatCvar*, "_mipmapBias", ::GlobalNamespace::MusicPackPromoBanner*>();
+}
+inline void GlobalNamespace::MusicPackPromoBanner::setStaticF__mipmapBiasId(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "_mipmapBiasId", ::GlobalNamespace::MusicPackPromoBanner*>(std::forward<int32_t>(value));
+}
+inline int32_t GlobalNamespace::MusicPackPromoBanner::getStaticF__mipmapBiasId() {
+  return ::cordl_internals::getStaticField<int32_t, "_mipmapBiasId", ::GlobalNamespace::MusicPackPromoBanner*>();
+}
 inline ::GlobalNamespace::DlcPromoPanelModel_PromoInfo* GlobalNamespace::MusicPackPromoBanner::get_promoInfo() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MusicPackPromoBanner*>(), { "get_promoInfo", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>(this, ___internal_method);
@@ -183,6 +232,14 @@ inline ::StringW GlobalNamespace::MusicPackPromoBanner::get_promoButtonText() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MusicPackPromoBanner*>(), { "get_promoButtonText", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
 }
+inline void GlobalNamespace::MusicPackPromoBanner::OnEnable() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MusicPackPromoBanner*>(), { "OnEnable", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::MusicPackPromoBanner::OnDisable() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MusicPackPromoBanner*>(), { "OnDisable", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
 inline void GlobalNamespace::MusicPackPromoBanner::StartLoading() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MusicPackPromoBanner*>(), { "StartLoading", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
@@ -192,6 +249,10 @@ inline void GlobalNamespace::MusicPackPromoBanner::Setup(::GlobalNamespace::DlcP
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MusicPackPromoBanner*>(),
                                                            { "Setup", {}, { ::i2c::type_of<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>(), ::i2c::type_of<bool>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, newPromoInfo, probablyOwned);
+}
+inline void GlobalNamespace::MusicPackPromoBanner::HandleMipmapBiasChanged() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MusicPackPromoBanner*>(), { "HandleMipmapBiasChanged", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
 inline void GlobalNamespace::MusicPackPromoBanner::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MusicPackPromoBanner*>(), { ".ctor", {}, {} })));

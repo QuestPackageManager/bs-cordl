@@ -26,13 +26,13 @@ namespace UnityEngine {
 struct CORDL_TYPE TagHandle {
 public:
   // Declarations
-  /// @brief Method TagToString, addr 0x6f7e690, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method TagToString, addr 0x6f7f770, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW TagToString(uint32_t tagIndex);
 
-  /// @brief Method TagToString_Injected, addr 0x6f7e75c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TagToString_Injected, addr 0x6f7f83c, size 0x44, virtual false, abstract: false, final false
   static inline void TagToString_Injected(uint32_t tagIndex, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-  /// @brief Method ToString, addr 0x6f7e688, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6f7f768, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Mono::ISystemCertificateProvider* (*)()>(&::System::Security::Cryptography::X509Certificates::X509Helper::get_CertificateProvider)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5f67674;
+  constexpr static std::size_t addrs = 0x5f678fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateImpl* (*)(::System::Security::Cryptography::X509Certificates::X509Certificate*)>(
         &::System::Security::Cryptography::X509Certificates::X509Helper::InitFromCertificate)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f6667c;
+  constexpr static std::size_t addrs = 0x5f66904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateImpl* (*)(::System::Security::Cryptography::X509Certificates::X509CertificateImpl*)>(
         &::System::Security::Cryptography::X509Certificates::X509Helper::InitFromCertificate)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f6619c;
+  constexpr static std::size_t addrs = 0x5f66424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Security::Cryptography::X509Certificates::X509CertificateImpl*)>(
     &::System::Security::Cryptography::X509Certificates::X509Helper::IsValid)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f67038;
+  constexpr static std::size_t addrs = 0x5f672c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Security::Cryptography::X509Certificates::X509CertificateImpl*)>(
     &::System::Security::Cryptography::X509Certificates::X509Helper::ThrowIfContextInvalid)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5f6732c;
+  constexpr static std::size_t addrs = 0x5f675b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Security::Cryptography::X509Certificates::X509Helper::GetInvalidContextException)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5f673a8;
+  constexpr static std::size_t addrs = 0x5f67630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateImpl* (*)(::ArrayW<uint8_t>)>(
     &::System::Security::Cryptography::X509Certificates::X509Helper::Import)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5f66050;
+  constexpr static std::size_t addrs = 0x5f662d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                                                                                              ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags)>(
         &::System::Security::Cryptography::X509Certificates::X509Helper::Import)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5f664dc;
+  constexpr static std::size_t addrs = 0x5f66764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

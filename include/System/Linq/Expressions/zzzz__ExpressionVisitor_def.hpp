@@ -102,16 +102,16 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::ExpressionVisitor* New_ctor();
 
-  /// @brief Method ValidateBinary, addr 0x63dd1f0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ValidateBinary, addr 0x63dd840, size 0x158, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* ValidateBinary(::System::Linq::Expressions::BinaryExpression* before, ::System::Linq::Expressions::BinaryExpression* after);
 
-  /// @brief Method ValidateChildType, addr 0x63de2c8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ValidateChildType, addr 0x63de918, size 0xfc, virtual false, abstract: false, final false
   static inline void ValidateChildType(::System::Type* before, ::System::Type* after, ::StringW methodName);
 
-  /// @brief Method ValidateUnary, addr 0x63de1cc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ValidateUnary, addr 0x63de81c, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* ValidateUnary(::System::Linq::Expressions::UnaryExpression* before, ::System::Linq::Expressions::UnaryExpression* after);
 
-  /// @brief Method Visit, addr 0x63dcec0, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method Visit, addr 0x63dd510, size 0x23c, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*
   Visit(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* nodes);
 
@@ -119,7 +119,7 @@ public:
   template <typename T>
   static inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* Visit(::System::Collections::ObjectModel::ReadOnlyCollection_1<T>* nodes, ::System::Func_2<T, T>* elementVisitor);
 
-  /// @brief Method Visit, addr 0x63dce9c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Visit, addr 0x63dd4ec, size 0x24, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Visit(::System::Linq::Expressions::Expression* node);
 
   /// @brief Method VisitAndConvert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -132,76 +132,76 @@ public:
     requires(::cordl_internals::type_constraint<T, ::System::Linq::Expressions::Expression*>)
   inline T VisitAndConvert(T node, ::StringW callerName);
 
-  /// @brief Method VisitArguments, addr 0x63dd0fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method VisitArguments, addr 0x63dd74c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Linq::Expressions::Expression*> VisitArguments(::System::Linq::Expressions::IArgumentProvider* nodes);
 
-  /// @brief Method VisitBinary, addr 0x63dd10c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method VisitBinary, addr 0x63dd75c, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitBinary(::System::Linq::Expressions::BinaryExpression* node);
 
-  /// @brief Method VisitBlock, addr 0x63dd348, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method VisitBlock, addr 0x63dd998, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitBlock(::System::Linq::Expressions::BlockExpression* node);
 
-  /// @brief Method VisitCatchBlock, addr 0x63ddcf4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method VisitCatchBlock, addr 0x63de344, size 0xc4, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::CatchBlock* VisitCatchBlock(::System::Linq::Expressions::CatchBlock* node);
 
-  /// @brief Method VisitConditional, addr 0x63dd444, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method VisitConditional, addr 0x63dda94, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitConditional(::System::Linq::Expressions::ConditionalExpression* node);
 
-  /// @brief Method VisitConstant, addr 0x63dd4d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method VisitConstant, addr 0x63ddb20, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitConstant(::System::Linq::Expressions::ConstantExpression* node);
 
-  /// @brief Method VisitDefault, addr 0x63dd4d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method VisitDefault, addr 0x63ddb28, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitDefault(::System::Linq::Expressions::DefaultExpression* node);
 
-  /// @brief Method VisitExtension, addr 0x63dd4e0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method VisitExtension, addr 0x63ddb30, size 0x24, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitExtension(::System::Linq::Expressions::Expression* node);
 
-  /// @brief Method VisitGoto, addr 0x63dd504, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method VisitGoto, addr 0x63ddb54, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitGoto(::System::Linq::Expressions::GotoExpression* node);
 
-  /// @brief Method VisitIndex, addr 0x63dd9b4, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method VisitIndex, addr 0x63de004, size 0x74, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitIndex(::System::Linq::Expressions::IndexExpression* node);
 
-  /// @brief Method VisitInvocation, addr 0x63dd620, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method VisitInvocation, addr 0x63ddc70, size 0x80, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitInvocation(::System::Linq::Expressions::InvocationExpression* node);
 
-  /// @brief Method VisitLabel, addr 0x63dd6a8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method VisitLabel, addr 0x63ddcf8, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitLabel(::System::Linq::Expressions::LabelExpression* node);
 
-  /// @brief Method VisitLabelTarget, addr 0x63dd6a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method VisitLabelTarget, addr 0x63ddcf0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::LabelTarget* VisitLabelTarget(::System::Linq::Expressions::LabelTarget* node);
 
   /// @brief Method VisitLambda, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Linq::Expressions::Expression* VisitLambda(::System::Linq::Expressions::Expression_1<T>* node);
 
-  /// @brief Method VisitLoop, addr 0x63dd7a0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method VisitLoop, addr 0x63dddf0, size 0x84, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitLoop(::System::Linq::Expressions::LoopExpression* node);
 
-  /// @brief Method VisitMember, addr 0x63dd8e0, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method VisitMember, addr 0x63ddf30, size 0x30, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitMember(::System::Linq::Expressions::MemberExpression* node);
 
-  /// @brief Method VisitMethodCall, addr 0x63ddaa8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method VisitMethodCall, addr 0x63de0f8, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitMethodCall(::System::Linq::Expressions::MethodCallExpression* node);
 
-  /// @brief Method VisitNewArray, addr 0x63ddb4c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method VisitNewArray, addr 0x63de19c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitNewArray(::System::Linq::Expressions::NewArrayExpression* node);
 
-  /// @brief Method VisitParameter, addr 0x63ddcec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method VisitParameter, addr 0x63de33c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitParameter(::System::Linq::Expressions::ParameterExpression* node);
 
-  /// @brief Method VisitParameters, addr 0x63dd104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method VisitParameters, addr 0x63dd754, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Linq::Expressions::ParameterExpression*> VisitParameters(::System::Linq::Expressions::IParameterProvider* nodes, ::StringW callerName);
 
-  /// @brief Method VisitTry, addr 0x63dddb8, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method VisitTry, addr 0x63de408, size 0x104, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitTry(::System::Linq::Expressions::TryExpression* node);
 
-  /// @brief Method VisitTypeBinary, addr 0x63ddfcc, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method VisitTypeBinary, addr 0x63de61c, size 0x30, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitTypeBinary(::System::Linq::Expressions::TypeBinaryExpression* node);
 
-  /// @brief Method VisitUnary, addr 0x63de0cc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method VisitUnary, addr 0x63de71c, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitUnary(::System::Linq::Expressions::UnaryExpression* node);
 
-  /// @brief Method .ctor, addr 0x63da8e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63daf34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -219,7 +219,7 @@ public:
   ExpressionVisitor(ExpressionVisitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16728 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ObjectDispatcher___c::*)()>(&::UnityEngine::ObjectDispatcher___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6f6cdfc;
+  constexpr static std::size_t addrs = 0x6f6dedc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ObjectDispatcher___c*>(), { ".ctor", {}, {} })));
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Obje
                                                                                                      ::System::Action_1<::UnityEngine::TypeDispatchData>*)>(
     &::UnityEngine::ObjectDispatcher___c::__cctor_b__64_0)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6f6ce00;
+  constexpr static std::size_t addrs = 0x6f6dee0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Obje
                                                                                                      ::System::IntPtr, int32_t, ::System::Action_1<::UnityEngine::TransformDispatchData>*)>(
     &::UnityEngine::ObjectDispatcher___c::__cctor_b__64_1)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6f6cea4;
+  constexpr static std::size_t addrs = 0x6f6df84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ObjectDispatcher::*)()>(&::UnityEngine::ObjectDispatcher::get_valid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6f6bf18;
+  constexpr static std::size_t addrs = 0x6f6cff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ObjectDispatcher*>(), { "get_valid", {}, {} })));
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ObjectDispatcher::*)()>(&::UnityEngine::ObjectDispatcher::_ctor)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6f6bf28;
+  constexpr static std::size_t addrs = 0x6f6d008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ObjectDispatcher*>(), { ".ctor", {}, {} })));
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ObjectDispatcher::*)()>(&::UnityEngine::ObjectDispatcher::Finalize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6f6c138;
+  constexpr static std::size_t addrs = 0x6f6d218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ObjectDispatcher::*)()>(&::UnityEngine::ObjectDispatcher::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6f6c208;
+  constexpr static std::size_t addrs = 0x6f6d2e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ObjectDispatcher*>(), { "Dispose", {}, {} })));
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ObjectDispatcher::*)(bool)>(&::UnityEngine::ObjectDispatcher::Dispose)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6f6c180;
+  constexpr static std::size_t addrs = 0x6f6d260;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ObjectDispatcher*>(), { "Dispose", {}, { ::i2c::type_of<bool>() } })));
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ObjectDispatcher::*)()>(&::UnityEngine::ObjectDispatcher::ValidateSystemHandleAndThrow)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x6f6c2ac;
+  constexpr static std::size_t addrs = 0x6f6d38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ObjectDispatcher*>(), { "ValidateSystemHandleAndThrow", {}, {} })));
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ObjectDispatcher::*)(::System::Type*)>(&::UnityEngine::ObjectDispatcher::ValidateTypeAndThrow)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6f6c304;
+  constexpr static std::size_t addrs = 0x6f6d3e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ObjectDispatcher::*)(::System::Type*)>(&::UnityEngine::ObjectDispatcher::ValidateComponentTypeAndThrow)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x6f6c3d8;
+  constexpr static std::size_t addrs = 0x6f6d4b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ObjectDispatcher::*)(::UnityEngine::TypeDispatchData)>(&::UnityEngine::ObjectDispatcher::DispatchCallback)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6f6c4ac;
+  constexpr static std::size_t addrs = 0x6f6d58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -244,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ObjectDispatcher::*)(::UnityEngine::TransformDispatchData)>(&::UnityEngine::ObjectDispatcher::DispatchCallback)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x6f6c558;
+  constexpr static std::size_t addrs = 0x6f6d638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ObjectDispatcher::*)(::ArrayW<::UnityEngine::Component*>)>(&::UnityEngine::ObjectDispatcher::DispatchCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f6c6d4;
+  constexpr static std::size_t addrs = 0x6f6d7b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ObjectDispatcher::*)(::System::Type*, ::System::Action_1<::UnityEngine::TypeDispatchData>*, bool, bool)>(
     &::UnityEngine::ObjectDispatcher::DispatchTypeChangesAndClear)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x6f6c6dc;
+  constexpr static std::size_t addrs = 0x6f6d7bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -290,7 +290,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::UnityEngine::ObjectDispatcher::*)(::System::Type*, ::UnityEngine::ObjectDispatcher_TransformTrackingType, ::System::Action_1<::UnityEngine::TransformDispatchData>*)>(
         &::UnityEngine::ObjectDispatcher::DispatchTransformChangesAndClear)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6f6c81c;
+  constexpr static std::size_t addrs = 0x6f6d8fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TypeDispatchData (::UnityEngine::ObjectDispatcher::*)(::System::Type*, ::Unity::Collections::Allocator, bool, bool)>(
     &::UnityEngine::ObjectDispatcher::GetTypeChangesAndClear)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f6c94c;
+  constexpr static std::size_t addrs = 0x6f6da2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -325,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TransformDispatchData (::UnityEngine::ObjectDispatcher::*)(
     ::System::Type*, ::UnityEngine::ObjectDispatcher_TransformTrackingType, ::Unity::Collections::Allocator)>(&::UnityEngine::ObjectDispatcher::GetTransformChangesAndClear)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6f6c988;
+  constexpr static std::size_t addrs = 0x6f6da68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ObjectDispatcher::*)(::UnityEngine::ObjectDispatcher_TypeTrackingFlags, ::ArrayW<::System::Type*>)>(
     &::UnityEngine::ObjectDispatcher::EnableTypeTracking)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6f6c9c0;
+  constexpr static std::size_t addrs = 0x6f6daa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ObjectDispatcher::*)(::UnityEngine::ObjectDispatcher_TransformTrackingType, ::ArrayW<::System::Type*>)>(
     &::UnityEngine::ObjectDispatcher::EnableTransformTracking)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6f6cb18;
+  constexpr static std::size_t addrs = 0x6f6dbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -373,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::ObjectDispatcher::CreateDispatchSystemHandle)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6f6c110;
+  constexpr static std::size_t addrs = 0x6f6d1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ObjectDispatcher*>(), { "CreateDispatchSystemHandle", {}, {} })));
@@ -385,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::ObjectDispatcher::DestroyDispatchSystemHandle)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f6c270;
+  constexpr static std::size_t addrs = 0x6f6d350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::Type*, ::UnityEngine::ObjectDispatcher_TypeTrackingFlags)>(
     &::UnityEngine::ObjectDispatcher::EnableTypeTracking)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6f6cac4;
+  constexpr static std::size_t addrs = 0x6f6dba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr, ::System::Type*, ::UnityEngine::ObjectDispatcher_TransformTrackingType)>(
     &::UnityEngine::ObjectDispatcher::EnableTransformTracking)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6f6cc1c;
+  constexpr static std::size_t addrs = 0x6f6dcfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -435,7 +435,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
                          ::System::Action_6<::ArrayW<::UnityW<::UnityEngine::Object>>, ::System::IntPtr, ::System::IntPtr, int32_t, int32_t, ::System::Action_1<::UnityEngine::TypeDispatchData>*>*,
                          bool, bool, ::System::Action_1<::UnityEngine::TypeDispatchData>*)>(&::UnityEngine::ObjectDispatcher::DispatchTypeChangesAndClear)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6f6c7a8;
+  constexpr static std::size_t addrs = 0x6f6d888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -457,7 +457,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(
     ::System::Action_8<::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, int32_t, ::System::Action_1<::UnityEngine::TransformDispatchData>*>*,
     ::System::Action_1<::UnityEngine::TransformDispatchData>*)>(&::UnityEngine::ObjectDispatcher::DispatchTransformDataChangesAndClear)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6f6c8e0;
+  constexpr static std::size_t addrs = 0x6f6d9c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

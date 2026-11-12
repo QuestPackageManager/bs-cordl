@@ -33,6 +33,12 @@ public:
     __E_DownLeft = static_cast<int32_t>(0x6),
     __E_Left = static_cast<int32_t>(0x7),
     __E_UpLeft = static_cast<int32_t>(0x8),
+    __E_UpAndLeft = static_cast<int32_t>(0x9),
+    __E_UpAndRight = static_cast<int32_t>(0xa),
+    __E_DownAndLeft = static_cast<int32_t>(0xb),
+    __E_DownAndRight = static_cast<int32_t>(0xc),
+    __E_UpLeftAndDownRight = static_cast<int32_t>(0xd),
+    __E_UpRightAndDownLeft = static_cast<int32_t>(0xe),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -58,6 +64,12 @@ public:
   /// @brief Field Down value: I32(5)
   static ::HMUI::RoundedCornersDirection const Down;
 
+  /// @brief Field DownAndLeft value: I32(11)
+  static ::HMUI::RoundedCornersDirection const DownAndLeft;
+
+  /// @brief Field DownAndRight value: I32(12)
+  static ::HMUI::RoundedCornersDirection const DownAndRight;
+
   /// @brief Field DownLeft value: I32(6)
   static ::HMUI::RoundedCornersDirection const DownLeft;
 
@@ -73,14 +85,26 @@ public:
   /// @brief Field Up value: I32(1)
   static ::HMUI::RoundedCornersDirection const Up;
 
+  /// @brief Field UpAndLeft value: I32(9)
+  static ::HMUI::RoundedCornersDirection const UpAndLeft;
+
+  /// @brief Field UpAndRight value: I32(10)
+  static ::HMUI::RoundedCornersDirection const UpAndRight;
+
   /// @brief Field UpLeft value: I32(8)
   static ::HMUI::RoundedCornersDirection const UpLeft;
+
+  /// @brief Field UpLeftAndDownRight value: I32(13)
+  static ::HMUI::RoundedCornersDirection const UpLeftAndDownRight;
 
   /// @brief Field UpRight value: I32(2)
   static ::HMUI::RoundedCornersDirection const UpRight;
 
+  /// @brief Field UpRightAndDownLeft value: I32(14)
+  static ::HMUI::RoundedCornersDirection const UpRightAndDownLeft;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19692 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

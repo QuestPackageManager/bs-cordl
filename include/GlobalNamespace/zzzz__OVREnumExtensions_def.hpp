@@ -33,61 +33,61 @@ class CORDL_TYPE OVREnumExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method AsHandType, addr 0x6351cf0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AsHandType, addr 0x6351f78, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRHand_Hand AsHandType(::GlobalNamespace::OVRMesh_MeshType meshType);
 
   /// [Extension]
-  /// @brief Method AsHandType, addr 0x6351c18, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AsHandType, addr 0x6351ea0, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRHand_Hand AsHandType(::GlobalNamespace::OVRSkeleton_SkeletonType skeletonType);
 
   /// [Extension]
   /// [Obsolete("Use the overload which takes an OVRHandSkeletonVersioninstead.")]
-  /// @brief Method AsMeshType, addr 0x6351c78, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AsMeshType, addr 0x6351f00, size 0x14, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRMesh_MeshType AsMeshType(::GlobalNamespace::OVRHand_Hand hand);
 
   /// [Extension]
-  /// @brief Method AsMeshType, addr 0x6351ca8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AsMeshType, addr 0x6351f30, size 0x2c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRMesh_MeshType AsMeshType(::GlobalNamespace::OVRHand_Hand hand, ::GlobalNamespace::OVRHandSkeletonVersion version);
 
   /// [Extension]
   /// [Obsolete("Use the overload which takes an OVRHandSkeletonVersioninstead.")]
-  /// @brief Method AsSkeletonType, addr 0x6351c38, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AsSkeletonType, addr 0x6351ec0, size 0x14, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRSkeleton_SkeletonType AsSkeletonType(::GlobalNamespace::OVRHand_Hand hand);
 
   /// [Extension]
-  /// @brief Method AsSkeletonType, addr 0x6351c4c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AsSkeletonType, addr 0x6351ed4, size 0x2c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRSkeleton_SkeletonType AsSkeletonType(::GlobalNamespace::OVRHand_Hand hand, ::GlobalNamespace::OVRHandSkeletonVersion version);
 
   /// [Extension]
-  /// @brief Method IsHand, addr 0x6351ce0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsHand, addr 0x6351f68, size 0x10, virtual false, abstract: false, final false
   static inline bool IsHand(::GlobalNamespace::OVRMesh_MeshType meshType);
 
   /// [Extension]
-  /// @brief Method IsHand, addr 0x6351be0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsHand, addr 0x6351e68, size 0x10, virtual false, abstract: false, final false
   static inline bool IsHand(::GlobalNamespace::OVRSkeleton_SkeletonType skeletonType);
 
   /// [Extension]
-  /// @brief Method IsLeft, addr 0x6351cd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsLeft, addr 0x6351f5c, size 0xc, virtual false, abstract: false, final false
   static inline bool IsLeft(::GlobalNamespace::OVRMesh_MeshType type);
 
   /// [Extension]
-  /// @brief Method IsLeft, addr 0x6351c0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsLeft, addr 0x6351e94, size 0xc, virtual false, abstract: false, final false
   static inline bool IsLeft(::GlobalNamespace::OVRSkeleton_SkeletonType type);
 
   /// [Extension]
-  /// @brief Method IsOVRHandMesh, addr 0x6351c9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsOVRHandMesh, addr 0x6351f24, size 0xc, virtual false, abstract: false, final false
   static inline bool IsOVRHandMesh(::GlobalNamespace::OVRMesh_MeshType meshType);
 
   /// [Extension]
-  /// @brief Method IsOVRHandSkeleton, addr 0x6351c00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsOVRHandSkeleton, addr 0x6351e88, size 0xc, virtual false, abstract: false, final false
   static inline bool IsOVRHandSkeleton(::GlobalNamespace::OVRSkeleton_SkeletonType skeletonType);
 
   /// [Extension]
-  /// @brief Method IsOpenXRHandMesh, addr 0x6351c8c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsOpenXRHandMesh, addr 0x6351f14, size 0x10, virtual false, abstract: false, final false
   static inline bool IsOpenXRHandMesh(::GlobalNamespace::OVRMesh_MeshType meshType);
 
   /// [Extension]
-  /// @brief Method IsOpenXRHandSkeleton, addr 0x6351bf0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsOpenXRHandSkeleton, addr 0x6351e78, size 0x10, virtual false, abstract: false, final false
   static inline bool IsOpenXRHandSkeleton(::GlobalNamespace::OVRSkeleton_SkeletonType skeletonType);
 
 protected:

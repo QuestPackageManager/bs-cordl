@@ -28,7 +28,7 @@ public:
   __declspec(property(get = __cordl_internal_get_launch_type, put = __cordl_internal_set_launch_type)) int32_t launch_type;
 
   /// [RequiredByNativeCode]
-  /// @brief Method CreateUaaLApplicationLaunchAnalytic, addr 0x6f9fde0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateUaaLApplicationLaunchAnalytic, addr 0x6fa0ec0, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic* CreateUaaLApplicationLaunchAnalytic();
 
   static inline ::UnityEngine::Analytics::UaaLApplicationLaunchAnalytic* New_ctor();
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_launch_type(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6f9fd68, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa0e48, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::HashFNV1A32 (*)()>(&::UnityEngine::Rendering::HashFNV1A32::Create)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6c20358;
+  constexpr static std::size_t addrs = 0x6c21438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "Create", {}, {} })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<int32_t const>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c20364;
+  constexpr static std::size_t addrs = 0x6c21444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<uint32_t const>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6c20384;
+  constexpr static std::size_t addrs = 0x6c21464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<bool const>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6c203a4;
+  constexpr static std::size_t addrs = 0x6c21484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<float_t const>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6c203cc;
+  constexpr static std::size_t addrs = 0x6c214ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<double_t const>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6c203fc;
+  constexpr static std::size_t addrs = 0x6c214dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<::UnityEngine::Vector2 const>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6c20434;
+  constexpr static std::size_t addrs = 0x6c21514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<::UnityEngine::Vector3 const>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6c2047c;
+  constexpr static std::size_t addrs = 0x6c2155c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::HashFNV1A32::*)(::by_ref<::UnityEngine::Vector4 const>)>(&::UnityEngine::Rendering::HashFNV1A32::Append)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6c204e0;
+  constexpr static std::size_t addrs = 0x6c215c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::HashFNV1A32::*)()>(&::UnityEngine::Rendering::HashFNV1A32::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c2055c;
+  constexpr static std::size_t addrs = 0x6c2163c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::HashFNV1A32>(), { "get_value", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::HashFNV1A32::*)()>(&::UnityEngine::Rendering::HashFNV1A32::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c20564;
+  constexpr static std::size_t addrs = 0x6c21644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

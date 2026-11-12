@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::HighlightState::*)(::UnityEngine::Color32, ::UnityEngine::TextCore::Text::Offset)>(
     &::UnityEngine::TextCore::Text::HighlightState::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7097734;
+  constexpr static std::size_t addrs = 0x7098814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::TextCore::Text::HighlightState, ::UnityEngine::TextCore::Text::HighlightState)>(
     &::UnityEngine::TextCore::Text::HighlightState::op_Equality)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x7097744;
+  constexpr static std::size_t addrs = 0x7098824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::TextCore::Text::HighlightState, ::UnityEngine::TextCore::Text::HighlightState)>(
     &::UnityEngine::TextCore::Text::HighlightState::op_Inequality)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x7097840;
+  constexpr static std::size_t addrs = 0x7098920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::TextCore::Text::HighlightState::*)()>(&::UnityEngine::TextCore::Text::HighlightState::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x7097888;
+  constexpr static std::size_t addrs = 0x7098968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::TextCore::Text::HighlightState::*)(::System::Object*)>(&::UnityEngine::TextCore::Text::HighlightState::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x70978f4;
+  constexpr static std::size_t addrs = 0x70989d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

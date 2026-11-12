@@ -35,18 +35,18 @@ namespace Assets::OVR::Scripts {
 class CORDL_TYPE FixMethodDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x62a05f8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x62a0880, size 0x7c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Object* obj, bool isLastInSet, int32_t selectedIndex, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x62a0674, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x62a08fc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x62a05e4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x62a086c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Object* obj, bool isLastInSet, int32_t selectedIndex);
 
   static inline ::Assets::OVR::Scripts::FixMethodDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x62a049c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62a0724, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

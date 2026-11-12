@@ -34,15 +34,15 @@ public:
 
   constexpr void __cordl_internal_set__Method_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6751968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6751fb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW method);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Method, addr 0x6751958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Method, addr 0x6751fa8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Method();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Method, addr 0x6751960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Method, addr 0x6751fb0, size 0x8, virtual false, abstract: false, final false
   inline void set_Method(::StringW value);
 
 protected:

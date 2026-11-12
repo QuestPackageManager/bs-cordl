@@ -31,22 +31,22 @@ namespace System::ComponentModel {
 class CORDL_TYPE DateTimeConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertFrom, addr 0x6823bf0, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x6824240, size 0x80, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x6823c70, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x68242c0, size 0xa4, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x6823d14, size 0x304, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x6824364, size 0x304, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x6824018, size 0x3bc, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x6824668, size 0x3bc, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::ComponentModel::DateTimeConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x68243d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6824a24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

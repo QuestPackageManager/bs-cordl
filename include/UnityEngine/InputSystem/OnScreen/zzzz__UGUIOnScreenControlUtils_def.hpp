@@ -25,7 +25,7 @@ namespace UnityEngine::InputSystem::OnScreen {
 class CORDL_TYPE UGUIOnScreenControlUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCanvasRectTransform, addr 0x6a066cc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetCanvasRectTransform, addr 0x6a077ac, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RectTransform> GetCanvasRectTransform(::UnityEngine::Transform* transform);
 
 protected:

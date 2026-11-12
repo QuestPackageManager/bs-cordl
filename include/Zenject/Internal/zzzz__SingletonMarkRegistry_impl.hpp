@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Internal::SingletonMarkRegistry::*)(::System::Type*)>(&::Zenject::Internal::SingletonMarkRegistry::MarkNonSingleton)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x7378a5c;
+  constexpr static std::size_t addrs = 0x737ad54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Internal::SingletonMarkRegistry::*)(::System::Type*)>(&::Zenject::Internal::SingletonMarkRegistry::MarkSingleton)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x7378b28;
+  constexpr static std::size_t addrs = 0x737ae20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Internal::SingletonMarkRegistry::*)(::System::Type*)>(&::Zenject::Internal::SingletonMarkRegistry::Unmark)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x7378c20;
+  constexpr static std::size_t addrs = 0x737af18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::Internal::SingletonMarkRegistry::*)()>(&::Zenject::Internal::SingletonMarkRegistry::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x7378c98;
+  constexpr static std::size_t addrs = 0x737af90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::Internal::SingletonMarkRegistry*>(), { ".ctor", {}, {} })));

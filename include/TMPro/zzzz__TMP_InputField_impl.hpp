@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField_OnValidateInput::*)(::System::Object*, ::System::IntPtr)>(&::TMPro::TMP_InputField_OnValidateInput::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6dd80f0;
+  constexpr static std::size_t addrs = 0x6dd91d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::TMPro::TMP_InputField_OnValidateInput::*)(::StringW, int32_t, char16_t)>(&::TMPro::TMP_InputField_OnValidateInput::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6dd8170;
+  constexpr static std::size_t addrs = 0x6dd9250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (::TMPro::TMP_InputField_OnValidateInput::*)(::StringW, int32_t, char16_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::TMPro::TMP_InputField_OnValidateInput::BeginInvoke)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6dd8184;
+  constexpr static std::size_t addrs = 0x6dd9264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::TMPro::TMP_InputField_OnValidateInput::*)(::System::IAsyncResult*)>(&::TMPro::TMP_InputField_OnValidateInput::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6dd8200;
+  constexpr static std::size_t addrs = 0x6dd92e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField_SubmitEvent::*)()>(&::TMPro::TMP_InputField_SubmitEvent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6dd8224;
+  constexpr static std::size_t addrs = 0x6dd9304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField_SubmitEvent*>(), { ".ctor", {}, {} })));
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField_OnChangeEvent::*)()>(&::TMPro::TMP_InputField_OnChangeEvent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6dd8270;
+  constexpr static std::size_t addrs = 0x6dd9350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField_OnChangeEvent*>(), { ".ctor", {}, {} })));
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField_SelectionEvent::*)()>(&::TMPro::TMP_InputField_SelectionEvent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6dd82bc;
+  constexpr static std::size_t addrs = 0x6dd939c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField_SelectionEvent*>(), { ".ctor", {}, {} })));
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField_TextSelectionEvent::*)()>(&::TMPro::TMP_InputField_TextSelectionEvent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6dd8308;
+  constexpr static std::size_t addrs = 0x6dd93e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField_TextSelectionEvent*>(), { ".ctor", {}, {} })));
@@ -274,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField_TouchScreenKeyboardEvent::*)()>(&::TMPro::TMP_InputField_TouchScreenKeyboardEvent::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6dd8354;
+  constexpr static std::size_t addrs = 0x6dd9434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField_TouchScreenKeyboardEvent*>(), { ".ctor", {}, {} })));
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField__CaretBlink_d__295::*)(int32_t)>(&::TMPro::TMP_InputField__CaretBlink_d__295::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dd83a0;
+  constexpr static std::size_t addrs = 0x6dd9480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField__CaretBlink_d__295::*)()>(&::TMPro::TMP_InputField__CaretBlink_d__295::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dd83a8;
+  constexpr static std::size_t addrs = 0x6dd9488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField__CaretBlink_d__295*>(), { "System.IDisposable.Dispose", {}, {} })));
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField__CaretBlink_d__295::*)()>(&::TMPro::TMP_InputField__CaretBlink_d__295::MoveNext)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6dd83ac;
+  constexpr static std::size_t addrs = 0x6dd948c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField__CaretBlink_d__295*>(), { "MoveNext", {}, {} })));
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::TMPro::TMP_InputField__CaretBlink_d__295::*)()>(
     &::TMPro::TMP_InputField__CaretBlink_d__295::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dd84e8;
+  constexpr static std::size_t addrs = 0x6dd95c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField__CaretBlink_d__295::*)()>(&::TMPro::TMP_InputField__CaretBlink_d__295::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6dd84f0;
+  constexpr static std::size_t addrs = 0x6dd95d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::TMPro::TMP_InputField__CaretBlink_d__295::*)()>(
     &::TMPro::TMP_InputField__CaretBlink_d__295::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dd8528;
+  constexpr static std::size_t addrs = 0x6dd9608;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -475,7 +475,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::*)(int32_t)>(&::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dd8530;
+  constexpr static std::size_t addrs = 0x6dd9610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::*)()>(
     &::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dd8538;
+  constexpr static std::size_t addrs = 0x6dd9618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::*)()>(&::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::MoveNext)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x6dd853c;
+  constexpr static std::size_t addrs = 0x6dd961c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField__MouseDragOutsideRect_d__316*>(), { "MoveNext", {}, {} })));
@@ -515,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::*)()>(
     &::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dd87bc;
+  constexpr static std::size_t addrs = 0x6dd989c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -530,7 +530,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::*)()>(
     &::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6dd87c4;
+  constexpr static std::size_t addrs = 0x6dd98a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -544,7 +544,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::*)()>(
     &::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dd87fc;
+  constexpr static std::size_t addrs = 0x6dd98dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -666,7 +666,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::EventSystems::BaseInput> (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_inputSystem)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6da3574;
+  constexpr static std::size_t addrs = 0x6da4654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_inputSystem", {}, {} })));
@@ -678,7 +678,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_compositionString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6da368c;
+  constexpr static std::size_t addrs = 0x6da476c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_compositionString", {}, {} })));
@@ -690,7 +690,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_compositionLength)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6da3724;
+  constexpr static std::size_t addrs = 0x6da4804;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_compositionLength", {}, {} })));
@@ -702,7 +702,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::_ctor)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x6da3750;
+  constexpr static std::size_t addrs = 0x6da4830;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ".ctor", {}, {} })));
@@ -714,7 +714,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Mesh> (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_mesh)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6da3ad4;
+  constexpr static std::size_t addrs = 0x6da4bb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_mesh", {}, {} })));
@@ -726,7 +726,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_shouldActivateOnSelect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da3b7c;
+  constexpr static std::size_t addrs = 0x6da4c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 61 }));
@@ -738,7 +738,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_shouldActivateOnSelect)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6da3b84;
+  constexpr static std::size_t addrs = 0x6da4c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 62 }));
@@ -750,7 +750,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_shouldHideMobileInput)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6da3c10;
+  constexpr static std::size_t addrs = 0x6da4cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_shouldHideMobileInput", {}, {} })));
@@ -762,7 +762,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_shouldHideMobileInput)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6da3cc4;
+  constexpr static std::size_t addrs = 0x6da4da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -775,7 +775,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_shouldHideSoftKeyboard)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6da3dac;
+  constexpr static std::size_t addrs = 0x6da4e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_shouldHideSoftKeyboard", {}, {} })));
@@ -787,7 +787,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_shouldHideSoftKeyboard)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6da3ea8;
+  constexpr static std::size_t addrs = 0x6da4f88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -800,7 +800,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::isKeyboardUsingEvents)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x6da4014;
+  constexpr static std::size_t addrs = 0x6da50f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "isKeyboardUsingEvents", {}, {} })));
@@ -812,7 +812,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::isUWP)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6da41bc;
+  constexpr static std::size_t addrs = 0x6da529c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "isUWP", {}, {} })));
@@ -824,7 +824,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da42a4;
+  constexpr static std::size_t addrs = 0x6da5384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_text", {}, {} })));
@@ -836,7 +836,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::StringW)>(&::TMPro::TMP_InputField::set_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da42ac;
+  constexpr static std::size_t addrs = 0x6da538c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "set_text", {}, { ::i2c::type_of<::StringW>() } })));
@@ -848,7 +848,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::StringW)>(&::TMPro::TMP_InputField::SetTextWithoutNotify)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da43dc;
+  constexpr static std::size_t addrs = 0x6da54bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -861,7 +861,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::StringW, bool)>(&::TMPro::TMP_InputField::SetText)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6da42b4;
+  constexpr static std::size_t addrs = 0x6da5394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -874,7 +874,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_isFocused)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da4904;
+  constexpr static std::size_t addrs = 0x6da59e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_isFocused", {}, {} })));
@@ -886,7 +886,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_caretBlinkRate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da490c;
+  constexpr static std::size_t addrs = 0x6da59ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_caretBlinkRate", {}, {} })));
@@ -898,7 +898,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(float_t)>(&::TMPro::TMP_InputField::set_caretBlinkRate)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6da4914;
+  constexpr static std::size_t addrs = 0x6da59f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "set_caretBlinkRate", {}, { ::i2c::type_of<float_t>() } })));
@@ -910,7 +910,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_caretWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da49e8;
+  constexpr static std::size_t addrs = 0x6da5ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_caretWidth", {}, {} })));
@@ -922,7 +922,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_caretWidth)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6da49f0;
+  constexpr static std::size_t addrs = 0x6da5ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "set_caretWidth", {}, { ::i2c::type_of<int32_t>() } })));
@@ -934,7 +934,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RectTransform> (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_textViewport)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da4ac4;
+  constexpr static std::size_t addrs = 0x6da5ba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_textViewport", {}, {} })));
@@ -946,7 +946,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::RectTransform*)>(&::TMPro::TMP_InputField::set_textViewport)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6da4acc;
+  constexpr static std::size_t addrs = 0x6da5bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -959,7 +959,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_Text> (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_textComponent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da4b40;
+  constexpr static std::size_t addrs = 0x6da5c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_textComponent", {}, {} })));
@@ -971,7 +971,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_InputField::set_textComponent)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6da4b48;
+  constexpr static std::size_t addrs = 0x6da5c28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -984,7 +984,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Graphic> (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_placeholder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da4bd0;
+  constexpr static std::size_t addrs = 0x6da5cb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_placeholder", {}, {} })));
@@ -996,7 +996,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::UI::Graphic*)>(&::TMPro::TMP_InputField::set_placeholder)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6da4bd8;
+  constexpr static std::size_t addrs = 0x6da5cb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1009,7 +1009,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::UI::Scrollbar> (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_verticalScrollbar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da4c4c;
+  constexpr static std::size_t addrs = 0x6da5d2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_verticalScrollbar", {}, {} })));
@@ -1021,7 +1021,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::UI::Scrollbar*)>(&::TMPro::TMP_InputField::set_verticalScrollbar)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x6da4c54;
+  constexpr static std::size_t addrs = 0x6da5d34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1034,7 +1034,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_scrollSensitivity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da4e98;
+  constexpr static std::size_t addrs = 0x6da5f78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_scrollSensitivity", {}, {} })));
@@ -1046,7 +1046,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(float_t)>(&::TMPro::TMP_InputField::set_scrollSensitivity)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6da4ea0;
+  constexpr static std::size_t addrs = 0x6da5f80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1059,7 +1059,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_caretColor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6da4f18;
+  constexpr static std::size_t addrs = 0x6da5ff8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_caretColor", {}, {} })));
@@ -1071,7 +1071,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::Color)>(&::TMPro::TMP_InputField::set_caretColor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6da4f5c;
+  constexpr static std::size_t addrs = 0x6da603c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1084,7 +1084,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_customCaretColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da4fa4;
+  constexpr static std::size_t addrs = 0x6da6084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_customCaretColor", {}, {} })));
@@ -1096,7 +1096,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_customCaretColor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6da4fac;
+  constexpr static std::size_t addrs = 0x6da608c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "set_customCaretColor", {}, { ::i2c::type_of<bool>() } })));
@@ -1108,7 +1108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_selectionColor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6da4fc8;
+  constexpr static std::size_t addrs = 0x6da60a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_selectionColor", {}, {} })));
@@ -1120,7 +1120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::Color)>(&::TMPro::TMP_InputField::set_selectionColor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6da4fdc;
+  constexpr static std::size_t addrs = 0x6da60bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1133,7 +1133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_InputField_SubmitEvent* (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_onEndEdit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5024;
+  constexpr static std::size_t addrs = 0x6da6104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_onEndEdit", {}, {} })));
@@ -1145,7 +1145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_SubmitEvent*)>(&::TMPro::TMP_InputField::set_onEndEdit)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6da502c;
+  constexpr static std::size_t addrs = 0x6da610c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1158,7 +1158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_InputField_SubmitEvent* (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_onSubmit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da50a0;
+  constexpr static std::size_t addrs = 0x6da6180;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_onSubmit", {}, {} })));
@@ -1170,7 +1170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_SubmitEvent*)>(&::TMPro::TMP_InputField::set_onSubmit)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6da50a8;
+  constexpr static std::size_t addrs = 0x6da6188;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1183,7 +1183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_InputField_SelectionEvent* (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_onSelect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da511c;
+  constexpr static std::size_t addrs = 0x6da61fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_onSelect", {}, {} })));
@@ -1195,7 +1195,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_SelectionEvent*)>(&::TMPro::TMP_InputField::set_onSelect)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6da5124;
+  constexpr static std::size_t addrs = 0x6da6204;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1208,7 +1208,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_InputField_SelectionEvent* (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_onDeselect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5198;
+  constexpr static std::size_t addrs = 0x6da6278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_onDeselect", {}, {} })));
@@ -1220,7 +1220,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_SelectionEvent*)>(&::TMPro::TMP_InputField::set_onDeselect)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6da51a0;
+  constexpr static std::size_t addrs = 0x6da6280;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1233,7 +1233,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_InputField_TextSelectionEvent* (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_onTextSelection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5214;
+  constexpr static std::size_t addrs = 0x6da62f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_onTextSelection", {}, {} })));
@@ -1245,7 +1245,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_TextSelectionEvent*)>(&::TMPro::TMP_InputField::set_onTextSelection)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6da521c;
+  constexpr static std::size_t addrs = 0x6da62fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1258,7 +1258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_InputField_TextSelectionEvent* (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_onEndTextSelection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5290;
+  constexpr static std::size_t addrs = 0x6da6370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_onEndTextSelection", {}, {} })));
@@ -1270,7 +1270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_TextSelectionEvent*)>(&::TMPro::TMP_InputField::set_onEndTextSelection)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6da5298;
+  constexpr static std::size_t addrs = 0x6da6378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1283,7 +1283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_InputField_OnChangeEvent* (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_onValueChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da530c;
+  constexpr static std::size_t addrs = 0x6da63ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_onValueChanged", {}, {} })));
@@ -1295,7 +1295,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_OnChangeEvent*)>(&::TMPro::TMP_InputField::set_onValueChanged)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6da5314;
+  constexpr static std::size_t addrs = 0x6da63f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1309,7 +1309,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_InputField_TouchScreenKeyboardEvent* (::TMPro::TMP_InputField::*)()>(
     &::TMPro::TMP_InputField::get_onTouchScreenKeyboardStatusChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5388;
+  constexpr static std::size_t addrs = 0x6da6468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_onTouchScreenKeyboardStatusChanged", {}, {} })));
@@ -1322,7 +1322,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_TouchScreenKeyboardEvent*)>(
     &::TMPro::TMP_InputField::set_onTouchScreenKeyboardStatusChanged)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6da5390;
+  constexpr static std::size_t addrs = 0x6da6470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1336,7 +1336,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_InputField_OnValidateInput* (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_onValidateInput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5404;
+  constexpr static std::size_t addrs = 0x6da64e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_onValidateInput", {}, {} })));
@@ -1348,7 +1348,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_OnValidateInput*)>(&::TMPro::TMP_InputField::set_onValidateInput)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6da540c;
+  constexpr static std::size_t addrs = 0x6da64ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1361,7 +1361,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_characterLimit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5480;
+  constexpr static std::size_t addrs = 0x6da6560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_characterLimit", {}, {} })));
@@ -1373,7 +1373,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_characterLimit)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6da5488;
+  constexpr static std::size_t addrs = 0x6da6568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "set_characterLimit", {}, { ::i2c::type_of<int32_t>() } })));
@@ -1385,7 +1385,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_pointSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da553c;
+  constexpr static std::size_t addrs = 0x6da661c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_pointSize", {}, {} })));
@@ -1397,7 +1397,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(float_t)>(&::TMPro::TMP_InputField::set_pointSize)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6da5544;
+  constexpr static std::size_t addrs = 0x6da6624;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "set_pointSize", {}, { ::i2c::type_of<float_t>() } })));
@@ -1409,7 +1409,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_FontAsset> (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_fontAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da56e8;
+  constexpr static std::size_t addrs = 0x6da67c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_fontAsset", {}, {} })));
@@ -1421,7 +1421,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_InputField::set_fontAsset)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6da56f0;
+  constexpr static std::size_t addrs = 0x6da67d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1434,7 +1434,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_onFocusSelectAll)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5874;
+  constexpr static std::size_t addrs = 0x6da6954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_onFocusSelectAll", {}, {} })));
@@ -1446,7 +1446,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_onFocusSelectAll)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da587c;
+  constexpr static std::size_t addrs = 0x6da695c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "set_onFocusSelectAll", {}, { ::i2c::type_of<bool>() } })));
@@ -1458,7 +1458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_resetOnDeActivation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5884;
+  constexpr static std::size_t addrs = 0x6da6964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_resetOnDeActivation", {}, {} })));
@@ -1470,7 +1470,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_resetOnDeActivation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da588c;
+  constexpr static std::size_t addrs = 0x6da696c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1483,7 +1483,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_keepTextSelectionVisible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5894;
+  constexpr static std::size_t addrs = 0x6da6974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_keepTextSelectionVisible", {}, {} })));
@@ -1495,7 +1495,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_keepTextSelectionVisible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da589c;
+  constexpr static std::size_t addrs = 0x6da697c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1508,7 +1508,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_restoreOriginalTextOnEscape)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da58a4;
+  constexpr static std::size_t addrs = 0x6da6984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_restoreOriginalTextOnEscape", {}, {} })));
@@ -1520,7 +1520,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_restoreOriginalTextOnEscape)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da58ac;
+  constexpr static std::size_t addrs = 0x6da698c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1533,7 +1533,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_isRichTextEditingAllowed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da58b4;
+  constexpr static std::size_t addrs = 0x6da6994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_isRichTextEditingAllowed", {}, {} })));
@@ -1545,7 +1545,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_isRichTextEditingAllowed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da58bc;
+  constexpr static std::size_t addrs = 0x6da699c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1558,7 +1558,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_InputField_ContentType (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_contentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da58c4;
+  constexpr static std::size_t addrs = 0x6da69a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_contentType", {}, {} })));
@@ -1570,7 +1570,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_ContentType)>(&::TMPro::TMP_InputField::set_contentType)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6da58cc;
+  constexpr static std::size_t addrs = 0x6da69ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1583,7 +1583,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_InputField_LineType (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_lineType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5a4c;
+  constexpr static std::size_t addrs = 0x6da6b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_lineType", {}, {} })));
@@ -1595,7 +1595,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_LineType)>(&::TMPro::TMP_InputField::set_lineType)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6da5a54;
+  constexpr static std::size_t addrs = 0x6da6b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1608,7 +1608,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_lineLimit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5b78;
+  constexpr static std::size_t addrs = 0x6da6c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_lineLimit", {}, {} })));
@@ -1620,7 +1620,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_lineLimit)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6da5b80;
+  constexpr static std::size_t addrs = 0x6da6c60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "set_lineLimit", {}, { ::i2c::type_of<int32_t>() } })));
@@ -1632,7 +1632,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_InputField_InputType (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_inputType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5bfc;
+  constexpr static std::size_t addrs = 0x6da6cdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_inputType", {}, {} })));
@@ -1644,7 +1644,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_InputType)>(&::TMPro::TMP_InputField::set_inputType)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6da5c04;
+  constexpr static std::size_t addrs = 0x6da6ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1657,7 +1657,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TouchScreenKeyboard* (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_touchScreenKeyboard)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5ca4;
+  constexpr static std::size_t addrs = 0x6da6d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_touchScreenKeyboard", {}, {} })));
@@ -1669,7 +1669,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::TouchScreenKeyboardType (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_keyboardType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5cac;
+  constexpr static std::size_t addrs = 0x6da6d8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_keyboardType", {}, {} })));
@@ -1681,7 +1681,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::TouchScreenKeyboardType)>(&::TMPro::TMP_InputField::set_keyboardType)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6da5cb4;
+  constexpr static std::size_t addrs = 0x6da6d94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1694,7 +1694,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_InputField_CharacterValidation (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_characterValidation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5d3c;
+  constexpr static std::size_t addrs = 0x6da6e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_characterValidation", {}, {} })));
@@ -1706,7 +1706,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_CharacterValidation)>(&::TMPro::TMP_InputField::set_characterValidation)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6da5d44;
+  constexpr static std::size_t addrs = 0x6da6e24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1719,7 +1719,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::TMPro::TMP_InputValidator> (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_inputValidator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5dcc;
+  constexpr static std::size_t addrs = 0x6da6eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_inputValidator", {}, {} })));
@@ -1731,7 +1731,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputValidator*)>(&::TMPro::TMP_InputField::set_inputValidator)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6da5dd4;
+  constexpr static std::size_t addrs = 0x6da6eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1744,7 +1744,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_readOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5e84;
+  constexpr static std::size_t addrs = 0x6da6f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_readOnly", {}, {} })));
@@ -1756,7 +1756,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_readOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5e8c;
+  constexpr static std::size_t addrs = 0x6da6f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "set_readOnly", {}, { ::i2c::type_of<bool>() } })));
@@ -1768,7 +1768,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_richText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5e94;
+  constexpr static std::size_t addrs = 0x6da6f74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_richText", {}, {} })));
@@ -1780,7 +1780,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_richText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5e9c;
+  constexpr static std::size_t addrs = 0x6da6f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "set_richText", {}, { ::i2c::type_of<bool>() } })));
@@ -1792,7 +1792,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_multiLine)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6da5f68;
+  constexpr static std::size_t addrs = 0x6da7048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_multiLine", {}, {} })));
@@ -1804,7 +1804,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_asteriskChar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5f7c;
+  constexpr static std::size_t addrs = 0x6da705c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_asteriskChar", {}, {} })));
@@ -1816,7 +1816,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(char16_t)>(&::TMPro::TMP_InputField::set_asteriskChar)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6da5f84;
+  constexpr static std::size_t addrs = 0x6da7064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "set_asteriskChar", {}, { ::i2c::type_of<char16_t>() } })));
@@ -1828,7 +1828,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_wasCanceled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da5ffc;
+  constexpr static std::size_t addrs = 0x6da70dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_wasCanceled", {}, {} })));
@@ -1840,7 +1840,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::by_ref<int32_t>)>(&::TMPro::TMP_InputField::ClampStringPos)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6da6004;
+  constexpr static std::size_t addrs = 0x6da70e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1853,7 +1853,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::by_ref<int32_t>)>(&::TMPro::TMP_InputField::ClampCaretPos)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6da603c;
+  constexpr static std::size_t addrs = 0x6da711c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1866,7 +1866,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::ClampArrayIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6da60b8;
+  constexpr static std::size_t addrs = 0x6da7198;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "ClampArrayIndex", {}, { ::i2c::type_of<int32_t>() } })));
@@ -1878,7 +1878,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_caretPositionInternal)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6da60c0;
+  constexpr static std::size_t addrs = 0x6da71a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_caretPositionInternal", {}, {} })));
@@ -1890,7 +1890,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_caretPositionInternal)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6da60d8;
+  constexpr static std::size_t addrs = 0x6da71b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1903,7 +1903,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_stringPositionInternal)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6da60e8;
+  constexpr static std::size_t addrs = 0x6da71c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_stringPositionInternal", {}, {} })));
@@ -1915,7 +1915,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_stringPositionInternal)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6da6100;
+  constexpr static std::size_t addrs = 0x6da71e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1928,7 +1928,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_caretSelectPositionInternal)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6da6138;
+  constexpr static std::size_t addrs = 0x6da7218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_caretSelectPositionInternal", {}, {} })));
@@ -1940,7 +1940,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_caretSelectPositionInternal)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6da6150;
+  constexpr static std::size_t addrs = 0x6da7230;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1953,7 +1953,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_stringSelectPositionInternal)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6da6160;
+  constexpr static std::size_t addrs = 0x6da7240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_stringSelectPositionInternal", {}, {} })));
@@ -1965,7 +1965,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_stringSelectPositionInternal)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6da6178;
+  constexpr static std::size_t addrs = 0x6da7258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1978,7 +1978,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_hasSelection)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6da61b0;
+  constexpr static std::size_t addrs = 0x6da7290;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_hasSelection", {}, {} })));
@@ -1990,7 +1990,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_caretPosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6da61ec;
+  constexpr static std::size_t addrs = 0x6da72cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_caretPosition", {}, {} })));
@@ -2002,7 +2002,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_caretPosition)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6da6204;
+  constexpr static std::size_t addrs = 0x6da72e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "set_caretPosition", {}, { ::i2c::type_of<int32_t>() } })));
@@ -2014,7 +2014,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_selectionAnchorPosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6da6330;
+  constexpr static std::size_t addrs = 0x6da7410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_selectionAnchorPosition", {}, {} })));
@@ -2026,7 +2026,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_selectionAnchorPosition)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6da6234;
+  constexpr static std::size_t addrs = 0x6da7314;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2039,7 +2039,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_selectionFocusPosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6da6348;
+  constexpr static std::size_t addrs = 0x6da7428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_selectionFocusPosition", {}, {} })));
@@ -2051,7 +2051,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_selectionFocusPosition)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6da6270;
+  constexpr static std::size_t addrs = 0x6da7350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2064,7 +2064,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_stringPosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6da6360;
+  constexpr static std::size_t addrs = 0x6da7440;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_stringPosition", {}, {} })));
@@ -2076,7 +2076,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_stringPosition)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6da6378;
+  constexpr static std::size_t addrs = 0x6da7458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "set_stringPosition", {}, { ::i2c::type_of<int32_t>() } })));
@@ -2088,7 +2088,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_selectionStringAnchorPosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6da64c8;
+  constexpr static std::size_t addrs = 0x6da75a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_selectionStringAnchorPosition", {}, {} })));
@@ -2100,7 +2100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_selectionStringAnchorPosition)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6da63a8;
+  constexpr static std::size_t addrs = 0x6da7488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2113,7 +2113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_selectionStringFocusPosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6da64e0;
+  constexpr static std::size_t addrs = 0x6da75c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_selectionStringFocusPosition", {}, {} })));
@@ -2125,7 +2125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_selectionStringFocusPosition)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6da6404;
+  constexpr static std::size_t addrs = 0x6da74e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2138,7 +2138,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::Awake)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6da64f8;
+  constexpr static std::size_t addrs = 0x6da75d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 4 }));
@@ -2150,7 +2150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::OnEnable)> {
   constexpr static std::size_t size = 0x8e4;
-  constexpr static std::size_t addrs = 0x6da65b8;
+  constexpr static std::size_t addrs = 0x6da7698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 5 }));
@@ -2162,7 +2162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::OnDisable)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x6da73a4;
+  constexpr static std::size_t addrs = 0x6da8484;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 7 }));
@@ -2174,7 +2174,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::Object*)>(&::TMPro::TMP_InputField::ON_TEXT_CHANGED)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6da7978;
+  constexpr static std::size_t addrs = 0x6da8a58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2187,7 +2187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::CaretBlink)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6da7b94;
+  constexpr static std::size_t addrs = 0x6da8c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "CaretBlink", {}, {} })));
@@ -2199,7 +2199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SetCaretVisible)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6da7be8;
+  constexpr static std::size_t addrs = 0x6da8cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SetCaretVisible", {}, {} })));
@@ -2211,7 +2211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SetCaretActive)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6da4994;
+  constexpr static std::size_t addrs = 0x6da5a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SetCaretActive", {}, {} })));
@@ -2223,7 +2223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::OnFocus)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6da7c3c;
+  constexpr static std::size_t addrs = 0x6da8d1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "OnFocus", {}, {} })));
@@ -2235,7 +2235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SelectAll)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6da7c70;
+  constexpr static std::size_t addrs = 0x6da8d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SelectAll", {}, {} })));
@@ -2247,7 +2247,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::MoveTextEnd)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x6da7c9c;
+  constexpr static std::size_t addrs = 0x6da8d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "MoveTextEnd", {}, { ::i2c::type_of<bool>() } })));
@@ -2259,7 +2259,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::MoveTextStart)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x6da7e5c;
+  constexpr static std::size_t addrs = 0x6da8f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "MoveTextStart", {}, { ::i2c::type_of<bool>() } })));
@@ -2271,7 +2271,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool, bool)>(&::TMPro::TMP_InputField::MoveToEndOfLine)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x6da7f58;
+  constexpr static std::size_t addrs = 0x6da9038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2284,7 +2284,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool, bool)>(&::TMPro::TMP_InputField::MoveToStartOfLine)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x6da8110;
+  constexpr static std::size_t addrs = 0x6da91f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2297,7 +2297,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::TMPro::TMP_InputField::get_clipboard)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6da82fc;
+  constexpr static std::size_t addrs = 0x6da93dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "get_clipboard", {}, {} })));
@@ -2309,7 +2309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::TMPro::TMP_InputField::set_clipboard)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6da8350;
+  constexpr static std::size_t addrs = 0x6da9430;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "set_clipboard", {}, { ::i2c::type_of<::StringW>() } })));
@@ -2321,7 +2321,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::InPlaceEditing)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6da4134;
+  constexpr static std::size_t addrs = 0x6da5214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "InPlaceEditing", {}, {} })));
@@ -2333,7 +2333,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::InPlaceEditingChanged)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6da83ac;
+  constexpr static std::size_t addrs = 0x6da948c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "InPlaceEditingChanged", {}, {} })));
@@ -2345,7 +2345,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::TouchScreenKeyboardShouldBeUsed)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6da8430;
+  constexpr static std::size_t addrs = 0x6da9510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "TouchScreenKeyboardShouldBeUsed", {}, {} })));
@@ -2357,7 +2357,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateKeyboardStringPosition)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6da8508;
+  constexpr static std::size_t addrs = 0x6da95e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "UpdateKeyboardStringPosition", {}, {} })));
@@ -2369,7 +2369,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateStringPositionFromKeyboard)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x6da86ac;
+  constexpr static std::size_t addrs = 0x6da978c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "UpdateStringPositionFromKeyboard", {}, {} })));
@@ -2381,7 +2381,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::LateUpdate)> {
   constexpr static std::size_t size = 0x8b0;
-  constexpr static std::size_t addrs = 0x6da88d4;
+  constexpr static std::size_t addrs = 0x6da99b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 63 }));
@@ -2393,7 +2393,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::TMPro::TMP_InputField::MayDrag)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6da9ea8;
+  constexpr static std::size_t addrs = 0x6daaf88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2406,7 +2406,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::TMPro::TMP_InputField::OnBeginDrag)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6da9f90;
+  constexpr static std::size_t addrs = 0x6dab070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 64 }));
@@ -2418,7 +2418,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::TMPro::TMP_InputField::OnDrag)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x6da9fb0;
+  constexpr static std::size_t addrs = 0x6dab090;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 65 }));
@@ -2431,7 +2431,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::TMPro::TMP_InputField::MouseDragOutsideRect)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6daa338;
+  constexpr static std::size_t addrs = 0x6dab418;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2444,7 +2444,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::TMPro::TMP_InputField::OnEndDrag)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6daa398;
+  constexpr static std::size_t addrs = 0x6dab478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 66 }));
@@ -2456,7 +2456,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::TMPro::TMP_InputField::OnPointerDown)> {
   constexpr static std::size_t size = 0x960;
-  constexpr static std::size_t addrs = 0x6daa3b4;
+  constexpr static std::size_t addrs = 0x6dab494;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 32 }));
@@ -2468,7 +2468,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::TMPro::TMP_InputField_EditState (::TMPro::TMP_InputField::*)(::UnityEngine::Event*)>(&::TMPro::TMP_InputField::KeyPressed)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x6daad14;
+  constexpr static std::size_t addrs = 0x6dabdf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2481,7 +2481,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::TMPro::TMP_InputField::*)(char16_t)>(&::TMPro::TMP_InputField::IsValidChar)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6dac688;
+  constexpr static std::size_t addrs = 0x6dad768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 67 }));
@@ -2493,7 +2493,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::Event*)>(&::TMPro::TMP_InputField::ProcessEvent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6dac6c4;
+  constexpr static std::size_t addrs = 0x6dad7a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2506,7 +2506,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::TMPro::TMP_InputField::OnUpdateSelected)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x6dac6c8;
+  constexpr static std::size_t addrs = 0x6dad7a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 68 }));
@@ -2518,7 +2518,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::TMPro::TMP_InputField::OnScroll)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x6dac8f0;
+  constexpr static std::size_t addrs = 0x6dad9d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 69 }));
@@ -2530,7 +2530,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::GetScrollPositionRelativeToViewport)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6dacaf8;
+  constexpr static std::size_t addrs = 0x6dadbd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "GetScrollPositionRelativeToViewport", {}, {} })));
@@ -2542,7 +2542,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::GetSelectedString)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6dab910;
+  constexpr static std::size_t addrs = 0x6dac9f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "GetSelectedString", {}, {} })));
@@ -2554,7 +2554,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::FindNextWordBegin)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x6dace64;
+  constexpr static std::size_t addrs = 0x6dadf44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "FindNextWordBegin", {}, {} })));
@@ -2566,7 +2566,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool, bool)>(&::TMPro::TMP_InputField::MoveRight)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x6dac15c;
+  constexpr static std::size_t addrs = 0x6dad23c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2579,7 +2579,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::FindPrevWordBegin)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6dacf40;
+  constexpr static std::size_t addrs = 0x6dae020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "FindPrevWordBegin", {}, {} })));
@@ -2591,7 +2591,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool, bool)>(&::TMPro::TMP_InputField::MoveLeft)> {
   constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x6dabca8;
+  constexpr static std::size_t addrs = 0x6dacd88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2604,7 +2604,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t, bool)>(&::TMPro::TMP_InputField::LineUpCharacterPosition)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x6dacffc;
+  constexpr static std::size_t addrs = 0x6dae0dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2617,7 +2617,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t, bool)>(&::TMPro::TMP_InputField::LineDownCharacterPosition)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x6dad1e8;
+  constexpr static std::size_t addrs = 0x6dae2c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2630,7 +2630,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t, bool)>(&::TMPro::TMP_InputField::PageUpCharacterPosition)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x6dad408;
+  constexpr static std::size_t addrs = 0x6dae4e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2643,7 +2643,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t, bool)>(&::TMPro::TMP_InputField::PageDownCharacterPosition)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x6dad6e4;
+  constexpr static std::size_t addrs = 0x6dae7c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2656,7 +2656,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::MoveDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dac670;
+  constexpr static std::size_t addrs = 0x6dad750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "MoveDown", {}, { ::i2c::type_of<bool>() } })));
@@ -2668,7 +2668,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool, bool)>(&::TMPro::TMP_InputField::MoveDown)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x6dada1c;
+  constexpr static std::size_t addrs = 0x6daeafc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2681,7 +2681,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::MoveUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dac668;
+  constexpr static std::size_t addrs = 0x6dad748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "MoveUp", {}, { ::i2c::type_of<bool>() } })));
@@ -2693,7 +2693,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool, bool)>(&::TMPro::TMP_InputField::MoveUp)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x6dadbdc;
+  constexpr static std::size_t addrs = 0x6daecbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2706,7 +2706,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::MovePageUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dac678;
+  constexpr static std::size_t addrs = 0x6dad758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "MovePageUp", {}, { ::i2c::type_of<bool>() } })));
@@ -2718,7 +2718,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool, bool)>(&::TMPro::TMP_InputField::MovePageUp)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x6dadd84;
+  constexpr static std::size_t addrs = 0x6daee64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2731,7 +2731,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::MovePageDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6dac680;
+  constexpr static std::size_t addrs = 0x6dad760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "MovePageDown", {}, { ::i2c::type_of<bool>() } })));
@@ -2743,7 +2743,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool, bool)>(&::TMPro::TMP_InputField::MovePageDown)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x6dae084;
+  constexpr static std::size_t addrs = 0x6daf164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2756,7 +2756,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::Delete)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x6dab9e0;
+  constexpr static std::size_t addrs = 0x6dacac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "Delete", {}, {} })));
@@ -2768,7 +2768,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::DeleteKey)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x6dab5f8;
+  constexpr static std::size_t addrs = 0x6dac6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "DeleteKey", {}, {} })));
@@ -2780,7 +2780,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::Backspace)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x6dab1b4;
+  constexpr static std::size_t addrs = 0x6dac294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "Backspace", {}, {} })));
@@ -2792,7 +2792,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::StringW)>(&::TMPro::TMP_InputField::Append)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6dae398;
+  constexpr static std::size_t addrs = 0x6daf478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 70 }));
@@ -2804,7 +2804,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(char16_t)>(&::TMPro::TMP_InputField::Append)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x6dae450;
+  constexpr static std::size_t addrs = 0x6daf530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 71 }));
@@ -2816,7 +2816,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(char16_t)>(&::TMPro::TMP_InputField::Insert)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6dae7bc;
+  constexpr static std::size_t addrs = 0x6daf89c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "Insert", {}, { ::i2c::type_of<char16_t>() } })));
@@ -2828,7 +2828,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateTouchKeyboardFromEditChanges)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6dabc6c;
+  constexpr static std::size_t addrs = 0x6dacd4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "UpdateTouchKeyboardFromEditChanges", {}, {} })));
@@ -2840,7 +2840,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendOnValueChangedAndUpdateLabel)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6da9e90;
+  constexpr static std::size_t addrs = 0x6daaf70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SendOnValueChangedAndUpdateLabel", {}, {} })));
@@ -2852,7 +2852,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendOnValueChanged)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6da48a4;
+  constexpr static std::size_t addrs = 0x6da5984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SendOnValueChanged", {}, {} })));
@@ -2864,7 +2864,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendOnEndEdit)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6dae8bc;
+  constexpr static std::size_t addrs = 0x6daf99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SendOnEndEdit", {}, {} })));
@@ -2876,7 +2876,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendOnSubmit)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6dac890;
+  constexpr static std::size_t addrs = 0x6dad970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SendOnSubmit", {}, {} })));
@@ -2888,7 +2888,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendOnFocus)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6dae91c;
+  constexpr static std::size_t addrs = 0x6daf9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SendOnFocus", {}, {} })));
@@ -2900,7 +2900,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendOnFocusLost)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6dae97c;
+  constexpr static std::size_t addrs = 0x6dafa5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SendOnFocusLost", {}, {} })));
@@ -2912,7 +2912,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendOnTextSelection)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6dae9dc;
+  constexpr static std::size_t addrs = 0x6dafabc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SendOnTextSelection", {}, {} })));
@@ -2924,7 +2924,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendOnEndTextSelection)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x6daea88;
+  constexpr static std::size_t addrs = 0x6dafb68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SendOnEndTextSelection", {}, {} })));
@@ -2936,7 +2936,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendTouchScreenKeyboardStatusChanged)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6da9634;
+  constexpr static std::size_t addrs = 0x6daa714;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SendTouchScreenKeyboardStatusChanged", {}, {} })));
@@ -2948,7 +2948,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateLabel)> {
   constexpr static std::size_t size = 0x4c0;
-  constexpr static std::size_t addrs = 0x6da43e4;
+  constexpr static std::size_t addrs = 0x6da54c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "UpdateLabel", {}, {} })));
@@ -2960,7 +2960,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateScrollbar)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6da7a90;
+  constexpr static std::size_t addrs = 0x6da8b70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "UpdateScrollbar", {}, {} })));
@@ -2972,7 +2972,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(float_t)>(&::TMPro::TMP_InputField::OnScrollbarValueChange)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6daeb28;
+  constexpr static std::size_t addrs = 0x6dafc08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2985,7 +2985,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateMaskRegions)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6da73a0;
+  constexpr static std::size_t addrs = 0x6da8480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "UpdateMaskRegions", {}, {} })));
@@ -2997,7 +2997,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(float_t)>(&::TMPro::TMP_InputField::AdjustTextPositionRelativeToViewport)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x6dacc70;
+  constexpr static std::size_t addrs = 0x6dadd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3010,7 +3010,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::GetCaretPositionFromStringIndex)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6da8830;
+  constexpr static std::size_t addrs = 0x6da9910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3023,7 +3023,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::GetMinCaretPositionFromStringIndex)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6daeb64;
+  constexpr static std::size_t addrs = 0x6dafc44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3036,7 +3036,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::GetMaxCaretPositionFromStringIndex)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6daec44;
+  constexpr static std::size_t addrs = 0x6dafd24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3049,7 +3049,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::GetStringIndexFromCaretPosition)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6da7df4;
+  constexpr static std::size_t addrs = 0x6da8ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3062,7 +3062,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateStringIndexFromCaretPosition)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6da62ac;
+  constexpr static std::size_t addrs = 0x6da738c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "UpdateStringIndexFromCaretPosition", {}, {} })));
@@ -3074,7 +3074,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateCaretPositionFromStringIndex)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6da6460;
+  constexpr static std::size_t addrs = 0x6da7540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "UpdateCaretPositionFromStringIndex", {}, {} })));
@@ -3086,7 +3086,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::ForceLabelUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6daece8;
+  constexpr static std::size_t addrs = 0x6dafdc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "ForceLabelUpdate", {}, {} })));
@@ -3098,7 +3098,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::MarkGeometryAsDirty)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6da4a68;
+  constexpr static std::size_t addrs = 0x6da5b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "MarkGeometryAsDirty", {}, {} })));
@@ -3110,7 +3110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::UI::CanvasUpdate)>(&::TMPro::TMP_InputField::Rebuild)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6daecec;
+  constexpr static std::size_t addrs = 0x6dafdcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 72 }));
@@ -3122,7 +3122,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::LayoutComplete)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6daedbc;
+  constexpr static std::size_t addrs = 0x6dafe9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 73 }));
@@ -3134,7 +3134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::GraphicUpdateComplete)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6daedc0;
+  constexpr static std::size_t addrs = 0x6dafea0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 74 }));
@@ -3146,7 +3146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateGeometry)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6daecfc;
+  constexpr static std::size_t addrs = 0x6dafddc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "UpdateGeometry", {}, {} })));
@@ -3158,7 +3158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::AssignPositioningIfNeeded)> {
   constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x6da6e9c;
+  constexpr static std::size_t addrs = 0x6da7f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "AssignPositioningIfNeeded", {}, {} })));
@@ -3170,7 +3170,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::Mesh*)>(&::TMPro::TMP_InputField::OnFillVBO)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x6daedc4;
+  constexpr static std::size_t addrs = 0x6dafea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3183,7 +3183,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::UI::VertexHelper*, ::UnityEngine::Vector2)>(&::TMPro::TMP_InputField::GenerateCaret)> {
   constexpr static std::size_t size = 0x6bc;
-  constexpr static std::size_t addrs = 0x6daf01c;
+  constexpr static std::size_t addrs = 0x6db00fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3197,7 +3197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::CreateCursorVerts)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x6dafca8;
+  constexpr static std::size_t addrs = 0x6db0d88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "CreateCursorVerts", {}, {} })));
@@ -3209,7 +3209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::UI::VertexHelper*, ::UnityEngine::Vector2)>(&::TMPro::TMP_InputField::GenerateHighlight)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x6daf6d8;
+  constexpr static std::size_t addrs = 0x6db07b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3223,7 +3223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::Vector2, float_t, bool)>(&::TMPro::TMP_InputField::AdjustRectTransformRelativeToViewport)> {
   constexpr static std::size_t size = 0x568;
-  constexpr static std::size_t addrs = 0x6dafdf4;
+  constexpr static std::size_t addrs = 0x6db0ed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3237,7 +3237,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (::TMPro::TMP_InputField::*)(::StringW, int32_t, char16_t)>(&::TMPro::TMP_InputField::Validate)> {
   constexpr static std::size_t size = 0x7e8;
-  constexpr static std::size_t addrs = 0x6da96a8;
+  constexpr static std::size_t addrs = 0x6daa788;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3251,7 +3251,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::ActivateInputField)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6db035c;
+  constexpr static std::size_t addrs = 0x6db143c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "ActivateInputField", {}, {} })));
@@ -3263,7 +3263,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::ActivateInputFieldInternal)> {
   constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x6da9184;
+  constexpr static std::size_t addrs = 0x6daa264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "ActivateInputFieldInternal", {}, {} })));
@@ -3275,7 +3275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::TMPro::TMP_InputField::OnSelect)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6db0474;
+  constexpr static std::size_t addrs = 0x6db1554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 36 }));
@@ -3287,7 +3287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::TMPro::TMP_InputField::OnPointerClick)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6db04bc;
+  constexpr static std::size_t addrs = 0x6db159c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 75 }));
@@ -3299,7 +3299,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::OnControlClick)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6db04d8;
+  constexpr static std::size_t addrs = 0x6db15b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "OnControlClick", {}, {} })));
@@ -3311,7 +3311,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::ReleaseSelection)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6da9608;
+  constexpr static std::size_t addrs = 0x6daa6e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "ReleaseSelection", {}, {} })));
@@ -3323,7 +3323,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::DeactivateInputField)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x6da778c;
+  constexpr static std::size_t addrs = 0x6da886c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "DeactivateInputField", {}, { ::i2c::type_of<bool>() } })));
@@ -3335,7 +3335,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::TMPro::TMP_InputField::OnDeselect)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6db04dc;
+  constexpr static std::size_t addrs = 0x6db15bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 37 }));
@@ -3347,7 +3347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::TMPro::TMP_InputField::OnSubmit)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6db0530;
+  constexpr static std::size_t addrs = 0x6db1610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 76 }));
@@ -3359,7 +3359,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::TMPro::TMP_InputField::OnCancel)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x6db05b8;
+  constexpr static std::size_t addrs = 0x6db1698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 77 }));
@@ -3371,7 +3371,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::AxisEventData*)>(&::TMPro::TMP_InputField::OnMove)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6db0644;
+  constexpr static std::size_t addrs = 0x6db1724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 31 }));
@@ -3383,7 +3383,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::EnforceContentType)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x6da5944;
+  constexpr static std::size_t addrs = 0x6da6a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "EnforceContentType", {}, {} })));
@@ -3395,7 +3395,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SetTextComponentWrapMode)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6da39f4;
+  constexpr static std::size_t addrs = 0x6da4ad4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SetTextComponentWrapMode", {}, {} })));
@@ -3407,7 +3407,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SetTextComponentRichTextMode)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x6da5ea4;
+  constexpr static std::size_t addrs = 0x6da6f84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SetTextComponentRichTextMode", {}, {} })));
@@ -3419,7 +3419,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::ArrayW<::TMPro::TMP_InputField_ContentType>)>(&::TMPro::TMP_InputField::SetToCustomIfContentTypeIsNot)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6da5b1c;
+  constexpr static std::size_t addrs = 0x6da6bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3433,7 +3433,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SetToCustom)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6da5c8c;
+  constexpr static std::size_t addrs = 0x6da6d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SetToCustom", {}, {} })));
@@ -3445,7 +3445,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_CharacterValidation)>(&::TMPro::TMP_InputField::SetToCustom)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6da5e6c;
+  constexpr static std::size_t addrs = 0x6da6f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3458,7 +3458,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::UI::Selectable_SelectionState, bool)>(&::TMPro::TMP_InputField::DoStateTransition)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6db0658;
+  constexpr static std::size_t addrs = 0x6db1738;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 26 }));
@@ -3470,7 +3470,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::CalculateLayoutInputHorizontal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6db0684;
+  constexpr static std::size_t addrs = 0x6db1764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 78 }));
@@ -3482,7 +3482,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::CalculateLayoutInputVertical)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6db0688;
+  constexpr static std::size_t addrs = 0x6db1768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 79 }));
@@ -3494,7 +3494,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_minWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db068c;
+  constexpr static std::size_t addrs = 0x6db176c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 80 }));
@@ -3506,7 +3506,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_preferredWidth)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6db0694;
+  constexpr static std::size_t addrs = 0x6db1774;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 81 }));
@@ -3518,7 +3518,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_flexibleWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db07c8;
+  constexpr static std::size_t addrs = 0x6db18a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 82 }));
@@ -3530,7 +3530,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_minHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db07d0;
+  constexpr static std::size_t addrs = 0x6db18b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 83 }));
@@ -3542,7 +3542,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_preferredHeight)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6db07d8;
+  constexpr static std::size_t addrs = 0x6db18b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 84 }));
@@ -3554,7 +3554,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_flexibleHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db090c;
+  constexpr static std::size_t addrs = 0x6db19ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 85 }));
@@ -3566,7 +3566,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_layoutPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6db0914;
+  constexpr static std::size_t addrs = 0x6db19f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { ::i2c::class_of<::TMPro::TMP_InputField*>(), 86 }));
@@ -3578,7 +3578,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(float_t)>(&::TMPro::TMP_InputField::SetGlobalPointSize)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6da55f8;
+  constexpr static std::size_t addrs = 0x6da66d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "SetGlobalPointSize", {}, { ::i2c::type_of<float_t>() } })));
@@ -3590,7 +3590,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_InputField::SetGlobalFontAsset)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6da5784;
+  constexpr static std::size_t addrs = 0x6da6864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -3603,7 +3603,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Transform> (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UnityEngine_UI_ICanvasElement_get_transform)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6db09c0;
+  constexpr static std::size_t addrs = 0x6db1aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::TMPro::TMP_InputField*>(), { "UnityEngine.UI.ICanvasElement.get_transform", {}, {} })));

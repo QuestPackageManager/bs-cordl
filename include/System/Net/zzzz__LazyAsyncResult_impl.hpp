@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::LazyAsyncResult_ThreadContext::*)()>(&::System::Net::LazyAsyncResult_ThreadContext::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x687c0c8;
+  constexpr static std::size_t addrs = 0x687c718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::LazyAsyncResult_ThreadContext*>(), { ".ctor", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Net::LazyAsyncResult_ThreadContext* (*)()>(&::System::Net::LazyAsyncResult::get_CurrentThreadContext)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x687bfec;
+  constexpr static std::size_t addrs = 0x687c63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::LazyAsyncResult*>(), { "get_CurrentThreadContext", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::LazyAsyncResult::*)(::System::Object*, ::System::Object*, ::System::AsyncCallback*)>(
     &::System::Net::LazyAsyncResult::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x6868514;
+  constexpr static std::size_t addrs = 0x6868b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Net::LazyAsyncResult::*)()>(&::System::Net::LazyAsyncResult::get_AsyncObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687c0cc;
+  constexpr static std::size_t addrs = 0x687c71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::LazyAsyncResult*>(), { "get_AsyncObject", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Net::LazyAsyncResult::*)()>(&::System::Net::LazyAsyncResult::get_AsyncState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687c0d4;
+  constexpr static std::size_t addrs = 0x687c724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::LazyAsyncResult*>(), { "get_AsyncState", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::AsyncCallback* (::System::Net::LazyAsyncResult::*)()>(&::System::Net::LazyAsyncResult::get_AsyncCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687c0dc;
+  constexpr static std::size_t addrs = 0x687c72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::LazyAsyncResult*>(), { "get_AsyncCallback", {}, {} })));
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::WaitHandle* (::System::Net::LazyAsyncResult::*)()>(&::System::Net::LazyAsyncResult::get_AsyncWaitHandle)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x687c0e4;
+  constexpr static std::size_t addrs = 0x687c734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::LazyAsyncResult*>(), { "get_AsyncWaitHandle", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::LazyAsyncResult::*)(::by_ref<::System::Threading::ManualResetEvent*>)>(
     &::System::Net::LazyAsyncResult::LazilyCreateEvent)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x687c18c;
+  constexpr static std::size_t addrs = 0x687c7dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::LazyAsyncResult::*)()>(&::System::Net::LazyAsyncResult::get_CompletedSynchronously)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x687c330;
+  constexpr static std::size_t addrs = 0x687c980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::LazyAsyncResult*>(), { "get_CompletedSynchronously", {}, {} })));
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::LazyAsyncResult::*)()>(&::System::Net::LazyAsyncResult::get_IsCompleted)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x6868344;
+  constexpr static std::size_t addrs = 0x6868994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::LazyAsyncResult*>(), { "get_IsCompleted", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::LazyAsyncResult::*)()>(&::System::Net::LazyAsyncResult::get_InternalPeekCompleted)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x686bd20;
+  constexpr static std::size_t addrs = 0x686c370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::LazyAsyncResult*>(), { "get_InternalPeekCompleted", {}, {} })));
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::LazyAsyncResult::*)()>(&::System::Net::LazyAsyncResult::get_EndCalled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687c364;
+  constexpr static std::size_t addrs = 0x687c9b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::LazyAsyncResult*>(), { "get_EndCalled", {}, {} })));
@@ -185,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::LazyAsyncResult::*)(bool)>(&::System::Net::LazyAsyncResult::set_EndCalled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x687c36c;
+  constexpr static std::size_t addrs = 0x687c9bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::LazyAsyncResult*>(), { "set_EndCalled", {}, { ::i2c::type_of<bool>() } })));
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::LazyAsyncResult::*)(::System::Object*, ::System::IntPtr)>(&::System::Net::LazyAsyncResult::ProtectedInvokeCallback)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x687c374;
+  constexpr static std::size_t addrs = 0x687c9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::LazyAsyncResult::*)(::System::Object*)>(&::System::Net::LazyAsyncResult::InvokeCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x686833c;
+  constexpr static std::size_t addrs = 0x686898c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -224,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::LazyAsyncResult::*)()>(&::System::Net::LazyAsyncResult::InvokeCallback)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x686bd30;
+  constexpr static std::size_t addrs = 0x686c380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::LazyAsyncResult*>(), { "InvokeCallback", {}, {} })));
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::LazyAsyncResult::*)(::System::IntPtr)>(&::System::Net::LazyAsyncResult::Complete)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x687c55c;
+  constexpr static std::size_t addrs = 0x687cbac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::LazyAsyncResult::*)(::System::Object*)>(&::System::Net::LazyAsyncResult::WorkerThreadComplete)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x687c6ec;
+  constexpr static std::size_t addrs = 0x687cd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::LazyAsyncResult::*)()>(&::System::Net::LazyAsyncResult::Cleanup)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x687c790;
+  constexpr static std::size_t addrs = 0x687cde0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -275,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Net::LazyAsyncResult::*)()>(&::System::Net::LazyAsyncResult::InternalWaitForCompletion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6868718;
+  constexpr static std::size_t addrs = 0x6868d68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::LazyAsyncResult*>(), { "InternalWaitForCompletion", {}, {} })));
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Net::LazyAsyncResult::*)(bool)>(&::System::Net::LazyAsyncResult::WaitForCompletion)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x687c794;
+  constexpr static std::size_t addrs = 0x687cde4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

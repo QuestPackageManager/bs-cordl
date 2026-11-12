@@ -84,12 +84,12 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method WithData, addr 0x6a15b8c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WithData, addr 0x6a16c6c, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState WithData(/* [ParamArray] */ ::ArrayW<float_t> data);
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_kFormat();
 
-  /// @brief Method get_format, addr 0x6a15c4c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x6a16d2c, size 0x5c, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"

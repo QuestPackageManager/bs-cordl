@@ -25,13 +25,13 @@ namespace System::Xml {
 class CORDL_TYPE BinHexEncoder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Encode, addr 0x65f7cbc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x65f830c, size 0x13c, virtual false, abstract: false, final false
   static inline ::StringW Encode(::ArrayW<uint8_t> inArray, int32_t offsetIn, int32_t count);
 
-  /// @brief Method Encode, addr 0x65f7b8c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x65f81dc, size 0x130, virtual false, abstract: false, final false
   static inline int32_t Encode(::ArrayW<uint8_t> inArray, int32_t offsetIn, int32_t count, ::ArrayW<char16_t> outArray);
 
-  /// @brief Method Encode, addr 0x65f79ec, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x65f803c, size 0x1a0, virtual false, abstract: false, final false
   static inline void Encode(::ArrayW<uint8_t> buffer, int32_t index, int32_t count, ::System::Xml::XmlWriter* writer);
 
 protected:

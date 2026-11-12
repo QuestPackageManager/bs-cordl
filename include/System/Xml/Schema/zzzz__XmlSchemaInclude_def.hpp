@@ -25,7 +25,7 @@ public:
   /// @brief Field annotation, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_annotation, put = __cordl_internal_set_annotation)) ::System::Xml::Schema::XmlSchemaAnnotation* annotation;
 
-  /// @brief Method AddAnnotation, addr 0x6696378, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x66969c8, size 0x8, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
   static inline ::System::Xml::Schema::XmlSchemaInclude* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_annotation(::System::Xml::Schema::XmlSchemaAnnotation* value);
 
-  /// @brief Method .ctor, addr 0x669636c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66969bc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

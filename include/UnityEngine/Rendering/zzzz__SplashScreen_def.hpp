@@ -21,7 +21,7 @@ class CORDL_TYPE SplashScreen : public ::System::Object {
 public:
   // Declarations
   /// [FreeFunction("IsSplashScreenFinished")]
-  /// @brief Method get_isFinished, addr 0x6fb74dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isFinished, addr 0x6fb85bc, size 0x28, virtual false, abstract: false, final false
   static inline bool get_isFinished();
 
 protected:

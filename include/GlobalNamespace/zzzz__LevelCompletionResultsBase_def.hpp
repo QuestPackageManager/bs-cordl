@@ -82,7 +82,7 @@ public:
   static ::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType const Incomplete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22037 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -141,7 +141,7 @@ public:
   static ::GlobalNamespace::LevelCompletionResultsBase_LevelEndAction const Restart;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21958 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22038 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -311,10 +311,10 @@ public:
 
   constexpr void __cordl_internal_set_startSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a31be0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a36314, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3a31d30, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a36464, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType levelEndStateType, ::GlobalNamespace::LevelCompletionResultsBase_LevelEndAction levelEndAction,
                     float_t startSongTime, float_t endSongTime, float_t energy, int32_t gameplayModifierMask, ::GlobalNamespace::RankModel_Rank rank, bool fullCombo,
                     ::GlobalNamespace::LevelScore score, int32_t maxCombo, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int32_t bombCutsCount, int32_t obstacleHitsCount);
@@ -334,7 +334,7 @@ public:
   LevelCompletionResultsBase(LevelCompletionResultsBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21959 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22039 };
 
   /// @brief Field levelEndStateType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType ___levelEndStateType;

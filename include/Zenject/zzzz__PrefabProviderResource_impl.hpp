@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::PrefabProviderResource::*)(::StringW)>(&::Zenject::PrefabProviderResource::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x7361cf8;
+  constexpr static std::size_t addrs = 0x7363fd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PrefabProviderResource*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (::Zenject::PrefabProviderResource::*)()>(&::Zenject::PrefabProviderResource::GetPrefab)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x7361d00;
+  constexpr static std::size_t addrs = 0x7363fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::PrefabProviderResource*>(), { "GetPrefab", {}, {} })));

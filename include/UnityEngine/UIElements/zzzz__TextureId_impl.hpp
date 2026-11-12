@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextureId::*)(int32_t)>(&::UnityEngine::UIElements::TextureId::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72b3f34;
+  constexpr static std::size_t addrs = 0x72b5014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextureId>(), { ".ctor", {}, { ::i2c::type_of<int32_t>() } })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::TextureId::*)()>(&::UnityEngine::UIElements::TextureId::get_index)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72b3f40;
+  constexpr static std::size_t addrs = 0x72b5020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextureId>(), { "get_index", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TextureId::*)()>(&::UnityEngine::UIElements::TextureId::IsValid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x72b3f4c;
+  constexpr static std::size_t addrs = 0x72b502c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextureId>(), { "IsValid", {}, {} })));
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::UnityEngine::UIElements::TextureId::*)()>(&::UnityEngine::UIElements::TextureId::ConvertToGpu)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x72b3f5c;
+  constexpr static std::size_t addrs = 0x72b503c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextureId>(), { "ConvertToGpu", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::TextureId::*)(::System::Object*)>(&::UnityEngine::UIElements::TextureId::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x72b3fbc;
+  constexpr static std::size_t addrs = 0x72b509c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::TextureId::*)()>(&::UnityEngine::UIElements::TextureId::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x72b406c;
+  constexpr static std::size_t addrs = 0x72b514c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::TextureId, ::UnityEngine::UIElements::TextureId)>(&::UnityEngine::UIElements::TextureId::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72b4074;
+  constexpr static std::size_t addrs = 0x72b5154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::UIElements::TextureId, ::UnityEngine::UIElements::TextureId)>(&::UnityEngine::UIElements::TextureId::op_Inequality)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x72b4080;
+  constexpr static std::size_t addrs = 0x72b5160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

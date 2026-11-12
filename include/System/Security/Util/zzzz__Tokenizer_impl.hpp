@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::StringW)>(&::System::Security::Util::Tokenizer_StringMaker::HashString)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5f48544;
+  constexpr static std::size_t addrs = 0x5f487cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::ArrayW<char16_t>, int32_t)>(&::System::Security::Util::Tokenizer_StringMaker::HashCharArray)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5f48588;
+  constexpr static std::size_t addrs = 0x5f48810;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Util::Tokenizer_StringMaker*>(),
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::Tokenizer_StringMaker::*)()>(&::System::Security::Util::Tokenizer_StringMaker::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5f485dc;
+  constexpr static std::size_t addrs = 0x5f48864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Util::Tokenizer_StringMaker*>(), { ".ctor", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Util::Tokenizer_StringMaker::*)(::StringW, ::ArrayW<char16_t>, int32_t)>(
     &::System::Security::Util::Tokenizer_StringMaker::CompareStringAndChars)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5f48668;
+  constexpr static std::size_t addrs = 0x5f488f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Util::Tokenizer_StringMaker::*)()>(&::System::Security::Util::Tokenizer_StringMaker::MakeString)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x5f43000;
+  constexpr static std::size_t addrs = 0x5f43288;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Util::Tokenizer_StringMaker*>(), { "MakeString", {}, {} })));
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::Tokenizer_StreamTokenReader::*)(::System::IO::StreamReader*)>(
     &::System::Security::Util::Tokenizer_StreamTokenReader::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5f4835c;
+  constexpr static std::size_t addrs = 0x5f485e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Util::Tokenizer_StreamTokenReader::*)()>(&::System::Security::Util::Tokenizer_StreamTokenReader::Read)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f486fc;
+  constexpr static std::size_t addrs = 0x5f48984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Security::Util::Tokenizer_StreamTokenReader*>(),
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Security::Util::Tokenizer_StreamTokenReader::*)()>(
     &::System::Security::Util::Tokenizer_StreamTokenReader::get_NumCharEncountered)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f48738;
+  constexpr static std::size_t addrs = 0x5f489c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::Tokenizer::*)()>(&::System::Security::Util::Tokenizer::BasicInitialization)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5f48284;
+  constexpr static std::size_t addrs = 0x5f4850c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Util::Tokenizer*>(), { "BasicInitialization", {}, {} })));
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::Tokenizer::*)()>(&::System::Security::Util::Tokenizer::Recycle)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x5f48300;
+  constexpr static std::size_t addrs = 0x5f48588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Util::Tokenizer*>(), { "Recycle", {}, {} })));
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::Tokenizer::*)(::StringW)>(&::System::Security::Util::Tokenizer::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5f48248;
+  constexpr static std::size_t addrs = 0x5f484d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Util::Tokenizer*>(), { ".ctor", {}, { ::i2c::type_of<::StringW>() } })));
@@ -338,7 +338,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::Tokenizer::*)(::System::Text::Encoding*)>(&::System::Security::Util::Tokenizer::ChangeFormat)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x5f47b10;
+  constexpr static std::size_t addrs = 0x5f47d98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Util::Tokenizer::*)(::System::Security::Util::TokenizerStream*, int32_t, bool)>(
     &::System::Security::Util::Tokenizer::GetTokens)> {
   constexpr static std::size_t size = 0x7d8;
-  constexpr static std::size_t addrs = 0x5f472d8;
+  constexpr static std::size_t addrs = 0x5f47560;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -366,7 +366,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Util::Tokenizer::*)()>(&::System::Security::Util::Tokenizer::GetStringToken)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5f48458;
+  constexpr static std::size_t addrs = 0x5f486e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Util::Tokenizer*>(), { "GetStringToken", {}, {} })));

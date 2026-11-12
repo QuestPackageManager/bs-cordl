@@ -51,24 +51,24 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::OpenXRApiVersion*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::OpenXR::OpenXRApiVersion*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x6e6d040, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x6e6e120, size 0xb0, virtual true, abstract: false, final true
   inline int32_t CompareTo(::UnityEngine::XR::OpenXR::OpenXRApiVersion* other);
 
-  /// @brief Method Equals, addr 0x6e6cca0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6e6dd80, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6e6d0f0, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e6e1d0, size 0x54, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::OpenXR::OpenXRApiVersion* other);
 
-  /// @brief Method GetHashCode, addr 0x6e6cd60, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6e6de40, size 0x88, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::XR::OpenXR::OpenXRApiVersion* New_ctor(uint16_t major, uint16_t minor, uint32_t patch);
 
-  /// @brief Method ToString, addr 0x6e6cf64, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6e6e044, size 0xdc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x6e6cde8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x6e6dec8, size 0x17c, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW customRuntimeLoaderVersion, ::by_ref<::UnityEngine::XR::OpenXR::OpenXRApiVersion*> version);
 
   constexpr uint16_t const& __cordl_internal_get_m_major() const;
@@ -89,19 +89,19 @@ public:
 
   constexpr void __cordl_internal_set_m_patch(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x6e6c9c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e6daa0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint16_t major, uint16_t minor, uint32_t patch);
 
-  /// @brief Method get_Current, addr 0x6e6c968, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x6e6da48, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::OpenXRApiVersion* get_Current();
 
-  /// @brief Method get_Major, addr 0x6e6c9d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Major, addr 0x6e6dab0, size 0x8, virtual false, abstract: false, final false
   inline uint16_t get_Major();
 
-  /// @brief Method get_Minor, addr 0x6e6c9d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Minor, addr 0x6e6dab8, size 0x8, virtual false, abstract: false, final false
   inline uint16_t get_Minor();
 
-  /// @brief Method get_Patch, addr 0x6e6c9e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Patch, addr 0x6e6dac0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Patch();
 
   /// @brief Convert to "::System::IComparable_1<::UnityEngine::XR::OpenXR::OpenXRApiVersion*>"
@@ -110,22 +110,22 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::OpenXRApiVersion*>"
   constexpr ::System::IEquatable_1<::UnityEngine::XR::OpenXR::OpenXRApiVersion*>* i___System__IEquatable_1___UnityEngine__XR__OpenXR__OpenXRApiVersion__() noexcept;
 
-  /// @brief Method op_Equality, addr 0x6e6c9e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6e6dac8, size 0x54, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::XR::OpenXR::OpenXRApiVersion* lhs, ::UnityEngine::XR::OpenXR::OpenXRApiVersion* rhs);
 
-  /// @brief Method op_GreaterThan, addr 0x6e6ca90, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x6e6db70, size 0x8c, virtual false, abstract: false, final false
   static inline bool op_GreaterThan(::UnityEngine::XR::OpenXR::OpenXRApiVersion* lhs, ::UnityEngine::XR::OpenXR::OpenXRApiVersion* rhs);
 
-  /// @brief Method op_GreaterThanOrEqual, addr 0x6e6cba8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThanOrEqual, addr 0x6e6dc88, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_GreaterThanOrEqual(::UnityEngine::XR::OpenXR::OpenXRApiVersion* lhs, ::UnityEngine::XR::OpenXR::OpenXRApiVersion* rhs);
 
-  /// @brief Method op_Inequality, addr 0x6e6ca3c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6e6db1c, size 0x54, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::XR::OpenXR::OpenXRApiVersion* lhs, ::UnityEngine::XR::OpenXR::OpenXRApiVersion* rhs);
 
-  /// @brief Method op_LessThan, addr 0x6e6cb1c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x6e6dbfc, size 0x8c, virtual false, abstract: false, final false
   static inline bool op_LessThan(::UnityEngine::XR::OpenXR::OpenXRApiVersion* lhs, ::UnityEngine::XR::OpenXR::OpenXRApiVersion* rhs);
 
-  /// @brief Method op_LessThanOrEqual, addr 0x6e6cc24, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_LessThanOrEqual, addr 0x6e6dd04, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_LessThanOrEqual(::UnityEngine::XR::OpenXR::OpenXRApiVersion* lhs, ::UnityEngine::XR::OpenXR::OpenXRApiVersion* rhs);
 
 protected:
@@ -143,7 +143,7 @@ public:
   OpenXRApiVersion(OpenXRApiVersion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17511 };
 
   /// [SerializeField]
   /// @brief Field m_major, offset: 0x10, size: 0x2, def value: None

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::CollectGarbageConsoleCommand::*)()>(&::GlobalNamespace::CollectGarbageConsoleCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3574cc4;
+  constexpr static std::size_t addrs = 0x3577df0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::CollectGarbageConsoleCommand::*)()>(&::GlobalNamespace::CollectGarbageConsoleCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3574d08;
+  constexpr static std::size_t addrs = 0x3577e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::CollectGarbageConsoleCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(&::GlobalNamespace::CollectGarbageConsoleCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x3574d4c;
+  constexpr static std::size_t addrs = 0x3577e78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CollectGarbageConsoleCommand::*)()>(&::GlobalNamespace::CollectGarbageConsoleCommand::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3574f94;
+  constexpr static std::size_t addrs = 0x35780c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CollectGarbageConsoleCommand*>(), { ".ctor", {}, {} })));

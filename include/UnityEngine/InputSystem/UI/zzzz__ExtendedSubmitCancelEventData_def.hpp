@@ -44,18 +44,18 @@ public:
 
   constexpr void __cordl_internal_set__device_k__BackingField(::UnityEngine::InputSystem::InputDevice* value);
 
-  /// @brief Method .ctor, addr 0x69fb7f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69fc8d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
   /// [CompilerGenerated]
-  /// @brief Method get_device, addr 0x69fb7e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_device, addr 0x69fc8c0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
   /// @brief Convert to "::UnityEngine::InputSystem::UI::INavigationEventData"
   constexpr ::UnityEngine::InputSystem::UI::INavigationEventData* i___UnityEngine__InputSystem__UI__INavigationEventData() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method set_device, addr 0x69fb7e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x69fc8c8, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
 protected:

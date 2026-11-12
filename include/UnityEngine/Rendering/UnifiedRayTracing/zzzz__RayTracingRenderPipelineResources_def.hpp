@@ -151,37 +151,37 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6e4acd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e4bdb0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BitHistogram, addr 0x6e4aa00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BitHistogram, addr 0x6e4bae0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_BitHistogram();
 
-  /// @brief Method get_BlockReducePart, addr 0x6e4aa78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlockReducePart, addr 0x6e4bb58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_BlockReducePart();
 
-  /// @brief Method get_BlockScan, addr 0x6e4aaf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlockScan, addr 0x6e4bbd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_BlockScan();
 
-  /// @brief Method get_BuildHlbvh, addr 0x6e4ab68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BuildHlbvh, addr 0x6e4bc48, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_BuildHlbvh();
 
-  /// @brief Method get_CopyBuffer, addr 0x6e4a910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CopyBuffer, addr 0x6e4b9f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_CopyBuffer();
 
-  /// @brief Method get_CopyPositions, addr 0x6e4a988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CopyPositions, addr 0x6e4ba68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_CopyPositions();
 
-  /// @brief Method get_GeometryPoolKernels, addr 0x6e4a898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GeometryPoolKernels, addr 0x6e4b978, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_GeometryPoolKernels();
 
-  /// @brief Method get_RestructureBvh, addr 0x6e4abe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RestructureBvh, addr 0x6e4bcc0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_RestructureBvh();
 
-  /// @brief Method get_Scatter, addr 0x6e4ac58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Scatter, addr 0x6e4bd38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ComputeShader> get_Scatter();
 
-  /// @brief Method get_version, addr 0x6e4a890, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_version, addr 0x6e4b970, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_version();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
@@ -190,31 +190,31 @@ public:
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineResources"
   constexpr ::UnityEngine::Rendering::IRenderPipelineResources* i___UnityEngine__Rendering__IRenderPipelineResources() noexcept;
 
-  /// @brief Method set_BitHistogram, addr 0x6e4aa08, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_BitHistogram, addr 0x6e4bae8, size 0x70, virtual false, abstract: false, final false
   inline void set_BitHistogram(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_BlockReducePart, addr 0x6e4aa80, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_BlockReducePart, addr 0x6e4bb60, size 0x70, virtual false, abstract: false, final false
   inline void set_BlockReducePart(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_BlockScan, addr 0x6e4aaf8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_BlockScan, addr 0x6e4bbd8, size 0x70, virtual false, abstract: false, final false
   inline void set_BlockScan(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_BuildHlbvh, addr 0x6e4ab70, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_BuildHlbvh, addr 0x6e4bc50, size 0x70, virtual false, abstract: false, final false
   inline void set_BuildHlbvh(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_CopyBuffer, addr 0x6e4a918, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_CopyBuffer, addr 0x6e4b9f8, size 0x70, virtual false, abstract: false, final false
   inline void set_CopyBuffer(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_CopyPositions, addr 0x6e4a990, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_CopyPositions, addr 0x6e4ba70, size 0x70, virtual false, abstract: false, final false
   inline void set_CopyPositions(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_GeometryPoolKernels, addr 0x6e4a8a0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_GeometryPoolKernels, addr 0x6e4b980, size 0x70, virtual false, abstract: false, final false
   inline void set_GeometryPoolKernels(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_RestructureBvh, addr 0x6e4abe8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_RestructureBvh, addr 0x6e4bcc8, size 0x70, virtual false, abstract: false, final false
   inline void set_RestructureBvh(::UnityEngine::ComputeShader* value);
 
-  /// @brief Method set_Scatter, addr 0x6e4ac60, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_Scatter, addr 0x6e4bd40, size 0x70, virtual false, abstract: false, final false
   inline void set_Scatter(::UnityEngine::ComputeShader* value);
 
 protected:
@@ -232,7 +232,7 @@ public:
   RayTracingRenderPipelineResources(RayTracingRenderPipelineResources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20563 };
 
   /// [SerializeField]
   /// [HideInInspector]

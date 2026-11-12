@@ -25,10 +25,10 @@ namespace UnityEngine::Rendering::Universal {
 class CORDL_TYPE ComponentUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsUniversalCamera, addr 0x6cb27c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsUniversalCamera, addr 0x6cb38a8, size 0x94, virtual false, abstract: false, final false
   static inline bool IsUniversalCamera(::UnityEngine::Camera* camera);
 
-  /// @brief Method IsUniversalLight, addr 0x6cb285c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsUniversalLight, addr 0x6cb393c, size 0x94, virtual false, abstract: false, final false
   static inline bool IsUniversalLight(::UnityEngine::Light* light);
 
 protected:

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::*)(::Org::BouncyCastle::Crypto::IDigest*)>(&::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x371d648;
+  constexpr static std::size_t addrs = 0x3721ae0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::*)()>(&::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::get_AlgorithmName)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x371d714;
+  constexpr static std::size_t addrs = 0x3721bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::Init)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x371d7dc;
+  constexpr static std::size_t addrs = 0x3721c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::*)()>(&::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::GetMacSize)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x371d8c8;
+  constexpr static std::size_t addrs = 0x3721d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::Update)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x371d970;
+  constexpr static std::size_t addrs = 0x3721e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::BlockUpdate)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x371da28;
+  constexpr static std::size_t addrs = 0x3721ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::*)(::ArrayW<uint8_t>, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::DoFinal)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x371daf8;
+  constexpr static std::size_t addrs = 0x3721f90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::*)()>(&::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::Reset)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x371de80;
+  constexpr static std::size_t addrs = 0x3722318;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (*)(uint8_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::Ssl3Mac::GenPad)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x371e054;
+  constexpr static std::size_t addrs = 0x37224ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -62,27 +62,27 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x689a868, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x689aeb8, size 0x144, virtual true, abstract: false, final true
   inline void Add(::StringW uriPrefix);
 
-  /// @brief Method Clear, addr 0x689a9ac, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x689affc, size 0xc4, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x689aa70, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Contains, addr 0x689b0c0, size 0x70, virtual true, abstract: false, final true
   inline bool Contains(::StringW uriPrefix);
 
-  /// @brief Method CopyTo, addr 0x689aae0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x689b130, size 0x80, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<::StringW> array, int32_t offset);
 
-  /// @brief Method GetEnumerator, addr 0x6894fd4, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x6895624, size 0x88, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* GetEnumerator();
 
   static inline ::System::Net::HttpListenerPrefixCollection* New_ctor(::System::Net::HttpListener* listener);
 
-  /// @brief Method Remove, addr 0x689abe8, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x689b238, size 0x110, virtual true, abstract: false, final true
   inline bool Remove(::StringW uriPrefix);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x689ab60, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x689b1b0, size 0x88, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Net::HttpListener* const& __cordl_internal_get_listener() const;
@@ -97,13 +97,13 @@ public:
 
   constexpr void __cordl_internal_set_prefixes(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x6898f28, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6899578, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpListener* listener);
 
-  /// @brief Method get_Count, addr 0x689a3a8, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x689a9f8, size 0x50, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly, addr 0x689a860, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsReadOnly, addr 0x689aeb0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::StringW>"

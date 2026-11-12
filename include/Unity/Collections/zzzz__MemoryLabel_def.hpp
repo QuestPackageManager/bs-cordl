@@ -30,19 +30,19 @@ public:
   // Declarations
   __declspec(property(get = get_IsCreated)) bool IsCreated;
 
-  /// @brief Method IsNullOrEmpty, addr 0x6eee548, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsNullOrEmpty, addr 0x6eef628, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsNullOrEmpty(::StringW str);
 
-  /// @brief Method IsNullOrEmpty__Unmanaged, addr 0x6eee574, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsNullOrEmpty__Unmanaged, addr 0x6eef654, size 0x10, virtual false, abstract: false, final false
   static inline bool IsNullOrEmpty__Unmanaged(uint8_t* name, int32_t nameLen);
 
-  /// @brief Method SupportsAllocator, addr 0x6eee564, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SupportsAllocator, addr 0x6eef644, size 0x10, virtual false, abstract: false, final false
   static inline bool SupportsAllocator(::Unity::Collections::Allocator allocator);
 
-  /// @brief Method .ctor, addr 0x6eee464, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6eef544, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::StringW areaName, ::StringW objectName, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method get_IsCreated, addr 0x6eee584, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCreated, addr 0x6eef664, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
   // Ctor Parameters []

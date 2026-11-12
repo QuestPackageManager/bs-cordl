@@ -117,13 +117,13 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE GPUPrefixSum_ShaderDefs : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AlignUpGroup, addr 0x6c1d068, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method AlignUpGroup, addr 0x6c1e148, size 0x18, virtual false, abstract: false, final false
   static inline int32_t AlignUpGroup(int32_t value);
 
-  /// @brief Method CalculateTotalBufferSize, addr 0x6c1d080, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CalculateTotalBufferSize, addr 0x6c1e160, size 0x58, virtual false, abstract: false, final false
   static inline void CalculateTotalBufferSize(int32_t maxElementCount, ::by_ref<int32_t> totalSize, ::by_ref<int32_t> levelCounts);
 
-  /// @brief Method DivUpGroup, addr 0x6c1d050, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DivUpGroup, addr 0x6c1e130, size 0x18, virtual false, abstract: false, final false
   static inline int32_t DivUpGroup(int32_t value);
 
 protected:
@@ -213,24 +213,24 @@ public:
   // Declarations
   __declspec(property(get = get_output)) ::UnityEngine::Rendering::RenderGraphModule::BufferHandle output;
 
-  /// @brief Method Create, addr 0x6c1d428, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6c1e508, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources Create(int32_t newMaxElementCount, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                    ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* builder, bool outputIsTemp);
 
   /// [Obsolete("This Create signature is deprecated and will be removed in the future. Please use Create(IBaseRenderGraphBuilder) instead. #from(6000.3)")]
-  /// @brief Method Create, addr 0x6c1d0e8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6c1e1c8, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources Create(int32_t newMaxElementCount, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                    ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder builder, bool outputIsTemp);
 
-  /// @brief Method Initialize, addr 0x6c1d478, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6c1e558, size 0x4ec, virtual false, abstract: false, final false
   inline void Initialize(int32_t newMaxElementCount, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                          ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* builder, bool outputIsTemp);
 
-  /// @brief Method Initialize, addr 0x6c1d144, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6c1e224, size 0x2e4, virtual false, abstract: false, final false
   inline void Initialize(int32_t newMaxElementCount, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder builder,
                          bool outputIsTemp);
 
-  /// @brief Method get_output, addr 0x6c1d0d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_output, addr 0x6c1e1b8, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::BufferHandle get_output();
 
   // Ctor Parameters []
@@ -310,26 +310,26 @@ public:
   // Declarations
   __declspec(property(get = get_output)) ::UnityEngine::GraphicsBuffer* output;
 
-  /// @brief Method Create, addr 0x6c1d96c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6c1ea4c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUPrefixSum_SupportResources Create(int32_t maxElementCount);
 
-  /// @brief Method Dispose, addr 0x6c1dd44, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c1ee24, size 0x78, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Load, addr 0x6c1dc04, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x6c1ece4, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUPrefixSum_SupportResources Load(::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources shaderGraphResources);
 
-  /// @brief Method LoadFromShaderGraph, addr 0x6c1dc60, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method LoadFromShaderGraph, addr 0x6c1ed40, size 0xe4, virtual false, abstract: false, final false
   inline void LoadFromShaderGraph(::UnityEngine::Rendering::GPUPrefixSum_RenderGraphResources shaderGraphResources);
 
-  /// @brief Method Resize, addr 0x6c1d9c8, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x6c1eaa8, size 0x23c, virtual false, abstract: false, final false
   inline void Resize(int32_t newMaxElementCount);
 
   /// [CompilerGenerated]
-  /// @brief Method <Dispose>g__TryFreeBuffer|15_0, addr 0x6c1ddbc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Dispose>g__TryFreeBuffer|15_0, addr 0x6c1ee9c, size 0x10, virtual false, abstract: false, final false
   static inline void _Dispose_g__TryFreeBuffer_15_0(::UnityEngine::GraphicsBuffer* resource);
 
-  /// @brief Method get_output, addr 0x6c1d964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_output, addr 0x6c1ea44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GraphicsBuffer* get_output();
 
   // Ctor Parameters []
@@ -513,7 +513,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE GPUPrefixSum_SystemResources {
 public:
   // Declarations
-  /// @brief Method LoadKernels, addr 0x6c1c5d4, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method LoadKernels, addr 0x6c1d6b4, size 0x1d8, virtual false, abstract: false, final false
   inline void LoadKernels();
 
   // Ctor Parameters []
@@ -698,26 +698,26 @@ public:
 
   using SystemResources = ::UnityEngine::Rendering::GPUPrefixSum_SystemResources;
 
-  /// @brief Method DispatchDirect, addr 0x6c1cbdc, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method DispatchDirect, addr 0x6c1dcbc, size 0x1f0, virtual false, abstract: false, final false
   inline void DispatchDirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs const> arguments);
 
-  /// @brief Method DispatchDirect, addr 0x6c1cb3c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DispatchDirect, addr 0x6c1dc1c, size 0xa0, virtual false, abstract: false, final false
   inline void DispatchDirect(::UnityEngine::Rendering::IComputeCommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_DirectArgs const> arguments);
 
-  /// @brief Method DispatchIndirect, addr 0x6c1ce6c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method DispatchIndirect, addr 0x6c1df4c, size 0x1e4, virtual false, abstract: false, final false
   inline void DispatchIndirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs const> arguments);
 
-  /// @brief Method DispatchIndirect, addr 0x6c1cdcc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DispatchIndirect, addr 0x6c1deac, size 0xa0, virtual false, abstract: false, final false
   inline void DispatchIndirect(::UnityEngine::Rendering::IComputeCommandBuffer* cmdBuffer, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_IndirectDirectArgs const> arguments);
 
-  /// @brief Method ExecuteCommonIndirect, addr 0x6c1c7c0, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCommonIndirect, addr 0x6c1d8a0, size 0x37c, virtual false, abstract: false, final false
   inline void ExecuteCommonIndirect(::UnityEngine::Rendering::CommandBuffer* cmdBuffer, ::UnityEngine::GraphicsBuffer* inputBuffer,
                                     /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::GPUPrefixSum_SupportResources const> supportResources, bool isExclusive);
 
-  /// @brief Method PackPrefixSumArgs, addr 0x6c1c7ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method PackPrefixSumArgs, addr 0x6c1d88c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 PackPrefixSumArgs(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method .ctor, addr 0x6c1c5c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1d6a0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::GPUPrefixSum_SystemResources resources);
 
   // Ctor Parameters []

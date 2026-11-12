@@ -15,6 +15,9 @@ namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine::EventSystems {
+class BaseRaycaster;
+}
+namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
@@ -52,14 +55,17 @@ public:
   /// @brief Field _containerPadding, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__containerPadding, put = __cordl_internal_set__containerPadding)) ::UnityEngine::Vector2 _containerPadding;
 
-  /// @brief Field <isPointerOver>k__BackingField, offset 0x41, size 0x1
+  /// @brief Field <isPointerOver>k__BackingField, offset 0x49, size 0x1
   __declspec(property(get = __cordl_internal_get__isPointerOver_k__BackingField, put = __cordl_internal_set__isPointerOver_k__BackingField)) bool _isPointerOver_k__BackingField;
 
-  /// @brief Field <isShown>k__BackingField, offset 0x40, size 0x1
+  /// @brief Field <isShown>k__BackingField, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get__isShown_k__BackingField, put = __cordl_internal_set__isShown_k__BackingField)) bool _isShown_k__BackingField;
 
   /// @brief Field _padding, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__padding, put = __cordl_internal_set__padding)) ::UnityEngine::Vector2 _padding;
+
+  /// @brief Field _raycaster, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__raycaster, put = __cordl_internal_set__raycaster)) ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> _raycaster;
 
   /// @brief Field _separator, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__separator, put = __cordl_internal_set__separator)) float_t _separator;
@@ -74,10 +80,10 @@ public:
 
   __declspec(property(get = get_isShown, put = set_isShown)) bool isShown;
 
-  /// @brief Field pointerDidEnterEvent, offset 0x48, size 0x8
+  /// @brief Field pointerDidEnterEvent, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_pointerDidEnterEvent, put = __cordl_internal_set_pointerDidEnterEvent)) ::System::Action* pointerDidEnterEvent;
 
-  /// @brief Field pointerDidExitEvent, offset 0x50, size 0x8
+  /// @brief Field pointerDidExitEvent, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_pointerDidExitEvent, put = __cordl_internal_set_pointerDidExitEvent)) ::System::Action* pointerDidExitEvent;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -89,24 +95,27 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept;
 
-  /// @brief Method Awake, addr 0x5cc9a38, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5cc920c, size 0xac, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculatePanelPosition, addr 0x5cc9ae4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CalculatePanelPosition, addr 0x5cc92b8, size 0x134, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 CalculatePanelPosition(::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect, ::UnityEngine::Vector2 panelSize);
 
-  /// @brief Method Hide, addr 0x5cc8b9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x5cc82f4, size 0x28, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::HMUI::HoverHintPanel* New_ctor();
 
-  /// @brief Method OnPointerEnter, addr 0x5cc9c18, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x5cc93ec, size 0x24, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x5cc9c3c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x5cc9410, size 0x20, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method Show, addr 0x5cc94d8, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method SetHoverable, addr 0x5cc8794, size 0x64, virtual false, abstract: false, final false
+  inline void SetHoverable(bool isHoverable);
+
+  /// @brief Method Show, addr 0x5cc8cac, size 0x260, virtual false, abstract: false, final false
   inline void Show(::StringW text, ::UnityEngine::Transform* parent, ::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect);
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__containerPadding() const;
@@ -124,6 +133,10 @@ public:
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__padding() const;
 
   constexpr ::UnityEngine::Vector2& __cordl_internal_get__padding();
+
+  constexpr ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> const& __cordl_internal_get__raycaster() const;
+
+  constexpr ::UnityW<::UnityEngine::EventSystems::BaseRaycaster>& __cordl_internal_get__raycaster();
 
   constexpr float_t const& __cordl_internal_get__separator() const;
 
@@ -153,6 +166,8 @@ public:
 
   constexpr void __cordl_internal_set__padding(::UnityEngine::Vector2 value);
 
+  constexpr void __cordl_internal_set__raycaster(::UnityW<::UnityEngine::EventSystems::BaseRaycaster> value);
+
   constexpr void __cordl_internal_set__separator(float_t value);
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
@@ -163,23 +178,23 @@ public:
 
   constexpr void __cordl_internal_set_pointerDidExitEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x5cc9c5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc9430, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_pointerDidEnterEvent, addr 0x5cc8bc4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_pointerDidEnterEvent, addr 0x5cc831c, size 0xac, virtual false, abstract: false, final false
   inline void add_pointerDidEnterEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_pointerDidExitEvent, addr 0x5cc8c70, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_pointerDidExitEvent, addr 0x5cc83c8, size 0xac, virtual false, abstract: false, final false
   inline void add_pointerDidExitEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method get_isPointerOver, addr 0x5cc9a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isPointerOver, addr 0x5cc91fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPointerOver();
 
   /// [CompilerGenerated]
-  /// @brief Method get_isShown, addr 0x5cc9a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isShown, addr 0x5cc91ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_isShown();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -192,19 +207,19 @@ public:
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_pointerDidEnterEvent, addr 0x5cc8ea8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_pointerDidEnterEvent, addr 0x5cc8600, size 0xac, virtual false, abstract: false, final false
   inline void remove_pointerDidEnterEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_pointerDidExitEvent, addr 0x5cc8f54, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_pointerDidExitEvent, addr 0x5cc86ac, size 0xac, virtual false, abstract: false, final false
   inline void remove_pointerDidExitEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isPointerOver, addr 0x5cc9a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isPointerOver, addr 0x5cc9204, size 0x8, virtual false, abstract: false, final false
   inline void set_isPointerOver(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_isShown, addr 0x5cc9a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isShown, addr 0x5cc91f4, size 0x8, virtual false, abstract: false, final false
   inline void set_isShown(bool value);
 
 protected:
@@ -222,7 +237,7 @@ public:
   HoverHintPanel(HoverHintPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19643 };
 
   /// [SerializeField]
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
@@ -244,20 +259,24 @@ public:
   /// @brief Field _zOffset, offset: 0x3c, size: 0x4, def value: None
   float_t ____zOffset;
 
+  /// [SerializeField]
+  /// @brief Field _raycaster, offset: 0x40, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> ____raycaster;
+
   /// [CompilerGenerated]
-  /// @brief Field <isShown>k__BackingField, offset: 0x40, size: 0x1, def value: None
+  /// @brief Field <isShown>k__BackingField, offset: 0x48, size: 0x1, def value: None
   bool ____isShown_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field <isPointerOver>k__BackingField, offset: 0x41, size: 0x1, def value: None
+  /// @brief Field <isPointerOver>k__BackingField, offset: 0x49, size: 0x1, def value: None
   bool ____isPointerOver_k__BackingField;
 
   /// [CompilerGenerated]
-  /// @brief Field pointerDidEnterEvent, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field pointerDidEnterEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___pointerDidEnterEvent;
 
   /// [CompilerGenerated]
-  /// @brief Field pointerDidExitEvent, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field pointerDidExitEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___pointerDidExitEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -273,14 +292,16 @@ static_assert(offsetof(::HMUI::HoverHintPanel, ____separator) == 0x38, "Offset m
 
 static_assert(offsetof(::HMUI::HoverHintPanel, ____zOffset) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::HoverHintPanel, ____isShown_k__BackingField) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::HMUI::HoverHintPanel, ____raycaster) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::HoverHintPanel, ____isPointerOver_k__BackingField) == 0x41, "Offset mismatch!");
+static_assert(offsetof(::HMUI::HoverHintPanel, ____isShown_k__BackingField) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::HoverHintPanel, ___pointerDidEnterEvent) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::HMUI::HoverHintPanel, ____isPointerOver_k__BackingField) == 0x49, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::HoverHintPanel, ___pointerDidExitEvent) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::HMUI::HoverHintPanel, ___pointerDidEnterEvent) == 0x50, "Offset mismatch!");
 
-static_assert(sizeof(::HMUI::HoverHintPanel) == 0x58, "Size mismatch!");
+static_assert(offsetof(::HMUI::HoverHintPanel, ___pointerDidExitEvent) == 0x58, "Offset mismatch!");
+
+static_assert(sizeof(::HMUI::HoverHintPanel) == 0x60, "Size mismatch!");
 
 } // namespace HMUI

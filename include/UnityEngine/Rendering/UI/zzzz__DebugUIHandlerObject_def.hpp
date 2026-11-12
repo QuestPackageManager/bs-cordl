@@ -36,13 +36,13 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerObject* New_ctor();
 
-  /// @brief Method OnDeselection, addr 0x6c700c8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnDeselection, addr 0x6c711a8, size 0x50, virtual true, abstract: false, final false
   inline void OnDeselection();
 
-  /// @brief Method OnSelection, addr 0x6c70070, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x6c71150, size 0x58, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x6c6ff30, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6c71010, size 0x140, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_nameLabel() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_valueLabel(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x6c70118, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c711f8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

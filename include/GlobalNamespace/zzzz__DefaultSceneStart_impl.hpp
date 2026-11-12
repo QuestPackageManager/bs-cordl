@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DefaultSceneStart__Start_d__3::*)(int32_t)>(&::GlobalNamespace::DefaultSceneStart__Start_d__3::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d5ffac;
+  constexpr static std::size_t addrs = 0x5d5f520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DefaultSceneStart__Start_d__3::*)()>(&::GlobalNamespace::DefaultSceneStart__Start_d__3::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d5ffb8;
+  constexpr static std::size_t addrs = 0x5d5f52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::DefaultSceneStart__Start_d__3::*)()>(&::GlobalNamespace::DefaultSceneStart__Start_d__3::MoveNext)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5d5ffbc;
+  constexpr static std::size_t addrs = 0x5d5f530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DefaultSceneStart__Start_d__3*>(), { "MoveNext", {}, {} })));
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::DefaultSceneStart__Start_d__3::*)()>(
     &::GlobalNamespace::DefaultSceneStart__Start_d__3::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d60040;
+  constexpr static std::size_t addrs = 0x5d5f5b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DefaultSceneStart__Start_d__3::*)()>(
     &::GlobalNamespace::DefaultSceneStart__Start_d__3::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d60048;
+  constexpr static std::size_t addrs = 0x5d5f5bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::DefaultSceneStart__Start_d__3::*)()>(
     &::GlobalNamespace::DefaultSceneStart__Start_d__3::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d60080;
+  constexpr static std::size_t addrs = 0x5d5f5f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::DefaultSceneStart::*)()>(&::GlobalNamespace::DefaultSceneStart::Start)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5d5ff58;
+  constexpr static std::size_t addrs = 0x5d5f4cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DefaultSceneStart*>(), { "Start", {}, {} })));
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::DefaultSceneStart::*)()>(&::GlobalNamespace::DefaultSceneStart::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d5ffb4;
+  constexpr static std::size_t addrs = 0x5d5f528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::DefaultSceneStart*>(), { ".ctor", {}, {} })));

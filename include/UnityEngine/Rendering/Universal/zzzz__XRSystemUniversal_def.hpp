@@ -39,19 +39,19 @@ public:
   /// @brief Field s_projMatrix, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_projMatrix, put = setStaticF_s_projMatrix)) ::ArrayW<::UnityEngine::Matrix4x4> s_projMatrix;
 
-  /// @brief Method BeginLateLatching, addr 0x6d4ef70, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method BeginLateLatching, addr 0x6d50050, size 0xdc, virtual false, abstract: false, final false
   static inline void BeginLateLatching(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass);
 
-  /// @brief Method EndLateLatching, addr 0x6d4f04c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method EndLateLatching, addr 0x6d5012c, size 0xc8, virtual false, abstract: false, final false
   static inline void EndLateLatching(::UnityEngine::Camera* camera, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass);
 
-  /// @brief Method GetMaterialPropertyBlock, addr 0x6d4ef14, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialPropertyBlock, addr 0x6d4fff4, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::MaterialPropertyBlock* GetMaterialPropertyBlock();
 
-  /// @brief Method MarkShaderProperties, addr 0x6d4f1a0, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method MarkShaderProperties, addr 0x6d50280, size 0x240, virtual false, abstract: false, final false
   static inline void MarkShaderProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass, bool renderIntoTexture);
 
-  /// @brief Method UnmarkShaderProperties, addr 0x6d4f114, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UnmarkShaderProperties, addr 0x6d501f4, size 0x8c, virtual false, abstract: false, final false
   static inline void UnmarkShaderProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::XRPassUniversal* xrPass);
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF_s_XRSharedPropertyBlock();

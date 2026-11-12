@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ExecutionOrderInstaller::*)(::System::Collections::Generic::List_1<::System::Type*>*)>(
     &::Zenject::ExecutionOrderInstaller::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x73753fc;
+  constexpr static std::size_t addrs = 0x73776dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::ExecutionOrderInstaller::*)()>(&::Zenject::ExecutionOrderInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x737544c;
+  constexpr static std::size_t addrs = 0x737772c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::ExecutionOrderInstaller::__zenCreate)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x7375578;
+  constexpr static std::size_t addrs = 0x7377858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::ExecutionOrderInstaller::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x7375668;
+  constexpr static std::size_t addrs = 0x7377948;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::ExecutionOrderInstaller*>(), { "__zenCreateInjectTypeInfo", {}, {} })));

@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set_xr(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x6ce657c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce765c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -168,10 +168,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c* New_ctor();
 
-  /// @brief Method <Render>b__6_0, addr 0x6ce65d8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__6_0, addr 0x6ce76b8, size 0x4c, virtual false, abstract: false, final false
   inline void _Render_b__6_0(::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6ce65d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce76b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c* getStaticF___9();
@@ -219,29 +219,29 @@ public:
 
   using __c = ::UnityEngine::Rendering::Universal::DrawSkyboxPass___c;
 
-  /// @brief Method CreateSkyBoxRendererList, addr 0x6ce5b8c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method CreateSkyBoxRendererList, addr 0x6ce6c6c, size 0x170, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle CreateSkyBoxRendererList(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                                   ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method Execute, addr 0x6ce5b1c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6ce6bfc, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x6ce5cfc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6ce6ddc, size 0x120, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Experimental::Rendering::XRPass* xr, ::UnityEngine::Rendering::RendererList rendererList);
 
-  /// @brief Method InitPassData, addr 0x6ce5e1c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InitPassData, addr 0x6ce6efc, size 0x38, virtual false, abstract: false, final false
   inline void InitPassData(::by_ref<::UnityEngine::Rendering::Universal::DrawSkyboxPass_PassData*> passData, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Experimental::Rendering::XRPass* const> xr,
                            /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const> handle);
 
   static inline ::UnityEngine::Rendering::Universal::DrawSkyboxPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
-  /// @brief Method Render, addr 0x6ce5e54, size 0x728, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6ce6f34, size 0x728, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorTarget,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthTarget, ::UnityEngine::Material* skyboxMaterial);
 
-  /// @brief Method .ctor, addr 0x6ce5b20, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ce6c00, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt);
 
 protected:

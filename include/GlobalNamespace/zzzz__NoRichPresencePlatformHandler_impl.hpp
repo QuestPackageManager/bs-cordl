@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::NoRichPresencePlatformHandler::*)()>(
     &::GlobalNamespace::NoRichPresencePlatformHandler::get_currentPresenceApiName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d53f38;
+  constexpr static std::size_t addrs = 0x5d534ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoRichPresencePlatformHandler::*)(::StringW)>(
     &::GlobalNamespace::NoRichPresencePlatformHandler::set_currentPresenceApiName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d53f40;
+  constexpr static std::size_t addrs = 0x5d534b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoRichPresencePlatformHandler::*)(::GlobalNamespace::IRichPresenceData*)>(
     &::GlobalNamespace::NoRichPresencePlatformHandler::SetPresence)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5d53f48;
+  constexpr static std::size_t addrs = 0x5d534bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoRichPresencePlatformHandler::*)()>(&::GlobalNamespace::NoRichPresencePlatformHandler::Clear)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d53ffc;
+  constexpr static std::size_t addrs = 0x5d53570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoRichPresencePlatformHandler*>(), { "Clear", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::NoRichPresencePlatformHandler::*)()>(&::GlobalNamespace::NoRichPresencePlatformHandler::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d54014;
+  constexpr static std::size_t addrs = 0x5d53588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::NoRichPresencePlatformHandler*>(), { ".ctor", {}, {} })));

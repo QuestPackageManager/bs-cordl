@@ -48,7 +48,7 @@ public:
   /// @brief Field useGlobalLock, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_useGlobalLock, put = setStaticF_useGlobalLock)) bool useGlobalLock;
 
-  /// @brief Method InitializeSettings, addr 0x67fd788, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InitializeSettings, addr 0x67fddd8, size 0x4, virtual false, abstract: false, final false
   static inline void InitializeSettings();
 
   static inline ::StringW getStaticF_appName();
@@ -65,19 +65,19 @@ public:
 
   static inline bool getStaticF_useGlobalLock();
 
-  /// @brief Method get_AutoFlush, addr 0x67fcfb0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_AutoFlush, addr 0x67fd600, size 0x60, virtual false, abstract: false, final false
   static inline bool get_AutoFlush();
 
-  /// @brief Method get_IndentLevel, addr 0x67fda8c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_IndentLevel, addr 0x67fe0dc, size 0x80, virtual false, abstract: false, final false
   static inline int32_t get_IndentLevel();
 
-  /// @brief Method get_IndentSize, addr 0x67fdb0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_IndentSize, addr 0x67fe15c, size 0x60, virtual false, abstract: false, final false
   static inline int32_t get_IndentSize();
 
-  /// @brief Method get_Listeners, addr 0x67fccc0, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method get_Listeners, addr 0x67fd310, size 0x2a0, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::TraceListenerCollection* get_Listeners();
 
-  /// @brief Method get_UseGlobalLock, addr 0x67fda2c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_UseGlobalLock, addr 0x67fe07c, size 0x60, virtual false, abstract: false, final false
   static inline bool get_UseGlobalLock();
 
   static inline void setStaticF_appName(::StringW value);

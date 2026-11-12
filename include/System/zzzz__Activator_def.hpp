@@ -38,27 +38,27 @@ namespace System {
 class CORDL_TYPE Activator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateInstance, addr 0x60c8e10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x60c9098, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type);
 
-  /// @brief Method CreateInstance, addr 0x60c8df8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x60c9080, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::ArrayW<::System::Object*> args, ::ArrayW<::System::Object*> activationAttributes);
 
-  /// @brief Method CreateInstance, addr 0x60c8de0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x60c9068, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, /* [ParamArray] */ ::ArrayW<::System::Object*> args);
 
-  /// @brief Method CreateInstance, addr 0x60c8214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x60c849c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*> args,
                                                  ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method CreateInstance, addr 0x60c821c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x60c84a4, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*> args,
                                                  ::System::Globalization::CultureInfo* culture, ::ArrayW<::System::Object*> activationAttributes);
 
-  /// @brief Method CreateInstance, addr 0x60c8e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x60c90a4, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, bool nonPublic);
 
-  /// @brief Method CreateInstance, addr 0x60c8e24, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x60c90ac, size 0x174, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, bool nonPublic, bool wrapExceptions);
 
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

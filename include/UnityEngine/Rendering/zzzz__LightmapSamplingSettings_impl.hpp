@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::LightmapSamplingSettings::*)()>(
     &::UnityEngine::Rendering::LightmapSamplingSettings::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bff504;
+  constexpr static std::size_t addrs = 0x6c005e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::LightmapSamplingSettings::*)()>(
     &::UnityEngine::Rendering::LightmapSamplingSettings::UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_isAvailableInPlayerBuild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bff50c;
+  constexpr static std::size_t addrs = 0x6c005ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LightmapSamplingSettings*>(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::LightmapSamplingSettings::*)()>(
     &::UnityEngine::Rendering::LightmapSamplingSettings::get_useBicubicLightmapSampling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bff514;
+  constexpr static std::size_t addrs = 0x6c005f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LightmapSamplingSettings::*)(bool)>(
     &::UnityEngine::Rendering::LightmapSamplingSettings::set_useBicubicLightmapSampling)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6bff51c;
+  constexpr static std::size_t addrs = 0x6c005fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::LightmapSamplingSettings::*)()>(&::UnityEngine::Rendering::LightmapSamplingSettings::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6bff58c;
+  constexpr static std::size_t addrs = 0x6c0066c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::LightmapSamplingSettings*>(), { ".ctor", {}, {} })));

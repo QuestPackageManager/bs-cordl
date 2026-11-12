@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::SchemaFormat)>(&::System::Data::XmlTreeGen::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x64c8dfc;
+  constexpr static std::size_t addrs = 0x64c944c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Data::PropertyCollection*, ::System::Xml::XmlElement*)>(&::System::Data::XmlTreeGen::AddExtendedProperties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64c8e80;
+  constexpr static std::size_t addrs = 0x64c94d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Data::PropertyCollection*, ::System::Xml::XmlElement*, ::System::Type*)>(
     &::System::Data::XmlTreeGen::AddExtendedProperties)> {
   constexpr static std::size_t size = 0x6d8;
-  constexpr static std::size_t addrs = 0x64c8e88;
+  constexpr static std::size_t addrs = 0x64c94d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Object*, ::System::Xml::XmlElement*, ::System::Xml::XmlDocument*)>(
     &::System::Data::XmlTreeGen::AddXdoProperties)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x64c9560;
+  constexpr static std::size_t addrs = 0x64c9bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::ComponentModel::PropertyDescriptor*, ::System::Object*, ::System::Xml::XmlElement*,
                                                                                             ::System::Xml::XmlDocument*)>(&::System::Data::XmlTreeGen::AddXdoProperty)> {
   constexpr static std::size_t size = 0x89c;
-  constexpr static std::size_t addrs = 0x64c9724;
+  constexpr static std::size_t addrs = 0x64c9d74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Type*)>(&::System::Data::XmlTreeGen::XmlDataTypeName)> {
   constexpr static std::size_t size = 0xb50;
-  constexpr static std::size_t addrs = 0x64c9fc0;
+  constexpr static std::size_t addrs = 0x64ca610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataTable*, bool)>(&::System::Data::XmlTreeGen::GenerateConstraintNames)> {
   constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x64cad18;
+  constexpr static std::size_t addrs = 0x64cb368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Collections::ArrayList*)>(&::System::Data::XmlTreeGen::GenerateConstraintNames)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x64cb1cc;
+  constexpr static std::size_t addrs = 0x64cb81c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataSet*)>(&::System::Data::XmlTreeGen::GenerateConstraintNames)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x64cb2c8;
+  constexpr static std::size_t addrs = 0x64cb918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::PropertyCollection*)>(&::System::Data::XmlTreeGen::_PropsNotEmpty)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x64cb580;
+  constexpr static std::size_t addrs = 0x64cbbd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlTreeGen::*)(::System::Data::DataSet*)>(&::System::Data::XmlTreeGen::HaveExtendedProperties)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x64cb5a8;
+  constexpr static std::size_t addrs = 0x64cbbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Xml::XmlDocument*, ::System::Xml::XmlElement*, ::StringW)>(
     &::System::Data::XmlTreeGen::WriteSchemaRoot)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x64cb72c;
+  constexpr static std::size_t addrs = 0x64cbd7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Type*)>(&::System::Data::XmlTreeGen::ValidateColumnMapping)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x64cb9ac;
+  constexpr static std::size_t addrs = 0x64cbffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataSet*)>(&::System::Data::XmlTreeGen::SetupAutoGenerated)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x64cba38;
+  constexpr static std::size_t addrs = 0x64cc088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Collections::ArrayList*)>(&::System::Data::XmlTreeGen::SetupAutoGenerated)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x64cc6ec;
+  constexpr static std::size_t addrs = 0x64ccd3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataTable*)>(&::System::Data::XmlTreeGen::SetupAutoGenerated)> {
   constexpr static std::size_t size = 0xa00;
-  constexpr static std::size_t addrs = 0x64cbcec;
+  constexpr static std::size_t addrs = 0x64cc33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataTable*)>(&::System::Data::XmlTreeGen::CreateTablesHierarchy)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x64ccd8c;
+  constexpr static std::size_t addrs = 0x64cd3dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataTable*)>(&::System::Data::XmlTreeGen::CreateRelations)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x64cd0e4;
+  constexpr static std::size_t addrs = 0x64cd734;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Data::DataTable*> (::System::Data::XmlTreeGen::*)()>(&::System::Data::XmlTreeGen::CreateToplevelTables)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x64cd418;
+  constexpr static std::size_t addrs = 0x64cda68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::XmlTreeGen*>(), { "CreateToplevelTables", {}, {} })));
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Xml::XmlDocument*, ::System::Xml::XmlWriter*, ::System::Data::DataSet*,
                                                                                             ::System::Data::DataTable*, bool)>(&::System::Data::XmlTreeGen::SchemaTree)> {
   constexpr static std::size_t size = 0x28bc;
-  constexpr static std::size_t addrs = 0x64cd710;
+  constexpr static std::size_t addrs = 0x64cdd60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlElement* (::System::Data::XmlTreeGen::*)(::System::Xml::XmlDocument*, ::System::Data::DataTable*)>(
     &::System::Data::XmlTreeGen::SchemaTree)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x64d0cbc;
+  constexpr static std::size_t addrs = 0x64d130c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlElement* (::System::Data::XmlTreeGen::*)(::System::Xml::XmlDocument*, ::System::Data::DataSet*, ::System::Data::DataTable*)>(
     &::System::Data::XmlTreeGen::FillDataSetElement)> {
   constexpr static std::size_t size = 0x65c;
-  constexpr static std::size_t addrs = 0x64cffcc;
+  constexpr static std::size_t addrs = 0x64d061c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Xml::XmlWriter*)>(&::System::Data::XmlTreeGen::SetPath)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x64d39e0;
+  constexpr static std::size_t addrs = 0x64d4030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataSet*, ::System::Xml::XmlWriter*)>(&::System::Data::XmlTreeGen::Save)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x64d3c80;
+  constexpr static std::size_t addrs = 0x64d42d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataTable*, ::System::Xml::XmlWriter*)>(&::System::Data::XmlTreeGen::Save)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x64d3ca0;
+  constexpr static std::size_t addrs = 0x64d42f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataSet*, ::System::Data::DataTable*, ::System::Xml::XmlWriter*)>(
     &::System::Data::XmlTreeGen::Save)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64d3c94;
+  constexpr static std::size_t addrs = 0x64d42e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -398,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataSet*, ::System::Data::DataTable*, ::System::Xml::XmlWriter*, bool)>(
     &::System::Data::XmlTreeGen::Save)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64d3d64;
+  constexpr static std::size_t addrs = 0x64d43b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -415,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataSet*, ::System::Data::DataTable*, ::System::Xml::XmlWriter*, bool,
                                                                                             ::System::Converter_2<::System::Type*, ::StringW>*)>(&::System::Data::XmlTreeGen::Save)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x64d3d6c;
+  constexpr static std::size_t addrs = 0x64d43bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -433,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlElement* (::System::Data::XmlTreeGen::*)(::System::Data::DataRelation*, ::System::Xml::XmlDocument*)>(
     &::System::Data::XmlTreeGen::HandleRelation)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x64d06ec;
+  constexpr static std::size_t addrs = 0x64d0d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -447,7 +447,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlElement* (*)(::System::Xml::XmlElement*, ::StringW)>(&::System::Data::XmlTreeGen::FindSimpleType)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x64d3f00;
+  constexpr static std::size_t addrs = 0x64d4550;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -461,7 +461,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlElement* (::System::Data::XmlTreeGen::*)(::StringW)>(&::System::Data::XmlTreeGen::GetSchema)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x64d3ff8;
+  constexpr static std::size_t addrs = 0x64d4648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::XmlTreeGen*>(), { "GetSchema", {}, { ::i2c::type_of<::StringW>() } })));
@@ -474,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataColumn*, ::System::Xml::XmlDocument*, ::System::Xml::XmlElement*,
                                                                                             ::System::Xml::XmlElement*)>(&::System::Data::XmlTreeGen::HandleColumnType)> {
   constexpr static std::size_t size = 0x448;
-  constexpr static std::size_t addrs = 0x64d42ac;
+  constexpr static std::size_t addrs = 0x64d48fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -491,7 +491,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataColumn*, ::System::Xml::XmlElement*)>(
     &::System::Data::XmlTreeGen::AddColumnProperties)> {
   constexpr static std::size_t size = 0x634;
-  constexpr static std::size_t addrs = 0x64d46f4;
+  constexpr static std::size_t addrs = 0x64d4d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -505,7 +505,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Data::XmlTreeGen::*)(::System::Data::DataTable*)>(&::System::Data::XmlTreeGen::FindTargetNamespace)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x64d4d28;
+  constexpr static std::size_t addrs = 0x64d5378;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -519,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlElement* (::System::Data::XmlTreeGen::*)(::System::Data::DataColumn*, ::System::Xml::XmlDocument*, ::System::Xml::XmlElement*,
                                                                                                                   bool)>(&::System::Data::XmlTreeGen::HandleColumn)> {
   constexpr static std::size_t size = 0xab0;
-  constexpr static std::size_t addrs = 0x64d4e38;
+  constexpr static std::size_t addrs = 0x64d5488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -535,7 +535,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Data::AcceptRejectRule)>(&::System::Data::XmlTreeGen::TranslateAcceptRejectRule)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x64d5ac8;
+  constexpr static std::size_t addrs = 0x64d6118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -548,7 +548,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Data::Rule)>(&::System::Data::XmlTreeGen::TranslateRule)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x64d5b44;
+  constexpr static std::size_t addrs = 0x64d6194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -562,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Xml::XmlElement*, ::StringW, ::System::Xml::XmlElement*, ::StringW)>(
     &::System::Data::XmlTreeGen::AppendChildWithoutRef)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x64d0630;
+  constexpr static std::size_t addrs = 0x64d0c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -578,7 +578,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlElement* (::System::Data::XmlTreeGen::*)(::System::Xml::XmlElement*, ::StringW)>(&::System::Data::XmlTreeGen::FindTypeNode)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x64d58e8;
+  constexpr static std::size_t addrs = 0x64d5f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -593,7 +593,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlElement* (::System::Data::XmlTreeGen::*)(::System::Data::DataTable*, ::System::Xml::XmlDocument*, ::System::Xml::XmlElement*)>(
     &::System::Data::XmlTreeGen::HandleTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64d0628;
+  constexpr static std::size_t addrs = 0x64d0c78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -608,7 +608,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlTreeGen::*)(::System::Data::DataTable*)>(&::System::Data::XmlTreeGen::HasMixedColumns)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x64d5c14;
+  constexpr static std::size_t addrs = 0x64d6264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -621,7 +621,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::DataColumn*)>(&::System::Data::XmlTreeGen::AutoGenerated)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x64cc7e4;
+  constexpr static std::size_t addrs = 0x64cce34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -634,7 +634,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::DataRelation*)>(&::System::Data::XmlTreeGen::AutoGenerated)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x64d5f90;
+  constexpr static std::size_t addrs = 0x64d65e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -647,7 +647,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::UniqueConstraint*)>(&::System::Data::XmlTreeGen::AutoGenerated)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x64cccb4;
+  constexpr static std::size_t addrs = 0x64cd304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -660,7 +660,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlTreeGen::*)(::System::Data::ForeignKeyConstraint*)>(&::System::Data::XmlTreeGen::AutoGenerated)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x64ccca8;
+  constexpr static std::size_t addrs = 0x64cd2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -673,7 +673,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Data::ForeignKeyConstraint*, bool)>(&::System::Data::XmlTreeGen::AutoGenerated)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x64d6078;
+  constexpr static std::size_t addrs = 0x64d66c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -687,7 +687,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::XmlTreeGen::*)(::System::Object*)>(&::System::Data::XmlTreeGen::IsAutoGenerated)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x64d61bc;
+  constexpr static std::size_t addrs = 0x64d680c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -701,7 +701,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::XmlElement* (::System::Data::XmlTreeGen::*)(::System::Data::DataTable*, ::System::Xml::XmlDocument*, ::System::Xml::XmlElement*,
                                                                                                                   bool)>(&::System::Data::XmlTreeGen::HandleTable)> {
   constexpr static std::size_t size = 0x28b4;
-  constexpr static std::size_t addrs = 0x64d112c;
+  constexpr static std::size_t addrs = 0x64d177c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -717,7 +717,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Xml::XmlElement*, ::System::Type*)>(&::System::Data::XmlTreeGen::SetMSDataAttribute)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x64cab10;
+  constexpr static std::size_t addrs = 0x64cb160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

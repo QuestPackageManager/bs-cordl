@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::GetInstance)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x370f710;
+  constexpr static std::size_t addrs = 0x3713ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::*)(
     ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*, ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*)>(&::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370fa24;
+  constexpr static std::size_t addrs = 0x3713ebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::_ctor)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x370f7b0;
+  constexpr static std::size_t addrs = 0x3713c48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* (::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::get_KeyDerivationFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370fbb0;
+  constexpr static std::size_t addrs = 0x3714048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters*>(), { "get_KeyDerivationFunc", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* (::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::get_EncryptionScheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x370fbb8;
+  constexpr static std::size_t addrs = 0x3714050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters*>(), { "get_EncryptionScheme", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters::ToAsn1Object)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x370fbc0;
+  constexpr static std::size_t addrs = 0x3714058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

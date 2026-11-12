@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request* (*)(::StringW)>(&::Oculus::Platform::IAP::ConsumePurchase)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x623fc78;
+  constexpr static std::size_t addrs = 0x623ff00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::IAP*>(), { "ConsumePurchase", {}, { ::i2c::type_of<::StringW>() } })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ProductList*>* (*)(::ArrayW<::StringW>)>(&::Oculus::Platform::IAP::GetProductsBySKU)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x623fdcc;
+  constexpr static std::size_t addrs = 0x6240054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PurchaseList*>* (*)()>(&::Oculus::Platform::IAP::GetViewerPurchases)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x623ff48;
+  constexpr static std::size_t addrs = 0x62401d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::IAP*>(), { "GetViewerPurchases", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PurchaseList*>* (*)()>(&::Oculus::Platform::IAP::GetViewerPurchasesDurableCache)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x62400a0;
+  constexpr static std::size_t addrs = 0x6240328;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::IAP*>(), { "GetViewerPurchasesDurableCache", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::Purchase*>* (*)(::StringW)>(&::Oculus::Platform::IAP::LaunchCheckoutFlow)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x62401f8;
+  constexpr static std::size_t addrs = 0x6240480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ProductList*>* (*)(::Oculus::Platform::Models::ProductList*)>(
     &::Oculus::Platform::IAP::GetNextProductListPage)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x6240388;
+  constexpr static std::size_t addrs = 0x6240610;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PurchaseList*>* (*)(::Oculus::Platform::Models::PurchaseList*)>(
     &::Oculus::Platform::IAP::GetNextPurchaseListPage)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x6240578;
+  constexpr static std::size_t addrs = 0x6240800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32::*)()>(
     &::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32::MoveNext)> {
   constexpr static std::size_t size = 0x9ec;
-  constexpr static std::size_t addrs = 0x5d61c30;
+  constexpr static std::size_t addrs = 0x5d611a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d6261c;
+  constexpr static std::size_t addrs = 0x5d61b90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayCoreSceneSetupData__LoadAndTransformBeatmapDataAsync_d__32>(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31::*)()>(
     &::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31::MoveNext)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x5d62688;
+  constexpr static std::size_t addrs = 0x5d61bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5d62898;
+  constexpr static std::size_t addrs = 0x5d61e0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayCoreSceneSetupData__LoadTransformedBeatmapDataAsync_d__31>(),
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::AudioClip> (::GlobalNamespace::GameplayCoreSceneSetupData::*)()>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::get_songAudioClip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d61794;
+  constexpr static std::size_t addrs = 0x5d60d08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayCoreSceneSetupData*>(), { "get_songAudioClip", {}, {} })));
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayCoreSceneSetupData::*)(::UnityEngine::AudioClip*)>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::set_songAudioClip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d6179c;
+  constexpr static std::size_t addrs = 0x5d60d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IBeatmapLevelData* (::GlobalNamespace::GameplayCoreSceneSetupData::*)()>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::get_beatmapLevelData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d617a4;
+  constexpr static std::size_t addrs = 0x5d60d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayCoreSceneSetupData*>(), { "get_beatmapLevelData", {}, {} })));
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayCoreSceneSetupData::*)(::GlobalNamespace::IBeatmapLevelData*)>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::set_beatmapLevelData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d617ac;
+  constexpr static std::size_t addrs = 0x5d60d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayCoreSceneSetupData*>(),
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (::GlobalNamespace::GameplayCoreSceneSetupData::*)()>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::get_transformedBeatmapData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d617b4;
+  constexpr static std::size_t addrs = 0x5d60d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayCoreSceneSetupData::*)(::GlobalNamespace::IReadonlyBeatmapData*)>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::set_transformedBeatmapData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d617bc;
+  constexpr static std::size_t addrs = 0x5d60d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::GameplayCoreSceneSetupData*>(),
@@ -254,7 +254,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::BeatmapDataLoader*, ::GlobalNamespace::BeatmapLevelsEntitlementModel*, bool, ::GlobalNamespace::EnvironmentsListModel*, bool,
     ::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::IBeatmapLevelData*)>(&::GlobalNamespace::GameplayCoreSceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x5d617c4;
+  constexpr static std::size_t addrs = 0x5d60d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::GameplayCoreSceneSetupData::*)()>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::ApplyDisableUpdateAlwaysConfiguration)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x5d61a50;
+  constexpr static std::size_t addrs = 0x5d60fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::GameplayCoreSceneSetupData::*)()>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::LoadTransformedBeatmapDataAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5d61acc;
+  constexpr static std::size_t addrs = 0x5d61040;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::GameplayCoreSceneSetupData::*)()>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::LoadAndTransformBeatmapDataAsync)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5d61b7c;
+  constexpr static std::size_t addrs = 0x5d610f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

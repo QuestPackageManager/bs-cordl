@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Action_2<int32_t, ::StringW>* (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::get_onDeviceDiscovered)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x7000874;
+  constexpr static std::size_t addrs = 0x7001954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "get_onDeviceDiscovered", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Action_2<int32_t, ::StringW>*)>(&::UnityEngineInternal::Input::NativeInputSystem::set_onDeviceDiscovered)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x70008d0;
+  constexpr static std::size_t addrs = 0x70019b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType)>(&::UnityEngineInternal::Input::NativeInputSystem::NotifyBeforeUpdate)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x70009c4;
+  constexpr static std::size_t addrs = 0x7001aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType, ::System::IntPtr)>(
     &::UnityEngineInternal::Input::NativeInputSystem::NotifyUpdate)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x7000a44;
+  constexpr static std::size_t addrs = 0x7001b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(int32_t, ::StringW)>(&::UnityEngineInternal::Input::NativeInputSystem::NotifyDeviceDiscovered)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x7000ae4;
+  constexpr static std::size_t addrs = 0x7001bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType, ::by_ref<bool>)>(
     &::UnityEngineInternal::Input::NativeInputSystem::ShouldRunUpdate)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x7000b78;
+  constexpr static std::size_t addrs = 0x7001c58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngineInternal::Input::NativeInputSystem::set_hasDeviceDiscoveredCallback)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7000958;
+  constexpr static std::size_t addrs = 0x7001a38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::get_currentTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x7000c0c;
+  constexpr static std::size_t addrs = 0x7001cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "get_currentTime", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::get_currentTimeOffsetToRealtimeSinceStartup)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x7000c34;
+  constexpr static std::size_t addrs = 0x7001d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::AllocateDeviceId)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x7000c5c;
+  constexpr static std::size_t addrs = 0x7001d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "AllocateDeviceId", {}, {} })));
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngineInternal::Input::NativeInputSystem::QueueInputEvent)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7000c84;
+  constexpr static std::size_t addrs = 0x7001d64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int64_t (*)(int32_t, int32_t, ::System::IntPtr, int32_t)>(&::UnityEngineInternal::Input::NativeInputSystem::IOCTL)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x7000cc0;
+  constexpr static std::size_t addrs = 0x7001da0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(float_t)>(&::UnityEngineInternal::Input::NativeInputSystem::SetPollingFrequency)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x7000d1c;
+  constexpr static std::size_t addrs = 0x7001dfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::GetPollingFrequency)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x7000d54;
+  constexpr static std::size_t addrs = 0x7001e34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(), { "GetPollingFrequency", {}, {} })));
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType)>(&::UnityEngineInternal::Input::NativeInputSystem::Update)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7000d7c;
+  constexpr static std::size_t addrs = 0x7001e5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngineInternal::Input::NativeInputSystem*>(),
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::get_normalizeScrollWheelDelta)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x7000db8;
+  constexpr static std::size_t addrs = 0x7001e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngineInternal::Input::NativeInputSystem::set_normalizeScrollWheelDelta)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x7000de0;
+  constexpr static std::size_t addrs = 0x7001ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -235,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::GetScrollWheelDeltaPerTick)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x7000e1c;
+  constexpr static std::size_t addrs = 0x7001efc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

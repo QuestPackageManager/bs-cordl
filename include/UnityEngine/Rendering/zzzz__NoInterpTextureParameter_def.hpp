@@ -24,12 +24,12 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE NoInterpTextureParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityW<::UnityEngine::Texture>> {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x6c285f8, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c296d8, size 0x104, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::Rendering::NoInterpTextureParameter* New_ctor(::UnityEngine::Texture* value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6c28594, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c29674, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Texture* value, bool overrideState);
 
 protected:

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RadeonRays::Scan::*)(::UnityEngine::Rendering::RadeonRays::RadeonRaysShaders*)>(
     &::UnityEngine::Rendering::RadeonRays::Scan::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6e3af28;
+  constexpr static std::size_t addrs = 0x6e3c008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RadeonRays::Scan*>(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RadeonRays::Scan::*)(::UnityEngine::Rendering::CommandBuffer*, ::UnityEngine::GraphicsBuffer*, uint32_t,
                                                                                                             uint32_t, uint32_t, uint32_t)>(&::UnityEngine::Rendering::RadeonRays::Scan::Execute)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x6e3afd4;
+  constexpr static std::size_t addrs = 0x6e3c0b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
                                                                                                             ::UnityEngine::GraphicsBuffer*, uint32_t, uint32_t, uint32_t)>(
     &::UnityEngine::Rendering::RadeonRays::Scan::SetState)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x6e3b3a8;
+  constexpr static std::size_t addrs = 0x6e3c488;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)(uint32_t)>(&::UnityEngine::Rendering::RadeonRays::Scan::GetScratchDataSizeInDwords)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6e3b214;
+  constexpr static std::size_t addrs = 0x6e3c2f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

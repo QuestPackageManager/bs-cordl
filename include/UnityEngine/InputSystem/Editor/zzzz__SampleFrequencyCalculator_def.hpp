@@ -28,34 +28,34 @@ public:
 
   __declspec(property(get = get_targetFrequency, put = set_targetFrequency)) float_t targetFrequency;
 
-  /// @brief Method ProcessSample, addr 0x6a15df8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ProcessSample, addr 0x6a16ed8, size 0x14, virtual false, abstract: false, final false
   inline void ProcessSample(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method Update, addr 0x6a15e1c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6a16efc, size 0x74, virtual false, abstract: false, final false
   inline bool Update();
 
-  /// @brief Method Update, addr 0x6a15e90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6a16f70, size 0x3c, virtual false, abstract: false, final false
   inline bool Update(double_t realtimeSinceStartup);
 
-  /// @brief Method .ctor, addr 0x6a15dc4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a16ea4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t targetFrequency, double_t realtimeSinceStartup);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_frequency, addr 0x6a15de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_frequency, addr 0x6a16ec8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_frequency();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_targetFrequency, addr 0x6a15dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetFrequency, addr 0x6a16eb8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_targetFrequency();
 
   /// [CompilerGenerated]
-  /// @brief Method set_frequency, addr 0x6a15df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_frequency, addr 0x6a16ed0, size 0x8, virtual false, abstract: false, final false
   inline void set_frequency(float_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_targetFrequency, addr 0x6a15de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_targetFrequency, addr 0x6a16ec0, size 0x8, virtual false, abstract: false, final false
   inline void set_targetFrequency(float_t value);
 
   // Ctor Parameters []

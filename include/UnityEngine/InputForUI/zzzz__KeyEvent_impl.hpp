@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::KeyCode)>(&::UnityEngine::InputForUI::KeyEvent_ButtonsState::ShouldBeProcessed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6ff64d8;
+  constexpr static std::size_t addrs = 0x6ff75b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::KeyEvent_ButtonsState::*)(uint32_t)>(&::UnityEngine::InputForUI::KeyEvent_ButtonsState::GetUnchecked)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6ff64e4;
+  constexpr static std::size_t addrs = 0x6ff75c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::KeyEvent_ButtonsState::*)(uint32_t)>(&::UnityEngine::InputForUI::KeyEvent_ButtonsState::SetUnchecked)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ff6500;
+  constexpr static std::size_t addrs = 0x6ff75e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::KeyEvent_ButtonsState::*)(uint32_t)>(&::UnityEngine::InputForUI::KeyEvent_ButtonsState::ClearUnchecked)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6ff6524;
+  constexpr static std::size_t addrs = 0x6ff7604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::KeyEvent_ButtonsState::*)(::UnityEngine::KeyCode)>(
     &::UnityEngine::InputForUI::KeyEvent_ButtonsState::IsPressed)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ff6548;
+  constexpr static std::size_t addrs = 0x6ff7628;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::KeyCode>* (::UnityEngine::InputForUI::KeyEvent_ButtonsState::*)()>(
     &::UnityEngine::InputForUI::KeyEvent_ButtonsState::GetAllPressed)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6ff6574;
+  constexpr static std::size_t addrs = 0x6ff7654;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::KeyEvent_ButtonsState>(), { "GetAllPressed", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::KeyEvent_ButtonsState::*)(::UnityEngine::KeyCode, bool)>(
     &::UnityEngine::InputForUI::KeyEvent_ButtonsState::SetPressed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6ff6614;
+  constexpr static std::size_t addrs = 0x6ff76f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::KeyEvent_ButtonsState>(),
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::KeyEvent_ButtonsState::*)()>(&::UnityEngine::InputForUI::KeyEvent_ButtonsState::Reset)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x6ff664c;
+  constexpr static std::size_t addrs = 0x6ff772c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::KeyEvent_ButtonsState>(), { "Reset", {}, {} })));
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputForUI::KeyEvent_ButtonsState::*)()>(&::UnityEngine::InputForUI::KeyEvent_ButtonsState::ToString)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6ff67b8;
+  constexpr static std::size_t addrs = 0x6ff7898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::*)(int32_t)>(
     &::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6ff65f4;
+  constexpr static std::size_t addrs = 0x6ff76d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::*)()>(
     &::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ff682c;
+  constexpr static std::size_t addrs = 0x6ff790c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::*)()>(
     &::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6ff6830;
+  constexpr static std::size_t addrs = 0x6ff7910;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::KeyCode (::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::*)()>(
     &::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::System_Collections_Generic_IEnumerator_UnityEngine_KeyCode__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ff68a4;
+  constexpr static std::size_t addrs = 0x6ff7984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8*>(),
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::*)()>(
     &::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6ff68ac;
+  constexpr static std::size_t addrs = 0x6ff798c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::*)()>(
     &::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6ff68e4;
+  constexpr static std::size_t addrs = 0x6ff79c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -292,7 +292,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::KeyCode>* (::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::*)()>(
         &::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::System_Collections_Generic_IEnumerable_UnityEngine_KeyCode__GetEnumerator)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x6ff6944;
+  constexpr static std::size_t addrs = 0x6ff7a24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8*>(),
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::*)()>(
     &::UnityEngine::InputForUI::ButtonsState_KeyEvent__GetAllPressed_d__8::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6ff69ec;
+  constexpr static std::size_t addrs = 0x6ff7acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -480,7 +480,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::KeyEvent::*)(::Unity::IntegerTime::DiscreteTime)>(&::UnityEngine::InputForUI::KeyEvent::set_timestamp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ff62ac;
+  constexpr static std::size_t addrs = 0x6ff738c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -493,7 +493,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::EventSource (::UnityEngine::InputForUI::KeyEvent::*)()>(&::UnityEngine::InputForUI::KeyEvent::get_eventSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ff62b4;
+  constexpr static std::size_t addrs = 0x6ff7394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::KeyEvent>(), { "get_eventSource", {}, {} })));
@@ -505,7 +505,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::KeyEvent::*)(::UnityEngine::InputForUI::EventSource)>(&::UnityEngine::InputForUI::KeyEvent::set_eventSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ff62bc;
+  constexpr static std::size_t addrs = 0x6ff739c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -518,7 +518,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::KeyEvent::*)(uint32_t)>(&::UnityEngine::InputForUI::KeyEvent::set_playerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ff62c4;
+  constexpr static std::size_t addrs = 0x6ff73a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -532,7 +532,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputForUI::EventModifiers (::UnityEngine::InputForUI::KeyEvent::*)()>(
     &::UnityEngine::InputForUI::KeyEvent::get_eventModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ff62cc;
+  constexpr static std::size_t addrs = 0x6ff73ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputForUI::KeyEvent>(), { "get_eventModifiers", {}, {} })));
@@ -545,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputForUI::KeyEvent::*)(::UnityEngine::InputForUI::EventModifiers)>(
     &::UnityEngine::InputForUI::KeyEvent::set_eventModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ff62d4;
+  constexpr static std::size_t addrs = 0x6ff73b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -559,7 +559,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::InputForUI::KeyEvent::*)()>(&::UnityEngine::InputForUI::KeyEvent::ToString)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x6ff62dc;
+  constexpr static std::size_t addrs = 0x6ff73bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

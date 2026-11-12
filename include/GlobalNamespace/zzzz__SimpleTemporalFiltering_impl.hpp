@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleTemporalFiltering::*)()>(&::GlobalNamespace::SimpleTemporalFiltering::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x63a79c0;
+  constexpr static std::size_t addrs = 0x63a8010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleTemporalFiltering*>(), { ".ctor", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::GlobalNamespace::SimpleTemporalFiltering::*)(::UnityEngine::RenderTexture*)>(
     &::GlobalNamespace::SimpleTemporalFiltering::FilterTexture)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x63a7a7c;
+  constexpr static std::size_t addrs = 0x63a80cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SimpleTemporalFiltering::*)(int32_t, int32_t)>(
     &::GlobalNamespace::SimpleTemporalFiltering::CreateRenderTexturesIfNeeded)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x63a7bf0;
+  constexpr static std::size_t addrs = 0x63a8240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SimpleTemporalFiltering*>(),

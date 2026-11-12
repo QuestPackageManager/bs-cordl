@@ -40,16 +40,16 @@ public:
   /// @brief Field s_NormalReconstructionMatrixID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_NormalReconstructionMatrixID, put = setStaticF_s_NormalReconstructionMatrixID)) int32_t s_NormalReconstructionMatrixID;
 
-  /// @brief Method SetupProperties, addr 0x6d6be80, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x6d6cf60, size 0xe4, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
 
-  /// @brief Method SetupProperties, addr 0x6d6ba68, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x6d6cb48, size 0xe0, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::CommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData);
 
-  /// @brief Method SetupProperties, addr 0x6d6bb48, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x6d6cc28, size 0x90, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::CameraData const> cameraData);
 
-  /// @brief Method SetupProperties, addr 0x6d6bbd8, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method SetupProperties, addr 0x6d6ccb8, size 0x2a8, virtual false, abstract: false, final false
   static inline void SetupProperties(::UnityEngine::Rendering::RasterCommandBuffer* cmd, /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::Universal::UniversalCameraData* const> cameraData);
 
   static inline ::ArrayW<::UnityEngine::Matrix4x4> getStaticF_s_NormalReconstructionMatrix();

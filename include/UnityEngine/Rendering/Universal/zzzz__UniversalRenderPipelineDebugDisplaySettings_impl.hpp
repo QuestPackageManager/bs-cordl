@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DebugDisplaySettingsCommon* (
     ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::get_commonSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc7784;
+  constexpr static std::size_t addrs = 0x6cc8864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)(
     ::UnityEngine::Rendering::Universal::DebugDisplaySettingsCommon*)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::set_commonSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc778c;
+  constexpr static std::size_t addrs = 0x6cc886c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial* (
     ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::get_materialSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc7794;
+  constexpr static std::size_t addrs = 0x6cc8874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)(
     ::UnityEngine::Rendering::Universal::DebugDisplaySettingsMaterial*)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::set_materialSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc779c;
+  constexpr static std::size_t addrs = 0x6cc887c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering* (
     ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::get_renderingSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc77a4;
+  constexpr static std::size_t addrs = 0x6cc8884;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)(
     ::UnityEngine::Rendering::Universal::DebugDisplaySettingsRendering*)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::set_renderingSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc77ac;
+  constexpr static std::size_t addrs = 0x6cc888c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting* (
     ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::get_lightingSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc77b4;
+  constexpr static std::size_t addrs = 0x6cc8894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)(
     ::UnityEngine::Rendering::Universal::DebugDisplaySettingsLighting*)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::set_lightingSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc77bc;
+  constexpr static std::size_t addrs = 0x6cc889c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DebugDisplaySettingsVolume* (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::get_volumeSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc77c4;
+  constexpr static std::size_t addrs = 0x6cc88a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)(
     ::UnityEngine::Rendering::DebugDisplaySettingsVolume*)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::set_volumeSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc77cc;
+  constexpr static std::size_t addrs = 0x6cc88ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings*>(),
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Rendering::DebugDisplaySettingsStats_1<::UnityEngine::Rendering::Universal::URPProfileId>* (
     ::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)()>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::get_displayStats)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc77d4;
+  constexpr static std::size_t addrs = 0x6cc88b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rend
     ::UnityEngine::Rendering::DebugDisplaySettingsStats_1<::UnityEngine::Rendering::Universal::URPProfileId>*)>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::set_displayStats)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc77dc;
+  constexpr static std::size_t addrs = 0x6cc88bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer* (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)()>(
         &::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::get_gpuResidentDrawerSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc77e4;
+  constexpr static std::size_t addrs = 0x6cc88c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)(
     ::UnityEngine::Rendering::DebugDisplayGPUResidentDrawer*)>(&::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::set_gpuResidentDrawerSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cc77ec;
+  constexpr static std::size_t addrs = 0x6cc88cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::get_IsPostProcessingAllowed)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x6cc77f4;
+  constexpr static std::size_t addrs = 0x6cc88d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings*>(),
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6cc7a2c;
+  constexpr static std::size_t addrs = 0x6cc8b0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::Reset)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x6cc7aa0;
+  constexpr static std::size_t addrs = 0x6cc8b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::UpdateDisplayStats)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6cc7eec;
+  constexpr static std::size_t addrs = 0x6cc8fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::*)()>(
     &::UnityEngine::Rendering::Universal::UniversalRenderPipelineDebugDisplaySettings::UpdateMaterials)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6cc7f54;
+  constexpr static std::size_t addrs = 0x6cc9034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

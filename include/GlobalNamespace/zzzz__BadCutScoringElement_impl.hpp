@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BadCutScoringElement_Pool::*)()>(&::GlobalNamespace::BadCutScoringElement_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5e4f534;
+  constexpr static std::size_t addrs = 0x5e4f964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BadCutScoringElement_Pool*>(), { ".ctor", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BadCutScoringElement::*)()>(&::GlobalNamespace::BadCutScoringElement::get_cutScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4f50c;
+  constexpr static std::size_t addrs = 0x5e4f93c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType (::GlobalNamespace::BadCutScoringElement::*)()>(
     &::GlobalNamespace::BadCutScoringElement::get_wouldBeCorrectCutBestPossibleMultiplierEventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4f514;
+  constexpr static std::size_t addrs = 0x5e4f944;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType (::GlobalNamespace::BadCutScoringElement::*)()>(
     &::GlobalNamespace::BadCutScoringElement::get_multiplierEventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e4f51c;
+  constexpr static std::size_t addrs = 0x5e4f94c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::BadCutScoringElement::*)()>(&::GlobalNamespace::BadCutScoringElement::get_executionOrder)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e4f524;
+  constexpr static std::size_t addrs = 0x5e4f954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BadCutScoringElement::*)(::GlobalNamespace::NoteData*)>(&::GlobalNamespace::BadCutScoringElement::Init)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5e4eca8;
+  constexpr static std::size_t addrs = 0x5e4f0d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BadCutScoringElement::*)()>(&::GlobalNamespace::BadCutScoringElement::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4f530;
+  constexpr static std::size_t addrs = 0x5e4f960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BadCutScoringElement*>(), { ".ctor", {}, {} })));

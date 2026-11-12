@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController_Pool::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::ObstacleController_Pool::OnCreated)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x5dcbb58;
+  constexpr static std::size_t addrs = 0x5dcbc74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController_Pool::*)()>(&::GlobalNamespace::ObstacleController_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5dcbbf0;
+  constexpr static std::size_t addrs = 0x5dcbd0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleController_Pool*>(), { ".ctor", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::*)(int32_t)>(
     &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dcbc2c;
+  constexpr static std::size_t addrs = 0x5dcbd48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::*)()>(
     &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5dcbc34;
+  constexpr static std::size_t addrs = 0x5dcbd50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::*)()>(
     &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::MoveNext)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x5dcbc38;
+  constexpr static std::size_t addrs = 0x5dcbd54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::*)()>(
     &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dcbd34;
+  constexpr static std::size_t addrs = 0x5dcbe50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66*>(),
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::*)()>(
     &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5dcbd3c;
+  constexpr static std::size_t addrs = 0x5dcbe58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::*)()>(
     &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5dcbd74;
+  constexpr static std::size_t addrs = 0x5dcbe90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(
     &::GlobalNamespace::ObstacleController::add_finishedMovementEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d187dc;
+  constexpr static std::size_t addrs = 0x5d18798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(
     &::GlobalNamespace::ObstacleController::remove_finishedMovementEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d18c30;
+  constexpr static std::size_t addrs = 0x5d18bec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(
     &::GlobalNamespace::ObstacleController::add_passedThreeQuartersOfJumpDurationEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d1889c;
+  constexpr static std::size_t addrs = 0x5d18858;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(
     &::GlobalNamespace::ObstacleController::remove_passedThreeQuartersOfJumpDurationEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d18cf0;
+  constexpr static std::size_t addrs = 0x5d18cac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -353,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(
     &::GlobalNamespace::ObstacleController::add_passedAvoidedMarkEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d1895c;
+  constexpr static std::size_t addrs = 0x5d18918;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(
     &::GlobalNamespace::ObstacleController::remove_passedAvoidedMarkEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d18db0;
+  constexpr static std::size_t addrs = 0x5d18d6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(
     &::GlobalNamespace::ObstacleController::add_didDissolveEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d18a1c;
+  constexpr static std::size_t addrs = 0x5d189d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -398,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(
     &::GlobalNamespace::ObstacleController::remove_didDissolveEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d18e70;
+  constexpr static std::size_t addrs = 0x5d18e2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -413,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>*)>(
     &::GlobalNamespace::ObstacleController::add_didUpdateProgress)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d299a0;
+  constexpr static std::size_t addrs = 0x5d29b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -428,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>*)>(
     &::GlobalNamespace::ObstacleController::remove_didUpdateProgress)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d29a60;
+  constexpr static std::size_t addrs = 0x5d29c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -442,7 +442,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Bounds (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::get_bounds)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d29b20;
+  constexpr static std::size_t addrs = 0x5d29cfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleController*>(), { "get_bounds", {}, {} })));
@@ -454,7 +454,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ObstacleData* (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::get_obstacleData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d29b34;
+  constexpr static std::size_t addrs = 0x5d29d10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleController*>(), { "get_obstacleData", {}, {} })));
@@ -466,7 +466,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::get_hasPassedAvoidedMark)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d29b3c;
+  constexpr static std::size_t addrs = 0x5d29d18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleController*>(), { "get_hasPassedAvoidedMark", {}, {} })));
@@ -478,7 +478,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d29b44;
+  constexpr static std::size_t addrs = 0x5d29d20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleController*>(), { "get_width", {}, {} })));
@@ -490,7 +490,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::get_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d29b4c;
+  constexpr static std::size_t addrs = 0x5d29d28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleController*>(), { "get_height", {}, {} })));
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::get_length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d29b54;
+  constexpr static std::size_t addrs = 0x5d29d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleController*>(), { "get_length", {}, {} })));
@@ -514,7 +514,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::get_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d29b5c;
+  constexpr static std::size_t addrs = 0x5d29d38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleController*>(), { "get_color", {}, {} })));
@@ -526,7 +526,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::get_manualUvOffset)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5d2989c;
+  constexpr static std::size_t addrs = 0x5d29a78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleController*>(), { "get_manualUvOffset", {}, {} })));
@@ -539,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)(::GlobalNamespace::ObstacleData*, ::by_ref<::GlobalNamespace::ObstacleSpawnData const>)>(
     &::GlobalNamespace::ObstacleController::Init)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x5d29b68;
+  constexpr static std::size_t addrs = 0x5d29d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -552,7 +552,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)(::BeatSaber::Settings::Settings)>(&::GlobalNamespace::ObstacleController::InitGraphics)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x5d2a008;
+  constexpr static std::size_t addrs = 0x5d2a1e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -565,7 +565,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d2a118;
+  constexpr static std::size_t addrs = 0x5d2a2f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleController*>(), { "Update", {}, {} })));
@@ -577,7 +577,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::ManualUpdate)> {
   constexpr static std::size_t size = 0x818;
-  constexpr static std::size_t addrs = 0x5d17360;
+  constexpr static std::size_t addrs = 0x5d1731c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleController*>(), { "ManualUpdate", {}, {} })));
@@ -589,7 +589,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::ObstacleController::*)(float_t)>(&::GlobalNamespace::ObstacleController::GetPosForTime)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x5d2a11c;
+  constexpr static std::size_t addrs = 0x5d2a2f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -602,7 +602,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::GetObstacleLength)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x5d2a3b0;
+  constexpr static std::size_t addrs = 0x5d2a58c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleController*>(), { "GetObstacleLength", {}, {} })));
@@ -615,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::ObstacleController::*)(float_t)>(
     &::GlobalNamespace::ObstacleController::DissolveCoroutine)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5d2a4ec;
+  constexpr static std::size_t addrs = 0x5d2a6c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -628,7 +628,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)(float_t)>(&::GlobalNamespace::ObstacleController::Dissolve)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5d2a550;
+  constexpr static std::size_t addrs = 0x5d2a72c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -641,7 +641,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)(bool)>(&::GlobalNamespace::ObstacleController::Hide)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x5d17b78;
+  constexpr static std::size_t addrs = 0x5d17b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleController*>(), { "Hide", {}, { ::i2c::type_of<bool>() } })));
@@ -653,7 +653,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)(bool)>(&::GlobalNamespace::ObstacleController::Pause)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d2a584;
+  constexpr static std::size_t addrs = 0x5d2a760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleController*>(), { "Pause", {}, { ::i2c::type_of<bool>() } })));
@@ -665,7 +665,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5d2a594;
+  constexpr static std::size_t addrs = 0x5d2a770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObstacleController*>(), { ".ctor", {}, {} })));

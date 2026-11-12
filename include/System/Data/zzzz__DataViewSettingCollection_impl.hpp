@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Data::DataViewSetting* (::System::Data::DataViewSettingCollection::*)(::System::Data::DataTable*)>(
     &::System::Data::DataViewSettingCollection::get_Item)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x648e950;
+  constexpr static std::size_t addrs = 0x648efa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewSettingCollection::*)(::System::Data::DataTable*, ::System::Data::DataViewSetting*)>(
     &::System::Data::DataViewSettingCollection::set_Item)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x648ea74;
+  constexpr static std::size_t addrs = 0x648f0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::DataViewSettingCollection::*)(::System::Data::DataTable*)>(&::System::Data::DataViewSettingCollection::Remove)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x648eaf4;
+  constexpr static std::size_t addrs = 0x648f144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -110,19 +110,19 @@ public:
   /// @brief Field Int64_M1, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Int64_M1, put = setStaticF_Int64_M1)) ::System::Object* Int64_M1;
 
-  /// @brief Method Get, addr 0x6172194, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x617241c, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Object* Get(::System::Decimal value);
 
-  /// @brief Method Get, addr 0x6171d48, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x6171fd0, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Object* Get(bool value);
 
-  /// @brief Method Get, addr 0x6172284, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x617250c, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Object* Get(double_t value);
 
-  /// @brief Method Get, addr 0x6171dc4, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x617204c, size 0x228, virtual false, abstract: false, final false
   static inline ::System::Object* Get(int32_t value);
 
-  /// @brief Method Get, addr 0x6171fec, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x6172274, size 0x1a8, virtual false, abstract: false, final false
   static inline ::System::Object* Get(int64_t value);
 
   static inline ::System::Object* getStaticF_BooleanFalse();

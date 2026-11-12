@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature::*)()>(
     &::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature::get_useRightHandedNDC)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e8917c;
+  constexpr static std::size_t addrs = 0x6e8a25c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature::*)(bool)>(
     &::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature::set_useRightHandedNDC)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6e89184;
+  constexpr static std::size_t addrs = 0x6e8a264;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature::OnInstanceCreate)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x6e89300;
+  constexpr static std::size_t addrs = 0x6e8a3e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature*>(),
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(bool)>(&::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature::SetSpaceWarp)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e89364;
+  constexpr static std::size_t addrs = 0x6e8a444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Vector3)>(&::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature::SetAppSpacePosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e893f8;
+  constexpr static std::size_t addrs = 0x6e8a4d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Quaternion)>(&::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature::SetAppSpaceRotation)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e894a0;
+  constexpr static std::size_t addrs = 0x6e8a580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(bool)>(&::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature::MetaSetSpaceWarp)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6e8937c;
+  constexpr static std::size_t addrs = 0x6e8a45c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(float_t, float_t, float_t)>(
     &::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature::MetaSetAppSpacePosition)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6e89410;
+  constexpr static std::size_t addrs = 0x6e8a4f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrResult (*)(float_t, float_t, float_t, float_t)>(
     &::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature::MetaSetAppSpaceRotation)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6e894b8;
+  constexpr static std::size_t addrs = 0x6e8a598;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(bool)>(&::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature::Internal_SetSpaceWarpRightHandedNDC)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6e8927c;
+  constexpr static std::size_t addrs = 0x6e8a35c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature::*)()>(&::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e89550;
+  constexpr static std::size_t addrs = 0x6e8a630;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::Features::SpaceWarpFeature*>(), { ".ctor", {}, {} })));

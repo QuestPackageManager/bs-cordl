@@ -31,16 +31,16 @@ namespace System::Data {
 class CORDL_TYPE RelationshipConverter : public ::System::ComponentModel::ExpandableObjectConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertTo, addr 0x64a54a4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x64a5af4, size 0xa4, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertTo, addr 0x64a5548, size 0xa9c, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x64a5b98, size 0xa9c, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::Data::RelationshipConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x64a54a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64a5af0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

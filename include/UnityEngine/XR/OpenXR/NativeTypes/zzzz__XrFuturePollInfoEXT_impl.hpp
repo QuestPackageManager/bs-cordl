@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType (::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7e294;
+  constexpr static std::size_t addrs = 0x6e7f374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT>(), { "get_type", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT::get_next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7e29c;
+  constexpr static std::size_t addrs = 0x6e7f37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT>(), { "get_next", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT::get_future)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e7e2a4;
+  constexpr static std::size_t addrs = 0x6e7f384;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT>(), { "get_future", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT::*)(void*, uint64_t)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e7e2ac;
+  constexpr static std::size_t addrs = 0x6e7f38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT::*)(uint64_t)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollInfoEXT::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6e7b664;
+  constexpr static std::size_t addrs = 0x6e7c744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

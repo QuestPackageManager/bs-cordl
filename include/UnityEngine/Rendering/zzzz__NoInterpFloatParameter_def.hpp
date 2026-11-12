@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::NoInterpFloatParameter* New_ctor(float_t value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6c27924, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c28a04, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(float_t value, bool overrideState);
 
 protected:

@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController_Pool::*)()>(&::GlobalNamespace::BurstSliderGameNoteController_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5d20e14;
+  constexpr static std::size_t addrs = 0x5d20ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstSliderGameNoteController_Pool*>(), { ".ctor", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController::*)(::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*)>(
     &::GlobalNamespace::BurstSliderGameNoteController::add_cubeNoteControllerDidInitEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d1fc78;
+  constexpr static std::size_t addrs = 0x5d1fe3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController::*)(::System::Action_1<::UnityW<::GlobalNamespace::BurstSliderGameNoteController>>*)>(
     &::GlobalNamespace::BurstSliderGameNoteController::remove_cubeNoteControllerDidInitEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d1fd38;
+  constexpr static std::size_t addrs = 0x5d1fefc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::NoteMovement> (::GlobalNamespace::BurstSliderGameNoteController::*)()>(
     &::GlobalNamespace::BurstSliderGameNoteController::get_noteMovement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d1fdf8;
+  constexpr static std::size_t addrs = 0x5d1ffbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstSliderGameNoteController*>(), { "get_noteMovement", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteVisualModifierType (::GlobalNamespace::BurstSliderGameNoteController::*)()>(
     &::GlobalNamespace::BurstSliderGameNoteController::get_noteVisualModifierType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d1fe00;
+  constexpr static std::size_t addrs = 0x5d1ffc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteData_GameplayType (::GlobalNamespace::BurstSliderGameNoteController::*)()>(
     &::GlobalNamespace::BurstSliderGameNoteController::get_gameplayType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d1fe08;
+  constexpr static std::size_t addrs = 0x5d1ffcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstSliderGameNoteController*>(), { "get_gameplayType", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController::*)(
     ::GlobalNamespace::NoteData*, ::by_ref<::GlobalNamespace::NoteSpawnData const>, ::GlobalNamespace::NoteVisualModifierType, float_t)>(&::GlobalNamespace::BurstSliderGameNoteController::Init)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x5d1fe10;
+  constexpr static std::size_t addrs = 0x5d1ffd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController::*)()>(&::GlobalNamespace::BurstSliderGameNoteController::Awake)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x5d202a0;
+  constexpr static std::size_t addrs = 0x5d203d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController::*)()>(&::GlobalNamespace::BurstSliderGameNoteController::OnDestroy)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x5d20450;
+  constexpr static std::size_t addrs = 0x5d20588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController::*)()>(&::GlobalNamespace::BurstSliderGameNoteController::NoteDidPassMissedMarker)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5d2062c;
+  constexpr static std::size_t addrs = 0x5d20764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController::*)()>(&::GlobalNamespace::BurstSliderGameNoteController::NoteDidStartDissolving)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d206dc;
+  constexpr static std::size_t addrs = 0x5d20814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,8 +191,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController::*)()>(&::GlobalNamespace::BurstSliderGameNoteController::ManualUpdate)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x5d20788;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x5d208c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController::*)(
     ::GlobalNamespace::Saber*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&::GlobalNamespace::BurstSliderGameNoteController::HandleBigWasCutBySaber)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d207c0;
+  constexpr static std::size_t addrs = 0x5d2099c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstSliderGameNoteController*>(),
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController::*)(
     ::GlobalNamespace::Saber*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&::GlobalNamespace::BurstSliderGameNoteController::HandleSmallWasCutBySaber)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d20d14;
+  constexpr static std::size_t addrs = 0x5d20ef0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstSliderGameNoteController*>(),
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController::*)(
     ::GlobalNamespace::Saber*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, bool)>(&::GlobalNamespace::BurstSliderGameNoteController::HandleCut)> {
   constexpr static std::size_t size = 0x53c;
-  constexpr static std::size_t addrs = 0x5d207d8;
+  constexpr static std::size_t addrs = 0x5d209b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController::*)()>(&::GlobalNamespace::BurstSliderGameNoteController::NoteDidStartJump)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5d20d2c;
+  constexpr static std::size_t addrs = 0x5d20f08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -270,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController::*)(bool)>(&::GlobalNamespace::BurstSliderGameNoteController::HiddenStateDidChange)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5d20de0;
+  constexpr static std::size_t addrs = 0x5d20fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController::*)(bool)>(&::GlobalNamespace::BurstSliderGameNoteController::Pause)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5d20e00;
+  constexpr static std::size_t addrs = 0x5d20fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -295,8 +295,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController::*)()>(&::GlobalNamespace::BurstSliderGameNoteController::SetBigCuttableColliderSize)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x5d1ff9c;
+  constexpr static std::size_t size = 0x278;
+  constexpr static std::size_t addrs = 0x5d20160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BurstSliderGameNoteController::*)()>(&::GlobalNamespace::BurstSliderGameNoteController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d20e10;
+  constexpr static std::size_t addrs = 0x5d20fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BurstSliderGameNoteController*>(), { ".ctor", {}, {} })));

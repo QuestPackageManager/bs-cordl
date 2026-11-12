@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidAmbientTemperature* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a14734, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a15814, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

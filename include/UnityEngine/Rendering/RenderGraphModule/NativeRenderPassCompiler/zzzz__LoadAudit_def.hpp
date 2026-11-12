@@ -31,7 +31,7 @@ public:
   /// @brief Field LoadReasonMessages, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_LoadReasonMessages, put = setStaticF_LoadReasonMessages)) ::ArrayW<::StringW> LoadReasonMessages;
 
-  /// @brief Method .ctor, addr 0x6c64f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c66044, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::LoadReason setReason, int32_t setPassId);
 
   static inline ::ArrayW<::StringW> getStaticF_LoadReasonMessages();

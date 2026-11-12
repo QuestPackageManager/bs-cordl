@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021110;
+  constexpr static std::size_t addrs = 0x6021398;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { ".ctor", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::NumberFormatInfo::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Globalization::NumberFormatInfo::OnSerializing)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x602159c;
+  constexpr static std::size_t addrs = 0x6021824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::NumberFormatInfo::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Globalization::NumberFormatInfo::OnDeserializing)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x602160c;
+  constexpr static std::size_t addrs = 0x6021894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::NumberFormatInfo::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Globalization::NumberFormatInfo::OnDeserialized)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6021610;
+  constexpr static std::size_t addrs = 0x6021898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(),
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW, ::StringW)>(&::System::Globalization::NumberFormatInfo::VerifyGroupSeparator)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6021614;
+  constexpr static std::size_t addrs = 0x602189c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::NumberFormatInfo::*)(::System::Globalization::CultureData*)>(&::System::Globalization::NumberFormatInfo::_ctor)> {
   constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x6021118;
+  constexpr static std::size_t addrs = 0x60213a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::VerifyWritable)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6021674;
+  constexpr static std::size_t addrs = 0x60218fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "VerifyWritable", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::NumberFormatInfo* (*)()>(&::System::Globalization::NumberFormatInfo::get_InvariantInfo)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x60216d0;
+  constexpr static std::size_t addrs = 0x6021958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_InvariantInfo", {}, {} })));
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::NumberFormatInfo* (*)(::System::IFormatProvider*)>(&::System::Globalization::NumberFormatInfo::GetInstance)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x6021840;
+  constexpr static std::size_t addrs = 0x6021ac8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::Clone)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6021ac4;
+  constexpr static std::size_t addrs = 0x6021d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "Clone", {}, {} })));
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_CurrencyDecimalDigits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021b30;
+  constexpr static std::size_t addrs = 0x6021db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_CurrencyDecimalDigits", {}, {} })));
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_CurrencyDecimalSeparator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021b38;
+  constexpr static std::size_t addrs = 0x6021dc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_CurrencyDecimalSeparator", {}, {} })));
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021b40;
+  constexpr static std::size_t addrs = 0x6021dc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_IsReadOnly", {}, {} })));
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_CurrencyGroupSizes)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6021b48;
+  constexpr static std::size_t addrs = 0x6021dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_CurrencyGroupSizes", {}, {} })));
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_NumberGroupSizes)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6021bc0;
+  constexpr static std::size_t addrs = 0x6021e48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_NumberGroupSizes", {}, {} })));
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<int32_t> (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_PercentGroupSizes)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6021c38;
+  constexpr static std::size_t addrs = 0x6021ec0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_PercentGroupSizes", {}, {} })));
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_CurrencyGroupSeparator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021cb0;
+  constexpr static std::size_t addrs = 0x6021f38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_CurrencyGroupSeparator", {}, {} })));
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_CurrencySymbol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021cb8;
+  constexpr static std::size_t addrs = 0x6021f40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_CurrencySymbol", {}, {} })));
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::NumberFormatInfo* (*)()>(&::System::Globalization::NumberFormatInfo::get_CurrentInfo)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x60219e4;
+  constexpr static std::size_t addrs = 0x6021c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_CurrentInfo", {}, {} })));
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_NaNSymbol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021cc0;
+  constexpr static std::size_t addrs = 0x6021f48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_NaNSymbol", {}, {} })));
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::NumberFormatInfo::*)(::StringW)>(&::System::Globalization::NumberFormatInfo::set_NaNSymbol)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6021cc8;
+  constexpr static std::size_t addrs = 0x6021f50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_CurrencyNegativePattern)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021d4c;
+  constexpr static std::size_t addrs = 0x6021fd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_CurrencyNegativePattern", {}, {} })));
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_NumberNegativePattern)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021d54;
+  constexpr static std::size_t addrs = 0x6021fdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_NumberNegativePattern", {}, {} })));
@@ -302,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_PercentPositivePattern)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021d5c;
+  constexpr static std::size_t addrs = 0x6021fe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_PercentPositivePattern", {}, {} })));
@@ -314,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_PercentNegativePattern)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021d64;
+  constexpr static std::size_t addrs = 0x6021fec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_PercentNegativePattern", {}, {} })));
@@ -326,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_NegativeInfinitySymbol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021d6c;
+  constexpr static std::size_t addrs = 0x6021ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_NegativeInfinitySymbol", {}, {} })));
@@ -338,7 +338,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_NegativeSign)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021d74;
+  constexpr static std::size_t addrs = 0x6021ffc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_NegativeSign", {}, {} })));
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_NumberDecimalDigits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021d7c;
+  constexpr static std::size_t addrs = 0x6022004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_NumberDecimalDigits", {}, {} })));
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_NumberDecimalSeparator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021d84;
+  constexpr static std::size_t addrs = 0x602200c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_NumberDecimalSeparator", {}, {} })));
@@ -374,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_NumberGroupSeparator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021d8c;
+  constexpr static std::size_t addrs = 0x6022014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_NumberGroupSeparator", {}, {} })));
@@ -386,7 +386,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Globalization::NumberFormatInfo::*)(::StringW)>(&::System::Globalization::NumberFormatInfo::set_NumberGroupSeparator)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6021d94;
+  constexpr static std::size_t addrs = 0x602201c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -399,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_CurrencyPositivePattern)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021dfc;
+  constexpr static std::size_t addrs = 0x6022084;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_CurrencyPositivePattern", {}, {} })));
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_PositiveInfinitySymbol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021e04;
+  constexpr static std::size_t addrs = 0x602208c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_PositiveInfinitySymbol", {}, {} })));
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_PositiveSign)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021e0c;
+  constexpr static std::size_t addrs = 0x6022094;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_PositiveSign", {}, {} })));
@@ -435,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_PercentDecimalDigits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021e14;
+  constexpr static std::size_t addrs = 0x602209c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_PercentDecimalDigits", {}, {} })));
@@ -447,7 +447,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_PercentDecimalSeparator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021e1c;
+  constexpr static std::size_t addrs = 0x60220a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_PercentDecimalSeparator", {}, {} })));
@@ -459,7 +459,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_PercentGroupSeparator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021e24;
+  constexpr static std::size_t addrs = 0x60220ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_PercentGroupSeparator", {}, {} })));
@@ -471,7 +471,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_PercentSymbol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021e2c;
+  constexpr static std::size_t addrs = 0x60220b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_PercentSymbol", {}, {} })));
@@ -483,7 +483,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_PerMilleSymbol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6021e34;
+  constexpr static std::size_t addrs = 0x60220bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(), { "get_PerMilleSymbol", {}, {} })));
@@ -495,7 +495,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Globalization::NumberFormatInfo::*)(::System::Type*)>(&::System::Globalization::NumberFormatInfo::GetFormat)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6021e3c;
+  constexpr static std::size_t addrs = 0x60220c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -509,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Globalization::NumberFormatInfo* (*)(::System::Globalization::NumberFormatInfo*)>(
     &::System::Globalization::NumberFormatInfo::ReadOnly)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x6021770;
+  constexpr static std::size_t addrs = 0x60219f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -522,7 +522,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Globalization::NumberStyles)>(&::System::Globalization::NumberFormatInfo::ValidateParseStyleInteger)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6021eb8;
+  constexpr static std::size_t addrs = 0x6022140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(),
@@ -535,7 +535,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Globalization::NumberStyles)>(&::System::Globalization::NumberFormatInfo::ValidateParseStyleFloatingPoint)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6021f74;
+  constexpr static std::size_t addrs = 0x60221fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Globalization::NumberFormatInfo*>(),

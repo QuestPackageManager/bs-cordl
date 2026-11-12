@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::*)(int32_t)>(
     &::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0e53c;
+  constexpr static std::size_t addrs = 0x5e0e96c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e0e838;
+  constexpr static std::size_t addrs = 0x5e0ec68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x4f8;
-  constexpr static std::size_t addrs = 0x5e0e83c;
+  constexpr static std::size_t addrs = 0x5e0ec6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0ed34;
+  constexpr static std::size_t addrs = 0x5e0f164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*>(),
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e0ed3c;
+  constexpr static std::size_t addrs = 0x5e0f16c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0ed74;
+  constexpr static std::size_t addrs = 0x5e0f1a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*>(),
@@ -254,7 +254,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>*)>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::add_allResultsCollectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e0de44;
+  constexpr static std::size_t addrs = 0x5e0e274;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -274,7 +274,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>*)>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::remove_allResultsCollectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5e0df04;
+  constexpr static std::size_t addrs = 0x5e0e334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::get_gameResultsReady)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0dfc4;
+  constexpr static std::size_t addrs = 0x5e0e3f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* (
     ::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(&::GlobalNamespace::MultiplayerLevelFinishedController::get_otherPlayersCompletionResults)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0dfcc;
+  constexpr static std::size_t addrs = 0x5e0e3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerLevelCompletionResults* (::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::get_localPlayerResults)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0dfd4;
+  constexpr static std::size_t addrs = 0x5e0e404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -334,7 +334,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(&::GlobalNamespace::MultiplayerLevelFinishedController::Start)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x5e0dfdc;
+  constexpr static std::size_t addrs = 0x5e0e40c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLevelFinishedController*>(), { "Start", {}, {} })));
@@ -346,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(&::GlobalNamespace::MultiplayerLevelFinishedController::OnDestroy)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x5e0e264;
+  constexpr static std::size_t addrs = 0x5e0e694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLevelFinishedController*>(), { "OnDestroy", {}, {} })));
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::MultiplayerLevelFinishedController::*)(::GlobalNamespace::MultiplayerLevelCompletionResults*)>(&::GlobalNamespace::MultiplayerLevelFinishedController::StartLevelFinished)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5e0e4dc;
+  constexpr static std::size_t addrs = 0x5e0e90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLevelFinishedController*>(),
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)(::GlobalNamespace::MultiplayerLevelCompletionResults*)>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::HandlePlayerDidFinish)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x5e0e544;
+  constexpr static std::size_t addrs = 0x5e0e974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)(::GlobalNamespace::MultiplayerLevelCompletionResults*)>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::HandlePlayerNetworkDidFailed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5e0e564;
+  constexpr static std::size_t addrs = 0x5e0e994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)(::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*)>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::HandleRpcLevelFinished)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x5e0e59c;
+  constexpr static std::size_t addrs = 0x5e0e9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -417,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(&::GlobalNamespace::MultiplayerLevelFinishedController::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5e0e79c;
+  constexpr static std::size_t addrs = 0x5e0ebcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLevelFinishedController*>(), { ".ctor", {}, {} })));

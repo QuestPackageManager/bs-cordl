@@ -84,37 +84,37 @@ public:
 
   static inline ::Meta::XR::ImmersiveDebugger::Gizmo::GizmoTypesRegistry___c* New_ctor();
 
-  /// @brief Method <InitGizmos>b__3_0, addr 0x5ec4cc8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <InitGizmos>b__3_0, addr 0x5ec4f48, size 0xa8, virtual false, abstract: false, final false
   inline void _InitGizmos_b__3_0(::System::Object* dataSource);
 
-  /// @brief Method <InitGizmos>b__3_1, addr 0x5ec4d70, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <InitGizmos>b__3_1, addr 0x5ec4ff0, size 0xb4, virtual false, abstract: false, final false
   inline void _InitGizmos_b__3_1(::System::Object* dataSource);
 
-  /// @brief Method <InitGizmos>b__3_2, addr 0x5ec4e24, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <InitGizmos>b__3_2, addr 0x5ec50a4, size 0xbc, virtual false, abstract: false, final false
   inline void _InitGizmos_b__3_2(::System::Object* dataSource);
 
-  /// @brief Method <InitGizmos>b__3_3, addr 0x5ec4ee0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method <InitGizmos>b__3_3, addr 0x5ec5160, size 0xe8, virtual false, abstract: false, final false
   inline void _InitGizmos_b__3_3(::System::Object* dataSource);
 
-  /// @brief Method <InitGizmos>b__3_4, addr 0x5ec4fc8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method <InitGizmos>b__3_4, addr 0x5ec5248, size 0x11c, virtual false, abstract: false, final false
   inline void _InitGizmos_b__3_4(::System::Object* dataSource);
 
-  /// @brief Method <InitGizmos>b__3_5, addr 0x5ec50e4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method <InitGizmos>b__3_5, addr 0x5ec5364, size 0x118, virtual false, abstract: false, final false
   inline void _InitGizmos_b__3_5(::System::Object* dataSource);
 
-  /// @brief Method <InitGizmos>b__3_6, addr 0x5ec51fc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method <InitGizmos>b__3_6, addr 0x5ec547c, size 0x10c, virtual false, abstract: false, final false
   inline void _InitGizmos_b__3_6(::System::Object* dataSource);
 
-  /// @brief Method <InitGizmos>b__3_7, addr 0x5ec5308, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method <InitGizmos>b__3_7, addr 0x5ec5588, size 0x104, virtual false, abstract: false, final false
   inline void _InitGizmos_b__3_7(::System::Object* dataSource);
 
-  /// @brief Method <InitGizmos>b__3_8, addr 0x5ec540c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method <InitGizmos>b__3_8, addr 0x5ec568c, size 0x134, virtual false, abstract: false, final false
   inline void _InitGizmos_b__3_8(::System::Object* dataSource);
 
-  /// @brief Method <InitGizmos>b__3_9, addr 0x5ec5540, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method <InitGizmos>b__3_9, addr 0x5ec57c0, size 0x134, virtual false, abstract: false, final false
   inline void _InitGizmos_b__3_9(::System::Object* dataSource);
 
-  /// @brief Method .ctor, addr 0x5ec4cc4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ec4f44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Meta::XR::ImmersiveDebugger::Gizmo::GizmoTypesRegistry___c* getStaticF___9();
@@ -176,7 +176,7 @@ public:
   GizmoTypesRegistry___c(GizmoTypesRegistry___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19055 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -199,19 +199,19 @@ public:
                                                                                                      ::Meta::XR::ImmersiveDebugger::Gizmo::GizmoTypeInfo>* GizmoTypeInfos;
 
   /// [RuntimeInitializeOnLoadMethod((UnityEngine.RuntimeInitializeLoadType)4)]
-  /// @brief Method Init, addr 0x5ec4164, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5ec43e4, size 0x88, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method InitGizmos, addr 0x5ec42b0, size 0x90c, virtual false, abstract: false, final false
+  /// @brief Method InitGizmos, addr 0x5ec4530, size 0x90c, virtual false, abstract: false, final false
   static inline void InitGizmos();
 
-  /// @brief Method IsValidDataTypeForGizmoType, addr 0x5eb7f74, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method IsValidDataTypeForGizmoType, addr 0x5eb81f4, size 0x178, virtual false, abstract: false, final false
   static inline bool IsValidDataTypeForGizmoType(::System::Type* type, ::Meta::XR::ImmersiveDebugger::DebugGizmoType gizmoType);
 
-  /// @brief Method RegisterGizmoType, addr 0x5ec41ec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RegisterGizmoType, addr 0x5ec446c, size 0xc4, virtual false, abstract: false, final false
   static inline void RegisterGizmoType(::Meta::XR::ImmersiveDebugger::DebugGizmoType gizmoType, ::System::Type* dataSourceType, ::System::Action_1<::System::Object*>* renderDelegate);
 
-  /// @brief Method RenderGizmo, addr 0x5ec3bac, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method RenderGizmo, addr 0x5ec3e2c, size 0xf8, virtual false, abstract: false, final false
   static inline void RenderGizmo(::Meta::XR::ImmersiveDebugger::DebugGizmoType type, ::System::Object* dataSource);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::Meta::XR::ImmersiveDebugger::DebugGizmoType, ::System::Type*>,
@@ -236,7 +236,7 @@ public:
   GizmoTypesRegistry(GizmoTypesRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19056 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

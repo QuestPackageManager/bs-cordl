@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::*)(::StringW)>(
     &::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6544f2c;
+  constexpr static std::size_t addrs = 0x654557c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::*)()>(
     &::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6544f30;
+  constexpr static std::size_t addrs = 0x6545580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>(), { ".ctor", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::Net::Http::Headers::Lexer*, ::by_ref<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>,
                                                                 ::by_ref<::System::Net::Http::Headers::Token>)>(&::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::TryParseElement)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x6544f34;
+  constexpr static std::size_t addrs = 0x6545584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, int32_t, ::by_ref<::System::Collections::Generic::List_1<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>*>)>(
     &::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x65450ac;
+  constexpr static std::size_t addrs = 0x65456fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

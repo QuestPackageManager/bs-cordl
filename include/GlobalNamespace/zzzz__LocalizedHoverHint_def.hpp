@@ -28,13 +28,13 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LocalizedHoverHint* New_ctor();
 
-  /// @brief Method SetText, addr 0x5e6945c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method SetText, addr 0x5e69374, size 0x14, virtual true, abstract: false, final false
   inline void SetText(::HMUI::HoverHint* hoverHint, ::StringW value);
 
-  /// @brief Method UpdateAlignment, addr 0x5e69470, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateAlignment, addr 0x5e69388, size 0x4, virtual true, abstract: false, final false
   inline void UpdateAlignment(::HMUI::HoverHint* hoverHint, ::BGLib::Polyglot::LanguageDirection direction);
 
-  /// @brief Method .ctor, addr 0x5e69474, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e6938c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

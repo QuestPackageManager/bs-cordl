@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::*)(::System::Action_2<int32_t, ::UnityEngine::Color>*)>(
     &::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::add_didSetColorEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5cbaf88;
+  constexpr static std::size_t addrs = 0x5cb97c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::*)(::System::Action_2<int32_t, ::UnityEngine::Color>*)>(
     &::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::remove_didSetColorEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5cbb048;
+  constexpr static std::size_t addrs = 0x5cb9880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::*)(int32_t, int32_t)>(
     &::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5cbb178;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5cb99b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId::ColorWasSet)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5cbb18c;
+  constexpr static std::size_t addrs = 0x5cb99d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>(),
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)()>(&::GlobalNamespace::ColorArrayLightWithIds::OnEnable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5cbaaf4;
+  constexpr static std::size_t addrs = 0x5cb932c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)()>(&::GlobalNamespace::ColorArrayLightWithIds::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cbacf0;
+  constexpr static std::size_t addrs = 0x5cb9528;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorArrayLightWithIds*>(), { "OnDestroy", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)()>(&::GlobalNamespace::ColorArrayLightWithIds::ProcessNewColorData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5cbadc8;
+  constexpr static std::size_t addrs = 0x5cb9600;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* (::GlobalNamespace::ColorArrayLightWithIds::*)()>(
     &::GlobalNamespace::ColorArrayLightWithIds::GetLightWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5cbadfc;
+  constexpr static std::size_t addrs = 0x5cb9634;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)(int32_t, ::UnityEngine::Color)>(
     &::GlobalNamespace::ColorArrayLightWithIds::HandleColorLightWithIdDidSetColor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5cbae04;
+  constexpr static std::size_t addrs = 0x5cb963c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)()>(&::GlobalNamespace::ColorArrayLightWithIds::SetColorDataToMaterial)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5cbadcc;
+  constexpr static std::size_t addrs = 0x5cb9604;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorArrayLightWithIds*>(), { "SetColorDataToMaterial", {}, {} })));
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)()>(
     &::GlobalNamespace::ColorArrayLightWithIds::SetColorArrayOffsetToMaterialPropertyBlocks)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5cbaed8;
+  constexpr static std::size_t addrs = 0x5cb9710;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)()>(&::GlobalNamespace::ColorArrayLightWithIds::RegisterArrayForColorChanges)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x5cbab10;
+  constexpr static std::size_t addrs = 0x5cb9348;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorArrayLightWithIds*>(), { "RegisterArrayForColorChanges", {}, {} })));
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)()>(&::GlobalNamespace::ColorArrayLightWithIds::UnregisterArrayFromColorChanges)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x5cbacf4;
+  constexpr static std::size_t addrs = 0x5cb952c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ColorArrayLightWithIds::*)()>(&::GlobalNamespace::ColorArrayLightWithIds::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5cbb108;
+  constexpr static std::size_t addrs = 0x5cb9940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ColorArrayLightWithIds*>(), { ".ctor", {}, {} })));

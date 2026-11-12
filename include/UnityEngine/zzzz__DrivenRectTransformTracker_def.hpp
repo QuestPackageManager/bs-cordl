@@ -29,10 +29,10 @@ namespace UnityEngine {
 struct CORDL_TYPE DrivenRectTransformTracker {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x6f8be24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6f8cf04, size 0x4, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::Object* driver, ::UnityEngine::RectTransform* rectTransform, ::UnityEngine::DrivenTransformProperties drivenProperties);
 
-  /// @brief Method Clear, addr 0x6f8be28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6f8cf08, size 0x4, virtual false, abstract: false, final false
   inline void Clear();
 
   // Ctor Parameters []

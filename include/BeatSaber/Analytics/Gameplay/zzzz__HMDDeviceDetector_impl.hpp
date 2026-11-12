@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BeatSaber::Analytics::Gameplay::HMDDeviceDetector::GetOSVersion)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x35019a0;
+  constexpr static std::size_t addrs = 0x3503de0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::HMDDeviceDetector*>(), { "GetOSVersion", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BeatSaber::Analytics::Gameplay::HMDDeviceDetector::GetOSBuildNumber)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3501fd0;
+  constexpr static std::size_t addrs = 0x3504410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::HMDDeviceDetector*>(), { "GetOSBuildNumber", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::BeatSaber::Analytics::Gameplay::HMDDeviceDetector::EnsureOSBuildInfoCached)> {
   constexpr static std::size_t size = 0x5e0;
-  constexpr static std::size_t addrs = 0x35019f0;
+  constexpr static std::size_t addrs = 0x3503e30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BeatSaber::Analytics::Gameplay::HMDDeviceDetector::DetectHMDPlatform)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3501880;
+  constexpr static std::size_t addrs = 0x3503cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::Analytics::Gameplay::HMDDeviceDetector*>(), { "DetectHMDPlatform", {}, {} })));

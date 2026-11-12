@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParametricBoxFakeGlowController::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::ParametricBoxFakeGlowController::set_localPosition)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x5cb4ce4;
+  constexpr static std::size_t addrs = 0x5cb351c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParametricBoxFakeGlowController::*)()>(&::GlobalNamespace::ParametricBoxFakeGlowController::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cb4d2c;
+  constexpr static std::size_t addrs = 0x5cb3564;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParametricBoxFakeGlowController*>(), { "Awake", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParametricBoxFakeGlowController::*)()>(&::GlobalNamespace::ParametricBoxFakeGlowController::OnEnable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5cb4d48;
+  constexpr static std::size_t addrs = 0x5cb3580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParametricBoxFakeGlowController*>(), { "OnEnable", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParametricBoxFakeGlowController::*)()>(&::GlobalNamespace::ParametricBoxFakeGlowController::OnDisable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5cb4e9c;
+  constexpr static std::size_t addrs = 0x5cb36d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParametricBoxFakeGlowController*>(), { "OnDisable", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParametricBoxFakeGlowController::*)()>(&::GlobalNamespace::ParametricBoxFakeGlowController::Refresh)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x5cb4d70;
+  constexpr static std::size_t addrs = 0x5cb35a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParametricBoxFakeGlowController*>(), { "Refresh", {}, {} })));
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ParametricBoxFakeGlowController::*)()>(&::GlobalNamespace::ParametricBoxFakeGlowController::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5cb4eb8;
+  constexpr static std::size_t addrs = 0x5cb36f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ParametricBoxFakeGlowController*>(), { ".ctor", {}, {} })));

@@ -25,15 +25,15 @@ namespace Org::BouncyCastle::Asn1::Cmp {
 class CORDL_TYPE PkiConfirmContent : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Method GetInstance, addr 0x35f8304, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x35fc79c, size 0x148, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent* New_ctor();
 
-  /// @brief Method ToAsn1Object, addr 0x35f8978, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x35fce10, size 0x5c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method .ctor, addr 0x35f8974, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35fce0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

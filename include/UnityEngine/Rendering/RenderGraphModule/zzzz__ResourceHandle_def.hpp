@@ -50,56 +50,56 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>*();
 
-  /// @brief Method Equals, addr 0x6c51d44, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6c52e24, size 0x94, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle hdl);
 
-  /// @brief Method Equals, addr 0x6c51f58, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6c53038, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x6c50a64, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6c51b44, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsNull, addr 0x6c51cd4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x6c52db4, size 0x60, virtual false, abstract: false, final false
   inline bool IsNull();
 
-  /// @brief Method IsValid, addr 0x6c51c30, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6c52d10, size 0xa4, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method NewFrame, addr 0x6c4b6e4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method NewFrame, addr 0x6c4c7c4, size 0xc4, virtual false, abstract: false, final false
   static inline void NewFrame(int32_t executionIndex);
 
-  /// @brief Method .ctor, addr 0x6c4bdb4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4ce94, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h, int32_t version);
 
-  /// @brief Method .ctor, addr 0x6c49724, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c4a804, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(int32_t value, ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType type, bool shared);
 
   static inline uint32_t getStaticF_s_CurrentValidBit();
 
   static inline uint32_t getStaticF_s_SharedResourceValidBit();
 
-  /// @brief Method get_IsVersioned, addr 0x6c51d34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsVersioned, addr 0x6c52e14, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsVersioned();
 
-  /// @brief Method get_iType, addr 0x6c51bc8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_iType, addr 0x6c52ca8, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_iType();
 
-  /// @brief Method get_index, addr 0x6c51bc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x6c52ca0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_index();
 
-  /// @brief Method get_type, addr 0x6c51c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6c52d08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourceType get_type();
 
-  /// @brief Method get_version, addr 0x6c51c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x6c52d00, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_version();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>* i___System__IEquatable_1___UnityEngine__Rendering__RenderGraphModule__ResourceHandle_();
 
-  /// @brief Method op_Equality, addr 0x6c51dd8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6c52eb8, size 0xc0, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle lhs, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle rhs);
 
-  /// @brief Method op_Inequality, addr 0x6c51e98, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6c52f78, size 0xc0, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Rendering::RenderGraphModule::ResourceHandle lhs, ::UnityEngine::Rendering::RenderGraphModule::ResourceHandle rhs);
 
   static inline void setStaticF_s_CurrentValidBit(uint32_t value);

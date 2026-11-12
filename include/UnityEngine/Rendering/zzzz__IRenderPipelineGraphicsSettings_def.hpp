@@ -23,7 +23,7 @@ public:
 
   __declspec(property(get = get_version)) int32_t version;
 
-  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6fa3a14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_isAvailableInPlayerBuild, addr 0x6fa4af4, size 0x8, virtual true, abstract: false, final false
   inline bool get_isAvailableInPlayerBuild();
 
   /// @brief Method get_version, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

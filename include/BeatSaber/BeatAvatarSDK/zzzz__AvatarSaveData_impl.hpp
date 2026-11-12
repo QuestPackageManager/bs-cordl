@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "BeatSaber/BeatAvatarSDK/AvatarSaveData.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__AvatarOrigin_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarSaveData_def.hpp"
@@ -8,13 +9,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::BeatAvatarSDK::AvatarSaveData::*)()>(&::BeatSaber::BeatAvatarSDK::AvatarSaveData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x352300c;
+  constexpr static std::size_t addrs = 0x3525664;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::BeatAvatarSDK::AvatarSaveData*>(), { ".ctor", {}, {} })));
     return ___internal_method;
   }
 };
+constexpr ::BeatSaber::BeatAvatarSDK::AvatarOrigin& BeatSaber::BeatAvatarSDK::AvatarSaveData::__cordl_internal_get_origin() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___origin;
+}
+constexpr ::BeatSaber::BeatAvatarSDK::AvatarOrigin const& BeatSaber::BeatAvatarSDK::AvatarSaveData::__cordl_internal_get_origin() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___origin;
+}
+constexpr void BeatSaber::BeatAvatarSDK::AvatarSaveData::__cordl_internal_set_origin(::BeatSaber::BeatAvatarSDK::AvatarOrigin value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___origin = value;
+}
 constexpr ::StringW& BeatSaber::BeatAvatarSDK::AvatarSaveData::__cordl_internal_get_headTopId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headTopId;

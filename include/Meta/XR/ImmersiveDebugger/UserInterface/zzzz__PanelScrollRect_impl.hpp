@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect::OnScroll)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5eab108;
+  constexpr static std::size_t addrs = 0x5eab388;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect::OnInitializePotentialDrag)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5eab194;
+  constexpr static std::size_t addrs = 0x5eab414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect::OnBeginDrag)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5eab220;
+  constexpr static std::size_t addrs = 0x5eab4a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect::OnEndDrag)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x5eab2ac;
+  constexpr static std::size_t addrs = 0x5eab52c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect::OnDrag)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5eab330;
+  constexpr static std::size_t addrs = 0x5eab5b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect*>(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect::*)()>(
     &::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5eab3bc;
+  constexpr static std::size_t addrs = 0x5eab63c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Meta::XR::ImmersiveDebugger::UserInterface::PanelScrollRect*>(), { ".ctor", {}, {} })));

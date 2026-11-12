@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Linq::
                                                                                                                                           ::System::Linq::Expressions::Interpreter::DebugInfo*)>(
     &::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::System_Collections_Generic_IComparer_System_Linq_Expressions_Interpreter_DebugInfo__Compare)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x63fa0d0;
+  constexpr static std::size_t addrs = 0x63fa720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::*)()>(
     &::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63fa0cc;
+  constexpr static std::size_t addrs = 0x63fa71c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Linq::Expressions::Interpreter::DebugInfo* (*)(::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*>, int32_t)>(
     &::System::Linq::Expressions::Interpreter::DebugInfo::GetMatchingDebugInfo)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x63f6804;
+  constexpr static std::size_t addrs = 0x63f6e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::DebugInfo::*)()>(&::System::Linq::Expressions::Interpreter::DebugInfo::ToString)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x63f9e04;
+  constexpr static std::size_t addrs = 0x63fa454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::DebugInfo*>(),
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Linq::Expressions::Interpreter::DebugInfo::*)()>(&::System::Linq::Expressions::Interpreter::DebugInfo::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x63f9e00;
+  constexpr static std::size_t addrs = 0x63fa450;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Expressions::Interpreter::DebugInfo*>(), { ".ctor", {}, {} })));

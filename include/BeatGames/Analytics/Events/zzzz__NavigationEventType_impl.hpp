@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::NavigationEventType::*)(::StringW)>(&::BeatGames::Analytics::Events::NavigationEventType::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34f6248;
+  constexpr static std::size_t addrs = 0x34f8530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatGames::Analytics::Events::NavigationEventType::*)()>(&::BeatGames::Analytics::Events::NavigationEventType::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34f6250;
+  constexpr static std::size_t addrs = 0x34f8538;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::NavigationEventType*>(), { "get_Value", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatGames::Analytics::Events::NavigationEventType::*)(::StringW)>(&::BeatGames::Analytics::Events::NavigationEventType::set_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34f6258;
+  constexpr static std::size_t addrs = 0x34f8540;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatGames::Analytics::Events::NavigationEventType* (*)()>(&::BeatGames::Analytics::Events::NavigationEventType::get_Impression)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x34f569c;
+  constexpr static std::size_t addrs = 0x34f7984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::NavigationEventType*>(), { "get_Impression", {}, {} })));
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatGames::Analytics::Events::NavigationEventType* (*)()>(&::BeatGames::Analytics::Events::NavigationEventType::get_Click)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x34f5804;
+  constexpr static std::size_t addrs = 0x34f7aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::NavigationEventType*>(), { "get_Click", {}, {} })));
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatGames::Analytics::Events::NavigationEventType* (*)()>(&::BeatGames::Analytics::Events::NavigationEventType::get_Drag)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x34f6260;
+  constexpr static std::size_t addrs = 0x34f8548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::NavigationEventType*>(), { "get_Drag", {}, {} })));
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BeatGames::Analytics::Events::NavigationEventType* (*)()>(&::BeatGames::Analytics::Events::NavigationEventType::get_CancelDrag)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x34f62c8;
+  constexpr static std::size_t addrs = 0x34f85b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::NavigationEventType*>(), { "get_CancelDrag", {}, {} })));
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::BeatGames::Analytics::Events::NavigationEventType::*)()>(&::BeatGames::Analytics::Events::NavigationEventType::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34f6330;
+  constexpr static std::size_t addrs = 0x34f8618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::BeatGames::Analytics::Events::NavigationEventType*>(),

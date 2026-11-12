@@ -27,11 +27,11 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x6eee62c, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6eef70c, size 0x44, virtual true, abstract: false, final true
   inline void Execute();
 
   /// [RequiredByNativeCode]
-  /// @brief Method RegisterNativeArrayDisposeJobReflectionData, addr 0x6eee670, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RegisterNativeArrayDisposeJobReflectionData, addr 0x6eef750, size 0x44, virtual false, abstract: false, final false
   static inline void RegisterNativeArrayDisposeJobReflectionData();
 
   /// @brief Convert to "::Unity::Jobs::IJob"

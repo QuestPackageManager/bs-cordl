@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CustomNetworkConfig::*)()>(&::GlobalNamespace::CustomNetworkConfig::get_maxPartySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35513b0;
+  constexpr static std::size_t addrs = 0x355442c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomNetworkConfig*>(), { "get_maxPartySize", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CustomNetworkConfig::*)()>(&::GlobalNamespace::CustomNetworkConfig::get_discoveryPort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35513b8;
+  constexpr static std::size_t addrs = 0x3554434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomNetworkConfig*>(), { "get_discoveryPort", {}, {} })));
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CustomNetworkConfig::*)()>(&::GlobalNamespace::CustomNetworkConfig::get_partyPort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35513c0;
+  constexpr static std::size_t addrs = 0x355443c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomNetworkConfig*>(), { "get_partyPort", {}, {} })));
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CustomNetworkConfig::*)()>(&::GlobalNamespace::CustomNetworkConfig::get_multiplayerPort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35513c8;
+  constexpr static std::size_t addrs = 0x3554444;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomNetworkConfig*>(), { "get_multiplayerPort", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CustomNetworkConfig::*)()>(&::GlobalNamespace::CustomNetworkConfig::get_masterServerPort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35513d0;
+  constexpr static std::size_t addrs = 0x355444c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomNetworkConfig*>(), { "get_masterServerPort", {}, {} })));
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::CustomNetworkConfig::*)()>(&::GlobalNamespace::CustomNetworkConfig::get_quickPlaySetupUrl)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x35513d8;
+  constexpr static std::size_t addrs = 0x3554454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomNetworkConfig*>(), { "get_quickPlaySetupUrl", {}, {} })));
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::CustomNetworkConfig::*)()>(&::GlobalNamespace::CustomNetworkConfig::get_graphApiBaseUrl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35513ec;
+  constexpr static std::size_t addrs = 0x3554468;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomNetworkConfig*>(), { "get_graphApiBaseUrl", {}, {} })));
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::CustomNetworkConfig::*)()>(&::GlobalNamespace::CustomNetworkConfig::get_graphQLUrl)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x35513f4;
+  constexpr static std::size_t addrs = 0x3554470;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomNetworkConfig*>(), { "get_graphQLUrl", {}, {} })));
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::CustomNetworkConfig::*)()>(&::GlobalNamespace::CustomNetworkConfig::get_remoteAssetsBaseUrl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3551444;
+  constexpr static std::size_t addrs = 0x35544c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomNetworkConfig*>(), { "get_remoteAssetsBaseUrl", {}, {} })));
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CustomNetworkConfig::*)()>(&::GlobalNamespace::CustomNetworkConfig::get_isDevServer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x355144c;
+  constexpr static std::size_t addrs = 0x35544c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomNetworkConfig*>(), { "get_isDevServer", {}, {} })));
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::CustomNetworkConfig::*)()>(&::GlobalNamespace::CustomNetworkConfig::get_graphAccessToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3551454;
+  constexpr static std::size_t addrs = 0x35544d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomNetworkConfig*>(), { "get_graphAccessToken", {}, {} })));
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (::GlobalNamespace::CustomNetworkConfig::*)()>(&::GlobalNamespace::CustomNetworkConfig::get_graphAppId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x355145c;
+  constexpr static std::size_t addrs = 0x35544d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomNetworkConfig*>(), { "get_graphAppId", {}, {} })));
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ServiceEnvironment (::GlobalNamespace::CustomNetworkConfig::*)()>(
     &::GlobalNamespace::CustomNetworkConfig::get_serviceEnvironment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3551464;
+  constexpr static std::size_t addrs = 0x35544e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomNetworkConfig*>(), { "get_serviceEnvironment", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::CustomNetworkConfig::*)()>(&::GlobalNamespace::CustomNetworkConfig::get_customLocation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x355146c;
+  constexpr static std::size_t addrs = 0x35544e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomNetworkConfig*>(), { "get_customLocation", {}, {} })));
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::CustomNetworkConfig::*)()>(&::GlobalNamespace::CustomNetworkConfig::get_useLocalServer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3551474;
+  constexpr static std::size_t addrs = 0x35544f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomNetworkConfig*>(), { "get_useLocalServer", {}, {} })));
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::CustomNetworkConfig::*)()>(&::GlobalNamespace::CustomNetworkConfig::get_localServerPort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x355147c;
+  constexpr static std::size_t addrs = 0x35544f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CustomNetworkConfig*>(), { "get_localServerPort", {}, {} })));
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CustomNetworkConfig::*)(::GlobalNamespace::INetworkConfig*, ::StringW, int32_t)>(
     &::GlobalNamespace::CustomNetworkConfig::_ctor)> {
   constexpr static std::size_t size = 0x5a0;
-  constexpr static std::size_t addrs = 0x3551484;
+  constexpr static std::size_t addrs = 0x3554500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

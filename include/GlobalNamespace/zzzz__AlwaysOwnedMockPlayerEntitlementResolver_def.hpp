@@ -35,12 +35,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMockPlayerEntitlementResolver"
   constexpr operator ::GlobalNamespace::IMockPlayerEntitlementResolver*() noexcept;
 
-  /// @brief Method GetLevelEntitlementStatusAsync, addr 0x5ed6a60, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetLevelEntitlementStatusAsync, addr 0x5ed6ce0, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* GetLevelEntitlementStatusAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::AlwaysOwnedMockPlayerEntitlementResolver* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5ed6ad0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ed6d50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IMockPlayerEntitlementResolver"
@@ -61,7 +61,7 @@ public:
   AlwaysOwnedMockPlayerEntitlementResolver(AlwaysOwnedMockPlayerEntitlementResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23091 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

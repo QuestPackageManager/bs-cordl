@@ -44,28 +44,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT>*();
 
-  /// @brief Method Equals, addr 0x6e810b8, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6e82198, size 0xac, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6e8106c, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6e8214c, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT other);
 
-  /// @brief Method GetHashCode, addr 0x6e81164, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6e82244, size 0x90, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6e81060, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e82140, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityEXT capability, uint32_t markerId, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT data);
 
   /// [CompilerGenerated]
-  /// @brief Method get_capability, addr 0x6e81044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_capability, addr 0x6e82124, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityEXT get_capability();
 
   /// [CompilerGenerated]
-  /// @brief Method get_data, addr 0x6e81054, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x6e82134, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT get_data();
 
   /// [CompilerGenerated]
-  /// @brief Method get_markerId, addr 0x6e8104c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_markerId, addr 0x6e8212c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_markerId();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerDataEXT>"
@@ -82,7 +82,7 @@ public:
                                    ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialBufferEXT _data_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17613 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

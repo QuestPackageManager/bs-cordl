@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::BeatmapLoadProfiler::BeginLoad)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c9f598;
+  constexpr static std::size_t addrs = 0x5c9dcd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::BeatmapLoadProfiler::MarkStage)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c9f59c;
+  constexpr static std::size_t addrs = 0x5c9dcd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool, bool)>(&::GlobalNamespace::BeatmapLoadProfiler::MarkCacheOutcome)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c9f5a0;
+  constexpr static std::size_t addrs = 0x5c9dcd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::GlobalNamespace::BeatmapLoadProfiler::EndLoadAndLog)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5c9f5a4;
+  constexpr static std::size_t addrs = 0x5c9dcdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BeatmapLoadProfiler*>(), { "EndLoadAndLog", {}, {} })));

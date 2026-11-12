@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint64_t)>(&::BeatSaber::Analytics::Gameplay::Events::SpaceshipGlobalFields::SetGlobalAppID)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x35025d0;
+  constexpr static std::size_t addrs = 0x3504a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BeatSaber::Analytics::Gameplay::Events::SpaceshipGlobalFields::get_buildVersion)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x35022e4;
+  constexpr static std::size_t addrs = 0x3504724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint64_t (*)()>(&::BeatSaber::Analytics::Gameplay::Events::SpaceshipGlobalFields::get_appId)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3502620;
+  constexpr static std::size_t addrs = 0x3504a60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)()>(&::BeatSaber::Analytics::Gameplay::Events::SpaceshipGlobalFields::get_userType)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x350266c;
+  constexpr static std::size_t addrs = 0x3504aac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

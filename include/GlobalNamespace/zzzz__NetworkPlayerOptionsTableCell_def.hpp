@@ -42,27 +42,27 @@ public:
 
   __declspec(property(get = get_player, put = set_player)) ::GlobalNamespace::INetworkPlayer* player;
 
-  /// @brief Method Block, addr 0x5e6c010, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x5e6bf28, size 0xb0, virtual false, abstract: false, final false
   inline void Block();
 
-  /// @brief Method Invite, addr 0x5e6c220, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Invite, addr 0x5e6c138, size 0xb0, virtual false, abstract: false, final false
   inline void Invite();
 
-  /// @brief Method Join, addr 0x5e6c170, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x5e6c088, size 0xb0, virtual false, abstract: false, final false
   inline void Join();
 
-  /// @brief Method Kick, addr 0x5e6c2d0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Kick, addr 0x5e6c1e8, size 0xb0, virtual false, abstract: false, final false
   inline void Kick();
 
-  /// @brief Method Leave, addr 0x5e6c380, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Leave, addr 0x5e6c298, size 0xb0, virtual false, abstract: false, final false
   inline void Leave();
 
   static inline ::GlobalNamespace::NetworkPlayerOptionsTableCell* New_ctor();
 
-  /// @brief Method Refresh, addr 0x5e6b33c, size 0xcd4, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x5e6b254, size 0xcd4, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Unblock, addr 0x5e6c0c0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Unblock, addr 0x5e6bfd8, size 0xb0, virtual false, abstract: false, final false
   inline void Unblock();
 
   constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
@@ -89,13 +89,13 @@ public:
 
   constexpr void __cordl_internal_set__player(::GlobalNamespace::INetworkPlayer* value);
 
-  /// @brief Method .ctor, addr 0x5e6c430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e6c348, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_player, addr 0x5e6b32c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_player, addr 0x5e6b244, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::INetworkPlayer* get_player();
 
-  /// @brief Method set_player, addr 0x5e6b334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_player, addr 0x5e6b24c, size 0x8, virtual false, abstract: false, final false
   inline void set_player(::GlobalNamespace::INetworkPlayer* value);
 
 protected:

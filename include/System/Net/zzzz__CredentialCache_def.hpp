@@ -25,10 +25,10 @@ namespace System::Net {
 class CORDL_TYPE CredentialCache : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_DefaultCredentials, addr 0x6870878, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultCredentials, addr 0x6870ec8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Net::ICredentials* get_DefaultCredentials();
 
-  /// @brief Method get_DefaultNetworkCredentials, addr 0x68708d4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultNetworkCredentials, addr 0x6870f24, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkCredential* get_DefaultNetworkCredentials();
 
 protected:

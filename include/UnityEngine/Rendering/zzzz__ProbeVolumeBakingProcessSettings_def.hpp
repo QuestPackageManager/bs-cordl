@@ -101,16 +101,16 @@ public:
   // Declarations
   using SettingsVersion = ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings_SettingsVersion;
 
-  /// @brief Method SetDefaults, addr 0x6be980c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetDefaults, addr 0x6bea8ec, size 0x3c, virtual false, abstract: false, final false
   inline void SetDefaults();
 
-  /// @brief Method Upgrade, addr 0x6be9874, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Upgrade, addr 0x6bea954, size 0x30, virtual false, abstract: false, final false
   inline void Upgrade();
 
-  /// @brief Method .ctor, addr 0x6be9848, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bea928, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ProbeDilationSettings dilationSettings, ::UnityEngine::Rendering::VirtualOffsetSettings virtualOffsetSettings);
 
-  /// @brief Method get_Default, addr 0x6be97c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x6bea8a4, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::ProbeVolumeBakingProcessSettings get_Default();
 
   // Ctor Parameters []

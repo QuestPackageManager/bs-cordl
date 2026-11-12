@@ -4,9 +4,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include <cmath>
 CORDL_MODULE_EXPORT(RoundedCornersDirectionExtensions)
 namespace HMUI {
 struct RoundedCornersDirection;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector4;
@@ -27,8 +31,12 @@ class CORDL_TYPE RoundedCornersDirectionExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method GetFlipAndSymmetry, addr 0x5cd6d90, size 0xa4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector4 GetFlipAndSymmetry(::HMUI::RoundedCornersDirection direction);
+  /// @brief Method ClampRoundedCornersRadius, addr 0x5cd6608, size 0x2c, virtual false, abstract: false, final false
+  static inline float_t ClampRoundedCornersRadius(::HMUI::RoundedCornersDirection direction, float_t radius, ::UnityEngine::Vector2 size);
+
+  /// [Extension]
+  /// @brief Method GetRoundedCornersMask, addr 0x5cd6564, size 0xa4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector4 GetRoundedCornersMask(::HMUI::RoundedCornersDirection direction);
 
 protected:
   // Ctor Parameters []
@@ -45,7 +53,7 @@ public:
   RoundedCornersDirectionExtensions(RoundedCornersDirectionExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19693 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -66,7 +66,7 @@ public:
 
   static inline ::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <GetAwaiter>b__0, addr 0x35d3f3c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <GetAwaiter>b__0, addr 0x35d8394, size 0x6c, virtual false, abstract: false, final false
   inline void _GetAwaiter_b__0(::UnityEngine::AsyncOperation* _);
 
   constexpr ::UnityEngine::AssetBundleCreateRequest* const& __cordl_internal_get_assetBundleCreateRequest() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_loadAssetBundleTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::AssetBundle>>* value);
 
-  /// @brief Method .ctor, addr 0x35d3df4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d824c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,7 +99,7 @@ public:
   AssetBundleExtensions___c__DisplayClass0_0(AssetBundleExtensions___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21425 };
 
   /// @brief Field loadAssetBundleTaskSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::AssetBundle>>* ___loadAssetBundleTaskSource;
@@ -134,7 +134,7 @@ public:
 
   static inline ::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <GetAwaiter>b__0, addr 0x35d3fa8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method <GetAwaiter>b__0, addr 0x35d8400, size 0x70, virtual false, abstract: false, final false
   inline void _GetAwaiter_b__0(::UnityEngine::AsyncOperation* _);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::Object>>* const& __cordl_internal_get_loadResourceTaskSource() const;
@@ -149,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set_resourceRequest(::UnityEngine::ResourceRequest* value);
 
-  /// @brief Method .ctor, addr 0x35d3f38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d8390, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -167,7 +167,7 @@ public:
   AssetBundleExtensions___c__DisplayClass1_0(AssetBundleExtensions___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21426 };
 
   /// @brief Field loadResourceTaskSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::UnityW<::UnityEngine::Object>>* ___loadResourceTaskSource;
@@ -198,11 +198,11 @@ public:
   using __c__DisplayClass1_0 = ::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0;
 
   /// [Extension]
-  /// @brief Method GetAwaiter, addr 0x35d3cb4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x35d810c, size 0x140, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AssetBundle>> GetAwaiter(::UnityEngine::AssetBundleCreateRequest* assetBundleCreateRequest);
 
   /// [Extension]
-  /// @brief Method GetAwaiter, addr 0x35d3df8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x35d8250, size 0x140, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Object>> GetAwaiter(::UnityEngine::ResourceRequest* resourceRequest);
 
 protected:
@@ -220,7 +220,7 @@ public:
   AssetBundleExtensions(AssetBundleExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21497 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21427 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

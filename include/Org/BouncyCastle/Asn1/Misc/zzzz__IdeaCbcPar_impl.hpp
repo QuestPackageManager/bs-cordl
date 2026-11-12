@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar::GetInstance)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x37023a0;
+  constexpr static std::size_t addrs = 0x3706838;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar::*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x37025cc;
+  constexpr static std::size_t addrs = 0x3706a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar::_ctor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x37024e4;
+  constexpr static std::size_t addrs = 0x370697c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar::*)()>(&::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar::GetIV)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3702634;
+  constexpr static std::size_t addrs = 0x3706acc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar*>(), { "GetIV", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar::*)()>(
     &::Org::BouncyCastle::Asn1::Misc::IdeaCbcPar::ToAsn1Object)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x370264c;
+  constexpr static std::size_t addrs = 0x3706ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

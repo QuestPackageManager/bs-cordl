@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OffsetDirection (::GlobalNamespace::WaypointData::*)()>(&::GlobalNamespace::WaypointData::get_offsetDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fbb0c;
+  constexpr static std::size_t addrs = 0x34fdf4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::WaypointData*>(), { "get_offsetDirection", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::WaypointData::*)(::GlobalNamespace::OffsetDirection)>(&::GlobalNamespace::WaypointData::set_offsetDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fbb14;
+  constexpr static std::size_t addrs = 0x34fdf54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::WaypointData::*)()>(&::GlobalNamespace::WaypointData::get_lineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fbb1c;
+  constexpr static std::size_t addrs = 0x34fdf5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::WaypointData*>(), { "get_lineIndex", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::WaypointData::*)(int32_t)>(&::GlobalNamespace::WaypointData::set_lineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fbb24;
+  constexpr static std::size_t addrs = 0x34fdf64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::NoteLineLayer (::GlobalNamespace::WaypointData::*)()>(&::GlobalNamespace::WaypointData::get_lineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fbb2c;
+  constexpr static std::size_t addrs = 0x34fdf6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::WaypointData*>(), { "get_lineLayer", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::WaypointData::*)(::GlobalNamespace::NoteLineLayer)>(&::GlobalNamespace::WaypointData::set_lineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34fbb34;
+  constexpr static std::size_t addrs = 0x34fdf74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::WaypointData::*)()>(&::GlobalNamespace::WaypointData::GetCopy)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x34fbb3c;
+  constexpr static std::size_t addrs = 0x34fdf7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::WaypointData::*)(float_t, float_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer,
                                                                                                  ::GlobalNamespace::OffsetDirection)>(&::GlobalNamespace::WaypointData::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x34fbbd0;
+  constexpr static std::size_t addrs = 0x34fe010;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,11 +118,11 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::WaypointData::*)(int32_t)>(&::GlobalNamespace::WaypointData::Mirror)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x34fbc0c;
+  constexpr static std::size_t addrs = 0x34fe04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::WaypointData*>(), { ::i2c::class_of<::GlobalNamespace::WaypointData*>(), 7 }));
+        THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::WaypointData*>(), { ::i2c::class_of<::GlobalNamespace::WaypointData*>(), 8 }));
     return ___internal_method;
   }
 };
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::WaypointData::*)()>(&::GlobalNamespace::WaypointData::MirrorTransformOffsetDirection)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x34fbc2c;
+  constexpr static std::size_t addrs = 0x34fe06c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::WaypointData*>(), { "MirrorTransformOffsetDirection", {}, {} })));
@@ -215,7 +215,7 @@ inline void GlobalNamespace::WaypointData::_ctor(float_t time, float_t beat, int
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, time, beat, rotation, lineIndex, lineLayer, offsetDirection);
 }
 inline void GlobalNamespace::WaypointData::Mirror(int32_t lineCount) {
-  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::WaypointData*>(), 7 })));
+  auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(reinterpret_cast<Il2CppObject*>(this)->klass, { ::i2c::class_of<::GlobalNamespace::WaypointData*>(), 8 })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, lineCount);
 }
 inline void GlobalNamespace::WaypointData::MirrorTransformOffsetDirection() {

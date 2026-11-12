@@ -27,7 +27,7 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexRunnerFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67fa5bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67fac0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

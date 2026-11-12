@@ -33,18 +33,18 @@ public:
   __declspec(property(get = __cordl_internal_get__wasOnEnableCalled, put = __cordl_internal_set__wasOnEnableCalled)) bool _wasOnEnableCalled;
 
   /// [Inject]
-  /// @brief Method Inject, addr 0x63ab3e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Inject, addr 0x63aba30, size 0x20, virtual false, abstract: false, final false
   inline void Inject();
 
   static inline ::GlobalNamespace::ZenjectSafeBehaviour* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x63ab420, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x63aba70, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnEnablePostInjection, addr 0x63ab440, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnablePostInjection, addr 0x63aba90, size 0x4, virtual true, abstract: false, final false
   inline void OnEnablePostInjection();
 
-  /// @brief Method TryInvokeOnEnablePostInjection, addr 0x63ab400, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TryInvokeOnEnablePostInjection, addr 0x63aba50, size 0x20, virtual false, abstract: false, final false
   inline void TryInvokeOnEnablePostInjection();
 
   constexpr bool const& __cordl_internal_get__isInjected() const;
@@ -60,13 +60,13 @@ public:
   constexpr void __cordl_internal_set__wasOnEnableCalled(bool value);
 
   /// [Preserve]
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x63ab4e8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x63abb38, size 0x22c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x63ab444, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x63aba94, size 0xa4, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*> P_1);
 
-  /// @brief Method .ctor, addr 0x639a4b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x639ab24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   ZenjectSafeBehaviour(ZenjectSafeBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21243 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21257 };
 
   /// @brief Field _isInjected, offset: 0x20, size: 0x1, def value: None
   bool ____isInjected;

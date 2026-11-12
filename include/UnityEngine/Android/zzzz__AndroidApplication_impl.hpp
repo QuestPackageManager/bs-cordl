@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::Android::AndroidApplication::get_UnityPlayerRaw)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6eaafe4;
+  constexpr static std::size_t addrs = 0x6eac0c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidApplication*>(), { "get_UnityPlayerRaw", {}, {} })));
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::Android::AndroidApplication::get_CurrentContextRaw)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6ebe31c;
+  constexpr static std::size_t addrs = 0x6ebf3fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidApplication*>(), { "get_CurrentContextRaw", {}, {} })));
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::Android::AndroidApplication::get_CurrentActivityRaw)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6ebe344;
+  constexpr static std::size_t addrs = 0x6ebf424;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidApplication*>(), { "get_CurrentActivityRaw", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Android::AndroidApplication::AcquireMainThreadSynchronizationContext)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x6ebe36c;
+  constexpr static std::size_t addrs = 0x6ebf44c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AndroidJavaObject* (*)()>(&::UnityEngine::Android::AndroidApplication::get_currentContext)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6ebe418;
+  constexpr static std::size_t addrs = 0x6ebf4f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidApplication*>(), { "get_currentContext", {}, {} })));
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AndroidJavaObject* (*)()>(&::UnityEngine::Android::AndroidApplication::get_currentActivity)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6ebe4cc;
+  constexpr static std::size_t addrs = 0x6ebf5ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidApplication*>(), { "get_currentActivity", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Android::AndroidConfiguration*)>(&::UnityEngine::Android::AndroidApplication::SetCurrentConfiguration)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6ebe580;
+  constexpr static std::size_t addrs = 0x6ebf660;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidApplication*>(),
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidConfiguration* (*)()>(&::UnityEngine::Android::AndroidApplication::GetCurrentConfiguration)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6ebe5d0;
+  constexpr static std::size_t addrs = 0x6ebf6b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidApplication*>(), { "GetCurrentConfiguration", {}, {} })));
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::UnityEngine::Android::AndroidApplication::DispatchConfigurationChanged)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6ebe61c;
+  constexpr static std::size_t addrs = 0x6ebf6fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::Android::AndroidInsets*)>(&::UnityEngine::Android::AndroidApplication::SetCurrentInsets)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x6ebe690;
+  constexpr static std::size_t addrs = 0x6ebf770;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Android::AndroidInsets* (*)()>(&::UnityEngine::Android::AndroidApplication::GetCurrentInsets)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6ebe6e0;
+  constexpr static std::size_t addrs = 0x6ebf7c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidApplication*>(), { "GetCurrentInsets", {}, {} })));
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::Android::AndroidApplication::DispatchInsetsChanged)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6ebe72c;
+  constexpr static std::size_t addrs = 0x6ebf80c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Android::AndroidApplication*>(), { "DispatchInsetsChanged", {}, {} })));

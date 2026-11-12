@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerPlayerResultsData::*)(
     ::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::MultiplayerLevelCompletionResults*)>(&::GlobalNamespace::MultiplayerPlayerResultsData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ed5c8;
+  constexpr static std::size_t addrs = 0x39f2670;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MultiplayerPlayerResultsData::*)(::System::Object*)>(&::GlobalNamespace::MultiplayerPlayerResultsData::CompareTo)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x39ed5d0;
+  constexpr static std::size_t addrs = 0x39f2678;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

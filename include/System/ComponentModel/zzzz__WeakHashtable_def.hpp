@@ -40,13 +40,13 @@ public:
 
   static inline ::System::ComponentModel::WeakHashtable_WeakKeyComparer* New_ctor();
 
-  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x684ffc0, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x6850610, size 0x160, virtual true, abstract: false, final true
   inline bool System_Collections_IEqualityComparer_Equals(::System::Object* x, ::System::Object* y);
 
-  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x6850120, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x6850770, size 0x20, virtual true, abstract: false, final true
   inline int32_t System_Collections_IEqualityComparer_GetHashCode(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x684ffbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685060c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IEqualityComparer"
@@ -87,15 +87,15 @@ public:
   /// @brief Field _comparer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__comparer, put = setStaticF__comparer)) ::System::Collections::IEqualityComparer* _comparer;
 
-  /// @brief Method Clear, addr 0x684ff40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x6850590, size 0x8, virtual true, abstract: false, final false
   inline void Clear();
 
   static inline ::System::ComponentModel::WeakHashtable* New_ctor();
 
-  /// @brief Method Remove, addr 0x684ff48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x6850598, size 0x8, virtual true, abstract: false, final false
   inline void Remove(::System::Object* key);
 
-  /// @brief Method .ctor, addr 0x684fecc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685051c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IEqualityComparer* getStaticF__comparer();

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair::*)()>(
     &::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair::get_levelId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350e2b4;
+  constexpr static std::size_t addrs = 0x35106f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair::*)()>(
     &::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair::get_perceivedLoudness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350e2bc;
+  constexpr static std::size_t addrs = 0x35106fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair::*)()>(
     &::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair::get_checksum)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350e2c4;
+  constexpr static std::size_t addrs = 0x3510704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair::*)(::StringW)>(
     &::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x350e2cc;
+  constexpr static std::size_t addrs = 0x351070c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair::*)(float_t, ::StringW)>(
     &::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair::SetLoudness)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x350e2f0;
+  constexpr static std::size_t addrs = 0x3510730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair*>(),
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerceivedLoudnessSO___c__DisplayClass6_0::*)()>(&::GlobalNamespace::PerceivedLoudnessSO___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x350e208;
+  constexpr static std::size_t addrs = 0x3510648;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerceivedLoudnessSO___c__DisplayClass6_0*>(), { ".ctor", {}, {} })));
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::PerceivedLoudnessSO___c__DisplayClass6_0::*)(::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair*)>(
     &::GlobalNamespace::PerceivedLoudnessSO___c__DisplayClass6_0::_GetLoudnessData_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x350e2fc;
+  constexpr static std::size_t addrs = 0x351073c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair*>* (
     ::GlobalNamespace::PerceivedLoudnessSO::*)()>(&::GlobalNamespace::PerceivedLoudnessSO::get_perceivedLoudnessPairs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x350df88;
+  constexpr static std::size_t addrs = 0x35103c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerceivedLoudnessSO*>(), { "get_perceivedLoudnessPairs", {}, {} })));
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair*>* (
     ::GlobalNamespace::PerceivedLoudnessSO::*)()>(&::GlobalNamespace::PerceivedLoudnessSO::ToDictionary)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x350df90;
+  constexpr static std::size_t addrs = 0x35103d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerceivedLoudnessSO*>(), { "ToDictionary", {}, {} })));
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerceivedLoudnessSO::*)(
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::PerceivedLoudnessSO_PerceivedLevelLoudnessPair*>*)>(&::GlobalNamespace::PerceivedLoudnessSO::SetLoudnessData)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x350e0a4;
+  constexpr static std::size_t addrs = 0x35104e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<float_t> (::GlobalNamespace::PerceivedLoudnessSO::*)(::StringW)>(
     &::GlobalNamespace::PerceivedLoudnessSO::GetLoudnessData)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x350e104;
+  constexpr static std::size_t addrs = 0x3510544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PerceivedLoudnessSO::*)()>(&::GlobalNamespace::PerceivedLoudnessSO::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x350e20c;
+  constexpr static std::size_t addrs = 0x351064c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PerceivedLoudnessSO*>(), { ".ctor", {}, {} })));

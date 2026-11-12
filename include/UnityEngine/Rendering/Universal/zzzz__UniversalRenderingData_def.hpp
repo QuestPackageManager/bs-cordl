@@ -70,7 +70,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::UniversalRenderingData* New_ctor();
 
-  /// @brief Method Reset, addr 0x6cf3208, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x6cf42e8, size 0x2c, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__opaqueLayerMask_k__BackingField() const;
@@ -121,47 +121,47 @@ public:
 
   constexpr void __cordl_internal_set_supportsDynamicBatching(bool value);
 
-  /// @brief Method .ctor, addr 0x6cf3234, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cf4314, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method get_opaqueLayerMask, addr 0x6cf31d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_opaqueLayerMask, addr 0x6cf42b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_opaqueLayerMask();
 
   /// [CompilerGenerated]
-  /// @brief Method get_prepassLayerMask, addr 0x6cf31c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prepassLayerMask, addr 0x6cf42a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_prepassLayerMask();
 
   /// [CompilerGenerated]
-  /// @brief Method get_renderingMode, addr 0x6cf31b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderingMode, addr 0x6cf4298, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::RenderingMode get_renderingMode();
 
   /// [CompilerGenerated]
-  /// @brief Method get_stencilLodCrossFadeEnabled, addr 0x6cf31f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stencilLodCrossFadeEnabled, addr 0x6cf42d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_stencilLodCrossFadeEnabled();
 
   /// [CompilerGenerated]
-  /// @brief Method get_transparentLayerMask, addr 0x6cf31e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transparentLayerMask, addr 0x6cf42c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_transparentLayerMask();
 
   /// [CompilerGenerated]
-  /// @brief Method set_opaqueLayerMask, addr 0x6cf31e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_opaqueLayerMask, addr 0x6cf42c0, size 0x8, virtual false, abstract: false, final false
   inline void set_opaqueLayerMask(::UnityEngine::LayerMask value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_prepassLayerMask, addr 0x6cf31d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_prepassLayerMask, addr 0x6cf42b0, size 0x8, virtual false, abstract: false, final false
   inline void set_prepassLayerMask(::UnityEngine::LayerMask value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_renderingMode, addr 0x6cf31c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderingMode, addr 0x6cf42a0, size 0x8, virtual false, abstract: false, final false
   inline void set_renderingMode(::UnityEngine::Rendering::Universal::RenderingMode value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_stencilLodCrossFadeEnabled, addr 0x6cf3200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stencilLodCrossFadeEnabled, addr 0x6cf42e0, size 0x8, virtual false, abstract: false, final false
   inline void set_stencilLodCrossFadeEnabled(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_transparentLayerMask, addr 0x6cf31f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_transparentLayerMask, addr 0x6cf42d0, size 0x8, virtual false, abstract: false, final false
   inline void set_transparentLayerMask(::UnityEngine::LayerMask value);
 
 protected:

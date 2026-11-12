@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_screenSpaceIrradianceHdl(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
 
-  /// @brief Method .ctor, addr 0x6d6f1b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d70290, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -195,10 +195,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::GBufferPass___c* New_ctor();
 
-  /// @brief Method <Render>b__18_0, addr 0x6d6f20c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__18_0, addr 0x6d702ec, size 0xa8, virtual false, abstract: false, final false
   inline void _Render_b__18_0(::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6d6f208, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d702e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::GBufferPass___c* getStaticF___9();
@@ -285,14 +285,14 @@ public:
   /// @brief Field s_ShaderTagValues, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ShaderTagValues, put = setStaticF_s_ShaderTagValues)) ::ArrayW<::UnityEngine::Rendering::ShaderTagId> s_ShaderTagValues;
 
-  /// @brief Method Dispose, addr 0x6d6df54, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6d6f034, size 0x14, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method ExecutePass, addr 0x6d6df68, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6d6f048, size 0x278, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData* data,
                                  ::UnityEngine::Rendering::RendererList rendererList, ::UnityEngine::Rendering::RendererList errorRendererList);
 
-  /// @brief Method InitRendererLists, addr 0x6d6e1e0, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method InitRendererLists, addr 0x6d6f2c0, size 0x368, virtual false, abstract: false, final false
   inline void InitRendererLists(::by_ref<::UnityEngine::Rendering::Universal::Internal::GBufferPass_PassData*> passData, ::UnityEngine::Rendering::ScriptableRenderContext context,
                                 ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData,
                                 ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Rendering::Universal::UniversalLightData* lightData, bool useRenderGraph,
@@ -303,7 +303,7 @@ public:
                                                                                      ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference,
                                                                                      ::UnityEngine::Rendering::Universal::Internal::DeferredLights* deferredLights);
 
-  /// @brief Method Render, addr 0x6d6e548, size 0xa8c, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d6f628, size 0xa8c, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle cameraColor, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle cameraDepth, bool setGlobalTextures,
                      uint32_t batchLayerMask);
@@ -326,7 +326,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RenderStateBlock(::UnityEngine::Rendering::RenderStateBlock value);
 
-  /// @brief Method .ctor, addr 0x6d6da94, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d6eb74, size 0x4c0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask,
                     ::UnityEngine::Rendering::StencilState stencilState, int32_t stencilReference, ::UnityEngine::Rendering::Universal::Internal::DeferredLights* deferredLights);
 

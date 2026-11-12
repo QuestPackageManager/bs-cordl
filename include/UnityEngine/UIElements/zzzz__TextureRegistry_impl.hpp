@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextureRegistry* (*)()>(&::UnityEngine::UIElements::TextureRegistry::get_instance)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x72b4134;
+  constexpr static std::size_t addrs = 0x72b5214;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextureRegistry*>(), { "get_instance", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Texture> (::UnityEngine::UIElements::TextureRegistry::*)(::UnityEngine::UIElements::TextureId)>(
     &::UnityEngine::UIElements::TextureRegistry::GetTexture)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x72b4190;
+  constexpr static std::size_t addrs = 0x72b5270;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextureId (::UnityEngine::UIElements::TextureRegistry::*)()>(
     &::UnityEngine::UIElements::TextureRegistry::AllocAndAcquireDynamic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x72afdcc;
+  constexpr static std::size_t addrs = 0x72b0eac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextureRegistry*>(), { "AllocAndAcquireDynamic", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextureRegistry::*)(::UnityEngine::UIElements::TextureId, ::UnityEngine::Texture*)>(
     &::UnityEngine::UIElements::TextureRegistry::UpdateDynamic)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x72b4668;
+  constexpr static std::size_t addrs = 0x72b5748;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextureId (::UnityEngine::UIElements::TextureRegistry::*)(::UnityEngine::Texture*, bool)>(
     &::UnityEngine::UIElements::TextureRegistry::AllocAndAcquire)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x72b4378;
+  constexpr static std::size_t addrs = 0x72b5458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextureRegistry*>(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::TextureId (::UnityEngine::UIElements::TextureRegistry::*)(::UnityEngine::Texture*)>(
     &::UnityEngine::UIElements::TextureRegistry::Acquire)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x72b48fc;
+  constexpr static std::size_t addrs = 0x72b59dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextureRegistry::*)(::UnityEngine::UIElements::TextureId)>(
     &::UnityEngine::UIElements::TextureRegistry::Release)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x72b0154;
+  constexpr static std::size_t addrs = 0x72b1234;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextureRegistry::*)()>(&::UnityEngine::UIElements::TextureRegistry::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x72b4a8c;
+  constexpr static std::size_t addrs = 0x72b5b6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::TextureRegistry*>(), { ".ctor", {}, {} })));

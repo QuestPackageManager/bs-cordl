@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EmptyPosesSerializer::*)(::StringW, ::GlobalNamespace::PosesRecordingData*)>(
     &::GlobalNamespace::EmptyPosesSerializer::SaveToOldFormat)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d3aa5c;
+  constexpr static std::size_t addrs = 0x5d3a6bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EmptyPosesSerializer::*)(::StringW, ::GlobalNamespace::PosesRecordingData*, bool)>(
     &::GlobalNamespace::EmptyPosesSerializer::SaveRecording)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d3aa60;
+  constexpr static std::size_t addrs = 0x5d3a6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::PosesRecordingData* (::GlobalNamespace::EmptyPosesSerializer::*)(::StringW)>(
     &::GlobalNamespace::EmptyPosesSerializer::LoadRecording)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3aa64;
+  constexpr static std::size_t addrs = 0x5d3a6c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EmptyPosesSerializer::*)(::StringW)>(&::GlobalNamespace::EmptyPosesSerializer::RecordingExists)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3aa6c;
+  constexpr static std::size_t addrs = 0x5d3a6cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::EmptyPosesSerializer::*)(::StringW)>(&::GlobalNamespace::EmptyPosesSerializer::RecordingCanBeCreated)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3aa74;
+  constexpr static std::size_t addrs = 0x5d3a6d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EmptyPosesSerializer::*)()>(&::GlobalNamespace::EmptyPosesSerializer::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d3aa7c;
+  constexpr static std::size_t addrs = 0x5d3a6dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EmptyPosesSerializer*>(), { ".ctor", {}, {} })));

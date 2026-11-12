@@ -27,7 +27,7 @@ public:
   // Declarations
   /// [VisibleToOtherModules(new[] { "UnityEditor.UIBuilderModule" })]
   /// [Extension]
-  /// @brief Method GetCount, addr 0x728a738, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method GetCount, addr 0x728b818, size 0x2bc, virtual false, abstract: false, final false
   static inline int32_t GetCount(::System::Collections::IEnumerable* collection);
 
 protected:

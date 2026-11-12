@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::*)(int32_t)>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x61e44fc;
+  constexpr static std::size_t addrs = 0x61e4784;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x61e4538;
+  constexpr static std::size_t addrs = 0x61e47c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::MoveNext)> {
   constexpr static std::size_t size = 0x904;
-  constexpr static std::size_t addrs = 0x61e4554;
+  constexpr static std::size_t addrs = 0x61e47dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::__m__Finally1)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x61e4e58;
+  constexpr static std::size_t addrs = 0x61e50e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61e4f0c;
+  constexpr static std::size_t addrs = 0x61e5194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12*>(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x61e4f14;
+  constexpr static std::size_t addrs = 0x61e519c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61e4f4c;
+  constexpr static std::size_t addrs = 0x61e51d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::*)()>(
         &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::System_Collections_Generic_IEnumerable_Newtonsoft_Json_Linq_JToken__GetEnumerator)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x61e4f54;
+  constexpr static std::size_t addrs = 0x61e51dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12*>(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter__ExecuteFilter_d__12::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61e4ffc;
+  constexpr static std::size_t addrs = 0x61e5284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<int32_t> (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::get_Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61e4448;
+  constexpr static std::size_t addrs = 0x61e46d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter*>(), { "get_Start", {}, {} })));
@@ -435,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)(::System::Nullable_1<int32_t>)>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::set_Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61e4450;
+  constexpr static std::size_t addrs = 0x61e46d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -449,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<int32_t> (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::get_End)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61e4458;
+  constexpr static std::size_t addrs = 0x61e46e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter*>(), { "get_End", {}, {} })));
@@ -462,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)(::System::Nullable_1<int32_t>)>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::set_End)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61e4460;
+  constexpr static std::size_t addrs = 0x61e46e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -476,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Nullable_1<int32_t> (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)()>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::get_Step)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61e4468;
+  constexpr static std::size_t addrs = 0x61e46f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter*>(), { "get_Step", {}, {} })));
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)(::System::Nullable_1<int32_t>)>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::set_Step)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61e4470;
+  constexpr static std::size_t addrs = 0x61e46f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -504,7 +504,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Ge
     ::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)(::Newtonsoft::Json::Linq::JToken*, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*,
                                                              ::Newtonsoft::Json::Linq::JsonSelectSettings*)>(&::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::ExecuteFilter)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x61e4478;
+  constexpr static std::size_t addrs = 0x61e4700;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter*>(),
@@ -518,7 +518,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)(int32_t, int32_t, bool)>(
     &::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::IsValid)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x61e451c;
+  constexpr static std::size_t addrs = 0x61e47a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter*>(),
@@ -531,7 +531,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::*)()>(&::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61e4534;
+  constexpr static std::size_t addrs = 0x61e47bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Linq::JsonPath::ArraySliceFilter*>(), { ".ctor", {}, {} })));

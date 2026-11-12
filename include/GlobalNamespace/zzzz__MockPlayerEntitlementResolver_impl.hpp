@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerEntitlementResolver__GetLevelEntitlementStatusAsync_d__4::*)()>(
     &::GlobalNamespace::MockPlayerEntitlementResolver__GetLevelEntitlementStatusAsync_d__4::MoveNext)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x5e25b34;
+  constexpr static std::size_t addrs = 0x5e25f64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerEntitlementResolver__GetLevelEntitlementStatusAsync_d__4::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockPlayerEntitlementResolver__GetLevelEntitlementStatusAsync_d__4::SetStateMachine)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x5e25e54;
+  constexpr static std::size_t addrs = 0x5e26284;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MockPlayerEntitlementResolver__GetLevelEntitlementStatusAsync_d__4>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MockPlayerEntitlementResolver::*)(
     ::GlobalNamespace::MockPlayerSettings*, ::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::IEntitlementModel*)>(&::GlobalNamespace::MockPlayerEntitlementResolver::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e2571c;
+  constexpr static std::size_t addrs = 0x5e25b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* (
     ::GlobalNamespace::MockPlayerEntitlementResolver::*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::MockPlayerEntitlementResolver::GetLevelEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5e25a14;
+  constexpr static std::size_t addrs = 0x5e25e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MockPlayerEntitlementResolver::*)(::StringW)>(&::GlobalNamespace::MockPlayerEntitlementResolver::IsDlcLevel)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5e25b04;
+  constexpr static std::size_t addrs = 0x5e25f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -21,7 +21,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE LevelScore {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3a326c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a36df8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t multiplied, int32_t modified, int32_t maxMultiplied, int32_t maxModified);
 
   // Ctor Parameters []
@@ -34,7 +34,7 @@ public:
   constexpr LevelScore(int32_t multiplied, int32_t modified, int32_t maxMultiplied, int32_t maxModified) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21960 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22040 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

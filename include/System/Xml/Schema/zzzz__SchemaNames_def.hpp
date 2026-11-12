@@ -1005,18 +1005,18 @@ public:
   /// @brief Field nameTable, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable)) ::System::Xml::XmlNameTable* nameTable;
 
-  /// @brief Method CreateTokenToQNameTable, addr 0x666de10, size 0x1968, virtual false, abstract: false, final false
+  /// @brief Method CreateTokenToQNameTable, addr 0x666e460, size 0x1968, virtual false, abstract: false, final false
   inline void CreateTokenToQNameTable();
 
-  /// @brief Method IsXDRRoot, addr 0x666f820, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsXDRRoot, addr 0x666fe70, size 0x48, virtual false, abstract: false, final false
   inline bool IsXDRRoot(::StringW localName, ::StringW ns);
 
-  /// @brief Method IsXSDRoot, addr 0x666f7d8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsXSDRoot, addr 0x666fe28, size 0x48, virtual false, abstract: false, final false
   inline bool IsXSDRoot(::StringW localName, ::StringW ns);
 
   static inline ::System::Xml::Schema::SchemaNames* New_ctor(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method SchemaTypeFromRoot, addr 0x666f778, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SchemaTypeFromRoot, addr 0x666fdc8, size 0x60, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaType SchemaTypeFromRoot(::StringW localName, ::StringW ns);
 
   constexpr ::StringW const& __cordl_internal_get_NsDataType() const;
@@ -1865,7 +1865,7 @@ public:
 
   constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
 
-  /// @brief Method .ctor, addr 0x666b164, size 0x2cac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x666b7b4, size 0x2cac, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable);
 
 protected:

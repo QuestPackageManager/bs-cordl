@@ -43,18 +43,18 @@ public:
   /// @brief Field _valueBounds, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__valueBounds, put = __cordl_internal_set__valueBounds)) ::UnityEngine::Vector2 _valueBounds;
 
-  /// @brief Method Awake, addr 0x5dee230, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5dee360, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::FloatMaterialPropertyEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x5dee254, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x5dee384, size 0x64, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x5dee250, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x5dee380, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x5dee2b8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x5dee3e8, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr float_t const& __cordl_internal_get__granularityMultiplier() const;
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x5dee2bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dee3ec, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

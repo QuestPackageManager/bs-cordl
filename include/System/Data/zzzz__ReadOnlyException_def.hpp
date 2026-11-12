@@ -32,13 +32,13 @@ public:
 
   static inline ::System::Data::ReadOnlyException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x645e318, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x645e968, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x645e310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x645e960, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x645e378, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x645e9c8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:

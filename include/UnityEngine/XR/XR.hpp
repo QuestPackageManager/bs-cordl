@@ -5,6 +5,7 @@ module;
 #pragma once
 #include "UnityEngine/XR/AvailableTrackingData.hpp"
 #include "UnityEngine/XR/Bone.hpp"
+#include "UnityEngine/XR/CommonUsages.hpp"
 #include "UnityEngine/XR/ConnectionChangeType.hpp"
 #include "UnityEngine/XR/Eyes.hpp"
 #include "UnityEngine/XR/Hand.hpp"

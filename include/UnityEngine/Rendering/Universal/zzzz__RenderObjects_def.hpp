@@ -263,7 +263,7 @@ public:
 
   constexpr void __cordl_internal_set_stencilSettings(::UnityEngine::Rendering::Universal::StencilStateData* value);
 
-  /// @brief Method .ctor, addr 0x6d25ce4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d26dc4, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -390,7 +390,7 @@ public:
 
   constexpr void __cordl_internal_set_RenderQueueType(::UnityEngine::Rendering::Universal::RenderQueueType value);
 
-  /// @brief Method .ctor, addr 0x6d25dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d26eb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -476,7 +476,7 @@ public:
 
   constexpr void __cordl_internal_set_restoreCamera(bool value);
 
-  /// @brief Method .ctor, addr 0x6d25ddc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d26ebc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -544,10 +544,10 @@ public:
   /// @brief Field settings, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings)) ::UnityEngine::Rendering::Universal::RenderObjects_RenderObjectsSettings* settings;
 
-  /// @brief Method AddRenderPasses, addr 0x6d25bcc, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method AddRenderPasses, addr 0x6d26cac, size 0xb0, virtual true, abstract: false, final false
   inline void AddRenderPasses(::UnityEngine::Rendering::Universal::ScriptableRenderer* renderer, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Create, addr 0x6d25a24, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x6d26b04, size 0x1a8, virtual true, abstract: false, final false
   inline void Create();
 
   static inline ::UnityEngine::Rendering::Universal::RenderObjects* New_ctor();
@@ -564,7 +564,7 @@ public:
 
   constexpr void __cordl_internal_set_settings(::UnityEngine::Rendering::Universal::RenderObjects_RenderObjectsSettings* value);
 
-  /// @brief Method .ctor, addr 0x6d25c7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d26d5c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

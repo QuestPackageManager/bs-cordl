@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::RenderTreeManager* (::UnityEngine::UIElements::UIR::RenderTree::*)()>(
     &::UnityEngine::UIElements::UIR::RenderTree::get_renderTreeManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71b8ed4;
+  constexpr static std::size_t addrs = 0x71b9fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderTree*>(), { "get_renderTreeManager", {}, {} })));
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::RenderData* (::UnityEngine::UIElements::UIR::RenderTree::*)()>(
     &::UnityEngine::UIElements::UIR::RenderTree::get_rootRenderData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71b8edc;
+  constexpr static std::size_t addrs = 0x71b9fbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderTree*>(), { "get_rootRenderData", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::by_ref<::UnityEngine::UIElements::UIR::DepthOrderedDirtyTracking> (::UnityEngine::UIElements::UIR::RenderTree::*)()>(
     &::UnityEngine::UIElements::UIR::RenderTree::get_dirtyTracker)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71b633c;
+  constexpr static std::size_t addrs = 0x71b741c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderTree*>(), { "get_dirtyTracker", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::RenderChainCommand* (::UnityEngine::UIElements::UIR::RenderTree::*)()>(
     &::UnityEngine::UIElements::UIR::RenderTree::get_firstCommand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71b8ee4;
+  constexpr static std::size_t addrs = 0x71b9fc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderTree*>(), { "get_firstCommand", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::UIR::RenderTree::*)()>(&::UnityEngine::UIElements::UIR::RenderTree::get_isRootRenderTree)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x71b8eec;
+  constexpr static std::size_t addrs = 0x71b9fcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderTree*>(), { "get_isRootRenderTree", {}, {} })));
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderTree::*)(
     ::UnityEngine::UIElements::UIR::RenderTreeManager*, ::UnityEngine::UIElements::UIR::RenderData*)>(&::UnityEngine::UIElements::UIR::RenderTree::Init)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x71b8f28;
+  constexpr static std::size_t addrs = 0x71ba008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderTree::*)()>(&::UnityEngine::UIElements::UIR::RenderTree::Reset)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x71b9058;
+  constexpr static std::size_t addrs = 0x71ba138;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderTree*>(), { "Reset", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderTree::*)()>(&::UnityEngine::UIElements::UIR::RenderTree::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x71b906c;
+  constexpr static std::size_t addrs = 0x71ba14c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderTree*>(), { "Dispose", {}, {} })));
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderTree::*)(::UnityEngine::UIElements::UIR::RenderData*)>(
     &::UnityEngine::UIElements::UIR::RenderTree::DepthFirstResetTextures)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x71b907c;
+  constexpr static std::size_t addrs = 0x71ba15c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderTree*>(),
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderTree::*)(::UnityEngine::UIElements::UIR::RenderData*, bool, bool)>(
     &::UnityEngine::UIElements::UIR::RenderTree::OnRenderDataTransformOrSizeChanged)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x71b90dc;
+  constexpr static std::size_t addrs = 0x71ba1bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderTree::*)(::UnityEngine::UIElements::UIR::RenderData*)>(
     &::UnityEngine::UIElements::UIR::RenderTree::OnRenderDataOpacityIdChanged)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x71b9178;
+  constexpr static std::size_t addrs = 0x71ba258;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderTree*>(),
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderTree::*)(::UnityEngine::UIElements::UIR::RenderData*, bool)>(
     &::UnityEngine::UIElements::UIR::RenderTree::OnRenderDataVisualsChanged)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x71b91f8;
+  constexpr static std::size_t addrs = 0x71ba2d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderTree::*)(::by_ref<::UnityEngine::UIElements::UIR::ChainBuilderStats>)>(
     &::UnityEngine::UIElements::UIR::RenderTree::ProcessChanges)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x71b9288;
+  constexpr static std::size_t addrs = 0x71ba368;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderTree::*)(::UnityEngine::UIElements::UIR::RenderChainCommand*)>(
     &::UnityEngine::UIElements::UIR::RenderTree::OnRenderCommandAdded)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x71b9858;
+  constexpr static std::size_t addrs = 0x71ba938;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderTree*>(),
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderTree::*)(
     ::UnityEngine::UIElements::UIR::RenderChainCommand*, ::UnityEngine::UIElements::UIR::RenderChainCommand*)>(&::UnityEngine::UIElements::UIR::RenderTree::OnRenderCommandsRemoved)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x71b9878;
+  constexpr static std::size_t addrs = 0x71ba958;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderTree::*)(::UnityEngine::UIElements::UIR::RenderData*)>(
     &::UnityEngine::UIElements::UIR::RenderTree::ChildWillBeRemoved)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x71b7890;
+  constexpr static std::size_t addrs = 0x71b8970;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderTree*>(),
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::RenderTree::*)()>(&::UnityEngine::UIElements::UIR::RenderTree::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x71b98a0;
+  constexpr static std::size_t addrs = 0x71ba980;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::RenderTree*>(), { ".ctor", {}, {} })));

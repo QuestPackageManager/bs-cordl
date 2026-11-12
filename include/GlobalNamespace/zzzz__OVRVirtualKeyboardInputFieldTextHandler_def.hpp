@@ -47,24 +47,24 @@ public:
   /// @brief Field inputField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_inputField, put = __cordl_internal_set_inputField)) ::UnityW<::UnityEngine::UI::InputField> inputField;
 
-  /// @brief Method AppendText, addr 0x6344468, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method AppendText, addr 0x63446f0, size 0xac, virtual true, abstract: false, final false
   inline void AppendText(::StringW s);
 
-  /// @brief Method ApplyBackspace, addr 0x6344514, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ApplyBackspace, addr 0x634479c, size 0xe8, virtual true, abstract: false, final false
   inline void ApplyBackspace();
 
-  /// @brief Method MoveTextEnd, addr 0x63445fc, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method MoveTextEnd, addr 0x6344884, size 0x88, virtual true, abstract: false, final false
   inline void MoveTextEnd();
 
   static inline ::GlobalNamespace::OVRVirtualKeyboardInputFieldTextHandler* New_ctor();
 
-  /// @brief Method ProxyOnValueChanged, addr 0x634477c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ProxyOnValueChanged, addr 0x6344a04, size 0x44, virtual false, abstract: false, final false
   inline void ProxyOnValueChanged(::StringW arg0);
 
-  /// @brief Method Start, addr 0x6344684, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x634490c, size 0xf8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Submit, addr 0x63443c0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Submit, addr 0x6344648, size 0xa8, virtual true, abstract: false, final false
   inline void Submit();
 
   constexpr ::System::Action_1<::StringW>* const& __cordl_internal_get__OnTextChanged_k__BackingField() const;
@@ -85,30 +85,30 @@ public:
 
   constexpr void __cordl_internal_set_inputField(::UnityW<::UnityEngine::UI::InputField> value);
 
-  /// @brief Method .ctor, addr 0x63447c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6344a48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_InputField, addr 0x634420c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InputField, addr 0x6344494, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::InputField> get_InputField();
 
-  /// @brief Method get_IsFocused, addr 0x6344338, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_IsFocused, addr 0x63445c0, size 0x88, virtual true, abstract: false, final false
   inline bool get_IsFocused();
 
   /// [CompilerGenerated]
-  /// @brief Method get_OnTextChanged, addr 0x6344214, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_OnTextChanged, addr 0x634449c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Action_1<::StringW>* get_OnTextChanged();
 
-  /// @brief Method get_SubmitOnEnter, addr 0x63442b0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_SubmitOnEnter, addr 0x6344538, size 0x88, virtual true, abstract: false, final false
   inline bool get_SubmitOnEnter();
 
-  /// @brief Method get_Text, addr 0x6344224, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_Text, addr 0x63444ac, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW get_Text();
 
-  /// @brief Method set_InputField, addr 0x633d294, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method set_InputField, addr 0x633d51c, size 0x1f4, virtual false, abstract: false, final false
   inline void set_InputField(::UnityEngine::UI::InputField* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_OnTextChanged, addr 0x634421c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_OnTextChanged, addr 0x63444a4, size 0x8, virtual true, abstract: false, final false
   inline void set_OnTextChanged(::System::Action_1<::StringW>* value);
 
 protected:

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* (
     ::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(::System::Object*)>(&::Newtonsoft::Json::Serialization::DefaultReferenceResolver::GetMappings)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x61961f0;
+  constexpr static std::size_t addrs = 0x6196478;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(::System::Object*, ::StringW)>(
     &::Newtonsoft::Json::Serialization::DefaultReferenceResolver::ResolveReference)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6196424;
+  constexpr static std::size_t addrs = 0x61966ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::DefaultReferenceResolver*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(::System::Object*, ::System::Object*)>(
     &::Newtonsoft::Json::Serialization::DefaultReferenceResolver::GetReference)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x619649c;
+  constexpr static std::size_t addrs = 0x6196724;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::DefaultReferenceResolver*>(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(::System::Object*, ::StringW, ::System::Object*)>(
     &::Newtonsoft::Json::Serialization::DefaultReferenceResolver::AddReference)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x61965a4;
+  constexpr static std::size_t addrs = 0x619682c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(::System::Object*, ::System::Object*)>(
     &::Newtonsoft::Json::Serialization::DefaultReferenceResolver::IsReferenced)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6196614;
+  constexpr static std::size_t addrs = 0x619689c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::DefaultReferenceResolver*>(),
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)()>(&::Newtonsoft::Json::Serialization::DefaultReferenceResolver::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x619668c;
+  constexpr static std::size_t addrs = 0x6196914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Newtonsoft::Json::Serialization::DefaultReferenceResolver*>(), { ".ctor", {}, {} })));

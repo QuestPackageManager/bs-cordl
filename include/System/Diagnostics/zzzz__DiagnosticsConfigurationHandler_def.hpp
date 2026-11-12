@@ -32,12 +32,12 @@ public:
   /// @brief Convert operator to "::System::Configuration::IConfigurationSectionHandler"
   constexpr operator ::System::Configuration::IConfigurationSectionHandler*() noexcept;
 
-  /// @brief Method Create, addr 0x67d7084, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x67d76d4, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Object* Create(::System::Object* parent, ::System::Object* configContext, ::System::Xml::XmlNode* section);
 
   static inline ::System::Diagnostics::DiagnosticsConfigurationHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67d7048, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67d7698, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Configuration::IConfigurationSectionHandler"

@@ -40,10 +40,10 @@ public:
 
   static inline ::UnityEngine::Rendering::CommandBufferPool___c* New_ctor();
 
-  /// @brief Method <.cctor>b__4_0, addr 0x6ba9418, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__4_0, addr 0x6baa4f8, size 0x18, virtual false, abstract: false, final false
   inline void __cctor_b__4_0(::UnityEngine::Rendering::CommandBuffer* x);
 
-  /// @brief Method .ctor, addr 0x6ba9414, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6baa4f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::CommandBufferPool___c* getStaticF___9();
@@ -85,13 +85,13 @@ public:
   /// @brief Field s_BufferPool, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_BufferPool, put = setStaticF_s_BufferPool)) ::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::CommandBuffer*>* s_BufferPool;
 
-  /// @brief Method Get, addr 0x6ba90c8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x6baa1a8, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::CommandBuffer* Get();
 
-  /// @brief Method Get, addr 0x6ba917c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x6baa25c, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::CommandBuffer* Get(::StringW name);
 
-  /// @brief Method Release, addr 0x6ba921c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x6baa2fc, size 0x88, virtual false, abstract: false, final false
   static inline void Release(::UnityEngine::Rendering::CommandBuffer* buffer);
 
   static inline ::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::CommandBuffer*>* getStaticF_s_BufferPool();

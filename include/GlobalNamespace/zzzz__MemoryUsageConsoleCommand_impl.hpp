@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MemoryUsageConsoleCommand::*)()>(&::GlobalNamespace::MemoryUsageConsoleCommand::get_commandName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3588708;
+  constexpr static std::size_t addrs = 0x358b87c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MemoryUsageConsoleCommand::*)()>(&::GlobalNamespace::MemoryUsageConsoleCommand::get_description)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x358874c;
+  constexpr static std::size_t addrs = 0x358b8c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::MemoryUsageConsoleCommand::*)(::System::Collections::Generic::List_1<::GlobalNamespace::ConsoleMessage>*)>(&::GlobalNamespace::MemoryUsageConsoleCommand::ExecuteAsync)> {
   constexpr static std::size_t size = 0x5c8;
-  constexpr static std::size_t addrs = 0x3588790;
+  constexpr static std::size_t addrs = 0x358b904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(int64_t)>(&::GlobalNamespace::MemoryUsageConsoleCommand::ToMebibytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3588d58;
+  constexpr static std::size_t addrs = 0x358becc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MemoryUsageConsoleCommand::*)()>(&::GlobalNamespace::MemoryUsageConsoleCommand::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3588d60;
+  constexpr static std::size_t addrs = 0x358bed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MemoryUsageConsoleCommand*>(), { ".ctor", {}, {} })));

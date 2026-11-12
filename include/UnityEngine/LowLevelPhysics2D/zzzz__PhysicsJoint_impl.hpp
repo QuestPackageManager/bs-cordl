@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::LowLevelPhysics2D::PhysicsJoint::*)()>(&::UnityEngine::LowLevelPhysics2D::PhysicsJoint::ToString)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x7010a3c;
+  constexpr static std::size_t addrs = 0x7011b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::LowLevelPhysics2D::PhysicsJoint::*)(::System::Object*)>(&::UnityEngine::LowLevelPhysics2D::PhysicsJoint::Equals)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x7010d0c;
+  constexpr static std::size_t addrs = 0x7011dec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::LowLevelPhysics2D::PhysicsJoint::*)(::UnityEngine::LowLevelPhysics2D::PhysicsJoint)>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsJoint::Equals)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x7010d74;
+  constexpr static std::size_t addrs = 0x7011e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::LowLevelPhysics2D::PhysicsJoint::*)()>(&::UnityEngine::LowLevelPhysics2D::PhysicsJoint::GetHashCode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x7010dac;
+  constexpr static std::size_t addrs = 0x7011e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::LowLevelPhysics2D::PhysicsJoint::*)()>(&::UnityEngine::LowLevelPhysics2D::PhysicsJoint::get_isValid)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x7010c80;
+  constexpr static std::size_t addrs = 0x7011d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsJoint>(), { "get_isValid", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::LowLevelPhysics2D::PhysicsJoint_JointType (::UnityEngine::LowLevelPhysics2D::PhysicsJoint::*)()>(
     &::UnityEngine::LowLevelPhysics2D::PhysicsJoint::get_jointType)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7010cc8;
+  constexpr static std::size_t addrs = 0x7011da8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsJoint>(), { "get_jointType", {}, {} })));
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::UnityEngine::LowLevelPhysics2D::PhysicsJoint::*)()>(&::UnityEngine::LowLevelPhysics2D::PhysicsJoint::get_callbackTarget)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x7010e34;
+  constexpr static std::size_t addrs = 0x7011f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::LowLevelPhysics2D::PhysicsJoint>(), { "get_callbackTarget", {}, {} })));

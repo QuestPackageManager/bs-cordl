@@ -33,36 +33,36 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e7e300, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f3e0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::UnityEngine::XR::OpenXR::NativeTypes::XrFutureStateEXT state);
 
-  /// @brief Method .ctor, addr 0x6e7e2c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f3a0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrFutureStateEXT state);
 
-  /// @brief Method get_defaultValue, addr 0x6e7b4d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_defaultValue, addr 0x6e7c5b4, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::OpenXR::NativeTypes::XrFuturePollResultEXT get_defaultValue();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e7e2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e7f3c0, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_state, addr 0x6e7e2f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x6e7f3d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrFutureStateEXT get_state();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e7e2d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e7f3b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   /// [CompilerGenerated]
-  /// @brief Method set_next, addr 0x6e7e2e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_next, addr 0x6e7f3c8, size 0x8, virtual false, abstract: false, final false
   inline void set_next(void* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_state, addr 0x6e7e2f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_state, addr 0x6e7f3d8, size 0x8, virtual false, abstract: false, final false
   inline void set_state(::UnityEngine::XR::OpenXR::NativeTypes::XrFutureStateEXT value);
 
   // Ctor Parameters []
@@ -76,7 +76,7 @@ public:
                                   ::UnityEngine::XR::OpenXR::NativeTypes::XrFutureStateEXT _state_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17567 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17575 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

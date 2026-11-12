@@ -24,17 +24,17 @@ public:
 
   __declspec(property(get = get_useMipmapLimit)) bool useMipmapLimit;
 
-  /// @brief Method .ctor, addr 0x6f5d4a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f5e584, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool useMipmapLimit, ::StringW groupName);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_groupName, addr 0x6f5d49c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupName, addr 0x6f5e57c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groupName();
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_useMipmapLimit, addr 0x6f5d494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useMipmapLimit, addr 0x6f5e574, size 0x8, virtual false, abstract: false, final false
   inline bool get_useMipmapLimit();
 
   // Ctor Parameters []

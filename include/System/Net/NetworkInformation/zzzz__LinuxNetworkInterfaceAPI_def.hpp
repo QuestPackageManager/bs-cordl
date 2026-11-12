@@ -27,18 +27,18 @@ namespace System::Net::NetworkInformation {
 class CORDL_TYPE LinuxNetworkInterfaceAPI : public ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI {
 public:
   // Declarations
-  /// @brief Method FreeInterfaceAddresses, addr 0x67b96dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FreeInterfaceAddresses, addr 0x67b9d2c, size 0x4, virtual false, abstract: false, final false
   static inline void FreeInterfaceAddresses(::System::IntPtr ifap);
 
-  /// @brief Method GetAllNetworkInterfaces, addr 0x67b97dc, size 0xae8, virtual true, abstract: false, final false
+  /// @brief Method GetAllNetworkInterfaces, addr 0x67b9e2c, size 0xae8, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
 
-  /// @brief Method GetInterfaceAddresses, addr 0x67b975c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetInterfaceAddresses, addr 0x67b9dac, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetInterfaceAddresses(::by_ref<::System::IntPtr> ifap);
 
   static inline ::System::Net::NetworkInformation::LinuxNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67ba3a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ba9f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

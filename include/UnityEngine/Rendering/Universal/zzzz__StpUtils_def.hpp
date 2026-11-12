@@ -47,16 +47,16 @@ public:
   /// @brief Field s_JitterFunc, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_JitterFunc, put = setStaticF_s_JitterFunc)) ::UnityEngine::Rendering::Universal::TemporalAA_JitterFunc* s_JitterFunc;
 
-  /// @brief Method CalculateJitter, addr 0x6d322d8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CalculateJitter, addr 0x6d333b8, size 0x80, virtual false, abstract: false, final false
   static inline void CalculateJitter(int32_t frameIndex, ::by_ref<::UnityEngine::Vector2> jitter, ::by_ref<bool> allowScaling);
 
-  /// @brief Method Execute, addr 0x6d329b4, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x6d33a94, size 0x2d0, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::Universal::UniversalResourceData* resourceData,
                              ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputColor,
                              ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputDepth, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputMotion,
                              ::UnityEngine::Rendering::RenderGraphModule::TextureHandle destination, ::UnityEngine::Texture2D* noiseTexture);
 
-  /// @brief Method PopulateStpConfig, addr 0x6d32358, size 0x61c, virtual false, abstract: false, final false
+  /// @brief Method PopulateStpConfig, addr 0x6d33438, size 0x61c, virtual false, abstract: false, final false
   static inline void PopulateStpConfig(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputColor,
                                        ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputDepth, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle inputMotion,
                                        int32_t debugViewIndex, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle debugView,

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCameraController::*)()>(&::GlobalNamespace::SmoothCameraController::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4faa4;
+  constexpr static std::size_t addrs = 0x5e4fed4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCameraController*>(), { "Start", {}, {} })));
@@ -21,10 +21,23 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCameraController::*)()>(&::GlobalNamespace::SmoothCameraController::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4fb34;
+  constexpr static std::size_t addrs = 0x5e4ff70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCameraController*>(), { "OnDestroy", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SmoothCameraController.SetOverrideWithExternalCamera
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCameraController::*)(bool)>(&::GlobalNamespace::SmoothCameraController::SetOverrideWithExternalCamera)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x5e4ff74;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCameraController*>(), { "SetOverrideWithExternalCamera", {}, { ::i2c::type_of<bool>() } })));
     return ___internal_method;
   }
 };
@@ -33,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCameraController::*)()>(&::GlobalNamespace::SmoothCameraController::HandleDidActivate)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x5e4fb38;
+  constexpr static std::size_t addrs = 0x5e4ff9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCameraController*>(), { "HandleDidActivate", {}, {} })));
@@ -45,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCameraController::*)()>(&::GlobalNamespace::SmoothCameraController::HandleDidDeactivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4fb78;
+  constexpr static std::size_t addrs = 0x5e4ffdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCameraController*>(), { "HandleDidDeactivate", {}, {} })));
@@ -56,8 +69,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCameraController::*)()>(&::GlobalNamespace::SmoothCameraController::ActivateSmoothCameraIfNeeded)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5e4faa8;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5e4fed8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCameraController*>(), { "ActivateSmoothCameraIfNeeded", {}, {} })));
@@ -69,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SmoothCameraController::*)()>(&::GlobalNamespace::SmoothCameraController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4fb7c;
+  constexpr static std::size_t addrs = 0x5e4ffe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCameraController*>(), { ".ctor", {}, {} })));
@@ -100,6 +113,18 @@ constexpr void GlobalNamespace::SmoothCameraController::__cordl_internal_set__se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____settingsManager = value;
 }
+constexpr bool& GlobalNamespace::SmoothCameraController::__cordl_internal_get__isOverriddenByExternalCamera() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isOverriddenByExternalCamera;
+}
+constexpr bool const& GlobalNamespace::SmoothCameraController::__cordl_internal_get__isOverriddenByExternalCamera() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isOverriddenByExternalCamera;
+}
+constexpr void GlobalNamespace::SmoothCameraController::__cordl_internal_set__isOverriddenByExternalCamera(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____isOverriddenByExternalCamera = value;
+}
 inline void GlobalNamespace::SmoothCameraController::Start() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCameraController*>(), { "Start", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
@@ -107,6 +132,11 @@ inline void GlobalNamespace::SmoothCameraController::Start() {
 inline void GlobalNamespace::SmoothCameraController::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCameraController*>(), { "OnDestroy", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
+}
+inline void GlobalNamespace::SmoothCameraController::SetOverrideWithExternalCamera(bool isOverridden) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCameraController*>(), { "SetOverrideWithExternalCamera", {}, { ::i2c::type_of<bool>() } })));
+  return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, isOverridden);
 }
 inline void GlobalNamespace::SmoothCameraController::HandleDidActivate() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SmoothCameraController*>(), { "HandleDidActivate", {}, {} })));

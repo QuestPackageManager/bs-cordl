@@ -88,33 +88,33 @@ public:
   /// @brief Field m_ScaledDimensions, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ScaledDimensions, put = __cordl_internal_set_m_ScaledDimensions)) ::UnityEngine::VFX::Utility::ExposedProperty* m_ScaledDimensions;
 
-  /// @brief Method IsValid, addr 0x6cb18b0, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x6cb2990, size 0x274, virtual true, abstract: false, final false
   inline bool IsValid(::UnityEngine::VFX::VisualEffect* component);
 
   static inline ::UnityEngine::VFX::Utility::URPCameraBinder* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x6cb1604, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6cb26e4, size 0x158, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x6cb14b0, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6cb2590, size 0x154, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x6cb175c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x6cb283c, size 0x154, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RequestHistoryAccess, addr 0x6cb1368, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method RequestHistoryAccess, addr 0x6cb2448, size 0x148, virtual false, abstract: false, final false
   static inline void RequestHistoryAccess(::UnityEngine::Rendering::IPerFrameHistoryAccessTracker* access);
 
-  /// @brief Method SetCameraProperty, addr 0x6cb0f28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetCameraProperty, addr 0x6cb2008, size 0x28, virtual false, abstract: false, final false
   inline void SetCameraProperty(::StringW name);
 
-  /// @brief Method ToString, addr 0x6cb21d4, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6cb32b4, size 0x17c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateBinding, addr 0x6cb1b24, size 0x6b0, virtual true, abstract: false, final false
+  /// @brief Method UpdateBinding, addr 0x6cb2c04, size 0x6b0, virtual true, abstract: false, final false
   inline void UpdateBinding(::UnityEngine::VFX::VisualEffect* component);
 
-  /// @brief Method UpdateSubProperties, addr 0x6cb0f50, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method UpdateSubProperties, addr 0x6cb2030, size 0x418, virtual false, abstract: false, final false
   inline void UpdateSubProperties();
 
   constexpr ::UnityW<::UnityEngine::Rendering::Universal::UniversalAdditionalCameraData> const& __cordl_internal_get_AdditionalData() const;
@@ -219,7 +219,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ScaledDimensions(::UnityEngine::VFX::Utility::ExposedProperty* value);
 
-  /// @brief Method .ctor, addr 0x6cb2350, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cb3430, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

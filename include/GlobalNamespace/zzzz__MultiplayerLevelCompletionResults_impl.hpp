@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState (::GlobalNamespace::MultiplayerLevelCompletionResults::*)()>(
     &::GlobalNamespace::MultiplayerLevelCompletionResults::get_playerLevelEndState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3560aa4;
+  constexpr static std::size_t addrs = 0x3563b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndReason (
     ::GlobalNamespace::MultiplayerLevelCompletionResults::*)()>(&::GlobalNamespace::MultiplayerLevelCompletionResults::get_playerLevelEndReason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3560aac;
+  constexpr static std::size_t addrs = 0x3563b2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LevelCompletionResults* (::GlobalNamespace::MultiplayerLevelCompletionResults::*)()>(
     &::GlobalNamespace::MultiplayerLevelCompletionResults::get_levelCompletionResults)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3560ab4;
+  constexpr static std::size_t addrs = 0x3563b34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerLevelCompletionResults::*)()>(&::GlobalNamespace::MultiplayerLevelCompletionResults::get_hasAnyResults)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3560abc;
+  constexpr static std::size_t addrs = 0x3563b3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLevelCompletionResults*>(), { "get_hasAnyResults", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerLevelCompletionResults::*)()>(&::GlobalNamespace::MultiplayerLevelCompletionResults::get_songWasFinished)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3560ad8;
+  constexpr static std::size_t addrs = 0x3563b58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MultiplayerLevelCompletionResults::*)()>(&::GlobalNamespace::MultiplayerLevelCompletionResults::get_failedOrGivenUp)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3560ae8;
+  constexpr static std::size_t addrs = 0x3563b68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLevelCompletionResults::*)()>(&::GlobalNamespace::MultiplayerLevelCompletionResults::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3560afc;
+  constexpr static std::size_t addrs = 0x3563b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLevelCompletionResults*>(), { ".ctor", {}, {} })));
@@ -153,7 +153,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState, ::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndReason,
     ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::MultiplayerLevelCompletionResults::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3560b00;
+  constexpr static std::size_t addrs = 0x3563b80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLevelCompletionResults*>(),
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MultiplayerLevelCompletionResults::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::MultiplayerLevelCompletionResults::Serialize)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3560b0c;
+  constexpr static std::size_t addrs = 0x3563b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::MultiplayerLevelCompletionResults* (
     ::GlobalNamespace::MultiplayerLevelCompletionResults::*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::MultiplayerLevelCompletionResults::CreateFromSerializedData)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3560b98;
+  constexpr static std::size_t addrs = 0x3563c18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MultiplayerLevelCompletionResults*>(),
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::MultiplayerLevelCompletionResults::*)(::System::Object*)>(
     &::GlobalNamespace::MultiplayerLevelCompletionResults::CompareTo)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3560c40;
+  constexpr static std::size_t addrs = 0x3563cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState)>(
     &::GlobalNamespace::MultiplayerLevelCompletionResults::HasAnyResult)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3560acc;
+  constexpr static std::size_t addrs = 0x3563b4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

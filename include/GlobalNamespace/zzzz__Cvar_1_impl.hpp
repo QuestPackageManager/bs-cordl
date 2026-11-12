@@ -14,19 +14,19 @@ template <typename T> inline void GlobalNamespace::Cvar_1___c<T>::setStaticF___9
 template <typename T> inline ::GlobalNamespace::Cvar_1___c<T>* GlobalNamespace::Cvar_1___c<T>::getStaticF___9() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::Cvar_1___c<T>*, "<>9", ::GlobalNamespace::Cvar_1___c<T>*>();
 }
-template <typename T> inline void GlobalNamespace::Cvar_1___c<T>::setStaticF___9__6_0(::System::Func_2<::System::Type*, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::System::Type*, bool>*, "<>9__6_0", ::GlobalNamespace::Cvar_1___c<T>*>(std::forward<::System::Func_2<::System::Type*, bool>*>(value));
+template <typename T> inline void GlobalNamespace::Cvar_1___c<T>::setStaticF___9__8_0(::System::Func_2<::System::Type*, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Type*, bool>*, "<>9__8_0", ::GlobalNamespace::Cvar_1___c<T>*>(std::forward<::System::Func_2<::System::Type*, bool>*>(value));
 }
-template <typename T> inline ::System::Func_2<::System::Type*, bool>* GlobalNamespace::Cvar_1___c<T>::getStaticF___9__6_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::System::Type*, bool>*, "<>9__6_0", ::GlobalNamespace::Cvar_1___c<T>*>();
+template <typename T> inline ::System::Func_2<::System::Type*, bool>* GlobalNamespace::Cvar_1___c<T>::getStaticF___9__8_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Type*, bool>*, "<>9__8_0", ::GlobalNamespace::Cvar_1___c<T>*>();
 }
 template <typename T> inline void GlobalNamespace::Cvar_1___c<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Cvar_1___c<T>*>(), { ".ctor", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method);
 }
-template <typename T> inline bool GlobalNamespace::Cvar_1___c<T>::_Reset_b__6_0(::System::Type* t) {
+template <typename T> inline bool GlobalNamespace::Cvar_1___c<T>::_EnsureAllCvarsRegistered_b__8_0(::System::Type* t) {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Cvar_1___c<T>*>(), { "<Reset>b__6_0", {}, { ::i2c::type_of<::System::Type*>() } })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Cvar_1___c<T>*>(), { "<EnsureAllCvarsRegistered>b__8_0", {}, { ::i2c::type_of<::System::Type*>() } })));
   return ::cordl_internals::RunMethodRethrow<bool>(this, ___internal_method, t);
 }
 template <typename T> inline ::GlobalNamespace::Cvar_1___c<T>* GlobalNamespace::Cvar_1___c<T>::New_ctor() {
@@ -53,6 +53,12 @@ template <typename T> inline void GlobalNamespace::Cvar_1<T>::setStaticF__cvars(
 template <typename T> inline ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::Cvar_1<T>*>* GlobalNamespace::Cvar_1<T>::getStaticF__cvars() {
   return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::Cvar_1<T>*>*, "_cvars", ::GlobalNamespace::Cvar_1<T>*>();
 }
+template <typename T> inline void GlobalNamespace::Cvar_1<T>::setStaticF__areAllCvarsRegistered(bool value) {
+  ::cordl_internals::setStaticField<bool, "_areAllCvarsRegistered", ::GlobalNamespace::Cvar_1<T>*>(std::forward<bool>(value));
+}
+template <typename T> inline bool GlobalNamespace::Cvar_1<T>::getStaticF__areAllCvarsRegistered() {
+  return ::cordl_internals::getStaticField<bool, "_areAllCvarsRegistered", ::GlobalNamespace::Cvar_1<T>*>();
+}
 template <typename T> inline T GlobalNamespace::Cvar_1<T>::get_initialValue() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Cvar_1<T>*>(), { "get_initialValue", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<T>(this, ___internal_method);
@@ -63,6 +69,10 @@ template <typename T> inline ::System::Collections::Generic::IReadOnlyDictionary
 }
 template <typename T> inline void GlobalNamespace::Cvar_1<T>::Reset() {
   static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Cvar_1<T>*>(), { "Reset", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
+}
+template <typename T> inline void GlobalNamespace::Cvar_1<T>::EnsureAllCvarsRegistered() {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::Cvar_1<T>*>(), { "EnsureAllCvarsRegistered", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(nullptr, ___internal_method);
 }
 template <typename T> inline void GlobalNamespace::Cvar_1<T>::_ctor(::StringW name, T initialValue) {

@@ -29,10 +29,10 @@ public:
   /// @brief Field s_RTHandleWrapper, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_RTHandleWrapper, put = setStaticF_s_RTHandleWrapper)) ::UnityEngine::Rendering::RTHandle* s_RTHandleWrapper;
 
-  /// @brief Method SetRTHandleStaticWrapper, addr 0x6c04238, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetRTHandleStaticWrapper, addr 0x6c05318, size 0xcc, virtual false, abstract: false, final false
   static inline void SetRTHandleStaticWrapper(::UnityEngine::Rendering::RenderTargetIdentifier rtId);
 
-  /// @brief Method SetRTHandleUserManagedWrapper, addr 0x6c043a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetRTHandleUserManagedWrapper, addr 0x6c05488, size 0x30, virtual false, abstract: false, final false
   static inline void SetRTHandleUserManagedWrapper(::by_ref<::UnityEngine::Rendering::RTHandle*> rtWrapper, ::UnityEngine::Rendering::RenderTargetIdentifier rtId);
 
   static inline ::UnityEngine::Rendering::RTHandle* getStaticF_s_RTHandleWrapper();

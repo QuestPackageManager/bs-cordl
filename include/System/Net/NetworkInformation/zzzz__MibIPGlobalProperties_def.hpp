@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_UdpFile(::StringW value);
 
-  /// @brief Method .ctor, addr 0x67bba3c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67bc08c, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::StringW procDir);
 
   static inline ::ArrayW<char16_t> getStaticF_wsChars();

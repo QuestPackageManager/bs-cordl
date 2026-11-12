@@ -52,11 +52,11 @@ public:
 
   __declspec(property(get = get_useModernHangulLineBreakingRules)) bool useModernHangulLineBreakingRules;
 
-  /// @brief Method GetCharacters, addr 0x70a51a0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetCharacters, addr 0x70a6280, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<uint32_t>* GetCharacters(::UnityEngine::TextAsset* file);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.UIElementsModule" })]
-  /// @brief Method LoadLineBreakingRules, addr 0x70a4f80, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method LoadLineBreakingRules, addr 0x70a6060, size 0x1f4, virtual false, abstract: false, final false
   inline void LoadLineBreakingRules();
 
   static inline ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* New_ctor();
@@ -97,16 +97,16 @@ public:
 
   constexpr void __cordl_internal_set_m_UseModernHangulLineBreakingRules(bool value);
 
-  /// @brief Method .ctor, addr 0x70a5294, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x70a6374, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_followingCharactersLookup, addr 0x70a5174, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_followingCharactersLookup, addr 0x70a6254, size 0x24, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<uint32_t>* get_followingCharactersLookup();
 
-  /// @brief Method get_leadingCharactersLookup, addr 0x70a4f5c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_leadingCharactersLookup, addr 0x70a603c, size 0x24, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<uint32_t>* get_leadingCharactersLookup();
 
-  /// @brief Method get_useModernHangulLineBreakingRules, addr 0x70a5198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useModernHangulLineBreakingRules, addr 0x70a6278, size 0x8, virtual false, abstract: false, final false
   inline bool get_useModernHangulLineBreakingRules();
 
 protected:
@@ -124,7 +124,7 @@ public:
   UnicodeLineBreakingRules(UnicodeLineBreakingRules const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17917 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17925 };
 
   /// [SerializeField]
   /// @brief Field m_UnicodeLineBreakingRules, offset: 0x10, size: 0x8, def value: None

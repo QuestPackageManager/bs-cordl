@@ -41,24 +41,24 @@ public:
 
   __declspec(property(get = get_directory)) ::StringW directory;
 
-  /// @brief Method ConvertRenderTexture, addr 0x5d3d220, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ConvertRenderTexture, addr 0x5d3ce80, size 0xfc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
 
-  /// @brief Method HandleTexturesReady, addr 0x5d3d060, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HandleTexturesReady, addr 0x5d3ccc0, size 0x78, virtual false, abstract: false, final false
   inline void HandleTexturesReady();
 
-  /// @brief Method Init, addr 0x5d3b734, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5d3b394, size 0x130, virtual false, abstract: false, final false
   inline void Init(::StringW directory, int32_t framerate, ::GlobalNamespace::PlaybackRenderer* playbackRenderer);
 
   static inline ::GlobalNamespace::PlaybackScreenshotRecorder* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x5d3cfd4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5d3cc34, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5d3cf48, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5d3cba8, size 0x8c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SaveScreenshot, addr 0x5d3d0d8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SaveScreenshot, addr 0x5d3cd38, size 0x148, virtual false, abstract: false, final false
   inline void SaveScreenshot(::UnityEngine::RenderTexture* renderTexture, ::StringW directory);
 
   constexpr ::StringW const& __cordl_internal_get__directory() const;
@@ -79,10 +79,10 @@ public:
 
   constexpr void __cordl_internal_set__playbackRenderer(::UnityW<::GlobalNamespace::PlaybackRenderer> value);
 
-  /// @brief Method .ctor, addr 0x5d3d31c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d3cf7c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_directory, addr 0x5d3cf40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_directory, addr 0x5d3cba0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_directory();
 
 protected:
@@ -100,7 +100,7 @@ public:
   PlaybackScreenshotRecorder(PlaybackScreenshotRecorder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6696 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6695 };
 
   /// [SerializeField]
   /// @brief Field _directory, offset: 0x20, size: 0x8, def value: None

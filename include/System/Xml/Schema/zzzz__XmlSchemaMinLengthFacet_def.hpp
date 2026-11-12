@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaMinLengthFacet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6695f20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6696570, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

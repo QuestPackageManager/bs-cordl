@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::*)()>(
     &::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::get_startControlPoint)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x35d71bc;
+  constexpr static std::size_t addrs = 0x35db614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::*)(::UnityEngine::Vector3)>(
     &::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::set_startControlPoint)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x35d71ec;
+  constexpr static std::size_t addrs = 0x35db644;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::*)()>(
     &::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::get_endControlPoint)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x35d7238;
+  constexpr static std::size_t addrs = 0x35db690;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::*)(::UnityEngine::Vector3)>(
     &::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::set_endControlPoint)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x35d7268;
+  constexpr static std::size_t addrs = 0x35db6c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::*)()>(&::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x35d72b4;
+  constexpr static std::size_t addrs = 0x35db70c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData*>(), { ".ctor", {}, {} })));

@@ -186,31 +186,31 @@ public:
   /// @brief Field values, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values)) ::System::Collections::IList* values;
 
-  /// @brief Method AppendValue, addr 0x39213f0, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method AppendValue, addr 0x3925888, size 0x2c4, virtual false, abstract: false, final false
   inline void AppendValue(::System::Text::StringBuilder* buf, ::System::Collections::IDictionary* oidSymbols, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW val);
 
-  /// @brief Method DecodeOid, addr 0x391f788, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method DecodeOid, addr 0x3923c20, size 0x268, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DecodeOid(::StringW name, ::System::Collections::IDictionary* lookUp);
 
-  /// @brief Method Equivalent, addr 0x39208c0, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method Equivalent, addr 0x3924d58, size 0x5fc, virtual false, abstract: false, final false
   inline bool Equivalent(::Org::BouncyCastle::Asn1::X509::X509Name* other);
 
-  /// @brief Method Equivalent, addr 0x3920460, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method Equivalent, addr 0x39248f8, size 0x460, virtual false, abstract: false, final false
   inline bool Equivalent(::Org::BouncyCastle::Asn1::X509::X509Name* other, bool inOrder);
 
-  /// @brief Method GetInstance, addr 0x3909278, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x390d710, size 0x7c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x3909450, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x390d8e8, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetOidList, addr 0x391fc4c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetOidList, addr 0x39240e4, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IList* GetOidList();
 
-  /// @brief Method GetValueList, addr 0x391fcac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetValueList, addr 0x3924144, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* GetValueList();
 
-  /// @brief Method GetValueList, addr 0x391fcb4, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method GetValueList, addr 0x392414c, size 0x2f8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* GetValueList(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* New_ctor();
@@ -240,13 +240,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x391ffac, size 0x4b4, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3924444, size 0x4b4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString, addr 0x3921c78, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3926110, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x39216b4, size 0x5c4, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3925b4c, size 0x5c4, virtual false, abstract: false, final false
   inline ::StringW ToString(bool reverse, ::System::Collections::IDictionary* oidSymbols);
 
   constexpr ::System::Collections::IList* const& __cordl_internal_get_added() const;
@@ -279,49 +279,49 @@ public:
 
   constexpr void __cordl_internal_set_values(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x391df4c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39223e4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3908bf8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x390d090, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW dirName);
 
-  /// @brief Method .ctor, addr 0x391ebac, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3923044, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW dirName, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
-  /// @brief Method .ctor, addr 0x391e654, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3922aec, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* oids, ::System::Collections::IList* values);
 
-  /// @brief Method .ctor, addr 0x391e6c0, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3922b58, size 0x470, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* oids, ::System::Collections::IList* values, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
-  /// @brief Method .ctor, addr 0x391dfc4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x392245c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* ordering, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method .ctor, addr 0x391e030, size 0x624, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39224c8, size 0x624, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* ordering, ::System::Collections::IDictionary* attributes, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
-  /// @brief Method .ctor, addr 0x391f680, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3923b18, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(bool reverse, ::StringW dirName);
 
-  /// @brief Method .ctor, addr 0x391f6fc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3923b94, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(bool reverse, ::StringW dirName, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
-  /// @brief Method .ctor, addr 0x391eb30, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3922fc8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(bool reverse, ::System::Collections::IDictionary* lookUp, ::StringW dirName);
 
-  /// @brief Method .ctor, addr 0x391ec30, size 0xa50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39230c8, size 0xa50, virtual false, abstract: false, final false
   inline void _ctor(bool reverse, ::System::Collections::IDictionary* lookUp, ::StringW dirName, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
-  /// @brief Method .ctor, addr 0x391d654, size 0x8f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3921aec, size 0x8f8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method canonicalize, addr 0x3920f98, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method canonicalize, addr 0x3925430, size 0x1dc, virtual false, abstract: false, final false
   static inline ::StringW canonicalize(::StringW s);
 
-  /// @brief Method decodeObject, addr 0x3921280, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method decodeObject, addr 0x3925718, size 0x170, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* decodeObject(::StringW v);
 
-  /// @brief Method equivalentStrings, addr 0x3920ebc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method equivalentStrings, addr 0x3925354, size 0xdc, virtual false, abstract: false, final false
   static inline bool equivalentStrings(::StringW s1, ::StringW s2);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BusinessCategory();
@@ -404,7 +404,7 @@ public:
 
   static inline ::ArrayW<bool> getStaticF_defaultReverse();
 
-  /// @brief Method get_DefaultReverse, addr 0x391baac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultReverse, addr 0x391ff44, size 0x74, virtual false, abstract: false, final false
   static inline bool get_DefaultReverse();
 
   static inline void setStaticF_BusinessCategory(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
@@ -487,10 +487,10 @@ public:
 
   static inline void setStaticF_defaultReverse(::ArrayW<bool> value);
 
-  /// @brief Method set_DefaultReverse, addr 0x391bb20, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultReverse, addr 0x391ffb8, size 0x7c, virtual false, abstract: false, final false
   static inline void set_DefaultReverse(bool value);
 
-  /// @brief Method stripInternalSpaces, addr 0x3921174, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method stripInternalSpaces, addr 0x392560c, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW stripInternalSpaces(::StringW str);
 
 protected:

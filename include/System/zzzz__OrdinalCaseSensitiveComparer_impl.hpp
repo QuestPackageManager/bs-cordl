@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::OrdinalCaseSensitiveComparer::*)()>(&::System::OrdinalCaseSensitiveComparer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x60b44b4;
+  constexpr static std::size_t addrs = 0x60b473c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::OrdinalCaseSensitiveComparer*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::OrdinalCaseSensitiveComparer::*)(::StringW, ::StringW)>(&::System::OrdinalCaseSensitiveComparer::Compare)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60b4d6c;
+  constexpr static std::size_t addrs = 0x60b4ff4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::OrdinalCaseSensitiveComparer::*)(::StringW, ::StringW)>(&::System::OrdinalCaseSensitiveComparer::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x60b4d7c;
+  constexpr static std::size_t addrs = 0x60b5004;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::OrdinalCaseSensitiveComparer::*)(::StringW)>(&::System::OrdinalCaseSensitiveComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x60b4d8c;
+  constexpr static std::size_t addrs = 0x60b5014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::OrdinalCaseSensitiveComparer::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::OrdinalCaseSensitiveComparer::GetObjectData)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x60b4db0;
+  constexpr static std::size_t addrs = 0x60b5038;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

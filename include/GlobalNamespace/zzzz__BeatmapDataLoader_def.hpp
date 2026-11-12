@@ -155,10 +155,10 @@ public:
 
   static inline ::GlobalNamespace::BeatmapDataLoader___c* New_ctor();
 
-  /// @brief Method <CreateOrGetTransformedBeatmapDataAsync>b__8_0, addr 0x39bf684, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <CreateOrGetTransformedBeatmapDataAsync>b__8_0, addr 0x39c3c60, size 0x28, virtual false, abstract: false, final false
   inline void _CreateOrGetTransformedBeatmapDataAsync_b__8_0(/* [Nullable(new[] { 0, 2 })] */ ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* t);
 
-  /// @brief Method .ctor, addr 0x39bf680, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c3c5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BeatmapDataLoader___c* getStaticF___9();
@@ -184,7 +184,7 @@ public:
   BeatmapDataLoader___c(BeatmapDataLoader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -203,11 +203,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39bf6ac, size 0x8ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39c3c88, size 0x8ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39bff98, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39c4574, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -241,7 +241,7 @@ public:
                                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14349 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };
@@ -349,11 +349,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39c0018, size 0x768, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39c45f4, size 0x768, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39c0804, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39c4de0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -383,7 +383,7 @@ public:
                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14350 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
@@ -485,11 +485,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39c0884, size 0x3c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39c4e60, size 0x3c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39c0c4c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39c5228, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -511,7 +511,7 @@ public:
                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14351 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -573,11 +573,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39c0ccc, size 0x53c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39c52a8, size 0x53c, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39c1208, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39c57e4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -597,7 +597,7 @@ public:
                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14351 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14352 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -648,11 +648,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39c1288, size 0x9d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39c5864, size 0x9d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39c1d90, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39c636c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -682,7 +682,7 @@ public:
                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14353 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x88 };
@@ -783,11 +783,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39c1e10, size 0x5f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39c63ec, size 0x5f8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39c2408, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39c69e4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -819,7 +819,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Version*> __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapData*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14354 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa8 };
@@ -966,12 +966,12 @@ public:
   /// @brief Field _lastUsedBeatmapDataCache, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__lastUsedBeatmapDataCache, put = __cordl_internal_set__lastUsedBeatmapDataCache)) ::GlobalNamespace::BeatmapDataCache* _lastUsedBeatmapDataCache;
 
-  /// @brief Method ClearLastUsedBeatmapCache, addr 0x39bf4d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearLastUsedBeatmapCache, addr 0x39c3ab0, size 0x8, virtual false, abstract: false, final false
   inline void ClearLastUsedBeatmapCache();
 
   /// [NullableContext(1)]
   /// [AsyncStateMachine(typeof(BeatmapDataLoader::<CreateOrGetTransformedBeatmapDataAsync>d__8))]
-  /// @brief Method CreateOrGetTransformedBeatmapDataAsync, addr 0x39bf2b8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method CreateOrGetTransformedBeatmapDataAsync, addr 0x39c3894, size 0x158, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*
   CreateOrGetTransformedBeatmapDataAsync(::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                          ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo,
@@ -979,12 +979,12 @@ public:
                                          /* [Nullable(2)] */ ::GlobalNamespace::IBeatmapLevelData* preloadedBeatmapLevelData,
                                          ::System::Nullable_1<::GlobalNamespace::BeatmapLevelDataVersion> beatmapLevelDataVersion);
 
-  /// @brief Method IsCachedEntryStale, addr 0x39bf410, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method IsCachedEntryStale, addr 0x39c39ec, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsCachedEntryStale(/* [Nullable(new[] { 1, 2 })] */ ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* task);
 
   /// [NullableContext(1)]
   /// [AsyncStateMachine(typeof(BeatmapDataLoader::<LoadAndTransformAsync>d__11))]
-  /// @brief Method LoadAndTransformAsync, addr 0x39bf4dc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method LoadAndTransformAsync, addr 0x39c3ab8, size 0x150, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*
   LoadAndTransformAsync(::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                         ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo,
@@ -992,17 +992,17 @@ public:
                         ::GlobalNamespace::BeatmapLevelDataVersion version, bool screenDisplacementEffects);
 
   /// [AsyncStateMachine(typeof(BeatmapDataLoader::<LoadBasicBeatmapDataAsync>d__5))]
-  /// @brief Method LoadBasicBeatmapDataAsync, addr 0x39bef18, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method LoadBasicBeatmapDataAsync, addr 0x39c34f4, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* LoadBasicBeatmapDataAsync(::StringW beatmapJson);
 
   /// [NullableContext(1)]
   /// [AsyncStateMachine(typeof(BeatmapDataLoader::<LoadBasicBeatmapDataAsync>d__4))]
-  /// @brief Method LoadBasicBeatmapDataAsync, addr 0x39bee14, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LoadBasicBeatmapDataAsync, addr 0x39c33f0, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapDataBasicInfo*>* LoadBasicBeatmapDataAsync(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData,
                                                                                                                  ::GlobalNamespace::BeatmapKey beatmapKey);
 
   /// [AsyncStateMachine(typeof(BeatmapDataLoader::<LoadBeatmapDataAsync>d__6))]
-  /// @brief Method LoadBeatmapDataAsync, addr 0x39beff8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapDataAsync, addr 0x39c35d4, size 0x158, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*
   LoadBeatmapDataAsync(/* [Nullable(1)] */ ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::GlobalNamespace::BeatmapKey beatmapKey, float_t startBpm, bool loadingForDesignatedEnvironment,
                        ::GlobalNamespace::IEnvironmentInfo* targetEnvironmentInfo, ::GlobalNamespace::IEnvironmentInfo* originalEnvironmentInfo,
@@ -1010,7 +1010,7 @@ public:
                        ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
   /// [AsyncStateMachine(typeof(BeatmapDataLoader::<LoadBeatmapDataFromJsonAsync>d__7))]
-  /// @brief Method LoadBeatmapDataFromJsonAsync, addr 0x39bf150, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapDataFromJsonAsync, addr 0x39c372c, size 0x168, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*
   LoadBeatmapDataFromJsonAsync(::StringW audioDataJson, ::StringW beatmapJson, ::StringW lightshowDataJson, ::StringW defaultLightshowDataJson, ::GlobalNamespace::BeatmapKey beatmapKey,
                                float_t startBpm, bool loadingForDesignatedEnvironment, ::GlobalNamespace::IEnvironmentInfo* targetEnvironmentInfo,
@@ -1040,7 +1040,7 @@ public:
   constexpr void __cordl_internal_set__lastUsedBeatmapDataCache(::GlobalNamespace::BeatmapDataCache* value);
 
   /// [Inject]
-  /// @brief Method .ctor, addr 0x39bee0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c33e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel);
 
 protected:
@@ -1058,7 +1058,7 @@ public:
   BeatmapDataLoader(BeatmapDataLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14355 };
 
   /// @brief Field _lastUsedBeatmapDataCache, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCache* ____lastUsedBeatmapDataCache;

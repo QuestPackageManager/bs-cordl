@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::Events::PersistentCall::*)()>(&::UnityEngine::Events::PersistentCall::get_target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f9501c;
+  constexpr static std::size_t addrs = 0x6f960fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::PersistentCall*>(), { "get_target", {}, {} })));
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Events::PersistentCall::*)()>(&::UnityEngine::Events::PersistentCall::get_targetAssemblyTypeName)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6f95024;
+  constexpr static std::size_t addrs = 0x6f96104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::PersistentCall*>(), { "get_targetAssemblyTypeName", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::UnityEngine::Events::PersistentCall::*)()>(&::UnityEngine::Events::PersistentCall::get_methodName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f950d8;
+  constexpr static std::size_t addrs = 0x6f961b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::PersistentCall*>(), { "get_methodName", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Events::PersistentListenerMode (::UnityEngine::Events::PersistentCall::*)()>(&::UnityEngine::Events::PersistentCall::get_mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f950e0;
+  constexpr static std::size_t addrs = 0x6f961c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::PersistentCall*>(), { "get_mode", {}, {} })));
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Events::ArgumentCache* (::UnityEngine::Events::PersistentCall::*)()>(&::UnityEngine::Events::PersistentCall::get_arguments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6f950e8;
+  constexpr static std::size_t addrs = 0x6f961c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::PersistentCall*>(), { "get_arguments", {}, {} })));
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Events::PersistentCall::*)()>(&::UnityEngine::Events::PersistentCall::IsValid)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6f950f0;
+  constexpr static std::size_t addrs = 0x6f961d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::PersistentCall*>(), { "IsValid", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Events::BaseInvokableCall* (::UnityEngine::Events::PersistentCall::*)(::UnityEngine::Events::UnityEventBase*)>(
     &::UnityEngine::Events::PersistentCall::GetRuntimeCall)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x6f9512c;
+  constexpr static std::size_t addrs = 0x6f9620c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Events::BaseInvokableCall* (*)(::UnityEngine::Object*, ::System::Reflection::MethodInfo*, ::UnityEngine::Events::ArgumentCache*)>(
     &::UnityEngine::Events::PersistentCall::GetObjectCall)> {
   constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x6f95650;
+  constexpr static std::size_t addrs = 0x6f96730;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Events::PersistentCall::*)()>(&::UnityEngine::Events::PersistentCall::OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6f95aac;
+  constexpr static std::size_t addrs = 0x6f96b8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::PersistentCall*>(), { "OnBeforeSerialize", {}, {} })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Events::PersistentCall::*)()>(&::UnityEngine::Events::PersistentCall::OnAfterDeserialize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6f95ac8;
+  constexpr static std::size_t addrs = 0x6f96ba8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::PersistentCall*>(), { "OnAfterDeserialize", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Events::PersistentCall::*)()>(&::UnityEngine::Events::PersistentCall::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6f95ae4;
+  constexpr static std::size_t addrs = 0x6f96bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Events::PersistentCall*>(), { ".ctor", {}, {} })));

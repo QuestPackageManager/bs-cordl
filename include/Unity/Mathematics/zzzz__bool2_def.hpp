@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_y(bool value);
 
-  /// @brief Method .ctor, addr 0x6a731d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a742b0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::bool2 v);
 
 protected:
@@ -199,175 +199,175 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Mathematics::bool2>"
   constexpr operator ::System::IEquatable_1<::Unity::Mathematics::bool2>*();
 
-  /// @brief Method Equals, addr 0x6a73050, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6a74130, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x6a73024, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6a74104, size 0x2c, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Mathematics::bool2 rhs);
 
-  /// @brief Method GetHashCode, addr 0x6a730e0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6a741c0, size 0x3c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x6a7311c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6a741fc, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x6a72ba0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a73c80, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool v);
 
-  /// @brief Method .ctor, addr 0x6a72b80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a73c60, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool x, bool y);
 
-  /// @brief Method .ctor, addr 0x6a72b8c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a73c6c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::bool2 xy);
 
-  /// @brief Method get_Item, addr 0x6a7300c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6a740ec, size 0x10, virtual false, abstract: false, final false
   inline bool get_Item(int32_t index);
 
-  /// @brief Method get_xx, addr 0x6a72fb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_xx, addr 0x6a74094, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool2 get_xx();
 
-  /// @brief Method get_xxx, addr 0x6a72f04, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_xxx, addr 0x6a73fe4, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool3 get_xxx();
 
-  /// @brief Method get_xxxx, addr 0x6a72d54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_xxxx, addr 0x6a73e34, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 get_xxxx();
 
-  /// @brief Method get_xxxy, addr 0x6a72d6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_xxxy, addr 0x6a73e4c, size 0x1c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 get_xxxy();
 
-  /// @brief Method get_xxy, addr 0x6a72f18, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_xxy, addr 0x6a73ff8, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool3 get_xxy();
 
-  /// @brief Method get_xxyx, addr 0x6a72d88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_xxyx, addr 0x6a73e68, size 0x1c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 get_xxyx();
 
-  /// @brief Method get_xxyy, addr 0x6a72da4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_xxyy, addr 0x6a73e84, size 0x1c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 get_xxyy();
 
-  /// @brief Method get_xy, addr 0x6a72fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xy, addr 0x6a740a0, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool2 get_xy();
 
-  /// @brief Method get_xyx, addr 0x6a72f30, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_xyx, addr 0x6a74010, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool3 get_xyx();
 
-  /// @brief Method get_xyxx, addr 0x6a72dc0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_xyxx, addr 0x6a73ea0, size 0x1c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 get_xyxx();
 
-  /// @brief Method get_xyxy, addr 0x6a72ddc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_xyxy, addr 0x6a73ebc, size 0x1c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 get_xyxy();
 
-  /// @brief Method get_xyy, addr 0x6a72f48, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_xyy, addr 0x6a74028, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool3 get_xyy();
 
-  /// @brief Method get_xyyx, addr 0x6a72df8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_xyyx, addr 0x6a73ed8, size 0x1c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 get_xyyx();
 
-  /// @brief Method get_xyyy, addr 0x6a72e14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_xyyy, addr 0x6a73ef4, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 get_xyyy();
 
-  /// @brief Method get_yx, addr 0x6a72fdc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_yx, addr 0x6a740bc, size 0x10, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool2 get_yx();
 
-  /// @brief Method get_yxx, addr 0x6a72f5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_yxx, addr 0x6a7403c, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool3 get_yxx();
 
-  /// @brief Method get_yxxx, addr 0x6a72e2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_yxxx, addr 0x6a73f0c, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 get_yxxx();
 
-  /// @brief Method get_yxxy, addr 0x6a72e44, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_yxxy, addr 0x6a73f24, size 0x1c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 get_yxxy();
 
-  /// @brief Method get_yxy, addr 0x6a72f70, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_yxy, addr 0x6a74050, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool3 get_yxy();
 
-  /// @brief Method get_yxyx, addr 0x6a72e60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_yxyx, addr 0x6a73f40, size 0x1c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 get_yxyx();
 
-  /// @brief Method get_yxyy, addr 0x6a72e7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_yxyy, addr 0x6a73f5c, size 0x1c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 get_yxyy();
 
-  /// @brief Method get_yy, addr 0x6a73000, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_yy, addr 0x6a740e0, size 0xc, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool2 get_yy();
 
-  /// @brief Method get_yyx, addr 0x6a72f88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_yyx, addr 0x6a74068, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool3 get_yyx();
 
-  /// @brief Method get_yyxx, addr 0x6a72e98, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_yyxx, addr 0x6a73f78, size 0x1c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 get_yyxx();
 
-  /// @brief Method get_yyxy, addr 0x6a72eb4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_yyxy, addr 0x6a73f94, size 0x1c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 get_yyxy();
 
-  /// @brief Method get_yyy, addr 0x6a72fa0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_yyy, addr 0x6a74080, size 0x14, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool3 get_yyy();
 
-  /// @brief Method get_yyyx, addr 0x6a72ed0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_yyyx, addr 0x6a73fb0, size 0x1c, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 get_yyyx();
 
-  /// @brief Method get_yyyy, addr 0x6a72eec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_yyyy, addr 0x6a73fcc, size 0x18, virtual false, abstract: false, final false
   inline ::Unity::Mathematics::bool4 get_yyyy();
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Mathematics::bool2>"
   constexpr ::System::IEquatable_1<::Unity::Mathematics::bool2>* i___System__IEquatable_1___Unity__Mathematics__bool2_();
 
-  /// @brief Method op_BitwiseAnd, addr 0x6a72c94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseAnd, addr 0x6a73d74, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_BitwiseAnd(::Unity::Mathematics::bool2 lhs, ::Unity::Mathematics::bool2 rhs);
 
-  /// @brief Method op_BitwiseAnd, addr 0x6a72ca4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseAnd, addr 0x6a73d84, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_BitwiseAnd(::Unity::Mathematics::bool2 lhs, bool rhs);
 
-  /// @brief Method op_BitwiseAnd, addr 0x6a72cb8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseAnd, addr 0x6a73d98, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_BitwiseAnd(bool lhs, ::Unity::Mathematics::bool2 rhs);
 
-  /// @brief Method op_BitwiseOr, addr 0x6a72ccc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseOr, addr 0x6a73dac, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_BitwiseOr(::Unity::Mathematics::bool2 lhs, ::Unity::Mathematics::bool2 rhs);
 
-  /// @brief Method op_BitwiseOr, addr 0x6a72cdc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseOr, addr 0x6a73dbc, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_BitwiseOr(::Unity::Mathematics::bool2 lhs, bool rhs);
 
-  /// @brief Method op_BitwiseOr, addr 0x6a72cf0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_BitwiseOr, addr 0x6a73dd0, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_BitwiseOr(bool lhs, ::Unity::Mathematics::bool2 rhs);
 
-  /// @brief Method op_Equality, addr 0x6a72bc0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6a73ca0, size 0x18, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_Equality(::Unity::Mathematics::bool2 lhs, ::Unity::Mathematics::bool2 rhs);
 
-  /// @brief Method op_Equality, addr 0x6a72bd8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6a73cb8, size 0x2c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_Equality(::Unity::Mathematics::bool2 lhs, bool rhs);
 
-  /// @brief Method op_Equality, addr 0x6a72c04, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6a73ce4, size 0x2c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_Equality(bool lhs, ::Unity::Mathematics::bool2 rhs);
 
-  /// @brief Method op_ExclusiveOr, addr 0x6a72d04, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_ExclusiveOr, addr 0x6a73de4, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_ExclusiveOr(::Unity::Mathematics::bool2 lhs, ::Unity::Mathematics::bool2 rhs);
 
-  /// @brief Method op_ExclusiveOr, addr 0x6a72d14, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_ExclusiveOr, addr 0x6a73df4, size 0x20, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_ExclusiveOr(::Unity::Mathematics::bool2 lhs, bool rhs);
 
-  /// @brief Method op_ExclusiveOr, addr 0x6a72d34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_ExclusiveOr, addr 0x6a73e14, size 0x20, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_ExclusiveOr(bool lhs, ::Unity::Mathematics::bool2 rhs);
 
-  /// @brief Method op_Implicit, addr 0x6a72bac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6a73c8c, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_Implicit___Unity__Mathematics__bool2(bool v);
 
-  /// @brief Method op_Inequality, addr 0x6a72c30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6a73d10, size 0x10, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_Inequality(::Unity::Mathematics::bool2 lhs, ::Unity::Mathematics::bool2 rhs);
 
-  /// @brief Method op_Inequality, addr 0x6a72c40, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6a73d20, size 0x20, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_Inequality(::Unity::Mathematics::bool2 lhs, bool rhs);
 
-  /// @brief Method op_Inequality, addr 0x6a72c60, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6a73d40, size 0x20, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_Inequality(bool lhs, ::Unity::Mathematics::bool2 rhs);
 
-  /// @brief Method op_LogicalNot, addr 0x6a72c80, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_LogicalNot, addr 0x6a73d60, size 0x14, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::bool2 op_LogicalNot(::Unity::Mathematics::bool2 val);
 
-  /// @brief Method set_Item, addr 0x6a7301c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x6a740fc, size 0x8, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, bool value);
 
-  /// @brief Method set_xy, addr 0x6a72fc8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_xy, addr 0x6a740a8, size 0x14, virtual false, abstract: false, final false
   inline void set_xy(::Unity::Mathematics::bool2 value);
 
-  /// @brief Method set_yx, addr 0x6a72fec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_yx, addr 0x6a740cc, size 0x14, virtual false, abstract: false, final false
   inline void set_yx(::Unity::Mathematics::bool2 value);
 
   // Ctor Parameters []

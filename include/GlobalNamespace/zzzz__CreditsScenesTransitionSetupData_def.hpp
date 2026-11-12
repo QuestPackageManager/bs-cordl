@@ -25,10 +25,10 @@ public:
   /// @brief Field didFinishEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupData*>* didFinishEvent;
 
-  /// @brief Method Finish, addr 0x5d62ed8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x5d624f8, size 0x20, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method Init, addr 0x5d62e18, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5d62438, size 0xc0, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::CreditsScenesTransitionSetupData* New_ctor();
@@ -39,15 +39,15 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupData*>* value);
 
-  /// @brief Method .ctor, addr 0x5d62ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d62518, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didFinishEvent, addr 0x5d62c98, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5d622b8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupData*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didFinishEvent, addr 0x5d62d58, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5d62378, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupData*>* value);
 
 protected:
@@ -65,7 +65,7 @@ public:
   CreditsScenesTransitionSetupData(CreditsScenesTransitionSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6861 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6860 };
 
   /// [CompilerGenerated]
   /// @brief Field didFinishEvent, offset: 0x20, size: 0x8, def value: None

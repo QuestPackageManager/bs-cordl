@@ -35,7 +35,7 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   inline void Unmarshal(::System::Collections::Generic::List_1<T>* list);
 
-  /// @brief Method .ctor, addr 0x6f96f54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f98034, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bindings::BlittableArrayWrapper arrayWrapper, int32_t listSize);
 
   // Ctor Parameters []

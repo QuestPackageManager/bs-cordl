@@ -143,7 +143,7 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::ContextItem*> && ::cordl_internals::default_constructor_constraint<T>)
   inline bool Contains();
 
-  /// @brief Method Contains, addr 0x6ba9738, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x6baa818, size 0x4c, virtual false, abstract: false, final false
   inline bool Contains(uint32_t typeId);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -156,7 +156,7 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Rendering::ContextItem*> && ::cordl_internals::default_constructor_constraint<T>)
   inline T CreateAndGetData(uint32_t typeId);
 
-  /// @brief Method Dispose, addr 0x6ba9784, size 0x17c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6baa864, size 0x17c, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -183,7 +183,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Items(::ArrayW<::UnityEngine::Rendering::ContextContainer_Item> value);
 
-  /// @brief Method .ctor, addr 0x6ba9900, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6baa9e0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline uint32_t getStaticF_s_TypeCount();

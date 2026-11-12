@@ -28,10 +28,10 @@ public:
 
   static inline ::GlobalNamespace::FloatFxGroupEffectCollectionTarget* New_ctor();
 
-  /// @brief Method SetValue, addr 0x5ded4f8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x5ded628, size 0x80, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x5ded578, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x5ded6a8, size 0x80, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>> const& __cordl_internal_get__floatFxGroupEffectTargets() const;
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__floatFxGroupEffectTargets(::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>> value);
 
-  /// @brief Method .ctor, addr 0x5ded5f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ded728, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

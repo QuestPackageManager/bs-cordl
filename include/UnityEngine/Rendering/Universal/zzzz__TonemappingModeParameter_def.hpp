@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::Universal::TonemappingModeParameter* New_ctor(::UnityEngine::Rendering::Universal::TonemappingMode value, bool overrideState);
 
-  /// @brief Method .ctor, addr 0x6cfbf34, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfd014, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::TonemappingMode value, bool overrideState);
 
 protected:

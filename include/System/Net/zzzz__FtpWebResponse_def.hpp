@@ -52,7 +52,7 @@ public:
   // Declarations
   static inline ::System::Net::FtpWebResponse_EmptyStream* New_ctor();
 
-  /// @brief Method .ctor, addr 0x686fee4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6870534, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,19 +126,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x686ff8c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x68705dc, size 0xfc, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetResponseStream, addr 0x686fe80, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetResponseStream, addr 0x68704d0, size 0x64, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetResponseStream();
 
   static inline ::System::Net::FtpWebResponse* New_ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri, ::System::Net::FtpStatusCode statusCode,
                                                         ::StringW statusLine, ::System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage);
 
-  /// @brief Method SetResponseStream, addr 0x686f6c4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetResponseStream, addr 0x686fd14, size 0xa4, virtual false, abstract: false, final false
   inline void SetResponseStream(::System::IO::Stream* stream);
 
-  /// @brief Method UpdateStatus, addr 0x686e064, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UpdateStatus, addr 0x686e6b4, size 0x10, virtual false, abstract: false, final false
   inline void UpdateStatus(::System::Net::FtpStatusCode statusCode, ::StringW statusLine, ::StringW exitMessage);
 
   constexpr ::StringW const& __cordl_internal_get__bannerMessage() const;
@@ -201,17 +201,17 @@ public:
 
   constexpr void __cordl_internal_set__welcomeMessage(::StringW value);
 
-  /// @brief Method .ctor, addr 0x686f768, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x686fdb8, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri, ::System::Net::FtpStatusCode statusCode, ::StringW statusLine,
                     ::System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage);
 
-  /// @brief Method get_Headers, addr 0x6870088, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x68706d8, size 0x110, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_ResponseUri, addr 0x6870198, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ResponseUri, addr 0x68707e8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Uri* get_ResponseUri();
 
-  /// @brief Method get_StatusCode, addr 0x68701a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusCode, addr 0x68707f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::FtpStatusCode get_StatusCode();
 
   /// @brief Convert to "::System::IDisposable"

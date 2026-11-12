@@ -21,37 +21,37 @@ namespace System {
 class CORDL_TYPE DomainNameHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IdnEquivalent, addr 0x67de4f4, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method IdnEquivalent, addr 0x67deb44, size 0x288, virtual false, abstract: false, final false
   static inline ::StringW IdnEquivalent(char16_t* hostname, int32_t start, int32_t end, ::by_ref<bool> allAscii, ::by_ref<bool> atLeastOneValidIdn);
 
-  /// @brief Method IdnEquivalent, addr 0x67de77c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method IdnEquivalent, addr 0x67dedcc, size 0x1f0, virtual false, abstract: false, final false
   static inline ::StringW IdnEquivalent(char16_t* hostname, int32_t start, int32_t end, ::by_ref<bool> allAscii, ::by_ref<::StringW> bidiStrippedHost);
 
-  /// @brief Method IsASCIILetterOrDigit, addr 0x67de280, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsASCIILetterOrDigit, addr 0x67de8d0, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsASCIILetterOrDigit(char16_t character, ::by_ref<bool> notCanonical);
 
-  /// @brief Method IsIdnAce, addr 0x67de9b8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsIdnAce, addr 0x67df008, size 0x90, virtual false, abstract: false, final false
   static inline bool IsIdnAce(::StringW input, int32_t index);
 
-  /// @brief Method IsIdnAce, addr 0x67de96c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsIdnAce, addr 0x67defbc, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsIdnAce(char16_t* input, int32_t index);
 
-  /// @brief Method IsValid, addr 0x67de10c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x67de75c, size 0x174, virtual false, abstract: false, final false
   static inline bool IsValid(char16_t* name, uint16_t pos, ::by_ref<int32_t> returnedEnd, ::by_ref<bool> notCanonical, bool notImplicitFile);
 
-  /// @brief Method IsValidByIri, addr 0x67de308, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method IsValidByIri, addr 0x67de958, size 0x1ec, virtual false, abstract: false, final false
   static inline bool IsValidByIri(char16_t* name, uint16_t pos, ::by_ref<int32_t> returnedEnd, ::by_ref<bool> notCanonical, bool notImplicitFile);
 
-  /// @brief Method IsValidDomainLabelCharacter, addr 0x67de2bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsValidDomainLabelCharacter, addr 0x67de90c, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsValidDomainLabelCharacter(char16_t character, ::by_ref<bool> notCanonical);
 
-  /// @brief Method ParseCanonicalName, addr 0x67ddf7c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ParseCanonicalName, addr 0x67de5cc, size 0x190, virtual false, abstract: false, final false
   static inline ::StringW ParseCanonicalName(::StringW str, int32_t start, int32_t end, ::by_ref<bool> loopback);
 
-  /// @brief Method UnicodeEquivalent, addr 0x67deb64, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method UnicodeEquivalent, addr 0x67df1b4, size 0x4d4, virtual false, abstract: false, final false
   static inline ::StringW UnicodeEquivalent(char16_t* hostname, int32_t start, int32_t end, ::by_ref<bool> allAscii, ::by_ref<bool> atLeastOneValidIdn);
 
-  /// @brief Method UnicodeEquivalent, addr 0x67dea48, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method UnicodeEquivalent, addr 0x67df098, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW UnicodeEquivalent(::StringW idnHost, char16_t* hostname, int32_t start, int32_t end);
 
 protected:

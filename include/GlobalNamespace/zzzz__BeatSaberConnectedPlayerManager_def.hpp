@@ -77,6 +77,7 @@ public:
   enum struct __BeatSaberConnectedPlayerManager_BeatSaberMessageType_Unwrapped : uint8_t {
     __E_PlayerAvatarUpdate = static_cast<uint8_t>(0x0u),
     __E_PlayerControllerDataUpdate = static_cast<uint8_t>(0x1u),
+    __E_PlayerColorSchemeUpdate = static_cast<uint8_t>(0x2u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -99,11 +100,14 @@ public:
   /// @brief Field PlayerAvatarUpdate value: U8(0)
   static ::GlobalNamespace::BeatSaberConnectedPlayerManager_BeatSaberMessageType const PlayerAvatarUpdate;
 
+  /// @brief Field PlayerColorSchemeUpdate value: U8(2)
+  static ::GlobalNamespace::BeatSaberConnectedPlayerManager_BeatSaberMessageType const PlayerColorSchemeUpdate;
+
   /// @brief Field PlayerControllerDataUpdate value: U8(1)
   static ::GlobalNamespace::BeatSaberConnectedPlayerManager_BeatSaberMessageType const PlayerControllerDataUpdate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19432 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -148,22 +152,22 @@ public:
   __declspec(property(get = __cordl_internal_get_playerControllerDataChangedEvent,
                       put = __cordl_internal_set_playerControllerDataChangedEvent)) ::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* playerControllerDataChangedEvent;
 
-  /// @brief Method DisposeGameSpecificResources, addr 0x354fde0, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method DisposeGameSpecificResources, addr 0x3552d94, size 0xe0, virtual true, abstract: false, final false
   inline void DisposeGameSpecificResources();
 
-  /// @brief Method HandleGameSpecificConnected, addr 0x354f8b4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method HandleGameSpecificConnected, addr 0x3552854, size 0x60, virtual true, abstract: false, final false
   inline void HandleGameSpecificConnected();
 
-  /// @brief Method HandleGameSpecificPlayerAdded, addr 0x354f914, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HandleGameSpecificPlayerAdded, addr 0x35528b4, size 0x4, virtual true, abstract: false, final false
   inline void HandleGameSpecificPlayerAdded(::GlobalNamespace::BeatSaberConnectedPlayer* player);
 
-  /// @brief Method HandleGameSpecificPlayerIdentityUpdate, addr 0x354f918, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method HandleGameSpecificPlayerIdentityUpdate, addr 0x35528b8, size 0x144, virtual true, abstract: false, final false
   inline void HandleGameSpecificPlayerIdentityUpdate(::GlobalNamespace::BeatSaberPlayerIdentityPacketData identityData, ::GlobalNamespace::IBeatSaberConnectedPlayer* iPlayer);
 
-  /// @brief Method HandlePlayerAvatarUpdate, addr 0x354fbe8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerAvatarUpdate, addr 0x3552b9c, size 0xd4, virtual false, abstract: false, final false
   inline void HandlePlayerAvatarUpdate(::GlobalNamespace::PlayerAvatarPacket* packet, ::GlobalNamespace::IBeatSaberConnectedPlayer* iPlayer);
 
-  /// @brief Method HandlePlayerControllerDataUpdate, addr 0x354fcbc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerControllerDataUpdate, addr 0x3552c70, size 0xcc, virtual false, abstract: false, final false
   inline void HandlePlayerControllerDataUpdate(::GlobalNamespace::PlayerControllerDataPacket* packet, ::GlobalNamespace::IBeatSaberConnectedPlayer* iPlayer);
 
   static inline ::GlobalNamespace::BeatSaberConnectedPlayerManager*
@@ -176,10 +180,10 @@ public:
            ::GlobalNamespace::IConnectedPlayerFactory_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
                                                         ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>* connectedPlayerFactory);
 
-  /// @brief Method SetLocalPlayerActiveHand, addr 0x354fb58, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPlayerActiveHand, addr 0x3552b0c, size 0x90, virtual false, abstract: false, final false
   inline void SetLocalPlayerActiveHand(::GlobalNamespace::MultiplayerActiveHand activeHand);
 
-  /// @brief Method SetLocalPlayerAvatar, addr 0x354fa5c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPlayerAvatar, addr 0x35529fc, size 0x110, virtual false, abstract: false, final false
   inline void SetLocalPlayerAvatar(::GlobalNamespace::MultiplayerAvatarsData multiplayerAvatarsData);
 
   constexpr ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::BeatSaberConnectedPlayerManager_BeatSaberMessageType, ::GlobalNamespace::IBeatSaberConnectedPlayer*>* const&
@@ -215,30 +219,30 @@ public:
 
   constexpr void __cordl_internal_set_playerControllerDataChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
-  /// @brief Method .ctor, addr 0x354f4ac, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355244c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectionManager* connectionManager,
                     ::GlobalNamespace::IConnectedPlayerFactory_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
                                                                  ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>* connectedPlayerFactory);
 
-  /// @brief Method .ctor, addr 0x354f564, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3552504, size 0x350, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IConnectionManager* connectionManager,
                     ::GlobalNamespace::IConnectedPlayerFactory_3<::GlobalNamespace::IBeatSaberConnectedPlayer*, ::GlobalNamespace::BeatSaberConnectedPlayer*,
                                                                  ::GlobalNamespace::BeatSaberPlayerIdentityPacketData>* connectedPlayerFactory);
 
   /// [CompilerGenerated]
-  /// @brief Method add_playerAvatarChangedEvent, addr 0x354f1ac, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_playerAvatarChangedEvent, addr 0x355214c, size 0xc0, virtual false, abstract: false, final false
   inline void add_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_playerControllerDataChangedEvent, addr 0x354f32c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_playerControllerDataChangedEvent, addr 0x35522cc, size 0xc0, virtual false, abstract: false, final false
   inline void add_playerControllerDataChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_playerAvatarChangedEvent, addr 0x354f26c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_playerAvatarChangedEvent, addr 0x355220c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_playerControllerDataChangedEvent, addr 0x354f3ec, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_playerControllerDataChangedEvent, addr 0x355238c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_playerControllerDataChangedEvent(::System::Action_1<::GlobalNamespace::IBeatSaberConnectedPlayer*>* value);
 
 protected:
@@ -256,7 +260,7 @@ public:
   BeatSaberConnectedPlayerManager(BeatSaberConnectedPlayerManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19433 };
 
   /// [CompilerGenerated]
   /// @brief Field playerAvatarChangedEvent, offset: 0x108, size: 0x8, def value: None

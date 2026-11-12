@@ -56,77 +56,77 @@ public:
   // Declarations
   __declspec(property(get = get_fragmentInfoHasShadingRateImage)) bool fragmentInfoHasShadingRateImage;
 
-  /// @brief Method AddFirstUse, addr 0x6c6458c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method AddFirstUse, addr 0x6c6566c, size 0x1c0, virtual false, abstract: false, final false
   inline void AddFirstUse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h, Il2CppObject* ctx);
 
-  /// @brief Method AddLastUse, addr 0x6c6474c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method AddLastUse, addr 0x6c6582c, size 0x1c0, virtual false, abstract: false, final false
   inline void AddLastUse(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h, Il2CppObject* ctx);
 
-  /// @brief Method AddRandomAccessResource, addr 0x6c6457c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AddRandomAccessResource, addr 0x6c6565c, size 0x10, virtual false, abstract: false, final false
   inline void AddRandomAccessResource();
 
-  /// @brief Method DisconnectFromResources, addr 0x6c64af4, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method DisconnectFromResources, addr 0x6c65bd4, size 0x2ac, virtual false, abstract: false, final false
   inline void DisconnectFromResources(Il2CppObject* ctx, ::System::Collections::Generic::Stack_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle>* unusedVersionedResourceIdCullingStack,
                                       int32_t type);
 
   /// [IsReadOnly]
-  /// @brief Method FirstUsedResources, addr 0x6c64288, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method FirstUsedResources, addr 0x6c65368, size 0x94, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> FirstUsedResources(Il2CppObject* ctx);
 
   /// [IsReadOnly]
-  /// @brief Method FragmentInputs, addr 0x6c641f4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method FragmentInputs, addr 0x6c652d4, size 0x94, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> FragmentInputs(Il2CppObject* ctx);
 
   /// [IsReadOnly]
-  /// @brief Method Fragments, addr 0x6c64030, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Fragments, addr 0x6c65110, size 0x94, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData> Fragments(Il2CppObject* ctx);
 
-  /// @brief Method GetName, addr 0x6c63d64, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x6c64e44, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::Name GetName(Il2CppObject* ctx);
 
   /// [IsReadOnly]
-  /// @brief Method Inputs, addr 0x6c63f9c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Inputs, addr 0x6c6507c, size 0x94, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassInputData> Inputs(Il2CppObject* ctx);
 
   /// [IsReadOnly]
-  /// @brief Method IsUsedAsFragment, addr 0x6c6490c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method IsUsedAsFragment, addr 0x6c659ec, size 0x1e8, virtual false, abstract: false, final false
   inline bool IsUsedAsFragment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h, Il2CppObject* ctx);
 
   /// [IsReadOnly]
-  /// @brief Method LastUsedResources, addr 0x6c643b0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method LastUsedResources, addr 0x6c65490, size 0x94, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> LastUsedResources(Il2CppObject* ctx);
 
   /// [IsReadOnly]
-  /// @brief Method Outputs, addr 0x6c63f08, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Outputs, addr 0x6c64fe8, size 0x94, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassOutputData> Outputs(Il2CppObject* ctx);
 
-  /// @brief Method RandomWriteTextures, addr 0x6c6431c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RandomWriteTextures, addr 0x6c653fc, size 0x94, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassRandomWriteData> RandomWriteTextures(Il2CppObject* ctx);
 
-  /// @brief Method ResetAndInitialize, addr 0x6c63e74, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ResetAndInitialize, addr 0x6c64f54, size 0x94, virtual false, abstract: false, final false
   inline void ResetAndInitialize(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* const> pass, int32_t passIndex);
 
   /// [IsReadOnly]
-  /// @brief Method SampledTexturesIfRaster, addr 0x6c640c4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SampledTexturesIfRaster, addr 0x6c651a4, size 0x94, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle> SampledTexturesIfRaster(Il2CppObject* ctx);
 
   /// [IsReadOnly]
-  /// @brief Method ShadingRateImage, addr 0x6c64158, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ShadingRateImage, addr 0x6c65238, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassFragmentData ShadingRateImage(Il2CppObject* ctx);
 
-  /// @brief Method TryAddFragment, addr 0x6c6453c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TryAddFragment, addr 0x6c6561c, size 0x20, virtual false, abstract: false, final false
   inline void TryAddFragment(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h, Il2CppObject* ctx, ::by_ref<::StringW> errorMessage);
 
-  /// @brief Method TryAddFragmentInput, addr 0x6c6455c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TryAddFragmentInput, addr 0x6c6563c, size 0x20, virtual false, abstract: false, final false
   inline void TryAddFragmentInput(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h, Il2CppObject* ctx, ::by_ref<::StringW> errorMessage);
 
-  /// @brief Method TrySetupAndValidateFragmentInfo, addr 0x6c64444, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method TrySetupAndValidateFragmentInfo, addr 0x6c65524, size 0xf8, virtual false, abstract: false, final false
   inline bool TrySetupAndValidateFragmentInfo(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::ResourceHandle const> h, Il2CppObject* ctx, ::by_ref<::StringW> errorMessage);
 
-  /// @brief Method .ctor, addr 0x6c63de0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c64ec0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(/* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::RenderGraphPass* const> pass, int32_t passIndex);
 
-  /// @brief Method get_fragmentInfoHasShadingRateImage, addr 0x6c63d54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_fragmentInfoHasShadingRateImage, addr 0x6c64e34, size 0x10, virtual false, abstract: false, final false
   inline bool get_fragmentInfoHasShadingRateImage();
 
   // Ctor Parameters []

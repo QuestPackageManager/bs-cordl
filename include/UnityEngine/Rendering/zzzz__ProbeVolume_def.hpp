@@ -211,7 +211,7 @@ public:
   /// @brief Field version, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::UnityEngine::Rendering::ProbeVolume_Version version;
 
-  /// @brief Method Awake, addr 0x6be96f4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x6bea7d4, size 0x30, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::UnityEngine::Rendering::ProbeVolume* New_ctor();
@@ -300,7 +300,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::UnityEngine::Rendering::ProbeVolume_Version value);
 
-  /// @brief Method .ctor, addr 0x6be9724, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bea804, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

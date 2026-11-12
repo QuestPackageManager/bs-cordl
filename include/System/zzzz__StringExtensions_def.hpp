@@ -23,7 +23,7 @@ class CORDL_TYPE StringExtensions : public ::System::Object {
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method SubstringTrim, addr 0x67d8768, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SubstringTrim, addr 0x67d8db8, size 0x13c, virtual false, abstract: false, final false
   static inline ::StringW SubstringTrim(::StringW value, int32_t startIndex, int32_t length);
 
 protected:

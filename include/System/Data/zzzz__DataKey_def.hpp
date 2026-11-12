@@ -48,58 +48,58 @@ public:
 
   __declspec(property(get = get_Table)) ::System::Data::DataTable* Table;
 
-  /// @brief Method CheckState, addr 0x647cb6c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CheckState, addr 0x647d1bc, size 0x9c, virtual false, abstract: false, final false
   inline void CheckState();
 
-  /// @brief Method ColumnsEqual, addr 0x647cc28, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ColumnsEqual, addr 0x647d278, size 0xf0, virtual false, abstract: false, final false
   static inline bool ColumnsEqual(::ArrayW<::System::Data::DataColumn*> column1, ::ArrayW<::System::Data::DataColumn*> column2);
 
-  /// @brief Method ColumnsEqual, addr 0x647cc20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ColumnsEqual, addr 0x647d270, size 0x8, virtual false, abstract: false, final false
   inline bool ColumnsEqual(::System::Data::DataKey key);
 
-  /// @brief Method ContainsColumn, addr 0x647b444, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ContainsColumn, addr 0x647ba94, size 0x6c, virtual false, abstract: false, final false
   inline bool ContainsColumn(::System::Data::DataColumn* column);
 
-  /// @brief Method Equals, addr 0x647cdfc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x647d44c, size 0xbc, virtual false, abstract: false, final false
   inline bool Equals(::System::Data::DataKey value);
 
-  /// @brief Method Equals, addr 0x647cd7c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x647d3cc, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetColumnNames, addr 0x647ceb8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetColumnNames, addr 0x647d508, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW> GetColumnNames();
 
-  /// @brief Method GetHashCode, addr 0x647cd18, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x647d368, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetIndexDesc, addr 0x647cf60, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetIndexDesc, addr 0x647d5b0, size 0xb0, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::IndexField> GetIndexDesc();
 
-  /// @brief Method GetKeyValues, addr 0x647d010, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetKeyValues, addr 0x647d660, size 0x110, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*> GetKeyValues(int32_t record);
 
-  /// @brief Method GetSortIndex, addr 0x647d120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSortIndex, addr 0x647d770, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::Index* GetSortIndex();
 
-  /// @brief Method GetSortIndex, addr 0x647d128, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetSortIndex, addr 0x647d778, size 0x58, virtual false, abstract: false, final false
   inline ::System::Data::Index* GetSortIndex(::System::Data::DataViewRowState recordStates);
 
-  /// @brief Method RecordsEqual, addr 0x647d180, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RecordsEqual, addr 0x647d7d0, size 0x84, virtual false, abstract: false, final false
   inline bool RecordsEqual(int32_t record1, int32_t record2);
 
-  /// @brief Method ToArray, addr 0x647d204, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ToArray, addr 0x647d854, size 0xdc, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*> ToArray();
 
-  /// @brief Method .ctor, addr 0x647c978, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x647cfc8, size 0x1f4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Data::DataColumn*> columns, bool copyColumns);
 
-  /// @brief Method get_ColumnsReference, addr 0x647cc08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ColumnsReference, addr 0x647d258, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*> get_ColumnsReference();
 
-  /// @brief Method get_HasValue, addr 0x647cc10, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasValue, addr 0x647d260, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasValue();
 
-  /// @brief Method get_Table, addr 0x6478c50, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Table, addr 0x64792a0, size 0x30, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* get_Table();
 
   // Ctor Parameters []

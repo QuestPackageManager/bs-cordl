@@ -86,24 +86,24 @@ public:
   /// @brief Field kRenderOffset, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get_kRenderOffset, put = __cordl_internal_set_kRenderOffset)) ::UnityEngine::Vector3 kRenderOffset;
 
-  /// @brief Method GetBurnMarkPos, addr 0x5de4014, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method GetBurnMarkPos, addr 0x5de4124, size 0x430, virtual false, abstract: false, final false
   inline bool GetBurnMarkPos(::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ::by_ref<::UnityEngine::Vector3> burnMarkPos);
 
-  /// @brief Method LateUpdate, addr 0x5de4444, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5de4554, size 0x450, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberBurnMarkSparkles* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5de3c58, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5de3d68, size 0xf8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x5de3f30, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5de4040, size 0xe4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x5de3d50, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5de3e60, size 0x1e0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x5de3838, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5de3948, size 0x420, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityEngine::ParticleSystem_EmissionModule> const& __cordl_internal_get__burnMarksEmissionModules() const;
@@ -190,7 +190,7 @@ public:
 
   constexpr void __cordl_internal_set_kRenderOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x5de4894, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de49a4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

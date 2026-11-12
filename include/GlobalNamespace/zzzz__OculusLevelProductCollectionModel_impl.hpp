@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OculusLevelProductCollectionModel.hpp"
+#include "GlobalNamespace/zzzz__ProductDisplayMode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusLevelProductCollectionModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_def.hpp"
@@ -7,6 +8,7 @@
 #include "GlobalNamespace/zzzz__ILevelProductData_def.hpp"
 #include "GlobalNamespace/zzzz__OculusLevelProductCollectionModel_def.hpp"
 #include "GlobalNamespace/zzzz__OculusLevelProductPacksSO_def.hpp"
+#include "GlobalNamespace/zzzz__ProductDisplayMode_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
@@ -16,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus::*)()>(
     &::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39f6d8c;
+  constexpr static std::size_t addrs = 0x39fc030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -64,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData::*)()>(
     &::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData::get_sku)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f6d90;
+  constexpr static std::size_t addrs = 0x39fc034;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -78,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus* (
     ::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData::*)()>(&::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData::get_additionalSkus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f6d98;
+  constexpr static std::size_t addrs = 0x39fc03c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,11 +94,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData::*)()>(
     &::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData::get_levelId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f6da0;
+  constexpr static std::size_t addrs = 0x39fc044;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>(), { "get_levelId", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData.get_displayMode
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ProductDisplayMode (::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData::*)()>(
+    &::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData::get_displayMode)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x39fc04c;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>(), { "get_displayMode", {}, {} })));
     return ___internal_method;
   }
 };
@@ -106,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData::*)()>(
     &::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39f6da8;
+  constexpr static std::size_t addrs = 0x39fc054;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -151,6 +167,18 @@ constexpr void GlobalNamespace::OculusLevelProductCollectionModel_LevelProductDa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____additionalSkus = value;
 }
+constexpr ::GlobalNamespace::ProductDisplayMode& GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData::__cordl_internal_get__displayMode() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____displayMode;
+}
+constexpr ::GlobalNamespace::ProductDisplayMode const& GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData::__cordl_internal_get__displayMode() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____displayMode;
+}
+constexpr void GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData::__cordl_internal_set__displayMode(::GlobalNamespace::ProductDisplayMode value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____displayMode = value;
+}
 inline ::StringW GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData::get_sku() {
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>(), { "get_sku", {}, {} })));
@@ -165,6 +193,11 @@ inline ::StringW GlobalNamespace::OculusLevelProductCollectionModel_LevelProduct
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>(), { "get_levelId", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ProductDisplayMode GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData::get_displayMode() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>(), { "get_displayMode", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ProductDisplayMode>(this, ___internal_method);
 }
 inline void GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData::_ctor() {
   static auto* ___internal_method =
@@ -190,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::*)()>(
     &::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::get_sku)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f6dac;
+  constexpr static std::size_t addrs = 0x39fc058;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -204,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus* (
     ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::*)()>(&::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::get_additionalSkus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f6db4;
+  constexpr static std::size_t addrs = 0x39fc060;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -218,11 +251,25 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::*)()>(
     &::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::get_levelPackId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f6dbc;
+  constexpr static std::size_t addrs = 0x39fc068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
         THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData*>(), { "get_levelPackId", {}, {} })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData.get_displayMode
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::ProductDisplayMode (::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::*)()>(
+    &::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::get_displayMode)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x39fc070;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData*>(), { "get_displayMode", {}, {} })));
     return ___internal_method;
   }
 };
@@ -232,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>* (
     ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::*)()>(&::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::get_levelProductsData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f6dc4;
+  constexpr static std::size_t addrs = 0x39fc078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -247,7 +294,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     ::StringW, ::StringW, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>*)>(
     &::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x39f6dcc;
+  constexpr static std::size_t addrs = 0x39fc080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -297,6 +344,18 @@ GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____additionalSkus = value;
 }
+constexpr ::GlobalNamespace::ProductDisplayMode& GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::__cordl_internal_get__displayMode() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____displayMode;
+}
+constexpr ::GlobalNamespace::ProductDisplayMode const& GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::__cordl_internal_get__displayMode() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____displayMode;
+}
+constexpr void GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::__cordl_internal_set__displayMode(::GlobalNamespace::ProductDisplayMode value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____displayMode = value;
+}
 constexpr ::ArrayW<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>&
 GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::__cordl_internal_get__levelProductsData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -326,6 +385,11 @@ inline ::StringW GlobalNamespace::OculusLevelProductCollectionModel_LevelPackPro
   static auto* ___internal_method =
       THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData*>(), { "get_levelPackId", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<::StringW>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ProductDisplayMode GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::get_displayMode() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData*>(), { "get_displayMode", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ProductDisplayMode>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>*
 GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData::get_levelProductsData() {
@@ -365,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData::*)()>(
     &::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData::get_targetLevelPackId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f6e40;
+  constexpr static std::size_t addrs = 0x39fc0f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -379,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData::*)()>(
     &::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData::get_shouldOwnLevelPackId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f6e48;
+  constexpr static std::size_t addrs = 0x39fc0fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,7 +457,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData::*)()>(
     &::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData::get_redirectedSku)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f6e50;
+  constexpr static std::size_t addrs = 0x39fc104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -407,7 +471,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData::*)()>(
     &::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData::get_validUntilDate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f6e58;
+  constexpr static std::size_t addrs = 0x39fc10c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -421,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData::*)()>(
     &::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39f6e60;
+  constexpr static std::size_t addrs = 0x39fc114;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -513,12 +577,26 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusLevelProductCollectionModel::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*)>(&::GlobalNamespace::OculusLevelProductCollectionModel::_ctor)> {
   constexpr static std::size_t size = 0xb10;
-  constexpr static std::size_t addrs = 0x39f5fa8;
+  constexpr static std::size_t addrs = 0x39fb1f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusLevelProductCollectionModel*>(),
                                                 { ".ctor", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OculusLevelProductCollectionModel.get_levelProductsData
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>* (
+    ::GlobalNamespace::OculusLevelProductCollectionModel::*)()>(&::GlobalNamespace::OculusLevelProductCollectionModel::get_levelProductsData)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x39fbdec;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusLevelProductCollectionModel*>(), { "get_levelProductsData", {}, {} })));
     return ___internal_method;
   }
 };
@@ -528,7 +606,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* (::GlobalNamespace::OculusLevelProductCollectionModel::*)(::StringW)>(
     &::GlobalNamespace::OculusLevelProductCollectionModel::GetLevelProductData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39f6b9c;
+  constexpr static std::size_t addrs = 0x39fbe40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -542,7 +620,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData* (::GlobalNamespace::OculusLevelProductCollectionModel::*)(::StringW)>(
     &::GlobalNamespace::OculusLevelProductCollectionModel::GetLevelPackProductData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39f6c18;
+  constexpr static std::size_t addrs = 0x39fbebc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -556,7 +634,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OculusLevelProductCollectionModel::*)(::StringW)>(
     &::GlobalNamespace::OculusLevelProductCollectionModel::GetLevelSku)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39f6c94;
+  constexpr static std::size_t addrs = 0x39fbf38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -570,7 +648,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData* (
     ::GlobalNamespace::OculusLevelProductCollectionModel::*)(::StringW)>(&::GlobalNamespace::OculusLevelProductCollectionModel::GetLevelPackRedirectionData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39f6d10;
+  constexpr static std::size_t addrs = 0x39fbfb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -584,7 +662,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusLevelProductCollectionModel::*)(::StringW, ::StringW, ::GlobalNamespace::BeatmapLevelDataVersion)>(
     &::GlobalNamespace::OculusLevelProductCollectionModel::InsertAdditionalSkuIfValid)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x39f6ab8;
+  constexpr static std::size_t addrs = 0x39fbd08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -656,6 +734,12 @@ inline void GlobalNamespace::OculusLevelProductCollectionModel::_ctor(::System::
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusLevelProductCollectionModel*>(),
                                               { ".ctor", {}, { ::i2c::type_of<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(this, ___internal_method, levelProductPacksSOs);
+}
+inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>*
+GlobalNamespace::OculusLevelProductCollectionModel::get_levelProductsData() {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusLevelProductCollectionModel*>(), { "get_levelProductsData", {}, {} })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>*>(this, ___internal_method);
 }
 inline ::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* GlobalNamespace::OculusLevelProductCollectionModel::GetLevelProductData(::StringW levelId) {
   static auto* ___internal_method =

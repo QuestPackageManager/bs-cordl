@@ -25,7 +25,7 @@ public:
   static inline ::UnityEngine::SerializeReference* New_ctor();
 
   /// [ExcludeFromDocs]
-  /// @brief Method .ctor, addr 0x6f83f54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f85034, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

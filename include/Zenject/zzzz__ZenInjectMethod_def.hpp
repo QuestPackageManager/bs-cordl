@@ -32,18 +32,18 @@ namespace Zenject {
 class CORDL_TYPE ZenInjectMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x73164a0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x7318780, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* obj, ::ArrayW<::System::Object*> args, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x73164c8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x73187a8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x731648c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x731876c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* obj, ::ArrayW<::System::Object*> args);
 
   static inline ::Zenject::ZenInjectMethod* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x7316344, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7318624, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -61,7 +61,7 @@ public:
   ZenInjectMethod(ZenInjectMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23461 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

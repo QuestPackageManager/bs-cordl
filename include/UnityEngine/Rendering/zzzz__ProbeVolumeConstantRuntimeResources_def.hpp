@@ -43,19 +43,19 @@ public:
   /// @brief Field m_SkySamplingDirectionsBuffer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_SkySamplingDirectionsBuffer, put = setStaticF_m_SkySamplingDirectionsBuffer)) ::UnityEngine::ComputeBuffer* m_SkySamplingDirectionsBuffer;
 
-  /// @brief Method Cleanup, addr 0x6bee4e8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6bef5c8, size 0xc0, virtual false, abstract: false, final false
   static inline void Cleanup();
 
-  /// @brief Method GenerateSkyDirections, addr 0x6bee2b8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method GenerateSkyDirections, addr 0x6bef398, size 0x1d4, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3> GenerateSkyDirections();
 
-  /// @brief Method GetRuntimeResources, addr 0x6bee0e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeResources, addr 0x6bef1c8, size 0x64, virtual false, abstract: false, final false
   static inline void GetRuntimeResources(::by_ref<::UnityEngine::Rendering::ProbeReferenceVolume_RuntimeResources> rr);
 
-  /// @brief Method GetSkySamplingDirections, addr 0x6bee48c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetSkySamplingDirections, addr 0x6bef56c, size 0x5c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3> GetSkySamplingDirections();
 
-  /// @brief Method Initialize, addr 0x6bee14c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x6bef22c, size 0x16c, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::ArrayW<uint32_t> getStaticF_k_AntiLeakData();

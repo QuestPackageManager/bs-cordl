@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::AutoWebProxyScriptEngine::*)(::System::Uri*, ::by_ref<::System::Collections::Generic::IList_1<::StringW>*>)>(
     &::System::Net::AutoWebProxyScriptEngine::GetProxies)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x688ad24;
+  constexpr static std::size_t addrs = 0x688b374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Net::AutoWebProxyScriptEngine::*)(::System::Uri*, ::by_ref<::System::Collections::Generic::IList_1<::StringW>*>,
                                                                                                          ::by_ref<int32_t>)>(&::System::Net::AutoWebProxyScriptEngine::GetProxies)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x688b0a8;
+  constexpr static std::size_t addrs = 0x688b6f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

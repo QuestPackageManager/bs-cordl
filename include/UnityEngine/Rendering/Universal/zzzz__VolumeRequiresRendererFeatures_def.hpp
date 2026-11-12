@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set_TargetFeatureTypes(::System::Collections::Generic::HashSet_1<::System::Type*>* value);
 
-  /// @brief Method .ctor, addr 0x6d4ec64, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d4fd44, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(/* [ParamArray] */ ::ArrayW<::System::Type*> featureTypes);
 
 protected:

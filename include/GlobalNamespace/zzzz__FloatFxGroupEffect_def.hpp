@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_target(::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> value);
 
-  /// @brief Method .ctor, addr 0x5dedc60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dedd90, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target);
 
 protected:
@@ -141,10 +141,10 @@ public:
 
   constexpr void __cordl_internal_set_initData(::GlobalNamespace::FloatFxGroupEffect_InitData* value);
 
-  /// @brief Method <.ctor>b__0, addr 0x5dee0f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0, addr 0x5dee220, size 0x2c, virtual false, abstract: false, final false
   inline void __ctor_b__0(float_t value);
 
-  /// @brief Method .ctor, addr 0x5dee0ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dee21c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -197,7 +197,7 @@ public:
   /// @brief Field _handler, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__handler, put = __cordl_internal_set__handler)) ::GlobalNamespace::FloatFxEventHandler* _handler;
 
-  /// @brief Method Cleanup, addr 0x5dedd70, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5dedea0, size 0x38, virtual false, abstract: false, final false
   inline void Cleanup();
 
   static inline ::GlobalNamespace::FloatFxGroupEffect* New_ctor(::GlobalNamespace::FloatFxGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
@@ -221,7 +221,7 @@ public:
 
   constexpr void __cordl_internal_set__handler(::GlobalNamespace::FloatFxEventHandler* value);
 
-  /// @brief Method .ctor, addr 0x5dede94, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dedfc4, size 0x258, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::FloatFxGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 

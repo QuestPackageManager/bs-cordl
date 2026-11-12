@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GuestNameButtonsListItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5e68d48, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e68c60, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

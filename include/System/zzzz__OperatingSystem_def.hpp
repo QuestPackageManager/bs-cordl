@@ -66,17 +66,17 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Clone, addr 0x60c0588, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x60c0810, size 0x78, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method GetObjectData, addr 0x60c0544, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x60c07cc, size 0x34, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::OperatingSystem* New_ctor(::System::PlatformID platform, ::System::Version* version);
 
   static inline ::System::OperatingSystem* New_ctor(::System::PlatformID platform, ::System::Version* version, ::StringW servicePack);
 
-  /// @brief Method ToString, addr 0x60c0600, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x60c0888, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::PlatformID const& __cordl_internal_get__platform() const;
@@ -103,19 +103,19 @@ public:
 
   constexpr void __cordl_internal_set__versionString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x60c0418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60c06a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::PlatformID platform, ::System::Version* version);
 
-  /// @brief Method .ctor, addr 0x60c0420, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60c06a8, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::System::PlatformID platform, ::System::Version* version, ::StringW servicePack);
 
-  /// @brief Method get_Platform, addr 0x60c0578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Platform, addr 0x60c0800, size 0x8, virtual false, abstract: false, final false
   inline ::System::PlatformID get_Platform();
 
-  /// @brief Method get_Version, addr 0x60c0580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x60c0808, size 0x8, virtual false, abstract: false, final false
   inline ::System::Version* get_Version();
 
-  /// @brief Method get_VersionString, addr 0x60c0604, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method get_VersionString, addr 0x60c088c, size 0x248, virtual false, abstract: false, final false
   inline ::StringW get_VersionString();
 
   /// @brief Convert to "::System::ICloneable"

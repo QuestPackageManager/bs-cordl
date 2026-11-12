@@ -64,7 +64,7 @@ public:
 
   static inline ::UnityEngine::Rendering::ProbeVolumeDebugColorPreferences* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6be9568, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bea648, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Func_1<::UnityEngine::Color>* getStaticF_GetDetailSubdivisionColor();

@@ -35,25 +35,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::BlendState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::BlendState>*();
 
-  /// @brief Method Equals, addr 0x6fb9178, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fba258, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6fb9040, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fba120, size 0xc0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::BlendState other);
 
-  /// @brief Method GetHashCode, addr 0x6fb920c, size 0x2b8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fba2ec, size 0x2b8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x6fb8fa0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fba080, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(bool separateMRTBlend, bool alphaToMask);
 
-  /// @brief Method get_defaultValue, addr 0x6fb8f58, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_defaultValue, addr 0x6fba038, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::BlendState get_defaultValue();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::BlendState>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::BlendState>* i___System__IEquatable_1___UnityEngine__Rendering__BlendState_();
 
-  /// @brief Method set_blendState0, addr 0x6fb9038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blendState0, addr 0x6fba118, size 0x8, virtual false, abstract: false, final false
   inline void set_blendState0(::UnityEngine::Rendering::RenderTargetBlendState value);
 
   // Ctor Parameters []

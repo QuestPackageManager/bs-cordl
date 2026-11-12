@@ -38,16 +38,16 @@ public:
   /// @brief [IsReadOnly]
   __declspec(property(get = get_Current)) ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData Current;
 
-  /// @brief Method GetEnumerator, addr 0x6c57234, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6c58314, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::CompilerContextData_PassIterator GetEnumerator();
 
-  /// @brief Method MoveNext, addr 0x6c572c0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x6c583a0, size 0x84, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method .ctor, addr 0x6c570d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c581b0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(Il2CppObject* ctx);
 
-  /// @brief Method get_Current, addr 0x6c57240, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x6c58320, size 0x80, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::PassData> get_Current();
 
   // Ctor Parameters []
@@ -92,16 +92,16 @@ public:
   /// @brief [IsReadOnly]
   __declspec(property(get = get_Current)) ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData Current;
 
-  /// @brief Method GetEnumerator, addr 0x6c574b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x6c58590, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::CompilerContextData_NativePassIterator GetEnumerator();
 
-  /// @brief Method MoveNext, addr 0x6c5753c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x6c5861c, size 0x100, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method .ctor, addr 0x6c5734c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5842c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(Il2CppObject* ctx);
 
-  /// @brief Method get_Current, addr 0x6c574bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x6c5859c, size 0x80, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler::NativePassData> get_Current();
 
   // Ctor Parameters []

@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Rendering::ProbeVolumeBakingSet> (::UnityEngine::Rendering::ProbeVolumePerSceneData::*)()>(
     &::UnityEngine::Rendering::ProbeVolumePerSceneData::get_bakingSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6bee754;
+  constexpr static std::size_t addrs = 0x6bef834;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumePerSceneData*>(), { "get_bakingSet", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumePerSceneData::*)()>(&::UnityEngine::Rendering::ProbeVolumePerSceneData::Clear)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6bee75c;
+  constexpr static std::size_t addrs = 0x6bef83c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumePerSceneData*>(), { "Clear", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumePerSceneData::*)()>(&::UnityEngine::Rendering::ProbeVolumePerSceneData::QueueSceneLoading)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6bee874;
+  constexpr static std::size_t addrs = 0x6bef954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumePerSceneData*>(), { "QueueSceneLoading", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumePerSceneData::*)()>(&::UnityEngine::Rendering::ProbeVolumePerSceneData::QueueSceneRemoval)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x6bee774;
+  constexpr static std::size_t addrs = 0x6bef854;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumePerSceneData*>(), { "QueueSceneRemoval", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumePerSceneData::*)()>(&::UnityEngine::Rendering::ProbeVolumePerSceneData::OnEnable)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6bee974;
+  constexpr static std::size_t addrs = 0x6befa54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumePerSceneData*>(), { "OnEnable", {}, {} })));
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumePerSceneData::*)()>(&::UnityEngine::Rendering::ProbeVolumePerSceneData::OnDisable)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6beea24;
+  constexpr static std::size_t addrs = 0x6befb04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumePerSceneData*>(), { "OnDisable", {}, {} })));
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumePerSceneData::*)()>(&::UnityEngine::Rendering::ProbeVolumePerSceneData::OnValidate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6beeadc;
+  constexpr static std::size_t addrs = 0x6befbbc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumePerSceneData*>(), { "OnValidate", {}, {} })));
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumePerSceneData::*)()>(&::UnityEngine::Rendering::ProbeVolumePerSceneData::Initialize)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6beeae0;
+  constexpr static std::size_t addrs = 0x6befbc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumePerSceneData*>(), { "Initialize", {}, {} })));
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::ProbeVolumePerSceneData::*)()>(&::UnityEngine::Rendering::ProbeVolumePerSceneData::ResolveCellData)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6beeba0;
+  constexpr static std::size_t addrs = 0x6befc80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumePerSceneData*>(), { "ResolveCellData", {}, {} })));
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::ProbeVolumePerSceneData::*)()>(&::UnityEngine::Rendering::ProbeVolumePerSceneData::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6beec44;
+  constexpr static std::size_t addrs = 0x6befd24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::ProbeVolumePerSceneData*>(), { ".ctor", {}, {} })));

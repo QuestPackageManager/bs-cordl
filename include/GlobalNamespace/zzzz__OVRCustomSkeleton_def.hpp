@@ -111,21 +111,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method AllocateBones, addr 0x635031c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AllocateBones, addr 0x63505a4, size 0xd0, virtual false, abstract: false, final false
   inline void AllocateBones();
 
-  /// @brief Method GetBoneTransform, addr 0x63502b0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetBoneTransform, addr 0x6350538, size 0x64, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetBoneTransform(::GlobalNamespace::OVRSkeleton_BoneId boneId);
 
   static inline ::GlobalNamespace::OVRCustomSkeleton* New_ctor();
 
-  /// @brief Method SetSkeletonType, addr 0x63503ec, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method SetSkeletonType, addr 0x6350674, size 0x9c, virtual true, abstract: false, final false
   inline void SetSkeletonType(::GlobalNamespace::OVRSkeleton_SkeletonType skeletonType);
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x6350318, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x63505a0, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x6350314, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x635059c, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* const& __cordl_internal_get__customBones_V2() const;
@@ -140,10 +140,10 @@ public:
 
   constexpr void __cordl_internal_set_retargetingType(::GlobalNamespace::OVRCustomSkeleton_RetargetingType value);
 
-  /// @brief Method .ctor, addr 0x6350488, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6350710, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CustomBones, addr 0x63502a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CustomBones, addr 0x6350530, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* get_CustomBones();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"

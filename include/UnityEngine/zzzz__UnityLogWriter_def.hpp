@@ -31,35 +31,35 @@ public:
   // Declarations
   __declspec(property(get = get_Encoding)) ::System::Text::Encoding* Encoding;
 
-  /// @brief Method Init, addr 0x6f5fabc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6f60b9c, size 0xc8, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::UnityEngine::UnityLogWriter* New_ctor();
 
-  /// @brief Method Write, addr 0x6f5fc34, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x6f60d14, size 0x1c, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write, addr 0x6f5fc24, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x6f60d04, size 0x10, virtual true, abstract: false, final false
   inline void Write(::StringW s);
 
-  /// @brief Method Write, addr 0x6f5fbe8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x6f60cc8, size 0x3c, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
   /// [ThreadAndSerializationSafe]
-  /// @brief Method WriteStringToUnityLog, addr 0x6f5f950, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToUnityLog, addr 0x6f60a30, size 0xc, virtual false, abstract: false, final false
   static inline void WriteStringToUnityLog(::StringW s);
 
   /// [FreeFunction(IsThreadSafe = true)]
-  /// @brief Method WriteStringToUnityLogImpl, addr 0x6f5f95c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToUnityLogImpl, addr 0x6f60a3c, size 0x124, virtual false, abstract: false, final false
   static inline void WriteStringToUnityLogImpl(::StringW s);
 
-  /// @brief Method WriteStringToUnityLogImpl_Injected, addr 0x6f5fa80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToUnityLogImpl_Injected, addr 0x6f60b60, size 0x3c, virtual false, abstract: false, final false
   static inline void WriteStringToUnityLogImpl_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> s);
 
-  /// @brief Method .ctor, addr 0x6f5fb84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f60c64, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Encoding, addr 0x6f5fbe0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x6f60cc0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
 protected:

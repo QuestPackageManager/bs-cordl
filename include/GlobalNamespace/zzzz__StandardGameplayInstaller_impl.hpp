@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardGameplayInstaller::*)()>(&::GlobalNamespace::StandardGameplayInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x5e57b50;
+  constexpr static std::size_t addrs = 0x5e57fb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::StandardGameplayInstaller::*)()>(&::GlobalNamespace::StandardGameplayInstaller::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e57f4c;
+  constexpr static std::size_t addrs = 0x5e583b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::StandardGameplayInstaller*>(), { ".ctor", {}, {} })));

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetApplicationVersionText::*)()>(&::GlobalNamespace::SetApplicationVersionText::Start)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x5e04d00;
+  constexpr static std::size_t addrs = 0x5e05104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetApplicationVersionText*>(), { "Start", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetApplicationVersionText::*)(::BeatSaber::Init::GameVersion*)>(
     &::GlobalNamespace::SetApplicationVersionText::SetText)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x5e04e14;
+  constexpr static std::size_t addrs = 0x5e05218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetApplicationVersionText::*)()>(&::GlobalNamespace::SetApplicationVersionText::ToggleVersionColor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x5e05114;
+  constexpr static std::size_t addrs = 0x5e05518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetApplicationVersionText*>(), { "ToggleVersionColor", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::SetApplicationVersionText::*)()>(&::GlobalNamespace::SetApplicationVersionText::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5e051a8;
+  constexpr static std::size_t addrs = 0x5e055ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::SetApplicationVersionText*>(), { ".ctor", {}, {} })));

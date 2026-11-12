@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DropdownMenu___c__DisplayClass14_0::*)()>(
     &::UnityEngine::UIElements::DropdownMenu___c__DisplayClass14_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x725f4f4;
+  constexpr static std::size_t addrs = 0x72605d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DropdownMenu___c__DisplayClass14_0*>(), { ".ctor", {}, {} })));
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::DropdownMenuAction_Status (::UnityEngine::UIElements::DropdownMenu___c__DisplayClass14_0::*)(
     ::UnityEngine::UIElements::DropdownMenuAction*)>(&::UnityEngine::UIElements::DropdownMenu___c__DisplayClass14_0::_AppendAction_b__0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x725f4f8;
+  constexpr static std::size_t addrs = 0x72605d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DropdownMenu___c__DisplayClass14_0*>(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DropdownMenu___c__DisplayClass17_0::*)()>(
     &::UnityEngine::UIElements::DropdownMenu___c__DisplayClass17_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x725f500;
+  constexpr static std::size_t addrs = 0x72605e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DropdownMenu___c__DisplayClass17_0*>(), { ".ctor", {}, {} })));
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::UIElements::DropdownMenu___c__DisplayClass17_0::*)(::UnityEngine::UIElements::DropdownMenuItem*)>(
     &::UnityEngine::UIElements::DropdownMenu___c__DisplayClass17_0::_AppendSeparator_b__0)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x725f504;
+  constexpr static std::size_t addrs = 0x72605e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DropdownMenu___c__DisplayClass17_0*>(),
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::UIElements::DropdownMenu::*)()>(&::UnityEngine::UIElements::DropdownMenu::get_Count)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x725ea6c;
+  constexpr static std::size_t addrs = 0x725fb4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DropdownMenu*>(), { "get_Count", {}, {} })));
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DropdownMenu::*)(bool)>(&::UnityEngine::UIElements::DropdownMenu::set_repaintPanelBeforeDisplay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x725eabc;
+  constexpr static std::size_t addrs = 0x725fb9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::DropdownMenuItem*>* (::UnityEngine::UIElements::DropdownMenu::*)()>(
     &::UnityEngine::UIElements::DropdownMenu::MenuItems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x725eac4;
+  constexpr static std::size_t addrs = 0x725fba4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DropdownMenu*>(), { "MenuItems", {}, {} })));
@@ -164,7 +164,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIEl
     ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::DropdownMenuAction_Status>*, ::System::Object*)>(
     &::UnityEngine::UIElements::DropdownMenu::AppendAction)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x725eacc;
+  constexpr static std::size_t addrs = 0x725fbac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DropdownMenu::*)(
     ::StringW, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>*, ::UnityEngine::UIElements::DropdownMenuAction_Status)>(&::UnityEngine::UIElements::DropdownMenu::AppendAction)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x725ebc4;
+  constexpr static std::size_t addrs = 0x725fca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DropdownMenu::*)(::StringW)>(&::UnityEngine::UIElements::DropdownMenu::AppendSeparator)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x725ecf8;
+  constexpr static std::size_t addrs = 0x725fdd8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DropdownMenu::*)(::StringW, int32_t)>(&::UnityEngine::UIElements::DropdownMenu::InsertSeparator)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x725ef8c;
+  constexpr static std::size_t addrs = 0x726006c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DropdownMenu::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::DropdownMenu::PrepareForDisplay)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x725f0c4;
+  constexpr static std::size_t addrs = 0x72601a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::DropdownMenu::*)()>(&::UnityEngine::UIElements::DropdownMenu::_ctor)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x725f354;
+  constexpr static std::size_t addrs = 0x7260434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::DropdownMenu*>(), { ".ctor", {}, {} })));

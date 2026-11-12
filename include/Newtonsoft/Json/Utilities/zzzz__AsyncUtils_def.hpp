@@ -68,10 +68,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::AsyncUtils___c* New_ctor();
 
-  /// @brief Method <FromCanceled>b__5_0, addr 0x61710b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <FromCanceled>b__5_0, addr 0x617133c, size 0x4, virtual false, abstract: false, final false
   inline void _FromCanceled_b__5_0();
 
-  /// @brief Method .ctor, addr 0x61710b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6171338, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::AsyncUtils___c* getStaticF___9();
@@ -184,7 +184,7 @@ public:
 
   /// [NullableContext(2)]
   /// [Extension]
-  /// @brief Method CancelIfRequestedAsync, addr 0x61709e4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CancelIfRequestedAsync, addr 0x6170c6c, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* CancelIfRequestedAsync(::System::Threading::CancellationToken cancellationToken);
 
   /// [NullableContext(2)]
@@ -193,7 +193,7 @@ public:
   template <typename T> static inline ::System::Threading::Tasks::Task_1<T>* CancelIfRequestedAsync(::System::Threading::CancellationToken cancellationToken);
 
   /// [Extension]
-  /// @brief Method FromCanceled, addr 0x6170a90, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method FromCanceled, addr 0x6170d18, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* FromCanceled(::System::Threading::CancellationToken cancellationToken);
 
   /// [Extension]
@@ -201,29 +201,29 @@ public:
   template <typename T> static inline ::System::Threading::Tasks::Task_1<T>* FromCanceled(::System::Threading::CancellationToken cancellationToken);
 
   /// [Extension]
-  /// @brief Method IsCompletedSuccessfully, addr 0x6170f70, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsCompletedSuccessfully, addr 0x61711f8, size 0x24, virtual false, abstract: false, final false
   static inline bool IsCompletedSuccessfully(::System::Threading::Tasks::Task* task);
 
   /// [Extension]
-  /// @brief Method ReadAsync, addr 0x6170e60, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x61710e8, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::System::IO::TextReader* reader, ::ArrayW<char16_t> buffer, int32_t index, int32_t count,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
   /// [Extension]
-  /// @brief Method ToAsync, addr 0x6170968, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToAsync, addr 0x6170bf0, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* ToAsync(bool value);
 
   /// [Extension]
-  /// @brief Method WriteAsync, addr 0x6170d6c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x6170ff4, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteAsync(::System::IO::TextWriter* writer, ::ArrayW<char16_t> value, int32_t start, int32_t count,
                                                              ::System::Threading::CancellationToken cancellationToken);
 
   /// [Extension]
-  /// @brief Method WriteAsync, addr 0x6170c94, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x6170f1c, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteAsync(::System::IO::TextWriter* writer, /* [Nullable(2)] */ ::StringW value, ::System::Threading::CancellationToken cancellationToken);
 
   /// [Extension]
-  /// @brief Method WriteAsync, addr 0x6170bbc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x6170e44, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteAsync(::System::IO::TextWriter* writer, char16_t value, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::System::Threading::Tasks::Task* getStaticF_CompletedTask();

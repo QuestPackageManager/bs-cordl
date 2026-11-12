@@ -20,7 +20,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE FrameTimeSample {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6bc2150, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bc3230, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t initValue);
 
   // Ctor Parameters []

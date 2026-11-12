@@ -33,16 +33,16 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobFor"
   constexpr operator ::Unity::Jobs::IJobFor*();
 
-  /// @brief Method DecodeHeader, addr 0x6d3ba8c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method DecodeHeader, addr 0x6d3cb6c, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<uint32_t, uint32_t> DecodeHeader(uint32_t zBin);
 
-  /// @brief Method EncodeHeader, addr 0x6d3ba84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EncodeHeader, addr 0x6d3cb64, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t EncodeHeader(uint32_t min, uint32_t max);
 
-  /// @brief Method Execute, addr 0x6d3bad8, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6d3cbb8, size 0x114, virtual true, abstract: false, final true
   inline void Execute(int32_t jobIndex);
 
-  /// @brief Method FillZBins, addr 0x6d3bbec, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method FillZBins, addr 0x6d3cccc, size 0x22c, virtual false, abstract: false, final false
   inline void FillZBins(int32_t binStart, int32_t binEnd, int32_t itemStart, int32_t itemEnd, int32_t headerIndex, int32_t itemOffset, int32_t binOffset);
 
   /// @brief Convert to "::Unity::Jobs::IJobFor"

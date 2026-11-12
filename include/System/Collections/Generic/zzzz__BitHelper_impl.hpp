@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Generic::BitHelper::*)(int32_t*, int32_t)>(&::System::Collections::Generic::BitHelper::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6858d6c;
+  constexpr static std::size_t addrs = 0x6426aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Generic::BitHelper::*)(::ArrayW<int32_t>, int32_t)>(&::System::Collections::Generic::BitHelper::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x6858d80;
+  constexpr static std::size_t addrs = 0x6426ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Collections::Generic::BitHelper::*)(int32_t)>(&::System::Collections::Generic::BitHelper::MarkBit)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x6858d8c;
+  constexpr static std::size_t addrs = 0x6426ac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Collections::Generic::BitHelper::*)(int32_t)>(&::System::Collections::Generic::BitHelper::IsMarked)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x6858e08;
+  constexpr static std::size_t addrs = 0x6426b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(int32_t)>(&::System::Collections::Generic::BitHelper::ToIntArrayLength)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6858e8c;
+  constexpr static std::size_t addrs = 0x6426bc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

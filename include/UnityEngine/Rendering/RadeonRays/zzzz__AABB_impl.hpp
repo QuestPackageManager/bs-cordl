@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RadeonRays::AABB::*)()>(&::UnityEngine::Rendering::RadeonRays::AABB::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e37700;
+  constexpr static std::size_t addrs = 0x6e387e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RadeonRays::AABB*>(), { ".ctor", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RadeonRays::AABB::*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float3)>(
     &::UnityEngine::Rendering::RadeonRays::AABB::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6e37718;
+  constexpr static std::size_t addrs = 0x6e387f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RadeonRays::AABB::*)(::UnityEngine::Rendering::RadeonRays::AABB*)>(
     &::UnityEngine::Rendering::RadeonRays::AABB::Encapsulate)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x6e37728;
+  constexpr static std::size_t addrs = 0x6e38808;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::RadeonRays::AABB::*)(::Unity::Mathematics::float3)>(&::UnityEngine::Rendering::RadeonRays::AABB::Encapsulate)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6e377c0;
+  constexpr static std::size_t addrs = 0x6e388a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RadeonRays::AABB::*)(::UnityEngine::Rendering::RadeonRays::AABB*)>(
     &::UnityEngine::Rendering::RadeonRays::AABB::Contains)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6e37840;
+  constexpr static std::size_t addrs = 0x6e38920;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::RadeonRays::AABB::*)()>(&::UnityEngine::Rendering::RadeonRays::AABB::IsValid)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6e378b8;
+  constexpr static std::size_t addrs = 0x6e38998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::RadeonRays::AABB*>(), { "IsValid", {}, {} })));

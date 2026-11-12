@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Tweening::Tween::*)()>(&::Tweening::Tween::get_isStarted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ae328;
+  constexpr static std::size_t addrs = 0x68ae984;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "get_isStarted", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Tweening::Tween::*)()>(&::Tweening::Tween::get_isActive)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x68ae330;
+  constexpr static std::size_t addrs = 0x68ae98c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "get_isActive", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Tweening::Tween::*)()>(&::Tweening::Tween::get_isComplete)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x68ae354;
+  constexpr static std::size_t addrs = 0x68ae9b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "get_isComplete", {}, {} })));
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Tweening::Tween::*)()>(&::Tweening::Tween::get_isKilled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ae368;
+  constexpr static std::size_t addrs = 0x68ae9c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "get_isKilled", {}, {} })));
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Tweening::Tween::*)()>(&::Tweening::Tween::get_progress)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ae370;
+  constexpr static std::size_t addrs = 0x68ae9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "get_progress", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Tweening::Tween::*)()>(&::Tweening::Tween::get_startTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ae378;
+  constexpr static std::size_t addrs = 0x68ae9d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "get_startTime", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Tweening::Tween::*)()>(&::Tweening::Tween::get_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ae380;
+  constexpr static std::size_t addrs = 0x68ae9dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "get_duration", {}, {} })));
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Tween::*)(float_t)>(&::Tweening::Tween::set_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ae388;
+  constexpr static std::size_t addrs = 0x68ae9e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "set_duration", {}, { ::i2c::type_of<float_t>() } })));
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Tweening::Tween::*)()>(&::Tweening::Tween::get_loop)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ae390;
+  constexpr static std::size_t addrs = 0x68ae9ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "get_loop", {}, {} })));
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Tween::*)(bool)>(&::Tweening::Tween::set_loop)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ae398;
+  constexpr static std::size_t addrs = 0x68ae9f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "set_loop", {}, { ::i2c::type_of<bool>() } })));
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Tweening::Tween::*)()>(&::Tweening::Tween::get_delay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ae3a0;
+  constexpr static std::size_t addrs = 0x68ae9fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "get_delay", {}, {} })));
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Tween::*)(float_t)>(&::Tweening::Tween::set_delay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ae3a8;
+  constexpr static std::size_t addrs = 0x68aea04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "set_delay", {}, { ::i2c::type_of<float_t>() } })));
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::EaseType (::Tweening::Tween::*)()>(&::Tweening::Tween::get_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ae3b0;
+  constexpr static std::size_t addrs = 0x68aea0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "get_easeType", {}, {} })));
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Tween::*)(::GlobalNamespace::EaseType)>(&::Tweening::Tween::set_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ae3b8;
+  constexpr static std::size_t addrs = 0x68aea14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::AnimationCurve* (::Tweening::Tween::*)()>(&::Tweening::Tween::get_animationCurve)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ae3c0;
+  constexpr static std::size_t addrs = 0x68aea1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "get_animationCurve", {}, {} })));
@@ -192,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Tween::*)(::UnityEngine::AnimationCurve*)>(&::Tweening::Tween::set_animationCurve)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ae3c8;
+  constexpr static std::size_t addrs = 0x68aea24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::Tweening::Tween::*)(float_t)>(&::Tweening::Tween::EvaluateEasing)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x68ad054;
+  constexpr static std::size_t addrs = 0x68ad6b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "EvaluateEasing", {}, { ::i2c::type_of<float_t>() } })));
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Tween::*)()>(&::Tweening::Tween::Kill)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68ae3d0;
+  constexpr static std::size_t addrs = 0x68aea2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "Kill", {}, {} })));
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Tween::*)(float_t)>(&::Tweening::Tween::Restart)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x68ae3dc;
+  constexpr static std::size_t addrs = 0x68aea38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "Restart", {}, { ::i2c::type_of<float_t>() } })));
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Tween::*)()>(&::Tweening::Tween::Resume)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x68ae3ec;
+  constexpr static std::size_t addrs = 0x68aea48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { "Resume", {}, {} })));
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Tween::*)(float_t, float_t)>(&::Tweening::Tween::SetStartTimeAndEndTime)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68ae3f4;
+  constexpr static std::size_t addrs = 0x68aea50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Tweening::Tween::*)()>(&::Tweening::Tween::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x68ae400;
+  constexpr static std::size_t addrs = 0x68aea5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Tweening::Tween*>(), { ".ctor", {}, {} })));

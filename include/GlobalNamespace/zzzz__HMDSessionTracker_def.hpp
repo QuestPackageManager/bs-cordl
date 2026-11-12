@@ -59,11 +59,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5d01140, size 0x588, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d00948, size 0x588, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5d016c8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5d00ed0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -136,26 +136,26 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x5d00e64, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5d0066c, size 0x1b0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleApplicationQuitting, addr 0x5d01014, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method HandleApplicationQuitting, addr 0x5d0081c, size 0x12c, virtual false, abstract: false, final false
   inline bool HandleApplicationQuitting();
 
-  /// @brief Method HandleHmdStateChanged, addr 0x5d00d00, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method HandleHmdStateChanged, addr 0x5d00508, size 0x164, virtual false, abstract: false, final false
   inline void HandleHmdStateChanged(::GlobalNamespace::XRSystemEventType xrSystemEventType);
 
-  /// @brief Method Initialize, addr 0x5d00aa0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x5d002a8, size 0x80, virtual true, abstract: false, final true
   inline void Initialize();
 
   /// [AsyncStateMachine(typeof(HMDSessionTracker::<InitializeAsync>d__5))]
-  /// @brief Method InitializeAsync, addr 0x5d00b20, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InitializeAsync, addr 0x5d00328, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeAsync();
 
   static inline ::GlobalNamespace::HMDSessionTracker* New_ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher,
                                                                ::BeatSaber::Analytics::Settings::SettingsSnapshotAnalytics* settingsSnapshot, ::GlobalNamespace::IXRSystemState* xrSystemState);
 
-  /// @brief Method StartSession, addr 0x5d00bd0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method StartSession, addr 0x5d003d8, size 0x130, virtual false, abstract: false, final false
   inline void StartSession();
 
   constexpr ::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* const& __cordl_internal_get__gameplayEventsDispatcher() const;
@@ -176,7 +176,7 @@ public:
 
   constexpr void __cordl_internal_set__xrSystemState(::GlobalNamespace::IXRSystemState* value);
 
-  /// @brief Method .ctor, addr 0x5d00a94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d0029c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::Analytics::Gameplay::IGameplayEventsDispatcher* gameplayEventsDispatcher, ::BeatSaber::Analytics::Settings::SettingsSnapshotAnalytics* settingsSnapshot,
                     ::GlobalNamespace::IXRSystemState* xrSystemState);
 

@@ -30,13 +30,13 @@ public:
 
   static inline ::System::Diagnostics::CorrelationManager* getStaticF_correlationManager();
 
-  /// @brief Method get_AutoFlush, addr 0x67fcf60, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_AutoFlush, addr 0x67fd5b0, size 0x50, virtual false, abstract: false, final false
   static inline bool get_AutoFlush();
 
-  /// @brief Method get_CorrelationManager, addr 0x67fd010, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_CorrelationManager, addr 0x67fd660, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::CorrelationManager* get_CorrelationManager();
 
-  /// @brief Method get_Listeners, addr 0x67fcc70, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Listeners, addr 0x67fd2c0, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::TraceListenerCollection* get_Listeners();
 
   static inline void setStaticF_correlationManager(::System::Diagnostics::CorrelationManager* value);

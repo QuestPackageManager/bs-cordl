@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::RuntimeType* (*)(::System::Runtime::Serialization::SerializationInfo*, ::System::RuntimeType*)>(
     &::System::UnitySerializationHolder::AddElementTypes)> {
   constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x60e1288;
+  constexpr static std::size_t addrs = 0x60e1510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::UnitySerializationHolder::*)(::System::Type*)>(&::System::UnitySerializationHolder::MakeElementTypes)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x60e1680;
+  constexpr static std::size_t addrs = 0x60e1908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Serialization::SerializationInfo*, int32_t)>(&::System::UnitySerializationHolder::GetUnitySerializationInfo)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x60e1770;
+  constexpr static std::size_t addrs = 0x60e19f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Serialization::SerializationInfo*, ::System::RuntimeType*)>(
     &::System::UnitySerializationHolder::GetUnitySerializationInfo)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x60e189c;
+  constexpr static std::size_t addrs = 0x60e1b24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Runtime::Serialization::SerializationInfo*, int32_t, ::StringW, ::System::Reflection::RuntimeAssembly*)>(
     &::System::UnitySerializationHolder::GetUnitySerializationInfo)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x60e1c20;
+  constexpr static std::size_t addrs = 0x60e1ea8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UnitySerializationHolder::*)(::System::Runtime::Serialization::SerializationInfo*,
                                                                                                     ::System::Runtime::Serialization::StreamingContext)>(&::System::UnitySerializationHolder::_ctor)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x60e1d8c;
+  constexpr static std::size_t addrs = 0x60e2014;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UnitySerializationHolder::*)(::StringW)>(&::System::UnitySerializationHolder::ThrowInsufficientInformation)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x60e2188;
+  constexpr static std::size_t addrs = 0x60e2410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::UnitySerializationHolder::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::UnitySerializationHolder::GetObjectData)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x60e2290;
+  constexpr static std::size_t addrs = 0x60e2518;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::UnitySerializationHolder::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::UnitySerializationHolder::GetRealObject)> {
   constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x60e22e0;
+  constexpr static std::size_t addrs = 0x60e2568;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

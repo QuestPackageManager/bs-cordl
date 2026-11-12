@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::ECFieldElement::*)()>(&::Org::BouncyCastle::Math::EC::ECFieldElement::get_BitLength)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x37535fc;
+  constexpr static std::size_t addrs = 0x3757a94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::ECFieldElement::*)()>(&::Org::BouncyCastle::Math::EC::ECFieldElement::get_IsOne)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3753620;
+  constexpr static std::size_t addrs = 0x3757ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::ECFieldElement::*)()>(&::Org::BouncyCastle::Math::EC::ECFieldElement::get_IsZero)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3753644;
+  constexpr static std::size_t addrs = 0x3757adc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math
     ::Org::BouncyCastle::Math::EC::ECFieldElement::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*)>(
     &::Org::BouncyCastle::Math::EC::ECFieldElement::MultiplyMinusProduct)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3753670;
+  constexpr static std::size_t addrs = 0x3757b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,7 +231,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math
     ::Org::BouncyCastle::Math::EC::ECFieldElement::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*)>(
     &::Org::BouncyCastle::Math::EC::ECFieldElement::MultiplyPlusProduct)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x37536cc;
+  constexpr static std::size_t addrs = 0x3757b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +246,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math
     ::Org::BouncyCastle::Math::EC::ECFieldElement::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*)>(
     &::Org::BouncyCastle::Math::EC::ECFieldElement::SquareMinusProduct)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3753728;
+  constexpr static std::size_t addrs = 0x3757bc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,7 +261,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math
     ::Org::BouncyCastle::Math::EC::ECFieldElement::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*)>(
     &::Org::BouncyCastle::Math::EC::ECFieldElement::SquarePlusProduct)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x375378c;
+  constexpr static std::size_t addrs = 0x3757c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (::Org::BouncyCastle::Math::EC::ECFieldElement::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::ECFieldElement::SquarePow)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x37537f0;
+  constexpr static std::size_t addrs = 0x3757c88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -288,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::ECFieldElement::*)()>(&::Org::BouncyCastle::Math::EC::ECFieldElement::TestBitZero)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3753828;
+  constexpr static std::size_t addrs = 0x3757cc0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -301,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::ECFieldElement::*)(::System::Object*)>(&::Org::BouncyCastle::Math::EC::ECFieldElement::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3753850;
+  constexpr static std::size_t addrs = 0x3757ce8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::EC::ECFieldElement::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*)>(
     &::Org::BouncyCastle::Math::EC::ECFieldElement::Equals)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x37538e8;
+  constexpr static std::size_t addrs = 0x3757d80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::ECFieldElement::*)()>(&::Org::BouncyCastle::Math::EC::ECFieldElement::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x375395c;
+  constexpr static std::size_t addrs = 0x3757df4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Math::EC::ECFieldElement::*)()>(&::Org::BouncyCastle::Math::EC::ECFieldElement::ToString)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3753984;
+  constexpr static std::size_t addrs = 0x3757e1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Math::EC::ECFieldElement::*)()>(&::Org::BouncyCastle::Math::EC::ECFieldElement::GetEncoded)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x37539ac;
+  constexpr static std::size_t addrs = 0x3757e44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::EC::ECFieldElement::*)()>(&::Org::BouncyCastle::Math::EC::ECFieldElement::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3753a04;
+  constexpr static std::size_t addrs = 0x3757e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::EC::ECFieldElement*>(), { ".ctor", {}, {} })));

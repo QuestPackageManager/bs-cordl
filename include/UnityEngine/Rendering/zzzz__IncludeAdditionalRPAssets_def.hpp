@@ -122,7 +122,7 @@ public:
 
   static inline ::UnityEngine::Rendering::IncludeAdditionalRPAssets* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x6bff390, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IRenderPipelineGraphicsSettings.get_version, addr 0x6c00470, size 0x8, virtual true, abstract: false, final true
   inline int32_t UnityEngine_Rendering_IRenderPipelineGraphicsSettings_get_version();
 
   constexpr bool const& __cordl_internal_get_m_IncludeAssetsByLabel() const;
@@ -149,28 +149,28 @@ public:
 
   constexpr void __cordl_internal_set_m_version(::UnityEngine::Rendering::IncludeAdditionalRPAssets_Version value);
 
-  /// @brief Method .ctor, addr 0x6bff500, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c005e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_includeAssetsByLabel, addr 0x6bff410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_includeAssetsByLabel, addr 0x6c004f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_includeAssetsByLabel();
 
-  /// @brief Method get_includeReferencedInScenes, addr 0x6bff398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_includeReferencedInScenes, addr 0x6c00478, size 0x8, virtual false, abstract: false, final false
   inline bool get_includeReferencedInScenes();
 
-  /// @brief Method get_labelToInclude, addr 0x6bff488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_labelToInclude, addr 0x6c00568, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_labelToInclude();
 
   /// @brief Convert to "::UnityEngine::Rendering::IRenderPipelineGraphicsSettings"
   constexpr ::UnityEngine::Rendering::IRenderPipelineGraphicsSettings* i___UnityEngine__Rendering__IRenderPipelineGraphicsSettings() noexcept;
 
-  /// @brief Method set_includeAssetsByLabel, addr 0x6bff418, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_includeAssetsByLabel, addr 0x6c004f8, size 0x70, virtual false, abstract: false, final false
   inline void set_includeAssetsByLabel(bool value);
 
-  /// @brief Method set_includeReferencedInScenes, addr 0x6bff3a0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_includeReferencedInScenes, addr 0x6c00480, size 0x70, virtual false, abstract: false, final false
   inline void set_includeReferencedInScenes(bool value);
 
-  /// @brief Method set_labelToInclude, addr 0x6bff490, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_labelToInclude, addr 0x6c00570, size 0x70, virtual false, abstract: false, final false
   inline void set_labelToInclude(::StringW value);
 
 protected:

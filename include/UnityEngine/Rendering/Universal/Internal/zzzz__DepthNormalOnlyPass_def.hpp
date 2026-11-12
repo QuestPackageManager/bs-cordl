@@ -136,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set_rendererList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
 
-  /// @brief Method .ctor, addr 0x6d611c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d622a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -195,10 +195,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass___c* New_ctor();
 
-  /// @brief Method <Render>b__29_0, addr 0x6d61224, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__29_0, addr 0x6d62304, size 0xa4, virtual false, abstract: false, final false
   inline void _Render_b__29_0(::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6d61220, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d62300, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass___c* getStaticF___9();
@@ -286,17 +286,17 @@ public:
   __declspec(property(get = get_shaderTagIds, put = set_shaderTagIds)) ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* shaderTagIds;
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method Execute, addr 0x6d5fdb4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6d60e94, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method ExecutePass, addr 0x6d5ff90, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ExecutePass, addr 0x6d61070, size 0x108, virtual false, abstract: false, final false
   static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass_PassData* passData,
                                  ::UnityEngine::Rendering::RendererList rendererList);
 
-  /// @brief Method GetGraphicsFormat, addr 0x6d5fef8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsFormat, addr 0x6d60fd8, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat();
 
-  /// @brief Method InitRendererListParams, addr 0x6d60154, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method InitRendererListParams, addr 0x6d61234, size 0x17c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RendererListParams InitRendererListParams(::UnityEngine::Rendering::Universal::UniversalRenderingData* renderingData,
                                                                              ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData,
                                                                              ::UnityEngine::Rendering::Universal::UniversalLightData* lightData);
@@ -304,24 +304,24 @@ public:
   static inline ::UnityEngine::Rendering::Universal::Internal::DepthNormalOnlyPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt,
                                                                                              ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask);
 
-  /// @brief Method OnCameraCleanup, addr 0x6d60098, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method OnCameraCleanup, addr 0x6d61178, size 0xbc, virtual true, abstract: false, final false
   inline void OnCameraCleanup(::UnityEngine::Rendering::CommandBuffer* cmd);
 
   /// [Obsolete("This rendering path is for Compatibility Mode only which has been deprecated and hidden behind URP_COMPATIBILITY_MODE define. This will do nothing.")]
-  /// @brief Method OnCameraSetup, addr 0x6d5fdb0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnCameraSetup, addr 0x6d60e90, size 0x4, virtual true, abstract: false, final false
   inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::by_ref<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
 
-  /// @brief Method Render, addr 0x6d602d0, size 0xc28, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d613b0, size 0xc28, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> cameraNormalsTexture,
                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> depthTexture,
                      /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> renderingLayersTexture, uint32_t batchLayerMask, bool setGlobalDepth,
                      bool setGlobalNormalAndRenderingLayers, bool allowPartialPass);
 
-  /// @brief Method Setup, addr 0x6d5ff7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d6105c, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RTHandle* depthHandle, ::UnityEngine::Rendering::RTHandle* normalHandle);
 
-  /// @brief Method Setup, addr 0x6d5ff84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x6d61064, size 0xc, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Rendering::RTHandle* depthHandle, ::UnityEngine::Rendering::RTHandle* normalHandle, ::UnityEngine::Rendering::RTHandle* decalLayerHandle);
 
   constexpr bool const& __cordl_internal_get__enableRenderingLayers_k__BackingField() const;
@@ -348,7 +348,7 @@ public:
 
   constexpr void __cordl_internal_set_m_FilteringSettings(::UnityEngine::Rendering::FilteringSettings value);
 
-  /// @brief Method .ctor, addr 0x6d5fde8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d60ec8, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::Rendering::RenderQueueRange renderQueueRange, ::UnityEngine::LayerMask layerMask);
 
   static inline ::StringW getStaticF_k_CameraNormalsTextureName();
@@ -364,15 +364,15 @@ public:
   static inline int32_t getStaticF_s_CameraRenderingLayersTextureID();
 
   /// [CompilerGenerated]
-  /// @brief Method get_enableRenderingLayers, addr 0x6d5fdc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableRenderingLayers, addr 0x6d60ea8, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableRenderingLayers();
 
   /// [CompilerGenerated]
-  /// @brief Method get_renderingLayersMaskSize, addr 0x6d5fdd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderingLayersMaskSize, addr 0x6d60eb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize get_renderingLayersMaskSize();
 
   /// [CompilerGenerated]
-  /// @brief Method get_shaderTagIds, addr 0x6d5fdb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shaderTagIds, addr 0x6d60e98, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* get_shaderTagIds();
 
   static inline void setStaticF_k_CameraNormalsTextureName(::StringW value);
@@ -388,15 +388,15 @@ public:
   static inline void setStaticF_s_CameraRenderingLayersTextureID(int32_t value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_enableRenderingLayers, addr 0x6d5fdd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_enableRenderingLayers, addr 0x6d60eb0, size 0x8, virtual false, abstract: false, final false
   inline void set_enableRenderingLayers(bool value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_renderingLayersMaskSize, addr 0x6d5fde0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderingLayersMaskSize, addr 0x6d60ec0, size 0x8, virtual false, abstract: false, final false
   inline void set_renderingLayersMaskSize(::UnityEngine::Rendering::Universal::RenderingLayerUtils_MaskSize value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_shaderTagIds, addr 0x6d5fdc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shaderTagIds, addr 0x6d60ea0, size 0x8, virtual false, abstract: false, final false
   inline void set_shaderTagIds(::System::Collections::Generic::List_1<::UnityEngine::Rendering::ShaderTagId>* value);
 
 protected:

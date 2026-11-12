@@ -50,7 +50,7 @@ public:
 
   static inline ::GlobalNamespace::UIKeyboard___c__DisplayClass21_0* New_ctor();
 
-  /// @brief Method <Awake>b__4, addr 0x5e5de84, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__4, addr 0x5e5e300, size 0x54, virtual false, abstract: false, final false
   inline void _Awake_b__4();
 
   constexpr ::UnityW<::GlobalNamespace::UIKeyboard> const& __cordl_internal_get___4__this() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_key(::StringW value);
 
-  /// @brief Method .ctor, addr 0x5e5de00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e5e27c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,7 +83,7 @@ public:
   UIKeyboard___c__DisplayClass21_0(UIKeyboard___c__DisplayClass21_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6460 };
 
   /// @brief Field key, offset: 0x10, size: 0x8, def value: None
   ::StringW ___key;
@@ -141,25 +141,25 @@ public:
   /// @brief Field textKeyWasPressedEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_textKeyWasPressedEvent, put = __cordl_internal_set_textKeyWasPressedEvent)) ::System::Action_1<char16_t>* textKeyWasPressedEvent;
 
-  /// @brief Method Awake, addr 0x5e5d340, size 0xac0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5e5d7bc, size 0xac0, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::UIKeyboard* New_ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method <Awake>b__21_0, addr 0x5e5de08, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__21_0, addr 0x5e5e284, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__21_0();
 
   /// [CompilerGenerated]
-  /// @brief Method <Awake>b__21_1, addr 0x5e5de24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__21_1, addr 0x5e5e2a0, size 0x20, virtual false, abstract: false, final false
   inline void _Awake_b__21_1();
 
   /// [CompilerGenerated]
-  /// @brief Method <Awake>b__21_2, addr 0x5e5de44, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__21_2, addr 0x5e5e2c0, size 0x20, virtual false, abstract: false, final false
   inline void _Awake_b__21_2();
 
   /// [CompilerGenerated]
-  /// @brief Method <Awake>b__21_3, addr 0x5e5de64, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__21_3, addr 0x5e5e2e0, size 0x20, virtual false, abstract: false, final false
   inline void _Awake_b__21_3();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelButton() const;
@@ -216,45 +216,45 @@ public:
 
   constexpr void __cordl_internal_set_textKeyWasPressedEvent(::System::Action_1<char16_t>* value);
 
-  /// @brief Method .ctor, addr 0x5e5de04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e5e280, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_cancelButtonWasPressedEvent, addr 0x5e5d090, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_cancelButtonWasPressedEvent, addr 0x5e5d50c, size 0xac, virtual false, abstract: false, final false
   inline void add_cancelButtonWasPressedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_deleteButtonWasPressedEvent, addr 0x5e5cde0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_deleteButtonWasPressedEvent, addr 0x5e5d25c, size 0xac, virtual false, abstract: false, final false
   inline void add_deleteButtonWasPressedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_okButtonWasPressedEvent, addr 0x5e5cf38, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method add_okButtonWasPressedEvent, addr 0x5e5d3b4, size 0xac, virtual false, abstract: false, final false
   inline void add_okButtonWasPressedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method add_textKeyWasPressedEvent, addr 0x5e5cc60, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_textKeyWasPressedEvent, addr 0x5e5d0dc, size 0xc0, virtual false, abstract: false, final false
   inline void add_textKeyWasPressedEvent(::System::Action_1<char16_t>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_cancelButtonWasPressedEvent, addr 0x5e5d13c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_cancelButtonWasPressedEvent, addr 0x5e5d5b8, size 0xac, virtual false, abstract: false, final false
   inline void remove_cancelButtonWasPressedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_deleteButtonWasPressedEvent, addr 0x5e5ce8c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_deleteButtonWasPressedEvent, addr 0x5e5d308, size 0xac, virtual false, abstract: false, final false
   inline void remove_deleteButtonWasPressedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_okButtonWasPressedEvent, addr 0x5e5cfe4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method remove_okButtonWasPressedEvent, addr 0x5e5d460, size 0xac, virtual false, abstract: false, final false
   inline void remove_okButtonWasPressedEvent(::System::Action* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_textKeyWasPressedEvent, addr 0x5e5cd20, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_textKeyWasPressedEvent, addr 0x5e5d19c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_textKeyWasPressedEvent(::System::Action_1<char16_t>* value);
 
-  /// @brief Method set_enableOkButtonInteractivity, addr 0x5e5d1e8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method set_enableOkButtonInteractivity, addr 0x5e5d664, size 0xa4, virtual false, abstract: false, final false
   inline void set_enableOkButtonInteractivity(bool value);
 
-  /// @brief Method set_hideCancelButton, addr 0x5e5d28c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_hideCancelButton, addr 0x5e5d708, size 0xb4, virtual false, abstract: false, final false
   inline void set_hideCancelButton(bool value);
 
 protected:
@@ -272,7 +272,7 @@ public:
   UIKeyboard(UIKeyboard const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6461 };
 
   /// [SerializeField]
   /// @brief Field _keyButtonPrefab, offset: 0x20, size: 0x8, def value: None

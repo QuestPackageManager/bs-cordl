@@ -20,7 +20,7 @@ class CORDL_TYPE PreloadData : public ::UnityEngine::Object {
 public:
   // Declarations
   /// [RequiredByNativeCode]
-  /// @brief Method PreloadDataDontStripMe, addr 0x6f87e50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PreloadDataDontStripMe, addr 0x6f88f30, size 0x4, virtual false, abstract: false, final false
   inline void PreloadDataDontStripMe();
 
 protected:

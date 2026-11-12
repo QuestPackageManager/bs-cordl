@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Xml::Schema::SyntaxTreeNode*, ::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*,
                                                                 ::ArrayW<::System::Xml::Schema::BitSet*>)>(&::System::Xml::Schema::ChoiceNode::ConstructChildPos)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x67841d0;
+  constexpr static std::size_t addrs = 0x6784820;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ChoiceNode::*)(::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*,
                                                                                                    ::ArrayW<::System::Xml::Schema::BitSet*>)>(&::System::Xml::Schema::ChoiceNode::ConstructPos)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x67842a8;
+  constexpr static std::size_t addrs = 0x67848f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::ChoiceNode::*)()>(&::System::Xml::Schema::ChoiceNode::get_IsNullable)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x67843c0;
+  constexpr static std::size_t addrs = 0x6784a10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ChoiceNode::*)(::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*,
                                                                                                    ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::ChoiceNode::ExpandTree)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6784454;
+  constexpr static std::size_t addrs = 0x6784aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::ChoiceNode::*)()>(&::System::Xml::Schema::ChoiceNode::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67839f8;
+  constexpr static std::size_t addrs = 0x6784048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::ChoiceNode*>(), { ".ctor", {}, {} })));

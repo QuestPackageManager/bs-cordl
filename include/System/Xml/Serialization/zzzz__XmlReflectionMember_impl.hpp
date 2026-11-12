@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlReflectionMember::*)(::StringW, ::System::Type*, ::System::Xml::Serialization::XmlAttributes*)>(
     &::System::Xml::Serialization::XmlReflectionMember::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x675fa14;
+  constexpr static std::size_t addrs = 0x6760064;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Serialization::XmlReflectionMember::*)()>(&::System::Xml::Serialization::XmlReflectionMember::get_IsReturnValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6761a18;
+  constexpr static std::size_t addrs = 0x6762068;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlReflectionMember*>(), { "get_IsReturnValue", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Serialization::XmlReflectionMember::*)()>(&::System::Xml::Serialization::XmlReflectionMember::get_MemberName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6761a20;
+  constexpr static std::size_t addrs = 0x6762070;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlReflectionMember*>(), { "get_MemberName", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Xml::Serialization::XmlReflectionMember::*)()>(&::System::Xml::Serialization::XmlReflectionMember::get_MemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6761a28;
+  constexpr static std::size_t addrs = 0x6762078;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlReflectionMember*>(), { "get_MemberType", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Serialization::XmlAttributes* (::System::Xml::Serialization::XmlReflectionMember::*)()>(
     &::System::Xml::Serialization::XmlReflectionMember::get_XmlAttributes)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x675ee10;
+  constexpr static std::size_t addrs = 0x675f460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlReflectionMember*>(), { "get_XmlAttributes", {}, {} })));
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Type* (::System::Xml::Serialization::XmlReflectionMember::*)()>(
     &::System::Xml::Serialization::XmlReflectionMember::get_DeclaringType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6761a30;
+  constexpr static std::size_t addrs = 0x6762080;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Serialization::XmlReflectionMember*>(), { "get_DeclaringType", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Serialization::XmlReflectionMember::*)(::System::Type*)>(
     &::System::Xml::Serialization::XmlReflectionMember::set_DeclaringType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6761a38;
+  constexpr static std::size_t addrs = 0x6762088;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

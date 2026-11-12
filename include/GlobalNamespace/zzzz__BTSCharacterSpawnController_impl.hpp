@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BTSCharacterSpawnController::*)()>(&::GlobalNamespace::BTSCharacterSpawnController::get_isCharacterVisible)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x352a254;
+  constexpr static std::size_t addrs = 0x352c894;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterSpawnController*>(), { "get_isCharacterVisible", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::BTSCharacterSpawnController::*)()>(&::GlobalNamespace::BTSCharacterSpawnController::get_isSpawned)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x352a268;
+  constexpr static std::size_t addrs = 0x352c8a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterSpawnController*>(), { "get_isSpawned", {}, {} })));
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)()>(&::GlobalNamespace::BTSCharacterSpawnController::Start)> {
   constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x352a270;
+  constexpr static std::size_t addrs = 0x352c8b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterSpawnController*>(), { "Start", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)()>(&::GlobalNamespace::BTSCharacterSpawnController::OnDestroy)> {
   constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x352a728;
+  constexpr static std::size_t addrs = 0x352cd68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterSpawnController*>(), { "OnDestroy", {}, {} })));
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)(::GlobalNamespace::BTSCharacter*)>(
     &::GlobalNamespace::BTSCharacterSpawnController::HandleStartCharacterAnimation)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x352ac94;
+  constexpr static std::size_t addrs = 0x352d2d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterSpawnController*>(),
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)()>(&::GlobalNamespace::BTSCharacterSpawnController::HandleGamePauseDidPause)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x352ad50;
+  constexpr static std::size_t addrs = 0x352d390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterSpawnController*>(), { "HandleGamePauseDidPause", {}, {} })));
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)()>(&::GlobalNamespace::BTSCharacterSpawnController::HandleGamePauseWillResume)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x352ad90;
+  constexpr static std::size_t addrs = 0x352d3d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)()>(&::GlobalNamespace::BTSCharacterSpawnController::HandleGamePauseDidResume)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x352add4;
+  constexpr static std::size_t addrs = 0x352d414;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)()>(&::GlobalNamespace::BTSCharacterSpawnController::HandleLevelEndActionsLevelFailed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x352adf4;
+  constexpr static std::size_t addrs = 0x352d434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)()>(&::GlobalNamespace::BTSCharacterSpawnController::HandleAnimationFinished)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x352ae14;
+  constexpr static std::size_t addrs = 0x352d454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterSpawnController*>(), { "HandleAnimationFinished", {}, {} })));
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::BTSCharacterSpawnController::*)()>(&::GlobalNamespace::BTSCharacterSpawnController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x352ae1c;
+  constexpr static std::size_t addrs = 0x352d45c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::BTSCharacterSpawnController*>(), { ".ctor", {}, {} })));

@@ -24,11 +24,11 @@ class CORDL_TYPE OVRMixedRealityCaptureConfigurationExtensions : public ::System
 public:
   // Declarations
   /// [Extension]
-  /// @brief Method ApplyTo, addr 0x6359548, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x63597d0, size 0x4, virtual false, abstract: false, final false
   static inline void ApplyTo(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
 
   /// [Extension]
-  /// @brief Method ReadFrom, addr 0x635954c, size 0x142c, virtual false, abstract: false, final false
+  /// @brief Method ReadFrom, addr 0x63597d4, size 0x142c, virtual false, abstract: false, final false
   static inline void ReadFrom(::GlobalNamespace::OVRMixedRealityCaptureConfiguration* dest, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* source);
 
 protected:

@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::System::Reflection::MethodInfo*, ::StringW)>(&::Unity::Burst::LowLevel::BurstCompilerService::GetDisassembly)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x6eef0d8;
+  constexpr static std::size_t addrs = 0x6ef01b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Object*, ::StringW)>(&::Unity::Burst::LowLevel::BurstCompilerService::CompileAsyncDelegateMethod)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x6eef2e4;
+  constexpr static std::size_t addrs = 0x6ef03c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(int32_t)>(&::Unity::Burst::LowLevel::BurstCompilerService::GetAsyncCompiledAsyncDelegateMethod)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eef464;
+  constexpr static std::size_t addrs = 0x6ef0544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (*)(::by_ref<::UnityEngine::Hash128>, uint32_t, uint32_t)>(&::Unity::Burst::LowLevel::BurstCompilerService::GetOrCreateSharedMemory)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eee714;
+  constexpr static std::size_t addrs = 0x6eef7f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(uint32_t)>(&::Unity::Burst::LowLevel::BurstCompilerService::SetCurrentExecutionMode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eef4a0;
+  constexpr static std::size_t addrs = 0x6ef0580;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)()>(&::Unity::Burst::LowLevel::BurstCompilerService::GetCurrentExecutionMode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6eef4dc;
+  constexpr static std::size_t addrs = 0x6ef05bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::LowLevel::BurstCompilerService*>(), { "GetCurrentExecutionMode", {}, {} })));
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType, uint8_t*, uint8_t*, int32_t)>(
     &::Unity::Burst::LowLevel::BurstCompilerService::Log)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6eef504;
+  constexpr static std::size_t addrs = 0x6ef05e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::LowLevel::BurstCompilerService*>(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(void*, ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType, uint8_t*, uint8_t*, int32_t)>(
     &::Unity::Burst::LowLevel::BurstCompilerService::RuntimeLog)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6eef570;
+  constexpr static std::size_t addrs = 0x6ef0650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Burst::LowLevel::BurstCompilerService*>(),
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW)>(&::Unity::Burst::LowLevel::BurstCompilerService::LoadBurstLibrary)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x6eef5dc;
+  constexpr static std::size_t addrs = 0x6ef06bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::System::Reflection::MethodInfo*, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>,
                                                                 ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::Unity::Burst::LowLevel::BurstCompilerService::GetDisassembly_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eef290;
+  constexpr static std::size_t addrs = 0x6ef0370;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::System::Object*, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
     &::Unity::Burst::LowLevel::BurstCompilerService::CompileAsyncDelegateMethod_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eef420;
+  constexpr static std::size_t addrs = 0x6ef0500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::Unity::Burst::LowLevel::BurstCompilerService::LoadBurstLibrary_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eef70c;
+  constexpr static std::size_t addrs = 0x6ef07ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

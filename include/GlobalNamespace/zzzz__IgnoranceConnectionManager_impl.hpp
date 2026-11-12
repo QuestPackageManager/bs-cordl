@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x35e15c4;
+  constexpr static std::size_t addrs = 0x35e5a5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_StartServerParams::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager_StartServerParams::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x35e15d0;
+  constexpr static std::size_t addrs = 0x35e5a68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager_StartServerParams*>(), { ".ctor", {}, {} })));
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x35e15dc;
+  constexpr static std::size_t addrs = 0x35e5a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35e15e8;
+  constexpr static std::size_t addrs = 0x35e5a80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)(::StringW)>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::set_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35e15f0;
+  constexpr static std::size_t addrs = 0x35e5a88;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -375,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35e15f8;
+  constexpr static std::size_t addrs = 0x35e5a90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)(::StringW)>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::set_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35e1600;
+  constexpr static std::size_t addrs = 0x35e5a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -403,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35e1608;
+  constexpr static std::size_t addrs = 0x35e5aa0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -417,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)(bool)>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::set_isConnectionOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35e1610;
+  constexpr static std::size_t addrs = 0x35e5aa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::get_compatibilityVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35e1618;
+  constexpr static std::size_t addrs = 0x35e5ab0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -445,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)(::StringW)>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::set_compatibilityVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35e1620;
+  constexpr static std::size_t addrs = 0x35e5ab8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -460,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)(
     ::GlobalNamespace::IgnoranceConnectionManager*, uint32_t, ::StringW, ::StringW, bool, ::StringW)>(&::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x35e0a28;
+  constexpr static std::size_t addrs = 0x35e4e98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -478,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)(::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::Send)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35e1628;
+  constexpr static std::size_t addrs = 0x35e5ac0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -493,7 +493,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::Disconnect)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x35e164c;
+  constexpr static std::size_t addrs = 0x35e5ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -657,7 +657,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass81_0::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass81_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35e166c;
+  constexpr static std::size_t addrs = 0x35e5b04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -671,7 +671,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass81_0::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass81_0::_DisposeAsync_b__0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35e1670;
+  constexpr static std::size_t addrs = 0x35e5b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -712,7 +712,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass81_1::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass81_1::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35e1678;
+  constexpr static std::size_t addrs = 0x35e5b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -726,7 +726,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass81_1::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass81_1::_DisposeAsync_b__1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35e167c;
+  constexpr static std::size_t addrs = 0x35e5b14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -767,7 +767,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass85_0::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass85_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35e0fac;
+  constexpr static std::size_t addrs = 0x35e541c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -781,7 +781,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass85_0::*)(
     ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*)>(&::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass85_0::_HandleConnectionMessage_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x35e1684;
+  constexpr static std::size_t addrs = 0x35e5b1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -818,58 +818,58 @@ inline ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass85_0* Glob
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass85_0::IgnoranceConnectionManager___c__DisplayClass85_0() {}
-//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104::*)()>(
-    &::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104::MoveNext)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105::*)()>(
+    &::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105::MoveNext)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x35e16a0;
+  constexpr static std::size_t addrs = 0x35e5b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
-        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104>(), { "MoveNext", {}, {} })));
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105>(), { "MoveNext", {}, {} })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104::SetStateMachine)> {
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105::SetStateMachine)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35e1b2c;
+  constexpr static std::size_t addrs = 0x35e5fc4;
 
   inline static ::MethodInfo const* method_info() {
-    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104>(),
+    static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105>(),
                                                                                            { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104::MoveNext() {
+inline void GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104>(), { "MoveNext", {}, {} })));
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105>(), { "MoveNext", {}, {} })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method);
 }
-inline void GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104>(),
+inline void GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105>(),
                                                                                          { "SetStateMachine", {}, { ::i2c::type_of<::System::Runtime::CompilerServices::IAsyncStateMachine*>() } })));
   return ::cordl_internals::RunMethodRethrow<void>(*this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::i2c::to_object<true>(*this, false)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__4__this", ty:
 // "::GlobalNamespace::IgnoranceConnectionManager*", modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken",
 // modifiers: "", def_value: Some("{}"), comment: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}"), comment: None }]
-constexpr ::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104(
+constexpr ::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::IgnoranceConnectionManager* __4__this,
     ::System::Threading::CancellationToken _cancellationToken_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -879,14 +879,14 @@ constexpr ::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSen
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__104() {}
+constexpr ::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__105() {}
 //  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__81.MoveNext
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__81::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__81::MoveNext)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x35e1b98;
+  constexpr static std::size_t addrs = 0x35e6030;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -900,7 +900,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__81::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__81::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x35e1fc8;
+  constexpr static std::size_t addrs = 0x35e6460;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__81>(),
@@ -946,7 +946,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::add_onInitializedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x35defdc;
+  constexpr static std::size_t addrs = 0x35e3434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -960,7 +960,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::remove_onInitializedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x35df088;
+  constexpr static std::size_t addrs = 0x35e34e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -974,7 +974,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::add_onConnectedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x35df134;
+  constexpr static std::size_t addrs = 0x35e358c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -988,7 +988,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::remove_onConnectedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x35df1e0;
+  constexpr static std::size_t addrs = 0x35e3638;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1002,7 +1002,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::add_onDisconnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35df28c;
+  constexpr static std::size_t addrs = 0x35e36e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1017,7 +1017,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::remove_onDisconnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35df34c;
+  constexpr static std::size_t addrs = 0x35e37a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1032,7 +1032,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::add_onConnectionFailedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35df40c;
+  constexpr static std::size_t addrs = 0x35e3864;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1047,7 +1047,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::remove_onConnectionFailedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35df4cc;
+  constexpr static std::size_t addrs = 0x35e3924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1062,7 +1062,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_1<::GlobalNamespace::IConnection*>*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::add_onConnectionConnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35df58c;
+  constexpr static std::size_t addrs = 0x35e39e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1077,7 +1077,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_1<::GlobalNamespace::IConnection*>*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::remove_onConnectionConnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35df64c;
+  constexpr static std::size_t addrs = 0x35e3aa4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1092,7 +1092,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*)>(&::GlobalNamespace::IgnoranceConnectionManager::add_onConnectionDisconnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35df70c;
+  constexpr static std::size_t addrs = 0x35e3b64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1108,7 +1108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*)>(&::GlobalNamespace::IgnoranceConnectionManager::remove_onConnectionDisconnectedEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35df7cc;
+  constexpr static std::size_t addrs = 0x35e3c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1125,7 +1125,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*)>(
         &::GlobalNamespace::IgnoranceConnectionManager::add_onReceivedDataEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35df88c;
+  constexpr static std::size_t addrs = 0x35e3ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1143,7 +1143,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*)>(
         &::GlobalNamespace::IgnoranceConnectionManager::remove_onReceivedDataEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35df94c;
+  constexpr static std::size_t addrs = 0x35e3da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1159,7 +1159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35dfa0c;
+  constexpr static std::size_t addrs = 0x35e3e64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "get_userId", {}, {} })));
@@ -1171,7 +1171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::StringW)>(&::GlobalNamespace::IgnoranceConnectionManager::set_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35dfa14;
+  constexpr static std::size_t addrs = 0x35e3e6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1184,7 +1184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35dfa1c;
+  constexpr static std::size_t addrs = 0x35e3e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "get_userName", {}, {} })));
@@ -1196,7 +1196,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::StringW)>(&::GlobalNamespace::IgnoranceConnectionManager::set_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35dfa24;
+  constexpr static std::size_t addrs = 0x35e3e7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1209,7 +1209,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::get_compatibilityVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35dfa2c;
+  constexpr static std::size_t addrs = 0x35e3e84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "get_compatibilityVersion", {}, {} })));
@@ -1221,7 +1221,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::StringW)>(&::GlobalNamespace::IgnoranceConnectionManager::set_compatibilityVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35dfa34;
+  constexpr static std::size_t addrs = 0x35e3e8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1234,7 +1234,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::get_isConnected)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x35dfa3c;
+  constexpr static std::size_t addrs = 0x35e3e94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "get_isConnected", {}, {} })));
@@ -1246,7 +1246,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::get_isConnecting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x35dfa4c;
+  constexpr static std::size_t addrs = 0x35e3ea4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "get_isConnecting", {}, {} })));
@@ -1258,7 +1258,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::get_isDisconnecting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x35dfa5c;
+  constexpr static std::size_t addrs = 0x35e3eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "get_isDisconnecting", {}, {} })));
@@ -1270,7 +1270,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::get_connectionCount)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x35dfa6c;
+  constexpr static std::size_t addrs = 0x35e3ec4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "get_connectionCount", {}, {} })));
@@ -1282,7 +1282,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x35dfabc;
+  constexpr static std::size_t addrs = 0x35e3f14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "get_isConnectionOwner", {}, {} })));
@@ -1294,7 +1294,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::get_isDisposed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x35dfacc;
+  constexpr static std::size_t addrs = 0x35e3f24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "get_isDisposed", {}, {} })));
@@ -1306,7 +1306,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::get_serverUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35dfadc;
+  constexpr static std::size_t addrs = 0x35e3f34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "get_serverUserId", {}, {} })));
@@ -1318,7 +1318,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::StringW)>(&::GlobalNamespace::IgnoranceConnectionManager::set_serverUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35dfae4;
+  constexpr static std::size_t addrs = 0x35e3f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1331,7 +1331,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::get_serverUserName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35dfaec;
+  constexpr static std::size_t addrs = 0x35e3f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "get_serverUserName", {}, {} })));
@@ -1343,7 +1343,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::StringW)>(&::GlobalNamespace::IgnoranceConnectionManager::set_serverUserName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35dfaf4;
+  constexpr static std::size_t addrs = 0x35e3f4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1356,7 +1356,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x35dfafc;
+  constexpr static std::size_t addrs = 0x35e3f54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { ".ctor", {}, {} })));
@@ -1369,7 +1369,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::BGNet::Core::ITimeProvider*, ::BGNet::Core::ITaskUtility*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::_ctor)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x35dfbb0;
+  constexpr static std::size_t addrs = 0x35e4008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1383,7 +1383,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::PollUpdate)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x35dfd54;
+  constexpr static std::size_t addrs = 0x35e41ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "PollUpdate", {}, {} })));
@@ -1396,7 +1396,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::ValueTask (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::DisposeAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x35e03b8;
+  constexpr static std::size_t addrs = 0x35e4828;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "DisposeAsync", {}, {} })));
@@ -1408,7 +1408,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::Dispose)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x35e048c;
+  constexpr static std::size_t addrs = 0x35e48fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "Dispose", {}, {} })));
@@ -1420,7 +1420,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::HandleConnectionEvents)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x35dfe6c;
+  constexpr static std::size_t addrs = 0x35e42c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "HandleConnectionEvents", {}, {} })));
@@ -1432,7 +1432,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::HandleIncomingEvents)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x35e00dc;
+  constexpr static std::size_t addrs = 0x35e4534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "HandleIncomingEvents", {}, {} })));
@@ -1445,7 +1445,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(uint32_t, ::StringW, ::StringW, bool, ::StringW)>(
     &::GlobalNamespace::IgnoranceConnectionManager::HandleConnectionMessage)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x35e0b98;
+  constexpr static std::size_t addrs = 0x35e5008;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1460,8 +1460,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::HandleDisconnectionEvents)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x35e02f8;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x35e4750;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1475,7 +1475,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::LiteNetLib::Utils::NetDataWriter* (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::GetConnectionMessage)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x35e0820;
+  constexpr static std::size_t addrs = 0x35e4c90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "GetConnectionMessage", {}, {} })));
@@ -1488,7 +1488,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::LiteNetLib::Utils::NetDataReader*, ::by_ref<::StringW>, ::by_ref<::StringW>, ::by_ref<bool>, ::by_ref<::StringW>)>(&::GlobalNamespace::IgnoranceConnectionManager::TryParseConnectionMessage)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x35e0a40;
+  constexpr static std::size_t addrs = 0x35e4eb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1506,7 +1506,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(uint32_t, ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(
     &::GlobalNamespace::IgnoranceConnectionManager::Send)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x35e0934;
+  constexpr static std::size_t addrs = 0x35e4da4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1522,7 +1522,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(uint32_t, ::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::IgnoranceConnectionManager::DisconnectPeer)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x35e0d90;
+  constexpr static std::size_t addrs = 0x35e5200;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1537,7 +1537,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)(uint32_t, ::by_ref<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>)>(
     &::GlobalNamespace::IgnoranceConnectionManager::TryGetConnection)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x35e0eac;
+  constexpr static std::size_t addrs = 0x35e531c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1553,7 +1553,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(
     &::GlobalNamespace::IgnoranceConnectionManager::SendToAll)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x35e0fc0;
+  constexpr static std::size_t addrs = 0x35e5458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1568,7 +1568,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod, ::GlobalNamespace::IConnection*)>(&::GlobalNamespace::IgnoranceConnectionManager::SendToAll)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x35e1084;
+  constexpr static std::size_t addrs = 0x35e551c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1585,7 +1585,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::IgnoranceConnectionManager::Disconnect)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x35e04c0;
+  constexpr static std::size_t addrs = 0x35e4930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1599,7 +1599,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::IConnection* (::GlobalNamespace::IgnoranceConnectionManager::*)(int32_t)>(
     &::GlobalNamespace::IgnoranceConnectionManager::GetConnection)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x35e1184;
+  constexpr static std::size_t addrs = 0x35e561c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1612,7 +1612,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::BGNet::Core::DeliveryMethod (*)(uint8_t)>(&::GlobalNamespace::IgnoranceConnectionManager::ToDeliveryMethod)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x35e0fa0;
+  constexpr static std::size_t addrs = 0x35e5410;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1625,11 +1625,25 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint8_t (*)(::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::IgnoranceConnectionManager::ToChannel)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x35e0fb0;
+  constexpr static std::size_t addrs = 0x35e5448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
         ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "ToChannel", {}, { ::i2c::type_of<::BGNet::Core::DeliveryMethod>() } })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager.ToDisconnectedReason
+template <>
+
+struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::DisconnectedReason (::GlobalNamespace::IgnoranceConnectionManager::*)(uint8_t)>(
+    &::GlobalNamespace::IgnoranceConnectionManager::ToDisconnectedReason)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x35e5420;
+
+  inline static ::MethodInfo const* method_info() {
+    static auto* ___internal_method =
+        THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "ToDisconnectedReason", {}, { ::i2c::type_of<uint8_t>() } })));
     return ___internal_method;
   }
 };
@@ -1638,7 +1652,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::IgnoranceCore::IgnoranceClient*)>(&::GlobalNamespace::IgnoranceConnectionManager::WaitForClientShutdown)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x35e0690;
+  constexpr static std::size_t addrs = 0x35e4b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1652,7 +1666,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::IgnoranceCore::IgnoranceServer*)>(&::GlobalNamespace::IgnoranceConnectionManager::WaitForServerShutdown)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x35e0758;
+  constexpr static std::size_t addrs = 0x35e4bc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1666,7 +1680,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::IgnoranceConnectionManager::Log)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x35e1274;
+  constexpr static std::size_t addrs = 0x35e570c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1679,7 +1693,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::IgnoranceConnectionManager::LogError)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x35e11e8;
+  constexpr static std::size_t addrs = 0x35e5680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1692,7 +1706,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::StartBackgroundSentry)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x35e1300;
+  constexpr static std::size_t addrs = 0x35e5798;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "StartBackgroundSentry", {}, {} })));
@@ -1704,7 +1718,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::CheckSentryState)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35dfe48;
+  constexpr static std::size_t addrs = 0x35e42a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "CheckSentryState", {}, {} })));
@@ -1717,7 +1731,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::BackgroundDisconnectSentry)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x35e1510;
+  constexpr static std::size_t addrs = 0x35e59a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -2333,6 +2347,11 @@ inline uint8_t GlobalNamespace::IgnoranceConnectionManager::ToChannel(::BGNet::C
   static auto* ___internal_method = THROW_UNLESS(
       ::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "ToChannel", {}, { ::i2c::type_of<::BGNet::Core::DeliveryMethod>() } })));
   return ::cordl_internals::RunMethodRethrow<uint8_t>(nullptr, ___internal_method, deliveryMethod);
+}
+inline ::GlobalNamespace::DisconnectedReason GlobalNamespace::IgnoranceConnectionManager::ToDisconnectedReason(uint8_t eventType) {
+  static auto* ___internal_method =
+      THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::IgnoranceConnectionManager*>(), { "ToDisconnectedReason", {}, { ::i2c::type_of<uint8_t>() } })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::DisconnectedReason>(this, ___internal_method, eventType);
 }
 inline void GlobalNamespace::IgnoranceConnectionManager::WaitForClientShutdown(::IgnoranceCore::IgnoranceClient* client) {
   static auto* ___internal_method =

@@ -50,19 +50,19 @@ public:
 
   static inline ::UnityEngine::Rendering::UI::DebugUIHandlerValue* New_ctor();
 
-  /// @brief Method OnDeselection, addr 0x6c73458, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method OnDeselection, addr 0x6c74538, size 0x50, virtual true, abstract: false, final false
   inline void OnDeselection();
 
-  /// @brief Method OnEnable, addr 0x6c73370, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6c74450, size 0x8, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnSelection, addr 0x6c73400, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method OnSelection, addr 0x6c744e0, size 0x58, virtual true, abstract: false, final false
   inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
 
-  /// @brief Method SetWidget, addr 0x6c73378, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method SetWidget, addr 0x6c74458, size 0x88, virtual true, abstract: false, final false
   inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
 
-  /// @brief Method Update, addr 0x6c734a8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x6c74588, size 0x184, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Rendering::DebugUI_Value* const& __cordl_internal_get_m_Field() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_valueLabel(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x6c7362c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c7470c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Color getStaticF_k_ZeroColor();

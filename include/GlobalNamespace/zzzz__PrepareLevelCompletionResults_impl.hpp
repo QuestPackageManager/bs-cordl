@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LevelC
     ::GlobalNamespace::PrepareLevelCompletionResults::*)(::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType, ::GlobalNamespace::LevelCompletionResultsBase_LevelEndAction)>(
     &::GlobalNamespace::PrepareLevelCompletionResults::FillLevelCompletionResults)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x5e45444;
+  constexpr static std::size_t addrs = 0x5e45874;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PrepareLevelCompletionResults*>(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::PrepareLevelCompletionResults::*)()>(&::GlobalNamespace::PrepareLevelCompletionResults::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e4574c;
+  constexpr static std::size_t addrs = 0x5e45b7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::PrepareLevelCompletionResults*>(), { ".ctor", {}, {} })));

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerStaticOptimizationEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerStaticOptimizationEXT::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e8123c;
+  constexpr static std::size_t addrs = 0x6e8231c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void* (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerStaticOptimizationEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerStaticOptimizationEXT::get_next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e81244;
+  constexpr static std::size_t addrs = 0x6e82324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerStaticOptimizationEXT::*)()>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerStaticOptimizationEXT::get_optimizeForStaticMarker)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6e8124c;
+  constexpr static std::size_t addrs = 0x6e8232c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerStaticOptimizationEXT::*)(void*, bool)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerStaticOptimizationEXT::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e81254;
+  constexpr static std::size_t addrs = 0x6e82334;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerStaticOptimizationEXT>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerStaticOptimizationEXT::*)(bool)>(
     &::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialMarkerStaticOptimizationEXT::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x6e81270;
+  constexpr static std::size_t addrs = 0x6e82350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

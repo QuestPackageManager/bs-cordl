@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>*();
 
-  /// @brief Method Compare, addr 0x6966c8c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x6967d6c, size 0x38, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::Vector3 x, ::UnityEngine::Vector3 y);
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>"

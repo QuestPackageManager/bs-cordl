@@ -24,7 +24,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE IDebugDisplaySettings {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x6bc254c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x6bc362c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsData* Add(::UnityEngine::Rendering::IDebugDisplaySettingsData* newData);
 
   /// @brief Method ForEach, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

@@ -96,24 +96,24 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ShadowSplitData>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ShadowSplitData>*();
 
-  /// @brief Method Equals, addr 0x6fc2b9c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6fc3c7c, size 0x100, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x6fc26f4, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6fc37d4, size 0x154, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ShadowSplitData other);
 
-  /// @brief Method GetCullingPlane, addr 0x6fc2a54, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetCullingPlane, addr 0x6fc3b34, size 0x148, virtual false, abstract: false, final false
   inline ::UnityEngine::Plane GetCullingPlane(int32_t index);
 
-  /// @brief Method GetHashCode, addr 0x6fc29c4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6fc3aa4, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline int32_t getStaticF_maximumCullingPlaneCount();
 
-  /// @brief Method get_cullingPlaneCount, addr 0x6fc2a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cullingPlaneCount, addr 0x6fc3b20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cullingPlaneCount();
 
-  /// @brief Method get_cullingSphere, addr 0x6fc2a48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_cullingSphere, addr 0x6fc3b28, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_cullingSphere();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::ShadowSplitData>"
@@ -121,7 +121,7 @@ public:
 
   static inline void setStaticF_maximumCullingPlaneCount(int32_t value);
 
-  /// @brief Method set_shadowCascadeBlendCullingFactor, addr 0x6fc24b0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method set_shadowCascadeBlendCullingFactor, addr 0x6fc3590, size 0xd4, virtual false, abstract: false, final false
   inline void set_shadowCascadeBlendCullingFactor(float_t value);
 
   // Ctor Parameters []

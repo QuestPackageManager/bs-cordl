@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_hideBranding(bool value);
 
-  /// @brief Method .ctor, addr 0x5d0f994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d0f950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool hideBranding);
 
 protected:
@@ -93,7 +93,7 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentBrandingManager* New_ctor();
 
-  /// @brief Method Start, addr 0x5d0f8d8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d0f894, size 0xb8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>> const& __cordl_internal_get__brandingObjects() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__replacementBrandingObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>> value);
 
-  /// @brief Method .ctor, addr 0x5d0f990, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d0f94c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

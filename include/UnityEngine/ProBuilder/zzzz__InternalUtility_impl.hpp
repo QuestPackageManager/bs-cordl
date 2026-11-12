@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0::*)()>(
     &::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6b0aae8;
+  constexpr static std::size_t addrs = 0x6b0bbc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0*>(), { ".ctor", {}, {} })));
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0::*)(char16_t)>(
     &::UnityEngine::ProBuilder::InternalUtility___c__DisplayClass6_0::_TryParseColor_b__0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x6b0ab00;
+  constexpr static std::size_t addrs = 0x6b0bbe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::Transform*)>(&::UnityEngine::ProBuilder::InternalUtility::EmptyGameObjectWithTransform)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6b0a538;
+  constexpr static std::size_t addrs = 0x6b0b618;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::StringW, ::UnityEngine::Transform*, ::UnityEngine::Mesh*, ::UnityEngine::Material*, bool)>(
     &::UnityEngine::ProBuilder::InternalUtility::MeshGameObjectWithTransform)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x6b0a624;
+  constexpr static std::size_t addrs = 0x6b0b704;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(char16_t)>(&::UnityEngine::ProBuilder::InternalUtility::ControlKeyString)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x6b0a738;
+  constexpr static std::size_t addrs = 0x6b0b818;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::UnityEngine::Color>)>(&::UnityEngine::ProBuilder::InternalUtility::TryParseColor)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x6b0a85c;
+  constexpr static std::size_t addrs = 0x6b0b93c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::UnityEngine::Object*)>(&::UnityEngine::ProBuilder::InternalUtility::GetObjectId)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6b0aaec;
+  constexpr static std::size_t addrs = 0x6b0bbcc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

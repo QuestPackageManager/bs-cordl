@@ -60,43 +60,43 @@ public:
   __declspec(property(get = get_paperWhiteNits)) float_t paperWhiteNits;
 
   /// [FreeFunction("HDROutputSettingsBindings::GetActive", HasExplicitThis = false, ThrowsException = true)]
-  /// @brief Method GetActive, addr 0x6f1c8b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetActive, addr 0x6f1d994, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetActive(int32_t displayIndex);
 
   /// [FreeFunction("HDROutputSettingsBindings::GetAutomaticHDRTonemapping", HasExplicitThis = false, ThrowsException = true)]
-  /// @brief Method GetAutomaticHDRTonemapping, addr 0x6f1ca24, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAutomaticHDRTonemapping, addr 0x6f1db04, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetAutomaticHDRTonemapping(int32_t displayIndex);
 
   /// [FreeFunction("HDROutputSettingsBindings::GetAvailable", HasExplicitThis = false, ThrowsException = true)]
-  /// @brief Method GetAvailable, addr 0x6f1c96c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAvailable, addr 0x6f1da4c, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetAvailable(int32_t displayIndex);
 
   /// [FreeFunction("HDROutputSettingsBindings::GetDisplayColorGamut", HasExplicitThis = false, ThrowsException = true)]
-  /// @brief Method GetDisplayColorGamut, addr 0x6f1cbac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayColorGamut, addr 0x6f1dc8c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorGamut GetDisplayColorGamut(int32_t displayIndex);
 
   /// [FreeFunction("HDROutputSettingsBindings::GetGraphicsFormat", HasExplicitThis = false, ThrowsException = true)]
-  /// @brief Method GetGraphicsFormat, addr 0x6f1cc64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetGraphicsFormat, addr 0x6f1dd44, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(int32_t displayIndex);
 
   /// [FreeFunction("HDROutputSettingsBindings::GetHDRModeChangeRequested", HasExplicitThis = false, ThrowsException = true)]
-  /// @brief Method GetHDRModeChangeRequested, addr 0x6f1cffc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetHDRModeChangeRequested, addr 0x6f1e0dc, size 0x3c, virtual false, abstract: false, final false
   static inline bool GetHDRModeChangeRequested(int32_t displayIndex);
 
   /// [FreeFunction("HDROutputSettingsBindings::GetMaxFullFrameToneMapLuminance", HasExplicitThis = false, ThrowsException = true)]
-  /// @brief Method GetMaxFullFrameToneMapLuminance, addr 0x6f1cdd4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetMaxFullFrameToneMapLuminance, addr 0x6f1deb4, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetMaxFullFrameToneMapLuminance(int32_t displayIndex);
 
   /// [FreeFunction("HDROutputSettingsBindings::GetMaxToneMapLuminance", HasExplicitThis = false, ThrowsException = true)]
-  /// @brief Method GetMaxToneMapLuminance, addr 0x6f1ce8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetMaxToneMapLuminance, addr 0x6f1df6c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetMaxToneMapLuminance(int32_t displayIndex);
 
   /// [FreeFunction("HDROutputSettingsBindings::GetMinToneMapLuminance", HasExplicitThis = false, ThrowsException = true)]
-  /// @brief Method GetMinToneMapLuminance, addr 0x6f1cf44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetMinToneMapLuminance, addr 0x6f1e024, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetMinToneMapLuminance(int32_t displayIndex);
 
   /// [FreeFunction("HDROutputSettingsBindings::GetPaperWhiteNits", HasExplicitThis = false, ThrowsException = true)]
-  /// @brief Method GetPaperWhiteNits, addr 0x6f1cd1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetPaperWhiteNits, addr 0x6f1ddfc, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetPaperWhiteNits(int32_t displayIndex);
 
   /// @brief [VisibleToOtherModules(new[] { "UnityEngine.XRModule" })]
@@ -105,15 +105,15 @@ public:
   /// @brief [VisibleToOtherModules(new[] { "UnityEngine.XRModule" })]
   static inline ::UnityEngine::HDROutputSettings* New_ctor(int32_t displayIndex);
 
-  /// @brief Method RequestHDRModeChange, addr 0x6f1d038, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RequestHDRModeChange, addr 0x6f1e118, size 0x8c, virtual false, abstract: false, final false
   inline void RequestHDRModeChange(bool enabled);
 
   /// [FreeFunction("HDROutputSettingsBindings::RequestHDRModeChange", HasExplicitThis = false, ThrowsException = true)]
-  /// @brief Method RequestHDRModeChangeInternal, addr 0x6f1d0c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RequestHDRModeChangeInternal, addr 0x6f1e1a4, size 0x44, virtual false, abstract: false, final false
   static inline void RequestHDRModeChangeInternal(int32_t displayIndex, bool enabled);
 
   /// [FreeFunction("HDROutputSettingsBindings::SetAutomaticHDRTonemapping", HasExplicitThis = false, ThrowsException = true)]
-  /// @brief Method SetAutomaticHDRTonemapping, addr 0x6f1caec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetAutomaticHDRTonemapping, addr 0x6f1dbcc, size 0x44, virtual false, abstract: false, final false
   static inline void SetAutomaticHDRTonemapping(int32_t displayIndex, bool scripted);
 
   constexpr int32_t const& __cordl_internal_get_m_DisplayIndex() const;
@@ -123,55 +123,55 @@ public:
   constexpr void __cordl_internal_set_m_DisplayIndex(int32_t value);
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.XRModule" })]
-  /// @brief Method .ctor, addr 0x6f1c7cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f1d8ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [VisibleToOtherModules(new[] { "UnityEngine.XRModule" })]
-  /// @brief Method .ctor, addr 0x6f1c7d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f1d8b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t displayIndex);
 
   static inline ::UnityEngine::HDROutputSettings* getStaticF__mainDisplay();
 
   static inline ::ArrayW<::UnityEngine::HDROutputSettings*> getStaticF_displays();
 
-  /// @brief Method get_HDRModeChangeRequested, addr 0x6f1cf80, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_HDRModeChangeRequested, addr 0x6f1e060, size 0x7c, virtual false, abstract: false, final false
   inline bool get_HDRModeChangeRequested();
 
-  /// @brief Method get_active, addr 0x6f1c838, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_active, addr 0x6f1d918, size 0x7c, virtual false, abstract: false, final false
   inline bool get_active();
 
-  /// @brief Method get_automaticHDRTonemapping, addr 0x6f1c9a8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_automaticHDRTonemapping, addr 0x6f1da88, size 0x7c, virtual false, abstract: false, final false
   inline bool get_automaticHDRTonemapping();
 
-  /// @brief Method get_available, addr 0x6f1c8f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_available, addr 0x6f1d9d0, size 0x7c, virtual false, abstract: false, final false
   inline bool get_available();
 
-  /// @brief Method get_displayColorGamut, addr 0x6f1cb30, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_displayColorGamut, addr 0x6f1dc10, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::ColorGamut get_displayColorGamut();
 
-  /// @brief Method get_graphicsFormat, addr 0x6f1cbe8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_graphicsFormat, addr 0x6f1dcc8, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::GraphicsFormat get_graphicsFormat();
 
-  /// @brief Method get_main, addr 0x6f1c7dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_main, addr 0x6f1d8bc, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::HDROutputSettings* get_main();
 
-  /// @brief Method get_maxFullFrameToneMapLuminance, addr 0x6f1cd58, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_maxFullFrameToneMapLuminance, addr 0x6f1de38, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_maxFullFrameToneMapLuminance();
 
-  /// @brief Method get_maxToneMapLuminance, addr 0x6f1ce10, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_maxToneMapLuminance, addr 0x6f1def0, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_maxToneMapLuminance();
 
-  /// @brief Method get_minToneMapLuminance, addr 0x6f1cec8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_minToneMapLuminance, addr 0x6f1dfa8, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_minToneMapLuminance();
 
-  /// @brief Method get_paperWhiteNits, addr 0x6f1cca0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_paperWhiteNits, addr 0x6f1dd80, size 0x7c, virtual false, abstract: false, final false
   inline float_t get_paperWhiteNits();
 
   static inline void setStaticF__mainDisplay(::UnityEngine::HDROutputSettings* value);
 
   static inline void setStaticF_displays(::ArrayW<::UnityEngine::HDROutputSettings*> value);
 
-  /// @brief Method set_automaticHDRTonemapping, addr 0x6f1ca60, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method set_automaticHDRTonemapping, addr 0x6f1db40, size 0x8c, virtual false, abstract: false, final false
   inline void set_automaticHDRTonemapping(bool value);
 
 protected:

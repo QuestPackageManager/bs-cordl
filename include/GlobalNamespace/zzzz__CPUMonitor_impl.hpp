@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CPUMonitor::*)()>(&::GlobalNamespace::CPUMonitor::PollUpdate)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x35d9438;
+  constexpr static std::size_t addrs = 0x35dd890;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CPUMonitor*>(), { "PollUpdate", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (::GlobalNamespace::CPUMonitor::*)()>(&::GlobalNamespace::CPUMonitor::get_utilization)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x35d9678;
+  constexpr static std::size_t addrs = 0x35ddad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CPUMonitor*>(), { "get_utilization", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CPUMonitor::*)()>(&::GlobalNamespace::CPUMonitor::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x35d969c;
+  constexpr static std::size_t addrs = 0x35ddaf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CPUMonitor*>(), { ".ctor", {}, {} })));

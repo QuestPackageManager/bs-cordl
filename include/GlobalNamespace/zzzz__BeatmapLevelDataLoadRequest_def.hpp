@@ -104,7 +104,7 @@ public:
                                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Object>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14399 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -143,11 +143,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x39cb004, size 0x6d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39cf500, size 0x6d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x39cb6dc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x39cfbd8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(/* [Nullable(0)] */ ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -171,7 +171,7 @@ public:
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::BeatmapLevelDataSO>> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14400 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -262,10 +262,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateInvalidBundleContentException, addr 0x39cabcc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CreateInvalidBundleContentException, addr 0x39cf0c8, size 0xb8, virtual false, abstract: false, final false
   inline ::System::IO::InvalidDataException* CreateInvalidBundleContentException();
 
-  /// @brief Method Dispose, addr 0x39caea8, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x39cf3a4, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// [AsyncStateMachine(typeof(BeatmapLevelDataLoadRequest::<LoadAssetAsync>d__9`1<T>))]
@@ -274,19 +274,19 @@ public:
     requires(::cordl_internals::type_constraint<T, ::UnityEngine::Object*>)
   static inline ::System::Threading::Tasks::Task_1<T>* LoadAssetAsync(::UnityEngine::AssetBundle* bundle, ::StringW assetName);
 
-  /// @brief Method LoadDataAsync, addr 0x39caa08, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method LoadDataAsync, addr 0x39cef04, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadDataAsync(::System::Threading::CancellationToken externalCancellationToken);
 
   /// [AsyncStateMachine(typeof(BeatmapLevelDataLoadRequest::<LoadDataAsyncInternal>d__8))]
-  /// @brief Method LoadDataAsyncInternal, addr 0x39caadc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method LoadDataAsyncInternal, addr 0x39cefd8, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadDataAsyncInternal(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::BeatmapLevelDataLoadRequest* New_ctor(::StringW assetBundlePath, ::StringW levelDataAssetName);
 
-  /// @brief Method ThrowIfExternalCancellationRequested, addr 0x39cac84, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfExternalCancellationRequested, addr 0x39cf180, size 0x19c, virtual false, abstract: false, final false
   inline void ThrowIfExternalCancellationRequested();
 
-  /// @brief Method UnloadBundle, addr 0x39cae20, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UnloadBundle, addr 0x39cf31c, size 0x88, virtual false, abstract: false, final false
   inline void UnloadBundle();
 
   constexpr ::StringW const& __cordl_internal_get__assetBundlePath() const;
@@ -325,13 +325,13 @@ public:
 
   constexpr void __cordl_internal_set_assetBundle(::UnityW<::UnityEngine::AssetBundle> value);
 
-  /// @brief Method .ctor, addr 0x39ca940, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39cee3c, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::StringW assetBundlePath, ::StringW levelDataAssetName);
 
-  /// @brief Method get_HasFailed, addr 0x39caf1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_HasFailed, addr 0x39cf418, size 0x3c, virtual false, abstract: false, final false
   inline bool get_HasFailed();
 
-  /// @brief Method get_HasValidResult, addr 0x39caf58, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_HasValidResult, addr 0x39cf454, size 0xac, virtual false, abstract: false, final false
   inline bool get_HasValidResult();
 
   /// @brief Convert to "::System::IDisposable"
@@ -352,7 +352,7 @@ public:
   BeatmapLevelDataLoadRequest(BeatmapLevelDataLoadRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14401 };
 
   /// [Nullable(2)]
   /// @brief Field _task, offset: 0x10, size: 0x8, def value: None

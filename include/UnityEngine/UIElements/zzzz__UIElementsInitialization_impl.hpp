@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(&::UnityEngine::UIElements::UIElementsInitialization___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7177020;
+  constexpr static std::size_t addrs = 0x7178100;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIElementsInitialization___c*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7177024;
+  constexpr static std::size_t addrs = 0x7178104;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_1)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x717707c;
+  constexpr static std::size_t addrs = 0x717815c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_2)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x71770d4;
+  constexpr static std::size_t addrs = 0x71781b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_3)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177144;
+  constexpr static std::size_t addrs = 0x7178224;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_4)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x71771b4;
+  constexpr static std::size_t addrs = 0x7178294;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_5)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177224;
+  constexpr static std::size_t addrs = 0x7178304;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_6)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177294;
+  constexpr static std::size_t addrs = 0x7178374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_7)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177304;
+  constexpr static std::size_t addrs = 0x71783e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_8)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177374;
+  constexpr static std::size_t addrs = 0x7178454;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_9)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x71773e4;
+  constexpr static std::size_t addrs = 0x71784c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_10)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177454;
+  constexpr static std::size_t addrs = 0x7178534;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_11)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x71774c4;
+  constexpr static std::size_t addrs = 0x71785a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_12)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177534;
+  constexpr static std::size_t addrs = 0x7178614;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_13)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x71775a4;
+  constexpr static std::size_t addrs = 0x7178684;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_14)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177614;
+  constexpr static std::size_t addrs = 0x71786f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_15)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177684;
+  constexpr static std::size_t addrs = 0x7178764;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_16)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x71776f4;
+  constexpr static std::size_t addrs = 0x71787d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_17)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177764;
+  constexpr static std::size_t addrs = 0x7178844;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_18)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x71777d4;
+  constexpr static std::size_t addrs = 0x71788b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_19)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177844;
+  constexpr static std::size_t addrs = 0x7178924;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_20)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x71778b4;
+  constexpr static std::size_t addrs = 0x7178994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_21)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177924;
+  constexpr static std::size_t addrs = 0x7178a04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_22)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177994;
+  constexpr static std::size_t addrs = 0x7178a74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_23)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177a04;
+  constexpr static std::size_t addrs = 0x7178ae4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_24)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7177a74;
+  constexpr static std::size_t addrs = 0x7178b54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_25)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177acc;
+  constexpr static std::size_t addrs = 0x7178bac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_26)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7177b3c;
+  constexpr static std::size_t addrs = 0x7178c1c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_27)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177b94;
+  constexpr static std::size_t addrs = 0x7178c74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_28)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7177c04;
+  constexpr static std::size_t addrs = 0x7178ce4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -430,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_29)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177c5c;
+  constexpr static std::size_t addrs = 0x7178d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_30)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7177ccc;
+  constexpr static std::size_t addrs = 0x7178dac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -458,7 +458,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_31)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177d24;
+  constexpr static std::size_t addrs = 0x7178e04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -472,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_32)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177d94;
+  constexpr static std::size_t addrs = 0x7178e74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -486,7 +486,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_33)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7177e04;
+  constexpr static std::size_t addrs = 0x7178ee4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_34)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177e5c;
+  constexpr static std::size_t addrs = 0x7178f3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -514,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_35)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177ecc;
+  constexpr static std::size_t addrs = 0x7178fac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -528,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_36)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7177f3c;
+  constexpr static std::size_t addrs = 0x717901c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -542,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_37)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7177fac;
+  constexpr static std::size_t addrs = 0x717908c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -556,7 +556,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_38)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7178004;
+  constexpr static std::size_t addrs = 0x71790e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -570,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_39)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7178074;
+  constexpr static std::size_t addrs = 0x7179154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -584,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_40)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x71780e4;
+  constexpr static std::size_t addrs = 0x71791c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -598,7 +598,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_41)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x717813c;
+  constexpr static std::size_t addrs = 0x717921c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -612,7 +612,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_42)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x71781ac;
+  constexpr static std::size_t addrs = 0x717928c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -626,7 +626,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_43)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x7178204;
+  constexpr static std::size_t addrs = 0x71792e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -640,7 +640,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_44)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7178280;
+  constexpr static std::size_t addrs = 0x7179360;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -654,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_45)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x71782f0;
+  constexpr static std::size_t addrs = 0x71793d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -668,7 +668,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_46)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x7178348;
+  constexpr static std::size_t addrs = 0x7179428;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -682,7 +682,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_47)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x71783c4;
+  constexpr static std::size_t addrs = 0x71794a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -696,7 +696,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_48)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7178434;
+  constexpr static std::size_t addrs = 0x7179514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -710,7 +710,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_49)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x717848c;
+  constexpr static std::size_t addrs = 0x717956c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -724,7 +724,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_50)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7178508;
+  constexpr static std::size_t addrs = 0x71795e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -738,7 +738,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_51)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7178578;
+  constexpr static std::size_t addrs = 0x7179658;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -752,7 +752,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_52)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x71785d0;
+  constexpr static std::size_t addrs = 0x71796b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -766,7 +766,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_53)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7178640;
+  constexpr static std::size_t addrs = 0x7179720;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -780,7 +780,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_54)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7178698;
+  constexpr static std::size_t addrs = 0x7179778;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -794,7 +794,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_55)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x71786f0;
+  constexpr static std::size_t addrs = 0x71797d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -808,7 +808,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_56)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7178760;
+  constexpr static std::size_t addrs = 0x7179840;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -822,7 +822,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_57)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x71787b8;
+  constexpr static std::size_t addrs = 0x7179898;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -836,7 +836,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_58)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7178828;
+  constexpr static std::size_t addrs = 0x7179908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -850,7 +850,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_59)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7178880;
+  constexpr static std::size_t addrs = 0x7179960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -864,7 +864,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_60)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x71788f0;
+  constexpr static std::size_t addrs = 0x71799d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -878,7 +878,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_61)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7178948;
+  constexpr static std::size_t addrs = 0x7179a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -892,7 +892,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_62)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x71789b8;
+  constexpr static std::size_t addrs = 0x7179a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -906,7 +906,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_63)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7178a0c;
+  constexpr static std::size_t addrs = 0x7179aec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -920,7 +920,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_64)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x7178a7c;
+  constexpr static std::size_t addrs = 0x7179b5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -934,7 +934,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_65)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7178ad0;
+  constexpr static std::size_t addrs = 0x7179bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -948,7 +948,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_66)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x7178b40;
+  constexpr static std::size_t addrs = 0x7179c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -962,7 +962,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_67)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x7178bbc;
+  constexpr static std::size_t addrs = 0x7179c9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -976,7 +976,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IPropertyBag* (::UnityEngine::UIElements::UIElementsInitialization___c::*)()>(
     &::UnityEngine::UIElements::UIElementsInitialization___c::_RegisterBuiltInPropertyBags_b__2_68)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x7178c14;
+  constexpr static std::size_t addrs = 0x7179cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1833,7 +1833,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsInitialization::InitializeUIElementsManaged)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x717320c;
+  constexpr static std::size_t addrs = 0x71742ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1846,7 +1846,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsInitialization::RegisterBuiltInPropertyBags)> {
   constexpr static std::size_t size = 0x3cdc;
-  constexpr static std::size_t addrs = 0x7173264;
+  constexpr static std::size_t addrs = 0x7174344;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -1859,7 +1859,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsInitialization::RegisterConverters)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x7176f40;
+  constexpr static std::size_t addrs = 0x7178020;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIElementsInitialization*>(), { "RegisterConverters", {}, {} })));

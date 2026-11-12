@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t)>(&::UnityEngine::Rendering::LODRenderingUtils::CalculateFOVHalfAngle)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6ca5b04;
+  constexpr static std::size_t addrs = 0x6ca6be4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Rendering::LODParameters)>(&::UnityEngine::Rendering::LODRenderingUtils::CalculateScreenRelativeMetricNoBias)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ca5b1c;
+  constexpr static std::size_t addrs = 0x6ca6bfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Rendering::LODParameters, float_t, float_t)>(
     &::UnityEngine::Rendering::LODRenderingUtils::CalculateMeshLodConstant)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6ca5b60;
+  constexpr static std::size_t addrs = 0x6ca6c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::UnityEngine::Rendering::LODRenderingUtils::CalculatePerspectiveDistance)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6ca5b74;
+  constexpr static std::size_t addrs = 0x6ca6c54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::UnityEngine::Rendering::LODRenderingUtils::CalculateSqrPerspectiveDistance)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6ca5ba0;
+  constexpr static std::size_t addrs = 0x6ca6c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::LODGroup*)>(&::UnityEngine::Rendering::LODRenderingUtils::GetWorldReferencePoint)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ca5bc8;
+  constexpr static std::size_t addrs = 0x6ca6ca8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::LODGroup*)>(&::UnityEngine::Rendering::LODRenderingUtils::GetWorldSpaceScale)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6ca5c0c;
+  constexpr static std::size_t addrs = 0x6ca6cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(::UnityEngine::LODGroup*)>(&::UnityEngine::Rendering::LODRenderingUtils::GetWorldSpaceSize)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6ca5c50;
+  constexpr static std::size_t addrs = 0x6ca6d30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<float_t (*)(float_t, float_t)>(&::UnityEngine::Rendering::LODRenderingUtils::CalculateLODDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6ca4294;
+  constexpr static std::size_t addrs = 0x6ca5374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

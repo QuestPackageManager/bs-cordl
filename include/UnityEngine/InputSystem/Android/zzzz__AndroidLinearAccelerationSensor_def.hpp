@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidLinearAccelerationSensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a146d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a157b4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

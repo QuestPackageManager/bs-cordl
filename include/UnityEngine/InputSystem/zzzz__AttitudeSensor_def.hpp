@@ -32,15 +32,15 @@ public:
 
   __declspec(property(get = get_attitude, put = set_attitude)) ::UnityEngine::InputSystem::Controls::QuaternionControl* attitude;
 
-  /// @brief Method FinishSetup, addr 0x69ce6a8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x69cf788, size 0x70, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x69ce5c8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x69cf6a8, size 0x50, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::AttitudeSensor* New_ctor();
 
-  /// @brief Method OnRemoved, addr 0x69ce618, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x69cf6f8, size 0x90, virtual true, abstract: false, final false
   inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl* const& __cordl_internal_get__attitude_k__BackingField() const;
@@ -49,27 +49,27 @@ public:
 
   constexpr void __cordl_internal_set__attitude_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method .ctor, addr 0x69ce718, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69cf7f8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::AttitudeSensor* getStaticF__current_k__BackingField();
 
   /// [CompilerGenerated]
-  /// @brief Method get_attitude, addr 0x69ce51c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attitude, addr 0x69cf5fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_attitude();
 
   /// [CompilerGenerated]
-  /// @brief Method get_current, addr 0x69ce52c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x69cf60c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::AttitudeSensor* get_current();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::AttitudeSensor* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_attitude, addr 0x69ce524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_attitude, addr 0x69cf604, size 0x8, virtual false, abstract: false, final false
   inline void set_attitude(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_current, addr 0x69ce578, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x69cf658, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::AttitudeSensor* value);
 
 protected:

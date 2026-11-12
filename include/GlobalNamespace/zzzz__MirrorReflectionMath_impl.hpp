@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::MirrorReflectionMath::Plane)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x639f254;
+  constexpr static std::size_t addrs = 0x639f8a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MirrorReflectionMath*>(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::MirrorReflectionMath::CameraSpacePlane)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x639f280;
+  constexpr static std::size_t addrs = 0x639f8d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Vector4)>(&::GlobalNamespace::MirrorReflectionMath::CalculateReflectionMatrix)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x639f480;
+  constexpr static std::size_t addrs = 0x639fad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Vector4)>(
     &::GlobalNamespace::MirrorReflectionMath::CalculateObliqueMatrix)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x639f564;
+  constexpr static std::size_t addrs = 0x639fbb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

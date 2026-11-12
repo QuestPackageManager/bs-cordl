@@ -36,14 +36,14 @@ public:
   /// @brief Field value, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::StringW value;
 
-  /// @brief Method CloneNode, addr 0x6608d94, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x66093e4, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
   static inline ::System::Xml::Linq::XComment* New_ctor(::System::Xml::Linq::XComment* other);
 
   static inline ::System::Xml::Linq::XComment* New_ctor(::StringW value);
 
-  /// @brief Method WriteTo, addr 0x6608d28, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x6609378, size 0x6c, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
   constexpr ::StringW const& __cordl_internal_get_value() const;
@@ -52,19 +52,19 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6608bbc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x660920c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XComment* other);
 
-  /// @brief Method .ctor, addr 0x6608b60, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66091b0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method get_NodeType, addr 0x6608c18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x6609268, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Value, addr 0x6608c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x6609270, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x6608c28, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x6609278, size 0x100, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -82,7 +82,7 @@ public:
   XComment(XComment const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22805 };
 
   /// @brief Field value, offset: 0x28, size: 0x8, def value: None
   ::StringW ___value;

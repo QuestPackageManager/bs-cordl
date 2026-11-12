@@ -26,10 +26,10 @@ public:
 
   static inline ::System::Net::Configuration::ConnectionManagementSection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67d6a6c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67d70bc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x67d6aa8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x67d70f8, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:

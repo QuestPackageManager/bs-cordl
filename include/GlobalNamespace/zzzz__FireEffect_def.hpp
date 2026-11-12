@@ -109,16 +109,16 @@ public:
 
   static inline ::GlobalNamespace::FireEffect* New_ctor();
 
-  /// @brief Method NotifyAlphaWasChanged, addr 0x5d0eec8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method NotifyAlphaWasChanged, addr 0x5d0ee84, size 0xf4, virtual false, abstract: false, final false
   inline void NotifyAlphaWasChanged(float_t currentAlpha);
 
-  /// @brief Method OnDestroy, addr 0x5d0e988, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5d0e944, size 0x24, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetRenderersEnabled, addr 0x5d0ec28, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetRenderersEnabled, addr 0x5d0ebe4, size 0x80, virtual false, abstract: false, final false
   inline void SetRenderersEnabled(bool enabled);
 
-  /// @brief Method Start, addr 0x5d0e718, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x5d0e6d4, size 0x12c, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -217,7 +217,7 @@ public:
 
   constexpr void __cordl_internal_set__useEmissionColor(bool value);
 
-  /// @brief Method .ctor, addr 0x5d0f038, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d0eff4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

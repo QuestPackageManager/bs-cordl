@@ -67,10 +67,10 @@ public:
       put =
           __cordl_internal_set_didFinishEvent)) ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* didFinishEvent;
 
-  /// @brief Method Finish, addr 0x5dcb94c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x5dcba68, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method Init, addr 0x5dcb974, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5dcba90, size 0x4c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, /* [IsReadOnly] */ ::by_ref<::GlobalNamespace::BeatmapKey const> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
                    ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
@@ -85,15 +85,15 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x5dcb9c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dcbadc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_didFinishEvent, addr 0x5dcb7cc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5dcb8e8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method remove_didFinishEvent, addr 0x5dcb88c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5dcb9a8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupData*, ::GlobalNamespace::LevelCompletionResults*>* value);
 
 protected:

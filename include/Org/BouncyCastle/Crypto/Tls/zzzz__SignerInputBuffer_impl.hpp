@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer_SigStream::*)(::Org::BouncyCastle::Crypto::ISigner*)>(
     &::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer_SigStream::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x371c410;
+  constexpr static std::size_t addrs = 0x37208a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer_SigStream*>(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer_SigStream::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer_SigStream::WriteByte)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x371c440;
+  constexpr static std::size_t addrs = 0x37208d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer_SigStream*>(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer_SigStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer_SigStream::Write)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x371c4f8;
+  constexpr static std::size_t addrs = 0x3720990;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer_SigStream*>(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer::*)(::Org::BouncyCastle::Crypto::ISigner*)>(
     &::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer::UpdateSigner)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x371c38c;
+  constexpr static std::size_t addrs = 0x3720824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer*>(),
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer::*)()>(&::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x371c438;
+  constexpr static std::size_t addrs = 0x37208d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer*>(), { ".ctor", {}, {} })));

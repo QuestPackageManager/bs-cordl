@@ -36,10 +36,10 @@ namespace UnityEngine::Experimental::Rendering {
 struct CORDL_TYPE XRView {
 public:
   // Declarations
-  /// @brief Method ComputeEyeCenterUV, addr 0x6b9eb98, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ComputeEyeCenterUV, addr 0x6b9fc78, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ComputeEyeCenterUV(::UnityEngine::Matrix4x4 proj);
 
-  /// @brief Method .ctor, addr 0x6b9e938, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9fa18, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Matrix4x4 projMatrix, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 prevViewMatrix, bool isPrevViewMatrixValid, ::UnityEngine::Rect viewport,
                     ::UnityEngine::Mesh* occlusionMesh, ::UnityEngine::Mesh* visibleMesh, int32_t textureArraySlice);
 

@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set_resultBuffer(::UnityEngine::Rendering::RenderGraphModule::BufferHandle value);
 
-  /// @brief Method .ctor, addr 0x6d17ee4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d18fc4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -176,10 +176,10 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c* New_ctor();
 
-  /// @brief Method <Render>b__3_0, addr 0x6d17f40, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method <Render>b__3_0, addr 0x6d19020, size 0x1d0, virtual false, abstract: false, final false
   inline void _Render_b__3_0(::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass_WriteApvData* data, ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* ctx);
 
-  /// @brief Method .ctor, addr 0x6d17f3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1901c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass___c* getStaticF___9();
@@ -232,7 +232,7 @@ public:
 
   static inline ::UnityEngine::Rendering::Universal::ProbeVolumeDebugPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::ComputeShader* computeShader);
 
-  /// @brief Method Render, addr 0x6d178f4, size 0x5f0, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x6d189d4, size 0x5f0, virtual false, abstract: false, final false
   inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
                      ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthPyramidBuffer, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle normalBuffer);
 
@@ -242,7 +242,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ComputeShader(::UnityW<::UnityEngine::ComputeShader> value);
 
-  /// @brief Method .ctor, addr 0x6d1784c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d1892c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, ::UnityEngine::ComputeShader* computeShader);
 
 protected:

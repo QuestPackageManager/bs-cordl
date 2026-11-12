@@ -25,12 +25,12 @@ class CORDL_TYPE DepthTextureController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// [Inject]
-  /// @brief Method Init, addr 0x5d55cb8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5d5522c, size 0x104, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SettingsManager* settingsManager);
 
   static inline ::GlobalNamespace::DepthTextureController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x5d55dbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d55330, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +48,7 @@ public:
   DepthTextureController(DepthTextureController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6786 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6785 };
 
   /// @brief Field kDepthTextureEnabledKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kDepthTextureEnabledKeyword{ u"DEPTH_TEXTURE_ENABLED" };

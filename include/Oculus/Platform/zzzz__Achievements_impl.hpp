@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* (*)(::StringW, uint64_t)>(
     &::Oculus::Platform::Achievements::AddCount)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x623a614;
+  constexpr static std::size_t addrs = 0x623a89c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* (*)(::StringW, ::StringW)>(
     &::Oculus::Platform::Achievements::AddFields)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x623a784;
+  constexpr static std::size_t addrs = 0x623aa0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>* (*)()>(
     &::Oculus::Platform::Achievements::GetAllDefinitions)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x623a8f4;
+  constexpr static std::size_t addrs = 0x623ab7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Achievements*>(), { "GetAllDefinitions", {}, {} })));
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* (*)()>(&::Oculus::Platform::Achievements::GetAllProgress)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x623aa4c;
+  constexpr static std::size_t addrs = 0x623acd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Achievements*>(), { "GetAllProgress", {}, {} })));
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>* (*)(::ArrayW<::StringW>)>(
     &::Oculus::Platform::Achievements::GetDefinitionsByName)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x623aba4;
+  constexpr static std::size_t addrs = 0x623ae2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* (*)(::ArrayW<::StringW>)>(
     &::Oculus::Platform::Achievements::GetProgressByName)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x623ad20;
+  constexpr static std::size_t addrs = 0x623afa8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* (*)(::StringW)>(&::Oculus::Platform::Achievements::Unlock)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x623ae9c;
+  constexpr static std::size_t addrs = 0x623b124;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Oculus::Platform::Achievements*>(), { "Unlock", {}, { ::i2c::type_of<::StringW>() } })));
@@ -106,7 +106,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<
     static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>* (*)(::Oculus::Platform::Models::AchievementDefinitionList*)>(
         &::Oculus::Platform::Achievements::GetNextAchievementDefinitionListPage)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x623b004;
+  constexpr static std::size_t addrs = 0x623b28c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* (*)(::Oculus::Platform::Models::AchievementProgressList*)>(
     &::Oculus::Platform::Achievements::GetNextAchievementProgressListPage)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x623b1f4;
+  constexpr static std::size_t addrs = 0x623b47c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

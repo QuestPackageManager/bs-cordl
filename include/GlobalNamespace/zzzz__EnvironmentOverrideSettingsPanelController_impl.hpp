@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* (
     ::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::*)()>(&::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::get_environmentInfos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d78f74;
+  constexpr static std::size_t addrs = 0x5d78c5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::*)(
     ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*)>(&::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::set_environmentInfos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d78f7c;
+  constexpr static std::size_t addrs = 0x5d78c64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d78f84;
+  constexpr static std::size_t addrs = 0x5d78c6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d78fdc;
+  constexpr static std::size_t addrs = 0x5d78cc4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::_SetData_b__11_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5d78fe0;
+  constexpr static std::size_t addrs = 0x5d78cc8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c*>(),
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)(::GlobalNamespace::OverrideEnvironmentSettings*)>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::SetData)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x5d78294;
+  constexpr static std::size_t addrs = 0x5d77f7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentOverrideSettingsPanelController*>(),
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::OnDisable)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5d785fc;
+  constexpr static std::size_t addrs = 0x5d782e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::OnDestroy)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x5d78650;
+  constexpr static std::size_t addrs = 0x5d78338;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::Refresh)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x5d78834;
+  constexpr static std::size_t addrs = 0x5d7851c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentOverrideSettingsPanelController*>(), { "Refresh", {}, {} })));
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::HandleDropDownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x5d78998;
+  constexpr static std::size_t addrs = 0x5d78680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::HandleOverrideEnvironmentsToggleValueChanged)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x5d78c80;
+  constexpr static std::size_t addrs = 0x5d78968;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentOverrideSettingsPanelController*>(),
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d78f54;
+  constexpr static std::size_t addrs = 0x5d78c3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::EnvironmentOverrideSettingsPanelController*>(), { ".ctor", {}, {} })));
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::_HandleOverrideEnvironmentsToggleValueChanged_b__16_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5d78f58;
+  constexpr static std::size_t addrs = 0x5d78c40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::InstanceOcclusionEventDebugArray_Info::*)()>(
     &::UnityEngine::Rendering::InstanceOcclusionEventDebugArray_Info::HasVersion)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6c88318;
+  constexpr static std::size_t addrs = 0x6c893f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::GraphicsBuffer* (::UnityEngine::Rendering::InstanceOcclusionEventDebugArray::*)()>(
     &::UnityEngine::Rendering::InstanceOcclusionEventDebugArray::get_CounterBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6c87ad0;
+  constexpr static std::size_t addrs = 0x6c88bb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceOcclusionEventDebugArray::*)()>(&::UnityEngine::Rendering::InstanceOcclusionEventDebugArray::Init)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6c87ad8;
+  constexpr static std::size_t addrs = 0x6c88bb8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceOcclusionEventDebugArray>(), { "Init", {}, {} })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceOcclusionEventDebugArray::*)()>(&::UnityEngine::Rendering::InstanceOcclusionEventDebugArray::Dispose)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x6c87bc4;
+  constexpr static std::size_t addrs = 0x6c88ca4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Rendering::InstanceOcclusionEventDebugArray>(), { "Dispose", {}, {} })));
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::InstanceOcclusionEventDebugArray::*)(
     int32_t, ::UnityEngine::Rendering::InstanceOcclusionEventType, int32_t, int32_t, ::UnityEngine::Rendering::OcclusionTest)>(&::UnityEngine::Rendering::InstanceOcclusionEventDebugArray::TryAdd)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6c87d28;
+  constexpr static std::size_t addrs = 0x6c88e08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Rendering::InstanceOcclusionEventDebugArray::*)(::UnityEngine::Rendering::DebugRendererBatcherStats*)>(
     &::UnityEngine::Rendering::InstanceOcclusionEventDebugArray::MoveToDebugStatsAndClear)> {
   constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x6c87e50;
+  constexpr static std::size_t addrs = 0x6c88f30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

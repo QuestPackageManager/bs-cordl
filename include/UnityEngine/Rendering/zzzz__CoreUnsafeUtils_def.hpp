@@ -77,25 +77,25 @@ public:
   // Declarations
   __declspec(property(get = get_Count, put = set_Count)) int32_t Count;
 
-  /// @brief Method Clear, addr 0x6baa6b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6bab794, size 0x50, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method TryPop, addr 0x6baa780, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryPop, addr 0x6bab860, size 0x6c, virtual false, abstract: false, final false
   inline bool TryPop(::by_ref<::StringW> v);
 
-  /// @brief Method TryPush, addr 0x6baa704, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method TryPush, addr 0x6bab7e4, size 0x7c, virtual false, abstract: false, final false
   inline bool TryPush(::StringW v);
 
-  /// @brief Method .ctor, addr 0x6baa65c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bab73c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(uint8_t* ptr, int32_t length);
 
   /// [IsReadOnly]
   /// [CompilerGenerated]
-  /// @brief Method get_Count, addr 0x6baa64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x6bab72c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Count, addr 0x6baa654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Count, addr 0x6bab734, size 0x8, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
   // Ctor Parameters []
@@ -220,7 +220,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<uint32_t,uint32_t>"
   constexpr operator ::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<uint32_t, uint32_t>*();
 
-  /// @brief Method Get, addr 0x6baa7ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Get, addr 0x6bab8cc, size 0x8, virtual true, abstract: false, final true
   inline uint32_t Get(::by_ref<uint32_t> v);
 
   /// @brief Convert to "::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<uint32_t,uint32_t>"
@@ -257,7 +257,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<uint64_t,uint64_t>"
   constexpr operator ::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<uint64_t, uint64_t>*();
 
-  /// @brief Method Get, addr 0x6baa7f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Get, addr 0x6bab8d4, size 0x8, virtual true, abstract: false, final true
   inline uint64_t Get(::by_ref<uint64_t> v);
 
   /// @brief Convert to "::UnityEngine::Rendering::CoreUnsafeUtils_IKeyGetter_2<uint64_t,uint64_t>"
@@ -301,17 +301,17 @@ public:
 
   using UlongKeyGetter = ::UnityEngine::Rendering::CoreUnsafeUtils_UlongKeyGetter;
 
-  /// @brief Method CalculateRadixParams, addr 0x6ba99ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CalculateRadixParams, addr 0x6baaa8c, size 0x10, virtual false, abstract: false, final false
   static inline void CalculateRadixParams(int32_t radixBits, ::by_ref<int32_t> bitStates);
 
-  /// @brief Method CalculateRadixSortSupportArrays, addr 0x6ba99c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CalculateRadixSortSupportArrays, addr 0x6baaaa8, size 0x20, virtual false, abstract: false, final false
   static inline void CalculateRadixSortSupportArrays(int32_t bitStates, int32_t arrayLength, uint32_t* supportArray, ::by_ref<uint32_t*> bucketIndices, ::by_ref<uint32_t*> bucketSizes,
                                                      ::by_ref<uint32_t*> bucketPrefix, ::by_ref<uint32_t*> arrayOutput);
 
-  /// @brief Method CalculateRadixSupportSize, addr 0x6ba99bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CalculateRadixSupportSize, addr 0x6baaa9c, size 0xc, virtual false, abstract: false, final false
   static inline int32_t CalculateRadixSupportSize(int32_t bitStates, int32_t arrayLength);
 
-  /// @brief Method CombineHashes, addr 0x6baa490, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CombineHashes, addr 0x6bab570, size 0x64, virtual false, abstract: false, final false
   static inline void CombineHashes(int32_t count, ::UnityEngine::Hash128* hashes, ::UnityEngine::Hash128* outHash);
 
   /// @brief Method CombineHashes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -321,7 +321,7 @@ public:
              ::cordl_internals::value_type_constraint<TGetter> && ::cordl_internals::default_constructor_constraint<TGetter>)
   static inline void CombineHashes(int32_t count, void* hashes, ::UnityEngine::Hash128* outHash);
 
-  /// @brief Method CompareHashes, addr 0x6baa3e8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CompareHashes, addr 0x6bab4c8, size 0xa8, virtual false, abstract: false, final false
   static inline int32_t CompareHashes(int32_t oldHashCount, ::UnityEngine::Hash128* oldHashes, int32_t newHashCount, ::UnityEngine::Hash128* newHashes, int32_t* addIndices, int32_t* removeIndices,
                                       ::by_ref<int32_t> addCount, ::by_ref<int32_t> remCount);
 
@@ -348,7 +348,7 @@ public:
     requires(::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline void CopyTo(::System::Collections::Generic::List_1<T>* list, void* dest, int32_t count);
 
-  /// @brief Method HaveDuplicates, addr 0x6baa4f4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method HaveDuplicates, addr 0x6bab5d4, size 0x158, virtual false, abstract: false, final false
   static inline bool HaveDuplicates(::ArrayW<int32_t> arr);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -356,22 +356,22 @@ public:
     requires(::cordl_internals::type_constraint<T, ::System::IEquatable_1<T>*> && ::cordl_internals::value_type_constraint<T> && ::cordl_internals::default_constructor_constraint<T>)
   static inline int32_t IndexOf(void* data, int32_t count, T v);
 
-  /// @brief Method InsertionSort, addr 0x6ba9d90, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method InsertionSort, addr 0x6baae70, size 0x94, virtual false, abstract: false, final false
   static inline void InsertionSort(::ArrayW<uint32_t> arr, int32_t sortSize);
 
-  /// @brief Method InsertionSort, addr 0x6ba9e24, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InsertionSort, addr 0x6baaf04, size 0xb0, virtual false, abstract: false, final false
   static inline void InsertionSort(::Unity::Collections::NativeArray_1<uint32_t> arr, int32_t sortSize);
 
-  /// @brief Method InsertionSort, addr 0x6ba9d30, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method InsertionSort, addr 0x6baae10, size 0x60, virtual false, abstract: false, final false
   static inline void InsertionSort(uint32_t* arr, int32_t length);
 
-  /// @brief Method MergeSort, addr 0x6ba9b1c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method MergeSort, addr 0x6baabfc, size 0x110, virtual false, abstract: false, final false
   static inline void MergeSort(::ArrayW<uint32_t> arr, int32_t sortSize, ::by_ref<::ArrayW<uint32_t>> supportArray);
 
-  /// @brief Method MergeSort, addr 0x6ba9c2c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method MergeSort, addr 0x6baad0c, size 0x104, virtual false, abstract: false, final false
   static inline void MergeSort(::Unity::Collections::NativeArray_1<uint32_t> arr, int32_t sortSize, ::by_ref<::Unity::Collections::NativeArray_1<uint32_t>> supportArray);
 
-  /// @brief Method MergeSort, addr 0x6ba99e8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method MergeSort, addr 0x6baaac8, size 0x134, virtual false, abstract: false, final false
   static inline void MergeSort(uint32_t* array, uint32_t* support, int32_t length);
 
   /// @brief Method Partition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -382,10 +382,10 @@ public:
              ::cordl_internals::default_constructor_constraint<TGetter>)
   static inline int32_t Partition(void* data, int32_t left, int32_t right);
 
-  /// @brief Method QuickSort, addr 0x6baa2f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method QuickSort, addr 0x6bab3d0, size 0x7c, virtual false, abstract: false, final false
   static inline void QuickSort(::ArrayW<uint32_t> arr, int32_t left, int32_t right);
 
-  /// @brief Method QuickSort, addr 0x6baa36c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method QuickSort, addr 0x6bab44c, size 0x7c, virtual false, abstract: false, final false
   static inline void QuickSort(::ArrayW<uint64_t> arr, int32_t left, int32_t right);
 
   /// @brief Method QuickSort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -409,13 +409,13 @@ public:
              ::cordl_internals::default_constructor_constraint<TGetter>)
   static inline void QuickSort(void* data, int32_t left, int32_t right);
 
-  /// @brief Method RadixSort, addr 0x6baa08c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method RadixSort, addr 0x6bab16c, size 0x13c, virtual false, abstract: false, final false
   static inline void RadixSort(::ArrayW<uint32_t> arr, int32_t sortSize, ::by_ref<::ArrayW<uint32_t>> supportArray, int32_t radixBits);
 
-  /// @brief Method RadixSort, addr 0x6baa1c8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method RadixSort, addr 0x6bab2a8, size 0x128, virtual false, abstract: false, final false
   static inline void RadixSort(::Unity::Collections::NativeArray_1<uint32_t> array, int32_t sortSize, ::by_ref<::Unity::Collections::NativeArray_1<uint32_t>> supportArray, int32_t radixBits);
 
-  /// @brief Method RadixSort, addr 0x6ba9ed4, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method RadixSort, addr 0x6baafb4, size 0x1b8, virtual false, abstract: false, final false
   static inline void RadixSort(uint32_t* array, uint32_t* support, int32_t radixBits, int32_t bitStates, int32_t length);
 
 protected:

@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorEventHandler_GetColorDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::GlobalNamespace::LightColorEventHandler_GetColorDelegate::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x5de9be4;
+  constexpr static std::size_t addrs = 0x5de9cf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorEventHandler_GetColorDelegate*>(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::LightColorEventHandler_GetColorDelegate::*)(::GlobalNamespace::EnvironmentColorType, bool, float_t)>(
     &::GlobalNamespace::LightColorEventHandler_GetColorDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x5deb794;
+  constexpr static std::size_t addrs = 0x5deb8c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorEventHandler_GetColorDelegate*>(),
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IAsyncResult* (
                                                                                                                                                ::System::AsyncCallback*, ::System::Object*)>(
     &::GlobalNamespace::LightColorEventHandler_GetColorDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5deb7a8;
+  constexpr static std::size_t addrs = 0x5deb8d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorEventHandler_GetColorDelegate*>(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Color (::GlobalNamespace::LightColorEventHandler_GetColorDelegate::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::LightColorEventHandler_GetColorDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x5deb868;
+  constexpr static std::size_t addrs = 0x5deb994;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorEventHandler_GetColorDelegate*>(),
@@ -107,7 +107,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     int32_t, ::GlobalNamespace::LightWithIdManager*, ::Tweening::SongTimeTweeningManager*, ::GlobalNamespace::ColorManager*, ::GlobalNamespace::IBpmController*,
     ::GlobalNamespace::LightColorEventHandler_GetColorDelegate*)>(&::GlobalNamespace::LightColorEventHandler_InitData::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5deb890;
+  constexpr static std::size_t addrs = 0x5deb9bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
     int32_t, int32_t, ::GlobalNamespace::LightWithIdManager*, ::Tweening::SongTimeTweeningManager*, ::GlobalNamespace::ColorManager*, ::GlobalNamespace::IBpmController*,
     ::GlobalNamespace::LightColorEventHandler_GetColorDelegate*)>(&::GlobalNamespace::LightColorEventHandler_InitData::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5de9c50;
+  constexpr static std::size_t addrs = 0x5de9d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorEventHandler::*)(::GlobalNamespace::LightColorEventHandler_InitData*)>(
     &::GlobalNamespace::LightColorEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x5de9c6c;
+  constexpr static std::size_t addrs = 0x5de9d7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorEventHandler::*)()>(&::GlobalNamespace::LightColorEventHandler::Cleanup)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5de7790;
+  constexpr static std::size_t addrs = 0x5de78a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorEventHandler*>(), { "Cleanup", {}, {} })));
@@ -308,8 +308,8 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorEventHandler::*)(::GlobalNamespace::LightColorBeatmapEventData*)>(
     &::GlobalNamespace::LightColorEventHandler::HandleColorEvent)> {
-  constexpr static std::size_t size = 0x448;
-  constexpr static std::size_t addrs = 0x5dea6d8;
+  constexpr static std::size_t size = 0x450;
+  constexpr static std::size_t addrs = 0x5dea7e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::LightColorEventHandler*>(),
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorEventHandler::*)(bool)>(&::GlobalNamespace::LightColorEventHandler::UseBoostColors)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x5deadfc;
+  constexpr static std::size_t addrs = 0x5deaf14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -336,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorEventHandler::*)(
     ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, float_t, float_t, float_t, float_t, bool)>(&::GlobalNamespace::LightColorEventHandler::SetData)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x5deb62c;
+  constexpr static std::size_t addrs = 0x5deb758;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -353,8 +353,8 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::
 template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::LightColorEventHandler::*)(float_t)>(&::GlobalNamespace::LightColorEventHandler::SetColor)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x5deb490;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x5deb5a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -22,7 +22,7 @@ namespace UnityEngine::Rendering::RenderGraphModule::NativeRenderPassCompiler {
 struct CORDL_TYPE Name {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x6c55c64, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c56d44, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool computeUTF8ByteCount);
 
   // Ctor Parameters []

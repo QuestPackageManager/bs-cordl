@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::BinXmlSqlDecimal::*)()>(&::System::Xml::BinXmlSqlDecimal::get_IsPositive)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x65f7df8;
+  constexpr static std::size_t addrs = 0x65f8448;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::BinXmlSqlDecimal>(), { "get_IsPositive", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::BinXmlSqlDecimal::*)(::ArrayW<uint8_t>, int32_t, bool)>(&::System::Xml::BinXmlSqlDecimal::_ctor)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x65f7e08;
+  constexpr static std::size_t addrs = 0x65f8458;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::ArrayW<uint8_t>, int32_t)>(&::System::Xml::BinXmlSqlDecimal::UIntFromByteArray)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x65f80a0;
+  constexpr static std::size_t addrs = 0x65f86f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint32_t>, ::by_ref<int32_t>, uint32_t, ::by_ref<uint32_t>)>(&::System::Xml::BinXmlSqlDecimal::MpDiv1)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x65f82e4;
+  constexpr static std::size_t addrs = 0x65f8934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint32_t>, ::by_ref<int32_t>)>(&::System::Xml::BinXmlSqlDecimal::MpNormalize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x65f83bc;
+  constexpr static std::size_t addrs = 0x65f8a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<char16_t (*)(uint32_t)>(&::System::Xml::BinXmlSqlDecimal::ChFromDigit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x65f8414;
+  constexpr static std::size_t addrs = 0x65f8a64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::BinXmlSqlDecimal>(), { "ChFromDigit", {}, { ::i2c::type_of<uint32_t>() } })));
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Decimal (::System::Xml::BinXmlSqlDecimal::*)()>(&::System::Xml::BinXmlSqlDecimal::ToDecimal)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x65f841c;
+  constexpr static std::size_t addrs = 0x65f8a6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::BinXmlSqlDecimal>(), { "ToDecimal", {}, {} })));
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::BinXmlSqlDecimal::*)()>(&::System::Xml::BinXmlSqlDecimal::TrimTrailingZeros)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x65f8110;
+  constexpr static std::size_t addrs = 0x65f8760;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::BinXmlSqlDecimal>(), { "TrimTrailingZeros", {}, {} })));
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::BinXmlSqlDecimal::*)()>(&::System::Xml::BinXmlSqlDecimal::ToString)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x65f8548;
+  constexpr static std::size_t addrs = 0x65f8b98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

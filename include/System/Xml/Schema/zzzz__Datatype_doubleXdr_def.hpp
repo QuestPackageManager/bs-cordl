@@ -31,10 +31,10 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_doubleXdr* New_ctor();
 
-  /// @brief Method ParseValue, addr 0x662eea8, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x662f4f8, size 0x1e0, virtual true, abstract: false, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method .ctor, addr 0x66244b8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6624b08, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set_tooltip(::StringW value);
 
-  /// @brief Method .ctor, addr 0x6f6ee90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f6ff70, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW tooltip);
 
 protected:

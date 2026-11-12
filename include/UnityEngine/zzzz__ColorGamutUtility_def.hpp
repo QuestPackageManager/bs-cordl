@@ -32,15 +32,15 @@ class CORDL_TYPE ColorGamutUtility : public ::System::Object {
 public:
   // Declarations
   /// [FreeFunction(IsThreadSafe = true)]
-  /// @brief Method GetColorPrimaries, addr 0x6f1d1e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetColorPrimaries, addr 0x6f1e2c4, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorPrimaries GetColorPrimaries(::UnityEngine::ColorGamut gamut);
 
   /// [FreeFunction(IsThreadSafe = true)]
-  /// @brief Method GetTransferFunction, addr 0x6f1d25c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetTransferFunction, addr 0x6f1e33c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TransferFunction GetTransferFunction(::UnityEngine::ColorGamut gamut);
 
   /// [FreeFunction(IsThreadSafe = true)]
-  /// @brief Method GetWhitePoint, addr 0x6f1d220, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetWhitePoint, addr 0x6f1e300, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::WhitePoint GetWhitePoint(::UnityEngine::ColorGamut gamut);
 
 protected:

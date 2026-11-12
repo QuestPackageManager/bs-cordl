@@ -54,18 +54,18 @@ public:
   constexpr void __cordl_internal_set__Type_k__BackingField(::UnityEngine::Bindings::StaticAccessorType value);
 
   /// [VisibleToOtherModules]
-  /// @brief Method .ctor, addr 0x7051f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7053038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x7051f60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x7053040, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Bindings::StaticAccessorType type);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Name, addr 0x7051f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x7053028, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Type, addr 0x7051f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x7053030, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::UnityEngine::Bindings::StaticAccessorType value);
 
 protected:
@@ -83,7 +83,7 @@ public:
   StaticAccessorAttribute(StaticAccessorAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23676 };
 
   /// [CompilerGenerated]
   /// [DebuggerBrowsable((System.Diagnostics.DebuggerBrowsableState)0)]

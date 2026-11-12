@@ -41,25 +41,25 @@ public:
 
   __declspec(property(get = get_useFastSRGBLinearConversion)) bool useFastSRGBLinearConversion;
 
-  /// @brief Method .ctor, addr 0x6d4b9e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6d4cac4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::ContextContainer* frameData);
 
-  /// @brief Method get_gradingMode, addr 0x6d4ba40, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_gradingMode, addr 0x6d4cb20, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<::UnityEngine::Rendering::Universal::ColorGradingMode> get_gradingMode();
 
-  /// @brief Method get_lutSize, addr 0x6d4baa0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_lutSize, addr 0x6d4cb80, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<int32_t> get_lutSize();
 
-  /// @brief Method get_supportDataDrivenLensFlare, addr 0x6d4bbc0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportDataDrivenLensFlare, addr 0x6d4cca0, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_supportDataDrivenLensFlare();
 
-  /// @brief Method get_supportScreenSpaceLensFlare, addr 0x6d4bb60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportScreenSpaceLensFlare, addr 0x6d4cc40, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_supportScreenSpaceLensFlare();
 
-  /// @brief Method get_universalPostProcessingData, addr 0x6d4b9ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_universalPostProcessingData, addr 0x6d4cacc, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::Universal::UniversalPostProcessingData* get_universalPostProcessingData();
 
-  /// @brief Method get_useFastSRGBLinearConversion, addr 0x6d4bb00, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_useFastSRGBLinearConversion, addr 0x6d4cbe0, size 0x60, virtual false, abstract: false, final false
   inline ::by_ref<bool> get_useFastSRGBLinearConversion();
 
   // Ctor Parameters []

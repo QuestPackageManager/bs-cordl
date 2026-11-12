@@ -32,7 +32,7 @@ namespace UnityEngine::Profiling {
 class CORDL_TYPE CustomSampler_BindingsMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToNative, addr 0x6f93c04, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ConvertToNative, addr 0x6f94ce4, size 0x14, virtual false, abstract: false, final false
   static inline ::System::IntPtr ConvertToNative(::UnityEngine::Profiling::CustomSampler* customSampler);
 
 protected:
@@ -73,17 +73,17 @@ public:
   /// @brief Field s_InvalidCustomSampler, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_InvalidCustomSampler, put = setStaticF_s_InvalidCustomSampler)) ::UnityEngine::Profiling::CustomSampler* s_InvalidCustomSampler;
 
-  /// @brief Method Create, addr 0x6f93af8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6f94bd8, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Profiling::CustomSampler* Create(::StringW name, bool collectGpuData);
 
   static inline ::UnityEngine::Profiling::CustomSampler* New_ctor();
 
   static inline ::UnityEngine::Profiling::CustomSampler* New_ctor(::System::IntPtr ptr);
 
-  /// @brief Method .ctor, addr 0x6f93a3c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f94b1c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x6f93a94, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f94b74, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
   static inline ::UnityEngine::Profiling::CustomSampler* getStaticF_s_InvalidCustomSampler();

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::Timeline::TimeUtility___c::*)()>(&::UnityEngine::Timeline::TimeUtility___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6e36354;
+  constexpr static std::size_t addrs = 0x6e37434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::Timeline::TimeUtility___c*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TimeUtility___c::*)(char16_t)>(&::UnityEngine::Timeline::TimeUtility___c::_ParseTimeCode_b__19_0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6e36358;
+  constexpr static std::size_t addrs = 0x6e37438;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TimeUtility___c::*)(char16_t)>(&::UnityEngine::Timeline::TimeUtility___c::_ParseTimeCode_b__19_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6e36384;
+  constexpr static std::size_t addrs = 0x6e37464;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Timeline::TimeUtility___c::*)(char16_t)>(&::UnityEngine::Timeline::TimeUtility___c::_ParseTimeSeconds_b__20_0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x6e3639c;
+  constexpr static std::size_t addrs = 0x6e3747c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(double_t)>(&::UnityEngine::Timeline::TimeUtility::ValidateFrameRate)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6e3455c;
+  constexpr static std::size_t addrs = 0x6e3563c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::ToFrames)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6e34614;
+  constexpr static std::size_t addrs = 0x6e356f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::ToExactFrames)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e34814;
+  constexpr static std::size_t addrs = 0x6e358f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(int32_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::FromFrames)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e34880;
+  constexpr static std::size_t addrs = 0x6e35960;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::FromFrames)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6e348f0;
+  constexpr static std::size_t addrs = 0x6e359d0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::OnFrameBoundary)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6e3495c;
+  constexpr static std::size_t addrs = 0x6e35a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::GetEpsilon)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x6e3475c;
+  constexpr static std::size_t addrs = 0x6e3583c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::PreviousFrame)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x6e34afc;
+  constexpr static std::size_t addrs = 0x6e35bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::NextFrame)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e34ba0;
+  constexpr static std::size_t addrs = 0x6e35c80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::PreviousFrameTime)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e34c10;
+  constexpr static std::size_t addrs = 0x6e35cf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::NextFrameTime)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6e34c80;
+  constexpr static std::size_t addrs = 0x6e35d60;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(double_t, double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::OnFrameBoundary)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x6e349d4;
+  constexpr static std::size_t addrs = 0x6e35ab4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::RoundToFrame)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x6e34cf0;
+  constexpr static std::size_t addrs = 0x6e35dd0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(double_t, double_t, ::StringW)>(&::UnityEngine::Timeline::TimeUtility::TimeAsFrames)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6e34dd4;
+  constexpr static std::size_t addrs = 0x6e35eb4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(double_t, double_t, ::StringW)>(&::UnityEngine::Timeline::TimeUtility::TimeAsTimeCode)> {
   constexpr static std::size_t size = 0x42c;
-  constexpr static std::size_t addrs = 0x6e34eac;
+  constexpr static std::size_t addrs = 0x6e35f8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -309,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::StringW, double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::ParseTimeCode)> {
   constexpr static std::size_t size = 0x4f4;
-  constexpr static std::size_t addrs = 0x6e352d8;
+  constexpr static std::size_t addrs = 0x6e363b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -323,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::StringW, double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::ParseTimeSeconds)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x6e35894;
+  constexpr static std::size_t addrs = 0x6e36974;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<double_t (*)(::UnityEngine::AnimationClip*)>(&::UnityEngine::Timeline::TimeUtility::GetAnimationClipLength)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6e35c0c;
+  constexpr static std::size_t addrs = 0x6e36cec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::StringW, ::System::Func_2<char16_t, bool>*)>(&::UnityEngine::Timeline::TimeUtility::RemoveChar)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x6e357cc;
+  constexpr static std::size_t addrs = 0x6e368ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::FrameRate (*)(double_t)>(&::UnityEngine::Timeline::TimeUtility::GetClosestFrameRate)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x6e35d74;
+  constexpr static std::size_t addrs = 0x6e36e54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -377,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::Playables::FrameRate (*)(::UnityEngine::Timeline::StandardFrameRates)>(&::UnityEngine::Timeline::TimeUtility::ToFrameRate)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x6e35e64;
+  constexpr static std::size_t addrs = 0x6e36f44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::UnityEngine::Playables::FrameRate, ::by_ref<::UnityEngine::Timeline::StandardFrameRates>)>(
     &::UnityEngine::Timeline::TimeUtility::ToStandardFrameRate)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x6e36018;
+  constexpr static std::size_t addrs = 0x6e370f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

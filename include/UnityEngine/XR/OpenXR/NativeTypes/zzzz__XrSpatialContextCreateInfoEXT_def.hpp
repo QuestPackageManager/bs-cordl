@@ -45,38 +45,38 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e7fde4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80ec4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t capabilityConfigCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT* capabilityConfigs);
 
-  /// @brief Method .ctor, addr 0x6e7fe74, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80f54, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::System::IntPtr> capabilityConfigs);
 
-  /// @brief Method .ctor, addr 0x6e7ff64, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e81044, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1_ReadOnly<::System::IntPtr> capabilityConfigs);
 
-  /// @brief Method .ctor, addr 0x6e7fdc8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80ea8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(void* next, uint32_t capabilityConfigCount, ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT* capabilityConfigs);
 
-  /// @brief Method .ctor, addr 0x6e7fe00, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80ee0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1<::System::IntPtr> capabilityConfigs);
 
-  /// @brief Method .ctor, addr 0x6e7fedc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e80fbc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::Unity::Collections::NativeArray_1_ReadOnly<::System::IntPtr> capabilityConfigs);
 
   /// [CompilerGenerated]
-  /// @brief Method get_capabilityConfigCount, addr 0x6e7fdb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_capabilityConfigCount, addr 0x6e80e98, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_capabilityConfigCount();
 
   /// [CompilerGenerated]
-  /// @brief Method get_capabilityConfigs, addr 0x6e7fdc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_capabilityConfigs, addr 0x6e80ea0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT* get_capabilityConfigs();
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e7fdb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e80e90, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e7fda8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e80e88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -91,7 +91,7 @@ public:
                                           ::UnityEngine::XR::OpenXR::NativeTypes::XrSpatialCapabilityConfigurationBaseHeaderEXT* _capabilityConfigs_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17601 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

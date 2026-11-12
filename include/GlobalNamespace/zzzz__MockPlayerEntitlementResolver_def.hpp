@@ -64,11 +64,11 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x5e25b34, size 0x320, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5e25f64, size 0x320, virtual true, abstract: false, final true
   inline void MoveNext();
 
   /// [DebuggerHidden]
-  /// @brief Method SetStateMachine, addr 0x5e25e54, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5e26284, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -90,7 +90,7 @@ public:
                                                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6238 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6239 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -153,10 +153,10 @@ public:
   constexpr operator ::GlobalNamespace::IMockPlayerEntitlementResolver*() noexcept;
 
   /// [AsyncStateMachine(typeof(MockPlayerEntitlementResolver::<GetLevelEntitlementStatusAsync>d__4))]
-  /// @brief Method GetLevelEntitlementStatusAsync, addr 0x5e25a14, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method GetLevelEntitlementStatusAsync, addr 0x5e25e44, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementsStatus>* GetLevelEntitlementStatusAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method IsDlcLevel, addr 0x5e25b04, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsDlcLevel, addr 0x5e25f34, size 0x30, virtual false, abstract: false, final false
   inline bool IsDlcLevel(::StringW levelId);
 
   static inline ::GlobalNamespace::MockPlayerEntitlementResolver* New_ctor(::GlobalNamespace::MockPlayerSettings* settings, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
@@ -180,7 +180,7 @@ public:
 
   constexpr void __cordl_internal_set__settings(::GlobalNamespace::MockPlayerSettings* value);
 
-  /// @brief Method .ctor, addr 0x5e2571c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e25b4c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MockPlayerSettings* settings, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::IEntitlementModel* entitlementModel);
 
   /// @brief Convert to "::GlobalNamespace::IMockPlayerEntitlementResolver"
@@ -201,7 +201,7 @@ public:
   MockPlayerEntitlementResolver(MockPlayerEntitlementResolver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6240 };
 
   /// @brief Field _settings, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::MockPlayerSettings* ____settings;

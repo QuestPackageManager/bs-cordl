@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass0_0::*)()>(
     &::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35d3df4;
+  constexpr static std::size_t addrs = 0x35d824c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass0_0::*)(::UnityEngine::AsyncOperation*)>(
     &::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass0_0::_GetAwaiter_b__0)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x35d3f3c;
+  constexpr static std::size_t addrs = 0x35d8394;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass0_0*>(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0::*)()>(
     &::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35d3f38;
+  constexpr static std::size_t addrs = 0x35d8390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0::*)(::UnityEngine::AsyncOperation*)>(
     &::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0::_GetAwaiter_b__0)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x35d3fa8;
+  constexpr static std::size_t addrs = 0x35d8400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0*>(),
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AssetBundle>> (*)(::UnityEngine::AssetBundleCreateRequest*)>(
     &::BGLib::UnityExtension::AssetBundleExtensions::GetAwaiter)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x35d3cb4;
+  constexpr static std::size_t addrs = 0x35d810c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Object>> (*)(::UnityEngine::ResourceRequest*)>(
     &::BGLib::UnityExtension::AssetBundleExtensions::GetAwaiter)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x35d3df8;
+  constexpr static std::size_t addrs = 0x35d8250;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

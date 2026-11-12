@@ -327,7 +327,7 @@ public:
 
   constexpr void __cordl_internal_set_ValueTaskSend(::System::Net::Sockets::Socket_AwaitableSocketAsyncEventArgs* value);
 
-  /// @brief Method .ctor, addr 0x67ca150, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ca7a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -458,7 +458,7 @@ public:
 
   constexpr void __cordl_internal_set__wrapExceptionsInIOExceptions(bool value);
 
-  /// @brief Method .ctor, addr 0x67ca154, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ca7a4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -508,19 +508,19 @@ public:
 
   static inline ::System::Net::Sockets::AwaitableSocketAsyncEventArgs_Socket___c* New_ctor();
 
-  /// @brief Method <InvokeContinuation>b__20_0, addr 0x67cb294, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <InvokeContinuation>b__20_0, addr 0x67cb8e4, size 0xc0, virtual false, abstract: false, final false
   inline void _InvokeContinuation_b__20_0(::System::Object* s);
 
-  /// @brief Method <OnCompleted>b__14_0, addr 0x67cb1c8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method <OnCompleted>b__14_0, addr 0x67cb818, size 0xcc, virtual false, abstract: false, final false
   inline void _OnCompleted_b__14_0(::System::Object* runState);
 
-  /// @brief Method <.cctor>b__27_0, addr 0x67cb354, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__27_0, addr 0x67cb9a4, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__27_0(::System::Object* state);
 
-  /// @brief Method <.cctor>b__27_1, addr 0x67cb3a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__27_1, addr 0x67cb9f0, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__27_1(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x67cb1c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67cb814, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Sockets::AwaitableSocketAsyncEventArgs_Socket___c* getStaticF___9();
@@ -600,48 +600,48 @@ public:
   /// @brief Convert operator to "::System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t>"
   constexpr operator ::System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t>*() noexcept;
 
-  /// @brief Method CreateException, addr 0x67ca9f0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CreateException, addr 0x67cb040, size 0x118, virtual false, abstract: false, final false
   inline ::System::Exception* CreateException(::System::Net::Sockets::SocketError error);
 
-  /// @brief Method GetResult, addr 0x67caf38, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method GetResult, addr 0x67cb588, size 0x48, virtual true, abstract: false, final true
   inline int32_t GetResult(int16_t token);
 
-  /// @brief Method GetStatus, addr 0x67cabe8, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method GetStatus, addr 0x67cb238, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Sources::ValueTaskSourceStatus GetStatus(int16_t token);
 
-  /// @brief Method InvokeContinuation, addr 0x67ca5b4, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method InvokeContinuation, addr 0x67cac04, size 0x300, virtual false, abstract: false, final false
   inline void InvokeContinuation(::System::Action_1<::System::Object*>* continuation, ::System::Object* state, bool forceAsync);
 
   static inline ::System::Net::Sockets::Socket_AwaitableSocketAsyncEventArgs* New_ctor();
 
-  /// @brief Method OnCompleted, addr 0x67ca3a0, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method OnCompleted, addr 0x67ca9f0, size 0x214, virtual true, abstract: false, final false
   inline void OnCompleted(::System::Net::Sockets::SocketAsyncEventArgs* _);
 
-  /// @brief Method OnCompleted, addr 0x67cacd4, size 0x218, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x67cb324, size 0x218, virtual true, abstract: false, final true
   inline void OnCompleted(::System::Action_1<::System::Object*>* continuation, ::System::Object* state, int16_t token, ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags flags);
 
-  /// @brief Method ReceiveAsync, addr 0x67ca8b4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ReceiveAsync, addr 0x67caf04, size 0x13c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReceiveAsync(::System::Net::Sockets::Socket* socket);
 
-  /// @brief Method Release, addr 0x67ca32c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x67ca97c, size 0x74, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method Reserve, addr 0x67ca29c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Reserve, addr 0x67ca8ec, size 0x90, virtual false, abstract: false, final false
   inline bool Reserve();
 
-  /// @brief Method SendAsyncForNetworkStream, addr 0x67cab08, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SendAsyncForNetworkStream, addr 0x67cb158, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask SendAsyncForNetworkStream(::System::Net::Sockets::Socket* socket);
 
-  /// @brief Method System.Threading.Tasks.Sources.IValueTaskSource.GetResult, addr 0x67cafa4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.Tasks.Sources.IValueTaskSource.GetResult, addr 0x67cb5f4, size 0x40, virtual true, abstract: false, final true
   inline void System_Threading_Tasks_Sources_IValueTaskSource_GetResult(int16_t token);
 
-  /// @brief Method ThrowException, addr 0x67caf80, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ThrowException, addr 0x67cb5d0, size 0x24, virtual false, abstract: false, final false
   inline void ThrowException(::System::Net::Sockets::SocketError error);
 
-  /// @brief Method ThrowIncorrectTokenException, addr 0x67cac88, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIncorrectTokenException, addr 0x67cb2d8, size 0x4c, virtual false, abstract: false, final false
   inline void ThrowIncorrectTokenException();
 
-  /// @brief Method ThrowMultipleContinuationsException, addr 0x67caeec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowMultipleContinuationsException, addr 0x67cb53c, size 0x4c, virtual false, abstract: false, final false
   inline void ThrowMultipleContinuationsException();
 
   constexpr bool const& __cordl_internal_get__WrapExceptionsInIOExceptions_k__BackingField() const;
@@ -674,7 +674,7 @@ public:
 
   constexpr void __cordl_internal_set__token(int16_t value);
 
-  /// @brief Method .ctor, addr 0x67ca19c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ca7ec, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Sockets::Socket_AwaitableSocketAsyncEventArgs* getStaticF_Reserved();
@@ -684,7 +684,7 @@ public:
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_completedSentinel();
 
   /// [CompilerGenerated]
-  /// @brief Method get_WrapExceptionsInIOExceptions, addr 0x67ca28c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WrapExceptionsInIOExceptions, addr 0x67ca8dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_WrapExceptionsInIOExceptions();
 
   /// @brief Convert to "::System::Threading::Tasks::Sources::IValueTaskSource"
@@ -700,7 +700,7 @@ public:
   static inline void setStaticF_s_completedSentinel(::System::Action_1<::System::Object*>* value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_WrapExceptionsInIOExceptions, addr 0x67ca294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_WrapExceptionsInIOExceptions, addr 0x67ca8e4, size 0x8, virtual false, abstract: false, final false
   inline void set_WrapExceptionsInIOExceptions(bool value);
 
 protected:
@@ -835,94 +835,94 @@ public:
 
   static inline ::System::Net::Sockets::Socket___c* New_ctor();
 
-  /// @brief Method <BeginSendTo>b__310_0, addr 0x67cc36c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <BeginSendTo>b__310_0, addr 0x67cc9bc, size 0x9c, virtual false, abstract: false, final false
   inline void _BeginSendTo_b__310_0(::System::IOAsyncResult* s);
 
-  /// @brief Method <BeginSend>b__297_0, addr 0x67cc2d0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <BeginSend>b__297_0, addr 0x67cc920, size 0x9c, virtual false, abstract: false, final false
   inline void _BeginSend_b__297_0(::System::IOAsyncResult* s);
 
-  /// @brief Method <ReceiveAsyncApm>b__15_0, addr 0x67cb4dc, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method <ReceiveAsyncApm>b__15_0, addr 0x67cbb2c, size 0x258, virtual false, abstract: false, final false
   inline void _ReceiveAsyncApm_b__15_0(::System::IAsyncResult* iar);
 
-  /// @brief Method <ReceiveAsyncApm>b__15_1, addr 0x67cb734, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method <ReceiveAsyncApm>b__15_1, addr 0x67cbd84, size 0x4a8, virtual false, abstract: false, final false
   inline void _ReceiveAsyncApm_b__15_1(::System::IAsyncResult* iar);
 
-  /// @brief Method <ReceiveAsync>b__14_0, addr 0x67cb444, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <ReceiveAsync>b__14_0, addr 0x67cba94, size 0x44, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket_CachedEventArgs* _ReceiveAsync_b__14_0();
 
-  /// @brief Method <ReceiveAsync>b__14_1, addr 0x67cb488, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <ReceiveAsync>b__14_1, addr 0x67cbad8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket_AwaitableSocketAsyncEventArgs* _ReceiveAsync_b__14_1();
 
-  /// @brief Method <SendAsyncApm>b__23_0, addr 0x67cbc74, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method <SendAsyncApm>b__23_0, addr 0x67cc2c4, size 0x258, virtual false, abstract: false, final false
   inline void _SendAsyncApm_b__23_0(::System::IAsyncResult* iar);
 
-  /// @brief Method <SendAsyncApm>b__23_1, addr 0x67cbecc, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method <SendAsyncApm>b__23_1, addr 0x67cc51c, size 0x368, virtual false, abstract: false, final false
   inline void _SendAsyncApm_b__23_1(::System::IAsyncResult* iar);
 
-  /// @brief Method <SendAsyncForNetworkStream>b__22_0, addr 0x67cbbdc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <SendAsyncForNetworkStream>b__22_0, addr 0x67cc22c, size 0x44, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket_CachedEventArgs* _SendAsyncForNetworkStream_b__22_0();
 
-  /// @brief Method <SendAsyncForNetworkStream>b__22_1, addr 0x67cbc20, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <SendAsyncForNetworkStream>b__22_1, addr 0x67cc270, size 0x54, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket_AwaitableSocketAsyncEventArgs* _SendAsyncForNetworkStream_b__22_1();
 
-  /// @brief Method <SendAsync>b__295_0, addr 0x67cc234, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <SendAsync>b__295_0, addr 0x67cc884, size 0x9c, virtual false, abstract: false, final false
   inline void _SendAsync_b__295_0(::System::IOAsyncResult* s);
 
-  /// @brief Method <.cctor>b__367_0, addr 0x67cc408, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_0, addr 0x67cca58, size 0x100, virtual false, abstract: false, final false
   inline void __cctor_b__367_0(::System::Object* s, ::System::Net::Sockets::SocketAsyncEventArgs* e);
 
-  /// @brief Method <.cctor>b__367_1, addr 0x67cc508, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_1, addr 0x67ccb58, size 0xe8, virtual false, abstract: false, final false
   inline void __cctor_b__367_1(::System::Object* s, ::System::Net::Sockets::SocketAsyncEventArgs* e);
 
-  /// @brief Method <.cctor>b__367_10, addr 0x67cd880, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_10, addr 0x67cded0, size 0x2bc, virtual false, abstract: false, final false
   inline void __cctor_b__367_10(::System::IAsyncResult* ares);
 
-  /// @brief Method <.cctor>b__367_11, addr 0x67cdb44, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_11, addr 0x67ce194, size 0x2ac, virtual false, abstract: false, final false
   inline void __cctor_b__367_11(::System::IOAsyncResult* ares);
 
-  /// @brief Method <.cctor>b__367_12, addr 0x67cddf8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_12, addr 0x67ce448, size 0x114, virtual false, abstract: false, final false
   inline void __cctor_b__367_12(::System::IOAsyncResult* ares);
 
-  /// @brief Method <.cctor>b__367_13, addr 0x67cdf0c, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_13, addr 0x67ce55c, size 0x2d8, virtual false, abstract: false, final false
   inline void __cctor_b__367_13(::System::IAsyncResult* ares);
 
-  /// @brief Method <.cctor>b__367_14, addr 0x67ce1e4, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_14, addr 0x67ce834, size 0x198, virtual false, abstract: false, final false
   inline void __cctor_b__367_14(::System::IOAsyncResult* ares);
 
-  /// @brief Method <.cctor>b__367_15, addr 0x67ce3c0, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_15, addr 0x67cea10, size 0x2bc, virtual false, abstract: false, final false
   inline void __cctor_b__367_15(::System::IAsyncResult* ares);
 
-  /// @brief Method <.cctor>b__367_16, addr 0x67ce67c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_16, addr 0x67ceccc, size 0x114, virtual false, abstract: false, final false
   inline void __cctor_b__367_16(::System::IOAsyncResult* ares);
 
-  /// @brief Method <.cctor>b__367_17, addr 0x67ce790, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_17, addr 0x67cede0, size 0x2bc, virtual false, abstract: false, final false
   inline void __cctor_b__367_17(::System::IAsyncResult* ares);
 
-  /// @brief Method <.cctor>b__367_2, addr 0x67cc5f0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_2, addr 0x67ccc40, size 0xe8, virtual false, abstract: false, final false
   inline void __cctor_b__367_2(::System::Object* s, ::System::Net::Sockets::SocketAsyncEventArgs* e);
 
-  /// @brief Method <.cctor>b__367_3, addr 0x67cc6d8, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_3, addr 0x67ccd28, size 0x2a8, virtual false, abstract: false, final false
   inline void __cctor_b__367_3(::System::IAsyncResult* ares);
 
-  /// @brief Method <.cctor>b__367_4, addr 0x67cc988, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_4, addr 0x67ccfd8, size 0x134, virtual false, abstract: false, final false
   inline void __cctor_b__367_4(::System::IOAsyncResult* ares);
 
-  /// @brief Method <.cctor>b__367_5, addr 0x67ccacc, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_5, addr 0x67cd11c, size 0x270, virtual false, abstract: false, final false
   inline void __cctor_b__367_5(::System::IOAsyncResult* ares);
 
-  /// @brief Method <.cctor>b__367_6, addr 0x67ccd48, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_6, addr 0x67cd398, size 0x2b0, virtual false, abstract: false, final false
   inline void __cctor_b__367_6(::System::IAsyncResult* ares);
 
-  /// @brief Method <.cctor>b__367_7, addr 0x67ccff8, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_7, addr 0x67cd648, size 0x2dc, virtual false, abstract: false, final false
   inline void __cctor_b__367_7(::System::IOAsyncResult* ares);
 
-  /// @brief Method <.cctor>b__367_8, addr 0x67cd4c8, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_8, addr 0x67cdb18, size 0x2b0, virtual false, abstract: false, final false
   inline void __cctor_b__367_8(::System::IAsyncResult* ares);
 
-  /// @brief Method <.cctor>b__367_9, addr 0x67cd778, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__367_9, addr 0x67cddc8, size 0x108, virtual false, abstract: false, final false
   inline void __cctor_b__367_9(::System::IOAsyncResult* ares);
 
-  /// @brief Method .ctor, addr 0x67cb440, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67cba90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Sockets::Socket___c* getStaticF___9();
@@ -1009,7 +1009,7 @@ public:
 
   static inline ::System::Net::Sockets::Socket___c__DisplayClass240_0* New_ctor();
 
-  /// @brief Method <BeginConnect>b__0, addr 0x67cea50, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method <BeginConnect>b__0, addr 0x67cf0a0, size 0x164, virtual false, abstract: false, final false
   inline void _BeginConnect_b__0(::System::Threading::Tasks::Task_1<::ArrayW<::System::Net::IPAddress*>>* t);
 
   constexpr ::System::Net::Sockets::SocketAsyncResult* const& __cordl_internal_get_sockares() const;
@@ -1018,7 +1018,7 @@ public:
 
   constexpr void __cordl_internal_set_sockares(::System::Net::Sockets::SocketAsyncResult* value);
 
-  /// @brief Method .ctor, addr 0x67cea4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67cf09c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1062,7 +1062,7 @@ public:
 
   static inline ::System::Net::Sockets::Socket___c__DisplayClass298_0* New_ctor();
 
-  /// @brief Method <BeginSendCallback>b__0, addr 0x67cebb8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <BeginSendCallback>b__0, addr 0x67cf208, size 0xac, virtual false, abstract: false, final false
   inline void _BeginSendCallback_b__0(::System::IOAsyncResult* s);
 
   constexpr int32_t const& __cordl_internal_get_sent_so_far() const;
@@ -1071,7 +1071,7 @@ public:
 
   constexpr void __cordl_internal_set_sent_so_far(int32_t value);
 
-  /// @brief Method .ctor, addr 0x67cebb4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67cf204, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1115,7 +1115,7 @@ public:
 
   static inline ::System::Net::Sockets::Socket___c__DisplayClass311_0* New_ctor();
 
-  /// @brief Method <BeginSendToCallback>b__0, addr 0x67cec68, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <BeginSendToCallback>b__0, addr 0x67cf2b8, size 0xac, virtual false, abstract: false, final false
   inline void _BeginSendToCallback_b__0(::System::IOAsyncResult* s);
 
   constexpr int32_t const& __cordl_internal_get_sent_so_far() const;
@@ -1124,7 +1124,7 @@ public:
 
   constexpr void __cordl_internal_set_sent_so_far(int32_t value);
 
-  /// @brief Method .ctor, addr 0x67cec64, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67cf2b4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1174,7 +1174,7 @@ public:
 
   static inline ::System::Net::Sockets::Socket___c__DisplayClass355_0* New_ctor();
 
-  /// @brief Method <QueueIOSelectorJob>b__0, addr 0x67ced18, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <QueueIOSelectorJob>b__0, addr 0x67cf368, size 0x4c, virtual false, abstract: false, final false
   inline void _QueueIOSelectorJob_b__0(::System::Threading::Tasks::Task* t);
 
   constexpr ::System::Net::Sockets::Socket* const& __cordl_internal_get___4__this() const;
@@ -1195,7 +1195,7 @@ public:
 
   constexpr void __cordl_internal_set_job(::System::IOSelectorJob* value);
 
-  /// @brief Method .ctor, addr 0x67ced14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67cf364, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1451,228 +1451,228 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Accept, addr 0x67c4a60, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Accept, addr 0x67c50b0, size 0x130, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* Accept();
 
-  /// @brief Method Accept, addr 0x67c4cf4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Accept, addr 0x67c5344, size 0x108, virtual false, abstract: false, final false
   inline void Accept(::System::Net::Sockets::Socket* acceptSocket);
 
-  /// @brief Method AcceptAsync, addr 0x67c4dfc, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method AcceptAsync, addr 0x67c544c, size 0x230, virtual false, abstract: false, final false
   inline bool AcceptAsync(::System::Net::Sockets::SocketAsyncEventArgs* e);
 
-  /// @brief Method Accept_icall, addr 0x67c558c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Accept_icall, addr 0x67c5bdc, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr Accept_icall(::System::IntPtr sock, ::by_ref<int32_t> error, bool blocking);
 
-  /// @brief Method Accept_internal, addr 0x67c4b90, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Accept_internal, addr 0x67c51e0, size 0x164, virtual false, abstract: false, final false
   static inline ::System::Net::Sockets::SafeSocketHandle* Accept_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, ::by_ref<int32_t> error, bool blocking);
 
-  /// @brief Method Available_icall, addr 0x67c400c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Available_icall, addr 0x67c465c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Available_icall(::System::IntPtr socket, ::by_ref<int32_t> error);
 
-  /// @brief Method Available_internal, addr 0x67c3ed0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Available_internal, addr 0x67c4520, size 0x13c, virtual false, abstract: false, final false
   static inline int32_t Available_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, ::by_ref<int32_t> error);
 
-  /// @brief Method BeginAccept, addr 0x67c51ec, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method BeginAccept, addr 0x67c583c, size 0x144, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginAccept(::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginConnect, addr 0x67c2f7c, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method BeginConnect, addr 0x67c35cc, size 0x26c, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginConnect(::System::Net::IPAddress* address, int32_t port, ::System::AsyncCallback* requestCallback, ::System::Object* state);
 
-  /// @brief Method BeginConnect, addr 0x67c6014, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method BeginConnect, addr 0x67c6664, size 0x2dc, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginConnect(::StringW host, int32_t port, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginConnect, addr 0x67c31f8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method BeginConnect, addr 0x67c3848, size 0x130, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginConnect(::System::Net::EndPoint* remoteEP, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginMConnect, addr 0x67c67fc, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method BeginMConnect, addr 0x67c6e4c, size 0x214, virtual false, abstract: false, final false
   static inline bool BeginMConnect(::System::Net::Sockets::SocketAsyncResult* sockares);
 
-  /// @brief Method BeginReceive, addr 0x67be4a0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BeginReceive, addr 0x67beaf0, size 0x78, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginReceive(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Net::Sockets::SocketFlags socketFlags, ::System::AsyncCallback* callback,
                                               ::System::Object* state);
 
-  /// @brief Method BeginReceive, addr 0x67c362c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method BeginReceive, addr 0x67c3c7c, size 0x18c, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginReceive(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Net::Sockets::SocketFlags socketFlags,
                                               ::by_ref<::System::Net::Sockets::SocketError> errorCode, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginReceiveFrom, addr 0x67c7c28, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method BeginReceiveFrom, addr 0x67c8278, size 0x1e0, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginReceiveFrom(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Net::Sockets::SocketFlags socketFlags, ::by_ref<::System::Net::EndPoint*> remoteEP,
                                                   ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginSConnect, addr 0x67c62f0, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method BeginSConnect, addr 0x67c6940, size 0x50c, virtual false, abstract: false, final false
   static inline bool BeginSConnect(::System::Net::Sockets::SocketAsyncResult* sockares);
 
-  /// @brief Method BeginSend, addr 0x67beb00, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BeginSend, addr 0x67bf150, size 0x78, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginSend(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Net::Sockets::SocketFlags socketFlags, ::System::AsyncCallback* callback,
                                            ::System::Object* state);
 
-  /// @brief Method BeginSend, addr 0x67c3328, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method BeginSend, addr 0x67c3978, size 0x218, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginSend(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Net::Sockets::SocketFlags socketFlags,
                                            ::by_ref<::System::Net::Sockets::SocketError> errorCode, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginSendCallback, addr 0x67c8580, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method BeginSendCallback, addr 0x67c8bd0, size 0x378, virtual false, abstract: false, final false
   static inline void BeginSendCallback(::System::Net::Sockets::SocketAsyncResult* sockares, int32_t sent_so_far);
 
-  /// @brief Method BeginSendTo, addr 0x67c8e80, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method BeginSendTo, addr 0x67c94d0, size 0x200, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginSendTo(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Net::Sockets::SocketFlags socketFlags, ::System::Net::EndPoint* remoteEP,
                                              ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginSendToCallback, addr 0x67c9080, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method BeginSendToCallback, addr 0x67c96d0, size 0x220, virtual false, abstract: false, final false
   static inline void BeginSendToCallback(::System::Net::Sockets::SocketAsyncResult* sockares, int32_t sent_so_far);
 
-  /// @brief Method Bind, addr 0x67c5590, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x67c5be0, size 0x178, virtual false, abstract: false, final false
   inline void Bind(::System::Net::EndPoint* localEP);
 
-  /// @brief Method Bind_icall, addr 0x67c5904, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Bind_icall, addr 0x67c5f54, size 0x4, virtual false, abstract: false, final false
   static inline void Bind_icall(::System::IntPtr sock, ::System::Net::SocketAddress* sa, ::by_ref<int32_t> error);
 
-  /// @brief Method Bind_internal, addr 0x67c57cc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Bind_internal, addr 0x67c5e1c, size 0x138, virtual false, abstract: false, final false
   static inline void Bind_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, ::System::Net::SocketAddress* sa, ::by_ref<int32_t> error);
 
-  /// @brief Method Blocking_icall, addr 0x67c44d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Blocking_icall, addr 0x67c4b28, size 0x4, virtual false, abstract: false, final false
   static inline void Blocking_icall(::System::IntPtr socket, bool block, ::by_ref<int32_t> error);
 
-  /// @brief Method Blocking_internal, addr 0x67c43a0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Blocking_internal, addr 0x67c49f0, size 0x138, virtual false, abstract: false, final false
   static inline void Blocking_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, bool block, ::by_ref<int32_t> error);
 
-  /// @brief Method CanTryAddressFamily, addr 0x67c1e58, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CanTryAddressFamily, addr 0x67c24a8, size 0x30, virtual false, abstract: false, final false
   inline bool CanTryAddressFamily(::System::Net::Sockets::AddressFamily family);
 
-  /// @brief Method Close, addr 0x67c9624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x67c9c74, size 0x8, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Close, addr 0x67be100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x67be750, size 0x8, virtual false, abstract: false, final false
   inline void Close(int32_t timeout);
 
-  /// @brief Method Close_icall, addr 0x67c962c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Close_icall, addr 0x67c9c7c, size 0x4, virtual false, abstract: false, final false
   static inline void Close_icall(::System::IntPtr socket, ::by_ref<int32_t> error);
 
-  /// @brief Method CompleteAccept, addr 0x67c0c30, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method CompleteAccept, addr 0x67c1280, size 0x184, virtual false, abstract: false, final false
   static inline void CompleteAccept(::System::Net::Sockets::Socket* s, ::System::Net::Sockets::Socket_TaskSocketAsyncEventArgs_1<::System::Net::Sockets::Socket*>* saea);
 
-  /// @brief Method CompleteSendReceive, addr 0x67c0efc, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CompleteSendReceive, addr 0x67c154c, size 0x188, virtual false, abstract: false, final false
   static inline void CompleteSendReceive(::System::Net::Sockets::Socket* s, ::System::Net::Sockets::Socket_Int32TaskSocketAsyncEventArgs* saea, bool isReceive);
 
-  /// @brief Method Connect, addr 0x67c5b30, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x67c6180, size 0x78, virtual false, abstract: false, final false
   inline void Connect(::System::Net::IPAddress* address, int32_t port);
 
-  /// @brief Method Connect, addr 0x67c5ba8, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method Connect, addr 0x67c61f8, size 0x344, virtual false, abstract: false, final false
   inline void Connect(::System::Net::EndPoint* remoteEP);
 
-  /// @brief Method Connect_icall, addr 0x67c6ac4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Connect_icall, addr 0x67c7114, size 0x4, virtual false, abstract: false, final false
   static inline void Connect_icall(::System::IntPtr sock, ::System::Net::SocketAddress* sa, ::by_ref<int32_t> error, bool blocking);
 
-  /// @brief Method Connect_internal, addr 0x67c5eec, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Connect_internal, addr 0x67c653c, size 0x128, virtual false, abstract: false, final false
   static inline void Connect_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, ::System::Net::SocketAddress* sa, ::by_ref<int32_t> error, bool blocking);
 
-  /// @brief Method Disconnect, addr 0x67c6ac8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Disconnect, addr 0x67c7118, size 0xec, virtual false, abstract: false, final false
   inline void Disconnect(bool reuseSocket);
 
-  /// @brief Method Disconnect_icall, addr 0x67c6da0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Disconnect_icall, addr 0x67c73f0, size 0x4, virtual false, abstract: false, final false
   static inline void Disconnect_icall(::System::IntPtr sock, bool reuse, ::by_ref<int32_t> error);
 
-  /// @brief Method Disconnect_internal, addr 0x67c6bb4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Disconnect_internal, addr 0x67c7204, size 0x138, virtual false, abstract: false, final false
   static inline void Disconnect_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, bool reuse, ::by_ref<int32_t> error);
 
-  /// @brief Method Dispose, addr 0x67c39c8, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x67c4018, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x67c9740, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x67c9d90, size 0x68, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndAccept, addr 0x67c5330, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method EndAccept, addr 0x67c5980, size 0x24, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* EndAccept(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndAccept, addr 0x67c5354, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method EndAccept, addr 0x67c59a4, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* EndAccept(::by_ref<::ArrayW<uint8_t>> buffer, ::by_ref<int32_t> bytesTransferred, ::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndConnect, addr 0x67c6a10, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method EndConnect, addr 0x67c7060, size 0xb4, virtual false, abstract: false, final false
   inline void EndConnect(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndDisconnect, addr 0x67c6cec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method EndDisconnect, addr 0x67c733c, size 0xb4, virtual false, abstract: false, final false
   inline void EndDisconnect(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndReceive, addr 0x67be75c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method EndReceive, addr 0x67bedac, size 0x60, virtual false, abstract: false, final false
   inline int32_t EndReceive(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndReceive, addr 0x67c37b8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method EndReceive, addr 0x67c3e08, size 0xec, virtual false, abstract: false, final false
   inline int32_t EndReceive(::System::IAsyncResult* asyncResult, ::by_ref<::System::Net::Sockets::SocketError> errorCode);
 
-  /// @brief Method EndReceiveFrom, addr 0x67c7e08, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method EndReceiveFrom, addr 0x67c8458, size 0x118, virtual false, abstract: false, final false
   inline int32_t EndReceiveFrom(::System::IAsyncResult* asyncResult, ::by_ref<::System::Net::EndPoint*> endPoint);
 
-  /// @brief Method EndReceiveFrom_internal, addr 0x67c7f20, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method EndReceiveFrom_internal, addr 0x67c8570, size 0xcc, virtual false, abstract: false, final false
   inline int32_t EndReceiveFrom_internal(::System::Net::Sockets::SocketAsyncResult* sockares, ::System::Net::Sockets::SocketAsyncEventArgs* ares);
 
-  /// @brief Method EndSend, addr 0x67bedbc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method EndSend, addr 0x67bf40c, size 0x60, virtual false, abstract: false, final false
   inline int32_t EndSend(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndSend, addr 0x67c3540, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method EndSend, addr 0x67c3b90, size 0xec, virtual false, abstract: false, final false
   inline int32_t EndSend(::System::IAsyncResult* asyncResult, ::by_ref<::System::Net::Sockets::SocketError> errorCode);
 
-  /// @brief Method EndSendTo, addr 0x67c92a0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method EndSendTo, addr 0x67c98f0, size 0xbc, virtual false, abstract: false, final false
   inline int32_t EndSendTo(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method Finalize, addr 0x67c3a38, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x67c4088, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetException, addr 0x67c0de8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetException, addr 0x67c1438, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Exception* GetException(::System::Net::Sockets::SocketError error, bool wrapExceptionsInIOExceptions);
 
-  /// @brief Method GetSocketOption, addr 0x67bca60, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetSocketOption, addr 0x67bd0b0, size 0x198, virtual false, abstract: false, final false
   inline ::System::Object* GetSocketOption(::System::Net::Sockets::SocketOptionLevel optionLevel, ::System::Net::Sockets::SocketOptionName optionName);
 
-  /// @brief Method GetSocketOption_obj_icall, addr 0x67c94b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetSocketOption_obj_icall, addr 0x67c9b00, size 0x4, virtual false, abstract: false, final false
   static inline void GetSocketOption_obj_icall(::System::IntPtr socket, ::System::Net::Sockets::SocketOptionLevel level, ::System::Net::Sockets::SocketOptionName name,
                                                ::by_ref<::System::Object*> obj_val, ::by_ref<int32_t> error);
 
-  /// @brief Method GetSocketOption_obj_internal, addr 0x67c9360, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetSocketOption_obj_internal, addr 0x67c99b0, size 0x150, virtual false, abstract: false, final false
   static inline void GetSocketOption_obj_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, ::System::Net::Sockets::SocketOptionLevel level, ::System::Net::Sockets::SocketOptionName name,
                                                   ::by_ref<::System::Object*> obj_val, ::by_ref<int32_t> error);
 
-  /// @brief Method IOControl, addr 0x67c2e00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method IOControl, addr 0x67c3450, size 0x4, virtual false, abstract: false, final false
   inline int32_t IOControl(::System::Net::Sockets::IOControlCode ioControlCode, ::ArrayW<uint8_t> optionInValue, ::ArrayW<uint8_t> optionOutValue);
 
-  /// @brief Method IOControl, addr 0x67c2e04, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method IOControl, addr 0x67c3454, size 0x178, virtual false, abstract: false, final false
   inline int32_t IOControl(int32_t ioControlCode, ::ArrayW<uint8_t> optionInValue, ::ArrayW<uint8_t> optionOutValue);
 
-  /// @brief Method IOControl_icall, addr 0x67c9620, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method IOControl_icall, addr 0x67c9c70, size 0x4, virtual false, abstract: false, final false
   static inline int32_t IOControl_icall(::System::IntPtr sock, int32_t ioctl_code, ::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output, ::by_ref<int32_t> error);
 
-  /// @brief Method IOControl_internal, addr 0x67c94c0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method IOControl_internal, addr 0x67c9b10, size 0x160, virtual false, abstract: false, final false
   static inline int32_t IOControl_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, int32_t ioctl_code, ::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output, ::by_ref<int32_t> error);
 
-  /// @brief Method InitSocketAsyncEventArgs, addr 0x67c502c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InitSocketAsyncEventArgs, addr 0x67c567c, size 0x74, virtual false, abstract: false, final false
   inline void InitSocketAsyncEventArgs(::System::Net::Sockets::SocketAsyncEventArgs* e, ::System::AsyncCallback* callback, ::System::Object* state, ::System::Net::Sockets::SocketOperation operation);
 
-  /// @brief Method InitializeSockets, addr 0x67c1308, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method InitializeSockets, addr 0x67c1958, size 0x268, virtual false, abstract: false, final false
   static inline void InitializeSockets();
 
-  /// @brief Method InternalShutdown, addr 0x67be078, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method InternalShutdown, addr 0x67be6c8, size 0x88, virtual false, abstract: false, final false
   inline void InternalShutdown(::System::Net::Sockets::SocketShutdown how);
 
-  /// @brief Method IsProtocolSupported, addr 0x67c3974, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsProtocolSupported, addr 0x67c3fc4, size 0x54, virtual false, abstract: false, final false
   static inline bool IsProtocolSupported(::System::Net::NetworkInformation::NetworkInterfaceComponent networkInterface);
 
-  /// @brief Method IsProtocolSupported_internal, addr 0x67c9a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsProtocolSupported_internal, addr 0x67ca09c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsProtocolSupported_internal(::System::Net::NetworkInformation::NetworkInterfaceComponent networkInterface);
 
-  /// @brief Method Linger, addr 0x67c97a8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Linger, addr 0x67c9df8, size 0x168, virtual false, abstract: false, final false
   inline void Linger(::System::IntPtr handle);
 
-  /// @brief Method Listen, addr 0x67c5908, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Listen, addr 0x67c5f58, size 0xec, virtual false, abstract: false, final false
   inline void Listen(int32_t backlog);
 
-  /// @brief Method Listen_icall, addr 0x67c5b2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Listen_icall, addr 0x67c617c, size 0x4, virtual false, abstract: false, final false
   static inline void Listen_icall(::System::IntPtr sock, int32_t backlog, ::by_ref<int32_t> error);
 
-  /// @brief Method Listen_internal, addr 0x67c59f4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Listen_internal, addr 0x67c6044, size 0x138, virtual false, abstract: false, final false
   static inline void Listen_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, int32_t backlog, ::by_ref<int32_t> error);
 
-  /// @brief Method LocalEndPoint_icall, addr 0x67c42cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LocalEndPoint_icall, addr 0x67c491c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::SocketAddress* LocalEndPoint_icall(::System::IntPtr socket, int32_t family, ::by_ref<int32_t> error);
 
-  /// @brief Method LocalEndPoint_internal, addr 0x67c4184, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method LocalEndPoint_internal, addr 0x67c47d4, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Net::SocketAddress* LocalEndPoint_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, int32_t family, ::by_ref<int32_t> error);
 
   static inline ::System::Net::Sockets::Socket* New_ctor(::System::Net::Sockets::AddressFamily addressFamily, ::System::Net::Sockets::SocketType socketType,
@@ -1681,205 +1681,205 @@ public:
   static inline ::System::Net::Sockets::Socket* New_ctor(::System::Net::Sockets::AddressFamily family, ::System::Net::Sockets::SocketType type, ::System::Net::Sockets::ProtocolType proto,
                                                          ::System::Net::Sockets::SafeSocketHandle* safe_handle);
 
-  /// @brief Method Poll, addr 0x67c477c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Poll, addr 0x67c4dcc, size 0x18c, virtual false, abstract: false, final false
   inline bool Poll(int32_t microSeconds, ::System::Net::Sockets::SelectMode mode);
 
-  /// @brief Method Poll_icall, addr 0x67c4a5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Poll_icall, addr 0x67c50ac, size 0x4, virtual false, abstract: false, final false
   static inline bool Poll_icall(::System::IntPtr socket, ::System::Net::Sockets::SelectMode mode, int32_t timeout, ::by_ref<int32_t> error);
 
-  /// @brief Method Poll_internal, addr 0x67c4908, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Poll_internal, addr 0x67c4f58, size 0x154, virtual false, abstract: false, final false
   static inline bool Poll_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, ::System::Net::Sockets::SelectMode mode, int32_t timeout, ::by_ref<int32_t> error);
 
-  /// @brief Method QueueIOSelectorJob, addr 0x67c50a0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method QueueIOSelectorJob, addr 0x67c56f0, size 0x14c, virtual false, abstract: false, final false
   inline void QueueIOSelectorJob(::System::Threading::SemaphoreSlim* sem, ::System::IntPtr handle, ::System::IOSelectorJob* job);
 
-  /// @brief Method Receive, addr 0x67bd4b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Receive, addr 0x67bdb00, size 0x60, virtual false, abstract: false, final false
   inline int32_t Receive(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Net::Sockets::SocketFlags socketFlags);
 
-  /// @brief Method Receive, addr 0x67c2688, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Receive, addr 0x67c2cd8, size 0x110, virtual false, abstract: false, final false
   inline int32_t Receive(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Net::Sockets::SocketFlags socketFlags, ::by_ref<::System::Net::Sockets::SocketError> errorCode);
 
-  /// @brief Method Receive, addr 0x67c706c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Receive, addr 0x67c76bc, size 0x1fc, virtual false, abstract: false, final false
   inline int32_t Receive(::System::Memory_1<uint8_t> buffer, int32_t offset, int32_t size, ::System::Net::Sockets::SocketFlags socketFlags, ::by_ref<::System::Net::Sockets::SocketError> errorCode);
 
-  /// @brief Method Receive, addr 0x67bd75c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Receive, addr 0x67bddac, size 0x110, virtual false, abstract: false, final false
   inline int32_t Receive(::System::Span_1<uint8_t> buffer, ::System::Net::Sockets::SocketFlags socketFlags, ::by_ref<::System::Net::Sockets::SocketError> errorCode);
 
-  /// @brief Method Receive, addr 0x67c2798, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Receive, addr 0x67c2de8, size 0x60, virtual false, abstract: false, final false
   inline int32_t Receive(::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* buffers, ::System::Net::Sockets::SocketFlags socketFlags);
 
   /// [CLSCompliant(false)]
-  /// @brief Method Receive, addr 0x67c27f8, size 0x608, virtual false, abstract: false, final false
+  /// @brief Method Receive, addr 0x67c2e48, size 0x608, virtual false, abstract: false, final false
   inline int32_t Receive(::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* buffers, ::System::Net::Sockets::SocketFlags socketFlags,
                          ::by_ref<::System::Net::Sockets::SocketError> errorCode);
 
-  /// @brief Method ReceiveAsync, addr 0x67bf1d8, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method ReceiveAsync, addr 0x67bf828, size 0x304, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReceiveAsync(::System::Memory_1<uint8_t> buffer, ::System::Net::Sockets::SocketFlags socketFlags, bool fromNetworkStream,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReceiveAsync, addr 0x67c73b8, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ReceiveAsync, addr 0x67c7a08, size 0x224, virtual false, abstract: false, final false
   inline bool ReceiveAsync(::System::Net::Sockets::SocketAsyncEventArgs* e);
 
-  /// @brief Method ReceiveAsyncApm, addr 0x67c0348, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method ReceiveAsyncApm, addr 0x67c0998, size 0x440, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReceiveAsyncApm(::System::Memory_1<uint8_t> buffer, ::System::Net::Sockets::SocketFlags socketFlags);
 
-  /// @brief Method ReceiveFrom, addr 0x67c75e4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ReceiveFrom, addr 0x67c7c34, size 0x10c, virtual false, abstract: false, final false
   inline int32_t ReceiveFrom(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Net::Sockets::SocketFlags socketFlags, ::by_ref<::System::Net::EndPoint*> remoteEP);
 
-  /// @brief Method ReceiveFrom, addr 0x67c76f0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ReceiveFrom, addr 0x67c7d40, size 0x174, virtual false, abstract: false, final false
   inline int32_t ReceiveFrom(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Net::Sockets::SocketFlags socketFlags, ::by_ref<::System::Net::EndPoint*> remoteEP,
                              ::by_ref<::System::Net::Sockets::SocketError> errorCode);
 
-  /// @brief Method ReceiveFrom, addr 0x67c79c0, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method ReceiveFrom, addr 0x67c8010, size 0x268, virtual false, abstract: false, final false
   inline int32_t ReceiveFrom(::System::Memory_1<uint8_t> buffer, int32_t offset, int32_t size, ::System::Net::Sockets::SocketFlags socketFlags, ::by_ref<::System::Net::EndPoint*> remoteEP,
                              ::by_ref<::System::Net::Sockets::SocketError> errorCode);
 
-  /// @brief Method ReceiveFrom_icall, addr 0x67c7fec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReceiveFrom_icall, addr 0x67c863c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t ReceiveFrom_icall(::System::IntPtr sock, uint8_t* buffer, int32_t count, ::System::Net::Sockets::SocketFlags flags, ::by_ref<::System::Net::SocketAddress*> sockaddr,
                                           ::by_ref<int32_t> error, bool blocking);
 
-  /// @brief Method ReceiveFrom_internal, addr 0x67c7864, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ReceiveFrom_internal, addr 0x67c7eb4, size 0x15c, virtual false, abstract: false, final false
   static inline int32_t ReceiveFrom_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, uint8_t* buffer, int32_t count, ::System::Net::Sockets::SocketFlags flags,
                                              ::by_ref<::System::Net::SocketAddress*> sockaddr, ::by_ref<int32_t> error, bool blocking);
 
-  /// @brief Method Receive_array_icall, addr 0x67c75dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Receive_array_icall, addr 0x67c7c2c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Receive_array_icall(::System::IntPtr sock, ::System::Net::Sockets::Socket_WSABUF* bufarray, int32_t count, ::System::Net::Sockets::SocketFlags flags, ::by_ref<int32_t> error,
                                             bool blocking);
 
-  /// @brief Method Receive_icall, addr 0x67c75e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Receive_icall, addr 0x67c7c30, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Receive_icall(::System::IntPtr sock, uint8_t* buffer, int32_t count, ::System::Net::Sockets::SocketFlags flags, ::by_ref<int32_t> error, bool blocking);
 
-  /// @brief Method Receive_internal, addr 0x67c7268, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Receive_internal, addr 0x67c78b8, size 0x150, virtual false, abstract: false, final false
   static inline int32_t Receive_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, ::System::Net::Sockets::Socket_WSABUF* bufarray, int32_t count,
                                          ::System::Net::Sockets::SocketFlags flags, ::by_ref<int32_t> error, bool blocking);
 
-  /// @brief Method Receive_internal, addr 0x67c6f1c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Receive_internal, addr 0x67c756c, size 0x150, virtual false, abstract: false, final false
   static inline int32_t Receive_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, uint8_t* buffer, int32_t count, ::System::Net::Sockets::SocketFlags flags, ::by_ref<int32_t> error,
                                          bool blocking);
 
-  /// @brief Method RemapIPEndPoint, addr 0x67c5708, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RemapIPEndPoint, addr 0x67c5d58, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* RemapIPEndPoint(::System::Net::IPEndPoint* input);
 
-  /// @brief Method RemoteEndPoint_icall, addr 0x67c4778, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RemoteEndPoint_icall, addr 0x67c4dc8, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::SocketAddress* RemoteEndPoint_icall(::System::IntPtr socket, int32_t family, ::by_ref<int32_t> error);
 
-  /// @brief Method RemoteEndPoint_internal, addr 0x67c4630, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method RemoteEndPoint_internal, addr 0x67c4c80, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Net::SocketAddress* RemoteEndPoint_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, int32_t family, ::by_ref<int32_t> error);
 
-  /// @brief Method ReturnSocketAsyncEventArgs, addr 0x67c1084, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ReturnSocketAsyncEventArgs, addr 0x67c16d4, size 0x44, virtual false, abstract: false, final false
   inline void ReturnSocketAsyncEventArgs(::System::Net::Sockets::Socket_Int32TaskSocketAsyncEventArgs* saea, bool isReceive);
 
-  /// @brief Method ReturnSocketAsyncEventArgs, addr 0x67c0db4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ReturnSocketAsyncEventArgs, addr 0x67c1404, size 0x34, virtual false, abstract: false, final false
   inline void ReturnSocketAsyncEventArgs(::System::Net::Sockets::Socket_TaskSocketAsyncEventArgs_1<::System::Net::Sockets::Socket*>* saea);
 
-  /// @brief Method Send, addr 0x67bdc0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x67be25c, size 0x60, virtual false, abstract: false, final false
   inline int32_t Send(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Net::Sockets::SocketFlags socketFlags);
 
-  /// @brief Method Send, addr 0x67c2540, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x67c2b90, size 0x148, virtual false, abstract: false, final false
   inline int32_t Send(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Net::Sockets::SocketFlags socketFlags, ::by_ref<::System::Net::Sockets::SocketError> errorCode);
 
-  /// @brief Method Send, addr 0x67bdeb8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x67be508, size 0x8c, virtual false, abstract: false, final false
   inline int32_t Send(::System::ReadOnlySpan_1<uint8_t> buffer, ::System::Net::Sockets::SocketFlags socketFlags, ::by_ref<::System::Net::Sockets::SocketError> errorCode);
 
-  /// @brief Method Send, addr 0x67c1e88, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x67c24d8, size 0x60, virtual false, abstract: false, final false
   inline int32_t Send(::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* buffers, ::System::Net::Sockets::SocketFlags socketFlags);
 
   /// [CLSCompliant(false)]
-  /// @brief Method Send, addr 0x67c1ee8, size 0x658, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x67c2538, size 0x658, virtual false, abstract: false, final false
   inline int32_t Send(::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* buffers, ::System::Net::Sockets::SocketFlags socketFlags,
                       ::by_ref<::System::Net::Sockets::SocketError> errorCode);
 
-  /// @brief Method SendAsync, addr 0x67c8290, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x67c88e0, size 0x2f0, virtual false, abstract: false, final false
   inline bool SendAsync(::System::Net::Sockets::SocketAsyncEventArgs* e);
 
-  /// @brief Method SendAsyncApm, addr 0x67c0788, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method SendAsyncApm, addr 0x67c0dd8, size 0x4a8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* SendAsyncApm(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Net::Sockets::SocketFlags socketFlags);
 
-  /// @brief Method SendAsyncForNetworkStream, addr 0x67bfb2c, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method SendAsyncForNetworkStream, addr 0x67c017c, size 0x2e8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask SendAsyncForNetworkStream(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Net::Sockets::SocketFlags socketFlags,
                                                                          ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SendTo, addr 0x67c8900, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method SendTo, addr 0x67c8f50, size 0x1a0, virtual false, abstract: false, final false
   inline int32_t SendTo(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Net::Sockets::SocketFlags socketFlags, ::System::Net::EndPoint* remoteEP);
 
-  /// @brief Method SendTo, addr 0x67c8bfc, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method SendTo, addr 0x67c924c, size 0x284, virtual false, abstract: false, final false
   inline int32_t SendTo(::System::Memory_1<uint8_t> buffer, int32_t offset, int32_t size, ::System::Net::Sockets::SocketFlags socketFlags, ::System::Net::EndPoint* remoteEP);
 
-  /// @brief Method SendTo_icall, addr 0x67c935c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SendTo_icall, addr 0x67c99ac, size 0x4, virtual false, abstract: false, final false
   static inline int32_t SendTo_icall(::System::IntPtr sock, uint8_t* buffer, int32_t count, ::System::Net::Sockets::SocketFlags flags, ::System::Net::SocketAddress* sa, ::by_ref<int32_t> error,
                                      bool blocking);
 
-  /// @brief Method SendTo_internal, addr 0x67c8aa0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method SendTo_internal, addr 0x67c90f0, size 0x15c, virtual false, abstract: false, final false
   static inline int32_t SendTo_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, uint8_t* buffer, int32_t count, ::System::Net::Sockets::SocketFlags flags,
                                         ::System::Net::SocketAddress* sa, ::by_ref<int32_t> error, bool blocking);
 
-  /// @brief Method Send_array_icall, addr 0x67c88f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Send_array_icall, addr 0x67c8f48, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Send_array_icall(::System::IntPtr sock, ::System::Net::Sockets::Socket_WSABUF* bufarray, int32_t count, ::System::Net::Sockets::SocketFlags flags, ::by_ref<int32_t> error,
                                          bool blocking);
 
-  /// @brief Method Send_icall, addr 0x67c88fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Send_icall, addr 0x67c8f4c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t Send_icall(::System::IntPtr sock, uint8_t* buffer, int32_t count, ::System::Net::Sockets::SocketFlags flags, ::by_ref<int32_t> error, bool blocking);
 
-  /// @brief Method Send_internal, addr 0x67c8140, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Send_internal, addr 0x67c8790, size 0x150, virtual false, abstract: false, final false
   static inline int32_t Send_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, ::System::Net::Sockets::Socket_WSABUF* bufarray, int32_t count, ::System::Net::Sockets::SocketFlags flags,
                                       ::by_ref<int32_t> error, bool blocking);
 
-  /// @brief Method Send_internal, addr 0x67c7ff0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Send_internal, addr 0x67c8640, size 0x150, virtual false, abstract: false, final false
   static inline int32_t Send_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, uint8_t* buffer, int32_t count, ::System::Net::Sockets::SocketFlags flags, ::by_ref<int32_t> error,
                                       bool blocking);
 
-  /// @brief Method SetIPProtectionLevel, addr 0x67c1574, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetIPProtectionLevel, addr 0x67c1bc4, size 0xd4, virtual false, abstract: false, final false
   inline void SetIPProtectionLevel(::System::Net::Sockets::IPProtectionLevel level);
 
-  /// @brief Method SetSocketOption, addr 0x67c94b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSocketOption, addr 0x67c9b04, size 0x8, virtual false, abstract: false, final false
   inline void SetSocketOption(::System::Net::Sockets::SocketOptionLevel optionLevel, ::System::Net::Sockets::SocketOptionName optionName, bool optionValue);
 
-  /// @brief Method SetSocketOption, addr 0x67c1880, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method SetSocketOption, addr 0x67c1ed0, size 0x120, virtual false, abstract: false, final false
   inline void SetSocketOption(::System::Net::Sockets::SocketOptionLevel optionLevel, ::System::Net::Sockets::SocketOptionName optionName, int32_t optionValue);
 
-  /// @brief Method SetSocketOption, addr 0x67c0178, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SetSocketOption, addr 0x67c07c8, size 0x14c, virtual false, abstract: false, final false
   inline void SetSocketOption(::System::Net::Sockets::SocketOptionLevel optionLevel, ::System::Net::Sockets::SocketOptionName optionName, int32_t optionValue, bool silent);
 
-  /// @brief Method SetSocketOption_icall, addr 0x67c94bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetSocketOption_icall, addr 0x67c9b0c, size 0x4, virtual false, abstract: false, final false
   static inline void SetSocketOption_icall(::System::IntPtr socket, ::System::Net::Sockets::SocketOptionLevel level, ::System::Net::Sockets::SocketOptionName name, ::System::Object* obj_val,
                                            ::ArrayW<uint8_t> byte_val, int32_t int_val, ::by_ref<int32_t> error);
 
-  /// @brief Method SetSocketOption_internal, addr 0x67c3bc0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method SetSocketOption_internal, addr 0x67c4210, size 0x168, virtual false, abstract: false, final false
   static inline void SetSocketOption_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, ::System::Net::Sockets::SocketOptionLevel level, ::System::Net::Sockets::SocketOptionName name,
                                               ::System::Object* obj_val, ::ArrayW<uint8_t> byte_val, int32_t int_val, ::by_ref<int32_t> error);
 
-  /// @brief Method Shutdown, addr 0x67c9630, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Shutdown, addr 0x67c9c80, size 0x10c, virtual false, abstract: false, final false
   inline void Shutdown(::System::Net::Sockets::SocketShutdown how);
 
-  /// @brief Method Shutdown_icall, addr 0x67c973c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Shutdown_icall, addr 0x67c9d8c, size 0x4, virtual false, abstract: false, final false
   static inline void Shutdown_icall(::System::IntPtr socket, ::System::Net::Sockets::SocketShutdown how, ::by_ref<int32_t> error);
 
-  /// @brief Method Shutdown_internal, addr 0x67c3a88, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Shutdown_internal, addr 0x67c40d8, size 0x138, virtual false, abstract: false, final false
   static inline void Shutdown_internal(::System::Net::Sockets::SafeSocketHandle* safeHandle, ::System::Net::Sockets::SocketShutdown how, ::by_ref<int32_t> error);
 
-  /// @brief Method SocketDefaults, addr 0x67c1648, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SocketDefaults, addr 0x67c1c98, size 0xd8, virtual false, abstract: false, final false
   inline void SocketDefaults();
 
-  /// @brief Method SocketOperationToSocketAsyncOperation, addr 0x67c9910, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SocketOperationToSocketAsyncOperation, addr 0x67c9f60, size 0x9c, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::SocketAsyncOperation SocketOperationToSocketAsyncOperation(::System::Net::Sockets::SocketOperation op);
 
-  /// @brief Method Socket_icall, addr 0x67c1570, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Socket_icall, addr 0x67c1bc0, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr Socket_icall(::System::Net::Sockets::AddressFamily family, ::System::Net::Sockets::SocketType type, ::System::Net::Sockets::ProtocolType proto,
                                               ::by_ref<int32_t> error);
 
-  /// @brief Method ThrowIfBufferNull, addr 0x67c6da4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfBufferNull, addr 0x67c73f4, size 0x54, virtual false, abstract: false, final false
   inline void ThrowIfBufferNull(::ArrayW<uint8_t> buffer);
 
-  /// @brief Method ThrowIfBufferOutOfRange, addr 0x67c6df8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfBufferOutOfRange, addr 0x67c7448, size 0x124, virtual false, abstract: false, final false
   inline void ThrowIfBufferOutOfRange(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method ThrowIfDisposedAndClosed, addr 0x67c3e54, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfDisposedAndClosed, addr 0x67c44a4, size 0x7c, virtual false, abstract: false, final false
   inline void ThrowIfDisposedAndClosed();
 
-  /// @brief Method ThrowIfUdp, addr 0x67c44e4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfUdp, addr 0x67c4b34, size 0x4c, virtual false, abstract: false, final false
   inline void ThrowIfUdp();
 
-  /// @brief Method ValidateEndIAsyncResult, addr 0x67c5450, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ValidateEndIAsyncResult, addr 0x67c5aa0, size 0x13c, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::SocketAsyncResult* ValidateEndIAsyncResult(::System::IAsyncResult* ares, ::StringW methodName, ::StringW argName);
 
   constexpr ::System::Threading::SemaphoreSlim* const& __cordl_internal_get_ReadSem() const;
@@ -1990,14 +1990,14 @@ public:
 
   constexpr void __cordl_internal_set_useOverlappedIO(bool value);
 
-  /// @brief Method .ctor, addr 0x67c10c8, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67c1718, size 0x240, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::AddressFamily addressFamily, ::System::Net::Sockets::SocketType socketType, ::System::Net::Sockets::ProtocolType protocolType);
 
-  /// @brief Method .ctor, addr 0x67c3d28, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67c4378, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::AddressFamily family, ::System::Net::Sockets::SocketType type, ::System::Net::Sockets::ProtocolType proto,
                     ::System::Net::Sockets::SafeSocketHandle* safe_handle);
 
-  /// @brief Method cancel_blocking_socket_operation, addr 0x67c99ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method cancel_blocking_socket_operation, addr 0x67c9ffc, size 0x1c, virtual false, abstract: false, final false
   static inline void cancel_blocking_socket_operation(::System::Threading::Thread* thread);
 
   static inline ::System::AsyncCallback* getStaticF_AcceptAsyncCallback();
@@ -2056,58 +2056,58 @@ public:
 
   static inline ::System::Threading::Tasks::Task_1<int32_t>* getStaticF_s_zeroTask();
 
-  /// @brief Method get_AddressFamily, addr 0x67c1800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AddressFamily, addr 0x67c1e50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::AddressFamily get_AddressFamily();
 
-  /// @brief Method get_Available, addr 0x67bcf9c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_Available, addr 0x67bd5ec, size 0xb8, virtual false, abstract: false, final false
   inline int32_t get_Available();
 
-  /// @brief Method get_Blocking, addr 0x67c42d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Blocking, addr 0x67c4920, size 0x8, virtual false, abstract: false, final false
   inline bool get_Blocking();
 
-  /// @brief Method get_CleanedUp, addr 0x67c31e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_CleanedUp, addr 0x67c3838, size 0x10, virtual false, abstract: false, final false
   inline bool get_CleanedUp();
 
-  /// @brief Method get_Connected, addr 0x67c44dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Connected, addr 0x67c4b2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Connected();
 
-  /// @brief Method get_DualMode, addr 0x67c1d28, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_DualMode, addr 0x67c2378, size 0xa8, virtual false, abstract: false, final false
   inline bool get_DualMode();
 
-  /// @brief Method get_FamilyHint, addr 0x67c99c8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_FamilyHint, addr 0x67ca018, size 0x84, virtual false, abstract: false, final false
   static inline int32_t get_FamilyHint();
 
-  /// @brief Method get_Handle, addr 0x67c17e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x67c1e38, size 0x18, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Handle();
 
-  /// @brief Method get_InternalSyncObject, addr 0x67c38a4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_InternalSyncObject, addr 0x67c3ef4, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Object* get_InternalSyncObject();
 
-  /// @brief Method get_IsBound, addr 0x67c4084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsBound, addr 0x67c46d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsBound();
 
-  /// @brief Method get_IsDualMode, addr 0x67c1e40, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsDualMode, addr 0x67c2490, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsDualMode();
 
-  /// @brief Method get_LocalEndPoint, addr 0x67c408c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalEndPoint, addr 0x67c46dc, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Net::EndPoint* get_LocalEndPoint();
 
-  /// @brief Method get_OSSupportsIPv4, addr 0x67c1720, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_OSSupportsIPv4, addr 0x67c1d70, size 0x64, virtual false, abstract: false, final false
   static inline bool get_OSSupportsIPv4();
 
-  /// @brief Method get_OSSupportsIPv6, addr 0x67c1784, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_OSSupportsIPv6, addr 0x67c1dd4, size 0x64, virtual false, abstract: false, final false
   static inline bool get_OSSupportsIPv6();
 
-  /// @brief Method get_ProtocolType, addr 0x67c1810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProtocolType, addr 0x67c1e60, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::ProtocolType get_ProtocolType();
 
-  /// @brief Method get_RemoteEndPoint, addr 0x67c4530, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_RemoteEndPoint, addr 0x67c4b80, size 0x100, virtual false, abstract: false, final false
   inline ::System::Net::EndPoint* get_RemoteEndPoint();
 
-  /// @brief Method get_SocketType, addr 0x67c1808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SocketType, addr 0x67c1e58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::SocketType get_SocketType();
 
-  /// @brief Method get_Ttl, addr 0x67c1b30, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_Ttl, addr 0x67c2180, size 0xb0, virtual false, abstract: false, final false
   inline int16_t get_Ttl();
 
   /// @brief Convert to "::System::IDisposable"
@@ -2169,37 +2169,37 @@ public:
 
   static inline void setStaticF_s_zeroTask(::System::Threading::Tasks::Task_1<int32_t>* value);
 
-  /// @brief Method set_Blocking, addr 0x67c42d8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method set_Blocking, addr 0x67c4928, size 0xc8, virtual false, abstract: false, final false
   inline void set_Blocking(bool value);
 
-  /// @brief Method set_DontFragment, addr 0x67c1cbc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_DontFragment, addr 0x67c230c, size 0x6c, virtual false, abstract: false, final false
   inline void set_DontFragment(bool value);
 
-  /// @brief Method set_DualMode, addr 0x67c1dd0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_DualMode, addr 0x67c2420, size 0x70, virtual false, abstract: false, final false
   inline void set_DualMode(bool value);
 
-  /// @brief Method set_EnableBroadcast, addr 0x67c4010, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_EnableBroadcast, addr 0x67c4660, size 0x74, virtual false, abstract: false, final false
   inline void set_EnableBroadcast(bool value);
 
-  /// @brief Method set_ExclusiveAddressUse, addr 0x67c1818, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ExclusiveAddressUse, addr 0x67c1e68, size 0x68, virtual false, abstract: false, final false
   inline void set_ExclusiveAddressUse(bool value);
 
-  /// @brief Method set_NoDelay, addr 0x67c3e14, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_NoDelay, addr 0x67c4464, size 0x40, virtual false, abstract: false, final false
   inline void set_NoDelay(bool value);
 
-  /// @brief Method set_ReceiveBufferSize, addr 0x67c19a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_ReceiveBufferSize, addr 0x67c1ff0, size 0x60, virtual false, abstract: false, final false
   inline void set_ReceiveBufferSize(int32_t value);
 
-  /// @brief Method set_ReceiveTimeout, addr 0x67c1a60, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ReceiveTimeout, addr 0x67c20b0, size 0x68, virtual false, abstract: false, final false
   inline void set_ReceiveTimeout(int32_t value);
 
-  /// @brief Method set_SendBufferSize, addr 0x67c1a00, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_SendBufferSize, addr 0x67c2050, size 0x60, virtual false, abstract: false, final false
   inline void set_SendBufferSize(int32_t value);
 
-  /// @brief Method set_SendTimeout, addr 0x67c1ac8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_SendTimeout, addr 0x67c2118, size 0x68, virtual false, abstract: false, final false
   inline void set_SendTimeout(int32_t value);
 
-  /// @brief Method set_Ttl, addr 0x67c1be0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method set_Ttl, addr 0x67c2230, size 0xdc, virtual false, abstract: false, final false
   inline void set_Ttl(int16_t value);
 
 protected:

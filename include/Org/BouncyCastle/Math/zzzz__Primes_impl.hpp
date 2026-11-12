@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::Primes_MROutput* (*)()>(&::Org::BouncyCastle::Math::Primes_MROutput::ProbablyPrime)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x381d458;
+  constexpr static std::size_t addrs = 0x38218f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Primes_MROutput*>(), { "ProbablyPrime", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::Primes_MROutput* (*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::Primes_MROutput::ProvablyCompositeWithFactor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x381d4b4;
+  constexpr static std::size_t addrs = 0x382194c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Primes_MROutput*>(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::Primes_MROutput* (*)()>(&::Org::BouncyCastle::Math::Primes_MROutput::ProvablyCompositeNotPrimePower)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x381d50c;
+  constexpr static std::size_t addrs = 0x38219a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::Primes_MROutput::*)(bool, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::Primes_MROutput::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x381d4a8;
+  constexpr static std::size_t addrs = 0x3821940;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Primes_MROutput*>(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::Primes_MROutput::*)()>(
     &::Org::BouncyCastle::Math::Primes_MROutput::get_Factor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x381d560;
+  constexpr static std::size_t addrs = 0x38219f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Primes_MROutput*>(), { "get_Factor", {}, {} })));
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::Primes_MROutput::*)()>(&::Org::BouncyCastle::Math::Primes_MROutput::get_IsProvablyComposite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x381d568;
+  constexpr static std::size_t addrs = 0x3821a00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Primes_MROutput*>(), { "get_IsProvablyComposite", {}, {} })));
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Org::BouncyCastle::Math::Primes_MROutput::*)()>(&::Org::BouncyCastle::Math::Primes_MROutput::get_IsNotPrimePower)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x381d570;
+  constexpr static std::size_t addrs = 0x3821a08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Primes_MROutput*>(), { "get_IsNotPrimePower", {}, {} })));
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::Primes_STOutput::*)(::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Math::Primes_STOutput::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x381d590;
+  constexpr static std::size_t addrs = 0x3821a28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::Primes_STOutput::*)()>(
     &::Org::BouncyCastle::Math::Primes_STOutput::get_Prime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x381d59c;
+  constexpr static std::size_t addrs = 0x3821a34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Primes_STOutput*>(), { "get_Prime", {}, {} })));
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Math::Primes_STOutput::*)()>(&::Org::BouncyCastle::Math::Primes_STOutput::get_PrimeSeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x381d5a4;
+  constexpr static std::size_t addrs = 0x3821a3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Primes_STOutput*>(), { "get_PrimeSeed", {}, {} })));
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Math::Primes_STOutput::*)()>(&::Org::BouncyCastle::Math::Primes_STOutput::get_PrimeGenCounter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x381d5ac;
+  constexpr static std::size_t addrs = 0x3821a44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Primes_STOutput*>(), { "get_PrimeGenCounter", {}, {} })));
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::Primes_STOutput* (*)(::Org::BouncyCastle::Crypto::IDigest*, int32_t, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Math::Primes::GenerateSTRandomPrime)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x381b290;
+  constexpr static std::size_t addrs = 0x381f728;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::Primes_MROutput* (*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Security::SecureRandom*, int32_t)>(
     &::Org::BouncyCastle::Math::Primes::EnhancedMRProbablePrimeTest)> {
   constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x381ba6c;
+  constexpr static std::size_t addrs = 0x381ff04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -307,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::Primes::HasAnySmallFactors)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x381bf84;
+  constexpr static std::size_t addrs = 0x382041c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Security::SecureRandom*, int32_t)>(
     &::Org::BouncyCastle::Math::Primes::IsMRProbablePrime)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x381c920;
+  constexpr static std::size_t addrs = 0x3820db8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::Primes::IsMRProbablePrimeToBase)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x381ccc8;
+  constexpr static std::size_t addrs = 0x3821160;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -353,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Org::BouncyCastle::Math::BigInteger*, ::StringW)>(&::Org::BouncyCastle::Math::Primes::CheckCandidate)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x381bf04;
+  constexpr static std::size_t addrs = 0x382039c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -367,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::Primes::ImplHasAnySmallFactors)> {
   constexpr static std::size_t size = 0x920;
-  constexpr static std::size_t addrs = 0x381c000;
+  constexpr static std::size_t addrs = 0x3820498;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, int32_t,
                                                                 ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::Primes::ImplMRProbablePrimeToBase)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x381cb58;
+  constexpr static std::size_t addrs = 0x3820ff0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -401,7 +401,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::Primes_STOutput* (*)(::Org::BouncyCastle::Crypto::IDigest*, int32_t, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Math::Primes::ImplSTRandomPrime)> {
   constexpr static std::size_t size = 0x638;
-  constexpr static std::size_t addrs = 0x381b434;
+  constexpr static std::size_t addrs = 0x381f8cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (*)(::ArrayW<uint8_t>)>(&::Org::BouncyCastle::Math::Primes::Extract32)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x381d018;
+  constexpr static std::size_t addrs = 0x38214b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -429,7 +429,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::Org::BouncyCastle::Crypto::IDigest*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int32_t)>(&::Org::BouncyCastle::Math::Primes::Hash)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x381ce8c;
+  constexpr static std::size_t addrs = 0x3821324;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -446,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::Org::BouncyCastle::Crypto::IDigest*, ::ArrayW<uint8_t>, int32_t)>(
     &::Org::BouncyCastle::Math::Primes::HashGen)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x381d23c;
+  constexpr static std::size_t addrs = 0x38216d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -460,7 +460,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::ArrayW<uint8_t>, int32_t)>(&::Org::BouncyCastle::Math::Primes::Inc)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x381cfc4;
+  constexpr static std::size_t addrs = 0x382145c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -473,7 +473,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(uint32_t)>(&::Org::BouncyCastle::Math::Primes::IsPrime32)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x381d0d8;
+  constexpr static std::size_t addrs = 0x3821570;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -486,7 +486,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Math::Primes::*)()>(&::Org::BouncyCastle::Math::Primes::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x381d454;
+  constexpr static std::size_t addrs = 0x38218ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Math::Primes*>(), { ".ctor", {}, {} })));

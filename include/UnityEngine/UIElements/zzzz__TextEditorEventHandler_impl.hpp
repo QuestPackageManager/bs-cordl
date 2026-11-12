@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextEditorEventHandler::*)(::UnityEngine::UIElements::TextElement*, ::UnityEngine::TextEditingUtilities*)>(
     &::UnityEngine::UIElements::TextEditorEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71fab18;
+  constexpr static std::size_t addrs = 0x71fbbf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextEditorEventHandler::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::TextEditorEventHandler::RegisterCallbacksOnTarget)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x71fbe9c;
+  constexpr static std::size_t addrs = 0x71fcf7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextEditorEventHandler::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::TextEditorEventHandler::UnregisterCallbacksFromTarget)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x71fbea0;
+  constexpr static std::size_t addrs = 0x71fcf80;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::TextEditorEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::TextEditorEventHandler::HandleEventBubbleUp)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x71fae74;
+  constexpr static std::size_t addrs = 0x71fbf54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

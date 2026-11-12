@@ -22,7 +22,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 struct CORDL_TYPE Cookie {
 public:
   // Declarations
-  /// @brief Method Defaults, addr 0x6fc9b04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Defaults, addr 0x6fcabe4, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::Cookie Defaults();
 
   // Ctor Parameters []

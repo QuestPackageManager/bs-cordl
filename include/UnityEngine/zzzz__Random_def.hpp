@@ -93,56 +93,56 @@ public:
   // Declarations
   using State = ::UnityEngine::Random_State;
 
-  /// @brief Method ColorHSV, addr 0x6f6f56c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ColorHSV, addr 0x6f7064c, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorHSV();
 
-  /// @brief Method ColorHSV, addr 0x6f6f590, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method ColorHSV, addr 0x6f70670, size 0x178, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ColorHSV(float_t hueMin, float_t hueMax, float_t saturationMin, float_t saturationMax, float_t valueMin, float_t valueMax, float_t alphaMin, float_t alphaMax);
 
   /// [StaticAccessor("GetScriptingRand()", (UnityEngine.Bindings.StaticAccessorType)0)]
   /// [NativeMethod("SetSeed")]
-  /// @brief Method InitState, addr 0x6f6f238, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InitState, addr 0x6f70318, size 0x3c, virtual false, abstract: false, final false
   static inline void InitState(int32_t seed);
 
   /// [FreeFunction]
-  /// @brief Method RandomRangeInt, addr 0x6f6f3f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RandomRangeInt, addr 0x6f704d4, size 0x44, virtual false, abstract: false, final false
   static inline int32_t RandomRangeInt(int32_t minInclusive, int32_t maxExclusive);
 
   /// [FreeFunction]
-  /// @brief Method Range, addr 0x6f6f370, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Range, addr 0x6f70450, size 0x40, virtual false, abstract: false, final false
   static inline float_t Range(float_t minInclusive, float_t maxInclusive);
 
-  /// @brief Method Range, addr 0x6f6f3b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Range, addr 0x6f70490, size 0x44, virtual false, abstract: false, final false
   static inline int32_t Range(int32_t minInclusive, int32_t maxExclusive);
 
   /// [FreeFunction]
-  /// @brief Method get_onUnitSphere, addr 0x6f6f460, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_onUnitSphere, addr 0x6f70540, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 get_onUnitSphere();
 
-  /// @brief Method get_onUnitSphere_Injected, addr 0x6f6f4ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_onUnitSphere_Injected, addr 0x6f7058c, size 0x3c, virtual false, abstract: false, final false
   static inline void get_onUnitSphere_Injected(::by_ref<::UnityEngine::Vector3> ret);
 
   /// [FreeFunction]
-  /// @brief Method get_rotation, addr 0x6f6f4e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x6f705c8, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method get_rotation_Injected, addr 0x6f6f530, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rotation_Injected, addr 0x6f70610, size 0x3c, virtual false, abstract: false, final false
   static inline void get_rotation_Injected(::by_ref<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method get_state, addr 0x6f6f274, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_state, addr 0x6f70354, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Random_State get_state();
 
-  /// @brief Method get_state_Injected, addr 0x6f6f2b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_state_Injected, addr 0x6f70398, size 0x3c, virtual false, abstract: false, final false
   static inline void get_state_Injected(::by_ref<::UnityEngine::Random_State> ret);
 
   /// [FreeFunction]
-  /// @brief Method get_value, addr 0x6f6f438, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x6f70518, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_value();
 
-  /// @brief Method set_state, addr 0x6f6f2f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_state, addr 0x6f703d4, size 0x40, virtual false, abstract: false, final false
   static inline void set_state(::UnityEngine::Random_State value);
 
-  /// @brief Method set_state_Injected, addr 0x6f6f334, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_state_Injected, addr 0x6f70414, size 0x3c, virtual false, abstract: false, final false
   static inline void set_state_Injected(::by_ref<::UnityEngine::Random_State const> value);
 
 protected:

@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager_InitData::*)(bool)>(&::GlobalNamespace::MissionLevelGameplayManager_InitData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d6d7a0;
+  constexpr static std::size_t addrs = 0x5d6d3c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager__Start_d__23::*)(int32_t)>(
     &::GlobalNamespace::MissionLevelGameplayManager__Start_d__23::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d6d0d4;
+  constexpr static std::size_t addrs = 0x5d6ccf4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager__Start_d__23::*)()>(
     &::GlobalNamespace::MissionLevelGameplayManager__Start_d__23::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d6d7a8;
+  constexpr static std::size_t addrs = 0x5d6d3c8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::GlobalNamespace::MissionLevelGameplayManager__Start_d__23::*)()>(
     &::GlobalNamespace::MissionLevelGameplayManager__Start_d__23::MoveNext)> {
   constexpr static std::size_t size = 0x554;
-  constexpr static std::size_t addrs = 0x5d6d7ac;
+  constexpr static std::size_t addrs = 0x5d6d3cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelGameplayManager__Start_d__23*>(), { "MoveNext", {}, {} })));
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MissionLevelGameplayManager__Start_d__23::*)()>(
     &::GlobalNamespace::MissionLevelGameplayManager__Start_d__23::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d6ddac;
+  constexpr static std::size_t addrs = 0x5d6d9cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelGameplayManager__Start_d__23*>(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager__Start_d__23::*)()>(
     &::GlobalNamespace::MissionLevelGameplayManager__Start_d__23::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d6ddb4;
+  constexpr static std::size_t addrs = 0x5d6d9d4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::GlobalNamespace::MissionLevelGameplayManager__Start_d__23::*)()>(
     &::GlobalNamespace::MissionLevelGameplayManager__Start_d__23::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d6ddec;
+  constexpr static std::size_t addrs = 0x5d6da0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::MissionLevelGameplayManager::add_levelDidStartEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d6cc68;
+  constexpr static std::size_t addrs = 0x5d6c888;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::MissionLevelGameplayManager::remove_levelDidStartEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d6cd14;
+  constexpr static std::size_t addrs = 0x5d6c934;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::MissionLevelGameplayManager::add_levelFinishedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d6cdc0;
+  constexpr static std::size_t addrs = 0x5d6c9e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::MissionLevelGameplayManager::remove_levelFinishedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d6ce6c;
+  constexpr static std::size_t addrs = 0x5d6ca8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::MissionLevelGameplayManager::add_levelFailedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d6cf18;
+  constexpr static std::size_t addrs = 0x5d6cb38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -321,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::MissionLevelGameplayManager::remove_levelFailedEvent)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x5d6cfc4;
+  constexpr static std::size_t addrs = 0x5d6cbe4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::GlobalNamespace::LevelCompletionResultsBase_LevelEndStateType (::GlobalNamespace::MissionLevelGameplayManager::*)()>(
     &::GlobalNamespace::MissionLevelGameplayManager::get_levelEndStateType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d6d070;
+  constexpr static std::size_t addrs = 0x5d6cc90;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelGameplayManager*>(), { "get_levelEndStateType", {}, {} })));
@@ -347,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(&::GlobalNamespace::MissionLevelGameplayManager::Awake)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d6d078;
+  constexpr static std::size_t addrs = 0x5d6cc98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelGameplayManager*>(), { "Awake", {}, {} })));
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MissionLevelGameplayManager::*)()>(
     &::GlobalNamespace::MissionLevelGameplayManager::Start)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5d6d080;
+  constexpr static std::size_t addrs = 0x5d6cca0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelGameplayManager*>(), { "Start", {}, {} })));
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(&::GlobalNamespace::MissionLevelGameplayManager::OnDestroy)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x5d6d0dc;
+  constexpr static std::size_t addrs = 0x5d6ccfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelGameplayManager*>(), { "OnDestroy", {}, {} })));
@@ -384,7 +384,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(&::GlobalNamespace::MissionLevelGameplayManager::Update)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x5d6d5f8;
+  constexpr static std::size_t addrs = 0x5d6d218;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelGameplayManager*>(), { "Update", {}, {} })));
@@ -396,7 +396,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(&::GlobalNamespace::MissionLevelGameplayManager::HandleGameEnergyDidReach0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5d6d658;
+  constexpr static std::size_t addrs = 0x5d6d278;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -410,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(
     &::GlobalNamespace::MissionLevelGameplayManager::HandleMissionObjectiveCheckersManagerObjectiveDidFail)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x5d6d6ac;
+  constexpr static std::size_t addrs = 0x5d6d2cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(&::GlobalNamespace::MissionLevelGameplayManager::HandleSongDidFinish)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x5d6d6e8;
+  constexpr static std::size_t addrs = 0x5d6d308;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelGameplayManager*>(), { "HandleSongDidFinish", {}, {} })));
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::MissionLevelGameplayManager::HandlePauseControllerCanPause)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x5d6d71c;
+  constexpr static std::size_t addrs = 0x5d6d33c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelGameplayManager*>(),
@@ -449,7 +449,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(&::GlobalNamespace::MissionLevelGameplayManager::HandlePauseControllerDidPause)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d6d754;
+  constexpr static std::size_t addrs = 0x5d6d374;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -463,7 +463,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(
     &::GlobalNamespace::MissionLevelGameplayManager::HandlePauseControllerDidStartResume)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d6d76c;
+  constexpr static std::size_t addrs = 0x5d6d38c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -476,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(&::GlobalNamespace::MissionLevelGameplayManager::HandlePauseControllerDidResume)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5d6d784;
+  constexpr static std::size_t addrs = 0x5d6d3a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -489,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(&::GlobalNamespace::MissionLevelGameplayManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d6d79c;
+  constexpr static std::size_t addrs = 0x5d6d3bc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionLevelGameplayManager*>(), { ".ctor", {}, {} })));

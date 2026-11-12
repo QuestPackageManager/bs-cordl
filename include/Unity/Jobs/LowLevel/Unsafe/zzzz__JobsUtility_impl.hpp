@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters::*)(
     void*, ::System::IntPtr, ::Unity::Jobs::JobHandle, ::Unity::Jobs::LowLevel::Unsafe::ScheduleMode)>(&::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x6eeabac;
+  constexpr static std::size_t addrs = 0x6eebc8c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Jobs::LowLevel::Unsafe::JobsUtility_PanicFunction_::*)(::System::Object*, ::System::IntPtr)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobsUtility_PanicFunction_::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6eeabbc;
+  constexpr static std::size_t addrs = 0x6eebc9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_PanicFunction_*>(),
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Jobs::LowLevel::Unsafe::JobsUtility_PanicFunction_::*)()>(&::Unity::Jobs::LowLevel::Unsafe::JobsUtility_PanicFunction_::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6eeac24;
+  constexpr static std::size_t addrs = 0x6eebd04;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_PanicFunction_*>(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges>, int32_t, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobsUtility::GetJobRange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6eea4e0;
+  constexpr static std::size_t addrs = 0x6eeb5c0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::LowLevel::Unsafe::JobsUtility*>(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobRanges>, int32_t, ::by_ref<int32_t>, ::by_ref<int32_t>)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobsUtility::GetWorkStealingRange)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6eea504;
+  constexpr static std::size_t addrs = 0x6eeb5e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::LowLevel::Unsafe::JobsUtility*>(),
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobsUtility::Schedule)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eea560;
+  constexpr static std::size_t addrs = 0x6eeb640;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, int32_t, int32_t)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobsUtility::ScheduleParallelFor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6eea5f8;
+  constexpr static std::size_t addrs = 0x6eeb6d8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, int32_t, void*, void*)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobsUtility::ScheduleParallelForDeferArraySize)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x6eea6c0;
+  constexpr static std::size_t addrs = 0x6eeb7a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::LowLevel::Unsafe::JobsUtility*>(),
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, ::System::IntPtr)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobsUtility::ScheduleParallelForTransform)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6eea7a0;
+  constexpr static std::size_t addrs = 0x6eeb880;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Jobs::JobHandle (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, ::System::IntPtr, int32_t)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobsUtility::ScheduleParallelForTransformReadOnly)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6eea850;
+  constexpr static std::size_t addrs = 0x6eeb930;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::Type*, ::System::Type*, ::System::Object*, ::System::Object*, ::System::Object*)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobsUtility::CreateJobReflectionData)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6eea918;
+  constexpr static std::size_t addrs = 0x6eeb9f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::Type*, ::System::Object*, ::System::Object*, ::System::Object*)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobsUtility::CreateJobReflectionData)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6eea984;
+  constexpr static std::size_t addrs = 0x6eeba64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::IntPtr (*)(::System::Type*, ::System::Type*, ::System::Object*)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobsUtility::CreateJobReflectionData)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6eea9e4;
+  constexpr static std::size_t addrs = 0x6eebac4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Unity::Jobs::LowLevel::Unsafe::JobsUtility::get_IsExecutingJob)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6eeaa40;
+  constexpr static std::size_t addrs = 0x6eebb20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::LowLevel::Unsafe::JobsUtility*>(), { "get_IsExecutingJob", {}, {} })));
@@ -277,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::Unity::Jobs::LowLevel::Unsafe::JobsUtility::set_JobCompilerEnabled)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x6eeaa68;
+  constexpr static std::size_t addrs = 0x6eebb48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::Unity::Jobs::LowLevel::Unsafe::JobsUtility::GetJobQueueWorkerThreadCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6eeaaa4;
+  constexpr static std::size_t addrs = 0x6eebb84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::Unity::Jobs::LowLevel::Unsafe::JobsUtility::get_JobWorkerCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6eeaacc;
+  constexpr static std::size_t addrs = 0x6eebbac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::LowLevel::Unsafe::JobsUtility*>(), { "get_JobWorkerCount", {}, {} })));
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::Unity::Jobs::LowLevel::Unsafe::JobsUtility::get_ThreadIndex)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6eeaaf4;
+  constexpr static std::size_t addrs = 0x6eebbd4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::LowLevel::Unsafe::JobsUtility*>(), { "get_ThreadIndex", {}, {} })));
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)()>(&::Unity::Jobs::LowLevel::Unsafe::JobsUtility::get_ThreadIndexCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6eeab1c;
+  constexpr static std::size_t addrs = 0x6eebbfc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::LowLevel::Unsafe::JobsUtility*>(), { "get_ThreadIndexCount", {}, {} })));
@@ -339,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)()>(&::Unity::Jobs::LowLevel::Unsafe::JobsUtility::InvokePanicFunction)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x6eeab44;
+  constexpr static std::size_t addrs = 0x6eebc24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::LowLevel::Unsafe::JobsUtility*>(), { "InvokePanicFunction", {}, {} })));
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, ::by_ref<::Unity::Jobs::JobHandle>)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobsUtility::Schedule_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6eea5b4;
+  constexpr static std::size_t addrs = 0x6eeb694;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, int32_t, int32_t, ::by_ref<::Unity::Jobs::JobHandle>)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobsUtility::ScheduleParallelFor_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6eea664;
+  constexpr static std::size_t addrs = 0x6eeb744;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, int32_t, void*, void*,
                                                                 ::by_ref<::Unity::Jobs::JobHandle>)>(&::Unity::Jobs::LowLevel::Unsafe::JobsUtility::ScheduleParallelForDeferArraySize_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6eea734;
+  constexpr static std::size_t addrs = 0x6eeb814;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -405,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, ::System::IntPtr, ::by_ref<::Unity::Jobs::JobHandle>)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobsUtility::ScheduleParallelForTransform_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6eea7fc;
+  constexpr static std::size_t addrs = 0x6eeb8dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Jobs::LowLevel::Unsafe::JobsUtility*>(),
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::by_ref<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>, ::System::IntPtr, int32_t,
                                                                 ::by_ref<::Unity::Jobs::JobHandle>)>(&::Unity::Jobs::LowLevel::Unsafe::JobsUtility::ScheduleParallelForTransformReadOnly_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6eea8bc;
+  constexpr static std::size_t addrs = 0x6eeb99c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

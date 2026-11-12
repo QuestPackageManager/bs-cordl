@@ -68,34 +68,34 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
 
-  /// @brief Method Awake, addr 0x5d9c8b0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5d9ca2c, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HideConnectionSettings, addr 0x5d9c850, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HideConnectionSettings, addr 0x5d9c9cc, size 0x20, virtual false, abstract: false, final false
   inline void HideConnectionSettings(bool hide);
 
-  /// @brief Method HideSpectateSettings, addr 0x5d9c870, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HideSpectateSettings, addr 0x5d9c9ec, size 0x20, virtual false, abstract: false, final false
   inline void HideSpectateSettings(bool hide);
 
   static inline ::GlobalNamespace::MultiplayerSettingsPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x5d9c978, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5d9caf4, size 0x14, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Refresh, addr 0x5d9c740, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method Refresh, addr 0x5d9c8bc, size 0x110, virtual true, abstract: false, final true
   inline void Refresh();
 
-  /// @brief Method SetLobbyCode, addr 0x5d9c890, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetLobbyCode, addr 0x5d9ca0c, size 0x20, virtual false, abstract: false, final false
   inline void SetLobbyCode(::StringW code);
 
-  /// @brief Method SetLobbyPlayerDataModel, addr 0x5d9c734, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetLobbyPlayerDataModel, addr 0x5d9c8b0, size 0xc, virtual false, abstract: false, final false
   inline void SetLobbyPlayerDataModel(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
 
-  /// @brief Method UpdateLocalPlayerIsActiveState, addr 0x5d9c98c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalPlayerIsActiveState, addr 0x5d9cb08, size 0x24, virtual false, abstract: false, final false
   inline void UpdateLocalPlayerIsActiveState(bool isActive);
 
   /// [CompilerGenerated]
-  /// @brief Method <Awake>b__14_0, addr 0x5d9c9b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__14_0, addr 0x5d9cb30, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__14_0(bool on);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__connectionSettingsWrapper() const;
@@ -146,18 +146,18 @@ public:
 
   constexpr void __cordl_internal_set_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x5d9c9b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9cb2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method add_playerActiveStateChangedEvent, addr 0x5d9c5b4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method add_playerActiveStateChangedEvent, addr 0x5d9c730, size 0xc0, virtual false, abstract: false, final false
   inline void add_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
   /// @brief Convert to "::GlobalNamespace::IRefreshable"
   constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
   /// [CompilerGenerated]
-  /// @brief Method remove_playerActiveStateChangedEvent, addr 0x5d9c674, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method remove_playerActiveStateChangedEvent, addr 0x5d9c7f0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
 protected:

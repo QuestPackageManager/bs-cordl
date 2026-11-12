@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::OculusGameDlcProductSO::*)()>(&::GlobalNamespace::OculusGameDlcProductSO::get_sku)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f5f98;
+  constexpr static std::size_t addrs = 0x39fb1e8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusGameDlcProductSO*>(), { "get_sku", {}, {} })));
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::OculusGameDlcProductSO::*)()>(&::GlobalNamespace::OculusGameDlcProductSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f5fa0;
+  constexpr static std::size_t addrs = 0x39fb1f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::OculusGameDlcProductSO*>(), { ".ctor", {}, {} })));

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::ProcessPort::*)()>(&::GlobalNamespace::ProcessPort::ToString)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x6346d58;
+  constexpr static std::size_t addrs = 0x6346fe0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::ProcessPort::*)()>(&::GlobalNamespace::ProcessPort::get_processName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6346eb4;
+  constexpr static std::size_t addrs = 0x634713c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProcessPort*>(), { "get_processName", {}, {} })));
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProcessPort::*)(::StringW)>(&::GlobalNamespace::ProcessPort::set_processName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6346ebc;
+  constexpr static std::size_t addrs = 0x6347144;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::GlobalNamespace::ProcessPort::*)()>(&::GlobalNamespace::ProcessPort::get_processId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6346ec4;
+  constexpr static std::size_t addrs = 0x634714c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProcessPort*>(), { "get_processId", {}, {} })));
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProcessPort::*)(int32_t)>(&::GlobalNamespace::ProcessPort::set_processId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6346ecc;
+  constexpr static std::size_t addrs = 0x6347154;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::ProcessPort::*)()>(&::GlobalNamespace::ProcessPort::get_portNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6346ed4;
+  constexpr static std::size_t addrs = 0x634715c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProcessPort*>(), { "get_portNumber", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProcessPort::*)(::StringW)>(&::GlobalNamespace::ProcessPort::set_portNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6346edc;
+  constexpr static std::size_t addrs = 0x6347164;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::ProcessPort::*)()>(&::GlobalNamespace::ProcessPort::get_protocol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6346ee4;
+  constexpr static std::size_t addrs = 0x634716c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProcessPort*>(), { "get_protocol", {}, {} })));
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProcessPort::*)(::StringW)>(&::GlobalNamespace::ProcessPort::set_protocol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6346eec;
+  constexpr static std::size_t addrs = 0x6347174;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(int32_t)>(&::GlobalNamespace::ProcessPort::LookupProcess)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x6346ef4;
+  constexpr static std::size_t addrs = 0x634717c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::ProcessPort*>* (*)(::StringW)>(&::GlobalNamespace::ProcessPort::GetProcessesByPort)> {
   constexpr static std::size_t size = 0xb30;
-  constexpr static std::size_t addrs = 0x6346fcc;
+  constexpr static std::size_t addrs = 0x6347254;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ProcessPort::*)()>(&::GlobalNamespace::ProcessPort::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x6347afc;
+  constexpr static std::size_t addrs = 0x6347d84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ProcessPort*>(), { ".ctor", {}, {} })));

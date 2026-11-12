@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectiveTypeCollection___c::*)()>(&::GlobalNamespace::MissionObjectiveTypeCollection___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a09610;
+  constexpr static std::size_t addrs = 0x3a0e698;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjectiveTypeCollection___c*>(), { ".ctor", {}, {} })));
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::GlobalNamespace::MissionObjectiveTypeCollection___c::*)(::GlobalNamespace::MissionObjectiveTypeSO*)>(
     &::GlobalNamespace::MissionObjectiveTypeCollection___c::__ctor_b__1_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a09614;
+  constexpr static std::size_t addrs = 0x3a0e69c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::MissionObjectiveTypeCollection___c*>(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::MissionObjectiveTypeCollection::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::MissionObjectiveTypeSO>>*)>(&::GlobalNamespace::MissionObjectiveTypeCollection::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3a09428;
+  constexpr static std::size_t addrs = 0x3a0e4b0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> (::GlobalNamespace::MissionObjectiveTypeCollection::*)(::StringW)>(
     &::GlobalNamespace::MissionObjectiveTypeCollection::GetMissionObjectiveTypeByName)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3a0953c;
+  constexpr static std::size_t addrs = 0x3a0e5c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

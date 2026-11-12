@@ -53,16 +53,16 @@ public:
 
   constexpr void __cordl_internal_set__ErrorContext_k__BackingField(::Newtonsoft::Json::Serialization::ErrorContext* value);
 
-  /// @brief Method .ctor, addr 0x61974c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6197748, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(/* [Nullable(2)] */ ::System::Object* currentObject, ::Newtonsoft::Json::Serialization::ErrorContext* errorContext);
 
   /// [NullableContext(2)]
   /// [CompilerGenerated]
-  /// @brief Method get_CurrentObject, addr 0x61974b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentObject, addr 0x6197738, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_CurrentObject();
 
   /// [CompilerGenerated]
-  /// @brief Method get_ErrorContext, addr 0x61974b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorContext, addr 0x6197740, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ErrorContext* get_ErrorContext();
 
 protected:

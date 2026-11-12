@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::UnityEngine::Rendering::DrawKey::*)(::UnityEngine::Rendering::DrawKey)>(&::UnityEngine::Rendering::DrawKey::Equals)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x6c84ed0;
+  constexpr static std::size_t addrs = 0x6c85fb0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::UnityEngine::Rendering::DrawKey::*)()>(&::UnityEngine::Rendering::DrawKey::GetHashCode)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6c85038;
+  constexpr static std::size_t addrs = 0x6c86118;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

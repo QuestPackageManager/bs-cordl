@@ -5,6 +5,9 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/stringw.hpp"
 CORDL_MODULE_EXPORT(ILevelProductData)
+namespace GlobalNamespace {
+struct ProductDisplayMode;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class ILevelProductData;
@@ -19,7 +22,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE ILevelProductData {
 public:
   // Declarations
+  __declspec(property(get = get_displayMode)) ::GlobalNamespace::ProductDisplayMode displayMode;
+
   __declspec(property(get = get_levelId)) ::StringW levelId;
+
+  /// @brief Method get_displayMode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::GlobalNamespace::ProductDisplayMode get_displayMode();
 
   /// @brief Method get_levelId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_levelId();
@@ -29,7 +37,7 @@ public:
   ILevelProductData(ILevelProductData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14604 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

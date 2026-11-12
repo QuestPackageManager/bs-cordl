@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::RenderTexture> (*)(::UnityEngine::RenderTexture*, float_t)>(
     &::GlobalNamespace::PseudoHDREncoding::CreatePseudoHDREncodedTexture)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x5d38098;
+  constexpr static std::size_t addrs = 0x5d37cf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

@@ -34,22 +34,22 @@ public:
 
   __declspec(property(get = get_type)) ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType type;
 
-  /// @brief Method .ctor, addr 0x6e81c68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e82d48, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(void* next, ::UnityEngine::XR::OpenXR::NativeTypes::XrUuid persistUuid);
 
-  /// @brief Method .ctor, addr 0x6e7e108, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6e7f1e8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::OpenXR::NativeTypes::XrUuid persistUuid);
 
   /// [CompilerGenerated]
-  /// @brief Method get_next, addr 0x6e81c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_next, addr 0x6e82d34, size 0x8, virtual false, abstract: false, final false
   inline void* get_next();
 
   /// [CompilerGenerated]
-  /// @brief Method get_persistUuid, addr 0x6e81c5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_persistUuid, addr 0x6e82d3c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrUuid get_persistUuid();
 
   /// [CompilerGenerated]
-  /// @brief Method get_type, addr 0x6e81c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x6e82d2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::OpenXR::NativeTypes::XrStructureType get_type();
 
   // Ctor Parameters []
@@ -63,7 +63,7 @@ public:
                                             ::UnityEngine::XR::OpenXR::NativeTypes::XrUuid _persistUuid_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17628 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

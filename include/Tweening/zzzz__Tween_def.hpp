@@ -88,24 +88,24 @@ public:
 
   __declspec(property(get = get_startTime)) float_t startTime;
 
-  /// @brief Method EvaluateEasing, addr 0x68ad054, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method EvaluateEasing, addr 0x68ad6b0, size 0x28, virtual false, abstract: false, final false
   inline float_t EvaluateEasing(float_t t);
 
-  /// @brief Method Kill, addr 0x68ae3d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Kill, addr 0x68aea2c, size 0xc, virtual false, abstract: false, final false
   inline void Kill();
 
   static inline ::Tweening::Tween* New_ctor();
 
-  /// @brief Method Restart, addr 0x68ae3dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Restart, addr 0x68aea38, size 0x10, virtual false, abstract: false, final false
   inline void Restart(float_t startTime);
 
-  /// @brief Method Resume, addr 0x68ae3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x68aea48, size 0x8, virtual false, abstract: false, final false
   inline void Resume();
 
   /// @brief Method Sample, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Sample(float_t t);
 
-  /// @brief Method SetStartTimeAndEndTime, addr 0x68ae3f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetStartTimeAndEndTime, addr 0x68aea50, size 0xc, virtual false, abstract: false, final false
   inline void SetStartTimeAndEndTime(float_t startTime, float_t endTime);
 
   /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -183,55 +183,55 @@ public:
 
   constexpr void __cordl_internal_set_onStart(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x68ae400, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68aea5c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationCurve, addr 0x68ae3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationCurve, addr 0x68aea1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationCurve* get_animationCurve();
 
-  /// @brief Method get_delay, addr 0x68ae3a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_delay, addr 0x68ae9fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_delay();
 
-  /// @brief Method get_duration, addr 0x68ae380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x68ae9dc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_easeType, addr 0x68ae3b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x68aea0c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
-  /// @brief Method get_isActive, addr 0x68ae330, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x68ae98c, size 0x24, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method get_isComplete, addr 0x68ae354, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isComplete, addr 0x68ae9b0, size 0x14, virtual false, abstract: false, final false
   inline bool get_isComplete();
 
-  /// @brief Method get_isKilled, addr 0x68ae368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isKilled, addr 0x68ae9c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isKilled();
 
-  /// @brief Method get_isStarted, addr 0x68ae328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isStarted, addr 0x68ae984, size 0x8, virtual false, abstract: false, final false
   inline bool get_isStarted();
 
-  /// @brief Method get_loop, addr 0x68ae390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_loop, addr 0x68ae9ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_loop();
 
-  /// @brief Method get_progress, addr 0x68ae370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x68ae9cc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method get_startTime, addr 0x68ae378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x68ae9d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startTime();
 
-  /// @brief Method set_animationCurve, addr 0x68ae3c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_animationCurve, addr 0x68aea24, size 0x8, virtual false, abstract: false, final false
   inline void set_animationCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method set_delay, addr 0x68ae3a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_delay, addr 0x68aea04, size 0x8, virtual false, abstract: false, final false
   inline void set_delay(float_t value);
 
-  /// @brief Method set_duration, addr 0x68ae388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x68ae9e4, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_easeType, addr 0x68ae3b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_easeType, addr 0x68aea14, size 0x8, virtual false, abstract: false, final false
   inline void set_easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method set_loop, addr 0x68ae398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_loop, addr 0x68ae9f4, size 0x8, virtual false, abstract: false, final false
   inline void set_loop(bool value);
 
 protected:
@@ -249,7 +249,7 @@ public:
   Tween(Tween const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23875 };
 
   /// @brief Field kEpsilon offset 0xffffffff size 0x4
   static constexpr float_t kEpsilon{ static_cast<float_t>(0.001f) };

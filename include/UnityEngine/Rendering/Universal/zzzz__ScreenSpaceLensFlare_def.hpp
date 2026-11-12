@@ -104,14 +104,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
   constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x6cfb4ac, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method IsActive, addr 0x6cfc58c, size 0x30, virtual true, abstract: false, final true
   inline bool IsActive();
 
-  /// @brief Method IsStreaksActive, addr 0x6cfb4dc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsStreaksActive, addr 0x6cfc5bc, size 0x30, virtual false, abstract: false, final false
   inline bool IsStreaksActive();
 
   /// [Obsolete("Unused. #from(2023.1)")]
-  /// @brief Method IsTileCompatible, addr 0x6cfb50c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsTileCompatible, addr 0x6cfc5ec, size 0x8, virtual true, abstract: false, final true
   inline bool IsTileCompatible();
 
   static inline ::UnityEngine::Rendering::Universal::ScreenSpaceLensFlare* New_ctor();
@@ -224,7 +224,7 @@ public:
 
   constexpr void __cordl_internal_set_warpedFlareScale(::UnityEngine::Rendering::Vector2Parameter* value);
 
-  /// @brief Method .ctor, addr 0x6cfb514, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6cfc5f4, size 0x370, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"

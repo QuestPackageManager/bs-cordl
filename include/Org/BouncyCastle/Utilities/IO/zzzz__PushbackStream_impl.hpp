@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::PushbackStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Utilities::IO::PushbackStream::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x38db78c;
+  constexpr static std::size_t addrs = 0x38dfc24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::IO::PushbackStream::*)()>(&::Org::BouncyCastle::Utilities::IO::PushbackStream::ReadByte)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x38db79c;
+  constexpr static std::size_t addrs = 0x38dfc34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Utilities::IO::PushbackStream::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Utilities::IO::PushbackStream::Read)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x38db7d8;
+  constexpr static std::size_t addrs = 0x38dfc70;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Utilities::IO::PushbackStream::*)(int32_t)>(&::Org::BouncyCastle::Utilities::IO::PushbackStream::Unread)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x38db844;
+  constexpr static std::size_t addrs = 0x38dfcdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

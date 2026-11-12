@@ -68,72 +68,72 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method Bits32ToBytes, addr 0x367e238, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Bits32ToBytes, addr 0x36826d0, size 0x80, virtual false, abstract: false, final false
   inline void Bits32ToBytes(int32_t inData, ::ArrayW<uint8_t> b, int32_t offset);
 
-  /// @brief Method BytesTo32Bits, addr 0x367db74, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BytesTo32Bits, addr 0x368200c, size 0x70, virtual false, abstract: false, final false
   inline int32_t BytesTo32Bits(::ArrayW<uint8_t> b, int32_t p);
 
-  /// @brief Method DecryptBlock, addr 0x367d8f0, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x3681d88, size 0x26c, virtual false, abstract: false, final false
   inline void DecryptBlock(::ArrayW<uint8_t> src, int32_t srcIndex, ::ArrayW<uint8_t> dst, int32_t dstIndex);
 
-  /// @brief Method EncryptBlock, addr 0x367d680, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x3681b18, size 0x270, virtual false, abstract: false, final false
   inline void EncryptBlock(::ArrayW<uint8_t> src, int32_t srcIndex, ::ArrayW<uint8_t> dst, int32_t dstIndex);
 
-  /// @brief Method F32, addr 0x367dc84, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method F32, addr 0x368211c, size 0x474, virtual false, abstract: false, final false
   inline int32_t F32(int32_t x, ::ArrayW<int32_t> k32);
 
-  /// @brief Method Fe32_0, addr 0x367e118, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Fe32_0, addr 0x36825b0, size 0x8c, virtual false, abstract: false, final false
   inline int32_t Fe32_0(int32_t x);
 
-  /// @brief Method Fe32_3, addr 0x367e1a4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Fe32_3, addr 0x368263c, size 0x94, virtual false, abstract: false, final false
   inline int32_t Fe32_3(int32_t x);
 
-  /// @brief Method GetBlockSize, addr 0x367db6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetBlockSize, addr 0x3682004, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetBlockSize();
 
-  /// @brief Method Init, addr 0x367cc0c, size 0x164, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x36810a4, size 0x164, virtual true, abstract: false, final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method LFSR1, addr 0x367e2f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method LFSR1, addr 0x3682790, size 0x14, virtual false, abstract: false, final false
   inline int32_t LFSR1(int32_t x);
 
-  /// @brief Method LFSR2, addr 0x367e30c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LFSR2, addr 0x36827a4, size 0x24, virtual false, abstract: false, final false
   inline int32_t LFSR2(int32_t x);
 
-  /// @brief Method M_b0, addr 0x367e0f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method M_b0, addr 0x3682590, size 0x8, virtual false, abstract: false, final false
   inline int32_t M_b0(int32_t x);
 
-  /// @brief Method M_b1, addr 0x367e100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method M_b1, addr 0x3682598, size 0x8, virtual false, abstract: false, final false
   inline int32_t M_b1(int32_t x);
 
-  /// @brief Method M_b2, addr 0x367e108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method M_b2, addr 0x36825a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t M_b2(int32_t x);
 
-  /// @brief Method M_b3, addr 0x367e110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method M_b3, addr 0x36825a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t M_b3(int32_t x);
 
-  /// @brief Method Mx_X, addr 0x367cbac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Mx_X, addr 0x3681044, size 0x28, virtual false, abstract: false, final false
   inline int32_t Mx_X(int32_t x);
 
-  /// @brief Method Mx_Y, addr 0x367cbd4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Mx_Y, addr 0x368106c, size 0x38, virtual false, abstract: false, final false
   inline int32_t Mx_Y(int32_t x);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::TwofishEngine* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x367d544, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method ProcessBlock, addr 0x36819dc, size 0x13c, virtual true, abstract: false, final true
   inline int32_t ProcessBlock(::ArrayW<uint8_t> input, int32_t inOff, ::ArrayW<uint8_t> output, int32_t outOff);
 
-  /// @brief Method RS_MDS_Encode, addr 0x367dbe4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method RS_MDS_Encode, addr 0x368207c, size 0xa0, virtual false, abstract: false, final false
   inline int32_t RS_MDS_Encode(int32_t k0, int32_t k1);
 
-  /// @brief Method RS_rem, addr 0x367e2b8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method RS_rem, addr 0x3682750, size 0x40, virtual false, abstract: false, final false
   inline int32_t RS_rem(int32_t x);
 
-  /// @brief Method Reset, addr 0x367db5c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x3681ff4, size 0x10, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method SetKey, addr 0x367cd70, size 0x788, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0x3681208, size 0x788, virtual false, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t> key);
 
   constexpr bool const& __cordl_internal_get_encrypting() const;
@@ -190,15 +190,15 @@ public:
 
   constexpr void __cordl_internal_set_workingKey(::ArrayW<uint8_t> value);
 
-  /// @brief Method .ctor, addr 0x367c8a4, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3680d3c, size 0x308, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_P();
 
-  /// @brief Method get_AlgorithmName, addr 0x367d4f8, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x3681990, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0x367d53c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsPartialBlockOkay, addr 0x36819d4, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"

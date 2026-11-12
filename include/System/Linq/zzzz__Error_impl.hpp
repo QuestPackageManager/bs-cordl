@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Linq::Error::ArgumentNull)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x63b5bf0;
+  constexpr static std::size_t addrs = 0x63b6240;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Error*>(), { "ArgumentNull", {}, { ::i2c::type_of<::StringW>() } })));
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Linq::Error::ArgumentOutOfRange)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x63b5c50;
+  constexpr static std::size_t addrs = 0x63b62a0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Error*>(), { "ArgumentOutOfRange", {}, { ::i2c::type_of<::StringW>() } })));
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Linq::Error::MoreThanOneElement)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x63b5cb0;
+  constexpr static std::size_t addrs = 0x63b6300;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Error*>(), { "MoreThanOneElement", {}, {} })));
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Linq::Error::MoreThanOneMatch)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x63b5d30;
+  constexpr static std::size_t addrs = 0x63b6380;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Error*>(), { "MoreThanOneMatch", {}, {} })));
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Linq::Error::NoElements)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x63b5db0;
+  constexpr static std::size_t addrs = 0x63b6400;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Error*>(), { "NoElements", {}, {} })));
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Linq::Error::NoMatch)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x63b5e30;
+  constexpr static std::size_t addrs = 0x63b6480;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Error*>(), { "NoMatch", {}, {} })));
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Exception* (*)()>(&::System::Linq::Error::NotSupported)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x63b5eb0;
+  constexpr static std::size_t addrs = 0x63b6500;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Linq::Error*>(), { "NotSupported", {}, {} })));

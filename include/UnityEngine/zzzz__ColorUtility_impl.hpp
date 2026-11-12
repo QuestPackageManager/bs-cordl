@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::UnityEngine::Color32>)>(&::UnityEngine::ColorUtility::DoTryParseHtmlColor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x6f612cc;
+  constexpr static std::size_t addrs = 0x6f623ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<::UnityEngine::Color32> (*)()>(&::UnityEngine::ColorUtility::get_HtmlColorValues)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x6f61450;
+  constexpr static std::size_t addrs = 0x6f62530;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ColorUtility*>(), { "get_HtmlColorValues", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::ReadOnlySpan_1<::StringW> (*)()>(&::UnityEngine::ColorUtility::get_HtmlColorNames)> {
   constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x6f6167c;
+  constexpr static std::size_t addrs = 0x6f6275c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ColorUtility*>(), { "get_HtmlColorNames", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::UnityEngine::Color>)>(&::UnityEngine::ColorUtility::TryParseHtmlString)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x6f61ab4;
+  constexpr static std::size_t addrs = 0x6f62b94;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::UnityEngine::Color)>(&::UnityEngine::ColorUtility::ToHtmlStringRGB)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x6f61b20;
+  constexpr static std::size_t addrs = 0x6f62c00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::by_ref<::UnityEngine::Color const>)>(&::UnityEngine::ColorUtility::ToHtmlStringRGB)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x6f61b44;
+  constexpr static std::size_t addrs = 0x6f62c24;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::by_ref<::UnityEngine::Color>)>(&::UnityEngine::ColorUtility::TryParseHtmlString)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x6f61e8c;
+  constexpr static std::size_t addrs = 0x6f62f6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>)>(&::UnityEngine::ColorUtility::IsHexString)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x6f62204;
+  constexpr static std::size_t addrs = 0x6f632e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::by_ref<::UnityEngine::Color>)>(&::UnityEngine::ColorUtility::TryParseHexColor)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x6f622ec;
+  constexpr static std::size_t addrs = 0x6f633cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::by_ref<uint8_t>)>(&::UnityEngine::ColorUtility::TryHexToByte)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6f624a8;
+  constexpr static std::size_t addrs = 0x6f63588;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(char16_t)>(&::UnityEngine::ColorUtility::HexDigitValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x6f625a0;
+  constexpr static std::size_t addrs = 0x6f63680;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::ColorUtility*>(), { "HexDigitValue", {}, { ::i2c::type_of<char16_t>() } })));
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper>, ::by_ref<::UnityEngine::Color32>)>(
     &::UnityEngine::ColorUtility::DoTryParseHtmlColor_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6f6140c;
+  constexpr static std::size_t addrs = 0x6f624ec;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -182,7 +182,7 @@ public:
 
   constexpr void __cordl_internal_set_yFlip(bool value);
 
-  /// @brief Method .ctor, addr 0x6c2c6ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2d7cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -312,7 +312,7 @@ public:
 
   constexpr void __cordl_internal_set_visualizationParams(::UnityEngine::Vector4 value);
 
-  /// @brief Method .ctor, addr 0x6c2c6f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2d7d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -386,13 +386,13 @@ public:
 
   static inline ::UnityEngine::Rendering::Vrs___c* New_ctor();
 
-  /// @brief Method <ColorMaskTextureToShadingRateImage>b__9_0, addr 0x6c2c74c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <ColorMaskTextureToShadingRateImage>b__9_0, addr 0x6c2d82c, size 0x74, virtual false, abstract: false, final false
   inline void _ColorMaskTextureToShadingRateImage_b__9_0(::UnityEngine::Rendering::Vrs_ConversionPassData* innerPassData, ::UnityEngine::Rendering::RenderGraphModule::ComputeGraphContext* context);
 
-  /// @brief Method <ShadingRateImageToColorMaskTexture>b__10_0, addr 0x6c2c7c0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method <ShadingRateImageToColorMaskTexture>b__10_0, addr 0x6c2d8a0, size 0x1c0, virtual false, abstract: false, final false
   inline void _ShadingRateImageToColorMaskTexture_b__10_0(::UnityEngine::Rendering::Vrs_VisualizationPassData* innerPassData, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
 
-  /// @brief Method .ctor, addr 0x6c2c748, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c2d828, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::Vrs___c* getStaticF___9();
@@ -453,42 +453,42 @@ public:
   /// @brief Field shadingRateFragmentSizeCount, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_shadingRateFragmentSizeCount, put = setStaticF_shadingRateFragmentSizeCount)) int32_t shadingRateFragmentSizeCount;
 
-  /// @brief Method ColorMaskTextureToShadingRateImage, addr 0x6c2a720, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ColorMaskTextureToShadingRateImage, addr 0x6c2b800, size 0x1a8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ColorMaskTextureToShadingRateImage(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                                               ::UnityEngine::Rendering::RTHandle* sriRtHandle,
                                                                                                               ::UnityEngine::Rendering::RTHandle* colorMaskRtHandle, bool yFlip);
 
-  /// @brief Method ColorMaskTextureToShadingRateImage, addr 0x6c2a9f8, size 0x7e4, virtual false, abstract: false, final false
+  /// @brief Method ColorMaskTextureToShadingRateImage, addr 0x6c2bad8, size 0x7e4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ColorMaskTextureToShadingRateImage(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                                                               ::UnityEngine::Rendering::RenderGraphModule::TextureHandle sriTextureHandle,
                                                                                                               ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorMaskHandle,
                                                                                                               ::UnityEngine::Rendering::TextureDimension colorMaskDimension, bool yFlip);
 
-  /// @brief Method ColorMaskTextureToShadingRateImageDispatch, addr 0x6c2be78, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method ColorMaskTextureToShadingRateImageDispatch, addr 0x6c2cf58, size 0x4ec, virtual false, abstract: false, final false
   static inline void ColorMaskTextureToShadingRateImageDispatch(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* sriDestination,
                                                                 ::UnityEngine::Texture* colorMaskSource, bool yFlip);
 
-  /// @brief Method ConversionDispatch, addr 0x6c2bbe0, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method ConversionDispatch, addr 0x6c2ccc0, size 0x298, virtual false, abstract: false, final false
   static inline void ConversionDispatch(::UnityEngine::Rendering::ComputeCommandBuffer* cmd, ::UnityEngine::Rendering::Vrs_ConversionPassData* conversionPassData);
 
-  /// @brief Method DisposeResources, addr 0x6c2a698, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DisposeResources, addr 0x6c2b778, size 0x84, virtual false, abstract: false, final false
   static inline void DisposeResources();
 
-  /// @brief Method InitializeResources, addr 0x6c2a458, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method InitializeResources, addr 0x6c2b538, size 0x178, virtual false, abstract: false, final false
   static inline void InitializeResources();
 
-  /// @brief Method IsColorMaskTextureConversionSupported, addr 0x6c2a294, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method IsColorMaskTextureConversionSupported, addr 0x6c2b374, size 0xa8, virtual false, abstract: false, final false
   static inline bool IsColorMaskTextureConversionSupported();
 
-  /// @brief Method IsInitialized, addr 0x6c2a33c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method IsInitialized, addr 0x6c2b41c, size 0x11c, virtual false, abstract: false, final false
   static inline bool IsInitialized();
 
-  /// @brief Method ShadingRateImageToColorMaskTexture, addr 0x6c2b200, size 0x930, virtual false, abstract: false, final false
+  /// @brief Method ShadingRateImageToColorMaskTexture, addr 0x6c2c2e0, size 0x930, virtual false, abstract: false, final false
   static inline void ShadingRateImageToColorMaskTexture(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> sriTextureHandle,
                                                         /* [IsReadOnly] */ ::by_ref<::UnityEngine::Rendering::RenderGraphModule::TextureHandle const> colorMaskHandle);
 
-  /// @brief Method ShadingRateImageToColorMaskTextureBlit, addr 0x6c2c364, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method ShadingRateImageToColorMaskTextureBlit, addr 0x6c2d444, size 0x2cc, virtual false, abstract: false, final false
   static inline void ShadingRateImageToColorMaskTextureBlit(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* sriSource,
                                                             ::UnityEngine::Rendering::RTHandle* colorMaskDestination);
 

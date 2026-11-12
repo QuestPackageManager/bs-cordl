@@ -40,7 +40,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph_SettingsPanel* New_ctor(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph* _);
 
-  /// @brief Method .ctor, addr 0x6bfa008, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bfb0e8, size 0x3a8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph* _);
 
 protected:
@@ -85,13 +85,13 @@ public:
 
   static inline ::UnityEngine::Rendering::DebugDisplaySettingsRenderGraph* New_ctor();
 
-  /// @brief Method UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel, addr 0x6bf9fb4, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Rendering.IDebugDisplaySettingsData.CreatePanel, addr 0x6bfb094, size 0x54, virtual true, abstract: false, final true
   inline ::UnityEngine::Rendering::IDebugDisplaySettingsPanelDisposable* UnityEngine_Rendering_IDebugDisplaySettingsData_CreatePanel();
 
-  /// @brief Method .ctor, addr 0x6bf9e78, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bfaf58, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AreAnySettingsActive, addr 0x6bfa3b0, size 0x1dc, virtual true, abstract: false, final true
+  /// @brief Method get_AreAnySettingsActive, addr 0x6bfb490, size 0x1dc, virtual true, abstract: false, final true
   inline bool get_AreAnySettingsActive();
 
   /// @brief Convert to "::UnityEngine::Rendering::IDebugDisplaySettingsData"

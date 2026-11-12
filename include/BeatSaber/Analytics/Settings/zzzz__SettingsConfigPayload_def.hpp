@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set_schemeId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x350b7fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350dc3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -150,7 +150,7 @@ public:
   SettingsConfigPayload_ColorsPayload(SettingsConfigPayload_ColorsPayload const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22776 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22789 };
 
   /// @brief Field overrideType, offset: 0x10, size: 0x8, def value: None
   ::StringW ___overrideType;
@@ -217,19 +217,19 @@ public:
   // Declarations
   using ColorsPayload = ::BeatSaber::Analytics::Settings::SettingsConfigPayload_ColorsPayload;
 
-  /// @brief Method BuildColors, addr 0x350ac60, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BuildColors, addr 0x350d0a0, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW BuildColors(::GlobalNamespace::ColorSchemesSettings* colors);
 
-  /// @brief Method BuildColorsPayload, addr 0x350b418, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method BuildColorsPayload, addr 0x350d858, size 0x194, virtual false, abstract: false, final false
   static inline ::BeatSaber::Analytics::Settings::SettingsConfigPayload_ColorsPayload* BuildColorsPayload(::GlobalNamespace::ColorSchemesSettings* colors);
 
-  /// @brief Method BuildEnvironments, addr 0x350ade8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BuildEnvironments, addr 0x350d228, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW BuildEnvironments(::GlobalNamespace::OverrideEnvironmentSettings* environments);
 
-  /// @brief Method BuildEnvironmentsPayload, addr 0x350b5ac, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method BuildEnvironmentsPayload, addr 0x350d9ec, size 0x250, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* BuildEnvironmentsPayload(::GlobalNamespace::OverrideEnvironmentSettings* environments);
 
-  /// @brief Method Hex, addr 0x350b800, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Hex, addr 0x350dc40, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW Hex(::UnityEngine::Color color);
 
 protected:
@@ -247,7 +247,7 @@ public:
   SettingsConfigPayload(SettingsConfigPayload const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22790 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

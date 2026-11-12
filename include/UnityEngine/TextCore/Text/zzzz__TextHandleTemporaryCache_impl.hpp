@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextHandleTemporaryCache::*)()>(
     &::UnityEngine::TextCore::Text::TextHandleTemporaryCache::ClearTemporaryCache)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x70a11cc;
+  constexpr static std::size_t addrs = 0x70a22ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextHandleTemporaryCache::*)(::UnityEngine::TextCore::Text::TextHandle*, int32_t)>(
     &::UnityEngine::TextCore::Text::TextHandleTemporaryCache::AddTextInfoToCache)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x70a133c;
+  constexpr static std::size_t addrs = 0x70a241c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextHandleTemporaryCache::*)(::UnityEngine::TextCore::Text::TextHandle*)>(
     &::UnityEngine::TextCore::Text::TextHandleTemporaryCache::RemoveFromCache)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x70a199c;
+  constexpr static std::size_t addrs = 0x70a2a7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandleTemporaryCache*>(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextHandleTemporaryCache::*)(::UnityEngine::TextCore::Text::TextHandle*)>(
     &::UnityEngine::TextCore::Text::TextHandleTemporaryCache::ResetEntryState)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x70a1300;
+  constexpr static std::size_t addrs = 0x70a23e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandleTemporaryCache*>(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextHandleTemporaryCache::*)(::UnityEngine::TextCore::Text::TextHandle*)>(
     &::UnityEngine::TextCore::Text::TextHandleTemporaryCache::RefreshCaching)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x70a16ec;
+  constexpr static std::size_t addrs = 0x70a27cc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandleTemporaryCache*>(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextHandleTemporaryCache::*)(::UnityEngine::TextCore::Text::TextHandle*)>(
     &::UnityEngine::TextCore::Text::TextHandleTemporaryCache::RecycleTextInfoFromCache)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x70a1810;
+  constexpr static std::size_t addrs = 0x70a28f0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandleTemporaryCache*>(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextHandleTemporaryCache::*)()>(
     &::UnityEngine::TextCore::Text::TextHandleTemporaryCache::UpdateCurrentFrame)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x70a1b18;
+  constexpr static std::size_t addrs = 0x70a2bf8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::TextCore::Text::TextHandleTemporaryCache::*)()>(&::UnityEngine::TextCore::Text::TextHandleTemporaryCache::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x70a1b58;
+  constexpr static std::size_t addrs = 0x70a2c38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::TextCore::Text::TextHandleTemporaryCache*>(), { ".ctor", {}, {} })));

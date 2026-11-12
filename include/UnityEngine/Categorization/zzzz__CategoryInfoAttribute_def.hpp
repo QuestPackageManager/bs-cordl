@@ -46,15 +46,15 @@ public:
 
   constexpr void __cordl_internal_set__Order_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6f96e68, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6f97f48, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// [CompilerGenerated]
-  /// @brief Method set_Name, addr 0x6f96e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x6f97f40, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
   /// [CompilerGenerated]
-  /// @brief Method set_Order, addr 0x6f96e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Order, addr 0x6f97f38, size 0x8, virtual false, abstract: false, final false
   inline void set_Order(int32_t value);
 
 protected:

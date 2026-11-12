@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::AnimatorInstaller::*)(::UnityEngine::Animator*)>(&::Zenject::AnimatorInstaller::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x7366438;
+  constexpr static std::size_t addrs = 0x7368718;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Zenject::AnimatorInstaller::*)()>(&::Zenject::AnimatorInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x7366488;
+  constexpr static std::size_t addrs = 0x7368768;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, ::i2c::find_method(::i2c::class_of<::Zenject::AnimatorInstaller*>(), { ::i2c::class_of<::Zenject::AnimatorInstaller*>(), 7 }));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*>)>(&::Zenject::AnimatorInstaller::__zenCreate)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x7366544;
+  constexpr static std::size_t addrs = 0x7368824;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::AnimatorInstaller::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x7366634;
+  constexpr static std::size_t addrs = 0x7368914;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Zenject::AnimatorInstaller*>(), { "__zenCreateInjectTypeInfo", {}, {} })));

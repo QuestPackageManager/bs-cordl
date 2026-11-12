@@ -36,15 +36,15 @@ namespace UnityEngine::SceneManagement {
 class CORDL_TYPE SceneManagerAPIInternal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetNumScenesInBuildSettings, addr 0x6f97e20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetNumScenesInBuildSettings, addr 0x6f98f00, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetNumScenesInBuildSettings();
 
   /// [NativeThrows]
-  /// @brief Method LoadSceneAsyncNameIndexInternal, addr 0x6f97e48, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsyncNameIndexInternal, addr 0x6f98f28, size 0x1f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal(::StringW sceneName, int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters,
                                                                                bool mustCompleteNextFrame);
 
-  /// @brief Method LoadSceneAsyncNameIndexInternal_Injected, addr 0x6f98038, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsyncNameIndexInternal_Injected, addr 0x6f99118, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IntPtr LoadSceneAsyncNameIndexInternal_Injected(::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> sceneName, int32_t sceneBuildIndex,
                                                                           ::by_ref<::UnityEngine::SceneManagement::LoadSceneParameters const> parameters, bool mustCompleteNextFrame);
 

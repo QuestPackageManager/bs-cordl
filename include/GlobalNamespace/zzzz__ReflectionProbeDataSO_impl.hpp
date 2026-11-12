@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Cubemap> (::GlobalNamespace::ReflectionProbeDataSO::*)()>(
     &::GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3851c;
+  constexpr static std::size_t addrs = 0x5d3817c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ReflectionProbeDataSO*>(), { "get_reflectionProbeCubemap1", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ReflectionProbeDataSO::*)(::UnityEngine::Cubemap*)>(
     &::GlobalNamespace::ReflectionProbeDataSO::set_reflectionProbeCubemap1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d38524;
+  constexpr static std::size_t addrs = 0x5d38184;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityW<::UnityEngine::Cubemap> (::GlobalNamespace::ReflectionProbeDataSO::*)()>(
     &::GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3852c;
+  constexpr static std::size_t addrs = 0x5d3818c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ReflectionProbeDataSO*>(), { "get_reflectionProbeCubemap2", {}, {} })));
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ReflectionProbeDataSO::*)(::UnityEngine::Cubemap*)>(
     &::GlobalNamespace::ReflectionProbeDataSO::set_reflectionProbeCubemap2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d38534;
+  constexpr static std::size_t addrs = 0x5d38194;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::ReflectionProbeDataSO::*)()>(&::GlobalNamespace::ReflectionProbeDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d3853c;
+  constexpr static std::size_t addrs = 0x5d3819c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ReflectionProbeDataSO*>(), { ".ctor", {}, {} })));

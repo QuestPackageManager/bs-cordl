@@ -31,7 +31,7 @@ namespace System::Diagnostics {
 class CORDL_TYPE TraceFilter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShouldTrace, addr 0x67fd758, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ShouldTrace, addr 0x67fdda8, size 0x30, virtual false, abstract: false, final false
   inline bool ShouldTrace(::System::Diagnostics::TraceEventCache* cache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW formatOrMessage);
 
   /// @brief Method ShouldTrace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::ObjectsMovementRecorder_Mode)>(&::GlobalNamespace::ObjectsMovementRecorderSerializedMethods::SerializedName)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x5d3bcac;
+  constexpr static std::size_t addrs = 0x5d3b90c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObjectsMovementRecorderSerializedMethods*>(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::GlobalNamespace::ObjectsMovementRecorder_Mode>)>(
     &::GlobalNamespace::ObjectsMovementRecorderSerializedMethods::ModeFromSerializedName)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x5d3bd38;
+  constexpr static std::size_t addrs = 0x5d3b998;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::ObjectsMovementRecorder_CameraView)>(
     &::GlobalNamespace::ObjectsMovementRecorderSerializedMethods::SerializedName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5d3be04;
+  constexpr static std::size_t addrs = 0x5d3ba64;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::ObjectsMovementRecorderSerializedMethods*>(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::GlobalNamespace::ObjectsMovementRecorder_CameraView>)>(
     &::GlobalNamespace::ObjectsMovementRecorderSerializedMethods::CameraViewFromSerializedName)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x5d3be7c;
+  constexpr static std::size_t addrs = 0x5d3badc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (*)(::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type)>(
     &::GlobalNamespace::ObjectsMovementRecorderSerializedMethods::SerializedName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x5d3bf18;
+  constexpr static std::size_t addrs = 0x5d3bb78;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)(::StringW, ::by_ref<::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type>)>(
     &::GlobalNamespace::ObjectsMovementRecorderSerializedMethods::PlaybackScreenshotTypeFromSerializedName)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x5d3bf90;
+  constexpr static std::size_t addrs = 0x5d3bbf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(

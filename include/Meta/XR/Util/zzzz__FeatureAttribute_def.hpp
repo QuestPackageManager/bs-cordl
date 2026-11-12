@@ -37,11 +37,11 @@ public:
 
   constexpr void __cordl_internal_set__Feature_k__BackingField(::Meta::XR::Util::Feature value);
 
-  /// @brief Method .ctor, addr 0x62a7518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62a77a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Meta::XR::Util::Feature feature);
 
   /// [CompilerGenerated]
-  /// @brief Method get_Feature, addr 0x62a7520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Feature, addr 0x62a77a8, size 0x8, virtual false, abstract: false, final false
   inline ::Meta::XR::Util::Feature get_Feature();
 
 protected:

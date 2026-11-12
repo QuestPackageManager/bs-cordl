@@ -53,25 +53,25 @@ public:
   /// @brief Field m_Pass, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Pass, put = __cordl_internal_set_m_Pass)) ::UnityEngine::Experimental::Rendering::XRPass* m_Pass;
 
-  /// @brief Method CreateVisibleMeshCombined, addr 0x6b9ed98, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method CreateVisibleMeshCombined, addr 0x6b9fe78, size 0x354, virtual false, abstract: false, final false
   inline void CreateVisibleMeshCombined();
 
-  /// @brief Method Dispose, addr 0x6b9b538, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6b9c618, size 0xa4, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method IsVisibleMeshSupported, addr 0x6b9ec5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsVisibleMeshSupported, addr 0x6b9fd3c, size 0x44, virtual false, abstract: false, final false
   inline bool IsVisibleMeshSupported();
 
   static inline ::UnityEngine::Experimental::Rendering::XRVisibleMesh* New_ctor(::UnityEngine::Experimental::Rendering::XRPass* xrPass);
 
-  /// @brief Method RenderVisibleMeshCustomMaterial, addr 0x6b9c01c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method RenderVisibleMeshCustomMaterial, addr 0x6b9d0fc, size 0x178, virtual false, abstract: false, final false
   inline void RenderVisibleMeshCustomMaterial(::UnityEngine::Rendering::CommandBuffer* cmd, float_t occlusionMeshScale, ::UnityEngine::Material* material,
                                               ::UnityEngine::MaterialPropertyBlock* materialBlock, int32_t shaderPass, bool yFlip);
 
-  /// @brief Method TryGetVisibleMeshCombinedHashCode, addr 0x6b9eca0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method TryGetVisibleMeshCombinedHashCode, addr 0x6b9fd80, size 0xf8, virtual false, abstract: false, final false
   inline bool TryGetVisibleMeshCombinedHashCode(::by_ref<int32_t> hashCode);
 
-  /// @brief Method UpdateCombinedMesh, addr 0x6b9c71c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UpdateCombinedMesh, addr 0x6b9d7fc, size 0xd4, virtual false, abstract: false, final false
   inline void UpdateCombinedMesh();
 
   constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get_m_CombinedMesh() const;
@@ -92,12 +92,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Pass(::UnityEngine::Experimental::Rendering::XRPass* value);
 
-  /// @brief Method .ctor, addr 0x6b9b1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b9c280, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Experimental::Rendering::XRPass* xrPass);
 
   static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF_k_VisibleMeshProfilingSampler();
 
-  /// @brief Method get_hasValidVisibleMesh, addr 0x6b9bed0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_hasValidVisibleMesh, addr 0x6b9cfb0, size 0xb8, virtual false, abstract: false, final false
   inline bool get_hasValidVisibleMesh();
 
   static inline void setStaticF_k_VisibleMeshProfilingSampler(::UnityEngine::Rendering::ProfilingSampler* value);

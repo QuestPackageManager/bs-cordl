@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE AudioTypeHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAudioTypeFromPath, addr 0x35cd910, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetAudioTypeFromPath, addr 0x35d1d68, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::AudioType GetAudioTypeFromPath(::StringW path);
 
 protected:
@@ -41,7 +41,7 @@ public:
   AudioTypeHelper(AudioTypeHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21358 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

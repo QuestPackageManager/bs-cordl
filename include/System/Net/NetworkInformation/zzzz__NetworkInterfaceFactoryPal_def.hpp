@@ -22,7 +22,7 @@ namespace System::Net::NetworkInformation {
 class CORDL_TYPE NetworkInterfaceFactoryPal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x67bb6b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x67bbd00, size 0x48, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
 
 protected:

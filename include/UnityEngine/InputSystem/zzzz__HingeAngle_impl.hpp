@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::HingeAngle::*)()>(
     &::UnityEngine::InputSystem::HingeAngle::get_angle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf818;
+  constexpr static std::size_t addrs = 0x69d08f8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HingeAngle*>(), { "get_angle", {}, {} })));
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::HingeAngle::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::HingeAngle::set_angle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x69cf820;
+  constexpr static std::size_t addrs = 0x69d0900;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::InputSystem::HingeAngle* (*)()>(&::UnityEngine::InputSystem::HingeAngle::get_current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x69cf828;
+  constexpr static std::size_t addrs = 0x69d0908;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HingeAngle*>(), { "get_current", {}, {} })));
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::InputSystem::HingeAngle*)>(&::UnityEngine::InputSystem::HingeAngle::set_current)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x69cf874;
+  constexpr static std::size_t addrs = 0x69d0954;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::HingeAngle::*)()>(&::UnityEngine::InputSystem::HingeAngle::MakeCurrent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x69cf8c4;
+  constexpr static std::size_t addrs = 0x69d09a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::HingeAngle::*)()>(&::UnityEngine::InputSystem::HingeAngle::OnRemoved)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x69cf914;
+  constexpr static std::size_t addrs = 0x69d09f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::HingeAngle::*)()>(&::UnityEngine::InputSystem::HingeAngle::FinishSetup)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x69cf9a4;
+  constexpr static std::size_t addrs = 0x69d0a84;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::InputSystem::HingeAngle::*)()>(&::UnityEngine::InputSystem::HingeAngle::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x69cfa14;
+  constexpr static std::size_t addrs = 0x69d0af4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::InputSystem::HingeAngle*>(), { ".ctor", {}, {} })));

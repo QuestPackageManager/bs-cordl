@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass22_0::*)()>(
     &::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass22_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d7a270;
+  constexpr static std::size_t addrs = 0x5d79f58;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass22_0*>(), { ".ctor", {}, {} })));
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass22_0::*)()>(
     &::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass22_0::_HandleMissionHelpViewControllerDidFinish_b__0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5d7a80c;
+  constexpr static std::size_t addrs = 0x5d7a4f4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass24_0::*)()>(
     &::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass24_0::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d7a454;
+  constexpr static std::size_t addrs = 0x5d7a13c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass24_0*>(), { ".ctor", {}, {} })));
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass24_0::*)()>(
     &::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass24_0::_HandleMissionResultsViewControllerRetryButtonPressed_b__0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x5d7a860;
+  constexpr static std::size_t addrs = 0x5d7a548;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass24_0*>(),
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)(::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>*)>(
     &::GlobalNamespace::CampaignFlowCoordinator::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d7971c;
+  constexpr static std::size_t addrs = 0x5d79404;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)(::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>*)>(
     &::GlobalNamespace::CampaignFlowCoordinator::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x5d797dc;
+  constexpr static std::size_t addrs = 0x5d794c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)(bool, bool, bool)>(&::GlobalNamespace::CampaignFlowCoordinator::DidActivate)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x5d7989c;
+  constexpr static std::size_t addrs = 0x5d79584;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)(bool, bool)>(&::GlobalNamespace::CampaignFlowCoordinator::DidDeactivate)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x5d79afc;
+  constexpr static std::size_t addrs = 0x5d797e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(
     &::GlobalNamespace::CampaignFlowCoordinator::TopViewControllerWillChange)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5d79cc0;
+  constexpr static std::size_t addrs = 0x5d799a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)(::GlobalNamespace::MissionSelectionNavigationController*)>(
     &::GlobalNamespace::CampaignFlowCoordinator::HandleMissionSelectionNavigationControllerDidPressPlayButton)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x5d79db0;
+  constexpr static std::size_t addrs = 0x5d79a98;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)(::GlobalNamespace::MissionHelpViewController*)>(
     &::GlobalNamespace::CampaignFlowCoordinator::HandleMissionHelpViewControllerDidFinish)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5d7a180;
+  constexpr static std::size_t addrs = 0x5d79e68;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)(::GlobalNamespace::MissionResultsViewController*)>(
     &::GlobalNamespace::CampaignFlowCoordinator::HandleMissionResultsViewControllerContinueButtonPressed)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5d7a274;
+  constexpr static std::size_t addrs = 0x5d79f5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)(::GlobalNamespace::MissionResultsViewController*)>(
     &::GlobalNamespace::CampaignFlowCoordinator::HandleMissionResultsViewControllerRetryButtonPressed)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5d7a364;
+  constexpr static std::size_t addrs = 0x5d7a04c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -287,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)(::System::Action*)>(&::GlobalNamespace::CampaignFlowCoordinator::StartLevel)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x5d79ef4;
+  constexpr static std::size_t addrs = 0x5d79bdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)(
     ::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*)>(&::GlobalNamespace::CampaignFlowCoordinator::HandleMissionLevelSceneDidFinish)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x5d7a458;
+  constexpr static std::size_t addrs = 0x5d7a140;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)(
     ::GlobalNamespace::MissionLevelScenesTransitionSetupData*, ::GlobalNamespace::MissionCompletionResults*)>(&::GlobalNamespace::CampaignFlowCoordinator::HandleMissionLevelSceneRestarted)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x5d7a668;
+  constexpr static std::size_t addrs = 0x5d7a350;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)(::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::MissionNode*)>(
     &::GlobalNamespace::CampaignFlowCoordinator::UpdatePlayerStatistics)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x5d7a528;
+  constexpr static std::size_t addrs = 0x5d7a210;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -351,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::CampaignFlowCoordinator::BackButtonWasPressed)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x5d7a694;
+  constexpr static std::size_t addrs = 0x5d7a37c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)()>(&::GlobalNamespace::CampaignFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5d7a744;
+  constexpr static std::size_t addrs = 0x5d7a42c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CampaignFlowCoordinator*>(), { ".ctor", {}, {} })));
@@ -377,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)()>(
     &::GlobalNamespace::CampaignFlowCoordinator::_HandleMissionResultsViewControllerContinueButtonPressed_b__23_0)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x5d7a74c;
+  constexpr static std::size_t addrs = 0x5d7a434;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::CampaignFlowCoordinator::*)(bool)>(
     &::GlobalNamespace::CampaignFlowCoordinator::_HandleMissionResultsViewControllerContinueButtonPressed_b__23_1)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x5d7a7dc;
+  constexpr static std::size_t addrs = 0x5d7a4c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::CampaignFlowCoordinator*>(),

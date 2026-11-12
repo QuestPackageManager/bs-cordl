@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Threading::Task
     ::GlobalNamespace::AlwaysOwnedMockPlayerEntitlementResolver::*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::AlwaysOwnedMockPlayerEntitlementResolver::GetLevelEntitlementStatusAsync)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x5ed6a60;
+  constexpr static std::size_t addrs = 0x5ed6ce0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::GlobalNamespace::AlwaysOwnedMockPlayerEntitlementResolver::*)()>(&::GlobalNamespace::AlwaysOwnedMockPlayerEntitlementResolver::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5ed6ad0;
+  constexpr static std::size_t addrs = 0x5ed6d50;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::GlobalNamespace::AlwaysOwnedMockPlayerEntitlementResolver*>(), { ".ctor", {}, {} })));

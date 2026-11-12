@@ -121,12 +121,12 @@ public:
   /// @brief Field up, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_up, put = __cordl_internal_set_up)) int32_t up;
 
-  /// @brief Method EvaluateMagnitude, addr 0x6972a60, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x6973b40, size 0x90, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::Vector3Composite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x69727f8, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x69738d8, size 0x268, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadValue(::by_ref<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_backward() const;
@@ -171,7 +171,7 @@ public:
 
   constexpr void __cordl_internal_set_up(int32_t value);
 
-  /// @brief Method .ctor, addr 0x6972af0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6973bd0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

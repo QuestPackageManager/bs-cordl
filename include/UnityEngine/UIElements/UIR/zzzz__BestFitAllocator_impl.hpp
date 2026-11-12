@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::BestFitAllocator_Block* (*)()>(&::UnityEngine::UIElements::UIR::BestFitAllocator_BlockPool::CreateBlock)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x71cf3c8;
+  constexpr static std::size_t addrs = 0x71d04a8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BestFitAllocator_BlockPool*>(), { "CreateBlock", {}, {} })));
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(::UnityEngine::UIElements::UIR::BestFitAllocator_Block*)>(&::UnityEngine::UIElements::UIR::BestFitAllocator_BlockPool::ResetBlock)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x71cf47c;
+  constexpr static std::size_t addrs = 0x71d055c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BestFitAllocator_BlockPool*>(),
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BestFitAllocator_BlockPool::*)()>(&::UnityEngine::UIElements::UIR::BestFitAllocator_BlockPool::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x71cec9c;
+  constexpr static std::size_t addrs = 0x71cfd7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BestFitAllocator_BlockPool*>(), { ".ctor", {}, {} })));
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::UIR::BestFitAllocator_Block::*)()>(&::UnityEngine::UIElements::UIR::BestFitAllocator_Block::get_size)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x71cef70;
+  constexpr static std::size_t addrs = 0x71d0050;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BestFitAllocator_Block*>(), { "get_size", {}, {} })));
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BestFitAllocator_Block::*)()>(&::UnityEngine::UIElements::UIR::BestFitAllocator_Block::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x71cf440;
+  constexpr static std::size_t addrs = 0x71d0520;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BestFitAllocator_Block*>(), { ".ctor", {}, {} })));
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BestFitAllocator::*)(uint32_t)>(&::UnityEngine::UIElements::UIR::BestFitAllocator::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x71cebfc;
+  constexpr static std::size_t addrs = 0x71cfcdc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::UIR::BestFitAllocator::*)()>(&::UnityEngine::UIElements::UIR::BestFitAllocator::get_totalSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71ced8c;
+  constexpr static std::size_t addrs = 0x71cfe6c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BestFitAllocator*>(), { "get_totalSize", {}, {} })));
@@ -212,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<uint32_t (::UnityEngine::UIElements::UIR::BestFitAllocator::*)()>(&::UnityEngine::UIElements::UIR::BestFitAllocator::get_highWatermark)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x71ced94;
+  constexpr static std::size_t addrs = 0x71cfe74;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::UnityEngine::UIElements::UIR::BestFitAllocator*>(), { "get_highWatermark", {}, {} })));
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::Alloc (::UnityEngine::UIElements::UIR::BestFitAllocator::*)(uint32_t)>(
     &::UnityEngine::UIElements::UIR::BestFitAllocator::Allocate)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x71ced9c;
+  constexpr static std::size_t addrs = 0x71cfe7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BestFitAllocator::*)(::UnityEngine::UIElements::UIR::Alloc)>(
     &::UnityEngine::UIElements::UIR::BestFitAllocator::Free)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x71cf06c;
+  constexpr static std::size_t addrs = 0x71d014c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::BestFitAllocator_Block* (
     ::UnityEngine::UIElements::UIR::BestFitAllocator::*)(::UnityEngine::UIElements::UIR::BestFitAllocator_Block*)>(&::UnityEngine::UIElements::UIR::BestFitAllocator::CoalesceBlockWithPrevious)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x71cf2b0;
+  constexpr static std::size_t addrs = 0x71d0390;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::UnityEngine::UIElements::UIR::BestFitAllocator_Block* (::UnityEngine::UIElements::UIR::BestFitAllocator::*)(uint32_t)>(
     &::UnityEngine::UIElements::UIR::BestFitAllocator::BestFitFindAvailableBlock)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x71cef2c;
+  constexpr static std::size_t addrs = 0x71d000c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::UnityEngine::UIElements::UIR::BestFitAllocator::*)(::UnityEngine::UIElements::UIR::BestFitAllocator_Block*, uint32_t)>(
     &::UnityEngine::UIElements::UIR::BestFitAllocator::SplitBlock)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x71cef7c;
+  constexpr static std::size_t addrs = 0x71d005c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

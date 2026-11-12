@@ -85,22 +85,22 @@ public:
 
   constexpr void __cordl_internal_set__useCustomEntitlement(bool value);
 
-  /// @brief Method .ctor, addr 0x39aa01c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ae4b4, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameDlcEntitlements, addr 0x39aa004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameDlcEntitlements, addr 0x39ae49c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_gameDlcEntitlements();
 
-  /// @brief Method get_levelPacksEntitlements, addr 0x39a9ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPacksEntitlements, addr 0x39ae494, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelPacksEntitlements();
 
-  /// @brief Method get_levelsEntitlements, addr 0x39a9ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelsEntitlements, addr 0x39ae48c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelsEntitlements();
 
-  /// @brief Method get_packBetterBuyThanLevel, addr 0x39aa00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packBetterBuyThanLevel, addr 0x39ae4a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_packBetterBuyThanLevel();
 
-  /// @brief Method get_useCustomEntitlement, addr 0x39aa014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useCustomEntitlement, addr 0x39ae4ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCustomEntitlement();
 
 protected:

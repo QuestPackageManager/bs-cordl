@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::WellKnownAccount::*)(::System::Security::Principal::WellKnownSidType)>(
     &::System::Security::Principal::WellKnownAccount::set_WellKnownValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f69870;
+  constexpr static std::size_t addrs = 0x5f69af8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::WellKnownAccount*>(),
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Security::Principal::WellKnownAccount::*)()>(&::System::Security::Principal::WellKnownAccount::get_IsAbsolute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f69878;
+  constexpr static std::size_t addrs = 0x5f69b00;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::WellKnownAccount*>(), { "get_IsAbsolute", {}, {} })));
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::WellKnownAccount::*)(bool)>(&::System::Security::Principal::WellKnownAccount::set_IsAbsolute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f69880;
+  constexpr static std::size_t addrs = 0x5f69b08;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Principal::WellKnownAccount::*)()>(&::System::Security::Principal::WellKnownAccount::get_Sid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f69888;
+  constexpr static std::size_t addrs = 0x5f69b10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::WellKnownAccount*>(), { "get_Sid", {}, {} })));
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::WellKnownAccount::*)(::StringW)>(&::System::Security::Principal::WellKnownAccount::set_Sid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f69890;
+  constexpr static std::size_t addrs = 0x5f69b18;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::WellKnownAccount::*)(::StringW)>(&::System::Security::Principal::WellKnownAccount::set_Rid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f69898;
+  constexpr static std::size_t addrs = 0x5f69b20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Principal::WellKnownAccount::*)()>(&::System::Security::Principal::WellKnownAccount::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f698a0;
+  constexpr static std::size_t addrs = 0x5f69b28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::WellKnownAccount*>(), { "get_Name", {}, {} })));
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::WellKnownAccount::*)(::StringW)>(&::System::Security::Principal::WellKnownAccount::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f698a8;
+  constexpr static std::size_t addrs = 0x5f69b30;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Security::Principal::WellKnownAccount::*)()>(&::System::Security::Principal::WellKnownAccount::get_SddlForm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f698b0;
+  constexpr static std::size_t addrs = 0x5f69b38;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::WellKnownAccount*>(), { "get_SddlForm", {}, {} })));
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::WellKnownAccount::*)(::StringW)>(&::System::Security::Principal::WellKnownAccount::set_SddlForm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5f698b8;
+  constexpr static std::size_t addrs = 0x5f69b40;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Principal::WellKnownAccount* (*)(::StringW)>(&::System::Security::Principal::WellKnownAccount::LookupBySid)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f694c4;
+  constexpr static std::size_t addrs = 0x5f6974c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Principal::WellKnownAccount* (*)(::StringW)>(&::System::Security::Principal::WellKnownAccount::LookupByName)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f6842c;
+  constexpr static std::size_t addrs = 0x5f686b4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Security::Principal::WellKnownAccount* (*)(::StringW)>(&::System::Security::Principal::WellKnownAccount::LookupBySddlForm)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x5f69578;
+  constexpr static std::size_t addrs = 0x5f69800;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Security::Principal::WellKnownAccount::*)()>(&::System::Security::Principal::WellKnownAccount::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5f698c0;
+  constexpr static std::size_t addrs = 0x5f69b48;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Security::Principal::WellKnownAccount*>(), { ".ctor", {}, {} })));

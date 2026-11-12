@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PathVisitor_PropertyScope::*)(::Unity::Properties::PathVisitor*, ::Unity::Properties::IProperty*)>(
     &::Unity::Properties::PathVisitor_PropertyScope::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x704a97c;
+  constexpr static std::size_t addrs = 0x704ba5c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PathVisitor_PropertyScope::*)()>(&::Unity::Properties::PathVisitor_PropertyScope::Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x704a99c;
+  constexpr static std::size_t addrs = 0x704ba7c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PathVisitor_PropertyScope>(), { "Dispose", {}, {} })));
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::PropertyPath (::Unity::Properties::PathVisitor::*)()>(&::Unity::Properties::PathVisitor::get_Path)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x704a930;
+  constexpr static std::size_t addrs = 0x704ba10;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PathVisitor*>(), { "get_Path", {}, {} })));
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PathVisitor::*)(::Unity::Properties::PropertyPath)>(&::Unity::Properties::PathVisitor::set_Path)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x704a940;
+  constexpr static std::size_t addrs = 0x704ba20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PathVisitor::*)()>(&::Unity::Properties::PathVisitor::Reset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x7046b10;
+  constexpr static std::size_t addrs = 0x7047bf0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::IProperty* (::Unity::Properties::PathVisitor::*)()>(&::Unity::Properties::PathVisitor::get_Property)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x704a94c;
+  constexpr static std::size_t addrs = 0x704ba2c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PathVisitor*>(), { "get_Property", {}, {} })));
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PathVisitor::*)(::Unity::Properties::IProperty*)>(&::Unity::Properties::PathVisitor::set_Property)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x704a954;
+  constexpr static std::size_t addrs = 0x704ba34;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::Unity::Properties::PathVisitor::*)()>(&::Unity::Properties::PathVisitor::get_ReadonlyVisit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x704a95c;
+  constexpr static std::size_t addrs = 0x704ba3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PathVisitor*>(), { "get_ReadonlyVisit", {}, {} })));
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PathVisitor::*)(bool)>(&::Unity::Properties::PathVisitor::set_ReadonlyVisit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x704a964;
+  constexpr static std::size_t addrs = 0x704ba44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Unity::Properties::VisitReturnCode (::Unity::Properties::PathVisitor::*)()>(&::Unity::Properties::PathVisitor::get_ReturnCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x704a96c;
+  constexpr static std::size_t addrs = 0x704ba4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PathVisitor*>(), { "get_ReturnCode", {}, {} })));
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PathVisitor::*)(::Unity::Properties::VisitReturnCode)>(&::Unity::Properties::PathVisitor::set_ReturnCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x704a974;
+  constexpr static std::size_t addrs = 0x704ba54;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Unity::Properties::PathVisitor::*)()>(&::Unity::Properties::PathVisitor::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x7046b40;
+  constexpr static std::size_t addrs = 0x7047c20;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Unity::Properties::PathVisitor*>(), { ".ctor", {}, {} })));

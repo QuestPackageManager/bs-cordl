@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AppInit::MetaApiUserAgentLocaleUpdater::*)()>(&::BeatSaber::AppInit::MetaApiUserAgentLocaleUpdater::Initialize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a2e8a0;
+  constexpr static std::size_t addrs = 0x3a340c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AppInit::MetaApiUserAgentLocaleUpdater*>(), { "Initialize", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AppInit::MetaApiUserAgentLocaleUpdater::*)()>(&::BeatSaber::AppInit::MetaApiUserAgentLocaleUpdater::Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a2e8bc;
+  constexpr static std::size_t addrs = 0x3a340e0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AppInit::MetaApiUserAgentLocaleUpdater*>(), { "Dispose", {}, {} })));
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AppInit::MetaApiUserAgentLocaleUpdater::*)(::BGLib::Polyglot::LocalizationModel*)>(
     &::BeatSaber::AppInit::MetaApiUserAgentLocaleUpdater::OnLocalize)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3a2e8d8;
+  constexpr static std::size_t addrs = 0x3a340fc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::BeatSaber::AppInit::MetaApiUserAgentLocaleUpdater::*)()>(&::BeatSaber::AppInit::MetaApiUserAgentLocaleUpdater::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a2e94c;
+  constexpr static std::size_t addrs = 0x3a34170;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::BeatSaber::AppInit::MetaApiUserAgentLocaleUpdater*>(), { ".ctor", {}, {} })));

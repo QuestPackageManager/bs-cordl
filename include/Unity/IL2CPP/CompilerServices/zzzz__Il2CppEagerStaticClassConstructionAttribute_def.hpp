@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a68128, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a69208, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

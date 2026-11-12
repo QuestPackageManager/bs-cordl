@@ -27,7 +27,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Rendering::ResourcePathsBaseAttribute* New_ctor(::ArrayW<::StringW> paths, bool isField, ::UnityEngine::Rendering::SearchType location);
 
-  /// @brief Method .ctor, addr 0x6fa3a1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6fa4afc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW> paths, bool isField, ::UnityEngine::Rendering::SearchType location);
 
 protected:

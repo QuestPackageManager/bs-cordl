@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Data::PrimaryKeyTypeConverter::*)()>(&::System::Data::PrimaryKeyTypeConverter::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x64a3e1c;
+  constexpr static std::size_t addrs = 0x64a446c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Data::PrimaryKeyTypeConverter*>(), { ".ctor", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::PrimaryKeyTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::Data::PrimaryKeyTypeConverter::GetPropertiesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x64a3eb8;
+  constexpr static std::size_t addrs = 0x64a4508;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Data::PrimaryKeyTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::Data::PrimaryKeyTypeConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x64a3ec0;
+  constexpr static std::size_t addrs = 0x64a4510;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::Syst
                                                                                                                       ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::Data::PrimaryKeyTypeConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x64a3f40;
+  constexpr static std::size_t addrs = 0x64a4590;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

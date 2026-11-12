@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::TypedObject_DecimalStruct::*)()>(&::System::Xml::Schema::TypedObject_DecimalStruct::get_IsDecimal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67816ec;
+  constexpr static std::size_t addrs = 0x6781d3c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::TypedObject_DecimalStruct*>(), { "get_IsDecimal", {}, {} })));
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::TypedObject_DecimalStruct::*)(bool)>(&::System::Xml::Schema::TypedObject_DecimalStruct::set_IsDecimal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67816f4;
+  constexpr static std::size_t addrs = 0x6781d44;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Decimal> (::System::Xml::Schema::TypedObject_DecimalStruct::*)()>(
     &::System::Xml::Schema::TypedObject_DecimalStruct::get_Dvalue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67816fc;
+  constexpr static std::size_t addrs = 0x6781d4c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::TypedObject_DecimalStruct*>(), { "get_Dvalue", {}, {} })));
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::TypedObject_DecimalStruct::*)()>(&::System::Xml::Schema::TypedObject_DecimalStruct::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6781314;
+  constexpr static std::size_t addrs = 0x6781964;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::TypedObject_DecimalStruct*>(), { ".ctor", {}, {} })));
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::TypedObject_DecimalStruct::*)(int32_t)>(&::System::Xml::Schema::TypedObject_DecimalStruct::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x67812b4;
+  constexpr static std::size_t addrs = 0x6781904;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::get_Dim)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6780eb4;
+  constexpr static std::size_t addrs = 0x6781504;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::TypedObject*>(), { "get_Dim", {}, {} })));
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::get_IsList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6780ebc;
+  constexpr static std::size_t addrs = 0x678150c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::TypedObject*>(), { "get_IsList", {}, {} })));
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::get_IsDecimal)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6780ec4;
+  constexpr static std::size_t addrs = 0x6781514;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::TypedObject*>(), { "get_IsDecimal", {}, {} })));
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<::System::Decimal> (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::get_Dvalue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6780edc;
+  constexpr static std::size_t addrs = 0x678152c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::TypedObject*>(), { "get_Dvalue", {}, {} })));
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Object* (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6780ef4;
+  constexpr static std::size_t addrs = 0x6781544;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::TypedObject*>(), { "get_Value", {}, {} })));
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::System::Xml::Schema::XmlSchemaDatatype* (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6780efc;
+  constexpr static std::size_t addrs = 0x678154c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::TypedObject*>(), { "get_Type", {}, {} })));
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::TypedObject::*)(::System::Object*, ::StringW, ::System::Xml::Schema::XmlSchemaDatatype*)>(
     &::System::Xml::Schema::TypedObject::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x6780f04;
+  constexpr static std::size_t addrs = 0x6781554;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6781054;
+  constexpr static std::size_t addrs = 0x67816a4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::System::Xml::Schema::TypedObject::*)()>(&::System::Xml::Schema::TypedObject::SetDecimal)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x678105c;
+  constexpr static std::size_t addrs = 0x67816ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::System::Xml::Schema::TypedObject*>(), { "SetDecimal", {}, {} })));
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::TypedObject::*)(::System::Xml::Schema::TypedObject*)>(&::System::Xml::Schema::TypedObject::ListDValueEquals)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x6781368;
+  constexpr static std::size_t addrs = 0x67819b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -254,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (::System::Xml::Schema::TypedObject::*)(::System::Xml::Schema::TypedObject*)>(&::System::Xml::Schema::TypedObject::Equals)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x6781480;
+  constexpr static std::size_t addrs = 0x6781ad0;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =

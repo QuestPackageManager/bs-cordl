@@ -87,10 +87,10 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE GPUSort_SupportResources {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x6c1ebf0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6c1fcd0, size 0x38, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Load, addr 0x6c1eb64, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x6c1fc44, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUSort_SupportResources Load(::UnityEngine::Rendering::GPUSort_RenderGraphResources renderGraphResources);
 
   // Ctor Parameters []
@@ -190,12 +190,12 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE GPUSort_RenderGraphResources {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x6c1e9b8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6c1fa98, size 0x1ac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUSort_RenderGraphResources Create(int32_t count, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::IBaseRenderGraphBuilder* builder);
 
   /// [Obsolete("This Create signature is deprecated and will be removed in the future. Please use Create(IBaseRenderGraphBuilder) instead. #from(6000.3)")]
-  /// @brief Method Create, addr 0x6c1e8d0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6c1f9b0, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::GPUSort_RenderGraphResources Create(int32_t count, ::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph,
                                                                               ::UnityEngine::Rendering::RenderGraphModule::RenderGraphBuilder builder);
 
@@ -340,22 +340,22 @@ public:
 
   using SystemResources = ::UnityEngine::Rendering::GPUSort_SystemResources;
 
-  /// @brief Method CopyBuffer, addr 0x6c1e454, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method CopyBuffer, addr 0x6c1f534, size 0x1e8, virtual false, abstract: false, final false
   inline void CopyBuffer(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::GraphicsBuffer* src, ::UnityEngine::GraphicsBuffer* dst);
 
-  /// @brief Method Dispatch, addr 0x6c1e6f8, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x6c1f7d8, size 0x1d8, virtual false, abstract: false, final false
   inline void Dispatch(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::GPUSort_Args args);
 
-  /// @brief Method Dispatch, addr 0x6c1e64c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x6c1f72c, size 0xac, virtual false, abstract: false, final false
   inline void Dispatch(::UnityEngine::Rendering::IComputeCommandBuffer* cmd, ::UnityEngine::Rendering::GPUSort_Args args);
 
-  /// @brief Method DispatchStage, addr 0x6c1e194, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method DispatchStage, addr 0x6c1f274, size 0x2c0, virtual false, abstract: false, final false
   inline void DispatchStage(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::GPUSort_Args args, uint32_t h, ::UnityEngine::Rendering::GPUSort_Stage stage);
 
-  /// @brief Method DivRoundUp, addr 0x6c1e63c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method DivRoundUp, addr 0x6c1f71c, size 0x10, virtual false, abstract: false, final false
   static inline int32_t DivRoundUp(int32_t x, int32_t y);
 
-  /// @brief Method .ctor, addr 0x6c1dfdc, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1f0bc, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::GPUSort_SystemResources resources);
 
   // Ctor Parameters []

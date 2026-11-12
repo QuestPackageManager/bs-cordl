@@ -64,7 +64,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState_Variants* New_ctor();
 
-  /// @brief Method .ctor, addr 0x6a15558, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a16638, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -200,15 +200,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method WithAxis, addr 0x6a154e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithAxis, addr 0x6a165c8, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState WithAxis(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis axis, float_t value);
 
-  /// @brief Method WithButton, addr 0x6a154a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method WithButton, addr 0x6a16584, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState WithButton(::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode code, bool value);
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_kFormat();
 
-  /// @brief Method get_format, addr 0x6a15448, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x6a16528, size 0x5c, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"

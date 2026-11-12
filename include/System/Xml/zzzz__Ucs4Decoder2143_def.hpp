@@ -21,12 +21,12 @@ namespace System::Xml {
 class CORDL_TYPE Ucs4Decoder2143 : public ::System::Xml::Ucs4Decoder {
 public:
   // Declarations
-  /// @brief Method GetFullChars, addr 0x6749008, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method GetFullChars, addr 0x6749658, size 0x200, virtual true, abstract: false, final false
   inline int32_t GetFullChars(::ArrayW<uint8_t> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t> chars, int32_t charIndex);
 
   static inline ::System::Xml::Ucs4Decoder2143* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67485d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6748c28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

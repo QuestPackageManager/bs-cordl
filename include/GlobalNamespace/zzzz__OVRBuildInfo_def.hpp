@@ -25,15 +25,15 @@ public:
   /// @brief Field BuildInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_BuildInfo, put = __cordl_internal_set_BuildInfo)) ::UnityW<::UnityEngine::UI::Text> BuildInfo;
 
-  /// @brief Method LoadBuildInfo, addr 0x626f7cc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method LoadBuildInfo, addr 0x626fa54, size 0xb4, virtual false, abstract: false, final false
   inline void LoadBuildInfo();
 
   static inline ::GlobalNamespace::OVRBuildInfo* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x626f7c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x626fa50, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x626f880, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x626fb08, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_BuildInfo() const;
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_BuildInfo(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x626f884, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x626fb0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

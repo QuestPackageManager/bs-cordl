@@ -24,7 +24,7 @@ namespace UnityEngine::Bindings {
 class CORDL_TYPE StringMarshaller : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryMarshalEmptyOrNullString, addr 0x6f96fe4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method TryMarshalEmptyOrNullString, addr 0x6f980c4, size 0x2c, virtual false, abstract: false, final false
   static inline bool TryMarshalEmptyOrNullString(::StringW s, ::by_ref<::UnityEngine::Bindings::ManagedSpanWrapper> managedSpanWrapper);
 
 protected:

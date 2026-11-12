@@ -31,13 +31,13 @@ public:
   /// @brief Field InvalidParamChars, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_InvalidParamChars, put = setStaticF_InvalidParamChars)) ::ArrayW<char16_t> InvalidParamChars;
 
-  /// @brief Method IsBlankString, addr 0x6873110, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsBlankString, addr 0x6873760, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsBlankString(::StringW stringValue);
 
-  /// @brief Method MakeStringNull, addr 0x68707c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MakeStringNull, addr 0x6870e18, size 0x14, virtual false, abstract: false, final false
   static inline ::StringW MakeStringNull(::StringW stringValue);
 
-  /// @brief Method ValidateTcpPort, addr 0x687312c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ValidateTcpPort, addr 0x687377c, size 0xc, virtual false, abstract: false, final false
   static inline bool ValidateTcpPort(int32_t port);
 
   static inline ::ArrayW<::StringW> getStaticF_EmptyArray();

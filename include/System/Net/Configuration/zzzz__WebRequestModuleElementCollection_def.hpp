@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::System::Net::Configuration::WebRequestModuleElementCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x67d700c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67d765c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

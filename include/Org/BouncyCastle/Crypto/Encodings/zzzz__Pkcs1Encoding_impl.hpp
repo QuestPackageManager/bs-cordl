@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<bool (*)()>(&::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::get_StrictLengthEnabled)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3640990;
+  constexpr static std::size_t addrs = 0x3644e28;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (*)(bool)>(&::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::set_StrictLengthEnabled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3640a04;
+  constexpr static std::size_t addrs = 0x3644e9c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*)>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3640bb0;
+  constexpr static std::size_t addrs = 0x3645048;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*>(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, int32_t)>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3640c2c;
+  constexpr static std::size_t addrs = 0x36450c4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3640cb0;
+  constexpr static std::size_t addrs = 0x3645148;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)()>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::GetUnderlyingCipher)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3640d44;
+  constexpr static std::size_t addrs = 0x36451dc;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)()>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::get_AlgorithmName)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3640d4c;
+  constexpr static std::size_t addrs = 0x36451e4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<void (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::Init)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x3640e14;
+  constexpr static std::size_t addrs = 0x36452ac;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)()>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::GetInputBlockSize)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x36410fc;
+  constexpr static std::size_t addrs = 0x3645594;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)()>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::GetOutputBlockSize)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x36411b8;
+  constexpr static std::size_t addrs = 0x3645650;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::ProcessBlock)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3641274;
+  constexpr static std::size_t addrs = 0x364570c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::EncodeBlock)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x3641574;
+  constexpr static std::size_t addrs = 0x3645a0c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (*)(::ArrayW<uint8_t>, int32_t)>(&::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::CheckPkcs1Encoding)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x364187c;
+  constexpr static std::size_t addrs = 0x3645d14;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*>(),
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::DecodeBlockOrRandom)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x364191c;
+  constexpr static std::size_t addrs = 0x3645db4;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<::ArrayW<uint8_t> (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(::ArrayW<uint8_t>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::DecodeBlock)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x3641284;
+  constexpr static std::size_t addrs = 0x364571c;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method =
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::i2c::metadata_getter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(uint8_t, ::ArrayW<uint8_t>)>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::FindStart)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3641c20;
+  constexpr static std::size_t addrs = 0x36460b8;
 
   inline static ::MethodInfo const* method_info() {
     static auto* ___internal_method = THROW_UNLESS(::i2c::no_logger{}, (::i2c::find_method(::i2c::class_of<::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*>(),
